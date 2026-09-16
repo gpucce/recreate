@@ -8,7 +8,7 @@ from typing import Any
 import torch
 from PIL import ImageStat
 
-DEFAULT_IMAGE_MODEL = "Tongyi-MAI/Z-Image-Turbo"
+DEFAULT_IMAGE_MODEL = "black-forest-labs/FLUX.2-klein-4B"
 DEFAULT_STEPS = 40  
 DEFAULT_GUIDANCE_SCALE = 6.0
 DEFAULT_WIDTH = 1024

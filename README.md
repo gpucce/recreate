@@ -21,7 +21,7 @@ pip install -r requirements.txt
 The first real run downloads the selected model weights. Defaults:
 
 - Vision model: `Qwen/Qwen3-VL-8B-Instruct`
-- Image model: `Tongyi-MAI/Z-Image-Turbo`
+- Image model: `black-forest-labs/FLUX.2-klein-4B`
 
 For NVIDIA GPUs, install the PyTorch build that matches your CUDA version first.
 
