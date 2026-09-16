@@ -10,6 +10,15 @@ The model generating the image only have the text as the reference to generate t
 
 Both steps run with local Hugging Face models and do not require a remote API.
 
+## Tested models
+
+Vision models (`--vision-model`):
+- `Qwen/Qwen3-VL-8B-Instruct`
+
+Image models (`--image-model`):
+- `black-forest-labs/FLUX.2-klein-4B`
+- `Tongyi-MAI/Z-Image-Turbo`
+
 ## Setup
 
 Create a Python environment and install dependencies:
