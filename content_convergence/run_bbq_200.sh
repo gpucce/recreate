@@ -12,16 +12,16 @@
 # can't hold the model-set (prevents OOM on a busy GPU, e.g. one another job
 # is using). Override with FORCE_GPU=1 to place jobs on a GPU anyway.
 #
-# Usage (from /home/gpucce/Repos/content_convergence, or anywhere):
-#   ./run_bbq_200.sh                          # defaults below
-#   GPUS="0 2 3" ./run_bbq_200.sh             # choose GPUs (space-separated)
-#   NUM_IMAGES=50 STEPS=4 ./run_bbq_200.sh    # quick smoke test
-#   FRESH=0 SEED=1337 ./run_bbq_200.sh        # keep existing runs; different random sample
+# Usage (from the repo root, or anywhere):
+#   content_convergence/run_bbq_200.sh                          # defaults below
+#   GPUS="0 2 3" content_convergence/run_bbq_200.sh             # choose GPUs (space-separated)
+#   NUM_IMAGES=50 STEPS=4 content_convergence/run_bbq_200.sh    # quick smoke test
+#   FRESH=0 SEED=1337 content_convergence/run_bbq_200.sh        # keep existing runs; different random sample
 #
 # Subcommands:
-#   ./run_bbq_200.sh --status                 # which tracked jobs are alive
-#   ./run_bbq_200.sh --stop                   # SIGTERM (then SIGKILL) all jobs this script launched
-#   ./run_bbq_200.sh --dry-run                # show the exact per-GPU plan; launch nothing, write nothing
+#   content_convergence/run_bbq_200.sh --status                 # which tracked jobs are alive
+#   content_convergence/run_bbq_200.sh --stop                   # SIGTERM (then SIGKILL) all jobs this script launched
+#   content_convergence/run_bbq_200.sh --dry-run                # show the exact per-GPU plan; launch nothing, write nothing
 #
 # Monitor:
 #   tail -f bbq_runs/logs/gpu0.log            # per-GPU progress
@@ -50,12 +50,17 @@ MAX_CONSECUTIVE_FAILURES="${MAX_CONSECUTIVE_FAILURES:-3}"
 MIN_FREE_MB="${MIN_FREE_MB:-35000}"  # min free VRAM a GPU needs to host one process
 FORCE_GPU="${FORCE_GPU:-0}"          # 1 = skip the free-VRAM pre-flight
 OUT_DIR="${OUT_DIR:-bbq_runs}"
+
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # content_convergence/
+ROOT="$(dirname "$HERE")"                              # repo root: conda_venv/, bbq_runs/, ...
+PY="${PY:-$ROOT/conda_venv/bin/python}"
+
+# A relative OUT_DIR is taken from the repo root, not the caller's cwd,
+# so the script can be launched from anywhere (same rule as run_validate_200.sh).
+case "$OUT_DIR" in /*) : ;; *) OUT_DIR="$ROOT/$OUT_DIR" ;; esac
 LOG_DIR="$OUT_DIR/logs"
 MASTER_LOG="$LOG_DIR/bbq_200_master.log"
 PID_FILE="$LOG_DIR/bbq_200.pids"
-
-HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PY="${PY:-$HERE/conda_venv/bin/python}"
 
 # ---- helpers -------------------------------------------------------------
 # free MiB for a GPU index = total - used (empty if index absent / nvidia-smi missing)
@@ -195,5 +200,5 @@ echo "master plan : $MASTER_LOG"
 echo "per-GPU logs: ls $LOG_DIR/  (gpu0.log, gpu2.log, ...)"
 echo "pid file    : $PID_FILE"
 echo
-echo "monitor  : ./run_bbq_200.sh --status   tail -f $LOG_DIR/gpu0.log   nvidia-smi"
-echo "stop all : ./run_bbq_200.sh --stop"
+echo "monitor  : content_convergence/run_bbq_200.sh --status   tail -f $LOG_DIR/gpu0.log   nvidia-smi"
+echo "stop all : content_convergence/run_bbq_200.sh --stop"

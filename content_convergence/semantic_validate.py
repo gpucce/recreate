@@ -44,13 +44,13 @@ image_*/; results go to a sibling `semantic/` directory. It is safe to run again
 live run: pairs whose files do not exist yet are skipped.
 
 Usage:
-    ./conda_venv/bin/python semantic_validate.py bbq_runs/image_09134
-    ./conda_venv/bin/python semantic_validate.py bbq_runs/image_* --gpu 0
-    ./conda_venv/bin/python semantic_validate.py bbq_runs/image_* --mode images
-    ./conda_venv/bin/python semantic_validate.py bbq_runs/image_* --anchor 5
-    ./conda_venv/bin/python semantic_validate.py bbq_runs/image_* --no-anchor
-    ./conda_venv/bin/python semantic_validate.py bbq_runs/image_09134 --per-run-plots
-    ./conda_venv/bin/python semantic_validate.py bbq_runs/image_09134 --dry-run
+    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_09134
+    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --gpu 0
+    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --mode images
+    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --anchor 5
+    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --no-anchor
+    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_09134 --per-run-plots
+    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_09134 --dry-run
 
 Reading the numbers
     Both encoders squeeze same-domain items into a narrow high band -- two UNRELATED
@@ -86,7 +86,7 @@ from typing import Any, Dict, Iterator, List, Optional, Sequence, Tuple
 
 
 HERE = Path(__file__).resolve().parent
-RECREATE_DIR = HERE / "recreate"
+RECREATE_DIR = HERE.parent   # repo root: holds describe.py / loop.py
 
 DEFAULT_IMAGE_MODEL = "openai/clip-vit-large-patch14"
 DEFAULT_TEXT_MODEL = "intfloat/multilingual-e5-large"

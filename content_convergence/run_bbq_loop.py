@@ -1,7 +1,8 @@
 #!/usr/bin/env python
 """Drive recreate/loop.py over a RANDOM sample of the local BBQ-V dataset.
 
-BBQ-V is a HuggingFace `datasets` object on disk (`./BBQ-V`), a DatasetDict
+BBQ-V is a HuggingFace `datasets` object on disk (`../BBQ-V`, i.e. at the
+repo root next to loop.py), a DatasetDict
 with a single `test` split (14578 rows). Each row's photo is decoded from
 column `file_name` to a PIL image. We draw a random sample of rows and feed
 each one as the seed image of an independent content-convergence loop.
@@ -50,12 +51,12 @@ GPU pinning:
     large enough to hold both (default: 0).
 
 Usage:
-    ./conda_venv/bin/python run_bbq_loop.py                 # 5 random images, 3 loop steps, GPU 0
-    ./conda_venv/bin/python run_bbq_loop.py --num-images 5 --steps 3 --gpu 0
-    ./conda_venv/bin/python run_bbq_loop.py --seed 1337     # a different random sample
-    ./conda_venv/bin/python run_bbq_loop.py --sequential    # old behaviour: rows in order
-    ./conda_venv/bin/python run_bbq_loop.py --start-index 100 --num-images 50 --gpu 2   # sharding
-    ./conda_venv/bin/python run_bbq_loop.py --dry-run        # plan only, no GPU, no models
+    ./conda_venv/bin/python content_convergence/run_bbq_loop.py                 # 5 random images, 3 loop steps, GPU 0
+    ./conda_venv/bin/python content_convergence/run_bbq_loop.py --num-images 5 --steps 3 --gpu 0
+    ./conda_venv/bin/python content_convergence/run_bbq_loop.py --seed 1337     # a different random sample
+    ./conda_venv/bin/python content_convergence/run_bbq_loop.py --sequential    # old behaviour: rows in order
+    ./conda_venv/bin/python content_convergence/run_bbq_loop.py --start-index 100 --num-images 50 --gpu 2   # sharding
+    ./conda_venv/bin/python content_convergence/run_bbq_loop.py --dry-run        # plan only, no GPU, no models
 """
 from __future__ import annotations
 
@@ -73,12 +74,12 @@ import datasets
 
 
 HERE = Path(__file__).resolve().parent
-RECREATE_DIR = HERE / "recreate"
+RECREATE_DIR = HERE.parent          # repo root: holds loop.py, BBQ-V/, conda_venv/, bbq_runs/
 LOOP_PY = RECREATE_DIR / "loop.py"
-BBQ_V_DIR = HERE / "BBQ-V"
+BBQ_V_DIR = RECREATE_DIR / "BBQ-V"
 IMAGE_COLUMN = "file_name"
 ID_COLUMN = "id"
-DEFAULT_OUT = HERE / "bbq_runs"
+DEFAULT_OUT = RECREATE_DIR / "bbq_runs"
 DEFAULT_SEED = 0                                               # shard-safe: all shards share it
 DEFAULT_VISION_MODEL = "Qwen/Qwen3-VL-8B-Instruct"            # code default (NOT cached locally)
 CACHED_VISION_MODEL = "Qwen/Qwen3-VL-4B-Instruct"              # cached, fits with Z-Image on A40
@@ -144,7 +145,8 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--gpu", type=int, default=0,
                    help="Pinned via CUDA_VISIBLE_DEVICES (default 0).")
     p.add_argument("--out", type=Path, default=DEFAULT_OUT,
-                   help="Output root (default ./bbq_runs).")
+                   help="Output root (default <repo>/bbq_runs). A relative path is taken "
+                        "from the current directory.")
     p.add_argument("--vision-model", default=DEFAULT_VISION_MODEL,
                    help=f"VLM id (code default: {DEFAULT_VISION_MODEL}; cached: {CACHED_VISION_MODEL}).")
     p.add_argument("--image-model", default=DEFAULT_IMAGE_MODEL,

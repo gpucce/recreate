@@ -19,20 +19,20 @@
 #              sample; it just reads, aggregates and plots. Launched automatically by
 #              a detached waiter, or by hand with --collect.
 #
-# Usage (from /home/gpucce/Repos/content_convergence, or anywhere):
-#   ./run_semantic_200.sh                          # all bbq_runs/image_*, both modes, 4 GPUs
-#   GPUS="0 2" ./run_semantic_200.sh               # choose GPUs (space-separated)
-#   MODE=images ./run_semantic_200.sh              # images only
-#   ANCHOR=5 ./run_semantic_200.sh                 # drift from step 5 instead of the default 3
-#   ANCHOR= ./run_semantic_200.sh                  # consecutive pairs only (no 2nd panel)
-#   OUT_DIR=bbq_runs_smoke ./run_semantic_200.sh   # score the smoke run instead
-#   PER_RUN_PLOTS=1 ./run_semantic_200.sh          # also one PNG per run (200 runs = 200 files)
+# Usage (from the repo root, or anywhere):
+#   content_convergence/run_semantic_200.sh                          # all bbq_runs/image_*, both modes, 4 GPUs
+#   GPUS="0 2" content_convergence/run_semantic_200.sh               # choose GPUs (space-separated)
+#   MODE=images content_convergence/run_semantic_200.sh              # images only
+#   ANCHOR=5 content_convergence/run_semantic_200.sh                 # drift from step 5 instead of the default 3
+#   ANCHOR= content_convergence/run_semantic_200.sh                  # consecutive pairs only (no 2nd panel)
+#   OUT_DIR=bbq_runs_smoke content_convergence/run_semantic_200.sh   # score the smoke run instead
+#   PER_RUN_PLOTS=1 content_convergence/run_semantic_200.sh          # also one PNG per run (200 runs = 200 files)
 #
 # Subcommands:
-#   ./run_semantic_200.sh --status                 # which tracked jobs are alive, + progress
-#   ./run_semantic_200.sh --stop                   # SIGTERM (then SIGKILL) all jobs this script launched
-#   ./run_semantic_200.sh --collect                # (re)build the aggregate from the JSONL on disk
-#   ./run_semantic_200.sh --dry-run                # show the per-GPU plan and pair count; launch nothing
+#   content_convergence/run_semantic_200.sh --status                 # which tracked jobs are alive, + progress
+#   content_convergence/run_semantic_200.sh --stop                   # SIGTERM (then SIGKILL) all jobs this script launched
+#   content_convergence/run_semantic_200.sh --collect                # (re)build the aggregate from the JSONL on disk
+#   content_convergence/run_semantic_200.sh --dry-run                # show the per-GPU plan and pair count; launch nothing
 #
 # Monitor:
 #   tail -f bbq_runs/semantic/logs/gpu0.log        # per-GPU progress
@@ -70,11 +70,12 @@ FORCE_GPU="${FORCE_GPU:-0}"                    # 1 = skip the free-VRAM pre-flig
 # can never disagree about it -- a collect without it would drop the anchor records.
 if [[ -n "$ANCHOR" ]]; then ANCHOR_FLAG=(--anchor "$ANCHOR"); else ANCHOR_FLAG=(--no-anchor); fi
 
-HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PY="${PY:-$HERE/conda_venv/bin/python}"
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # content_convergence/
+ROOT="$(dirname "$HERE")"                              # repo root: conda_venv/, bbq_runs/, ...
+PY="${PY:-$ROOT/conda_venv/bin/python}"
 VALIDATOR="$HERE/semantic_validate.py"
 
-case "$OUT_DIR" in /*) RUNS_ROOT="$OUT_DIR" ;; *) RUNS_ROOT="$HERE/$OUT_DIR" ;; esac
+case "$OUT_DIR" in /*) RUNS_ROOT="$OUT_DIR" ;; *) RUNS_ROOT="$ROOT/$OUT_DIR" ;; esac
 SEM_DIR="$RUNS_ROOT/semantic"
 LOG_DIR="$SEM_DIR/logs"
 MASTER_LOG="$LOG_DIR/semantic_master.log"
@@ -153,7 +154,7 @@ if [[ "${1:-}" == "--stop" ]]; then
     sleep 2
   done
   echo "done. (partial JSONL is kept; re-launching resumes from it.)"
-  echo "note: the aggregate was not built -- run './run_semantic_200.sh --collect' when ready."
+  echo "note: the aggregate was not built -- run 'content_convergence/run_semantic_200.sh --collect' when ready."
   exit 0
 fi
 
@@ -291,6 +292,6 @@ echo "per-GPU logs: ls $LOG_DIR/  (gpu0.log, gpu1.log, ...)"
 echo "aggregate   : $SEM_DIR/semantic_summary.png  (written by the collector at the end)"
 echo "pid file    : $PID_FILE"
 echo
-echo "monitor  : ./run_semantic_200.sh --status   tail -f $COLLECT_LOG"
-echo "re-plot  : ./run_semantic_200.sh --collect"
-echo "stop all : ./run_semantic_200.sh --stop"
+echo "monitor  : content_convergence/run_semantic_200.sh --status   tail -f $COLLECT_LOG"
+echo "re-plot  : content_convergence/run_semantic_200.sh --collect"
+echo "stop all : content_convergence/run_semantic_200.sh --stop"

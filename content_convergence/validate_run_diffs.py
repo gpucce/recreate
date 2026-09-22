@@ -29,13 +29,13 @@ image_*/; results go to a sibling `validation/` directory. It is safe to run
 against a live run: pairs whose files do not exist yet are skipped.
 
 Usage:
-    ./conda_venv/bin/python validate_run_diffs.py bbq_runs/image_09134
-    ./conda_venv/bin/python validate_run_diffs.py bbq_runs/image_* --gpu 0
-    ./conda_venv/bin/python validate_run_diffs.py bbq_runs/image_09134 --step 3
-    ./conda_venv/bin/python validate_run_diffs.py bbq_runs/image_09134 --mode both
-    ./conda_venv/bin/python validate_run_diffs.py bbq_runs/image_09134 --anchor 5
-    ./conda_venv/bin/python validate_run_diffs.py bbq_runs/image_09134 --no-anchor
-    ./conda_venv/bin/python validate_run_diffs.py bbq_runs/image_09134 --dry-run
+    ./conda_venv/bin/python content_convergence/validate_run_diffs.py bbq_runs/image_09134
+    ./conda_venv/bin/python content_convergence/validate_run_diffs.py bbq_runs/image_* --gpu 0
+    ./conda_venv/bin/python content_convergence/validate_run_diffs.py bbq_runs/image_09134 --step 3
+    ./conda_venv/bin/python content_convergence/validate_run_diffs.py bbq_runs/image_09134 --mode both
+    ./conda_venv/bin/python content_convergence/validate_run_diffs.py bbq_runs/image_09134 --anchor 5
+    ./conda_venv/bin/python content_convergence/validate_run_diffs.py bbq_runs/image_09134 --no-anchor
+    ./conda_venv/bin/python content_convergence/validate_run_diffs.py bbq_runs/image_09134 --dry-run
 
 VRAM note:
     Qwen3-VL-4B needs roughly 9-10 GB. Pin an idle card with --gpu N; check
@@ -53,7 +53,7 @@ from typing import Any, Dict, Iterator, List, Optional, Tuple
 
 
 HERE = Path(__file__).resolve().parent
-RECREATE_DIR = HERE / "recreate"
+RECREATE_DIR = HERE.parent   # repo root: holds describe.py / loop.py
 
 DEFAULT_VISION_MODEL = "Qwen/Qwen3-VL-4B-Instruct"   # cached; same model the loop uses
 DEFAULT_MAX_SIZE = 512                               # matches describe.DEFAULT_MAX_SIZE

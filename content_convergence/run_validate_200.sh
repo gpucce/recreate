@@ -14,19 +14,19 @@
 # Re-running RESUMES: pairs already in the JSONL are skipped, so a shard that
 # died can be picked up by re-launching the same command. OVERWRITE=1 redoes them.
 #
-# Usage (from /home/gpucce/Repos/content_convergence, or anywhere):
-#   ./run_validate_200.sh                        # all bbq_runs/image_*, both modes, 4 GPUs
-#   GPUS="0 2" ./run_validate_200.sh             # choose GPUs (space-separated)
-#   MODE=images ./run_validate_200.sh            # skip the prompt-side comparison (half the work)
-#   ANCHOR=5 ./run_validate_200.sh               # anchor on step 5 instead of the default 3
-#   ANCHOR= ./run_validate_200.sh                # consecutive pairs only (HALVES the work)
-#   OUT_DIR=bbq_runs_smoke ./run_validate_200.sh # validate the smoke run instead
-#   STEP=3 ./run_validate_200.sh                 # only the (3,4) pair of each run
+# Usage (from the repo root, or anywhere):
+#   content_convergence/run_validate_200.sh                        # all bbq_runs/image_*, both modes, 4 GPUs
+#   GPUS="0 2" content_convergence/run_validate_200.sh             # choose GPUs (space-separated)
+#   MODE=images content_convergence/run_validate_200.sh            # skip the prompt-side comparison (half the work)
+#   ANCHOR=5 content_convergence/run_validate_200.sh               # anchor on step 5 instead of the default 3
+#   ANCHOR= content_convergence/run_validate_200.sh                # consecutive pairs only (HALVES the work)
+#   OUT_DIR=bbq_runs_smoke content_convergence/run_validate_200.sh # validate the smoke run instead
+#   STEP=3 content_convergence/run_validate_200.sh                 # only the (3,4) pair of each run
 #
 # Subcommands:
-#   ./run_validate_200.sh --status               # which tracked jobs are alive, + progress
-#   ./run_validate_200.sh --stop                 # SIGTERM (then SIGKILL) all jobs this script launched
-#   ./run_validate_200.sh --dry-run              # show the per-GPU plan and exact pair count; launch nothing
+#   content_convergence/run_validate_200.sh --status               # which tracked jobs are alive, + progress
+#   content_convergence/run_validate_200.sh --stop                 # SIGTERM (then SIGKILL) all jobs this script launched
+#   content_convergence/run_validate_200.sh --dry-run              # show the per-GPU plan and exact pair count; launch nothing
 #
 # Monitor:
 #   tail -f bbq_runs/validation/logs/gpu0.log    # per-GPU progress
@@ -59,12 +59,13 @@ FORCE_GPU="${FORCE_GPU:-0}"                    # 1 = skip the free-VRAM pre-flig
 # One place decides the anchor flag, so the shards and the dry-run cannot disagree.
 if [[ -n "$ANCHOR" ]]; then ANCHOR_FLAG=(--anchor "$ANCHOR"); else ANCHOR_FLAG=(--no-anchor); fi
 
-HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-PY="${PY:-$HERE/conda_venv/bin/python}"
+HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # content_convergence/
+ROOT="$(dirname "$HERE")"                              # repo root: conda_venv/, bbq_runs/, ...
+PY="${PY:-$ROOT/conda_venv/bin/python}"
 VALIDATOR="$HERE/validate_run_diffs.py"
 
-# OUT_DIR may be relative to the repo, like run_bbq_200.sh's own default.
-case "$OUT_DIR" in /*) RUNS_ROOT="$OUT_DIR" ;; *) RUNS_ROOT="$HERE/$OUT_DIR" ;; esac
+# OUT_DIR may be relative to the repo root, like run_bbq_200.sh's own default.
+case "$OUT_DIR" in /*) RUNS_ROOT="$OUT_DIR" ;; *) RUNS_ROOT="$ROOT/$OUT_DIR" ;; esac
 VALID_DIR="$RUNS_ROOT/validation"
 LOG_DIR="$VALID_DIR/logs"
 MASTER_LOG="$LOG_DIR/validate_master.log"
@@ -227,5 +228,5 @@ echo "master plan : $MASTER_LOG"
 echo "per-GPU logs: ls $LOG_DIR/  (gpu0.log, gpu1.log, ...)"
 echo "pid file    : $PID_FILE"
 echo
-echo "monitor  : ./run_validate_200.sh --status   tail -f $LOG_DIR/gpu${EFF_GPUS[0]}.log"
-echo "stop all : ./run_validate_200.sh --stop"
+echo "monitor  : content_convergence/run_validate_200.sh --status   tail -f $LOG_DIR/gpu${EFF_GPUS[0]}.log"
+echo "stop all : content_convergence/run_validate_200.sh --stop"
