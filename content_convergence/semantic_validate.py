@@ -44,13 +44,13 @@ image_*/; results go to a sibling `semantic/` directory. It is safe to run again
 live run: pairs whose files do not exist yet are skipped.
 
 Usage:
-    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_09134
-    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --gpu 0
-    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --mode images
-    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --anchor 5
-    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_* --no-anchor
-    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_09134 --per-run-plots
-    ./conda_venv/bin/python content_convergence/semantic_validate.py bbq_runs/image_09134 --dry-run
+    ./conda_venv/bin/python content_convergence/semantic_validate.py data/bbq_runs/image_09134
+    ./conda_venv/bin/python content_convergence/semantic_validate.py data/bbq_runs/image_* --gpu 0
+    ./conda_venv/bin/python content_convergence/semantic_validate.py data/bbq_runs/image_* --mode images
+    ./conda_venv/bin/python content_convergence/semantic_validate.py data/bbq_runs/image_* --anchor 5
+    ./conda_venv/bin/python content_convergence/semantic_validate.py data/bbq_runs/image_* --no-anchor
+    ./conda_venv/bin/python content_convergence/semantic_validate.py data/bbq_runs/image_09134 --per-run-plots
+    ./conda_venv/bin/python content_convergence/semantic_validate.py data/bbq_runs/image_09134 --dry-run
 
 Reading the numbers
     Both encoders squeeze same-domain items into a narrow high band -- two UNRELATED
@@ -517,7 +517,7 @@ def build_parser() -> argparse.ArgumentParser:
         formatter_class=argparse.RawDescriptionHelpFormatter,
     )
     parser.add_argument("runs", type=Path, nargs="+",
-                        help="Run directories (shell globs work: bbq_runs/image_*).")
+                        help="Run directories (shell globs work: data/bbq_runs/image_*).")
     parser.add_argument("--mode", choices=("images", "prompts", "both"), default="both",
                         help="Score subsequent images, subsequent prompts, or both (default both).")
     parser.add_argument("--step", type=int, default=None,

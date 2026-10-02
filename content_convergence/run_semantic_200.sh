@@ -20,12 +20,12 @@
 #              a detached waiter, or by hand with --collect.
 #
 # Usage (from the repo root, or anywhere):
-#   content_convergence/run_semantic_200.sh                          # all bbq_runs/image_*, both modes, 4 GPUs
+#   content_convergence/run_semantic_200.sh                          # all data/bbq_runs/image_*, both modes, 4 GPUs
 #   GPUS="0 2" content_convergence/run_semantic_200.sh               # choose GPUs (space-separated)
 #   MODE=images content_convergence/run_semantic_200.sh              # images only
 #   ANCHOR=5 content_convergence/run_semantic_200.sh                 # drift from step 5 instead of the default 3
 #   ANCHOR= content_convergence/run_semantic_200.sh                  # consecutive pairs only (no 2nd panel)
-#   OUT_DIR=bbq_runs_smoke content_convergence/run_semantic_200.sh   # score the smoke run instead
+#   OUT_DIR=data/bbq_runs_smoke content_convergence/run_semantic_200.sh   # score the smoke run instead
 #   PER_RUN_PLOTS=1 content_convergence/run_semantic_200.sh          # also one PNG per run (200 runs = 200 files)
 #
 # Subcommands:
@@ -35,11 +35,11 @@
 #   content_convergence/run_semantic_200.sh --dry-run                # show the per-GPU plan and pair count; launch nothing
 #
 # Monitor:
-#   tail -f bbq_runs/semantic/logs/gpu0.log        # per-GPU progress
-#   tail -f bbq_runs/semantic/logs/collect.log     # the aggregate pass
+#   tail -f data/bbq_runs/semantic/logs/gpu0.log        # per-GPU progress
+#   tail -f data/bbq_runs/semantic/logs/collect.log     # the aggregate pass
 #
 # Env vars (all optional, shown with defaults):
-#   OUT_DIR=bbq_runs MODE=both GPUS="0 1 2 3" STEP="" ANCHOR=3 \
+#   OUT_DIR=data/bbq_runs MODE=both GPUS="0 1 2 3" STEP="" ANCHOR=3 \
 #   IMAGE_MODEL=openai/clip-vit-large-patch14 TEXT_MODEL=intfloat/multilingual-e5-large \
 #   MAX_SIZE=512 TEXT_MAX_LENGTH=512 BATCH_SIZE=16 BASELINE_POOL=48 SEED=0 \
 #   PER_RUN_PLOTS=0 OVERWRITE=0 MIN_FREE_MB=8000 FORCE_GPU=0
@@ -47,7 +47,7 @@
 set -euo pipefail
 
 # ---- config (override via env) -------------------------------------------
-OUT_DIR="${OUT_DIR:-bbq_runs}"                 # root holding the image_* run dirs
+OUT_DIR="${OUT_DIR:-data/bbq_runs}"                # root holding the image_* run dirs
 MODE="${MODE:-both}"                           # images | prompts | both
 GPUS="${GPUS:-0 1 2 3}"
 STEP="${STEP:-}"                               # blank = every consecutive pair
@@ -71,7 +71,7 @@ FORCE_GPU="${FORCE_GPU:-0}"                    # 1 = skip the free-VRAM pre-flig
 if [[ -n "$ANCHOR" ]]; then ANCHOR_FLAG=(--anchor "$ANCHOR"); else ANCHOR_FLAG=(--no-anchor); fi
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # content_convergence/
-ROOT="$(dirname "$HERE")"                              # repo root: conda_venv/, bbq_runs/, ...
+ROOT="$(dirname "$HERE")"                              # repo root: conda_venv/, data/, ...
 PY="${PY:-$ROOT/conda_venv/bin/python}"
 VALIDATOR="$HERE/semantic_validate.py"
 

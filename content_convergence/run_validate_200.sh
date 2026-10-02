@@ -15,12 +15,12 @@
 # died can be picked up by re-launching the same command. OVERWRITE=1 redoes them.
 #
 # Usage (from the repo root, or anywhere):
-#   content_convergence/run_validate_200.sh                        # all bbq_runs/image_*, both modes, 4 GPUs
+#   content_convergence/run_validate_200.sh                        # all data/bbq_runs/image_*, both modes, 4 GPUs
 #   GPUS="0 2" content_convergence/run_validate_200.sh             # choose GPUs (space-separated)
 #   MODE=images content_convergence/run_validate_200.sh            # skip the prompt-side comparison (half the work)
 #   ANCHOR=5 content_convergence/run_validate_200.sh               # anchor on step 5 instead of the default 3
 #   ANCHOR= content_convergence/run_validate_200.sh                # consecutive pairs only (HALVES the work)
-#   OUT_DIR=bbq_runs_smoke content_convergence/run_validate_200.sh # validate the smoke run instead
+#   OUT_DIR=data/bbq_runs_smoke content_convergence/run_validate_200.sh # validate the smoke run instead
 #   STEP=3 content_convergence/run_validate_200.sh                 # only the (3,4) pair of each run
 #
 # Subcommands:
@@ -29,18 +29,18 @@
 #   content_convergence/run_validate_200.sh --dry-run              # show the per-GPU plan and exact pair count; launch nothing
 #
 # Monitor:
-#   tail -f bbq_runs/validation/logs/gpu0.log    # per-GPU progress
-#   wc -l bbq_runs/validation/*.jsonl | tail -1  # comparisons written so far
+#   tail -f data/bbq_runs/validation/logs/gpu0.log    # per-GPU progress
+#   wc -l data/bbq_runs/validation/*.jsonl | tail -1  # comparisons written so far
 #
 # Env vars (all optional, shown with defaults):
-#   OUT_DIR=bbq_runs MODE=both GPUS="0 1 2 3" STEP="" ANCHOR=3 \
+#   OUT_DIR=data/bbq_runs MODE=both GPUS="0 1 2 3" STEP="" ANCHOR=3 \
 #   VISION_MODEL=Qwen/Qwen3-VL-4B-Instruct MAX_SIZE=512 MAX_NEW_TOKENS=768 \
 #   KEEP_RAW=0 OVERWRITE=0 MIN_FREE_MB=12000 FORCE_GPU=0
 
 set -euo pipefail
 
 # ---- config (override via env) -------------------------------------------
-OUT_DIR="${OUT_DIR:-bbq_runs}"                 # root holding the image_* run dirs
+OUT_DIR="${OUT_DIR:-data/bbq_runs}"                # root holding the image_* run dirs
 MODE="${MODE:-both}"                           # images | prompts | both
 GPUS="${GPUS:-0 1 2 3}"
 STEP="${STEP:-}"                               # blank = every consecutive pair
@@ -60,7 +60,7 @@ FORCE_GPU="${FORCE_GPU:-0}"                    # 1 = skip the free-VRAM pre-flig
 if [[ -n "$ANCHOR" ]]; then ANCHOR_FLAG=(--anchor "$ANCHOR"); else ANCHOR_FLAG=(--no-anchor); fi
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # content_convergence/
-ROOT="$(dirname "$HERE")"                              # repo root: conda_venv/, bbq_runs/, ...
+ROOT="$(dirname "$HERE")"                              # repo root: conda_venv/, data/, ...
 PY="${PY:-$ROOT/conda_venv/bin/python}"
 VALIDATOR="$HERE/validate_run_diffs.py"
 
