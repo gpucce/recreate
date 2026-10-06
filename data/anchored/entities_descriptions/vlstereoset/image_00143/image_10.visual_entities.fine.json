@@ -1,0 +1,237 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.76953125,
+      "box": [
+        0.0,
+        0.0,
+        1020.0,
+        280.0
+      ],
+      "mask": "image_10.masks/building_0.png",
+      "crop": null,
+      "description": "A red brick building with white-framed windows and dark shutters, partially obscured by the heads of two people in the foreground.",
+      "attributes": {
+        "building": {
+          "material": "red brick",
+          "windows": {
+            "frame_color": "white",
+            "shutters": "dark blue or black"
+          },
+          "position": "background",
+          "focus": "blurred"
+        },
+        "people": {
+          "count": 2,
+          "position": "foreground",
+          "focus": "sharp",
+          "hair": {
+            "person_1": "dark, curly",
+            "person_2": "light brown, curly"
+          }
+        },
+        "environment": {
+          "tree": "visible on the right, out of focus",
+          "lighting": "bright daylight"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        4.0,
+        300.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/grass_0.png",
+      "crop": null,
+      "description": "A patch of green grass with small yellow dandelions scattered throughout, growing in a natural outdoor setting.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft, leafy",
+        "flowers": {
+          "type": "dandelion",
+          "color": "yellow",
+          "distribution": "scattered"
+        },
+        "environment": "outdoor, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.63671875,
+      "box": [
+        -2.0,
+        284.0,
+        616.0,
+        332.0
+      ],
+      "mask": "image_10.masks/grass_1.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's head, focusing on the side of their face and ear. The person has short, dark curly hair and appears to be looking downward. The background is blurred, with hints of greenery, suggesting an outdoor setting.",
+      "attributes": {
+        "hair": "short, dark, curly",
+        "skin_tone": "light brown",
+        "pose": "looking downward",
+        "background": "blurred greenery"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        604.0,
+        170.0,
+        1024.0,
+        944.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young woman with curly brown hair sits cross-legged on a grassy lawn dotted with yellow dandelions, wearing a plain white t-shirt and distressed blue jeans with large rips at the knees. She is looking down and to the left with a joyful expression, wearing white sneakers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "style": "distressed",
+            "details": "ripped knees"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "accessories": {
+          "necklace": "thin gold chain"
+        },
+        "setting": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -1.0,
+        194.0,
+        456.0,
+        944.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with short, curly black hair and a beard sits cross-legged on a grassy lawn dotted with yellow dandelions, wearing a white button-down shirt with sleeves rolled up and blue jeans. He is looking affectionately to his right, where a small child with curly hair and a yellow flower in their hair is partially visible.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "curly, short"
+        },
+        "facial_hair": "beard",
+        "expression": "smiling, looking to the side",
+        "pose": "sitting cross-legged on grass",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "white",
+            "type": "sneakers"
+          }
+        },
+        "setting": "outdoors, grassy area with dandelions",
+        "companion": "child with curly hair and yellow flower accessory (partially visible)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        384.0,
+        392.0,
+        664.0,
+        872.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with curly brown hair sits cross-legged on the grass, laughing joyfully with her head tilted back and mouth open. She wears a white t-shirt, blue jeans, and white sneakers, with a yellow daisy hair clip in her hair.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "accessory": "yellow daisy hair clip"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "bottom": "blue jeans",
+          "shoes": "white sneakers"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "laughing",
+        "location": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        684.0,
+        -2.0,
+        1032.0,
+        356.0
+      ],
+      "mask": "image_10.masks/tree_0.png",
+      "crop": null,
+      "description": "A large, mature tree trunk with rough, textured brown bark stands vertically in the background, appearing out of focus. The trunk is thick and sturdy, with a few branches extending outward, partially visible at the top of the frame. The tree is situated outdoors, with a blurred background suggesting a natural setting.",
+      "attributes": {
+        "bark": "rough, textured, brown",
+        "trunk": "thick, sturdy, vertical",
+        "branches": "partially visible, extending outward",
+        "focus": "out of focus",
+        "setting": "outdoors, natural"
+      },
+      "parse_ok": true
+    }
+  ]
+}

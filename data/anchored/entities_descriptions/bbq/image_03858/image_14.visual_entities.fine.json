@@ -1,0 +1,103 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        428.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/grass_0.png",
+      "crop": null,
+      "description": "A patch of green grass with varying shades, some blades appearing lighter due to sunlight, and others darker in shadow. The grass is short and evenly cut, with a few scattered dry or yellowish blades mixed in.",
+      "attributes": {
+        "color": "green with lighter and darker shades",
+        "texture": "short, evenly cut",
+        "condition": "healthy with some dry or yellowish blades",
+        "lighting": "sunlit with shadows"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        226.0,
+        132.0,
+        984.0,
+        988.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A female athlete with light skin and brown hair tied in a high bun is captured in a low, athletic stance on a grass field, holding a white, red, and blue rugby ball with both hands. She wears a green short-sleeved jersey with a white logo, black athletic shorts, black socks with green stripes, and silver and black cleats, with a focused expression on her face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "clothing": {
+          "top": {
+            "type": "jersey",
+            "color": "green",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "black"
+          },
+          "socks": {
+            "color": "black",
+            "details": "green stripes"
+          },
+          "shoes": {
+            "type": "cleats",
+            "color": "silver and black"
+          }
+        },
+        "pose": "crouching, holding ball",
+        "expression": "focused",
+        "object": {
+          "type": "rugby ball",
+          "colors": "white, red, blue"
+        },
+        "setting": "outdoor grass field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        220.0,
+        470.0,
+        356.0,
+        620.0
+      ],
+      "mask": "image_14.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball with red and blue stripes, featuring the word 'Corona' in bold black letters on its surface. The ball is being held by a person's hands, with fingers visible gripping the sides.",
+      "attributes": {
+        "color": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "text": "Corona",
+        "material": "rubber or synthetic leather",
+        "shape": "oval",
+        "grip": "held by hands",
+        "branding": "Corona logo visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

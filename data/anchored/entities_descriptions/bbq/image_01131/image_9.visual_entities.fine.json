@@ -1,0 +1,219 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        516.0,
+        700.0,
+        572.0,
+        764.0
+      ],
+      "mask": "image_9.masks/chair_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.8125,
+      "box": [
+        992.0,
+        720.0,
+        1024.0,
+        896.0
+      ],
+      "mask": "image_9.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a chair featuring a light beige or tan upholstered backrest with a smooth, matte texture. A dark grey, soft fabric, likely a blanket or throw, is draped over the left side of the chair, partially obscuring the frame. A thin, metallic leg or support bar is visible in the bottom right corner.",
+      "attributes": {
+        "backrest": {
+          "color": "beige",
+          "material": "upholstered fabric",
+          "texture": "smooth"
+        },
+        "drapery": {
+          "color": "grey",
+          "material": "soft fabric",
+          "position": "left side"
+        },
+        "frame": {
+          "color": "metallic",
+          "visibility": "partial"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.55078125,
+      "box": [
+        506.0,
+        504.0,
+        640.0,
+        616.0
+      ],
+      "mask": "image_9.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's hand with a thumb extended upward, positioned in the foreground against a blurred background featuring a light wooden surface and a dark vertical support. The person is wearing a light blue garment on the left side of the frame.",
+      "attributes": {
+        "hand": {
+          "visible_part": "thumb and part of palm",
+          "skin_tone": "light",
+          "pose": "thumb extended upward"
+        },
+        "clothing": {
+          "color": "light blue",
+          "material": "fabric"
+        },
+        "background": {
+          "surface": "light wood",
+          "structure": "dark vertical leg or support",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.890625,
+      "box": [
+        2.0,
+        816.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/desk_1.png",
+      "crop": null,
+      "description": "A wooden desk with a visible grain pattern, featuring a laptop and a DSLR camera placed on its surface. The desk appears to be made of light to medium brown wood with a smooth finish.",
+      "attributes": {
+        "material": "wood",
+        "color": "light to medium brown",
+        "surface": "smooth",
+        "objects_on_desk": [
+          "laptop",
+          "DSLR camera"
+        ],
+        "grain_pattern": "visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        632.0,
+        408.0,
+        912.0
+      ],
+      "mask": "image_9.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop with a matte finish is open on a wooden table, showing the back of the screen and the keyboard area where a person's hands are typing. The laptop has a black keyboard with white lettering and a visible trackpad.",
+      "attributes": {
+        "color": "silver",
+        "material": "metal",
+        "finish": "matte",
+        "keyboard": {
+          "color": "black",
+          "keys": "white lettering"
+        },
+        "status": "open",
+        "position": "on wooden table",
+        "visible_parts": [
+          "back of screen",
+          "keyboard",
+          "trackpad",
+          "side ports"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        424.0,
+        172.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair is seated at a wooden table, wearing a heather grey crew-neck sweater. She is gesturing with her right hand while looking to the left, with a black DSLR camera resting on the table in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "heather grey",
+            "sleeves": "long"
+          }
+        },
+        "pose": "seated, gesturing with right hand",
+        "expression": "engaged, speaking",
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "lens_ring": "red"
+          }
+        },
+        "position": "right side of frame, facing left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        70.0,
+        190.0,
+        520.0,
+        832.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up shot of an older woman with shoulder-length wavy white hair, wearing a light blue button-down shirt and small gold hoop earrings. She is seated at a table with a laptop in the foreground, looking to the side with a focused expression while her hands rest near the keyboard, and another person's hands are visible gesturing on the right.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue",
+            "material": "cotton"
+          },
+          "accessories": {
+            "earrings": "gold hoops"
+          }
+        },
+        "pose": "seated",
+        "expression": "attentive",
+        "context": "meeting or conversation"
+      },
+      "parse_ok": true
+    }
+  ]
+}

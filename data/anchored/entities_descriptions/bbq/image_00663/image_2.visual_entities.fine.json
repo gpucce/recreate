@@ -1,0 +1,274 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        112.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a visible open door, revealing a black interior seat and headrest. The car's exterior is glossy, and the door frame is black. The car is positioned such that the driver's side door is open, and the interior is partially visible.",
+      "attributes": {
+        "color": "red",
+        "door": "open",
+        "interior": {
+          "seat_color": "black",
+          "headrest_color": "black"
+        },
+        "exterior": {
+          "finish": "glossy",
+          "door_frame_color": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.76953125,
+      "box": [
+        420.0,
+        224.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/car interior_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and glasses sits in the driver's seat of a red car, wearing a light blue button-down shirt and beige trousers, while shaking hands with a person outside the open door.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "interior": {
+            "seats": "black fabric",
+            "headrests": "black"
+          },
+          "door": "open"
+        },
+        "person": {
+          "age": "elderly",
+          "gender": "male",
+          "hair": {
+            "color": "white",
+            "style": "short, combed back"
+          },
+          "facial_hair": "white mustache",
+          "accessories": {
+            "glasses": "thin metal frame"
+          },
+          "clothing": {
+            "shirt": "light blue, long-sleeved, button-down, sleeves rolled to forearm",
+            "pants": "beige or khaki",
+            "belt": "black"
+          },
+          "pose": "seated, leaning slightly forward, right hand extended for handshake",
+          "expression": "calm, attentive, slight smile"
+        },
+        "interaction": {
+          "action": "handshake",
+          "other_person": "partially visible, only arm and part of face shown, skin tone medium"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 1,
+      "score": 0.65625,
+      "box": [
+        6.0,
+        210.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/car interior_1.png",
+      "crop": null,
+      "description": "An elderly man with white hair and glasses sits in the driver's seat of a red car, wearing a light blue button-down shirt and beige trousers, while a younger woman with brown hair in a ponytail, wearing a white t-shirt and blue jeans, stands outside the open door holding his hands and smiling at him.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "interior": {
+            "seats": "black",
+            "headrests": "black"
+          }
+        },
+        "man": {
+          "age": "elderly",
+          "hair": "white",
+          "glasses": true,
+          "clothing": {
+            "shirt": "light blue button-down",
+            "pants": "beige"
+          },
+          "pose": "sitting in driver's seat",
+          "expression": "smiling"
+        },
+        "woman": {
+          "age": "young adult",
+          "hair": "brown, ponytail",
+          "clothing": {
+            "shirt": "white t-shirt",
+            "pants": "blue jeans"
+          },
+          "pose": "standing outside car, leaning in",
+          "expression": "smiling"
+        },
+        "interaction": "holding hands across car door"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.7421875,
+      "box": [
+        -1.0,
+        0.5,
+        235.0,
+        102.5
+      ],
+      "mask": "image_2.masks/foliage_0.png",
+      "crop": null,
+      "description": "The image shows a blurred view of green foliage with some yellowish-green leaves, set against a background that appears to be a wooden structure or fence. The focus is soft, making the details of the leaves and the background indistinct.",
+      "attributes": {
+        "color": "green and yellowish-green",
+        "focus": "blurred",
+        "background": "wooden structure or fence",
+        "texture": "soft and indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        436.0,
+        262.0,
+        948.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and glasses sits in the driver's seat of a red car, extending his hand to shake hands with someone outside the vehicle. He is wearing a light blue button-down shirt with rolled-up sleeves and beige trousers, looking forward with a calm expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, combed back"
+        },
+        "facial_hair": "mustache",
+        "accessories": {
+          "glasses": "wire-rimmed"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "beige",
+            "type": "trousers"
+          },
+          "belt": "black"
+        },
+        "pose": "sitting in car, extending arm for handshake",
+        "expression": "neutral, looking forward",
+        "location": "inside a red car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        104.0,
+        54.0,
+        592.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with brown hair tied in a ponytail stands in profile, smiling warmly while holding the hands of a person seated inside a red car. She wears a plain white t-shirt and blue jeans, leaning slightly toward the open car door.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "hair": {
+          "color": "brown",
+          "style": "ponytail",
+          "accessory": "black hair tie"
+        },
+        "clothing": {
+          "top": "white short-sleeved t-shirt",
+          "bottom": "blue denim jeans"
+        },
+        "pose": "standing, leaning forward, holding hands with someone in the car",
+        "expression": "smiling, looking down at the person in the car",
+        "position": "outside the driver's side door of a red car",
+        "context": "interacting with a seated individual whose hands and part of their arm (wearing a light blue shirt) are visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        2.0,
+        4.5,
+        1024.0,
+        232.0
+      ],
+      "mask": "image_2.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A stone wall made of irregularly shaped, light-colored stones with a rough texture, partially visible in the background behind a red car and a person's head.",
+      "attributes": {
+        "material": "stone",
+        "color": "light beige and gray",
+        "texture": "rough",
+        "shape": "irregular",
+        "position": "background",
+        "visibility": "partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        2.0,
+        114.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A red car with its driver's side door open, revealing a black interior with a visible headrest and seat. The car's exterior is glossy, and the door frame is black. The vehicle appears to be a modern sedan or hatchback.",
+      "attributes": {
+        "color": "red",
+        "interior": "black",
+        "door": "open",
+        "type": "sedan or hatchback",
+        "material": "glossy paint",
+        "visible_parts": [
+          "door",
+          "interior seat",
+          "headrest",
+          "door frame"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

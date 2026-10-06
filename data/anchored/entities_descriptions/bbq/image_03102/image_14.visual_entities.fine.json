@@ -1,0 +1,110 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        108.0,
+        218.0,
+        564.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short, wavy light brown hair sits on a beige couch, wearing a grey cable-knit sweater and blue jeans, looking down with a serious expression at a black smartphone held in his hands while an adult's hand rests on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "grey",
+            "pattern": "cable-knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "action": "looking at smartphone",
+        "object_interaction": "holding smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        118.0,
+        68.0,
+        992.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length dark brown hair sits on a beige couch, wearing a navy blue blazer over a red t-shirt and blue jeans. She has a concerned expression with furrowed brows, looking down at a smartphone held by a boy next to her while placing her hand on his shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "navy blue"
+          },
+          "top": {
+            "type": "t-shirt",
+            "color": "red"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "expression": "concerned",
+        "pose": "sitting",
+        "action": "looking at phone, comforting child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        404.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or taupe fabric sofa with a textured, woven appearance, featuring a thick, rectangular back cushion and a seat cushion. The sofa is positioned against a wall, with a person and a child sitting on it.",
+      "attributes": {
+        "color": "light beige/taupe",
+        "material": "textured fabric",
+        "type": "sofa",
+        "cushions": {
+          "back": "thick, rectangular",
+          "seat": "visible"
+        },
+        "position": "against a wall"
+      },
+      "parse_ok": true
+    }
+  ]
+}

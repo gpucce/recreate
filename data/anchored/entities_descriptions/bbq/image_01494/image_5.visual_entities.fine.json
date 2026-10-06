@@ -1,0 +1,93 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        308.0,
+        68.0,
+        716.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair and blue eyes sits facing forward, holding a black DSLR camera with a lens attached in her right hand. She wears a blue and white vertical striped button-down shirt and has a gentle smile, while a young boy with curly blonde hair in a red polo shirt sits on her shoulders with his hands resting on her neck.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "eyes": "blue",
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          }
+        },
+        "accessories": {
+          "held_object": {
+            "type": "camera",
+            "color": "black",
+            "type_specific": "DSLR"
+          }
+        },
+        "pose": "sitting, holding camera"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        232.0,
+        354.0,
+        780.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling blonde woman with blue eyes sits on a beige couch holding a black DSLR camera, while a child in a red polo shirt sits on her shoulders with arms wrapped around her neck. The woman wears a blue and white striped button-down shirt and a thin necklace.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "eyes": "blue",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": "blue and white striped button-down",
+          "necklace": "thin gold chain"
+        },
+        "accessories": {
+          "camera": "black DSLR with strap"
+        },
+        "pose": "sitting, holding camera, child on shoulders",
+        "child_on_shoulders": {
+          "clothing": {
+            "shirt": "red polo",
+            "shorts": "khaki",
+            "socks": "white",
+            "shoes": "dark blue sneakers"
+          },
+          "pose": "sitting on woman's shoulders, arms around her neck"
+        },
+        "background": "beige couch, light-colored wall, wooden furniture edge visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        482.0,
+        226.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young boy with short, dark curly hair and brown skin, wearing a blue and white plaid button-down shirt with a blue lanyard around his neck. He is positioned in the foreground, looking directly at the camera with a bright, open-mouthed smile, while an older woman with blonde hair is partially visible to his left.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "mixed or black",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "expression": "smiling, happy",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "plaid",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "accessories": {
+            "lanyard": {
+              "color": "blue"
+            }
+          }
+        },
+        "pose": "facing forward, head slightly tilted"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        -4.0,
+        384.0,
+        166.0,
+        576.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a person seen from behind, featuring short dark hair and a dark blue shirt, positioned in the background.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "color": "dark blue",
+            "type": "shirt"
+          }
+        },
+        "pose": "back facing",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        -2.0,
+        132.0,
+        624.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling older woman with short, wavy blonde hair is wearing a dark grey zip-up fleece jacket over a light grey collared shirt, positioned closely next to a young boy in a blue plaid shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": {
+            "type": "fleece jacket",
+            "color": "dark grey",
+            "detail": "zipper"
+          },
+          "inner": {
+            "type": "collared shirt",
+            "color": "light grey"
+          }
+        },
+        "position": "left of frame, leaning towards child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.93359375,
+      "box": [
+        864.0,
+        398.0,
+        1024.0,
+        632.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus crop showing the left ear and side of the head of a person with light skin and short dark hair, wearing a plaid shirt with a pattern of dark and light intersecting lines. The background is heavily blurred, showing indistinct shapes and colors including white and orange.",
+      "attributes": {
+        "visible_body_parts": [
+          "ear",
+          "side of head"
+        ],
+        "skin_tone": "light",
+        "hair": {
+          "color": "dark",
+          "length": "short"
+        },
+        "clothing": {
+          "type": "shirt",
+          "pattern": "plaid",
+          "colors": [
+            "dark",
+            "light"
+          ]
+        },
+        "focus": "blurry",
+        "background": "out of focus"
+      },
+      "parse_ok": true
+    }
+  ]
+}

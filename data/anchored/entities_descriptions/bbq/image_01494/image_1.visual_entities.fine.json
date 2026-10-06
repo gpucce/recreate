@@ -1,0 +1,96 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        152.0,
+        716.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a smiling blonde woman with blue eyes wearing a blue and white striped button-down shirt, with a young boy in a red polo shirt standing behind her and resting his arms around her shoulders.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "eyes": {
+          "color": "blue"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "type": "shirt",
+          "pattern": "striped",
+          "colors": [
+            "blue",
+            "white"
+          ],
+          "style": "button-down"
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "context": {
+          "relationship": "mother and son",
+          "action": "being hugged from behind"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        78.0,
+        60.0,
+        872.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length wavy blonde hair and blue eyes smiles gently at the camera, wearing a blue and white vertical striped button-down shirt. A young boy with short brown hair and a red polo shirt stands behind her, wrapping his arms around her shoulders in a hug while smiling.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "eyes": "blue",
+        "expression": "smiling",
+        "clothing": {
+          "type": "shirt",
+          "pattern": "striped",
+          "colors": [
+            "blue",
+            "white"
+          ]
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "context": {
+          "interaction": "being hugged from behind by a child",
+          "child": {
+            "gender": "male",
+            "age_group": "child",
+            "hair": "brown",
+            "clothing": "red polo shirt"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        772.0,
+        430.0,
+        996.0,
+        604.0
+      ],
+      "mask": "image_15.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person's shoulder and upper back wearing a light grey, long-sleeved shirt with a visible seam running down the sleeve. The background is heavily blurred, showing indistinct beige and brown tones suggestive of an indoor room.",
+      "attributes": {
+        "clothing": {
+          "shirt": {
+            "color": "light grey",
+            "sleeve_length": "long",
+            "material": "smooth fabric",
+            "details": "visible shoulder seam"
+          }
+        },
+        "body_part": "shoulder and upper back",
+        "focus": "blurry",
+        "background": "indistinct indoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        692.0,
+        -0.75,
+        916.0,
+        73.0
+      ],
+      "mask": "image_15.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a light brown cardboard box with a vertical seam or edge visible on the right side. The surface appears smooth and uniform in color, with no visible text, logos, or distinct features due to the lack of focus.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "focus": "blurry",
+        "shape": "rectangular",
+        "visible_features": [
+          "vertical seam",
+          "smooth surface"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 2,
+      "score": 0.88671875,
+      "box": [
+        972.0,
+        512.0,
+        1024.0,
+        608.0
+      ],
+      "mask": "image_15.masks/cardboard box_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a cardboard box surface featuring a vertical dark brown edge on the left and a horizontal white band across the top section, with the main body appearing as a uniform light tan color.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light tan",
+        "features": {
+          "edge": "dark brown vertical strip on left",
+          "band": "white horizontal strip at top"
+        },
+        "focus": "blurred",
+        "texture": "smooth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 3,
+      "score": 0.9453125,
+      "box": [
+        672.0,
+        840.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/cardboard box_3.png",
+      "crop": null,
+      "description": "A rectangular gift box wrapped in plain beige paper is tied with a wide, glossy blue satin ribbon that forms a bow on top. A faint, diamond-shaped outline is visible on the front face of the box, and the object sits on a wooden surface with a shallow depth of field blurring the background.",
+      "attributes": {
+        "object_type": "gift box",
+        "shape": "rectangular",
+        "wrapping_paper": {
+          "color": "beige",
+          "material": "paper",
+          "texture": "matte"
+        },
+        "ribbon": {
+          "color": "blue",
+          "material": "satin",
+          "texture": "glossy",
+          "arrangement": "crossed with bow on top"
+        },
+        "markings": {
+          "front_face": "faint diamond outline"
+        },
+        "surface": "wooden table",
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 4,
+      "score": 0.97265625,
+      "box": [
+        688.0,
+        174.0,
+        960.0,
+        334.0
+      ],
+      "mask": "image_15.masks/cardboard box_4.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurred cardboard box with a red circular logo in the center, featuring concentric rings and a solid dot in the middle. The box appears to be part of a larger scene, possibly a store or warehouse setting.\", \"attributes\": {\"material\": \"cardboard\", \"color\": \"brown\", \"logo\": {\"color\": \"red\", \"shape\": \"concentric circles with a central dot\"}, \"focus\": \"blurred\", \"position\": \"centered in the frame\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        206.0,
+        92.0,
+        896.0,
+        900.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark brown hair is seated at a desk, looking down with a focused expression while writing in a spiral-bound notebook with a black pen. She is wearing a light grey, long-sleeved button-down shirt with a smooth, satin-like texture, and a gift box with a blue ribbon is visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight, parted to the side"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light grey",
+            "sleeves": "long",
+            "material": "satin-like"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "action": "writing in a notebook",
+        "expression": "focused, neutral",
+        "accessories": {
+          "pen": "black"
+        },
+        "context": {
+          "objects": [
+            "spiral notebook",
+            "gift box with blue ribbon"
+          ],
+          "setting": "indoor, likely office or study"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        804.0,
+        -2.0,
+        980.0,
+        640.0
+      ],
+      "mask": "image_11.masks/flag_0.png",
+      "crop": null,
+      "description": "A vertical flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag is displayed indoors, hanging from a pole, with a patterned red curtain in the background and part of a person's dark suit visible on the left.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "material": "fabric",
+          "display": "hanging from pole"
+        },
+        "background": {
+          "curtain": "red patterned",
+          "wall": "light-colored"
+        },
+        "person": {
+          "clothing": "dark suit",
+          "position": "left side, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        65.0,
+        0.0,
+        268.0,
+        648.0
+      ],
+      "mask": "image_11.masks/flag_1.png",
+      "crop": null,
+      "description": "A vertical flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag is hanging from a pole and appears to be made of fabric with visible folds and creases.",
+      "attributes": {
+        "colors": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "pattern": "horizontal stripes",
+        "material": "fabric",
+        "position": "hanging vertically",
+        "folds": "visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        448.0,
+        88.0,
+        824.0,
+        1000.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "An older man with short, light brown hair is standing and shaking hands with another person, wearing a dark suit, white shirt, and a dark red tie. He has a slight smile and is looking directly at the camera, positioned in front of a golden bust and a Russian flag.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "hair": "short, light brown",
+        "clothing": {
+          "suit": "dark",
+          "shirt": "white",
+          "tie": "dark red",
+          "shoes": "black leather"
+        },
+        "pose": "standing, shaking hands",
+        "expression": "slight smile",
+        "background": {
+          "bust": "golden",
+          "flag": "Russian"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        260.0,
+        134.0,
+        504.0,
+        1008.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged man with short, light brown hair and a fair complexion is standing and shaking hands with another person. He is wearing a formal black suit, a white dress shirt, and a dark blue tie, with a slight smile on his face.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": "light brown, short",
+        "clothing": {
+          "suit": "black",
+          "shirt": "white",
+          "tie": "dark blue",
+          "shoes": "black leather"
+        },
+        "pose": "standing, shaking hands",
+        "expression": "slight smile",
+        "skin_tone": "fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.69921875,
+      "box": [
+        422.0,
+        4.0,
+        608.0,
+        318.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A golden bust of a man with wavy hair and a mustache, wearing a military uniform with epaulets and medals, is positioned centrally in the background. In the foreground, the heads and shoulders of two men in dark suits are visible on the left and right sides, partially obscuring the base of the bust.",
+      "attributes": {
+        "bust": {
+          "material": "gold",
+          "subject": "male",
+          "hair": "wavy, short",
+          "facial_hair": "mustache",
+          "clothing": "military uniform",
+          "details": [
+            "epaulets",
+            "medals",
+            "sash"
+          ]
+        },
+        "foreground_persons": {
+          "count": 2,
+          "position": "left and right",
+          "clothing": "dark suits",
+          "visibility": "partial (heads and shoulders)"
+        },
+        "background": "red patterned wallpaper"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.64453125,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        752.0
+      ],
+      "mask": "image_11.masks/wall_0.png",
+      "crop": null,
+      "description": "A formal interior wall featuring deep red damask wallpaper with a subtle floral pattern, framed by ornate gold molding. In the center, a golden bust of a historical figure is mounted on a white marble pedestal with gold accents, flanked by two Russian flags on gold stands.",
+      "attributes": {
+        "wall": {
+          "color": "deep red",
+          "pattern": "damask floral",
+          "material": "wallpaper",
+          "molding": "gold, ornate"
+        },
+        "bust": {
+          "material": "gold",
+          "subject": "male historical figure",
+          "pedestal": "white marble with gold accents"
+        },
+        "flags": {
+          "count": 2,
+          "type": "Russian",
+          "colors": "white, blue, red",
+          "stand": "gold"
+        },
+        "setting": "formal, official, government"
+      },
+      "parse_ok": true
+    }
+  ]
+}

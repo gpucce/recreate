@@ -1,0 +1,189 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "clothing",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        660.0,
+        380.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/clothing_0.png",
+      "crop": null,
+      "description": "An older man is wearing a blue denim jacket over a light blue button-up shirt. The jacket features a classic design with a collar, front pockets, and visible stitching, while the shirt has a subtle pattern and is partially visible beneath the jacket.",
+      "attributes": {
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue",
+            "details": "collar, front pockets, visible stitching"
+          },
+          "shirt": {
+            "type": "button-up",
+            "color": "light blue",
+            "pattern": "subtle"
+          }
+        },
+        "age": "older",
+        "gender": "male"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        -2.0,
+        372.0,
+        380.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/clothing_1.png",
+      "crop": null,
+      "description": "An elderly man with fair skin and visible age spots on his face and arms is wearing a white short-sleeved polo shirt with a collar and button placket. He is smiling and appears to be standing outdoors near a body of water, with the ocean and sky visible in the background.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "type": "polo",
+          "sleeves": "short",
+          "collar": "present",
+          "placket": "buttoned"
+        },
+        "skin": {
+          "color": "fair",
+          "features": "age spots, wrinkles"
+        },
+        "hair": "white",
+        "pose": "standing",
+        "expression": "smiling",
+        "background": "ocean, sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 2,
+      "score": 0.88671875,
+      "box": [
+        688.0,
+        386.0,
+        952.0,
+        1016.0
+      ],
+      "mask": "image_2.masks/clothing_2.png",
+      "crop": null,
+      "description": "An older man is wearing a blue denim jacket over a light blue button-up shirt. The jacket features a classic design with a collar, front pockets, and visible stitching, while the shirt has a neat collar and buttons.",
+      "attributes": {
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue",
+            "details": "collar, front pockets, visible stitching"
+          },
+          "shirt": {
+            "type": "button-up",
+            "color": "light blue",
+            "details": "collar, buttons"
+          }
+        },
+        "gender": "male",
+        "age": "older",
+        "pose": "standing",
+        "expression": "smiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        572.0,
+        144.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a weathered complexion smiles warmly while standing on a beach, wearing a brown tweed flat cap and a blue denim jacket over a light blue button-down shirt. He is positioned in profile facing left with his hands clasped in front of him, set against a background of the ocean and sandy shore.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "facial_expression": "smiling",
+        "skin": "weathered with age spots",
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "color": "brown",
+            "pattern": "tweed",
+            "material": "wool"
+          },
+          "jacket": {
+            "type": "denim jacket",
+            "color": "blue",
+            "material": "denim"
+          },
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue"
+          }
+        },
+        "pose": "standing, profile view, hands clasped",
+        "background": "beach, ocean, sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -6.0,
+        90.0,
+        584.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly man with short, wavy white hair and a tanned, wrinkled complexion is shown in profile, smiling broadly while gesturing with his hands. He wears a white short-sleeved polo shirt and stands on a sandy beach with the ocean and blue sky in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "skin": {
+          "tone": "tanned",
+          "texture": "wrinkled, age spots"
+        },
+        "expression": "smiling, happy",
+        "pose": "standing, gesturing with hands",
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "white",
+            "sleeves": "short"
+          }
+        },
+        "location": "beach",
+        "background": {
+          "ocean": "blue-green",
+          "sky": "clear blue",
+          "sand": "light beige"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

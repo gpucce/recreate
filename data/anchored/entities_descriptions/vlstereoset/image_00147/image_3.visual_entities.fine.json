@@ -1,0 +1,48 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "dirt_path",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        284.0,
+        450.0,
+        1024.0,
+        588.0
+      ],
+      "mask": "image_3.masks/dirt_path_0.png",
+      "crop": null,
+      "description": "A winding dirt path cuts through a rugged desert landscape, surrounded by reddish-brown rock formations and sparse vegetation. The path appears well-trodden, with visible tire tracks and a smooth, compacted surface.",
+      "attributes": {
+        "color": "reddish-brown",
+        "texture": "smooth, compacted",
+        "surroundings": {
+          "rock_formations": "reddish-brown",
+          "vegetation": "sparse",
+          "terrain": "rugged desert"
+        },
+        "condition": "well-trodden",
+        "features": "tire tracks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        360.0
+      ],
+      "mask": "image_3.masks/sky_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A clear blue sky with wispy, white cirrus clouds scattered across it, some forming delicate, feathery patterns. Below the sky, a rugged, reddish-brown mountain range stretches across the horizon, with varying elevations and textures.\", \"attributes\": {\"sky_color\": \"blue\", \"cloud_type\": \"cirrus\", \"cloud_color\": \"white\", \"cloud_pattern\": \"wispy, feathery\", \"mountain_color\": \"reddish-brown\", \"mountain_texture\": \"rugged\", \"mountain_elevation\": \"varying\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        227.0,
+        164.0,
+        588.0,
+        924.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A flat vector illustration of a man in profile walking to the right, wearing a black long-sleeved shirt and blue pants. He has short black hair, light skin, and is holding a black cane in his right hand while wearing black shoes.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "skin_tone": "light",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "shoes",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "color": "black",
+            "held_in": "right hand"
+          }
+        },
+        "pose": "walking",
+        "orientation": "profile facing right",
+        "style": "flat vector illustration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        536.0,
+        544.0,
+        880.0,
+        928.0
+      ],
+      "mask": "image_13.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black, wireframe shopping cart with a grid-like basket and two visible wheels is being pushed by a person whose hand is gripping the handle. The cart is positioned on a light green background, with the person's blue pants and black shoe partially visible on the left side.",
+      "attributes": {
+        "color": "black",
+        "material": "metal wire",
+        "structure": "grid basket, two visible wheels, handle",
+        "position": "being pushed from the left",
+        "context": "light green background, partial view of person's leg and hand"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        1.6875,
+        728.0,
+        864.0,
+        1304.0
+      ],
+      "mask": "image_0.masks/alley_0.png",
+      "crop": null,
+      "description": "A wet, cobblestone alleyway with a textured surface of small, dark stones set in lighter mortar, flanked by stone walls on both sides. Two people are walking away from the camera, one wearing black pants and the other in blue jeans, with their lower bodies visible.",
+      "attributes": {
+        "surface": "wet cobblestone",
+        "texture": "small dark stones in lighter mortar",
+        "walls": "stone",
+        "people": {
+          "count": 2,
+          "clothing": {
+            "person1": {
+              "pants": "black"
+            },
+            "person2": {
+              "pants": "blue jeans"
+            }
+          },
+          "pose": "walking away"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        636.0,
+        -2.71875,
+        864.0,
+        904.0
+      ],
+      "mask": "image_0.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up view of a narrow, cobblestone alleyway flanked by old stone buildings. The wall on the right is constructed of dark, rough-hewn rectangular stones, while the wall on the left features a mix of lighter, irregular stones and a section of white plaster. A black, ornate metal lantern is mounted on the left wall, and a vertical pipe runs down the corner where the two walls meet.",
+      "attributes": {
+        "structure": {
+          "type": "building exterior",
+          "view": "narrow alleyway",
+          "ground": "cobblestone",
+          "walls": {
+            "left": {
+              "material": "mixed stone and plaster",
+              "color": "light grey, beige, white",
+              "texture": "rough, irregular"
+            },
+            "right": {
+              "material": "stone",
+              "color": "dark grey, black",
+              "texture": "rough, rectangular blocks"
+            }
+          },
+          "fixtures": {
+            "lamp": {
+              "color": "black",
+              "style": "ornate, vintage",
+              "position": "mounted on left wall"
+            },
+            "pipe": {
+              "color": "grey",
+              "position": "vertical, corner"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.63671875,
+      "box": [
+        330.0,
+        0.0,
+        548.0,
+        736.0
+      ],
+      "mask": "image_0.masks/building_1.png",
+      "crop": null,
+      "description": "A multi-story building with a light beige or cream-colored facade, featuring rectangular windows with white frames and black wall-mounted lanterns. The building has a pitched roof with visible tiles and is partially obscured by green foliage on the left side.",
+      "attributes": {
+        "facade_color": "light beige/cream",
+        "window_frames": "white",
+        "window_shape": "rectangular",
+        "wall_lights": "black lanterns",
+        "roof": "pitched, tiled",
+        "foliage": "green leaves visible on the left",
+        "material": "possibly stucco or painted brick"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.51953125,
+      "box": [
+        152.0,
+        234.0,
+        344.0,
+        736.0
+      ],
+      "mask": "image_0.masks/building_2.png",
+      "crop": null,
+      "description": "A tall, multi-story building with a light beige or off-white stone facade featuring a grid of rectangular windows, some of which have small, protruding stone ledges or sills. The building is viewed from a low angle along a narrow cobblestone street, with green tree branches hanging down in the upper left foreground and a textured wall visible on the left edge.",
+      "attributes": {
+        "building_type": "multi-story",
+        "facade_material": "stone",
+        "facade_color": "light beige",
+        "windows": {
+          "shape": "rectangular",
+          "arrangement": "grid",
+          "features": "protruding stone sills"
+        },
+        "ground_surface": "cobblestone",
+        "foreground_elements": "green tree branches",
+        "perspective": "low angle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        512.0,
+        580.0,
+        656.0,
+        820.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A young child is seen from behind walking away on a wet, paved surface, wearing a blue puffy vest with the brand name 'S.CAFES' printed on the lower back over a dark long-sleeved shirt and blue jeans. The child has short dark hair and is wearing dark shoes, with a larger person partially visible to the left.",
+      "attributes": {
+        "age": "child",
+        "gender": "indeterminate",
+        "view": "back",
+        "pose": "walking",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "vest": {
+            "color": "blue",
+            "type": "puffer",
+            "text": "S.CAFES"
+          },
+          "shirt": {
+            "color": "black",
+            "sleeves": "long"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "earmuffs": {
+            "color": "red"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.89453125,
+      "box": [
+        552.0,
+        544.0,
+        660.0,
+        696.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A person viewed from behind, wearing a black jacket and a blue headband, carrying a child on their back who is wearing a blue puffy vest.",
+      "attributes": {
+        "view": "back",
+        "clothing": {
+          "outer": "black jacket",
+          "headwear": "blue headband"
+        },
+        "accessories": {
+          "child_carrier": {
+            "position": "back",
+            "child_clothing": "blue puffy vest"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        388.0,
+        462.0,
+        536.0,
+        816.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A man with short, thinning gray hair is seen from behind, walking away on a paved surface. He is wearing a dark blue jacket and black pants, with his hands possibly in his pockets or at his sides.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged to older",
+        "hair": {
+          "color": "gray",
+          "style": "short, thinning"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "dark blue",
+            "type": "jacket"
+          },
+          "pants": {
+            "color": "black",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "shoes"
+          }
+        },
+        "pose": "walking away",
+        "position": "center of the frame",
+        "background": {
+          "surface": "paved",
+          "building": "light-colored wall with a window"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

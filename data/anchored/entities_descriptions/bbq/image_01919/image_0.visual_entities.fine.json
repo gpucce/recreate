@@ -1,0 +1,90 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        384.0,
+        0.0,
+        844.0,
+        520.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young girl with dark hair pulled back is wearing a blue and white plaid button-down shirt with a beaded necklace featuring green and red beads. Her face is blurred, and she is positioned in the center, with the partial profile of a blonde person visible on the left edge.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "black",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "plaid",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          }
+        },
+        "accessories": {
+          "necklace": {
+            "type": "beaded",
+            "colors": [
+              "green",
+              "red",
+              "white"
+            ]
+          }
+        },
+        "expression": "smiling",
+        "face_blur": true
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        0.0,
+        50.25,
+        474.0,
+        524.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up of an older woman with short, light blonde hair, wearing a black zip-up fleece jacket over a white collared shirt. Her face is blurred, but she appears to be smiling, and she is positioned next to a person wearing a blue and white plaid shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "blonde",
+          "length": "short"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "fleece jacket",
+            "color": "black",
+            "detail": "zipper visible"
+          },
+          "inner": {
+            "type": "shirt",
+            "color": "white",
+            "detail": "collared"
+          }
+        },
+        "expression": "smiling",
+        "face_visibility": "blurred",
+        "position": "left side of frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

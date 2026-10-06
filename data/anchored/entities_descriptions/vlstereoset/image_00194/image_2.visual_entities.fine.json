@@ -1,0 +1,61 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        612.0,
+        2.0,
+        1020.0,
+        912.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A person is shown from the waist down, wearing a long black coat over bright blue pants and black shoes. They are pushing a shopping cart with a yellow-gloved hand, standing on a light gray surface against a pale green background.",
+      "attributes": {
+        "clothing": {
+          "coat": "black, long",
+          "pants": "bright blue",
+          "shoes": "black, flat",
+          "gloves": "yellow"
+        },
+        "pose": "standing, pushing a cart",
+        "accessories": {
+          "shopping_cart": "black frame, visible wheels and handle"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        124.0,
+        246.0,
+        740.0,
+        912.0
+      ],
+      "mask": "image_2.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black wireframe shopping cart is shown in profile, featuring a large rectangular basket with vertical and horizontal grid lines, a handlebar with a yellow grip, and a lower shelf supported by a triangular frame structure. The cart has four wheels, with the front wheels visible and the rear wheels partially obscured, and is positioned on a light gray surface against a pale green background.",
+      "attributes": {
+        "color": "black",
+        "material": "metal wireframe",
+        "structure": {
+          "basket": "rectangular with grid pattern",
+          "handlebar": "curved with yellow grip",
+          "wheels": "four, two visible in front",
+          "lower_shelf": "flat, supported by triangular frame"
+        },
+        "pose": "stationary, side view",
+        "background": "pale green",
+        "surface": "light gray"
+      },
+      "parse_ok": true
+    }
+  ]
+}

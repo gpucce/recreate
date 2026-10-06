@@ -1,0 +1,85 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        192.0,
+        336.0,
+        704.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with dark hair and closed eyes gently kissing the cheek of a baby with light brown hair and wide eyes. The baby is wearing a cream-colored ribbed long-sleeve bodysuit and is being held securely by the woman's hands, with one hand supporting the baby's head and the other around the torso.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "eyes": {
+          "state": "closed"
+        },
+        "action": "kissing baby's cheek",
+        "clothing": {
+          "color": "cream",
+          "type": "top"
+        },
+        "baby": {
+          "hair": {
+            "color": "light brown"
+          },
+          "clothing": {
+            "color": "cream",
+            "texture": "ribbed",
+            "type": "long-sleeve bodysuit"
+          },
+          "expression": "wide-eyed, mouth slightly open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        194.0,
+        94.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, dark wavy hair is shown in profile, gently kissing the cheek of a newborn baby she is holding. The woman wears a light-colored, long-sleeved top, and the baby is dressed in a cream-colored ribbed bodysuit.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "off-white",
+            "sleeve_length": "long"
+          }
+        },
+        "action": "kissing baby",
+        "expression": "tender, eyes closed",
+        "associated_entity": {
+          "type": "baby",
+          "clothing": "cream ribbed bodysuit",
+          "expression": "wide-eyed, mouth slightly open"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

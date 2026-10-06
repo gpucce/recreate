@@ -1,0 +1,100 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "body_of_water",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        332.0,
+        0.0,
+        1020.0,
+        1012.0
+      ],
+      "mask": "image_3.masks/body_of_water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A large, dark blue body of water with a smooth surface, featuring a prominent, elongated sandbar or island in the center. The sandbar is light beige in color, with patches of green vegetation and winding paths. The water surrounding the sandbar is a deeper shade of blue, indicating greater depth, while the shallower areas near the sandbar appear lighter. The water's edge is clearly defined, with a gradual transition from the sandy shore to the deeper water.\", \"attributes\": {\"color\": \"dark blue\", \"surface\": \"smooth\", \"features\": [\"sandbar\", \"island\", \"shallow areas\", \"deep areas\"], \"sandbar\": {\"color\": \"light beige\", \"vegetation\": \"green patches\", \"paths\": \"winding\"}, \"depth\": {\"shallow\": \"lighter blue\", \"deep\": \"darker blue\"}, \"edge\": \"clearly defined\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        432.0,
+        276.0,
+        880.0,
+        756.0
+      ],
+      "mask": "image_3.masks/landmass_0.png",
+      "crop": null,
+      "description": "{\"description\": \"An aerial view of a narrow, elongated island surrounded by dark blue water. The island features a mix of green grassy areas, patches of sandy beach along its edges, and scattered trees with visible shadows. A network of light-colored paths or roads winds through the island, connecting different sections. The overall shape is somewhat teardrop-like, tapering to a point at one end.\", \"attributes\": {\"shape\": \"elongated, teardrop-like\", \"surface\": {\"grass\": \"green\", \"sand\": \"light beige\", \"paths\": \"light-colored, winding\"}, \"vegetation\": \"scattered trees\", \"water\": \"dark blue, surrounding the island\", \"shadows\": \"visible from trees and terrain\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass",
+      "index": 1,
+      "score": 0.71875,
+      "box": [
+        -2.0,
+        2.0,
+        992.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/landmass_1.png",
+      "crop": null,
+      "description": "An aerial view of a small, elongated island situated in a body of dark blue water, surrounded by a sandy shoreline. The island features a mix of green grassy areas, patches of trees, and a network of light-colored pathways or trails winding through the landscape. The surrounding landmass includes agricultural fields, residential areas with houses, and dense clusters of trees.",
+      "attributes": {
+        "shape": "elongated",
+        "surface": {
+          "grass": "green",
+          "sand": "light beige",
+          "trees": "dark green",
+          "paths": "light-colored"
+        },
+        "water": {
+          "color": "dark blue",
+          "clarity": "clear near the shore"
+        },
+        "surroundings": {
+          "fields": "agricultural",
+          "residential": "houses with red roofs",
+          "trees": "dense clusters"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        332.0,
+        -2.0,
+        1020.0,
+        1008.0
+      ],
+      "mask": "image_3.masks/water_body_0.png",
+      "crop": null,
+      "description": "A large, dark blue body of water surrounds a small, elongated island with sandy shores and green vegetation. The water appears calm and deep, with a slight greenish tint near the island's edge, indicating shallower areas or sediment. The island is connected to the mainland by a narrow strip of land or a causeway, and there are visible paths and structures on the island.",
+      "attributes": {
+        "color": "dark blue",
+        "texture": "calm",
+        "shape": "irregular, surrounding an island",
+        "features": [
+          "sandy shores",
+          "greenish tint near island",
+          "narrow strip of land connecting island to mainland"
+        ],
+        "surroundings": [
+          "island with vegetation and paths",
+          "mainland with fields and trees"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

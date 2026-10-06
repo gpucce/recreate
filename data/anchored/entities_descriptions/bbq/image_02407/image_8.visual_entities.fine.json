@@ -1,0 +1,265 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        856.0,
+        23.0,
+        1024.0,
+        205.0
+      ],
+      "mask": "image_8.masks/house_0.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus view of a house exterior featuring a white wall and a brown wooden fence in the foreground, with a sloped roofline visible against a bright, sunlit sky.",
+      "attributes": {
+        "focus": "blurred",
+        "structure": {
+          "wall_color": "white",
+          "roof": "sloped",
+          "fence": {
+            "color": "brown",
+            "material": "wood"
+          }
+        },
+        "lighting": "bright",
+        "background": "sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        -2.0,
+        1.0,
+        792.0,
+        336.0
+      ],
+      "mask": "image_8.masks/house_1.png",
+      "crop": null,
+      "description": "A section of a house exterior featuring white horizontal siding and a central window with a white frame and four glass panes. The window is flanked by dark green, louvered shutters. In the foreground, the tops of two people's heads are visible, one with light brown hair and the other with dark hair, partially obscuring the lower portion of the house. A row of orange flowers is visible at the bottom edge of the frame.",
+      "attributes": {
+        "house": {
+          "siding": {
+            "color": "white",
+            "type": "horizontal"
+          },
+          "window": {
+            "frame_color": "white",
+            "panes": 4,
+            "shape": "rectangular"
+          },
+          "shutters": {
+            "color": "dark green",
+            "style": "louvered",
+            "position": "flanking the window"
+          }
+        },
+        "foreground": {
+          "people": [
+            {
+              "hair_color": "light brown",
+              "position": "left-center, top of head visible"
+            },
+            {
+              "hair_color": "dark brown/black",
+              "position": "right, top and side of head visible"
+            }
+          ],
+          "flowers": {
+            "color": "orange",
+            "position": "bottom edge, row"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        452.0,
+        184.0,
+        956.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits on a white bench, wearing a grey and white horizontal striped long-sleeve sweater and blue jeans. She has a concerned or sad expression, looking down and to the side while placing her hand on the shoulder of another person partially visible on the left.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "grey",
+              "white"
+            ],
+            "sleeves": "long"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "sad or concerned",
+        "action": "touching another person's shoulder",
+        "accessories": {
+          "earrings": "small stud"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        151.0,
+        214.0,
+        540.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits on a white bench, looking down with a sad and distressed expression. She wears a maroon V-neck sweater and blue jeans, with her hands clasped in her lap while another person's hand rests on her shoulder in a comforting gesture.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "expression": "sad, distressed, frowning",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "maroon",
+            "neckline": "V-neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "thin gold chain"
+          }
+        },
+        "pose": "sitting, head down, hands clasped",
+        "context": "being comforted by another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        928.0,
+        206.0,
+        1024.0,
+        314.0
+      ],
+      "mask": "image_8.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A dense, dark green shrub with a rounded, bushy shape, appearing as a solid mass of foliage with no visible flowers or distinct leaves due to the close-up and slight blur.",
+      "attributes": {
+        "color": "dark green",
+        "shape": "rounded",
+        "texture": "dense foliage",
+        "type": "shrub"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 1,
+      "score": 0.56640625,
+      "box": [
+        -0.5,
+        236.0,
+        118.0,
+        412.0
+      ],
+      "mask": "image_8.masks/shrubs_1.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange flowers with rounded, dense petals is visible in the foreground, slightly out of focus, set against a blurred background of green foliage and a pale sky.",
+      "attributes": {
+        "color": "orange",
+        "shape": "rounded",
+        "focus": "blurred",
+        "background": "green foliage, pale sky",
+        "type": "flower"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 2,
+      "score": 0.66015625,
+      "box": [
+        14.5,
+        302.0,
+        222.0,
+        502.0
+      ],
+      "mask": "image_8.masks/shrubs_2.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange flowers with green foliage, appearing slightly out of focus in the background.",
+      "attributes": {
+        "flower_color": "orange",
+        "foliage_color": "green",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 3,
+      "score": 0.66796875,
+      "box": [
+        448.0,
+        304.0,
+        640.0,
+        492.0
+      ],
+      "mask": "image_8.masks/shrubs_3.png",
+      "crop": null,
+      "description": "A close-up view of a person's hands gently clasped together, resting on a dark red surface, with a background of blurred orange flowers and green foliage. The person is wearing a grey and white striped shirt, and their hair is light brown or blonde.",
+      "attributes": {
+        "hands": {
+          "position": "clasped together",
+          "skin_tone": "light"
+        },
+        "clothing": {
+          "shirt": "grey and white striped"
+        },
+        "hair": {
+          "color": "light brown/blonde"
+        },
+        "background": {
+          "flowers": "orange",
+          "foliage": "green",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

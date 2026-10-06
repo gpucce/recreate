@@ -1,0 +1,211 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        520.0,
+        492.0,
+        1296.0,
+        868.0
+      ],
+      "mask": "image_0.masks/bench_0.png",
+      "crop": null,
+      "description": "A person is sitting on a bench with orange and blue sections, wearing a gray t-shirt and black shorts. The person's legs are crossed, and they are holding a smartphone with white earphones plugged in, which are draped over their lap.",
+      "attributes": {
+        "clothing": {
+          "shirt": "gray",
+          "shorts": "black"
+        },
+        "pose": "sitting with legs crossed",
+        "accessories": {
+          "earphones": "white",
+          "smartphone": "black"
+        },
+        "bench": {
+          "color": "orange and blue",
+          "material": "plastic or metal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.7734375,
+      "box": [
+        800.0,
+        532.0,
+        1296.0,
+        868.0
+      ],
+      "mask": "image_0.masks/floor_0.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a smooth finish and visible grain pattern, partially obscured by the legs of a person sitting on a bench.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "smooth",
+        "pattern": "grain",
+        "visibility": "partially obscured"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        968.0,
+        0.0,
+        1160.0,
+        548.0
+      ],
+      "mask": "image_0.masks/locker_0.png",
+      "crop": null,
+      "description": "A close-up view of a bright orange locker door with a smooth, matte finish. The door features a small, round silver keyhole and a vertical handle on the right side, along with three circular white stickers or labels near the bottom edge.",
+      "attributes": {
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "keyhole",
+          "handle",
+          "three circular stickers"
+        ],
+        "position": "vertical",
+        "state": "closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        -1.265625,
+        1.8671875,
+        256.0,
+        868.0
+      ],
+      "mask": "image_0.masks/locker_1.png",
+      "crop": null,
+      "description": "A close-up view of a bright orange locker door featuring a silver metal latch at the top right, a circular keyhole below it, and a small white circular vent near the bottom left. A person wearing a light blue t-shirt is partially visible on the right side, standing in front of the locker.",
+      "attributes": {
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "silver latch",
+          "circular keyhole",
+          "white circular vent"
+        ],
+        "position": "vertical",
+        "context": "indoor, likely a gym or school"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 2,
+      "score": 0.5390625,
+      "box": [
+        512.0,
+        0.0,
+        708.0,
+        708.0
+      ],
+      "mask": "image_0.masks/locker_2.png",
+      "crop": null,
+      "description": "A person with short, light-colored hair is sitting in front of an orange locker, wearing a light blue t-shirt and gray shorts. The person's face is blurred, and they are holding their arm with their other hand.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue t-shirt",
+          "shorts": "gray"
+        },
+        "hair": "light-colored, short",
+        "pose": "sitting, holding arm",
+        "background": {
+          "locker": "orange with blue trim",
+          "label": "a"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.82421875,
+      "box": [
+        604.0,
+        71.0,
+        1296.0,
+        872.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with short reddish-brown hair sits on a bench in a locker room, wearing a grey tank top and black shorts with a white towel draped around her neck. She is looking down at a smartphone held in her left hand while wearing white wired earphones, with her right hand raised in a gesture.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "reddish-brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": "grey tank top",
+          "bottoms": "black shorts",
+          "accessories": [
+            "white towel around neck",
+            "white wired earphones"
+          ]
+        },
+        "pose": "sitting",
+        "action": "holding smartphone",
+        "location": "locker room"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8515625,
+      "box": [
+        63.25,
+        18.625,
+        808.0,
+        872.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A person with short, platinum blonde hair is seated in a locker room, wearing a light blue t-shirt and patterned leggings. They are holding a red apple in one hand and gesturing with the other, appearing to be in conversation.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "platinum blonde",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light blue"
+          },
+          "bottom": {
+            "type": "leggings",
+            "pattern": "camouflage"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding an apple and gesturing",
+        "object": {
+          "type": "apple",
+          "color": "red"
+        },
+        "location": "locker room"
+      },
+      "parse_ok": true
+    }
+  ]
+}

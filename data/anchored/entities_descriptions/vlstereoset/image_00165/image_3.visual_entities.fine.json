@@ -1,0 +1,179 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        672.0,
+        608.0,
+        784.0,
+        720.0
+      ],
+      "mask": "image_3.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A glossy, bright blue ceramic mug with a white interior is held by a hand with dark skin tone, showing the handle and the upper portion of the cup's body.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": {
+          "exterior": "bright blue",
+          "interior": "white"
+        },
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": "visible on the left",
+        "held_by": "hand with dark skin tone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.8515625,
+      "box": [
+        320.0,
+        628.0,
+        432.0,
+        740.0
+      ],
+      "mask": "image_3.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, glossy finish is held by a hand with dark skin tone, showing the handle and the upper portion of the cup. The mug is cylindrical with a slightly flared rim and appears to be empty.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "white",
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": "present",
+        "contents": "empty",
+        "held_by": "hand",
+        "skin_tone": "dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        498.0,
+        134.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "An older Black man with short, graying hair and a beard sits on a beige couch, wearing a sage green t-shirt and light beige pants. He holds a bright blue mug in his right hand and has a gentle, contented smile on his face while looking to the side, with another person's hand resting on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray and black",
+          "length": "short",
+          "style": "curly"
+        },
+        "facial_hair": "gray and black beard and mustache",
+        "expression": "smiling, looking to the side",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "sage green",
+            "sleeve": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting on a couch",
+        "accessories": {
+          "holding": "blue ceramic mug"
+        },
+        "interaction": "hand on shoulder from another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        -6.0,
+        146.0,
+        912.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "An older Black man with a bald head and a gray goatee sits on a beige couch, wearing a light blue polo shirt and khaki shorts. He is smiling warmly while looking at the person next to him, holding a white mug in his right hand and resting his left arm on the back of the couch.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "hair": {
+          "head": "bald",
+          "facial_hair": "gray goatee"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved polo shirt",
+          "bottom": "khaki shorts"
+        },
+        "pose": "sitting on a couch",
+        "expression": "smiling",
+        "action": "holding a white mug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        396.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/sofa_0.png",
+      "crop": null,
+      "description": "Two men are sitting side by side on a light beige fabric sofa, each holding a mug. The man on the left wears a light blue polo shirt and khaki shorts, while the man on the right wears an olive green t-shirt and light-colored pants.",
+      "attributes": {
+        "sofa": {
+          "color": "light beige",
+          "material": "fabric",
+          "type": "couch"
+        },
+        "men": [
+          {
+            "position": "left",
+            "clothing": {
+              "shirt": "light blue polo",
+              "shorts": "khaki"
+            },
+            "accessories": {
+              "ring": "on left hand"
+            },
+            "holding": "white mug"
+          },
+          {
+            "position": "right",
+            "clothing": {
+              "shirt": "olive green t-shirt",
+              "pants": "light beige"
+            },
+            "holding": "blue mug"
+          }
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

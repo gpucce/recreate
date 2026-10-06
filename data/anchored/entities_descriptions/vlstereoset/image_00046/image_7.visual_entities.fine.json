@@ -1,0 +1,128 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        2.0,
+        428.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a light purple satin pajama set with white piping and buttons. The couch has a textured, woven appearance and is adorned with a beige pillow on the right side.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "texture": "woven",
+          "pillow": {
+            "color": "beige",
+            "position": "right"
+          }
+        },
+        "person": {
+          "clothing": {
+            "top": "light purple satin pajama shirt",
+            "bottoms": "light purple satin pajama pants",
+            "details": "white piping, white buttons"
+          },
+          "pose": "sitting cross-legged",
+          "position": "center of couch"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        138.0,
+        58.0,
+        856.0,
+        992.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black woman with short, dark curly hair and round wire-rimmed glasses sits cross-legged on a grey fabric sofa, wearing a matching lavender satin pajama set with white piping and buttons. She has a neutral expression, looking directly at the camera, with her hands resting on her ankles.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short, curly, natural"
+        },
+        "accessories": {
+          "glasses": "round, thin metal frame"
+        },
+        "clothing": {
+          "type": "pajama set",
+          "material": "satin",
+          "color": "lavender",
+          "details": "white piping on collar, cuffs, and pocket; white buttons down the front of the shirt"
+        },
+        "pose": "sitting cross-legged on a sofa",
+        "expression": "neutral, direct gaze",
+        "setting": "indoor, on a grey couch, with a vase of pink roses visible to the left and a window with blinds in the background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        836.0,
+        524.0,
+        1020.0,
+        924.0
+      ],
+      "mask": "image_7.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, cream-colored throw pillow with a subtle, embossed geometric pattern rests against the back of a gray sofa. The pillow appears soft and plush, with a slightly textured fabric surface.",
+      "attributes": {
+        "color": "cream",
+        "shape": "square",
+        "pattern": "embossed geometric",
+        "material": "textured fabric",
+        "position": "leaning against sofa back",
+        "background": "gray sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        184.0,
+        -1.0,
+        1024.0,
+        456.0
+      ],
+      "mask": "image_7.masks/window_0.png",
+      "crop": null,
+      "description": "A large window covered by white horizontal blinds is visible in the background, with soft, diffused light filtering through the slats. To the left, a small bouquet of pink roses with green leaves is partially visible in the foreground.",
+      "attributes": {
+        "window": {
+          "coverings": "white horizontal blinds",
+          "lighting": "diffused natural light",
+          "position": "background"
+        },
+        "foreground_object": {
+          "type": "flowers",
+          "color": "pink",
+          "leaves": "green",
+          "position": "left side"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

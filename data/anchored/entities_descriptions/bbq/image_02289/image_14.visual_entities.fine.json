@@ -1,0 +1,234 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        20.0,
+        0.0,
+        1024.0,
+        510.0
+      ],
+      "mask": "image_14.masks/building_0.png",
+      "crop": null,
+      "description": "A large, multi-story red brick building with white-trimmed windows and a central entrance featuring a pediment and arched window, partially obscured by two students in the foreground and autumn foliage.",
+      "attributes": {
+        "material": "red brick",
+        "color": "red",
+        "windows": {
+          "trim": "white",
+          "style": "multi-pane sash",
+          "arrangement": "symmetrical, two rows visible"
+        },
+        "entrance": {
+          "feature": "pedimented portico",
+          "door": "dark wood, arched transom window above"
+        },
+        "architecture_style": "colonial or institutional",
+        "visible_elements": [
+          "second floor windows",
+          "first floor windows",
+          "central doorway",
+          "brick facade"
+        ],
+        "obscured_by": [
+          "two students",
+          "yellow autumn leaves on tree branch (top left)"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        592.0,
+        420.0,
+        816.0,
+        556.0
+      ],
+      "mask": "image_14.masks/notebook_0.png",
+      "crop": null,
+      "description": "A yellow spiral-bound notebook is held open by a person wearing a blue hoodie, with a hand holding a white pen poised to write on the blank white pages. The notebook features a black metal spiral binding along the spine and is positioned in the foreground against the person's torso.",
+      "attributes": {
+        "object": "notebook",
+        "color": "yellow",
+        "binding": "black spiral",
+        "pages": "white, blank",
+        "state": "open",
+        "held_by": "person",
+        "person_clothing": "blue hoodie",
+        "accessory": "white pen"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.87890625,
+      "box": [
+        260.0,
+        454.0,
+        476.0,
+        588.0
+      ],
+      "mask": "image_14.masks/notebook_1.png",
+      "crop": null,
+      "description": "A spiral-bound notebook with a plain, matte grey cover is held open by two hands, revealing the white pages inside. The notebook is positioned in the center of the frame, with the spiral binding running vertically down the middle, and the hands are visible on either side, gripping the edges of the notebook.",
+      "attributes": {
+        "type": "spiral-bound notebook",
+        "cover_color": "grey",
+        "cover_material": "matte",
+        "binding": "spiral",
+        "pages": "white",
+        "state": "open",
+        "held_by": "hands",
+        "position": "center",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.8046875,
+      "box": [
+        608.0,
+        430.0,
+        632.0,
+        450.0
+      ],
+      "mask": "image_14.masks/pen_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        524.0,
+        106.0,
+        916.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly dark hair walks forward on a brick path while looking down to write in a yellow spiral-bound notebook held in his left hand. He wears a bright blue hooded sweatshirt with a front pocket, light blue jeans, and carries a black backpack.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "blue",
+            "details": "drawstrings, kangaroo pocket"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black"
+            }
+          }
+        },
+        "pose": "walking, looking down",
+        "action": "writing in a notebook",
+        "object": {
+          "type": "notebook",
+          "color": "yellow",
+          "binding": "spiral"
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8671875,
+      "box": [
+        980.0,
+        458.0,
+        1024.0,
+        592.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus crop showing the lower body of a person wearing dark blue pants and a light-colored top, standing on a surface with a green and brown background.",
+      "attributes": {
+        "clothing": {
+          "pants": "dark blue",
+          "top": "light colored"
+        },
+        "pose": "standing",
+        "image_quality": "blurry",
+        "background": "green and brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98828125,
+      "box": [
+        157.0,
+        186.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_2.png",
+      "crop": null,
+      "description": "A young woman with long, straight blonde hair is walking on a brick pathway while looking down at an open spiral-bound notebook held in both hands. She wears a cream-colored cable-knit sweater over a white collared shirt, blue jeans, and carries a black backpack on her left shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "cream",
+            "pattern": "cable-knit",
+            "layer": "over white collared shirt"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "bag": {
+              "type": "backpack",
+              "color": "black",
+              "position": "left shoulder"
+            }
+          }
+        },
+        "pose": "walking, looking down",
+        "expression": "focused, neutral",
+        "object_in_hand": {
+          "type": "notebook",
+          "binding": "spiral",
+          "color": "grey cover"
+        },
+        "background": "brick building, brick pavement"
+      },
+      "parse_ok": true
+    }
+  ]
+}

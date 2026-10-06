@@ -1,0 +1,154 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.68359375,
+      "box": [
+        80.0,
+        -2.0,
+        1032.0,
+        1016.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a smiling adult woman with light skin and dark hair holding a baby with dark, wet-looking hair and light skin. The woman is looking down at the baby with a gentle expression, while the baby looks up at her with wide, dark eyes and a slightly open mouth. The baby is bare-chested, and the woman is wearing a light-colored top.",
+      "attributes": {
+        "entity_type": "person",
+        "count": 2,
+        "primary_subject": {
+          "gender": "female",
+          "age_group": "adult",
+          "skin_tone": "light",
+          "hair_color": "dark",
+          "expression": "smiling, gentle",
+          "gaze": "downward",
+          "clothing": {
+            "top": "light-colored, possibly beige or white"
+          }
+        },
+        "secondary_subject": {
+          "age_group": "infant",
+          "skin_tone": "light",
+          "hair_color": "dark",
+          "hair_texture": "wet, curly",
+          "expression": "curious, alert",
+          "gaze": "upward",
+          "clothing": "none visible on upper body"
+        },
+        "interaction": "holding, intimate",
+        "lighting": "soft, natural",
+        "background": "blurred, neutral tones"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.78515625,
+      "box": [
+        2.0,
+        72.0,
+        976.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up shot of a smiling adult woman with light skin and dark eyelashes leaning in to look at a baby with dark, wet hair and light skin. The baby is looking up at the woman with wide eyes and a slightly open mouth, while the woman's face is partially visible in the upper right corner.",
+      "attributes": {
+        "entity_type": "person",
+        "count": 2,
+        "primary_subject": {
+          "age_group": "infant",
+          "gender": "indeterminate",
+          "skin_tone": "light",
+          "hair": {
+            "color": "dark brown",
+            "texture": "wet, curly"
+          },
+          "expression": "curious, looking up",
+          "eyes": "dark, wide open",
+          "mouth": "slightly open",
+          "pose": "being held, looking up"
+        },
+        "secondary_subject": {
+          "age_group": "adult",
+          "gender": "female",
+          "skin_tone": "light",
+          "expression": "smiling, affectionate",
+          "eyes": "looking down at baby",
+          "pose": "leaning in close"
+        },
+        "interaction": "intimate, bonding moment",
+        "lighting": "soft, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.6328125,
+      "box": [
+        390.0,
+        2.0,
+        1032.0,
+        1016.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up of a woman and a baby, with the woman's face partially visible on the right and the baby's face on the left. The woman has light skin, dark eyelashes, and is smiling gently while looking down at the baby. The baby has light skin, dark eyes, and is looking up at the woman with an open mouth, appearing to be in a state of wonder or communication. The woman's shoulder and part of her arm are visible, suggesting she is holding the baby. The background is blurred and neutral in color.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "social_role": "mother or caregiver",
+        "clothing": {
+          "visible_part": "light-colored top"
+        },
+        "expression": "smiling, affectionate",
+        "pose": "holding baby, leaning in",
+        "baby": {
+          "age": "infant",
+          "expression": "curious, open-mouthed",
+          "pose": "being held, looking up"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.62890625,
+      "box": [
+        78.0,
+        -6.0,
+        1032.0,
+        1016.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A close-up of a baby with dark, wet hair and large, dark eyes looking up at an adult woman who is smiling gently. The baby has fair skin and is being held by the woman, whose face is partially visible in the upper right corner.",
+      "attributes": {
+        "gender": "female",
+        "age": "infant",
+        "ethnicity": "indeterminate",
+        "social_role": "baby",
+        "hair": {
+          "color": "dark brown",
+          "texture": "wet, curly"
+        },
+        "eyes": {
+          "color": "dark brown",
+          "expression": "curious, looking up"
+        },
+        "skin": "fair",
+        "pose": "being held, looking up",
+        "clothing": "none visible",
+        "expression": "curious, calm"
+      },
+      "parse_ok": true
+    }
+  ]
+}

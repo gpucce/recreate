@@ -1,0 +1,99 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        2.0,
+        446.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a light purple satin pajama set with white piping and buttons. The couch has a textured, woven appearance and is adorned with a beige pillow on the right side.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "texture": "woven",
+          "pillow": {
+            "color": "beige",
+            "position": "right"
+          }
+        },
+        "person": {
+          "clothing": {
+            "top": "light purple satin pajama shirt with white piping and buttons",
+            "bottoms": "light purple satin pajama pants with white piping"
+          },
+          "pose": "sitting cross-legged",
+          "position": "center of the couch"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        192.0,
+        78.0,
+        888.0,
+        944.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with curly dark brown hair and round wire-rimmed glasses sits cross-legged on a grey sofa, wearing a shiny lavender satin pajama set with white piping and a drawstring waist. She has a neutral expression and is looking directly at the camera with her hands resting on her legs.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed"
+        },
+        "clothing": {
+          "type": "pajama set",
+          "material": "satin",
+          "color": "lavender",
+          "details": "white piping, button-down shirt, drawstring pants"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        800.0,
+        508.0,
+        1024.0,
+        860.0
+      ],
+      "mask": "image_15.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, beige throw pillow with a subtle, textured geometric pattern rests against a gray sofa backrest. In the lower left corner, a portion of a shiny, lavender-colored object, possibly a balloon or inflatable, is visible.",
+      "attributes": {
+        "color": "beige",
+        "shape": "square",
+        "texture": "textured fabric",
+        "pattern": "subtle geometric",
+        "position": "resting against sofa",
+        "background": "gray sofa"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        2.0,
+        418.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/couch_0.png",
+      "crop": null,
+      "description": "A person with dark skin is sitting cross-legged on a gray fabric couch, wearing a shiny, light purple satin pajama set with white piping and buttons. A textured, off-white throw pillow rests on the right side of the couch.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "type": "sofa"
+        },
+        "person": {
+          "skin_tone": "dark",
+          "pose": "sitting cross-legged",
+          "clothing": {
+            "type": "pajamas",
+            "color": "light purple",
+            "material": "satin",
+            "details": "white piping, button-down shirt, chest pocket"
+          }
+        },
+        "accessories": {
+          "pillow": {
+            "color": "off-white",
+            "texture": "textured",
+            "position": "right side"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        144.0,
+        96.0,
+        868.0,
+        952.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black woman with short, dark curly hair and round wire-rimmed glasses sits cross-legged on a grey fabric sofa, wearing a matching lavender satin pajama set with white piping. She has a neutral expression, looking directly at the camera with her hands clasped between her legs.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short curly"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed"
+        },
+        "clothing": {
+          "type": "pajamas",
+          "material": "satin",
+          "color": "lavender",
+          "details": "white piping, button-down shirt, chest pocket"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        836.0,
+        502.0,
+        1024.0,
+        856.0
+      ],
+      "mask": "image_6.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, cream-colored throw pillow with a textured, woven fabric featuring a subtle grid pattern rests against a dark gray sofa back. The pillow appears soft and slightly plump, with visible stitching along the edges.",
+      "attributes": {
+        "color": "cream",
+        "shape": "square",
+        "texture": "woven, grid pattern",
+        "material": "fabric",
+        "position": "leaning against sofa",
+        "background": "dark gray sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        0.0,
+        2.0,
+        928.0,
+        426.0
+      ],
+      "mask": "image_6.masks/window_0.png",
+      "crop": null,
+      "description": "A young Black woman with short, curly black hair and round glasses is centered in the frame, wearing a light purple collared shirt. She has a neutral expression and is looking directly at the camera, positioned in front of a window with white horizontal blinds and a vase of pink roses to her left.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "accessories": {
+          "glasses": "round, thin-framed"
+        },
+        "clothing": {
+          "shirt": "light purple, collared"
+        },
+        "expression": "neutral",
+        "pose": "sitting, facing forward",
+        "background": {
+          "window": "white horizontal blinds",
+          "flowers": "pink roses in a clear glass vase"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

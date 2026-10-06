@@ -1,0 +1,101 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        124.0,
+        482.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up view of a man's upper torso wearing a formal black three-piece suit with a textured, heavy fabric, featuring a black bow tie and a white high-collared shirt with a subtle pattern. The man has a thick, reddish-brown handlebar mustache and is positioned against a dark, mottled background.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "adult",
+        "facial_hair": {
+          "mustache": "thick, reddish-brown, handlebar style"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "style": "formal suit coat",
+            "material": "textured fabric"
+          },
+          "vest": {
+            "color": "black",
+            "visible_button": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff",
+            "pattern": "subtle texture"
+          },
+          "accessories": {
+            "bow_tie": {
+              "color": "black",
+              "style": "ruffled"
+            }
+          }
+        },
+        "pose": "frontal, upper body",
+        "background": "dark, mottled brown and grey"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        122.0,
+        82.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A painted portrait of a middle-aged man with curly dark hair and a thick mustache, wearing a black suit jacket, a black vest, a white high-collared shirt, and a black bow tie. He has a serious expression and is looking slightly to the side against a dark, mottled background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, brown",
+          "sideburns": "present"
+        },
+        "expression": "serious",
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "type": "suit"
+          },
+          "vest": {
+            "color": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high"
+          },
+          "neckwear": {
+            "type": "bow tie",
+            "color": "black"
+          }
+        },
+        "medium": "oil painting",
+        "pose": "bust-up, facing forward"
+      },
+      "parse_ok": true
+    }
+  ]
+}

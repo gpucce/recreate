@@ -1,0 +1,194 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        800.0,
+        436.0,
+        1024.0,
+        676.0
+      ],
+      "mask": "image_2.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A dark brown wooden cabinet with a traditional design, featuring a drawer with a round knob and a lower section with glass-paneled doors revealing shelves inside. The wood has a polished finish, and the cabinet is positioned against a wall, partially obscured by a blue velvet fabric in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "finish": "polished",
+        "style": "traditional",
+        "features": {
+          "drawer": "present",
+          "knob": "round",
+          "doors": "glass-paneled",
+          "shelves": "visible through glass"
+        },
+        "position": "against wall",
+        "obstruction": "blue velvet fabric in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        -2.0,
+        -1.0,
+        318.0,
+        175.0
+      ],
+      "mask": "image_2.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A wooden cabinet with glass-paneled doors, containing various items such as bowls and cups, is mounted on a wall. The cabinet has a warm, reddish-brown finish and features two visible doors with small, dark knobs.",
+      "attributes": {
+        "material": "wood",
+        "color": "reddish-brown",
+        "doors": {
+          "type": "glass-paneled",
+          "knobs": "dark"
+        },
+        "contents": [
+          "bowls",
+          "cups"
+        ],
+        "position": "wall-mounted"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        936.0,
+        -1.0,
+        1024.0,
+        104.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, close-up crop of a person wearing a dark suit jacket over a white collared shirt, with hands clasped together in front of the torso. The image is out of focus, obscuring facial features and specific details of the clothing texture.",
+      "attributes": {
+        "clothing": {
+          "jacket": "dark",
+          "shirt": "white",
+          "collar": "visible"
+        },
+        "pose": "hands clasped",
+        "image_quality": "blurry",
+        "gender": "indeterminate"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        108.0,
+        296.0,
+        620.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short, wavy brown hair and a serious expression sits in the foreground wearing a light blue sweatshirt with a 'Champion' logo, while an elderly woman with white hair and a dark blue embroidered velvet top sits behind him with her hand resting on his arm.",
+      "attributes": {
+        "subject": "boy",
+        "age": "child",
+        "gender": "male",
+        "hair": {
+          "color": "brown",
+          "style": "short, wavy"
+        },
+        "expression": "serious, neutral",
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "logo": "Champion"
+          }
+        },
+        "background_figure": {
+          "subject": "woman",
+          "age": "elderly",
+          "hair": {
+            "color": "white/grey"
+          },
+          "clothing": {
+            "top": {
+              "type": "velvet top",
+              "color": "dark blue",
+              "detail": "embroidered floral pattern"
+            }
+          },
+          "action": "hand resting on boy's arm"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        28.0,
+        106.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits on a patterned sofa, wearing a dark blue velvet robe with floral embroidery along the lapels and cuffs. She has a gentle, slightly smiling expression, visible wrinkles, and wears a thin gold necklace and a ring on her left hand; her right arm rests around a young boy seated beside her.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "facial_features": {
+          "expression": "gentle, slight smile",
+          "skin": "wrinkled, aged"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "robe",
+            "material": "velvet",
+            "color": "dark blue",
+            "details": "floral embroidery in red, yellow, and green along lapels and cuffs"
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "ring": "on left ring finger"
+          }
+        },
+        "pose": "seated, right arm around boy, left hand resting on lap",
+        "position": "center-right of frame, next to a boy in a blue Champion sweatshirt",
+        "setting": "indoor, living room with lamp, wooden cabinet, and framed photo in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.8359375,
+      "box": [
+        932.0,
+        338.0,
+        988.0,
+        422.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "{\"description\": \"The image is extremely blurry and out of focus, showing a person with dark hair wearing a dark top with a lighter, possibly white or beige, collar or scarf. The person appears to be facing forward, but facial features and specific details are indistinguishable due to the low resolution and blur.\", \"attributes\": {\"hair\": \"dark\", \"clothing\": {\"top\": \"dark\", \"collar\": \"light-colored\"}, \"pose\": \"facing forward\", \"image_quality\": \"extremely blurry\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

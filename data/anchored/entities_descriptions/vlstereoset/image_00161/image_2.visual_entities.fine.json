@@ -1,0 +1,165 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        672.0,
+        92.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up profile view of a male soldier with a mustache and short dark hair, wearing a woodland camouflage helmet and matching uniform. He is equipped with a tactical vest featuring pouches and straps, standing outdoors with a rocky riverbed and water visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "facial_hair": "mustache",
+        "hair": "dark, short",
+        "clothing": {
+          "helmet": "woodland camouflage pattern",
+          "uniform": "woodland camouflage pattern",
+          "gear": "tactical vest with pouches and straps"
+        },
+        "pose": "standing, profile view",
+        "background": "rocky terrain, river"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        -3.0,
+        374.0,
+        111.0,
+        976.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A man with a dark beard and mustache wearing a black turban and an olive-green military uniform stands in the background, holding a clear plastic water bottle in his left hand. In the immediate foreground, a large, out-of-focus brown furry object, likely the back of a camel, obscures the right side of the frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "South Asian",
+        "headwear": "black turban",
+        "facial_hair": "dark beard and mustache",
+        "clothing": {
+          "uniform": "olive green",
+          "type": "military"
+        },
+        "accessories": {
+          "strap": "tan shoulder strap"
+        },
+        "holding": "plastic water bottle",
+        "pose": "standing",
+        "foreground_object": "brown furry animal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        32.0,
+        168.0,
+        472.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up profile view of a man with a thick black beard and mustache, wearing a black turban and a textured brown wool coat over a dark collared shirt. He has a serious expression and is looking off to the right, with a rocky mountainous landscape and other men in military-style uniforms visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "South Asian",
+        "headwear": {
+          "type": "turban",
+          "color": "black"
+        },
+        "facial_hair": {
+          "beard": "black, full",
+          "mustache": "black, thick"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "coat",
+            "color": "brown",
+            "material": "wool",
+            "buttons": "black"
+          },
+          "inner": {
+            "type": "shirt",
+            "color": "dark grey"
+          }
+        },
+        "pose": "standing, profile view",
+        "expression": "serious",
+        "background": "rocky terrain, mountains, other people"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.984375,
+      "box": [
+        392.0,
+        272.0,
+        760.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "A middle-aged man with a thick black beard and mustache wears a black turban and an olive-drab military uniform with shoulder epaulets and chest pockets. He holds a wooden-stocked rifle with a strap across his chest, looking intently to the side with a serious expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "South Asian",
+        "headwear": {
+          "type": "turban",
+          "color": "black"
+        },
+        "facial_hair": {
+          "beard": "black, full",
+          "mustache": "black, thick"
+        },
+        "clothing": {
+          "uniform": {
+            "color": "olive drab",
+            "type": "military shirt",
+            "details": [
+              "shoulder epaulets",
+              "chest pockets with flaps",
+              "button-down front"
+            ]
+          },
+          "belt": {
+            "color": "brown",
+            "material": "leather"
+          }
+        },
+        "accessories": {
+          "weapon": {
+            "type": "rifle",
+            "stock": "wooden",
+            "barrel": "metallic"
+          },
+          "strap": {
+            "color": "tan",
+            "material": "canvas"
+          }
+        },
+        "pose": "standing",
+        "expression": "serious"
+      },
+      "parse_ok": true
+    }
+  ]
+}

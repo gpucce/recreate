@@ -1,0 +1,201 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "cliff",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        484.0,
+        476.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/cliff_0.png",
+      "crop": null,
+      "description": "A rugged, reddish-brown sandstone cliff face with visible horizontal stratification and vertical erosion patterns, featuring small green shrubs growing in crevices and on the flat top surface.",
+      "attributes": {
+        "color": "reddish-brown",
+        "material": "sandstone",
+        "texture": "rough, layered, eroded",
+        "vegetation": "small green shrubs",
+        "structure": "cliff face with overhangs and crevices",
+        "topography": "flat-topped with uneven edges"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dirt_path",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        250.0,
+        576.0,
+        486.0,
+        640.0
+      ],
+      "mask": "image_1.masks/dirt_path_0.png",
+      "crop": null,
+      "description": "A winding dirt path cuts through a dry, arid landscape, characterized by its light brown, sandy texture and sparse vegetation. The path meanders across the terrain, with small green shrubs scattered along its edges and in the surrounding area.",
+      "attributes": {
+        "color": "light brown",
+        "texture": "sandy",
+        "vegetation": "sparse green shrubs",
+        "terrain": "arid, dry",
+        "path_shape": "winding"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dirt_path",
+      "index": 1,
+      "score": 0.73046875,
+      "box": [
+        -3.0,
+        524.0,
+        368.0,
+        644.0
+      ],
+      "mask": "image_1.masks/dirt_path_1.png",
+      "crop": null,
+      "description": "A winding dirt path cuts through a dry, arid landscape, with sparse vegetation scattered across the sandy terrain. The path appears well-trodden, with visible tire tracks and a slightly elevated section where it curves to the right.",
+      "attributes": {
+        "surface": "dirt",
+        "condition": "well-trodden",
+        "vegetation": "sparse",
+        "terrain": "arid",
+        "path_shape": "winding",
+        "elevation_change": "slight",
+        "color": "light brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dirt_path",
+      "index": 2,
+      "score": 0.58203125,
+      "box": [
+        -2.0,
+        476.0,
+        528.0,
+        500.0
+      ],
+      "mask": "image_1.masks/dirt_path_2.png",
+      "crop": null,
+      "description": "A narrow, light brown dirt path runs horizontally across the image, cutting through a field of low-lying green vegetation. The path appears dry and dusty, with a slightly uneven surface and edges that blend into the surrounding crops.",
+      "attributes": {
+        "color": "light brown",
+        "texture": "dusty, uneven",
+        "shape": "linear, horizontal",
+        "surroundings": "green low-lying vegetation",
+        "width": "narrow",
+        "condition": "dry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 0,
+      "score": 0.5078125,
+      "box": [
+        800.0,
+        384.0,
+        1024.0,
+        496.0
+      ],
+      "mask": "image_1.masks/hill_0.png",
+      "crop": null,
+      "description": "A barren, sloping hillside covered in dry, light brown soil and sparse, low-lying green shrubs. In the foreground, large reddish-brown rock formations sit at the base of the slope, while a prominent reddish rock outcrop is visible further up the hill. The background features distant, hazy mountains under a pale blue sky.",
+      "attributes": {
+        "terrain": "arid, sloping",
+        "soil_color": "light brown",
+        "vegetation": {
+          "type": "shrubs",
+          "color": "green",
+          "density": "sparse"
+        },
+        "rocks": {
+          "color": "reddish-brown",
+          "size": "large",
+          "position": "foreground and mid-ground"
+        },
+        "background": "distant mountains",
+        "sky": "pale blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 1,
+      "score": 0.6328125,
+      "box": [
+        -4.0,
+        390.0,
+        916.0,
+        470.0
+      ],
+      "mask": "image_1.masks/hill_1.png",
+      "crop": null,
+      "description": "A vast, arid landscape featuring rolling, barren hills with smooth, undulating contours and a mix of light brown and tan earth tones. The hills are devoid of vegetation, showcasing their eroded, wind-sculpted forms under a clear sky.",
+      "attributes": {
+        "color": "light brown, tan",
+        "texture": "smooth, eroded",
+        "vegetation": "none",
+        "sky": "clear",
+        "terrain": "arid, rolling hills"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        -10.0,
+        392.0,
+        920.0,
+        472.0
+      ],
+      "mask": "image_1.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "A vast expanse of rolling sand dunes stretches across the landscape, with their smooth, undulating forms casting soft shadows under a clear sky. In the foreground, sparse desert vegetation and rocky outcrops add texture to the otherwise barren terrain.",
+      "attributes": {
+        "terrain": "sand dunes",
+        "vegetation": "sparse desert plants",
+        "rocks": "reddish-brown outcrops",
+        "sky": "clear",
+        "color_palette": {
+          "dunes": "light beige",
+          "rocks": "reddish-brown",
+          "sky": "pale blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        0.0,
+        -1.0,
+        1020.0,
+        408.0
+      ],
+      "mask": "image_1.masks/sky_0.png",
+      "crop": null,
+      "description": "A vast, clear blue sky dominates the upper portion of the image, filled with wispy, streaky cirrus clouds that stretch horizontally and diagonally across the frame. Below the sky, a rugged, arid landscape of brown and tan hills or mountains stretches across the horizon, with no visible vegetation or water.",
+      "attributes": {
+        "sky_color": "blue",
+        "cloud_type": "cirrus",
+        "cloud_shape": "wispy, streaky",
+        "cloud_distribution": "spread across the sky",
+        "landscape_type": "arid, hilly/mountainous",
+        "landscape_color": "brown, tan",
+        "horizon_line": "visible, separating sky and land"
+      },
+      "parse_ok": true
+    }
+  ]
+}

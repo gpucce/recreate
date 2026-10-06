@@ -1,0 +1,341 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "flowers",
+      "index": 0,
+      "score": 0.66015625,
+      "box": [
+        -0.375,
+        454.0,
+        50.5,
+        556.0
+      ],
+      "mask": "image_12.masks/flowers_0.png",
+      "crop": null,
+      "description": "A close-up, high-key shot of a white peony flower with soft, overlapping petals and a slightly ruffled texture. Green stems and leaves are visible in the lower right, providing contrast to the bright white bloom.",
+      "attributes": {
+        "flower_type": "peony",
+        "color": "white",
+        "petal_texture": "soft, ruffled",
+        "stem_color": "green",
+        "leaf_color": "green",
+        "lighting": "bright, high-key",
+        "focus": "close-up"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 1,
+      "score": 0.61328125,
+      "box": [
+        84.0,
+        424.0,
+        153.0,
+        480.0
+      ],
+      "mask": "image_12.masks/flowers_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "flowers",
+      "index": 2,
+      "score": 0.78515625,
+      "box": [
+        -1.0,
+        428.0,
+        268.0,
+        812.0
+      ],
+      "mask": "image_12.masks/flowers_2.png",
+      "crop": null,
+      "description": "A bouquet of white peonies with yellow centers is arranged in a clear glass vase filled with water, placed on a wooden surface. The flowers are in full bloom, with some buds still closed, and green leaves are visible among the stems.",
+      "attributes": {
+        "flower_type": "peony",
+        "color": "white",
+        "center_color": "yellow",
+        "vase": {
+          "material": "glass",
+          "shape": "cylindrical",
+          "contents": "water"
+        },
+        "leaves": "green",
+        "position": "on a wooden surface",
+        "bloom_stage": "full bloom with some buds"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 3,
+      "score": 0.65625,
+      "box": [
+        161.0,
+        462.0,
+        268.0,
+        576.0
+      ],
+      "mask": "image_12.masks/flowers_3.png",
+      "crop": null,
+      "description": "A close-up of a white peony flower with multiple layers of soft, rounded petals, accompanied by green leaves and stems in the background.",
+      "attributes": {
+        "color": "white",
+        "type": "peony",
+        "petals": "multiple layers, soft, rounded",
+        "leaves": "green, visible in the background",
+        "stems": "green, visible in the background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 4,
+      "score": 0.6015625,
+      "box": [
+        39.5,
+        488.0,
+        180.0,
+        616.0
+      ],
+      "mask": "image_12.masks/flowers_4.png",
+      "crop": null,
+      "description": "A close-up of a single, fully bloomed white peony flower with layered, ruffled petals surrounding a central cluster of yellow stamens. The flower is positioned centrally against a blurred background of green leaves and stems.",
+      "attributes": {
+        "flower_type": "peony",
+        "petal_color": "white",
+        "center_color": "yellow",
+        "center_structure": "stamens",
+        "petal_texture": "smooth, ruffled",
+        "bloom_stage": "full bloom",
+        "background": "green leaves, blurred",
+        "lighting": "bright, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 5,
+      "score": 0.62109375,
+      "box": [
+        848.0,
+        552.0,
+        896.0,
+        608.0
+      ],
+      "mask": "image_12.masks/flowers_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "magazine",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        220.0,
+        616.0,
+        596.0,
+        792.0
+      ],
+      "mask": "image_12.masks/magazine_0.png",
+      "crop": null,
+      "description": "An open hardcover book titled 'Flourish' by T. Harv Eker is held in a person's hands, with the right-hand page facing the viewer. The cover features a portrait of the author, a smiling man with curly gray hair, wearing a dark suit and white shirt. The book's pages are cream-colored, and the spine is visible with the title printed vertically. The person holding the book is wearing a light blue, long-sleeved shirt, and a beaded bracelet is visible on their wrist.",
+      "attributes": {
+        "book": {
+          "title": "Flourish",
+          "author": "T. Harv Eker",
+          "cover": {
+            "text": "Flourish",
+            "portrait": {
+              "subject": "man",
+              "hair": "curly, gray",
+              "expression": "smiling",
+              "clothing": "dark suit, white shirt"
+            },
+            "background_color": "cream/beige"
+          },
+          "spine": {
+            "text": "Flourish",
+            "color": "cream/beige"
+          },
+          "pages": "cream-colored",
+          "binding": "hardcover"
+        },
+        "person": {
+          "visible_parts": "hands, wrist, part of torso",
+          "clothing": {
+            "shirt": "light blue, long-sleeved"
+          },
+          "accessories": {
+            "bracelet": "beaded, multi-colored"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        436.0,
+        708.0,
+        580.0,
+        772.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling middle-aged man with wavy, shoulder-length gray hair and a goatee, wearing a dark jacket over a white collared shirt, is shown in a close-up portrait against a light beige background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "facial_hair": "goatee",
+        "expression": "smiling",
+        "clothing": {
+          "jacket": "dark",
+          "shirt": "white"
+        },
+        "pose": "facing forward",
+        "background": "light beige"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        210.0,
+        190.0,
+        856.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair and round wire-rimmed glasses sits in an ornate wooden armchair, reading a book titled 'Flourish' by I. Happy Eyer. She wears a light blue, long-sleeved blouse with a bow at the neck and matching light blue trousers, with a gentle, focused expression on her face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "accessories": {
+          "glasses": "round, wire-rimmed",
+          "earrings": "small, stud",
+          "necklace": "thin, delicate"
+        },
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "color": "light blue",
+            "sleeves": "long",
+            "neckline": "bow tie"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "light blue"
+          }
+        },
+        "pose": "sitting, holding an open book",
+        "expression": "calm, focused, slight smile",
+        "object": {
+          "type": "book",
+          "title": "Flourish",
+          "author": "I. Happy Eyer"
+        },
+        "furniture": {
+          "chair": "wooden armchair with floral upholstery"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        -1.0,
+        776.0,
+        255.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a round wooden side table featuring a dark brown, turned pedestal leg with a spindle-like design. The tabletop has a smooth, polished finish with visible wood grain, and a glass vase containing green stems sits on the surface.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "shape": "round",
+        "leg_style": "turned pedestal",
+        "finish": "polished",
+        "object_on_top": "glass vase with green stems"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.671875,
+      "box": [
+        -1.0,
+        -1.0,
+        208.0,
+        484.0
+      ],
+      "mask": "image_12.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up view of a white window frame with a horizontal crossbar and a small black latch mechanism, set against a bright, out-of-focus background of greenery. In the lower foreground, a cluster of white flowers with green stems is visible, partially obscuring the bottom of the frame.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "painted wood or vinyl",
+        "hardware": {
+          "latch": "black",
+          "position": "top left of horizontal bar"
+        },
+        "background": "blurred green and white light",
+        "foreground_objects": {
+          "type": "flowers",
+          "color": "white",
+          "stems": "green"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        1.0,
+        0.0,
+        384.0,
+        596.0
+      ],
+      "mask": "image_12.masks/window_1.png",
+      "crop": null,
+      "description": "A white-framed window with a visible latch mechanism is partially open, allowing soft, diffused natural light to enter the room. The window is positioned behind a bouquet of white peonies, with the background outside the glass appearing blurred and bright.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely wood or painted metal",
+        "state": "partially open",
+        "glass": "clear, showing a blurred outdoor view",
+        "lighting": "bright, natural daylight",
+        "position": "background, behind flowers",
+        "details": "visible window latch/handle at the top left"
+      },
+      "parse_ok": true
+    }
+  ]
+}

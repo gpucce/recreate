@@ -1,0 +1,262 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        864.0,
+        -2.0,
+        1024.0,
+        896.0
+      ],
+      "mask": "image_7.masks/flag_0.png",
+      "crop": null,
+      "description": "A close-up of a person's arm and hand, wearing a black suit jacket with a visible button on the cuff. The person is standing in front of a flag with horizontal stripes of white, blue, and red.",
+      "attributes": {
+        "clothing": {
+          "jacket": "black",
+          "cuff": "buttoned"
+        },
+        "flag": {
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "horizontal"
+        },
+        "pose": "standing",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        -1.0,
+        -2.0,
+        186.0,
+        896.0
+      ],
+      "mask": "image_7.masks/flag_1.png",
+      "crop": null,
+      "description": "A close-up of a flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag is slightly wrinkled and appears to be made of fabric. To the right, part of a person wearing a dark suit is visible, standing in front of the flag. The background includes a decorative red curtain with gold trim.",
+      "attributes": {
+        "flag": {
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "material": "fabric",
+          "condition": "slightly wrinkled"
+        },
+        "person": {
+          "clothing": {
+            "suit": "dark"
+          },
+          "position": "in front of the flag"
+        },
+        "background": {
+          "curtain": {
+            "color": "red",
+            "trim": "gold"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 2,
+      "score": 0.9140625,
+      "box": [
+        652.0,
+        -5.0,
+        812.0,
+        372.0
+      ],
+      "mask": "image_7.masks/flag_2.png",
+      "crop": null,
+      "description": "A close-up portrait of a middle-aged to older Caucasian man with short, thinning light brown hair, wearing a dark suit jacket, a white collared shirt, and a maroon tie. He has a serious, neutral expression and is looking slightly to the side. The background features a red flag with a yellow stripe at the bottom and a red patterned wall.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "style": "swept back"
+        },
+        "facial_expression": "serious",
+        "clothing": {
+          "jacket": "dark suit",
+          "shirt": "white",
+          "tie": "maroon"
+        },
+        "background": {
+          "flag": {
+            "colors": [
+              "red",
+              "yellow"
+            ],
+            "orientation": "vertical"
+          },
+          "wall": "red patterned"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 3,
+      "score": 0.9375,
+      "box": [
+        211.0,
+        -2.0,
+        352.0,
+        366.0
+      ],
+      "mask": "image_7.masks/flag_3.png",
+      "crop": null,
+      "description": "A close-up view of a flag featuring a solid red field with a yellow star visible in the lower left corner, positioned behind a man with grey hair wearing a dark suit and white shirt.",
+      "attributes": {
+        "flag": {
+          "background_color": "red",
+          "symbol": "yellow star",
+          "symbol_position": "lower left",
+          "material": "fabric",
+          "state": "draped"
+        },
+        "person": {
+          "hair_color": "grey",
+          "clothing": {
+            "jacket": "dark suit",
+            "shirt": "white"
+          },
+          "position": "foreground right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        480.0,
+        154.0,
+        976.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, thinning gray hair and a serious expression stands in a formal setting, wearing a black suit, white dress shirt, and a maroon tie. He is shaking hands with another person whose arm is partially visible on the left, while standing in front of a white marble bust and national flags.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "short, thinning"
+        },
+        "clothing": {
+          "suit": "black",
+          "shirt": "white",
+          "tie": "maroon"
+        },
+        "pose": "standing, shaking hands",
+        "expression": "serious",
+        "background": {
+          "objects": [
+            "white marble bust",
+            "red and yellow flag",
+            "white, blue, and red flag"
+          ],
+          "setting": "formal, ornate interior"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        149.0,
+        172.0,
+        548.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "An older man with short, combed-back gray hair stands in a formal setting, wearing a dark navy suit, white dress shirt, and a blue patterned tie. He is smiling slightly while shaking hands with another person, whose arm is partially visible on the right side of the frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "hair": {
+          "color": "gray",
+          "style": "short, combed back"
+        },
+        "clothing": {
+          "suit": {
+            "color": "dark navy",
+            "type": "formal"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "color": "blue",
+            "pattern": "textured or dotted"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "slight smile, composed",
+        "background_elements": [
+          "flags (partially visible: red/yellow and blue/white/red)",
+          "marble bust sculpture",
+          "ornate gold detailing"
+        ],
+        "social_role": "likely political or diplomatic figure"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.76953125,
+      "box": [
+        384.0,
+        83.0,
+        656.0,
+        428.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up crop showing the left side of a middle-aged man's face with short, graying hair and a slight smile, wearing a dark suit jacket and a light blue shirt. He is positioned in the foreground on the left, partially obscuring a white marble bust of a classical figure in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "expression": "slight smile",
+        "clothing": {
+          "jacket": "dark suit",
+          "shirt": "light blue"
+        },
+        "position": "foreground left",
+        "background": "white marble bust"
+      },
+      "parse_ok": true
+    }
+  ]
+}

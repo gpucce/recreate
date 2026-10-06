@@ -1,0 +1,184 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        206.0,
+        382.0,
+        552.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with curly light brown hair smiles broadly while holding a black DSLR camera with both hands in front of his chest. He wears a blue and white plaid button-down shirt over a white t-shirt, with a blank white ID badge hanging from a lanyard around his neck and a camera strap over his shoulders.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": "blue and white plaid shirt",
+          "inner": "white t-shirt",
+          "accessories": [
+            "white ID badge",
+            "camera strap"
+          ]
+        },
+        "pose": "standing, holding camera",
+        "object": {
+          "type": "DSLR camera",
+          "color": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        780.0,
+        576.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A young girl with long brown hair is seated at a wooden desk, wearing a white short-sleeved polo shirt and writing in an open notebook with a black pen. She is looking down with a focused expression, and the arm of an adult in a grey sweater is partially visible on the left side of the frame.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "polo",
+            "sleeves": "short"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "expression": "focused",
+        "objects": {
+          "pen": "black",
+          "notebook": "open"
+        },
+        "setting": "indoor, at a desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        -2.0,
+        536.0,
+        236.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with short brown hair is seated at a desk, looking down while writing on a white sheet of paper with a black pen. He is wearing a light blue button-down shirt with a white lanyard around his neck.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue"
+          },
+          "accessories": {
+            "lanyard": "white"
+          }
+        },
+        "pose": "sitting, writing",
+        "action": "writing with a pen",
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.94921875,
+      "box": [
+        168.0,
+        496.0,
+        320.0,
+        680.0
+      ],
+      "mask": "image_12.masks/person_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus shot of a young girl with long, straight black hair and bangs, wearing a white collared shirt, positioned in the background between two other individuals. In the foreground, the shoulder of a person wearing a blue and white plaid shirt is visible, with a hand resting on it, while the back of a boy's head is visible on the left.",
+      "attributes": {
+        "subject": "girl",
+        "focus": "blurred",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "shirt": "white"
+        },
+        "position": "center background",
+        "foreground_elements": {
+          "left": "back of boy's head",
+          "right": "shoulder of person in blue plaid shirt with hand on it"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.875,
+      "box": [
+        230.0,
+        96.0,
+        856.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_4.png",
+      "crop": null,
+      "description": "A smiling woman with long brown hair stands next to a young boy with curly brown hair, both holding black DSLR cameras with straps around their necks. The woman wears a white button-down shirt under a light grey cardigan and beige trousers, while the boy wears a blue and white plaid shirt over a white t-shirt with a white ID badge hanging from a lanyard.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "shirt": "white button-down",
+            "cardigan": "light grey"
+          },
+          "bottom": "beige trousers"
+        },
+        "accessories": {
+          "camera": "black DSLR with lens",
+          "strap": "black with red trim"
+        },
+        "pose": "standing, holding camera with both hands"
+      },
+      "parse_ok": true
+    }
+  ]
+}

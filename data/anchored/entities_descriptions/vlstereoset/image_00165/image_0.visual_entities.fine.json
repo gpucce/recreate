@@ -1,0 +1,169 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        980.0,
+        452.0,
+        1072.0,
+        544.0
+      ],
+      "mask": "image_0.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A light blue ceramic mug with a glossy finish is held by a hand gripping the handle on the left side. The mug has a cylindrical shape with a slightly flared rim and a smooth surface that reflects light, indicating a glazed material.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "light blue",
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": "present, left side",
+        "held_by": "hand",
+        "lighting": "reflections visible on surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.8515625,
+      "box": [
+        536.0,
+        576.0,
+        644.0,
+        684.0
+      ],
+      "mask": "image_0.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, glossy finish is held by a hand, showing a C-shaped handle on the left side. The mug is cylindrical with a slightly tapered base and a rounded rim, appearing empty and clean.",
+      "attributes": {
+        "color": "white",
+        "material": "ceramic",
+        "shape": "cylindrical",
+        "handle": {
+          "position": "left",
+          "shape": "C-shaped"
+        },
+        "surface": "smooth, glossy",
+        "contents": "empty",
+        "condition": "clean",
+        "size": "standard"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        772.0,
+        234.0,
+        1208.0,
+        828.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged Black man with short, curly black hair sits on a white chair, wearing a sage green t-shirt and khaki pants. He holds a light blue ceramic mug in his right hand near his chest while looking off to the left with a serious expression, and another person's hand rests on his left shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "sage green"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "khaki"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "gaze": "looking left",
+        "accessories": {
+          "holding": "light blue mug"
+        },
+        "interaction": "hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        206.0,
+        121.5,
+        864.0,
+        828.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "An older, bald Black man with a gray goatee and wire-rimmed glasses sits on a beige couch, wearing a light blue polo shirt and khaki shorts. He holds a white mug in his right hand while placing his left hand on the shoulder of another person, looking at them with a serious expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "hair": {
+          "head": "bald",
+          "facial_hair": "gray goatee"
+        },
+        "accessories": {
+          "glasses": "wire-rimmed",
+          "wrist": "silver watch on left, silver bracelet on right"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved polo shirt",
+          "bottom": "khaki cargo shorts"
+        },
+        "pose": "sitting, leaning forward, hand on another person's shoulder",
+        "expression": "serious, attentive",
+        "holding": "white ceramic mug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        0.0,
+        352.0,
+        1184.0,
+        824.0
+      ],
+      "mask": "image_0.masks/sofa_0.png",
+      "crop": null,
+      "description": "A beige fabric sofa with a plaid pattern featuring thin brown stripes, adorned with large, textured white throw pillows and a striped beige cushion, occupied by two men sitting side-by-side.",
+      "attributes": {
+        "color": "beige",
+        "pattern": "plaid with brown stripes",
+        "material": "fabric",
+        "cushions": [
+          {
+            "color": "white",
+            "texture": "textured",
+            "type": "throw pillow"
+          },
+          {
+            "color": "beige",
+            "pattern": "striped",
+            "type": "cushion"
+          }
+        ],
+        "occupants": 2,
+        "position": "horizontal"
+      },
+      "parse_ok": true
+    }
+  ]
+}

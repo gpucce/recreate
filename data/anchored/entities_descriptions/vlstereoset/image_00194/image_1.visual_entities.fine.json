@@ -1,0 +1,56 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        3.0,
+        -2.0,
+        296.0,
+        936.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A person is shown from the waist down, wearing a black top, blue pants, and black shoes with an orange sole. They are wearing a yellow glove on their right hand, which is gripping the handle of a black shopping cart.",
+      "attributes": {
+        "clothing": {
+          "top": "black",
+          "pants": "blue",
+          "shoes": "black with orange sole"
+        },
+        "accessories": {
+          "glove": "yellow"
+        },
+        "pose": "standing, pushing a shopping cart",
+        "object": "black shopping cart"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        158.0,
+        200.0,
+        864.0,
+        952.0
+      ],
+      "mask": "image_1.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black wireframe shopping cart is shown in profile, featuring a grid-like basket, a handlebar with a yellow-gloved hand gripping it, and four black wheels. The cart is positioned on a light gray surface with a subtle shadow beneath it.",
+      "attributes": {
+        "color": "black",
+        "material": "metal wire",
+        "structure": "wireframe basket, handlebar, four wheels",
+        "grip": "yellow-gloved hand on handlebar",
+        "position": "side view, stationary",
+        "background": "light gray surface"
+      },
+      "parse_ok": true
+    }
+  ]
+}

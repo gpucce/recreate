@@ -1,0 +1,355 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "bookshelf",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        458.0,
+        308.0,
+        704.0,
+        820.0
+      ],
+      "mask": "image_13.masks/bookshelf_0.png",
+      "crop": null,
+      "description": "A white, open-faced bookshelf stands in the background, featuring multiple shelves holding a small collection of books and binders. The items on the shelf include a few books with light-colored spines and a dark, possibly black, binder or book, all slightly out of focus.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or painted wood",
+        "style": "modern, minimalist",
+        "contents": {
+          "books": [
+            {
+              "spine_color": "light beige",
+              "quantity": "2-3"
+            },
+            {
+              "spine_color": "black",
+              "type": "binder or hardcover book",
+              "quantity": "1"
+            }
+          ],
+          "other_items": [
+            {
+              "description": "small, indistinct object, possibly a plant or decorative item",
+              "color": "yellow/orange"
+            }
+          ]
+        },
+        "focus": "blurred",
+        "position": "background, behind the person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        884.0,
+        808.0,
+        1020.0,
+        944.0
+      ],
+      "mask": "image_13.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, glossy finish sits on a light wooden surface. The mug has a standard cylindrical shape with a curved handle on the right side and an open top.",
+      "attributes": {
+        "color": "white",
+        "material": "ceramic",
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": {
+          "position": "right",
+          "shape": "curved"
+        },
+        "surface": "wooden table",
+        "contents": "empty"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        0.5,
+        820.0,
+        148.0,
+        956.0
+      ],
+      "mask": "image_13.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, glossy finish and a curved handle on the left side, sitting on a light-colored surface with a blurred background.",
+      "attributes": {
+        "color": "white",
+        "material": "ceramic",
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": {
+          "position": "left",
+          "shape": "curved"
+        },
+        "contents": "empty",
+        "surface": "smooth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        520.0,
+        844.0,
+        840.0,
+        924.0
+      ],
+      "mask": "image_13.masks/clipboard_0.png",
+      "crop": null,
+      "description": "A close-up view of a black clipboard holding a stack of white paper documents with visible text lines, secured by a silver metal clip at the bottom edge, resting on a light wood-grain surface.",
+      "attributes": {
+        "object": "clipboard",
+        "board_color": "black",
+        "board_material": "plastic or hardboard",
+        "clip": {
+          "color": "silver",
+          "material": "metal",
+          "position": "bottom"
+        },
+        "paper": {
+          "color": "white",
+          "content": "text lines",
+          "stack": "multiple sheets"
+        },
+        "background": "light wood grain surface",
+        "view_angle": "top-down, slightly angled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 1,
+      "score": 0.8671875,
+      "box": [
+        148.0,
+        876.0,
+        516.0,
+        948.0
+      ],
+      "mask": "image_13.masks/clipboard_1.png",
+      "crop": null,
+      "description": "A close-up view of a black clipboard holding a sheet of white paper with a metal clip at the bottom edge, resting on a light wood-grain surface. A person's hands are visible at the top, holding a pen and writing on the paper.",
+      "attributes": {
+        "object": "clipboard",
+        "color": "black",
+        "material": "plastic or wood",
+        "clip": {
+          "material": "metal",
+          "color": "silver",
+          "position": "bottom"
+        },
+        "paper": {
+          "color": "white",
+          "content": "text lines"
+        },
+        "surface": "light wood",
+        "action": "writing",
+        "hands": "visible at top"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        366.0,
+        800.0,
+        466.0,
+        880.0
+      ],
+      "mask": "image_13.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand with medium-brown skin resting on a white surface, likely paper, with fingers slightly curled. The hand wears a thin gold band on the ring finger and a dark-colored watch or bracelet on the wrist.",
+      "attributes": {
+        "skin_tone": "medium brown",
+        "hand": "right",
+        "pose": "resting on surface",
+        "accessories": {
+          "ring": "gold band on ring finger",
+          "wrist": "dark watch or bracelet"
+        },
+        "surface": "white paper or document"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        820.0,
+        616.0,
+        956.0,
+        720.0
+      ],
+      "mask": "image_13.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand with the palm facing up and fingers slightly curled, appearing to be in a gesture of offering or asking. The person is wearing a light blue, short-sleeved shirt with a soft, possibly cotton texture.",
+      "attributes": {
+        "hand": {
+          "palm": "up",
+          "fingers": "slightly curled",
+          "skin_tone": "light"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "sleeve_length": "short",
+            "material": "soft fabric"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        464.0,
+        592.0,
+        608.0,
+        704.0
+      ],
+      "mask": "image_13.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand, palm facing up and slightly cupped, with fingers gently curved and relaxed. The skin tone is light, and the hand appears to be in a gesture of offering or presenting.",
+      "attributes": {
+        "hand": {
+          "palm": "up",
+          "fingers": "curved",
+          "skin_tone": "light",
+          "gesture": "offering or presenting"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.89453125,
+      "box": [
+        218.0,
+        804.0,
+        346.0,
+        892.0
+      ],
+      "mask": "image_13.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand holding a black pen, poised to write on a white surface. The hand is in a writing position with fingers curled around the pen, and the skin tone is light.",
+      "attributes": {
+        "hand": {
+          "position": "writing",
+          "grip": "holding pen",
+          "skin_tone": "light"
+        },
+        "pen": {
+          "color": "black",
+          "type": "ballpoint or similar"
+        },
+        "surface": {
+          "color": "white",
+          "type": "paper or similar"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        468.0,
+        264.0,
+        1004.0,
+        848.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with shoulder-length blonde hair is seated at a table, wearing a light blue button-down shirt with sleeves rolled up. She has a confused or questioning expression with raised eyebrows and is gesturing with both hands open, palms up, while looking to her left.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          }
+        },
+        "expression": "confused or questioning",
+        "pose": "seated, gesturing with open hands",
+        "accessories": {
+          "earrings": "small stud"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        26.0,
+        238.0,
+        482.0,
+        888.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair sits at a table, wearing a blue denim jacket over a mustard yellow t-shirt. She holds a black pen in her right hand, poised over a notepad, while looking to the side with a serious, focused expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue",
+            "details": "buttoned, chest pockets"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "mustard yellow"
+          },
+          "accessories": {
+            "watch": "silver band on left wrist",
+            "ring": "on left ring finger"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "expression": "serious, attentive",
+        "action": "writing or holding a pen",
+        "objects": {
+          "pen": "black with silver clip",
+          "notepad": "white paper on clipboard",
+          "mug": "white ceramic mug in foreground"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

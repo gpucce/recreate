@@ -1,0 +1,65 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.5078125,
+      "box": [
+        2.0,
+        336.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "A rugged mountain range with vibrant, multicolored stripes of red, orange, yellow, and white rock formations, featuring a winding road cutting through the landscape and sparse vegetation in the foreground.",
+      "attributes": {
+        "colors": [
+          "red",
+          "orange",
+          "yellow",
+          "white"
+        ],
+        "texture": "layered, eroded rock",
+        "features": [
+          "winding road",
+          "sparse vegetation"
+        ],
+        "lighting": "natural sunlight",
+        "position": "foreground to background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        0.0,
+        2.0,
+        1020.0,
+        396.0
+      ],
+      "mask": "image_7.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear blue sky with thin, wispy cirrus clouds scattered across the upper portion, transitioning to a lighter blue near the horizon where a range of colorful, eroded mountains is visible.",
+      "attributes": {
+        "sky_color": "blue",
+        "cloud_type": "cirrus",
+        "cloud_density": "sparse",
+        "horizon": "mountainous",
+        "mountain_colors": [
+          "red",
+          "orange",
+          "yellow",
+          "brown"
+        ],
+        "lighting": "bright",
+        "time_of_day": "daytime"
+      },
+      "parse_ok": true
+    }
+  ]
+}

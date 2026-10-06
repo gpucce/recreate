@@ -1,0 +1,151 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "border",
+      "index": 0,
+      "score": 0.73828125,
+      "box": [
+        2.5,
+        61.0,
+        636.0,
+        420.0
+      ],
+      "mask": "image_0.masks/border_0.png",
+      "crop": null,
+      "description": "A medium shot captures an elderly woman with short white hair wearing a light green cardigan over a white turtleneck on the left, and a younger woman with long brown hair wearing a black top and white cardigan on the right, both with their faces blurred. The background is an out-of-focus indoor setting with a framed picture and a blue chair, overlaid with the white text 'College Senior Companions' in the lower left corner.",
+      "attributes": {
+        "entity_type": "two people",
+        "person_1": {
+          "age": "elderly",
+          "gender": "female",
+          "hair": {
+            "color": "white",
+            "length": "short"
+          },
+          "clothing": {
+            "outer": "light green cardigan",
+            "inner": "white turtleneck"
+          },
+          "accessories": "gold earrings",
+          "face": "blurred"
+        },
+        "person_2": {
+          "age": "young adult",
+          "gender": "female",
+          "hair": {
+            "color": "brown",
+            "length": "shoulder-length"
+          },
+          "clothing": {
+            "outer": "white cardigan",
+            "inner": "black top"
+          },
+          "accessories": "small earrings",
+          "face": "blurred"
+        },
+        "text_overlay": {
+          "content": "College Senior Companions",
+          "color": "white",
+          "position": "bottom left"
+        },
+        "background": {
+          "setting": "indoor",
+          "objects": [
+            "framed picture",
+            "blue chair"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        440.0,
+        77.0,
+        624.0,
+        404.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, straight brown hair is shown from the chest up, wearing a black tank top under a white cardigan. She has a small, dangling earring in her visible ear and is facing slightly to the left.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "black"
+          },
+          "outerwear": {
+            "type": "cardigan",
+            "color": "white"
+          }
+        },
+        "accessories": {
+          "earrings": "small, dangling"
+        },
+        "pose": "facing left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        23.75,
+        102.0,
+        276.0,
+        404.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair is shown in a close-up profile view facing right, wearing a light mint green cardigan over a white turtleneck. Her face is blurred, and she is positioned in front of a background featuring a framed picture and red flowers, with large white text overlaying the bottom of the image.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "outer": {
+            "type": "cardigan",
+            "color": "light green"
+          },
+          "inner": {
+            "type": "turtleneck",
+            "color": "white"
+          }
+        },
+        "pose": "profile view facing right",
+        "face": "blurred",
+        "accessories": {
+          "earrings": "gold"
+        },
+        "background": {
+          "objects": [
+            "framed picture",
+            "red flowers"
+          ]
+        },
+        "overlay": {
+          "text": "College Se... Companion"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

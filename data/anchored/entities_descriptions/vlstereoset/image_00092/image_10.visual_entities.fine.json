@@ -1,0 +1,79 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        150.0,
+        27.0,
+        358.0,
+        231.0
+      ],
+      "mask": "image_10.masks/clock_0.png",
+      "crop": null,
+      "description": "A round analog clock with a white face and black Roman numerals, featuring black hour and minute hands and a thin second hand, set against a light purple background.",
+      "attributes": {
+        "shape": "round",
+        "face_color": "white",
+        "numerals": "black Roman numerals",
+        "hands": {
+          "hour_hand": "black",
+          "minute_hand": "black",
+          "second_hand": "thin black"
+        },
+        "background_color": "light purple",
+        "style": "classic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        132.0,
+        132.0,
+        884.0,
+        988.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits cross-legged on a bed, wearing a white short-sleeved t-shirt and cream-colored ribbed pajama pants with a drawstring waist. She has a beige quilted sleep mask covering her eyes and is looking forward with a calm, neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pajama pants",
+            "color": "cream",
+            "texture": "ribbed",
+            "waist": "drawstring"
+          },
+          "accessories": {
+            "sleep_mask": {
+              "color": "beige",
+              "pattern": "quilted"
+            }
+          }
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a bed"
+      },
+      "parse_ok": true
+    }
+  ]
+}

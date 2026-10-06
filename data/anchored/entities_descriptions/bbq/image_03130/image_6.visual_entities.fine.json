@@ -1,0 +1,277 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        768.0,
+        492.0,
+        1024.0,
+        1012.0
+      ],
+      "mask": "image_6.masks/furniture_0.png",
+      "crop": null,
+      "description": "A wooden bed with a light-colored headboard and frame, dressed in white bedding and a beige throw blanket, positioned against a plain wall.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "style": "modern",
+        "components": [
+          "headboard",
+          "frame",
+          "mattress",
+          "bedding"
+        ],
+        "bedding": {
+          "sheets": "white",
+          "pillow": "white",
+          "throw": "beige"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.890625,
+      "box": [
+        -0.375,
+        860.0,
+        44.5,
+        1024.0
+      ],
+      "mask": "image_6.masks/furniture_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a piece of furniture featuring a smooth, white, rounded top surface supported by a light-colored wooden leg. The background is a blurred, warm brown tone, suggesting a wooden wall or paneling.",
+      "attributes": {
+        "material": {
+          "top": "white, smooth, possibly upholstered or plastic",
+          "leg": "light wood"
+        },
+        "color": {
+          "top": "white",
+          "leg": "beige/light brown",
+          "background": "brown"
+        },
+        "shape": {
+          "top": "rounded, curved edge",
+          "leg": "cylindrical, tapered"
+        },
+        "focus": "blurry/out of focus",
+        "type": "furniture component (likely chair or stool)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        -2.0,
+        688.0,
+        262.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/furniture_2.png",
+      "crop": null,
+      "description": "A light-colored wooden side table or nightstand with a natural grain finish, featuring an open shelf on top holding a stack of books and a single drawer below with a small round knob. The table stands on four tapered legs and is positioned next to a white chair and a person wearing blue clothing.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "natural grain",
+        "structure": {
+          "top": "flat surface",
+          "middle": "open shelf",
+          "bottom": "single drawer",
+          "legs": "four tapered legs"
+        },
+        "hardware": {
+          "drawer_knob": "small round dark knob"
+        },
+        "contents": {
+          "shelf": "stack of books"
+        },
+        "style": "mid-century modern or minimalist"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.67578125,
+      "box": [
+        498.0,
+        620.0,
+        872.0,
+        1012.0
+      ],
+      "mask": "image_6.masks/furniture_3.png",
+      "crop": null,
+      "description": "A person is standing in a bedroom, wearing a light blue button-up shirt with rolled-up sleeves and beige pants. The person is holding a wooden cane with a dark handle in their right hand.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, button-up, long-sleeved with rolled-up cuffs",
+          "pants": "beige, loose-fitting"
+        },
+        "accessories": {
+          "cane": "wooden, dark handle"
+        },
+        "pose": "standing, holding cane with right hand",
+        "background": {
+          "bed": "white bedding, wooden frame"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 4,
+      "score": 0.84375,
+      "box": [
+        444.0,
+        107.0,
+        708.0,
+        328.0
+      ],
+      "mask": "image_6.masks/furniture_4.png",
+      "crop": null,
+      "description": "A light-colored wooden bookshelf with a simple, modern design is visible in the background, featuring an open shelf holding a row of books with spines in shades of white, beige, and dark gray, along with a small, blurry green plant in a white pot.",
+      "attributes": {
+        "material": "light wood",
+        "color": "light brown",
+        "type": "bookshelf",
+        "style": "modern, minimalist",
+        "contents": {
+          "books": {
+            "count": "5-6",
+            "spine_colors": [
+              "white",
+              "beige",
+              "dark gray"
+            ]
+          },
+          "plant": {
+            "color": "green",
+            "pot_color": "white"
+          }
+        },
+        "position": "background",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 5,
+      "score": 0.76953125,
+      "box": [
+        828.0,
+        644.0,
+        868.0,
+        684.0
+      ],
+      "mask": "image_6.masks/furniture_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        430.0,
+        188.0,
+        840.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair stands with a somber expression, looking downward while holding a wooden cane in her right hand. She wears a light blue button-down shirt with rolled sleeves and beige trousers, while a hand from a person in a blue uniform rests on her shoulder in a comforting gesture.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, wavy"
+        },
+        "facial_expression": "sad, looking down",
+        "clothing": {
+          "top": "light blue button-down shirt",
+          "bottom": "beige trousers",
+          "sleeves": "rolled up"
+        },
+        "accessories": {
+          "cane": "wooden, held in right hand"
+        },
+        "pose": "standing, slightly hunched",
+        "interaction": "being comforted by a hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        222.0,
+        82.0,
+        576.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with black hair tied back in a ponytail and wearing black-rimmed glasses is dressed in a light blue short-sleeved V-neck scrub top and matching pants. She is standing and looking down with a gentle expression, placing her hand on the shoulder of an elderly person who is partially visible on the right side of the frame.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved V-neck scrub shirt with chest pocket",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning slightly forward, hand on another person's shoulder",
+        "expression": "gentle, attentive",
+        "social_role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        -1.5,
+        0.0,
+        170.0,
+        592.0
+      ],
+      "mask": "image_6.masks/window_0.png",
+      "crop": null,
+      "description": "A white-framed window with multiple panes is visible, allowing bright natural light to enter the room. In the foreground, a vase of orange and yellow flowers sits on the windowsill, slightly out of focus.",
+      "attributes": {
+        "frame_color": "white",
+        "pane_count": "6",
+        "lighting": "bright",
+        "foreground_object": "vase of flowers",
+        "flower_colors": [
+          "orange",
+          "yellow"
+        ],
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    }
+  ]
+}

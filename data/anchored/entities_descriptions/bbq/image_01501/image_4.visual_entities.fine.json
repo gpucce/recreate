@@ -1,0 +1,87 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        82.0,
+        126.0,
+        616.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair sits facing forward with a calm, neutral expression, wearing a dark navy blue button-down cardigan and a dark skirt with a small floral pattern. Her hands are clasped in her lap, and a younger woman's hand rests on her shoulder from the right side.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "expression": "neutral",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "navy blue",
+            "details": "button-down, long sleeves"
+          },
+          "bottom": {
+            "type": "skirt",
+            "color": "dark blue",
+            "pattern": "floral"
+          }
+        },
+        "pose": "sitting",
+        "hands": "clasped in lap"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        130.0,
+        90.0,
+        968.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair is seated next to an elderly woman, resting her arm around the older woman's shoulder. She wears a white button-down shirt with a red star emblem on the pocket, a maroon tie, and black pants, smiling gently at the camera.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "details": "red star emblem on left chest pocket"
+          },
+          "tie": {
+            "color": "maroon"
+          },
+          "pants": {
+            "color": "black"
+          }
+        },
+        "pose": "seated, leaning towards the elderly woman with one arm around her shoulder",
+        "expression": "gentle smile",
+        "accessories": {
+          "ring": "visible on left hand"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

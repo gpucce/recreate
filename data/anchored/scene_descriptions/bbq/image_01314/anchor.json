@@ -1,0 +1,106 @@
+{
+  "scene": {
+    "background": "seamless, pure white",
+    "lighting": "natural, even lighting that minimizes shadows and highlights the textures of their clothing and the bench’s wood grain and metalwork",
+    "camera_angle": "eye-level",
+    "style": "realistic, high-fidelity photograph with no stylistic filters or digital artifacts",
+    "mood": "warm, supportive, and focused on intergenerational connection through technology",
+    "color_palette": "soft and muted, dominated by the pastel pink of the cardigan, the blue of the jeans, the natural wood tones of the bench, and the metallic sheen of the phone"
+  },
+  "entities": [
+    {
+      "type": "bench",
+      "attributes": {
+        "material": "wood",
+        "color": "natural wood tones",
+        "details": {
+          "armrests": "ornate black wrought-iron",
+          "backrests": "ornate black wrought-iron"
+        }
+      },
+      "id": "bench_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "male",
+        "hair": {
+          "length": "short",
+          "color": "dark"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-up",
+            "pattern": "blue-and-white checkered",
+            "underlayer": "white t-shirt"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "leaning slightly toward the woman, right arm resting gently on her shoulder, left hand pointing at the smartphone screen"
+      },
+      "id": "man_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "older",
+        "gender": "female",
+        "hair": {
+          "length": "short",
+          "style": "styled",
+          "color": "grayish-blonde"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "knitted cardigan",
+            "color": "soft, light pink"
+          },
+          "top": {
+            "color": "white"
+          },
+          "pants": {
+            "type": "trousers",
+            "color": "brown"
+          }
+        },
+        "pose": "holding a silver smartphone in both hands, fingers actively interacting with the screen, gaze directed downward at the device, relaxed but attentive"
+      },
+      "id": "woman_1",
+      "count": 1
+    },
+    {
+      "type": "smartphone",
+      "attributes": {
+        "color": "silver"
+      },
+      "id": "smartphone_1",
+      "count": 2
+    },
+    {
+      "type": "wood",
+      "attributes": {
+        "color": "natural wood tones",
+        "texture": "grain"
+      },
+      "id": "wood_1",
+      "count": 1
+    },
+    {
+      "type": "metal",
+      "attributes": {
+        "color": "black",
+        "texture": "wrought-iron"
+      },
+      "id": "metal_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

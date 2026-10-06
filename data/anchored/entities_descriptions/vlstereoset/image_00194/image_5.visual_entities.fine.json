@@ -1,0 +1,67 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        392.0,
+        188.0,
+        696.0,
+        804.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A stylized, flat-design illustration of a man with black hair and yellow skin walking to the left while pushing a black wheeled cart or trolley. He is wearing a long-sleeved black shirt and blue pants with black shoes.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "black",
+          "style": "short, swept back"
+        },
+        "skin_tone": "yellow",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking left",
+        "action": "pushing a cart",
+        "object": {
+          "type": "cart or trolley",
+          "color": "black",
+          "position": "left of person"
+        },
+        "style": "flat vector illustration",
+        "background": "solid light green"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        166.0,
+        492.0,
+        454.0,
+        804.0
+      ],
+      "mask": "image_5.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A black shopping cart with a grid-like basket and two visible wheels is positioned on a light green background, partially obscured by a person's hand and leg on the right side.\", \"attributes\": {\"color\": \"black\", \"material\": \"metal (implied by typical shopping cart design)\", \"structure\": {\"basket\": \"grid pattern\", \"wheels\": \"two visible, round\", \"handle\": \"partially visible, being held by a hand\"}, \"position\": \"centered in the frame, slightly tilted to the left\", \"context\": \"being pushed by a person, indicated by the hand and leg on the right\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

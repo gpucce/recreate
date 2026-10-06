@@ -1,0 +1,148 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        524.0,
+        348.0,
+        972.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with shoulder-length brown hair stands in the foreground, looking down with a focused expression at a white piece of paper she holds in both hands. She wears a white t-shirt with thin horizontal stripes in blue and yellow underneath blue denim overalls with metal clasps, while an adult male stands behind her with his hand on her shoulder, wearing a green polo shirt and a black DSLR camera hanging from a strap around his neck.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "expression": "focused, looking down",
+        "clothing": {
+          "top": "white t-shirt with blue and yellow horizontal stripes",
+          "outerwear": "blue denim overalls with metal buckles",
+          "accessories": "none visible on girl"
+        },
+        "pose": "standing, holding paper with both hands",
+        "action": "reading or looking at a document",
+        "context": {
+          "background_person": "adult male with grey beard, green polo shirt, black camera with strap, hand on girl's shoulder"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        74.0,
+        264.0,
+        536.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair stands in the foreground, wearing a blue denim jacket over a maroon t-shirt, looking down with a serious expression while holding a white sheet of paper. Behind him, an older man with a grey beard and a camera strap around his neck rests a hand on the boy's shoulder, also holding a piece of paper.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue",
+            "details": "buttoned pockets, collar"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "maroon"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "focused, serious",
+        "holding": "white paper",
+        "context": "being supervised by an adult male"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        100.0,
+        40.0,
+        1004.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with graying hair and a beard stands behind two children, placing his hands on their shoulders while looking down at papers they are holding. He wears a gray long-sleeved shirt and has a black camera with a strap hanging around his neck.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "short, wavy"
+        },
+        "facial_hair": {
+          "color": "gray and black",
+          "style": "full beard and mustache"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "gray",
+            "material": "cotton"
+          },
+          "accessories": {
+            "item": "camera",
+            "color": "black",
+            "position": "hanging around neck"
+          }
+        },
+        "pose": "standing behind children, hands on their shoulders, looking down",
+        "expression": "focused, attentive"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.8125,
+      "box": [
+        908.0,
+        408.0,
+        964.0,
+        548.0
+      ],
+      "mask": "image_5.masks/person_3.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus figure is visible in the background, appearing as a dark silhouette with indistinct features and a dark blue or purple garment. In the foreground, a textured, light beige or tan fabric, possibly a sleeve or shoulder, is visible but also out of focus.",
+      "attributes": {
+        "focus": "blurred",
+        "clothing": {
+          "color": "dark blue",
+          "type": "indistinct"
+        },
+        "foreground_object": {
+          "color": "beige",
+          "texture": "textured fabric"
+        },
+        "pose": "indistinct"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "chessboard",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        2.0,
+        880.0,
+        848.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/chessboard_0.png",
+      "crop": null,
+      "description": "A close-up, low-angle view of a wooden chessboard with light and dark squares, featuring several wooden chess pieces in the foreground and background. The pieces are primarily light-colored wood with green bases, and one dark piece is visible on the left. The board has a wooden frame, and the background is blurred, showing a person's torso in a dark blue shirt.",
+      "attributes": {
+        "board": {
+          "material": "wood",
+          "colors": [
+            "light beige",
+            "dark brown"
+          ],
+          "frame": "wooden"
+        },
+        "pieces": {
+          "material": "wood",
+          "colors": [
+            "light beige",
+            "dark brown"
+          ],
+          "bases": "green",
+          "visible_types": [
+            "pawns",
+            "rooks",
+            "knights",
+            "bishops",
+            "queens",
+            "kings"
+          ]
+        },
+        "background": {
+          "person": {
+            "clothing": "dark blue shirt",
+            "position": "seated behind the board"
+          },
+          "blur": "shallow depth of field"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        -2.0,
+        54.0,
+        320.0,
+        872.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A person with short dark hair is seen from behind, wearing a dark blue suit jacket over a white collared shirt, seated at a table with chess pieces in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "suit",
+            "color": "dark blue"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "visible"
+          }
+        },
+        "pose": "seated, facing away from camera",
+        "context": "chess game in progress (chess pieces visible in foreground)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.66796875,
+      "box": [
+        -1.5,
+        904.0,
+        104.5,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a person's lower legs and feet standing on a light-colored floor, casting a long, dark shadow to the left. The person is wearing dark pants and dark shoes with white soles.",
+      "attributes": {
+        "clothing": {
+          "pants": "dark",
+          "shoes": {
+            "color": "dark",
+            "soles": "white"
+          }
+        },
+        "pose": "standing",
+        "visibility": "blurry, out-of-focus",
+        "shadow": "long, dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        200.0,
+        0.0,
+        1008.0,
+        940.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with dark curly hair and black-rimmed glasses sits at a chessboard, wearing a navy blue blazer over a white button-down shirt. He rests his chin on his hand in a contemplative pose, looking down at the wooden chess pieces in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "accessories": {
+          "glasses": "black-rimmed",
+          "watch": "silver wristwatch"
+        },
+        "clothing": {
+          "jacket": "navy blue blazer",
+          "shirt": "white button-down"
+        },
+        "pose": "sitting, hand on chin",
+        "expression": "focused, serious",
+        "context": "playing chess"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.96484375,
+      "box": [
+        836.0,
+        94.0,
+        1024.0,
+        600.0
+      ],
+      "mask": "image_10.masks/person_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person with long, dark brown hair, wearing a dark blue blazer or suit jacket, positioned in the foreground with their back or side to the camera.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "dark blue",
+            "type": "blazer or suit"
+          }
+        },
+        "pose": "back turned or side profile",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    }
+  ]
+}

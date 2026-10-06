@@ -1,0 +1,217 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        576.0,
+        656.0,
+        1024.0,
+        944.0
+      ],
+      "mask": "image_2.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A rectangular brown cardboard box is sealed with clear packing tape running along the top seam and down the side, featuring a red circular logo on the right face. The box is positioned on top of another similar cardboard box, with a person's hand and dark clothing partially visible in the background.",
+      "attributes": {
+        "object_type": "cardboard box",
+        "shape": "rectangular",
+        "color": "brown",
+        "material": "cardboard",
+        "sealing": {
+          "tape": "clear packing tape",
+          "placement": "top seam and side"
+        },
+        "markings": {
+          "logo": "red circle on side"
+        },
+        "position": "stacked on another box",
+        "background": "person's hand and dark clothing visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        496.0,
+        856.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A close-up view of the corner of a large, light brown cardboard box with a smaller box stacked on top of it. The surface of the box shows a subtle vertical corrugated texture, and the edges are sharp and well-defined.",
+      "attributes": {
+        "object_type": "cardboard box",
+        "color": "light brown",
+        "material": "cardboard",
+        "texture": "corrugated",
+        "arrangement": "stacked",
+        "visible_parts": [
+          "corner",
+          "top surface",
+          "side surface"
+        ],
+        "condition": "new",
+        "shape": "rectangular"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        -1.0,
+        764.0,
+        504.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/cardboard box_2.png",
+      "crop": null,
+      "description": "A close-up view of a large, light brown corrugated cardboard box sealed with a strip of translucent packing tape featuring a repeating brown circular logo. A smaller cardboard box is stacked on top of the main box, partially visible at the top edge, while the corner of another box appears on the far right.",
+      "attributes": {
+        "object_type": "cardboard box",
+        "material": "corrugated cardboard",
+        "color": "light brown",
+        "seal": "translucent packing tape",
+        "tape_logo": "brown circle",
+        "arrangement": "stacked",
+        "condition": "new, sealed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 3,
+      "score": 0.97265625,
+      "box": [
+        -2.0,
+        644.0,
+        350.0,
+        836.0
+      ],
+      "mask": "image_2.masks/cardboard box_3.png",
+      "crop": null,
+      "description": "A close-up view of a medium-sized brown cardboard box stacked on top of another box, featuring a vertical strip of clear packing tape on the right side with a red circle logo printed on it. A smaller box with blue tape is partially visible on top.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "brown",
+        "shape": "rectangular",
+        "tape": {
+          "color": "clear",
+          "logo": "red circle"
+        },
+        "position": "stacked",
+        "context": "shipping or storage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 4,
+      "score": 0.96875,
+      "box": [
+        36.0,
+        536.0,
+        292.0,
+        680.0
+      ],
+      "mask": "image_2.masks/cardboard box_4.png",
+      "crop": null,
+      "description": "A square cardboard box wrapped in plain brown paper and tied with a wide, glossy blue satin ribbon that forms a bow on the top surface. The box is positioned on a light-colored wooden surface, likely a table or shelf.",
+      "attributes": {
+        "object_type": "gift box",
+        "shape": "cubic",
+        "material": "cardboard",
+        "color": "brown",
+        "wrapping": "plain brown paper",
+        "ribbon": {
+          "color": "blue",
+          "material": "satin",
+          "style": "crossed with bow on top"
+        },
+        "surface": "wooden",
+        "lighting": "soft, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        304.0,
+        568.0,
+        640.0,
+        744.0
+      ],
+      "mask": "image_2.masks/clipboard_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark blue clipboard held by a person, featuring a silver metal clip at the top securing a white sheet of paper. A hand is visible holding the bottom edge of the board while another hand holds a pen, poised to write on the paper.",
+      "attributes": {
+        "object": "clipboard",
+        "color": "dark blue",
+        "material": "plastic or hardboard",
+        "clip": {
+          "color": "silver",
+          "material": "metal",
+          "position": "top"
+        },
+        "paper": {
+          "color": "white",
+          "visible": true
+        },
+        "interaction": {
+          "held_by": "hand",
+          "writing_instrument": "pen"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        384.0,
+        68.0,
+        952.0,
+        860.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark brown hair is seated, looking down with a slight smile while writing on a blue clipboard with a silver pen. She is wearing a dark grey button-down shirt and is positioned behind several brown cardboard boxes.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight with slight waves"
+        },
+        "expression": "smiling, focused",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "dark grey",
+            "material": "cotton"
+          }
+        },
+        "pose": "seated, leaning forward",
+        "action": "writing",
+        "accessories": {
+          "pen": "silver",
+          "clipboard": "blue"
+        },
+        "context": "office or warehouse setting, cardboard boxes in foreground"
+      },
+      "parse_ok": true
+    }
+  ]
+}

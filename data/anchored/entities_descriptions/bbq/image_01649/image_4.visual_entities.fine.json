@@ -1,0 +1,323 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        2.0,
+        536.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/alley_0.png",
+      "crop": null,
+      "description": "A man and a young child are walking away from the camera down a wet, cobblestone alleyway, holding hands. The man is wearing a dark blue puffer jacket and gray pants, while the child is dressed in a matching dark blue puffer jacket, blue jeans, and brown boots. The alley is lined with potted plants and stone buildings, and the ground is reflective from rain.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "lighting": "overcast, natural",
+          "decorations": "potted plants along the sides"
+        },
+        "man": {
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "pants": "gray",
+            "shoes": "dark brown"
+          },
+          "pose": "walking away, holding child's hand"
+        },
+        "child": {
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "pants": "blue jeans",
+            "boots": "brown"
+          },
+          "pose": "walking away, holding man's hand",
+          "hair": "curly, light brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        182.0,
+        144.0,
+        282.0,
+        528.0
+      ],
+      "mask": "image_4.masks/building_0.png",
+      "crop": null,
+      "description": "A black, ornate street lamp with a classic lantern-style top stands in the foreground, partially obscuring a white building with a red-tiled roof. Green foliage with small yellow flowers is visible behind the lamp post, adding a natural element to the scene.",
+      "attributes": {
+        "building": {
+          "color": "white",
+          "roof": "red-tiled",
+          "style": "residential"
+        },
+        "lamp": {
+          "color": "black",
+          "style": "classic",
+          "position": "foreground"
+        },
+        "foliage": {
+          "color": "green",
+          "flowers": "yellow",
+          "position": "midground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        256.0,
+        276.0,
+        412.0,
+        532.0
+      ],
+      "mask": "image_4.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a light-colored facade and a reddish roof, partially obscured by green foliage on the left side. The image is heavily blurred, making specific architectural details indistinct.",
+      "attributes": {
+        "building_type": "residential or commercial",
+        "facade_color": "light beige or off-white",
+        "roof_color": "reddish-brown",
+        "visibility": "blurry, out-of-focus",
+        "obstruction": "green foliage on the left",
+        "architectural_details": "indistinct due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.83984375,
+      "box": [
+        552.0,
+        -2.0,
+        1032.0,
+        712.0
+      ],
+      "mask": "image_4.masks/building_2.png",
+      "crop": null,
+      "description": "A multi-story building with a rustic facade made of rough-hewn, light-colored stone blocks. It features dark wooden doors and window frames, along with two small balconies supported by stone corbels and enclosed by black wrought-iron railings. A terracotta flower pot sits on the ground near the base of the wall.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "color": "beige and grey",
+          "texture": "rough, uneven",
+          "stories": "multi-story"
+        },
+        "architectural_features": {
+          "balconies": {
+            "count": 2,
+            "railings": "black wrought iron",
+            "supports": "stone corbels"
+          },
+          "doors": {
+            "material": "wood",
+            "color": "dark brown",
+            "style": "arched top"
+          },
+          "windows": {
+            "frames": "wooden",
+            "color": "brown"
+          }
+        },
+        "decorations": {
+          "planters": {
+            "material": "terracotta",
+            "location": "ground level"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.875,
+      "box": [
+        384.0,
+        111.0,
+        608.0,
+        556.0
+      ],
+      "mask": "image_4.masks/building_3.png",
+      "crop": null,
+      "description": "A two-story building with a white plastered facade on the left and a rough, light-colored stone wall on the right, featuring a small balcony with a dark metal railing on the second floor and a chimney on the roof.",
+      "attributes": {
+        "structure": {
+          "floors": 2,
+          "facade_material": [
+            "white plaster",
+            "stone"
+          ],
+          "roof": {
+            "type": "pitched",
+            "color": "reddish-brown",
+            "features": [
+              "chimney"
+            ]
+          },
+          "balcony": {
+            "floor": 2,
+            "railing": "dark metal"
+          },
+          "windows": "rectangular, recessed"
+        },
+        "condition": "weathered",
+        "style": "traditional European"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.71875,
+      "box": [
+        182.0,
+        144.0,
+        282.0,
+        298.0
+      ],
+      "mask": "image_4.masks/building_4.png",
+      "crop": null,
+      "description": "A close-up view of a building's exterior featuring a black, ornate lantern-style light fixture mounted on a white wall. Above the light, a section of a roof with reddish-brown tiles is visible, casting a shadow on the wall below.",
+      "attributes": {
+        "building_type": "residential or commercial exterior",
+        "wall_color": "white",
+        "roof_material": "tiles",
+        "roof_color": "reddish-brown",
+        "lighting_fixture": {
+          "type": "lantern",
+          "color": "black",
+          "style": "ornate",
+          "position": "mounted on wall"
+        },
+        "shadow": "present under roof overhang"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.86328125,
+      "box": [
+        12.5,
+        -4.0,
+        228.0,
+        628.0
+      ],
+      "mask": "image_4.masks/building_5.png",
+      "crop": null,
+      "description": "A close-up view of a rustic building facade constructed from rough, irregular stones in shades of beige, grey, and brown, featuring an arched wooden doorway and rectangular windows framed with smooth, light-colored stone. A black metal pipe runs horizontally across the wall, and a black vintage-style street lamp stands in the foreground to the right, partially obscuring the view of the building's corner.",
+      "attributes": {
+        "building_type": "stone house",
+        "material": "rough stone",
+        "color": "beige, grey, brown",
+        "architectural_features": {
+          "doorway": "arched, wooden",
+          "windows": "rectangular, stone-framed",
+          "trim": "smooth light stone"
+        },
+        "fixtures": {
+          "pipe": "black metal, horizontal",
+          "street_lamp": "black, vintage style"
+        },
+        "plants": "potted greenery in terracotta pots"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        552.0,
+        344.0,
+        768.0,
+        952.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street while wearing a black puffy jacket and grey trousers. The individual is holding the hand of a child, whose arm is partially visible on the left side.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "black",
+            "material": "synthetic"
+          },
+          "pants": {
+            "color": "grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "leather"
+          }
+        },
+        "pose": "walking away",
+        "view": "back",
+        "action": "holding a child's hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        432.0,
+        568.0,
+        592.0,
+        952.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with curly light brown hair is seen from behind, walking away on a wet, cobblestone surface. The child wears a dark blue puffy winter jacket with a hood, blue jeans, and tan boots with dark soles, while holding the hand of an adult partially visible on the right.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "indeterminate",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "boots",
+            "color": "tan"
+          }
+        },
+        "pose": "walking away",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

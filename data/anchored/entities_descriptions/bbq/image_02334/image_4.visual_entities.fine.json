@@ -1,0 +1,502 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        2.0,
+        844.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/bench_0.png",
+      "crop": null,
+      "description": "Two people are sitting on a wooden bench, with one person wearing gray leggings and the other wearing black shorts. The bench appears to be made of light-colored wood with a smooth surface.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth",
+        "people": [
+          {
+            "clothing": {
+              "pants": "gray leggings"
+            }
+          },
+          {
+            "clothing": {
+              "shorts": "black"
+            }
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        -1.0,
+        952.0,
+        484.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/floor_0.png",
+      "crop": null,
+      "description": "A person is wearing gray sweatpants, standing with their legs slightly apart. The background shows a blurred interior setting with a wooden surface and a white wall.",
+      "attributes": {
+        "clothing": {
+          "pants": "gray sweatpants"
+        },
+        "pose": "standing",
+        "background": {
+          "surface": "wooden",
+          "wall": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        604.0,
+        27.5,
+        748.0,
+        206.0
+      ],
+      "mask": "image_4.masks/locker_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of an orange locker door featuring a white oval label holder near the top and a series of horizontal ventilation slats in the center, framed by a dark blue border. The top of a person's head with light brown hair is visible at the very bottom edge of the frame.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "frame_color": "dark blue",
+        "features": [
+          "white oval label holder",
+          "horizontal ventilation slats"
+        ],
+        "focus": "blurry",
+        "foreground": "top of head with light brown hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        -1.0,
+        45.0,
+        94.0,
+        460.0
+      ],
+      "mask": "image_4.masks/locker_1.png",
+      "crop": null,
+      "description": "A close-up, slightly blurry view of an orange metal locker door featuring a vertical column of horizontal ventilation slits near the top and a small, indistinct white label or sticker above the vents. The surface appears smooth and painted, with a dark vertical edge visible on the right side.",
+      "attributes": {
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "ventilation slits",
+          "white label",
+          "vertical edge"
+        ],
+        "condition": "blurry",
+        "type": "locker"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        956.0,
+        468.0,
+        1032.0,
+        916.0
+      ],
+      "mask": "image_4.masks/locker_2.png",
+      "crop": null,
+      "description": "A close-up view of a person's shoulder and upper arm wearing a black athletic top with white stripes, positioned in the foreground against a blurred orange locker background featuring a recessed handle and ventilation slots.",
+      "attributes": {
+        "person": {
+          "hair": "blonde",
+          "clothing": {
+            "top": "black",
+            "details": "white stripes"
+          }
+        },
+        "locker": {
+          "color": "orange",
+          "features": [
+            "recessed handle",
+            "ventilation slots"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 3,
+      "score": 0.8984375,
+      "box": [
+        246.0,
+        78.5,
+        310.0,
+        146.0
+      ],
+      "mask": "image_4.masks/locker_3.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's head with light-colored hair, positioned in front of a blurred orange background. The hair appears to be fine and slightly disheveled, with strands visible against the backdrop.",
+      "attributes": {
+        "hair": "light-colored, fine, slightly disheveled",
+        "background": "orange, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 4,
+      "score": 0.94921875,
+      "box": [
+        -1.0,
+        472.0,
+        92.5,
+        848.0
+      ],
+      "mask": "image_4.masks/locker_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of an orange metal locker featuring horizontal ventilation slits near the top and a small white label or sticker. The locker is partially obscured on the right side by the torso of a person wearing a teal t-shirt and light-colored pants.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "horizontal ventilation slits",
+          "white label"
+        ],
+        "focus": "blurred",
+        "occlusion": "partially blocked by person",
+        "person_visible": {
+          "clothing": {
+            "shirt": "teal t-shirt",
+            "pants": "light grey or white"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 5,
+      "score": 0.9453125,
+      "box": [
+        113.0,
+        68.0,
+        227.0,
+        422.0
+      ],
+      "mask": "image_4.masks/locker_5.png",
+      "crop": null,
+      "description": "A close-up view of a person with long, wavy blonde hair wearing a teal top, positioned in the foreground with a blurred orange locker featuring a silver lock mechanism in the background.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "color": "teal"
+        },
+        "background": {
+          "object": "locker",
+          "color": "orange",
+          "features": [
+            "silver lock",
+            "blurred"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 6,
+      "score": 0.95703125,
+      "box": [
+        772.0,
+        7.0,
+        932.0,
+        412.0
+      ],
+      "mask": "image_4.masks/locker_6.png",
+      "crop": null,
+      "description": "A close-up view of an orange locker door featuring a vertical column of five horizontal ventilation slits in the upper center and a small white label holder near the top edge, framed by a blue border on the right side. The surface appears smooth and matte, with the top of a person's head with long, light brown hair visible in the bottom left foreground, partially obscuring the lower portion of the locker.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "frame_color": "blue",
+        "features": {
+          "ventilation": "five horizontal slits",
+          "label_holder": "white, top center"
+        },
+        "material": "metal",
+        "finish": "matte",
+        "foreground_obstruction": "top of head with light brown hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 7,
+      "score": 0.95703125,
+      "box": [
+        324.0,
+        66.0,
+        440.0,
+        388.0
+      ],
+      "mask": "image_4.masks/locker_7.png",
+      "crop": null,
+      "description": "A close-up profile view of an older woman with short, light blonde hair and fair skin, wearing a teal top, set against a blurred background featuring a large orange rectangular panel with a blue border.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "swept to the side"
+        },
+        "skin": {
+          "tone": "fair",
+          "texture": "wrinkled"
+        },
+        "clothing": {
+          "top": "teal"
+        },
+        "pose": "profile view",
+        "background": {
+          "color": "orange",
+          "border": "blue",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 8,
+      "score": 0.94921875,
+      "box": [
+        952.0,
+        0.0,
+        1024.0,
+        456.0
+      ],
+      "mask": "image_4.masks/locker_8.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of an orange locker door featuring a set of horizontal ventilation slits near the top right and a small, rectangular silver handle or lock mechanism in the center. A vertical blue strip is visible along the left edge, and a small portion of light brown hair appears at the very bottom left corner.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "material": "metal",
+        "features": {
+          "ventilation": "horizontal slits",
+          "handle": "rectangular silver",
+          "edge": "blue vertical strip"
+        },
+        "focus": "blurry",
+        "other_elements": "light brown hair at bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 9,
+      "score": 0.890625,
+      "box": [
+        460.0,
+        468.0,
+        572.0,
+        860.0
+      ],
+      "mask": "image_4.masks/locker_9.png",
+      "crop": null,
+      "description": "A section of a bright orange metal locker is visible in the background, featuring a vertical silver handle on the left side and a small, blurry white rectangular label near the top. The surface appears smooth and painted, with faint horizontal lines suggesting a vent or panel design.",
+      "attributes": {
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "silver handle",
+          "white label",
+          "horizontal vent lines"
+        ],
+        "state": "closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 10,
+      "score": 0.953125,
+      "box": [
+        460.0,
+        50.0,
+        588.0,
+        458.0
+      ],
+      "mask": "image_4.masks/locker_10.png",
+      "crop": null,
+      "description": "A vertical orange metal locker with a blue frame, featuring a small white label at the top, a series of horizontal ventilation slits in the upper center, and a recessed silver handle or lock mechanism on the left side.",
+      "attributes": {
+        "color": "orange",
+        "frame_color": "blue",
+        "material": "metal",
+        "features": [
+          "ventilation_slits",
+          "silver_handle",
+          "white_label"
+        ],
+        "orientation": "vertical",
+        "condition": "clean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 11,
+      "score": 0.66796875,
+      "box": [
+        636.0,
+        660.0,
+        708.0,
+        764.0
+      ],
+      "mask": "image_4.masks/locker_11.png",
+      "crop": null,
+      "description": "A close-up view of a person's arm and hand, with the skin appearing light in tone. The person is wearing a black garment, possibly a shirt or jacket, which is visible on the right side of the frame. The background is a solid, bright orange color, providing a stark contrast to the subject.",
+      "attributes": {
+        "skin_tone": "light",
+        "clothing": {
+          "color": "black",
+          "type": "unknown"
+        },
+        "background_color": "orange",
+        "position": "close-up, partial view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        486.0,
+        172.0,
+        1008.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long blonde hair sits on a wooden bench in a locker room, wearing a grey tank top and black athletic shorts with white stripes. She has a white towel draped around her neck, a white wireless earbud in her left ear, and is holding a black smartphone in her hands while looking off to the side with a slightly open mouth.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long"
+        },
+        "clothing": {
+          "top": "grey tank top",
+          "bottoms": "black athletic shorts with white side stripes",
+          "accessories": [
+            "white towel around neck",
+            "white wireless earbud",
+            "thin necklace"
+          ]
+        },
+        "pose": "sitting",
+        "expression": "looking to the side, mouth slightly open",
+        "holding": "black smartphone",
+        "background": "orange lockers with blue trim"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        70.0,
+        146.0,
+        494.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length blonde hair sits on a wooden bench, wearing a teal t-shirt and grey sweatpants. She holds a red apple in both hands and looks off to the side with a neutral expression, set against a background of orange lockers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal"
+          },
+          "bottom": {
+            "type": "sweatpants",
+            "color": "grey"
+          },
+          "accessories": {
+            "ring": "silver band on left hand"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding a red apple",
+        "expression": "neutral, looking to the side",
+        "background": "orange lockers"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        0.0,
+        -2.25,
+        892.0,
+        79.0
+      ],
+      "mask": "image_4.masks/wall_0.png",
+      "crop": null,
+      "description": "A section of a wall featuring a row of orange rectangular panels with white circular details, separated by dark blue vertical lines, set against a plain white background.",
+      "attributes": {
+        "color": [
+          "orange",
+          "dark blue",
+          "white"
+        ],
+        "shape": "rectangular panels",
+        "pattern": "repeating vertical sections",
+        "material": "smooth surface",
+        "details": "white circular elements on each panel"
+      },
+      "parse_ok": true
+    }
+  ]
+}

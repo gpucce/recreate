@@ -1,0 +1,521 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        2.0,
+        860.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with a slatted seat is partially visible, supporting two individuals. The bench has a light brown finish and appears to be made of natural wood, with visible grain and seams between the slats.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "slatted seat",
+        "condition": "clean and intact",
+        "function": "seating"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        4.0,
+        872.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/floor_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people sitting on a wooden bench. One person is wearing gray leggings, and the other is wearing black shorts. The bench has a light brown wooden surface with visible grain and slats.",
+      "attributes": {
+        "clothing": {
+          "leggings": "gray",
+          "shorts": "black"
+        },
+        "bench": {
+          "material": "wood",
+          "color": "light brown",
+          "surface": "slatted"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        732.0,
+        68.0,
+        876.0,
+        402.0
+      ],
+      "mask": "image_15.masks/locker_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's head and shoulder in the foreground, featuring brown hair tied back, a white earbud in the ear, and a white towel draped over the shoulder. The background is out of focus, showing a peach-colored locker with horizontal ventilation slats and a small white label area near the top.",
+      "attributes": {
+        "person": {
+          "hair": "brown, tied back",
+          "accessories": {
+            "earbud": "white",
+            "towel": "white, fluffy"
+          },
+          "position": "foreground, left side"
+        },
+        "locker": {
+          "color": "peach",
+          "material": "metal",
+          "features": [
+            "horizontal ventilation slats",
+            "white label area"
+          ],
+          "position": "background, out of focus"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 1,
+      "score": 0.51171875,
+      "box": [
+        163.0,
+        108.0,
+        424.0,
+        720.0
+      ],
+      "mask": "image_15.masks/locker_1.png",
+      "crop": null,
+      "description": "A young woman with blonde hair tied in a high ponytail is shown in a close-up, wearing a teal tank top and white wireless earbuds. She has a focused, intense expression with a furrowed brow, looking downward and to the side, suggesting she is resting or concentrating during a workout.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "high ponytail",
+          "accessory": "black hair tie"
+        },
+        "clothing": {
+          "top": "teal tank top"
+        },
+        "accessories": {
+          "earbuds": "white wireless"
+        },
+        "expression": "focused, intense, furrowed brow",
+        "pose": "leaning forward, looking down",
+        "skin": "fair, slightly sweaty"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 2,
+      "score": 0.8984375,
+      "box": [
+        -1.0,
+        68.0,
+        41.5,
+        816.0
+      ],
+      "mask": "image_15.masks/locker_2.png",
+      "crop": null,
+      "description": "A close-up view of a vertical orange metal locker featuring a column of horizontal ventilation slits near the top left corner. The surface appears smooth and painted, with a vertical seam visible on the right edge, and a small portion of a person wearing a light blue shirt and grey pants is visible in the bottom right corner.",
+      "attributes": {
+        "object_type": "locker",
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "ventilation slits",
+          "vertical seam"
+        ],
+        "orientation": "vertical",
+        "visible_person_part": "torso and hip"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 3,
+      "score": 0.65625,
+      "box": [
+        164.0,
+        118.5,
+        286.0,
+        360.0
+      ],
+      "mask": "image_15.masks/locker_3.png",
+      "crop": null,
+      "description": "A close-up view of a matte orange metal locker featuring a horizontal ventilation slot and a small white label near the top, partially obscured by the side of a person's head with long blonde hair and an ear in the foreground.",
+      "attributes": {
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "ventilation slot",
+          "white label"
+        ],
+        "position": "background",
+        "occlusion": "partially obscured by hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 4,
+      "score": 0.94140625,
+      "box": [
+        904.0,
+        50.0,
+        1024.0,
+        872.0
+      ],
+      "mask": "image_15.masks/locker_4.png",
+      "crop": null,
+      "description": "A vertical orange metal locker door featuring a rectangular white label holder at the top, a set of horizontal ventilation slats below it, and a recessed silver lock mechanism in the center. A person's arm and shoulder wearing a grey t-shirt and black shorts are visible in the foreground on the left side.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "material": "metal",
+        "features": {
+          "ventilation": "horizontal slats",
+          "lock": "silver recessed mechanism",
+          "label_holder": "white rectangle at top"
+        },
+        "foreground": {
+          "person": {
+            "visible_parts": "arm, shoulder, hip",
+            "clothing": {
+              "top": "grey t-shirt",
+              "bottom": "black shorts with white stripe"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 5,
+      "score": 0.86328125,
+      "box": [
+        38.75,
+        90.0,
+        154.0,
+        696.0
+      ],
+      "mask": "image_15.masks/locker_5.png",
+      "crop": null,
+      "description": "A vertical, orange metal locker stands in the background, featuring a row of horizontal ventilation slits near the top and a recessed silver handle mechanism in the center. The locker is partially obscured by the shoulder and arm of a person wearing a teal tank top in the foreground.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "material": "metal",
+        "features": {
+          "ventilation": "horizontal slits",
+          "handle": "silver recessed mechanism"
+        },
+        "position": "background",
+        "state": "closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 6,
+      "score": 0.59765625,
+      "box": [
+        314.0,
+        106.0,
+        422.0,
+        720.0
+      ],
+      "mask": "image_15.masks/locker_6.png",
+      "crop": null,
+      "description": "A close-up of a young woman with blonde hair tied back in a ponytail, wearing a teal tank top. She has a focused or intense expression, looking downward and to the side, with her face partially visible against an orange background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "ponytail",
+          "accessory": "black hair tie"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "teal"
+          }
+        },
+        "expression": "focused/intense",
+        "pose": "leaning forward, looking down",
+        "background": "orange"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 7,
+      "score": 0.6796875,
+      "box": [
+        576.0,
+        86.0,
+        712.0,
+        696.0
+      ],
+      "mask": "image_15.masks/locker_7.png",
+      "crop": null,
+      "description": "A young woman with wet, slicked-back brown hair is shown from the chest up, wearing a grey tank top with a white towel draped over her right shoulder. She has a concerned or confused expression with furrowed brows and slightly open mouth while looking down at a black smartphone held in her hand, set against a background of orange lockers.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wet, slicked back",
+          "length": "medium"
+        },
+        "expression": "concerned, furrowed brows, mouth slightly open",
+        "clothing": {
+          "top": "grey tank top",
+          "accessory": "white towel over shoulder"
+        },
+        "action": "looking at phone",
+        "object": "black smartphone",
+        "background": "orange locker"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 8,
+      "score": 0.6953125,
+      "box": [
+        163.0,
+        108.0,
+        424.0,
+        362.0
+      ],
+      "mask": "image_15.masks/locker_8.png",
+      "crop": null,
+      "description": "A close-up of a woman with blonde hair tied in a high ponytail, wearing a white wireless earbud in her right ear. She has a furrowed brow and a focused or concerned expression, looking downward and to the right. The background is a blurred orange locker with a small white label and ventilation slots.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "high ponytail",
+          "accessory": "black hair tie"
+        },
+        "earbud": {
+          "color": "white",
+          "type": "wireless",
+          "position": "right ear"
+        },
+        "expression": "focused, concerned, furrowed brow",
+        "gaze": "downward and to the right",
+        "background": {
+          "object": "locker",
+          "color": "orange",
+          "details": "white label, ventilation slots"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 9,
+      "score": 0.89453125,
+      "box": [
+        432.0,
+        96.0,
+        560.0,
+        832.0
+      ],
+      "mask": "image_15.masks/locker_9.png",
+      "crop": null,
+      "description": "A close-up of a person with light blonde hair, partially visible, looking down at a smartphone held in their hand. The person is wearing a white top and is seated in front of an orange locker with a vented panel.",
+      "attributes": {
+        "hair": "blonde",
+        "clothing": {
+          "top": "white"
+        },
+        "pose": "seated, looking down",
+        "object": {
+          "type": "smartphone",
+          "color": "black"
+        },
+        "background": {
+          "type": "locker",
+          "color": "orange",
+          "feature": "vented panel"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 10,
+      "score": 0.7578125,
+      "box": [
+        572.0,
+        84.0,
+        716.0,
+        424.0
+      ],
+      "mask": "image_15.masks/locker_10.png",
+      "crop": null,
+      "description": "A close-up of a young woman with light brown hair pulled back, displaying a distressed expression with furrowed brows and a slightly open mouth, set against a background of orange lockers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "pulled back"
+        },
+        "expression": "distressed",
+        "facial_features": {
+          "brows": "furrowed",
+          "mouth": "slightly open"
+        },
+        "clothing": {
+          "visible_part": "white strap"
+        },
+        "background": {
+          "object": "lockers",
+          "color": "orange"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        472.0,
+        160.0,
+        992.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with light brown hair pulled back in a ponytail sits on a wooden bench in a locker room, wearing a grey tank top and black athletic shorts. She has a white towel draped around her neck and white wireless earbuds in her ears, looking down at a black smartphone held in her hands with a concerned or confused expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "top": "grey tank top",
+          "bottom": "black athletic shorts",
+          "accessories": [
+            "white towel around neck",
+            "white wireless earbuds"
+          ]
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "holding": "black smartphone",
+        "location": "locker room"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        110.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young blonde woman with a high ponytail sits on a wooden bench in a locker room, wearing a teal tank top and grey leggings. She has a concerned or confused expression while looking at a smartphone held by someone off-screen, holding a red apple in her other hand.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "high ponytail"
+        },
+        "clothing": {
+          "top": "teal tank top",
+          "bottom": "grey heathered leggings"
+        },
+        "accessories": {
+          "earbuds": "white wireless earbuds"
+        },
+        "pose": "sitting, leaning forward",
+        "expression": "confused or concerned",
+        "objects": {
+          "held": "red apple",
+          "interacting_with": "smartphone"
+        },
+        "background": "orange lockers"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        -1.0,
+        -1.5,
+        159.0,
+        109.5
+      ],
+      "mask": "image_15.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up view of a plain, off-white wall surface occupying the upper portion of the frame, with a blurred, horizontal wooden trim or baseboard in a warm orange-brown tone running along the bottom edge.",
+      "attributes": {
+        "color": "off-white",
+        "material": "smooth painted surface",
+        "trim": {
+          "color": "orange-brown",
+          "material": "wood",
+          "position": "bottom edge",
+          "orientation": "horizontal"
+        },
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        160.0,
+        -1.25,
+        1024.0,
+        121.0
+      ],
+      "mask": "image_15.masks/wall_1.png",
+      "crop": null,
+      "description": "A section of a wall with a white upper portion and a row of orange lockers below, each locker featuring a small white label or handle. The image is cropped to show only the top part of the lockers and the wall above them.",
+      "attributes": {
+        "wall_color": "white",
+        "locker_color": "orange",
+        "locker_features": [
+          "white label or handle"
+        ],
+        "position": "lower part of the wall",
+        "material": "likely metal or painted wood"
+      },
+      "parse_ok": true
+    }
+  ]
+}

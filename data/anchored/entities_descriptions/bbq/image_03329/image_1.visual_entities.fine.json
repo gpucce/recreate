@@ -1,0 +1,241 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        2.0,
+        2.0,
+        1024.0,
+        414.0
+      ],
+      "mask": "image_1.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story brick building with white-framed windows and red brick lintels above some of the windows. The building has a traditional architectural style, with a visible tree in front of it partially obscuring the view.",
+      "attributes": {
+        "material": "brick",
+        "window_frames": "white",
+        "lintels": "red brick",
+        "style": "traditional",
+        "visible_elements": [
+          "windows",
+          "tree",
+          "brick facade"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        172.0,
+        304.0,
+        468.0,
+        928.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A man with short brown hair, wearing a dark navy suit and white shirt, is standing on a metal ramp, pushing a wheelchair with a person in a red top. He is looking down at the person in the wheelchair.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "social_role": "caregiver",
+        "clothing": {
+          "suit": "dark navy",
+          "shirt": "white",
+          "shoes": "black"
+        },
+        "hair": "brown",
+        "pose": "standing, pushing wheelchair",
+        "expression": "focused",
+        "position": "on a metal ramp",
+        "action": "pushing a wheelchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        416.0,
+        396.0,
+        712.0,
+        780.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with short, wavy dark brown hair sits in a black manual wheelchair, turning his head to look back over his left shoulder with a neutral expression. He is wearing a long-sleeved salmon-orange shirt and blue jeans, positioned in front of the open rear door of a vehicle with black leather seats visible behind him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "color": "salmon orange"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "black"
+          }
+        },
+        "pose": "sitting in wheelchair, looking over shoulder",
+        "equipment": {
+          "type": "manual wheelchair",
+          "color": "black"
+        },
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ramp",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        216.0,
+        808.0,
+        704.0,
+        992.0
+      ],
+      "mask": "image_1.masks/ramp_0.png",
+      "crop": null,
+      "description": "A silver aluminum ramp with a ribbed surface for traction is positioned on a paved road, leading up to a vehicle. The ramp has yellow edges and is being used to load a wheelchair onto the vehicle.",
+      "attributes": {
+        "material": "aluminum",
+        "color": "silver",
+        "surface": "ribbed",
+        "edges": "yellow",
+        "function": "accessibility ramp",
+        "position": "on road, leading to vehicle",
+        "context": "loading wheelchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surface",
+      "index": 0,
+      "score": 0.62109375,
+      "box": [
+        4.0,
+        804.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/surface_0.png",
+      "crop": null,
+      "description": "A person is standing on a metal ramp that is placed on an asphalt road, with the ramp extending up to the side of a vehicle. The person is wearing dark pants and black shoes, and only their lower legs and feet are visible. The ramp has a textured surface for grip and is supported by a small wheel at the bottom end.",
+      "attributes": {
+        "clothing": {
+          "pants": "dark",
+          "shoes": "black"
+        },
+        "pose": "standing",
+        "surface": "asphalt road",
+        "ramp": {
+          "material": "metal",
+          "texture": "textured for grip",
+          "support": "small wheel at bottom end"
+        },
+        "vehicle": {
+          "visible_part": "side and wheel"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        320.0,
+        -2.0,
+        1024.0,
+        212.0
+      ],
+      "mask": "image_1.masks/tree_0.png",
+      "crop": null,
+      "description": "A tree with a thick, textured brown trunk and branches extending upward, partially obscuring a brick building with white-framed windows and red brick lintels. Green leaves are visible at the top of the frame, indicating the tree is in a leafy state.",
+      "attributes": {
+        "trunk": "thick, brown, textured",
+        "branches": "extending upward, multiple",
+        "leaves": "green, visible at top",
+        "background": "brick building with white windows and red lintels",
+        "position": "centered in frame, partially obscuring background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        266.0,
+        212.0,
+        1032.0,
+        884.0
+      ],
+      "mask": "image_1.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is parked on a street with its rear hatch open and a metal ramp extended from the back, allowing a person in a wheelchair to be pushed into the vehicle. The van features black interior seats, a visible rear wheel with a silver alloy rim, and red taillights.",
+      "attributes": {
+        "vehicle_type": "minivan",
+        "color": "silver",
+        "rear_hatch": "open",
+        "ramp": "extended",
+        "interior": "black seats",
+        "taillights": "red",
+        "wheels": "silver alloy",
+        "position": "parked on street"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        358.0,
+        556.0,
+        704.0,
+        884.0
+      ],
+      "mask": "image_1.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A black manual wheelchair with a padded backrest and armrests is positioned on a metal ramp, with a person wearing a red top and blue jeans seated in it. The wheelchair features large rear wheels with silver spokes and smaller front casters, and a hand is visible gripping the handle at the back.",
+      "attributes": {
+        "color": "black",
+        "material": "metal frame, fabric upholstery",
+        "wheels": {
+          "rear": "large, silver spokes",
+          "front": "small casters"
+        },
+        "position": "on a metal ramp",
+        "occupant": {
+          "clothing": {
+            "top": "red",
+            "pants": "blue jeans"
+          },
+          "pose": "seated"
+        },
+        "function": "mobility aid"
+      },
+      "parse_ok": true
+    }
+  ]
+}

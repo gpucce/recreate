@@ -1,0 +1,497 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        520.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden park bench with horizontal slats and black metal armrests and supports, partially visible behind two seated individuals.",
+      "attributes": {
+        "material": "wood and metal",
+        "color": "brown wood, black metal",
+        "structure": "horizontal slats, curved armrests",
+        "condition": "weathered wood, intact metal",
+        "type": "park bench",
+        "visibility": "partially obscured by seated people"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        105.0,
+        576.0,
+        126.0,
+        592.0
+      ],
+      "mask": "image_2.masks/metal_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 1,
+      "score": 0.734375,
+      "box": [
+        0.0,
+        520.0,
+        147.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/metal_1.png",
+      "crop": null,
+      "description": "A close-up of a person's leg wearing blue denim jeans, seated on a wooden bench with black metal armrests and supports. The bench features visible wood grain and metal bolts securing the structure.",
+      "attributes": {
+        "clothing": {
+          "pants": "blue denim jeans"
+        },
+        "furniture": {
+          "type": "bench",
+          "material": "wood and metal",
+          "color": "brown wood, black metal",
+          "details": "visible bolts, curved armrest"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 2,
+      "score": 0.55078125,
+      "box": [
+        99.0,
+        516.0,
+        147.0,
+        644.0
+      ],
+      "mask": "image_2.masks/metal_2.png",
+      "crop": null,
+      "description": "A close-up of a wooden object with a metal rivet or screw head in the center, attached to a black leather strap that loops over the top and extends downward. The wood has a light brown, textured surface, and the leather appears worn and slightly frayed at the edges.",
+      "attributes": {
+        "material": {
+          "wood": "light brown, textured",
+          "metal": "silver, round head",
+          "leather": "black, worn, frayed edges"
+        },
+        "object_type": "wooden component with leather strap",
+        "position": "centered in frame",
+        "condition": "worn, used"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 3,
+      "score": 0.546875,
+      "box": [
+        77.0,
+        664.0,
+        121.0,
+        720.0
+      ],
+      "mask": "image_2.masks/metal_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        510.0,
+        138.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with shoulder-length gray hair sits on a wooden bench, wearing a light pink cardigan over a white top and beige pants. She holds a dark blue smartphone in her left hand while looking down at the screen with a focused expression, as a man beside her points at the phone.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "light pink",
+            "buttons": "gold"
+          },
+          "inner_top": {
+            "type": "shirt",
+            "color": "white"
+          },
+          "pants": {
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "focused",
+        "accessories": {
+          "earrings": "small gold studs"
+        },
+        "object_in_hand": {
+          "type": "smartphone",
+          "color": "dark blue"
+        },
+        "context": "being assisted by a man pointing at the phone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        74.0,
+        80.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with short brown hair and a beard sits on a wooden bench, wearing a blue and white checkered shirt over a white t-shirt and blue jeans. He is smiling and pointing at a smartphone held by an older woman next to him, with his arm around her shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "facial_hair": "beard",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "checkered",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, pointing at phone",
+        "action": "interacting with smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        564.0,
+        516.0,
+        644.0,
+        612.0
+      ],
+      "mask": "image_2.masks/smartphone_0.png",
+      "crop": null,
+      "description": "A close-up view of the back of a black smartphone held in a person's hand, featuring a single square camera module with a rounded corner in the upper left and a glossy finish.",
+      "attributes": {
+        "color": "black",
+        "material": "glossy plastic or glass",
+        "camera": {
+          "type": "single lens",
+          "shape": "square with rounded corners",
+          "position": "top left"
+        },
+        "orientation": "vertical",
+        "held_by": "hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        892.0,
+        564.0,
+        1024.0,
+        636.0
+      ],
+      "mask": "image_2.masks/wood_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a medium brown color and visible grain pattern, showing a smooth texture and a horizontal orientation.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "texture": "smooth",
+        "grain": "visible",
+        "orientation": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        76.5,
+        644.0,
+        208.0,
+        708.0
+      ],
+      "mask": "image_2.masks/wood_1.png",
+      "crop": null,
+      "description": "A close-up of a light brown wooden surface with a visible grain pattern, partially covered by a black object with a rounded top and a blue and white checkered fabric on the right side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "grainy",
+        "objects_on_surface": [
+          "black object with rounded top",
+          "blue and white checkered fabric"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 2,
+      "score": 0.80078125,
+      "box": [
+        932.0,
+        756.0,
+        1024.0,
+        828.0
+      ],
+      "mask": "image_2.masks/wood_2.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a medium brown color and visible grain texture, positioned horizontally. The wood appears to be part of a larger structure, possibly a piece of furniture or a panel, with a smooth finish.",
+      "attributes": {
+        "color": "medium brown",
+        "texture": "wood grain",
+        "finish": "smooth",
+        "material": "wood",
+        "position": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 3,
+      "score": 0.75390625,
+      "box": [
+        69.0,
+        740.0,
+        138.0,
+        804.0
+      ],
+      "mask": "image_2.masks/wood_3.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface, likely a table or desk, with a light brown color and visible wood grain. A black object with a white spherical knob is partially visible on the wood, and a portion of a blue fabric, possibly clothing, is seen in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "wood grain",
+        "object_on_wood": {
+          "color": "black",
+          "feature": "white spherical knob"
+        },
+        "foreground_object": {
+          "color": "blue",
+          "material": "fabric"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 4,
+      "score": 0.55859375,
+      "box": [
+        784.0,
+        916.0,
+        1024.0,
+        964.0
+      ],
+      "mask": "image_2.masks/wood_4.png",
+      "crop": null,
+      "description": "A close-up view of a horizontal wooden beam or plank with a rough, weathered texture and visible grain patterns in shades of light brown and tan. A small, dark knot or hole is present near the center of the wood, and the surface shows signs of wear and age.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown, tan",
+        "texture": "rough, weathered",
+        "features": [
+          "visible grain",
+          "small knot/hole"
+        ],
+        "condition": "worn, aged",
+        "orientation": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 5,
+      "score": 0.55078125,
+      "box": [
+        72.0,
+        744.0,
+        1024.0,
+        832.0
+      ],
+      "mask": "image_2.masks/wood_5.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people sitting side by side, with the focus on their lower torsos and legs. The person on the left is wearing blue denim jeans, while the person on the right is wearing light brown or beige pants and a pink cardigan over a white top. The person on the right has their hand resting on their thigh.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "pants": "blue denim jeans"
+          },
+          "right_person": {
+            "pants": "light brown or beige",
+            "top": "white",
+            "cardigan": "pink"
+          }
+        },
+        "pose": "sitting",
+        "position": "side by side",
+        "visible_parts": [
+          "lower torsos",
+          "legs",
+          "hand of the person on the right"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 6,
+      "score": 0.87109375,
+      "box": [
+        84.0,
+        552.0,
+        192.0,
+        624.0
+      ],
+      "mask": "image_2.masks/wood_6.png",
+      "crop": null,
+      "description": "A close-up of a rectangular wooden block with a light brown, mottled grain pattern, featuring a small, round, metallic button or rivet embedded in its center. The wood appears to be part of a larger structure, possibly a piece of furniture or a tool, with a dark vertical element visible at the top and a blue and white striped fabric partially visible on the right side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "mottled grain",
+        "shape": "rectangular",
+        "features": [
+          "metallic button/rivet",
+          "dark vertical element",
+          "blue and white striped fabric"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 7,
+      "score": 0.8125,
+      "box": [
+        904.0,
+        660.0,
+        1024.0,
+        732.0
+      ],
+      "mask": "image_2.masks/wood_7.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a medium brown color and visible grain patterns, including a small dark knot or imperfection near the center. The wood appears to be part of a larger object, possibly a piece of furniture or a structural element, with a smooth finish.",
+      "attributes": {
+        "color": "medium brown",
+        "texture": "smooth with visible grain",
+        "features": [
+          "small dark knot",
+          "wood grain patterns"
+        ],
+        "material": "wood",
+        "finish": "smooth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 8,
+      "score": 0.515625,
+      "box": [
+        52.0,
+        556.0,
+        1024.0,
+        972.0
+      ],
+      "mask": "image_2.masks/wood_8.png",
+      "crop": null,
+      "description": "A close-up of a wooden bench with horizontal slats, showing visible grain, knots, and a weathered texture. The bench has a dark metal frame with curved armrests and bolts securing the slats.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "texture": "weathered, visible grain, knots",
+        "structure": "horizontal slats, metal frame, curved armrests, bolts",
+        "condition": "worn, aged"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 9,
+      "score": 0.796875,
+      "box": [
+        6.0,
+        884.0,
+        1016.0,
+        964.0
+      ],
+      "mask": "image_2.masks/wood_9.png",
+      "crop": null,
+      "description": "A close-up view of a wooden bench with a weathered, light brown surface showing visible grain and knots. Two people are seated on the bench, one wearing blue denim jeans and the other wearing light beige or khaki pants, with their legs positioned side by side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "weathered, visible grain",
+        "condition": "worn",
+        "object_type": "bench",
+        "visible_parts": [
+          "seat",
+          "edge"
+        ],
+        "people": [
+          {
+            "clothing": {
+              "pants": "blue denim jeans"
+            }
+          },
+          {
+            "clothing": {
+              "pants": "light beige or khaki pants"
+            }
+          }
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,425 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "chess piece",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        644.0,
+        178.0,
+        708.0,
+        374.0
+      ],
+      "mask": "image_1.masks/chess piece_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus chess piece with a pinkish-red hue, featuring a rounded top and a wider base, possibly a pawn or bishop, set against a dark background with a hint of blue at the bottom right.",
+      "attributes": {
+        "color": "pinkish-red",
+        "shape": "rounded top, wider base",
+        "focus": "blurry",
+        "background": "dark with blue hint",
+        "possible_type": "pawn or bishop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        278.0,
+        632.0,
+        438.0,
+        936.0
+      ],
+      "mask": "image_1.masks/chess piece_1.png",
+      "crop": null,
+      "description": "A close-up of a light-colored, possibly wooden or plastic, chess rook with a crenellated top and a wide, circular base. The piece is illuminated by red and blue lighting, casting a warm glow on its surface and creating a vibrant contrast against the checkered background.",
+      "attributes": {
+        "type": "rook",
+        "material": "wood or plastic",
+        "color": "light beige or cream",
+        "lighting": "red and blue",
+        "background": "checkered pattern",
+        "position": "standing upright",
+        "details": "crenellated top, wide base"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 2,
+      "score": 0.7890625,
+      "box": [
+        -3.8125,
+        506.0,
+        31.75,
+        620.0
+      ],
+      "mask": "image_1.masks/chess piece_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chess piece",
+      "index": 3,
+      "score": 0.9609375,
+      "box": [
+        354.0,
+        442.0,
+        454.0,
+        632.0
+      ],
+      "mask": "image_1.masks/chess piece_3.png",
+      "crop": null,
+      "description": "A close-up of a chess pawn with a rounded head and tiered base, appearing to be made of wood or a similar material, illuminated by red and blue lighting that casts a pinkish hue on the piece against a blurred background.",
+      "attributes": {
+        "type": "pawn",
+        "material": "wood or wood-like",
+        "color": "pinkish-brown due to lighting",
+        "lighting": "red and blue ambient light",
+        "shape": "rounded head, cylindrical body, tiered base",
+        "background": "blurred, red and blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 4,
+      "score": 0.95703125,
+      "box": [
+        848.0,
+        241.0,
+        960.0,
+        512.0
+      ],
+      "mask": "image_1.masks/chess piece_4.png",
+      "crop": null,
+      "description": "A pink chess queen piece with a gold crown and base, standing on a blue and red checkered chessboard. The piece is slightly out of focus, with a smooth, glossy surface.",
+      "attributes": {
+        "color": "pink",
+        "crown_color": "gold",
+        "base_color": "gold",
+        "material": "glossy",
+        "focus": "slightly out of focus",
+        "position": "standing on a chessboard",
+        "chessboard_colors": [
+          "blue",
+          "red"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 5,
+      "score": 0.93359375,
+      "box": [
+        424.0,
+        225.0,
+        488.0,
+        360.0
+      ],
+      "mask": "image_1.masks/chess piece_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus chess piece with a reddish-pink hue, featuring a rounded top and a wider base, set against a dark background with hints of red and blue lighting.",
+      "attributes": {
+        "color": "reddish-pink",
+        "shape": "rounded top, wider base",
+        "focus": "blurry",
+        "background": "dark with red and blue lighting",
+        "material": "unknown due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 6,
+      "score": 0.859375,
+      "box": [
+        980.0,
+        362.0,
+        1032.0,
+        548.0
+      ],
+      "mask": "image_1.masks/chess piece_6.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a chess piece with a blue base and a red band above it, transitioning into a dark, possibly black or dark brown, upper section. The piece appears to be made of a smooth material, likely plastic or wood, with a glossy finish. The background is out of focus, showing hints of pink and beige tones.",
+      "attributes": {
+        "color": {
+          "base": "blue",
+          "band": "red",
+          "upper_section": "dark"
+        },
+        "material": "smooth, possibly plastic or wood",
+        "finish": "glossy",
+        "shape": "cylindrical with a wider base",
+        "background": "blurry, pink and beige tones"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 7,
+      "score": 0.96875,
+      "box": [
+        128.0,
+        448.0,
+        280.0,
+        816.0
+      ],
+      "mask": "image_1.masks/chess piece_7.png",
+      "crop": null,
+      "description": "A close-up of a light-colored, possibly cream or beige, chess king piece with a cross on top, standing on a blue and red checkered chessboard. The piece has a smooth, matte finish and is illuminated by a pinkish-red light, casting a warm glow on its surface.",
+      "attributes": {
+        "color": "cream/beige",
+        "material": "plastic or wood",
+        "type": "king",
+        "top_feature": "cross",
+        "lighting": "pinkish-red",
+        "background": "blue and red checkered chessboard",
+        "position": "standing upright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 8,
+      "score": 0.95703125,
+      "box": [
+        175.0,
+        360.0,
+        253.0,
+        520.0
+      ],
+      "mask": "image_1.masks/chess piece_8.png",
+      "crop": null,
+      "description": "A close-up of a white chess pawn with a rounded head and flared base, illuminated by vibrant red and blue lighting that casts a pinkish hue on its surface. The piece is positioned in the foreground with a blurred background featuring similar colors.",
+      "attributes": {
+        "color": "white",
+        "material": "plastic or wood",
+        "type": "pawn",
+        "lighting": "red and blue",
+        "position": "foreground",
+        "background": "blurred, colorful"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 9,
+      "score": 0.96875,
+      "box": [
+        8.0,
+        402.0,
+        145.0,
+        712.0
+      ],
+      "mask": "image_1.masks/chess piece_9.png",
+      "crop": null,
+      "description": "A close-up of a light-colored, possibly wooden or plastic, chess pawn with a rounded head and a tiered base, illuminated by red and blue lighting that casts a pinkish hue on the piece. The pawn is positioned on a checkered surface with alternating red and blue squares, suggesting a chessboard.",
+      "attributes": {
+        "material": "wood or plastic",
+        "color": "light beige with pinkish hue from lighting",
+        "shape": "pawn with rounded head and tiered base",
+        "lighting": "red and blue",
+        "surface": "checkered red and blue chessboard",
+        "position": "standing upright on the chessboard"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 10,
+      "score": 0.890625,
+      "box": [
+        736.0,
+        147.0,
+        832.0,
+        416.0
+      ],
+      "mask": "image_1.masks/chess piece_10.png",
+      "crop": null,
+      "description": "A blurry, pink chess piece with a cross-shaped top, resembling a king or queen, set against a dark background with hints of blue and red at the base.",
+      "attributes": {
+        "color": "pink",
+        "shape": "cross-shaped top, cylindrical body",
+        "material": "unknown due to blurriness",
+        "position": "upright",
+        "background": "dark with blue and red accents at the base"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 11,
+      "score": 0.77734375,
+      "box": [
+        624.0,
+        192.0,
+        704.0,
+        424.0
+      ],
+      "mask": "image_1.masks/chess piece_11.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus chess piece with a reddish-brown hue, featuring a rounded top and a wider base, set against a dark background with hints of blue and red lighting.",
+      "attributes": {
+        "color": "reddish-brown",
+        "shape": "rounded top, wider base",
+        "focus": "blurry",
+        "background": "dark with blue and red lighting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 12,
+      "score": 0.7578125,
+      "box": [
+        988.0,
+        344.0,
+        1020.0,
+        472.0
+      ],
+      "mask": "image_1.masks/chess piece_12.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus crop showing a dark, rounded shape at the top, possibly the head of a chess piece, with a red band below it and a blue section at the bottom. The image is too indistinct to identify specific details or features of the chess piece.",
+      "attributes": {
+        "color": {
+          "top": "dark",
+          "middle": "red",
+          "bottom": "blue"
+        },
+        "clarity": "blurry",
+        "shape": "rounded top"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 13,
+      "score": 0.96875,
+      "box": [
+        584.0,
+        552.0,
+        704.0,
+        776.0
+      ],
+      "mask": "image_1.masks/chess piece_13.png",
+      "crop": null,
+      "description": "A close-up of a light-colored, matte-finished chess pawn standing on a checkered board with alternating red and blue squares. The piece features a spherical head, a flared collar, a tapered stem, and a wide, tiered base, illuminated by a strong red light that casts a warm hue over the object.",
+      "attributes": {
+        "piece_type": "pawn",
+        "color": "light beige",
+        "material": "matte plastic or wood",
+        "shape": "spherical head, flared collar, tapered stem, wide base",
+        "lighting": "red ambient light",
+        "background": "red and blue checkered board"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 14,
+      "score": 0.81640625,
+      "box": [
+        528.0,
+        248.0,
+        592.0,
+        392.0
+      ],
+      "mask": "image_1.masks/chess piece_14.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus chess piece with a reddish-pink hue, possibly a pawn or bishop, set against a background of blue and red colors. The piece appears to be made of a smooth material, likely plastic or wood, but the details are indistinct due to the blur.",
+      "attributes": {
+        "color": "reddish-pink",
+        "material": "smooth, possibly plastic or wood",
+        "shape": "indistinct, possibly pawn or bishop",
+        "background": "blue and red",
+        "focus": "blurry, out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chess piece",
+      "index": 15,
+      "score": 0.80859375,
+      "box": [
+        536.0,
+        178.0,
+        608.0,
+        334.0
+      ],
+      "mask": "image_1.masks/chess piece_15.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurry, out-of-focus chess piece with a pinkish-red body and a yellowish top, set against a dark background. The piece appears to be a queen or king due to its tall, slender shape and the presence of a crown-like structure at the top, though details are indistinct.\", \"attributes\": {\"color\": {\"body\": \"pinkish-red\", \"top\": \"yellowish\"}, \"shape\": \"tall and slender\", \"top_structure\": \"crown-like\", \"background\": \"dark\", \"focus\": \"blurry\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chess piece",
+      "index": 16,
+      "score": 0.9375,
+      "box": [
+        728.0,
+        308.0,
+        808.0,
+        460.0
+      ],
+      "mask": "image_1.masks/chess piece_16.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus chess piece with a rounded, tiered structure, appearing to be a pawn or bishop, illuminated by vibrant pink and red lighting against a dark background with hints of blue.",
+      "attributes": {
+        "color": "pink, red, blue",
+        "material": "unknown, possibly plastic or wood",
+        "shape": "rounded, tiered",
+        "focus": "blurry, out-of-focus",
+        "lighting": "vibrant, colorful",
+        "background": "dark, with blue accents"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chessboard",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        0.0,
+        290.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/chessboard_0.png",
+      "crop": null,
+      "description": "A close-up, angled view of a backlit chessboard with alternating red and blue squares, featuring light-colored wooden chess pieces arranged in a mid-game position. The board has a black frame and is illuminated from below, casting a vibrant glow on the pieces and the surface.",
+      "attributes": {
+        "board": {
+          "colors": [
+            "red",
+            "blue"
+          ],
+          "lighting": "backlit",
+          "frame": "black",
+          "material": "plastic or acrylic"
+        },
+        "pieces": {
+          "color": "light beige",
+          "material": "wood or plastic",
+          "visible_types": [
+            "pawn",
+            "rook",
+            "king",
+            "queen"
+          ],
+          "arrangement": "scattered mid-game"
+        },
+        "viewpoint": "low angle, close-up"
+      },
+      "parse_ok": true
+    }
+  ]
+}

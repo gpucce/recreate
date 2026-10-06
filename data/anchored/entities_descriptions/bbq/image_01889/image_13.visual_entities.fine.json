@@ -1,0 +1,390 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        916.0,
+        106.0,
+        1024.0,
+        378.0
+      ],
+      "mask": "image_13.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's curly, dark brown hair with tight ringlets, partially obscuring a blurred background that includes a light-colored building and green foliage.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "style": "tight ringlets"
+        },
+        "background": {
+          "building": "light-colored, blurred",
+          "foliage": "green, blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.8046875,
+      "box": [
+        0.0,
+        -3.0,
+        406.0,
+        492.0
+      ],
+      "mask": "image_13.masks/building_1.png",
+      "crop": null,
+      "description": "An elderly Black man with a white beard and mustache is smiling broadly, wearing a black beanie and a bright turquoise shirt with a pink flamingo and palm tree pattern. He is positioned in the foreground, facing to the right, with a blurred urban street scene in the background featuring a building with a dark blue awning and a partially visible sign that reads 'GAR'.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "white",
+          "mustache": "white"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "turquoise",
+            "pattern": "flamingo and palm trees"
+          }
+        },
+        "expression": "smiling",
+        "pose": "facing right",
+        "background": {
+          "building": {
+            "awning": "dark blue",
+            "sign": "partially visible, reads 'GAR'"
+          },
+          "setting": "urban street"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        572.0,
+        128.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young man with dark curly hair and light facial stubble is shown in profile, wearing a black and white varsity jacket over a white t-shirt while holding a bright pink soccer ball with both hands. He is positioned outdoors on a street with blurred cars and trees in the background, looking to the left with a joyful expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "ethnicity": "mixed or black",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly afro"
+        },
+        "facial_hair": "light stubble",
+        "expression": "smiling, happy",
+        "clothing": {
+          "jacket": {
+            "type": "varsity",
+            "body_color": "black",
+            "sleeve_color": "white",
+            "collar": "black with white stripes",
+            "buttons": "white"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "t-shirt"
+          }
+        },
+        "accessories": {
+          "object_held": {
+            "item": "soccer ball",
+            "color": "bright pink",
+            "material": "plastic or rubber"
+          }
+        },
+        "pose": "standing, holding object with both hands",
+        "orientation": "profile view facing left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8515625,
+      "box": [
+        384.0,
+        368.0,
+        416.0,
+        468.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        -2.0,
+        182.0,
+        616.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly Black man with a white beard and mustache, wearing a black beanie and a bright turquoise short-sleeved shirt with a pink flamingo and orange hibiscus flower pattern, stands on a city sidewalk with his hands open in a gesture of conversation or explanation, smiling broadly. He wears a silver chain necklace and a black watch on his left wrist, and is positioned in profile facing right, with a blurred urban background including a GAP store sign and pedestrians.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "white",
+          "style": "short, curly, visible under beanie"
+        },
+        "facial_hair": {
+          "beard": "white, full, well-groomed",
+          "mustache": "white, thick"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "short-sleeved button-up",
+            "color": "turquoise",
+            "pattern": "pink flamingos and orange hibiscus flowers with green leaves",
+            "material": "lightweight fabric, likely cotton or rayon"
+          },
+          "accessories": {
+            "necklace": "thin silver chain",
+            "watch": "black strap, metallic face, worn on left wrist"
+          }
+        },
+        "pose": "standing, facing right, both hands open and raised mid-gesture",
+        "expression": "smiling broadly, eyes crinkled with joy, engaged in lively conversation",
+        "position": "foreground, slightly left of center, cropped from chest up",
+        "background_context": "urban sidewalk, blurred storefronts (including GAP), trees, distant pedestrians, parked cars"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "soccer ball",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        584.0,
+        672.0,
+        808.0,
+        888.0
+      ],
+      "mask": "image_13.masks/soccer ball_0.png",
+      "crop": null,
+      "description": "A glossy, bright pink soccer ball with a standard black pentagon and hexagon panel pattern is held in the hands of a person. The ball's surface is highly reflective, showing white highlights and a distorted reflection of the person's face and upper body.",
+      "attributes": {
+        "object": "soccer ball",
+        "color": "bright pink",
+        "pattern": "black pentagon and hexagon lines",
+        "material": "glossy plastic or rubber",
+        "surface": "shiny, reflective",
+        "reflection": "visible face and body of holder",
+        "pose": "held in hands",
+        "holder": {
+          "skin_tone": "dark",
+          "clothing": "black jacket with white shirt"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        764.0,
+        -1.0,
+        1012.0,
+        137.0
+      ],
+      "mask": "image_13.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up view of a tree trunk and branches with green leaves, set against a blurred background of light and foliage. The tree appears to be in focus, with the trunk and branches clearly visible, while the background is out of focus, creating a bokeh effect.",
+      "attributes": {
+        "trunk": "brown, textured",
+        "branches": "brown, extending outward",
+        "leaves": "green, some yellowing",
+        "background": "blurred, light and foliage",
+        "focus": "tree in focus, background out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.671875,
+      "box": [
+        344.0,
+        4.0,
+        776.0,
+        568.0
+      ],
+      "mask": "image_13.masks/tree_1.png",
+      "crop": null,
+      "description": "A medium-sized deciduous tree with a slender, light brown trunk and a canopy of green leaves mixed with some yellowing foliage, standing on a sidewalk in an urban setting with a blurred background of buildings and parked cars.",
+      "attributes": {
+        "type": "deciduous",
+        "trunk": {
+          "color": "light brown",
+          "thickness": "slender"
+        },
+        "leaves": {
+          "color": "green and yellow",
+          "density": "moderate"
+        },
+        "location": "urban sidewalk",
+        "background": "blurred buildings and cars"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.53125,
+      "box": [
+        418.0,
+        172.0,
+        624.0,
+        348.0
+      ],
+      "mask": "image_13.masks/tree_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green foliage and a brown trunk is visible in the background, partially obscured by a dark vertical pole and a blurred sign.",
+      "attributes": {
+        "focus": "blurry",
+        "foliage_color": "green",
+        "trunk_color": "brown",
+        "position": "background",
+        "obscured_by": [
+          "pole",
+          "sign"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.53515625,
+      "box": [
+        420.0,
+        290.0,
+        508.0,
+        366.0
+      ],
+      "mask": "image_13.masks/tree_3.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred, out-of-focus view of a tree with yellowish-green foliage, suggesting autumn or late summer colors. The background is indistinct with patches of white and blue, possibly indicating sky or distant objects, but no specific details are discernible due to the extreme blur.",
+      "attributes": {
+        "color": "yellowish-green",
+        "focus": "blurred",
+        "season": "autumn or late summer",
+        "background": "indistinct, with white and blue patches"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.7265625,
+      "box": [
+        342.0,
+        0.0,
+        1008.0,
+        568.0
+      ],
+      "mask": "image_13.masks/tree_4.png",
+      "crop": null,
+      "description": "A medium-sized tree with a slender, light brown trunk and multiple branches extending upward, covered in dense green foliage with some yellowing leaves, situated on a sidewalk in an urban setting.",
+      "attributes": {
+        "trunk": {
+          "color": "light brown",
+          "texture": "smooth",
+          "shape": "slender, branching"
+        },
+        "foliage": {
+          "color": "green with yellow highlights",
+          "density": "dense",
+          "leaf_shape": "small, oval"
+        },
+        "location": "urban sidewalk",
+        "background": "blurred street scene with cars and buildings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.796875,
+      "box": [
+        968.0,
+        218.0,
+        1024.0,
+        294.0
+      ],
+      "mask": "image_13.masks/tree_5.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of a tree with green foliage in the background and a dark, textured branch or trunk on the left side. The details are blurred, making it difficult to discern specific features of the tree.",
+      "attributes": {
+        "focus": "out-of-focus",
+        "foliage_color": "green",
+        "branch_color": "dark",
+        "texture": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.671875,
+      "box": [
+        418.0,
+        168.0,
+        624.0,
+        440.0
+      ],
+      "mask": "image_13.masks/tree_6.png",
+      "crop": null,
+      "description": "A blurry tree with green leaves and a brown trunk is visible in the background, partially obscured by a street sign and other out-of-focus elements.",
+      "attributes": {
+        "color": {
+          "leaves": "green",
+          "trunk": "brown"
+        },
+        "focus": "blurry",
+        "position": "background",
+        "elements": [
+          "leaves",
+          "trunk",
+          "street sign"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

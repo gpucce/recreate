@@ -1,0 +1,77 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        50.0,
+        254.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with fair skin and dark hair gently kissing the forehead of a newborn baby who has wet, dark hair and is looking upward with an open mouth. The woman is wearing a light-colored top, and her hand is visible supporting the back of the baby's head.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "skin_tone": "fair",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, partially visible"
+        },
+        "clothing": {
+          "top": "light beige or cream"
+        },
+        "action": "kissing baby's forehead",
+        "expression": "affectionate, eyes closed",
+        "associated_entity": {
+          "type": "baby",
+          "hair": "wet, dark",
+          "expression": "looking up, mouth open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        52.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up of a woman with dark hair and light skin gently kissing the forehead of a newborn baby with wet, dark hair. The woman has her eyes closed and a soft smile, while the baby looks to the side with wide eyes and an open mouth.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "social_role": "mother",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "expression": "affectionate, eyes closed, smiling",
+        "action": "kissing baby's forehead",
+        "baby": {
+          "age": "newborn",
+          "hair": {
+            "color": "dark brown",
+            "texture": "wet, spiky"
+          },
+          "expression": "wide-eyed, mouth open",
+          "skin": "light, slightly reddish",
+          "pose": "being held"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

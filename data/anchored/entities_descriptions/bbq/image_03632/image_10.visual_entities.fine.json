@@ -1,0 +1,295 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.578125,
+      "box": [
+        -1.0,
+        584.0,
+        272.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/floor_0.png",
+      "crop": null,
+      "description": "The floor is made of light-colored wooden planks with a smooth, polished finish, running parallel to the glass partition on the left. The wood grain is visible, and the planks are arranged in a straight, linear pattern.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "polished",
+        "pattern": "linear planks",
+        "position": "horizontal, adjacent to glass partition"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 1,
+      "score": 0.90625,
+      "box": [
+        58.0,
+        592.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/floor_1.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a herringbone pattern, featuring two people walking on it. The person on the left is wearing beige pants and black socks, while the person on the right is wearing dark blue pants and brown shoes.",
+      "attributes": {
+        "material": "wood",
+        "pattern": "herringbone",
+        "color": "light brown",
+        "people": [
+          {
+            "pants": "beige",
+            "footwear": "black socks"
+          },
+          {
+            "pants": "dark blue",
+            "footwear": "brown shoes"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        222.0,
+        2.0,
+        274.0,
+        784.0
+      ],
+      "mask": "image_10.masks/glass_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up view of a glass door or window with a black handle on the right side, showing a blurred background through the transparent glass. The frame appears to be metallic or dark-colored, and the glass reflects some light, indicating its smooth surface.\", \"attributes\": {\"material\": \"glass\", \"color\": \"transparent\", \"handle\": {\"color\": \"black\", \"position\": \"right side\"}, \"frame\": {\"color\": \"dark\", \"material\": \"metallic\"}, \"background\": \"blurred\", \"reflection\": \"visible\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.859375,
+      "box": [
+        904.0,
+        -2.0,
+        960.0,
+        816.0
+      ],
+      "mask": "image_10.masks/glass_1.png",
+      "crop": null,
+      "description": "A tall, vertical glass panel with a dark frame, featuring two horizontal light reflections near the top and a blurred view of an indoor space with furniture and a door handle visible through the glass.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark",
+        "reflections": [
+          "horizontal light strip",
+          "horizontal light strip"
+        ],
+        "visibility": "blurred interior view",
+        "interior_elements": [
+          "furniture",
+          "door handle"
+        ],
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.625,
+      "box": [
+        -0.75,
+        0.0,
+        24.625,
+        1012.0
+      ],
+      "mask": "image_10.masks/glass_2.png",
+      "crop": null,
+      "description": "A vertical glass panel with a reflective surface, showing a blurred reflection of an indoor environment including a desk, chair, and ceiling lights. The glass is framed by a thin, dark border on the right side.",
+      "attributes": {
+        "material": "glass",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "surface": "reflective",
+        "frame": "thin dark border on right",
+        "reflections": [
+          "desk",
+          "chair",
+          "ceiling lights"
+        ],
+        "clarity": "blurred reflection",
+        "color": "transparent with grayish tint from reflections"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.76171875,
+      "box": [
+        -0.5,
+        0.0,
+        152.0,
+        1008.0
+      ],
+      "mask": "image_10.masks/glass_3.png",
+      "crop": null,
+      "description": "A tall, transparent glass panel with a smooth, reflective surface, framed by a thin metallic border, showing a blurred view of an office interior with a chair and desk in the background.",
+      "attributes": {
+        "material": "glass",
+        "frame": "metallic",
+        "transparency": "high",
+        "reflection": "visible",
+        "background": "office interior",
+        "objects_in_background": [
+          "chair",
+          "desk",
+          "computer monitor"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.796875,
+      "box": [
+        860.0,
+        36.0,
+        884.0,
+        748.0
+      ],
+      "mask": "image_10.masks/glass_4.png",
+      "crop": null,
+      "description": "A tall, narrow glass door or window with a dark frame, featuring a vertical handle on the right side and a frosted or translucent glass panel that obscures the view through it.",
+      "attributes": {
+        "material": "glass",
+        "frame_color": "dark",
+        "handle_position": "right",
+        "transparency": "frosted/translucent",
+        "shape": "rectangular",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        556.0,
+        100.0,
+        844.0,
+        1012.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling man with curly brown hair and a short beard walks forward in a hallway, wearing a light blue button-down shirt with sleeves rolled up, dark navy trousers, and brown leather shoes. He holds a blue folder under his left arm and wears a wristwatch on his left wrist, with his right hand in his pocket.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "short beard",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "dark navy",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "brown",
+            "material": "leather"
+          },
+          "belt": {
+            "color": "brown",
+            "buckle": "metallic"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "wrist": "left",
+            "band": "dark"
+          },
+          "folder": {
+            "color": "blue",
+            "held_under": "left arm"
+          }
+        },
+        "pose": "walking forward",
+        "position": "center of frame",
+        "background": "indoor hallway with wooden floor and white walls"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        300.0,
+        150.0,
+        540.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with wavy dark brown hair walks forward while holding a black clipboard with both hands. She wears a white button-down shirt with sleeves rolled up, beige trousers, and black ankle boots, with a black camera hanging from a strap over her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "pose": "walking",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          },
+          "footwear": {
+            "type": "ankle boots",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "camera",
+            "color": "black",
+            "strap": "black"
+          },
+          "held_item": {
+            "type": "clipboard",
+            "color": "black"
+          },
+          "jewelry": {
+            "necklace": "thin gold chain",
+            "bracelet": "silver"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

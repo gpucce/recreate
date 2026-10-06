@@ -1,0 +1,119 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        0.0,
+        450.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/couch_0.png",
+      "crop": null,
+      "description": "A light gray fabric couch with a textured weave, featuring a large back cushion and a beige throw pillow on the right side. A person wearing a lavender satin pajama set is sitting cross-legged on the seat cushion.",
+      "attributes": {
+        "color": "light gray",
+        "material": "textured fabric",
+        "type": "sofa",
+        "cushions": {
+          "back": "large, light gray",
+          "throw_pillow": "beige, textured"
+        },
+        "occupant": {
+          "clothing": "lavender satin pajamas",
+          "pose": "sitting cross-legged"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        148.0,
+        64.0,
+        900.0,
+        992.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black woman with short, dark curly hair and round wire-rimmed glasses sits cross-legged on a grey sofa, wearing a light purple satin pajama set with white piping and buttons. She has a neutral expression and is looking directly at the camera with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "curly",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "round, thin metal frame"
+        },
+        "clothing": {
+          "type": "pajamas",
+          "color": "light purple",
+          "material": "satin",
+          "details": "white piping, white buttons, chest pocket"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        872.0,
+        512.0,
+        1024.0,
+        872.0
+      ],
+      "mask": "image_9.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, beige throw pillow with a textured, woven fabric surface rests against a dark gray background, likely a sofa or bed. The pillow appears soft and slightly compressed, with visible creases and folds indicating a plush, stuffed interior.",
+      "attributes": {
+        "color": "beige",
+        "shape": "square",
+        "material": "woven fabric",
+        "texture": "textured, slightly coarse",
+        "condition": "soft, slightly compressed",
+        "position": "resting against a dark gray surface",
+        "function": "decorative or comfort pillow"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        104.0,
+        -2.0,
+        808.0,
+        458.0
+      ],
+      "mask": "image_9.masks/window_0.png",
+      "crop": null,
+      "description": "A window covered by white horizontal blinds is visible in the background, providing a bright, diffused light source behind the subject. The blinds are closed, with the slats aligned horizontally across the entire visible frame.",
+      "attributes": {
+        "type": "window",
+        "covering": "blinds",
+        "blind_color": "white",
+        "blind_orientation": "horizontal",
+        "state": "closed",
+        "lighting": "bright, diffused",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

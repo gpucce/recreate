@@ -1,0 +1,91 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "dirt_path",
+      "index": 0,
+      "score": 0.53125,
+      "box": [
+        22.0,
+        528.0,
+        1024.0,
+        640.0
+      ],
+      "mask": "image_13.masks/dirt_path_0.png",
+      "crop": null,
+      "description": "A winding, reddish-brown dirt road cuts through a landscape of colorful, eroded hills with layers of orange, red, and yellow sediment. The road is narrow and appears unpaved, with a few vehicles, including a white truck and a smaller car, traveling along it. The surrounding terrain is rugged and barren, with sparse vegetation and distinct geological formations.",
+      "attributes": {
+        "color": "reddish-brown",
+        "material": "dirt",
+        "width": "narrow",
+        "vehicles": [
+          "white truck",
+          "smaller car"
+        ],
+        "terrain": "rugged, eroded hills",
+        "vegetation": "sparse",
+        "geological_formations": "layered sediment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        6.0,
+        308.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_13.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "A vibrant, undulating landscape of eroded hills featuring distinct horizontal stripes of red, orange, yellow, and white sedimentary rock. A paved road winds through the middle ground with a few vehicles visible, set against a clear blue sky.",
+      "attributes": {
+        "terrain_type": "eroded hills",
+        "colors": [
+          "red",
+          "orange",
+          "yellow",
+          "white",
+          "brown"
+        ],
+        "texture": "striated, layered, smooth",
+        "features": [
+          "winding road",
+          "sparse vegetation",
+          "clear sky"
+        ],
+        "lighting": "bright sunlight",
+        "atmosphere": "arid, scenic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        2.0,
+        1.0,
+        1024.0,
+        396.0
+      ],
+      "mask": "image_13.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear blue sky with wispy, scattered white clouds stretching horizontally across the upper portion of the image, above a landscape of colorful, eroded hills.",
+      "attributes": {
+        "color": "blue",
+        "clouds": {
+          "type": "cirrus",
+          "color": "white",
+          "distribution": "scattered, horizontal streaks"
+        },
+        "lighting": "bright, natural daylight",
+        "position": "upper two-thirds of the image"
+      },
+      "parse_ok": true
+    }
+  ]
+}

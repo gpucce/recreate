@@ -1,0 +1,284 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        656.0,
+        632.0,
+        1032.0,
+        736.0
+      ],
+      "mask": "image_6.masks/grass_0.png",
+      "crop": null,
+      "description": "The image shows a blurred background of a park or garden setting with green grass and trees. The grass appears to be well-maintained, with a mix of light and dark green hues, suggesting a healthy lawn. There are no visible flowers or other plants in the immediate foreground, but the overall scene conveys a natural, outdoor environment.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "setting": "outdoor park or garden",
+        "maintenance": "well-maintained"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        840.0,
+        760.0,
+        1032.0,
+        896.0
+      ],
+      "mask": "image_6.masks/grass_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a patch of green grass growing along the edge of a light-colored, sandy or gravelly surface. The grass appears sparse and low-lying, with individual blades and small white flowers or seeds visible amidst the green foliage.",
+      "attributes": {
+        "color": "green",
+        "texture": "fuzzy, out-of-focus",
+        "growth_pattern": "sparse, low-lying",
+        "location": "edge of sandy/gravelly surface",
+        "details": [
+          "small white flowers or seeds",
+          "individual blades visible"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.859375,
+      "box": [
+        0.0,
+        712.0,
+        296.0,
+        960.0
+      ],
+      "mask": "image_6.masks/grass_2.png",
+      "crop": null,
+      "description": "A patch of green grass grows along the edge of a paved path, interspersed with dry, brown fallen leaves and small twigs. The grass appears somewhat sparse and uneven, with some blades standing upright while others are flattened or mixed with the debris on the ground.",
+      "attributes": {
+        "color": "green",
+        "texture": "uneven, mixed with debris",
+        "location": "edge of a paved path",
+        "debris": "brown fallen leaves, small twigs",
+        "condition": "sparse, uneven growth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 3,
+      "score": 0.62890625,
+      "box": [
+        -2.0,
+        636.0,
+        326.0,
+        724.0
+      ],
+      "mask": "image_6.masks/grass_3.png",
+      "crop": null,
+      "description": "{\"description\": \"The image shows a blurred background of a park or garden setting with green grass and trees. The grass appears to be short and well-maintained, with a mix of light and dark green shades. There are no distinct features or objects in the grass itself, as it is out of focus.\", \"attributes\": {\"color\": \"green\", \"texture\": \"short and well-maintained\", \"focus\": \"blurred\", \"location\": \"park or garden\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        884.0,
+        644.0,
+        1024.0,
+        684.0
+      ],
+      "mask": "image_6.masks/path_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a vertical brown object in the center, likely a tree trunk, with indistinct light and dark areas in the background.",
+      "attributes": {
+        "focus": "blurry",
+        "color": "brown",
+        "shape": "vertical",
+        "background": "indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        6.0,
+        636.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/path_1.png",
+      "crop": null,
+      "description": "A dirt path with a light brown, sandy texture stretches into the distance, flanked by grass and trees on both sides. The path is dappled with shadows from the surrounding trees, creating a pattern of light and dark patches on the ground.",
+      "attributes": {
+        "material": "dirt/sand",
+        "color": "light brown",
+        "texture": "sandy, uneven",
+        "lighting": "dappled sunlight and shadows",
+        "surroundings": "grass, trees, park bench in the background",
+        "condition": "well-trodden, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.66015625,
+      "box": [
+        -2.0,
+        568.0,
+        12.375,
+        640.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        316.0,
+        358.0,
+        532.0,
+        952.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly person with short, curly gray hair is walking away from the camera, wearing a loose-fitting beige long-sleeved shirt and light blue jeans. They are holding a black camera in their left hand and appear to be walking on a paved path with blurred trees in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "beige",
+            "type": "long-sleeved",
+            "fit": "loose"
+          },
+          "pants": {
+            "color": "light blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "beige",
+            "type": "casual"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "color": "black",
+            "held_in": "left hand"
+          }
+        },
+        "pose": "walking away",
+        "background": {
+          "setting": "outdoor",
+          "elements": [
+            "paved path",
+            "blurred trees"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9140625,
+      "box": [
+        260.0,
+        576.0,
+        328.0,
+        664.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "The image is a heavily blurred crop showing a person sitting in the background, wearing a light-colored top and dark pants, with a portion of another person's arm or shoulder visible in the foreground on the right.",
+      "attributes": {
+        "clothing": {
+          "top": "light-colored",
+          "pants": "dark"
+        },
+        "pose": "sitting",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.86328125,
+      "box": [
+        632.0,
+        560.0,
+        664.0,
+        664.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.98046875,
+      "box": [
+        502.0,
+        568.0,
+        656.0,
+        952.0
+      ],
+      "mask": "image_6.masks/person_4.png",
+      "crop": null,
+      "description": "A young child with dark, curly hair is seen from behind, walking away while holding the hand of an adult on the left. The child wears a yellow short-sleeved t-shirt, blue denim shorts, white socks, and dark sneakers with white soles.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "yellow",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "blue",
+            "material": "denim"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "dark blue",
+            "socks": "white"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        0.0,
+        350.0,
+        1020.0,
+        1016.0
+      ],
+      "mask": "image_3.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is holding a rugby ball with both hands, wearing a green and black sports jersey with the brand 'Vipon' and a team logo on the chest. The background is a blurred grassy field, suggesting an outdoor sports setting.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "brand": "Vipon",
+          "logo": "Stefanova Rugby"
+        },
+        "pose": "holding a rugby ball",
+        "object": {
+          "type": "rugby ball",
+          "text": "STEFANOVA",
+          "brand": "Vipon"
+        },
+        "background": "blurred grassy field",
+        "gender": "indeterminate",
+        "age": "adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        134.0,
+        4.0,
+        904.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a messy bun stands facing forward, holding a white rugby ball with red and blue stripes and the text 'STEFANOVA' in her hands. She wears a green and black short-sleeved athletic jersey with a 'Vipon' logo on the right chest and a 'Stefanova Rugby' crest on the left, displaying a serious, focused expression against a blurred outdoor background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high messy bun"
+        },
+        "expression": "serious, focused",
+        "clothing": {
+          "shirt": {
+            "type": "rugby jersey",
+            "colors": [
+              "green",
+              "black"
+            ],
+            "logos": [
+              "Vipon",
+              "Stefanova Rugby"
+            ]
+          }
+        },
+        "accessories": {
+          "bracelet": "thin black band on left wrist"
+        },
+        "object_held": {
+          "type": "rugby ball",
+          "color": "white",
+          "details": "red and blue stripes, text 'STEFANOVA' and 'Mitre'"
+        },
+        "pose": "standing, holding ball with both hands at waist level"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        312.0,
+        708.0,
+        572.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball held by two hands, featuring the brand name 'STEANOA' in large black letters and the word 'vivo' in smaller text below it. The ball has red and blue curved stripes running along its length and shows visible wear and dirt marks on the surface.",
+      "attributes": {
+        "object_type": "rugby ball",
+        "color": "white",
+        "branding": {
+          "main_text": "STEANOA",
+          "secondary_text": "vivo",
+          "text_color": "black"
+        },
+        "design": {
+          "stripes": [
+            "red",
+            "blue"
+          ],
+          "pattern": "curved lines"
+        },
+        "condition": "worn",
+        "surface": "textured leather",
+        "interaction": "held by hands"
+      },
+      "parse_ok": true
+    }
+  ]
+}

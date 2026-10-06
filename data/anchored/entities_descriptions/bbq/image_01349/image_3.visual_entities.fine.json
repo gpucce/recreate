@@ -1,0 +1,353 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        708.0,
+        788.0,
+        1024.0,
+        996.0
+      ],
+      "mask": "image_3.masks/desk_0.png",
+      "crop": null,
+      "description": "{\n  \"description\": \"A close-up view of a light-colored wooden desk with a smooth, polished surface and visible wood grain, supported by a grey metal frame with curved legs. An open book and a silver laptop are partially visible on the surface, with a person's legs in beige pants seated underneath.\",\n  \"attributes\": {\n    \"material\": {\n      \"top\": \"light wood\",\n      \"frame\": \"grey metal\"\n    },\n    \"color\": {\n      \"top\": \"light brown\",\n      \"frame\": \"grey\"\n    },\n    \"surface\": \"smooth, polished\",\n    \"structure\": \"curved metal legs\",\n    \"items_on_top\": [\n      \"open book\",\n      \"silver laptop\"\n    ],\n    \"context\": \"indoor, likely office or study setting\"\n  ]\n}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.78515625,
+      "box": [
+        272.0,
+        660.0,
+        356.0,
+        716.0
+      ],
+      "mask": "image_3.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up view of a desk surface with a light-colored, possibly wooden or laminate, top and a darker edge or base. The image is blurry, making it difficult to discern specific details or textures.",
+      "attributes": {
+        "color": "light beige or off-white",
+        "material": "possibly wood or laminate",
+        "visibility": "blurry",
+        "position": "horizontal surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.890625,
+      "box": [
+        -4.0,
+        832.0,
+        948.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/desk_2.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, polished surface and visible wood grain, featuring a gray metal frame with curved legs. The desk is positioned in a classroom or study setting, with open notebooks and hands writing on them, suggesting an educational or work environment.",
+      "attributes": {
+        "material": "wooden top, metal frame",
+        "color": {
+          "top": "light brown",
+          "frame": "gray"
+        },
+        "shape": "rectangular",
+        "function": "writing surface",
+        "setting": "classroom or study",
+        "visible_items": [
+          "open notebooks",
+          "hands writing"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 3,
+      "score": 0.77734375,
+      "box": [
+        -2.0,
+        584.0,
+        382.0,
+        648.0
+      ],
+      "mask": "image_3.masks/desk_3.png",
+      "crop": null,
+      "description": "A close-up of a young Asian male with short black hair looking downward, wearing a blue denim shirt, with a blurred background of a classroom setting including a wooden desk and a partial view of another person in a yellow shirt.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "denim shirt",
+            "color": "blue"
+          }
+        },
+        "pose": "looking down",
+        "expression": "neutral",
+        "background": {
+          "setting": "classroom",
+          "objects": [
+            "wooden desk",
+            "chair"
+          ],
+          "other_person": {
+            "visible": true,
+            "clothing_color": "yellow"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        684.0,
+        396.0,
+        1032.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian male with short, dark brown hair sits at a wooden desk, looking down with a focused expression while typing on a silver laptop. He wears a navy blue cardigan over a white t-shirt and khaki pants, with an open book resting on the desk in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "teenager",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "textured"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "cardigan",
+            "color": "navy blue",
+            "material": "knit"
+          },
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "khaki"
+          }
+        },
+        "pose": "sitting",
+        "action": "typing on laptop",
+        "expression": "focused",
+        "gaze": "downward",
+        "context": {
+          "setting": "classroom",
+          "objects": [
+            "laptop",
+            "wooden desk",
+            "open book"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.86328125,
+      "box": [
+        -2.0,
+        420.0,
+        346.0,
+        916.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short, dark brown hair is seated at a wooden desk, looking down with a focused expression while writing in a white notebook with a black pen. He is wearing a light blue denim jacket over a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "straight"
+        },
+        "clothing": {
+          "outer": {
+            "type": "jacket",
+            "material": "denim",
+            "color": "light blue"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused",
+        "action": "writing in a notebook",
+        "accessories": {
+          "pen": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        326.0,
+        432.0,
+        712.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A young Asian girl with long, straight dark hair is seated at a wooden desk, wearing a mustard-yellow knit sweater and dark pants. She is looking down with a focused expression, writing in an open notebook with a black and white pen held in her right hand.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "yellow",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "expression": "focused",
+        "accessories": {
+          "holding": "pen"
+        },
+        "context": "classroom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.94921875,
+      "box": [
+        376.0,
+        82.0,
+        728.0,
+        704.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark hair stands behind a seated girl, wearing a loose-fitting white blouse with rolled-up sleeves and a blue lanyard around her neck. She has a neutral expression and is looking forward, while the girl in the foreground wears a yellow sweater and looks down.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight, parted in the middle"
+        },
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "color": "white",
+            "sleeves": "rolled up to elbows"
+          },
+          "accessories": {
+            "lanyard": {
+              "color": "blue"
+            }
+          }
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "position": "background, behind a seated person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        -1.0,
+        0.0,
+        238.0,
+        528.0
+      ],
+      "mask": "image_3.masks/window_0.png",
+      "crop": null,
+      "description": "A window covered with white horizontal blinds, partially visible in the upper portion of the image. The lower part of the image shows the top of a person's head with dark hair.",
+      "attributes": {
+        "window": {
+          "cover": "horizontal blinds",
+          "color": "white",
+          "position": "upper portion"
+        },
+        "person": {
+          "hair": "dark",
+          "position": "lower portion",
+          "visible_part": "top of head"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        756.0,
+        -2.0,
+        1024.0,
+        544.0
+      ],
+      "mask": "image_3.masks/window_1.png",
+      "crop": null,
+      "description": "A window covered by white horizontal blinds occupies the majority of the frame, with a young boy's head visible in the lower foreground. The blinds are closed, creating a pattern of horizontal lines, and the light appears soft and diffused.",
+      "attributes": {
+        "window": {
+          "coverings": "horizontal blinds",
+          "color": "white",
+          "state": "closed",
+          "position": "background",
+          "lighting": "bright, diffused"
+        },
+        "person": {
+          "gender": "male",
+          "age_group": "child",
+          "hair": {
+            "color": "dark brown",
+            "style": "short, textured"
+          },
+          "position": "bottom center",
+          "pose": "head down, looking down"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

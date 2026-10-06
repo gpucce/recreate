@@ -1,0 +1,95 @@
+{
+  "scene": {
+    "background": "ocean and clear blue sky with gentle waves lapping at the shore, softly blurred (bokeh effect)",
+    "lighting": "bright, natural daylight, midday sun, soft shadows on faces and clothing, even and diffused light with high contrast and vivid color saturation",
+    "camera_angle": "medium close-up perspective, slightly angled from the side, as if the viewer is standing just behind and beside them",
+    "style": "photorealistic with slight film grain or analog photo texture, reminiscent of a high-quality photo taken with a reflex camera (like a Canon or Nikon) in an outdoor setting",
+    "mood": "warm, friendly, nostalgic, and candid — capturing a moment of connection and conversation in a relaxed, open-air setting",
+    "color_palette": "dominated by cool blues of the sky and ocean, contrasted with warm beige of the cap, crisp white of the polo shirt, and navy blue jacket, with high color saturation and slightly warm white balance"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "age": "elderly",
+        "gender": "male",
+        "hair": {
+          "color": "white",
+          "condition": "slightly thinning"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "polo shirt",
+            "color": "crisp white"
+          }
+        },
+        "pose": "turned slightly toward Subject 2, gesturing with right hand (thumb extended and fingers slightly curled)",
+        "expression": "face blurred for privacy, posture and gesture suggest speaking passionately or explaining something"
+      },
+      "id": "person_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "elderly",
+        "gender": "male",
+        "hair": {
+          "color": "white"
+        },
+        "clothing": {
+          "headwear": {
+            "type": "tweed flat cap",
+            "pattern": "checkered",
+            "color": "beige and dark brown tones"
+          },
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "navy blue"
+          },
+          "shirt": {
+            "type": "collared shirt",
+            "color": "light blue"
+          }
+        },
+        "pose": "facing Subject 1, both hands raised and open (fingers interlaced or slightly spread)",
+        "expression": "face blurred for privacy, gold wedding band visible on left ring finger"
+      },
+      "id": "person_2",
+      "count": 1
+    },
+    {
+      "type": "clothing",
+      "attributes": {
+        "type": "denim jacket",
+        "color": "navy blue"
+      },
+      "id": "jacket_1",
+      "count": 1
+    },
+    {
+      "type": "clothing",
+      "attributes": {
+        "type": "collared shirt",
+        "color": "light blue"
+      },
+      "id": "shirt_1",
+      "count": 1
+    },
+    {
+      "type": "clothing",
+      "attributes": {
+        "type": "polo shirt",
+        "color": "crisp white"
+      },
+      "id": "shirt_2",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": [
+    "headwear",
+    "jewelry",
+    "surface"
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        888.0,
+        632.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person wearing a heather grey long-sleeved top sitting on a chair with dark blue or grey ribbed upholstery. A black armrest and a small portion of a light wooden surface are visible in the lower foreground.",
+      "attributes": {
+        "upholstery": {
+          "color": "dark blue-grey",
+          "texture": "ribbed",
+          "material": "fabric"
+        },
+        "armrest": {
+          "color": "black",
+          "material": "plastic or metal"
+        },
+        "person": {
+          "clothing": {
+            "top": {
+              "color": "heather grey",
+              "sleeve_length": "long"
+            }
+          },
+          "hair": {
+            "color": "dark brown",
+            "style": "wavy"
+          }
+        },
+        "foreground_object": {
+          "color": "light wood",
+          "type": "table or desk edge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        548.0,
+        588.0,
+        644.0,
+        788.0
+      ],
+      "mask": "image_1.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a chair backrest featuring a light blue, textured fabric surface with a white piping trim along the top edge. The chair is positioned behind a person wearing a grey sweater, with the fabric appearing soft and slightly out of focus.",
+      "attributes": {
+        "object": "chair",
+        "part": "backrest",
+        "color": "light blue",
+        "material": "textured fabric",
+        "trim": "white piping",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        564.0,
+        568.0,
+        1024.0,
+        632.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "A person with long, wavy brown hair is wearing a light gray, textured sweater with a ribbed crew neckline. The image is cropped to show the upper torso and shoulders, with the person's face and lower body not visible.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "style": "long, wavy"
+        },
+        "clothing": {
+          "sweater": {
+            "color": "light gray",
+            "texture": "textured knit",
+            "neckline": "ribbed crew neck"
+          }
+        },
+        "pose": "facing forward, upper body visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        -2.0,
+        740.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/desk_1.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, matte finish and visible horizontal grain pattern, supporting a silver laptop and the hands of a person wearing a grey sweater.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "finish": "matte",
+        "texture": "smooth with visible grain",
+        "items_on_desk": [
+          "silver laptop",
+          "hands"
+        ],
+        "perspective": "close-up, low angle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        -1.25,
+        800.0,
+        75.0,
+        856.0
+      ],
+      "mask": "image_1.masks/laptop_0.png",
+      "crop": null,
+      "description": "A close-up view of the bottom edge of a white laptop, showing a smooth, matte surface and a thin profile. The laptop is positioned at an angle, with a small black rectangular detail visible on the left side of the frame.",
+      "attributes": {
+        "color": "white",
+        "material": "matte plastic or metal",
+        "shape": "rectangular",
+        "edge": "thin",
+        "details": {
+          "left_side": "small black rectangular feature"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        640.0,
+        540.0,
+        944.0
+      ],
+      "mask": "image_1.masks/laptop_1.png",
+      "crop": null,
+      "description": "A silver laptop with a black keyboard and trackpad is open on a wooden table, positioned in front of a person wearing a light blue shirt who is gesturing with their hands.",
+      "attributes": {
+        "color": "silver",
+        "keyboard": "black",
+        "trackpad": "black",
+        "position": "open on a wooden table",
+        "material": "metallic",
+        "type": "laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        288.0,
+        180.0,
+        1008.0,
+        1012.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair is shown in profile, wearing a light grey crew-neck sweater and gesturing with both hands while speaking to an older woman seated across a wooden table. She has a small stud earring in her visible ear and is positioned in the foreground, facing left toward the older woman, who is partially visible in the background wearing a light blue button-down shirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light grey",
+            "neckline": "crew neck",
+            "sleeves": "long"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "seated, gesturing with both hands, facing left",
+        "expression": "engaged, speaking",
+        "position": "foreground, right side of frame",
+        "context": "in conversation with an older woman across a table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        99.0,
+        190.0,
+        564.0,
+        832.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up shot of an older woman with short, wavy white hair wearing a light blue button-down shirt, seated at a table with her hands clasped while looking attentively at another person who is gesturing with their hands in the foreground. The background is softly blurred, showing a window and curtains, suggesting an indoor office or meeting setting.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue",
+            "material": "cotton"
+          }
+        },
+        "pose": "sitting",
+        "expression": "attentive",
+        "action": "listening",
+        "accessories": {
+          "earrings": "small stud"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

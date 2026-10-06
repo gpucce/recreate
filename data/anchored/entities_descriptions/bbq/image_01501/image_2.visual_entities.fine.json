@@ -1,0 +1,92 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        424.0,
+        92.0,
+        976.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with wavy, shoulder-length brown hair sits next to an older woman, wearing a white button-down shirt with small red star patterns and a red neckerchief tied at the collar. She has a gentle smile and is looking directly at the camera, with her hands resting on her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "pattern": "red stars",
+            "type": "button-down"
+          },
+          "accessory": {
+            "type": "neckerchief",
+            "color": "red"
+          },
+          "pants": {
+            "color": "black"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "position": "right side of the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        94.0,
+        126.0,
+        624.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair sits with a gentle smile, wearing a blue knit cardigan over a brown top and patterned purple pants, with her hands clasped in her lap next to a younger woman.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "facial_expression": "gentle smile",
+        "clothing": {
+          "outerwear": {
+            "type": "cardigan",
+            "color": "blue",
+            "material": "knit",
+            "buttons": "gray"
+          },
+          "top": {
+            "color": "brown"
+          },
+          "bottoms": {
+            "color": "purple",
+            "pattern": "floral"
+          },
+          "accessories": {
+            "necklace": "thin silver chain with small pendant"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "position": "left side of frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

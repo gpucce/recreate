@@ -1,0 +1,88 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        60.0,
+        458.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up view of a man's upper torso wearing a formal black double-breasted coat with wide lapels and a single visible button, layered over a black waistcoat and a white high-collared shirt with a black bow tie. The man has a thick, reddish-brown mustache and is positioned against a dark, mottled background.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "adult",
+        "facial_hair": {
+          "mustache": "thick, reddish-brown"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "coat",
+            "color": "black",
+            "style": "double-breasted",
+            "details": "wide lapels, visible button"
+          },
+          "underwear": {
+            "type": "waistcoat",
+            "color": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "accessories": {
+            "tie": {
+              "type": "bow tie",
+              "color": "black"
+            }
+          }
+        },
+        "pose": "frontal, upper body"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        58.0,
+        82.0,
+        968.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A painted portrait of a middle-aged man with dark, curly hair and a prominent, thick mustache, wearing a black suit jacket over a white shirt and black bow tie. He has a serious expression and is looking slightly to the side against a mottled, dark brown background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, dark brown",
+          "sideburns": "present"
+        },
+        "clothing": {
+          "jacket": "black suit",
+          "shirt": "white",
+          "neckwear": "black bow tie"
+        },
+        "pose": "seated, facing forward",
+        "expression": "serious",
+        "medium": "oil painting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

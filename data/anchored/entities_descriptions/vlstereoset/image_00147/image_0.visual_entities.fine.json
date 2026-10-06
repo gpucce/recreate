@@ -1,0 +1,274 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "cliff",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        900.0,
+        572.0,
+        1416.0,
+        840.0
+      ],
+      "mask": "image_0.masks/cliff_0.png",
+      "crop": null,
+      "description": "A rugged, eroded cliff face composed of layered sedimentary rock, featuring vertical columns and a flat top covered in sparse, dry vegetation. The rock displays a mix of reddish-brown and tan hues, with visible stratification and weathering patterns.",
+      "attributes": {
+        "material": "sedimentary rock",
+        "color": [
+          "reddish-brown",
+          "tan"
+        ],
+        "texture": "eroded, layered, rough",
+        "topography": "flat-topped, vertical columns",
+        "vegetation": "sparse, dry, greenish-brown",
+        "lighting": "natural sunlight, casting shadows",
+        "condition": "weathered, eroded"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dirt_path",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        0.0,
+        494.0,
+        296.0,
+        660.0
+      ],
+      "mask": "image_0.masks/dirt_path_0.png",
+      "crop": null,
+      "description": "A winding dirt path meanders through a dry, arid landscape with sparse vegetation. The path appears light brown and dusty, contrasting with the darker, rocky terrain surrounding it.",
+      "attributes": {
+        "color": "light brown",
+        "texture": "dusty, uneven",
+        "shape": "winding, curving",
+        "surroundings": "arid, rocky, sparse vegetation",
+        "condition": "dry, unpaved"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dirt_path",
+      "index": 1,
+      "score": 0.62890625,
+      "box": [
+        6.25,
+        748.0,
+        1592.0,
+        1064.0
+      ],
+      "mask": "image_0.masks/dirt_path_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A narrow, unpaved dirt path winds through a dry, rocky landscape, flanked by sparse vegetation and leading towards a large, rugged rock formation in the background. The path is composed of light brown soil and small stones, with patches of green shrubs and dry grasses scattered along its edges.\", \"attributes\": {\"surface\": \"dirt and small stones\", \"color\": \"light brown\", \"vegetation\": \"sparse green shrubs and dry grasses\", \"terrain\": \"rocky and uneven\", \"background\": \"large rock formation\", \"path_width\": \"narrow\", \"path_direction\": \"winding\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hill",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        784.0,
+        256.0,
+        1584.0,
+        306.0
+      ],
+      "mask": "image_0.masks/hill_0.png",
+      "crop": null,
+      "description": "A wide, panoramic view of a hazy mountain range in the background, with a foreground of dry, sandy terrain and sparse vegetation. The mountains appear layered, with varying shades of blue and gray, suggesting distance and atmospheric perspective.",
+      "attributes": {
+        "terrain": "sandy, dry",
+        "vegetation": "sparse",
+        "mountains": {
+          "color": "blue-gray",
+          "appearance": "hazy, layered",
+          "position": "background"
+        },
+        "sky": "clear, light blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 1,
+      "score": 0.5859375,
+      "box": [
+        3.125,
+        304.0,
+        1600.0,
+        1056.0
+      ],
+      "mask": "image_0.masks/hill_1.png",
+      "crop": null,
+      "description": "A rugged, isolated rock formation with vertical, columnar basalt columns stands prominently on a dry, sandy ridge. The top of the formation is covered in green shrubs and grasses, contrasting with the reddish-brown and grey stone below, while the surrounding landscape consists of sparse, scrubby vegetation and rolling hills in the distance.",
+      "attributes": {
+        "structure": "columnar basalt",
+        "shape": "rectangular block",
+        "color": "reddish-brown, grey, green",
+        "vegetation": "shrubs, grasses",
+        "terrain": "sandy ridge, arid landscape",
+        "background": "rolling hills, sparse vegetation"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 2,
+      "score": 0.73046875,
+      "box": [
+        3.125,
+        235.0,
+        1072.0,
+        326.0
+      ],
+      "mask": "image_0.masks/hill_2.png",
+      "crop": null,
+      "description": "A wide, low-lying hill with a rugged, rocky surface and sparse vegetation, set against a clear sky. The hill has a gentle slope on the left side and a steeper, more jagged peak towards the center and right, with patches of darker rock and lighter soil visible.",
+      "attributes": {
+        "shape": "wide and low-lying",
+        "surface": "rocky and rugged",
+        "vegetation": "sparse",
+        "slope": "gentle on the left, steeper on the right",
+        "color": "mix of dark rock and light soil",
+        "sky": "clear"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 3,
+      "score": 0.53515625,
+      "box": [
+        1560.0,
+        266.0,
+        1600.0,
+        296.0
+      ],
+      "mask": "image_0.masks/hill_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hill",
+      "index": 4,
+      "score": 0.58203125,
+      "box": [
+        6.25,
+        748.0,
+        1592.0,
+        1064.0
+      ],
+      "mask": "image_0.masks/hill_4.png",
+      "crop": null,
+      "description": "A dry, arid hillside with sparse vegetation, including small shrubs and patches of grass, slopes upward toward a rocky outcrop. The terrain is predominantly light brown and beige, with scattered rocks and a few darker patches of soil or shadow.",
+      "attributes": {
+        "terrain": "arid, rocky",
+        "vegetation": "sparse shrubs, patches of grass",
+        "color": "light brown, beige, dark soil patches",
+        "features": "rocky outcrop, scattered rocks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 5,
+      "score": 0.57421875,
+      "box": [
+        768.0,
+        252.0,
+        1272.0,
+        296.0
+      ],
+      "mask": "image_0.masks/hill_5.png",
+      "crop": null,
+      "description": "A distant, hazy mountain range stretches across the horizon, appearing in muted shades of blue and gray. The foreground features a sloping hillside with dry, yellowish-brown vegetation and sparse, rocky terrain.",
+      "attributes": {
+        "color": "blue-gray, yellowish-brown",
+        "texture": "hazy, rocky, dry",
+        "type": "mountain range, hillside",
+        "position": "background, foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        780.0,
+        248.0,
+        1600.0,
+        300.0
+      ],
+      "mask": "image_0.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "A distant mountain range stretches across the horizon, appearing hazy and blue-gray due to atmospheric perspective. The foreground features a sandy, arid landscape with sparse vegetation and a small cluster of buildings on the right side.",
+      "attributes": {
+        "color": "blue-gray",
+        "texture": "hazy, smooth",
+        "position": "background",
+        "foreground": "sandy, arid",
+        "vegetation": "sparse",
+        "buildings": "small cluster on the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mountain_range",
+      "index": 1,
+      "score": 0.65234375,
+      "box": [
+        3.125,
+        224.0,
+        1600.0,
+        308.0
+      ],
+      "mask": "image_0.masks/mountain_range_1.png",
+      "crop": null,
+      "description": "A rugged, rocky mountain range with a prominent peak in the center, surrounded by a flat, arid landscape with sparse vegetation. The mountains have a mix of brown and gray tones, with some areas appearing darker due to shadows or different rock types. The sky above is clear with a few scattered clouds, and the overall scene suggests a dry, possibly desert-like environment.",
+      "attributes": {
+        "terrain": "arid, flat landscape",
+        "mountain_color": "brown and gray",
+        "vegetation": "sparse",
+        "sky": "clear with few clouds",
+        "environment": "dry, possibly desert-like"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        0.0,
+        1.0390625,
+        1592.0,
+        296.0
+      ],
+      "mask": "image_0.masks/sky_0.png",
+      "crop": null,
+      "description": "A vast, clear blue sky dominates the upper portion of the image, featuring scattered, wispy white clouds that stretch horizontally across the frame. The clouds are thin and elongated, with some appearing more dense and others more diffuse, creating a sense of depth and movement. The sky transitions from a deeper blue at the top to a lighter shade near the horizon, where it meets a distant mountain range.",
+      "attributes": {
+        "color": "blue",
+        "clouds": {
+          "type": "cirrus",
+          "density": "sparse",
+          "shape": "elongated",
+          "color": "white"
+        },
+        "horizon": "visible",
+        "mountains": {
+          "presence": "distant",
+          "color": "grayish-brown"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

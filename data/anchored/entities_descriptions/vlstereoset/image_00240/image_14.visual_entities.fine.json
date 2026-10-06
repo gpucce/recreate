@@ -1,0 +1,223 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        760.0,
+        16.0,
+        1032.0,
+        362.0
+      ],
+      "mask": "image_14.masks/curtain_0.png",
+      "crop": null,
+      "description": "A cream-colored lace curtain hangs from a dark metal rod, featuring an intricate floral pattern and a scalloped bottom edge. The fabric is semi-transparent, allowing bright light to filter through the window behind it, creating a soft, airy appearance.",
+      "attributes": {
+        "color": "cream",
+        "material": "lace",
+        "pattern": "floral",
+        "edge": "scalloped",
+        "transparency": "semi-transparent",
+        "hardware": "dark metal rod",
+        "lighting": "backlit"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        338.0,
+        398.0,
+        560.0,
+        744.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short, wavy brown hair and a neutral expression looks directly at the camera while wearing a blue polo shirt. He is seated at a table with a red mug and a white teapot visible in the foreground, and an adult wearing an apron is partially visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "type": "polo shirt",
+          "color": "blue",
+          "collar": "folded"
+        },
+        "expression": "neutral",
+        "pose": "sitting",
+        "context": {
+          "foreground_objects": [
+            "red mug",
+            "white teapot"
+          ],
+          "background": "adult in apron"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        620.0,
+        346.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short gray hair sits at a rustic wooden table, wearing a maroon headscarf and a matching maroon cardigan. She has a gentle, content expression and is looking slightly off-camera, with a red coffee cup and saucer in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "clothing": {
+          "headscarf": {
+            "color": "maroon",
+            "material": "fabric"
+          },
+          "cardigan": {
+            "color": "maroon",
+            "material": "knit"
+          }
+        },
+        "pose": "sitting",
+        "expression": "gentle, content",
+        "accessories": {
+          "cup": {
+            "color": "red",
+            "material": "ceramic"
+          },
+          "saucer": {
+            "color": "red",
+            "material": "ceramic"
+          }
+        },
+        "setting": {
+          "table": {
+            "material": "wood",
+            "condition": "rustic"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        366.0,
+        231.0,
+        744.0,
+        720.0
+      ],
+      "mask": "image_14.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling middle-aged Asian man wearing a dark grey button-down shirt and a beige apron stands behind a young boy in a blue polo shirt. The man has short black hair and is looking directly at the camera with a warm expression, while the boy has a neutral expression and is positioned in the foreground.",
+      "attributes": {
+        "man": {
+          "gender": "male",
+          "age": "middle-aged",
+          "ethnicity": "Asian",
+          "hair": {
+            "color": "black",
+            "length": "short"
+          },
+          "expression": "smiling",
+          "clothing": {
+            "shirt": "dark grey button-down",
+            "apron": "beige"
+          },
+          "pose": "standing behind the boy"
+        },
+        "boy": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "brown",
+            "length": "short"
+          },
+          "expression": "neutral",
+          "clothing": {
+            "shirt": "blue polo"
+          },
+          "pose": "sitting or standing in front"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.94921875,
+      "box": [
+        -2.0,
+        300.0,
+        356.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/person_3.png",
+      "crop": null,
+      "description": "An elderly man with a white beard and mustache sits at a rustic wooden table, wearing a dark fedora, a maroon V-neck sweater vest over a light blue button-down shirt, and holding a dark wooden pipe in his mouth while looking to the side with a gentle smile. A white ceramic teapot sits on the table in front of him, and a gold wristwatch is visible on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under hat"
+        },
+        "facial_hair": {
+          "mustache": "white",
+          "beard": "white, short"
+        },
+        "clothing": {
+          "hat": {
+            "type": "fedora",
+            "color": "dark brown or black"
+          },
+          "vest": {
+            "type": "sweater vest",
+            "color": "maroon",
+            "material": "knit"
+          },
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "sleeves": "long"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "band": "black",
+            "face": "gold"
+          },
+          "pipe": {
+            "material": "wood",
+            "color": "dark brown",
+            "position": "in mouth, held in hand"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling, content",
+        "gaze": "looking to the right",
+        "setting": "indoor, rustic kitchen or dining area"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        520.0,
+        114.0,
+        960.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, dark curly hair sits on a bed wearing an oversized olive-green knit sweater and blue jeans. She has a worried and distressed expression with furrowed brows, looking off to the side while clasping her hands together in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "long"
+        },
+        "expression": "worried, distressed, furrowed brows",
+        "clothing": {
+          "top": "olive green knit sweater, oversized, long sleeves",
+          "bottom": "blue jeans"
+        },
+        "pose": "sitting, hands clasped in lap",
+        "setting": "indoor, on a bed with white sheets"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        104.0,
+        120.0,
+        552.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with voluminous, curly dark brown hair sits on a bed, wearing a cream-colored knit cardigan over a white top and light beige pants. She has a distressed and worried expression with furrowed brows, looking off to the side with her hands clasped tightly in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "worried, distressed, frowning",
+        "clothing": {
+          "outer": "cream knit cardigan",
+          "inner": "white top",
+          "bottom": "light beige pants"
+        },
+        "pose": "sitting, hands clasped",
+        "location": "on a bed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9375,
+      "box": [
+        860.0,
+        18.75,
+        924.0,
+        126.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus profile of a person with short dark hair wearing a dark, solid-colored top, facing to the right against a plain light background.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "type": "shirt"
+          }
+        },
+        "pose": "profile view",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.88671875,
+      "box": [
+        916.0,
+        32.75,
+        972.0,
+        125.0
+      ],
+      "mask": "image_11.masks/person_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus profile of a person with long brown hair, wearing a light-colored sleeveless top, facing to the left.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "light",
+            "sleeves": "sleeveless"
+          }
+        },
+        "pose": "profile",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.515625,
+      "box": [
+        540.0,
+        410.0,
+        564.0,
+        454.0
+      ],
+      "mask": "image_11.masks/pillow_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pillow",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        940.0,
+        418.0,
+        1024.0,
+        604.0
+      ],
+      "mask": "image_11.masks/pillow_1.png",
+      "crop": null,
+      "description": "A close-up view of a white pillow with a soft, wrinkled fabric surface, positioned next to a textured, dark green or grey fabric edge on the left side. Thin, dark strands of hair are visible in the upper left corner, partially overlapping the pillow and the adjacent fabric.",
+      "attributes": {
+        "color": "white",
+        "material": "soft fabric",
+        "texture": "wrinkled",
+        "position": "right of a dark textured fabric",
+        "adjacent_objects": [
+          "dark green/grey fabric",
+          "dark hair strands"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        -0.625,
+        -1.0,
+        40.0,
+        352.0
+      ],
+      "mask": "image_11.masks/window_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up view of a white window frame with a frosted glass pane, featuring a vertical mullion and a horizontal transom bar. The bottom edge of the frame is visible, with a hint of green foliage in the lower left corner.\", \"attributes\": {\"frame_color\": \"white\", \"glass_type\": \"frosted\", \"structure\": \"vertical mullion, horizontal transom\", \"visible_elements\": [\"frame\", \"glass\", \"foliage (partial)\"], \"position\": \"centered, cropped\"}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

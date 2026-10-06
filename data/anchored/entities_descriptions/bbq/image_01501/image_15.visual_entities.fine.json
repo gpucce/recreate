@@ -1,0 +1,91 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        416.0,
+        146.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair sits with her eyes closed and a gentle, serene smile, wearing a dark navy blue cardigan over a floral collared shirt. Her hands are clasped in her lap, and a younger woman's arm is visible around her shoulder, suggesting a close, affectionate relationship.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "facial_expression": "serene, eyes closed, slight smile",
+        "clothing": {
+          "outerwear": {
+            "type": "cardigan",
+            "color": "navy blue",
+            "material": "knit",
+            "details": "buttoned front"
+          },
+          "inner_shirt": {
+            "type": "collared shirt",
+            "pattern": "floral",
+            "colors": [
+              "dark blue",
+              "pink",
+              "white"
+            ]
+          }
+        },
+        "pose": "sitting, hands clasped in lap",
+        "skin": "wrinkled, aged"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        72.0,
+        108.0,
+        920.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long wavy brown hair, wearing a white button-down shirt, a dark red tie, and grey trousers, sits next to an elderly woman with short white hair wearing a navy blue cardigan over a floral collared shirt; the younger woman has her arm around the older woman's shoulder and is smiling at the camera while the older woman has her eyes closed with a serene expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down"
+          },
+          "tie": {
+            "color": "dark red",
+            "material": "satin-like"
+          },
+          "pants": {
+            "color": "grey",
+            "type": "trousers"
+          }
+        },
+        "pose": "sitting, leaning towards the other person, arm around shoulder",
+        "position": "left side of the frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

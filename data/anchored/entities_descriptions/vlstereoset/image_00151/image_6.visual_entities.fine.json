@@ -1,0 +1,181 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        932.0,
+        708.0,
+        996.0,
+        932.0
+      ],
+      "mask": "image_6.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a chair backrest featuring a smooth, rounded top edge and a matte gray fabric surface. A white pillow or cushion is partially visible in the foreground on the left, obscuring part of the chair's side.",
+      "attributes": {
+        "object_type": "chair",
+        "part_visible": "backrest",
+        "color": "gray",
+        "material": "fabric",
+        "texture": "matte",
+        "shape": "rounded top",
+        "foreground_object": "white pillow"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        904.0,
+        572.0,
+        1024.0,
+        700.0
+      ],
+      "mask": "image_6.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk with a smooth, flat surface and a vertical side panel, partially obscured by a white object in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "surface": "smooth",
+        "structure": "flat top, vertical side panel",
+        "visible_parts": [
+          "top edge",
+          "side panel"
+        ],
+        "foreground_object": "white, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        6.0,
+        824.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/desk_1.png",
+      "crop": null,
+      "description": "A person wearing a white long-sleeved shirt is writing in an open notebook with a blue pen on a white marble desk. The notebook has a brown cover and blank pages, and a laptop is partially visible on the left side of the desk.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "sleeves": "long"
+        },
+        "object": {
+          "notebook": {
+            "cover": "brown",
+            "pages": "blank",
+            "status": "open"
+          },
+          "pen": {
+            "color": "blue"
+          },
+          "desk": {
+            "material": "marble",
+            "color": "white"
+          },
+          "laptop": {
+            "visibility": "partial",
+            "position": "left"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        202.0,
+        708.0,
+        310.0,
+        908.0
+      ],
+      "mask": "image_6.masks/pen_0.png",
+      "crop": null,
+      "description": "A blue ballpoint pen with a metallic clip and silver accents is held in a person's right hand, poised for writing. The pen has a glossy finish and a conical tip, with the hand positioned against a soft, light-colored background.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic with metallic accents",
+        "type": "ballpoint pen",
+        "features": {
+          "clip": "metallic",
+          "tip": "conical, metallic",
+          "body": "glossy, cylindrical"
+        },
+        "position": "held in right hand, angled downward",
+        "background": "light-colored, soft fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        108.0,
+        54.0,
+        956.0,
+        936.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a high bun and wearing black-rimmed glasses is seated at a table, smiling gently while writing in an open notebook with a blue pen. She is wearing a plain white crew-neck sweatshirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "white sweatshirt"
+        },
+        "pose": "sitting, writing",
+        "expression": "smiling, focused",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": "blue",
+          "notebook": "open, cream-colored pages"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        46.5,
+        228.0,
+        256.0,
+        820.0
+      ],
+      "mask": "image_6.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod with three slender legs extending from a central hub, positioned in the background and slightly out of focus. The tripod appears to be made of light-colored wood and is standing upright against a neutral wall.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "position": "background",
+        "focus": "out of focus",
+        "function": "likely for holding a lamp or similar object"
+      },
+      "parse_ok": true
+    }
+  ]
+}

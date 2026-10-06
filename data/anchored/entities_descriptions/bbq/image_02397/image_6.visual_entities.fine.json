@@ -1,0 +1,198 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        488.0,
+        106.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy gray hair and a full gray beard sits on a wooden bench, wearing a distressed brown leather jacket over a rust-colored polo shirt and blue jeans. He has a serious, contemplative expression while looking off to the side with his hands clasped together in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "wavy, medium length"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "style": "full beard and mustache"
+        },
+        "expression": "serious, contemplative",
+        "gaze": "looking to the side",
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "condition": "distressed, worn"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "rust orange"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": {
+          "action": "sitting",
+          "hands": "clasped in lap"
+        },
+        "setting": "indoor, sitting on a wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        164.0,
+        496.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A man with curly dark brown hair and a short beard sits on a wooden bench, wearing a teal t-shirt and beige pants. He has a pensive or distressed expression, looking down with his right hand covering his mouth and nose.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "short beard",
+        "expression": "pensive, distressed, or sad",
+        "pose": "sitting, leaning forward, hand covering mouth",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal",
+            "material": "cotton"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige",
+            "material": "cotton"
+          }
+        },
+        "skin": "light",
+        "body_hair": "visible on arms"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        4.0,
+        0.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/wall_0.png",
+      "crop": null,
+      "description": "Two men are sitting side by side on a wooden bench against a plain, light-colored wall. The man on the left has curly dark hair and is wearing a teal t-shirt and beige pants, with his hand covering his mouth in a contemplative or distressed pose. The man on the right has gray hair and a beard, wearing a brown leather jacket over an orange polo shirt and blue jeans, with his hands clasped together and a serious expression.",
+      "attributes": {
+        "men": [
+          {
+            "position": "left",
+            "hair": "curly, dark brown",
+            "clothing": {
+              "shirt": "teal t-shirt",
+              "pants": "beige pants"
+            },
+            "pose": "sitting, hand covering mouth",
+            "expression": "contemplative or distressed"
+          },
+          {
+            "position": "right",
+            "hair": "gray, short",
+            "beard": "gray",
+            "clothing": {
+              "jacket": "brown leather",
+              "shirt": "orange polo",
+              "pants": "blue jeans"
+            },
+            "pose": "sitting, hands clasped",
+            "expression": "serious"
+          }
+        ],
+        "background": "plain, light-colored wall",
+        "seating": "wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.625,
+      "box": [
+        6.0,
+        428.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/wall_1.png",
+      "crop": null,
+      "description": "Two men are seated side by side on a wooden bench, with the man on the left wearing a teal t-shirt and khaki pants, his hand resting on his chin in a contemplative pose, while the man on the right wears a brown leather jacket over an orange polo shirt and blue jeans, his hands clasped together in his lap.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "shirt": "teal t-shirt",
+            "pants": "khaki pants"
+          },
+          "right_person": {
+            "jacket": "brown leather",
+            "shirt": "orange polo",
+            "pants": "blue jeans"
+          }
+        },
+        "pose": {
+          "left_person": "hand on chin, sitting",
+          "right_person": "hands clasped, sitting"
+        },
+        "setting": "indoor, wooden bench",
+        "skin_tone": "light",
+        "hair": "not visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.5390625,
+      "box": [
+        0.0,
+        1.0,
+        1020.0,
+        412.0
+      ],
+      "mask": "image_6.masks/wall_2.png",
+      "crop": null,
+      "description": "A plain, light beige wall with a smooth, matte finish serves as the background, featuring a subtle horizontal line or molding near the bottom edge. The wall is evenly lit with soft, diffused lighting, creating a neutral and unobtrusive backdrop.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "smooth",
+        "finish": "matte",
+        "features": [
+          "horizontal molding near bottom"
+        ],
+        "lighting": "even, diffused"
+      },
+      "parse_ok": true
+    }
+  ]
+}

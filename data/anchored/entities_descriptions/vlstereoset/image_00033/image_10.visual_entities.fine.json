@@ -1,0 +1,210 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        536.0,
+        310.0,
+        864.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with curly dark hair holds a young child in her arms; the child wears an orange t-shirt and blue jeans, while the woman is dressed in a purple tank top and blue jeans. They are standing outdoors on a sidewalk during sunset, with a street and grassy area visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Caucasian",
+        "social_role": "mother/caregiver",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, shoulder-length"
+        },
+        "clothing": {
+          "top": "purple tank top",
+          "bottom": "blue denim jeans",
+          "accessories": "thin necklace"
+        },
+        "pose": "standing, holding child",
+        "expression": "smiling, looking at camera",
+        "child": {
+          "gender": "male",
+          "age": "toddler",
+          "hair": "light brown, short",
+          "clothing": {
+            "top": "orange t-shirt",
+            "bottom": "blue denim jeans",
+            "shoes": "black sneakers with white soles",
+            "socks": "white"
+          },
+          "pose": "being held, looking slightly away from camera",
+          "expression": "neutral"
+        },
+        "background": {
+          "time_of_day": "sunset",
+          "location": "outdoor sidewalk next to road and grass",
+          "lighting": "warm, golden hour"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        362.0,
+        352.0,
+        520.0,
+        872.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young toddler with light brown hair and a small topknot is being held by an adult, wearing a pink and white gingham sleeveless romper and white strappy sandals. The child has a fair complexion and is looking slightly to the side with a neutral expression.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "female",
+        "hair": {
+          "color": "light brown",
+          "style": "short with a small topknot"
+        },
+        "clothing": {
+          "romper": {
+            "pattern": "pink and white gingham",
+            "sleeves": "sleeveless"
+          },
+          "footwear": {
+            "type": "sandals",
+            "color": "white",
+            "straps": "white"
+          }
+        },
+        "pose": "being held",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        198.0,
+        312.0,
+        494.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling blonde woman with long wavy hair is holding a toddler with light brown hair in a pink and white gingham dress. The woman wears a grey tank top and blue jeans, while the child wears white sandals, and they are standing outdoors on a sidewalk during sunset.",
+      "attributes": {
+        "group": [
+          {
+            "role": "adult",
+            "gender": "female",
+            "age": "adult",
+            "hair": {
+              "color": "blonde",
+              "length": "long",
+              "style": "wavy"
+            },
+            "expression": "smiling",
+            "clothing": {
+              "top": {
+                "type": "tank top",
+                "color": "grey"
+              },
+              "bottom": {
+                "type": "jeans",
+                "color": "blue"
+              },
+              "accessories": {
+                "necklace": "thin gold chain"
+              }
+            },
+            "pose": "standing, holding child"
+          },
+          {
+            "role": "child",
+            "gender": "female",
+            "age": "toddler",
+            "hair": {
+              "color": "light brown",
+              "length": "short",
+              "style": "curly"
+            },
+            "expression": "smiling",
+            "clothing": {
+              "dress": {
+                "pattern": "gingham",
+                "colors": [
+                  "pink",
+                  "white"
+                ],
+                "sleeves": "ruffled"
+              },
+              "shoes": {
+                "type": "sandals",
+                "color": "white"
+              }
+            },
+            "pose": "being held"
+          }
+        ],
+        "background": {
+          "time": "sunset",
+          "location": "outdoor sidewalk"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.95703125,
+      "box": [
+        494.0,
+        348.0,
+        720.0,
+        924.0
+      ],
+      "mask": "image_10.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling woman with curly brown hair holds a young toddler with short brown hair, who is wearing an orange t-shirt and blue jeans. The woman is wearing a purple tank top and blue jeans, and the toddler is wearing black sneakers with white soles and white socks.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": "purple tank top",
+          "bottom": "blue jeans"
+        },
+        "pose": "holding a child",
+        "child": {
+          "gender": "male",
+          "age": "toddler",
+          "hair": {
+            "color": "brown",
+            "style": "short"
+          },
+          "clothing": {
+            "top": "orange t-shirt",
+            "bottom": "blue jeans",
+            "shoes": "black sneakers with white soles",
+            "socks": "white"
+          },
+          "pose": "being held"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

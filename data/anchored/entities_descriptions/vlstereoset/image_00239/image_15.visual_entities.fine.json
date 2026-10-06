@@ -1,0 +1,2533 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.66796875,
+      "box": [
+        108.5,
+        316.0,
+        208.0,
+        420.0
+      ],
+      "mask": "image_15.masks/building_0.png",
+      "crop": null,
+      "description": "A small, white building with a steeply pitched gable roof is visible in the background, partially obscured by out-of-focus green foliage in the foreground. The structure appears to be made of smooth material, possibly stucco or painted wood, and has a simple, triangular shape.",
+      "attributes": {
+        "color": "white",
+        "roof_style": "gable",
+        "shape": "triangular",
+        "material": "smooth",
+        "obstruction": "green foliage",
+        "focus": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        193.0,
+        340.0,
+        336.0,
+        428.0
+      ],
+      "mask": "image_15.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house with a dark, sloped roof and light-colored walls, partially obscured by a large, green bush in the foreground. The scene is illuminated by warm, golden light, likely from the setting or rising sun, creating a soft, hazy atmosphere.",
+      "attributes": {
+        "structure": {
+          "type": "house",
+          "roof": {
+            "color": "dark grey or blue",
+            "shape": "sloped"
+          },
+          "walls": {
+            "color": "light beige or white"
+          }
+        },
+        "foreground": {
+          "object": "bush",
+          "color": "green",
+          "focus": "blurred"
+        },
+        "lighting": {
+          "quality": "warm, golden",
+          "time_of_day": "sunset or sunrise"
+        },
+        "image_quality": "extremely blurry, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.82421875,
+      "box": [
+        828.0,
+        324.0,
+        1024.0,
+        468.0
+      ],
+      "mask": "image_15.masks/building_2.png",
+      "crop": null,
+      "description": "A single-story residential house with white siding and a brown shingled roof, featuring a covered front porch with white columns and dark window shutters. The image is heavily blurred, obscuring fine details of the windows and landscaping, which includes green bushes in the foreground.",
+      "attributes": {
+        "building_type": "single-story house",
+        "exterior_walls": {
+          "color": "white",
+          "material": "siding"
+        },
+        "roof": {
+          "color": "brown",
+          "style": "shingled",
+          "shape": "gabled"
+        },
+        "porch": {
+          "present": true,
+          "columns": "white"
+        },
+        "windows": {
+          "shutters": "dark"
+        },
+        "landscaping": {
+          "bushes": "green"
+        },
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.6015625,
+      "box": [
+        0.0,
+        308.0,
+        207.0,
+        460.0
+      ],
+      "mask": "image_15.masks/building_3.png",
+      "crop": null,
+      "description": "A white, single-story house with a steeply pitched gable roof is visible in the background, partially obscured by a large, dark green tree on the left and a manicured hedge in the foreground. The image is out of focus, creating a soft, blurry effect on the building's facade and the surrounding greenery.",
+      "attributes": {
+        "building_type": "house",
+        "color": "white",
+        "roof_style": "gable",
+        "roof_color": "dark grey",
+        "stories": 1,
+        "focus": "blurry",
+        "surroundings": {
+          "left": "large tree",
+          "foreground": "hedge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.609375,
+      "box": [
+        692.0,
+        344.0,
+        820.0,
+        392.0
+      ],
+      "mask": "image_15.masks/building_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a building with a reddish-brown roof and light-colored walls, partially obscured by a dark object on the left and yellowish foliage at the bottom.",
+      "attributes": {
+        "roof": "reddish-brown",
+        "walls": "light-colored",
+        "focus": "blurry",
+        "obscuring_elements": [
+          "dark object on left",
+          "yellowish foliage at bottom"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.62890625,
+      "box": [
+        772.0,
+        290.0,
+        844.0,
+        318.0
+      ],
+      "mask": "image_15.masks/building_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.52734375,
+      "box": [
+        876.0,
+        290.0,
+        948.0,
+        318.0
+      ],
+      "mask": "image_15.masks/building_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 7,
+      "score": 0.6328125,
+      "box": [
+        732.0,
+        346.0,
+        860.0,
+        422.0
+      ],
+      "mask": "image_15.masks/building_7.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a sloped roof and light-colored walls, partially obscured by green foliage in the foreground. The image is heavily blurred, making specific details indistinct.",
+      "attributes": {
+        "roof": "sloped, dark color",
+        "walls": "light-colored, possibly white or beige",
+        "foreground": "green foliage, out of focus",
+        "image_quality": "blurry, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 8,
+      "score": 0.50390625,
+      "box": [
+        692.0,
+        342.0,
+        860.0,
+        426.0
+      ],
+      "mask": "image_15.masks/building_8.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurry, out-of-focus view of a house with a reddish-brown roof and light-colored walls, partially obscured by green bushes in the foreground. The image is taken during the day with warm lighting, possibly at sunset or sunrise.\", \"attributes\": {\"roof\": {\"color\": \"reddish-brown\", \"material\": \"shingles\"}, \"walls\": {\"color\": \"light blue or white\"}, \"foreground\": {\"bushes\": \"green, leafy\"}, \"lighting\": \"warm, possibly golden hour\", \"focus\": \"blurry, out-of-focus\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 9,
+      "score": 0.57421875,
+      "box": [
+        684.0,
+        288.0,
+        732.0,
+        320.0
+      ],
+      "mask": "image_15.masks/building_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.67578125,
+      "box": [
+        470.0,
+        360.0,
+        490.0,
+        376.0
+      ],
+      "mask": "image_15.masks/car_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        640.0,
+        438.0,
+        688.0,
+        474.0
+      ],
+      "mask": "image_15.masks/car_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 2,
+      "score": 0.9296875,
+      "box": [
+        -1.25,
+        456.0,
+        81.0,
+        504.0
+      ],
+      "mask": "image_15.masks/car_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 3,
+      "score": 0.90234375,
+      "box": [
+        368.0,
+        436.0,
+        408.0,
+        468.0
+      ],
+      "mask": "image_15.masks/car_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 4,
+      "score": 0.54296875,
+      "box": [
+        444.0,
+        406.0,
+        468.0,
+        422.0
+      ],
+      "mask": "image_15.masks/car_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 5,
+      "score": 0.796875,
+      "box": [
+        428.0,
+        414.0,
+        456.0,
+        434.0
+      ],
+      "mask": "image_15.masks/car_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 6,
+      "score": 0.93359375,
+      "box": [
+        716.0,
+        450.0,
+        788.0,
+        502.0
+      ],
+      "mask": "image_15.masks/car_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 7,
+      "score": 0.84375,
+      "box": [
+        552.0,
+        404.0,
+        576.0,
+        424.0
+      ],
+      "mask": "image_15.masks/car_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 8,
+      "score": 0.953125,
+      "box": [
+        142.0,
+        460.0,
+        242.0,
+        532.0
+      ],
+      "mask": "image_15.masks/car_8.png",
+      "crop": null,
+      "description": "A dark-colored sedan is shown in a heavily blurred, out-of-focus state, facing forward with its headlights illuminated. The vehicle appears to be in motion or captured with a shallow depth of field, resulting in significant bokeh and light streaks around the front bumper and grille area.",
+      "attributes": {
+        "type": "sedan",
+        "color": "dark",
+        "focus": "blurred",
+        "headlights": "on",
+        "orientation": "front-facing",
+        "condition": "indistinct due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 9,
+      "score": 0.51953125,
+      "box": [
+        458.0,
+        382.0,
+        478.0,
+        394.0
+      ],
+      "mask": "image_15.masks/car_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 10,
+      "score": 0.8671875,
+      "box": [
+        408.0,
+        424.0,
+        440.0,
+        448.0
+      ],
+      "mask": "image_15.masks/car_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 11,
+      "score": 0.59375,
+      "box": [
+        482.0,
+        314.0,
+        494.0,
+        326.0
+      ],
+      "mask": "image_15.masks/car_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 12,
+      "score": 0.9375,
+      "box": [
+        258.0,
+        456.0,
+        318.0,
+        504.0
+      ],
+      "mask": "image_15.masks/car_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 13,
+      "score": 0.640625,
+      "box": [
+        456.0,
+        392.0,
+        476.0,
+        408.0
+      ],
+      "mask": "image_15.masks/car_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 14,
+      "score": 0.67578125,
+      "box": [
+        528.0,
+        368.0,
+        544.0,
+        384.0
+      ],
+      "mask": "image_15.masks/car_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 15,
+      "score": 0.90625,
+      "box": [
+        318.0,
+        448.0,
+        362.0,
+        480.0
+      ],
+      "mask": "image_15.masks/car_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 16,
+      "score": 0.734375,
+      "box": [
+        536.0,
+        386.0,
+        552.0,
+        398.0
+      ],
+      "mask": "image_15.masks/car_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 17,
+      "score": 0.578125,
+      "box": [
+        444.0,
+        400.0,
+        468.0,
+        416.0
+      ],
+      "mask": "image_15.masks/car_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 18,
+      "score": 0.546875,
+      "box": [
+        466.0,
+        374.0,
+        482.0,
+        386.0
+      ],
+      "mask": "image_15.masks/car_18.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 19,
+      "score": 0.6796875,
+      "box": [
+        552.0,
+        398.0,
+        568.0,
+        410.0
+      ],
+      "mask": "image_15.masks/car_19.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chimney",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        892.0,
+        328.0,
+        916.0,
+        352.0
+      ],
+      "mask": "image_15.masks/chimney_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        760.0,
+        102.5,
+        880.0,
+        131.0
+      ],
+      "mask": "image_15.masks/cloud_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        616.0,
+        430.0,
+        664.0,
+        450.0
+      ],
+      "mask": "image_15.masks/grass_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.55859375,
+      "box": [
+        272.0,
+        430.0,
+        340.0,
+        450.0
+      ],
+      "mask": "image_15.masks/grass_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.5390625,
+      "box": [
+        544.0,
+        247.0,
+        968.0,
+        302.0
+      ],
+      "mask": "image_15.masks/grass_2.png",
+      "crop": null,
+      "description": "A blurred expanse of green grass is visible in the background, appearing as a large, open field or park area. The grass is out of focus, with a warm, golden light overlaying the scene, suggesting either sunrise or sunset.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "lighting": "warm, golden",
+        "focus": "out of focus",
+        "context": "open field or park"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 3,
+      "score": 0.62109375,
+      "box": [
+        -3.5,
+        506.0,
+        142.0,
+        532.0
+      ],
+      "mask": "image_15.masks/grass_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 4,
+      "score": 0.8671875,
+      "box": [
+        884.0,
+        504.0,
+        1032.0,
+        536.0
+      ],
+      "mask": "image_15.masks/grass_4.png",
+      "crop": null,
+      "description": "A rectangular patch of green grass is visible, appearing somewhat blurred and out of focus. The grass is situated on a flat surface, possibly a lawn or garden bed, with a hint of a tree trunk or post in the background.",
+      "attributes": {
+        "color": "green",
+        "shape": "rectangular",
+        "texture": "blurred",
+        "context": "outdoor",
+        "background": "tree trunk or post"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 5,
+      "score": 0.75390625,
+      "box": [
+        792.0,
+        468.0,
+        888.0,
+        496.0
+      ],
+      "mask": "image_15.masks/grass_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 6,
+      "score": 0.6640625,
+      "box": [
+        -6.0,
+        152.0,
+        528.0,
+        318.0
+      ],
+      "mask": "image_15.masks/grass_6.png",
+      "crop": null,
+      "description": "The image shows a vast expanse of rolling green hills covered in grass, with varying shades of green and yellow indicating different types of vegetation or lighting conditions. The grass appears lush and well-maintained, suggesting it might be part of a cultivated field or pasture. In the foreground, there are some blurred trees and structures, possibly indicating a rural or semi-rural setting.",
+      "attributes": {
+        "color": [
+          "green",
+          "yellow"
+        ],
+        "texture": "lush",
+        "condition": "well-maintained",
+        "location": "rolling hills",
+        "foreground_elements": [
+          "trees",
+          "structures"
+        ],
+        "setting": "rural/semi-rural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 7,
+      "score": 0.671875,
+      "box": [
+        -2.0,
+        468.0,
+        155.0,
+        536.0
+      ],
+      "mask": "image_15.masks/grass_7.png",
+      "crop": null,
+      "description": "The image shows a blurred view of a grassy area with a mix of green and yellow hues, suggesting it might be a lawn or a field. The grass appears to be in a natural state, with some areas looking more vibrant and others slightly faded. There are no distinct features or objects visible within the grass itself due to the blurriness.",
+      "attributes": {
+        "color": "green and yellow",
+        "state": "natural",
+        "clarity": "blurred",
+        "type": "lawn or field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 8,
+      "score": 0.76171875,
+      "box": [
+        788.0,
+        486.0,
+        852.0,
+        506.0
+      ],
+      "mask": "image_15.masks/grass_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 9,
+      "score": 0.87109375,
+      "box": [
+        180.0,
+        490.0,
+        860.0,
+        680.0
+      ],
+      "mask": "image_15.masks/grass_9.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a succulent plant with thick, fleshy, blue-green leaves that have sharp, spiny edges. The leaves are arranged in a rosette pattern, pointing upwards and outwards. The background is blurred, showing a grassy area and a paved road with a car.\", \"attributes\": {\"type\": \"succulent\", \"leaf_color\": \"blue-green\", \"leaf_shape\": \"thick, fleshy, pointed\", \"leaf_edges\": \"spiny\", \"arrangement\": \"rosette\", \"background\": \"blurred grass and road\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 10,
+      "score": 0.90234375,
+      "box": [
+        4.0,
+        656.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/grass_10.png",
+      "crop": null,
+      "description": "A patch of short, green grass with individual blades visible, growing densely around the base of a succulent plant with spiky leaves. The grass appears healthy and well-maintained, with some blades catching the light, creating a mix of bright and shadowed areas.",
+      "attributes": {
+        "color": "green",
+        "texture": "dense, short blades",
+        "condition": "healthy, well-maintained",
+        "position": "ground cover around a succulent plant",
+        "lighting": "mixed bright and shadowed areas"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 11,
+      "score": 0.5234375,
+      "box": [
+        700.0,
+        318.0,
+        924.0,
+        358.0
+      ],
+      "mask": "image_15.masks/grass_11.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus view of a grassy area with a warm, golden hue, likely due to lighting conditions or a filter. The grass appears as a uniform, textured surface without distinct blades or details visible due to the blur.",
+      "attributes": {
+        "color": "golden-green",
+        "texture": "blurred, uniform",
+        "focus": "out-of-focus",
+        "lighting": "warm, possibly sunset or filtered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        564.0,
+        186.0,
+        1024.0,
+        282.0
+      ],
+      "mask": "image_15.masks/hill_0.png",
+      "crop": null,
+      "description": "A gently sloping hill covered in green grass, bathed in warm golden light from a low sun, with a blurred background of distant trees and sky.",
+      "attributes": {
+        "color": "green",
+        "lighting": "golden hour",
+        "texture": "smooth, grassy",
+        "shape": "gentle slope",
+        "background": "blurred trees and sky",
+        "time_of_day": "sunset or sunrise"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 1,
+      "score": 0.76171875,
+      "box": [
+        -4.0,
+        152.0,
+        532.0,
+        318.0
+      ],
+      "mask": "image_15.masks/hill_1.png",
+      "crop": null,
+      "description": "A gently rolling green hill with a smooth, undulating surface, featuring a distinct yellow stripe running diagonally across its slope. The hill is bathed in warm, golden light, suggesting either sunrise or sunset, and is framed by blurred trees and structures in the foreground.",
+      "attributes": {
+        "color": "green",
+        "texture": "smooth",
+        "shape": "rolling",
+        "lighting": "golden hour",
+        "features": [
+          "yellow stripe"
+        ],
+        "foreground": [
+          "blurred trees",
+          "structures"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 2,
+      "score": 0.6953125,
+      "box": [
+        358.0,
+        167.0,
+        1024.0,
+        280.0
+      ],
+      "mask": "image_15.masks/hill_2.png",
+      "crop": null,
+      "description": "A gently sloping hill covered in green grass, with a soft, warm glow from the setting or rising sun illuminating the scene. The hill's surface appears smooth and undulating, with subtle variations in shade due to the lighting.",
+      "attributes": {
+        "color": "green",
+        "texture": "smooth",
+        "lighting": "warm, golden",
+        "shape": "undulating",
+        "position": "foreground to midground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 3,
+      "score": 0.5546875,
+      "box": [
+        4.0,
+        150.0,
+        1020.0,
+        320.0
+      ],
+      "mask": "image_15.masks/hill_3.png",
+      "crop": null,
+      "description": "A gently rolling green hill bathed in warm, golden sunlight, with soft shadows accentuating its contours. The hillside is covered in lush grass, and the light creates a gradient of brightness from the sunlit peak to the shaded valleys.",
+      "attributes": {
+        "color": "green",
+        "lighting": "golden, warm",
+        "texture": "smooth, grassy",
+        "shape": "rolling, rounded",
+        "time_of_day": "sunset or sunrise",
+        "atmosphere": "calm, serene"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 4,
+      "score": 0.50390625,
+      "box": [
+        356.0,
+        168.0,
+        748.0,
+        254.0
+      ],
+      "mask": "image_15.masks/hill_4.png",
+      "crop": null,
+      "description": "A gently sloping hill with a smooth, undulating surface, bathed in warm, golden light that suggests either sunrise or sunset. The hill's surface appears to be covered in grass or low vegetation, with subtle variations in color and texture indicating natural contours and possibly some sparse vegetation or small structures on the ridge.",
+      "attributes": {
+        "color": "golden, greenish-brown",
+        "texture": "smooth, undulating",
+        "lighting": "warm, golden",
+        "time_of_day": "sunrise or sunset",
+        "vegetation": "grass or low vegetation",
+        "structures": "sparse, possibly small buildings or trees on the ridge",
+        "shape": "gently sloping, smooth contours"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 5,
+      "score": 0.67578125,
+      "box": [
+        540.0,
+        245.0,
+        972.0,
+        300.0
+      ],
+      "mask": "image_15.masks/hill_5.png",
+      "crop": null,
+      "description": "A gently sloping hill covered in green grass, bathed in a warm, golden light that suggests either sunrise or sunset. The hill's surface appears smooth and undulating, with a few indistinct structures or trees visible at its base, partially obscured by the soft focus and atmospheric haze.",
+      "attributes": {
+        "color": "green",
+        "lighting": "golden",
+        "texture": "smooth",
+        "shape": "undulating",
+        "time_of_day": "sunrise/sunset",
+        "visibility": "hazy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "lawn",
+      "index": 0,
+      "score": 0.53515625,
+      "box": [
+        616.0,
+        430.0,
+        664.0,
+        450.0
+      ],
+      "mask": "image_15.masks/lawn_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lawn",
+      "index": 1,
+      "score": 0.578125,
+      "box": [
+        -4.5,
+        506.0,
+        140.0,
+        532.0
+      ],
+      "mask": "image_15.masks/lawn_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lawn",
+      "index": 2,
+      "score": 0.51953125,
+      "box": [
+        -2.0,
+        150.0,
+        528.0,
+        318.0
+      ],
+      "mask": "image_15.masks/lawn_2.png",
+      "crop": null,
+      "description": "A gently rolling green lawn with a distinct yellow stripe running diagonally across the slope, bordered by dark green trees and shrubs in the foreground and a hazy sky in the background.",
+      "attributes": {
+        "color": "green",
+        "texture": "smooth",
+        "shape": "rolling hills",
+        "features": [
+          "yellow stripe",
+          "trees",
+          "shrubs"
+        ],
+        "lighting": "soft, hazy",
+        "position": "foreground to midground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "lawn",
+      "index": 3,
+      "score": 0.73828125,
+      "box": [
+        788.0,
+        484.0,
+        852.0,
+        508.0
+      ],
+      "mask": "image_15.masks/lawn_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lawn",
+      "index": 4,
+      "score": 0.859375,
+      "box": [
+        884.0,
+        504.0,
+        1032.0,
+        536.0
+      ],
+      "mask": "image_15.masks/lawn_4.png",
+      "crop": null,
+      "description": "A rectangular patch of green grass is visible, bordered by a light-colored concrete or stone edge. The grass appears short and evenly cut, with a uniform green color. The image is slightly blurred, making it difficult to discern finer details of the grass texture or the exact material of the border.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "green",
+        "texture": "short, even grass",
+        "border": "light-colored, possibly concrete or stone",
+        "clarity": "slightly blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "lawn",
+      "index": 5,
+      "score": 0.73828125,
+      "box": [
+        788.0,
+        468.0,
+        892.0,
+        496.0
+      ],
+      "mask": "image_15.masks/lawn_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lawn",
+      "index": 6,
+      "score": 0.69140625,
+      "box": [
+        -2.0,
+        466.0,
+        155.0,
+        536.0
+      ],
+      "mask": "image_15.masks/lawn_6.png",
+      "crop": null,
+      "description": "A patch of green grass is visible in the background, appearing out of focus and illuminated by sunlight, with a blurred car partially visible on the left side.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "lighting": "sunlit",
+        "position": "background",
+        "context": "outdoor setting with vehicles"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "lawn",
+      "index": 7,
+      "score": 0.87109375,
+      "box": [
+        180.0,
+        490.0,
+        860.0,
+        680.0
+      ],
+      "mask": "image_15.masks/lawn_7.png",
+      "crop": null,
+      "description": "A patch of green grass is visible in the background, appearing somewhat dry and unevenly mowed, with a large agave plant in the foreground partially obscuring the view. The lawn is situated between two paved areas, possibly a driveway and a sidewalk, with a car parked on the left side.",
+      "attributes": {
+        "color": "green",
+        "texture": "uneven, dry",
+        "position": "background, between paved areas",
+        "obscured_by": "agave plant",
+        "adjacent_to": "driveway, sidewalk, parked car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "lawn",
+      "index": 8,
+      "score": 0.90625,
+      "box": [
+        4.0,
+        660.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/lawn_8.png",
+      "crop": null,
+      "description": "A close-up view of a green lawn with a large, spiky agave plant growing in the center. The grass is short and well-maintained, with some blades appearing slightly yellowed or dried out. The agave has thick, fleshy leaves with sharp, pointed tips and small spines along the edges. The plant is surrounded by the grass, which extends to the edges of the image. In the background, there is a paved path or sidewalk visible, suggesting the lawn is part of a landscaped area.",
+      "attributes": {
+        "plant": {
+          "type": "agave",
+          "leaves": "thick, fleshy, spiky",
+          "color": "green",
+          "position": "center of the lawn"
+        },
+        "lawn": {
+          "grass": "short, well-maintained",
+          "color": "green with some yellowed blades",
+          "condition": "healthy, some dried out areas"
+        },
+        "background": {
+          "path": "paved, visible in the background",
+          "setting": "landscaped area"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        488.0,
+        276.0,
+        1032.0,
+        716.0
+      ],
+      "mask": "image_15.masks/path_0.png",
+      "crop": null,
+      "description": "A paved residential street stretches into the distance, lined with parked cars and single-story houses with red-tiled roofs. The scene is bathed in warm, golden sunlight, casting long shadows and highlighting the green lawns and a large agave plant in the foreground.",
+      "attributes": {
+        "surface": "asphalt",
+        "type": "residential street",
+        "lighting": "golden hour, warm sunlight",
+        "surroundings": {
+          "houses": "single-story, red-tiled roofs",
+          "vehicles": "parked cars",
+          "vegetation": "green lawns, trees, agave plant in foreground"
+        },
+        "atmosphere": "calm, suburban"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        -0.5,
+        270.0,
+        130.0,
+        422.0
+      ],
+      "mask": "image_15.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with dense, dark green foliage occupies the majority of the frame, appearing as a large, rounded mass of leaves. The background is indistinct, showing a hint of a green field or hillside at the top and a dark, possibly blue, structure or sky to the right, with faint, warm-colored lights visible at the bottom edge.",
+      "attributes": {
+        "type": "tree",
+        "foliage": "dense, dark green",
+        "focus": "blurry, out-of-focus",
+        "shape": "rounded, bushy",
+        "background": {
+          "top": "green field or hillside",
+          "right": "dark blue structure or sky",
+          "bottom": "faint warm-colored lights"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.83203125,
+      "box": [
+        836.0,
+        440.0,
+        916.0,
+        484.0
+      ],
+      "mask": "image_15.masks/plant_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.62890625,
+      "box": [
+        -1.125,
+        480.0,
+        54.5,
+        512.0
+      ],
+      "mask": "image_15.masks/plant_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 3,
+      "score": 0.5390625,
+      "box": [
+        840.0,
+        292.0,
+        880.0,
+        316.0
+      ],
+      "mask": "image_15.masks/plant_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 4,
+      "score": 0.82421875,
+      "box": [
+        888.0,
+        464.0,
+        928.0,
+        496.0
+      ],
+      "mask": "image_15.masks/plant_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 5,
+      "score": 0.625,
+      "box": [
+        344.0,
+        306.0,
+        400.0,
+        334.0
+      ],
+      "mask": "image_15.masks/plant_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 6,
+      "score": 0.7578125,
+      "box": [
+        175.0,
+        374.0,
+        268.0,
+        442.0
+      ],
+      "mask": "image_15.masks/plant_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green bush or shrub with a rounded, dense canopy of foliage, illuminated by warm, golden light from the side, creating a soft, glowing effect on the leaves. The background is indistinct, with hints of a structure or wall in muted tones.",
+      "attributes": {
+        "color": "green",
+        "shape": "rounded",
+        "texture": "dense foliage",
+        "lighting": "warm, golden",
+        "focus": "blurry",
+        "position": "centered in frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 7,
+      "score": 0.7890625,
+      "box": [
+        784.0,
+        406.0,
+        864.0,
+        470.0
+      ],
+      "mask": "image_15.masks/plant_7.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a plant with dense, dark green foliage occupying the upper portion of the frame, with a lighter, indistinct background and a small, white, rectangular object partially visible at the bottom left.",
+      "attributes": {
+        "color": "dark green",
+        "texture": "dense foliage",
+        "focus": "blurry",
+        "shape": "indistinct",
+        "background": "light, out-of-focus",
+        "object": {
+          "color": "white",
+          "shape": "rectangular",
+          "position": "bottom left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 8,
+      "score": 0.60546875,
+      "box": [
+        203.0,
+        440.0,
+        251.0,
+        472.0
+      ],
+      "mask": "image_15.masks/plant_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 9,
+      "score": 0.7265625,
+      "box": [
+        676.0,
+        386.0,
+        764.0,
+        446.0
+      ],
+      "mask": "image_15.masks/plant_9.png",
+      "crop": null,
+      "description": "A small, rounded tree with dense green foliage and a yellowish tint at the top, possibly indicating sunlight or new growth, is visible in the foreground. The tree has a slender trunk and appears to be planted in a garden or landscaped area, with a blurred background suggesting a building or structure behind it.",
+      "attributes": {
+        "foliage": "dense, green with yellowish highlights",
+        "shape": "rounded, compact",
+        "trunk": "slender, light-colored",
+        "background": "blurred, possibly a building or structure",
+        "lighting": "natural, with highlights on the top of the foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 10,
+      "score": 0.625,
+      "box": [
+        312.0,
+        342.0,
+        408.0,
+        410.0
+      ],
+      "mask": "image_15.masks/plant_10.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a green tree with a rounded canopy, partially obscuring a light-colored building in the background. The tree's leaves are indistinct due to the blur, and there are two bright, circular bokeh lights visible within the foliage.",
+      "attributes": {
+        "type": "tree",
+        "color": "green",
+        "shape": "rounded canopy",
+        "focus": "blurry",
+        "background": "light-colored building",
+        "bokeh": "two bright circular lights"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 11,
+      "score": 0.72265625,
+      "box": [
+        122.0,
+        410.0,
+        204.0,
+        458.0
+      ],
+      "mask": "image_15.masks/plant_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 12,
+      "score": 0.703125,
+      "box": [
+        75.0,
+        442.0,
+        169.0,
+        470.0
+      ],
+      "mask": "image_15.masks/plant_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 13,
+      "score": 0.5546875,
+      "box": [
+        416.0,
+        276.0,
+        464.0,
+        324.0
+      ],
+      "mask": "image_15.masks/plant_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 14,
+      "score": 0.73046875,
+      "box": [
+        968.0,
+        436.0,
+        1024.0,
+        492.0
+      ],
+      "mask": "image_15.masks/plant_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 15,
+      "score": 0.9375,
+      "box": [
+        180.0,
+        456.0,
+        884.0,
+        1000.0
+      ],
+      "mask": "image_15.masks/plant_15.png",
+      "crop": null,
+      "description": "A large, spiky agave plant with thick, fleshy, blue-green leaves radiating outward from a central base, featuring sharp, tooth-like edges along each leaf. The plant is situated in a well-maintained grassy median strip between two lanes of a residential street, with cars visible in the background.",
+      "attributes": {
+        "plant_type": "agave",
+        "leaf_color": "blue-green",
+        "leaf_shape": "long, pointed, fleshy",
+        "leaf_edges": "spiny, tooth-like",
+        "growth_pattern": "rosette",
+        "location": "grass median",
+        "background": "residential street with cars",
+        "lighting": "warm, low-angle sunlight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 16,
+      "score": 0.55859375,
+      "box": [
+        276.0,
+        306.0,
+        316.0,
+        342.0
+      ],
+      "mask": "image_15.masks/plant_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 17,
+      "score": 0.8046875,
+      "box": [
+        438.0,
+        412.0,
+        584.0,
+        552.0
+      ],
+      "mask": "image_15.masks/plant_17.png",
+      "crop": null,
+      "description": "A close-up of a spiky succulent plant with long, pointed, green leaves radiating outward from a central point. The leaves have a smooth texture and sharp tips, with some showing slight yellowing at the base. The background is blurred, showing hints of other plants and possibly a paved area.",
+      "attributes": {
+        "leaf_shape": "long and pointed",
+        "leaf_color": "green with yellowing at the base",
+        "texture": "smooth",
+        "arrangement": "radiating outward",
+        "background": "blurred, with hints of other plants and a paved area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 18,
+      "score": 0.546875,
+      "box": [
+        584.0,
+        284.0,
+        712.0,
+        420.0
+      ],
+      "mask": "image_15.masks/plant_18.png",
+      "crop": null,
+      "description": "A large, dark green tree with dense foliage dominates the center of the image, appearing somewhat blurred. The tree has a broad, rounded canopy and is situated in a grassy area with a white structure partially visible in the background.",
+      "attributes": {
+        "color": "dark green",
+        "shape": "rounded canopy",
+        "size": "large",
+        "clarity": "blurred",
+        "background": "white structure, grassy area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 19,
+      "score": 0.69921875,
+      "box": [
+        740.0,
+        422.0,
+        780.0,
+        450.0
+      ],
+      "mask": "image_15.masks/plant_19.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pole",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        960.0,
+        270.0,
+        976.0,
+        510.0
+      ],
+      "mask": "image_15.masks/pole_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "railing",
+      "index": 0,
+      "score": 0.59765625,
+      "box": [
+        916.0,
+        428.0,
+        964.0,
+        468.0
+      ],
+      "mask": "image_15.masks/railing_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 0,
+      "score": 0.515625,
+      "box": [
+        684.0,
+        290.0,
+        732.0,
+        306.0
+      ],
+      "mask": "image_15.masks/roof_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        109.0,
+        314.0,
+        181.0,
+        382.0
+      ],
+      "mask": "image_15.masks/roof_1.png",
+      "crop": null,
+      "description": "A close-up view of a white, triangular roof structure with a smooth surface, set against a blurred background featuring a dark blue area and a green, leafy object on the left.",
+      "attributes": {
+        "shape": "triangular",
+        "color": "white",
+        "material": "smooth, possibly painted or plastic",
+        "background": {
+          "left": "green, leafy, out of focus",
+          "right": "dark blue, out of focus"
+        },
+        "focus": "shallow depth of field, roof in focus, background blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "roof",
+      "index": 2,
+      "score": 0.76171875,
+      "box": [
+        836.0,
+        326.0,
+        1032.0,
+        390.0
+      ],
+      "mask": "image_15.masks/roof_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a sloped roof with reddish-brown shingles, featuring a small dormer window with a white frame and a dark, triangular roof. The background is blurred with warm, golden bokeh lights, suggesting a sunset or artificial lighting.",
+      "attributes": {
+        "roof_color": "reddish-brown",
+        "roof_material": "shingles",
+        "dormer": {
+          "frame_color": "white",
+          "roof_shape": "triangular"
+        },
+        "background": "blurred",
+        "lighting": "warm, golden bokeh"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "roof",
+      "index": 3,
+      "score": 0.57421875,
+      "box": [
+        784.0,
+        290.0,
+        840.0,
+        302.0
+      ],
+      "mask": "image_15.masks/roof_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 4,
+      "score": 0.5234375,
+      "box": [
+        304.0,
+        346.0,
+        344.0,
+        366.0
+      ],
+      "mask": "image_15.masks/roof_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 5,
+      "score": 0.63671875,
+      "box": [
+        202.0,
+        360.0,
+        286.0,
+        392.0
+      ],
+      "mask": "image_15.masks/roof_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 6,
+      "score": 0.76953125,
+      "box": [
+        700.0,
+        342.0,
+        804.0,
+        378.0
+      ],
+      "mask": "image_15.masks/roof_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 7,
+      "score": 0.69921875,
+      "box": [
+        736.0,
+        346.0,
+        856.0,
+        390.0
+      ],
+      "mask": "image_15.masks/roof_7.png",
+      "crop": null,
+      "description": "A close-up view of a roof surface featuring a dark, textured material, possibly asphalt shingles or a similar roofing material, with a lighter blue or gray border or trim visible along the edge. The texture appears rough and granular, typical of certain roofing materials.",
+      "attributes": {
+        "material": "textured, possibly asphalt shingles",
+        "color": "dark gray or black with a lighter blue or gray border",
+        "texture": "rough, granular",
+        "edge": "lighter colored trim or border"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "roof",
+      "index": 8,
+      "score": 0.83984375,
+      "box": [
+        192.0,
+        342.0,
+        304.0,
+        386.0
+      ],
+      "mask": "image_15.masks/roof_8.png",
+      "crop": null,
+      "description": "A section of a roof with a reddish-brown surface, possibly made of tiles or shingles, is visible against a blue sky. The roof appears to be part of a larger structure, with a portion of a yellow object, possibly a flower or decoration, in the foreground.",
+      "attributes": {
+        "color": "reddish-brown",
+        "material": "tiles or shingles",
+        "position": "against blue sky",
+        "foreground_object": "yellow, possibly a flower or decoration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrub",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        632.0,
+        410.0,
+        656.0,
+        430.0
+      ],
+      "mask": "image_15.masks/shrub_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        836.0,
+        442.0,
+        916.0,
+        482.0
+      ],
+      "mask": "image_15.masks/shrub_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 2,
+      "score": 0.7890625,
+      "box": [
+        -1.125,
+        480.0,
+        54.5,
+        512.0
+      ],
+      "mask": "image_15.masks/shrub_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 3,
+      "score": 0.52734375,
+      "box": [
+        254.0,
+        422.0,
+        286.0,
+        442.0
+      ],
+      "mask": "image_15.masks/shrub_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 4,
+      "score": 0.58984375,
+      "box": [
+        298.0,
+        426.0,
+        362.0,
+        442.0
+      ],
+      "mask": "image_15.masks/shrub_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 5,
+      "score": 0.78125,
+      "box": [
+        203.0,
+        440.0,
+        251.0,
+        472.0
+      ],
+      "mask": "image_15.masks/shrub_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 6,
+      "score": 0.859375,
+      "box": [
+        76.0,
+        442.0,
+        170.0,
+        470.0
+      ],
+      "mask": "image_15.masks/shrub_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 7,
+      "score": 0.59375,
+      "box": [
+        394.0,
+        400.0,
+        414.0,
+        416.0
+      ],
+      "mask": "image_15.masks/shrub_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 8,
+      "score": 0.57421875,
+      "box": [
+        904.0,
+        478.0,
+        952.0,
+        498.0
+      ],
+      "mask": "image_15.masks/shrub_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 9,
+      "score": 0.51171875,
+      "box": [
+        175.0,
+        374.0,
+        268.0,
+        442.0
+      ],
+      "mask": "image_15.masks/shrub_9.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus shrub with dense green foliage illuminated by warm, golden light, likely from a setting or rising sun. The edges of the leaves are soft and indistinct due to the shallow depth of field, creating a bokeh effect with a bright, circular light flare visible near the bottom left.",
+      "attributes": {
+        "color": "green",
+        "lighting": "warm, golden",
+        "focus": "blurry, out-of-focus",
+        "texture": "dense foliage",
+        "shape": "rounded, bushy",
+        "position": "centered in the frame",
+        "background": "indistinct, possibly a building or structure",
+        "light_flare": "present, bottom left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrub",
+      "index": 10,
+      "score": 0.86328125,
+      "box": [
+        122.0,
+        410.0,
+        204.0,
+        458.0
+      ],
+      "mask": "image_15.masks/shrub_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 11,
+      "score": 0.875,
+      "box": [
+        784.0,
+        404.0,
+        864.0,
+        468.0
+      ],
+      "mask": "image_15.masks/shrub_11.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus shrub with dense, yellowish-green foliage occupies the majority of the frame, appearing as a textured mass of leaves. The background is indistinct and light-colored, suggesting an outdoor setting, while a darker, rounded shape is partially visible in the lower right corner.",
+      "attributes": {
+        "color": "yellowish-green",
+        "texture": "dense foliage",
+        "focus": "blurry",
+        "shape": "rounded mass",
+        "position": "centered",
+        "background": "light-colored, indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrub",
+      "index": 12,
+      "score": 0.7109375,
+      "box": [
+        340.0,
+        306.0,
+        396.0,
+        334.0
+      ],
+      "mask": "image_15.masks/shrub_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 13,
+      "score": 0.84375,
+      "box": [
+        968.0,
+        436.0,
+        1024.0,
+        492.0
+      ],
+      "mask": "image_15.masks/shrub_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 14,
+      "score": 0.86328125,
+      "box": [
+        892.0,
+        464.0,
+        932.0,
+        496.0
+      ],
+      "mask": "image_15.masks/shrub_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 15,
+      "score": 0.546875,
+      "box": [
+        380.0,
+        408.0,
+        400.0,
+        424.0
+      ],
+      "mask": "image_15.masks/shrub_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 16,
+      "score": 0.82421875,
+      "box": [
+        740.0,
+        426.0,
+        780.0,
+        454.0
+      ],
+      "mask": "image_15.masks/shrub_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        175.0,
+        374.0,
+        268.0,
+        442.0
+      ],
+      "mask": "image_15.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with dense green foliage illuminated by warm, golden light, likely from a setting or rising sun. The background is indistinct, with hints of a structure or sky in soft, muted tones.",
+      "attributes": {
+        "foliage": "dense, green",
+        "lighting": "warm, golden",
+        "focus": "blurry, out-of-focus",
+        "background": "indistinct, muted tones"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.609375,
+      "box": [
+        584.0,
+        282.0,
+        712.0,
+        422.0
+      ],
+      "mask": "image_15.masks/tree_1.png",
+      "crop": null,
+      "description": "A dark, leafy tree with a dense canopy is visible in the foreground, partially obscuring a white structure and a green hillside in the background. The tree appears to be a conifer or evergreen, with a somewhat irregular shape and a mix of dark green and brownish tones.",
+      "attributes": {
+        "type": "tree",
+        "color": "dark green/brown",
+        "shape": "irregular, dense canopy",
+        "position": "foreground",
+        "background": "white structure, green hillside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        540.0,
+        302.0,
+        572.0,
+        322.0
+      ],
+      "mask": "image_15.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.80078125,
+      "box": [
+        278.0,
+        306.0,
+        318.0,
+        342.0
+      ],
+      "mask": "image_15.masks/tree_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.80859375,
+      "box": [
+        312.0,
+        340.0,
+        408.0,
+        412.0
+      ],
+      "mask": "image_15.masks/tree_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with dark green foliage occupies the center of the frame, featuring a few small, bright yellowish-orange bokeh lights scattered within its branches. The background is indistinct, showing hints of a light blue sky and a structure with a white roof on the left side.",
+      "attributes": {
+        "focus": "blurry",
+        "foliage_color": "dark green",
+        "lighting": "bokeh lights",
+        "light_color": "yellowish-orange",
+        "background": "out of focus",
+        "sky_color": "light blue",
+        "structure": "white roof visible on left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.7890625,
+      "box": [
+        668.0,
+        386.0,
+        764.0,
+        446.0
+      ],
+      "mask": "image_15.masks/tree_5.png",
+      "crop": null,
+      "description": "A small, rounded tree with dense green foliage and a yellowish tint at the top, possibly indicating sunlight or new growth. The tree appears to be in a pot or planter, suggesting it is a potted plant or a young tree in a garden setting.",
+      "attributes": {
+        "foliage": "dense, green with yellowish tint at the top",
+        "shape": "rounded",
+        "size": "small",
+        "container": "pot or planter",
+        "setting": "garden or indoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.53515625,
+      "box": [
+        470.0,
+        254.0,
+        490.0,
+        270.0
+      ],
+      "mask": "image_15.masks/tree_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.65234375,
+      "box": [
+        104.5,
+        142.0,
+        123.5,
+        156.0
+      ],
+      "mask": "image_15.masks/tree_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.765625,
+      "box": [
+        344.0,
+        306.0,
+        400.0,
+        334.0
+      ],
+      "mask": "image_15.masks/tree_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 9,
+      "score": 0.51171875,
+      "box": [
+        390.0,
+        324.0,
+        470.0,
+        388.0
+      ],
+      "mask": "image_15.masks/tree_9.png",
+      "crop": null,
+      "description": "The image shows a blurry, out-of-focus view of a tree with dense, dark green foliage. The leaves appear as a textured mass of green and brownish tones, with a few lighter, yellowish spots scattered throughout, possibly indicating sunlight filtering through or changes in leaf color. The overall shape is rounded and bushy, typical of a deciduous tree in full leaf.",
+      "attributes": {
+        "color": "dark green with yellowish highlights",
+        "texture": "dense, leafy, blurry",
+        "shape": "rounded, bushy",
+        "focus": "out-of-focus",
+        "lighting": "diffuse, with some bright spots"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 10,
+      "score": 0.5546875,
+      "box": [
+        446.0,
+        322.0,
+        482.0,
+        358.0
+      ],
+      "mask": "image_15.masks/tree_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 11,
+      "score": 0.921875,
+      "box": [
+        -0.5,
+        274.0,
+        130.0,
+        422.0
+      ],
+      "mask": "image_15.masks/tree_11.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with dense, dark green foliage that appears yellowish-green at the top due to lighting. The tree is positioned in the foreground, obscuring a background that includes a green field and a blue structure, with two small, bright bokeh lights visible near the bottom edge.",
+      "attributes": {
+        "foliage": {
+          "color": "dark green",
+          "texture": "dense, blurry",
+          "lighting": "yellowish-green highlights on top"
+        },
+        "focus": "out of focus",
+        "background": {
+          "field": "green",
+          "structure": "blue",
+          "lights": "two small, bright bokeh circles"
+        },
+        "position": "foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 12,
+      "score": 0.75390625,
+      "box": [
+        416.0,
+        276.0,
+        464.0,
+        324.0
+      ],
+      "mask": "image_15.masks/tree_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 13,
+      "score": 0.5625,
+      "box": [
+        580.0,
+        318.0,
+        644.0,
+        418.0
+      ],
+      "mask": "image_15.masks/tree_13.png",
+      "crop": null,
+      "description": "The image shows a blurry, out-of-focus view of a tree with dense, dark brown foliage occupying the majority of the frame. The background is indistinct, with hints of lighter green and yellow tones suggesting other vegetation or sky, but no specific details are discernible due to the extreme blur.",
+      "attributes": {
+        "color": "dark brown",
+        "texture": "blurry, indistinct",
+        "focus": "out of focus",
+        "type": "tree",
+        "visibility": "low detail"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 14,
+      "score": 0.5546875,
+      "box": [
+        474.0,
+        286.0,
+        490.0,
+        314.0
+      ],
+      "mask": "image_15.masks/tree_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 15,
+      "score": 0.5625,
+      "box": [
+        404.0,
+        354.0,
+        444.0,
+        398.0
+      ],
+      "mask": "image_15.masks/tree_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 16,
+      "score": 0.60546875,
+      "box": [
+        60.0,
+        138.0,
+        100.0,
+        158.0
+      ],
+      "mask": "image_15.masks/tree_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 17,
+      "score": 0.78125,
+      "box": [
+        724.0,
+        278.0,
+        756.0,
+        310.0
+      ],
+      "mask": "image_15.masks/tree_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 18,
+      "score": 0.57421875,
+      "box": [
+        660.0,
+        276.0,
+        708.0,
+        384.0
+      ],
+      "mask": "image_15.masks/tree_18.png",
+      "crop": null,
+      "description": "A tall, slender tree with a dark brown trunk and dense, dark green foliage stands prominently in the foreground, its shape tapering towards the top. The background is blurred, showing hints of a light blue sky and possibly other vegetation or structures.",
+      "attributes": {
+        "trunk_color": "dark brown",
+        "foliage_color": "dark green",
+        "shape": "tall and slender",
+        "background": "blurred, light blue sky, possible other vegetation or structures"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 19,
+      "score": 0.7890625,
+      "box": [
+        836.0,
+        292.0,
+        876.0,
+        316.0
+      ],
+      "mask": "image_15.masks/tree_19.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        -1.625,
+        416.0,
+        61.5,
+        464.0
+      ],
+      "mask": "image_15.masks/wall_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        146.0,
+        326.0,
+        200.0,
+        410.0
+      ],
+      "mask": "image_15.masks/wall_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white, triangular gable end of a building, featuring a dark, recessed triangular window or opening near the peak. The wall appears to be made of smooth plaster or stucco, and the image is heavily blurred, with a dark background and a hint of green foliage in the lower right corner.",
+      "attributes": {
+        "shape": "triangular gable",
+        "color": "white",
+        "material": "plaster or stucco",
+        "features": [
+          "recessed triangular window/opening"
+        ],
+        "focus": "out-of-focus",
+        "background": "dark",
+        "foreground_elements": [
+          "green foliage (partial)"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.6015625,
+      "box": [
+        844.0,
+        360.0,
+        900.0,
+        440.0
+      ],
+      "mask": "image_15.masks/wall_2.png",
+      "crop": null,
+      "description": "A section of a white-painted wall with a triangular gable at the top, featuring three vertical rectangular windows or vents. The wall appears to be part of a small structure, possibly a shed or outbuilding, with a brownish roof visible at the top edge.",
+      "attributes": {
+        "color": "white",
+        "material": "painted wood or siding",
+        "shape": "rectangular with triangular gable",
+        "features": [
+          "three vertical rectangular windows/vents",
+          "triangular gable at top"
+        ],
+        "position": "part of a small structure",
+        "roof_color": "brownish"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 3,
+      "score": 0.5234375,
+      "box": [
+        700.0,
+        346.0,
+        820.0,
+        390.0
+      ],
+      "mask": "image_15.masks/wall_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a wall with a reddish-brown top edge and a lighter, possibly white or light gray, lower section. The image is too indistinct to discern specific textures, materials, or fine details.",
+      "attributes": {
+        "color": [
+          "reddish-brown",
+          "light gray/white"
+        ],
+        "focus": "blurry",
+        "texture": "indistinct",
+        "material": "unknown"
+      },
+      "parse_ok": true
+    }
+  ]
+}

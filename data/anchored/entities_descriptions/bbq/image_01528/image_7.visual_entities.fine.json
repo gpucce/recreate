@@ -1,0 +1,203 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "lampshade",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        -2.5,
+        147.0,
+        168.0,
+        272.0
+      ],
+      "mask": "image_7.masks/lampshade_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a cylindrical lampshade in a muted blue-grey color, positioned in the background behind a patch of white hair in the bottom right corner.",
+      "attributes": {
+        "color": "blue-grey",
+        "shape": "cylindrical",
+        "material": "fabric",
+        "focus": "blurred",
+        "position": "background",
+        "lighting": "soft, diffuse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        692.0,
+        298.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight light brown hair and blue eyes sits on a beige couch, wearing a white short-sleeved blouse with eyelet lace detailing and blue jeans. She has a worried or sad expression, looking slightly upward and to the side with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "eyes": {
+          "color": "blue"
+        },
+        "expression": "worried or sad",
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "color": "white",
+            "sleeves": "short",
+            "details": "eyelet lace, button front"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "hand_position": "clasped in lap"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        14.0,
+        200.0,
+        390.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair sits on a beige couch, wearing a light grey long-sleeved sweater and beige trousers. She has a serious, contemplative expression, looking slightly to the side with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light grey",
+            "sleeves": "long"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "hand_position": "clasped in lap",
+        "accessories": {
+          "earrings": "small stud"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        344.0,
+        180.0,
+        736.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair sits on a beige couch, wearing a plain white short-sleeved t-shirt and light beige trousers. She has a worried or concerned expression with furrowed brows and is looking off to the side, with her hands clasped together in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "worried",
+        "hands": "clasped in lap"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "potted plant",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        332.0,
+        290.0,
+        420.0,
+        406.0
+      ],
+      "mask": "image_7.masks/potted plant_0.png",
+      "crop": null,
+      "description": "A small potted plant with green leaves is shown in a blurred, out-of-focus state, sitting in a light gray or white cylindrical pot. The background is a plain, light-colored wall, and the plant is positioned on a surface that is not clearly visible due to the blur.",
+      "attributes": {
+        "plant": {
+          "leaves": "green",
+          "pot": {
+            "color": "light gray or white",
+            "shape": "cylindrical"
+          }
+        },
+        "focus": "blurred",
+        "background": "light-colored wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        2.0,
+        420.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or cream-colored sofa with a soft, textured fabric upholstery, featuring a cushioned seat and backrest where three individuals are seated side by side.",
+      "attributes": {
+        "color": "light beige",
+        "material": "fabric",
+        "texture": "soft, slightly textured",
+        "type": "sofa",
+        "visible_parts": [
+          "seat cushion",
+          "backrest"
+        ],
+        "occupants": 3,
+        "position": "horizontal, spanning the width of the image"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,359 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "calculator",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        260.0,
+        884.0,
+        460.0,
+        940.0
+      ],
+      "mask": "image_10.masks/calculator_0.png",
+      "crop": null,
+      "description": "A black desktop calculator with a rectangular body and a slightly angled keypad. The calculator features a grid of dark gray buttons and two distinct red buttons on the right side, likely for clear or equal functions. It is placed on a light-colored surface, possibly a desk, with a blurred background that includes a white object with black markings, possibly a power strip or another electronic device.",
+      "attributes": {
+        "color": "black",
+        "button_color": "dark gray and red",
+        "shape": "rectangular",
+        "material": "plastic",
+        "position": "on a desk",
+        "background": "blurred, includes a white object with black markings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.71875,
+      "box": [
+        668.0,
+        812.0,
+        796.0,
+        980.0
+      ],
+      "mask": "image_10.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A white disposable paper coffee cup with a matching white plastic lid sits on a white surface. The cup has a tapered cylindrical shape and is positioned in the foreground, with a spiral-bound notebook partially visible to the left.",
+      "attributes": {
+        "object_type": "disposable coffee cup",
+        "color": "white",
+        "material": "paper and plastic",
+        "lid": {
+          "color": "white",
+          "material": "plastic",
+          "type": "screw-top"
+        },
+        "shape": "tapered cylinder",
+        "position": "center foreground",
+        "surface": "white table",
+        "background_objects": [
+          "spiral notebook"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.50390625,
+      "box": [
+        -1.75,
+        2.0,
+        93.0,
+        438.0
+      ],
+      "mask": "image_10.masks/glass_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a light gray or white background with a darker gray rectangular shape in the lower right corner. The image appears to be a close-up of an indistinct object or surface, possibly part of a wall or furniture, with no clear details or features visible.",
+      "attributes": {
+        "color": "light gray/white background, darker gray object",
+        "focus": "blurry/out-of-focus",
+        "shape": "rectangular (lower right)",
+        "material": "indeterminate",
+        "position": "lower right corner"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.5234375,
+      "box": [
+        100.0,
+        -1.0,
+        378.0,
+        496.0
+      ],
+      "mask": "image_10.masks/glass_1.png",
+      "crop": null,
+      "description": "A close-up shot of a young woman with fair skin and blonde hair pulled back into a low ponytail, wearing a white collared shirt and small hoop earrings. She is looking off to the right with a neutral, attentive expression against a blurred, light-colored background suggestive of an office environment.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "ponytail",
+          "length": "medium"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          }
+        },
+        "accessories": {
+          "earrings": "small hoops"
+        },
+        "pose": "head turned to the right",
+        "expression": "neutral",
+        "background": "blurred office interior"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.796875,
+      "box": [
+        -2.0,
+        672.0,
+        390.0,
+        904.0
+      ],
+      "mask": "image_10.masks/notebook_0.png",
+      "crop": null,
+      "description": "A person is sitting at a desk with a silver laptop in front of them, gesturing with both hands as if explaining something. The person is wearing a white shirt and a gold watch on their left wrist.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "watch": "gold"
+        },
+        "pose": "sitting, gesturing with hands",
+        "object": {
+          "laptop": "silver",
+          "camera": "black, partially visible in the foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        436.0,
+        884.0,
+        684.0,
+        964.0
+      ],
+      "mask": "image_10.masks/notebook_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A spiral-bound notebook with a red cover and white pages lies open on a surface, with a black pen resting diagonally across the top page. The notebook is positioned at an angle, with the spiral binding visible on the right side.\", \"attributes\": {\"binding\": \"spiral\", \"cover_color\": \"red\", \"page_color\": \"white\", \"pen\": {\"color\": \"black\", \"position\": \"diagonal across top page\"}, \"orientation\": \"angled, open\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        506.0,
+        888.0,
+        628.0,
+        928.0
+      ],
+      "mask": "image_10.masks/pen_0.png",
+      "crop": null,
+      "description": "A black ballpoint pen with a matte finish lies diagonally on a white surface, featuring a silver metal clip and a silver band separating the cap from the barrel. The pen has a silver conical tip and a black cap with a silver clip attached to the top.",
+      "attributes": {
+        "object_type": "pen",
+        "color": "black",
+        "material": "plastic",
+        "finish": "matte",
+        "features": {
+          "clip": "silver",
+          "band": "silver",
+          "tip": "silver"
+        },
+        "orientation": "diagonal",
+        "state": "capped"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        436.0,
+        192.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair is seated at a white table in a professional setting, wearing a grey suit jacket over a light blue dress shirt and a dark blue tie. He is looking to the left with a serious expression, his hands clasped together on the table in front of him, next to a white coffee cup, a spiral notebook, and a pen.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "grey",
+            "type": "suit"
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "gaze": "looking left",
+        "hands": "clasped on table",
+        "objects_on_table": [
+          "white coffee cup",
+          "spiral notebook",
+          "black pen",
+          "calculator"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        104.0,
+        252.0,
+        472.0,
+        828.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A fair-skinned woman with blonde hair tied back in a ponytail is wearing a white button-down shirt and gesturing with both hands while speaking. She is wearing a gold watch on her left wrist, a ring on her right hand, and small hoop earrings, appearing to be in a professional office setting.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "color": "gold",
+            "band": "leather"
+          },
+          "earrings": "hoop",
+          "ring": "visible on right hand"
+        },
+        "pose": "seated, gesturing with hands",
+        "expression": "engaged, speaking"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        57.75,
+        506.0,
+        132.0,
+        544.0
+      ],
+      "mask": "image_10.masks/table_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.5859375,
+      "box": [
+        992.0,
+        552.0,
+        1024.0,
+        592.0
+      ],
+      "mask": "image_10.masks/table_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        4.0,
+        800.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/table_2.png",
+      "crop": null,
+      "description": "A close-up view of a white office desk surface featuring a black DSLR camera on the left, a silver laptop, a black calculator, a spiral-bound notebook with a red cover and a black pen resting on it, and a white disposable coffee cup with a lid on the right. A person's hands are clasped together in the center, wearing a grey suit jacket and a light blue dress shirt.",
+      "attributes": {
+        "objects": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "left"
+          },
+          "laptop": {
+            "color": "silver",
+            "position": "left-center"
+          },
+          "calculator": {
+            "color": "black",
+            "position": "center"
+          },
+          "notebook": {
+            "binding": "spiral",
+            "cover_color": "red",
+            "position": "center-right"
+          },
+          "pen": {
+            "color": "black",
+            "position": "on notebook"
+          },
+          "coffee_cup": {
+            "color": "white",
+            "lid": "white",
+            "position": "right"
+          }
+        },
+        "person": {
+          "hands": "clasped",
+          "clothing": {
+            "jacket": "grey",
+            "shirt": "light blue"
+          },
+          "position": "center"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

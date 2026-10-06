@@ -1,0 +1,313 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        17.0,
+        94.0,
+        92.5,
+        196.0
+      ],
+      "mask": "image_5.masks/glass_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a glass object, likely a drinking glass or tumbler, with a cylindrical shape and a slightly wider top. The glass appears to be made of clear or frosted material, with a light source creating a bright reflection on its surface. The background is indistinct, with hints of a reddish-brown color on the left side.",
+      "attributes": {
+        "shape": "cylindrical",
+        "material": "glass",
+        "color": "clear/frosted",
+        "reflection": "bright",
+        "focus": "blurry",
+        "background": "reddish-brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        768.0,
+        764.0,
+        888.0,
+        972.0
+      ],
+      "mask": "image_5.masks/glass_1.png",
+      "crop": null,
+      "description": "A clear, cylindrical glass filled with a transparent liquid, likely water, sits on a speckled surface. The glass has a thick base and reflects light, creating bright highlights along its rim and sides.",
+      "attributes": {
+        "shape": "cylindrical",
+        "material": "glass",
+        "contents": "clear liquid",
+        "base": "thick",
+        "surface": "speckled",
+        "lighting": "bright reflections"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.5625,
+      "box": [
+        304.0,
+        326.0,
+        716.0,
+        454.0
+      ],
+      "mask": "image_5.masks/glass_2.png",
+      "crop": null,
+      "description": "A close-up crop of a smiling young man with curly brown hair, showing his mouth, chin, and neck. He is wearing a dark, textured denim jacket and has a light stubble on his chin.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "light stubble",
+        "expression": "smiling",
+        "clothing": {
+          "jacket": {
+            "material": "denim",
+            "color": "dark grey/black"
+          }
+        },
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.84765625,
+      "box": [
+        304.0,
+        12.0,
+        716.0,
+        292.0
+      ],
+      "mask": "image_5.masks/glass_3.png",
+      "crop": null,
+      "description": "A close-up crop showing the top of a young man's head with thick, dark brown, tightly curled hair and his eyes and eyebrows visible against a blurred background of a window frame and outdoor scenery.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "short to medium",
+          "style": "natural curls"
+        },
+        "face": {
+          "eyes": "brown",
+          "eyebrows": "dark, thick",
+          "expression": "neutral"
+        },
+        "background": {
+          "object": "window frame",
+          "color": "white",
+          "view": "blurred outdoor landscape"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.578125,
+      "box": [
+        904.0,
+        78.0,
+        984.0,
+        188.0
+      ],
+      "mask": "image_5.masks/glass_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a glass with a dark rim and a lighter, possibly frosted or translucent body. The glass appears to be cylindrical or slightly tapered, with a bright, indistinct light source or reflection visible in the center.",
+      "attributes": {
+        "shape": "cylindrical or tapered",
+        "material": "glass",
+        "color": "dark rim, light body",
+        "focus": "blurry",
+        "lighting": "bright central reflection or light source"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        132.0,
+        84.0,
+        916.0,
+        956.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with voluminous, curly brown hair and a bright smile sits at a table, wearing a dark, acid-wash denim jacket over a grey t-shirt. He holds a woven wicker basket filled with fresh groceries, including bread, carrots, tomatoes, kale, corn, and a sweet potato, with a glass of water placed to his right.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short to medium"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outerwear": "dark grey acid-wash denim jacket",
+          "inner": "light grey t-shirt"
+        },
+        "pose": "sitting, holding a basket with both hands",
+        "objects_held": {
+          "container": "woven wicker basket",
+          "contents": [
+            "sliced bread",
+            "carrots",
+            "red tomatoes",
+            "green kale",
+            "sweet potato",
+            "purple grapes",
+            "yellow corn kernels"
+          ]
+        },
+        "background": "red brick wall with a white window frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        784.0,
+        -2.0,
+        1024.0,
+        864.0
+      ],
+      "mask": "image_5.masks/wall_0.png",
+      "crop": null,
+      "description": "A red brick wall with light gray mortar lines serves as the background, featuring a black metal lantern-style light fixture mounted near the top right. The wall is partially obscured in the foreground by a person's arm wearing a dark, textured denim jacket and a glass of water on a speckled table surface.",
+      "attributes": {
+        "wall": {
+          "material": "brick",
+          "color": "red",
+          "mortar": "light gray",
+          "pattern": "running bond"
+        },
+        "fixture": {
+          "type": "lantern",
+          "color": "black",
+          "material": "metal",
+          "position": "top right"
+        },
+        "foreground_objects": {
+          "clothing": "dark denim jacket",
+          "object": "glass of water",
+          "surface": "speckled table"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.8515625,
+      "box": [
+        -1.5,
+        0.0,
+        232.0,
+        832.0
+      ],
+      "mask": "image_5.masks/wall_1.png",
+      "crop": null,
+      "description": "A red brick wall with light gray mortar lines, featuring a black metal lantern-style light fixture mounted near the top left. The wall is partially obscured by a blurred green plant in a pot at the bottom left and a person's arm wearing a dark gray long-sleeved shirt at the bottom right.",
+      "attributes": {
+        "material": "brick",
+        "color": "red",
+        "mortar_color": "light gray",
+        "fixture": {
+          "type": "lantern",
+          "color": "black",
+          "material": "metal",
+          "position": "top left"
+        },
+        "foreground_objects": [
+          {
+            "type": "plant",
+            "color": "green",
+            "position": "bottom left",
+            "clarity": "blurred"
+          },
+          {
+            "type": "person_arm",
+            "clothing": "dark gray long-sleeved shirt",
+            "position": "bottom right"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.55078125,
+      "box": [
+        2.0,
+        -2.0,
+        1024.0,
+        856.0
+      ],
+      "mask": "image_5.masks/wall_2.png",
+      "crop": null,
+      "description": "A red brick wall with a white-framed window in the center, flanked by two black lantern-style light fixtures on either side. The bricks are arranged in a traditional running bond pattern, and the wall appears to be part of a residential building.",
+      "attributes": {
+        "material": "brick",
+        "color": "red",
+        "pattern": "running bond",
+        "window": {
+          "frame_color": "white",
+          "position": "center"
+        },
+        "light_fixtures": {
+          "color": "black",
+          "style": "lantern",
+          "quantity": 2,
+          "position": "flanking the window"
+        },
+        "building_type": "residential"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        234.0,
+        0.0,
+        784.0,
+        596.0
+      ],
+      "mask": "image_5.masks/window_0.png",
+      "crop": null,
+      "description": "A white-framed window with a grid pattern is visible in the background, set into a red brick wall. The glass reflects a blurry outdoor scene with trees and sky, and the window is partially obscured by the subject in the foreground.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or vinyl",
+        "wall_material": "red brick",
+        "glass": "reflective",
+        "reflection_content": "trees, sky",
+        "position": "background",
+        "state": "closed"
+      },
+      "parse_ok": true
+    }
+  ]
+}

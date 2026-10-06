@@ -1,0 +1,116 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        452.0,
+        130.0,
+        1024.0,
+        968.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with blonde hair tied back in a ponytail sits at a white table, wearing a dark blue plaid flannel shirt with red and white stripes. She has a distressed expression with her eyes closed and her right hand pressed against her forehead, suggesting a headache or stress, while another person in a pink shirt is partially visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "flannel",
+            "pattern": "plaid",
+            "colors": [
+              "dark blue",
+              "red",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "expression": "distressed, eyes closed",
+        "action": "holding forehead"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        34.0,
+        66.0,
+        632.0,
+        808.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark skin and short, curly black hair with brown highlights is wearing a light pink button-down shirt and writing in a spiral-bound notebook with a black pen. She is seated at a white table, looking down with a focused expression, while a second person with blonde hair in a plaid shirt is partially visible to her right, resting their head on their hand.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "color": "black with brown highlights",
+          "style": "curly, short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "material": "cotton"
+          }
+        },
+        "pose": "sitting, writing",
+        "action": "writing in a notebook",
+        "expression": "focused",
+        "accessories": {
+          "pen": "black"
+        },
+        "context": "office or study setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        0.0,
+        696.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/table_0.png",
+      "crop": null,
+      "description": "Two individuals are seated at a white table, with one person on the left wearing a light pink shirt and writing in a spiral-bound notebook with a black pen, while the person on the right wears a dark blue plaid shirt with red and white accents, resting their arms on the table.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "shirt": "light pink"
+          },
+          "right_person": {
+            "shirt": "dark blue plaid with red and white lines"
+          }
+        },
+        "pose": {
+          "left_person": "writing in notebook",
+          "right_person": "arms resting on table"
+        },
+        "objects": {
+          "notebook": "spiral-bound, white pages",
+          "pen": "black"
+        },
+        "table": "white surface"
+      },
+      "parse_ok": true
+    }
+  ]
+}

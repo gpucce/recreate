@@ -1,0 +1,151 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a black interior is shown from the side, with the driver's side window open. Inside, a young woman with long black hair and bangs, wearing a white button-up shirt, sits in the passenger seat holding a white paper coffee cup. In the driver's seat, a young man with curly brown hair, wearing a white button-up shirt and a green tie, is driving the car. Both individuals appear to be in their late teens or early twenties and are looking forward.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "interior_color": "black",
+          "window": "open"
+        },
+        "passenger": {
+          "gender": "female",
+          "age": "young adult",
+          "hair": "long, black, with bangs",
+          "clothing": {
+            "shirt": "white button-up"
+          },
+          "accessories": {
+            "seatbelt": "worn"
+          },
+          "holding": "white paper coffee cup",
+          "expression": "neutral, looking forward"
+        },
+        "driver": {
+          "gender": "male",
+          "age": "young adult",
+          "hair": "curly, brown",
+          "clothing": {
+            "shirt": "white button-up",
+            "tie": "green",
+            "pants": "dark gray or black"
+          },
+          "pose": "driving, hands on steering wheel",
+          "expression": "focused, looking forward"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        556.0,
+        632.0,
+        676.0,
+        752.0
+      ],
+      "mask": "image_11.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A close-up view of a white disposable paper coffee cup with a matching white plastic lid, held by a hand with light skin tone. The cup has a smooth, matte finish and a slightly tapered cylindrical shape, with the fingers of the hand wrapped around the lower portion.",
+      "attributes": {
+        "object": "coffee cup",
+        "material": "paper",
+        "color": "white",
+        "lid": {
+          "color": "white",
+          "material": "plastic",
+          "type": "disposable"
+        },
+        "shape": "cylindrical",
+        "finish": "matte",
+        "held_by": "hand",
+        "hand": {
+          "skin_tone": "light",
+          "position": "gripping lower part"
+        },
+        "function": "beverage container"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        434.0,
+        212.0,
+        1008.0,
+        860.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair is driving a red car, wearing a white button-down shirt with a green tie and dark trousers. He is looking forward with a neutral expression while holding the steering wheel with both hands.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "shirt": "white long-sleeved button-down",
+          "tie": "green",
+          "pants": "dark grey or black"
+        },
+        "pose": "sitting in driver's seat, hands on steering wheel",
+        "expression": "neutral, focused",
+        "context": "driving a car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        124.0,
+        250.0,
+        896.0,
+        888.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, straight black hair and bangs sits in the passenger seat of a car, wearing a white button-down shirt and a black seatbelt. She holds a white disposable coffee cup with a lid in her hands and looks forward with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "shirt": "white button-down",
+          "seatbelt": "black"
+        },
+        "accessories": {
+          "holding": "white coffee cup with lid"
+        },
+        "pose": "sitting in passenger seat",
+        "expression": "neutral",
+        "location": "inside a car"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        394.0,
+        134.0,
+        720.0,
+        904.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A stylized, flat-design illustration of a man with short black hair walking in profile to the left while pushing a black stroller. He is wearing a long-sleeved black shirt, blue pants, and black shoes, set against a solid light mint green background.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "black",
+          "style": "short, side-parted"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "black"
+          }
+        },
+        "pose": "walking, pushing a stroller",
+        "accessories": {
+          "stroller": {
+            "color": "black",
+            "visibility": "partial handle and frame"
+          }
+        },
+        "style": "flat vector illustration",
+        "background": "light mint green"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        142.0,
+        532.0,
+        450.0,
+        908.0
+      ],
+      "mask": "image_8.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black shopping cart with a grid-like basket and two visible wheels is being pushed by a person wearing blue pants and black shoes. The cart is positioned on a light green surface, and the person's hand is gripping the handle.",
+      "attributes": {
+        "color": "black",
+        "material": "metal",
+        "wheels": "two visible",
+        "basket": "grid-like",
+        "handle": "being held by a person",
+        "person_clothing": {
+          "pants": "blue",
+          "shoes": "black"
+        },
+        "surface": "light green"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        356.0,
+        109.0,
+        372.0,
+        380.0
+      ],
+      "mask": "image_11.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender, light-colored flagpole extends vertically against a clear blue sky, topped with a spherical finial and a smaller secondary ball below it. The pole appears to be made of metal or painted wood and is positioned centrally in the frame, with a small portion of a roofline visible at the bottom edge.",
+      "attributes": {
+        "color": "light gray or off-white",
+        "material": "metal or painted wood",
+        "top": {
+          "finial": "spherical",
+          "secondary_ball": "smaller sphere below main finial"
+        },
+        "position": "vertical, centered",
+        "background": "clear blue sky",
+        "visible_parts": [
+          "pole",
+          "finial",
+          "secondary ball",
+          "roofline at bottom"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        244.0,
+        62.0,
+        892.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/statue_0.png",
+      "crop": null,
+      "description": "A weathered white marble statue of a young, muscular male figure wearing a laurel wreath and a draped toga, holding a scroll in his right hand and a small vessel in his left, set against a blue sky with a French flag in the background.",
+      "attributes": {
+        "material": "white marble",
+        "condition": "weathered, stained",
+        "gender": "male",
+        "age": "young adult",
+        "headwear": "laurel wreath",
+        "hair": "curly, short",
+        "facial_features": {
+          "expression": "stoic, neutral",
+          "gaze": "looking to the side"
+        },
+        "body": "muscular, bare-chested",
+        "clothing": {
+          "type": "toga",
+          "details": "draped over left shoulder, wrapped around waist, textured folds"
+        },
+        "accessories": {
+          "necklace": "beaded with a central medallion",
+          "shoulder": "decorative clasp or brooch"
+        },
+        "pose": "standing, upright",
+        "hands": {
+          "right": "holding a rolled scroll",
+          "left": "holding a small cylindrical object or vessel"
+        },
+        "background": {
+          "sky": "clear blue",
+          "flag": "French tricolor (blue, white, red)",
+          "architecture": "balustrade visible behind"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

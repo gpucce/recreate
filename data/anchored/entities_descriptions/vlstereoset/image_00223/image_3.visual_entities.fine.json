@@ -1,0 +1,80 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        30.0,
+        498.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up view of a man's upper torso wearing a formal black coat with wide lapels and a black bow tie over a high-collared white shirt. The man has a thick, reddish-brown mustache and is positioned against a dark, mottled background.",
+      "attributes": {
+        "entity": "man",
+        "gender": "male",
+        "clothing": {
+          "coat": {
+            "color": "black",
+            "style": "formal, wide lapels",
+            "buttons": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "neckwear": {
+            "type": "bow tie",
+            "color": "black"
+          }
+        },
+        "facial_hair": {
+          "mustache": "thick, reddish-brown"
+        },
+        "background": "dark, mottled brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        28.0,
+        68.0,
+        948.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A painted portrait of a middle-aged man with curly dark brown hair and a thick, curled mustache, wearing a black coat over a white shirt and black bow tie. He has a serious expression and is looking slightly to the side against a dark, mottled background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, curled ends",
+          "sideburns": "present"
+        },
+        "clothing": {
+          "coat": "black",
+          "shirt": "white",
+          "neckwear": "black bow tie"
+        },
+        "pose": "bust-up portrait, facing slightly right",
+        "expression": "serious",
+        "medium": "oil painting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

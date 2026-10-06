@@ -1,0 +1,207 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        860.0,
+        472.0,
+        1032.0,
+        672.0
+      ],
+      "mask": "image_12.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A close-up view of a light brown cardboard box featuring a red bullseye logo, which is out of focus. The box is positioned in the background behind a blurred gray object in the foreground.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "logo": {
+          "color": "red",
+          "shape": "bullseye",
+          "focus": "blurred"
+        },
+        "focus": "out of focus",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        980.0,
+        580.0,
+        1024.0,
+        676.0
+      ],
+      "mask": "image_12.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light beige cardboard surface with a vertical brown edge visible on the left side.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "beige",
+        "focus": "blurry",
+        "structure": "vertical edge",
+        "texture": "smooth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        668.0,
+        832.0,
+        1004.0,
+        1016.0
+      ],
+      "mask": "image_12.masks/cardboard box_2.png",
+      "crop": null,
+      "description": "A rectangular gift box wrapped in plain brown kraft paper is tied with a glossy blue satin ribbon in a cross pattern, featuring a bow on top. The box sits on a light wooden surface with a spiral notebook partially visible in the background.",
+      "attributes": {
+        "object_type": "gift box",
+        "shape": "rectangular",
+        "wrapping_paper": {
+          "color": "brown",
+          "material": "kraft paper",
+          "texture": "matte"
+        },
+        "ribbon": {
+          "color": "blue",
+          "material": "satin",
+          "texture": "glossy",
+          "arrangement": "cross pattern with bow on top"
+        },
+        "surface": "wooden table",
+        "background": "spiral notebook"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 3,
+      "score": 0.96875,
+      "box": [
+        660.0,
+        188.0,
+        940.0,
+        384.0
+      ],
+      "mask": "image_12.masks/cardboard box_3.png",
+      "crop": null,
+      "description": "A light brown cardboard box featuring a red bullseye logo consisting of three concentric circles is visible in the background, appearing out of focus. The box is positioned behind a dark, blurry foreground element on the left, likely a person's hair.",
+      "attributes": {
+        "object": "cardboard box",
+        "color": "light brown",
+        "logo": {
+          "color": "red",
+          "shape": "concentric circles",
+          "style": "bullseye"
+        },
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 4,
+      "score": 0.9375,
+      "box": [
+        896.0,
+        284.0,
+        1024.0,
+        384.0
+      ],
+      "mask": "image_12.masks/cardboard box_4.png",
+      "crop": null,
+      "description": "A close-up view of a light beige cardboard box wrapped with a vertical blue ribbon, featuring a blurred and out-of-focus appearance.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "beige",
+        "ribbon": {
+          "color": "blue",
+          "position": "vertical"
+        },
+        "focus": "blurred",
+        "shape": "rectangular"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 5,
+      "score": 0.95703125,
+      "box": [
+        684.0,
+        -1.25,
+        892.0,
+        78.0
+      ],
+      "mask": "image_12.masks/cardboard box_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a light-colored cardboard box featuring a red circular logo or design element on its side. The box appears to be sitting on a surface, with a dark vertical edge visible to the right.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light beige or off-white",
+        "logo": {
+          "color": "red",
+          "shape": "circular",
+          "clarity": "blurry"
+        },
+        "focus": "out-of-focus",
+        "position": "sitting on a surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        212.0,
+        72.0,
+        900.0,
+        904.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with long, dark brown hair is seated at a desk, looking down with a focused expression while writing in a spiral-bound notebook with a black pen. She is wearing a light grey, long-sleeved button-down shirt, and a gift box wrapped in brown paper with a blue ribbon sits on the desk to her right.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light grey",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused, neutral",
+        "accessories": {
+          "pen": "black"
+        },
+        "objects": {
+          "notebook": "spiral-bound",
+          "gift_box": {
+            "wrapping": "brown paper",
+            "ribbon": "blue"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

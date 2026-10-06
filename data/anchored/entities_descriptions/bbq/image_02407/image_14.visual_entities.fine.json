@@ -1,0 +1,172 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        -1.5,
+        -1.25,
+        119.0,
+        87.0
+      ],
+      "mask": "image_14.masks/house_0.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus section of a house, featuring a white horizontal element that appears to be part of a roofline or eave, with a darker gray area above it and a lighter, possibly beige or off-white, wall surface below. The background is indistinct and greenish, suggesting foliage or an outdoor setting.",
+      "attributes": {
+        "structure": "house",
+        "visible_parts": [
+          "roofline",
+          "eave",
+          "wall"
+        ],
+        "colors": {
+          "roof": "gray",
+          "eave": "white",
+          "wall": "beige/off-white",
+          "background": "greenish"
+        },
+        "focus": "blurred",
+        "material": "indeterminate due to blur",
+        "position": "partial view, likely upper portion of the house"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        214.0,
+        0.0,
+        1016.0,
+        376.0
+      ],
+      "mask": "image_14.masks/house_1.png",
+      "crop": null,
+      "description": "A single-story house with white horizontal siding and a white-framed window flanked by dark green shutters, partially visible behind two women in the foreground.",
+      "attributes": {
+        "structure": {
+          "walls": "white horizontal siding",
+          "window": {
+            "frame": "white",
+            "shutters": "dark green"
+          }
+        },
+        "position": "background",
+        "visibility": "partially obscured by subjects in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        488.0,
+        80.0,
+        984.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits on a white bench, wearing a grey and white horizontal striped long-sleeve shirt and blue jeans. She has a concerned or serious expression, looking down and to the side while placing her hand on the shoulder of another person partially visible on the left.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "grey",
+              "white"
+            ]
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "action": "touching another person's shoulder",
+        "accessories": {
+          "earrings": "small stud"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        109.0,
+        88.0,
+        572.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits with a distressed expression, tears visible on her cheeks, wearing a maroon V-neck sweater and blue jeans. Her hands are clasped in her lap, and another person's hand is visible resting on her shoulder in a comforting gesture.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "expression": "crying, distressed",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "maroon",
+            "neckline": "V-neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "thin gold chain"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "interaction": "being comforted by another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.5078125,
+      "box": [
+        9.5,
+        194.0,
+        222.0,
+        450.0
+      ],
+      "mask": "image_14.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange marigold flowers with dense, ruffled petals is visible in the background, appearing slightly out of focus. The flowers are supported by green stems and leaves, creating a lush, natural backdrop.",
+      "attributes": {
+        "flower_color": "orange",
+        "flower_type": "marigold",
+        "petal_shape": "ruffled",
+        "stem_color": "green",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

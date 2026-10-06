@@ -1,0 +1,159 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        840.0,
+        -1.0,
+        1024.0,
+        440.0
+      ],
+      "mask": "image_1.masks/foliage_0.png",
+      "crop": null,
+      "description": "A blurred close-up of a plant with a deep red flower on the left and green leaves extending from a thin stem against a muted blue background. The image is out of focus, making specific details of the foliage and flower indistinct.",
+      "attributes": {
+        "focus": "blurred",
+        "flower_color": "deep red",
+        "leaf_color": "green",
+        "stem_color": "light brown",
+        "background_color": "muted blue",
+        "composition": "close-up crop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        372.0,
+        62.0,
+        980.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with short, dark hair and a neutral expression is shown in profile, wearing a black, sheer, ribbed turtleneck top. The lighting is soft and warm, highlighting her facial features against a blurred background that includes a red flower.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "clothing": {
+          "top": {
+            "type": "turtleneck",
+            "color": "black",
+            "material": "sheer, ribbed fabric"
+          }
+        },
+        "pose": "profile view, looking left",
+        "expression": "neutral, calm",
+        "background_elements": [
+          "red flower",
+          "green leaves",
+          "blue-grey wall"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        372.0,
+        492.0,
+        980.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/top_0.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a black, sheer, ribbed turtleneck top with long sleeves. The fabric is semi-transparent, revealing the skin underneath, and features a distinct vertical ribbed texture throughout.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer, ribbed knit",
+            "neckline": "turtleneck",
+            "sleeves": "long",
+            "texture": "ribbed",
+            "transparency": "semi-transparent"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        464.0,
+        4.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/wall_0.png",
+      "crop": null,
+      "description": "A young Asian woman with short black hair is shown in profile facing left, wearing a black sheer ribbed turtleneck top over a black bra. She has a neutral expression and is positioned in front of a plain blue-grey wall with a blurred red flower and green leaves in the foreground.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob cut"
+        },
+        "clothing": {
+          "top": "black sheer ribbed turtleneck",
+          "undergarment": "black bra"
+        },
+        "pose": "profile view, facing left",
+        "expression": "neutral",
+        "background": "blue-grey wall",
+        "foreground_elements": [
+          "red flower (blurred)",
+          "green leaves (blurred)"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.51953125,
+      "box": [
+        0.0,
+        2.0,
+        350.0,
+        992.0
+      ],
+      "mask": "image_1.masks/wall_1.png",
+      "crop": null,
+      "description": "A vertical section of a dark teal wall surface that is heavily out of focus, featuring a faint, blurry white rectangular shape near the top and a smaller, indistinct lighter spot in the center. A vertical white edge or trim is visible along the right side of the frame.",
+      "attributes": {
+        "color": "dark teal",
+        "texture": "smooth",
+        "focus": "blurry",
+        "features": [
+          "faint white rectangle",
+          "central light spot"
+        ],
+        "edges": {
+          "right": "white vertical trim"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

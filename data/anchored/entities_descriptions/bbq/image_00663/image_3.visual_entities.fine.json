@@ -1,0 +1,282 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        110.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/car_0.png",
+      "crop": null,
+      "description": "A close-up view of a glossy red car with the driver's side window rolled down, revealing a black interior seat and headrest. The car features a body-colored door handle and a black side mirror with an integrated turn signal. The paint reflects the surrounding environment, including a person standing outside.",
+      "attributes": {
+        "color": "red",
+        "finish": "glossy",
+        "visible_parts": [
+          "driver side door",
+          "window frame",
+          "door handle",
+          "side mirror",
+          "roofline"
+        ],
+        "interior": {
+          "seat_color": "black",
+          "headrest": "black"
+        },
+        "exterior_details": {
+          "door_handle": "body-colored",
+          "side_mirror": "black with turn signal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        484.0,
+        251.0,
+        1020.0,
+        612.0
+      ],
+      "mask": "image_3.masks/car interior_0.png",
+      "crop": null,
+      "description": "An elderly Asian man with short white hair and wire-rimmed glasses sits in the driver's seat of a car, wearing a light blue button-down shirt. He is smiling gently while looking out the open window to his left, with his hands resting on the door frame.",
+      "attributes": {
+        "person": {
+          "gender": "male",
+          "age_group": "elderly",
+          "ethnicity": "Asian",
+          "hair": {
+            "color": "white",
+            "length": "short"
+          },
+          "accessories": {
+            "glasses": "wire-rimmed"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "button-down",
+              "color": "light blue"
+            }
+          },
+          "expression": "smiling",
+          "pose": "sitting, leaning slightly out of the open window"
+        },
+        "car_interior": {
+          "seat": {
+            "color": "black",
+            "material": "leather or synthetic leather",
+            "headrest": "black"
+          },
+          "door_frame": {
+            "color": "red"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        804.0,
+        -1.9375,
+        1024.0,
+        32.5
+      ],
+      "mask": "image_3.masks/foliage_0.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred background of green foliage, likely trees or bushes, with a white horizontal line at the bottom that could be a wall or fence. The colors are predominantly various shades of green with some brownish tones, and the overall appearance is out of focus.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "type": "foliage",
+        "background": "out of focus",
+        "foreground": "white horizontal line"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 1,
+      "score": 0.69921875,
+      "box": [
+        -1.5,
+        -2.25,
+        96.0,
+        62.25
+      ],
+      "mask": "image_3.masks/foliage_1.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred, out-of-focus background consisting of dark green foliage, likely leaves or branches, with a small, indistinct white object visible on the right side. The bottom edge features a thin, horizontal strip of reddish-brown color, possibly a surface or ground.",
+      "attributes": {
+        "color": "dark green",
+        "texture": "blurred",
+        "focus": "out of focus",
+        "object": "white, indistinct",
+        "position": "right side",
+        "bottom_edge": "reddish-brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 2,
+      "score": 0.56640625,
+      "box": [
+        94.0,
+        -1.5,
+        600.0,
+        112.5
+      ],
+      "mask": "image_3.masks/foliage_2.png",
+      "crop": null,
+      "description": "The image shows a close-up of the top of a person's head with brown hair, partially visible against a blurred background of green foliage and a wooden structure. The hair appears to be tied back or styled in a way that reveals the scalp at the crown.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "style": "tied back or pulled up"
+        },
+        "background": {
+          "foliage": "green, out of focus",
+          "structure": "wooden, possibly a fence or railing"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        500.0,
+        286.0,
+        964.0,
+        696.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian man with short white hair and wire-rimmed glasses sits in the driver's seat of a red car, smiling warmly while holding hands with someone outside the vehicle. He wears a light blue button-down shirt with the sleeves rolled up to the elbows, and his arms rest on the open window frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "wire-rimmed"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting in car, leaning out window, holding hands",
+        "expression": "smiling, happy",
+        "location": "inside a red car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        86.0,
+        64.0,
+        672.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a low ponytail stands in profile next to a red car, wearing a white short-sleeved t-shirt and blue jeans. She is smiling and reaching out to hold the hands of a person seated inside the car, who is wearing a light blue shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "ponytail",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing, leaning slightly forward",
+        "action": "holding hands with a person in a car",
+        "expression": "smiling",
+        "context": "interacting with a driver or passenger in a red vehicle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        2.0,
+        23.5,
+        1024.0,
+        172.0
+      ],
+      "mask": "image_3.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A low stone wall made of irregularly shaped, light-colored stones with a smooth, white concrete cap runs horizontally across the background, partially obscured by green foliage and a red car roof in the foreground.",
+      "attributes": {
+        "material": "stone and concrete",
+        "color": "light beige and white",
+        "structure": "irregular masonry with a flat cap",
+        "position": "background, horizontal",
+        "condition": "weathered but intact",
+        "surroundings": "green foliage above and behind, red car roof in front"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        2.0,
+        112.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A glossy red sedan is shown from the side, with the driver's side window rolled down. An elderly man is seated in the driver's seat, leaning his arms on the window frame to hold hands with a young woman standing outside. The car features a black side mirror with an integrated turn signal, a body-colored door handle, and black window trim.",
+      "attributes": {
+        "color": "red",
+        "type": "sedan",
+        "finish": "glossy",
+        "features": {
+          "window": "driver side open",
+          "mirror": "black with turn signal",
+          "door_handle": "body-colored",
+          "interior": "black seats"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

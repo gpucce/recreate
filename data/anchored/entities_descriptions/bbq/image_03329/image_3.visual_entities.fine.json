@@ -1,0 +1,347 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.578125,
+      "box": [
+        720.0,
+        4.0,
+        1024.0,
+        684.0
+      ],
+      "mask": "image_3.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story building with a brick facade on the left and white-painted stucco on the right, featuring a large white-framed window with multiple panes and sheer white curtains. A black wrought-iron fence with pointed finials runs along the front, and a portion of a black metal balcony railing is visible on the upper level.",
+      "attributes": {
+        "building_type": "residential",
+        "facade_materials": [
+          "brick",
+          "white stucco"
+        ],
+        "window": {
+          "frame_color": "white",
+          "style": "multi-pane",
+          "curtains": "white sheer"
+        },
+        "fence": {
+          "material": "black wrought iron",
+          "style": "pointed finials"
+        },
+        "balcony": {
+          "railing": "black metal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.5859375,
+      "box": [
+        4.0,
+        0.0,
+        1020.0,
+        684.0
+      ],
+      "mask": "image_3.masks/building_1.png",
+      "crop": null,
+      "description": "A multi-story residential building with a brick facade and white-framed windows, featuring a black wrought-iron fence in front and a tree with green and yellow leaves partially obscuring the view.",
+      "attributes": {
+        "facade": "brick",
+        "window_frames": "white",
+        "fence": "black wrought-iron",
+        "tree": "green and yellow leaves",
+        "architecture_style": "residential"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.55078125,
+      "box": [
+        0.0,
+        -4.0,
+        788.0,
+        460.0
+      ],
+      "mask": "image_3.masks/building_2.png",
+      "crop": null,
+      "description": "A multi-story brick building with white-framed windows and a black metal railing on the left side. The building features a mix of light and dark bricks, with some sections painted white. A tree with green leaves partially obscures the view of the building.",
+      "attributes": {
+        "material": "brick",
+        "color": "light and dark bricks with white paint",
+        "windows": "white-framed",
+        "railing": "black metal",
+        "tree": "green leaves",
+        "architecture_style": "traditional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        588.0,
+        268.0,
+        908.0,
+        956.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with short brown hair stands leaning forward, wearing a dark navy blue suit with a white dress shirt and a dark tie, smiling as he pushes a wheelchair occupied by another person. He is wearing black leather dress shoes and is positioned on a paved surface next to a black metal fence.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "navy blue",
+            "type": "two-piece"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "color": "dark"
+          },
+          "shoes": {
+            "color": "black",
+            "material": "leather",
+            "type": "dress shoes"
+          }
+        },
+        "pose": "standing, leaning forward, pushing wheelchair",
+        "expression": "smiling",
+        "action": "pushing a wheelchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        310.0,
+        388.0,
+        680.0,
+        892.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a manual wheelchair, wearing a long-sleeved maroon shirt and blue jeans with rolled-up cuffs. He is smiling gently at the camera, with his hands resting on his lap, positioned in front of an open car trunk with a ramp extended.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "color": "maroon"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "cuffs rolled up"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "black",
+            "sole": "light brown"
+          }
+        },
+        "pose": "sitting in wheelchair",
+        "expression": "smiling",
+        "mobility_aid": {
+          "type": "manual wheelchair",
+          "color": "black and silver"
+        },
+        "context": {
+          "location": "outdoors, near a vehicle",
+          "vehicle": {
+            "type": "car",
+            "feature": "open trunk with ramp"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ramp",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        223.0,
+        740.0,
+        484.0,
+        916.0
+      ],
+      "mask": "image_3.masks/ramp_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower legs and feet resting on a metal wheelchair footrest, with a silver aluminum wheelchair ramp extending to the left. The person wears blue denim jeans with rolled-up cuffs, white socks, and black sneakers with gum soles.",
+      "attributes": {
+        "ramp": {
+          "material": "aluminum",
+          "color": "silver",
+          "surface": "ribbed metal",
+          "position": "extending left from the wheelchair"
+        },
+        "footrest": {
+          "material": "metal",
+          "color": "black",
+          "type": "wheelchair footrest"
+        },
+        "person": {
+          "clothing": {
+            "pants": "blue denim jeans, cuffed",
+            "socks": "white",
+            "shoes": "black sneakers with gum soles"
+          },
+          "pose": "seated, feet on footrest"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ramp",
+      "index": 1,
+      "score": 0.6875,
+      "box": [
+        222.0,
+        740.0,
+        386.0,
+        844.0
+      ],
+      "mask": "image_3.masks/ramp_1.png",
+      "crop": null,
+      "description": "A close-up view of a portable, foldable ramp with a silver, metallic surface featuring horizontal ridges for traction. The ramp is supported by a sturdy frame and is positioned at an angle, likely for accessibility purposes.",
+      "attributes": {
+        "material": "metallic",
+        "color": "silver",
+        "surface": "ridged",
+        "function": "accessibility",
+        "type": "portable ramp",
+        "position": "angled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        70.0,
+        3.0,
+        664.0,
+        444.0
+      ],
+      "mask": "image_3.masks/tree_0.png",
+      "crop": null,
+      "description": "A tree with a thick, textured brown trunk and branches extending upward, with green leaves visible at the top left corner. The tree is positioned in front of a brick building with white-framed windows.",
+      "attributes": {
+        "trunk": "thick, brown, textured",
+        "branches": "extending upward",
+        "leaves": "green, visible at top left",
+        "position": "in front of a brick building",
+        "background": "brick building with white-framed windows"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        -2.0,
+        166.0,
+        632.0,
+        848.0
+      ],
+      "mask": "image_3.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is shown from the rear with its hatchback door fully open, revealing an empty cargo area with black seat covers and a deployed metal ramp extending from the rear bumper. A young man in a wheelchair is positioned next to the vehicle, facing the camera with a slight smile, while another person stands partially visible behind him.",
+      "attributes": {
+        "vehicle": {
+          "type": "minivan",
+          "color": "silver",
+          "door": "hatchback open",
+          "interior": "empty cargo space, black seats",
+          "features": "deployed metal ramp, red taillights"
+        },
+        "person_1": {
+          "gender": "male",
+          "age": "young adult",
+          "hair": "curly brown",
+          "clothing": {
+            "top": "red long-sleeve shirt",
+            "bottom": "blue jeans",
+            "shoes": "black sneakers"
+          },
+          "pose": "sitting in wheelchair",
+          "expression": "smiling"
+        },
+        "person_2": {
+          "gender": "male",
+          "age": "young adult",
+          "hair": "brown",
+          "pose": "standing, partially visible",
+          "expression": "smiling"
+        },
+        "setting": {
+          "background": "brick building, black metal fence, tree trunk",
+          "ground": "paved surface"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        316.0,
+        604.0,
+        756.0,
+        972.0
+      ],
+      "mask": "image_3.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A manual wheelchair with a black frame and black seat is shown in profile, occupied by a person wearing a red long-sleeved shirt and blue jeans. The wheelchair features large rear wheels with silver spokes and black tires, smaller front caster wheels, and black footrests where the person's black sneakers are placed.",
+      "attributes": {
+        "type": "manual wheelchair",
+        "frame_color": "black",
+        "seat_color": "black",
+        "wheels": {
+          "rear": {
+            "size": "large",
+            "spokes": "silver",
+            "tire": "black"
+          },
+          "front": {
+            "size": "small",
+            "color": "grey/black"
+          }
+        },
+        "footrests": "black",
+        "occupant_clothing": {
+          "top": "red long-sleeved shirt",
+          "bottom": "blue jeans",
+          "shoes": "black sneakers with white soles"
+        },
+        "position": "seated, facing left"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,256 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        -1.75,
+        22.0,
+        108.0,
+        266.0
+      ],
+      "mask": "image_4.masks/house_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house exterior featuring a brown wall and a dark grey roof with a white trim line. A white rectangular shape, likely a window or door, is visible in the lower left corner, and a vertical white pole stands on the right edge.",
+      "attributes": {
+        "wall_color": "brown",
+        "roof_color": "dark grey",
+        "trim_color": "white",
+        "features": [
+          "white rectangular opening",
+          "vertical white pole"
+        ],
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        112.0,
+        0.0,
+        1024.0,
+        394.0
+      ],
+      "mask": "image_4.masks/house_1.png",
+      "crop": null,
+      "description": "A white house with horizontal siding and dark green shutters flanking multi-paned windows, visible in the background behind two young women.",
+      "attributes": {
+        "structure": {
+          "siding": "white horizontal",
+          "shutters": "dark green",
+          "windows": "multi-paned, white frames"
+        },
+        "position": "background",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        468.0,
+        82.0,
+        980.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits in profile on a white bench, wearing a grey and white horizontal striped hoodie and blue jeans. She has a serious expression and rests her right hand on the shoulder of another person seated to her left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "grey",
+            "pattern": "horizontal white stripes",
+            "details": "drawstrings visible"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "touching another person's shoulder",
+        "expression": "serious",
+        "view": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        199.0,
+        88.0,
+        580.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits outdoors, wearing a maroon long-sleeved top and blue jeans. She has a serious expression, looking off to the side, with her hands resting on her lap and another person's hand visible on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "maroon"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "thin chain with small pendant"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "skin": "fair with freckles"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        940.0,
+        260.0,
+        1024.0,
+        508.0
+      ],
+      "mask": "image_4.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus crop showing the side of a person's head and shoulder, featuring long, reddish-brown hair and a light beige hooded garment. The background is a heavily blurred mix of dark green and grey tones, suggesting an outdoor setting with foliage.",
+      "attributes": {
+        "hair": {
+          "color": "reddish-brown",
+          "length": "long",
+          "texture": "straight"
+        },
+        "clothing": {
+          "type": "hoodie",
+          "color": "light beige",
+          "material": "soft fabric"
+        },
+        "pose": "side profile",
+        "background": "blurred green and grey"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 1,
+      "score": 0.6171875,
+      "box": [
+        932.0,
+        616.0,
+        1024.0,
+        888.0
+      ],
+      "mask": "image_4.masks/shrubs_1.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange marigold flowers with dense, ruffled petals is visible in the background, set against a backdrop of green foliage and small white buds. The flowers are slightly out of focus, with a person's arm wearing a light grey long-sleeved top partially visible on the left side of the frame.",
+      "attributes": {
+        "flower_color": "orange",
+        "flower_type": "marigold",
+        "petal_texture": "ruffled",
+        "foliage_color": "green",
+        "buds": "white",
+        "focus": "blurred",
+        "foreground_object": "person's arm",
+        "clothing_color": "light grey",
+        "clothing_type": "long-sleeved top"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        -0.5,
+        668.0,
+        216.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/shrubs_2.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange marigold flowers with layered petals is in focus, surrounded by green foliage and small buds, positioned behind a white wooden railing.",
+      "attributes": {
+        "flower_color": "orange",
+        "flower_type": "marigold",
+        "foliage_color": "green",
+        "position": "behind a white railing",
+        "state": "blooming"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 3,
+      "score": 0.6875,
+      "box": [
+        -1.75,
+        262.0,
+        108.0,
+        406.0
+      ],
+      "mask": "image_4.masks/shrubs_3.png",
+      "crop": null,
+      "description": "A heavily blurred and out-of-focus view of a shrub or bush, appearing as a large, dark green mass occupying the left side of the frame. To the right, there are indistinct, blurry shapes in pink and beige tones, possibly flowers or a person, but they are too obscured to identify clearly.",
+      "attributes": {
+        "focus": "extremely blurry",
+        "color": "dark green",
+        "texture": "indistinct",
+        "position": "left side",
+        "background_elements": "blurry pink and beige shapes"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 4,
+      "score": 0.5625,
+      "box": [
+        46.0,
+        338.0,
+        202.0,
+        478.0
+      ],
+      "mask": "image_4.masks/shrubs_4.png",
+      "crop": null,
+      "description": "A close-up of a reddish-brown, fuzzy plant stem or branch with fine hairs visible on its surface, set against a blurred background of green and blue tones.",
+      "attributes": {
+        "color": "reddish-brown",
+        "texture": "fuzzy, hairy",
+        "shape": "cylindrical, elongated",
+        "background": "blurred, green and blue tones",
+        "focus": "sharp on the stem, blurred background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

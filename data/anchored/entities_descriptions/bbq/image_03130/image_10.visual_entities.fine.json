@@ -1,0 +1,199 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        544.0,
+        564.0,
+        1032.0,
+        988.0
+      ],
+      "mask": "image_10.masks/furniture_0.png",
+      "crop": null,
+      "description": "A person is standing in a bedroom, wearing a light blue button-up shirt with rolled-up sleeves and beige pants. The person is holding a wooden cane in their right hand, suggesting they may need support while walking.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, button-up, long-sleeved with rolled-up sleeves",
+          "pants": "beige, loose-fitting"
+        },
+        "accessories": {
+          "cane": "wooden, held in the right hand"
+        },
+        "pose": "standing, slightly leaning on the cane",
+        "location": "bedroom, near a bed with white bedding and a wooden frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        288.0,
+        504.0,
+        368.0,
+        896.0
+      ],
+      "mask": "image_10.masks/furniture_1.png",
+      "crop": null,
+      "description": "A light blue medical scrub top is visible on the right side of the frame, featuring a pocket with a pen or tool tucked into it. In the blurred background, a wooden bookshelf holds books and a woven basket.",
+      "attributes": {
+        "clothing": {
+          "type": "scrubs",
+          "color": "light blue",
+          "details": "pocket with item tucked in"
+        },
+        "background": {
+          "furniture": "wooden bookshelf",
+          "items": [
+            "books",
+            "woven basket"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        3.0,
+        760.0,
+        231.0,
+        1000.0
+      ],
+      "mask": "image_10.masks/furniture_2.png",
+      "crop": null,
+      "description": "A small, round side table with a light wood finish and three tapered legs splayed outward for stability. The tabletop holds a black camera and a dark cylindrical object, possibly a cup or container, against a plain, light-colored wall and wooden floor.",
+      "attributes": {
+        "type": "side table",
+        "shape": "round",
+        "material": "wood",
+        "color": "light brown",
+        "legs": {
+          "count": 3,
+          "style": "tapered, splayed"
+        },
+        "top": {
+          "shape": "circular",
+          "finish": "smooth"
+        },
+        "objects_on_top": [
+          "black camera",
+          "dark cylindrical object"
+        ],
+        "background": {
+          "wall": "light-colored",
+          "floor": "wooden"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        494.0,
+        142.0,
+        904.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair stands with her eyes closed and a gentle, serene expression, wearing a light blue button-down shirt with sleeves rolled to the elbows and beige trousers. She holds a wooden cane in her right hand, while a caregiver in blue scrubs stands behind her with hands placed on her shoulders for support.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "beige",
+            "type": "trousers"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "handle": "black",
+            "shaft": "wooden"
+          }
+        },
+        "pose": "standing, supported by caregiver",
+        "expression": "eyes closed, calm",
+        "context": "caregiver visible behind with hands on shoulders"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        320.0,
+        106.0,
+        864.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with dark hair tied back in a ponytail and wearing glasses is dressed in light blue medical scrubs, standing behind an elderly woman with her hands gently placed on the older woman's shoulders in a supportive pose.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub top",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning slightly forward, hands on shoulders",
+        "expression": "attentive, caring",
+        "social_role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        -1.0,
+        0.0,
+        175.0,
+        612.0
+      ],
+      "mask": "image_10.masks/window_0.png",
+      "crop": null,
+      "description": "A white-framed window with multiple glass panes, featuring a small handle on the left side. The window is partially open, allowing soft natural light to filter through, and is adorned with a vase of orange flowers placed on the windowsill.",
+      "attributes": {
+        "frame_color": "white",
+        "glass_panes": "multiple",
+        "handle": "small, on the left side",
+        "window_state": "partially open",
+        "lighting": "soft natural light",
+        "decorations": "vase of orange flowers on the windowsill"
+      },
+      "parse_ok": true
+    }
+  ]
+}

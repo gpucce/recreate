@@ -1,0 +1,191 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        632.0,
+        596.0,
+        736.0,
+        700.0
+      ],
+      "mask": "image_5.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A glossy, light blue ceramic mug with a white interior is held by a person's hands, with fingers visible gripping the handle and the base. The mug has a smooth, cylindrical shape and a standard C-shaped handle.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": {
+          "exterior": "light blue",
+          "interior": "white"
+        },
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": "C-shaped",
+        "state": "held by hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        368.0,
+        624.0,
+        480.0,
+        736.0
+      ],
+      "mask": "image_5.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, glossy finish is held by a hand with dark skin tone, showing the thumb and fingers gripping the handle. The mug is cylindrical with a slightly flared rim and appears to be empty.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "white",
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": "present",
+        "contents": "empty",
+        "held_by": "hand",
+        "skin_tone": "dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 2,
+      "score": 0.828125,
+      "box": [
+        868.0,
+        940.0,
+        1032.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/ceramic mug_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of the upper rim and interior of a white ceramic mug. The object features a smooth, rounded edge and a plain, unadorned surface with a matte finish.",
+      "attributes": {
+        "object_type": "ceramic mug",
+        "color": "white",
+        "material": "ceramic",
+        "finish": "matte",
+        "shape": "cylindrical",
+        "focus": "blurred",
+        "visible_parts": [
+          "rim",
+          "interior",
+          "upper exterior"
+        ],
+        "pattern": "none"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        548.0,
+        146.0,
+        1012.0,
+        1000.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Black man with short, curly gray hair and a full gray beard sits on a beige couch, smiling warmly while looking off to the left. He wears a sage green t-shirt and light beige trousers, holding a bright blue mug with both hands in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray",
+          "style": "short curly"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "style": "full beard"
+        },
+        "expression": "smiling",
+        "gaze": "looking left",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "sage green"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding a mug",
+        "object": {
+          "type": "mug",
+          "color": "blue"
+        },
+        "setting": "indoor, on a couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        54.0,
+        138.0,
+        600.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling, bald Black man with a gray goatee and glasses sits on a beige couch, wearing a light blue polo shirt and khaki shorts while holding a white mug in his right hand.",
+      "attributes": {
+        "gender": "male",
+        "age": "senior",
+        "ethnicity": "Black",
+        "hair": {
+          "head": "bald",
+          "facial": "gray goatee"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved polo shirt",
+          "bottom": "khaki shorts"
+        },
+        "pose": "sitting on a couch",
+        "expression": "smiling",
+        "holding": "white mug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        394.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/sofa_0.png",
+      "crop": null,
+      "description": "A beige, textured fabric sofa with a modern design, featuring a cushioned seat and backrest, is partially visible in the image. Two individuals are seated on it, each holding a mug, suggesting a casual and comfortable setting.",
+      "attributes": {
+        "color": "beige",
+        "material": "textured fabric",
+        "design": "modern",
+        "cushions": "seat and backrest",
+        "visible_parts": "seat, backrest, armrests"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "dirt_path",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        318.0,
+        468.0,
+        1024.0,
+        588.0
+      ],
+      "mask": "image_5.masks/dirt_path_0.png",
+      "crop": null,
+      "description": "A narrow, winding dirt path cuts through a rugged, colorful landscape of eroded hills and canyons. The path appears to be a single-lane road, with a reddish-brown surface that contrasts with the surrounding terrain, which features hues of orange, yellow, and gray.",
+      "attributes": {
+        "color": "reddish-brown",
+        "texture": "dirt",
+        "shape": "winding",
+        "width": "narrow",
+        "surrounding_terrain": "eroded hills and canyons",
+        "terrain_colors": [
+          "orange",
+          "yellow",
+          "gray"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        2.0,
+        306.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "A vibrant, undulating mountain range with distinct horizontal stripes of red, orange, yellow, and white rock formations, featuring a winding road cutting through the landscape and sparse vegetation in the foreground.",
+      "attributes": {
+        "color": [
+          "red",
+          "orange",
+          "yellow",
+          "white",
+          "brown"
+        ],
+        "texture": "layered, eroded, smooth",
+        "vegetation": "sparse, dry grass in foreground",
+        "road": "winding, paved",
+        "sky": "clear, blue",
+        "lighting": "bright, natural sunlight",
+        "topography": "rolling hills, ridges"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        2.0,
+        -1.0,
+        1024.0,
+        380.0
+      ],
+      "mask": "image_5.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear blue sky with wispy, white cirrus clouds scattered across it, above a landscape of colorful, eroded hills in shades of red, orange, and brown.",
+      "attributes": {
+        "sky_color": "blue",
+        "cloud_type": "cirrus",
+        "cloud_color": "white",
+        "cloud_pattern": "wispy, scattered",
+        "landscape": "eroded hills",
+        "landscape_colors": [
+          "red",
+          "orange",
+          "brown"
+        ],
+        "lighting": "bright, natural daylight"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        692.0,
+        528.0,
+        916.0,
+        976.0
+      ],
+      "mask": "image_4.masks/chair_0.png",
+      "crop": null,
+      "description": "A white office chair with a light blue backrest is partially visible, featuring a black five-star base with casters. A person wearing a gray suit, white shirt, and blue tie is seated in the chair, with only their torso and legs shown.",
+      "attributes": {
+        "chair": {
+          "color": "white",
+          "backrest_color": "light blue",
+          "base_color": "black",
+          "type": "office chair",
+          "base_type": "five-star with casters"
+        },
+        "person": {
+          "clothing": {
+            "suit": "gray",
+            "shirt": "white",
+            "tie": "blue"
+          },
+          "pose": "seated"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        121.0,
+        600.0,
+        332.0,
+        976.0
+      ],
+      "mask": "image_4.masks/chair_1.png",
+      "crop": null,
+      "description": "A modern office chair with a white seat and backrest, featuring a black five-star base with casters and a central hydraulic lift mechanism. The chair is partially occupied by a person wearing dark clothing, with only the lower body and legs visible.",
+      "attributes": {
+        "type": "office chair",
+        "seat_color": "white",
+        "backrest_color": "white",
+        "base_color": "black",
+        "base_type": "five-star with casters",
+        "mechanism": "hydraulic lift",
+        "visible_parts": [
+          "seat",
+          "backrest",
+          "base",
+          "casters",
+          "lift mechanism"
+        ],
+        "occupant_clothing": "dark pants or skirt",
+        "occupant_shoes": "high heels (partially visible)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer monitor",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        52.0,
+        450.0,
+        224.0,
+        640.0
+      ],
+      "mask": "image_4.masks/computer monitor_0.png",
+      "crop": null,
+      "description": "A dark gray computer monitor is shown from the back, featuring a rectangular screen with rounded corners and a thick bezel. It is supported by a central stand with a vertical neck and a flat, horizontal base, rendered in a flat, vector art style with solid colors and no visible texture.",
+      "attributes": {
+        "object": "computer monitor",
+        "view": "rear",
+        "color": "dark gray",
+        "shape": "rectangular with rounded corners",
+        "stand": {
+          "type": "central",
+          "color": "dark gray",
+          "base": "flat horizontal"
+        },
+        "style": "flat vector illustration",
+        "background": "abstract pastel shapes"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        40.0,
+        632.0,
+        676.0,
+        976.0
+      ],
+      "mask": "image_4.masks/desk_0.png",
+      "crop": null,
+      "description": "A light blue desk with a flat surface and dark gray legs is shown, with a person sitting at it on a white office chair with black wheels and a person standing next to it wearing gray pants and black shoes.",
+      "attributes": {
+        "color": "light blue",
+        "legs": "dark gray",
+        "surface": "flat",
+        "position": "horizontal",
+        "context": "office setting",
+        "associated_objects": {
+          "chair": {
+            "color": "white",
+            "wheels": "black"
+          },
+          "person_sitting": {
+            "clothing": {
+              "dress": "black",
+              "shoes": "black high heels"
+            },
+            "pose": "sitting"
+          },
+          "person_standing": {
+            "clothing": {
+              "pants": "gray",
+              "shoes": "black"
+            },
+            "pose": "standing"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        474.0,
+        262.0,
+        936.0,
+        976.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with black hair and light skin is sitting in a white office chair, wearing a grey suit, white shirt, and blue tie. He has a joyful expression with a wide open-mouthed smile and both arms raised in the air with clenched fists in a gesture of victory or excitement.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short, swept to the side"
+        },
+        "expression": "excited, smiling broadly",
+        "pose": "sitting with arms raised and fists clenched",
+        "clothing": {
+          "suit": {
+            "jacket": "grey",
+            "pants": "grey"
+          },
+          "shirt": "white",
+          "tie": "blue",
+          "shoes": "black"
+        },
+        "furniture": {
+          "chair": "white office chair with black base and wheels"
+        },
+        "background": "light pink"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        183.0,
+        336.0,
+        476.0,
+        976.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, dark wavy hair sits at a desk, wearing a white short-sleeved t-shirt and a dark navy skirt. She is smiling while looking at a black smartphone held in her left hand, with her right hand gesturing near her chest, and she wears black high-heeled pumps.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "skirt",
+            "color": "dark blue"
+          },
+          "shoes": {
+            "type": "high heels",
+            "color": "black"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at phone",
+        "accessories": {
+          "phone": {
+            "color": "black"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "speech bubble",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        288.0,
+        86.0,
+        596.0,
+        314.0
+      ],
+      "mask": "image_4.masks/speech bubble_0.png",
+      "crop": null,
+      "description": "A blue speech bubble with a white outline and three horizontal white lines inside, representing text. The speech bubble has a pointed tail at the bottom left, indicating the direction of the conversation. The background is a light pink color.",
+      "attributes": {
+        "color": "blue",
+        "shape": "speech bubble",
+        "tail_position": "bottom left",
+        "text_lines": 3,
+        "background_color": "light pink"
+      },
+      "parse_ok": true
+    }
+  ]
+}

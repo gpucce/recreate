@@ -1,0 +1,329 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "counter",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        -2.0,
+        484.0,
+        478.0,
+        556.0
+      ],
+      "mask": "image_10.masks/counter_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of two individuals, likely an adult and a child, sitting side by side. The adult is wearing a dark red vest over a blue button-up shirt, while the child is wearing a blue t-shirt. The child's face is partially visible, showing a neutral expression.",
+      "attributes": {
+        "clothing": {
+          "adult": {
+            "vest": "dark red",
+            "shirt": "blue button-up"
+          },
+          "child": {
+            "t-shirt": "blue"
+          }
+        },
+        "expression": {
+          "child": "neutral"
+        },
+        "position": "side by side",
+        "age": {
+          "adult": "adult",
+          "child": "child"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter",
+      "index": 1,
+      "score": 0.515625,
+      "box": [
+        326.0,
+        484.0,
+        474.0,
+        524.0
+      ],
+      "mask": "image_10.masks/counter_1.png",
+      "crop": null,
+      "description": "A close-up crop of a young boy's face, showing the lower half of his face including his mouth, chin, and neck. He is wearing a blue shirt with a dark collar. The background is blurred, suggesting a shallow depth of field.",
+      "attributes": {
+        "age": "child",
+        "gender": "male",
+        "clothing": {
+          "shirt": "blue",
+          "collar": "dark"
+        },
+        "expression": "neutral",
+        "position": "centered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter",
+      "index": 2,
+      "score": 0.5078125,
+      "box": [
+        -0.75,
+        502.0,
+        55.5,
+        552.0
+      ],
+      "mask": "image_10.masks/counter_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        -1.0,
+        4.5,
+        194.0,
+        190.0
+      ],
+      "mask": "image_10.masks/curtain_0.png",
+      "crop": null,
+      "description": "A close-up view of a white, lace curtain with an intricate diamond-shaped pattern and scalloped edges, hanging in front of a window.",
+      "attributes": {
+        "color": "white",
+        "material": "lace",
+        "pattern": "diamond-shaped",
+        "edge": "scalloped",
+        "position": "hanging in front of a window",
+        "texture": "delicate and see-through"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        632.0,
+        314.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian woman with short gray hair sits at a rustic wooden table, wearing a vibrant red headscarf and a patterned brown and black long-sleeved top. She has a calm, gentle expression and is looking slightly off-camera, with a red bowl placed on the table in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "gray",
+          "style": "short, visible under headscarf"
+        },
+        "clothing": {
+          "headscarf": {
+            "color": "red",
+            "material": "soft fabric, possibly wool or cotton"
+          },
+          "top": {
+            "color": "brown and black patterned",
+            "style": "long-sleeved, traditional or folk-patterned"
+          }
+        },
+        "pose": "sitting at a table, hands resting on the surface",
+        "expression": "calm, serene, slightly smiling",
+        "accessories": {
+          "bowl": {
+            "color": "red exterior, white interior",
+            "position": "on table in front of her"
+          }
+        },
+        "setting": "indoor, rustic wooden table, simple background suggesting a home or rural environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        344.0,
+        384.0,
+        480.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian boy with short, dark brown hair sits at a rustic wooden table, wearing a dark blue long-sleeved shirt. He has a neutral, slightly serious expression and is looking slightly to the side, with a white ceramic teapot and a red bowl visible on the table in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "dark blue"
+          }
+        },
+        "expression": "neutral",
+        "pose": "sitting",
+        "context": {
+          "setting": "indoor",
+          "objects": [
+            "wooden table",
+            "white teapot",
+            "red bowl",
+            "plate of dumplings"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        26.0,
+        270.0,
+        408.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly Asian man with a weathered face and deep wrinkles sits at a distressed wooden table, wearing a dark grey fedora, a maroon vest over a blue button-down shirt, and grey trousers. He holds a lit cigarette in his mouth and rests his hands near a red ceramic teacup, with a young boy partially visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "facial_features": {
+          "skin": "wrinkled, weathered",
+          "expression": "neutral, contemplative",
+          "accessories": "cigarette in mouth"
+        },
+        "clothing": {
+          "hat": "dark grey fedora",
+          "vest": "maroon, sleeveless",
+          "shirt": "blue, long-sleeved, button-down",
+          "pants": "grey"
+        },
+        "pose": "sitting at a table",
+        "position": "foreground, left of center",
+        "context": {
+          "furniture": "worn wooden table with peeling blue paint",
+          "objects": "red teacup, white teapot",
+          "background": "young boy in blue shirt, window"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.68359375,
+      "box": [
+        348.0,
+        390.0,
+        484.0,
+        648.0
+      ],
+      "mask": "image_10.masks/person_3.png",
+      "crop": null,
+      "description": "A young East Asian boy with short, dark brown hair and a neutral expression looks slightly to the side while wearing a blue long-sleeved shirt. He is seated at a table with a white ceramic teapot and a red bowl visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "blue"
+          }
+        },
+        "expression": "neutral",
+        "pose": "sitting",
+        "context": {
+          "objects": [
+            "white teapot",
+            "red bowl"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.8125,
+      "box": [
+        468.0,
+        264.0,
+        748.0,
+        1016.0
+      ],
+      "mask": "image_10.masks/person_4.png",
+      "crop": null,
+      "description": "A middle-aged Asian man with short black hair and a warm smile sits at a rustic wooden table, wearing a brown sweater and a beige apron. He is positioned behind a white plate of dumplings and a white teapot, with his hands resting on the table surface.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": "brown sweater",
+          "apron": "beige"
+        },
+        "pose": "sitting",
+        "position": "center-left",
+        "context": "cooking or serving food"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.71875,
+      "box": [
+        472.0,
+        264.0,
+        752.0,
+        648.0
+      ],
+      "mask": "image_10.masks/person_5.png",
+      "crop": null,
+      "description": "A middle-aged Asian man with short black hair and a warm smile is wearing a brown sweater and a beige apron, seated at a table with a white teapot and a plate of dumplings in the foreground. He is positioned slightly to the left, looking towards the right side of the frame with a friendly expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": "brown sweater",
+          "apron": "beige"
+        },
+        "pose": "sitting",
+        "context": "cooking or dining"
+      },
+      "parse_ok": true
+    }
+  ]
+}

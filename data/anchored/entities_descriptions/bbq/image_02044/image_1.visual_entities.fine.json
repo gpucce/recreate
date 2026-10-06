@@ -1,0 +1,87 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        592.0,
+        34.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, dark brown hair is shown in profile facing left, wearing a black crew-neck top under a light beige, open-front cardigan with brown buttons. She has a slight smile and is wearing small gold hoop earrings, with a blurred indoor background featuring a grey sofa and a wooden cabinet.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "type": "t-shirt"
+          },
+          "outerwear": {
+            "color": "beige",
+            "type": "cardigan",
+            "material": "knit",
+            "buttons": "brown"
+          }
+        },
+        "accessories": {
+          "earrings": "small gold hoops"
+        },
+        "pose": "standing, profile view",
+        "expression": "smiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -2.0,
+        82.0,
+        568.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair and fair skin with visible age spots and wrinkles is shown from the chest up, wearing a light mint green knit sweater over a white turtleneck. She is looking off to the side with a calm, neutral expression, and the text 'College Senior Companions' is overlaid in white on the lower portion of the image.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "skin": {
+          "tone": "fair",
+          "features": "wrinkles, age spots"
+        },
+        "clothing": {
+          "sweater": {
+            "color": "mint green",
+            "material": "knit"
+          },
+          "undershirt": {
+            "color": "white",
+            "type": "turtleneck"
+          }
+        },
+        "pose": "seated or standing, facing slightly right",
+        "expression": "calm, neutral",
+        "text_overlay": "College Senior Companions"
+      },
+      "parse_ok": true
+    }
+  ]
+}

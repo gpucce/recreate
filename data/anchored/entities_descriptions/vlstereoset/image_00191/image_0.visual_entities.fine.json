@@ -1,0 +1,66 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        584.0,
+        81.5,
+        620.0,
+        320.0
+      ],
+      "mask": "image_0.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender, light-colored flagpole stands vertically, topped with a small, rounded finial. A blue flag with a red and white emblem is attached to the pole, fluttering slightly in the wind against a pale sky.",
+      "attributes": {
+        "color": "light gray or white",
+        "material": "metal",
+        "shape": "cylindrical",
+        "top": "rounded finial",
+        "flag": {
+          "color": "blue",
+          "emblem": "red and white",
+          "position": "attached to pole",
+          "state": "fluttering"
+        },
+        "background": "pale sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        12.625,
+        34.5,
+        636.0,
+        360.0
+      ],
+      "mask": "image_0.masks/statue_0.png",
+      "crop": null,
+      "description": "A low-angle, close-up shot of a weathered stone statue of a man with a beard and short hair, looking upward and to the left with a solemn expression. The figure wears a heavy, textured coat or cloak over a high-collared garment, and a flag with blue, white, and red stripes is visible waving in the background against a bright sky.",
+      "attributes": {
+        "material": "stone",
+        "condition": "weathered",
+        "gender": "male",
+        "facial_hair": "beard",
+        "hair": "short, textured",
+        "expression": "solemn, looking up",
+        "clothing": {
+          "outer": "heavy coat or cloak",
+          "inner": "high collar"
+        },
+        "background": {
+          "sky": "bright, overexposed",
+          "flag": "blue, white, red stripes"
+        },
+        "angle": "low angle"
+      },
+      "parse_ok": true
+    }
+  ]
+}

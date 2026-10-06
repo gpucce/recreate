@@ -1,0 +1,389 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        888.0,
+        2.0,
+        1024.0,
+        688.0
+      ],
+      "mask": "image_9.masks/flag_0.png",
+      "crop": null,
+      "description": "A close-up view of a flag with horizontal stripes of white, blue, and red, displayed against a dark red patterned background. The flag appears to be made of fabric and is slightly angled, with the top portion cut off in the frame.",
+      "attributes": {
+        "flag": {
+          "type": "horizontal tricolor",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "material": "fabric",
+          "position": "angled",
+          "background": "dark red patterned"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -3.0,
+        -4.0,
+        165.0,
+        692.0
+      ],
+      "mask": "image_9.masks/flag_1.png",
+      "crop": null,
+      "description": "A close-up view of a flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag appears to be made of fabric and is slightly wrinkled, hanging vertically against a dark red patterned background.",
+      "attributes": {
+        "colors": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "pattern": "horizontal stripes",
+        "material": "fabric",
+        "background": "dark red patterned",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        169.0,
+        -4.0,
+        320.0,
+        588.0
+      ],
+      "mask": "image_9.masks/flag_2.png",
+      "crop": null,
+      "description": "A vertical tricolor flag featuring horizontal bands of white, blue, and red from top to bottom, hanging in the background behind a man in a dark suit. The flag is positioned next to a red patterned curtain and a gold decorative frame.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "bands": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "position": "background",
+          "country": "Russia"
+        },
+        "person": {
+          "visibility": "partial",
+          "position": "foreground right",
+          "clothing": {
+            "jacket": "dark suit",
+            "shirt": "white"
+          },
+          "hair": "light brown"
+        },
+        "background": {
+          "curtain": "red patterned",
+          "frame": "gold"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 3,
+      "score": 0.9453125,
+      "box": [
+        716.0,
+        -3.0,
+        836.0,
+        380.0
+      ],
+      "mask": "image_9.masks/flag_3.png",
+      "crop": null,
+      "description": "A vertical tricolor flag featuring a white stripe on the left, a blue stripe in the center, and a red stripe on the right, hanging in the background behind a man in a dark suit. The flag is positioned next to a gold and red patterned curtain on the right side.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "order": "left to right",
+          "material": "fabric",
+          "state": "hanging"
+        },
+        "background": {
+          "curtain": {
+            "color": "gold and red",
+            "pattern": "ornate"
+          }
+        },
+        "foreground": {
+          "person": {
+            "visible_parts": [
+              "head",
+              "shoulders"
+            ],
+            "clothing": {
+              "suit": "dark",
+              "shirt": "white"
+            },
+            "hair": "short, light brown"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        456.0,
+        224.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "An older man with short, thinning gray hair stands facing forward, wearing a dark navy suit, a white dress shirt, and a maroon tie. He is shaking hands with another person whose arm is visible on the left, and he has a small lapel pin on his left jacket lapel.",
+      "attributes": {
+        "gender": "male",
+        "age": "senior",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "dark navy",
+            "type": "jacket and trousers"
+          },
+          "shirt": {
+            "color": "white"
+          },
+          "tie": {
+            "color": "maroon"
+          },
+          "accessories": {
+            "lapel_pin": "small, rectangular, red and white"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "serious, neutral",
+        "background": {
+          "flags": [
+            "Russian flag (white, blue, red)"
+          ],
+          "decor": "ornate gold and white column, patterned carpet"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        193.0,
+        258.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged man with short, light brown hair and a fair complexion stands in a formal pose, wearing a dark navy suit, a white dress shirt, and a textured blue tie. He is shaking hands with another person whose arm is partially visible on the right, set against a background featuring a Russian flag and ornate gold detailing.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "dark navy",
+            "type": "formal"
+          },
+          "shirt": {
+            "color": "white"
+          },
+          "tie": {
+            "color": "blue",
+            "pattern": "textured"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "neutral, slight smile",
+        "background": {
+          "flag": "Russian",
+          "decor": "gold ornate"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.875,
+      "box": [
+        404.0,
+        56.0,
+        628.0,
+        294.0
+      ],
+      "mask": "image_9.masks/person_2.png",
+      "crop": null,
+      "description": "A white bust sculpture of a man with wavy hair and a beard, wearing a military uniform with a crossed sash and epaulets, set against a dark red patterned background.",
+      "attributes": {
+        "object_type": "bust sculpture",
+        "material": "white, likely marble or plaster",
+        "subject": {
+          "gender": "male",
+          "hair": "wavy, shoulder-length",
+          "facial_hair": "beard",
+          "clothing": {
+            "type": "military uniform",
+            "details": [
+              "crossed sash",
+              "epaulets",
+              "high collar"
+            ]
+          }
+        },
+        "background": "dark red, patterned fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        -0.5,
+        2.0,
+        182.0,
+        536.0
+      ],
+      "mask": "image_9.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up view of a Russian flag with horizontal stripes of white, blue, and red, displayed against a dark red wall with a subtle damask pattern.",
+      "attributes": {
+        "flag": {
+          "country": "Russia",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "vertical"
+        },
+        "wall": {
+          "color": "dark red",
+          "pattern": "damask",
+          "texture": "textured"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.57421875,
+      "box": [
+        2.0,
+        -4.0,
+        1024.0,
+        820.0
+      ],
+      "mask": "image_9.masks/wall_1.png",
+      "crop": null,
+      "description": "A formal indoor scene featuring two men in dark suits shaking hands in the foreground, set against a background of red patterned wallpaper, four Russian flags, and a white bust of a historical figure on a pedestal.",
+      "attributes": {
+        "people": [
+          {
+            "position": "left",
+            "gender": "male",
+            "age": "middle-aged",
+            "hair": "blonde, short, receding",
+            "clothing": {
+              "suit": "dark navy",
+              "shirt": "white",
+              "tie": "blue patterned"
+            },
+            "action": "shaking hands"
+          },
+          {
+            "position": "right",
+            "gender": "male",
+            "age": "older",
+            "hair": "grey, short",
+            "clothing": {
+              "suit": "dark navy",
+              "shirt": "white",
+              "tie": "maroon",
+              "lapel_pin": "red, white, and blue"
+            },
+            "action": "shaking hands"
+          }
+        ],
+        "background": {
+          "wallpaper": "red with dark floral damask pattern",
+          "flags": {
+            "count": 4,
+            "type": "Russian tricolor",
+            "arrangement": "two on each side"
+          },
+          "sculpture": {
+            "type": "white bust",
+            "subject": "male figure in historical military uniform",
+            "pedestal": "white with gold ornamentation"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.50390625,
+      "box": [
+        332.0,
+        0.0,
+        688.0,
+        494.0
+      ],
+      "mask": "image_9.masks/wall_2.png",
+      "crop": null,
+      "description": "A deep red wall covered in a damask pattern with darker red floral and foliate motifs, framed by a gold-leafed border on the left and right edges. In the center, a white marble bust of a man in military attire is mounted on an ornate white and gold pedestal featuring a star emblem.",
+      "attributes": {
+        "wall": {
+          "color": "deep red",
+          "pattern": "damask",
+          "pattern_color": "darker red",
+          "frame": "gold-leafed"
+        },
+        "bust": {
+          "material": "white marble",
+          "subject": "man in military attire",
+          "pedestal": {
+            "color": "white and gold",
+            "emblem": "star"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

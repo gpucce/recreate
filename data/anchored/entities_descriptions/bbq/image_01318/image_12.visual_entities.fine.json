@@ -1,0 +1,409 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        -2.5,
+        776.0,
+        122.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark gray upholstered chair backrest with a textured fabric surface, partially obscured by a person wearing a mustard yellow long-sleeved garment. A black armrest is visible in the lower left corner.",
+      "attributes": {
+        "chair": {
+          "color": "dark gray",
+          "material": "textured fabric",
+          "parts_visible": [
+            "backrest",
+            "armrest"
+          ],
+          "armrest_color": "black"
+        },
+        "person": {
+          "clothing": {
+            "color": "mustard yellow",
+            "type": "long-sleeved top"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        920.0,
+        354.0,
+        992.0,
+        474.0
+      ],
+      "mask": "image_12.masks/computer_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a computer monitor with a dark screen, positioned on a desk with indistinct objects in the foreground.",
+      "attributes": {
+        "object": "computer monitor",
+        "screen": "dark",
+        "focus": "blurry",
+        "position": "on desk",
+        "foreground": "indistinct objects"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        584.0,
+        464.0,
+        1024.0,
+        960.0
+      ],
+      "mask": "image_12.masks/computer_1.png",
+      "crop": null,
+      "description": "A black HP all-in-one desktop computer is shown from the back, featuring a matte finish, a circular HP logo, and a sturdy stand with a rectangular base. A black keyboard is positioned in front of the monitor on a light wooden desk.",
+      "attributes": {
+        "brand": "HP",
+        "color": "black",
+        "type": "all-in-one desktop",
+        "view": "rear",
+        "logo": "circular HP logo",
+        "stand": "rectangular base with vertical support",
+        "peripherals": {
+          "keyboard": "black, full-sized",
+          "mouse": "black, partially visible"
+        },
+        "surface": "light wooden desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.53125,
+      "box": [
+        330.0,
+        362.0,
+        446.0,
+        612.0
+      ],
+      "mask": "image_12.masks/computer_2.png",
+      "crop": null,
+      "description": "A close-up profile shot of a young Asian woman with short black hair and bangs, smiling broadly to reveal her teeth. She is positioned on the left side of the frame, facing right, with a portion of an older person's gray hair and brown jacket visible on the right edge.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bangs"
+        },
+        "expression": "smiling",
+        "pose": "profile view",
+        "clothing": {
+          "visible_part": "yellow collar"
+        },
+        "context": "close-up crop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 3,
+      "score": 0.921875,
+      "box": [
+        -1.0,
+        388.0,
+        148.0,
+        632.0
+      ],
+      "mask": "image_12.masks/computer_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of the back of a black computer monitor featuring a rectangular stand with a circular cutout near the base. In the bottom right corner, the shoulder of a person wearing a yellow hooded sweatshirt is visible, partially obscuring the monitor.",
+      "attributes": {
+        "object": "computer monitor",
+        "color": "black",
+        "material": "matte plastic",
+        "part": "back panel and stand",
+        "stand": {
+          "shape": "rectangular",
+          "feature": "circular hole"
+        },
+        "focus": "blurry",
+        "foreground": {
+          "person": {
+            "clothing": "yellow hoodie",
+            "position": "bottom right"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 4,
+      "score": 0.80859375,
+      "box": [
+        988.0,
+        376.0,
+        1024.0,
+        472.0
+      ],
+      "mask": "image_12.masks/computer_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "computer",
+      "index": 5,
+      "score": 0.87109375,
+      "box": [
+        816.0,
+        358.0,
+        880.0,
+        494.0
+      ],
+      "mask": "image_12.masks/computer_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a dark-colored computer monitor or screen, positioned in the background behind a person's arm. The monitor appears to be a standard flat-screen display with a stand, but details are indistinct due to the shallow depth of field.",
+      "attributes": {
+        "object": "computer monitor",
+        "color": "dark gray or black",
+        "focus": "blurred",
+        "position": "background",
+        "type": "flat-screen"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.6796875,
+      "box": [
+        -1.0,
+        616.0,
+        102.5,
+        712.0
+      ],
+      "mask": "image_12.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk surface with a smooth finish, partially obscured by a blurred yellow object in the foreground and a dark, out-of-focus background.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "surface": "smooth",
+        "focus": "shallow depth of field",
+        "foreground_object": "yellow, blurred",
+        "background": "dark, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        116.0,
+        768.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk with a black computer keyboard and mouse placed on its surface. A person wearing a yellow long-sleeved top is seated at the desk, with their hands resting on the keyboard and the edge of the desk.",
+      "attributes": {
+        "desk": {
+          "material": "wood",
+          "color": "light brown",
+          "surface": "smooth",
+          "items": [
+            "black keyboard",
+            "black mouse",
+            "black monitor stand"
+          ]
+        },
+        "person": {
+          "clothing": {
+            "top": "yellow long-sleeved"
+          },
+          "pose": "seated, hands on keyboard and desk edge",
+          "accessories": {
+            "ring": "visible on left hand",
+            "watch": "visible on left wrist"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.546875,
+      "box": [
+        520.0,
+        -1.125,
+        768.0,
+        52.0
+      ],
+      "mask": "image_12.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "A close-up, angled view of a rectangular LED light fixture emitting a bright, cool white glow. The fixture has a sleek, modern design with a flat, elongated shape and appears to be mounted flush against a plain, light-colored ceiling surface.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "white",
+        "material": "plastic or metal housing",
+        "light_type": "LED",
+        "orientation": "diagonal",
+        "brightness": "high",
+        "mounting": "ceiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        54.0,
+        336.0,
+        760.0,
+        1008.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with dark hair tied back in a ponytail is seated at a desk, wearing a mustard-yellow hoodie. She is smiling and pointing with her right index finger toward a computer screen, appearing engaged and happy.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "top": "mustard yellow hoodie"
+        },
+        "pose": "sitting, pointing at screen",
+        "expression": "smiling",
+        "accessories": {
+          "earrings": "small gold hoop"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        344.0,
+        356.0,
+        728.0,
+        860.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair and black-rimmed glasses smiles warmly while looking to the left, wearing a grey button-down shirt over a beige t-shirt. She is seated at a table with her hands resting near a keyboard, positioned next to a younger woman in a yellow top who is pointing forward.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "face": {
+          "accessories": "black-rimmed glasses",
+          "expression": "smiling",
+          "skin": "wrinkled"
+        },
+        "clothing": {
+          "outer": "grey button-down shirt",
+          "inner": "beige t-shirt"
+        },
+        "accessories": {
+          "earrings": "small stud",
+          "ring": "on finger"
+        },
+        "pose": "seated, looking left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        482.0,
+        78.0,
+        824.0,
+        776.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with dark, curly hair stands behind an older woman, smiling warmly while looking down at a computer screen. He is wearing a blue denim jacket over a white t-shirt with his arms crossed.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "gaze": "looking down",
+        "pose": "standing, arms crossed",
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue",
+            "sleeves": "rolled up"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "position": "background, behind the woman"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.73828125,
+      "box": [
+        800.0,
+        146.0,
+        968.0,
+        294.0
+      ],
+      "mask": "image_12.masks/picture_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a landscape painting or photograph, featuring a body of water in the center, flanked by green trees on both sides, with a blue sky above and a yellowish-brown foreground.",
+      "attributes": {
+        "subject": "landscape",
+        "elements": {
+          "water": "blue, central",
+          "trees": "green, on both sides",
+          "sky": "blue, upper portion",
+          "foreground": "yellowish-brown, lower portion"
+        },
+        "focus": "blurry",
+        "style": "painting or photograph"
+      },
+      "parse_ok": true
+    }
+  ]
+}

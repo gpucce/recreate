@@ -1,0 +1,1001 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        844.0,
+        80.0,
+        1024.0,
+        186.0
+      ],
+      "mask": "image_2.masks/building_0.png",
+      "crop": null,
+      "description": "A section of a beige, multi-story building with rectangular windows featuring blue-tinted glass and white frames. A palm tree trunk is visible on the left side, partially obscuring the building, and a dark roofline with a reddish-brown edge runs along the bottom of the frame.",
+      "attributes": {
+        "building": {
+          "color": "beige",
+          "material": "stucco or concrete",
+          "windows": {
+            "shape": "rectangular",
+            "glass_color": "blue-tinted",
+            "frame_color": "white",
+            "arrangement": "vertical stack"
+          },
+          "roof": {
+            "color": "dark gray/black",
+            "edge_color": "reddish-brown"
+          }
+        },
+        "vegetation": {
+          "type": "palm tree",
+          "position": "left side",
+          "trunk_color": "brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.53515625,
+      "box": [
+        640.0,
+        206.0,
+        904.0,
+        358.0
+      ],
+      "mask": "image_2.masks/building_1.png",
+      "crop": null,
+      "description": "A building with a bright blue wall and a corrugated metal roof, partially obscured by a blurred foreground with people and other structures.",
+      "attributes": {
+        "wall_color": "blue",
+        "roof_material": "corrugated metal",
+        "roof_color": "white",
+        "structure_type": "building",
+        "foreground": "blurred people and structures",
+        "background": "other buildings and trees"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.546875,
+      "box": [
+        276.0,
+        240.0,
+        328.0,
+        336.0
+      ],
+      "mask": "image_2.masks/building_2.png",
+      "crop": null,
+      "description": "A small, rustic wooden structure with a flat roof and open sides, featuring a simple bench inside and a light source illuminating the interior against a dark background.",
+      "attributes": {
+        "structure_type": "shed or shelter",
+        "material": "wood",
+        "roof": "flat",
+        "interior": "open, contains a bench",
+        "lighting": "interior light visible",
+        "background": "dark, possibly night",
+        "condition": "weathered or rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.6171875,
+      "box": [
+        484.0,
+        237.0,
+        524.0,
+        276.0
+      ],
+      "mask": "image_2.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.578125,
+      "box": [
+        66.0,
+        144.0,
+        178.0,
+        206.0
+      ],
+      "mask": "image_2.masks/building_4.png",
+      "crop": null,
+      "description": "The image shows a close-up of a terracotta roof with curved tiles, partially obscured by a blurred background featuring a red wall and a beige structure. The roof tiles are arranged in a traditional overlapping pattern, and the overall scene is out of focus, suggesting a shallow depth of field.",
+      "attributes": {
+        "roof": {
+          "material": "terracotta",
+          "tile_shape": "curved",
+          "arrangement": "overlapping"
+        },
+        "background": {
+          "wall_color": "red",
+          "structure_color": "beige",
+          "focus": "blurred"
+        },
+        "focus": "shallow_depth_of_field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.83984375,
+      "box": [
+        900.0,
+        192.0,
+        1024.0,
+        428.0
+      ],
+      "mask": "image_2.masks/building_5.png",
+      "crop": null,
+      "description": "A small, rustic building with a corrugated metal roof and a combination of gray plastered walls and weathered wooden planks. The structure features a small window with a grid pattern and a dark, narrow doorway, with a blue container and red objects visible near the base of the wall.",
+      "attributes": {
+        "roof": {
+          "material": "corrugated metal",
+          "color": "white"
+        },
+        "walls": {
+          "materials": [
+            "plaster",
+            "wood"
+          ],
+          "colors": [
+            "gray",
+            "brown"
+          ]
+        },
+        "window": {
+          "shape": "rectangular",
+          "frame": "white",
+          "grid": "yes"
+        },
+        "door": {
+          "color": "dark",
+          "shape": "narrow rectangular"
+        },
+        "objects": {
+          "container": {
+            "color": "blue",
+            "position": "left side"
+          },
+          "items": {
+            "color": "red",
+            "position": "left side"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.64453125,
+      "box": [
+        880.0,
+        197.0,
+        992.0,
+        344.0
+      ],
+      "mask": "image_2.masks/building_6.png",
+      "crop": null,
+      "description": "A small, single-story building with a gray concrete or stucco exterior and a white corrugated metal roof. The structure features a rectangular window with a grid pattern and a dark doorway on the right side, with a red-tiled roof visible on an adjacent building in the background.",
+      "attributes": {
+        "structure_type": "single-story building",
+        "exterior_material": "concrete or stucco",
+        "exterior_color": "gray",
+        "roof_material": "corrugated metal",
+        "roof_color": "white",
+        "window": {
+          "shape": "rectangular",
+          "grid_pattern": "yes",
+          "color": "white frame"
+        },
+        "doorway": {
+          "color": "dark",
+          "position": "right side"
+        },
+        "background_roof": {
+          "material": "tile",
+          "color": "red"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 7,
+      "score": 0.60546875,
+      "box": [
+        160.0,
+        206.0,
+        296.0,
+        362.0
+      ],
+      "mask": "image_2.masks/building_7.png",
+      "crop": null,
+      "description": "A small, single-story structure with a flat roof and a simple, rectangular design. The walls are painted in a light color, possibly white or cream, with a section of the wall appearing to be a different shade, perhaps due to wear or a different material. The building has a small, rectangular window or opening on the side, and the overall appearance suggests a utilitarian or basic construction.",
+      "attributes": {
+        "structure_type": "single-story building",
+        "roof": "flat",
+        "wall_color": "light, possibly white or cream",
+        "wall_condition": "some wear or different material visible",
+        "window": "small, rectangular opening",
+        "construction_style": "utilitarian or basic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 8,
+      "score": 0.79296875,
+      "box": [
+        -2.5,
+        186.0,
+        176.0,
+        402.0
+      ],
+      "mask": "image_2.masks/building_8.png",
+      "crop": null,
+      "description": "A small, weathered building with a corrugated metal roof and light-colored walls, partially obscured by overgrown vegetation and a wooden fence in the foreground.",
+      "attributes": {
+        "roof": {
+          "material": "corrugated metal",
+          "color": "light brown or beige"
+        },
+        "walls": {
+          "color": "light blue or gray",
+          "condition": "weathered"
+        },
+        "vegetation": {
+          "type": "overgrown plants",
+          "position": "foreground, partially obscuring the building"
+        },
+        "fence": {
+          "material": "wood",
+          "condition": "weathered",
+          "position": "foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 9,
+      "score": 0.52734375,
+      "box": [
+        43.5,
+        121.0,
+        178.0,
+        195.0
+      ],
+      "mask": "image_2.masks/building_9.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a reddish-brown upper section and a beige lower section, partially obscured by green foliage on the left and right sides. The image is heavily blurred, making specific architectural details indistinguishable.",
+      "attributes": {
+        "color": {
+          "upper_section": "reddish-brown",
+          "lower_section": "beige"
+        },
+        "material": "indeterminate due to blur",
+        "visibility": "blurry, out-of-focus",
+        "obstruction": "green foliage on both sides"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 10,
+      "score": 0.61328125,
+      "box": [
+        151.0,
+        225.0,
+        249.0,
+        396.0
+      ],
+      "mask": "image_2.masks/building_10.png",
+      "crop": null,
+      "description": "A close-up view of a weathered building facade featuring a large, faded mural or painted surface with abstract shapes in shades of gray, pink, and green. The wall appears to be made of concrete or stucco, showing signs of age and wear, with a vertical white structural element on the right side and a dark overhang at the top.",
+      "attributes": {
+        "structure": {
+          "type": "building facade",
+          "material": "concrete or stucco",
+          "condition": "weathered, faded"
+        },
+        "surface": {
+          "feature": "mural or painted design",
+          "colors": [
+            "gray",
+            "pink",
+            "green",
+            "white"
+          ],
+          "pattern": "abstract, irregular shapes"
+        },
+        "elements": {
+          "vertical_element": "white pillar or edge on the right",
+          "overhang": "dark roof or eave at the top left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 11,
+      "score": 0.59765625,
+      "box": [
+        632.0,
+        217.0,
+        824.0,
+        336.0
+      ],
+      "mask": "image_2.masks/building_11.png",
+      "crop": null,
+      "description": "A blurry, low-resolution view of a building facade featuring a large, solid blue wall on the right and a darker, shadowed entrance area on the left. A white, flat awning or roof overhang extends across the top, partially obscuring the upper structure, while indistinct figures in red and yellow clothing stand in the foreground near the building.",
+      "attributes": {
+        "structure": {
+          "wall_color": "blue",
+          "wall_texture": "smooth",
+          "roof": {
+            "color": "white",
+            "type": "awning",
+            "shape": "flat"
+          },
+          "entrance": {
+            "lighting": "dark",
+            "position": "left"
+          }
+        },
+        "foreground": {
+          "people": [
+            {
+              "clothing": "red"
+            },
+            {
+              "clothing": "yellow"
+            },
+            {
+              "clothing": "white"
+            }
+          ],
+          "clarity": "blurry"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 12,
+      "score": 0.59765625,
+      "box": [
+        820.0,
+        160.0,
+        1024.0,
+        220.0
+      ],
+      "mask": "image_2.masks/building_12.png",
+      "crop": null,
+      "description": "The image shows a close-up, blurred view of a building's roofline and upper wall. The roof features reddish-brown terracotta tiles with a visible ridge, and there is a dark gray or black horizontal beam or gutter running along the top edge of the wall. A small white circular object, possibly a light fixture or vent, is mounted on the beam. In the background, part of a window with a dark frame is visible, set into a light-colored wall. The overall focus is soft, suggesting motion blur or shallow depth of field.",
+      "attributes": {
+        "roof": {
+          "material": "terracotta tile",
+          "color": "reddish-brown",
+          "type": "sloped"
+        },
+        "wall": {
+          "color": "light beige or off-white",
+          "material": "plaster or stucco"
+        },
+        "beam_or_gutter": {
+          "color": "dark gray or black",
+          "position": "horizontal, along roofline"
+        },
+        "fixture": {
+          "shape": "circular",
+          "color": "white",
+          "location": "on beam"
+        },
+        "window": {
+          "frame_color": "dark",
+          "visible_portion": "partial, in background"
+        },
+        "image_quality": "blurred, low resolution"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 13,
+      "score": 0.5625,
+      "box": [
+        736.0,
+        206.0,
+        904.0,
+        362.0
+      ],
+      "mask": "image_2.masks/building_13.png",
+      "crop": null,
+      "description": "A building with a large, solid blue wall that appears to be made of concrete or stucco, featuring a dark, vertical shadow or stain running down the center. The structure has a flat roof with a slight overhang and is flanked by other structures, including a textured wall on the right.",
+      "attributes": {
+        "wall_color": "blue",
+        "wall_material": "concrete or stucco",
+        "wall_condition": "solid with a central vertical shadow or stain",
+        "roof": "flat with overhang",
+        "adjacent_structure": "textured wall on the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 14,
+      "score": 0.6796875,
+      "box": [
+        552.0,
+        203.0,
+        600.0,
+        262.0
+      ],
+      "mask": "image_2.masks/building_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 15,
+      "score": 0.80859375,
+      "box": [
+        676.0,
+        148.0,
+        836.0,
+        240.0
+      ],
+      "mask": "image_2.masks/building_15.png",
+      "crop": null,
+      "description": "A weathered, rectangular concrete wall or barrier with a rough, mottled surface in shades of gray and brown, showing signs of age and exposure to the elements. The top edge is flat and slightly uneven, with some greenery visible above it, suggesting an outdoor setting.",
+      "attributes": {
+        "material": "concrete",
+        "color": "gray-brown",
+        "texture": "rough, mottled",
+        "condition": "weathered",
+        "shape": "rectangular",
+        "position": "horizontal, elevated",
+        "surroundings": {
+          "above": "greenery",
+          "below": "partially visible structure or ground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "child",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        278.0,
+        364.0,
+        350.0,
+        528.0
+      ],
+      "mask": "image_2.masks/child_0.png",
+      "crop": null,
+      "description": "A young child with dark skin and short black hair is seen from behind, wearing a bright red short-sleeved t-shirt and blue shorts. The child is barefoot and appears to be walking or standing on a dirt surface, with their left arm extended slightly outward.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "red",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "blue"
+          },
+          "footwear": "barefoot"
+        },
+        "pose": "standing/walking, back to camera",
+        "skin_tone": "dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "child",
+      "index": 1,
+      "score": 0.8046875,
+      "box": [
+        378.0,
+        344.0,
+        402.0,
+        392.0
+      ],
+      "mask": "image_2.masks/child_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "child",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        536.0,
+        370.0,
+        560.0,
+        446.0
+      ],
+      "mask": "image_2.masks/child_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        2.0,
+        286.0,
+        816.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/path_0.png",
+      "crop": null,
+      "description": "A man and a woman are walking on a dirt path next to a set of train tracks. The man is in the foreground, wearing an unbuttoned tan jacket over a bare chest, dark pants, and carrying a plastic bag with items inside. The woman is behind him, wearing a green t-shirt and dark pants. The path is littered with trash and debris, and there are buildings and other people in the background.",
+      "attributes": {
+        "path": {
+          "surface": "dirt",
+          "condition": "littered with trash",
+          "location": "next to train tracks"
+        },
+        "man": {
+          "gender": "male",
+          "age": "adult",
+          "ethnicity": "black",
+          "clothing": {
+            "jacket": "tan, unbuttoned",
+            "pants": "dark"
+          },
+          "accessories": {
+            "bag": "plastic, containing items"
+          },
+          "pose": "walking"
+        },
+        "woman": {
+          "gender": "female",
+          "age": "adult",
+          "ethnicity": "black",
+          "clothing": {
+            "shirt": "green t-shirt",
+            "pants": "dark"
+          },
+          "pose": "walking"
+        },
+        "background": {
+          "elements": [
+            "train tracks",
+            "buildings",
+            "other people",
+            "trash"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        804.0,
+        316.0,
+        828.0,
+        380.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        326.0,
+        300.0,
+        552.0,
+        924.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A Black man with short hair and a serious expression walks forward on a dirt path, wearing an unbuttoned, dusty olive-green jacket over a bare chest and dark trousers. He carries a clear plastic bag containing pinkish items in his right hand.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "olive green",
+            "material": "canvas or cotton",
+            "state": "unbuttoned, dusty"
+          },
+          "pants": {
+            "color": "dark grey or brown",
+            "material": "fabric"
+          },
+          "shoes": {
+            "color": "tan"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "plastic",
+            "color": "clear",
+            "contents": "pinkish items"
+          }
+        },
+        "pose": "walking",
+        "expression": "serious"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        245.0,
+        320.0,
+        296.0,
+        384.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.68359375,
+      "box": [
+        540.0,
+        280.0,
+        556.0,
+        316.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.5078125,
+      "box": [
+        684.0,
+        314.0,
+        708.0,
+        342.0
+      ],
+      "mask": "image_2.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.9765625,
+      "box": [
+        648.0,
+        328.0,
+        800.0,
+        720.0
+      ],
+      "mask": "image_2.masks/person_5.png",
+      "crop": null,
+      "description": "A woman with dark skin and short black hair walks forward on a gravelly surface, wearing a green short-sleeved t-shirt and dark brown pants. She has a neutral expression and is wearing light-colored shoes.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "green",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "dark brown"
+          },
+          "shoes": {
+            "color": "tan"
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "location": "outdoors on gravel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.90625,
+      "box": [
+        732.0,
+        296.0,
+        764.0,
+        380.0
+      ],
+      "mask": "image_2.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.90234375,
+      "box": [
+        612.0,
+        290.0,
+        636.0,
+        362.0
+      ],
+      "mask": "image_2.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.8984375,
+      "box": [
+        844.0,
+        336.0,
+        876.0,
+        400.0
+      ],
+      "mask": "image_2.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.91015625,
+      "box": [
+        536.0,
+        370.0,
+        560.0,
+        446.0
+      ],
+      "mask": "image_2.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.90625,
+      "box": [
+        278.0,
+        364.0,
+        350.0,
+        528.0
+      ],
+      "mask": "image_2.masks/person_10.png",
+      "crop": null,
+      "description": "A young child with dark skin and short black hair is seen from behind, wearing a bright red short-sleeved t-shirt and blue shorts. The child is barefoot and appears to be walking or standing on a dirt surface, with arms slightly extended to the sides.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "red",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "blue"
+          },
+          "footwear": "barefoot"
+        },
+        "pose": "standing/walking, back to camera",
+        "skin_tone": "dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 11,
+      "score": 0.796875,
+      "box": [
+        572.0,
+        284.0,
+        588.0,
+        336.0
+      ],
+      "mask": "image_2.masks/person_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 12,
+      "score": 0.828125,
+      "box": [
+        378.0,
+        344.0,
+        406.0,
+        392.0
+      ],
+      "mask": "image_2.masks/person_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 13,
+      "score": 0.5625,
+      "box": [
+        434.0,
+        284.0,
+        446.0,
+        304.0
+      ],
+      "mask": "image_2.masks/person_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 14,
+      "score": 0.84375,
+      "box": [
+        508.0,
+        312.0,
+        540.0,
+        416.0
+      ],
+      "mask": "image_2.masks/person_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 15,
+      "score": 0.8828125,
+      "box": [
+        652.0,
+        312.0,
+        676.0,
+        380.0
+      ],
+      "mask": "image_2.masks/person_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 16,
+      "score": 0.84375,
+      "box": [
+        360.0,
+        310.0,
+        392.0,
+        398.0
+      ],
+      "mask": "image_2.masks/person_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 17,
+      "score": 0.77734375,
+      "box": [
+        772.0,
+        332.0,
+        804.0,
+        380.0
+      ],
+      "mask": "image_2.masks/person_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "railway tracks",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        466.0,
+        276.0,
+        1032.0,
+        828.0
+      ],
+      "mask": "image_2.masks/railway tracks_0.png",
+      "crop": null,
+      "description": "A set of weathered railway tracks runs diagonally from the bottom right to the top left, consisting of two parallel steel rails mounted on wooden sleepers. The tracks are embedded in a bed of light-colored gravel and dirt, which is heavily littered with various pieces of trash, including plastic bottles, cups, and other debris. The rails appear rusty and worn, and the wooden sleepers are aged and unevenly spaced.",
+      "attributes": {
+        "structure": {
+          "rails": "two parallel steel rails, rusty and weathered",
+          "sleepers": "wooden, aged, unevenly spaced",
+          "ballast": "light-colored gravel and dirt"
+        },
+        "condition": "weathered, rusty, littered with trash",
+        "orientation": "diagonal, receding into the distance",
+        "surroundings": {
+          "debris": "plastic bottles, cups, miscellaneous trash",
+          "ground": "dirt and gravel"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

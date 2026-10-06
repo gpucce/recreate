@@ -1,0 +1,280 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        856.0,
+        816.0,
+        968.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a green plastic chair armrest featuring a curved, molded design with a smooth, matte finish. A person's arm wearing a pink short-sleeved shirt is visible resting near the chair, with a dark blue fabric visible in the background.",
+      "attributes": {
+        "object": "chair",
+        "part": "armrest",
+        "material": "plastic",
+        "color": "green",
+        "finish": "matte",
+        "shape": "curved",
+        "context": {
+          "person_clothing": "pink short-sleeved shirt",
+          "background": "dark blue fabric"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.921875,
+      "box": [
+        25.75,
+        936.0,
+        129.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a dark green chair back featuring a vertical central panel and a lighter, yellowish-green section on the left side.",
+      "attributes": {
+        "color": "dark green",
+        "material": "wood",
+        "structure": "vertical panel",
+        "focus": "blurry",
+        "type": "chair back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.921875,
+      "box": [
+        278.0,
+        816.0,
+        968.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/chair_2.png",
+      "crop": null,
+      "description": "A green plastic chair with a curved armrest and a slatted backrest is partially visible behind a person wearing a pink shirt. The chair appears to be made of molded plastic and has a simple, functional design.",
+      "attributes": {
+        "material": "plastic",
+        "color": "green",
+        "type": "armchair",
+        "features": [
+          "curved armrest",
+          "slatted backrest"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        788.0,
+        428.0,
+        932.0,
+        612.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with long dark hair wearing a pink top is visible in the background, out of focus, while a hand rests on the shoulder of a person with white hair in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "pink"
+          }
+        },
+        "expression": "smiling",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        868.0,
+        390.0,
+        1032.0,
+        1016.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with shoulder-length brown hair and sunglasses perched on her head is clapping her hands while wearing a pink t-shirt with white lettering and blue jeans. She is seated in a green plastic chair, positioned in the foreground with another person in a similar pink shirt visible in the blurred background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "accessory": "sunglasses on head"
+        },
+        "expression": "smiling",
+        "action": "clapping",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink",
+            "detail": "white text"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "seating": {
+          "chair": {
+            "color": "green",
+            "material": "plastic"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        -1.5,
+        396.0,
+        150.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling woman with shoulder-length blonde hair is seated in the background, wearing a pink t-shirt with white lettering and blue jeans, while clapping her hands. In the foreground, the torso of another person wearing a matching pink t-shirt and blue jeans is partially visible, standing to the right.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "expression": "smiling",
+        "pose": "seated, clapping",
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt",
+            "detail": "white lettering"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "position": "background, left side",
+        "foreground_person": {
+          "clothing": {
+            "shirt": {
+              "color": "pink",
+              "type": "t-shirt"
+            },
+            "pants": {
+              "color": "blue",
+              "type": "jeans"
+            }
+          },
+          "position": "foreground, right side, partial view"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.86328125,
+      "box": [
+        100.0,
+        66.0,
+        876.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_3.png",
+      "crop": null,
+      "description": "A young woman with curly brown hair stands behind an older woman, smiling broadly and wearing a pink t-shirt with the word 'GLAM' in white letters. She has her hands resting on the shoulders of the seated older woman, who is also wearing a matching pink shirt and clapping her hands.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "text": "GLAM",
+            "type": "t-shirt"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "pose": "standing, leaning slightly forward, hands on another person's shoulders",
+        "expression": "smiling, happy",
+        "position": "behind and to the left of the seated woman"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9765625,
+      "box": [
+        370.0,
+        290.0,
+        896.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_4.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair and black-rimmed glasses is smiling broadly while clapping her hands, wearing a pink t-shirt with white text. She is seated with a younger woman standing behind her, whose hand rests on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          },
+          "ring": "gold band on left ring finger"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "pink",
+            "text": "white letters visible (LAM)"
+          }
+        },
+        "expression": "happy, smiling, showing teeth",
+        "action": "clapping hands",
+        "skin": "wrinkled, age spots visible on arms"
+      },
+      "parse_ok": true
+    }
+  ]
+}

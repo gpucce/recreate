@@ -1,0 +1,177 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        -0.5,
+        344.0,
+        234.0,
+        864.0
+      ],
+      "mask": "image_10.masks/backpack_0.png",
+      "crop": null,
+      "description": "A brown leather backpack with a wide, padded shoulder strap featuring a black adjustment buckle is worn over the shoulder of a person in a yellow sweater. The backpack has a smooth, matte finish with visible stitching and a side pocket with a zipper.",
+      "attributes": {
+        "color": "brown",
+        "material": "leather",
+        "strap": {
+          "color": "brown",
+          "width": "wide",
+          "buckle": "black metal"
+        },
+        "features": [
+          "side pocket",
+          "zipper",
+          "stitching"
+        ],
+        "type": "backpack"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        864.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with a light brown finish and visible grain, featuring a flat seat and sturdy legs, is partially occupied by two individuals sitting side by side. The person on the left is wearing distressed blue jeans with large rips at the knees, while the person on the right is wearing beige or khaki pants.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "style": "simple, rustic",
+        "condition": "good",
+        "occupants": {
+          "left_person": {
+            "clothing": {
+              "pants": "distressed blue jeans"
+            }
+          },
+          "right_person": {
+            "clothing": {
+              "pants": "beige/khaki pants"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        496.0,
+        88.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a mustache sits on a wooden bench, wearing a brown tweed flat cap, a brown wool vest over a light grey button-down shirt, and khaki trousers. He holds a wooden walking cane with a curved handle in his right hand, resting it on his lap, while looking off to the side with a gentle smile.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap"
+        },
+        "facial_hair": {
+          "mustache": "white, thick"
+        },
+        "expression": "smiling, looking to the left",
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "color": "brown",
+            "material": "tweed"
+          },
+          "vest": {
+            "color": "brown",
+            "material": "wool/felt",
+            "buttons": "dark, visible"
+          },
+          "shirt": {
+            "color": "light grey",
+            "type": "button-down",
+            "sleeves": "long"
+          },
+          "pants": {
+            "color": "khaki/beige",
+            "type": "trousers"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "handle": "wooden, curved",
+            "shaft": "wooden, straight"
+          }
+        },
+        "pose": "sitting on a wooden bench, hands resting on lap/cane",
+        "position": "centered in frame, facing slightly left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        76.0,
+        92.0,
+        516.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits on a wooden bench, wearing a mustard yellow knit sweater and distressed blue jeans. She holds a stack of four hardcover books on her lap and has a brown backpack strap over her shoulder, smiling gently while looking off to the side.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "ripped knees"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "backpack",
+            "color": "brown",
+            "strap": "visible on shoulder"
+          },
+          "earrings": "small stud"
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "gaze": "looking to the right",
+        "holding": {
+          "object": "books",
+          "count": 4,
+          "position": "on lap"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

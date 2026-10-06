@@ -1,0 +1,212 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        784.0,
+        398.0,
+        1024.0,
+        712.0
+      ],
+      "mask": "image_5.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark brown wooden cabinet featuring a single visible drawer with a round, dark metal knob. The wood has a smooth finish with visible grain patterns and is framed by raised molding. The cabinet is positioned in the background, slightly out of focus, behind a person's arm wearing a dark blue velvet garment with pearl and gold embroidery.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "finish": "smooth, polished",
+        "features": {
+          "drawer": "visible",
+          "knob": "round, dark metal",
+          "molding": "raised frame"
+        },
+        "position": "background",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.84765625,
+      "box": [
+        -1.0,
+        418.0,
+        86.0,
+        696.0
+      ],
+      "mask": "image_5.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up view of a dark brown wooden cabinet featuring vertical paneling and a horizontal molding detail, positioned in the background behind a floral patterned armchair.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "style": "traditional",
+        "features": [
+          "vertical paneling",
+          "horizontal molding"
+        ],
+        "position": "background",
+        "context": "behind furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.86328125,
+      "box": [
+        0.0,
+        -0.75,
+        298.0,
+        127.0
+      ],
+      "mask": "image_5.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a dark brown wooden cabinet with a visible handle and a white container placed on a shelf inside.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "focus": "blurry",
+        "contents": "white container",
+        "handle": "visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        752.0,
+        294.0,
+        808.0,
+        382.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A heavily blurred and out-of-focus crop showing the upper body of a person with long dark hair, wearing a blue top, with a blurry tan or brown object in the foreground.",
+      "attributes": {
+        "hair": {
+          "color": "dark",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "blue"
+          }
+        },
+        "image_quality": "extremely blurry",
+        "foreground_object": {
+          "color": "tan",
+          "texture": "indistinct"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        50.0,
+        78.0,
+        912.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in a floral armchair, wearing a dark blue velvet robe with intricate red, green, and gold embroidery along the collar and cuffs. She has a gentle, slightly concerned expression and is embracing a young boy who is sitting on her lap, his hands resting on her arms.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly, short"
+        },
+        "clothing": {
+          "type": "robe",
+          "color": "dark blue",
+          "material": "velvet",
+          "details": "embroidered with red, green, and gold floral patterns on collar and cuffs"
+        },
+        "pose": "sitting, embracing a child",
+        "expression": "gentle, slightly concerned",
+        "accessories": {
+          "earrings": "gold, small",
+          "ring": "visible on left hand"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.8671875,
+      "box": [
+        984.0,
+        296.0,
+        1024.0,
+        384.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9609375,
+      "box": [
+        418.0,
+        316.0,
+        936.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/person_3.png",
+      "crop": null,
+      "description": "A young boy with short, wavy brown hair and a neutral, serious expression sits in the lap of an elderly woman, wearing a light blue sweatshirt with a dark blue 'Champion' logo and red 'C' emblem. The woman, partially visible, has wrinkled skin, wears a dark blue velvet top with intricate floral embroidery, and rests her hands gently on the boy's arms.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "brown",
+          "style": "short, wavy"
+        },
+        "expression": "neutral, serious",
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "logo": "Champion",
+            "logo_color": "dark blue with red C"
+          }
+        },
+        "pose": "sitting, being held",
+        "position": "center foreground",
+        "associated_person": {
+          "gender": "female",
+          "age": "elderly",
+          "skin": "wrinkled",
+          "clothing": {
+            "top": {
+              "type": "velvet top",
+              "color": "dark blue",
+              "detail": "floral embroidery"
+            }
+          },
+          "accessories": {
+            "ring": "visible on left hand"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

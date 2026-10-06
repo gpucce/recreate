@@ -1,0 +1,361 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        108.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a glossy finish is shown from the side, featuring a visible side mirror and door handle. Inside the car, a young woman with long dark hair is seated in the driver's seat, wearing a white t-shirt and a seatbelt, while an older man with gray hair and glasses is seated in the passenger seat, wearing a light blue polo shirt and also wearing a seatbelt. Both individuals are smiling and appear to be in a cheerful mood.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "finish": "glossy",
+          "visible_parts": [
+            "side mirror",
+            "door handle",
+            "window",
+            "roof"
+          ]
+        },
+        "passengers": {
+          "driver": {
+            "gender": "female",
+            "age": "young adult",
+            "hair": "long, dark",
+            "clothing": {
+              "shirt": "white t-shirt"
+            },
+            "accessories": {
+              "seatbelt": "worn"
+            },
+            "expression": "smiling"
+          },
+          "passenger": {
+            "gender": "male",
+            "age": "older adult",
+            "hair": "gray",
+            "clothing": {
+              "shirt": "light blue polo shirt"
+            },
+            "accessories": {
+              "glasses": "worn",
+              "seatbelt": "worn"
+            },
+            "expression": "smiling"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        136.0,
+        246.0,
+        888.0,
+        728.0
+      ],
+      "mask": "image_15.masks/car interior_0.png",
+      "crop": null,
+      "description": "A young Asian woman with long dark hair and a white t-shirt sits in the driver's seat, smiling at the camera while holding the red steering wheel, next to an older Asian man with gray hair and glasses wearing a light blue polo shirt in the passenger seat. Both individuals are wearing black seatbelts and are seated in black leather seats inside a car with a red exterior visible through the window frame.",
+      "attributes": {
+        "interior_color": "black",
+        "exterior_color": "red",
+        "seats": {
+          "material": "leather",
+          "color": "black"
+        },
+        "steering_wheel": {
+          "color": "red"
+        },
+        "occupants": [
+          {
+            "position": "driver",
+            "gender": "female",
+            "age_group": "young adult",
+            "ethnicity": "Asian",
+            "hair": {
+              "color": "black",
+              "length": "long"
+            },
+            "clothing": {
+              "top": "white t-shirt"
+            },
+            "accessories": {
+              "seatbelt": "black"
+            },
+            "expression": "smiling"
+          },
+          {
+            "position": "passenger",
+            "gender": "male",
+            "age_group": "senior",
+            "ethnicity": "Asian",
+            "hair": {
+              "color": "gray",
+              "length": "short"
+            },
+            "clothing": {
+              "top": "light blue polo shirt"
+            },
+            "accessories": {
+              "glasses": "wire-rimmed",
+              "seatbelt": "black"
+            },
+            "expression": "smiling"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 1,
+      "score": 0.55859375,
+      "box": [
+        0.0,
+        242.0,
+        888.0,
+        928.0
+      ],
+      "mask": "image_15.masks/car interior_1.png",
+      "crop": null,
+      "description": "A young Asian woman with long dark hair wearing a white t-shirt and a seatbelt sits in the driver's seat, smiling at the camera, while an older Asian man with gray hair and glasses wearing a light blue polo shirt sits in the passenger seat with his arm resting on the open window frame, also smiling. The interior features black leather seats and a red exterior body visible through the window.",
+      "attributes": {
+        "interior": {
+          "seats": "black leather",
+          "color": "black"
+        },
+        "exterior": {
+          "color": "red",
+          "parts_visible": [
+            "side mirror",
+            "door frame",
+            "window frame"
+          ]
+        },
+        "people": [
+          {
+            "position": "driver",
+            "gender": "female",
+            "age_group": "young adult",
+            "ethnicity": "Asian",
+            "hair": "long, dark brown, straight",
+            "clothing": {
+              "top": "white t-shirt"
+            },
+            "accessories": {
+              "seatbelt": "black, fastened"
+            },
+            "expression": "smiling",
+            "pose": "sitting, hands on steering wheel"
+          },
+          {
+            "position": "passenger",
+            "gender": "male",
+            "age_group": "senior",
+            "ethnicity": "Asian",
+            "hair": "short, gray",
+            "clothing": {
+              "top": "light blue polo shirt"
+            },
+            "accessories": {
+              "glasses": "thin metal frame"
+            },
+            "expression": "smiling",
+            "pose": "sitting, left arm resting on window sill"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.69921875,
+      "box": [
+        724.0,
+        -1.0,
+        1032.0,
+        126.0
+      ],
+      "mask": "image_15.masks/foliage_0.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage, likely trees or bushes, with a car antenna in the foreground. The foliage appears dense and out of focus, creating a soft, natural backdrop.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "focus": "out of focus",
+        "position": "background",
+        "object_in_foreground": "car antenna"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 1,
+      "score": 0.73046875,
+      "box": [
+        -2.5,
+        78.0,
+        174.0,
+        150.0
+      ],
+      "mask": "image_15.masks/foliage_1.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage with a reddish-brown surface in the foreground, possibly a roof or a similar structure. The focus is on the texture and color of the foreground object, while the background remains out of focus.",
+      "attributes": {
+        "background": "blurred green foliage",
+        "foreground": "reddish-brown surface",
+        "focus": "foreground object",
+        "texture": "smooth",
+        "color": "reddish-brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 2,
+      "score": 0.609375,
+      "box": [
+        260.0,
+        -2.0,
+        632.0,
+        116.5
+      ],
+      "mask": "image_15.masks/foliage_2.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage, likely trees or bushes, with a horizontal brown surface in the foreground, possibly a wooden railing or edge. The focus is soft, making individual leaves indistinct.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "position": "background",
+        "foreground_object": {
+          "color": "brown",
+          "material": "wood-like",
+          "shape": "horizontal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        460.0,
+        278.0,
+        876.0,
+        800.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian man with short gray hair and wire-rimmed glasses sits in the driver's seat of a car, smiling broadly with his arm resting on the open window frame. He is wearing a light blue short-sleeved polo shirt and a black seatbelt, positioned next to a partially visible young woman in a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "wire-rimmed"
+        },
+        "clothing": {
+          "top": "light blue polo shirt"
+        },
+        "expression": "smiling",
+        "pose": "sitting in driver's seat, arm on window",
+        "context": "inside a red car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        138.0,
+        334.0,
+        560.0,
+        776.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with long dark hair is sitting in the driver's seat of a red car, wearing a white t-shirt and a black seatbelt, smiling brightly at the camera while holding the steering wheel.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": "white t-shirt",
+          "accessory": "black seatbelt"
+        },
+        "pose": "sitting in driver's seat",
+        "context": "inside a red car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        0.0,
+        108.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A red car with a glossy finish is shown from the side, featuring a visible side mirror and door handle. Inside the car, a young woman with long dark hair is seated in the driver's seat, wearing a white t-shirt and a seatbelt, while an older man with gray hair and glasses is seated in the passenger seat, wearing a light blue polo shirt and also wearing a seatbelt. Both individuals are smiling and appear to be looking towards the camera.",
+      "attributes": {
+        "vehicle": {
+          "color": "red",
+          "type": "car",
+          "features": [
+            "side mirror",
+            "door handle",
+            "seatbelts"
+          ]
+        },
+        "passengers": {
+          "driver": {
+            "gender": "female",
+            "age": "young adult",
+            "hair": "long dark",
+            "clothing": "white t-shirt",
+            "expression": "smiling"
+          },
+          "passenger": {
+            "gender": "male",
+            "age": "older adult",
+            "hair": "gray",
+            "clothing": "light blue polo shirt",
+            "accessories": "glasses",
+            "expression": "smiling"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

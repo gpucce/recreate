@@ -1,0 +1,201 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        4.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a black door handle and window frame is shown from the side, with the driver's side window open. Inside, a young woman with long black hair, wearing a white collared shirt and a seatbelt, sits in the passenger seat holding a white paper coffee cup. In the driver's seat, a young man with short black hair, wearing a white collared shirt and a green tie, is driving with both hands on the steering wheel.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "door_handle": "black",
+          "window_frame": "black",
+          "window": "open"
+        },
+        "passenger": {
+          "gender": "female",
+          "age": "young adult",
+          "hair": "long, black, straight",
+          "clothing": {
+            "shirt": "white, collared"
+          },
+          "accessories": {
+            "seatbelt": "black"
+          },
+          "pose": "sitting, looking forward",
+          "expression": "neutral, focused",
+          "holding": "white paper coffee cup with lid"
+        },
+        "driver": {
+          "gender": "male",
+          "age": "young adult",
+          "hair": "short, black, slightly wavy",
+          "clothing": {
+            "shirt": "white, collared",
+            "tie": "green"
+          },
+          "pose": "driving, hands on steering wheel",
+          "expression": "focused, looking ahead"
+        },
+        "background": {
+          "visible_through_window": "blurred street scene with a white car and greenery"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.90625,
+      "box": [
+        828.0,
+        268.0,
+        1024.0,
+        400.0
+      ],
+      "mask": "image_15.masks/car_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of the side profile of a white car, showing the rear wheel and body panel, partially obscured by a dark diagonal foreground object and a red element in the upper right corner.",
+      "attributes": {
+        "color": "white",
+        "type": "sedan or hatchback",
+        "visibility": "blurry",
+        "view_angle": "side profile",
+        "visible_parts": [
+          "rear wheel",
+          "body panel",
+          "window"
+        ],
+        "obstruction": "dark diagonal object",
+        "background_elements": "red object"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        624.0,
+        708.0,
+        744.0,
+        820.0
+      ],
+      "mask": "image_15.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A white disposable paper coffee cup with a matching white plastic lid is held in a person's hand. The cup has a smooth, matte finish and a standard tapered cylindrical shape, with the lid featuring a raised rim and a central drinking spout area.",
+      "attributes": {
+        "object_type": "disposable coffee cup",
+        "color": "white",
+        "material": "paper cup, plastic lid",
+        "lid": {
+          "color": "white",
+          "type": "plastic",
+          "features": "raised rim, central spout area"
+        },
+        "shape": "tapered cylinder",
+        "held_by": "human hand",
+        "visible_parts": "cup body, lid, fingers of holding hand",
+        "function": "for holding hot beverages",
+        "culture_specific": "common in coffee shops and takeout settings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        496.0,
+        178.0,
+        1024.0,
+        848.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian man with short, wavy black hair sits in the driver's seat of a red car, wearing a white button-down shirt with rolled-up sleeves and a green tie. He is looking forward with a neutral expression, holding a white disposable coffee cup in his left hand while his right hand rests on the steering wheel.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "short, wavy"
+        },
+        "clothing": {
+          "shirt": "white, long-sleeved, rolled up to elbows",
+          "tie": "green",
+          "pants": "dark grey or black"
+        },
+        "accessories": {
+          "watch": "black band on left wrist"
+        },
+        "pose": "sitting in driver's seat, hands on wheel and holding cup",
+        "expression": "neutral, focused forward",
+        "object": "white disposable coffee cup with lid",
+        "location": "inside a red car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        154.0,
+        208.0,
+        744.0,
+        824.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian woman with long, straight black hair and bangs sits in the passenger seat of a car, wearing a white collared shirt and a black seatbelt. She has a neutral, slightly pensive expression while looking forward, holding a white paper coffee cup in her hand.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "top": "white button-down shirt"
+        },
+        "accessories": {
+          "seatbelt": "black"
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "holding": "white paper coffee cup"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watch",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        988.0,
+        452.0,
+        1020.0,
+        496.0
+      ],
+      "mask": "image_15.masks/watch_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

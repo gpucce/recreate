@@ -1,0 +1,247 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        4.0,
+        348.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/ground_0.png",
+      "crop": null,
+      "description": "A woman with dark skin and short hair is holding a sleeping baby wrapped in a cream-colored knitted blanket. She is wearing a colorful patterned dress with red, green, orange, and black geometric designs, and has a black camera strap around her neck with a DSLR camera hanging at her side. The background shows a rural setting with thatched-roof huts and green fields.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "African",
+        "social_role": "mother",
+        "clothing": {
+          "dress": "colorful patterned with red, green, orange, and black geometric designs",
+          "accessories": {
+            "camera": "black DSLR with strap around neck"
+          }
+        },
+        "pose": "standing, holding baby",
+        "expression": "smiling",
+        "baby": {
+          "state": "sleeping",
+          "clothing": "cream-colored knitted blanket"
+        },
+        "background": {
+          "setting": "rural",
+          "structures": "thatched-roof huts",
+          "landscape": "green fields"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ground",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        2.0,
+        676.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/ground_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is shown from the chest down, wearing a colorful patterned dress with red, green, and black geometric designs, and a cream-colored knitted shawl draped over their arms. They are holding a black DSLR camera with a lens attached, which hangs from a strap around their neck.\", \"attributes\": {\"clothing\": {\"dress\": \"colorful geometric pattern (red, green, black, white)\", \"shawl\": \"cream-colored knitted with fringe\"}, \"accessories\": {\"camera\": \"black DSLR with lens\", \"strap\": \"black camera strap\"}, \"pose\": \"arms crossed, holding shawl\", \"position\": \"standing, side view\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        528.0,
+        141.0,
+        752.0,
+        344.0
+      ],
+      "mask": "image_6.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up of a woman's head wearing a vibrant, multi-colored headscarf wrapped in a traditional style. The fabric features a bold geometric pattern with large, fan-like or leaf-shaped motifs in red, orange, green, and black, separated by white dotted lines.",
+      "attributes": {
+        "entity": "headscarf",
+        "colors": [
+          "red",
+          "orange",
+          "green",
+          "black",
+          "white"
+        ],
+        "pattern": "geometric, fan-shaped motifs, dotted lines",
+        "style": "wrapped, turban-like",
+        "material": "woven fabric",
+        "culture": "African",
+        "wearer": {
+          "gender": "female",
+          "ethnicity": "Black",
+          "skin_tone": "dark brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        264.0,
+        458.0,
+        552.0,
+        620.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up of a sleeping infant with dark skin and short, curly black hair, wrapped in a white, textured knit blanket. The baby is being held by an adult wearing a colorful, patterned garment featuring red, green, black, and white geometric designs.",
+      "attributes": {
+        "age": "infant",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "texture": "curly",
+          "length": "short"
+        },
+        "expression": "sleeping",
+        "eyes": "closed",
+        "clothing": {
+          "blanket": {
+            "color": "white",
+            "material": "knit"
+          },
+          "adult_garment": {
+            "pattern": "geometric",
+            "colors": [
+              "red",
+              "green",
+              "black",
+              "white"
+            ]
+          }
+        },
+        "pose": "being held"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        308.0,
+        142.0,
+        828.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black woman wearing a vibrant, multi-colored patterned headwrap and matching dress holds a sleeping infant wrapped in a cream-colored knitted blanket. She has a black camera strap around her neck with the camera body visible at her side, set against a blurred background of a rural village with thatched huts and trees.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "expression": "smiling, looking at camera",
+        "clothing": {
+          "headwear": "colorful patterned headwrap (red, green, orange, yellow, black)",
+          "dress": "colorful patterned dress (red, green, orange, black, white) with fringed sleeves",
+          "accessories": "small earrings, black camera strap"
+        },
+        "pose": "standing, holding baby",
+        "holding": {
+          "object": "infant",
+          "infant_details": "sleeping, wrapped in cream knitted blanket"
+        },
+        "equipment": "black DSLR camera hanging at side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        808.0,
+        450.0,
+        1016.0,
+        564.0
+      ],
+      "mask": "image_6.masks/stone wall_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurred stone wall composed of irregularly shaped, light-colored stones with visible mortar lines, occupying the majority of the frame. The wall appears to be made of natural stone and is out of focus, with a hint of a person's shoulder and clothing on the left edge.\", \"attributes\": {\"material\": \"stone\", \"color\": \"light beige\", \"texture\": \"rough\", \"focus\": \"blurred\", \"position\": \"background\", \"edge_detail\": \"person's shoulder visible on left\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "stone wall",
+      "index": 1,
+      "score": 0.83984375,
+      "box": [
+        -1.5,
+        466.0,
+        132.0,
+        580.0
+      ],
+      "mask": "image_6.masks/stone wall_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a stone wall composed of irregularly shaped, light-colored stones stacked together. The stones appear to be made of a rough, natural material, possibly granite or limestone, with varying shades of beige and gray. The wall is partially obscured by a dark, vertical element on the right side, which could be a tree trunk or a shadow. The overall image is blurry, making it difficult to discern fine details of the individual stones.",
+      "attributes": {
+        "material": "stone",
+        "color": "beige, gray",
+        "shape": "irregular",
+        "texture": "rough",
+        "focus": "out-of-focus",
+        "position": "vertical",
+        "obstruction": "dark vertical element on the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 2,
+      "score": 0.65234375,
+      "box": [
+        134.0,
+        466.0,
+        192.0,
+        568.0
+      ],
+      "mask": "image_6.masks/stone wall_2.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus section of a dark stone wall with a rough, textured surface. The stones appear to be irregularly shaped and tightly packed together, creating a mottled pattern of dark grays and blacks with subtle variations in tone.",
+      "attributes": {
+        "material": "stone",
+        "color": "dark gray/black",
+        "texture": "rough, uneven",
+        "focus": "blurred",
+        "structure": "masonry wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 3,
+      "score": 0.62109375,
+      "box": [
+        416.0,
+        460.0,
+        476.0,
+        500.0
+      ],
+      "mask": "image_6.masks/stone wall_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

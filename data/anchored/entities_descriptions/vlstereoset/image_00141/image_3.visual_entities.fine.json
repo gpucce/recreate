@@ -1,0 +1,240 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        572.0,
+        162.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with long dark hair sits on a beige couch wearing a mustard yellow ribbed sweater and blue jeans, holding a white tablet in her hands while looking down at it. She is positioned next to a child, with a potted plant and wooden furniture visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "length": "long"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "texture": "ribbed knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding a tablet",
+        "object_held": {
+          "type": "tablet",
+          "color": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        18.0,
+        176.0,
+        484.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair sits on a beige couch, wearing a light pink blouse with a lace cutout neckline and blue jeans. She is smiling warmly while looking down at a tablet held in her hands, positioned next to a young child.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "gaze": "downward",
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "color": "pink",
+            "sleeves": "long",
+            "neckline": "lace cutout"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "earrings": "small gold studs"
+        },
+        "pose": "sitting",
+        "action": "holding a tablet"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        386.0,
+        342.0,
+        664.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with dark brown hair pulled back sits in the center, smiling while looking down at a silver tablet held by the adults on either side of her. She wears a long-sleeved shirt with horizontal grey and white stripes and red and black plaid pajama pants.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "expression": "smiling",
+        "gaze": "downward",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "grey",
+              "white"
+            ]
+          },
+          "bottom": {
+            "type": "pants",
+            "pattern": "plaid",
+            "colors": [
+              "red",
+              "black"
+            ]
+          }
+        },
+        "pose": "sitting",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        852.0,
+        196.0,
+        972.0,
+        266.0
+      ],
+      "mask": "image_3.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green plant with long, spiky leaves radiating outward from a central base, resembling a spider plant or similar foliage, set against a plain, light-colored background.",
+      "attributes": {
+        "color": "green",
+        "shape": "spiky, radiating",
+        "focus": "blurry",
+        "background": "light-colored",
+        "type": "foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        376.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or tan fabric sofa with a textured, woven appearance, featuring a thick, cushioned seat and backrest. The sofa has a modern, minimalist design with clean lines and appears to be upholstered in a durable, neutral-toned material. It is positioned in a well-lit indoor setting, likely a living room, and is occupied by three individuals, suggesting it is a multi-seater piece of furniture.",
+      "attributes": {
+        "color": "light beige/tan",
+        "material": "textured fabric",
+        "style": "modern/minimalist",
+        "type": "multi-seater sofa",
+        "cushions": "thick, cushioned seat and backrest",
+        "setting": "indoor, well-lit living room",
+        "occupants": "three individuals (two adults, one child)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tablet computer",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        392.0,
+        632.0,
+        664.0,
+        768.0
+      ],
+      "mask": "image_3.masks/tablet computer_0.png",
+      "crop": null,
+      "description": "A silver tablet computer is held horizontally by two hands, showing the back of the device with a smooth, matte finish. The top right corner features a camera lens and a small flash, and the person holding it is wearing a striped shirt.",
+      "attributes": {
+        "color": "silver",
+        "material": "metal",
+        "orientation": "horizontal",
+        "back_features": {
+          "camera": "top right",
+          "flash": "top right"
+        },
+        "held_by": "two hands",
+        "person_clothing": "striped shirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        616.0,
+        -1.0,
+        1024.0,
+        324.0
+      ],
+      "mask": "image_3.masks/wall_0.png",
+      "crop": null,
+      "description": "A plain, light beige or off-white wall serves as the background, featuring a framed picture with a light wooden frame hanging on the right side. Below the frame, a small potted plant with green leaves sits on a wooden surface, partially visible at the bottom of the frame.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "smooth",
+        "decorations": [
+          {
+            "type": "framed picture",
+            "frame_color": "light wood",
+            "position": "right side"
+          },
+          {
+            "type": "potted plant",
+            "pot_color": "beige",
+            "leaf_color": "green",
+            "position": "bottom right"
+          }
+        ],
+        "lighting": "soft, natural"
+      },
+      "parse_ok": true
+    }
+  ]
+}

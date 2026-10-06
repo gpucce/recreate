@@ -1,0 +1,64 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        130.0,
+        38.0,
+        172.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender flagpole with a smooth, light-colored surface stands vertically against a clear blue sky. The pole is topped with a golden finial and features a small, dark attachment point near the top, likely for a flag or halyard.",
+      "attributes": {
+        "material": "metal",
+        "color": "light gray or silver",
+        "top": "golden finial",
+        "attachment": "small dark bracket or pulley",
+        "background": "clear blue sky",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        368.0,
+        154.0,
+        864.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/statue_0.png",
+      "crop": null,
+      "description": "A weathered white marble statue of a young man wearing a laurel wreath and draped toga, holding a scroll in each hand, set against a clear blue sky with a blurred red and white flag in the background.",
+      "attributes": {
+        "material": "white marble",
+        "condition": "weathered, stained, chipped",
+        "headwear": "laurel wreath",
+        "hair": "curly, short",
+        "clothing": {
+          "type": "toga",
+          "details": "draped over left shoulder, fastened with a brooch, folds cascading down the body"
+        },
+        "accessories": {
+          "right_hand": "scroll",
+          "left_hand": "scroll"
+        },
+        "pose": "standing, arms slightly extended",
+        "expression": "neutral, looking to the side",
+        "background": {
+          "sky": "blue",
+          "object": "red and white flag (blurred)"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

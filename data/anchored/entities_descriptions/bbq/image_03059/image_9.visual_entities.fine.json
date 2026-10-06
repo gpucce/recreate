@@ -1,0 +1,105 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        222.0,
+        38.0,
+        880.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a crying blonde woman in a dark blue sweater hugging a young girl with glasses and a pink hoodie, both displaying expressions of deep sadness and grief in an outdoor setting with autumn leaves.",
+      "attributes": {
+        "group": {
+          "count": 2,
+          "interaction": "hugging",
+          "emotion": "sadness, crying"
+        },
+        "person_1": {
+          "gender": "female",
+          "age_group": "adult",
+          "hair": {
+            "color": "blonde",
+            "length": "shoulder-length",
+            "style": "wavy, loose"
+          },
+          "face": {
+            "expression": "crying, distressed",
+            "tears": "visible",
+            "accessories": "sunglasses on head"
+          },
+          "clothing": {
+            "top": "dark blue knit sweater",
+            "accessories": "black camera hanging from shoulder"
+          }
+        },
+        "person_2": {
+          "gender": "female",
+          "age_group": "child",
+          "hair": {
+            "color": "light brown",
+            "length": "medium",
+            "style": "tied back"
+          },
+          "face": {
+            "expression": "sad, eyes closed",
+            "accessories": "black-rimmed round glasses"
+          },
+          "clothing": {
+            "top": "salmon pink hoodie"
+          }
+        },
+        "background": {
+          "setting": "outdoor park",
+          "season": "autumn",
+          "elements": "trees, fallen leaves, street lamp"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        222.0,
+        330.0,
+        888.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young girl with light brown hair and black-rimmed glasses is being hugged by an adult woman, her eyes closed and face showing a sad or distressed expression. The girl wears a dusty pink hooded sweatshirt, while the woman wears a dark navy blue knit sweater.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "tied back"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "round"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "dusty pink",
+            "material": "fleece"
+          }
+        },
+        "expression": "sad, eyes closed",
+        "pose": "being hugged, leaning into the adult"
+      },
+      "parse_ok": true
+    }
+  ]
+}

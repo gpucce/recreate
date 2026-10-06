@@ -1,0 +1,738 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        157.0,
+        276.0,
+        284.0,
+        540.0
+      ],
+      "mask": "image_14.masks/building_0.png",
+      "crop": null,
+      "description": "A red brick building with white-framed windows is visible in the background, partially obscured by a large tree trunk in the foreground. The building appears to be multi-storied and has a traditional architectural style.",
+      "attributes": {
+        "material": "brick",
+        "color": "red",
+        "windows": {
+          "frame_color": "white",
+          "shape": "rectangular"
+        },
+        "structure": "multi-storied",
+        "style": "traditional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.6484375,
+      "box": [
+        820.0,
+        4.0,
+        1032.0,
+        536.0
+      ],
+      "mask": "image_14.masks/building_1.png",
+      "crop": null,
+      "description": "A two-story red brick building features a dark gray shingled roof with a central white-trimmed dormer window. Below the dormer, a rectangular window with white trim is set into the brick facade, and a covered porch area with warm lighting is visible in the foreground.",
+      "attributes": {
+        "structure": {
+          "material": "red brick",
+          "roof": {
+            "color": "dark gray",
+            "material": "shingles",
+            "features": [
+              "dormer window",
+              "chimney"
+            ]
+          },
+          "windows": {
+            "dormer": {
+              "trim": "white",
+              "shape": "rectangular"
+            },
+            "main": {
+              "trim": "white",
+              "shape": "rectangular"
+            }
+          },
+          "porch": {
+            "roof": "dark",
+            "lighting": "warm yellow"
+          }
+        },
+        "foreground": {
+          "vegetation": "yellow-green shrub",
+          "objects": "white car roof"
+        },
+        "background": {
+          "sky": "overcast white",
+          "trees": "yellow autumn leaves"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.77734375,
+      "box": [
+        684.0,
+        114.0,
+        996.0,
+        552.0
+      ],
+      "mask": "image_14.masks/building_2.png",
+      "crop": null,
+      "description": "A multi-story red brick building with a dark gray shingled roof and white-trimmed windows, including a prominent dormer window on the upper level. The building features a sloped roofline, a chimney, and a ground-floor awning with warm lighting visible underneath.",
+      "attributes": {
+        "material": "red brick",
+        "roof": {
+          "color": "dark gray",
+          "type": "shingled",
+          "features": [
+            "dormer window",
+            "chimney"
+          ]
+        },
+        "windows": {
+          "trim": "white",
+          "type": "double-hung",
+          "dormer": "present"
+        },
+        "ground_floor": {
+          "awning": "dark",
+          "lighting": "warm, visible under awning"
+        },
+        "color": "red brick with white accents",
+        "style": "traditional, possibly colonial or Victorian"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.703125,
+      "box": [
+        92.0,
+        249.0,
+        192.0,
+        548.0
+      ],
+      "mask": "image_14.masks/building_3.png",
+      "crop": null,
+      "description": "A multi-story building featuring a white facade with vertical architectural lines and a section of red brickwork, partially obscured by out-of-focus yellow autumn leaves in the foreground.",
+      "attributes": {
+        "structure": {
+          "type": "multi-story building",
+          "facade_materials": [
+            "white stucco or concrete",
+            "red brick"
+          ],
+          "architectural_features": [
+            "vertical recessed panels",
+            "rectangular windows"
+          ]
+        },
+        "foreground": {
+          "element": "tree branch",
+          "leaf_color": "yellow",
+          "focus": "blurred"
+        },
+        "image_quality": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.74609375,
+      "box": [
+        16.25,
+        272.0,
+        103.0,
+        544.0
+      ],
+      "mask": "image_14.masks/building_4.png",
+      "crop": null,
+      "description": "A multi-story building with a reddish-brown brick facade features tall, narrow rectangular windows with white frames. The structure is partially obscured by a blurred tree trunk in the foreground and yellow autumn leaves at the top, with a dark awning visible on the ground floor.",
+      "attributes": {
+        "material": "brick",
+        "color": "reddish-brown",
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "white",
+          "arrangement": "vertical columns"
+        },
+        "ground_floor": {
+          "feature": "dark awning"
+        },
+        "foreground": {
+          "object": "tree trunk",
+          "leaves": "yellow"
+        },
+        "focus": "blurred background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        780.0,
+        536.0,
+        964.0,
+        608.0
+      ],
+      "mask": "image_14.masks/car_0.png",
+      "crop": null,
+      "description": "A white car is partially visible behind a black metal fence with pointed finials. The car's windshield and side windows are slightly tinted, and the side mirror is white, matching the body color.",
+      "attributes": {
+        "color": "white",
+        "visible_parts": [
+          "windshield",
+          "side_windows",
+          "side_mirror"
+        ],
+        "background": "black_metal_fence",
+        "window_tint": "slight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.890625,
+      "box": [
+        916.0,
+        532.0,
+        1032.0,
+        620.0
+      ],
+      "mask": "image_14.masks/car_1.png",
+      "crop": null,
+      "description": "A close-up view of the side window and roofline of a silver or light gray car, with a blurred background showing another vehicle and a foreground featuring a black spiked fence.",
+      "attributes": {
+        "color": "silver/light gray",
+        "part": "side window and roofline",
+        "background": "blurred, includes another vehicle",
+        "foreground": "black spiked fence",
+        "material": "metal, glass",
+        "focus": "shallow depth of field, car is in focus, background is blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        10.5,
+        540.0,
+        140.0,
+        620.0
+      ],
+      "mask": "image_14.masks/car_2.png",
+      "crop": null,
+      "description": "A close-up view of a car's side mirror and part of the window, with a blurred background showing a building and some greenery. The car appears to be light-colored, possibly white or silver, and the side mirror is visible in the foreground.",
+      "attributes": {
+        "color": "light-colored",
+        "part": "side mirror and window",
+        "background": "blurred building and greenery",
+        "focus": "side mirror"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 3,
+      "score": 0.859375,
+      "box": [
+        109.0,
+        548.0,
+        187.0,
+        604.0
+      ],
+      "mask": "image_14.masks/car_3.png",
+      "crop": null,
+      "description": "A blurry, close-up view of a car's front section, showing a white or light-colored body with a dark, rectangular grille area and a headlight on the right side. The image is out of focus, making specific details indistinct.",
+      "attributes": {
+        "color": "white/light-colored",
+        "part": "front section",
+        "features": [
+          "grille",
+          "headlight"
+        ],
+        "condition": "blurry/out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 4,
+      "score": 0.78515625,
+      "box": [
+        247.0,
+        540.0,
+        304.0,
+        588.0
+      ],
+      "mask": "image_14.masks/car_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 5,
+      "score": 0.8984375,
+      "box": [
+        728.0,
+        560.0,
+        808.0,
+        600.0
+      ],
+      "mask": "image_14.masks/car_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        528.0,
+        372.0,
+        736.0,
+        1004.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair walks forward on a sidewalk covered in fallen autumn leaves, wearing a blue denim jacket over a grey t-shirt, black skinny jeans, and white sneakers, accessorized with a thick, cream-colored knitted scarf wrapped around her neck. She has a neutral expression and is looking slightly to her left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "blue"
+          },
+          "top": {
+            "type": "t-shirt",
+            "color": "grey"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "black",
+            "fit": "skinny"
+          },
+          "accessories": {
+            "scarf": {
+              "color": "cream",
+              "material": "knitted",
+              "style": "chunky with fringe"
+            }
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "background_context": "outdoor street with autumn leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        314.0,
+        314.0,
+        536.0,
+        1008.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair walks forward on a path covered in fallen leaves, holding a white cane in his right hand. He wears a grey zip-up hoodie over a light blue collared shirt, blue jeans, and brown sneakers, with a black backpack on his shoulders.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "outerwear": "grey zip-up hoodie",
+          "shirt": "light blue collared shirt",
+          "pants": "blue jeans",
+          "shoes": "brown sneakers with white soles"
+        },
+        "accessories": {
+          "backpack": "black",
+          "cane": "white with black handle and tip"
+        },
+        "pose": "walking",
+        "expression": "neutral, looking slightly to the side",
+        "context": "outdoors, autumn setting with fallen leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "railing",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        732.0,
+        592.0,
+        1020.0,
+        896.0
+      ],
+      "mask": "image_14.masks/railing_0.png",
+      "crop": null,
+      "description": "A black metal railing with vertical bars and decorative finials on top, positioned along a walkway with fallen autumn leaves on the ground.",
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "style": "vertical bars with decorative finials",
+        "condition": "clean and intact",
+        "position": "along a walkway",
+        "surroundings": "fallen autumn leaves on the ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "railing",
+      "index": 1,
+      "score": 0.76171875,
+      "box": [
+        276.0,
+        588.0,
+        332.0,
+        732.0
+      ],
+      "mask": "image_14.masks/railing_1.png",
+      "crop": null,
+      "description": "A close-up view of a person's arm wearing a gray long-sleeved shirt, with their hand partially visible in the lower right corner. The background is blurred, showing a dark vertical post and a horizontal railing element, suggesting an outdoor setting with autumn leaves on the ground.",
+      "attributes": {
+        "clothing": {
+          "sleeve": "gray",
+          "material": "fabric"
+        },
+        "body_part": "arm",
+        "position": "lower right",
+        "background": {
+          "railing": "dark",
+          "post": "vertical",
+          "ground": "autumn leaves"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "railing",
+      "index": 2,
+      "score": 0.92578125,
+      "box": [
+        -1.0,
+        600.0,
+        268.0,
+        912.0
+      ],
+      "mask": "image_14.masks/railing_2.png",
+      "crop": null,
+      "description": "A black metal railing with vertical bars and decorative finials on top, positioned along a stone ledge covered in fallen autumn leaves.",
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "style": "vertical bars with decorative finials",
+        "condition": "weathered",
+        "position": "along a stone ledge",
+        "surroundings": "fallen autumn leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        4.0,
+        644.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A paved sidewalk covered in dry, brown and yellow autumn leaves, flanked by black metal railings on both sides, with two people walking away from the camera; one uses a white cane, suggesting visual impairment.",
+      "attributes": {
+        "surface": "paved concrete or asphalt",
+        "debris": "scattered dry autumn leaves (brown, yellow, orange)",
+        "railings": "black metal, vertical bars, on both sides",
+        "people": {
+          "count": 2,
+          "left_person": {
+            "clothing": {
+              "top": "gray hoodie",
+              "pants": "blue jeans",
+              "shoes": "brown sneakers"
+            },
+            "accessory": "white cane with black handle and tip",
+            "pose": "walking forward, right leg mid-step"
+          },
+          "right_person": {
+            "clothing": {
+              "top": "light blue denim jacket over dark top",
+              "scarf": "cream-colored knitted scarf with fringe",
+              "pants": "black leggings",
+              "shoes": "white sneakers"
+            },
+            "pose": "walking forward, left leg mid-step"
+          }
+        },
+        "season": "autumn",
+        "setting": "urban or park walkway",
+        "perspective": "low-angle, ground-level view focusing on lower bodies and feet"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 1,
+      "score": 0.6953125,
+      "box": [
+        212.0,
+        644.0,
+        900.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/sidewalk_1.png",
+      "crop": null,
+      "description": "A paved concrete sidewalk covered in scattered brown and yellow autumn leaves, with two people walking side-by-side; one person on the left uses a white cane with a black handle and tip, suggesting visual impairment, while the other walks closely beside them. The sidewalk is bordered by dark metal railings on both sides, and the ground surface appears slightly damp or worn.",
+      "attributes": {
+        "surface": "concrete pavement",
+        "condition": "scattered with fallen autumn leaves (brown, yellow, orange)",
+        "boundaries": "dark metal railings on both sides",
+        "people": {
+          "person_left": {
+            "clothing": {
+              "top": "gray long-sleeve shirt",
+              "pants": "blue jeans",
+              "shoes": "brown sneakers with white soles"
+            },
+            "accessory": "white cane with black handle and tip",
+            "pose": "walking forward, right hand holding cane"
+          },
+          "person_right": {
+            "clothing": {
+              "top": "light blue denim jacket over black top",
+              "scarf": "cream-colored knitted scarf",
+              "pants": "black leggings",
+              "shoes": "white sneakers"
+            },
+            "pose": "walking forward, left arm slightly extended toward companion"
+          }
+        },
+        "season": "autumn",
+        "function": "pedestrian walkway, likely part of a bridge or elevated path"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        324.0,
+        362.0,
+        368.0,
+        442.0
+      ],
+      "mask": "image_14.masks/sign_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        780.0,
+        -1.25,
+        1012.0,
+        123.0
+      ],
+      "mask": "image_14.masks/sky_0.png",
+      "crop": null,
+      "description": "A pale, overcast sky serves as a bright, diffused background behind a branch of yellow autumn leaves in the foreground. The sky is mostly uniform in color with no visible clouds or distinct features, creating a soft, muted backdrop that contrasts with the sharp details of the foliage.",
+      "attributes": {
+        "color": "pale white",
+        "lighting": "diffused",
+        "clouds": "none visible",
+        "atmosphere": "overcast",
+        "foreground_elements": "yellow autumn leaves on branches"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 1,
+      "score": 0.5546875,
+      "box": [
+        148.0,
+        -1.0,
+        1012.0,
+        268.0
+      ],
+      "mask": "image_14.masks/sky_1.png",
+      "crop": null,
+      "description": "The sky is a pale, overcast white, visible through the gaps in the yellow autumn leaves of a tree. It appears uniform and bright, providing a soft background to the foliage.",
+      "attributes": {
+        "color": "white",
+        "condition": "overcast",
+        "visibility": "partially obscured by tree branches and leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.515625,
+      "box": [
+        160.0,
+        260.0,
+        704.0,
+        556.0
+      ],
+      "mask": "image_14.masks/tree_0.png",
+      "crop": null,
+      "description": "A mature tree with a thick, textured brown trunk and branching limbs stands in the foreground, its canopy filled with vibrant yellow autumn leaves. The tree is positioned on the left side of the frame, partially obscuring a blue parking sign and a brick building in the background.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough bark",
+          "thickness": "thick"
+        },
+        "leaves": {
+          "color": "yellow",
+          "season": "autumn",
+          "density": "dense canopy"
+        },
+        "position": "left foreground",
+        "background_elements": [
+          "blue parking sign",
+          "brick building"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        -0.5,
+        -2.0,
+        228.0,
+        616.0
+      ],
+      "mask": "image_14.masks/tree_1.png",
+      "crop": null,
+      "description": "A close-up view of a tree with rough, textured brown bark and branches extending upward, bearing vibrant yellow leaves that suggest an autumn setting. The background is softly blurred, showing a red brick building with white trim and windows, along with a black metal fence at the bottom.",
+      "attributes": {
+        "bark": {
+          "color": "brown",
+          "texture": "rough, furrowed"
+        },
+        "leaves": {
+          "color": "yellow",
+          "season": "autumn",
+          "shape": "lobed"
+        },
+        "branches": {
+          "color": "brown",
+          "structure": "forking, extending upward"
+        },
+        "background": {
+          "building": {
+            "material": "brick",
+            "color": "red",
+            "trim": "white"
+          },
+          "fence": {
+            "color": "black",
+            "material": "metal"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.62109375,
+      "box": [
+        880.0,
+        468.0,
+        992.0,
+        540.0
+      ],
+      "mask": "image_14.masks/tree_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green foliage and yellowish highlights, partially obscured by a white object in the foreground.",
+      "attributes": {
+        "color": [
+          "green",
+          "yellowish"
+        ],
+        "focus": "blurry",
+        "position": "background",
+        "foreground_object": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.83203125,
+      "box": [
+        30.0,
+        -2.0,
+        960.0,
+        600.0
+      ],
+      "mask": "image_14.masks/tree_3.png",
+      "crop": null,
+      "description": "A large deciduous tree with a thick, textured brown trunk and branches extending across the top of the frame, covered in vibrant yellow autumn leaves with a few scattered red leaves. The tree is positioned on the left side of the street, with its canopy spreading over the sidewalk and road.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "autumn",
+        "leaf_color": "yellow",
+        "leaf_shape": "palmate",
+        "trunk_color": "brown",
+        "trunk_texture": "rough",
+        "position": "left side of street",
+        "canopy": "spreading over sidewalk and road"
+      },
+      "parse_ok": true
+    }
+  ]
+}

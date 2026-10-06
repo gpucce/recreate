@@ -1,0 +1,390 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        10.0,
+        644.0,
+        1032.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/alley_0.png",
+      "crop": null,
+      "description": "A wet cobblestone alleyway lined with stone walls and potted plants, featuring a child and an adult walking away from the camera, holding hands. The child is wearing a blue puffer jacket and jeans, while the adult is in a black puffer jacket and dark pants.",
+      "attributes": {
+        "surface": "wet cobblestone",
+        "walls": "stone",
+        "decorations": "potted plants with orange and yellow flowers",
+        "people": {
+          "child": {
+            "clothing": {
+              "jacket": "blue puffer",
+              "pants": "blue jeans",
+              "shoes": "brown boots"
+            },
+            "hair": "brown",
+            "pose": "walking"
+          },
+          "adult": {
+            "clothing": {
+              "jacket": "black puffer",
+              "pants": "dark gray",
+              "shoes": "brown shoes"
+            },
+            "pose": "walking"
+          },
+          "interaction": "holding hands"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        196.0,
+        248.0,
+        408.0,
+        660.0
+      ],
+      "mask": "image_15.masks/building_0.png",
+      "crop": null,
+      "description": "A stone building with a dark wooden roof and window frames, adorned with vibrant flower boxes containing pink, yellow, and white flowers. The building is situated in a picturesque setting with a blurred background of autumn foliage and a green hillside.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "roof": "dark wood",
+          "window_frames": "dark wood"
+        },
+        "decorations": {
+          "flower_boxes": {
+            "colors": [
+              "pink",
+              "yellow",
+              "white"
+            ],
+            "position": "under eaves and windows"
+          },
+          "balcony": "wooden, with flowers"
+        },
+        "background": {
+          "foliage": "autumn colors",
+          "terrain": "green hillside",
+          "weather": "clear"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.875,
+      "box": [
+        672.0,
+        0.0,
+        1024.0,
+        788.0
+      ],
+      "mask": "image_15.masks/building_1.png",
+      "crop": null,
+      "description": "A rustic stone building with a wooden balcony adorned with vibrant red, yellow, and pink flowers. The lower portion of the building features a stone wall with a wooden door and a small window, while the upper section has a dark wooden balcony with a railing. A person in a black jacket is partially visible on the left side of the image.",
+      "attributes": {
+        "building_materials": {
+          "walls": "stone",
+          "balcony": "wood",
+          "door": "wood"
+        },
+        "balcony": {
+          "color": "dark brown",
+          "decorations": "flowers (red, yellow, pink)",
+          "railing": "wooden"
+        },
+        "door": {
+          "color": "brown",
+          "style": "wooden"
+        },
+        "window": {
+          "color": "brown",
+          "style": "wooden"
+        },
+        "person": {
+          "clothing": {
+            "jacket": "black"
+          },
+          "position": "left side, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.859375,
+      "box": [
+        -6.0,
+        2.0,
+        322.0,
+        776.0
+      ],
+      "mask": "image_15.masks/building_2.png",
+      "crop": null,
+      "description": "A rustic stone building with a wooden balcony adorned with vibrant orange and pink flowers in hanging baskets. The building features a stone facade, a wooden door, and a tiled roof, with additional potted plants and flowers placed along the cobblestone street below.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "roof": "tiled",
+          "balcony": {
+            "material": "wood",
+            "decorations": "hanging flower baskets"
+          }
+        },
+        "facade": {
+          "color": "gray",
+          "texture": "rough stone"
+        },
+        "door": {
+          "material": "wood",
+          "color": "brown"
+        },
+        "plants": {
+          "types": [
+            "orange flowers",
+            "pink flowers",
+            "green foliage"
+          ],
+          "placement": [
+            "balcony",
+            "street level"
+          ]
+        },
+        "street": {
+          "material": "cobblestone",
+          "condition": "wet"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.8203125,
+      "box": [
+        520.0,
+        238.0,
+        776.0,
+        528.0
+      ],
+      "mask": "image_15.masks/building_3.png",
+      "crop": null,
+      "description": "A traditional alpine-style house featuring a steep, dark shingled roof and a facade of white plaster with exposed light-colored stone blocks. A wooden balcony with vertical railings is attached to the side, and a hanging flower box filled with vibrant yellow and red flowers is suspended from the eaves.",
+      "attributes": {
+        "architecture_style": "alpine chalet",
+        "roof": {
+          "color": "dark brown",
+          "material": "shingles",
+          "shape": "steep gable"
+        },
+        "walls": {
+          "color": "white",
+          "material": "plaster and exposed stone",
+          "stone_color": "light beige"
+        },
+        "balcony": {
+          "material": "wood",
+          "color": "medium brown",
+          "railing": "vertical slats"
+        },
+        "decorations": {
+          "flower_box": {
+            "location": "under eaves",
+            "flowers": "yellow and red"
+          }
+        },
+        "background": "autumn foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.88671875,
+      "box": [
+        418.0,
+        408.0,
+        576.0,
+        632.0
+      ],
+      "mask": "image_15.masks/building_4.png",
+      "crop": null,
+      "description": "A two-story white building with a dark, sloped roof and small, rectangular windows, appearing out of focus in the background behind a person in a black jacket.",
+      "attributes": {
+        "structure": {
+          "type": "house",
+          "stories": 2,
+          "wall_color": "white",
+          "roof_color": "dark grey",
+          "roof_style": "sloped",
+          "windows": "small, rectangular, dark"
+        },
+        "focus": "blurred",
+        "position": "background",
+        "surroundings": {
+          "foliage": "autumn colors (yellow, red)",
+          "people": "blurred figures in distance"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        536.0,
+        458.0,
+        720.0,
+        968.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street while holding the hand of a child. They are wearing a dark navy blue quilted puffer jacket, dark grey trousers, and brown leather shoes.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "pattern": "horizontal quilting"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "brown",
+            "material": "leather"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding a child's hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.55859375,
+      "box": [
+        488.0,
+        612.0,
+        504.0,
+        644.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.50390625,
+      "box": [
+        416.0,
+        612.0,
+        428.0,
+        636.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.84765625,
+      "box": [
+        376.0,
+        608.0,
+        400.0,
+        672.0
+      ],
+      "mask": "image_15.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.90234375,
+      "box": [
+        430.0,
+        596.0,
+        450.0,
+        660.0
+      ],
+      "mask": "image_15.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.9765625,
+      "box": [
+        430.0,
+        656.0,
+        572.0,
+        976.0
+      ],
+      "mask": "image_15.masks/person_5.png",
+      "crop": null,
+      "description": "A young child with short brown hair is seen from behind, walking away on a wet cobblestone street while holding the hand of an adult. The child wears a dark blue hooded puffer jacket, blue jeans, and brown boots with tan cuffs.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "boots",
+            "color": "brown",
+            "details": "tan cuffs"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

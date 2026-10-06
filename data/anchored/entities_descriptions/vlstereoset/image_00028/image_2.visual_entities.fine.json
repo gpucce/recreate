@@ -1,0 +1,679 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.73828125,
+      "box": [
+        740.0,
+        318.0,
+        860.0,
+        370.0
+      ],
+      "mask": "image_2.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story building with a white exterior and a red-tiled roof, featuring a balcony with green railings on the upper floor and a small window with green shutters on the side. The building is partially obscured by green foliage in the foreground.",
+      "attributes": {
+        "roof": "red-tiled",
+        "exterior_color": "white",
+        "balcony": {
+          "railings": "green"
+        },
+        "window": {
+          "shutters": "green"
+        },
+        "surroundings": "green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        896.0,
+        296.0,
+        1024.0,
+        400.0
+      ],
+      "mask": "image_2.masks/building_1.png",
+      "crop": null,
+      "description": "A two-story residential building with a cream-colored stucco exterior and a reddish-brown terracotta tile roof. The upper floor features two windows with light blue shutters, while the ground floor has a covered patio area with white retractable awnings and a row of glass windows or doors.",
+      "attributes": {
+        "structure": {
+          "stories": 2,
+          "roof": {
+            "material": "terracotta tile",
+            "color": "reddish-brown",
+            "style": "gabled"
+          },
+          "walls": {
+            "material": "stucco",
+            "color": "cream"
+          }
+        },
+        "windows": {
+          "upper_floor": {
+            "count": 2,
+            "shutters": "light blue"
+          },
+          "lower_floor": {
+            "type": "glass doors or windows",
+            "awning": "white"
+          }
+        },
+        "surroundings": {
+          "vegetation": "palm tree visible on the left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.7890625,
+      "box": [
+        544.0,
+        348.0,
+        592.0,
+        376.0
+      ],
+      "mask": "image_2.masks/building_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.6875,
+      "box": [
+        944.0,
+        356.0,
+        1024.0,
+        404.0
+      ],
+      "mask": "image_2.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.70703125,
+      "box": [
+        900.0,
+        298.0,
+        1020.0,
+        366.0
+      ],
+      "mask": "image_2.masks/building_4.png",
+      "crop": null,
+      "description": "A single-story building with a light beige stucco exterior and a reddish-brown terracotta tile roof. The visible side features two rectangular windows with light blue shutters and white frames, set against the smooth wall surface.",
+      "attributes": {
+        "structure": {
+          "type": "single-story house",
+          "walls": "light beige stucco",
+          "roof": "reddish-brown terracotta tiles",
+          "windows": {
+            "count": 2,
+            "color": "light blue",
+            "shutters": "light blue",
+            "frames": "white"
+          }
+        },
+        "surroundings": {
+          "vegetation": "palm tree visible on left, low shrubs at base"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.78515625,
+      "box": [
+        592.0,
+        342.0,
+        656.0,
+        378.0
+      ],
+      "mask": "image_2.masks/building_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.78515625,
+      "box": [
+        668.0,
+        336.0,
+        748.0,
+        384.0
+      ],
+      "mask": "image_2.masks/building_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        804.0,
+        388.0,
+        812.0,
+        404.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.671875,
+      "box": [
+        620.0,
+        394.0,
+        628.0,
+        406.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.6015625,
+      "box": [
+        652.0,
+        394.0,
+        660.0,
+        406.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.76171875,
+      "box": [
+        744.0,
+        396.0,
+        752.0,
+        420.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.875,
+      "box": [
+        848.0,
+        422.0,
+        888.0,
+        450.0
+      ],
+      "mask": "image_2.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.5703125,
+      "box": [
+        560.0,
+        394.0,
+        568.0,
+        402.0
+      ],
+      "mask": "image_2.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.734375,
+      "box": [
+        458.0,
+        548.0,
+        486.0,
+        572.0
+      ],
+      "mask": "image_2.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.53515625,
+      "box": [
+        584.0,
+        392.0,
+        592.0,
+        404.0
+      ],
+      "mask": "image_2.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.5625,
+      "box": [
+        776.0,
+        402.0,
+        792.0,
+        414.0
+      ],
+      "mask": "image_2.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.66796875,
+      "box": [
+        812.0,
+        388.0,
+        820.0,
+        408.0
+      ],
+      "mask": "image_2.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.7578125,
+      "box": [
+        724.0,
+        406.0,
+        732.0,
+        418.0
+      ],
+      "mask": "image_2.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 11,
+      "score": 0.74609375,
+      "box": [
+        796.0,
+        414.0,
+        820.0,
+        434.0
+      ],
+      "mask": "image_2.masks/person_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 12,
+      "score": 0.7578125,
+      "box": [
+        700.0,
+        402.0,
+        716.0,
+        414.0
+      ],
+      "mask": "image_2.masks/person_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 13,
+      "score": 0.78125,
+      "box": [
+        792.0,
+        414.0,
+        808.0,
+        434.0
+      ],
+      "mask": "image_2.masks/person_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        198.0,
+        388.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a smooth and slightly damp texture near the water's edge, transitioning to a drier, more granular surface further from the shore. The wet sand reflects the light, creating a glossy appearance, while the dry sand has a matte finish with small, scattered pebbles and debris.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "smooth and damp near water, granular and dry further from shore",
+        "surface": "glossy when wet, matte when dry",
+        "debris": "small pebbles and scattered debris"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        -1.0,
+        1020.0,
+        384.0
+      ],
+      "mask": "image_2.masks/sky_0.png",
+      "crop": null,
+      "description": "A bright blue sky with large, fluffy white cumulus clouds scattered across the upper right portion, transitioning to a clear, lighter blue on the left side. The clouds have soft, billowy edges and appear to be illuminated by sunlight from above.",
+      "attributes": {
+        "color": "blue",
+        "clouds": {
+          "type": "cumulus",
+          "color": "white",
+          "shape": "fluffy",
+          "position": "upper right",
+          "density": "moderate"
+        },
+        "lighting": "bright",
+        "weather": "sunny"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        852.0,
+        272.0,
+        924.0,
+        364.0
+      ],
+      "mask": "image_2.masks/tree_0.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, textured gray trunk and a crown of long, arching green fronds stands prominently in the foreground. The tree is positioned next to a white building with a light blue shuttered window, set against a clear blue sky.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "gray",
+          "texture": "rough",
+          "shape": "slender"
+        },
+        "leaves": {
+          "color": "green",
+          "shape": "arched fronds",
+          "arrangement": "crown"
+        },
+        "position": "foreground, next to building",
+        "background": "blue sky, white building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.7109375,
+      "box": [
+        584.0,
+        336.0,
+        616.0,
+        368.0
+      ],
+      "mask": "image_2.masks/tree_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.7421875,
+      "box": [
+        704.0,
+        326.0,
+        728.0,
+        338.0
+      ],
+      "mask": "image_2.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.8359375,
+      "box": [
+        784.0,
+        354.0,
+        840.0,
+        382.0
+      ],
+      "mask": "image_2.masks/tree_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.86328125,
+      "box": [
+        484.0,
+        348.0,
+        508.0,
+        388.0
+      ],
+      "mask": "image_2.masks/tree_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.8046875,
+      "box": [
+        532.0,
+        350.0,
+        548.0,
+        374.0
+      ],
+      "mask": "image_2.masks/tree_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.75390625,
+      "box": [
+        512.0,
+        358.0,
+        528.0,
+        378.0
+      ],
+      "mask": "image_2.masks/tree_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.515625,
+      "box": [
+        964.0,
+        348.0,
+        1020.0,
+        360.0
+      ],
+      "mask": "image_2.masks/tree_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.6171875,
+      "box": [
+        992.0,
+        322.0,
+        1024.0,
+        358.0
+      ],
+      "mask": "image_2.masks/tree_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 9,
+      "score": 0.86328125,
+      "box": [
+        620.0,
+        354.0,
+        668.0,
+        382.0
+      ],
+      "mask": "image_2.masks/tree_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 10,
+      "score": 0.7890625,
+      "box": [
+        656.0,
+        332.0,
+        680.0,
+        360.0
+      ],
+      "mask": "image_2.masks/tree_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 11,
+      "score": 0.77734375,
+      "box": [
+        680.0,
+        316.0,
+        704.0,
+        340.0
+      ],
+      "mask": "image_2.masks/tree_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 12,
+      "score": 0.82421875,
+      "box": [
+        836.0,
+        322.0,
+        884.0,
+        358.0
+      ],
+      "mask": "image_2.masks/tree_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        -6.0,
+        386.0,
+        744.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"The water is a clear, turquoise-blue color with gentle waves lapping onto the sandy shore. The surface of the water is calm, with small ripples and white foam where the waves meet the beach.\", \"attributes\": {\"color\": \"turquoise-blue\", \"clarity\": \"clear\", \"wave_pattern\": \"gentle, small ripples\", \"foam\": \"white, where waves meet the shore\", \"shoreline\": \"sandy, with waves lapping onto it\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

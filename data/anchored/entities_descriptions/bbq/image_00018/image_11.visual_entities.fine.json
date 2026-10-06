@@ -1,0 +1,341 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        720.0,
+        680.0,
+        1032.0,
+        744.0
+      ],
+      "mask": "image_11.masks/grass_0.png",
+      "crop": null,
+      "description": "The image shows a patch of green grass in the background, appearing somewhat blurred and out of focus. The grass is interspersed with small white flowers or daisies, creating a speckled pattern across the green surface.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "pattern": "speckled with white flowers",
+        "focus": "out of focus",
+        "location": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.734375,
+      "box": [
+        -2.0,
+        664.0,
+        280.0,
+        720.0
+      ],
+      "mask": "image_11.masks/grass_1.png",
+      "crop": null,
+      "description": "A patch of green grass with a few scattered yellow flowers, growing along the edge of a paved path. The grass appears lush and well-maintained, with a natural, slightly uneven texture.",
+      "attributes": {
+        "color": "green",
+        "texture": "lush, slightly uneven",
+        "location": "along the edge of a paved path",
+        "additional_features": "scattered yellow flowers"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.703125,
+      "box": [
+        -1.25,
+        812.0,
+        40.5,
+        852.0
+      ],
+      "mask": "image_11.masks/grass_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 3,
+      "score": 0.6640625,
+      "box": [
+        -0.5,
+        724.0,
+        198.0,
+        836.0
+      ],
+      "mask": "image_11.masks/grass_3.png",
+      "crop": null,
+      "description": "A patch of green grass with small white flowers scattered throughout, appearing slightly blurred and out of focus, with a dark object partially visible among the blades.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft and slightly blurred",
+        "flowers": "small white flowers",
+        "focus": "out of focus",
+        "object": "dark object partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 4,
+      "score": 0.79296875,
+      "box": [
+        644.0,
+        604.0,
+        940.0,
+        676.0
+      ],
+      "mask": "image_11.masks/grass_4.png",
+      "crop": null,
+      "description": "The image shows a blurred background with a patch of green grass visible in the lower portion. The grass appears to be part of a larger outdoor scene, possibly a park or garden, with indistinct shapes and colors suggesting trees or other vegetation in the distance.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "position": "lower portion of the image",
+        "context": "outdoor scene, possibly a park or garden"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 5,
+      "score": 0.6796875,
+      "box": [
+        185.0,
+        628.0,
+        340.0,
+        676.0
+      ],
+      "mask": "image_11.masks/grass_5.png",
+      "crop": null,
+      "description": "The image is heavily blurred, showing a patch of green grass in the foreground with a lighter, possibly sandy or concrete area in the background. The grass appears to be a uniform green color, but due to the blur, individual blades are not distinguishable.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "type": "grass",
+        "background": "light-colored surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 6,
+      "score": 0.65234375,
+      "box": [
+        932.0,
+        788.0,
+        1032.0,
+        836.0
+      ],
+      "mask": "image_11.masks/grass_6.png",
+      "crop": null,
+      "description": "A patch of grass with a mix of green and yellowish blades, appearing somewhat dry or sun-bleached, with a blurred background suggesting a natural outdoor setting.",
+      "attributes": {
+        "color": [
+          "green",
+          "yellowish"
+        ],
+        "texture": "dry",
+        "state": "sun-bleached",
+        "background": "blurred",
+        "setting": "outdoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        2.0,
+        652.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/path_0.png",
+      "crop": null,
+      "description": "A paved path in a park, with a child and an adult walking hand in hand. The path is lined with fallen petals and flanked by grass and trees, with a bench visible on the right side.",
+      "attributes": {
+        "surface": "paved",
+        "material": "concrete or asphalt",
+        "condition": "clean, with scattered petals",
+        "surroundings": {
+          "left": "grass and trees",
+          "right": "grass, trees, and a bench"
+        },
+        "lighting": "natural daylight",
+        "atmosphere": "peaceful, spring-like"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        356.0,
+        584.0,
+        476.0,
+        904.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with short, dark brown hair is seen from behind, walking away while holding the hand of an adult. The child wears a loose-fitting yellow short-sleeved t-shirt, dark blue shorts, white socks, and white sneakers.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "yellow",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "dark blue"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "white"
+          },
+          "socks": {
+            "color": "white"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        322.0,
+        544.0,
+        350.0,
+        648.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.8046875,
+      "box": [
+        660.0,
+        568.0,
+        724.0,
+        656.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing a person in a seated or crouching position. The person appears to be wearing a dark-colored top and light-colored pants or shorts, with a hint of a pink or red object near their hand or arm.",
+      "attributes": {
+        "pose": "seated or crouching",
+        "clothing": {
+          "top": "dark",
+          "bottoms": "light-colored"
+        },
+        "visible_objects": [
+          "pink or red object near hand"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.8984375,
+      "box": [
+        284.0,
+        552.0,
+        320.0,
+        648.0
+      ],
+      "mask": "image_11.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.984375,
+      "box": [
+        452.0,
+        380.0,
+        636.0,
+        908.0
+      ],
+      "mask": "image_11.masks/person_4.png",
+      "crop": null,
+      "description": "An elderly person with short white hair and glasses is seen from behind, walking away while wearing a beige crew-neck sweater and blue jeans. A black camera hangs from a strap over their right shoulder, and they are holding the hand of a child in a yellow jacket on their left side.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": true,
+          "camera": {
+            "color": "black",
+            "position": "hanging at side"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "beige",
+            "sleeves": "long"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "brown"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand of child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.9140625,
+      "box": [
+        354.0,
+        544.0,
+        390.0,
+        656.0
+      ],
+      "mask": "image_11.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

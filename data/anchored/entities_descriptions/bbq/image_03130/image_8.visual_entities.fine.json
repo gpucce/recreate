@@ -1,0 +1,273 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        836.0,
+        468.0,
+        1024.0,
+        892.0
+      ],
+      "mask": "image_8.masks/furniture_0.png",
+      "crop": null,
+      "description": "A light-colored wooden bed frame with a simple, rectangular headboard and a matching base is visible in the background, dressed with white sheets and a white pillow. The bed is partially obscured by a person's arm in the foreground, which is wearing a light blue shirt with a rolled-up sleeve.",
+      "attributes": {
+        "material": "light wood",
+        "color": "natural wood tone",
+        "style": "modern, minimalist",
+        "components": {
+          "headboard": "rectangular, solid wood",
+          "base": "low-profile, solid wood",
+          "mattress": "white bedding, white pillow"
+        },
+        "position": "background, slightly out of focus",
+        "function": "sleeping furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        1.25,
+        656.0,
+        85.0,
+        928.0
+      ],
+      "mask": "image_8.masks/furniture_1.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred view of a chair featuring a light-colored wooden frame with tapered legs and a white upholstered seat cushion. The chair is positioned on a light wooden floor, with a matching wooden table leg visible in the background.",
+      "attributes": {
+        "furniture_type": "chair",
+        "material": {
+          "frame": "light wood",
+          "seat": "white fabric or leather"
+        },
+        "color": {
+          "frame": "beige",
+          "seat": "white"
+        },
+        "style": "mid-century modern",
+        "leg_shape": "tapered",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.61328125,
+      "box": [
+        470.0,
+        182.0,
+        580.0,
+        314.0
+      ],
+      "mask": "image_8.masks/furniture_2.png",
+      "crop": null,
+      "description": "A light-colored wooden bookshelf with a simple, rectangular design is visible in the background, holding several books with white and dark spines. The bookshelf appears to be made of natural wood and has a clean, minimalist aesthetic.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "type": "bookshelf",
+        "contents": "books",
+        "style": "minimalist"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.95703125,
+      "box": [
+        8.5,
+        624.0,
+        228.0,
+        888.0
+      ],
+      "mask": "image_8.masks/furniture_3.png",
+      "crop": null,
+      "description": "A small, round side table made of light-colored wood with a smooth, natural finish. It features a circular top and three visible tapered legs that splay outward, connected by a lower circular stretcher for stability. The table is positioned on a light wooden floor next to a chair with a white cushion.",
+      "attributes": {
+        "type": "side table",
+        "material": "wood",
+        "color": "light brown",
+        "finish": "natural",
+        "shape": "round top",
+        "legs": {
+          "count": "3",
+          "style": "tapered",
+          "arrangement": "splayed"
+        },
+        "structure": "lower circular stretcher",
+        "position": "on floor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 4,
+      "score": 0.625,
+      "box": [
+        468.0,
+        182.0,
+        740.0,
+        346.0
+      ],
+      "mask": "image_8.masks/furniture_4.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair is shown in a close-up, looking downward with a calm and contemplative expression. She is wearing a light blue collared shirt, and a wooden bookshelf with books is visible in the blurred background.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "facial_features": {
+          "skin": "wrinkled",
+          "eyes": "looking down",
+          "expression": "calm, contemplative"
+        },
+        "clothing": {
+          "top": {
+            "type": "shirt",
+            "color": "light blue",
+            "collar": "visible"
+          }
+        },
+        "background": {
+          "object": "bookshelf",
+          "material": "wood",
+          "color": "light brown",
+          "contents": "books",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 5,
+      "score": 0.83984375,
+      "box": [
+        848.0,
+        560.0,
+        888.0,
+        600.0
+      ],
+      "mask": "image_8.masks/furniture_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        418.0,
+        148.0,
+        872.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair stands with her eyes closed and a calm expression, wearing a light blue button-down shirt with rolled sleeves and beige trousers. She holds a wooden cane in her right hand while a person in a blue uniform stands behind her with hands on her shoulders.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, wavy"
+        },
+        "clothing": {
+          "top": "light blue button-down shirt",
+          "sleeves": "rolled up",
+          "bottoms": "beige trousers",
+          "accessories": "thin gold necklace"
+        },
+        "pose": "standing, holding a wooden cane in right hand",
+        "expression": "eyes closed, serene",
+        "context": "being supported by a caregiver in blue scrubs"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        214.0,
+        80.0,
+        808.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with black hair tied back in a ponytail and wearing glasses is dressed in a light blue short-sleeved medical scrub set. She stands behind an elderly woman, placing her hands gently on the older woman's shoulders in a supportive pose while looking down at her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "thin metal frames"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub top with V-neck and chest pocket",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning slightly forward, hands on another person's shoulders",
+        "expression": "attentive, caring",
+        "role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        1.5,
+        2.0,
+        218.0,
+        560.0
+      ],
+      "mask": "image_8.masks/window_0.png",
+      "crop": null,
+      "description": "A white, multi-paned window with a grid pattern is visible, featuring a brass handle on the left side. In the foreground, a small vase containing orange and yellow flowers sits on the windowsill, appearing slightly out of focus against the bright, blurred background.",
+      "attributes": {
+        "frame_color": "white",
+        "pane_configuration": "grid",
+        "handle": {
+          "color": "brass",
+          "position": "left"
+        },
+        "foreground_object": {
+          "type": "vase",
+          "contents": "flowers",
+          "flower_colors": [
+            "orange",
+            "yellow"
+          ],
+          "focus": "blurred"
+        },
+        "lighting": "bright",
+        "background": "out_of_focus"
+      },
+      "parse_ok": true
+    }
+  ]
+}

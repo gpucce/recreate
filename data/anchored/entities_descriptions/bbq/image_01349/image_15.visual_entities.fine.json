@@ -1,0 +1,406 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        -1.5,
+        668.0,
+        104.5,
+        764.0
+      ],
+      "mask": "image_15.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's hand holding a black pen with a silver clip, poised to write. The person is wearing a light blue long-sleeved top, and the background features a blurred wooden desk surface.",
+      "attributes": {
+        "hand": {
+          "action": "holding pen",
+          "skin_tone": "light"
+        },
+        "pen": {
+          "color": "black",
+          "clip": "silver",
+          "type": "ballpoint"
+        },
+        "clothing": {
+          "sleeve": "light blue",
+          "material": "fabric"
+        },
+        "background": {
+          "object": "desk",
+          "material": "wood",
+          "color": "light brown",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        524.0,
+        844.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up view of a light wood-grain desk surface with rounded corners, featuring a white storage bin suspended underneath the tabletop. A silver laptop is partially visible on the desk surface, with a person's hand typing on the keyboard.",
+      "attributes": {
+        "material": "wood laminate",
+        "color": "light brown",
+        "shape": "rectangular with rounded corners",
+        "features": {
+          "under_table_storage": "white plastic bin",
+          "legs": "grey metal"
+        },
+        "objects_on_top": "silver laptop",
+        "context": "classroom or office setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.89453125,
+      "box": [
+        -1.0,
+        796.0,
+        316.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up view of two adjacent school desks featuring light wood-grain laminate tops and light gray metal frames. The desks have a boxy, integrated storage compartment underneath the surface and are supported by cylindrical metal legs. A person is seated at the left desk, with their legs in blue jeans visible beneath the desk and hands writing in an open notebook on the surface.",
+      "attributes": {
+        "object_type": "school desk",
+        "quantity": 2,
+        "top": {
+          "material": "wood laminate",
+          "color": "light brown",
+          "finish": "wood grain"
+        },
+        "frame": {
+          "material": "metal",
+          "color": "light gray",
+          "structure": "cylindrical legs"
+        },
+        "features": [
+          "under-desk storage box",
+          "integrated design"
+        ],
+        "context": {
+          "occupant": "person wearing blue jeans",
+          "activity": "writing in a notebook"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 3,
+      "score": 0.68359375,
+      "box": [
+        1012.0,
+        724.0,
+        1020.0,
+        764.0
+      ],
+      "mask": "image_15.masks/desk_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 4,
+      "score": 0.828125,
+      "box": [
+        318.0,
+        688.0,
+        434.0,
+        752.0
+      ],
+      "mask": "image_15.masks/desk_4.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a desk surface featuring a light wood edge and a dark gray top, with a black pen tip visible in the foreground and a person wearing a yellow garment partially visible on the right.",
+      "attributes": {
+        "desk": {
+          "edge": "light wood",
+          "surface": "dark gray",
+          "focus": "blurry"
+        },
+        "objects": {
+          "pen": {
+            "color": "black",
+            "position": "foreground"
+          }
+        },
+        "person": {
+          "clothing": {
+            "color": "yellow"
+          },
+          "position": "right side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 5,
+      "score": 0.93359375,
+      "box": [
+        162.0,
+        816.0,
+        624.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/desk_5.png",
+      "crop": null,
+      "description": "A close-up view of a school desk featuring a light wood-grain laminate top with rounded corners and a white plastic storage bin suspended underneath. A person's hand is visible writing in an open spiral-bound notebook on the surface, while the legs of the desk are made of grey metal.",
+      "attributes": {
+        "top": {
+          "material": "wood-grain laminate",
+          "color": "light brown",
+          "shape": "rectangular with rounded corners"
+        },
+        "storage": {
+          "type": "under-desk bin",
+          "material": "plastic",
+          "color": "white"
+        },
+        "legs": {
+          "material": "metal",
+          "color": "grey"
+        },
+        "objects_on_top": [
+          "open spiral notebook",
+          "hand writing"
+        ],
+        "function": "school furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 6,
+      "score": 0.734375,
+      "box": [
+        -0.75,
+        1000.0,
+        126.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/desk_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        764.0,
+        516.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian boy with short black hair sits at a wooden desk, looking down with a focused expression while typing on a silver laptop. He is wearing a dark blue zip-up hoodie with white drawstrings over a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "outer": {
+            "type": "hoodie",
+            "color": "dark blue",
+            "details": "zip-up, white drawstrings"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting",
+        "action": "typing on laptop",
+        "expression": "focused",
+        "object_interaction": "laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        19.0,
+        492.0,
+        324.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short dark hair sits at a wooden school desk, wearing a light blue denim shirt over a white t-shirt, focused on writing in an open notebook with a black pen. He has a calm, concentrated expression and is positioned in a classroom setting with a green wall and window in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "ethnicity": "East Asian",
+        "social_role": "student",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "neatly cut"
+        },
+        "clothing": {
+          "outer": "light blue denim shirt",
+          "inner": "white crew-neck t-shirt",
+          "pants": "dark blue jeans"
+        },
+        "pose": "sitting, leaning slightly forward, right hand holding pen, left hand resting on notebook",
+        "expression": "focused, neutral",
+        "accessories": {
+          "pen": "black"
+        },
+        "setting": "classroom",
+        "furniture": {
+          "desk": "wooden top, grey metal frame",
+          "chair": "partially visible, wooden seat"
+        },
+        "background": {
+          "wall": "pale green",
+          "window": "white-framed, letting in natural light"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.93359375,
+      "box": [
+        464.0,
+        213.0,
+        744.0,
+        724.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling young Asian woman with long dark hair stands behind a seated child, wearing a beige button-down shirt with sleeves rolled up, a black belt, and a black lanyard with an ID badge. She is looking down with a gentle expression, likely supervising or assisting the child who is using a laptop.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long"
+        },
+        "expression": "smiling",
+        "pose": "standing, leaning slightly forward",
+        "clothing": {
+          "shirt": {
+            "color": "beige",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "accessories": {
+            "lanyard": "black",
+            "badge": "white with text",
+            "belt": "black"
+          }
+        },
+        "social_role": "teacher or mentor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.96875,
+      "box": [
+        338.0,
+        532.0,
+        624.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_3.png",
+      "crop": null,
+      "description": "A young Asian girl with long dark hair is seated at a wooden desk, wearing a yellow long-sleeved shirt and dark pants. She is focused on writing in a spiral-bound notebook with a black pen, with a laptop partially visible to her right and an adult standing behind her.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "yellow"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "expression": "focused",
+        "accessories": {
+          "pen": "black"
+        },
+        "context": {
+          "setting": "classroom",
+          "objects": [
+            "notebook",
+            "laptop",
+            "desk"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        -0.5,
+        0.0,
+        140.0,
+        620.0
+      ],
+      "mask": "image_15.masks/window_0.png",
+      "crop": null,
+      "description": "A vertical section of a white-framed window with multiple rectangular panes, set against a light green wall. The window frame is thick and painted white, with visible mullions dividing the glass into smaller sections.",
+      "attributes": {
+        "frame_color": "white",
+        "wall_color": "light green",
+        "window_type": "multi-pane",
+        "material": "likely wood or vinyl",
+        "position": "vertical section",
+        "visible_parts": [
+          "frame",
+          "mullions",
+          "glass panes"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

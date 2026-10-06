@@ -1,0 +1,63 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "landmass",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        772.0,
+        648.0,
+        884.0,
+        800.0
+      ],
+      "mask": "image_2.masks/landmass_0.png",
+      "crop": null,
+      "description": "A vertically elongated, irregularly shaped island with a light beige landmass and a thin black outline, set against a light blue background representing water. The island has a narrow northern tip that extends upward and slightly to the left, a broader central section, and a southern portion that tapers toward the bottom. Several smaller, circular islands or islets are scattered around the main landmass, particularly to the left and bottom.",
+      "attributes": {
+        "shape": "elongated, irregular",
+        "color": {
+          "land": "light beige",
+          "water": "light blue",
+          "outline": "black"
+        },
+        "features": [
+          "narrow northern tip",
+          "broader central section",
+          "tapered southern end",
+          "surrounding smaller islands"
+        ],
+        "orientation": "vertical",
+        "type": "island"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass",
+      "index": 1,
+      "score": 0.68359375,
+      "box": [
+        458.0,
+        832.0,
+        736.0,
+        936.0
+      ],
+      "mask": "image_2.masks/landmass_1.png",
+      "crop": null,
+      "description": "A map of the island of Sri Lanka, depicted in a light beige color with a black outline, set against a light blue background representing the surrounding ocean. The island has a distinctive teardrop shape, with a small island visible to the east.",
+      "attributes": {
+        "shape": "teardrop",
+        "color": "light beige",
+        "outline": "black",
+        "background": "light blue",
+        "type": "island",
+        "name": "Sri Lanka",
+        "features": [
+          "small island to the east"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

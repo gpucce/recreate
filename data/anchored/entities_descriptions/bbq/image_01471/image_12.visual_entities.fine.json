@@ -1,0 +1,110 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        306.0,
+        206.0,
+        784.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with long wavy blonde hair hugs a young boy with curly light brown hair; she wears a blue and white vertical striped button-down shirt with rolled sleeves and blue jeans, while the boy wears a red t-shirt and blue jeans. They are positioned closely together in a warm embrace, with the woman's face resting near the boy's head.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "expression": "smiling",
+        "pose": "hugging",
+        "associated_person": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "light brown",
+            "texture": "curly"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "t-shirt",
+              "color": "red"
+            },
+            "pants": {
+              "type": "jeans",
+              "color": "blue"
+            }
+          },
+          "expression": "smiling"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        226.0,
+        112.0,
+        832.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with long wavy blonde hair hugs a young boy with curly light brown hair; both are wearing blue jeans, the woman in a blue and white striped button-down shirt and the boy in a red t-shirt, set against a bright indoor background with a plant and sofa.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Caucasian",
+        "social_role": "mother",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "hugging",
+        "position": "right side of frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

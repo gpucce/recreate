@@ -1,0 +1,146 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        516.0,
+        236.0,
+        996.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length blonde hair sits on a grey couch, wearing a light grey t-shirt and white pants. She has an expressive, slightly concerned or questioning facial expression with raised eyebrows and open mouth, while gesturing with both hands raised and palms facing inward as if explaining or asking something.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey",
+            "sleeve": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "white"
+          }
+        },
+        "pose": "sitting",
+        "expression": "concerned/questioning",
+        "gestures": "hands raised, palms inward",
+        "setting": "indoor, on a couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        46.0,
+        238.0,
+        584.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with wavy brown hair sits on a gray couch, wearing a white t-shirt and light beige pants, gesturing with both hands while looking to the side with an angry or frustrated expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "light beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "angry or frustrated",
+        "action": "gesturing with hands",
+        "location": "on a gray couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        884.0,
+        288.0,
+        1024.0,
+        404.0
+      ],
+      "mask": "image_1.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green plant with broad leaves is visible against a plain white background, with the stem and base appearing indistinct and light-colored.",
+      "attributes": {
+        "focus": "blurry",
+        "color": "green",
+        "leaves": "broad",
+        "background": "white",
+        "stem": "indistinct",
+        "pot": "light-colored"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        -1.75,
+        306.0,
+        99.0,
+        402.0
+      ],
+      "mask": "image_1.masks/plant_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green houseplant with long, slender leaves radiating from a central point, set against a plain, light-colored background.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "leaf_shape": "long and slender",
+        "arrangement": "radiating",
+        "background": "light-colored",
+        "type": "houseplant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        492.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/sofa_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A gray fabric sofa with a textured, woven appearance, featuring two large back cushions and two armrests, partially visible on the left and right sides. The sofa is occupied by two individuals seated side by side, with their legs and torsos resting on the seat cushions.\", \"attributes\": {\"color\": \"gray\", \"material\": \"fabric\", \"texture\": \"woven\", \"cushions\": {\"back\": \"two large rectangular cushions\", \"seat\": \"two wide seat cushions\", \"armrests\": \"two padded armrests, partially visible\"}, \"position\": \"horizontal, facing forward\", \"occupants\": \"two people seated side by side\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

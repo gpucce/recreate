@@ -1,0 +1,128 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        40.0,
+        484.0,
+        820.0,
+        868.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of an adult, likely a mother, wearing a light blue long-sleeved top, holding a baby dressed in a white long-sleeved bodysuit and white tights. The baby has light brown hair and blue eyes, looking to the side with a calm expression, while the adult's hand rests gently on the baby's midsection.",
+      "attributes": {
+        "entity_type": "person",
+        "count": 2,
+        "adult": {
+          "gender": "female",
+          "clothing": {
+            "top": "light blue long-sleeved shirt"
+          },
+          "action": "holding baby"
+        },
+        "baby": {
+          "age": "infant",
+          "hair": "light brown",
+          "eyes": "blue",
+          "clothing": {
+            "top": "white long-sleeved bodysuit",
+            "bottom": "white tights"
+          },
+          "pose": "lying down, being held",
+          "expression": "calm, looking to the side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        -4.0,
+        186.0,
+        1012.0,
+        856.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark curly hair and a light complexion lies on a beige couch, cradling a baby in her arms. She wears a light blue long-sleeved top and has a gentle, affectionate expression with her eyes closed, resting her head near the baby's head.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "mixed/indeterminate",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": {
+            "color": "light blue",
+            "sleeves": "long",
+            "material": "soft fabric"
+          }
+        },
+        "pose": "lying down, holding a baby",
+        "expression": "content, eyes closed",
+        "position": "on a couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        96.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/sofa_0.png",
+      "crop": null,
+      "description": "A woman with curly dark hair and a baby are lying on a light beige fabric sofa. The woman is wearing a light blue long-sleeved top and is holding the baby, who is dressed in a white long-sleeved outfit and white socks.",
+      "attributes": {
+        "sofa": {
+          "color": "light beige",
+          "material": "fabric",
+          "type": "couch"
+        },
+        "woman": {
+          "hair": {
+            "color": "dark brown",
+            "style": "curly"
+          },
+          "clothing": {
+            "top": {
+              "color": "light blue",
+              "sleeves": "long"
+            }
+          },
+          "pose": "lying down",
+          "expression": "smiling, eyes closed"
+        },
+        "baby": {
+          "clothing": {
+            "top": {
+              "color": "white",
+              "sleeves": "long"
+            },
+            "bottom": {
+              "color": "white"
+            },
+            "footwear": "white socks"
+          },
+          "pose": "lying down, being held",
+          "expression": "looking at camera"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

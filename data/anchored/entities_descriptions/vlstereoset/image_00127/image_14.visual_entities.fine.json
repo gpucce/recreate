@@ -1,0 +1,121 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        366.0,
+        0.0,
+        1016.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with a short black bob and wispy bangs looks directly at the camera with a neutral expression, holding a single red rose near her face. She wears a black top featuring a sheer mesh overlay on the shoulders and neckline, paired with bold red lipstick.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "makeup": {
+          "lipstick": "red",
+          "eyes": "defined"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer mesh overlay",
+            "neckline": "round"
+          }
+        },
+        "accessories": {
+          "held_object": "red rose"
+        },
+        "pose": "holding flower near face",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        206.0,
+        2.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian woman with a short black bob and bangs holds a single red rose near her face, wearing a black sheer mesh top over a black camisole. She has fair skin, red lipstick, and a neutral expression while looking directly at the camera against a plain white background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "makeup": {
+          "lipstick": "red",
+          "skin": "fair"
+        },
+        "clothing": {
+          "top": "black sheer mesh",
+          "underlayer": "black camisole"
+        },
+        "accessories": {
+          "held_object": "red rose"
+        },
+        "pose": "holding flower near face",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        364.0,
+        628.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/top_0.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a sheer black top with a solid black underlayer, featuring a round neckline and long sleeves. The person is holding a green stem in their hand, with only the lower part of their face and neck visible.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer fabric",
+            "neckline": "round",
+            "sleeves": "long"
+          },
+          "underlayer": {
+            "color": "black",
+            "type": "solid"
+          }
+        },
+        "pose": "holding a green stem",
+        "visible_parts": [
+          "neck",
+          "shoulders",
+          "upper chest",
+          "hand"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        280.0,
+        620.0,
+        472.0,
+        940.0
+      ],
+      "mask": "image_15.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a child riding a black bicycle on a dirt surface, showing the front wheel, handlebars, and the rider's legs and feet. The bicycle has a simple frame with a visible chain guard and a front fender, and the rider is wearing a pink top, a patterned skirt, and brown sandals.",
+      "attributes": {
+        "bicycle": {
+          "color": "black",
+          "frame": "simple, with a chain guard",
+          "wheels": "white tires, visible spokes",
+          "handlebars": "silver, with black grips",
+          "fender": "black, over the front wheel"
+        },
+        "rider": {
+          "clothing": {
+            "top": "pink",
+            "skirt": "colorful patterned",
+            "footwear": "brown sandals"
+          },
+          "pose": "riding, with one foot on the pedal and the other on the ground",
+          "skin_tone": "dark brown"
+        },
+        "environment": {
+          "surface": "dirt, with visible texture and small rocks"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        500.0,
+        506.0,
+        764.0,
+        604.0
+      ],
+      "mask": "image_15.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A large, coarse burlap sack is being carried on the shoulders of a young boy, appearing full and heavy with a light tan, woven texture. The sack is positioned horizontally across the upper back, with the boy's hands gripping the fabric on either side to secure it.",
+      "attributes": {
+        "material": "burlap",
+        "color": "light tan",
+        "texture": "coarse, woven",
+        "shape": "bulky, elongated",
+        "state": "full, heavy",
+        "position": "on shoulders",
+        "function": "carrying goods"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        556.0,
+        500.0,
+        748.0,
+        932.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black boy with short hair is running forward on a dirt path, carrying a large, flat, light-brown object on his shoulders. He is wearing a bright yellow polo shirt with a dark collar, dark blue shorts, and brown slip-on shoes, and he has a wide, joyful smile on his face.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "expression": "smiling",
+        "pose": "running",
+        "clothing": {
+          "top": "yellow polo shirt",
+          "bottom": "dark blue shorts",
+          "footwear": "brown slip-on shoes"
+        },
+        "accessories": {
+          "carrying": "large flat object on shoulders"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        284.0,
+        468.0,
+        476.0,
+        820.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling young Black girl with an orange headscarf rides a black bicycle, wearing a bright pink t-shirt and a colorful patterned skirt. She is positioned in the center of the frame, facing forward with a joyful expression, against a blurred background of dry, reddish-brown earth and distant trees.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "expression": "smiling",
+        "pose": "sitting on bicycle, hands on handlebars",
+        "clothing": {
+          "top": "pink short-sleeved t-shirt",
+          "bottom": "colorful patterned skirt",
+          "headwear": "orange headscarf",
+          "footwear": "brown sandals"
+        },
+        "accessories": {
+          "bicycle": "black frame, silver handlebars, black tires"
+        },
+        "background": "dry, arid landscape with reddish soil and sparse trees"
+      },
+      "parse_ok": true
+    }
+  ]
+}

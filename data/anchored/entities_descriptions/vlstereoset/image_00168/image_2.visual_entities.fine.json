@@ -1,0 +1,378 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        808.0,
+        46.0,
+        968.0,
+        768.0
+      ],
+      "mask": "image_2.masks/flag_0.png",
+      "crop": null,
+      "description": "A red flag with a large yellow star in the upper left corner and four smaller yellow stars arranged in an arc to its right, mounted on a pole with a golden finial, displayed indoors against a dark red background.",
+      "attributes": {
+        "flag": {
+          "color": "red",
+          "stars": {
+            "large_star": "yellow, upper left",
+            "small_stars": "four yellow stars in an arc to the right of the large star"
+          },
+          "pole": "golden finial visible at top",
+          "background": "dark red wall",
+          "position": "vertical, hanging from pole",
+          "material": "fabric, slightly wrinkled"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        952.0,
+        104.0,
+        1024.0,
+        760.0
+      ],
+      "mask": "image_2.masks/flag_1.png",
+      "crop": null,
+      "description": "A close-up view of a flag with horizontal stripes in red, white, and blue, displayed against a dark background. The fabric appears to have a slight texture and is positioned vertically.",
+      "attributes": {
+        "flag": {
+          "colors": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "pattern": "horizontal stripes",
+          "material": "fabric",
+          "position": "vertical"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        124.5,
+        48.0,
+        276.0,
+        768.0
+      ],
+      "mask": "image_2.masks/flag_2.png",
+      "crop": null,
+      "description": "A red flag with a large yellow star in the upper left corner and four smaller yellow stars arranged in an arc to its right, mounted on a pole with a golden finial, partially visible next to a person in a dark suit.",
+      "attributes": {
+        "flag": {
+          "color": "red",
+          "stars": {
+            "large_star": "yellow, upper left",
+            "small_stars": "four yellow stars in an arc to the right of the large star"
+          },
+          "pole": "golden finial visible at top"
+        },
+        "person": {
+          "clothing": "dark suit",
+          "position": "partially visible on the right side of the frame"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 3,
+      "score": 0.94921875,
+      "box": [
+        -1.5,
+        42.0,
+        146.0,
+        760.0
+      ],
+      "mask": "image_2.masks/flag_3.png",
+      "crop": null,
+      "description": "{\"description\": \"A vertical flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag is attached to a pole with a golden finial at the top and appears to be made of fabric, slightly draped.\", \"attributes\": {\"colors\": [\"white\", \"blue\", \"red\"], \"orientation\": \"vertical\", \"pole\": \"golden finial\", \"material\": \"fabric\", \"draping\": \"slight\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "flag",
+      "index": 4,
+      "score": 0.9296875,
+      "box": [
+        282.0,
+        48.0,
+        406.0,
+        448.0
+      ],
+      "mask": "image_2.masks/flag_4.png",
+      "crop": null,
+      "description": "A partial view of a flag featuring a white upper section and a blue lower section, hanging vertically with soft folds in the fabric. The flag is positioned in the background behind a man, with a red wall and gold decorative elements visible to the sides.",
+      "attributes": {
+        "colors": [
+          "white",
+          "blue"
+        ],
+        "orientation": "vertical",
+        "material": "fabric",
+        "position": "background",
+        "state": "hanging"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 5,
+      "score": 0.95703125,
+      "box": [
+        668.0,
+        54.0,
+        788.0,
+        470.0
+      ],
+      "mask": "image_2.masks/flag_5.png",
+      "crop": null,
+      "description": "A vertical tricolor flag featuring horizontal bands of white on top, blue in the middle, and red on the bottom, hanging in soft folds against a reddish-brown wall with a gold decorative column to the right.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "bands": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "material": "fabric",
+          "texture": "draped",
+          "position": "background",
+          "identity": "Russian flag"
+        },
+        "background": {
+          "wall_color": "reddish-brown",
+          "decorative_element": "gold column"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        440.0,
+        338.0,
+        848.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, light brown hair and a fair complexion stands facing forward, wearing a formal black suit, white dress shirt, and a dark purple tie. He is shaking hands with another person whose arm is visible on the left, with a neutral expression on his face, positioned in front of a white marble table with gold detailing and flags in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "black",
+            "type": "formal"
+          },
+          "shirt": {
+            "color": "white"
+          },
+          "tie": {
+            "color": "dark purple"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "neutral",
+        "background": {
+          "table": {
+            "material": "marble",
+            "color": "white",
+            "detailing": "gold"
+          },
+          "flags": [
+            "blue and white",
+            "red with yellow star"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        223.0,
+        298.0,
+        496.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged Asian man with short, dark hair stands smiling while shaking hands with another person, wearing a dark navy suit jacket over a white collared shirt and a purple tie. He is positioned in front of a red and yellow flag and a blue flag, with a white marble table featuring gold ornate detailing in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "swept back"
+        },
+        "facial_hair": "clean shaven",
+        "expression": "smiling",
+        "clothing": {
+          "jacket": {
+            "type": "suit",
+            "color": "dark blue",
+            "buttons": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "visible"
+          },
+          "tie": {
+            "color": "purple",
+            "pattern": "solid"
+          },
+          "pants": {
+            "color": "black"
+          }
+        },
+        "pose": {
+          "action": "shaking hands",
+          "orientation": "standing, facing right"
+        },
+        "background": {
+          "flags": [
+            "red with yellow stars",
+            "blue"
+          ],
+          "furniture": "white table with gold trim"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.83203125,
+      "box": [
+        408.0,
+        142.0,
+        624.0,
+        382.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A white marble bust of a classical male figure with wavy hair and a draped garment, positioned centrally against a solid dark red background. The bust is out of focus, while the top of a person's head with dark hair is visible in the bottom left corner.",
+      "attributes": {
+        "entity_type": "sculpture",
+        "material": "white marble",
+        "subject": "male",
+        "hair": "wavy, short",
+        "clothing": "draped toga or robe",
+        "pose": "bust, facing forward",
+        "background": "dark red",
+        "focus": "blurred",
+        "foreground_elements": "partial head of a person (bottom left)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.515625,
+      "box": [
+        776.0,
+        -4.0,
+        1008.0,
+        804.0
+      ],
+      "mask": "image_2.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up view of a red wall with a smooth, matte finish, partially obscured by a person in a black suit and two flags, one of which is the Chinese flag with a large yellow star and four smaller stars, and the other is the Russian flag with blue, white, and red stripes.",
+      "attributes": {
+        "wall_color": "red",
+        "wall_texture": "smooth",
+        "flags": {
+          "chinese_flag": {
+            "color": "red",
+            "stars": "yellow",
+            "position": "center"
+          },
+          "russian_flag": {
+            "colors": [
+              "blue",
+              "white",
+              "red"
+            ],
+            "position": "right"
+          }
+        },
+        "person": {
+          "clothing": "black suit",
+          "position": "left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.66796875,
+      "box": [
+        4.0,
+        0.0,
+        1016.0,
+        828.0
+      ],
+      "mask": "image_2.masks/wall_1.png",
+      "crop": null,
+      "description": "Two men, one in a dark blue suit with a purple tie and the other in a black suit with a maroon tie, are shaking hands in front of a red wall adorned with alternating Russian and Chinese flags and a white bust on a pedestal.",
+      "attributes": {
+        "background": {
+          "wall_color": "red",
+          "flags": [
+            "Russian flag",
+            "Chinese flag"
+          ],
+          "bust": {
+            "color": "white",
+            "material": "marble",
+            "position": "center"
+          }
+        },
+        "men": [
+          {
+            "suit": "dark blue",
+            "tie": "purple",
+            "hair": "black",
+            "expression": "smiling"
+          },
+          {
+            "suit": "black",
+            "tie": "maroon",
+            "hair": "light brown",
+            "expression": "neutral"
+          }
+        ],
+        "action": "handshake"
+      },
+      "parse_ok": true
+    }
+  ]
+}

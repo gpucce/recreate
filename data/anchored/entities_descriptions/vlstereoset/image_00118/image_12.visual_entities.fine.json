@@ -1,0 +1,426 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        452.0,
+        184.0,
+        580.0,
+        256.0
+      ],
+      "mask": "image_12.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story building with a light-colored exterior and a reddish-brown pitched roof, featuring a covered balcony on the upper level supported by white columns, surrounded by green foliage.",
+      "attributes": {
+        "structure": "two-story",
+        "roof": {
+          "color": "reddish-brown",
+          "style": "pitched"
+        },
+        "exterior": {
+          "color": "light",
+          "material": "indeterminate"
+        },
+        "balcony": {
+          "location": "upper level",
+          "support": "white columns"
+        },
+        "surroundings": "green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        -2.0,
+        58.0,
+        704.0,
+        270.0
+      ],
+      "mask": "image_12.masks/hillside_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A lush, green hillside covered in dense vegetation and trees rises in the background, with a few palm trees and a white building with a red roof visible at its base. The hillside is slightly blurred, suggesting it is in the distance, and the sky above is clear and blue.\", \"attributes\": {\"vegetation\": \"dense, green\", \"trees\": \"palm trees, other types\", \"building\": {\"color\": \"white\", \"roof\": \"red\"}, \"sky\": \"clear, blue\", \"focus\": \"slightly blurred\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.796875,
+      "box": [
+        -4.0,
+        58.0,
+        700.0,
+        274.0
+      ],
+      "mask": "image_12.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A lush, green hillside covered in dense vegetation and trees rises in the background, with a white building featuring a reddish-brown roof situated at its base near a sandy beach. Palm trees and other tropical foliage are visible in the foreground, partially obscuring the view of the building and the lower part of the hill.",
+      "attributes": {
+        "vegetation": "dense, green, tropical",
+        "building": {
+          "color": "white",
+          "roof_color": "reddish-brown",
+          "location": "base of hill"
+        },
+        "terrain": "hilly",
+        "foreground_elements": [
+          "palm trees",
+          "sandy beach",
+          "tropical foliage"
+        ],
+        "sky": "clear, blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.89453125,
+      "box": [
+        112.0,
+        274.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "A young girl with long, wavy dark brown hair is running away from the camera along the wet edge of a sandy beach, wearing a bright blue one-piece swimsuit with ruffled straps. Her right foot is lifted mid-stride, kicking up a small spray of sand, while the turquoise ocean waves break to her left and blurred beachgoers sit on lounge chairs in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "swimsuit": {
+            "type": "one-piece",
+            "color": "blue",
+            "details": "ruffled straps"
+          }
+        },
+        "pose": "running away from camera",
+        "location": "beach shoreline",
+        "environment": {
+          "water": "turquoise",
+          "sand": "light beige",
+          "background": "beachgoers on lounge chairs"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.58984375,
+      "box": [
+        664.0,
+        276.0,
+        688.0,
+        336.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.5625,
+      "box": [
+        576.0,
+        276.0,
+        584.0,
+        300.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        368.0,
+        300.0,
+        624.0,
+        884.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with long, wavy dark brown hair is running away from the camera on a sandy beach, wearing a bright blue one-piece swimsuit with ruffled straps. Her back is turned, and her hair is blowing in the wind as she moves toward the ocean in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy, blowing in wind"
+        },
+        "clothing": {
+          "type": "one-piece swimsuit",
+          "color": "bright blue",
+          "details": "ruffled shoulder straps, side ties"
+        },
+        "pose": "running away from camera",
+        "location": "beach",
+        "background": "ocean waves, sand",
+        "skin_tone": "light tan"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.95703125,
+      "box": [
+        784.0,
+        302.0,
+        952.0,
+        450.0
+      ],
+      "mask": "image_12.masks/person_3.png",
+      "crop": null,
+      "description": "A woman with dark hair is sitting on a blue and white lounge chair on a sandy beach, reading a book or magazine. She is wearing a blue swimsuit and is positioned in profile facing left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark",
+          "length": "short"
+        },
+        "clothing": {
+          "swimsuit": {
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "activity": "reading",
+        "object_held": "book or magazine",
+        "furniture": {
+          "type": "lounge chair",
+          "color": "blue and white"
+        },
+        "location": "beach"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.640625,
+      "box": [
+        692.0,
+        282.0,
+        732.0,
+        326.0
+      ],
+      "mask": "image_12.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.83984375,
+      "box": [
+        720.0,
+        298.0,
+        776.0,
+        370.0
+      ],
+      "mask": "image_12.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.5078125,
+      "box": [
+        776.0,
+        300.0,
+        816.0,
+        344.0
+      ],
+      "mask": "image_12.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        33.5,
+        244.0,
+        76.0,
+        268.0
+      ],
+      "mask": "image_12.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.7421875,
+      "box": [
+        184.0,
+        250.0,
+        238.0,
+        278.0
+      ],
+      "mask": "image_12.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 2,
+      "score": 0.6484375,
+      "box": [
+        114.0,
+        228.0,
+        198.0,
+        274.0
+      ],
+      "mask": "image_12.masks/rocky outcrop_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 3,
+      "score": 0.68359375,
+      "box": [
+        -1.5625,
+        245.0,
+        27.0,
+        266.0
+      ],
+      "mask": "image_12.masks/rocky outcrop_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 4,
+      "score": 0.73046875,
+      "box": [
+        69.0,
+        237.0,
+        124.0,
+        274.0
+      ],
+      "mask": "image_12.masks/rocky outcrop_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        48.0,
+        274.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/sand_0.png",
+      "crop": null,
+      "description": "A young girl with long, wavy brown hair is running away from the camera along the shoreline of a beach. She is wearing a bright blue one-piece swimsuit with ruffled straps and is barefoot, with her right foot lifted off the sand, kicking up a small cloud of sand particles.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy, flowing"
+        },
+        "clothing": {
+          "swimsuit": {
+            "color": "blue",
+            "type": "one-piece",
+            "details": "ruffled straps"
+          }
+        },
+        "pose": "running, back facing camera",
+        "location": "beach shoreline",
+        "action": "kicking up sand with foot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        4.0,
+        1.0,
+        956.0,
+        171.0
+      ],
+      "mask": "image_12.masks/sky_0.png",
+      "crop": null,
+      "description": "The sky is a clear, light blue expanse with no visible clouds, occupying the upper portion of the image above a green, tree-covered hill and palm trees.",
+      "attributes": {
+        "color": "light blue",
+        "clarity": "clear",
+        "clouds": "none visible",
+        "position": "upper portion of the image"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        -3.0,
+        276.0,
+        492.0,
+        604.0
+      ],
+      "mask": "image_12.masks/water_0.png",
+      "crop": null,
+      "description": "The water is a vibrant turquoise color, transitioning to a lighter shade near the shore where small waves are breaking. The surface of the water is relatively calm, with gentle ripples and white foam from the waves.",
+      "attributes": {
+        "color": "turquoise",
+        "state": "calm with small waves",
+        "foam": "white",
+        "shoreline": "sandy beach visible in the background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

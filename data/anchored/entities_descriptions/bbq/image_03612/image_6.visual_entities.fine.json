@@ -1,0 +1,117 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        576.0,
+        214.0,
+        1024.0,
+        872.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length blonde hair sits at a desk, looking down at a laptop with a tired and stressed expression. She is wearing a dark blue and red plaid flannel shirt and rests her head on her left hand while her right arm rests on the table.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "expression": "tired, stressed, frowning",
+        "pose": "sitting, head resting on hand",
+        "clothing": {
+          "shirt": {
+            "type": "flannel",
+            "pattern": "plaid",
+            "colors": [
+              "dark blue",
+              "red"
+            ]
+          }
+        },
+        "context": "working at a desk with a laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        40.0,
+        158.0,
+        528.0,
+        872.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair is seated at a desk, wearing a light pink button-down shirt. She has a furrowed brow and a focused, slightly concerned expression while writing in a spiral-bound notebook with a black pen.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, voluminous"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "material": "cotton or silk blend"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "expression": "concentrated, furrowed brow",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": "black",
+          "notebook": "spiral-bound, white pages"
+        },
+        "setting": "indoor, office or study environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        2.0,
+        844.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a white table surface with two silver laptops and a person's hands writing in a spiral-bound notebook. The person is wearing a dark blue shirt, and their hands are positioned over the notebook, holding a black pen. The laptops are open, with one on the left and one on the right, partially visible in the frame.",
+      "attributes": {
+        "table": {
+          "color": "white",
+          "material": "smooth surface"
+        },
+        "laptops": {
+          "color": "silver",
+          "position": "left and right sides of the table"
+        },
+        "notebook": {
+          "binding": "spiral",
+          "color": "white pages"
+        },
+        "hands": {
+          "action": "writing",
+          "pen": "black"
+        },
+        "clothing": {
+          "shirt": "dark blue"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

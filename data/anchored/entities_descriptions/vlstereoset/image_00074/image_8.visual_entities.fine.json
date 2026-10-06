@@ -1,0 +1,515 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        6.0,
+        290.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/ground_0.png",
+      "crop": null,
+      "description": "A gray concrete sidewalk surface with a rough, speckled texture, partially covered by a red, fuzzy blanket and scattered with dry, brown autumn leaves.",
+      "attributes": {
+        "material": "concrete",
+        "color": "gray",
+        "texture": "rough, speckled",
+        "surface": "flat",
+        "debris": "brown autumn leaves",
+        "objects_on_surface": "red blanket, colorful blocks, pink toy horse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        852.0,
+        103.0,
+        1024.0,
+        260.0
+      ],
+      "mask": "image_8.masks/house_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a house with a light-colored exterior and a dark roof, featuring a prominent gable and a small porch area on the left side.",
+      "attributes": {
+        "structure": "house",
+        "roof": {
+          "color": "dark",
+          "style": "gable"
+        },
+        "exterior": {
+          "color": "light",
+          "material": "unknown"
+        },
+        "features": [
+          "porch",
+          "gable"
+        ],
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.921875,
+      "box": [
+        -1.0,
+        12.0,
+        135.0,
+        246.0
+      ],
+      "mask": "image_8.masks/house_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of the upper corner of a house featuring a dark gray pitched roof and light brown brick walls. White trim is visible along the roofline and around a window or door frame on the left, with a dark green bush visible in the lower right foreground.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray",
+          "style": "pitched"
+        },
+        "walls": {
+          "material": "brick",
+          "color": "light brown"
+        },
+        "trim": {
+          "color": "white"
+        },
+        "foreground": {
+          "object": "bush",
+          "color": "dark green"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 2,
+      "score": 0.5625,
+      "box": [
+        118.0,
+        110.5,
+        216.0,
+        206.0
+      ],
+      "mask": "image_8.masks/house_2.png",
+      "crop": null,
+      "description": "The image shows a blurry, out-of-focus section of a house, featuring a dark rectangular area that appears to be a window or door, surrounded by lighter, indistinct walls. The overall structure is obscured by the lack of clarity, making it difficult to discern specific architectural details or materials.",
+      "attributes": {
+        "structure": "house",
+        "visible_elements": [
+          "dark rectangular area (possibly window or door)",
+          "lighter surrounding walls"
+        ],
+        "clarity": "blurry",
+        "details": "indistinct due to lack of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 3,
+      "score": 0.76953125,
+      "box": [
+        680.0,
+        163.0,
+        776.0,
+        270.0
+      ],
+      "mask": "image_8.masks/house_3.png",
+      "crop": null,
+      "description": "The image shows a blurry, out-of-focus view of a house with a light-colored exterior wall and a dark roof. The details are indistinct due to the lack of focus, but the structure appears to be a typical residential building.",
+      "attributes": {
+        "structure": "house",
+        "exterior_wall_color": "light",
+        "roof_color": "dark",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 4,
+      "score": 0.7890625,
+      "box": [
+        119.5,
+        110.0,
+        270.0,
+        244.0
+      ],
+      "mask": "image_8.masks/house_4.png",
+      "crop": null,
+      "description": "The image is a heavily blurred crop showing the upper portion of a house with a dark, sloped roof and light-colored walls. The background features out-of-focus foliage and bright bokeh lights, suggesting an outdoor setting with sunlight filtering through trees.",
+      "attributes": {
+        "roof": {
+          "color": "dark brown or black",
+          "shape": "sloped"
+        },
+        "walls": {
+          "color": "light gray or white"
+        },
+        "background": {
+          "elements": [
+            "blurred trees",
+            "bokeh lights"
+          ],
+          "lighting": "bright, sunny"
+        },
+        "focus": "extremely blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        468.0,
+        260.0,
+        988.0,
+        844.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with light skin and brown hair sits cross-legged on a red blanket outdoors, wearing a navy blue puffer jacket with pink zipper trim and a pink, grey, and white striped beanie. The child is focused on stacking colorful wooden blocks, with a pink toy horse in the foreground.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "female",
+        "skin_tone": "light",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "hat": {
+            "type": "beanie",
+            "pattern": "striped",
+            "colors": [
+              "pink",
+              "grey",
+              "white"
+            ]
+          },
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "details": "pink zipper, pink inner lining"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "boots"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "activity": "playing with blocks",
+        "expression": "focused",
+        "accessories": {
+          "toys": [
+            "wooden blocks",
+            "pink toy horse"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        312.0,
+        102.0,
+        476.0,
+        520.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with dark hair is seen from behind, walking away on a paved path while wearing a bright pink puffy winter jacket and blue jeans. The background is out of focus, showing blurred autumn foliage and trees.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "pink",
+            "type": "puffer",
+            "style": "hooded"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "white and pink"
+          }
+        },
+        "pose": "walking away",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plush toy",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        640.0,
+        732.0,
+        824.0,
+        892.0
+      ],
+      "mask": "image_8.masks/plush toy_0.png",
+      "crop": null,
+      "description": "A small, pink plastic toy horse with a white mane and tail stands on a red textured surface. The toy has a simple, stylized design with a black eye and a smooth, glossy finish.",
+      "attributes": {
+        "color": "pink",
+        "material": "plastic",
+        "features": {
+          "mane": "white",
+          "tail": "white",
+          "eye": "black"
+        },
+        "pose": "standing",
+        "surface": "red textured fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        -3.0,
+        274.0,
+        324.0,
+        322.0
+      ],
+      "mask": "image_8.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a sidewalk or paved path with a light gray surface, bordered by green grass and possibly some yellowish vegetation or flowers. The image is heavily blurred, making it difficult to discern specific details about the texture or exact composition of the sidewalk.",
+      "attributes": {
+        "surface": "light gray",
+        "bordering": "green grass, yellowish vegetation",
+        "focus": "blurry",
+        "material": "paved"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        4.0,
+        340.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/sidewalk_1.png",
+      "crop": null,
+      "description": "A gray concrete sidewalk with a smooth, slightly textured surface, bordered by grass and scattered brown autumn leaves on both sides. A red blanket is spread on the sidewalk, with a child sitting on it playing with colorful blocks and a pink toy horse.",
+      "attributes": {
+        "material": "concrete",
+        "color": "gray",
+        "surface": "smooth, slightly textured",
+        "border": "grass and autumn leaves",
+        "objects_on_sidewalk": [
+          "red blanket",
+          "child",
+          "colorful blocks",
+          "pink toy horse"
+        ],
+        "season": "autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        584.0,
+        139.0,
+        648.0,
+        235.0
+      ],
+      "mask": "image_8.masks/tree_0.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus section of a tree with orange and brown foliage, suggesting autumn colors. The background is indistinct, with hints of green and white, possibly indicating other trees or sky.",
+      "attributes": {
+        "color": "orange, brown",
+        "focus": "blurred",
+        "season": "autumn",
+        "background": "indistinct, green, white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.73046875,
+      "box": [
+        780.0,
+        117.5,
+        868.0,
+        240.0
+      ],
+      "mask": "image_8.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with yellow and orange foliage, suggesting autumn colors, set against a background of indistinct light and dark patches.",
+      "attributes": {
+        "color": [
+          "yellow",
+          "orange",
+          "brown"
+        ],
+        "focus": "blurry",
+        "season": "autumn",
+        "background": "bokeh"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.68359375,
+      "box": [
+        253.0,
+        -1.0,
+        516.0,
+        220.0
+      ],
+      "mask": "image_8.masks/tree_2.png",
+      "crop": null,
+      "description": "A blurry tree with thin, dark branches and sparse, yellowish-brown leaves stands in the background, creating a bokeh effect with out-of-focus light spots.",
+      "attributes": {
+        "leaves": {
+          "color": "yellowish-brown",
+          "density": "sparse"
+        },
+        "branches": {
+          "color": "dark brown",
+          "thickness": "thin"
+        },
+        "focus": "blurry",
+        "season": "autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.76171875,
+      "box": [
+        744.0,
+        51.5,
+        824.0,
+        260.0
+      ],
+      "mask": "image_8.masks/tree_3.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurred tree with a mix of green and yellow foliage, set against a soft, out-of-focus background. The image captures the essence of autumn with its warm tones and natural setting.\", \"attributes\": {\"color\": {\"foliage\": [\"green\", \"yellow\"]}, \"focus\": \"blurred\", \"season\": \"autumn\", \"background\": \"out-of-focus\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.5625,
+      "box": [
+        252.0,
+        -3.0,
+        780.0,
+        324.0
+      ],
+      "mask": "image_8.masks/tree_4.png",
+      "crop": null,
+      "description": "A large deciduous tree with a thick, light brown trunk and bare branches extending upward, set against a blurred background of autumn foliage and a residential street.",
+      "attributes": {
+        "type": "deciduous",
+        "trunk": {
+          "color": "light brown",
+          "texture": "smooth",
+          "thickness": "thick"
+        },
+        "branches": {
+          "state": "bare",
+          "color": "dark brown"
+        },
+        "leaves": {
+          "presence": "sparse",
+          "color": "orange and yellow",
+          "season": "autumn"
+        },
+        "focus": "blurred",
+        "position": "center background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.59765625,
+      "box": [
+        500.0,
+        -1.0,
+        756.0,
+        324.0
+      ],
+      "mask": "image_8.masks/tree_5.png",
+      "crop": null,
+      "description": "A large, leafless tree with a thick, light brown trunk and numerous bare branches extending upward and outward, occupying the left side of the frame against a blurred background of a street scene.",
+      "attributes": {
+        "trunk": "thick, light brown, vertical",
+        "branches": "bare, thin, spreading",
+        "leaves": "none visible",
+        "position": "left side of frame",
+        "background": "blurred street scene with cars and buildings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.8359375,
+      "box": [
+        636.0,
+        138.0,
+        684.0,
+        258.0
+      ],
+      "mask": "image_8.masks/tree_6.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus view of a conical evergreen tree, likely a Christmas tree, characterized by dark green foliage and a vertical, triangular shape. The background consists of indistinct, soft bokeh circles in warm orange and cool blue tones, suggesting a festive or indoor setting with lights.",
+      "attributes": {
+        "type": "evergreen",
+        "shape": "conical",
+        "color": "dark green",
+        "focus": "blurred",
+        "background": "bokeh",
+        "background_colors": [
+          "orange",
+          "blue",
+          "white"
+        ],
+        "texture": "indistinct",
+        "function": "decorative"
+      },
+      "parse_ok": true
+    }
+  ]
+}

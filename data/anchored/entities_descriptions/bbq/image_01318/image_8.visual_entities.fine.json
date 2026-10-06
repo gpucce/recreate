@@ -1,0 +1,487 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        880.0,
+        680.0,
+        1024.0,
+        960.0
+      ],
+      "mask": "image_8.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's hand gripping the top edge of a dark blue upholstered chair back, which features a black frame and a silver metal base. The chair is positioned in an indoor setting, likely an office or classroom, with a wooden table surface visible in the foreground and another chair in the background.",
+      "attributes": {
+        "chair": {
+          "upholstery": {
+            "color": "dark blue",
+            "material": "fabric"
+          },
+          "frame": {
+            "color": "black",
+            "material": "plastic or metal"
+          },
+          "base": {
+            "color": "silver",
+            "material": "metal"
+          },
+          "type": "office or classroom chair"
+        },
+        "hand": {
+          "action": "gripping the top of the chair back",
+          "skin_tone": "light"
+        },
+        "background": {
+          "objects": [
+            "wooden table",
+            "another chair"
+          ],
+          "setting": "indoor"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        852.0,
+        760.0,
+        1004.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a person's hand resting on the top edge of a dark blue upholstered chair back, which features a black metal frame and a light wood desk surface attached to the side.",
+      "attributes": {
+        "chair": {
+          "upholstery": {
+            "color": "dark blue",
+            "material": "fabric"
+          },
+          "frame": {
+            "color": "black",
+            "material": "metal"
+          },
+          "desk": {
+            "color": "light wood",
+            "material": "wood"
+          }
+        },
+        "person": {
+          "hand": "resting on chair back",
+          "clothing": {
+            "sleeve": "yellow"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        11.0,
+        520.0,
+        476.0,
+        936.0
+      ],
+      "mask": "image_8.masks/computer_0.png",
+      "crop": null,
+      "description": "A black Dell desktop computer monitor is shown from the back, with its stand and a black keyboard and mouse placed in front of it on a wooden desk. An elderly woman with glasses is seated at the desk, pointing at the screen with her right index finger.",
+      "attributes": {
+        "brand": "Dell",
+        "color": "black",
+        "type": "desktop monitor",
+        "stand": "black, rectangular base",
+        "peripherals": {
+          "keyboard": "black",
+          "mouse": "black"
+        },
+        "surface": "wooden desk",
+        "person": {
+          "age": "elderly",
+          "gender": "female",
+          "clothing": {
+            "shirt": "pink",
+            "cardigan": "dark blue",
+            "sleeve": "yellow"
+          },
+          "accessories": {
+            "glasses": "yes"
+          },
+          "action": "pointing at screen"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.87890625,
+      "box": [
+        888.0,
+        476.0,
+        1024.0,
+        684.0
+      ],
+      "mask": "image_8.masks/computer_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a black computer monitor with a circular logo centered on the top bezel, positioned behind a person's arm wearing a grey long-sleeved shirt. The background is blurred, showing indistinct shapes of a desk and keyboard.",
+      "attributes": {
+        "object": "computer monitor",
+        "color": "black",
+        "bezel": "black",
+        "logo": "circular, centered on top bezel",
+        "focus": "blurred",
+        "position": "background",
+        "foreground": "person's arm in grey sleeve"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.71875,
+      "box": [
+        -0.875,
+        506.0,
+        63.5,
+        848.0
+      ],
+      "mask": "image_8.masks/computer_2.png",
+      "crop": null,
+      "description": "A close-up view of the rear and side profile of a black computer monitor, featuring a matte plastic casing with a horizontal ventilation slot near the top edge. The monitor is positioned on a light-colored wooden surface, with a black power adapter and cable visible at the base.",
+      "attributes": {
+        "object_type": "computer monitor",
+        "color": "black",
+        "material": "matte plastic",
+        "view_angle": "rear/side profile",
+        "features": [
+          "horizontal ventilation slot",
+          "power adapter",
+          "cable"
+        ],
+        "surface": "light wood desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 3,
+      "score": 0.90234375,
+      "box": [
+        32.25,
+        462.0,
+        126.0,
+        524.0
+      ],
+      "mask": "image_8.masks/computer_3.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a dark-colored computer monitor or screen with a faint, indistinct logo or reflection near the top center. The bottom edge of the screen is visible, showing a thin, light-colored bezel or frame.",
+      "attributes": {
+        "color": "dark gray or black",
+        "material": "likely plastic or glass",
+        "shape": "rectangular",
+        "position": "centered in the frame",
+        "clarity": "blurry",
+        "visible_features": [
+          "faint logo or reflection",
+          "thin light-colored bottom bezel"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 4,
+      "score": 0.8515625,
+      "box": [
+        237.0,
+        462.0,
+        360.0,
+        596.0
+      ],
+      "mask": "image_8.masks/computer_4.png",
+      "crop": null,
+      "description": "A black computer monitor is visible in the background, appearing out of focus with a dark screen and a faint, indistinct logo near the top center. The monitor is positioned behind a blurry foreground object, likely a chair back, and to the left of a person with white hair.",
+      "attributes": {
+        "color": "black",
+        "screen": "dark",
+        "focus": "blurred",
+        "logo": "faint, indistinct",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        956.0,
+        640.0,
+        1024.0,
+        784.0
+      ],
+      "mask": "image_8.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light-colored wooden desk surface with a black computer keyboard resting on it in the background. A person's hand is visible in the foreground, resting on the desk surface.",
+      "attributes": {
+        "desk": {
+          "material": "wood",
+          "color": "light brown",
+          "focus": "blurry"
+        },
+        "objects": {
+          "keyboard": {
+            "color": "black",
+            "position": "background",
+            "focus": "blurry"
+          }
+        },
+        "hand": {
+          "position": "foreground",
+          "action": "resting"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.6328125,
+      "box": [
+        292.0,
+        596.0,
+        320.0,
+        628.0
+      ],
+      "mask": "image_8.masks/desk_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.93359375,
+      "box": [
+        0.0,
+        744.0,
+        940.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/desk_2.png",
+      "crop": null,
+      "description": "A light-colored wooden desk surface holds a black computer monitor on a stand, a black keyboard, and a black wired mouse. A person wearing a yellow sweatshirt is seated at the desk with their hands resting on the surface near the keyboard, while another person's hands are visible in the background.",
+      "attributes": {
+        "desk": {
+          "material": "light wood",
+          "color": "beige",
+          "items": [
+            "black monitor",
+            "black keyboard",
+            "black wired mouse",
+            "black cables"
+          ]
+        },
+        "person_1": {
+          "clothing": {
+            "top": "yellow sweatshirt"
+          },
+          "pose": "seated, hands on desk"
+        },
+        "person_2": {
+          "clothing": {
+            "top": "dark blue shirt"
+          },
+          "pose": "seated, hands visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.66015625,
+      "box": [
+        872.0,
+        -0.375,
+        1024.0,
+        15.875
+      ],
+      "mask": "image_8.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        318.0,
+        38.75,
+        576.0,
+        103.0
+      ],
+      "mask": "image_8.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "A flat, diamond-shaped ceiling light fixture with a smooth, white diffuser surface is mounted flush against a plain, light brown ceiling. The fixture emits a soft, uniform white light, and its edges are slightly rounded.",
+      "attributes": {
+        "shape": "diamond",
+        "color": "white",
+        "material": "plastic or acrylic diffuser",
+        "mounting": "flush mount",
+        "light_color": "white",
+        "background_color": "light brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        300.0,
+        376.0,
+        580.0,
+        856.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair and wire-rimmed glasses smiles warmly while looking at a computer screen, wearing a dark blue cardigan over a light pink collared shirt. She is seated next to a younger woman who is pointing at the screen, and the older woman's hands rest on the desk near a keyboard.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "wire-rimmed",
+          "bracelet": "gold"
+        },
+        "clothing": {
+          "cardigan": "dark blue",
+          "shirt": "light pink collared"
+        },
+        "expression": "smiling",
+        "pose": "seated, looking at screen",
+        "action": "observing computer screen"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        470.0,
+        140.0,
+        1016.0,
+        840.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, straight black hair is seated, wearing a bright yellow hoodie with black drawstrings. She is smiling broadly, looking off to the left, with a small stud earring visible in her left ear.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "type": "hoodie",
+          "color": "yellow",
+          "details": "black drawstrings"
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "expression": "smiling",
+        "pose": "seated, looking left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.8671875,
+      "box": [
+        350.0,
+        392.0,
+        904.0,
+        952.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "A young Asian woman with long, straight black hair is seated at a wooden desk, wearing a bright yellow hoodie with black drawstrings. She is smiling and pointing with her right index finger toward a computer screen, positioned next to an older woman.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "yellow",
+            "details": "black drawstrings"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "seated, pointing with right hand",
+        "expression": "smiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        1.0,
+        214.0,
+        240.0,
+        402.0
+      ],
+      "mask": "image_8.masks/picture_0.png",
+      "crop": null,
+      "description": "A framed painting depicting a pastoral landscape with a winding river, green fields, trees, and a small house under a blue sky with clouds. The image is blurry, making fine details indistinct.",
+      "attributes": {
+        "frame": "wooden, light brown",
+        "subject": "landscape painting",
+        "elements": {
+          "river": "blue, winding",
+          "fields": "green and yellow",
+          "trees": "dark green, on the left",
+          "house": "small, red-roofed, on the right",
+          "sky": "blue with white clouds"
+        },
+        "style": "impressionistic or naive art",
+        "clarity": "blurry"
+      },
+      "parse_ok": true
+    }
+  ]
+}

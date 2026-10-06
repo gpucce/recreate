@@ -1,0 +1,197 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        532.0,
+        84.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy gray hair and a full gray beard sits on a wooden bench, wearing a distressed brown leather jacket over a rust-colored polo shirt and blue jeans. He has a serious, contemplative expression while looking off to the side with his hands clasped together in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "wavy, medium length"
+        },
+        "facial_hair": {
+          "type": "full beard and mustache",
+          "color": "gray"
+        },
+        "expression": "serious, contemplative",
+        "gaze": "looking to the right",
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "condition": "distressed, worn"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "rust orange"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": {
+          "action": "sitting",
+          "hands": "clasped in lap"
+        },
+        "setting": "indoor, sitting on a wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        42.0,
+        134.0,
+        600.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with dark, curly hair and light facial stubble sits on a wooden bench, wearing a teal t-shirt and beige pants. He has a distressed expression, looking down with his right hand covering his nose and mouth, while his left arm rests on his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "light stubble",
+        "expression": "distressed or sad",
+        "pose": "sitting, head down, hand covering face",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "skin": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.6796875,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/wall_0.png",
+      "crop": null,
+      "description": "Two men are sitting side by side on a wooden bench against a plain, light-colored wall. The man on the left has curly dark hair and is wearing a teal t-shirt and beige pants, with his hand covering his mouth in a gesture of distress or contemplation. The man on the right has gray hair and a beard, wearing a brown leather jacket over an orange polo shirt and blue jeans, with his hands clasped together and a serious expression.",
+      "attributes": {
+        "men": [
+          {
+            "gender": "male",
+            "age": "young adult",
+            "hair": "dark, curly",
+            "clothing": {
+              "shirt": "teal t-shirt",
+              "pants": "beige pants"
+            },
+            "pose": "sitting, hand covering mouth",
+            "expression": "distressed or contemplative"
+          },
+          {
+            "gender": "male",
+            "age": "middle-aged to older",
+            "hair": "gray, short",
+            "beard": "gray",
+            "clothing": {
+              "jacket": "brown leather",
+              "shirt": "orange polo",
+              "pants": "blue jeans"
+            },
+            "pose": "sitting, hands clasped",
+            "expression": "serious"
+          }
+        ],
+        "background": {
+          "wall": "light-colored, plain",
+          "bench": "wooden"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.6484375,
+      "box": [
+        2.0,
+        404.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/wall_1.png",
+      "crop": null,
+      "description": "Two men are sitting side by side on a wooden bench, with the man on the left wearing a teal t-shirt and khaki pants, and the man on the right wearing a brown leather jacket over an orange polo shirt and blue jeans. The man on the left has his hand on his chin, while the man on the right has his hands clasped together.",
+      "attributes": {
+        "clothing": {
+          "left_man": {
+            "shirt": "teal t-shirt",
+            "pants": "khaki pants"
+          },
+          "right_man": {
+            "jacket": "brown leather",
+            "shirt": "orange polo",
+            "pants": "blue jeans"
+          }
+        },
+        "pose": {
+          "left_man": "sitting with hand on chin",
+          "right_man": "sitting with hands clasped"
+        },
+        "setting": "wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.640625,
+      "box": [
+        0.0,
+        -3.0,
+        1020.0,
+        368.0
+      ],
+      "mask": "image_7.masks/wall_2.png",
+      "crop": null,
+      "description": "A plain, light beige wall with a smooth, matte finish serves as the background, featuring a white electrical switch or outlet plate in the upper right corner and a white baseboard trim running along the bottom edge.",
+      "attributes": {
+        "color": "light beige",
+        "material": "painted drywall",
+        "texture": "smooth",
+        "features": {
+          "top_right": "white electrical switch plate",
+          "bottom": "white baseboard trim"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

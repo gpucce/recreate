@@ -1,0 +1,260 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        0.0,
+        896.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A light-colored wooden desk with a visible grain pattern, featuring a stack of white papers in a blue binder on the left, a closed laptop in the center, and another stack of papers in a blue binder on the right.\", \"attributes\": {\"material\": \"wood\", \"color\": \"light brown\", \"surface\": \"smooth\", \"items\": {\"left\": \"stack of papers in blue binder\", \"center\": \"closed laptop\", \"right\": \"stack of papers in blue binder\"}, \"grain\": \"visible\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "file folder",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        676.0,
+        860.0,
+        1020.0,
+        948.0
+      ],
+      "mask": "image_1.masks/file folder_0.png",
+      "crop": null,
+      "description": "A stack of three blue file folders filled with white paper documents, placed on a light wooden surface. The folders are open, revealing the contents inside, and are stacked on top of each other.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic",
+        "contents": "white paper documents",
+        "position": "stacked on top of each other",
+        "surface": "light wooden surface",
+        "state": "open"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 1,
+      "score": 0.76171875,
+      "box": [
+        -2.5,
+        840.0,
+        214.0,
+        984.0
+      ],
+      "mask": "image_1.masks/file folder_1.png",
+      "crop": null,
+      "description": "A close-up view of a blue file folder with a white label area on the spine, containing multiple sheets of white paper. The folder is positioned horizontally, with the papers neatly aligned and visible from the side.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic",
+        "contents": "white paper",
+        "position": "horizontal",
+        "label_area": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 2,
+      "score": 0.68359375,
+      "box": [
+        668.0,
+        788.0,
+        1004.0,
+        892.0
+      ],
+      "mask": "image_1.masks/file folder_2.png",
+      "crop": null,
+      "description": "A thick, blue three-ring binder is filled with a large stack of white papers, held open by a person's hands. The binder is positioned on a reflective surface, with the person's dark clothing visible in the background.",
+      "attributes": {
+        "object": "file folder",
+        "type": "three-ring binder",
+        "color": "blue",
+        "contents": "white papers",
+        "quantity": "large stack",
+        "state": "open",
+        "held_by": "person",
+        "surface": "reflective",
+        "background": "dark clothing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 3,
+      "score": 0.6796875,
+      "box": [
+        22.625,
+        474.0,
+        77.5,
+        596.0
+      ],
+      "mask": "image_1.masks/file folder_3.png",
+      "crop": null,
+      "description": "A blue file folder with two white label tabs is visible in the background, slightly out of focus. In the foreground, a portion of a blue, textured object, possibly a piece of clothing or fabric, is prominently displayed.",
+      "attributes": {
+        "color": "blue",
+        "material": "paper",
+        "type": "file folder",
+        "tabs": "two white tabs",
+        "focus": "out of focus",
+        "foreground_object": "blue textured material"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 4,
+      "score": 0.578125,
+      "box": [
+        235.0,
+        310.0,
+        292.0,
+        362.0
+      ],
+      "mask": "image_1.masks/file folder_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        226.0,
+        704.0,
+        624.0,
+        936.0
+      ],
+      "mask": "image_1.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop is shown from the back, with its lid closed, resting on a wooden surface. The laptop has a smooth, metallic finish and a rectangular shape with rounded corners.",
+      "attributes": {
+        "color": "silver",
+        "material": "metallic",
+        "shape": "rectangular with rounded corners",
+        "state": "closed",
+        "position": "on a wooden surface",
+        "function": "portable computing device"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        536.0,
+        66.0,
+        1024.0,
+        816.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with gray hair and a goatee, wearing glasses, a dark suit, and a red and white striped tie, leans forward to point at a laptop screen while resting his other hand on a blue binder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "swept back"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "style": "goatee"
+        },
+        "accessories": {
+          "glasses": "rimless",
+          "watch": "silver with brown leather strap"
+        },
+        "clothing": {
+          "jacket": "dark blue suit",
+          "shirt": "white dress shirt",
+          "tie": "red and white diagonal stripes",
+          "pants": "dark blue"
+        },
+        "pose": "leaning forward, pointing with right index finger",
+        "expression": "focused",
+        "action": "pointing at a laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        54.0,
+        304.0,
+        544.0,
+        888.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with wavy brown hair sits at a desk wearing a dark blue pinstripe suit, white shirt, and red striped tie, holding his head in his hands with a distressed expression while facing a laptop.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "dark blue",
+            "pattern": "pinstripe"
+          },
+          "shirt": {
+            "color": "white"
+          },
+          "tie": {
+            "color": "red and white",
+            "pattern": "striped"
+          }
+        },
+        "pose": "sitting, head in hands",
+        "expression": "distressed, stressed",
+        "context": "office setting, laptop visible in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shelving unit",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        2.0,
+        122.0,
+        310.0,
+        856.0
+      ],
+      "mask": "image_1.masks/shelving unit_0.png",
+      "crop": null,
+      "description": "A light-colored wooden shelving unit stands in the background, featuring multiple open shelves holding stacks of white papers and blue ring binders. The unit has a simple, clean design with a pale finish, possibly white or light beige, and is positioned behind a person in a business suit.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige or white",
+        "structure": "open shelving",
+        "contents": [
+          "stacks of white papers",
+          "blue ring binders"
+        ],
+        "position": "background",
+        "function": "storage"
+      },
+      "parse_ok": true
+    }
+  ]
+}

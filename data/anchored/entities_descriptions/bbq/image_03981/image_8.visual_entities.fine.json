@@ -1,0 +1,416 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "calculator",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        270.0,
+        824.0,
+        454.0,
+        872.0
+      ],
+      "mask": "image_8.masks/calculator_0.png",
+      "crop": null,
+      "description": "A black, rectangular calculator with a keypad of white buttons is positioned on a light-colored surface, viewed from a low angle that emphasizes its side profile and the top row of buttons.",
+      "attributes": {
+        "color": "black",
+        "shape": "rectangular",
+        "buttons": "white",
+        "material": "plastic",
+        "position": "on a surface",
+        "angle": "low angle view",
+        "function": "calculation"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.66015625,
+      "box": [
+        632.0,
+        776.0,
+        744.0,
+        928.0
+      ],
+      "mask": "image_8.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A white disposable paper coffee cup with a matching white plastic lid sits in the foreground, appearing slightly out of focus. The cup has a cylindrical shape with a smooth surface and is positioned in front of a blurred red notebook with a black spiral binding.",
+      "attributes": {
+        "color": "white",
+        "material": "paper",
+        "lid": {
+          "color": "white",
+          "material": "plastic",
+          "type": "disposable"
+        },
+        "shape": "cylindrical",
+        "focus": "blurry",
+        "background": {
+          "object": "notebook",
+          "color": "red",
+          "binding": "black spiral"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.5078125,
+      "box": [
+        592.0,
+        2.0,
+        984.0,
+        528.0
+      ],
+      "mask": "image_8.masks/glass_0.png",
+      "crop": null,
+      "description": "A young woman with long, straight blonde hair is shown in profile facing left, wearing a white collared shirt and a small gold hoop earring. She has a neutral expression and is positioned in a modern office setting with blurred glass partitions and overhead lighting in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": "white collared"
+        },
+        "accessories": {
+          "earring": "small gold hoop"
+        },
+        "pose": "profile view facing left",
+        "expression": "neutral",
+        "background": "modern office with glass partitions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.65234375,
+      "box": [
+        -1.0,
+        -2.0,
+        238.0,
+        640.0
+      ],
+      "mask": "image_8.masks/glass_1.png",
+      "crop": null,
+      "description": "A close-up, partial view of a person with curly brown hair wearing a grey suit jacket, seated in an office environment with a black mesh chair and a laptop visible in the foreground.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "grey",
+            "type": "suit"
+          }
+        },
+        "pose": "seated",
+        "position": "right side of frame",
+        "context": "office",
+        "objects": [
+          "laptop",
+          "black mesh chair"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.5078125,
+      "box": [
+        976.0,
+        -1.0,
+        1024.0,
+        432.0
+      ],
+      "mask": "image_8.masks/glass_2.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass pane with a smooth, reflective surface, showing faint horizontal lines and a gradient of light gray to white tones. The edges are clean and straight, suggesting it is part of a larger structure such as a window or partition.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "surface": "smooth",
+        "reflectivity": "high",
+        "color": "light gray to white",
+        "edges": "straight",
+        "context": "part of a larger structure"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.5703125,
+      "box": [
+        284.0,
+        4.0,
+        572.0,
+        536.0
+      ],
+      "mask": "image_8.masks/glass_3.png",
+      "crop": null,
+      "description": "A young man with curly light brown hair is shown in a close-up profile view, wearing a grey suit jacket, a white collared shirt, and a dark blue tie. He is looking off to the side with a neutral, focused expression against a blurred background of a modern office interior with glass partitions.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": "grey suit",
+          "shirt": "white",
+          "tie": "dark blue"
+        },
+        "pose": "seated, looking to the side",
+        "expression": "neutral, attentive",
+        "background": "blurred office interior"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        482.0,
+        816.0,
+        760.0,
+        888.0
+      ],
+      "mask": "image_8.masks/notebook_0.png",
+      "crop": null,
+      "description": "A red spiral-bound notebook with a smooth, matte cover lies flat on a white surface, partially obscured by a white cup in the foreground. The notebook's pages are visible along the bottom edge, and its black spiral binding is on the right side.",
+      "attributes": {
+        "color": "red",
+        "binding": "black spiral",
+        "cover_material": "smooth matte",
+        "position": "lying flat",
+        "visible_parts": [
+          "cover",
+          "pages",
+          "spiral binding"
+        ],
+        "obscured_by": "white cup"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.8046875,
+      "box": [
+        -4.0,
+        632.0,
+        358.0,
+        840.0
+      ],
+      "mask": "image_8.masks/notebook_1.png",
+      "crop": null,
+      "description": "A silver laptop is open on a white desk, with the back of the screen facing the viewer and the keyboard visible. A person wearing a grey suit jacket and a white shirt sits behind the laptop with their hands clasped together on the table.",
+      "attributes": {
+        "object": "laptop",
+        "color": "silver",
+        "state": "open",
+        "position": "on desk",
+        "person": {
+          "clothing": {
+            "jacket": "grey suit",
+            "shirt": "white",
+            "tie": "dark blue"
+          },
+          "pose": "sitting, hands clasped"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        436.0,
+        796.0,
+        512.0,
+        828.0
+      ],
+      "mask": "image_8.masks/pen_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        426.0,
+        254.0,
+        984.0,
+        840.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with long, straight blonde hair is seated at a white table, wearing a crisp white button-down shirt with the sleeves rolled up. She is gesturing with both hands open, palms facing each other, as if explaining something, while looking attentively toward a person in a grey suit seated to her left.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "accessories": {
+            "ring": "silver band on left ring finger",
+            "earrings": "small stud"
+          }
+        },
+        "pose": "seated, gesturing with hands",
+        "expression": "engaged, speaking",
+        "context": "office meeting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        124.0,
+        254.0,
+        524.0,
+        776.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair is seated at a desk, wearing a grey suit jacket over a white collared shirt and a dark blue tie. He has his hands clasped in front of him on the table, looking off to the side with a serious expression while another person's hand gestures near him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "suit",
+            "color": "grey"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          },
+          "tie": {
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "action": "listening",
+        "context": "business meeting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        588.0,
+        540.0,
+        700.0,
+        628.0
+      ],
+      "mask": "image_8.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up of a person's hand, specifically the thumb and part of the index finger, with the thumb extended upward. The skin tone is light, and the nails are short and clean. The background is blurred, showing indistinct shapes and colors, possibly indicating an indoor setting.",
+      "attributes": {
+        "skin_tone": "light",
+        "nails": "short, clean",
+        "hand_position": "thumb extended upward",
+        "background": "blurred, indoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        4.0,
+        768.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up view of a white office desk surface featuring a silver laptop, a black calculator, a red spiral-bound notebook, a white disposable coffee cup with a lid, and a black pen resting on a sheet of paper. A person's hands are visible typing on the laptop, wearing a white long-sleeved shirt.",
+      "attributes": {
+        "desk": {
+          "color": "white",
+          "material": "smooth surface",
+          "objects": [
+            "laptop",
+            "calculator",
+            "notebook",
+            "coffee cup",
+            "pen",
+            "paper"
+          ]
+        },
+        "laptop": {
+          "color": "silver",
+          "type": "notebook computer"
+        },
+        "calculator": {
+          "color": "black",
+          "type": "standard office calculator"
+        },
+        "notebook": {
+          "color": "red",
+          "binding": "spiral",
+          "type": "spiral-bound"
+        },
+        "coffee cup": {
+          "color": "white",
+          "type": "disposable",
+          "lid": "white"
+        },
+        "pen": {
+          "color": "black",
+          "type": "ballpoint or gel pen"
+        },
+        "person": {
+          "clothing": {
+            "shirt": "white",
+            "sleeves": "long"
+          },
+          "action": "typing on laptop",
+          "visible parts": [
+            "hands",
+            "arms"
+          ]
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

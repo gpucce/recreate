@@ -1,0 +1,290 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        44.0,
+        680.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/alley_0.png",
+      "crop": null,
+      "description": "A wet cobblestone alleyway stretches into the distance, flanked by stone walls and terracotta flower pots containing orange and white flowers. An adult and a child are walking away from the camera, holding hands, with the adult wearing dark pants and a black jacket, and the child in a blue puffer jacket and jeans.",
+      "attributes": {
+        "surface": "wet cobblestone",
+        "walls": "stone",
+        "decorations": [
+          "terracotta flower pots",
+          "orange flowers",
+          "white flowers"
+        ],
+        "people": [
+          {
+            "age": "adult",
+            "clothing": {
+              "pants": "dark gray",
+              "jacket": "black"
+            },
+            "pose": "walking away"
+          },
+          {
+            "age": "child",
+            "clothing": {
+              "jacket": "blue puffer",
+              "pants": "blue jeans",
+              "shoes": "brown"
+            },
+            "pose": "walking away, holding hands"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        253.0,
+        388.0,
+        388.0,
+        540.0
+      ],
+      "mask": "image_10.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a wooden window box planter attached to the exterior of a building, filled with green foliage and yellow and red flowers. The background is heavily blurred, showing indistinct shapes of a building facade and possibly a street scene.",
+      "attributes": {
+        "object": "window box planter",
+        "material": "wood",
+        "color": "brown",
+        "contents": {
+          "foliage": "green",
+          "flowers": [
+            "yellow",
+            "red"
+          ]
+        },
+        "focus": "blurry",
+        "background": "indistinct building facade"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        632.0,
+        -2.0,
+        1016.0,
+        776.0
+      ],
+      "mask": "image_10.masks/building_1.png",
+      "crop": null,
+      "description": "A two-story building with a white stucco upper facade and a stone foundation, featuring a wooden balcony adorned with vibrant red, yellow, and orange flowers in hanging planters. The building has wooden shutters on the windows and a wooden door, with a stone wall visible in the background.",
+      "attributes": {
+        "structure": {
+          "type": "residential building",
+          "stories": 2,
+          "facade_material": "white stucco",
+          "foundation_material": "stone",
+          "roof_material": "dark shingles"
+        },
+        "balcony": {
+          "material": "wood",
+          "color": "dark brown",
+          "decorations": "flower boxes with red, yellow, and orange flowers"
+        },
+        "windows": {
+          "shutters": "wooden, brown",
+          "frame": "wooden"
+        },
+        "door": {
+          "material": "wood",
+          "color": "brown",
+          "frame": "stone"
+        },
+        "surroundings": {
+          "ground": "wet cobblestone",
+          "background": "stone wall, greenery"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.8203125,
+      "box": [
+        392.0,
+        408.0,
+        548.0,
+        568.0
+      ],
+      "mask": "image_10.masks/building_2.png",
+      "crop": null,
+      "description": "A white building with a dark brown roof and a wooden balcony featuring a flower box with red and yellow flowers. The building has a small, square window visible on the lower right side.",
+      "attributes": {
+        "building_type": "residential",
+        "color": "white",
+        "roof_color": "dark brown",
+        "balcony": {
+          "material": "wood",
+          "color": "brown",
+          "features": "flower box with red and yellow flowers"
+        },
+        "window": {
+          "shape": "square",
+          "color": "dark"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.88671875,
+      "box": [
+        -1.0,
+        18.0,
+        320.0,
+        688.0
+      ],
+      "mask": "image_10.masks/building_3.png",
+      "crop": null,
+      "description": "A stone building with a dark roof and a chimney, featuring a balcony with a wooden railing and flower boxes filled with orange and white flowers. The building has a rustic appearance with a textured stone facade and a downspout running along the side.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "roof": "dark",
+          "chimney": "present",
+          "balcony": {
+            "railing": "wooden",
+            "flower_boxes": {
+              "flowers": [
+                "orange",
+                "white"
+              ]
+            }
+          }
+        },
+        "facade": {
+          "texture": "textured stone",
+          "downspout": "present"
+        },
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.84765625,
+      "box": [
+        494.0,
+        258.0,
+        740.0,
+        664.0
+      ],
+      "mask": "image_10.masks/building_4.png",
+      "crop": null,
+      "description": "A stone building with a gray shingled roof and wooden balconies adorned with colorful flower boxes. The building features multiple windows and a rustic, alpine architectural style.",
+      "attributes": {
+        "material": "stone",
+        "roof": "gray shingles",
+        "balconies": "wooden",
+        "decorations": "flower boxes with red, yellow, and white flowers",
+        "style": "alpine",
+        "windows": "multiple, rectangular"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        344.0,
+        460.0,
+        524.0,
+        924.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street while wearing a dark navy blue puffer jacket and dark grey trousers. The individual is holding the hand of a child, whose arm is partially visible on the right side.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "material": "synthetic"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "leather"
+          }
+        },
+        "pose": "walking away",
+        "view": "back",
+        "action": "holding a child's hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        492.0,
+        632.0,
+        628.0,
+        928.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with light brown hair is seen from behind, walking away on a wet cobblestone street while holding the hand of an adult. The child is wearing a dark navy blue puffy winter jacket with a hood, blue jeans, and brown ankle boots.",
+      "attributes": {
+        "age": "child",
+        "gender": "female",
+        "hair": {
+          "color": "light brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "boots",
+            "color": "brown"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

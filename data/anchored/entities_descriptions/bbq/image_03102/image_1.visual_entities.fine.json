@@ -1,0 +1,106 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        404.0,
+        -6.0,
+        1024.0,
+        984.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length dark brown hair is wearing a black blazer over a bright red t-shirt, looking down with a serious expression. She is seated next to a person in a grey sweater who is holding a smartphone.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length",
+          "style": "straight"
+        },
+        "clothing": {
+          "outerwear": "black blazer",
+          "top": "red t-shirt",
+          "bottoms": "dark blue jeans"
+        },
+        "pose": "sitting",
+        "gaze": "looking down",
+        "expression": "neutral or serious",
+        "position": "background, right side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        0.0,
+        40.0,
+        1020.0,
+        1032.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short, wavy brown hair and freckles sits in the foreground, looking down at a smartphone held in his hands. He is wearing a thick, dark grey cable-knit sweater and has a neutral, focused expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "skin": {
+          "features": "freckles"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "dark grey",
+            "material": "knit",
+            "pattern": "cable-knit"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at phone",
+        "expression": "neutral",
+        "accessories": {
+          "held_item": "smartphone"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        0.0,
+        292.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/sofa_0.png",
+      "crop": null,
+      "description": "A close-up view of a light beige or off-white sofa featuring a smooth, possibly leather or faux-leather material with visible stitching along the seams. The sofa has a modern, minimalist design with clean lines and a slightly curved backrest. The surface appears soft and well-maintained, with no visible wear or damage.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "smooth, possibly leather or faux-leather",
+        "design": "modern, minimalist",
+        "features": [
+          "visible stitching",
+          "slightly curved backrest",
+          "clean lines"
+        ],
+        "condition": "well-maintained, no visible wear or damage"
+      },
+      "parse_ok": true
+    }
+  ]
+}

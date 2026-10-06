@@ -1,0 +1,510 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        3520.0,
+        872.0,
+        4000.0,
+        944.0
+      ],
+      "mask": "image_0.masks/building_0.png",
+      "crop": null,
+      "description": "A long, single-story building with a flat roof and a light beige or off-white facade, featuring a series of evenly spaced rectangular windows with dark frames. The structure appears to be made of concrete or stucco, with a simple, utilitarian design and a low wall or fence running along the front.",
+      "attributes": {
+        "structure_type": "single-story building",
+        "roof": "flat",
+        "facade_color": "light beige/off-white",
+        "window_shape": "rectangular",
+        "window_frames": "dark",
+        "material": "concrete/stucco",
+        "style": "utilitarian",
+        "front_feature": "low wall/fence"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "object",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        3760.0,
+        2992.0,
+        4000.0,
+        3056.0
+      ],
+      "mask": "image_0.masks/object_0.png",
+      "crop": null,
+      "description": "A clear plastic water bottle with a blue label featuring the partial white text 'tal' lies on its side amidst a chaotic, high-contrast background of black and white speckles. The bottle is filled with a clear liquid and has a blue cap visible on the left side.",
+      "attributes": {
+        "object_type": "plastic water bottle",
+        "material": "plastic",
+        "color": {
+          "body": "clear",
+          "label": "blue",
+          "cap": "blue"
+        },
+        "label_text": "tal",
+        "orientation": "horizontal",
+        "background": "black and white speckled pattern"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "object",
+      "index": 1,
+      "score": 0.5625,
+      "box": [
+        4048.0,
+        1936.0,
+        4352.0,
+        2080.0
+      ],
+      "mask": "image_0.masks/object_1.png",
+      "crop": null,
+      "description": "A white boot is shown in profile, facing to the right, with a smooth, solid white surface and a low heel. The boot is positioned on a textured, gravelly ground composed of small, irregular stones in shades of gray, brown, and beige.",
+      "attributes": {
+        "color": "white",
+        "type": "boot",
+        "material": "smooth, possibly leather or synthetic",
+        "sole": "white, low heel",
+        "background": "gravelly ground",
+        "orientation": "profile view, facing right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "object",
+      "index": 2,
+      "score": 0.5625,
+      "box": [
+        3872.0,
+        2528.0,
+        4096.0,
+        2576.0
+      ],
+      "mask": "image_0.masks/object_2.png",
+      "crop": null,
+      "description": "A small, dark-colored bird with a prominent blue head and back is perched on a rocky surface. The bird's body is mostly black or dark gray, contrasting with the bright blue feathers on its head and upper back.",
+      "attributes": {
+        "color": {
+          "head": "blue",
+          "body": "dark gray/black"
+        },
+        "type": "bird",
+        "perched_on": "rocky surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "object",
+      "index": 3,
+      "score": 0.58984375,
+      "box": [
+        3376.0,
+        2912.0,
+        3664.0,
+        2976.0
+      ],
+      "mask": "image_0.masks/object_3.png",
+      "crop": null,
+      "description": "A white, rectangular piece of paper or card lies flat on a rough, textured surface, possibly gravel or dirt. The paper has a small, colorful image or label in the upper left corner, featuring red and blue hues, while the rest of the surface is mostly blank with a few small dark specks.",
+      "attributes": {
+        "color": "white",
+        "shape": "rectangular",
+        "material": "paper or card",
+        "surface_texture": "smooth",
+        "background_texture": "rough, granular",
+        "visible_details": [
+          "small colorful image in upper left corner",
+          "small dark specks on surface"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "object",
+      "index": 4,
+      "score": 0.5234375,
+      "box": [
+        3680.0,
+        2240.0,
+        3808.0,
+        2304.0
+      ],
+      "mask": "image_0.masks/object_4.png",
+      "crop": null,
+      "description": "A clear plastic water bottle with a blue cap and a purple label lies on its side on a rough, textured surface of light-colored gravel or rocks. The bottle appears to be partially filled with water, and the plastic is crinkled and reflective.",
+      "attributes": {
+        "object_type": "plastic bottle",
+        "material": "plastic",
+        "color": {
+          "body": "clear",
+          "cap": "blue",
+          "label": "purple"
+        },
+        "state": "crumpled",
+        "orientation": "horizontal",
+        "contents": "water",
+        "background": "gravel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        3952.0,
+        968.0,
+        4016.0,
+        1184.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A soldier wearing a camouflage uniform and helmet is walking while holding a rifle with a strap across the chest. The figure is captured in a low-resolution, grainy crop showing a full-body view against a blurred outdoor background.",
+      "attributes": {
+        "role": "soldier",
+        "clothing": {
+          "uniform": "camouflage",
+          "helmet": "camouflage",
+          "boots": "dark"
+        },
+        "equipment": {
+          "weapon": "rifle",
+          "strap": "visible"
+        },
+        "pose": "walking",
+        "image_quality": "low resolution, grainy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        237.0,
+        66.0,
+        1792.0,
+        3072.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A male soldier wearing a desert camouflage uniform and a tan helmet stands in profile facing left, with his right arm raised and hand open in a signaling gesture. He is equipped with a tan tactical vest, a backpack, and tan gloves, standing next to a white vehicle with visible taillights and barbed wire in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "desert camouflage",
+          "helmet": "tan",
+          "vest": "tan tactical vest",
+          "gloves": "tan tactical gloves",
+          "backpack": "tan"
+        },
+        "pose": "standing, right arm raised, hand open",
+        "accessories": {
+          "sunglasses": "dark",
+          "belt": "black"
+        },
+        "context": {
+          "background": "white vehicle",
+          "foreground": "barbed wire"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.79296875,
+      "box": [
+        3072.0,
+        1456.0,
+        3824.0,
+        1936.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A male soldier in his 30s or 40s with a tanned complexion is lying on his side on a rocky ground, wearing a digital camouflage uniform and a helmet with a mounted accessory. He holds a rifle with a scope across his chest, his mouth open in a shout or expression of exertion, while another soldier is partially visible behind him in a similar posture.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "social_role": "soldier",
+        "clothing": {
+          "uniform": "digital camouflage",
+          "helmet": "olive green with mount",
+          "boots": "tan combat boots"
+        },
+        "pose": "lying on side",
+        "expression": "mouth open, intense",
+        "equipment": {
+          "weapon": "rifle with scope",
+          "gear": "tactical vest"
+        },
+        "position": "foreground, left side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.52734375,
+      "box": [
+        2224.0,
+        1656.0,
+        3680.0,
+        2352.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A male soldier wearing a digital camouflage uniform and a green helmet with a chin strap is lying on his side, propped up on his elbow with his hands clasped together. He is wearing dark sunglasses and has a rifle with a vertical foregrip resting against his chest, positioned in a line with other soldiers in the background.",
+      "attributes": {
+        "gender": "male",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "digital camouflage",
+          "helmet": "green",
+          "accessories": "sunglasses"
+        },
+        "pose": "lying down, propped on elbow",
+        "equipment": "rifle with vertical foregrip"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.66796875,
+      "box": [
+        2608.0,
+        1680.0,
+        3920.0,
+        2176.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A soldier wearing a digital camouflage uniform and a green helmet is lying prone on the ground, with a rifle equipped with a scope and suppressor resting in front of them. The soldier's hands are clasped together near their chest, and they are wearing tan combat boots.",
+      "attributes": {
+        "clothing": {
+          "uniform": "digital camouflage",
+          "boots": "tan combat boots",
+          "helmet": "green"
+        },
+        "pose": "lying prone",
+        "equipment": {
+          "rifle": "with scope and suppressor"
+        },
+        "social_role": "soldier"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.6171875,
+      "box": [
+        2304.0,
+        1648.0,
+        2752.0,
+        2128.0
+      ],
+      "mask": "image_0.masks/person_5.png",
+      "crop": null,
+      "description": "A close-up of a male soldier wearing a green helmet and dark sunglasses, looking to the right with a serious expression. He is dressed in a camouflage uniform and tactical gear, holding a rifle with a vertical foregrip and a textured handguard.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "headgear": {
+          "helmet": "green, military style",
+          "sunglasses": "dark, wraparound"
+        },
+        "clothing": {
+          "uniform": "camouflage pattern",
+          "gear": "tactical vest, straps"
+        },
+        "equipment": {
+          "weapon": "rifle with vertical foregrip and textured handguard"
+        },
+        "pose": "seated, looking right",
+        "expression": "serious, focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.8125,
+      "box": [
+        1952.0,
+        2048.0,
+        3600.0,
+        2752.0
+      ],
+      "mask": "image_0.masks/person_6.png",
+      "crop": null,
+      "description": "A soldier in digital camouflage uniform lies prone on a gravel surface, wearing a tactical vest and tan combat boots, with a rifle equipped with a scope resting across their body. The soldier's face is partially visible, showing a neutral expression, and they appear to be resting or in a state of alertness.",
+      "attributes": {
+        "clothing": {
+          "uniform": "digital camouflage",
+          "vest": "tactical, tan",
+          "boots": "tan combat boots"
+        },
+        "equipment": {
+          "rifle": "black, with scope",
+          "gloves": "tan, partially visible"
+        },
+        "pose": "prone, lying on the ground",
+        "expression": "neutral, face partially visible",
+        "environment": "gravel surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.51171875,
+      "box": [
+        2960.0,
+        1456.0,
+        3072.0,
+        1712.0
+      ],
+      "mask": "image_0.masks/person_7.png",
+      "crop": null,
+      "description": "A close-up, low-resolution view of a person's upper body wearing a dark, textured jacket or coat, with a dark strap crossing diagonally over the chest. The person is positioned in profile facing left, with only the shoulder, arm, and part of the torso visible against a blurred, light-colored background.",
+      "attributes": {
+        "clothing": {
+          "jacket": "dark, textured, possibly wool or heavy fabric",
+          "strap": "dark, diagonal across chest"
+        },
+        "pose": "profile, facing left",
+        "visibility": "partial, upper body only",
+        "image_quality": "low resolution, blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.80078125,
+      "box": [
+        3184.0,
+        1456.0,
+        4016.0,
+        1824.0
+      ],
+      "mask": "image_0.masks/person_8.png",
+      "crop": null,
+      "description": "A male soldier in military camouflage uniform and helmet is lying on the ground, holding a rifle with a scope, with his mouth open as if shouting or gasping. He is positioned in the foreground with another soldier partially visible behind him, both resting on a rocky, debris-strewn surface.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "social_role": "soldier",
+        "clothing": {
+          "uniform": "camouflage pattern",
+          "helmet": "olive green",
+          "boots": "tan combat boots"
+        },
+        "pose": "lying down",
+        "expression": "mouth open, possibly shouting or distressed",
+        "equipment": {
+          "rifle": "black, with scope",
+          "helmet": "worn"
+        },
+        "position": "foreground, left side of frame",
+        "background_elements": [
+          "rocky ground",
+          "blue tarp",
+          "white plastic bag",
+          "metal structure"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        0.0,
+        -12.0,
+        3088.0,
+        2848.0
+      ],
+      "mask": "image_0.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A light blue bus with multiple windows and doors is parked, with soldiers in camouflage uniforms and helmets positioned around it. The bus has visible text on its side, including the word 'Airways,' and features a series of rectangular windows along its length. The rear of the bus displays red and orange taillights.",
+      "attributes": {
+        "color": "light blue",
+        "type": "bus",
+        "windows": "multiple rectangular windows",
+        "doors": "visible on the side",
+        "text": "includes 'Airways' and other text",
+        "taillights": "red and orange",
+        "position": "parked",
+        "surroundings": "soldiers in camouflage uniforms and helmets"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        4256.0,
+        960.0,
+        4416.0,
+        1120.0
+      ],
+      "mask": "image_0.masks/vehicle_1.png",
+      "crop": null,
+      "description": "A close-up, low-angle view of the front left corner of a rugged, dark-colored off-road vehicle, likely a military-style jeep or truck. The vehicle features a prominent black vertical-slat grille, a heavy-duty front bumper, and large, knobby tires with deep treads suitable for rough terrain. The body appears to be made of metal with a matte finish, and the vehicle is positioned on a grassy surface.",
+      "attributes": {
+        "vehicle_type": "off-road vehicle",
+        "style": "military",
+        "color": "dark",
+        "parts": {
+          "grille": "vertical slats",
+          "bumper": "heavy-duty",
+          "tires": "knobby, large",
+          "body": "metal"
+        },
+        "position": "front-left view",
+        "terrain": "grassy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 2,
+      "score": 0.75,
+      "box": [
+        3104.0,
+        864.0,
+        3488.0,
+        1008.0
+      ],
+      "mask": "image_0.masks/vehicle_2.png",
+      "crop": null,
+      "description": "A white high-speed train with a streamlined, aerodynamic nose is visible, featuring a row of dark, rectangular windows along its side. The vehicle is positioned on tracks, partially obscured by vertical metal bars in the foreground, with green foliage visible in the background.",
+      "attributes": {
+        "type": "high-speed train",
+        "color": "white",
+        "shape": "streamlined, aerodynamic nose",
+        "windows": "dark, rectangular, row along side",
+        "position": "on tracks",
+        "obstruction": "vertical metal bars in foreground",
+        "background": "green foliage"
+      },
+      "parse_ok": true
+    }
+  ]
+}

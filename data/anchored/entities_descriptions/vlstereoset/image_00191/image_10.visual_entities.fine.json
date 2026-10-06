@@ -1,0 +1,67 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        167.0,
+        70.0,
+        199.0,
+        600.0
+      ],
+      "mask": "image_10.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender white flagpole stands vertically against a clear blue sky, topped with a spherical finial. A portion of a blue flag is visible attached to the right side of the pole, partially unfurled.",
+      "attributes": {
+        "color": "white",
+        "material": "metal",
+        "shape": "cylindrical",
+        "top": "spherical finial",
+        "flag": {
+          "color": "blue",
+          "position": "right side",
+          "state": "partially visible"
+        },
+        "background": "blue sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        286.0,
+        82.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/statue_0.png",
+      "crop": null,
+      "description": "A close-up, eye-level shot of a white marble statue of a young male figure wearing a laurel wreath and draped in a toga with a breastplate, holding a scroll in each hand. The statue has a serene expression and is set against a blurred background featuring a French flag and a classical building facade.",
+      "attributes": {
+        "material": "white marble",
+        "gender": "male",
+        "age": "young adult",
+        "headwear": "laurel wreath",
+        "clothing": {
+          "toga": "draped over left shoulder and across body",
+          "breastplate": "decorated with buttons and straps"
+        },
+        "accessories": {
+          "right_hand": "holding a scroll",
+          "left_hand": "holding a scroll"
+        },
+        "expression": "serene, looking slightly to the right",
+        "background": {
+          "flag": "French tricolor (blue, white, red)",
+          "architecture": "classical balustrade and columns"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

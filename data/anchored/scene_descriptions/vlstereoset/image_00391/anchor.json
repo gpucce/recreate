@@ -1,0 +1,111 @@
+{
+  "scene": {
+    "background": "white wall with a black-framed picture hanging on it, and a black metal hair-drying stand visible behind the stylist",
+    "lighting": "bright and even, likely from a softbox or window light, with no harsh shadows",
+    "camera_angle": "medium shot, slightly angled from the side",
+    "style": "social media-style 'before and after' beauty content shot, with text overlays for emphasis",
+    "mood": "playful, candid, and lighthearted — capturing a moment of surprise during a haircut",
+    "color_palette": "clean and natural: white walls, neutral tones of the hair and clothing, and the pop of red from the text boxes"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "female",
+        "role": "stylist",
+        "hair": {
+          "length": "long",
+          "texture": "straight",
+          "color": "light brown"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "striped t-shirt",
+            "color": "white-and-black"
+          }
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "pose": "leaning over the client’s shoulder",
+        "expression": "smiling",
+        "tool": "silver scissors"
+      },
+      "id": "person_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "female",
+        "role": "client",
+        "hair": {
+          "length": "long",
+          "texture": "straight",
+          "color": "dark brown"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "plain t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "seated and facing slightly toward the camera",
+        "expression": "exaggerated expression of surprise or shock — wide eyes, slightly parted lips",
+        "text": "oh sh*t... (written in bold black font with a white outline at the bottom right)"
+      },
+      "id": "person_2",
+      "count": 1
+    },
+    {
+      "type": "hair_drying_stand",
+      "attributes": {
+        "color": "black metal"
+      },
+      "id": "hair_drying_stand_1",
+      "count": 1
+    },
+    {
+      "type": "picture",
+      "attributes": {
+        "frame": "black"
+      },
+      "id": "black_frame_picture_1",
+      "count": 1
+    },
+    {
+      "type": "text_box",
+      "attributes": {
+        "label": "Before",
+        "color": "red",
+        "border": "red",
+        "content": "close-up of the client’s hair from behind, revealing long, straight, dark brown hair with a natural, uncut length"
+      },
+      "id": "text_box_before_1",
+      "count": 1
+    },
+    {
+      "type": "text_box",
+      "attributes": {
+        "label": "After",
+        "color": "red",
+        "border": "red",
+        "content": "same hair from behind after the cut — now significantly shorter, with a neat, blunt bob cut"
+      },
+      "id": "text_box_after_1",
+      "count": 1
+    },
+    {
+      "type": "wall",
+      "attributes": {
+        "color": "white"
+      },
+      "id": "white_wall_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

@@ -1,0 +1,206 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.71484375,
+      "box": [
+        120.0,
+        728.0,
+        776.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a person riding a bicycle, showing their hands gripping the handlebars and their lower torso. The bicycle has silver, curved handlebars with black grips and a visible brake lever. The rider is wearing a pink, dirt-stained t-shirt and dark patterned pants with floral and leaf designs. A large, burlap sack is strapped to the back of the bicycle, partially visible on the right side of the frame.",
+      "attributes": {
+        "bicycle": {
+          "handlebars": {
+            "color": "silver",
+            "shape": "curved",
+            "grips": "black",
+            "brake_lever": "visible"
+          },
+          "load": {
+            "type": "burlap_sack",
+            "position": "rear"
+          }
+        },
+        "rider": {
+          "clothing": {
+            "shirt": {
+              "color": "pink",
+              "condition": "dirt-stained"
+            },
+            "pants": {
+              "color": "dark",
+              "pattern": "floral_and_leaf"
+            }
+          },
+          "pose": "riding",
+          "hands": "gripping_handlebars"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        620.0,
+        660.0,
+        900.0,
+        1004.0
+      ],
+      "mask": "image_1.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A large, coarse burlap sack made of light tan woven jute fabric is shown in a close-up, with its top edge rolled over and frayed. A person's hand is visible inside the opening, and the sack is positioned on a black metal stand or cart frame.",
+      "attributes": {
+        "material": "woven jute",
+        "color": "light tan",
+        "texture": "coarse, rough weave",
+        "condition": "frayed edges, rolled top",
+        "shape": "bulging, rectangular",
+        "position": "resting on a black metal frame",
+        "contents": "unknown, obscured by the sack",
+        "interaction": "a hand is reaching into the top opening"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        648.0,
+        274.0,
+        976.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A man with short, dark curly hair and a beard is bending forward, reaching into a large, open burlap sack. He is wearing a short-sleeved t-shirt with a color-block design of navy blue on the top and beige on the bottom, paired with dark, knee-length shorts that appear to be made of a durable fabric. His skin is dark, and his expression is focused on the task at hand.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": "short, dark, curly",
+        "facial_hair": "short beard",
+        "clothing": {
+          "shirt": "color-block t-shirt, navy blue top, beige bottom",
+          "shorts": "dark, knee-length, durable fabric"
+        },
+        "pose": "bending forward, reaching into a sack",
+        "expression": "focused",
+        "action": "handling a burlap sack"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        114.0,
+        190.0,
+        656.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling middle-aged Black woman stands outdoors in a muddy field, wearing a colorful patterned headscarf and a pink t-shirt stained with mud on the front. She is holding the handlebars of a bicycle, with her body facing forward and a bright, joyful expression on her face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "ethnicity": "Black",
+        "expression": "smiling broadly",
+        "clothing": {
+          "top": "pink short-sleeved t-shirt with mud stains",
+          "bottom": "dark patterned pants with floral and leaf motifs",
+          "headwear": "colorful headscarf with orange, blue, and green patterns"
+        },
+        "accessories": {
+          "earrings": "small hoop earrings"
+        },
+        "pose": "standing, holding bicycle handlebars",
+        "context": "outdoors, muddy field background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.85546875,
+      "box": [
+        276.0,
+        238.0,
+        296.0,
+        274.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.80859375,
+      "box": [
+        202.0,
+        239.0,
+        216.0,
+        274.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rice paddy field",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        0.0,
+        234.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/rice paddy field_0.png",
+      "crop": null,
+      "description": "A smiling woman wearing a colorful headscarf and a pink t-shirt stands in the foreground holding the handlebars of a bicycle, while a man in a blue and beige shirt bends over a large burlap sack in the background. They are situated in a flooded rice paddy field with young green shoots emerging from the muddy water.",
+      "attributes": {
+        "setting": "flooded rice paddy field",
+        "foreground_person": {
+          "gender": "female",
+          "expression": "smiling",
+          "clothing": {
+            "top": "pink t-shirt",
+            "headwear": "colorful patterned headscarf",
+            "bottoms": "dark patterned pants"
+          },
+          "action": "holding bicycle handlebars"
+        },
+        "background_person": {
+          "gender": "male",
+          "clothing": {
+            "shirt": "blue and beige t-shirt",
+            "pants": "dark shorts"
+          },
+          "action": "bending over a burlap sack"
+        },
+        "objects": {
+          "bicycle": "silver handlebars visible",
+          "sack": "large burlap sack"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

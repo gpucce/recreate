@@ -1,0 +1,293 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        54.0,
+        119.5,
+        502.0,
+        368.0
+      ],
+      "mask": "image_1.masks/house_0.png",
+      "crop": null,
+      "description": "A young woman with long, dark brown hair is shown in a close-up profile view, looking off to the right with a serious, contemplative expression. She has fair skin, dark eyebrows, and is wearing a small gold hoop earring in her visible left ear. The background is out of focus, showing the blurred white columns and gray roof of a house in soft, natural daylight.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight, parted in the middle"
+        },
+        "facial_features": {
+          "skin_tone": "fair",
+          "eyebrows": "dark, defined",
+          "eyes": "dark",
+          "expression": "serious, pensive"
+        },
+        "accessories": {
+          "earrings": "small gold hoop"
+        },
+        "pose": "head turned to the right, profile view",
+        "background": {
+          "object": "house",
+          "features": [
+            "white columns",
+            "gray roof"
+          ],
+          "focus": "blurred"
+        },
+        "lighting": "natural, soft"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        460.0,
+        1.0,
+        1024.0,
+        408.0
+      ],
+      "mask": "image_1.masks/house_1.png",
+      "crop": null,
+      "description": "A white house with a dark gray shingled roof and white trim is visible in the background, appearing out of focus behind a woman's head. The structure features a window with white framing on the right side and is illuminated by warm, natural sunlight.",
+      "attributes": {
+        "wall_color": "white",
+        "roof_color": "dark gray",
+        "roof_material": "shingles",
+        "trim_color": "white",
+        "window_frame_color": "white",
+        "focus": "blurred",
+        "lighting": "sunlit"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        372.0,
+        98.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair is seen in profile, wearing a grey and white horizontally striped hooded sweatshirt and blue jeans. She is seated outdoors, reaching out to gently place her hand on the shoulder of another person, with a soft, natural expression on her face.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "grey",
+              "white"
+            ],
+            "material": "cotton"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, reaching out with one hand",
+        "expression": "neutral, focused",
+        "view": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        109.0,
+        126.0,
+        596.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits on a white bench, wearing a maroon long-sleeved ribbed top and blue jeans. She has a serious, contemplative expression while looking to the side, with a hand from another person resting on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "maroon",
+            "material": "ribbed knit"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "gold chain",
+            "earrings": "small stud"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "porch railing",
+      "index": 0,
+      "score": 0.55078125,
+      "box": [
+        -1.0,
+        844.0,
+        247.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/porch railing_0.png",
+      "crop": null,
+      "description": "A close-up view of a white-painted wooden porch railing featuring a flat top rail and vertical balusters, with a person's leg wearing blue denim jeans visible in the foreground on the right.",
+      "attributes": {
+        "material": "wood",
+        "color": "white",
+        "structure": {
+          "top_rail": "flat",
+          "balusters": "vertical"
+        },
+        "foreground_object": {
+          "item": "leg",
+          "clothing": "blue denim jeans"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        484.0,
+        360.0,
+        644.0,
+        504.0
+      ],
+      "mask": "image_1.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A close-up of a person's hand and forearm resting on a dark, textured surface, wearing a white, fuzzy long-sleeved garment. The background is a soft, out-of-focus green, suggesting an outdoor setting with natural lighting.",
+      "attributes": {
+        "entity_type": "human_part",
+        "body_part": "hand",
+        "skin_tone": "light",
+        "clothing": {
+          "sleeve": "white",
+          "texture": "fuzzy",
+          "material": "knit or fleece"
+        },
+        "hair": {
+          "color": "light brown",
+          "position": "right edge, out of focus"
+        },
+        "pose": "hand resting on object",
+        "background": "green, blurred",
+        "lighting": "natural, soft"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        992.0,
+        416.0,
+        1024.0,
+        560.0
+      ],
+      "mask": "image_1.masks/shrubs_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white, rounded object with a smooth surface, possibly a decorative item or part of a statue, set against a blurred background with muted brown and green tones.",
+      "attributes": {
+        "color": "white",
+        "shape": "rounded",
+        "texture": "smooth",
+        "focus": "out-of-focus",
+        "background": "blurred, muted brown and green"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 2,
+      "score": 0.75390625,
+      "box": [
+        59.25,
+        656.0,
+        148.0,
+        848.0
+      ],
+      "mask": "image_1.masks/shrubs_2.png",
+      "crop": null,
+      "description": "A blurred background of green shrubs with hints of yellow and brown foliage, partially obscured by a person wearing a denim jacket in the foreground.",
+      "attributes": {
+        "color": [
+          "green",
+          "yellow",
+          "brown"
+        ],
+        "focus": "blurred",
+        "position": "background",
+        "visibility": "partially obscured"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 3,
+      "score": 0.7109375,
+      "box": [
+        56.5,
+        368.0,
+        158.0,
+        468.0
+      ],
+      "mask": "image_1.masks/shrubs_3.png",
+      "crop": null,
+      "description": "A close-up crop showing the side of a person's head with light blonde hair, where individual strands are illuminated by backlighting, creating a glowing rim effect against a dark, out-of-focus background.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "texture": "fine, wispy strands",
+          "lighting": "backlit, glowing edges"
+        },
+        "skin": {
+          "visible_area": "side of head/temple",
+          "tone": "light"
+        },
+        "background": {
+          "color": "dark green",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

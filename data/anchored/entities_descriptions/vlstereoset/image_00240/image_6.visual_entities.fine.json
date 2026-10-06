@@ -1,0 +1,176 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        816.0,
+        23.0,
+        1024.0,
+        205.0
+      ],
+      "mask": "image_6.masks/curtain_0.png",
+      "crop": null,
+      "description": "A close-up of a white lace curtain featuring a floral pattern with light pink or peach-colored embroidered flowers. The curtain has a scalloped bottom edge and is hung from a dark green window frame, with a small tassel or tie-back visible on the right side.",
+      "attributes": {
+        "color": "white with pink/peach accents",
+        "material": "lace",
+        "pattern": "floral",
+        "edge": "scalloped",
+        "hardware": "dark green frame",
+        "details": "embroidered flowers, tassel tie-back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        628.0,
+        316.0,
+        1024.0,
+        812.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian woman with a warm smile sits at a table, wearing a bright red headscarf and a light-colored long-sleeved shirt. She is positioned behind a red plastic colander and a white teapot, with her hands resting near the table surface.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "expression": "smiling",
+        "headwear": {
+          "type": "headscarf",
+          "color": "red"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "off-white",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting",
+        "objects_in_front": [
+          "red colander",
+          "white teapot",
+          "glass of tea"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        234.0,
+        436.0,
+        458.0,
+        804.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian boy with short, dark hair and a serious expression sits at a table wearing a blue long-sleeved shirt. A silver metal thermos with a handle is positioned in the foreground on the table, partially obscuring his torso.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "spiky"
+        },
+        "expression": "neutral, serious",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "position": "center",
+        "foreground_objects": [
+          {
+            "type": "thermos",
+            "material": "metal",
+            "color": "silver"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        -2.0,
+        306.0,
+        292.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly Asian man with a weathered face and deep wrinkles is shown in a close-up, wearing a brown fedora hat, a red vest, and a light blue button-down shirt. He is holding a lit cigarette to his mouth with his right hand, which shows prominent veins and age spots, while sitting next to a distressed blue wooden table.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "face": {
+          "skin": "weathered, wrinkled",
+          "expression": "calm, contemplative"
+        },
+        "clothing": {
+          "hat": "brown fedora",
+          "vest": "red, sleeveless",
+          "shirt": "light blue, long-sleeved, button-down"
+        },
+        "accessories": {
+          "cigarette": "white, lit, held in hand"
+        },
+        "pose": "sitting, hand raised to mouth",
+        "context": "indoor, rustic setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        400.0,
+        308.0,
+        728.0,
+        756.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "An elderly Asian man with short, graying black hair smiles broadly while holding a white ceramic teapot and a wooden chopstick. He is wearing a brown button-down shirt with a light beige apron over it, seated at a table with a glass of tea and a red plastic colander visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "gray and black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": "brown button-down",
+          "apron": "beige canvas"
+        },
+        "pose": "seated",
+        "action": "holding teapot and chopstick",
+        "objects_held": [
+          "white teapot",
+          "wooden chopstick"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

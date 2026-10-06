@@ -1,0 +1,95 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        348.0,
+        144.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with wavy light brown hair sits on a beige couch, wearing a thick, light grey cable-knit sweater and blue jeans. He holds a black smartphone in both hands, looking down at the screen with a serious, frowning expression, while a woman's hand rests on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, short"
+        },
+        "expression": "serious, frowning, focused",
+        "clothing": {
+          "top": "light grey cable-knit sweater",
+          "bottom": "blue jeans"
+        },
+        "pose": "sitting, holding phone with both hands",
+        "accessories": {
+          "held_object": "black smartphone"
+        },
+        "context": "being comforted by a woman (hand on shoulder)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        28.0,
+        956.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair sits on a beige couch, wearing a dark blue blazer over a red t-shirt and blue jeans. She has a concerned expression with furrowed brows and is looking down at a smartphone held by a boy next to her, with her hand resting on his shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "outerwear": "dark blue blazer",
+          "top": "red t-shirt",
+          "bottoms": "blue jeans"
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "action": "looking at phone, hand on boy's shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        332.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or off-white fabric sofa with a textured, woven appearance, featuring a thick, cushioned backrest and seat. The sofa is partially visible, with two individuals seated on it, and the fabric shows slight creasing and indentation from their weight.",
+      "attributes": {
+        "color": "light beige",
+        "material": "textured fabric",
+        "type": "cushioned sofa",
+        "condition": "slightly indented from use",
+        "visible_parts": [
+          "backrest",
+          "seat cushion"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

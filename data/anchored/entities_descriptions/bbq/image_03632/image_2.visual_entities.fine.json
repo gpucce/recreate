@@ -1,0 +1,470 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        2.0,
+        684.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/floor_0.png",
+      "crop": null,
+      "description": "The floor is made of light-colored wood planks with a smooth, polished finish, reflecting some light. The planks are arranged in a linear pattern, running parallel to the direction of the hallway.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "polished",
+        "pattern": "linear planks",
+        "reflection": "slight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        928.0,
+        2.0,
+        976.0,
+        824.0
+      ],
+      "mask": "image_2.masks/glass_0.png",
+      "crop": null,
+      "description": "A tall, rectangular glass door with a frosted or semi-transparent surface, framed by a dark metal border. A vertical handle is visible on the right side of the door, and the background through the glass appears blurred, suggesting an indoor setting with light-colored walls and possibly other furniture or fixtures.",
+      "attributes": {
+        "material": "glass",
+        "frame_color": "dark metal",
+        "handle": "vertical, black",
+        "transparency": "frosted/semi-transparent",
+        "shape": "rectangular",
+        "position": "vertical",
+        "background_visibility": "blurred indoor environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.59375,
+      "box": [
+        916.0,
+        116.0,
+        932.0,
+        776.0
+      ],
+      "mask": "image_2.masks/glass_1.png",
+      "crop": null,
+      "description": "A vertical, cylindrical glass object with a smooth, reflective surface, appearing to be made of clear or frosted glass. The glass has a uniform shape and is positioned upright, with light reflecting off its surface, creating subtle highlights and shadows.",
+      "attributes": {
+        "material": "glass",
+        "shape": "cylindrical",
+        "surface": "smooth, reflective",
+        "color": "clear or frosted",
+        "position": "upright",
+        "lighting": "subtle highlights and shadows"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.75390625,
+      "box": [
+        -0.5625,
+        -4.0,
+        18.25,
+        948.0
+      ],
+      "mask": "image_2.masks/glass_2.png",
+      "crop": null,
+      "description": "A tall, narrow glass with a clear, transparent body and a thick, rounded base. The glass is empty and positioned vertically, with light reflecting off its smooth surface.",
+      "attributes": {
+        "material": "glass",
+        "color": "clear",
+        "shape": "cylindrical",
+        "base": "thick and rounded",
+        "contents": "empty",
+        "position": "vertical",
+        "surface": "smooth and reflective"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.75,
+      "box": [
+        1008.0,
+        -4.0,
+        1024.0,
+        868.0
+      ],
+      "mask": "image_2.masks/glass_3.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass panel with a dark frame, featuring a horizontal handle or latch mechanism on the right side. The glass reflects light, creating a bright horizontal streak across its surface, and the background behind the glass appears to be a light-colored wall or surface.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame": "dark",
+        "handle": "horizontal, on the right side",
+        "reflection": "bright horizontal streak",
+        "background": "light-colored wall or surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.8515625,
+      "box": [
+        185.0,
+        2.0,
+        264.0,
+        864.0
+      ],
+      "mask": "image_2.masks/glass_4.png",
+      "crop": null,
+      "description": "A vertical section of a glass partition or door with a dark metal frame, featuring a frosted horizontal band across the middle and reflections of overhead lighting on its surface. The glass is transparent, allowing a blurred view of an interior space with a chair and wooden flooring behind it.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark metal",
+        "features": [
+          "frosted horizontal band",
+          "reflections of overhead lights"
+        ],
+        "transparency": "transparent",
+        "visible_background": [
+          "chair",
+          "wooden floor"
+        ],
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.84765625,
+      "box": [
+        52.75,
+        0.0,
+        162.0,
+        924.0
+      ],
+      "mask": "image_2.masks/glass_5.png",
+      "crop": null,
+      "description": "A tall, vertical glass panel with a frosted horizontal band across the middle, framed by a dark metal border. The glass is transparent, revealing a blurred office interior with chairs and a desk in the background.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark metal",
+        "frosting": "horizontal band",
+        "transparency": "transparent",
+        "background": "office interior",
+        "position": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 6,
+      "score": 0.84765625,
+      "box": [
+        284.0,
+        -4.0,
+        344.0,
+        820.0
+      ],
+      "mask": "image_2.masks/glass_6.png",
+      "crop": null,
+      "description": "A person is standing in an indoor setting, holding a black clipboard with white papers attached. The individual is wearing a white long-sleeved shirt and light-colored pants, with their face partially visible and turned slightly away from the camera. The background features a large window with horizontal blinds, allowing natural light to enter the room.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "pants": "light-colored"
+        },
+        "accessories": {
+          "clipboard": "black"
+        },
+        "pose": "standing",
+        "position": "indoor, near a window",
+        "background": {
+          "window": "large",
+          "blinds": "horizontal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 7,
+      "score": 0.7421875,
+      "box": [
+        512.0,
+        224.0,
+        544.0,
+        720.0
+      ],
+      "mask": "image_2.masks/glass_7.png",
+      "crop": null,
+      "description": "A blurry, vertical crop showing a person's arm and part of their torso, wearing a white short-sleeved shirt. The background is out of focus, featuring vertical lines and light reflections suggestive of a glass door or window.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "sleeve": "short"
+        },
+        "skin_tone": "light brown",
+        "pose": "standing",
+        "background": "blurry, vertical lines, light reflections",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 8,
+      "score": 0.56640625,
+      "box": [
+        412.0,
+        118.0,
+        476.0,
+        744.0
+      ],
+      "mask": "image_2.masks/glass_8.png",
+      "crop": null,
+      "description": "{\"description\": \"A woman with dark hair pulled back is wearing a white button-down shirt and beige pants, standing in a professional setting with a slight smile on her face. She appears to be in a well-lit indoor environment, possibly an office, with a blurred background suggesting depth.\", \"attributes\": {\"gender\": \"female\", \"age\": \"adult\", \"ethnicity\": \"indeterminate\", \"social_role\": \"professional\", \"clothing\": {\"shirt\": \"white\", \"pants\": \"beige\"}, \"hair\": \"dark, pulled back\", \"pose\": \"standing\", \"expression\": \"slight smile\", \"background\": \"blurred, indoor, well-lit\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 9,
+      "score": 0.76171875,
+      "box": [
+        356.0,
+        63.5,
+        404.0,
+        196.0
+      ],
+      "mask": "image_2.masks/glass_9.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of a person's head with dark hair, positioned in the lower right corner. The background is blurred and appears to be an indoor setting with light-colored walls or windows.",
+      "attributes": {
+        "hair": "dark",
+        "focus": "out-of-focus",
+        "position": "lower right",
+        "background": "blurred, light-colored"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 10,
+      "score": 0.78515625,
+      "box": [
+        478.0,
+        180.0,
+        512.0,
+        732.0
+      ],
+      "mask": "image_2.masks/glass_10.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is wearing a white, long-sleeved shirt with the sleeves rolled up to the forearm, paired with light beige or khaki pants. The person's arm is hanging by their side, and the background is blurred, suggesting an indoor setting with soft lighting.\", \"attributes\": {\"clothing\": {\"shirt\": \"white, long-sleeved, rolled-up sleeves\", \"pants\": \"light beige or khaki\"}, \"pose\": \"standing, arm at side\", \"background\": \"blurred, indoor, soft lighting\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 11,
+      "score": 0.61328125,
+      "box": [
+        544.0,
+        242.0,
+        568.0,
+        704.0
+      ],
+      "mask": "image_2.masks/glass_11.png",
+      "crop": null,
+      "description": "A close-up of a person's arm and hand, wearing a light blue long-sleeved shirt with the cuff rolled up. The skin tone is fair, and the hand is relaxed with fingers slightly curled.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue",
+          "sleeve": "long",
+          "cuff": "rolled up"
+        },
+        "skin_tone": "fair",
+        "pose": "relaxed",
+        "hand_position": "fingers slightly curled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 12,
+      "score": 0.625,
+      "box": [
+        412.0,
+        119.0,
+        472.0,
+        245.0
+      ],
+      "mask": "image_2.masks/glass_12.png",
+      "crop": null,
+      "description": "A close-up crop showing the upper face of a young woman with dark hair and brown eyes, looking to the side with a slight smile. The background is out of focus, showing a white wall and a dark diagonal line.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "south asian",
+        "hair": {
+          "color": "black",
+          "style": "pulled back"
+        },
+        "eyes": {
+          "color": "brown",
+          "gaze": "looking right"
+        },
+        "expression": "slight smile",
+        "skin_tone": "light brown",
+        "makeup": {
+          "eyeliner": "black",
+          "eyebrows": "defined"
+        },
+        "background": {
+          "color": "white",
+          "blur": "high"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        552.0,
+        100.0,
+        824.0,
+        996.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A man with curly dark hair and a beard walks forward in a modern office hallway, wearing a light blue button-down shirt with sleeves rolled to the elbows, dark navy trousers, and black leather dress shoes. He holds a blue folder under his left arm and wears a black belt with a silver buckle and a wristwatch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_hair": "full beard",
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "dark navy",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "leather dress shoes"
+          },
+          "accessories": {
+            "belt": {
+              "color": "black",
+              "buckle": "silver"
+            },
+            "watch": {
+              "wrist": "left",
+              "band": "black"
+            },
+            "item_held": {
+              "type": "folder",
+              "color": "blue",
+              "position": "under left arm"
+            }
+          }
+        },
+        "pose": "walking forward",
+        "expression": "neutral, looking slightly to the side",
+        "setting": "indoor office hallway with wooden floor and ceiling lights"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        292.0,
+        164.0,
+        524.0,
+        996.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long dark hair is walking forward in a modern office hallway, wearing a white button-down shirt with rolled-up sleeves and beige trousers. She holds a black clipboard under her right arm and wears black heeled shoes with ankle straps, looking off to the side with a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "mixed/indeterminate",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "loose waves"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up to elbows"
+          },
+          "pants": {
+            "color": "beige",
+            "type": "trousers",
+            "fit": "slim"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "heeled sandals",
+            "detail": "ankle strap"
+          }
+        },
+        "accessories": {
+          "clipboard": {
+            "color": "black",
+            "held_in": "right arm"
+          },
+          "earrings": "small stud"
+        },
+        "pose": "walking forward, left leg extended",
+        "expression": "slight smile, looking to the right",
+        "setting": "office hallway with glass walls and wooden floor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.8046875,
+      "box": [
+        816.0,
+        528.0,
+        848.0,
+        632.0
+      ],
+      "mask": "image_2.masks/plant_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

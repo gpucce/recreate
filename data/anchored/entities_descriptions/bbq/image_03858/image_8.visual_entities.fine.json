@@ -1,0 +1,130 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        2.0,
+        680.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is holding a white rugby ball with red and blue stripes and the word 'Zaforniaez' written on it. The person is wearing a green shirt and black pants.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green",
+          "pants": "black"
+        },
+        "object": {
+          "type": "rugby ball",
+          "color": "white",
+          "stripes": [
+            "red",
+            "blue"
+          ],
+          "text": "Zaforniaez"
+        },
+        "pose": "holding ball with both hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        156.0,
+        8.0,
+        924.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A female athlete with curly brown hair tied in a messy bun stands facing forward, holding a white rugby ball with red and blue stripes and 'Zafarindeez' text in both hands. She wears a green and black short-sleeved jersey with 'Vipon' and a 'St. Kilda' logo, displaying a serious, focused expression against a blurred outdoor background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly bun"
+        },
+        "expression": "serious",
+        "clothing": {
+          "shirt": {
+            "type": "jersey",
+            "colors": [
+              "green",
+              "black"
+            ],
+            "text": "Vipon",
+            "logo": "St. Kilda"
+          }
+        },
+        "pose": "standing, holding ball",
+        "object": {
+          "type": "rugby ball",
+          "color": "white",
+          "details": "red and blue stripes, Zafarindeez text"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        462.0,
+        680.0,
+        688.0,
+        992.0
+      ],
+      "mask": "image_8.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball held by two hands, featuring the word 'Zafornandez' in bold black letters with a red and blue stripe design. The ball has a textured surface and is partially obscured by the fingers of the person holding it.",
+      "attributes": {
+        "color": [
+          "white",
+          "red",
+          "blue",
+          "black"
+        ],
+        "text": "Zafornandez",
+        "material": "rubber or synthetic leather",
+        "shape": "oval",
+        "held_by": "two hands",
+        "background": "green fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.53125,
+      "box": [
+        840.0,
+        502.0,
+        960.0,
+        604.0
+      ],
+      "mask": "image_8.masks/tree_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's shoulder and upper arm, wearing a dark brown short-sleeved shirt with visible stitching along the sleeve hem. The background is blurred, suggesting an outdoor setting with indistinct green and brown tones.",
+      "attributes": {
+        "clothing": {
+          "shirt": "dark brown",
+          "sleeve": "short",
+          "stitching": "visible on sleeve hem"
+        },
+        "skin": "light tone",
+        "background": "blurred, outdoor, green and brown tones"
+      },
+      "parse_ok": true
+    }
+  ]
+}

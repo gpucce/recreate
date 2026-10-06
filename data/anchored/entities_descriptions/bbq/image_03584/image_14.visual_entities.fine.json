@@ -1,0 +1,220 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "flowers",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        -2.75,
+        364.0,
+        45.0,
+        432.0
+      ],
+      "mask": "image_14.masks/flowers_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "flowers",
+      "index": 1,
+      "score": 0.78125,
+      "box": [
+        -0.5,
+        296.0,
+        85.5,
+        356.0
+      ],
+      "mask": "image_14.masks/flowers_1.png",
+      "crop": null,
+      "description": "A close-up of a white flower with soft, overlapping petals that appear slightly blurred, revealing hints of pink or red at the base of the petals near the center. The flower is set against a plain, light background, emphasizing its delicate texture and form.",
+      "attributes": {
+        "color": "white with pink/red base",
+        "petal_structure": "overlapping, soft",
+        "focus": "slightly blurred",
+        "background": "plain, light",
+        "type": "flower"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 2,
+      "score": 0.7265625,
+      "box": [
+        -5.0,
+        296.0,
+        236.0,
+        704.0
+      ],
+      "mask": "image_14.masks/flowers_2.png",
+      "crop": null,
+      "description": "A bouquet of white peonies with yellow centers is arranged in a clear glass vase filled with water, placed on a reflective surface next to an open book. The flowers are in various stages of bloom, with some fully open and others still in bud form, surrounded by green leaves and stems.",
+      "attributes": {
+        "flower_type": "peony",
+        "color": "white",
+        "center_color": "yellow",
+        "vase": {
+          "material": "glass",
+          "shape": "round",
+          "contents": "water"
+        },
+        "leaves": "green",
+        "stems": "green",
+        "arrangement": "bouquet",
+        "position": "on a reflective surface",
+        "background": "window with light coming through",
+        "additional_objects": "open book"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 3,
+      "score": 0.73828125,
+      "box": [
+        135.0,
+        354.0,
+        239.0,
+        454.0
+      ],
+      "mask": "image_14.masks/flowers_3.png",
+      "crop": null,
+      "description": "A close-up, slightly out-of-focus shot of a white flower with dense, ruffled petals, accompanied by a small, unopened bud with a pinkish tip and green sepals. The background is a soft, blurred white, creating a high-key, ethereal aesthetic.",
+      "attributes": {
+        "flower_type": "peony or rose",
+        "color": "white",
+        "petal_texture": "ruffled, dense",
+        "state": "blooming",
+        "accessories": {
+          "bud": "small, unopened, pinkish tip",
+          "sepals": "green"
+        },
+        "focus": "soft, out-of-focus",
+        "lighting": "bright, high-key"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 4,
+      "score": 0.73828125,
+      "box": [
+        32.0,
+        394.0,
+        161.0,
+        516.0
+      ],
+      "mask": "image_14.masks/flowers_4.png",
+      "crop": null,
+      "description": "A close-up of a white flower with multiple layers of soft, rounded petals surrounding a central cluster of yellow stamens. The petals appear smooth and slightly translucent, with subtle shading that gives the flower a three-dimensional look.",
+      "attributes": {
+        "color": {
+          "petals": "white",
+          "center": "yellow"
+        },
+        "shape": "round",
+        "texture": "smooth",
+        "structure": {
+          "petals": "multiple layers",
+          "center": "cluster of stamens"
+        },
+        "lighting": "soft",
+        "focus": "sharp"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        110.0,
+        132.0,
+        864.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair and round wire-rimmed glasses sits in a wooden armchair, reading a book titled 'Flourish: A Thriving Life'. She wears a light blue, long-sleeved dress with a bow at the neckline and a serene, focused expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed",
+          "earrings": "small gold studs"
+        },
+        "clothing": {
+          "dress": {
+            "color": "light blue",
+            "sleeves": "long",
+            "neckline": "bow tie"
+          }
+        },
+        "pose": "sitting",
+        "action": "reading",
+        "object": {
+          "type": "book",
+          "title": "Flourish: A Thriving Life"
+        },
+        "expression": "calm, focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        -2.5,
+        668.0,
+        236.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a round wooden table with a dark brown finish, featuring a turned pedestal leg with decorative rings and a smooth, reflective surface. A portion of a white and green striped vase is visible on the table's edge, and a light blue fabric drapes over the side of a chair in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "shape": "round",
+        "leg_style": "turned pedestal",
+        "surface": "smooth, reflective",
+        "object_on_table": "white and green striped vase",
+        "foreground_object": "light blue fabric on chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        -2.0,
+        -2.0,
+        203.0,
+        576.0
+      ],
+      "mask": "image_14.masks/window_0.png",
+      "crop": null,
+      "description": "A white-framed window with a visible latch mechanism at the top, positioned behind a vase of white peonies. The window glass is bright and slightly out of focus, suggesting daylight coming from outside.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or painted material",
+        "glass": "clear, bright, out of focus",
+        "hardware": "metal latch visible at top",
+        "position": "background, behind flowers",
+        "lighting": "natural daylight"
+      },
+      "parse_ok": true
+    }
+  ]
+}

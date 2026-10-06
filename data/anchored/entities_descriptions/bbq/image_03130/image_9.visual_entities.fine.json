@@ -1,0 +1,193 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        484.0,
+        536.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/furniture_0.png",
+      "crop": null,
+      "description": "An elderly person is standing in a bedroom, wearing a light blue button-up shirt with rolled-up sleeves and beige pants. The person is holding a wooden cane with their right hand, and their left hand is resting by their side. In the background, there is a bed with white bedding and a wooden headboard.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, button-up, long-sleeved with rolled-up cuffs",
+          "pants": "beige, loose-fitting"
+        },
+        "accessories": {
+          "cane": "wooden, with a dark handle"
+        },
+        "pose": "standing, holding cane with right hand",
+        "age": "elderly",
+        "gender": "not determinable from the crop",
+        "background": {
+          "bed": "white bedding, wooden frame",
+          "headboard": "wooden, light-colored"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        2.5,
+        716.0,
+        222.0,
+        980.0
+      ],
+      "mask": "image_9.masks/furniture_1.png",
+      "crop": null,
+      "description": "A small, round wooden side table with three tapered legs, featuring a light natural wood finish and a minimalist design. The tabletop holds a black camera and a partially visible glass object.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "shape": "round top, three-legged",
+        "style": "minimalist",
+        "function": "side table or accent table",
+        "top_surface": "smooth, flat",
+        "legs": "tapered, splayed outward",
+        "objects_on_top": [
+          "black camera",
+          "glass (partially visible)"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.9375,
+      "box": [
+        442.0,
+        192.0,
+        620.0,
+        356.0
+      ],
+      "mask": "image_9.masks/furniture_2.png",
+      "crop": null,
+      "description": "A light-colored wooden bookshelf with a simple, rectangular frame design is visible in the background, holding a row of white or light-colored books or binders on a middle shelf. The wood appears to be a natural finish, possibly oak or birch, and the structure is partially obscured by the foreground figures.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "type": "bookshelf",
+        "contents": "white books or binders",
+        "position": "background",
+        "state": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        480.0,
+        142.0,
+        896.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair stands with a somber expression, looking downward while holding a wooden cane in her right hand. She wears a light blue button-down shirt with rolled-up sleeves and beige trousers, while a caregiver in a blue uniform places a comforting hand on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, wavy"
+        },
+        "facial_features": {
+          "expression": "sad, contemplative",
+          "skin": "wrinkled",
+          "eyes": "looking down"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue",
+            "sleeves": "rolled up to elbows",
+            "details": "chest pocket, white buttons"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "accessories": {
+          "earrings": "small, white, round"
+        },
+        "pose": {
+          "action": "standing",
+          "hand": "holding wooden cane"
+        },
+        "interaction": "being comforted by a caregiver"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        250.0,
+        98.0,
+        840.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with dark hair tied back in a ponytail and wearing glasses is dressed in a light blue short-sleeved medical scrub set. She stands to the left, looking down with a gentle expression, placing her hands on the shoulders of an elderly woman.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub top with V-neck and chest pocket",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning slightly forward, hands on another person's shoulders",
+        "expression": "gentle, attentive"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        0.0,
+        0.0,
+        182.0,
+        640.0
+      ],
+      "mask": "image_9.masks/window_0.png",
+      "crop": null,
+      "description": "A white-framed window with multiple rectangular panes is visible, allowing bright natural light to enter the room. In the foreground, a clear glass vase holds a bouquet of orange and yellow flowers, partially obscuring the lower section of the window.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or painted material",
+        "pane_shape": "rectangular",
+        "pane_count": "multiple",
+        "lighting": "bright, natural daylight",
+        "foreground_object": "bouquet of orange and yellow flowers in a clear glass vase",
+        "position": "centered in the frame, with flowers in the lower foreground"
+      },
+      "parse_ok": true
+    }
+  ]
+}

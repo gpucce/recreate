@@ -1,0 +1,76 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        210.0,
+        28.0,
+        280.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender flagpole with a metallic finish stands vertically, topped with a golden spherical finial. A portion of a flag is visible on the right side of the pole, showing red and white colors, while the background is a clear, light blue sky.",
+      "attributes": {
+        "material": "metallic",
+        "color": "silver",
+        "top": {
+          "type": "finial",
+          "shape": "spherical",
+          "color": "gold"
+        },
+        "flag": {
+          "visible": true,
+          "colors": [
+            "red",
+            "white"
+          ]
+        },
+        "background": "light blue sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        244.0,
+        234.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/statue_0.png",
+      "crop": null,
+      "description": "A close-up, eye-level shot of a weathered white marble statue of a male figure with curly hair, wearing a draped toga secured by a circular brooch on the right shoulder. The statue has a serene, classical expression and is positioned in front of a blurred red, white, and blue flag against a pale sky.",
+      "attributes": {
+        "material": "white marble",
+        "condition": "weathered with dark spots and discoloration",
+        "gender": "male",
+        "hair": "curly, short, sculpted",
+        "facial_features": {
+          "expression": "serene, neutral",
+          "gaze": "looking slightly to the right",
+          "nose": "straight",
+          "lips": "full, closed"
+        },
+        "clothing": {
+          "type": "toga or draped robe",
+          "details": "heavy folds, draped over left shoulder, secured with a spiral-shaped fibula or brooch on the right shoulder",
+          "color": "off-white, matching the marble"
+        },
+        "pose": "standing, upper body visible, head turned slightly to the side",
+        "background": {
+          "flag": "red, white, and blue horizontal stripes, out of focus",
+          "sky": "pale blue, clear"
+        },
+        "style": "classical, Greco-Roman"
+      },
+      "parse_ok": true
+    }
+  ]
+}

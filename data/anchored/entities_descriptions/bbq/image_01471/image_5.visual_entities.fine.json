@@ -1,0 +1,108 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        152.0,
+        326.0,
+        808.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young boy with curly blonde hair and freckles is being hugged by a woman with blonde hair wearing a blue and white striped button-down shirt. The boy is wearing a red t-shirt and is looking directly at the camera with a happy expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "blonde",
+          "style": "curly",
+          "length": "short"
+        },
+        "skin": {
+          "features": "freckles"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "red"
+          }
+        },
+        "pose": "hugging",
+        "position": "left side of frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        136.0,
+        44.0,
+        876.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with long wavy blonde hair and freckles wearing a blue and white striped button-down shirt hugs a young boy with short blonde hair and freckles wearing a red t-shirt. They are positioned closely together in a bright indoor setting with a large green plant in the background.",
+      "attributes": {
+        "group": {
+          "count": 2,
+          "relationship": "mother and son"
+        },
+        "woman": {
+          "gender": "female",
+          "age": "adult",
+          "hair": {
+            "color": "blonde",
+            "length": "long",
+            "style": "wavy"
+          },
+          "skin": {
+            "features": "freckles"
+          },
+          "clothing": {
+            "type": "button-down shirt",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "expression": "smiling",
+          "pose": "hugging"
+        },
+        "boy": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "blonde",
+            "length": "short",
+            "style": "wavy"
+          },
+          "skin": {
+            "features": "freckles"
+          },
+          "clothing": {
+            "type": "t-shirt",
+            "color": "red"
+          },
+          "expression": "smiling",
+          "pose": "being hugged"
+        },
+        "background": {
+          "object": "potted plant",
+          "plant_type": "fiddle leaf fig",
+          "lighting": "bright, natural"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

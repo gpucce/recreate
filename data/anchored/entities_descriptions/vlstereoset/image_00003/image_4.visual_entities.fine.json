@@ -1,0 +1,573 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "chessboard",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        920.0,
+        592.0,
+        1024.0,
+        696.0
+      ],
+      "mask": "image_4.masks/chessboard_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a chessboard with several dark-colored chess pieces standing on light wooden squares. The pieces are blurred, making their specific types difficult to identify, but they appear to be made of a dark material, possibly wood or plastic. The background is a plain, light color, and the focus is shallow, emphasizing the texture of the board and the silhouettes of the pieces.",
+      "attributes": {
+        "chessboard": {
+          "color": "light wood",
+          "material": "wood",
+          "focus": "out-of-focus"
+        },
+        "chess_pieces": {
+          "color": "dark",
+          "material": "unknown",
+          "focus": "out-of-focus",
+          "quantity": "multiple"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chessboard",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        -4.0,
+        840.0,
+        844.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/chessboard_1.png",
+      "crop": null,
+      "description": "A close-up, low-angle view of a wooden chessboard with a light and dark checkered pattern, featuring several chess pieces in the foreground. The pieces are made of wood, with some in a light cream color and others in a dark brown, all with green bases. The board has a thick wooden frame with a visible hinge or knob on the side, suggesting it may be a folding or storage board. The focus is shallow, with the front row of pieces sharp and the background pieces and board surface gradually blurring.",
+      "attributes": {
+        "material": "wood",
+        "color_scheme": {
+          "light_pieces": "cream",
+          "dark_pieces": "dark brown",
+          "board_squares": "light beige and dark brown",
+          "frame": "medium brown wood",
+          "piece_bases": "green"
+        },
+        "perspective": "low angle, close-up",
+        "focus": "shallow depth of field, front pieces in focus",
+        "board_type": "wooden, possibly folding or storage",
+        "visible_pieces": {
+          "light": [
+            "pawns",
+            "bishops",
+            "rooks"
+          ],
+          "dark": [
+            "pawns",
+            "bishops",
+            "rooks",
+            "knight"
+          ]
+        },
+        "frame_details": {
+          "hinge_or_knob": "black, circular, on the side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.55078125,
+      "box": [
+        446.0,
+        804.0,
+        490.0,
+        844.0
+      ],
+      "mask": "image_4.masks/hand_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        178.0,
+        632.0,
+        390.0,
+        784.0
+      ],
+      "mask": "image_4.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand with dark skin tone, fingers slightly curled as if holding or about to move a light-colored wooden chess piece. The person is wearing a white short-sleeved shirt, and the background is blurred, focusing attention on the hand and the piece.",
+      "attributes": {
+        "skin_tone": "dark",
+        "hand": "right",
+        "pose": "fingers curled, holding or reaching for a chess piece",
+        "clothing": {
+          "shirt": "white",
+          "sleeve": "short"
+        },
+        "object_interacted_with": {
+          "type": "chess piece",
+          "color": "light wood",
+          "material": "wood"
+        },
+        "focus": "hand and chess piece",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 0,
+      "score": 0.6328125,
+      "box": [
+        960.0,
+        596.0,
+        984.0,
+        668.0
+      ],
+      "mask": "image_4.masks/pawn_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 1,
+      "score": 0.640625,
+      "box": [
+        150.0,
+        768.0,
+        210.0,
+        920.0
+      ],
+      "mask": "image_4.masks/pawn_1.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred image of a white chess pawn standing on a checkered board. The pawn has a classic design with a rounded head, a collar, and a flared base, and it appears to be made of a smooth, light-colored material like plastic or wood.",
+      "attributes": {
+        "object_type": "chess pawn",
+        "color": "white",
+        "material": "smooth, possibly plastic or wood",
+        "design": "classic pawn shape with rounded head and flared base",
+        "position": "standing on a checkered board",
+        "focus": "slightly blurred",
+        "background": "out of focus, showing part of the board and possibly other pieces"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 2,
+      "score": 0.71484375,
+      "box": [
+        314.0,
+        776.0,
+        378.0,
+        936.0
+      ],
+      "mask": "image_4.masks/pawn_2.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a dark brown wooden chess pawn, slightly out of focus, positioned in the foreground on a checkered chessboard. The pawn has a classic design with a rounded head and a flared base, and it is surrounded by other chess pieces, including a lighter-colored pawn in the background.\", \"attributes\": {\"color\": \"dark brown\", \"material\": \"wood\", \"shape\": \"classic pawn design with rounded head and flared base\", \"focus\": \"slightly out of focus\", \"position\": \"foreground on a checkered chessboard\", \"surroundings\": \"other chess pieces, including a lighter-colored pawn in the background\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 3,
+      "score": 0.76953125,
+      "box": [
+        24.625,
+        604.0,
+        58.0,
+        676.0
+      ],
+      "mask": "image_4.masks/pawn_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 4,
+      "score": 0.70703125,
+      "box": [
+        684.0,
+        784.0,
+        732.0,
+        880.0
+      ],
+      "mask": "image_4.masks/pawn_4.png",
+      "crop": null,
+      "description": "A close-up of a wooden chess piece, specifically a rook, with a crenellated top and a smooth, tapered body. The piece has a warm brown tone with visible wood grain and a dark green band at the base.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "type": "rook",
+        "top": "crenellated",
+        "base": "dark green band",
+        "texture": "smooth with wood grain"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 5,
+      "score": 0.8671875,
+      "box": [
+        410.0,
+        776.0,
+        450.0,
+        856.0
+      ],
+      "mask": "image_4.masks/pawn_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 6,
+      "score": 0.81640625,
+      "box": [
+        304.0,
+        780.0,
+        332.0,
+        852.0
+      ],
+      "mask": "image_4.masks/pawn_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 7,
+      "score": 0.6953125,
+      "box": [
+        117.0,
+        780.0,
+        161.0,
+        868.0
+      ],
+      "mask": "image_4.masks/pawn_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 8,
+      "score": 0.90625,
+      "box": [
+        -0.375,
+        804.0,
+        54.5,
+        908.0
+      ],
+      "mask": "image_4.masks/pawn_8.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred image of a light-colored wooden chess pawn with a rounded head and a flared base, positioned on a surface with a dark background.",
+      "attributes": {
+        "object_type": "chess pawn",
+        "material": "wood",
+        "color": "light beige or cream",
+        "shape": "rounded head, cylindrical body, flared base",
+        "focus": "slightly out of focus",
+        "background": "dark, indistinct",
+        "position": "upright on a surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 9,
+      "score": 0.734375,
+      "box": [
+        57.0,
+        616.0,
+        90.0,
+        672.0
+      ],
+      "mask": "image_4.masks/pawn_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 10,
+      "score": 0.765625,
+      "box": [
+        232.0,
+        784.0,
+        292.0,
+        928.0
+      ],
+      "mask": "image_4.masks/pawn_10.png",
+      "crop": null,
+      "description": "A close-up, slightly out-of-focus view of a light-colored wooden chess pawn standing on a checkered chessboard. The pawn has a classic design with a rounded head and a flared base, and it is positioned in the foreground with a darker chess piece visible in the blurred background.",
+      "attributes": {
+        "object_type": "chess pawn",
+        "material": "wood",
+        "color": "light beige or cream",
+        "shape": "classic pawn shape with rounded head and flared base",
+        "position": "foreground, standing on a chessboard",
+        "focus": "slightly out of focus",
+        "background": "blurred, includes a darker chess piece and a checkered board pattern"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 11,
+      "score": 0.64453125,
+      "box": [
+        70.0,
+        796.0,
+        131.0,
+        916.0
+      ],
+      "mask": "image_4.masks/pawn_11.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light-colored chess piece, likely a bishop or queen, with a rounded top and a flared base. The piece appears to be made of wood or a similar material, with a smooth surface and a slightly darker greenish band at the bottom. The background is blurred, showing hints of other chess pieces and a wooden surface.",
+      "attributes": {
+        "color": "light beige",
+        "material": "wood or similar",
+        "shape": "rounded top, flared base",
+        "focus": "out-of-focus",
+        "background": "blurred, hints of other chess pieces and wooden surface",
+        "band": "greenish at the bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 12,
+      "score": 0.7578125,
+      "box": [
+        740.0,
+        788.0,
+        788.0,
+        868.0
+      ],
+      "mask": "image_4.masks/pawn_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 13,
+      "score": 0.6953125,
+      "box": [
+        -1.4375,
+        600.0,
+        27.75,
+        672.0
+      ],
+      "mask": "image_4.masks/pawn_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 14,
+      "score": 0.60546875,
+      "box": [
+        996.0,
+        620.0,
+        1020.0,
+        668.0
+      ],
+      "mask": "image_4.masks/pawn_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 15,
+      "score": 0.84375,
+      "box": [
+        474.0,
+        828.0,
+        532.0,
+        948.0
+      ],
+      "mask": "image_4.masks/pawn_15.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred view of a wooden chess pawn standing on a checkered chessboard. The pawn is made of dark brown wood with a smooth, polished finish and features a classic design with a rounded head and a wider base.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "shape": "classic pawn shape with rounded head and wide base",
+        "surface": "smooth, polished",
+        "position": "standing upright on a checkered board",
+        "focus": "slightly blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 16,
+      "score": 0.8046875,
+      "box": [
+        560.0,
+        840.0,
+        616.0,
+        952.0
+      ],
+      "mask": "image_4.masks/pawn_16.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred view of a dark brown wooden chess pawn standing on a checkered chessboard. The pawn has a classic design with a rounded head and a flared base, and its surface appears smooth with a subtle sheen.",
+      "attributes": {
+        "object_type": "chess pawn",
+        "material": "wood",
+        "color": "dark brown",
+        "shape": "classic pawn shape with rounded head and flared base",
+        "surface_texture": "smooth",
+        "finish": "slight sheen",
+        "position": "standing on a checkered chessboard",
+        "focus": "slightly blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 17,
+      "score": 0.87109375,
+      "box": [
+        354.0,
+        772.0,
+        398.0,
+        860.0
+      ],
+      "mask": "image_4.masks/pawn_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 18,
+      "score": 0.88671875,
+      "box": [
+        398.0,
+        832.0,
+        454.0,
+        936.0
+      ],
+      "mask": "image_4.masks/pawn_18.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a wooden chess pawn with a rounded head and flared base, positioned on a checkered chessboard surface. The pawn is made of dark brown wood with visible grain, and the background shows blurred elements of the board and possibly other pieces.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "shape": "pawn (rounded head, cylindrical body, flared base)",
+        "focus": "out-of-focus",
+        "position": "on a checkered chessboard",
+        "texture": "smooth, polished wood grain visible",
+        "context": "chess piece"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pawn",
+      "index": 19,
+      "score": 0.9140625,
+      "box": [
+        616.0,
+        788.0,
+        664.0,
+        868.0
+      ],
+      "mask": "image_4.masks/pawn_19.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 20,
+      "score": 0.5546875,
+      "box": [
+        920.0,
+        596.0,
+        944.0,
+        668.0
+      ],
+      "mask": "image_4.masks/pawn_20.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pawn",
+      "index": 21,
+      "score": 0.859375,
+      "box": [
+        209.0,
+        776.0,
+        247.0,
+        856.0
+      ],
+      "mask": "image_4.masks/pawn_21.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        98.0,
+        60.0,
+        928.0,
+        884.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black man with a short afro and a full beard, wearing round wire-rimmed glasses and a plain white t-shirt, sits at a table with a focused expression while reaching out to move a chess piece on a wooden board.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short afro"
+        },
+        "facial_hair": "full black beard and mustache",
+        "accessories": {
+          "glasses": "round, thin metal frames"
+        },
+        "clothing": {
+          "shirt": "white crew-neck t-shirt"
+        },
+        "pose": "sitting, leaning forward, right hand extended to touch a chess piece",
+        "expression": "concentrated, serious",
+        "activity": "playing chess"
+      },
+      "parse_ok": true
+    }
+  ]
+}

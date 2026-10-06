@@ -1,0 +1,175 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        142.0,
+        28.25,
+        276.0,
+        117.0
+      ],
+      "mask": "image_15.masks/house_0.png",
+      "crop": null,
+      "description": "The image is a heavily blurred, out-of-focus crop showing indistinct horizontal bands of color, including a light beige or white section at the top, a darker brownish-gray band in the middle, and a lighter blue-gray area below, with a small patch of green on the far left edge. No specific architectural details, textures, or features of a house are discernible due to the extreme blur.",
+      "attributes": {
+        "visibility": "extremely low",
+        "focus": "out of focus",
+        "colors": [
+          "beige",
+          "brown",
+          "blue-gray",
+          "green"
+        ],
+        "details": "none visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        272.0,
+        -3.0,
+        1024.0,
+        436.0
+      ],
+      "mask": "image_15.masks/house_1.png",
+      "crop": null,
+      "description": "A white house with horizontal siding and dark green shutters flanking a white-framed window is visible in the background, slightly out of focus. The house appears to be a single-story structure with a clean, suburban aesthetic.",
+      "attributes": {
+        "siding": "white horizontal",
+        "shutters": "dark green",
+        "window_frame": "white",
+        "window_panes": "multiple, rectangular",
+        "structure_type": "single-story house",
+        "focus": "background, blurred",
+        "color_scheme": "white and dark green"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        462.0,
+        102.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits in profile, wearing a white long-sleeved shirt with thin grey horizontal stripes and blue jeans. She has a serious, contemplative expression and is reaching out to place her hand gently on the shoulder of another person seated next to her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "white",
+            "pattern": "grey horizontal stripes"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, leaning forward, hand on another person's shoulder",
+        "expression": "serious, concerned, or comforting",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        85.0,
+        128.0,
+        588.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits on a white bench, crying with tears visible on her cheeks and a distressed expression. She wears a maroon V-neck sweater and blue jeans, with her hands clasped in her lap while another person's hand rests on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "expression": "crying, distressed",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "maroon",
+            "neckline": "V-neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "earrings": "small stud"
+          }
+        },
+        "pose": "sitting, hands clasped in lap",
+        "context": "being comforted by another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        2.5,
+        336.0,
+        176.0,
+        816.0
+      ],
+      "mask": "image_15.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange marigold flowers with green foliage is visible in the background, slightly out of focus. In the foreground, a white railing and a person's arm wearing a maroon velvet sleeve are partially visible, with strands of light-colored hair falling over the shoulder.",
+      "attributes": {
+        "flowers": {
+          "color": "orange",
+          "type": "marigold",
+          "state": "blooming"
+        },
+        "foliage": {
+          "color": "green",
+          "density": "medium"
+        },
+        "railing": {
+          "color": "white",
+          "material": "wood or painted metal"
+        },
+        "person": {
+          "clothing": {
+            "sleeve": "maroon velvet"
+          },
+          "hair": {
+            "color": "light blonde or light brown",
+            "style": "loose strands visible"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

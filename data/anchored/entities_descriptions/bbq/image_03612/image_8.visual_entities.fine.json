@@ -1,0 +1,120 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        580.0,
+        244.0,
+        1020.0,
+        844.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length blonde hair sits at a desk, resting her chin on her right hand while looking down at a laptop screen with a furrowed brow and a concerned or frustrated expression. She is wearing a dark blue and red plaid button-down shirt, and the background features a white shelving unit filled with white binders.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "expression": {
+          "brows": "furrowed",
+          "mouth": "slightly downturned",
+          "emotion": "concerned, frustrated, or confused"
+        },
+        "pose": {
+          "action": "sitting",
+          "hand_position": "chin resting on right fist",
+          "gaze": "downward at laptop"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "plaid",
+            "colors": [
+              "dark blue",
+              "red"
+            ]
+          }
+        },
+        "context": {
+          "object": "laptop",
+          "background": "office shelves with binders"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        12.0,
+        212.0,
+        500.0,
+        852.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair sits at a desk looking down at a silver laptop with a furrowed brow and a concerned or confused expression. She is wearing a light pink, long-sleeved button-down shirt with the sleeves rolled up to the elbows, set against a blurred office background with white shelving and blue binders.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed or hispanic",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "confused or concerned",
+        "clothing": {
+          "shirt": {
+            "color": "light pink",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at laptop",
+        "object": {
+          "type": "laptop",
+          "color": "silver"
+        },
+        "setting": "office"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        2.0,
+        840.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/table_0.png",
+      "crop": null,
+      "description": "A white, glossy table surface with two silver laptops placed on it, one on the left and one on the right, both facing away from the viewer. The table has a smooth, reflective finish, and there are some indistinct objects in the background, including what appears to be a pen on the left side.",
+      "attributes": {
+        "color": "white",
+        "material": "glossy surface",
+        "objects_on_table": [
+          "silver laptop (left)",
+          "silver laptop (right)",
+          "pen (left)"
+        ],
+        "background": "indistinct objects",
+        "position": "horizontal, spanning the width of the image"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        2.0,
+        616.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/alley_0.png",
+      "crop": null,
+      "description": "A close-up view of a wet, cobblestone alleyway with two people walking away from the camera, an adult and a child, holding hands. The adult is wearing dark pants and a dark jacket, while the child is dressed in a blue puffer jacket, blue jeans, and brown boots. The cobblestones are glistening with water, reflecting the overcast sky, and the alley is flanked by stone walls and buildings on either side.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "weather": "rainy",
+          "lighting": "overcast"
+        },
+        "people": [
+          {
+            "age": "adult",
+            "clothing": {
+              "pants": "dark gray",
+              "jacket": "dark blue or black"
+            },
+            "pose": "walking away"
+          },
+          {
+            "age": "child",
+            "clothing": {
+              "jacket": "blue puffer",
+              "pants": "blue jeans",
+              "boots": "brown"
+            },
+            "pose": "walking away, holding hands with adult"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        346.0,
+        382.0,
+        406.0,
+        576.0
+      ],
+      "mask": "image_3.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up of a person's shoulder and upper arm wearing a dark, puffy jacket with visible horizontal stitching. The background is blurred, showing indistinct shapes and colors that suggest an outdoor setting with a building.",
+      "attributes": {
+        "clothing": {
+          "jacket": {
+            "color": "dark blue or black",
+            "style": "puffy",
+            "material": "synthetic fabric",
+            "details": "horizontal stitching"
+          }
+        },
+        "pose": "standing",
+        "background": {
+          "blur": "high",
+          "elements": [
+            "building",
+            "outdoor setting"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.859375,
+      "box": [
+        720.0,
+        -4.0,
+        1024.0,
+        732.0
+      ],
+      "mask": "image_3.masks/building_1.png",
+      "crop": null,
+      "description": "A stone building with a rustic appearance, featuring a wooden door set within an arched stone frame and a small window to the left. Above the door is a balcony with a black metal railing, supported by a stone ledge. The building's facade is constructed from irregularly shaped stones in various shades of gray and beige, giving it a textured and aged look. A person wearing a dark blue jacket is partially visible on the left side of the image, standing near the building.",
+      "attributes": {
+        "building_material": "stone",
+        "door": {
+          "material": "wood",
+          "shape": "arched",
+          "color": "brown"
+        },
+        "window": {
+          "shape": "rectangular",
+          "frame": "stone"
+        },
+        "balcony": {
+          "railing": "black metal",
+          "support": "stone ledge"
+        },
+        "facade_color": "gray and beige",
+        "person": {
+          "clothing": "dark blue jacket",
+          "position": "left side, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        -1.25,
+        126.0,
+        117.0,
+        712.0
+      ],
+      "mask": "image_3.masks/building_2.png",
+      "crop": null,
+      "description": "A close-up view of a rustic stone building featuring a wooden door set within an arched stone frame. The wall is constructed from irregular, rough-hewn stones in varying shades of gray and brown, with a tiled roof edge visible at the top.",
+      "attributes": {
+        "material": "stone",
+        "door": {
+          "material": "wood",
+          "color": "brown",
+          "shape": "arched"
+        },
+        "wall": {
+          "texture": "rough",
+          "color": "gray and brown",
+          "construction": "irregular stones"
+        },
+        "roof": {
+          "material": "tile",
+          "color": "reddish-brown"
+        },
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.8359375,
+      "box": [
+        266.0,
+        330.0,
+        374.0,
+        616.0
+      ],
+      "mask": "image_3.masks/building_3.png",
+      "crop": null,
+      "description": "A beige building with a reddish-brown tiled roof is visible in the background, appearing out of focus. A green leafy bush is situated in the foreground to the left, partially obscuring the lower wall of the structure.",
+      "attributes": {
+        "wall_color": "beige",
+        "roof_color": "reddish-brown",
+        "roof_type": "tiled",
+        "focus": "blurred",
+        "foreground_object": "green bush",
+        "structure_type": "residential building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.8671875,
+      "box": [
+        -1.0,
+        2.0,
+        316.0,
+        720.0
+      ],
+      "mask": "image_3.masks/building_4.png",
+      "crop": null,
+      "description": "A two-story stone building with a rustic appearance, featuring a wooden door on the ground floor and a small balcony with a black metal railing on the upper floor. The building has a tiled roof and is situated on a cobblestone street.",
+      "attributes": {
+        "material": "stone",
+        "roof": "tiled",
+        "balcony": {
+          "railing": "black metal",
+          "floor": "wooden"
+        },
+        "door": {
+          "material": "wood",
+          "color": "brown"
+        },
+        "street": "cobblestone",
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.8671875,
+      "box": [
+        528.0,
+        170.0,
+        720.0,
+        616.0
+      ],
+      "mask": "image_3.masks/building_5.png",
+      "crop": null,
+      "description": "A two-story building constructed of rough, light-colored stone blocks with a sloped roof covered in reddish-brown tiles. A brick chimney rises from the roof, and the structure features rectangular windows and a small balcony on the upper level.",
+      "attributes": {
+        "material": "stone",
+        "roof": {
+          "type": "sloped",
+          "material": "tile",
+          "color": "reddish-brown"
+        },
+        "chimney": {
+          "material": "brick",
+          "color": "red"
+        },
+        "floors": 2,
+        "windows": "rectangular",
+        "balcony": "present",
+        "condition": "weathered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        572.0,
+        516.0,
+        756.0,
+        932.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with light brown hair is seen from behind, walking away on a wet, cobblestone surface while holding the hand of an adult. The child wears a dark blue puffy winter jacket with a hood, blue jeans, and brown boots.",
+      "attributes": {
+        "age": "child",
+        "gender": "male",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "boots",
+            "color": "brown"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        354.0,
+        284.0,
+        608.0,
+        940.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street while holding the hand of a child. They are wearing a dark navy blue puffy winter jacket and grey trousers with black shoes.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "style": "quilted"
+          },
+          "pants": {
+            "color": "grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding a child's hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

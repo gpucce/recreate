@@ -1,0 +1,162 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        544.0,
+        168.0,
+        992.0,
+        888.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length blonde hair sits at a desk, resting her chin on her left hand while holding a pen in her right hand over a notebook. She wears a dark blue plaid flannel shirt with red and white lines, looking intently at a laptop screen with a furrowed brow and a serious, focused expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "straight, parted in the middle"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "flannel",
+            "pattern": "plaid",
+            "colors": [
+              "dark blue",
+              "red",
+              "white"
+            ],
+            "sleeves": "long, rolled up to forearms"
+          }
+        },
+        "pose": {
+          "body": "seated",
+          "head": "tilted, resting on left hand",
+          "hands": {
+            "left": "supporting chin",
+            "right": "holding pen over notebook"
+          }
+        },
+        "expression": {
+          "brows": "furrowed",
+          "mouth": "closed, neutral to slightly concerned",
+          "eyes": "focused, looking down at screen"
+        },
+        "accessories": {
+          "earrings": "small hoop, visible on left ear"
+        },
+        "context": {
+          "activity": "working or studying",
+          "objects": [
+            "laptop (Apple logo visible)",
+            "notebook",
+            "pen"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        18.0,
+        140.0,
+        536.0,
+        892.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair and a concerned expression looks down at a silver laptop screen. She is wearing a light pink button-down shirt with the sleeves rolled up to the elbows, seated at a desk in a bright indoor setting.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "mixed or hispanic",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "concerned or confused",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light pink",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting, looking down",
+        "context": {
+          "object": "silver laptop",
+          "setting": "office or workspace"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.7421875,
+      "box": [
+        -1.375,
+        592.0,
+        38.0,
+        696.0
+      ],
+      "mask": "image_12.masks/table_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        6.0,
+        828.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/table_1.png",
+      "crop": null,
+      "description": "A person is seated at a white desk, using a silver laptop with their left hand on the keyboard and their right hand holding a pen over a clipboard with paper. A black camera is partially visible on the left side of the frame.",
+      "attributes": {
+        "person": {
+          "clothing": {
+            "shirt": "white"
+          },
+          "pose": "seated, typing with left hand, writing with right hand"
+        },
+        "laptop": {
+          "color": "silver",
+          "brand": "Apple (logo visible)"
+        },
+        "clipboard": {
+          "color": "black",
+          "contents": "white paper"
+        },
+        "pen": {
+          "color": "black"
+        },
+        "camera": {
+          "color": "black",
+          "position": "left side of frame"
+        },
+        "desk": {
+          "color": "white",
+          "material": "smooth surface"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

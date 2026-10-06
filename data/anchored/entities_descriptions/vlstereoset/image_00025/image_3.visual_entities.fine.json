@@ -1,0 +1,706 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        2.0,
+        508.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/grass_0.png",
+      "crop": null,
+      "description": "The grass is dry, yellowish-brown, and appears brittle, covering the ground in a sparse, uneven layer. It is scattered with small twigs and bits of dried vegetation, typical of a savanna or arid environment.",
+      "attributes": {
+        "color": "yellowish-brown",
+        "texture": "dry, brittle",
+        "density": "sparse",
+        "environment": "arid, savanna-like",
+        "condition": "dried out, with scattered twigs and debris"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        544.0,
+        568.0,
+        808.0,
+        912.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black man with short hair sits cross-legged on a patterned mat, wearing a plain white t-shirt and black pants, looking directly at the camera with a slight smile. In the background, another person is seated, and the setting appears to be outdoors on dry, sandy ground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "t-shirt"
+          },
+          "pants": {
+            "color": "black",
+            "type": "long pants"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "expression": "slight smile",
+        "position": "foreground, center",
+        "background": {
+          "person": "another individual seated behind",
+          "ground": "dry, sandy"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        796.0,
+        624.0,
+        932.0,
+        848.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young Black boy with short black hair sits in profile facing left, wearing a purple short-sleeved t-shirt and light brown pants. He has a neutral expression and is seated on a surface with a patterned cloth visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "purple",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "light brown"
+          }
+        },
+        "pose": "sitting",
+        "orientation": "profile",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        80.0,
+        568.0,
+        328.0,
+        872.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "{\n  \"description\": \"A woman with dark skin and braided hair pulled back into a bun sits in profile facing right, wearing a dark grey long-sleeved top and a patterned skirt with black, white, and grey geometric designs. She holds a small child on her lap, who is wearing a striped shirt, while another woman in a blue top and patterned dress is partially visible in the background to the right.\",\n  \"attributes\": {\n    \"gender\": \"female\",\n    \"age\": \"adult\",\n    \"ethnicity\": \"Black\",\n    \"hair\": {\n      \"style\": \"braids\",\n      \"color\": \"black\",\n      \"arrangement\": \"pulled back into a bun\"\n    },\n    \"clothing\": {\n      \"top\": {\n        \"color\": \"dark grey\",\n        \"sleeves\": \"long\"\n      },\n      \"bottom\": {\n        \"type\": \"skirt\",\n        \"pattern\": \"geometric\",\n        \"colors\": [\n          \"black\",\n          \"white\",\n          \"grey\"\n        ]\n      }\n    },\n    \"pose\": \"sitting\",\n    \"orientation\": \"profile facing right\",\n    \"holding\": \"child\",\n    \"child\": {\n        \"age\": \"infant\",\n        \"clothing\": \"striped shirt\"\n      },\n      \"background_figure\": {\n        \"gender\": \"female\",\n        \"clothing\": {\n          \"top\": \"blue\",\n          \"dress\": \"patterned\"\n        },\n        \"accessories\": \"headwrap, necklace\"\n      }\n    }\n  }\n}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.93359375,
+      "box": [
+        324.0,
+        628.0,
+        400.0,
+        740.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A close-up of a young Black toddler with short dark hair, wearing a white short-sleeved shirt with a faint pattern, looking to the right with a neutral expression. The child is being held by an adult, whose arm and part of a patterned garment are visible on the left side of the frame.",
+      "attributes": {
+        "age": "toddler",
+        "ethnicity": "Black",
+        "gender": "male",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "pattern": "faint print",
+            "sleeves": "short"
+          }
+        },
+        "pose": "being held",
+        "expression": "neutral",
+        "gaze": "right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.86328125,
+      "box": [
+        201.0,
+        668.0,
+        276.0,
+        796.0
+      ],
+      "mask": "image_3.masks/person_4.png",
+      "crop": null,
+      "description": "A close-up profile view of a young Black toddler with short, dark curly hair, wearing a short-sleeved shirt with a black and white horizontal striped pattern. The child is being held by an adult, whose arm in a dark blue sleeve is visible supporting the child's torso, while the child looks off to the right with a neutral expression.",
+      "attributes": {
+        "age": "toddler",
+        "ethnicity": "Black",
+        "gender": "male",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "shirt": {
+            "pattern": "striped",
+            "colors": [
+              "black",
+              "white"
+            ],
+            "sleeves": "short"
+          }
+        },
+        "pose": "being held",
+        "expression": "neutral",
+        "view": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.96875,
+      "box": [
+        644.0,
+        404.0,
+        756.0,
+        676.0
+      ],
+      "mask": "image_3.masks/person_5.png",
+      "crop": null,
+      "description": "A young Black man with short black hair and a white t-shirt is in the foreground, looking slightly to the side with a neutral expression. Behind him, a Black woman wearing a purple long-sleeved top and a patterned headscarf stands holding a smartphone in her hands.",
+      "attributes": {
+        "foreground_person": {
+          "gender": "male",
+          "age": "young adult",
+          "ethnicity": "Black",
+          "hair": "short black",
+          "clothing": {
+            "top": "white t-shirt"
+          },
+          "expression": "neutral",
+          "position": "foreground, lower center"
+        },
+        "background_person": {
+          "gender": "female",
+          "age": "adult",
+          "ethnicity": "Black",
+          "clothing": {
+            "top": "purple long-sleeved",
+            "headwear": "patterned headscarf"
+          },
+          "accessories": {
+            "held_item": "smartphone"
+          },
+          "pose": "standing",
+          "position": "background, upper center"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.9375,
+      "box": [
+        492.0,
+        608.0,
+        668.0,
+        800.0
+      ],
+      "mask": "image_3.masks/person_6.png",
+      "crop": null,
+      "description": "A young Black boy with short black hair sits in the background wearing a long-sleeved, dusty grey shirt, looking forward with a neutral expression. In the foreground, the arms of two other individuals are visible clasping hands, partially obscuring the boy's lower body.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "grey",
+            "condition": "dusty"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "position": "background center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.95703125,
+      "box": [
+        356.0,
+        656.0,
+        580.0,
+        904.0
+      ],
+      "mask": "image_3.masks/person_7.png",
+      "crop": null,
+      "description": "A young Black boy with short dark hair sits cross-legged on a patterned mat, wearing a bright green hooded t-shirt and light grey pants. He is seen from the side and back, extending his right arm to hold the hand of an older person seated to his right.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "green",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "grey"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "action": "holding hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.8984375,
+      "box": [
+        252.0,
+        560.0,
+        368.0,
+        816.0
+      ],
+      "mask": "image_3.masks/person_8.png",
+      "crop": null,
+      "description": "A woman with dark skin and a patterned headwrap holds a baby in a white patterned shirt, wearing a blue top with a brown and orange patterned sash and a necklace with a round pendant. She has a calm expression and is positioned in the center, with another child partially visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "clothing": {
+          "top": "blue",
+          "sash": "brown and orange patterned",
+          "headwrap": "patterned",
+          "necklace": "silver with round pendant"
+        },
+        "pose": "sitting, holding baby",
+        "expression": "calm",
+        "baby": {
+          "clothing": "white patterned shirt"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        2.0,
+        196.0,
+        1024.0,
+        468.0
+      ],
+      "mask": "image_3.masks/sky_0.png",
+      "crop": null,
+      "description": "The sky is a pale, washed-out white or very light gray, appearing overcast or hazy with no visible clouds or distinct features. It serves as a bright, uniform background behind the silhouettes of tree branches and leaves.",
+      "attributes": {
+        "color": "pale white/light gray",
+        "condition": "overcast/hazy",
+        "visibility": "uniform, no clouds",
+        "lighting": "bright, diffuse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        812.0,
+        456.0,
+        916.0,
+        524.0
+      ],
+      "mask": "image_3.masks/tree_0.png",
+      "crop": null,
+      "description": "A solitary tree with a broad, flat-topped canopy and a slender trunk stands in the center of the frame, set against a hazy, light-colored background that suggests a dry, open landscape. The tree's foliage is a muted green, and its branches spread out horizontally, creating a distinctive umbrella-like shape typical of acacia species found in savanna environments.",
+      "attributes": {
+        "type": "acacia",
+        "canopy_shape": "flat-topped",
+        "trunk": "slender",
+        "foliage_color": "muted green",
+        "environment": "savanna",
+        "background": "hazy, light-colored",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        748.0,
+        284.0,
+        1024.0,
+        564.0
+      ],
+      "mask": "image_3.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, mature acacia tree with a distinctive flat-topped, umbrella-shaped canopy of green foliage stands in the foreground, slightly out of focus. Its trunk is thick and brown, branching out to support the wide crown, set against a blurred background of a dry savanna landscape with other similar trees and grazing animals.",
+      "attributes": {
+        "species": "acacia",
+        "canopy_shape": "flat-topped, umbrella-like",
+        "foliage_color": "green",
+        "trunk_color": "brown",
+        "focus": "blurred",
+        "environment": "savanna",
+        "background_elements": [
+          "distant trees",
+          "grazing animals",
+          "dry ground"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.8046875,
+      "box": [
+        282.0,
+        474.0,
+        350.0,
+        520.0
+      ],
+      "mask": "image_3.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.76171875,
+      "box": [
+        -0.5625,
+        478.0,
+        26.75,
+        516.0
+      ],
+      "mask": "image_3.masks/tree_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.94140625,
+      "box": [
+        292.0,
+        428.0,
+        432.0,
+        532.0
+      ],
+      "mask": "image_3.masks/tree_4.png",
+      "crop": null,
+      "description": "A tall, solitary tree with a slender, light-brown trunk and a broad, flat-topped canopy of dark green foliage stands in the center of a dry, sandy landscape. The background is blurred, showing a pale sky and faint outlines of other similar trees in the distance.",
+      "attributes": {
+        "trunk": "slender, light brown",
+        "canopy": "broad, flat-topped, dark green",
+        "environment": "dry, sandy, arid",
+        "background": "blurred, pale sky, distant trees",
+        "type": "acacia-like"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.921875,
+      "box": [
+        564.0,
+        450.0,
+        660.0,
+        528.0
+      ],
+      "mask": "image_3.masks/tree_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a light-colored trunk and sparse, greenish-yellow foliage stands in the background against a pale sky. The tree appears to be a single, isolated specimen in a dry, open landscape.",
+      "attributes": {
+        "focus": "blurry",
+        "trunk": "light-colored",
+        "foliage": "sparse, greenish-yellow",
+        "background": "pale sky, dry landscape",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.71484375,
+      "box": [
+        181.0,
+        476.0,
+        217.0,
+        504.0
+      ],
+      "mask": "image_3.masks/tree_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.8203125,
+      "box": [
+        980.0,
+        482.0,
+        1020.0,
+        528.0
+      ],
+      "mask": "image_3.masks/tree_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.65625,
+      "box": [
+        214.0,
+        484.0,
+        256.0,
+        508.0
+      ],
+      "mask": "image_3.masks/tree_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 9,
+      "score": 0.9609375,
+      "box": [
+        -2.0,
+        322.0,
+        324.0,
+        556.0
+      ],
+      "mask": "image_3.masks/tree_9.png",
+      "crop": null,
+      "description": "A large, solitary tree with a broad, flat-topped canopy of green leaves stands in the center of a dry, grassy savanna landscape. The tree has a thick, light-brown trunk that branches out into a complex network of limbs supporting the wide crown, and the entire scene is out of focus, creating a soft, blurred appearance.",
+      "attributes": {
+        "type": "acacia",
+        "canopy": {
+          "shape": "flat-topped",
+          "color": "green",
+          "density": "medium"
+        },
+        "trunk": {
+          "color": "light brown",
+          "thickness": "thick",
+          "branches": "multiple, spreading"
+        },
+        "environment": {
+          "ground": "dry grass",
+          "background": "hazy horizon, other trees",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 10,
+      "score": 0.890625,
+      "box": [
+        30.75,
+        444.0,
+        124.0,
+        520.0
+      ],
+      "mask": "image_3.masks/tree_10.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a flat, umbrella-like canopy and a slender trunk, set against a hazy, light-colored background with indistinct ground features.",
+      "attributes": {
+        "canopy_shape": "flat-topped, umbrella-like",
+        "trunk": "slender, central",
+        "focus": "blurry, out-of-focus",
+        "background": "hazy, light-colored",
+        "ground": "indistinct, light brown or beige",
+        "overall_clarity": "low resolution, soft edges"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 11,
+      "score": 0.5859375,
+      "box": [
+        880.0,
+        486.0,
+        936.0,
+        506.0
+      ],
+      "mask": "image_3.masks/tree_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 12,
+      "score": 0.94921875,
+      "box": [
+        2.0,
+        6.0,
+        1024.0,
+        664.0
+      ],
+      "mask": "image_3.masks/tree_12.png",
+      "crop": null,
+      "description": "A large, mature tree with a thick, textured brown trunk that splits into two main branches near the top, supporting a wide, spreading canopy of small green leaves. The tree stands in a dry, open savanna landscape with scattered acacia trees and grazing animals in the background.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough, bark-covered",
+          "structure": "splits into two main branches"
+        },
+        "canopy": {
+          "shape": "wide, spreading, umbrella-like",
+          "leaves": "small, green, dense",
+          "branches": "numerous, spreading outward"
+        },
+        "environment": {
+          "ground": "dry, sandy, sparse vegetation",
+          "background": "open savanna with other acacia trees and grazing animals (possibly zebras or antelopes)",
+          "sky": "bright, overcast or hazy"
+        },
+        "type": "likely an acacia or similar savanna tree",
+        "function": "provides shade and habitat in arid environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 13,
+      "score": 0.51171875,
+      "box": [
+        900.0,
+        494.0,
+        924.0,
+        524.0
+      ],
+      "mask": "image_3.masks/tree_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 14,
+      "score": 0.62890625,
+      "box": [
+        438.0,
+        486.0,
+        474.0,
+        506.0
+      ],
+      "mask": "image_3.masks/tree_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 15,
+      "score": 0.80859375,
+      "box": [
+        788.0,
+        492.0,
+        820.0,
+        516.0
+      ],
+      "mask": "image_3.masks/tree_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 16,
+      "score": 0.640625,
+      "box": [
+        744.0,
+        488.0,
+        776.0,
+        516.0
+      ],
+      "mask": "image_3.masks/tree_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

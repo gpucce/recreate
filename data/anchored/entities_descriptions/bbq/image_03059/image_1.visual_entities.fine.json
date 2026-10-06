@@ -1,0 +1,107 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        133.0,
+        212.0,
+        556.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with blonde hair pulled back and sunglasses perched on her head holds a young child with blonde hair in a high ponytail. The child wears dark-rimmed glasses and a salmon-colored fleece jacket over a plaid shirt, while the woman wears a dark blue top and a red, green, and blue plaid scarf.",
+      "attributes": {
+        "person": [
+          {
+            "gender": "female",
+            "age": "adult",
+            "hair": {
+              "color": "blonde",
+              "style": "pulled back",
+              "accessory": "sunglasses on head"
+            },
+            "clothing": {
+              "top": "dark blue long-sleeved",
+              "accessory": "plaid scarf (red, green, blue)"
+            },
+            "pose": "holding child"
+          },
+          {
+            "gender": "female",
+            "age": "child",
+            "hair": {
+              "color": "blonde",
+              "style": "high ponytail with pink hair tie"
+            },
+            "accessories": {
+              "glasses": "dark blue frames"
+            },
+            "clothing": {
+              "jacket": "salmon pink fleece",
+              "shirt": "plaid (blue, red, white)"
+            },
+            "pose": "being held",
+            "expression": "neutral"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        82.0,
+        90.0,
+        752.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with blonde hair in a messy bun and sunglasses on her head holds a young girl with blonde pigtails and glasses. The woman wears a navy blue long-sleeved top and a red, blue, and white plaid scarf, while the child wears a salmon-colored fleece pullover over a plaid shirt. Both have serious, somber expressions and are positioned in front of a blurred green leafy background.",
+      "attributes": {
+        "group": {
+          "adult": {
+            "gender": "female",
+            "age": "middle-aged",
+            "hair": {
+              "color": "blonde",
+              "style": "messy bun",
+              "accessory": "sunglasses on head"
+            },
+            "clothing": {
+              "top": "navy blue long-sleeve shirt",
+              "accessory": "red, blue, and white plaid scarf"
+            },
+            "expression": "serious, concerned",
+            "action": "holding child"
+          },
+          "child": {
+            "gender": "female",
+            "age": "toddler",
+            "hair": {
+              "color": "blonde",
+              "style": "pigtails"
+            },
+            "accessories": {
+              "glasses": "blue rimmed"
+            },
+            "clothing": {
+              "outer": "salmon pink fleece pullover",
+              "inner": "blue and red plaid shirt"
+            },
+            "expression": "serious, pensive"
+          }
+        },
+        "background": "green foliage, out of focus"
+      },
+      "parse_ok": true
+    }
+  ]
+}

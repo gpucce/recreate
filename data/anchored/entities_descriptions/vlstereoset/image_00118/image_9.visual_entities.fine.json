@@ -1,0 +1,570 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        868.0,
+        212.0,
+        1024.0,
+        328.0
+      ],
+      "mask": "image_9.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story white building with a gabled roof and a balcony on the upper level, featuring multiple windows with dark frames. The structure is partially obscured by a blue umbrella in the foreground and a tree trunk, set against a backdrop of green hills.",
+      "attributes": {
+        "structure": {
+          "stories": 2,
+          "roof": {
+            "color": "white",
+            "type": "gabled"
+          },
+          "walls": {
+            "color": "white"
+          },
+          "balcony": {
+            "present": true,
+            "location": "upper level",
+            "railing": "white"
+          },
+          "windows": {
+            "frame_color": "dark",
+            "count": "multiple"
+          }
+        },
+        "foreground": {
+          "umbrella": {
+            "color": "blue"
+          },
+          "tree": {
+            "trunk": "visible"
+          }
+        },
+        "background": {
+          "terrain": "hills",
+          "color": "green"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.88671875,
+      "box": [
+        366.0,
+        314.0,
+        438.0,
+        362.0
+      ],
+      "mask": "image_9.masks/building_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.83984375,
+      "box": [
+        488.0,
+        310.0,
+        616.0,
+        362.0
+      ],
+      "mask": "image_9.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a gray facade and a red roof, partially obscured by green foliage and a blue and white umbrella in the foreground.",
+      "attributes": {
+        "building": {
+          "color": "gray",
+          "roof_color": "red",
+          "state": "blurry",
+          "visible_parts": [
+            "facade",
+            "roof"
+          ]
+        },
+        "foreground": {
+          "objects": [
+            "green foliage",
+            "blue and white umbrella"
+          ],
+          "state": "blurry"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.7109375,
+      "box": [
+        233.0,
+        322.0,
+        262.0,
+        334.0
+      ],
+      "mask": "image_9.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.859375,
+      "box": [
+        708.0,
+        282.0,
+        828.0,
+        346.0
+      ],
+      "mask": "image_9.masks/building_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a wooden building with a dark, pitched roof, likely a cabin or resort structure, featuring visible wooden beams and a porch area. The image is heavily blurred, making specific details indistinct, but the structure appears to be situated in a natural setting with greenery in the background.",
+      "attributes": {
+        "structure_type": "wooden building",
+        "roof": {
+          "color": "dark",
+          "style": "pitched"
+        },
+        "material": "wood",
+        "features": [
+          "porch",
+          "wooden beams"
+        ],
+        "image_quality": "blurry",
+        "setting": "outdoor",
+        "background": "greenery"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.8984375,
+      "box": [
+        272.0,
+        308.0,
+        348.0,
+        344.0
+      ],
+      "mask": "image_9.masks/building_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        0.0,
+        139.0,
+        1020.0,
+        364.0
+      ],
+      "mask": "image_9.masks/hillside_0.png",
+      "crop": null,
+      "description": "A large, rolling hillside covered in dense green vegetation and patches of lighter brown earth rises in the background, with a few small white buildings visible at its base near the shoreline.",
+      "attributes": {
+        "terrain": "rolling hills",
+        "vegetation": "dense green",
+        "color": "green and brown",
+        "position": "background",
+        "features": [
+          "buildings at base",
+          "shoreline"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.796875,
+      "box": [
+        12.0,
+        362.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A young girl with long, dark hair is running along the shoreline of a sandy beach, wearing a blue one-piece swimsuit. Her hair is flowing in the wind, and she is barefoot, with one foot lifted off the wet sand as she moves.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "clothing": {
+          "swimsuit": "blue one-piece"
+        },
+        "hair": "long, dark, flowing",
+        "pose": "running",
+        "location": "beach shoreline",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.87890625,
+      "box": [
+        0.0,
+        142.0,
+        1020.0,
+        366.0
+      ],
+      "mask": "image_9.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "A large, rolling green hill or headland dominates the background, covered in dense vegetation with varying shades of green and brown. The landmass rises gently from the coastline, featuring a mix of grassy slopes and forested areas, with a few small structures visible at its base near the beach.",
+      "attributes": {
+        "color": "green and brown",
+        "texture": "vegetated, rolling",
+        "shape": "rounded, sloping",
+        "position": "background, behind beach and palm trees",
+        "features": [
+          "dense vegetation",
+          "small structures at base",
+          "coastline visible at bottom left"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        572.0,
+        354.0,
+        580.0,
+        382.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        616.0,
+        354.0,
+        632.0,
+        382.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.796875,
+      "box": [
+        640.0,
+        348.0,
+        656.0,
+        388.0
+      ],
+      "mask": "image_9.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.95703125,
+      "box": [
+        788.0,
+        350.0,
+        940.0,
+        454.0
+      ],
+      "mask": "image_9.masks/person_3.png",
+      "crop": null,
+      "description": "A blurry, medium shot of a shirtless man with short dark hair sitting in a blue and white folding beach chair on a sandy surface. He is wearing blue shorts and is positioned in profile facing left, with his legs extended and bare feet visible.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": "none",
+          "bottom": {
+            "type": "shorts",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "furniture": {
+          "type": "beach chair",
+          "color": "blue and white"
+        },
+        "setting": "sandy ground",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.7578125,
+      "box": [
+        592.0,
+        352.0,
+        600.0,
+        384.0
+      ],
+      "mask": "image_9.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.6640625,
+      "box": [
+        528.0,
+        358.0,
+        536.0,
+        378.0
+      ],
+      "mask": "image_9.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.60546875,
+      "box": [
+        556.0,
+        358.0,
+        564.0,
+        378.0
+      ],
+      "mask": "image_9.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.75,
+      "box": [
+        680.0,
+        358.0,
+        736.0,
+        402.0
+      ],
+      "mask": "image_9.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.6875,
+      "box": [
+        474.0,
+        354.0,
+        486.0,
+        382.0
+      ],
+      "mask": "image_9.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.984375,
+      "box": [
+        408.0,
+        400.0,
+        640.0,
+        824.0
+      ],
+      "mask": "image_9.masks/person_9.png",
+      "crop": null,
+      "description": "A young girl with long, dark brown hair is seen from behind, running barefoot on a sandy beach towards the ocean. She is wearing a bright blue one-piece swimsuit with ruffled details on the sides and wide shoulder straps.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "loose and flowing"
+        },
+        "clothing": {
+          "type": "swimsuit",
+          "color": "blue",
+          "style": "one-piece",
+          "details": "ruffled sides, wide straps"
+        },
+        "pose": "running",
+        "view": "back",
+        "location": "beach",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.609375,
+      "box": [
+        764.0,
+        352.0,
+        788.0,
+        376.0
+      ],
+      "mask": "image_9.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.58203125,
+      "box": [
+        152.0,
+        346.0,
+        270.0,
+        370.0
+      ],
+      "mask": "image_9.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.546875,
+      "box": [
+        -1.0,
+        328.0,
+        163.0,
+        368.0
+      ],
+      "mask": "image_9.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a rocky cliff face featuring dark brown and tan vertical striations and shadows, positioned above a band of blue water with small, indistinct white shapes floating on the surface.",
+      "attributes": {
+        "rock": {
+          "color": "dark brown and tan",
+          "texture": "rough and vertical",
+          "state": "blurry"
+        },
+        "water": {
+          "color": "blue",
+          "position": "bottom",
+          "objects": "indistinct white shapes"
+        },
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        6.0,
+        358.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_9.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a smooth and slightly damp texture near the water's edge, transitioning to a drier, more granular surface further inland. There are small footprints and indentations scattered across the surface, indicating recent activity.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "smooth near water, granular further inland",
+        "moisture": "damp near water, dry further inland",
+        "features": [
+          "footprints",
+          "indentations"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        4.0,
+        0.0,
+        1020.0,
+        262.0
+      ],
+      "mask": "image_9.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear blue sky with a few scattered white clouds, partially obscured by the tops of palm trees and a mountain range in the background.",
+      "attributes": {
+        "color": "blue",
+        "clouds": "white, scattered",
+        "obstructions": [
+          "palm trees",
+          "mountain range"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        0.0,
+        362.0,
+        520.0,
+        688.0
+      ],
+      "mask": "image_9.masks/water_0.png",
+      "crop": null,
+      "description": "The water is a clear, turquoise-blue ocean with gentle waves breaking onto the sandy shore, creating white foam as they recede. The surface appears calm and inviting, with a gradient of color from deeper blue in the distance to lighter shades near the shore.",
+      "attributes": {
+        "color": "turquoise-blue",
+        "state": "calm with gentle waves",
+        "foam": "white",
+        "clarity": "clear",
+        "shoreline": "sandy"
+      },
+      "parse_ok": true
+    }
+  ]
+}

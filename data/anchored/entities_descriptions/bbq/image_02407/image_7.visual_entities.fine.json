@@ -1,0 +1,227 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        86.0,
+        2.0,
+        1024.0,
+        444.0
+      ],
+      "mask": "image_7.masks/house_0.png",
+      "crop": null,
+      "description": "A single-story house with white horizontal siding and a window framed by dark green shutters, situated behind a row of bright orange flowers.",
+      "attributes": {
+        "siding": {
+          "color": "white",
+          "material": "horizontal panels"
+        },
+        "window": {
+          "frame_color": "white",
+          "shutters": {
+            "color": "dark green",
+            "style": "louvered"
+          }
+        },
+        "surroundings": {
+          "flowers": {
+            "color": "orange",
+            "type": "marigold-like"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        466.0,
+        168.0,
+        976.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits on a white bench, wearing a grey and white striped hoodie and blue jeans. She has a concerned or serious expression, looking to the side while placing her hand on the shoulder of another person partially visible on the left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "grey and white",
+            "pattern": "striped"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "action": "touching another person's shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        154.0,
+        186.0,
+        536.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits on a white bench, looking down with a sad and distressed expression. She wears a maroon V-neck sweater and blue jeans, with her hands clasped tightly in her lap while a hand rests on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "expression": "sad, distressed, looking down",
+        "clothing": {
+          "top": "maroon V-neck sweater",
+          "bottom": "blue jeans",
+          "accessories": "thin necklace with pendant"
+        },
+        "pose": "sitting, hands clasped in lap",
+        "interaction": "hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.6953125,
+      "box": [
+        -0.5,
+        168.0,
+        86.5,
+        356.0
+      ],
+      "mask": "image_7.masks/shrubs_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurred image of a shrub with green foliage in the background and bright orange flowers in the foreground, partially out of focus. The scene appears to be outdoors, with soft lighting suggesting either early morning or late afternoon.\", \"attributes\": {\"foliage\": \"green\", \"flowers\": {\"color\": \"orange\", \"focus\": \"blurred\"}, \"lighting\": \"soft\", \"time_of_day\": \"early morning or late afternoon\", \"background\": \"out_of_focus\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrubs",
+      "index": 1,
+      "score": 0.72265625,
+      "box": [
+        872.0,
+        300.0,
+        976.0,
+        428.0
+      ],
+      "mask": "image_7.masks/shrubs_1.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of orange flowers with green stems and leaves in the background. In the foreground, there is a blurred section of brown hair, suggesting the presence of a person partially obscuring the view of the flowers.",
+      "attributes": {
+        "flower_color": "orange",
+        "flower_focus": "out_of_focus",
+        "stem_color": "green",
+        "leaf_color": "green",
+        "hair_color": "brown",
+        "hair_focus": "out_of_focus",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 2,
+      "score": 0.73828125,
+      "box": [
+        458.0,
+        294.0,
+        640.0,
+        442.0
+      ],
+      "mask": "image_7.masks/shrubs_2.png",
+      "crop": null,
+      "description": "A dense cluster of vibrant orange flowers with green foliage, appearing as a blurred background element behind a person's hand and face.",
+      "attributes": {
+        "color": "orange",
+        "type": "flowering shrub",
+        "state": "blooming",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 3,
+      "score": 0.765625,
+      "box": [
+        34.0,
+        288.0,
+        238.0,
+        428.0
+      ],
+      "mask": "image_7.masks/shrubs_3.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange flowers, likely marigolds, with green foliage, is visible in the background, appearing out of focus. The flowers are densely packed, creating a soft, blurred texture of orange and green hues.",
+      "attributes": {
+        "flower_color": "orange",
+        "foliage_color": "green",
+        "focus": "blurred",
+        "density": "dense",
+        "type": "shrubs"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 4,
+      "score": 0.53125,
+      "box": [
+        30.0,
+        286.0,
+        976.0,
+        438.0
+      ],
+      "mask": "image_7.masks/shrubs_4.png",
+      "crop": null,
+      "description": "Two young women are standing outdoors in front of a row of vibrant orange marigold flowers. The woman on the left has long, wavy light brown hair and is looking down with a concerned or sad expression, while the woman on the right has straight dark brown hair and is looking at the first woman with a serious or empathetic expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "left_woman": "light brown, wavy, long",
+          "right_woman": "dark brown, straight, long"
+        },
+        "expression": {
+          "left_woman": "concerned, sad",
+          "right_woman": "serious, empathetic"
+        },
+        "clothing": {
+          "left_woman": "not visible",
+          "right_woman": "white top"
+        },
+        "background": "orange marigold flowers, green foliage",
+        "setting": "outdoors, garden or yard"
+      },
+      "parse_ok": true
+    }
+  ]
+}

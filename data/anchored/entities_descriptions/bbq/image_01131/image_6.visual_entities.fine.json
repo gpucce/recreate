@@ -1,0 +1,134 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        6.0,
+        768.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/desk_0.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a visible grain pattern and knots, featuring a black DSLR camera with a red ring on the lens in the foreground and a person's hands typing on a silver laptop in the background.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth with visible grain and knots",
+        "objects_on_desk": [
+          "black DSLR camera with red lens ring",
+          "silver laptop",
+          "person's hands and arms"
+        ],
+        "person_clothing": "gray long-sleeved shirt",
+        "person_action": "typing on laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        588.0,
+        408.0,
+        860.0
+      ],
+      "mask": "image_6.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop with a black keyboard is open on a wooden table, with a person's hands typing on it. The laptop has a sleek, modern design with a thin profile and a matte finish.",
+      "attributes": {
+        "color": "silver",
+        "keyboard": "black",
+        "material": "metal",
+        "design": "sleek, modern",
+        "profile": "thin",
+        "finish": "matte",
+        "position": "open on a wooden table",
+        "function": "typing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        382.0,
+        164.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, dark brown hair is seated at a wooden table, wearing a light grey crew-neck sweater. She is gesturing with her hands while speaking to an older woman, with a black DSLR camera visible on the table in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light grey",
+            "neckline": "crew neck",
+            "sleeves": "long"
+          }
+        },
+        "pose": "seated, gesturing with hands",
+        "expression": "engaged, speaking",
+        "context": "conversation, photography"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        130.0,
+        172.0,
+        584.0,
+        788.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "An older woman with shoulder-length wavy white hair is seated at a desk, wearing a light blue button-down shirt. She is looking to her left with a slight smile while gesturing with her right hand, and her left hand rests on a laptop keyboard.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "material": "cotton"
+          }
+        },
+        "pose": "sitting",
+        "action": "talking, gesturing",
+        "expression": "engaged, smiling",
+        "accessories": {
+          "ring": "silver band on right ring finger"
+        },
+        "context": {
+          "object": "laptop",
+          "setting": "indoor, office or home office"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

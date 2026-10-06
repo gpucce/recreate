@@ -1,0 +1,80 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        0.0,
+        520.0,
+        900.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's upper torso wearing a dark, heavy coat with a wide, turned-down collar, likely made of wool or felt. The coat is buttoned at the chest, revealing a white shirt with a high, stiff collar and a black cravat or necktie tied in a bow.",
+      "attributes": {
+        "clothing": {
+          "coat": {
+            "color": "black",
+            "material": "wool or felt",
+            "collar": "wide, turned-down",
+            "buttons": "visible, dark"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "neckwear": {
+            "type": "cravat or necktie",
+            "color": "black",
+            "style": "tied in a bow"
+          }
+        },
+        "pose": "frontal, upper body",
+        "expression": "not visible",
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "not visible",
+        "social_role": "formal attire suggests a professional or upper-class individual"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        84.0,
+        900.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A portrait of a middle-aged man with wavy brown hair and a receding hairline, wearing a black coat, black cravat, and white shirt, set against a dark, mottled background. He has a serious expression with a slight gaze to the right, and his face shows signs of aging with visible texture and stubble.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, shoulder-length",
+          "condition": "receding hairline"
+        },
+        "facial_hair": "stubble",
+        "expression": "serious, contemplative",
+        "gaze": "looking slightly to the right",
+        "clothing": {
+          "outerwear": "black coat",
+          "neckwear": "black cravat",
+          "shirt": "white high-collared"
+        },
+        "background": "dark, mottled brown",
+        "style": "oil painting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

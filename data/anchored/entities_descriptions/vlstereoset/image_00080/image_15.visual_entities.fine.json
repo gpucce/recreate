@@ -1,0 +1,191 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "chessboard",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        84.0,
+        836.0,
+        812.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/chessboard_0.png",
+      "crop": null,
+      "description": "A close-up, low-angle view of a wooden chessboard with alternating light and dark squares, featuring several chess pieces in play. The pieces are made of wood, with dark brown and light cream-colored sets, and are positioned on the board in a mid-game arrangement. The board has a wooden frame with visible screws, and the background is slightly blurred, showing a person's arm and part of their clothing.",
+      "attributes": {
+        "board": {
+          "material": "wood",
+          "colors": [
+            "light beige",
+            "dark brown"
+          ],
+          "frame": "wooden with screws"
+        },
+        "pieces": {
+          "material": "wood",
+          "colors": [
+            "dark brown",
+            "light cream"
+          ],
+          "arrangement": "mid-game",
+          "focus": "some pieces in focus, others blurred"
+        },
+        "background": {
+          "blur": "yes",
+          "visible_elements": [
+            "person's arm",
+            "dark clothing"
+          ]
+        },
+        "perspective": "low-angle, close-up"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        780.0,
+        125.0,
+        1024.0,
+        628.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A person with long, wavy brown hair is seen from behind, wearing a dark top, positioned in the background and out of focus. In the foreground, the shoulder and upper arm of another person wearing a dark blue suit jacket are visible.",
+      "attributes": {
+        "person_1": {
+          "hair": {
+            "color": "brown",
+            "length": "long",
+            "style": "wavy"
+          },
+          "clothing": {
+            "top": "dark"
+          },
+          "pose": "sitting",
+          "focus": "blurred"
+        },
+        "person_2": {
+          "clothing": {
+            "jacket": {
+              "color": "dark blue",
+              "type": "suit"
+            }
+          },
+          "pose": "sitting",
+          "focus": "sharp"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        -2.5,
+        676.0,
+        190.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A person is visible only as a dark, out-of-focus silhouette in the foreground, appearing to be seated at a chessboard with a white pawn and a dark queen in the mid-ground.",
+      "attributes": {
+        "visibility": "partial",
+        "focus": "blurred",
+        "clothing": {
+          "color": "dark",
+          "material": "indistinct"
+        },
+        "pose": "seated",
+        "position": "foreground",
+        "context": "playing chess"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        212.0,
+        44.0,
+        900.0,
+        888.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and black-rimmed glasses sits at a chessboard, wearing a dark blue suit jacket over a white collared shirt. He rests his chin on his right hand in a contemplative pose, looking down at the chess pieces in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "jacket": {
+            "type": "suit jacket",
+            "color": "dark blue"
+          },
+          "shirt": {
+            "type": "button-down",
+            "color": "white"
+          }
+        },
+        "pose": "sitting, hand on chin",
+        "expression": "focused, serious",
+        "context": "playing chess"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        -5.0,
+        54.0,
+        372.0,
+        712.0
+      ],
+      "mask": "image_15.masks/person_3.png",
+      "crop": null,
+      "description": "A person with short, wavy brown hair is seen from behind, wearing a dark blue suit jacket over a white collared shirt, seated in a chair with a blurred background.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "short, wavy"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "dark blue",
+            "material": "suit fabric"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "visible"
+          }
+        },
+        "pose": "seated, facing away from camera",
+        "position": "center-left of frame, partially cropped on right by another person's arm",
+        "background": "blurred, light-colored interior space"
+      },
+      "parse_ok": true
+    }
+  ]
+}

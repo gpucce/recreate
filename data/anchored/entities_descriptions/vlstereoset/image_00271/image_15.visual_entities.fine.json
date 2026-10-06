@@ -1,0 +1,161 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        2.0,
+        628.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/ground_0.png",
+      "crop": null,
+      "description": "A close-up of a person's lower body and arms, wearing a vibrant, patterned skirt with red, green, yellow, and white circular designs, and a white fringed shawl draped over the shoulders. The person is holding a child, whose legs and feet are visible, against a backdrop of dry, golden grass and scattered rocks.",
+      "attributes": {
+        "clothing": {
+          "skirt": "vibrant patterned with red, green, yellow, and white circular designs",
+          "shawl": "white with fringes"
+        },
+        "pose": "holding a child",
+        "background": "dry golden grass and scattered rocks",
+        "child": {
+          "legs": "visible",
+          "feet": "bare"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        456.0,
+        80.0,
+        656.0,
+        284.0
+      ],
+      "mask": "image_15.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up of a woman's head wearing a vibrant, patterned headscarf featuring large red, green, and yellow sections with white dotted accents. The fabric is wrapped tightly around the head, covering the hair completely, and the woman is looking off to the side with a neutral expression.",
+      "attributes": {
+        "entity": "headscarf",
+        "colors": [
+          "red",
+          "green",
+          "yellow",
+          "white",
+          "black"
+        ],
+        "pattern": "geometric with dotted lines",
+        "material": "fabric",
+        "style": "wrapped",
+        "wearer": {
+          "gender": "female",
+          "ethnicity": "Black",
+          "skin_tone": "dark",
+          "gaze": "side profile"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        280.0,
+        220.0,
+        616.0,
+        972.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with dark skin and a colorful patterned headwrap holds a young child on her hip, both wearing vibrant, geometrically patterned clothing. The child is wrapped in a light-colored cloth and looks off to the side, while the woman gazes forward with a serious expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "African",
+        "social_role": "mother/caregiver",
+        "clothing": {
+          "headwrap": "colorful, patterned",
+          "dress": "colorful, geometric pattern (red, green, yellow, white)",
+          "child_clothing": "light-colored, sleeveless top, wrapped in light-colored cloth"
+        },
+        "pose": "holding child on hip",
+        "expression": "serious, focused",
+        "child": {
+          "age": "toddler",
+          "pose": "being held",
+          "expression": "curious, looking off to the side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        262.0,
+        80.0,
+        824.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark skin and a colorful patterned headwrap holds a baby in a white cloth sling while gripping a black DSLR camera with a large lens in her other hand. She wears a vibrant dress with red, green, yellow, and white geometric patterns and looks off to the side with a serious expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother, photographer",
+        "headwear": {
+          "type": "headwrap",
+          "pattern": "geometric",
+          "colors": [
+            "red",
+            "green",
+            "yellow",
+            "white"
+          ]
+        },
+        "clothing": {
+          "dress": {
+            "pattern": "geometric",
+            "colors": [
+              "red",
+              "green",
+              "yellow",
+              "white",
+              "black"
+            ]
+          },
+          "shawl": {
+            "color": "white",
+            "texture": "fringed"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "lens": "large"
+          }
+        },
+        "pose": "standing, holding baby and camera",
+        "expression": "serious, looking away",
+        "held_object": {
+          "type": "baby",
+          "age": "infant",
+          "clothing": "white cloth"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

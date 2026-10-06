@@ -1,0 +1,71 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        404.0,
+        28.125,
+        1296.0,
+        872.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a light blue collared shirt is shown in profile, leaning his forehead against the forehead of a young child with reddish hair. The man is smiling broadly with his eyes closed, conveying a sense of affection and warmth.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "collared shirt"
+          }
+        },
+        "pose": "leaning forward, forehead-to-forehead with another person",
+        "expression": "smiling, eyes closed",
+        "skin": "fair, wrinkled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.83203125,
+      "box": [
+        -3.796875,
+        172.0,
+        466.0,
+        872.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up profile of a young child with short, wavy light brown hair, wearing a white collared shirt with dark blue stripes on the collar. The child's face is partially blurred, and they are positioned next to an adult's head, with their foreheads touching in a tender gesture.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "collar": "striped dark blue"
+          }
+        },
+        "pose": "profile view, head tilted slightly up, forehead touching another person's head",
+        "expression": "neutral (face blurred)",
+        "context": "intimate moment with an adult"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        116.0,
+        250.0,
+        796.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with light skin and dark hair, wearing a beige linen top, gently kissing the forehead of a newborn baby with wet, spiky dark hair. The baby is held securely in the woman's arms, looking forward with wide eyes and a slightly open mouth.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "East Asian",
+        "social_role": "mother",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "color": "beige",
+            "material": "linen"
+          }
+        },
+        "action": "kissing baby's forehead",
+        "expression": "tender",
+        "position": "holding baby"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        120.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with dark hair and fair skin gently kissing the forehead of a newborn baby she is holding. The woman wears a light beige, textured top, and the baby has dark, wet-looking hair and is looking to the side with a calm expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "medium"
+        },
+        "skin_tone": "fair",
+        "clothing": {
+          "top": {
+            "color": "beige",
+            "material": "textured fabric"
+          }
+        },
+        "action": "kissing baby's forehead",
+        "expression": "tender",
+        "associated_entity": {
+          "type": "baby",
+          "hair": "dark, wet",
+          "expression": "calm, looking away"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

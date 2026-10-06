@@ -1,0 +1,121 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.8125,
+      "box": [
+        486.0,
+        660.0,
+        732.0,
+        876.0
+      ],
+      "mask": "image_9.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of a pair of elderly hands with deeply wrinkled, brownish skin and prominent veins, positioned over a sandy surface while holding a small green plant stem. The hands appear weathered and textured, with visible knuckles and short fingernails, suggesting advanced age and manual labor.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "color": "brown",
+          "texture": "wrinkled, rough, veiny",
+          "condition": "weathered"
+        },
+        "pose": "holding a plant",
+        "action": "tending to a plant",
+        "object_held": "green plant stem",
+        "background": "sandy ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        350.0,
+        736.0,
+        482.0,
+        832.0
+      ],
+      "mask": "image_9.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up view of a light-skinned hand, likely belonging to a child, with fingers gently curled around a thin, green plant stem. The skin appears smooth with visible knuckles and short fingernails, set against a blurred, warm-toned background.",
+      "attributes": {
+        "skin_tone": "light",
+        "age_group": "child",
+        "pose": "gripping",
+        "object_held": "green plant stem",
+        "fingers": "curled",
+        "nails": "short, natural",
+        "lighting": "warm, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.5078125,
+      "box": [
+        484.0,
+        556.0,
+        924.0,
+        876.0
+      ],
+      "mask": "image_9.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of a pair of elderly, weathered hands with prominent veins, wrinkles, and age spots, gently holding a small orange flower with a green stem. The hands are positioned in the foreground, with a silver and black Canon camera resting on the sandy ground to the right.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled, veiny, weathered",
+          "features": "age spots, sun damage"
+        },
+        "action": "holding a flower",
+        "object_held": {
+          "type": "flower",
+          "color": "orange",
+          "stem": "green"
+        },
+        "clothing": {
+          "sleeve": "light beige, short-sleeved"
+        },
+        "background_objects": {
+          "camera": {
+            "brand": "Canon",
+            "color": "silver and black",
+            "type": "SLR"
+          },
+          "surface": "sandy ground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.81640625,
+      "box": [
+        454.0,
+        632.0,
+        588.0,
+        808.0
+      ],
+      "mask": "image_9.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up of an elderly person's hands, showing deep wrinkles and age spots on the skin, gently holding a thin green stem with a bright orange flower partially visible in the upper left corner.",
+      "attributes": {
+        "age": "elderly",
+        "skin": "wrinkled, age spots, brownish tone",
+        "action": "holding a flower stem",
+        "flower": {
+          "color": "orange",
+          "stem": "green, thin"
+        },
+        "position": "hands in the center, flower in the upper left"
+      },
+      "parse_ok": true
+    }
+  ]
+}

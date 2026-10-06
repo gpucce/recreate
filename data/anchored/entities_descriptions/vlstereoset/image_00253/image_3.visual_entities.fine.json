@@ -1,0 +1,108 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        318.0,
+        612.0,
+        544.0,
+        900.0
+      ],
+      "mask": "image_3.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up view of two hands clasped together, with the hand on the right appearing older due to visible wrinkles and skin texture, wearing a simple gold band on the ring finger. The background is a soft, out-of-focus sandy beige color, suggesting an outdoor setting.",
+      "attributes": {
+        "entity": "hands",
+        "count": 2,
+        "action": "clasping",
+        "skin_tone": "light",
+        "skin_texture": "wrinkled, aged",
+        "accessories": {
+          "ring": {
+            "material": "gold",
+            "style": "plain band",
+            "finger": "ring finger"
+          }
+        },
+        "background": "sandy, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        560.0,
+        512.0,
+        920.0,
+        752.0
+      ],
+      "mask": "image_3.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of two elderly hands clasped together, showing wrinkled skin with visible veins and age spots, wearing a gold ring on the ring finger of the left hand and a red band on the pinky, set against a blurred sandy background.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled",
+          "features": [
+            "veins",
+            "age spots"
+          ]
+        },
+        "accessories": {
+          "ring": {
+            "finger": "ring finger",
+            "color": "gold"
+          },
+          "band": {
+            "finger": "pinky",
+            "color": "red"
+          }
+        },
+        "pose": "clasped",
+        "background": "sandy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.91015625,
+      "box": [
+        428.0,
+        548.0,
+        868.0,
+        916.0
+      ],
+      "mask": "image_3.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of an elderly person's hands clasped together, showing wrinkled skin with visible veins and age spots, wearing a simple gold band on the ring finger of the left hand.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled",
+          "features": [
+            "visible veins",
+            "age spots"
+          ],
+          "color": "tan"
+        },
+        "accessories": {
+          "ring": {
+            "material": "gold",
+            "style": "simple band",
+            "finger": "ring finger"
+          }
+        },
+        "pose": "hands clasped",
+        "lighting": "warm natural light"
+      },
+      "parse_ok": true
+    }
+  ]
+}

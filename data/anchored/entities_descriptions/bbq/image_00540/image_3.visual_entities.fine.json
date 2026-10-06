@@ -1,0 +1,404 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        2.0,
+        888.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/desk_0.png",
+      "crop": null,
+      "description": "A light-colored wooden desk surface with a visible grain pattern, featuring a blue binder filled with white papers on the left, a closed silver laptop in the center, and a stack of white documents with a hand resting on them on the right.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "texture": "wood grain",
+        "objects": {
+          "binder": {
+            "color": "blue",
+            "contents": "white papers"
+          },
+          "laptop": {
+            "color": "silver",
+            "state": "closed"
+          },
+          "documents": {
+            "color": "white",
+            "stacked": true
+          },
+          "hand": {
+            "visible": true,
+            "position": "on documents"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 0,
+      "score": 0.6796875,
+      "box": [
+        -3.0,
+        788.0,
+        288.0,
+        892.0
+      ],
+      "mask": "image_3.masks/file folder_0.png",
+      "crop": null,
+      "description": "A close-up, side-profile view of a blue plastic binder filled with a thick stack of white paper documents. The binder features a metal three-ring mechanism on the right side, with the rings visible through the spine, and the top edge of the cover shows two punched holes for the rings.",
+      "attributes": {
+        "object_type": "binder",
+        "color": "blue",
+        "material": "plastic",
+        "contents": "white paper",
+        "mechanism": "three-ring",
+        "mechanism_material": "metal",
+        "orientation": "horizontal",
+        "view": "side profile",
+        "condition": "full"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 1,
+      "score": 0.65625,
+      "box": [
+        139.0,
+        490.0,
+        175.0,
+        536.0
+      ],
+      "mask": "image_3.masks/file folder_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "file folder",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        138.0,
+        99.5,
+        174.0,
+        244.0
+      ],
+      "mask": "image_3.masks/file folder_2.png",
+      "crop": null,
+      "description": "A blue file folder with a white label area and a circular emblem or logo at the bottom.",
+      "attributes": {
+        "color": "blue",
+        "label_area": "white",
+        "emblem": "circular, located at the bottom",
+        "material": "likely paper or cardstock",
+        "function": "organizing documents"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 3,
+      "score": 0.84765625,
+      "box": [
+        53.5,
+        490.0,
+        106.5,
+        640.0
+      ],
+      "mask": "image_3.masks/file folder_3.png",
+      "crop": null,
+      "description": "A vertical, blue file folder featuring a large, blank white rectangular label area in the center and a small, circular metallic fastener or rivet located near the bottom edge. The image is extremely blurry, obscuring fine surface textures and specific material details.",
+      "attributes": {
+        "object_type": "file folder",
+        "color": "blue",
+        "label": {
+          "color": "white",
+          "shape": "rectangle",
+          "content": "blank"
+        },
+        "hardware": {
+          "type": "circular fastener",
+          "color": "metallic",
+          "position": "bottom center"
+        },
+        "orientation": "vertical",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 4,
+      "score": 0.8828125,
+      "box": [
+        90.0,
+        100.5,
+        138.0,
+        246.0
+      ],
+      "mask": "image_3.masks/file folder_4.png",
+      "crop": null,
+      "description": "A vertical, rectangular blue file folder featuring a large, blank white label area in the center and a small, circular metallic emblem or fastener near the bottom.",
+      "attributes": {
+        "object_type": "file folder",
+        "color": "blue",
+        "label": {
+          "color": "white",
+          "shape": "rectangular",
+          "content": "blank"
+        },
+        "hardware": {
+          "type": "circular emblem or fastener",
+          "color": "silver",
+          "position": "bottom center"
+        },
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 5,
+      "score": 0.53125,
+      "box": [
+        104.0,
+        494.0,
+        140.0,
+        636.0
+      ],
+      "mask": "image_3.masks/file folder_5.png",
+      "crop": null,
+      "description": "A close-up view of a person's shoulder and upper arm wearing a blue denim jacket, with a blurred background featuring a vertical white rectangular shape against a blue wall.",
+      "attributes": {
+        "clothing": {
+          "jacket": "blue denim",
+          "texture": "woven fabric"
+        },
+        "background": {
+          "color": "blue",
+          "object": "white vertical rectangle",
+          "focus": "blurred"
+        },
+        "pose": "partial view of shoulder and arm"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 6,
+      "score": 0.84375,
+      "box": [
+        138.0,
+        290.0,
+        174.0,
+        438.0
+      ],
+      "mask": "image_3.masks/file folder_6.png",
+      "crop": null,
+      "description": "A vertical, rectangular blue file folder with a white label area in the center and a circular metal fastener near the bottom. The folder appears to be made of a smooth, possibly plastic or coated paper material, and is positioned upright against a neutral background.",
+      "attributes": {
+        "color": "blue",
+        "label_area": "white",
+        "fastener": "circular metal",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "material": "smooth, possibly plastic or coated paper"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 7,
+      "score": 0.85546875,
+      "box": [
+        96.0,
+        294.0,
+        138.0,
+        442.0
+      ],
+      "mask": "image_3.masks/file folder_7.png",
+      "crop": null,
+      "description": "A vertical, rectangular blue file folder featuring a large, blank white label area in the center and a small, circular metallic emblem or fastener near the bottom. The image is heavily blurred, obscuring fine surface textures and specific details.",
+      "attributes": {
+        "object_type": "file folder",
+        "color": "blue",
+        "label": {
+          "color": "white",
+          "position": "center",
+          "content": "blank"
+        },
+        "hardware": {
+          "type": "circular emblem or fastener",
+          "color": "metallic",
+          "position": "bottom"
+        },
+        "orientation": "vertical",
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 8,
+      "score": 0.62890625,
+      "box": [
+        -1.0,
+        788.0,
+        296.0,
+        972.0
+      ],
+      "mask": "image_3.masks/file folder_8.png",
+      "crop": null,
+      "description": "A close-up view of two blue file folders stacked on top of each other, filled with numerous white sheets of paper. The folders have metal rings visible on the right side, and the edges of the papers are slightly uneven, indicating a substantial amount of content within each folder.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic or cardboard",
+        "contents": "white paper",
+        "quantity": "two folders",
+        "position": "stacked",
+        "details": "metal rings, uneven paper edges"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        352.0,
+        680.0,
+        792.0,
+        936.0
+      ],
+      "mask": "image_3.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop is open on a wooden table, viewed from the back with the lid facing the camera. The laptop has a smooth, metallic finish and is positioned in front of a person wearing a blue suit and a red and white striped tie.",
+      "attributes": {
+        "color": "silver",
+        "material": "metal",
+        "state": "open",
+        "view": "back",
+        "position": "on table",
+        "background": {
+          "person": {
+            "clothing": {
+              "suit": "blue",
+              "tie": "red and white striped"
+            }
+          },
+          "surface": "wooden table"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        478.0,
+        52.0,
+        1024.0,
+        892.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with gray hair and a goatee, wearing glasses, a gray suit, a white shirt, and a red and white striped tie, leans over a desk to look at a laptop screen. He has a serious expression and is wearing a wristwatch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "swept back"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "type": "goatee"
+        },
+        "accessories": {
+          "glasses": "rimless",
+          "watch": "silver"
+        },
+        "clothing": {
+          "suit": "gray",
+          "shirt": "white",
+          "tie": "red and white diagonal stripes"
+        },
+        "pose": "leaning forward",
+        "expression": "serious",
+        "action": "looking at a laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        104.0,
+        292.0,
+        616.0,
+        892.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with dark, wavy hair and a short beard sits at a desk, wearing a blue suit jacket, white shirt, and red-and-white striped tie. He has his eyes closed and is pressing his fingers to his temples, appearing stressed or in pain, while an older man in a gray suit stands behind him with a hand on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "dark brown",
+          "style": "wavy, medium length"
+        },
+        "facial_hair": "short beard and mustache",
+        "expression": "distressed, pained, or overwhelmed",
+        "pose": "sitting, head tilted down, hands on temples",
+        "clothing": {
+          "jacket": "blue suit jacket",
+          "shirt": "white dress shirt",
+          "tie": "red and white diagonal stripes"
+        },
+        "context": "office setting, seated at desk with laptop and binders visible",
+        "interaction": "being comforted or confronted by an older man standing behind him"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shelving unit",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        -1.0,
+        56.0,
+        191.0,
+        660.0
+      ],
+      "mask": "image_3.masks/shelving unit_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden shelving unit with three visible shelves, each holding blue ring binders with white label holders. The binders are arranged neatly, and the background is slightly blurred, emphasizing the binders in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "shelves": 3,
+        "items": {
+          "type": "ring binders",
+          "color": "blue",
+          "label_holders": "white",
+          "arrangement": "neatly aligned"
+        },
+        "focus": "foreground binders sharp, background blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

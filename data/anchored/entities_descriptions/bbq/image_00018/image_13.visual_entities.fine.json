@@ -1,0 +1,293 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        -3.875,
+        756.0,
+        63.0,
+        788.0
+      ],
+      "mask": "image_13.masks/grass_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        -8.5,
+        868.0,
+        218.0,
+        1012.0
+      ],
+      "mask": "image_13.masks/grass_1.png",
+      "crop": null,
+      "description": "A patch of green grass growing along the edge of a paved surface, with small white petals scattered throughout the blades and on the adjacent gray pavement.",
+      "attributes": {
+        "color": "green",
+        "texture": "blade-like",
+        "location": "edge of pavement",
+        "surroundings": "gray pavement, white petals",
+        "condition": "growing, slightly overgrown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.68359375,
+      "box": [
+        -13.0,
+        780.0,
+        404.0,
+        1012.0
+      ],
+      "mask": "image_13.masks/grass_2.png",
+      "crop": null,
+      "description": "The grass is short, green, and grows in patches along the edge of a paved path, interspersed with small white petals or debris. It appears to be a mix of different grass species, with some blades standing upright and others lying flat.",
+      "attributes": {
+        "color": "green",
+        "texture": "short, patchy",
+        "location": "edge of a paved path",
+        "debris": "small white petals or debris"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 3,
+      "score": 0.7265625,
+      "box": [
+        640.0,
+        772.0,
+        984.0,
+        852.0
+      ],
+      "mask": "image_13.masks/grass_3.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus view of a grassy area with patches of green and brown vegetation, interspersed with small white flowers. The ground appears uneven, with some areas showing exposed soil or gravel, and there are indistinct shapes in the background that could be tree trunks or other natural elements.",
+      "attributes": {
+        "color": [
+          "green",
+          "brown",
+          "white"
+        ],
+        "texture": "blurred",
+        "elements": [
+          "grass",
+          "flowers",
+          "soil",
+          "gravel"
+        ],
+        "background": "indistinct shapes, possibly tree trunks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 4,
+      "score": 0.5546875,
+      "box": [
+        996.0,
+        940.0,
+        1024.0,
+        972.0
+      ],
+      "mask": "image_13.masks/grass_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 5,
+      "score": 0.671875,
+      "box": [
+        4.0,
+        776.0,
+        404.0,
+        864.0
+      ],
+      "mask": "image_13.masks/grass_5.png",
+      "crop": null,
+      "description": "The image shows a patch of grass growing in a natural outdoor setting, with a blurred background that includes what appears to be the base of a tree trunk and a gravel or dirt path. The grass is green and appears to be growing in a somewhat uneven manner, with some areas denser than others.",
+      "attributes": {
+        "color": "green",
+        "texture": "uneven, patchy",
+        "location": "outdoor, near a tree and a path",
+        "state": "growing, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        26.0,
+        788.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_13.masks/path_0.png",
+      "crop": null,
+      "description": "A paved path covered in small white petals, with two people walking away from the camera: a child in a yellow shirt and dark shorts, and an adult in blue jeans and brown shoes. The path is flanked by grass and trees on both sides, with a soft, natural light suggesting a calm outdoor setting.",
+      "attributes": {
+        "surface": "paved, gray asphalt",
+        "decoration": "scattered white petals",
+        "edges": "grass and dirt on both sides",
+        "people": {
+          "child": {
+            "clothing": {
+              "shirt": "yellow",
+              "shorts": "dark blue"
+            },
+            "shoes": "white sneakers",
+            "position": "left side of path, walking"
+          },
+          "adult": {
+            "clothing": {
+              "pants": "blue jeans"
+            },
+            "shoes": "brown shoes",
+            "position": "right side of path, walking"
+          }
+        },
+        "environment": {
+          "background": "trees and greenery",
+          "lighting": "natural daylight",
+          "mood": "peaceful, familial"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        432.0,
+        712.0,
+        532.0,
+        944.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with short, dark hair is seen from behind, walking away while holding the hand of an adult. The child wears a bright yellow short-sleeved t-shirt, dark blue shorts, and grey sneakers with white soles.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "indeterminate",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "yellow",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "dark blue"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "grey and white"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        964.0,
+        708.0,
+        988.0,
+        764.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.53515625,
+      "box": [
+        402.0,
+        736.0,
+        422.0,
+        776.0
+      ],
+      "mask": "image_13.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        510.0,
+        548.0,
+        648.0,
+        948.0
+      ],
+      "mask": "image_13.masks/person_3.png",
+      "crop": null,
+      "description": "An older man with short gray hair is seen from behind, walking away on a paved path. He wears a light beige sweater over a collared shirt, blue jeans, and brown shoes, with a black camera hanging from a strap across his back.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "beige",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "casual"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "color": "black",
+            "strap": "black",
+            "position": "hanging on back"
+          }
+        },
+        "pose": "walking away",
+        "view": "rear view"
+      },
+      "parse_ok": true
+    }
+  ]
+}

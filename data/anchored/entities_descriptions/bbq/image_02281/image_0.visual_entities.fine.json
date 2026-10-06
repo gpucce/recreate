@@ -1,0 +1,255 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "bookshelf",
+      "index": 0,
+      "score": 0.61328125,
+      "box": [
+        572.0,
+        1.234375,
+        1200.0,
+        376.0
+      ],
+      "mask": "image_0.masks/bookshelf_0.png",
+      "crop": null,
+      "description": "A white bookshelf filled with books of various colors and sizes, including blue, pink, yellow, and black spines, is visible in the background, partially obscured by the heads of two people in the foreground.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or composite",
+        "contents": {
+          "items": "books",
+          "book_spine_colors": [
+            "blue",
+            "pink",
+            "yellow",
+            "black",
+            "white",
+            "red"
+          ],
+          "arrangement": "vertical, varying heights"
+        },
+        "structure": "multiple shelves",
+        "visibility": "partially obscured by foreground subjects"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bookshelf",
+      "index": 1,
+      "score": 0.70703125,
+      "box": [
+        584.0,
+        141.0,
+        1128.0,
+        183.0
+      ],
+      "mask": "image_0.masks/bookshelf_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person's blonde hair and a hand holding a white cup, with a blurred background suggesting a bookshelf or similar structure.",
+      "attributes": {
+        "hair": "blonde",
+        "object": "white cup",
+        "background": "blurred, possibly bookshelf",
+        "focus": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.50390625,
+      "box": [
+        99.5,
+        544.0,
+        224.0,
+        628.0
+      ],
+      "mask": "image_0.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A close-up of a white ceramic mug featuring a pattern of thin, horizontal grey stripes on its body. The mug has a smooth, glossy finish and a curved handle on the left side, with a blurred background suggesting a person wearing a blue shirt.",
+      "attributes": {
+        "object_type": "ceramic mug",
+        "color": "white",
+        "pattern": "horizontal grey stripes",
+        "material": "ceramic",
+        "finish": "glossy",
+        "handle_position": "left",
+        "shape": "cylindrical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        177.0,
+        520.0,
+        496.0,
+        628.0
+      ],
+      "mask": "image_0.masks/clipboard_0.png",
+      "crop": null,
+      "description": "A close-up view of a blue clipboard held by a person, with a hand visible gripping the bottom edge. The clipboard is angled diagonally across the frame, partially obscuring the person's torso and a white paper cup in the background.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic or metal",
+        "orientation": "diagonal",
+        "position": "held in front of the person",
+        "visible_parts": [
+          "top edge",
+          "bottom edge",
+          "side edges"
+        ],
+        "context": "held by a person, with a hand visible at the bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        592.0,
+        620.0,
+        684.0,
+        628.0
+      ],
+      "mask": "image_0.masks/hand_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        292.0,
+        580.0,
+        436.0,
+        628.0
+      ],
+      "mask": "image_0.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's hand with light skin tone, showing the back of the hand and fingers resting on a surface. The hand appears to be in a relaxed position, with the fingers slightly curled and the thumb visible on the left side. The background is blurred, with hints of blue and brown colors.",
+      "attributes": {
+        "skin_tone": "light",
+        "position": "resting on a surface",
+        "fingers": "slightly curled",
+        "thumb": "visible on the left",
+        "background": "blurred, blue and brown colors"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.88671875,
+      "box": [
+        380.0,
+        440.0,
+        516.0,
+        564.0
+      ],
+      "mask": "image_0.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up, blurry crop of a light-skinned hand with the index finger extended and pointing towards the left, while the other fingers are curled into the palm. The hand is positioned in the foreground against a background of blue denim fabric and a white garment with a blue striped cuff.",
+      "attributes": {
+        "skin_tone": "light",
+        "pose": "pointing with index finger",
+        "orientation": "facing left",
+        "background": {
+          "clothing": "blue denim",
+          "sleeve": "white with blue stripes"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        384.0,
+        22.25,
+        1168.0,
+        628.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A person with dark skin and short, curly black hair is wearing a light blue denim button-down shirt over a yellow t-shirt, sitting and facing another person in a room with bookshelves in the background.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "black",
+        "hair": {
+          "color": "black",
+          "style": "curly, short"
+        },
+        "clothing": {
+          "outer": {
+            "type": "shirt",
+            "material": "denim",
+            "color": "light blue"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "yellow"
+          }
+        },
+        "pose": "sitting, facing right",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        108.0,
+        1.234375,
+        812.0,
+        632.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A Black man with a high-top afro hairstyle sits at a table wearing a light blue denim button-down shirt over a yellow t-shirt, with his face blurred. He is positioned in the center, facing slightly to the right, with a white mug and a blue folder visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "style": "high-top afro",
+          "color": "black",
+          "texture": "curly"
+        },
+        "face": "blurred",
+        "clothing": {
+          "outer": {
+            "type": "shirt",
+            "material": "denim",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "yellow"
+          }
+        },
+        "pose": "sitting",
+        "position": "center",
+        "context": {
+          "setting": "indoor, likely office or study",
+          "background": "bookshelf with books",
+          "foreground": "white mug, blue folder, another person's arm"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

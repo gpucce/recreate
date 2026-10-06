@@ -1,0 +1,83 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        82.0,
+        8.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with wavy blonde hair and blue eyes is hugging a young boy with curly light brown hair and blue eyes; the woman wears a blue and white vertical striped button-down shirt, while the boy wears a solid red t-shirt. Both are smiling gently at the camera in a close, affectionate embrace.",
+      "attributes": {
+        "gender": "female (woman), male (boy)",
+        "age": "adult (woman), child (boy)",
+        "ethnicity": "Caucasian",
+        "social_role": "mother and son",
+        "hair": {
+          "woman": "blonde, wavy, shoulder-length",
+          "boy": "light brown, curly, short"
+        },
+        "eyes": {
+          "woman": "blue",
+          "boy": "blue"
+        },
+        "clothing": {
+          "woman": {
+            "shirt": "blue and white vertical striped button-down, long-sleeved, collared"
+          },
+          "boy": {
+            "shirt": "solid red, short-sleeved t-shirt"
+          }
+        },
+        "pose": "hugging, facing forward, heads tilted toward each other",
+        "expression": "gentle smile, warm and affectionate",
+        "position": "centered in frame, woman slightly behind and to the left of the boy, arms wrapped around him"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        390.0,
+        334.0,
+        880.0,
+        976.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with light brown wavy hair and blue eyes is being hugged by an adult, resting his head against the adult's chest. He is wearing a red short-sleeved t-shirt and has a gentle, content smile on his face.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "eyes": {
+          "color": "blue"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "red",
+            "sleeves": "short"
+          }
+        },
+        "pose": "being hugged",
+        "skin_tone": "fair"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,376 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "bowl",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        422.0,
+        612.0,
+        584.0,
+        668.0
+      ],
+      "mask": "image_11.masks/bowl_0.png",
+      "crop": null,
+      "description": "A wooden bowl with a smooth, polished surface and a warm brown hue, containing various fruits including a red apple and yellow lemons, is placed on a light-colored surface. The bowl has a rounded shape with a slightly flared rim, and its interior is partially visible, showing the fruits nestled inside.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "shape": "rounded with flared rim",
+        "contents": [
+          "red apple",
+          "yellow lemons"
+        ],
+        "surface": "smooth and polished",
+        "position": "on a light-colored surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        572.0,
+        308.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling blonde woman with wavy shoulder-length hair sits at a rustic wooden table, holding a white mug in her right hand while wearing a cream-colored chunky knit sweater and dark jeans.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "cream",
+            "material": "knit",
+            "texture": "chunky"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "accessories": {
+          "holding": "white mug"
+        },
+        "setting": "indoor, near window"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        27.0,
+        322.0,
+        444.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in profile at a rustic wooden table, smiling warmly while holding a white teacup. She wears a soft, light purple knit sweater and beige trousers, seated on a wooden chair in a sunlit room with potted plants in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light purple",
+            "material": "knit"
+          },
+          "bottoms": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting, side profile, holding a teacup",
+        "expression": "smiling, content",
+        "accessories": {
+          "earrings": "visible, small dangling"
+        },
+        "setting": {
+          "furniture": "wooden table and chair",
+          "background": "window with natural light, potted plants, fruit bowl"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plate",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        588.0,
+        680.0,
+        652.0,
+        704.0
+      ],
+      "mask": "image_11.masks/plate_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plate",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        362.0,
+        680.0,
+        454.0,
+        704.0
+      ],
+      "mask": "image_11.masks/plate_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plate",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        3.0,
+        560.0,
+        83.0,
+        576.0
+      ],
+      "mask": "image_11.masks/plate_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.72265625,
+      "box": [
+        944.0,
+        568.0,
+        1024.0,
+        672.0
+      ],
+      "mask": "image_11.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden chair backrest with a smooth, light brown finish and vertical slats, positioned next to a textured, beige fabric surface, possibly a sofa or cushion.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth",
+        "type": "chair",
+        "position": "right side of the frame",
+        "adjacent_object": {
+          "material": "fabric",
+          "color": "beige",
+          "texture": "textured"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        -2.5,
+        572.0,
+        83.5,
+        652.0
+      ],
+      "mask": "image_11.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up view of a metallic object, likely a knife blade or similar tool, with a reflective surface and a rounded edge. The background is blurred, showing a brown surface and a hint of a purple fabric.",
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "shape": "rounded edge",
+        "surface": "reflective",
+        "background": {
+          "color": "brown",
+          "texture": "blurred",
+          "additional_element": "purple fabric"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        194.0,
+        644.0,
+        848.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/table_2.png",
+      "crop": null,
+      "description": "A rustic wooden table with a live edge top and turned legs, featuring a natural wood grain and knots, is shown with two people seated on either side, each holding a white cup and saucer, and a black DSLR camera placed in the center.",
+      "attributes": {
+        "material": "wood",
+        "style": "rustic",
+        "top": "live edge",
+        "legs": "turned",
+        "color": "medium brown",
+        "objects_on_table": [
+          "white cup and saucer (left)",
+          "black DSLR camera (center)",
+          "white cup and saucer (right)",
+          "wooden bowl (background)"
+        ],
+        "people": [
+          {
+            "position": "left",
+            "clothing": {
+              "sweater": "light purple",
+              "pants": "beige"
+            }
+          },
+          {
+            "position": "right",
+            "clothing": {
+              "sweater": "cream",
+              "pants": "black"
+            }
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        764.0,
+        -2.0,
+        1020.0,
+        568.0
+      ],
+      "mask": "image_11.masks/wall_0.png",
+      "crop": null,
+      "description": "A section of a plain, light beige wall serves as the background, featuring a framed landscape painting with a wooden frame and a table lamp with a patterned ceramic base and a beige shade positioned in the lower right.",
+      "attributes": {
+        "wall_color": "light beige",
+        "wall_texture": "smooth",
+        "decor": {
+          "painting": {
+            "frame": "wooden",
+            "content": "landscape",
+            "position": "upper center"
+          },
+          "lamp": {
+            "shade": "beige",
+            "base": "patterned ceramic",
+            "position": "lower right"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.51171875,
+      "box": [
+        -1.0,
+        -2.0,
+        268.0,
+        560.0
+      ],
+      "mask": "image_11.masks/wall_1.png",
+      "crop": null,
+      "description": "A plain, light beige wall serves as the background, featuring a framed landscape painting with a gold frame and a potted green plant in a terracotta pot on a surface below.",
+      "attributes": {
+        "color": "beige",
+        "texture": "smooth",
+        "decorations": [
+          {
+            "type": "painting",
+            "frame": "gold",
+            "content": "landscape"
+          },
+          {
+            "type": "plant",
+            "pot": "terracotta",
+            "leaves": "green"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.78125,
+      "box": [
+        2.0,
+        -2.0,
+        1024.0,
+        896.0
+      ],
+      "mask": "image_11.masks/wall_2.png",
+      "crop": null,
+      "description": "The wall is painted a light, neutral color, possibly off-white or beige, and features two framed landscape paintings hanging on either side of a large window. The window has a white frame and is divided into multiple panes, through which pink cherry blossoms are visible outside. The wall also has a smooth texture and appears to be well-lit by natural light coming through the window.",
+      "attributes": {
+        "color": "light neutral",
+        "texture": "smooth",
+        "decorations": [
+          "framed landscape painting (left)",
+          "framed landscape painting (right)"
+        ],
+        "window": {
+          "frame_color": "white",
+          "panes": "multiple",
+          "view": "pink cherry blossoms"
+        },
+        "lighting": "natural light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        314.0,
+        28.0,
+        720.0,
+        604.0
+      ],
+      "mask": "image_11.masks/window_0.png",
+      "crop": null,
+      "description": "A white, multi-paned window with a grid of nine rectangular glass panes, through which pink cherry blossoms and a tree trunk are visible. The window frame is painted white and appears to be made of wood or a similar material.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or similar",
+        "pane_count": 9,
+        "pane_shape": "rectangular",
+        "view_outside": "cherry blossoms, tree trunk, greenery",
+        "window_type": "multi-paned"
+      },
+      "parse_ok": true
+    }
+  ]
+}

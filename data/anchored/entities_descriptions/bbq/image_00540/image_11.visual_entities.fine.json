@@ -1,0 +1,535 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.7578125,
+      "box": [
+        0.0,
+        920.0,
+        1004.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/desk_0.png",
+      "crop": null,
+      "description": "A light-colored wooden desk surface with a visible grain pattern, featuring a closed beige laptop in the center and a stack of white documents with blue folders on the right side.",
+      "attributes": {
+        "surface": {
+          "material": "wood",
+          "color": "light beige",
+          "texture": "grainy"
+        },
+        "objects": {
+          "laptop": {
+            "color": "beige",
+            "state": "closed",
+            "position": "center"
+          },
+          "documents": {
+            "color": "white",
+            "binding": "blue",
+            "arrangement": "stacked",
+            "position": "right"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.70703125,
+      "box": [
+        2.0,
+        920.0,
+        752.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/desk_1.png",
+      "crop": null,
+      "description": "A light-colored wooden desk surface with a visible grain pattern, featuring a closed beige laptop in the center, a stack of white papers or notebooks on the right, and a dark blue object partially visible on the left.",
+      "attributes": {
+        "surface": {
+          "material": "wood",
+          "color": "light beige",
+          "texture": "grainy"
+        },
+        "objects": {
+          "laptop": {
+            "color": "beige",
+            "state": "closed",
+            "position": "center"
+          },
+          "papers": {
+            "color": "white",
+            "position": "right",
+            "stacked": true
+          },
+          "object_left": {
+            "color": "dark blue",
+            "position": "left",
+            "partial": true
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        74.0,
+        128.0,
+        108.0,
+        272.0
+      ],
+      "mask": "image_11.masks/file folder_0.png",
+      "crop": null,
+      "description": "A vertical, rectangular file folder with a blue border and a white central area, featuring a circular detail at the bottom. The image is blurry, making fine details indistinct.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "color": {
+          "border": "blue",
+          "center": "white"
+        },
+        "details": {
+          "bottom": "circular element",
+          "clarity": "blurry"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        828.0,
+        134.0,
+        860.0,
+        274.0
+      ],
+      "mask": "image_11.masks/file folder_1.png",
+      "crop": null,
+      "description": "A blue file folder with a white label area in the center, partially visible and out of focus. The folder appears to be made of a smooth material, likely plastic or coated paper, and is positioned upright.",
+      "attributes": {
+        "color": "blue",
+        "label_area": "white",
+        "material": "smooth, possibly plastic or coated paper",
+        "position": "upright",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 2,
+      "score": 0.87109375,
+      "box": [
+        76.5,
+        324.0,
+        110.5,
+        468.0
+      ],
+      "mask": "image_11.masks/file folder_2.png",
+      "crop": null,
+      "description": "A vertical, rectangular file folder with a blue border and a white central label area. The bottom section of the folder is blue and features a small, circular, grayish emblem or logo in the center.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "color": {
+          "border": "blue",
+          "label_area": "white",
+          "bottom_section": "blue"
+        },
+        "details": {
+          "bottom_emblem": "circular, grayish",
+          "label_area": "blank white rectangle"
+        },
+        "material": "appears to be paper or cardstock",
+        "function": "file folder or document holder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 3,
+      "score": 0.87109375,
+      "box": [
+        110.0,
+        127.5,
+        144.0,
+        272.0
+      ],
+      "mask": "image_11.masks/file folder_3.png",
+      "crop": null,
+      "description": "A vertical, rectangular file folder with a blue border and a white central area, featuring a small circular detail at the bottom center.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "color": {
+          "border": "blue",
+          "center": "white"
+        },
+        "details": {
+          "bottom_center": "small circular element"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 4,
+      "score": 0.8203125,
+      "box": [
+        864.0,
+        510.0,
+        888.0,
+        652.0
+      ],
+      "mask": "image_11.masks/file folder_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "file folder",
+      "index": 5,
+      "score": 0.8359375,
+      "box": [
+        79.5,
+        516.0,
+        110.5,
+        660.0
+      ],
+      "mask": "image_11.masks/file folder_5.png",
+      "crop": null,
+      "description": "A close-up view of a blue file folder, showing its textured surface and curved edge. The background is blurred, with indistinct shapes and colors suggesting an office or storage environment.",
+      "attributes": {
+        "color": "blue",
+        "material": "paper or cardstock",
+        "texture": "textured",
+        "shape": "curved edge",
+        "background": "blurred, indistinct shapes and colors"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 6,
+      "score": 0.73046875,
+      "box": [
+        146.0,
+        512.0,
+        182.0,
+        544.0
+      ],
+      "mask": "image_11.masks/file folder_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "file folder",
+      "index": 7,
+      "score": 0.6875,
+      "box": [
+        111.5,
+        512.0,
+        146.0,
+        552.0
+      ],
+      "mask": "image_11.masks/file folder_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "file folder",
+      "index": 8,
+      "score": 0.87109375,
+      "box": [
+        144.0,
+        129.0,
+        178.0,
+        272.0
+      ],
+      "mask": "image_11.masks/file folder_8.png",
+      "crop": null,
+      "description": "A vertical, rectangular file folder with a blue border and a white central label area. The folder appears to be made of a smooth, possibly plastic or coated paper material, and is positioned upright. There is a small, circular detail near the bottom center, which could be a fastener or a design element.",
+      "attributes": {
+        "color": {
+          "border": "blue",
+          "label_area": "white"
+        },
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "material": "smooth, possibly plastic or coated paper",
+        "details": {
+          "bottom_center": "small circular detail"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 9,
+      "score": 0.75,
+      "box": [
+        780.0,
+        132.0,
+        828.0,
+        226.0
+      ],
+      "mask": "image_11.masks/file folder_9.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a blue and white striped object, likely a file folder or similar item, with a blurred gray surface in the foreground.",
+      "attributes": {
+        "color": [
+          "blue",
+          "white",
+          "gray"
+        ],
+        "material": "possibly paper or plastic",
+        "focus": "blurred",
+        "pattern": "striped",
+        "position": "foreground object partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 10,
+      "score": 0.82421875,
+      "box": [
+        864.0,
+        127.5,
+        896.0,
+        272.0
+      ],
+      "mask": "image_11.masks/file folder_10.png",
+      "crop": null,
+      "description": "A vertical, rectangular file folder with a dark blue border and a large, blank white label area in the center. The bottom section of the folder is dark blue and features a small, indistinct circular emblem or logo.",
+      "attributes": {
+        "color": "dark blue and white",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "label": "white, blank",
+        "bottom_section": "dark blue with circular emblem",
+        "material": "likely paper or cardstock",
+        "condition": "clean, no visible text or markings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 11,
+      "score": 0.8671875,
+      "box": [
+        352.0,
+        -1.75,
+        400.0,
+        74.0
+      ],
+      "mask": "image_11.masks/file folder_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "file folder",
+      "index": 12,
+      "score": 0.84765625,
+      "box": [
+        400.0,
+        -2.25,
+        432.0,
+        74.0
+      ],
+      "mask": "image_11.masks/file folder_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "file folder",
+      "index": 13,
+      "score": 0.8671875,
+      "box": [
+        111.0,
+        322.0,
+        147.0,
+        466.0
+      ],
+      "mask": "image_11.masks/file folder_13.png",
+      "crop": null,
+      "description": "A blue file folder with a white label area on the front and a circular metal fastener at the bottom.",
+      "attributes": {
+        "color": "blue",
+        "label": "white",
+        "fastener": "circular metal",
+        "material": "plastic or paper",
+        "shape": "rectangular"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        154.0,
+        768.0,
+        560.0,
+        1008.0
+      ],
+      "mask": "image_11.masks/laptop_0.png",
+      "crop": null,
+      "description": "A closed, light beige or cream-colored laptop is positioned on a wooden surface, with a dark blue fabric background visible behind it. The laptop has a smooth, matte finish and rounded corners, with no visible logos or markings on the lid.",
+      "attributes": {
+        "color": "light beige/cream",
+        "material": "matte plastic or metal",
+        "state": "closed",
+        "position": "on a wooden surface",
+        "background": "dark blue fabric",
+        "shape": "rectangular with rounded corners",
+        "visible_features": "no logos or markings on the lid"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        356.0,
+        26.0,
+        868.0,
+        920.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with gray hair and a white goatee, wearing glasses, a gray suit, a white shirt, and a maroon tie, leans over a younger man who is seated and appears distressed, with his hand on his forehead. The older man has a serious, focused expression as he looks down at a laptop screen, while the younger man, wearing a blue suit and maroon tie, looks troubled.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "combed back",
+          "facial_hair": "white goatee"
+        },
+        "accessories": {
+          "glasses": "thin-framed, rectangular"
+        },
+        "clothing": {
+          "suit": "gray",
+          "shirt": "white",
+          "tie": "maroon"
+        },
+        "pose": "leaning forward, looking down",
+        "expression": "serious, focused",
+        "social_role": "likely a supervisor or manager"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        48.0,
+        294.0,
+        652.0,
+        928.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with wavy brown hair sits at a desk in front of a laptop, wearing a blue suit and maroon tie, with a pained expression and hands pressed to his temples. Behind him stands an older man in a grey suit, partially visible from the chest up.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, medium length"
+        },
+        "expression": "distressed, pained, furrowed brow",
+        "pose": "sitting, hands on temples",
+        "clothing": {
+          "suit": "blue",
+          "shirt": "white",
+          "tie": "maroon",
+          "cufflinks": "visible on left sleeve"
+        },
+        "position": "foreground, seated at desk",
+        "context": "office setting, laptop in front, older man standing behind"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shelving unit",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        528.0,
+        2.0,
+        912.0,
+        688.0
+      ],
+      "mask": "image_11.masks/shelving unit_0.png",
+      "crop": null,
+      "description": "A white shelving unit is visible in the background, holding several blue ring binders with white spines on the upper and lower shelves. The shelves appear to be made of a smooth, light-colored material, possibly wood or laminate, and are positioned behind a man in a suit.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or laminate",
+        "contents": {
+          "items": "blue ring binders",
+          "quantity": "multiple",
+          "arrangement": "vertical, side-by-side"
+        },
+        "position": "background, behind the subject",
+        "visibility": "partially obscured by the man in the foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shelving unit",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        61.0,
+        -4.0,
+        452.0,
+        740.0
+      ],
+      "mask": "image_11.masks/shelving unit_1.png",
+      "crop": null,
+      "description": "A light-colored wooden shelving unit with multiple horizontal shelves is visible in the background, holding rows of blue ring binders with white labels. The shelves are evenly spaced and the binders are arranged neatly, suggesting an organized office or storage environment.",
+      "attributes": {
+        "material": "light wood",
+        "color": "beige/cream",
+        "structure": "horizontal shelves",
+        "contents": {
+          "binders": {
+            "color": "blue",
+            "labels": "white",
+            "arrangement": "neatly aligned in rows"
+          }
+        },
+        "function": "storage/organization",
+        "setting": "office or workspace",
+        "visibility": "partially obscured by foreground subject"
+      },
+      "parse_ok": true
+    }
+  ]
+}

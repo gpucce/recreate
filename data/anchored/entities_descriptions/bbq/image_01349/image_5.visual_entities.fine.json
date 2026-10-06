@@ -1,0 +1,389 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        708.0,
+        800.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk with a smooth, rounded edge and visible wood grain, supported by a grey metal frame. On the surface, an open notebook with white pages lies to the left, while a silver laptop is partially visible in the background with a person's hands typing on the keyboard.",
+      "attributes": {
+        "material": "light wood",
+        "color": "beige",
+        "edge": "rounded",
+        "legs": "grey metal",
+        "items": [
+          "open notebook",
+          "silver laptop"
+        ],
+        "action": "typing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.6015625,
+      "box": [
+        -1.0,
+        644.0,
+        360.0,
+        732.0
+      ],
+      "mask": "image_5.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up of a young Asian boy with short black hair looking down with a focused expression, wearing a light blue denim jacket over a white t-shirt. The background is blurred, showing a light wooden surface and a partial view of a yellow object on the right.",
+      "attributes": {
+        "entity": "person",
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "focused",
+        "gaze": "downward",
+        "clothing": {
+          "outer": {
+            "type": "jacket",
+            "material": "denim",
+            "color": "light blue"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "background": {
+          "blur": "high",
+          "elements": [
+            "wooden surface",
+            "yellow object"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.86328125,
+      "box": [
+        -2.0,
+        808.0,
+        1008.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/desk_2.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, polished surface and visible wood grain, featuring two open notebooks and a laptop on its surface, with two people writing in the notebooks.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "surface": "smooth, polished",
+        "items_on_desk": [
+          "two open notebooks",
+          "laptop"
+        ],
+        "people": [
+          {
+            "clothing": "denim jacket",
+            "action": "writing in a notebook"
+          },
+          {
+            "clothing": "yellow sweater",
+            "action": "writing in a notebook"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 3,
+      "score": 0.515625,
+      "box": [
+        2.0,
+        644.0,
+        720.0,
+        724.0
+      ],
+      "mask": "image_5.masks/desk_3.png",
+      "crop": null,
+      "description": "Two young children are seated side by side, with the child on the left wearing a light blue denim jacket and looking downward, while the child on the right is dressed in a mustard yellow knit sweater. The image captures only their upper torsos and parts of their faces, suggesting they are engaged in an activity at a desk or table.",
+      "attributes": {
+        "people": [
+          {
+            "gender": "female",
+            "age": "child",
+            "clothing": {
+              "jacket": "light blue denim"
+            },
+            "pose": "seated, looking down"
+          },
+          {
+            "gender": "unknown",
+            "age": "child",
+            "clothing": {
+              "sweater": "mustard yellow knit"
+            },
+            "pose": "seated"
+          }
+        ],
+        "setting": "indoor, likely classroom or study area",
+        "visible_elements": [
+          "upper torsos",
+          "partial faces",
+          "clothing textures"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 4,
+      "score": 0.84765625,
+      "box": [
+        -1.0,
+        584.0,
+        348.0,
+        672.0
+      ],
+      "mask": "image_5.masks/desk_4.png",
+      "crop": null,
+      "description": "A close-up of a young Asian boy with short black hair and straight bangs, looking downward with a focused expression. He is wearing a light blue denim shirt and is positioned in the foreground, with a blurred background showing a light wooden desk and chair.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "short with bangs"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "denim",
+            "color": "light blue"
+          }
+        },
+        "pose": "looking down",
+        "expression": "focused",
+        "background": {
+          "objects": [
+            "desk",
+            "chair"
+          ],
+          "color": "light wood",
+          "clarity": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        708.0,
+        406.0,
+        1020.0,
+        800.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian boy with short, dark hair is seated at a desk, looking down with a focused expression while typing on a silver laptop. He is wearing a navy blue zip-up hoodie over a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight"
+        },
+        "clothing": {
+          "outer": {
+            "type": "hoodie",
+            "color": "navy blue",
+            "details": "zip-up"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting",
+        "action": "typing on laptop",
+        "expression": "focused",
+        "gaze": "downward"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -3.0,
+        452.0,
+        388.0,
+        932.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short black hair is seated at a desk, looking down with a focused expression while writing in a notebook with a black pen. He is wearing a light blue denim jacket over a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "jacket",
+            "material": "denim",
+            "color": "light blue"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting, writing",
+        "action": "writing in a notebook",
+        "expression": "focused",
+        "accessories": {
+          "pen": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9375,
+      "box": [
+        360.0,
+        50.0,
+        808.0,
+        704.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark hair stands behind a seated child, wearing a light beige button-down blouse and a blue lanyard with a blank white ID card. She has a gentle, attentive expression and is looking down towards the child.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight, tucked behind ears"
+        },
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "color": "beige",
+            "material": "smooth fabric",
+            "details": "button-down front"
+          },
+          "accessories": {
+            "lanyard": {
+              "color": "blue",
+              "item": "white ID card holder"
+            }
+          }
+        },
+        "pose": "standing, leaning slightly forward",
+        "expression": "gentle, smiling, attentive",
+        "position": "background, behind a seated child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        344.0,
+        432.0,
+        728.0,
+        864.0
+      ],
+      "mask": "image_5.masks/person_3.png",
+      "crop": null,
+      "description": "A young Asian girl with long dark hair tied back is seated at a desk, wearing a mustard-yellow knit sweater and writing in a notebook with a black pen. She has a focused expression, looking down at her work, with an adult standing behind her wearing a lanyard and ID badge.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "Asian",
+        "social_role": "student",
+        "hair": {
+          "color": "black",
+          "style": "long, tied back"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused",
+        "accessories": {
+          "pen": "black"
+        },
+        "context": {
+          "setting": "classroom",
+          "action": "writing in notebook",
+          "background_figure": "adult with lanyard and ID badge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        478.0,
+        0.0,
+        1024.0,
+        524.0
+      ],
+      "mask": "image_5.masks/window_0.png",
+      "crop": null,
+      "description": "A woman with long, dark hair is standing in front of a window with white blinds, wearing a light-colored blouse and a blue lanyard with an ID badge. She appears to be engaged in a conversation or presentation, looking down with a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "East Asian",
+        "social_role": "professional",
+        "clothing": {
+          "blouse": "light-colored",
+          "lanyard": "blue",
+          "badge": "white"
+        },
+        "hair": "long, dark",
+        "pose": "standing",
+        "expression": "slight smile",
+        "background": "window with white blinds"
+      },
+      "parse_ok": true
+    }
+  ]
+}

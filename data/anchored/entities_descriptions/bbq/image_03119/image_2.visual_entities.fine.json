@@ -1,0 +1,348 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        976.0,
+        968.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/chair_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        1.0,
+        608.0,
+        184.0,
+        880.0
+      ],
+      "mask": "image_2.masks/desk_0.png",
+      "crop": null,
+      "description": "A light wood-grain desk with a white top surface, featuring a small rectangular metal plate or label on the front panel. The desk is partially obscured by a person's curly red hair in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "top_surface": "white",
+        "front_panel": "light wood grain",
+        "features": [
+          "rectangular metal plate"
+        ],
+        "position": "background",
+        "obscured_by": "curly red hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.58984375,
+      "box": [
+        1000.0,
+        628.0,
+        1024.0,
+        684.0
+      ],
+      "mask": "image_2.masks/desk_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.91015625,
+      "box": [
+        396.0,
+        888.0,
+        844.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/desk_2.png",
+      "crop": null,
+      "description": "A light-colored wooden desk surface with a visible grain pattern, holding a clipboard with a white sheet of paper and a metal clip. A hand is writing on the paper with a black pen, and the arm of a person wearing a dark blue short-sleeved shirt is visible on the right side.",
+      "attributes": {
+        "material": "light wood",
+        "color": "beige",
+        "surface": "smooth",
+        "items": [
+          {
+            "object": "clipboard",
+            "color": "wooden",
+            "contents": "white paper with lines"
+          },
+          {
+            "object": "pen",
+            "color": "black",
+            "action": "writing"
+          },
+          {
+            "object": "hand",
+            "skin_tone": "light"
+          },
+          {
+            "object": "arm",
+            "clothing": "dark blue short-sleeved shirt"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        504.0,
+        198.0,
+        648.0,
+        776.0
+      ],
+      "mask": "image_2.masks/door_0.png",
+      "crop": null,
+      "description": "A woman with short brown hair and glasses is standing in front of a light-colored wooden door, wearing a dark blue polo shirt with a logo on the left chest and matching dark blue pants. Her hands are clasped in front of her, and she appears to be in a professional or medical setting.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": "short brown",
+        "glasses": "yes",
+        "clothing": {
+          "shirt": "dark blue polo with logo",
+          "pants": "dark blue"
+        },
+        "pose": "standing with hands clasped",
+        "background": "light-colored wooden door"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        612.0,
+        184.0,
+        892.0,
+        896.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with short brown hair and light facial stubble stands in profile facing left, wearing a light blue short-sleeved medical scrub top with a pen in the chest pocket and matching pants. He holds a small black object in his hands at waist level while looking forward with a neutral expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "curly"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "top": {
+            "type": "scrubs",
+            "color": "light blue",
+            "sleeves": "short",
+            "details": "chest pocket with pen"
+          },
+          "bottom": {
+            "type": "scrubs",
+            "color": "light blue"
+          }
+        },
+        "pose": "standing",
+        "orientation": "profile facing left",
+        "expression": "neutral",
+        "accessories": {
+          "pen": "in chest pocket"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        680.0,
+        540.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with brown hair tied back in a ponytail is seen from behind, wearing a dark blue short-sleeved top and writing with a pen in a notebook on a desk. She is facing a standing person wearing light blue medical scrubs, whose torso and arms are visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "top": {
+            "color": "dark blue",
+            "sleeves": "short"
+          }
+        },
+        "pose": "sitting, writing",
+        "action": "writing in a notebook",
+        "object_in_hand": "pen",
+        "position": "foreground, back to camera",
+        "context": "medical or clinical setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        -2.0,
+        648.0,
+        430.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A person with voluminous, curly reddish-brown hair is seen from behind, wearing a dark blue top. The person is seated in the foreground, facing away from the camera towards a standing figure in light blue medical scrubs.",
+      "attributes": {
+        "hair": {
+          "color": "reddish-brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": "dark blue"
+        },
+        "pose": "seated, back to camera",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.97265625,
+      "box": [
+        159.0,
+        180.0,
+        516.0,
+        932.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "A young man with dark curly hair and light stubble stands in profile facing right, wearing light blue medical scrubs with a pen in the chest pocket. He is gesturing with both hands open, palms facing each other, as if explaining something, while a woman in dark blue scrubs stands in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "type": "scrubs",
+          "color": "light blue",
+          "details": "pen in chest pocket"
+        },
+        "pose": "standing, gesturing with hands",
+        "expression": "serious, focused",
+        "context": "medical setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.984375,
+      "box": [
+        404.0,
+        280.0,
+        620.0,
+        944.0
+      ],
+      "mask": "image_2.masks/person_4.png",
+      "crop": null,
+      "description": "A woman with short brown hair and glasses stands facing forward, wearing a dark blue polo shirt with a small logo on the left chest and matching dark blue pants. Her hands are clasped in front of her, and she has a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "white",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "yes"
+        },
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "dark blue",
+            "details": "small logo on left chest"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "dark blue"
+          }
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 0,
+      "score": 0.67578125,
+      "box": [
+        948.0,
+        230.0,
+        1024.0,
+        438.0
+      ],
+      "mask": "image_2.masks/sign_0.png",
+      "crop": null,
+      "description": "A white rectangular sign with a blue horizontal stripe at the top, mounted on a wall or surface. The sign contains text that is not legible due to blurriness, and it appears to be made of a smooth material, possibly plastic or metal.",
+      "attributes": {
+        "color": {
+          "background": "white",
+          "stripe": "blue"
+        },
+        "material": "smooth, possibly plastic or metal",
+        "text": "present but illegible",
+        "shape": "rectangular",
+        "mounting": "wall or surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        524.0,
+        125.5,
+        588.0,
+        167.0
+      ],
+      "mask": "image_2.masks/sign_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

@@ -1,0 +1,213 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        900.0,
+        336.0,
+        1024.0,
+        416.0
+      ],
+      "mask": "image_10.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred view of a light brown cardboard box featuring a red circular logo or stamp in the center. The box appears to be made of standard corrugated material with visible vertical seams and a horizontal line near the bottom edge.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "logo": {
+          "color": "red",
+          "shape": "circular",
+          "position": "center"
+        },
+        "texture": "corrugated",
+        "condition": "intact",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.921875,
+      "box": [
+        872.0,
+        496.0,
+        1024.0,
+        592.0
+      ],
+      "mask": "image_10.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light brown cardboard box, with a blurred white object partially visible on the left side.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "focus": "blurred",
+        "shape": "rectangular",
+        "position": "centered",
+        "adjacent_object": "white, blurred, on the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        680.0,
+        816.0,
+        1008.0,
+        1008.0
+      ],
+      "mask": "image_10.masks/cardboard box_2.png",
+      "crop": null,
+      "description": "A rectangular gift box wrapped in plain brown kraft paper sits on a wooden surface, secured with a wide, glossy dark blue satin ribbon tied in a bow on top. The box is positioned at a slight angle, showing its front and right side, with the ribbon running vertically down the center of the front face.",
+      "attributes": {
+        "object_type": "gift box",
+        "shape": "rectangular",
+        "wrapping_paper": {
+          "color": "brown",
+          "material": "kraft paper",
+          "texture": "matte"
+        },
+        "ribbon": {
+          "color": "dark blue",
+          "material": "satin",
+          "texture": "glossy",
+          "arrangement": "crossed on top with bow, vertical strip on front"
+        },
+        "surface": "wooden table",
+        "lighting": "soft, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 3,
+      "score": 0.96875,
+      "box": [
+        -3.0,
+        474.0,
+        300.0,
+        616.0
+      ],
+      "mask": "image_10.masks/cardboard box_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a brown cardboard box featuring a red bullseye logo on its side. The box appears to be part of a stack, with the top edge of another box visible above it.",
+      "attributes": {
+        "object": "cardboard box",
+        "material": "cardboard",
+        "color": "brown",
+        "logo": {
+          "color": "red",
+          "shape": "bullseye",
+          "position": "side"
+        },
+        "focus": "blurry",
+        "context": "stacked"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 4,
+      "score": 0.96484375,
+      "box": [
+        23.5,
+        376.0,
+        258.0,
+        480.0
+      ],
+      "mask": "image_10.masks/cardboard box_4.png",
+      "crop": null,
+      "description": "A rectangular cardboard box with a light brown, corrugated surface is shown in a close-up, slightly blurred view. A red circular logo or symbol is visible on the right side of the box, partially obscured by the blur.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "shape": "rectangular",
+        "logo": {
+          "color": "red",
+          "shape": "circular",
+          "position": "right side"
+        },
+        "condition": "intact",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 5,
+      "score": 0.93359375,
+      "box": [
+        860.0,
+        414.0,
+        1024.0,
+        498.0
+      ],
+      "mask": "image_10.masks/cardboard box_5.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a plain, light brown cardboard box surface, showing a horizontal seam or edge line near the bottom. The texture appears smooth and matte, with soft, indistinct lighting.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "texture": "smooth",
+        "focus": "blurry",
+        "features": [
+          "horizontal seam",
+          "flat surface"
+        ],
+        "function": "packaging"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        266.0,
+        118.0,
+        944.0,
+        864.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with long, dark brown hair is seated at a desk, looking down with a focused expression while writing in an open notebook with a black pen. She is wearing a light grey, long-sleeved button-down shirt, and a brown cardboard box tied with a blue ribbon sits on the desk in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight, parted to the side"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light grey",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "action": "writing in a notebook",
+        "expression": "focused, serious",
+        "accessories": {
+          "pen": "black"
+        },
+        "context": {
+          "objects": [
+            "open notebook",
+            "cardboard box with blue ribbon"
+          ],
+          "setting": "indoor, likely office or workspace"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,447 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        916.0,
+        864.0,
+        988.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of the upper backrest of a chair, featuring a smooth, curved surface in a muted teal or seafoam green color. The material appears to be molded plastic with a matte finish, and a portion of a person's arm is visible on the left side.",
+      "attributes": {
+        "object_type": "chair",
+        "part_visible": "backrest",
+        "color": "teal",
+        "material": "plastic",
+        "finish": "matte",
+        "shape": "curved",
+        "context": "person sitting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        380.0,
+        944.0,
+        416.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/chair_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.83984375,
+      "box": [
+        -1.625,
+        868.0,
+        60.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/chair_2.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus section of a chair with a dark blue or black frame and a yellowish-green seat or backrest. The material appears to be plastic or metal, but the details are obscured by the blur.",
+      "attributes": {
+        "color": {
+          "frame": "dark blue/black",
+          "seat": "yellowish-green"
+        },
+        "material": "plastic or metal",
+        "focus": "out-of-focus",
+        "type": "chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 3,
+      "score": 0.8984375,
+      "box": [
+        888.0,
+        696.0,
+        1024.0,
+        928.0
+      ],
+      "mask": "image_5.masks/chair_3.png",
+      "crop": null,
+      "description": "A close-up view of a person's arm and torso wearing a pink short-sleeved shirt, seated on a green plastic chair with a curved backrest. The person is wearing blue pants, and the chair appears to be a standard molded plastic design.",
+      "attributes": {
+        "chair": {
+          "color": "green",
+          "material": "plastic",
+          "type": "molded plastic chair",
+          "visible_parts": [
+            "backrest",
+            "seat edge"
+          ]
+        },
+        "person": {
+          "clothing": {
+            "shirt": "pink short-sleeved",
+            "pants": "blue"
+          },
+          "pose": "seated",
+          "visible_body_parts": [
+            "arm",
+            "torso",
+            "leg"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        920.0,
+        312.0,
+        1024.0,
+        456.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing the upper body of a person with dark skin and short black hair wearing a bright pink t-shirt, positioned behind the top of another person's head in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "pink"
+          }
+        },
+        "pose": "standing",
+        "position": "background",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.86328125,
+      "box": [
+        77.5,
+        404.0,
+        188.0,
+        596.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a smiling woman with dark skin and short, curly brown hair, wearing a pink t-shirt, positioned in the background behind a large, out-of-focus pink object in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "black",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "color": "pink",
+            "type": "t-shirt"
+          }
+        },
+        "focus": "blurry",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        740.0,
+        396.0,
+        1024.0,
+        892.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up view of a person with short, curly gray hair wearing a bright pink t-shirt with a partial white letter 'M' visible on the chest. Another person's hand, wearing a gold ring, rests gently on the shoulder of the person in the foreground, while other individuals in similar pink shirts are visible in the blurred background.",
+      "attributes": {
+        "hair": {
+          "color": "gray",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt",
+            "graphic": "white letter M"
+          }
+        },
+        "accessories": {
+          "ring": "gold band on hand of person touching shoulder"
+        },
+        "pose": "seated, being touched on shoulder",
+        "context": "group setting, likely a support group or event"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.84765625,
+      "box": [
+        -1.25,
+        396.0,
+        121.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/person_3.png",
+      "crop": null,
+      "description": "A person with dark skin and short black hair is seated in profile, wearing a pink t-shirt and blue jeans, with hands raised in a clapping or gesturing motion. In the foreground, the torso of another person wearing a pink shirt and blue jeans is visible, partially obscuring the view.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "pose": "seated",
+        "action": "clapping or gesturing",
+        "position": "left side of frame, in profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.61328125,
+      "box": [
+        181.0,
+        388.0,
+        223.0,
+        444.0
+      ],
+      "mask": "image_5.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.7265625,
+      "box": [
+        27.25,
+        342.0,
+        92.0,
+        536.0
+      ],
+      "mask": "image_5.masks/person_5.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus crop showing the side profile of a person with dark hair in the foreground and a person wearing a pink shirt in the background.",
+      "attributes": {
+        "focus": "blurry",
+        "foreground_person": {
+          "hair": "dark",
+          "view": "side profile"
+        },
+        "background_person": {
+          "clothing": {
+            "shirt": "pink"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.92578125,
+      "box": [
+        62.0,
+        112.0,
+        896.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_6.png",
+      "crop": null,
+      "description": "A smiling young woman with curly dark hair stands behind an older woman, wearing a pink t-shirt with the word 'GLAM' in white letters and blue jeans. She has her arm around the older woman's shoulder, and both are in a social setting with other people in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "text": "GLAM",
+            "type": "t-shirt"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "pose": "standing, arm around another person",
+        "expression": "smiling",
+        "accessories": {
+          "earrings": "small studs"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.828125,
+      "box": [
+        924.0,
+        404.0,
+        1032.0,
+        556.0
+      ],
+      "mask": "image_5.masks/person_7.png",
+      "crop": null,
+      "description": "{\"description\": \"A smiling woman with dark hair and a pink head covering, wearing a pink top, is shown in a close-up, slightly out-of-focus crop. Her face is partially visible, with a warm expression and hands raised near her chest.\", \"attributes\": {\"gender\": \"female\", \"age\": \"middle-aged\", \"ethnicity\": \"Black\", \"hair\": \"dark, short or pulled back\", \"headwear\": \"pink head covering or hat\", \"clothing\": {\"top\": \"pink\"}, \"expression\": \"smiling\", \"pose\": \"hands raised near chest\", \"focus\": \"slightly blurred\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.97265625,
+      "box": [
+        392.0,
+        326.0,
+        920.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_8.png",
+      "crop": null,
+      "description": "An elderly Black woman with short, curly gray hair and black-rimmed glasses smiles broadly while clapping her hands, wearing a pink t-shirt with white text and gold hoop earrings. She is seated in the foreground with a younger Black woman in a matching pink shirt standing behind her, placing a hand on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray",
+          "style": "short curly"
+        },
+        "accessories": {
+          "glasses": "black-rimmed",
+          "earrings": "gold hoops",
+          "ring": "gold band"
+        },
+        "clothing": {
+          "shirt": "pink t-shirt with white text"
+        },
+        "expression": "smiling",
+        "pose": "seated, clapping hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.9296875,
+      "box": [
+        700.0,
+        388.0,
+        804.0,
+        604.0
+      ],
+      "mask": "image_5.masks/person_9.png",
+      "crop": null,
+      "description": "A close-up profile view of an elderly woman with short, wavy white hair, wearing black-rimmed glasses and a gold hoop earring. She is wearing a pink top, and the background is blurred, showing another person in a similar pink shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "style": "rimmed"
+          },
+          "earrings": {
+            "type": "hoop",
+            "color": "gold"
+          }
+        },
+        "clothing": {
+          "top": {
+            "color": "pink"
+          }
+        },
+        "view": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.87109375,
+      "box": [
+        788.0,
+        334.0,
+        836.0,
+        430.0
+      ],
+      "mask": "image_5.masks/person_10.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus close-up of a person with dark skin and dark hair, wearing a pink top, positioned in profile facing to the right.",
+      "attributes": {
+        "blur": "extreme",
+        "skin_tone": "dark",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "color": "pink"
+        },
+        "pose": "profile",
+        "orientation": "right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

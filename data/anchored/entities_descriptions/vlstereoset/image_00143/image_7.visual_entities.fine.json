@@ -1,0 +1,280 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        0.0,
+        -1.5,
+        1020.0,
+        230.0
+      ],
+      "mask": "image_7.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story building with a split facade featuring a red brick section on the left and a cream-colored stucco section on the right, both accented with white window frames and a red brick foundation. The structure is set behind a green lawn with small bushes and a tree with green leaves in the foreground, while the tops of two people's heads are visible at the very bottom edge.",
+      "attributes": {
+        "structure": {
+          "type": "residential building",
+          "stories": 2,
+          "facade_materials": [
+            "red brick",
+            "cream stucco"
+          ],
+          "window_frames": "white",
+          "foundation": "red brick"
+        },
+        "surroundings": {
+          "vegetation": [
+            "green tree",
+            "green bushes",
+            "green lawn"
+          ],
+          "foreground_elements": [
+            "top of head with black afro hair",
+            "top of head with dark curly hair"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        4.0,
+        308.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/grass_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A lush, vibrant green grassy field dotted with numerous bright yellow dandelions in full bloom, creating a cheerful and natural setting. The grass appears healthy and well-maintained, with individual blades visible, and the dandelions are scattered throughout, adding pops of color to the scene.\", \"attributes\": {\"color\": \"green\", \"texture\": \"soft, blade-like\", \"flowers\": {\"type\": \"dandelion\", \"color\": \"yellow\", \"density\": \"moderate to high\"}, \"condition\": \"healthy, vibrant\", \"setting\": \"outdoor, natural\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.71484375,
+      "box": [
+        -12.0,
+        230.0,
+        736.0,
+        280.0
+      ],
+      "mask": "image_7.masks/grass_1.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's head with short, tightly coiled black hair. The background is blurred and appears to be an outdoor setting with green grass and possibly a path or road.",
+      "attributes": {
+        "hair": {
+          "color": "black",
+          "style": "short, tightly coiled"
+        },
+        "background": {
+          "type": "outdoor",
+          "elements": [
+            "green grass",
+            "path/road"
+          ]
+        },
+        "focus": "head and hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.625,
+      "box": [
+        -4.0,
+        228.0,
+        1016.0,
+        280.0
+      ],
+      "mask": "image_7.masks/grass_2.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people's heads, with the background blurred. The person on the left has short, tightly coiled black hair, while the person on the right has longer, wavy black hair. The background appears to be an outdoor setting with greenery, possibly a park or garden.",
+      "attributes": {
+        "hair": {
+          "left_person": "short, tightly coiled black",
+          "right_person": "longer, wavy black"
+        },
+        "background": "blurred greenery, outdoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        616.0,
+        206.0,
+        1024.0,
+        904.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young woman with long, dark curly hair sits on a grassy field dotted with yellow dandelions, wearing a white t-shirt and distressed blue jeans with rolled-up cuffs. She is looking down and to the side with a gentle expression, her hand resting on her knee.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "long curly",
+          "length": "long"
+        },
+        "expression": "smiling",
+        "pose": "sitting on grass",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "details": "ripped knee, rolled cuffs"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "setting": "outdoors, grassy field with dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -2.0,
+        178.0,
+        430.0,
+        904.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with a short beard and curly hair sits cross-legged on a grassy lawn dotted with yellow dandelions, wearing a white button-down shirt with rolled-up sleeves and blue jeans. He is looking to his right with a warm, engaged expression, and part of a child's head and shoe is visible in the foreground to his right.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "facial_hair": {
+          "type": "beard",
+          "color": "black"
+        },
+        "expression": "smiling, looking to the side",
+        "pose": "sitting cross-legged on grass",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "black and white",
+            "type": "sneakers"
+          }
+        },
+        "setting": "outdoors, grassy area with dandelions",
+        "context": "interacting with a child (partially visible)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        364.0,
+        392.0,
+        644.0,
+        888.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with curly brown hair and a yellow hair clip is sitting on the grass, laughing with her mouth wide open and eyes closed. She is wearing a white t-shirt and blue jeans, with her hands clasped together in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "accessory": "yellow hair clip"
+        },
+        "clothing": {
+          "shirt": "white t-shirt",
+          "pants": "blue jeans"
+        },
+        "pose": "sitting",
+        "expression": "laughing",
+        "location": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        912.0,
+        -5.0,
+        1000.0,
+        332.0
+      ],
+      "mask": "image_7.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurred, vertical section of a tree trunk with a smooth, light brown surface, occupying the center of the frame. The background is out of focus, showing indistinct patches of green and white, while a small portion of dark, curly hair is visible in the bottom left corner.",
+      "attributes": {
+        "object": "tree trunk",
+        "color": "light brown",
+        "texture": "smooth",
+        "focus": "blurred",
+        "position": "center",
+        "background": "out of focus",
+        "foreground_element": "dark curly hair (bottom left)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.86328125,
+      "box": [
+        32.0,
+        -2.5,
+        556.0,
+        188.0
+      ],
+      "mask": "image_7.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry tree with green leaves and a brown trunk is visible in the background, partially obscured by a blurred foreground object that appears to be the top of a person's head with dark hair.",
+      "attributes": {
+        "leaves": "green",
+        "trunk": "brown",
+        "focus": "blurry",
+        "position": "background",
+        "foreground_object": "dark hair"
+      },
+      "parse_ok": true
+    }
+  ]
+}

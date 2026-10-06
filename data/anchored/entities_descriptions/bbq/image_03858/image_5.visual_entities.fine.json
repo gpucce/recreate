@@ -1,0 +1,106 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        0.0,
+        412.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is holding a white rugby ball with red and blue stripes and the text 'Zahawobz' on it. The person is wearing a green and black sports jersey with the word 'Vipon' and a logo on the chest.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "logo": "Vipon",
+          "emblem": "bird on a shield"
+        },
+        "object": {
+          "type": "rugby ball",
+          "color": "white with red and blue stripes",
+          "text": "Zahawobz"
+        },
+        "pose": "holding ball with both hands",
+        "background": "blurred grass field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        126.0,
+        28.0,
+        920.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a messy bun stands facing forward, holding a white rugby ball with red and blue stripes and the text 'Zahavobz' in front of her chest. She wears a green and black short-sleeved athletic jersey with the 'Vipon' logo on the right chest and a team crest on the left, displaying a serious, focused expression with a furrowed brow.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "messy bun"
+        },
+        "expression": "serious, focused, furrowed brow",
+        "clothing": {
+          "shirt": {
+            "type": "athletic jersey",
+            "colors": [
+              "green",
+              "black"
+            ],
+            "logos": [
+              "Vipon",
+              "team crest"
+            ]
+          }
+        },
+        "object_held": {
+          "type": "rugby ball",
+          "color": "white",
+          "details": "red and blue stripes, text 'Zahavobz'"
+        },
+        "pose": "standing, holding ball with both hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        406.0,
+        656.0,
+        648.0,
+        1008.0
+      ],
+      "mask": "image_5.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A white rugby ball with red and blue stripes is held in two hands, displaying the text 'Zahawobz' and a logo on its surface. The ball appears to be made of a smooth, synthetic material and is positioned against a green background.",
+      "attributes": {
+        "color": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "text": "Zahawobz",
+        "logo": "present",
+        "material": "synthetic",
+        "shape": "oval",
+        "held_by": "two hands",
+        "background": "green"
+      },
+      "parse_ok": true
+    }
+  ]
+}

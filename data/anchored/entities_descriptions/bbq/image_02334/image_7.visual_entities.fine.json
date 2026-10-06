@@ -1,0 +1,354 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        0.0,
+        900.0,
+        1020.0,
+        996.0
+      ],
+      "mask": "image_7.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with a light brown finish and visible grain, partially occupied by two individuals sitting side by side. The person on the left is wearing dark gray leggings, while the person on the right has bare legs and is wearing a dark-colored top or shorts.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth with visible grain",
+        "occupants": {
+          "left_person": {
+            "clothing": {
+              "leggings": "dark gray"
+            }
+          },
+          "right_person": {
+            "clothing": {
+              "top_or_shorts": "dark colored"
+            },
+            "skin": "bare legs visible"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        2.0,
+        992.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/floor_0.png",
+      "crop": null,
+      "description": "The image shows the lower legs of two people standing side by side. The person on the left is wearing dark, textured pants, while the person on the right has bare legs. The background is a plain, light-colored floor.",
+      "attributes": {
+        "visible_body_parts": [
+          "lower_legs"
+        ],
+        "clothing": {
+          "left_person": "dark_textured_pants",
+          "right_person": "bare_legs"
+        },
+        "background": "light_colored_floor",
+        "position": "standing_side_by_side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        354.0,
+        50.0,
+        528.0,
+        888.0
+      ],
+      "mask": "image_7.masks/locker_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair is shown in profile, wearing a teal short-sleeved t-shirt and holding a red apple with both hands. She is positioned in front of a bright orange locker with a blue frame and ventilation slits.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "teal",
+            "sleeves": "short"
+          },
+          "pants": {
+            "color": "black"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "object_held": {
+          "type": "apple",
+          "color": "red"
+        },
+        "background": {
+          "object": "locker",
+          "color": "orange",
+          "frame_color": "blue",
+          "features": [
+            "ventilation slits",
+            "white label"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 1,
+      "score": 0.90625,
+      "box": [
+        968.0,
+        48.0,
+        1024.0,
+        896.0
+      ],
+      "mask": "image_7.masks/locker_1.png",
+      "crop": null,
+      "description": "A close-up view of an orange locker door featuring a silver, rectangular keyhole or lock mechanism in the center. The locker has a blue vertical border on the left side and faint, illegible white text or markings on the right side.",
+      "attributes": {
+        "color": "orange",
+        "material": "metal",
+        "features": {
+          "lock": "silver rectangular keyhole",
+          "border": "blue vertical strip on left",
+          "text": "faint white markings on right"
+        },
+        "condition": "clean, smooth surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 2,
+      "score": 0.94921875,
+      "box": [
+        -1.25,
+        48.0,
+        128.0,
+        896.0
+      ],
+      "mask": "image_7.masks/locker_2.png",
+      "crop": null,
+      "description": "A person with light skin and blonde hair is partially visible, wearing a teal short-sleeved shirt and gray pants, standing in front of an orange locker with a blue frame and ventilation slots.",
+      "attributes": {
+        "clothing": {
+          "shirt": "teal",
+          "pants": "gray"
+        },
+        "hair": "blonde",
+        "pose": "standing",
+        "locker": {
+          "color": "orange",
+          "frame": "blue",
+          "ventilation": "horizontal slots"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 3,
+      "score": 0.8359375,
+      "box": [
+        764.0,
+        48.0,
+        940.0,
+        836.0
+      ],
+      "mask": "image_7.masks/locker_3.png",
+      "crop": null,
+      "description": "A tall, rectangular orange locker with a blue frame is visible in the background. The locker door features a series of horizontal ventilation slits near the top and a small, white rectangular label or sticker above them.",
+      "attributes": {
+        "color": "orange",
+        "frame_color": "blue",
+        "ventilation": "horizontal slits",
+        "label": "white rectangle",
+        "material": "metal",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 4,
+      "score": 0.89453125,
+      "box": [
+        154.0,
+        49.5,
+        324.0,
+        304.0
+      ],
+      "mask": "image_7.masks/locker_4.png",
+      "crop": null,
+      "description": "A close-up view of the top section of an orange metal locker featuring a white rectangular label holder and a series of horizontal ventilation slits, framed by a blue border.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "frame_color": "blue",
+        "material": "metal",
+        "features": [
+          "white label holder",
+          "horizontal ventilation slits"
+        ],
+        "condition": "clean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 5,
+      "score": 0.94140625,
+      "box": [
+        560.0,
+        50.0,
+        736.0,
+        896.0
+      ],
+      "mask": "image_7.masks/locker_5.png",
+      "crop": null,
+      "description": "A tall, orange metal locker with a blue frame is visible in the background, featuring a horizontal ventilation grille near the top and a recessed silver handle or lock mechanism on the left side.",
+      "attributes": {
+        "color": "orange",
+        "frame_color": "blue",
+        "material": "metal",
+        "features": [
+          "ventilation grille",
+          "silver handle",
+          "white label sticker"
+        ],
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        564.0,
+        260.0,
+        972.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, straight blonde hair sits on a wooden bench, wearing a grey tank top and a white towel draped around her neck. She holds a black smartphone in both hands and wears white wired earbuds, looking off to the side with a neutral expression against a background of orange and blue vertical stripes.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": "grey tank top",
+          "accessory": "white towel around neck"
+        },
+        "accessories": {
+          "earbuds": "white wired",
+          "device": "black smartphone"
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "gaze": "looking to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        46.0,
+        136.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A fair-skinned woman with shoulder-length wavy blonde hair sits on a wooden bench, wearing a teal short-sleeved t-shirt and dark grey leggings. She is looking to the right with a neutral expression, holding a red apple in both hands resting on her lap, and wearing white wired earbuds.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "leggings",
+            "color": "dark grey"
+          },
+          "accessories": {
+            "earbuds": {
+              "color": "white",
+              "type": "wired"
+            },
+            "watch": {
+              "band_color": "black"
+            }
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "gaze": "to the right",
+        "holding": {
+          "object": "apple",
+          "color": "red"
+        },
+        "background": {
+          "color": "orange",
+          "object": "lockers"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.72265625,
+      "box": [
+        0.0,
+        -1.0,
+        1020.0,
+        39.0
+      ],
+      "mask": "image_7.masks/wall_0.png",
+      "crop": null,
+      "description": "A horizontal section of a wall featuring a smooth, light beige or off-white surface with a thin, dark blue horizontal stripe running along the bottom edge. The wall appears to be made of a flat material, possibly painted drywall or plaster, with a clean and minimal design.",
+      "attributes": {
+        "color": {
+          "main": "light beige/off-white",
+          "stripe": "dark blue"
+        },
+        "material": "smooth, possibly painted drywall or plaster",
+        "design": "minimalist, horizontal stripe",
+        "position": "horizontal section of a wall"
+      },
+      "parse_ok": true
+    }
+  ]
+}

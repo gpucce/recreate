@@ -1,0 +1,507 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        812.0,
+        158.0,
+        1020.0,
+        274.0
+      ],
+      "mask": "image_8.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story white building with a flat roof and a balcony on the upper level, featuring white railings and columns. The structure is surrounded by greenery, including palm trees and bushes, and appears to be a residential or resort-style house.",
+      "attributes": {
+        "structure": {
+          "stories": 2,
+          "roof": "flat",
+          "color": "white",
+          "balcony": {
+            "present": true,
+            "railings": "white"
+          },
+          "columns": "white"
+        },
+        "surroundings": {
+          "vegetation": [
+            "palm trees",
+            "bushes"
+          ],
+          "ground": "grass"
+        },
+        "style": "modern or tropical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        496.0,
+        248.0,
+        576.0,
+        292.0
+      ],
+      "mask": "image_8.masks/building_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.88671875,
+      "box": [
+        442.0,
+        226.0,
+        520.0,
+        258.0
+      ],
+      "mask": "image_8.masks/building_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.63671875,
+      "box": [
+        576.0,
+        274.0,
+        616.0,
+        290.0
+      ],
+      "mask": "image_8.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.63671875,
+      "box": [
+        360.0,
+        238.0,
+        440.0,
+        266.0
+      ],
+      "mask": "image_8.masks/building_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        -4.0,
+        189.0,
+        380.0,
+        298.0
+      ],
+      "mask": "image_8.masks/hillside_0.png",
+      "crop": null,
+      "description": "A steep, grassy hillside slopes down toward a body of water, featuring a mix of green vegetation and exposed brown rocky cliffs on the left side. A small building with a reddish roof is partially visible on the right slope, and the image is slightly blurry.",
+      "attributes": {
+        "terrain": "steep hillside",
+        "vegetation": "green grass and trees",
+        "geology": "exposed brown rocky cliffs",
+        "structures": {
+          "building": "small, reddish roof, partially visible"
+        },
+        "water": "visible at the bottom edge",
+        "sky": "blue with white clouds",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 1,
+      "score": 0.515625,
+      "box": [
+        189.0,
+        213.0,
+        468.0,
+        300.0
+      ],
+      "mask": "image_8.masks/hillside_1.png",
+      "crop": null,
+      "description": "A lush, green hillside slopes down towards a body of water, with a building featuring a red roof nestled among the vegetation. The hill is covered in dense foliage, and the building appears to be a single-story structure with white walls.",
+      "attributes": {
+        "vegetation": "dense, green",
+        "building": {
+          "roof": "red",
+          "walls": "white",
+          "stories": 1
+        },
+        "terrain": "sloping",
+        "water": "visible at the base"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 2,
+      "score": 0.734375,
+      "box": [
+        0.0,
+        106.0,
+        1020.0,
+        298.0
+      ],
+      "mask": "image_8.masks/hillside_2.png",
+      "crop": null,
+      "description": "A lush, green hillside rises in the background, featuring a mix of grassy slopes and rocky outcrops near the base. Several white buildings with red roofs are nestled among the vegetation on the lower slopes, partially obscured by palm trees in the foreground.",
+      "attributes": {
+        "color": "green",
+        "texture": "grassy, rocky",
+        "features": [
+          "buildings",
+          "palm trees",
+          "rocky outcrops"
+        ],
+        "position": "background",
+        "lighting": "natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 3,
+      "score": 0.58203125,
+      "box": [
+        388.0,
+        122.0,
+        676.0,
+        224.0
+      ],
+      "mask": "image_8.masks/hillside_3.png",
+      "crop": null,
+      "description": "A grassy hillside with a mix of green and brown vegetation, featuring a few scattered trees and a small white object near the top. The hill is set against a clear blue sky, with some palm trees visible in the foreground.",
+      "attributes": {
+        "vegetation": {
+          "color": [
+            "green",
+            "brown"
+          ],
+          "type": "grass"
+        },
+        "trees": {
+          "type": "palm",
+          "position": "foreground"
+        },
+        "sky": {
+          "color": "blue",
+          "condition": "clear"
+        },
+        "object": {
+          "color": "white",
+          "position": "near the top of the hill"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        4.0,
+        300.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A young girl with shoulder-length dark hair is running away from the camera on a sandy beach, wearing a blue one-piece swimsuit. Her arms are outstretched to the sides, and her feet are bare, leaving footprints in the sand as she moves towards the water.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "dark, shoulder-length",
+        "clothing": {
+          "swimsuit": "blue, one-piece"
+        },
+        "pose": "running, arms outstretched",
+        "location": "beach, near the water's edge",
+        "footprints": "visible in the sand behind her"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        0.0,
+        107.0,
+        1020.0,
+        300.0
+      ],
+      "mask": "image_8.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "A large, green, grassy hill or headland dominates the background, sloping down towards a beach on the left side. The hill is covered in lush vegetation with some rocky outcrops visible near the shoreline, and it rises steeply behind a cluster of white buildings and palm trees in the foreground.",
+      "attributes": {
+        "vegetation": "dense green grass and shrubs",
+        "terrain": "sloping hillside",
+        "color": "various shades of green",
+        "features": [
+          "rocky outcrops at base",
+          "smooth rounded peak"
+        ],
+        "position": "background, behind beach and buildings",
+        "lighting": "bright daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.6328125,
+      "box": [
+        568.0,
+        294.0,
+        576.0,
+        314.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.51953125,
+      "box": [
+        422.0,
+        288.0,
+        430.0,
+        304.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.546875,
+      "box": [
+        492.0,
+        292.0,
+        500.0,
+        312.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9375,
+      "box": [
+        672.0,
+        294.0,
+        760.0,
+        358.0
+      ],
+      "mask": "image_8.masks/person_3.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is sitting in a blue and white beach chair, holding a dark-colored object, possibly a phone or book, in their hands. The person appears to be shirtless, with their legs extended forward, and is positioned on a sandy surface.\", \"attributes\": {\"pose\": \"sitting\", \"clothing\": {\"shirt\": \"none\", \"pants\": \"none\"}, \"object_in_hands\": \"dark-colored, possibly a phone or book\", \"chair\": {\"color\": \"blue and white\", \"type\": \"beach chair\"}, \"surface\": \"sandy\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.515625,
+      "box": [
+        624.0,
+        290.0,
+        632.0,
+        314.0
+      ],
+      "mask": "image_8.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.984375,
+      "box": [
+        368.0,
+        352.0,
+        648.0,
+        832.0
+      ],
+      "mask": "image_8.masks/person_5.png",
+      "crop": null,
+      "description": "A young girl with shoulder-length dark brown hair is seen from behind, running barefoot on a sandy beach towards the ocean. She is wearing a bright blue one-piece swimsuit with wide shoulder straps and her arms are outstretched to the sides as she moves.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder-length",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "type": "swimsuit",
+          "style": "one-piece",
+          "color": "royal blue"
+        },
+        "pose": "running away from camera",
+        "location": "beach",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.76953125,
+      "box": [
+        636.0,
+        296.0,
+        676.0,
+        328.0
+      ],
+      "mask": "image_8.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.55859375,
+      "box": [
+        209.0,
+        272.0,
+        286.0,
+        300.0
+      ],
+      "mask": "image_8.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        -2.0,
+        251.0,
+        192.0,
+        298.0
+      ],
+      "mask": "image_8.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "A blurry, close-up view of a rocky cliff face with brown and gray tones, featuring vertical striations and dark crevices, situated above a strip of blue water at the bottom edge.",
+      "attributes": {
+        "color": [
+          "brown",
+          "gray",
+          "blue"
+        ],
+        "texture": "rocky",
+        "structure": "cliff",
+        "position": "above water",
+        "clarity": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        6.0,
+        298.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/sand_0.png",
+      "crop": null,
+      "description": "A young girl with dark, shoulder-length hair is running away from the camera along a sandy beach, wearing a bright blue one-piece swimsuit. Her arms are outstretched for balance, and her feet are bare, leaving footprints in the wet sand near the water's edge.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "dark brown, shoulder-length",
+        "clothing": {
+          "swimsuit": "blue, one-piece"
+        },
+        "pose": "running, arms outstretched",
+        "location": "beach, near water's edge",
+        "footprints": "visible in wet sand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        0.0,
+        -0.5,
+        1016.0,
+        244.0
+      ],
+      "mask": "image_8.masks/sky_0.png",
+      "crop": null,
+      "description": "A bright blue sky with scattered, fluffy white clouds occupies the upper portion of the image, stretching above a green hillside and palm trees. The clouds are soft and irregular in shape, with some appearing more dense and others wispy, set against a clear, light blue background.",
+      "attributes": {
+        "color": "light blue",
+        "clouds": {
+          "color": "white",
+          "shape": "fluffy, irregular",
+          "density": "scattered, some dense, some wispy"
+        },
+        "position": "upper portion of the image",
+        "background": "clear, light blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        0.0,
+        300.0,
+        564.0,
+        612.0
+      ],
+      "mask": "image_8.masks/water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A young girl with shoulder-length brown hair is running along a sandy beach, wearing a blue one-piece swimsuit. The ocean waves are gently lapping at the shore, and the water appears clear and turquoise.\", \"attributes\": {\"clothing\": {\"swimsuit\": \"blue one-piece\"}, \"hair\": \"brown, shoulder-length\", \"pose\": \"running\", \"location\": \"beach\", \"water\": \"clear, turquoise\", \"beach\": \"sandy\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

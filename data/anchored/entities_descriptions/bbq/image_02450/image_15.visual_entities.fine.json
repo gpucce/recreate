@@ -1,0 +1,137 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        -2.0,
+        328.0,
+        171.0,
+        864.0
+      ],
+      "mask": "image_15.masks/backpack_0.png",
+      "crop": null,
+      "description": "A person is wearing a red and black plaid flannel shirt with a black backpack strap over their shoulder. The backpack strap is wide and has a plastic buckle for adjustment.",
+      "attributes": {
+        "clothing": {
+          "shirt": "red and black plaid flannel"
+        },
+        "backpack": {
+          "strap_color": "black",
+          "strap_width": "wide",
+          "buckle_type": "plastic"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        494.0,
+        90.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with a white beard and mustache sits facing slightly to the left, wearing a brown plaid flat cap, a light blue button-down shirt, and a maroon and beige argyle sweater vest. He has a gentle smile and is wearing khaki trousers, with his hands resting on his thighs.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap"
+        },
+        "facial_hair": {
+          "beard": "white, full",
+          "mustache": "white"
+        },
+        "expression": "smiling, looking to the side",
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "pattern": "plaid",
+            "color": "brown and grey"
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "long, rolled up slightly"
+          },
+          "vest": {
+            "type": "sweater vest",
+            "pattern": "argyle",
+            "colors": [
+              "maroon",
+              "beige"
+            ]
+          },
+          "pants": {
+            "color": "khaki",
+            "type": "trousers"
+          }
+        },
+        "pose": "sitting, hands on knees",
+        "skin_texture": "wrinkled, aged"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -1.0,
+        60.0,
+        504.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with wavy brown hair sits facing right, wearing a bright blue baseball cap, a red and black plaid flannel shirt over a white t-shirt, and blue jeans. He has a black backpack strap over his right shoulder and is smiling while looking off-camera.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, medium length"
+        },
+        "headwear": {
+          "type": "baseball cap",
+          "color": "blue"
+        },
+        "clothing": {
+          "outer": {
+            "type": "flannel shirt",
+            "pattern": "plaid",
+            "colors": [
+              "red",
+              "black"
+            ],
+            "state": "unbuttoned"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "bag": "black backpack strap visible"
+        },
+        "pose": "sitting, hands resting on knees",
+        "expression": "smiling",
+        "gaze": "looking to the right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

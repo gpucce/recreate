@@ -1,0 +1,138 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.671875,
+      "box": [
+        -7.03125,
+        -8.8125,
+        1552.0,
+        1208.0
+      ],
+      "mask": "image_0.masks/foliage_0.png",
+      "crop": null,
+      "description": "A close-up of a woman with short, dark hair, looking directly at the camera with a neutral expression. She is wearing a black turtleneck and has a small earring in her left ear. The background is blurred with green foliage and a hint of red, suggesting an outdoor setting.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark",
+          "style": "short"
+        },
+        "clothing": {
+          "top": "black turtleneck"
+        },
+        "accessories": {
+          "earring": "small, gold"
+        },
+        "expression": "neutral",
+        "background": {
+          "elements": [
+            "green foliage",
+            "red object"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        298.0,
+        568.0,
+        1248.0,
+        2256.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with short, dark hair and a high-necked, black ribbed top stands in profile, looking directly at the camera with a neutral expression. The lighting is dramatic, casting strong shadows on the left side of her face and highlighting the texture of her clothing and skin.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "swept to the side"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "neckline": "high neck",
+            "texture": "ribbed",
+            "material": "knit"
+          }
+        },
+        "pose": "standing, profile view",
+        "expression": "neutral, direct gaze",
+        "lighting": "dramatic, side-lit",
+        "background": "blurred, teal and dark tones"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        296.0,
+        1208.0,
+        1248.0,
+        2256.0
+      ],
+      "mask": "image_0.masks/top_0.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a black, ribbed, high-neck top with a sheer, textured fabric that reveals the skin underneath. The top has a fitted silhouette and is illuminated by warm, directional light, highlighting the texture and contours of the garment.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "neckline": "high-neck",
+            "texture": "ribbed, sheer",
+            "fit": "fitted",
+            "material": "textured fabric"
+          }
+        },
+        "lighting": "warm, directional",
+        "pose": "standing, side profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        1032.0,
+        0.0,
+        1816.0,
+        2240.0
+      ],
+      "mask": "image_0.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up of a woman's face and upper body, partially obscured by a blurred red flower in the foreground. She is wearing a black, ribbed, long-sleeved top and has a calm expression with her eyes looking to the side. The background features a dark green wall with a white vertical stripe.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "unknown",
+        "clothing": {
+          "top": "black ribbed long-sleeved"
+        },
+        "expression": "calm",
+        "pose": "standing",
+        "background": {
+          "wall": "dark green with white vertical stripe"
+        },
+        "foreground": {
+          "flower": "red, blurred"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

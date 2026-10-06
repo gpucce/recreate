@@ -1,0 +1,113 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        300.0,
+        68.0,
+        788.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling blonde woman with wavy shoulder-length hair and blue eyes is giving a piggyback ride to a young boy with curly blonde hair and blue eyes. The woman wears a blue and white striped button-down shirt and holds a black DSLR camera in her right hand, while the boy wears a red polo shirt and khaki shorts, resting his arms around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "texture": "wavy"
+        },
+        "eyes": "blue",
+        "expression": "smiling",
+        "clothing": {
+          "top": "blue and white vertical striped button-down shirt",
+          "accessories": [
+            "gold ring",
+            "gold necklace",
+            "small earrings"
+          ]
+        },
+        "pose": "sitting, carrying a child on shoulders",
+        "holding": "black DSLR camera",
+        "child": {
+          "gender": "male",
+          "age_group": "child",
+          "hair": {
+            "color": "blonde",
+            "texture": "curly"
+          },
+          "clothing": {
+            "top": "red polo shirt",
+            "bottom": "khaki shorts"
+          },
+          "pose": "sitting on woman's shoulders"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        90.0,
+        280.0,
+        768.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling blonde woman with blue eyes sits on a beige couch wearing a blue and white striped button-down shirt, holding a black DSLR camera in her right hand while a young child in a red polo shirt sits on her shoulders with arms wrapped around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "eyes": "blue",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "light blue",
+              "white"
+            ]
+          }
+        },
+        "accessories": {
+          "ring": "gold band on left ring finger",
+          "necklace": "thin gold chain",
+          "earrings": "small studs"
+        },
+        "pose": "sitting",
+        "holding": {
+          "object": "camera",
+          "type": "DSLR",
+          "color": "black",
+          "lens": "black with orange ring"
+        },
+        "context": {
+          "child_on_shoulders": {
+            "clothing": {
+              "shirt": "red polo",
+              "shorts": "khaki"
+            },
+            "expression": "smiling"
+          },
+          "background": "beige sofa, window with sheer curtains"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

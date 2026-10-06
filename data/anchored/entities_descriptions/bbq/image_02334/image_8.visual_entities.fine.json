@@ -1,0 +1,401 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        808.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/bench_0.png",
+      "crop": null,
+      "description": "Two individuals are seated on a wooden bench, with one person holding a red ball and the other using a smartphone. The bench has a light brown wooden surface with visible grain and is supported by a blue metal frame.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "support_frame": "blue metal",
+        "surface": "smooth with visible grain",
+        "position": "horizontal, elevated",
+        "context": "indoor setting, possibly a gym or recreational area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        18.0,
+        908.0,
+        720.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/floor_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people's legs and lower torsos, with one person wearing dark gray leggings and the other with bare skin visible. They appear to be sitting or lying on a wooden surface, possibly a bench or table, with a light-colored floor in the background.",
+      "attributes": {
+        "clothing": {
+          "leggings": "dark gray"
+        },
+        "skin": "light",
+        "surface": "wooden",
+        "background": "light-colored floor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        326.0,
+        0.0,
+        450.0,
+        354.0
+      ],
+      "mask": "image_8.masks/locker_0.png",
+      "crop": null,
+      "description": "A close-up view of a woman's face in profile, showing her looking downward with a serious or concerned expression. She has blonde hair pulled back and is wearing a blue top, positioned in the foreground against a blurred background of an orange locker with horizontal ventilation slits.",
+      "attributes": {
+        "entity": "person",
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "style": "pulled back"
+        },
+        "expression": "serious",
+        "gaze": "downward",
+        "clothing": {
+          "top": "blue"
+        },
+        "background": {
+          "object": "locker",
+          "color": "orange",
+          "features": [
+            "horizontal ventilation slits",
+            "white label"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -1.125,
+        38.0,
+        49.5,
+        808.0
+      ],
+      "mask": "image_8.masks/locker_1.png",
+      "crop": null,
+      "description": "A vertical, rectangular locker door painted in a solid orange color, featuring a dark blue or black frame along the right edge and a small, dark handle or latch mechanism near the top right corner. The surface appears smooth and matte, with faint, indistinct markings or text visible on the upper left and lower left sections.",
+      "attributes": {
+        "color": "orange",
+        "frame_color": "dark blue/black",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "material": "metal",
+        "features": [
+          "handle/latch",
+          "faint markings"
+        ],
+        "condition": "clean, intact"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        992.0,
+        -2.0,
+        1024.0,
+        944.0
+      ],
+      "mask": "image_8.masks/locker_2.png",
+      "crop": null,
+      "description": "A close-up view of a vertical section of a locker, featuring a bright orange door with a small, rectangular, silver-colored handle or lock mechanism positioned on the left side. To the left of the orange door is a narrow vertical strip of a blue locker door, separated by a thin dark gap.",
+      "attributes": {
+        "color": "orange",
+        "adjacent_color": "blue",
+        "material": "metal",
+        "hardware": {
+          "type": "handle/lock",
+          "color": "silver",
+          "shape": "rectangular",
+          "position": "left side"
+        },
+        "orientation": "vertical",
+        "condition": "smooth surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 3,
+      "score": 0.9453125,
+      "box": [
+        61.75,
+        28.0,
+        169.0,
+        816.0
+      ],
+      "mask": "image_8.masks/locker_3.png",
+      "crop": null,
+      "description": "A person with blonde hair is sitting in front of an orange locker, wearing a teal t-shirt and gray pants. The locker has a vented top section and a small rectangular window or slot near the middle.",
+      "attributes": {
+        "clothing": {
+          "shirt": "teal",
+          "pants": "gray"
+        },
+        "hair": "blonde",
+        "pose": "sitting",
+        "locker": {
+          "color": "orange",
+          "features": [
+            "vented top",
+            "rectangular window/slot"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 4,
+      "score": 0.9140625,
+      "box": [
+        808.0,
+        0.0,
+        968.0,
+        748.0
+      ],
+      "mask": "image_8.masks/locker_4.png",
+      "crop": null,
+      "description": "A close-up view of an orange metal locker door featuring a horizontal ventilation grille near the top, framed by blue vertical edges. A person with long, light brown hair is partially visible in the foreground, wearing a white sleeveless top and a grey garment.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "material": "metal",
+        "features": {
+          "ventilation": "horizontal slats",
+          "frame": "blue"
+        },
+        "foreground_person": {
+          "hair": "long, light brown",
+          "clothing": {
+            "top": "white sleeveless",
+            "bottom": "grey"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 5,
+      "score": 0.91796875,
+      "box": [
+        186.0,
+        11.0,
+        302.0,
+        220.0
+      ],
+      "mask": "image_8.masks/locker_5.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of an orange locker door featuring a horizontal ventilation grille in the center and a small white label near the top, framed by a blue border. The top of a person's head with blonde hair is visible in the bottom right foreground, partially obscuring the lower section of the locker.",
+      "attributes": {
+        "object": "locker",
+        "color": "orange",
+        "frame_color": "blue",
+        "features": {
+          "ventilation": "horizontal slats",
+          "label": "white rectangle near top"
+        },
+        "focus": "blurred",
+        "foreground": {
+          "entity": "person",
+          "visible_part": "top of head",
+          "hair_color": "blonde"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 6,
+      "score": 0.92578125,
+      "box": [
+        472.0,
+        -2.0,
+        608.0,
+        800.0
+      ],
+      "mask": "image_8.masks/locker_6.png",
+      "crop": null,
+      "description": "A tall, orange metal locker with a rectangular ventilation grille near the top and a recessed keyhole or lock mechanism in the middle. The locker has a smooth, painted surface and is positioned vertically, partially obscured by people in the foreground.",
+      "attributes": {
+        "color": "orange",
+        "material": "metal",
+        "features": [
+          "ventilation grille",
+          "keyhole/lock mechanism"
+        ],
+        "position": "vertical",
+        "state": "closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "locker",
+      "index": 7,
+      "score": 0.93359375,
+      "box": [
+        632.0,
+        -2.0,
+        784.0,
+        816.0
+      ],
+      "mask": "image_8.masks/locker_7.png",
+      "crop": null,
+      "description": "A young girl with long blonde hair is wearing white earbuds and a gray tank top, with a white towel draped over her shoulders. She is looking to the side with a neutral expression, and an orange locker with a vent is visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "long blonde",
+        "clothing": {
+          "top": "gray tank top",
+          "accessories": "white earbuds, white towel"
+        },
+        "pose": "sitting, looking to the side",
+        "expression": "neutral",
+        "background": "orange locker with vent"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        470.0,
+        240.0,
+        984.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young Caucasian female with long, straight blonde hair is sitting on a wooden bench, wearing a grey tank top and black athletic shorts with white and red stripes. She has a white towel draped around her neck, white wired earbuds in her ears, and is holding a black smartphone in her hands while looking off to the side with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "teenager",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "grey"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "black",
+            "details": "white and red stripes on the side"
+          },
+          "accessories": {
+            "neck": "white towel",
+            "ears": "white wired earbuds"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding a black smartphone",
+        "expression": "neutral, looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        72.0,
+        128.0,
+        516.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A fair-skinned woman with shoulder-length wavy blonde hair sits on a wooden bench in front of orange lockers, wearing a teal t-shirt and grey leggings. She holds a red apple in both hands resting on her lap, wears a white earbud in her right ear, and looks off to the side with a serious expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal"
+          },
+          "bottom": {
+            "type": "leggings",
+            "color": "grey"
+          },
+          "accessories": {
+            "earbuds": "white",
+            "wristband": "black"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "holding": "red apple",
+        "background": "orange lockers"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        -0.5,
+        -0.625,
+        254.0,
+        31.25
+      ],
+      "mask": "image_8.masks/wall_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a wall featuring a horizontal blue trim or molding running across the middle. Above the trim, the wall is a pale, off-white color, while below it, there are indistinct rectangular shapes in shades of orange and pink, possibly windows or panels.",
+      "attributes": {
+        "color": [
+          "blue",
+          "off-white",
+          "orange",
+          "pink"
+        ],
+        "material": "painted surface",
+        "focus": "blurry",
+        "elements": [
+          "horizontal trim",
+          "rectangular shapes"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

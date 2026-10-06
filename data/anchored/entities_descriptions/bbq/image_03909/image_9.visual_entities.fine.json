@@ -1,0 +1,160 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        474.0,
+        756.0,
+        532.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden desk surface with a light brown finish, featuring a horizontal edge and a vertical leg. A dark gray, textured object, likely a chair back, is partially visible in the foreground on the right, obscuring part of the desk.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "smooth",
+        "structure": {
+          "surface": "horizontal",
+          "legs": "vertical"
+        },
+        "foreground_object": {
+          "color": "dark gray",
+          "texture": "textured",
+          "position": "right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        508.0,
+        154.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly dark brown hair sits in a brown leather armchair, wearing a dark navy button-down shirt and dark grey pants. He is looking off to the left with a neutral, contemplative expression, his hands clasped together in his lap, with a potted plant featuring white calla lilies visible in the background to the left.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "navy blue",
+            "type": "button-down",
+            "sleeves": "long"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "gaze": "looking left",
+        "furniture": {
+          "type": "armchair",
+          "material": "leather",
+          "color": "brown"
+        },
+        "background": {
+          "plant": {
+            "type": "calla lily",
+            "color": "white"
+          },
+          "wall": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        18.0,
+        192.0,
+        452.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair sits on a grey armchair, wearing a white button-down shirt with sleeves rolled to the elbows and maroon trousers. She has a serious, contemplative expression while looking off to the side, with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "maroon"
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "earrings": "small stud"
+          }
+        },
+        "pose": {
+          "action": "sitting",
+          "hands": "clasped in lap",
+          "gaze": "looking to the right"
+        },
+        "expression": "serious",
+        "setting": "indoor, sitting on a grey chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "whiteboard",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        128.0,
+        38.0,
+        764.0,
+        452.0
+      ],
+      "mask": "image_9.masks/whiteboard_0.png",
+      "crop": null,
+      "description": "A large, rectangular whiteboard with a silver metal frame is mounted on a white wall, featuring faint, illegible gray writing or diagrams on the upper left side and a black marker tray at the bottom center.",
+      "attributes": {
+        "object_type": "whiteboard",
+        "color": "white",
+        "frame": {
+          "material": "metal",
+          "color": "silver"
+        },
+        "surface": "smooth",
+        "content": "faint illegible writing",
+        "accessories": {
+          "tray": "black"
+        },
+        "position": "background",
+        "state": "mostly clean"
+      },
+      "parse_ok": true
+    }
+  ]
+}

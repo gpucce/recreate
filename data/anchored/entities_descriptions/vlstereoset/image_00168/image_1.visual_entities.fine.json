@@ -1,0 +1,524 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "column",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        868.0,
+        -3.0,
+        956.0,
+        436.0
+      ],
+      "mask": "image_1.masks/column_0.png",
+      "crop": null,
+      "description": "A close-up view of a red flag with yellow stars, partially obscured by a light-colored, textured column or pole. The flag appears to be the Chinese national flag, with one large star and parts of smaller stars visible. The column has a vertical, ribbed texture and is positioned in the foreground, slightly out of focus.",
+      "attributes": {
+        "flag": {
+          "color": "red",
+          "stars": "yellow",
+          "visible_stars": "one large, parts of smaller ones"
+        },
+        "column": {
+          "color": "light beige",
+          "texture": "ribbed",
+          "focus": "slightly out of focus",
+          "position": "foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "column",
+      "index": 1,
+      "score": 0.50390625,
+      "box": [
+        13.5,
+        616.0,
+        152.0,
+        888.0
+      ],
+      "mask": "image_1.masks/column_1.png",
+      "crop": null,
+      "description": "A person is partially visible on the right side of the image, wearing a bright red garment over a black outfit. The background is blurred, showing a light-colored wall with a gold-framed object and a hint of a red and white structure.",
+      "attributes": {
+        "clothing": {
+          "outer": "red",
+          "inner": "black"
+        },
+        "background": {
+          "wall": "light-colored",
+          "frame": "gold",
+          "structure": "red and white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "column",
+      "index": 2,
+      "score": 0.73828125,
+      "box": [
+        32.25,
+        -2.0,
+        145.0,
+        616.0
+      ],
+      "mask": "image_1.masks/column_2.png",
+      "crop": null,
+      "description": "A close-up, slightly out-of-focus view of a tall, fluted column with a golden or brass finish, featuring a decorative capital at the top. The column stands vertically in the foreground, partially obscuring a blurred background that includes a red wall and a flag with blue and red sections.",
+      "attributes": {
+        "object_type": "column",
+        "material": "metallic",
+        "color": "gold",
+        "finish": "shiny",
+        "structure": {
+          "shaft": "fluted",
+          "capital": "ornate"
+        },
+        "orientation": "vertical",
+        "focus": "blurry",
+        "background_elements": [
+          "red wall",
+          "flag"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "column",
+      "index": 3,
+      "score": 0.7734375,
+      "box": [
+        432.0,
+        564.0,
+        584.0,
+        892.0
+      ],
+      "mask": "image_1.masks/column_3.png",
+      "crop": null,
+      "description": "A close-up shot captures a handshake between two individuals, focusing on their hands and forearms. The person on the right wears a black suit jacket with a silver watch visible on their wrist, while the person on the left wears a dark garment. The background is blurred, showing a white architectural structure with gold trim, suggesting a formal or ceremonial setting.",
+      "attributes": {
+        "action": "handshake",
+        "person_right": {
+          "clothing": {
+            "jacket": "black suit"
+          },
+          "accessories": {
+            "watch": "silver"
+          }
+        },
+        "person_left": {
+          "clothing": {
+            "garment": "dark"
+          }
+        },
+        "background": {
+          "structure": "white pillar or podium",
+          "trim": "gold",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        788.0,
+        12.0,
+        972.0,
+        684.0
+      ],
+      "mask": "image_1.masks/flag_0.png",
+      "crop": null,
+      "description": "A red flag featuring a large yellow five-pointed star in the upper left corner with four smaller yellow stars arranged in an arc to its right, hanging vertically in the background behind a man in a black suit.",
+      "attributes": {
+        "flag": {
+          "color": "red",
+          "symbols": "yellow stars",
+          "arrangement": "one large star, four small stars",
+          "type": "national flag",
+          "country": "China"
+        },
+        "person": {
+          "clothing": "black suit",
+          "position": "foreground left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        67.0,
+        10.0,
+        237.0,
+        728.0
+      ],
+      "mask": "image_1.masks/flag_1.png",
+      "crop": null,
+      "description": "A vertical tricolor flag featuring horizontal bands of white, blue, and red from top to bottom, hanging in the background behind a man in a dark suit and a microphone.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "bands": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "position": "background",
+          "state": "hanging"
+        },
+        "person": {
+          "clothing": {
+            "suit": "dark",
+            "shirt": "white"
+          },
+          "position": "foreground right",
+          "visibility": "partial"
+        },
+        "object": {
+          "type": "microphone",
+          "position": "bottom right"
+        },
+        "background": {
+          "element": "gold column",
+          "position": "left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        282.0,
+        4.0,
+        434.0,
+        652.0
+      ],
+      "mask": "image_1.masks/flag_2.png",
+      "crop": null,
+      "description": "A close-up of a man with short, graying black hair wearing a dark suit, white shirt, and purple tie, smiling slightly while standing in front of a red flag with yellow stars.",
+      "attributes": {
+        "person": {
+          "gender": "male",
+          "age": "middle-aged",
+          "ethnicity": "East Asian",
+          "hair": {
+            "color": "black with gray",
+            "style": "short, combed back"
+          },
+          "expression": "smiling",
+          "clothing": {
+            "suit": "dark navy or black",
+            "shirt": "white",
+            "tie": "purple"
+          }
+        },
+        "flag": {
+          "color": "red",
+          "symbols": "yellow stars",
+          "position": "background, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 3,
+      "score": 0.9140625,
+      "box": [
+        600.0,
+        8.0,
+        752.0,
+        564.0
+      ],
+      "mask": "image_1.masks/flag_3.png",
+      "crop": null,
+      "description": "A man with short, light blond hair and a serious expression is shown from the chest up, wearing a black suit jacket, a white collared shirt, and a dark purple tie. Behind him, slightly out of focus, is a flag with horizontal stripes of white, blue, and red, set against a dark red background.",
+      "attributes": {
+        "person": {
+          "gender": "male",
+          "age": "middle-aged",
+          "hair": "light blond, short",
+          "expression": "serious",
+          "clothing": {
+            "jacket": "black suit",
+            "shirt": "white",
+            "tie": "dark purple"
+          }
+        },
+        "flag": {
+          "type": "tricolor",
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "horizontal",
+          "focus": "blurred"
+        },
+        "background": "dark red"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        414.0,
+        302.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, light brown hair and a serious expression stands in a formal setting, wearing a black suit jacket, a white collared shirt, and a textured purple tie. He is extending his right hand to shake hands with another person, whose arm is partially visible on the left, while standing behind a white table with a microphone and a black device on it.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "type": "suit"
+          },
+          "shirt": {
+            "color": "white"
+          },
+          "tie": {
+            "color": "purple",
+            "texture": "textured"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "serious",
+        "accessories": {
+          "watch": "visible on left wrist"
+        },
+        "background_elements": [
+          "white bust statue",
+          "Russian flag",
+          "Chinese flag",
+          "microphone",
+          "white table"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        138.0,
+        266.0,
+        498.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged Asian man with short, dark hair featuring gray at the temples stands in a formal setting, wearing a dark navy suit, white dress shirt, and a textured purple tie. He is smiling gently while shaking hands with another person whose arm is visible on the right, positioned behind a white table with a microphone and documents.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black with gray",
+          "style": "short, side-parted"
+        },
+        "clothing": {
+          "suit": "dark navy blue",
+          "shirt": "white",
+          "tie": "purple, textured"
+        },
+        "pose": "standing, shaking hands",
+        "expression": "smiling",
+        "accessories": {
+          "microphone": "black, on table"
+        },
+        "background": {
+          "flags": [
+            "Russian flag (left)",
+            "Chinese flag (right)"
+          ],
+          "statue": "white bust on pedestal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.78515625,
+      "box": [
+        414.0,
+        304.0,
+        604.0,
+        512.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A white marble bust of a person with short, wavy hair, set against a solid dark red background. The figure is depicted from the chest up, wearing a garment with a V-neckline and a sash or strap crossing the chest diagonally.",
+      "attributes": {
+        "object_type": "bust",
+        "material": "white marble",
+        "color": "white",
+        "hair": {
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "neckline": "V-neck",
+          "detail": "diagonal sash"
+        },
+        "background": "dark red",
+        "pose": "frontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.8046875,
+      "box": [
+        964.0,
+        -2.0,
+        1024.0,
+        608.0
+      ],
+      "mask": "image_1.masks/wall_0.png",
+      "crop": null,
+      "description": "A vertical section of a matte, deep red wall with a smooth, uniform surface. A blurred green plant is visible in the lower right corner, and a small, out-of-focus red and yellow object is visible in the lower left corner.",
+      "attributes": {
+        "color": "deep red",
+        "texture": "matte",
+        "surface": "smooth",
+        "orientation": "vertical",
+        "foreground_objects": [
+          {
+            "type": "plant",
+            "color": "green",
+            "position": "bottom right",
+            "focus": "blurred"
+          },
+          {
+            "type": "object",
+            "color": "red and yellow",
+            "position": "bottom left",
+            "focus": "blurred"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        -1.125,
+        2.0,
+        47.5,
+        616.0
+      ],
+      "mask": "image_1.masks/wall_1.png",
+      "crop": null,
+      "description": "A vertical section of a matte, deep red wall featuring a thin, light-colored vertical trim line on the right edge. A blurry green leaf is visible in the lower left corner, and a small portion of a gold object appears at the bottom right.",
+      "attributes": {
+        "color": "deep red",
+        "texture": "matte",
+        "features": [
+          "vertical trim line",
+          "blurry green leaf",
+          "gold object fragment"
+        ],
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        242.0,
+        0.0,
+        768.0,
+        608.0
+      ],
+      "mask": "image_1.masks/wall_2.png",
+      "crop": null,
+      "description": "A medium shot of two men, identified as Chinese President Xi Jinping and Russian President Vladimir Putin, standing side-by-side in a formal setting. They are positioned in front of a dark red wall with a white bust of a classical figure on a pedestal in the center background, flanked by the national flags of China and Russia. Both men are wearing dark suits with white shirts and purple ties, looking forward with serious or slight smiles.",
+      "attributes": {
+        "people": [
+          {
+            "identity": "Xi Jinping",
+            "position": "left",
+            "gender": "male",
+            "ethnicity": "East Asian",
+            "age": "middle-aged",
+            "hair": "black, short, combed to the side",
+            "expression": "slight smile",
+            "clothing": {
+              "suit": "dark navy or black",
+              "shirt": "white",
+              "tie": "purple"
+            }
+          },
+          {
+            "identity": "Vladimir Putin",
+            "position": "right",
+            "gender": "male",
+            "ethnicity": "Caucasian",
+            "age": "middle-aged",
+            "hair": "blonde, short, receding hairline",
+            "expression": "neutral to slight smile",
+            "clothing": {
+              "suit": "black",
+              "shirt": "white",
+              "tie": "dark purple"
+            }
+          }
+        ],
+        "background": {
+          "wall_color": "dark red",
+          "objects": [
+            {
+              "type": "bust",
+              "material": "white marble or stone",
+              "position": "center",
+              "subject": "classical figure"
+            },
+            {
+              "type": "flag",
+              "position": "left",
+              "country": "China",
+              "colors": "red and yellow"
+            },
+            {
+              "type": "flag",
+              "position": "right",
+              "country": "Russia",
+              "colors": "white, blue, red"
+            }
+          ]
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

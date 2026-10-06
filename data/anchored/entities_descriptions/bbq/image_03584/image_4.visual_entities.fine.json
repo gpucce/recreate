@@ -1,0 +1,310 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "flowers",
+      "index": 0,
+      "score": 0.68359375,
+      "box": [
+        201.0,
+        324.0,
+        310.0,
+        440.0
+      ],
+      "mask": "image_4.masks/flowers_0.png",
+      "crop": null,
+      "description": "A close-up, soft-focus view of a cluster of white flowers with ruffled, layered petals, likely peonies or garden roses, featuring green stems and leaves visible at the base against a blurred, neutral background.",
+      "attributes": {
+        "flower_type": "peony or rose",
+        "color": "white",
+        "petal_texture": "ruffled, layered",
+        "stem_color": "green",
+        "focus": "soft, blurred",
+        "background": "neutral, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 1,
+      "score": 0.73046875,
+      "box": [
+        -1.125,
+        336.0,
+        49.5,
+        452.0
+      ],
+      "mask": "image_4.masks/flowers_1.png",
+      "crop": null,
+      "description": "A close-up of a white flower with soft, rounded petals that appear slightly translucent. The petals have a smooth texture and are clustered together, with hints of green stems and leaves visible in the background.",
+      "attributes": {
+        "color": "white",
+        "petal_shape": "rounded",
+        "texture": "smooth",
+        "background": "green stems and leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 2,
+      "score": 0.73046875,
+      "box": [
+        2.0,
+        266.0,
+        310.0,
+        728.0
+      ],
+      "mask": "image_4.masks/flowers_2.png",
+      "crop": null,
+      "description": "A bouquet of white peonies with delicate, layered petals and yellow centers is arranged in a clear glass vase filled with water. The flowers are positioned on a wooden surface next to an open book, with soft natural light illuminating the scene.",
+      "attributes": {
+        "flower_type": "peony",
+        "color": "white",
+        "petal_structure": "layered, delicate",
+        "center_color": "yellow",
+        "vase": {
+          "material": "glass",
+          "shape": "cylindrical",
+          "contents": "water"
+        },
+        "arrangement": "bouquet",
+        "position": "on a wooden surface",
+        "lighting": "soft natural light",
+        "background": "open book, blurred window"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 3,
+      "score": 0.7421875,
+      "box": [
+        59.0,
+        334.0,
+        207.0,
+        462.0
+      ],
+      "mask": "image_4.masks/flowers_3.png",
+      "crop": null,
+      "description": "A close-up of a white ranunculus flower with densely packed, ruffled petals that transition to a creamy yellow and brown center. The flower is in full bloom, showing the intricate layering of the petals, with green stems and leaves visible in the background.",
+      "attributes": {
+        "flower_type": "ranunculus",
+        "petal_color": "white",
+        "center_color": "yellow and brown",
+        "petal_structure": "ruffled, densely packed",
+        "bloom_stage": "full bloom",
+        "background": "green stems and leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 4,
+      "score": 0.71875,
+      "box": [
+        128.0,
+        266.0,
+        236.0,
+        338.0
+      ],
+      "mask": "image_4.masks/flowers_4.png",
+      "crop": null,
+      "description": "A close-up of a white flower with soft, overlapping petals, showing a hint of green at the base and a blurred background.",
+      "attributes": {
+        "color": "white",
+        "petal_type": "soft, overlapping",
+        "base_color": "green",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 5,
+      "score": 0.69921875,
+      "box": [
+        7.375,
+        280.0,
+        68.0,
+        332.0
+      ],
+      "mask": "image_4.masks/flowers_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "magazine",
+      "index": 0,
+      "score": 0.53125,
+      "box": [
+        180.0,
+        524.0,
+        572.0,
+        716.0
+      ],
+      "mask": "image_4.masks/magazine_0.png",
+      "crop": null,
+      "description": "A close-up shot of a person's hands holding an open paperback book titled 'FLOURISH' with a beige cover featuring a small portrait of a woman. The person is wearing a light blue button-down shirt with a white collar and a dark blue tie visible at the top right.",
+      "attributes": {
+        "object": {
+          "type": "book",
+          "format": "paperback",
+          "title": "FLOURISH",
+          "subtitle": "A Universal Life",
+          "cover_color": "beige",
+          "cover_image": "portrait of a woman",
+          "state": "open"
+        },
+        "person": {
+          "visible_parts": [
+            "hands",
+            "torso"
+          ],
+          "clothing": {
+            "shirt": "light blue",
+            "collar": "white",
+            "tie": "dark blue"
+          },
+          "action": "holding book"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        412.0,
+        628.0,
+        512.0,
+        692.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, close-up photograph of a smiling woman with shoulder-length brown hair, wearing a grey top with a white collar, held in a person's hand.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "color": "grey",
+            "collar": "white"
+          }
+        },
+        "context": "held in hand",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        172.0,
+        84.0,
+        900.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair and round glasses sits in a beige armchair, smiling gently while reading a book titled 'FLOURISH'. She wears a light blue button-down shirt with rolled-up sleeves, beige trousers, and a patterned silk scarf tied around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "style": "short, wavy"
+        },
+        "accessories": {
+          "glasses": "round, thin-framed",
+          "scarf": "silk, patterned with blue and beige tones, tied in a knot",
+          "earrings": "small, stud",
+          "ring": "gold band on left hand"
+        },
+        "clothing": {
+          "shirt": "light blue, button-down, long sleeves rolled to elbows",
+          "pants": "beige, loose-fitting"
+        },
+        "pose": "sitting, holding an open book with both hands",
+        "expression": "smiling, content, focused on reading",
+        "object": {
+          "book": "open, title 'FLOURISH' visible on cover, held in hands"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        688.0,
+        290.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a round wooden side table with a dark, polished finish and a turned, spindle-like leg. On the table surface sits a clear glass vase containing green stems, while the ornate, carved wooden arm of a cream-colored upholstered chair is visible in the foreground to the right.",
+      "attributes": {
+        "object_type": "side table",
+        "material": "wood",
+        "color": "dark brown",
+        "finish": "polished",
+        "shape": "round top",
+        "leg_style": "turned, spindle-like",
+        "items_on_top": {
+          "object": "vase",
+          "material": "glass",
+          "color": "clear",
+          "contents": "green stems"
+        },
+        "adjacent_furniture": {
+          "type": "chair",
+          "frame": "carved wood",
+          "upholstery": "cream fabric",
+          "details": "visible armrest with scrollwork"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        -1.0,
+        0.0,
+        226.0,
+        564.0
+      ],
+      "mask": "image_4.masks/window_0.png",
+      "crop": null,
+      "description": "A large, white-framed window with multiple rectangular panes is visible in the background, appearing out of focus and letting in bright, diffused natural light. The window is partially obscured by sheer white curtains on the right side.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or painted material",
+        "pane_shape": "rectangular",
+        "focus": "blurred",
+        "lighting": "bright natural light",
+        "curtains": {
+          "color": "white",
+          "material": "sheer fabric",
+          "position": "right side"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

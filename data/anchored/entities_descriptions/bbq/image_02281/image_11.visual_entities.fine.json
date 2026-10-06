@@ -1,0 +1,357 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "bookshelf",
+      "index": 0,
+      "score": 0.5546875,
+      "box": [
+        404.0,
+        244.0,
+        676.0,
+        576.0
+      ],
+      "mask": "image_11.masks/bookshelf_0.png",
+      "crop": null,
+      "description": "A white, open bookshelf with a minimalist design is visible in the background, holding a small collection of books with spines in beige, dark gray, and black. The shelf is partially obscured by the shoulder of a person wearing a blue denim shirt in the foreground, and the background is slightly out of focus.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or painted material",
+        "style": "minimalist, open shelving",
+        "contents": {
+          "books": {
+            "count": "5",
+            "spine_colors": [
+              "beige",
+              "dark gray",
+              "white",
+              "black"
+            ],
+            "arrangement": "upright, leaning slightly"
+          }
+        },
+        "position": "background",
+        "focus": "blurred",
+        "obstruction": "partially blocked by person in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bookshelf",
+      "index": 1,
+      "score": 0.70703125,
+      "box": [
+        404.0,
+        246.0,
+        676.0,
+        832.0
+      ],
+      "mask": "image_11.masks/bookshelf_1.png",
+      "crop": null,
+      "description": "A white, modern bookshelf with a minimalist design is visible in the background, featuring open rectangular compartments. The shelves hold several books with spines in neutral tones like beige, grey, and black, arranged both vertically and horizontally.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or painted wood",
+        "style": "modern, minimalist",
+        "structure": "open shelving, rectangular compartments",
+        "contents": {
+          "books": {
+            "spine_colors": [
+              "beige",
+              "grey",
+              "black",
+              "white"
+            ],
+            "arrangement": "mixed vertical and horizontal"
+          }
+        },
+        "position": "background, behind two people",
+        "focus": "slightly out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        856.0,
+        816.0,
+        1024.0,
+        968.0
+      ],
+      "mask": "image_11.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A plain, off-white ceramic mug with a smooth, matte finish and a simple cylindrical shape sits on a light wooden surface. The mug features a standard C-shaped handle on the right side and appears to be empty, with the interior visible at the top rim.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "off-white",
+        "finish": "matte",
+        "shape": "cylindrical",
+        "handle": {
+          "position": "right",
+          "shape": "C-shaped"
+        },
+        "contents": "empty",
+        "surface": "wooden table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        -1.5,
+        792.0,
+        104.5,
+        936.0
+      ],
+      "mask": "image_11.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A close-up view of a plain, light gray ceramic mug with a smooth, matte finish. The mug has a cylindrical shape with a slightly flared rim and a visible base, sitting on a light-colored surface.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "light gray",
+        "finish": "matte",
+        "shape": "cylindrical",
+        "features": {
+          "rim": "rounded",
+          "handle": "not visible"
+        },
+        "condition": "clean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        524.0,
+        876.0,
+        852.0,
+        932.0
+      ],
+      "mask": "image_11.masks/clipboard_0.png",
+      "crop": null,
+      "description": "A close-up view of a clipboard with a black base and a metallic gold clip holding a stack of white paper. The clipboard is placed on a light-colored wooden surface.",
+      "attributes": {
+        "base_color": "black",
+        "clip_color": "gold",
+        "clip_material": "metal",
+        "paper_color": "white",
+        "surface": "wooden",
+        "position": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 1,
+      "score": 0.90625,
+      "box": [
+        142.0,
+        852.0,
+        510.0,
+        924.0
+      ],
+      "mask": "image_11.masks/clipboard_1.png",
+      "crop": null,
+      "description": "A close-up view of a black clipboard with a silver metal clip holding a stack of white paper, resting on a light wood-grain surface. A hand is visible at the top holding a black pen with a silver tip, poised to write on the paper.",
+      "attributes": {
+        "object": "clipboard",
+        "board_color": "black",
+        "clip_color": "silver",
+        "paper_color": "white",
+        "surface": "light wood",
+        "action": "writing",
+        "hand": "visible",
+        "pen": {
+          "color": "black",
+          "tip": "silver"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        620.0,
+        684.0,
+        812.0,
+        812.0
+      ],
+      "mask": "image_11.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand with the palm facing up and fingers slightly curled, appearing to be in a gesture of offering or explanation. The person is wearing a light blue, long-sleeved button-down shirt with a visible white button on the cuff.",
+      "attributes": {
+        "hand": {
+          "orientation": "palm up",
+          "fingers": "slightly curled",
+          "skin_tone": "light"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "sleeve_length": "long",
+            "type": "button-down"
+          }
+        },
+        "pose": "gesturing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.8671875,
+      "box": [
+        199.0,
+        784.0,
+        324.0,
+        880.0
+      ],
+      "mask": "image_11.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand holding a black pen, poised to write on a white surface. The hand is in a writing position with fingers curled around the pen, and the skin tone is light.",
+      "attributes": {
+        "hand": {
+          "position": "writing",
+          "grip": "holding pen",
+          "skin_tone": "light"
+        },
+        "pen": {
+          "color": "black",
+          "type": "ballpoint or similar"
+        },
+        "surface": {
+          "color": "white",
+          "type": "paper or similar"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.828125,
+      "box": [
+        185.0,
+        772.0,
+        249.0,
+        804.0
+      ],
+      "mask": "image_11.masks/hand_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.9375,
+      "box": [
+        438.0,
+        660.0,
+        584.0,
+        804.0
+      ],
+      "mask": "image_11.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand with the palm facing up and fingers slightly curled in a relaxed, open gesture. The person is wearing a dark blue denim shirt, visible on the left side of the frame, with a light skin tone and natural lighting.",
+      "attributes": {
+        "hand": {
+          "palm": "facing up",
+          "fingers": "slightly curled",
+          "skin_tone": "light",
+          "position": "extended forward"
+        },
+        "clothing": {
+          "shirt": "dark blue denim"
+        },
+        "lighting": "natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        444.0,
+        176.0,
+        1024.0,
+        844.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with long, straight blonde hair is seated at a table, wearing a light blue button-down shirt with sleeves rolled up. She is gesturing with both hands open, palms up, while looking to the side with a serious, engaged expression, appearing to be in the middle of a conversation or explanation.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "seated, gesturing with hands",
+        "expression": "serious, engaged",
+        "context": "office or meeting setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        24.0,
+        182.0,
+        500.0,
+        880.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with voluminous, dark curly hair sits at a wooden table, wearing a blue denim shirt over a yellow t-shirt. She holds a black pen in her right hand, poised over a clipboard with paper, while her left hand is raised in a gesture, and her facial expression shows confusion or skepticism as she looks to the side.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "outer": "blue denim shirt",
+          "inner": "yellow t-shirt"
+        },
+        "accessories": {
+          "hand": "holding black pen"
+        },
+        "pose": "sitting at a table",
+        "expression": "confused or skeptical",
+        "gaze": "looking to the side",
+        "objects": {
+          "table": "wooden",
+          "clipboard": "white paper",
+          "mug": "grey, partially visible"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

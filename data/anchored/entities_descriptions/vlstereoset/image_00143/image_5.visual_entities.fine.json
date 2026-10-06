@@ -1,0 +1,387 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        844.0,
+        -1.0,
+        1024.0,
+        180.0
+      ],
+      "mask": "image_5.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a building featuring a two-tone facade with a light beige upper portion and a reddish-brown lower portion, alongside a vertical white column or window frame on the right side.",
+      "attributes": {
+        "structure": "building",
+        "facade": {
+          "upper_color": "light beige",
+          "lower_color": "reddish-brown"
+        },
+        "features": {
+          "vertical_element": "white column or window frame",
+          "focus": "blurry/out-of-focus"
+        },
+        "material": "indeterminate due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        588.0,
+        127.5,
+        836.0,
+        218.0
+      ],
+      "mask": "image_5.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus structure with a light gray or white facade and a dark horizontal band near the top, possibly a roofline or window row, is visible in the background. The foreground is dominated by an indistinct, dark, textured object that appears to be part of a person's hair or a similar organic form, obscuring the lower portion of the building.",
+      "attributes": {
+        "building": {
+          "color": "light gray/white",
+          "features": [
+            "dark horizontal band",
+            "blurry facade"
+          ],
+          "focus": "out-of-focus",
+          "position": "background"
+        },
+        "foreground_object": {
+          "color": "dark brown/black",
+          "texture": "textured, possibly hair-like",
+          "focus": "out-of-focus",
+          "position": "foreground, bottom right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.59375,
+      "box": [
+        -1.5,
+        253.0,
+        226.0,
+        376.0
+      ],
+      "mask": "image_5.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a white upper section and a reddish-brown lower section, partially obscured by a large, dark vertical object in the foreground. The image is heavily blurred, making specific architectural details indistinguishable.",
+      "attributes": {
+        "color": {
+          "upper_section": "white",
+          "lower_section": "reddish-brown"
+        },
+        "focus": "blurry",
+        "obstruction": "large dark vertical object in foreground",
+        "visibility": "low detail due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        -5.5,
+        412.0,
+        104.0,
+        448.0
+      ],
+      "mask": "image_5.masks/grass_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        2.0,
+        466.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/grass_1.png",
+      "crop": null,
+      "description": "A lush, green grassy field dotted with numerous small yellow dandelions, with three people sitting cross-legged on the grass, their lower bodies and feet visible.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft, leafy",
+        "flowers": {
+          "type": "dandelions",
+          "color": "yellow",
+          "density": "scattered throughout"
+        },
+        "people": {
+          "position": "sitting cross-legged",
+          "clothing": {
+            "pants": "blue jeans",
+            "shoes": "brown and white sneakers"
+          },
+          "expression": "one person is laughing with mouth open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        592.0,
+        206.0,
+        1024.0,
+        848.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with voluminous, curly brown hair sits cross-legged on a grassy lawn, wearing a plain white t-shirt and distressed blue jeans with large rips at the knees. She is smiling broadly while looking to her left, wearing white sneakers, with yellow dandelions visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "medium"
+        },
+        "expression": "smiling",
+        "gaze": "looking left",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "ripped at knees"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "location": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -1.0,
+        206.0,
+        456.0,
+        848.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with short, curly black hair and a beard sits cross-legged on a grassy lawn dotted with yellow dandelions. He is wearing a white button-down shirt with the sleeves rolled up to the elbows, blue jeans, and brown leather shoes with white soles.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "facial_hair": "beard",
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "leather",
+            "soles": "white"
+          }
+        },
+        "setting": "outdoors, grassy lawn with dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.51953125,
+      "box": [
+        976.0,
+        328.0,
+        1024.0,
+        436.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A heavily blurred and out-of-focus figure of a person standing upright, wearing a light-colored top and dark pants, with a pinkish area visible on the left side.",
+      "attributes": {
+        "pose": "standing",
+        "clothing": {
+          "top": "white",
+          "bottoms": "black"
+        },
+        "image_quality": "extremely blurry",
+        "color_palette": [
+          "white",
+          "black",
+          "pink"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.96484375,
+      "box": [
+        412.0,
+        372.0,
+        660.0,
+        852.0
+      ],
+      "mask": "image_5.masks/person_3.png",
+      "crop": null,
+      "description": "A young girl with curly brown hair sits cross-legged on the grass, laughing with her eyes closed and mouth wide open. She wears a plain white t-shirt, light blue ripped jeans, and white sneakers.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "expression": "laughing",
+        "eyes": "closed",
+        "mouth": "open",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "details": "ripped knee"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "location": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.8125,
+      "box": [
+        808.0,
+        172.0,
+        1032.0,
+        352.0
+      ],
+      "mask": "image_5.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up view of a tree branch featuring a dense cluster of small, tightly curled brown leaves or buds. The texture appears fuzzy and intricate, with the foreground sharply focused against a heavily blurred background of green foliage.",
+      "attributes": {
+        "type": "tree branch",
+        "color": "brown",
+        "texture": "fuzzy, dense, curled",
+        "structure": "cluster of small leaves or buds",
+        "focus": "sharp foreground, blurred background",
+        "background": "green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.77734375,
+      "box": [
+        528.0,
+        202.0,
+        696.0,
+        366.0
+      ],
+      "mask": "image_5.masks/tree_1.png",
+      "crop": null,
+      "description": "A close-up profile of a person with dark, tightly curled hair, showing only the right side of the face including the nose, lips, and chin. The background is a soft, out-of-focus blur of green and yellow tones, suggesting an outdoor setting with foliage.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "style": "natural curls"
+        },
+        "face": {
+          "view": "profile",
+          "visible_features": [
+            "nose",
+            "lips",
+            "chin"
+          ]
+        },
+        "background": {
+          "focus": "blurred",
+          "colors": [
+            "green",
+            "yellow"
+          ],
+          "setting": "outdoor"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        -2.0,
+        1.0,
+        600.0,
+        416.0
+      ],
+      "mask": "image_5.masks/tree_2.png",
+      "crop": null,
+      "description": "A large tree with a thick, brown trunk and spreading branches is visible in the background, its leaves appearing as a soft, out-of-focus green blur.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "thickness": "thick"
+        },
+        "branches": "spreading",
+        "leaves": {
+          "color": "green",
+          "focus": "blurred"
+        },
+        "position": "background",
+        "state": "out-of-focus"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        368.0,
+        244.0,
+        400.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A close-up view of a white flagpole with a gold finial at the top, partially obscured by a white, textured object in the foreground. A blue flag is visible in the background, attached to the pole.",
+      "attributes": {
+        "color": "white",
+        "material": "metal",
+        "finial": "gold",
+        "shape": "cylindrical",
+        "position": "vertical",
+        "background": "blue flag"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        350.0,
+        96.0,
+        960.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/statue_0.png",
+      "crop": null,
+      "description": "A marble statue of a young man with curly hair wearing a laurel wreath, draped in a toga with a brooch, holding a scroll in his right hand, standing against a clear blue sky with a flag in the background.",
+      "attributes": {
+        "material": "marble",
+        "color": "white",
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "style": "curly",
+          "accessory": "laurel wreath"
+        },
+        "clothing": {
+          "type": "toga",
+          "details": "draped over left shoulder, fastened with a brooch at the chest"
+        },
+        "accessories": {
+          "held_object": "scroll"
+        },
+        "pose": "standing, right arm extended holding scroll, left arm relaxed at side",
+        "expression": "serene, looking slightly to the right",
+        "background": {
+          "sky": "clear blue",
+          "objects": [
+            "flag pole with blue flag",
+            "building railing"
+          ]
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

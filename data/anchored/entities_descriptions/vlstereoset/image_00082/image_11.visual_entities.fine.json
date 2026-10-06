@@ -1,0 +1,136 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        516.0,
+        264.0,
+        940.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length wavy blonde hair sits on a grey couch, wearing a light grey t-shirt and beige pants. She has a shocked or surprised expression with her mouth open and hands raised in a gesturing motion.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "surprised",
+        "hand_gesture": "raised hands, open palms"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        118.0,
+        264.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long dark brown hair sits on a grey couch, wearing a plain white t-shirt and beige pants. She has an angry or frustrated expression with furrowed brows and is gesturing with both hands raised in front of her as if arguing or explaining something intensely.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "bottom": "beige pants"
+        },
+        "pose": "sitting",
+        "expression": "angry/frustrated",
+        "action": "gesturing with hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        984.0,
+        400.0,
+        1024.0,
+        424.0
+      ],
+      "mask": "image_11.masks/plant_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        15.5,
+        166.0,
+        164.0,
+        252.0
+      ],
+      "mask": "image_11.masks/plant_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus potted plant with dense green foliage and small white flowers or buds, sitting in a light-colored pot against a plain white background.",
+      "attributes": {
+        "focus": "blurry",
+        "leaves": {
+          "color": "green",
+          "density": "dense"
+        },
+        "flowers": {
+          "color": "white",
+          "size": "small"
+        },
+        "pot": {
+          "color": "light",
+          "shape": "cylindrical"
+        },
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        520.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/sofa_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A light gray fabric sofa with a textured, woven appearance, featuring two large seat cushions and matching back cushions. The sofa has a modern, minimalist design with clean lines and is adorned with two beige throw pillows on either end. Two individuals are seated on the sofa, their legs and torsos visible, suggesting a comfortable and spacious seating arrangement.\", \"attributes\": {\"color\": \"light gray\", \"material\": \"fabric, woven texture\", \"design\": \"modern, minimalist\", \"cushions\": {\"seat\": \"two large\", \"back\": \"two large\", \"throw\": \"two beige\"}, \"position\": \"centered in the frame\", \"occupants\": \"two individuals seated\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

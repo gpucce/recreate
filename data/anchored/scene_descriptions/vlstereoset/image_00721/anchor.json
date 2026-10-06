@@ -1,0 +1,51 @@
+{
+  "scene": {
+    "background": "stainless steel countertop with faint grease stains and crumbs",
+    "lighting": "warm and slightly dim, indoor ambient light from overhead fluorescents casting soft shadows",
+    "camera_angle": "close-up, slightly angled",
+    "style": "documentary, candid feel with natural depth of field",
+    "mood": "humble and appetizing, comforting atmosphere of a communal meal",
+    "color_palette": "warm and earthy — browns, reds, and metallic grays with moderate saturation"
+  },
+  "entities": [
+    {
+      "type": "bowl",
+      "attributes": {
+        "shape": "square",
+        "color": "golden-brown crust",
+        "content": "thick, savory stew or curry",
+        "texture": "crusty"
+      },
+      "id": "bread_bowl_1",
+      "count": 4
+    },
+    {
+      "type": "tray",
+      "attributes": {
+        "material": "metal",
+        "content": "different types of stew",
+        "first_stew": {
+          "color": "rich red",
+          "sauce": "tomato-based"
+        },
+        "second_stew": {
+          "color": "dark, brownish",
+          "type": "curry"
+        }
+      },
+      "id": "stew_tray_1",
+      "count": 2
+    },
+    {
+      "type": "countertop",
+      "attributes": {
+        "material": "stainless steel",
+        "condition": "shows signs of use — faint grease stains and crumbs"
+      },
+      "id": "countertop_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

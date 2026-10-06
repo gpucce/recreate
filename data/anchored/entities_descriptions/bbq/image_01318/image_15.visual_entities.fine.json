@@ -1,0 +1,380 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        956.0,
+        984.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/chair_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.83203125,
+      "box": [
+        672.0,
+        680.0,
+        696.0,
+        816.0
+      ],
+      "mask": "image_15.masks/chair_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        868.0,
+        426.0,
+        1024.0,
+        616.0
+      ],
+      "mask": "image_15.masks/computer_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up view of a person's shoulder and upper back, wearing a light gray or off-white collared shirt with visible stitching along the shoulder seam. The fabric appears to be a soft, possibly cotton or linen blend, with slight wrinkles indicating movement or casual wear.\", \"attributes\": {\"clothing\": {\"shirt\": \"light gray/off-white\", \"collar\": \"visible\", \"stitching\": \"visible on shoulder seam\", \"fabric_texture\": \"soft, slightly wrinkled\"}, \"body_part\": \"shoulder and upper back\", \"pose\": \"facing away from camera, slight turn to the side\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.625,
+      "box": [
+        98.0,
+        428.0,
+        178.0,
+        456.0
+      ],
+      "mask": "image_15.masks/computer_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.80859375,
+      "box": [
+        -3.0,
+        456.0,
+        472.0,
+        920.0
+      ],
+      "mask": "image_15.masks/computer_2.png",
+      "crop": null,
+      "description": "A black Dell desktop monitor is shown from the back, featuring a matte plastic casing, a circular silver logo, and a sturdy rectangular stand with a central support column. The monitor is positioned on a light wood desk next to a black keyboard and mouse, with a woman in a yellow hoodie pointing at the screen.",
+      "attributes": {
+        "brand": "Dell",
+        "color": "black",
+        "material": "matte plastic",
+        "type": "desktop monitor",
+        "view_angle": "rear",
+        "stand": {
+          "shape": "rectangular base",
+          "color": "black"
+        },
+        "logo": {
+          "shape": "circular",
+          "color": "silver",
+          "text": "DELL"
+        },
+        "peripherals": {
+          "keyboard": "black",
+          "mouse": "black"
+        },
+        "surface": "light wood desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.66796875,
+      "box": [
+        684.0,
+        608.0,
+        1032.0,
+        640.0
+      ],
+      "mask": "image_15.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a light gray, textured jacket or shirt over a white undershirt. The fabric appears soft and slightly wrinkled, with visible stitching along the collar and shoulder area.",
+      "attributes": {
+        "clothing": {
+          "outer_layer": "light gray jacket/shirt",
+          "inner_layer": "white undershirt",
+          "texture": "soft, slightly wrinkled",
+          "details": "visible stitching on collar and shoulder"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        -6.0,
+        772.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/desk_1.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth surface holds a black keyboard, a black mouse, and a black monitor stand. Two people are seated at the desk, one wearing a yellow top and the other a gray shirt, with their hands resting on the desk near the keyboard and mouse.",
+      "attributes": {
+        "desk": {
+          "material": "wood",
+          "color": "light beige",
+          "surface": "smooth"
+        },
+        "objects": {
+          "keyboard": {
+            "color": "black",
+            "type": "standard"
+          },
+          "mouse": {
+            "color": "black",
+            "type": "optical"
+          },
+          "monitor_stand": {
+            "color": "black",
+            "material": "plastic"
+          }
+        },
+        "people": [
+          {
+            "clothing": {
+              "top": "yellow"
+            },
+            "position": "seated"
+          },
+          {
+            "clothing": {
+              "shirt": "gray",
+              "undershirt": "white"
+            },
+            "position": "seated",
+            "accessories": {
+              "ring": "silver"
+            }
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        33.0,
+        36.5,
+        344.0,
+        105.5
+      ],
+      "mask": "image_15.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "A rectangular, flush-mounted ceiling light fixture with a smooth, white diffuser panel that is illuminated, emitting a bright, uniform white light. The fixture is set against a plain, light-colored ceiling surface.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "white",
+        "material": "plastic or acrylic diffuser",
+        "state": "illuminated",
+        "mounting": "flush mount",
+        "light_type": "LED panel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.65625,
+      "box": [
+        496.0,
+        -0.6875,
+        664.0,
+        16.75
+      ],
+      "mask": "image_15.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        -0.25,
+        398.0,
+        62.25,
+        454.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        536.0,
+        256.0,
+        1024.0,
+        992.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair and glasses is smiling broadly while seated at a light wooden table, wearing a grey button-down shirt over a white top. She is positioned in profile facing left, with her hands resting on the table surface, next to a younger woman in a yellow hoodie.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "round"
+          },
+          "earrings": "small pearl studs",
+          "ring": "silver band on left ring finger"
+        },
+        "clothing": {
+          "outer": {
+            "type": "button-down shirt",
+            "color": "grey",
+            "material": "cotton or linen"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "expression": "smiling",
+        "pose": "sitting, leaning slightly forward",
+        "skin": "fair with visible wrinkles"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        179.0,
+        104.0,
+        572.0,
+        712.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "A young Asian woman with long, straight dark hair is seated in the foreground, wearing a bright yellow hoodie and smiling broadly while pointing at a computer screen with her right index finger. Behind her, a young man with curly dark hair and a denim jacket leans in, also smiling and looking at the screen.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "age_group": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "yellow"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "expression": "smiling",
+        "action": "pointing at screen",
+        "position": "seated, foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        288.0,
+        312.0,
+        688.0,
+        856.0
+      ],
+      "mask": "image_15.masks/person_3.png",
+      "crop": null,
+      "description": "A young Asian woman with long dark hair wearing a yellow hoodie smiles broadly while pointing at a computer screen, seated between a man in a denim jacket and an older woman with glasses.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "yellow",
+            "material": "cotton"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "expression": "smiling",
+        "pose": "sitting, pointing with right index finger",
+        "action": "looking at screen"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        872.0,
+        152.0,
+        1024.0,
+        344.0
+      ],
+      "mask": "image_15.masks/picture_0.png",
+      "crop": null,
+      "description": "A framed painting depicting a landscape scene with a body of water, trees, and a building under a cloudy sky. The image is heavily blurred, making specific details indistinct.",
+      "attributes": {
+        "frame": "light-colored, possibly wooden",
+        "painting_style": "impressionistic or landscape",
+        "subject": "landscape with water, trees, and a building",
+        "colors": "blues, greens, yellows, and whites",
+        "clarity": "heavily blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,230 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.75,
+      "box": [
+        -2.8125,
+        224.0,
+        612.0,
+        592.0
+      ],
+      "mask": "image_0.masks/house_0.png",
+      "crop": null,
+      "description": "A white house with a gray roof is visible in the background, featuring a white porch column in the foreground and a white lamp post with a green base. The house has dark rectangular windows and is surrounded by greenery, including bushes and trees.",
+      "attributes": {
+        "house": {
+          "color": "white",
+          "roof_color": "gray",
+          "windows": "dark rectangular",
+          "porch_column": "white",
+          "lamp_post": {
+            "color": "white",
+            "base_color": "green"
+          },
+          "surroundings": "greenery, bushes, trees"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        149.0,
+        0.0,
+        1432.0,
+        804.0
+      ],
+      "mask": "image_0.masks/house_1.png",
+      "crop": null,
+      "description": "A white house with a gray roof is visible in the background, featuring a white porch with columns and a railing. The house has a classic suburban design with a lamp post near the entrance and green shrubbery along the foundation.",
+      "attributes": {
+        "color": "white",
+        "roof": "gray",
+        "porch": {
+          "color": "white",
+          "columns": "white",
+          "railing": "white"
+        },
+        "surroundings": {
+          "shrubbery": "green",
+          "lamp_post": "white"
+        },
+        "style": "suburban"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        400.0,
+        28.375,
+        996.0,
+        804.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy brown hair sits outdoors wearing a rust-colored ribbed long-sleeve top and blue jeans, with her hand resting on the knee of another person wearing a striped shirt and jeans.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "rust",
+            "type": "long-sleeve",
+            "texture": "ribbed"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "pose": "sitting",
+        "accessories": {
+          "earrings": "hoop"
+        },
+        "context": "interacting with another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        764.0,
+        1.578125,
+        1360.0,
+        808.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with dark hair is shown in profile, wearing a long-sleeved shirt with horizontal grey and white stripes and a hood. She is sitting with her knees pulled up to her chest, her hand resting on her knee, while another person with a blurred face sits beside her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "pattern": "striped",
+            "colors": [
+              "grey",
+              "white"
+            ],
+            "sleeves": "long"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting with knees up",
+        "view": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.58203125,
+      "box": [
+        310.0,
+        580.0,
+        564.0,
+        644.0
+      ],
+      "mask": "image_0.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A row of green shrubs is visible in the background, appearing blurred and out of focus. The shrubs are dense and leafy, forming a continuous hedge-like structure.",
+      "attributes": {
+        "color": "green",
+        "texture": "leafy",
+        "focus": "blurred",
+        "arrangement": "row",
+        "type": "hedge"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 1,
+      "score": 0.71484375,
+      "box": [
+        1.40625,
+        544.0,
+        572.0,
+        656.0
+      ],
+      "mask": "image_0.masks/shrubs_1.png",
+      "crop": null,
+      "description": "A row of green shrubs is visible in the background, appearing blurred and out of focus. The shrubs are dense and leafy, forming a continuous hedge-like structure.",
+      "attributes": {
+        "color": "green",
+        "texture": "leafy",
+        "focus": "blurred",
+        "arrangement": "row",
+        "type": "hedge"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 2,
+      "score": 0.6484375,
+      "box": [
+        -1.40625,
+        592.0,
+        140.0,
+        652.0
+      ],
+      "mask": "image_0.masks/shrubs_2.png",
+      "crop": null,
+      "description": "A dense, green shrub with a textured surface composed of small leaves, appearing as a solid mass of foliage. The image is slightly blurred, making individual leaves indistinct but the overall shape and color are clear.",
+      "attributes": {
+        "color": "green",
+        "texture": "dense, leafy",
+        "shape": "rounded, bushy",
+        "clarity": "slightly blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 3,
+      "score": 0.515625,
+      "box": [
+        97.0,
+        548.0,
+        177.0,
+        648.0
+      ],
+      "mask": "image_0.masks/shrubs_3.png",
+      "crop": null,
+      "description": "A blurred, out-of-focus view of green shrubbery with varying shades of green foliage, appearing as a soft, indistinct mass of leaves and branches. The image is heavily defocused, making individual leaves or specific plant structures unidentifiable.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurred",
+        "texture": "indistinct",
+        "type": "shrubbery",
+        "visibility": "low detail due to blur"
+      },
+      "parse_ok": true
+    }
+  ]
+}

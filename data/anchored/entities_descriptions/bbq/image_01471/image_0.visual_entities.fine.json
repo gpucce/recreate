@@ -1,0 +1,94 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        84.5,
+        96.0,
+        536.0,
+        528.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with short, wavy blonde hair is wearing a blue and white vertical striped button-down shirt with the collar open. She is being hugged from behind by a person in a red shirt, whose arms are wrapped around her shoulders, while both faces are blurred.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "collar": "open"
+          }
+        },
+        "pose": "being hugged from behind",
+        "face": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.86328125,
+      "box": [
+        69.0,
+        39.25,
+        632.0,
+        524.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with short, wavy blonde hair wearing a blue and white vertical striped button-down shirt is being hugged from behind by a young boy with short brown hair wearing a red t-shirt, both with their faces blurred.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "collar": "white"
+          }
+        },
+        "pose": "being hugged from behind",
+        "face": "blurred",
+        "associated_person": {
+          "gender": "male",
+          "age_group": "child",
+          "hair": {
+            "color": "brown",
+            "length": "short"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "t-shirt",
+              "color": "red"
+            }
+          },
+          "action": "hugging"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

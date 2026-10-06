@@ -1,0 +1,1431 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        1.25,
+        304.0,
+        122.0,
+        388.0
+      ],
+      "mask": "image_2.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a light-colored exterior and a dark roof, partially obscured by the dark trunk and branches of a tree in the foreground. A white vehicle is visible in the lower right corner, and a white umbrella or awning is partially visible in the lower left.",
+      "attributes": {
+        "building": {
+          "color": "light-colored",
+          "roof": "dark",
+          "visibility": "blurry, out-of-focus"
+        },
+        "foreground": {
+          "tree": {
+            "trunk": "dark",
+            "branches": "visible"
+          },
+          "vehicle": {
+            "color": "white",
+            "position": "lower right"
+          },
+          "umbrella": {
+            "color": "white",
+            "position": "lower left"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        99.0,
+        282.0,
+        448.0,
+        398.0
+      ],
+      "mask": "image_2.masks/building_1.png",
+      "crop": null,
+      "description": "A single-story building with a reddish-brown tiled roof and white walls, partially obscured by palm trees and white umbrellas in the foreground. The building appears to be a resort or beachside structure, with people visible near the entrance and under the umbrellas.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile"
+        },
+        "walls": {
+          "color": "white"
+        },
+        "structure": "single-story",
+        "surroundings": {
+          "trees": "palm trees",
+          "umbrellas": {
+            "color": "white",
+            "quantity": 3
+          },
+          "people": "visible near entrance and under umbrellas"
+        },
+        "setting": "outdoor, likely tropical or beachside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        572.0,
+        240.0,
+        1024.0,
+        388.0
+      ],
+      "mask": "image_2.masks/building_2.png",
+      "crop": null,
+      "description": "A single-story building with a reddish-brown tiled roof and wooden exterior walls, featuring large windows and a covered porch area with people sitting under a white umbrella.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile",
+          "style": "gabled"
+        },
+        "walls": {
+          "material": "wood",
+          "color": "brown"
+        },
+        "windows": {
+          "size": "large",
+          "frame_color": "white"
+        },
+        "porch": {
+          "covered": true,
+          "furniture": [
+            "chairs",
+            "table"
+          ]
+        },
+        "umbrella": {
+          "color": "white",
+          "position": "right side"
+        },
+        "people": {
+          "position": "sitting on porch",
+          "number": "2"
+        },
+        "surroundings": {
+          "trees": "tall, thin trunks",
+          "sky": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        280.0,
+        370.0,
+        296.0,
+        418.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.59765625,
+      "box": [
+        148.0,
+        374.0,
+        164.0,
+        390.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.73828125,
+      "box": [
+        932.0,
+        382.0,
+        964.0,
+        422.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.68359375,
+      "box": [
+        158.0,
+        384.0,
+        186.0,
+        424.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.83203125,
+      "box": [
+        410.0,
+        376.0,
+        426.0,
+        420.0
+      ],
+      "mask": "image_2.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.7890625,
+      "box": [
+        217.0,
+        382.0,
+        239.0,
+        410.0
+      ],
+      "mask": "image_2.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.98046875,
+      "box": [
+        420.0,
+        516.0,
+        660.0,
+        796.0
+      ],
+      "mask": "image_2.masks/person_6.png",
+      "crop": null,
+      "description": "A young man with wet, messy brown hair is surfing on a wave, wearing a black short-sleeved rash guard and blue board shorts. He is in a crouched stance with arms outstretched for balance, looking forward with a focused expression, and has a black ankle leash attached to his right leg.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wet, short, messy"
+        },
+        "clothing": {
+          "top": "black short-sleeved rash guard",
+          "bottom": "blue board shorts"
+        },
+        "accessories": {
+          "ankle_leash": "black, attached to right ankle"
+        },
+        "pose": "crouched, arms outstretched, balancing on surfboard",
+        "expression": "focused, intense",
+        "activity": "surfing",
+        "skin": "tanned, wet"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.7421875,
+      "box": [
+        844.0,
+        350.0,
+        876.0,
+        386.0
+      ],
+      "mask": "image_2.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.6875,
+      "box": [
+        536.0,
+        388.0,
+        560.0,
+        428.0
+      ],
+      "mask": "image_2.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.8671875,
+      "box": [
+        266.0,
+        370.0,
+        282.0,
+        418.0
+      ],
+      "mask": "image_2.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        2.0,
+        392.0,
+        1024.0,
+        552.0
+      ],
+      "mask": "image_2.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a fine, granular texture that appears dry and slightly uneven, featuring small mounds and depressions. It stretches across the beach, with some areas showing footprints and disturbances, indicating recent activity. The sand meets the water's edge, where it becomes wet and darker in color, with small waves lapping at the shore.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "fine, granular",
+        "condition": "dry, slightly uneven",
+        "features": [
+          "small mounds",
+          "depressions",
+          "footprints"
+        ],
+        "location": "beach",
+        "water interaction": "meets water's edge, wet and darker near shore"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        4.0,
+        -1.0,
+        1020.0,
+        304.0
+      ],
+      "mask": "image_2.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear, bright blue sky with no visible clouds, serving as a backdrop for the tops of several tall palm trees with green and yellow fronds. The sky is uniform in color and brightness, suggesting a sunny day with good visibility.",
+      "attributes": {
+        "color": "bright blue",
+        "clouds": "none visible",
+        "lighting": "bright, sunny",
+        "visibility": "clear",
+        "background_elements": [
+          "palm tree tops",
+          "green and yellow fronds"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        -0.5,
+        390.0,
+        168.0,
+        418.0
+      ],
+      "mask": "image_2.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A section of a stone wall composed of irregularly shaped, rough-hewn stones in varying shades of gray and brown, with visible mortar lines between the stones. The wall appears to be part of a larger structure, possibly a building or enclosure, with a horizontal wooden beam or ledge running across the top.",
+      "attributes": {
+        "material": "stone",
+        "color": "gray and brown",
+        "texture": "rough",
+        "structure": "irregularly shaped stones",
+        "mortar": "visible",
+        "top_feature": "wooden beam or ledge"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surfboard",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        460.0,
+        720.0,
+        740.0,
+        824.0
+      ],
+      "mask": "image_2.masks/surfboard_0.png",
+      "crop": null,
+      "description": "A close-up view of a white surfboard with a smooth, glossy surface, partially submerged in foamy, turquoise ocean water. A surfer's bare feet are visible on the board, with one foot wearing a black ankle leash, and the board is cutting through the wave, creating a spray of white water around it.",
+      "attributes": {
+        "color": "white",
+        "material": "fiberglass or similar composite",
+        "surface": "glossy, smooth",
+        "position": "angled, cutting through a wave",
+        "water_interaction": "spray and foam around the board",
+        "visible_parts": "deck, nose, and part of the rail",
+        "accessories": "black ankle leash attached to the surfer's foot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        812.0,
+        -2.0,
+        1024.0,
+        382.0
+      ],
+      "mask": "image_2.masks/tree_0.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a textured, grayish-brown trunk rises vertically, topped by a crown of long, arching green fronds that fan out against a clear blue sky. The tree is positioned in the foreground, partially obscuring a building with a terracotta-tiled roof and a white patio umbrella below.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "grayish-brown",
+          "texture": "rough, segmented",
+          "shape": "tall, slender, vertical"
+        },
+        "fronds": {
+          "color": "green",
+          "shape": "long, arching, feathery",
+          "arrangement": "crown at the top"
+        },
+        "position": "foreground, center-right",
+        "background": "blue sky, terracotta roof, white umbrella"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        -1.75,
+        121.0,
+        76.0,
+        404.0
+      ],
+      "mask": "image_2.masks/tree_1.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, grayish-brown trunk and a crown of green, feathery fronds stands prominently in the foreground, partially obscuring a building with a dark roof and light-colored walls in the background. The image is slightly blurred, suggesting motion or a shallow depth of field, with hints of blue sky visible through the leaves.",
+      "attributes": {
+        "trunk": "slender, grayish-brown",
+        "fronds": "green, feathery",
+        "background": "building with dark roof and light walls, blue sky",
+        "image_quality": "slightly blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.73828125,
+      "box": [
+        366.0,
+        43.0,
+        528.0,
+        404.0
+      ],
+      "mask": "image_2.masks/tree_2.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a dark, textured trunk stands prominently against a clear blue sky, its crown of long, arching green fronds spreading out at the top. The tree is positioned in a tropical outdoor setting, with a red-tiled roof and white umbrellas visible in the lower foreground.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "dark brown",
+          "shape": "slender and vertical"
+        },
+        "leaves": {
+          "color": "green",
+          "arrangement": "crown at top",
+          "shape": "long, arching fronds"
+        },
+        "background": "blue sky",
+        "foreground_elements": [
+          "red-tiled roof",
+          "white umbrellas"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.890625,
+      "box": [
+        620.0,
+        4.0,
+        820.0,
+        396.0
+      ],
+      "mask": "image_2.masks/tree_3.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a textured, grayish-brown trunk stands prominently in the foreground, its crown of long, arching green fronds spreading out against a clear blue sky. The tree is positioned in front of a single-story building with a reddish-brown tiled roof and light-colored walls, partially obscuring the structure behind it.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "grayish-brown",
+          "texture": "textured",
+          "shape": "slender, vertical"
+        },
+        "fronds": {
+          "color": "green",
+          "shape": "long, arching, feathery",
+          "arrangement": "crown at top"
+        },
+        "position": "foreground, center",
+        "background": {
+          "building": {
+            "roof": "reddish-brown tiles",
+            "walls": "light-colored"
+          },
+          "sky": "clear blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.50390625,
+      "box": [
+        9.5,
+        225.0,
+        110.0,
+        396.0
+      ],
+      "mask": "image_2.masks/tree_4.png",
+      "crop": null,
+      "description": "A tree with a dark, slender trunk and branches extending outward, supporting clusters of green leaves that appear somewhat blurred. The background is out of focus, showing hints of a building with a light-colored roof and a white vehicle partially visible behind the tree.",
+      "attributes": {
+        "trunk": "dark, slender",
+        "leaves": "green, clustered, blurred",
+        "background": "out of focus, building with light-colored roof, white vehicle partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.828125,
+      "box": [
+        165.0,
+        87.0,
+        253.0,
+        392.0
+      ],
+      "mask": "image_2.masks/tree_5.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a textured, grayish-brown trunk rises vertically, topped with a crown of long, arching green fronds that fan out against a clear blue sky. The tree is positioned in front of a building with a red-tiled roof and a white patio umbrella, with blurred green foliage visible in the background.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "grayish-brown",
+          "texture": "rough, segmented",
+          "shape": "tall, slender, vertical"
+        },
+        "leaves": {
+          "color": "green",
+          "shape": "long, arching fronds",
+          "arrangement": "crown at the top"
+        },
+        "background": {
+          "sky": "blue",
+          "building": {
+            "roof": "red-tiled"
+          },
+          "other": "white umbrella, green foliage"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.66796875,
+      "box": [
+        398.0,
+        237.0,
+        524.0,
+        324.0
+      ],
+      "mask": "image_2.masks/tree_6.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, grayish-brown trunk and a crown of green, feathery fronds stands against a clear blue sky. The tree is positioned in the center of the frame, with its fronds extending outward and slightly downward, partially obscuring the background.",
+      "attributes": {
+        "trunk": "slender, grayish-brown",
+        "fronds": "green, feathery",
+        "position": "center of frame",
+        "background": "clear blue sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.640625,
+      "box": [
+        490.0,
+        199.0,
+        560.0,
+        340.0
+      ],
+      "mask": "image_2.masks/tree_7.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, light-colored trunk and a crown of green fronds is visible against a clear blue sky. The image is blurry, with the top of a white umbrella or structure partially visible at the bottom edge.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "slender, light-colored",
+        "leaves": "green, fronds",
+        "background": "blue sky",
+        "image_quality": "blurry",
+        "foreground_object": "white umbrella or structure (partial)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.85546875,
+      "box": [
+        42.5,
+        88.0,
+        202.0,
+        414.0
+      ],
+      "mask": "image_2.masks/tree_8.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, textured gray-brown trunk stands prominently in the foreground, topped with a crown of large, feathery green fronds that arch outward. The tree is situated outdoors in a sunny setting, with a white building featuring a red-tiled roof and a white patio umbrella visible in the background.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "gray-brown",
+          "texture": "rough",
+          "shape": "slender, vertical"
+        },
+        "leaves": {
+          "color": "green",
+          "shape": "feathery, arching fronds",
+          "arrangement": "crown at top"
+        },
+        "background": {
+          "building": {
+            "walls": "white",
+            "roof": "red-tiled"
+          },
+          "objects": [
+            "white umbrella",
+            "white vehicle"
+          ],
+          "sky": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 9,
+      "score": 0.60546875,
+      "box": [
+        78.5,
+        230.0,
+        288.0,
+        326.0
+      ],
+      "mask": "image_2.masks/tree_9.png",
+      "crop": null,
+      "description": "The image shows a close-up of a palm tree with a slender, grayish-brown trunk and green fronds at the top. The background is blurred, featuring other green foliage and a hint of a red-tiled roof.",
+      "attributes": {
+        "trunk": "slender, grayish-brown",
+        "fronds": "green",
+        "background": "blurred, green foliage, red-tiled roof"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 10,
+      "score": 0.88671875,
+      "box": [
+        256.0,
+        54.0,
+        416.0,
+        394.0
+      ],
+      "mask": "image_2.masks/tree_10.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a textured, grayish-brown trunk rises vertically, topped by a crown of long, arching green fronds that spread outward against a clear blue sky. The tree is positioned in the foreground, towering over a building with a red-tiled roof and white patio umbrellas visible in the background.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "grayish-brown",
+          "shape": "slender, vertical",
+          "texture": "rough"
+        },
+        "leaves": {
+          "color": "green",
+          "shape": "long, arching fronds",
+          "arrangement": "crown at top"
+        },
+        "position": "foreground, center",
+        "background": {
+          "sky": "blue",
+          "building": {
+            "roof": "red-tiled"
+          },
+          "objects": "white umbrellas"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 11,
+      "score": 0.83984375,
+      "box": [
+        960.0,
+        189.0,
+        1024.0,
+        239.0
+      ],
+      "mask": "image_2.masks/tree_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 12,
+      "score": 0.57421875,
+      "box": [
+        460.0,
+        258.0,
+        684.0,
+        358.0
+      ],
+      "mask": "image_2.masks/tree_12.png",
+      "crop": null,
+      "description": "A tall, slender palm tree trunk with a light gray, textured surface extends vertically through the frame, topped with a cluster of green fronds that are partially visible against a bright blue sky. The tree is situated in a tropical setting, with a red-tiled roof and a white patio umbrella visible in the foreground and background.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "light gray",
+          "texture": "rough",
+          "shape": "slender, vertical"
+        },
+        "leaves": {
+          "color": "green",
+          "visibility": "partial, top of frame"
+        },
+        "setting": "tropical, outdoor",
+        "background_elements": [
+          "red-tiled roof",
+          "white patio umbrella",
+          "blue sky"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 13,
+      "score": 0.84375,
+      "box": [
+        474.0,
+        13.0,
+        680.0,
+        404.0
+      ],
+      "mask": "image_2.masks/tree_13.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a textured, light gray trunk stands prominently in the foreground, topped with a crown of long, arching green fronds that show some yellowing at the tips. The tree is situated outdoors on a sunny day with a clear blue sky, positioned near a building with a red-tiled roof and a white patio umbrella in the lower left.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "light gray",
+          "texture": "segmented",
+          "shape": "tall and slender"
+        },
+        "leaves": {
+          "color": "green with yellow tips",
+          "shape": "feathery fronds",
+          "arrangement": "crown at top"
+        },
+        "position": "foreground, center",
+        "background": {
+          "sky": "clear blue",
+          "structures": "building with red roof, white umbrella"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 14,
+      "score": 0.84765625,
+      "box": [
+        684.0,
+        194.0,
+        924.0,
+        274.0
+      ],
+      "mask": "image_2.masks/tree_14.png",
+      "crop": null,
+      "description": "A tall, slender palm tree trunk with a textured, segmented surface stands vertically on the left side of the image, partially obscured by a roof in the foreground. The top of the tree is not visible, but green foliage from other trees can be seen in the background against a clear blue sky.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "tall, slender, textured, segmented",
+        "position": "left side of the image",
+        "background": "green foliage, clear blue sky",
+        "foreground": "roof with red tiles"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        904.0,
+        312.0,
+        1024.0,
+        424.0
+      ],
+      "mask": "image_2.masks/umbrella_0.png",
+      "crop": null,
+      "description": "A large, open patio umbrella with a white canopy and a wooden pole stands in the foreground, providing shade over a seating area. The umbrella is positioned centrally in the frame, with its fabric appearing taut and its structure supported by visible ribs.",
+      "attributes": {
+        "color": "white",
+        "material": "fabric canopy, wooden pole",
+        "type": "patio umbrella",
+        "state": "open",
+        "position": "foreground, central",
+        "function": "shade"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 1,
+      "score": 0.71875,
+      "box": [
+        -0.4375,
+        366.0,
+        32.0,
+        386.0
+      ],
+      "mask": "image_2.masks/umbrella_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 2,
+      "score": 0.8984375,
+      "box": [
+        466.0,
+        332.0,
+        572.0,
+        404.0
+      ],
+      "mask": "image_2.masks/umbrella_2.png",
+      "crop": null,
+      "description": "A large, cream-colored patio umbrella is open and centered in the frame, featuring a multi-panel canopy with a central pole and a small finial at the top. The umbrella is positioned outdoors against a blurred background of green foliage and a dark vertical structure.",
+      "attributes": {
+        "type": "patio umbrella",
+        "color": "cream",
+        "state": "open",
+        "structure": {
+          "canopy": "multi-panel",
+          "pole": "central",
+          "top": "finial"
+        },
+        "background": "blurred greenery"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 3,
+      "score": 0.84765625,
+      "box": [
+        268.0,
+        344.0,
+        348.0,
+        392.0
+      ],
+      "mask": "image_2.masks/umbrella_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 4,
+      "score": 0.765625,
+      "box": [
+        140.0,
+        350.0,
+        226.0,
+        374.0
+      ],
+      "mask": "image_2.masks/umbrella_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 5,
+      "score": 0.8828125,
+      "box": [
+        338.0,
+        338.0,
+        430.0,
+        398.0
+      ],
+      "mask": "image_2.masks/umbrella_5.png",
+      "crop": null,
+      "description": "{\"description\": \"A white, open umbrella with a pointed top and a central pole is visible in the foreground, slightly out of focus. The umbrella appears to be made of fabric and is positioned outdoors, with a blurred background suggesting a garden or park setting.\", \"attributes\": {\"color\": \"white\", \"shape\": \"circular canopy with a pointed top\", \"material\": \"fabric\", \"state\": \"open\", \"position\": \"foreground, slightly out of focus\", \"background\": \"blurred, outdoor setting\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 0,
+      "score": 0.73828125,
+      "box": [
+        812.0,
+        -2.0,
+        1024.0,
+        382.0
+      ],
+      "mask": "image_2.masks/vegetation_0.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, grayish-brown trunk and a crown of long, feathery green fronds stands prominently in the foreground, partially obscuring a building with a red-tiled roof and a white umbrella below. The sky is clear and blue, and other green foliage is visible in the background.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "slender, grayish-brown",
+        "fronds": "long, feathery, green",
+        "position": "foreground, central",
+        "background": "building with red-tiled roof, white umbrella, blue sky, other green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 1,
+      "score": 0.6953125,
+      "box": [
+        616.0,
+        6.0,
+        824.0,
+        398.0
+      ],
+      "mask": "image_2.masks/vegetation_1.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a textured, grayish-brown trunk stands prominently in the foreground, its crown of long, arching fronds spreading out against a clear blue sky. The fronds are green with some yellowing tips, and the tree is positioned in front of a single-story building with a reddish-brown tiled roof and white-framed windows.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "grayish-brown",
+          "texture": "textured",
+          "shape": "slender"
+        },
+        "fronds": {
+          "color": "green with yellowing tips",
+          "shape": "long, arching",
+          "arrangement": "crown-like"
+        },
+        "position": "foreground, in front of a building",
+        "background": {
+          "building": {
+            "roof": "reddish-brown tiled",
+            "windows": "white-framed"
+          },
+          "sky": "clear blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 2,
+      "score": 0.56640625,
+      "box": [
+        0.0,
+        122.0,
+        75.5,
+        406.0
+      ],
+      "mask": "image_2.masks/vegetation_2.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, dark brown trunk and a crown of green fronds, some of which appear yellowish, stands prominently in the foreground. The background is blurred, showing hints of a building and other trees under a clear blue sky.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "slender, dark brown",
+        "fronds": "green, some yellowish",
+        "background": "blurred, includes building and other trees",
+        "sky": "clear blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 3,
+      "score": 0.54296875,
+      "box": [
+        464.0,
+        256.0,
+        688.0,
+        360.0
+      ],
+      "mask": "image_2.masks/vegetation_3.png",
+      "crop": null,
+      "description": "The image shows a lush, tropical vegetation scene with tall palm trees and dense green foliage in the background. The leaves are vibrant and appear healthy, suggesting a warm climate. In the foreground, there is a white umbrella partially visible, indicating an outdoor setting, possibly a resort or garden area.",
+      "attributes": {
+        "vegetation_type": "tropical",
+        "trees": {
+          "type": "palm",
+          "height": "tall"
+        },
+        "foliage": {
+          "color": "green",
+          "density": "dense"
+        },
+        "umbrella": {
+          "color": "white",
+          "position": "foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 4,
+      "score": 0.6328125,
+      "box": [
+        163.0,
+        86.0,
+        255.0,
+        392.0
+      ],
+      "mask": "image_2.masks/vegetation_4.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, textured trunk and a crown of long, arching green fronds stands prominently in the foreground, partially obscuring a building with a red-tiled roof and a white umbrella in the background.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "slender, grayish-brown, textured",
+        "fronds": "long, arching, green",
+        "position": "foreground, central",
+        "background_elements": [
+          "red-tiled roof",
+          "white umbrella",
+          "green foliage"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 5,
+      "score": 0.66015625,
+      "box": [
+        254.0,
+        54.0,
+        414.0,
+        394.0
+      ],
+      "mask": "image_2.masks/vegetation_5.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, grayish-brown trunk and a crown of long, arching green fronds stands prominently against a clear blue sky. The fronds are slightly blurred, suggesting movement or a shallow depth of field, and the tree is positioned in front of a building with a red-tiled roof and white umbrellas.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "grayish-brown",
+          "shape": "slender",
+          "texture": "smooth"
+        },
+        "fronds": {
+          "color": "green",
+          "shape": "long and arching",
+          "arrangement": "crown-like at the top"
+        },
+        "position": "in front of a building",
+        "background": {
+          "sky": "clear blue",
+          "building": {
+            "roof": "red-tiled",
+            "umbrellas": "white"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 6,
+      "score": 0.60546875,
+      "box": [
+        41.5,
+        88.0,
+        202.0,
+        414.0
+      ],
+      "mask": "image_2.masks/vegetation_6.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, dark brown trunk and a crown of long, arching green fronds dominates the foreground, partially obscuring a building with a red-tiled roof and a white umbrella in the background. The fronds are dense and feathery, with some showing yellowish tints, and the tree is positioned centrally in the frame, extending from the bottom to the top of the image.",
+      "attributes": {
+        "trunk": {
+          "color": "dark brown",
+          "shape": "slender",
+          "texture": "rough"
+        },
+        "fronds": {
+          "color": "green with yellowish tints",
+          "shape": "long, arching, feathery",
+          "density": "dense"
+        },
+        "position": "central, foreground",
+        "background_elements": {
+          "building": {
+            "roof_color": "red",
+            "wall_color": "white"
+          },
+          "umbrella": {
+            "color": "white"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 7,
+      "score": 0.59375,
+      "box": [
+        398.0,
+        238.0,
+        528.0,
+        322.0
+      ],
+      "mask": "image_2.masks/vegetation_7.png",
+      "crop": null,
+      "description": "The image shows a close-up, slightly blurred view of palm trees with tall, slender trunks and feathery green fronds against a clear blue sky. The trunks are light brown and textured, while the leaves are vibrant green and spread out in a typical palm tree pattern.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "light brown",
+          "texture": "textured",
+          "shape": "slender"
+        },
+        "leaves": {
+          "color": "green",
+          "shape": "feathery",
+          "arrangement": "spread out"
+        },
+        "background": {
+          "sky": "blue",
+          "clarity": "clear"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 8,
+      "score": 0.59765625,
+      "box": [
+        2.0,
+        4.0,
+        1024.0,
+        410.0
+      ],
+      "mask": "image_2.masks/vegetation_8.png",
+      "crop": null,
+      "description": "A row of tall, slender coconut palm trees with feathery green fronds stands prominently in the foreground, their trunks rising straight up against a clear blue sky. The trees are positioned in front of low-rise buildings with terracotta-tiled roofs, creating a tropical beachside atmosphere.",
+      "attributes": {
+        "type": "coconut palm",
+        "trunk": "slender, grayish-brown, straight",
+        "fronds": "feathery, green, arching",
+        "arrangement": "row, evenly spaced",
+        "background": "clear blue sky, terracotta-roofed buildings",
+        "setting": "tropical beachside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 9,
+      "score": 0.578125,
+      "box": [
+        366.0,
+        43.0,
+        512.0,
+        404.0
+      ],
+      "mask": "image_2.masks/vegetation_9.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, dark brown trunk and a crown of long, arching green fronds stands prominently in the foreground, with a smaller palm tree visible in the background to the right. The fronds are slightly blurred, suggesting movement or a shallow depth of field, and the tree is set against a clear blue sky.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "dark brown",
+          "shape": "slender",
+          "texture": "smooth"
+        },
+        "fronds": {
+          "color": "green",
+          "shape": "long and arching",
+          "arrangement": "crown at top"
+        },
+        "background": {
+          "sky": "blue",
+          "other_trees": "smaller palm tree visible"
+        },
+        "position": "foreground, slightly off-center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 10,
+      "score": 0.69921875,
+      "box": [
+        960.0,
+        189.0,
+        1024.0,
+        239.0
+      ],
+      "mask": "image_2.masks/vegetation_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 11,
+      "score": 0.51171875,
+      "box": [
+        648.0,
+        392.0,
+        744.0,
+        408.0
+      ],
+      "mask": "image_2.masks/vegetation_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 12,
+      "score": 0.6484375,
+      "box": [
+        474.0,
+        15.0,
+        680.0,
+        404.0
+      ],
+      "mask": "image_2.masks/vegetation_12.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a light gray trunk and a crown of long, arching green fronds stands prominently in the foreground. In the background, there are additional palm trees and lush green foliage, including broad-leafed plants, under a clear blue sky.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "light gray, slender",
+        "fronds": "green, long, arching",
+        "background_vegetation": "lush green, broad-leafed plants, additional palm trees",
+        "sky": "clear blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 13,
+      "score": 0.61328125,
+      "box": [
+        620.0,
+        350.0,
+        668.0,
+        386.0
+      ],
+      "mask": "image_2.masks/vegetation_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 14,
+      "score": 0.75,
+      "box": [
+        684.0,
+        194.0,
+        924.0,
+        274.0
+      ],
+      "mask": "image_2.masks/vegetation_14.png",
+      "crop": null,
+      "description": "A dense cluster of green foliage from a tree or large bush is visible behind a terracotta-tiled roof, with a tall, slender palm tree trunk rising vertically on the left side against a clear blue sky.",
+      "attributes": {
+        "type": "tree and palm",
+        "color": "green",
+        "position": "behind roof",
+        "sky": "blue",
+        "roof": "terracotta tiles",
+        "palm_trunk": "tall, slender, vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        520.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/water_0.png",
+      "crop": null,
+      "description": "A man is surfing on a wave in the ocean, wearing a black rash guard and blue board shorts. He is crouched low on a white surfboard, with his arms outstretched for balance, as water splashes around him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "clothing": {
+          "top": "black short-sleeved rash guard",
+          "bottoms": "blue board shorts"
+        },
+        "pose": "crouched, arms outstretched",
+        "activity": "surfing",
+        "equipment": {
+          "surfboard": "white",
+          "leash": "black, attached to ankle"
+        },
+        "environment": {
+          "water": "turquoise, with white foam from the wave",
+          "background": "sandy beach visible in the distance"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wave",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        4.0,
+        516.0,
+        1020.0,
+        668.0
+      ],
+      "mask": "image_2.masks/wave_0.png",
+      "crop": null,
+      "description": "A man is surfing on a wave, wearing a black wetsuit top and blue board shorts. He has wet, dark hair and is crouched low on his surfboard, with his arms extended for balance as he rides the wave.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "clothing": {
+          "top": "black wetsuit",
+          "bottoms": "blue board shorts"
+        },
+        "hair": "dark, wet",
+        "pose": "crouched, arms extended",
+        "activity": "surfing",
+        "environment": "ocean, wave"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wave",
+      "index": 1,
+      "score": 0.59375,
+      "box": [
+        24.0,
+        612.0,
+        992.0,
+        852.0
+      ],
+      "mask": "image_2.masks/wave_1.png",
+      "crop": null,
+      "description": "A surfer is riding a wave on a white surfboard, with their body leaning forward and arms extended for balance. The surfer is wearing blue shorts and a black top, and the wave is a vibrant turquoise color with white foam at the crest.",
+      "attributes": {
+        "clothing": {
+          "shorts": "blue",
+          "top": "black"
+        },
+        "pose": "leaning forward, arms extended",
+        "surfboard": "white",
+        "wave": {
+          "color": "turquoise",
+          "foam": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wave",
+      "index": 2,
+      "score": 0.6171875,
+      "box": [
+        -4.0,
+        512.0,
+        468.0,
+        584.0
+      ],
+      "mask": "image_2.masks/wave_2.png",
+      "crop": null,
+      "description": "A close-up view of a breaking ocean wave with turquoise water and white foamy crest, set against a blurred sandy beach background. The wave is in motion, with the foam appearing thick and textured as it crashes.",
+      "attributes": {
+        "water_color": "turquoise",
+        "foam_color": "white",
+        "texture": "foamy, turbulent",
+        "background": "sandy beach, blurred",
+        "motion": "breaking, crashing"
+      },
+      "parse_ok": true
+    }
+  ]
+}

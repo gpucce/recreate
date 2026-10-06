@@ -1,0 +1,110 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        0.0,
+        394.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/grass_0.png",
+      "crop": null,
+      "description": "A rugby player wearing a green short-sleeved jersey with a logo on the chest and black shorts with the word 'BATH' on the left leg is holding a white rugby ball with red and blue stripes and the text 'GILBERT' and 'TOUCH' on it. The player is in a crouched position, ready to run or pass the ball, on a grassy field.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green",
+          "shorts": "black",
+          "text_on_shorts": "BATH"
+        },
+        "pose": "crouched",
+        "object": {
+          "type": "rugby ball",
+          "color": "white",
+          "stripes": [
+            "red",
+            "blue"
+          ],
+          "text": [
+            "GILBERT",
+            "TOUCH"
+          ]
+        },
+        "location": "grassy field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        144.0,
+        54.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A female rugby player with curly brown hair tied in a bun is captured in a crouched, athletic stance, holding a Gilbert rugby ball with both hands. She wears a green short-sleeved jersey with a black collar and a crest on the chest, paired with black shorts featuring the word 'BATH' in white on the left leg.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly, tied in a bun"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "green",
+            "brand": "hport",
+            "details": "black collar, crest on chest"
+          },
+          "shorts": {
+            "color": "black",
+            "text": "BATH"
+          }
+        },
+        "pose": "crouched, holding ball",
+        "object": {
+          "type": "rugby ball",
+          "brand": "Gilbert",
+          "color": "white with red and blue stripes"
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        152.0,
+        476.0,
+        316.0,
+        668.0
+      ],
+      "mask": "image_13.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball with red and blue stripes, held in a person's hand. The ball has the word 'RUGBY' printed on it in black letters, along with other text and a logo.",
+      "attributes": {
+        "color": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "text": "RUGBY",
+        "material": "rubber or synthetic leather",
+        "shape": "oval",
+        "held_by": "hand",
+        "condition": "used, with visible scuffs and dirt"
+      },
+      "parse_ok": true
+    }
+  ]
+}

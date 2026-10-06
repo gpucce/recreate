@@ -1,0 +1,74 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        139.0,
+        28.0,
+        364.0,
+        252.0
+      ],
+      "mask": "image_5.masks/clock_0.png",
+      "crop": null,
+      "description": "A round analog clock with a black rim and a white face, featuring black Arabic numerals from 1 to 12 and black hour, minute, and second hands. The clock is set against a light purple background.",
+      "attributes": {
+        "shape": "round",
+        "rim_color": "black",
+        "face_color": "white",
+        "numerals": "black Arabic numerals 1-12",
+        "hands": {
+          "hour_hand": "black",
+          "minute_hand": "black",
+          "second_hand": "black"
+        },
+        "background_color": "light purple",
+        "type": "analog clock"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        270.0,
+        138.0,
+        824.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits in a bed wearing a white t-shirt and a beige quilted sleep mask with black trim. She has a calm, neutral expression and is looking slightly to the side, with her hands resting on the white bedding in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "accessories": {
+            "sleep_mask": {
+              "color": "beige",
+              "trim": "black",
+              "pattern": "quilted diamond"
+            }
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "setting": "bedroom"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        564.0,
+        300.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, dark brown hair stands in the foreground, looking down with a focused expression at a white sheet of paper held in her hands. She wears a short-sleeved t-shirt with horizontal white and grey stripes underneath blue denim overalls with metal buttons, and a black backpack strap is visible on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "white",
+              "grey"
+            ]
+          },
+          "outerwear": {
+            "type": "overalls",
+            "material": "denim",
+            "color": "blue"
+          },
+          "accessories": {
+            "backpack": {
+              "strap_color": "black"
+            }
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "focused",
+        "holding": "white paper"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        224.0,
+        434.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair stands looking down at a white sheet of paper held in both hands, wearing a blue denim jacket over a maroon t-shirt. An adult's hand rests on his shoulder, and the adult is partially visible on the right holding a clipboard.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "maroon"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "serious, focused",
+        "holding": "paper",
+        "context": "being comforted or supervised by an adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        32.0,
+        32.0,
+        756.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with graying hair and a beard stands behind a young boy, wearing a light blue button-down shirt and khaki pants. He has a black DSLR camera hanging around his neck and holds a clipboard in his left hand while placing his right hand on the boy's shoulder, looking down with a gentle smile.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "short, wavy"
+        },
+        "facial_hair": "gray and black beard",
+        "clothing": {
+          "shirt": "light blue denim button-down",
+          "pants": "khaki",
+          "belt": "brown leather"
+        },
+        "accessories": {
+          "camera": "black DSLR with strap around neck",
+          "watch": "silver wristwatch on left wrist"
+        },
+        "pose": "standing, leaning slightly forward, right hand on boy's shoulder, holding clipboard",
+        "expression": "smiling, looking down"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.90234375,
+      "box": [
+        964.0,
+        392.0,
+        1024.0,
+        560.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus close-up of a person with long, light brown hair, likely a woman, wearing a white collared shirt and a dark tie or jacket, suggesting a professional or school uniform.",
+      "attributes": {
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "straight"
+        },
+        "clothing": {
+          "shirt": "white",
+          "accessory": "dark tie or jacket"
+        },
+        "pose": "head turned away",
+        "focus": "blurred",
+        "gender": "female"
+      },
+      "parse_ok": true
+    }
+  ]
+}

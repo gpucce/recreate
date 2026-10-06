@@ -1,0 +1,103 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        528.0,
+        126.0,
+        960.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with long, dark wavy hair sits on a beige couch, wearing a light mint green sweater over a white turtleneck and beige trousers. She is looking to the left with a joyful expression, her hands clasped in her lap, while a camera lens is partially visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "expression": "smiling",
+        "gaze": "looking left",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mint green",
+            "layer": "white turtleneck underneath"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          },
+          "accessories": {
+            "earrings": "small gold hoop"
+          }
+        },
+        "pose": "sitting",
+        "position": "center",
+        "context": {
+          "furniture": "beige couch",
+          "foreground_object": "camera lens"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        58.0,
+        150.0,
+        552.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits on a beige couch, smiling warmly while holding a black DSLR camera with a red ring around the lens. She wears a cream-colored knit cardigan over a light blue t-shirt and blue jeans, with a camera strap around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "gaze": "looking to the right",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "cream",
+            "material": "knit"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "light blue"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "earrings": "pearl stud",
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "lens_ring": "red"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding camera"
+      },
+      "parse_ok": true
+    }
+  ]
+}

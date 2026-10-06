@@ -1,0 +1,112 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        232.0,
+        366.0,
+        628.0,
+        1016.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with dark curly hair holding a baby in a white onesie against her chest. The woman wears a light blue ribbed long-sleeved top and has a gentle smile, while the baby looks forward with an open mouth and wide eyes.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "color": "light blue",
+            "material": "ribbed knit",
+            "sleeves": "long"
+          }
+        },
+        "expression": "smiling",
+        "action": "holding a baby",
+        "baby": {
+          "clothing": {
+            "color": "white",
+            "type": "onesie"
+          },
+          "expression": "surprised or alert",
+          "mouth": "open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        38.0,
+        932.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark curly hair and a light complexion sits on a beige couch, wearing a light blue ribbed long-sleeve top, gently holding a baby in a white onesie against her chest while resting her hand on the baby's head. The woman has a soft, affectionate expression with her eyes closed, and the baby looks forward with an open mouth.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "mixed/indeterminate",
+        "social_role": "mother",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": {
+            "color": "light blue",
+            "material": "ribbed knit",
+            "sleeves": "long"
+          },
+          "pants": {
+            "color": "beige"
+          }
+        },
+        "pose": "sitting, holding baby",
+        "expression": "affectionate, eyes closed",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "context": {
+          "holding": "baby in white onesie",
+          "location": "on a beige couch"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        306.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or cream-colored sofa with a soft, textured fabric upholstery is visible in the background. The sofa has a modern design with clean lines and appears to be comfortable, providing a cozy setting for the woman and baby.",
+      "attributes": {
+        "color": "light beige/cream",
+        "material": "soft fabric",
+        "design": "modern, clean lines",
+        "function": "seating, providing a cozy environment"
+      },
+      "parse_ok": true
+    }
+  ]
+}

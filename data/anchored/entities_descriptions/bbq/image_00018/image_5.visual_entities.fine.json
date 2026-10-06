@@ -1,0 +1,421 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.61328125,
+      "box": [
+        720.0,
+        616.0,
+        1032.0,
+        760.0
+      ],
+      "mask": "image_5.masks/grass_0.png",
+      "crop": null,
+      "description": "A patch of green grass with a mix of light and dark green blades, some areas appearing slightly yellowish, growing along the edge of a paved path. The grass is in focus in the foreground, while the background is blurred, showing more grass and a tree trunk.",
+      "attributes": {
+        "color": "green",
+        "texture": "bladed",
+        "location": "along a paved path",
+        "focus": "foreground in focus, background blurred",
+        "condition": "healthy, with some yellowish patches"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.578125,
+      "box": [
+        872.0,
+        764.0,
+        1032.0,
+        900.0
+      ],
+      "mask": "image_5.masks/grass_1.png",
+      "crop": null,
+      "description": "A patch of green grass growing in a garden bed, with some blades appearing yellowish and others vibrant green, situated next to a wooden border and a dirt path.",
+      "attributes": {
+        "color": "green and yellowish",
+        "texture": "blade-like",
+        "location": "garden bed",
+        "border": "wooden",
+        "path": "dirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.76953125,
+      "box": [
+        672.0,
+        576.0,
+        1024.0,
+        616.0
+      ],
+      "mask": "image_5.masks/grass_2.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus view of a grassy area with a light green color, situated in the background behind indistinct dark shapes that appear to be tree trunks or posts. The grass is not in sharp focus, making it difficult to discern individual blades or texture, but it appears to be a uniform expanse of green ground cover.",
+      "attributes": {
+        "color": "light green",
+        "focus": "blurred",
+        "texture": "indistinct",
+        "position": "background",
+        "context": "outdoor setting with possible trees or structures in the foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 3,
+      "score": 0.77734375,
+      "box": [
+        720.0,
+        616.0,
+        1032.0,
+        896.0
+      ],
+      "mask": "image_5.masks/grass_3.png",
+      "crop": null,
+      "description": "A patch of green grass with small white flowers growing along the edge of a concrete sidewalk, partially shaded by a tree in the background.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft and leafy",
+        "flowers": "small white blossoms",
+        "location": "along a sidewalk",
+        "lighting": "partially shaded",
+        "background": "tree trunk visible in the distance"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 4,
+      "score": 0.56640625,
+      "box": [
+        318.0,
+        596.0,
+        374.0,
+        636.0
+      ],
+      "mask": "image_5.masks/grass_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 5,
+      "score": 0.81640625,
+      "box": [
+        -1.0,
+        696.0,
+        308.0,
+        976.0
+      ],
+      "mask": "image_5.masks/grass_5.png",
+      "crop": null,
+      "description": "A patch of green grass growing in a narrow strip between a paved path and a dirt area, with some blades appearing slightly yellowed and others vibrant green, interspersed with small patches of bare soil and scattered dry leaves.",
+      "attributes": {
+        "color": "green with some yellowing",
+        "texture": "blade-like, slightly uneven",
+        "growth_pattern": "sparse, patchy",
+        "surroundings": "adjacent to a paved path and dirt area",
+        "condition": "some dry leaves and bare soil visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 6,
+      "score": 0.8046875,
+      "box": [
+        103.0,
+        616.0,
+        368.0,
+        680.0
+      ],
+      "mask": "image_5.masks/grass_6.png",
+      "crop": null,
+      "description": "The grass is a patch of green vegetation in the background, appearing blurred and out of focus. It is located behind a bench and a tree trunk, with some areas showing lighter green or yellowish tones.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "focus": "out of focus",
+        "location": "background",
+        "surroundings": {
+          "bench": "black",
+          "tree_trunk": "brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        56.0,
+        604.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/path_0.png",
+      "crop": null,
+      "description": "A paved path with a light gray, textured surface runs through a park, flanked by grass and trees. Two people, an adult and a child, are walking away from the camera, holding hands, with the adult wearing a beige shirt and blue jeans, and the child in a yellow shirt and denim shorts.",
+      "attributes": {
+        "surface": "paved, light gray, textured",
+        "edges": "defined by grass and small stones",
+        "surroundings": {
+          "left": "grass, tree trunk, bench",
+          "right": "grass, tree trunk",
+          "background": "additional people walking, trees"
+        },
+        "people": {
+          "adult": {
+            "clothing": {
+              "top": "beige shirt",
+              "bottom": "blue jeans",
+              "shoes": "brown shoes"
+            },
+            "position": "walking away, holding child's hand"
+          },
+          "child": {
+            "clothing": {
+              "top": "yellow shirt",
+              "bottom": "denim shorts",
+              "shoes": "black and white sneakers"
+            },
+            "position": "walking away, holding adult's hand"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        362.0,
+        396.0,
+        544.0,
+        900.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly person with short, wavy gray hair is seen from behind, walking away while holding the hand of a child whose arm is partially visible on the right. They are wearing a loose-fitting, light beige button-down shirt with sleeves rolled to the elbows and blue jeans, walking on a paved path with blurred white blossoms in the background.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "shirt",
+            "color": "beige",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "color": "brown"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hands",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8828125,
+      "box": [
+        536.0,
+        506.0,
+        560.0,
+        584.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        680.0,
+        482.0,
+        736.0,
+        632.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus figure of a person walking away from the camera, wearing a dark jacket and blue jeans.",
+      "attributes": {
+        "pose": "walking away",
+        "clothing": {
+          "jacket": "black",
+          "pants": "blue jeans"
+        },
+        "image_quality": "blurry",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.91015625,
+      "box": [
+        564.0,
+        500.0,
+        604.0,
+        580.0
+      ],
+      "mask": "image_5.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.6015625,
+      "box": [
+        524.0,
+        504.0,
+        540.0,
+        552.0
+      ],
+      "mask": "image_5.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.9453125,
+      "box": [
+        632.0,
+        490.0,
+        688.0,
+        624.0
+      ],
+      "mask": "image_5.masks/person_5.png",
+      "crop": null,
+      "description": "A heavily blurred figure of a person walking away from the camera, wearing a light beige or grey top and dark pants, with indistinct brown hair.",
+      "attributes": {
+        "pose": "walking away",
+        "clothing": {
+          "top": "light beige",
+          "pants": "dark"
+        },
+        "hair": "brown",
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.9140625,
+      "box": [
+        131.0,
+        498.0,
+        171.0,
+        616.0
+      ],
+      "mask": "image_5.masks/person_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus figure of a person walking forward, wearing a dark jacket over a lighter grey top and dark blue jeans. The person's face and specific features are indistinguishable due to the heavy blur.",
+      "attributes": {
+        "pose": "walking",
+        "clothing": {
+          "jacket": "black",
+          "top": "grey",
+          "pants": "blue jeans"
+        },
+        "image_quality": "extremely blurry",
+        "gender": "indeterminate",
+        "age": "indeterminate"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.9765625,
+      "box": [
+        520.0,
+        572.0,
+        656.0,
+        892.0
+      ],
+      "mask": "image_5.masks/person_7.png",
+      "crop": null,
+      "description": "A young child with short, dark, wavy hair is seen from behind, walking away while holding the hand of an adult on the left. The child wears a bright yellow short-sleeved t-shirt, blue denim shorts, white socks, and dark sneakers with white soles.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "yellow",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "blue",
+            "material": "denim"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "black",
+            "socks": "white"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.8984375,
+      "box": [
+        612.0,
+        506.0,
+        636.0,
+        580.0
+      ],
+      "mask": "image_5.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

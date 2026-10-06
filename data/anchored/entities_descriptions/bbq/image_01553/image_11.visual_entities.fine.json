@@ -1,0 +1,321 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        928.0,
+        772.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up view of a red fabric with white polka dots, likely part of a garment or curtain, hanging in front of a wooden cabinet. The cabinet has a light brown finish and visible wood grain, with a round knob partially visible on the right side.",
+      "attributes": {
+        "fabric": {
+          "color": "red",
+          "pattern": "white polka dots",
+          "material": "textile"
+        },
+        "cabinet": {
+          "color": "light brown",
+          "material": "wood",
+          "finish": "smooth",
+          "hardware": {
+            "knob": "round, wooden"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.52734375,
+      "box": [
+        -2.5,
+        -0.5,
+        90.0,
+        158.0
+      ],
+      "mask": "image_11.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden cabinet door with a visible vertical grain pattern and a horizontal seam or handle detail. The wood appears smooth and polished, with a warm, natural tone.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth",
+        "grain": "vertical",
+        "details": [
+          "horizontal seam",
+          "polished finish"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.75390625,
+      "box": [
+        9.0,
+        -3.0,
+        364.0,
+        364.0
+      ],
+      "mask": "image_11.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A section of a light-colored wooden cabinet with a vertical grain pattern, featuring a small, round, gold-toned knob on the lower door. A stainless steel range hood is partially visible to the left, and the top of a person's blonde hair is in the foreground on the right.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "grain": "vertical",
+        "hardware": {
+          "knob": "round, gold-toned"
+        },
+        "adjacent_objects": {
+          "range_hood": "stainless steel, partial view",
+          "person": "blonde hair, partial view"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 3,
+      "score": 0.7421875,
+      "box": [
+        372.0,
+        -0.5,
+        588.0,
+        244.0
+      ],
+      "mask": "image_11.masks/cabinet_3.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden cabinet surface featuring a smooth finish and vertical wood grain texture. The bottom edge of the frame shows the tops of two heads with light brown and blonde hair, indicating the cabinet is positioned behind the subjects.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "smooth",
+        "texture": "vertical wood grain",
+        "position": "background",
+        "visible_elements": [
+          "cabinet surface",
+          "top of heads"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 0,
+      "score": 0.7578125,
+      "box": [
+        916.0,
+        684.0,
+        1032.0,
+        788.0
+      ],
+      "mask": "image_11.masks/counter_top_0.png",
+      "crop": null,
+      "description": "A white countertop with a smooth, matte surface is visible in the background, partially obscured by a red object with white polka dots in the foreground. The countertop appears to be made of a solid material, possibly stone or laminate, and has a clean, minimalist design.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth, matte surface",
+        "design": "minimalist",
+        "position": "background",
+        "obstruction": "partially obscured by a red object with white polka dots"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 1,
+      "score": 0.64453125,
+      "box": [
+        46.75,
+        672.0,
+        140.0,
+        704.0
+      ],
+      "mask": "image_11.masks/counter_top_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        500.0,
+        198.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark hair wearing a red short-sleeved dress with white polka dots is kissing a young boy on the cheek while holding his face with both hands. The boy has curly light brown hair, is shirtless, and wears blue denim jeans, standing with his eyes closed and a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "dress": {
+            "color": "red",
+            "pattern": "white polka dots",
+            "sleeves": "short",
+            "fit": "waist-cinched"
+          },
+          "accessories": {
+            "earrings": "small gold hoop",
+            "rings": "visible on fingers"
+          }
+        },
+        "pose": "leaning in to kiss, hands cupping child's face",
+        "expression": "affectionate, eyes closed",
+        "context": "indoor kitchen setting with window and plant in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        42.0,
+        202.0,
+        506.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A blonde woman with wavy shoulder-length hair is shown in profile, leaning in to kiss a young boy on the cheek. She wears a black tank top and light blue denim jeans, with her hand gently cupping the boy's chin.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": "black tank top",
+          "bottom": "light blue denim jeans"
+        },
+        "accessories": {
+          "earrings": "small pearl stud",
+          "ring": "thin band on ring finger"
+        },
+        "pose": "leaning in to kiss",
+        "expression": "eyes closed, affectionate",
+        "skin": "fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        344.0,
+        198.0,
+        688.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with curly light brown hair stands shirtless wearing blue denim jeans, with his eyes closed and a gentle smile on his face as two women, one blonde and one brunette, kiss his cheeks and hold his chin with their hands.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "expression": "smiling, eyes closed",
+        "clothing": {
+          "top": "none",
+          "bottom": "blue jeans"
+        },
+        "pose": "standing, head tilted slightly back",
+        "interaction": "being kissed on cheeks by two women, chin held by their hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.73828125,
+      "box": [
+        584.0,
+        -2.0,
+        1024.0,
+        688.0
+      ],
+      "mask": "image_11.masks/wall_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark hair is shown in profile, wearing a red short-sleeved top with white polka dots and a small gold hoop earring, as she kisses a person with short, curly blonde hair who is shirtless. The background features a bright window with white frames and a potted green plant on the sill, suggesting a domestic kitchen or living space.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "style": "long, wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "red",
+            "pattern": "white polka dots",
+            "sleeves": "short"
+          }
+        },
+        "accessories": {
+          "earrings": "gold hoop"
+        },
+        "pose": "kissing",
+        "expression": "eyes closed",
+        "background": {
+          "window": "white framed",
+          "plant": "green potted plant on windowsill",
+          "setting": "indoor, likely kitchen"
+        },
+        "other_person": {
+          "hair": "blonde, curly",
+          "clothing": "shirtless"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        -2.0,
+        252.0,
+        181.0,
+        676.0
+      ],
+      "mask": "image_11.masks/wall_1.png",
+      "crop": null,
+      "description": "A section of a wall covered in white rectangular subway tiles arranged in a horizontal brick pattern with light gray grout lines. The wall serves as a background behind a wooden cabinet and a vase of greenery.",
+      "attributes": {
+        "material": "ceramic tile",
+        "color": "white",
+        "pattern": "subway tile",
+        "grout": "light gray",
+        "orientation": "horizontal"
+      },
+      "parse_ok": true
+    }
+  ]
+}

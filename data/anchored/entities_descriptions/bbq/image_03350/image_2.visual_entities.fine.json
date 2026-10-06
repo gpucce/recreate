@@ -1,0 +1,80 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        168.0,
+        252.0,
+        536.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length black hair stands in a hallway, wearing a beige blazer over a black dress with a red and white floral pattern. She is wearing black lace-up combat boots and has one hand resting on the wall beside her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "beige"
+          },
+          "dress": {
+            "color": "black",
+            "pattern": "red and white floral",
+            "length": "mini"
+          },
+          "footwear": {
+            "type": "combat boots",
+            "color": "black"
+          }
+        },
+        "pose": "standing, one hand on wall",
+        "expression": "neutral",
+        "position": "center of frame, leaning slightly against wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        350.0,
+        184.0,
+        896.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian man with short black hair stands in a hallway, wearing a black suit jacket over a white button-down shirt and black trousers. He has his left arm extended with his hand pressed against the wall and his right arm around the shoulder of a woman standing next to him, looking directly at the camera with a neutral expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": "black suit jacket",
+          "shirt": "white button-down",
+          "pants": "black trousers",
+          "shoes": "black leather dress shoes",
+          "accessories": "black belt"
+        },
+        "pose": "standing, left hand on wall, right arm around companion",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    }
+  ]
+}

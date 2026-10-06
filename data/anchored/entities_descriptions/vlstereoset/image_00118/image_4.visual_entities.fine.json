@@ -1,0 +1,487 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        117.0,
+        270.0,
+        149.0,
+        282.0
+      ],
+      "mask": "image_4.masks/building_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        270.0,
+        304.0,
+        338.0,
+        324.0
+      ],
+      "mask": "image_4.masks/building_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.77734375,
+      "box": [
+        148.0,
+        288.0,
+        224.0,
+        316.0
+      ],
+      "mask": "image_4.masks/building_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        364.0,
+        330.0,
+        480.0,
+        406.0
+      ],
+      "mask": "image_4.masks/hillside_0.png",
+      "crop": null,
+      "description": "A grassy hillside slopes upward from left to right, featuring a mix of green and brown vegetation. A dirt path or trail winds along the lower left portion of the slope, bordered by darker green shrubs and trees. The terrain appears uneven with patches of exposed earth and sparse vegetation, suggesting a natural, possibly rural setting.",
+      "attributes": {
+        "vegetation": {
+          "type": "grass",
+          "color": "green and brown",
+          "density": "sparse to moderate"
+        },
+        "terrain": {
+          "slope": "upward from left to right",
+          "surface": "uneven",
+          "features": [
+            "dirt path",
+            "exposed earth"
+          ]
+        },
+        "path": {
+          "material": "dirt",
+          "location": "lower left",
+          "border": "shrubs and trees"
+        },
+        "surroundings": {
+          "trees": "present on edges",
+          "shrubs": "dark green, along path"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 1,
+      "score": 0.69921875,
+      "box": [
+        440.0,
+        342.0,
+        656.0,
+        410.0
+      ],
+      "mask": "image_4.masks/hillside_1.png",
+      "crop": null,
+      "description": "A steep, grassy hillside slopes down toward a rocky shoreline, featuring a mix of green vegetation and exposed brown rock faces. Several dark green trees are scattered across the top and sides of the hill, with a clear blue sky visible in the background.",
+      "attributes": {
+        "terrain": "steep hillside",
+        "vegetation": {
+          "type": "grass and trees",
+          "color": "green"
+        },
+        "rock": {
+          "color": "brown",
+          "exposure": "partial"
+        },
+        "sky": {
+          "color": "blue",
+          "visibility": "clear"
+        },
+        "location": "coastal area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 2,
+      "score": 0.578125,
+      "box": [
+        0.0,
+        346.0,
+        190.0,
+        406.0
+      ],
+      "mask": "image_4.masks/hillside_2.png",
+      "crop": null,
+      "description": "A steep, grassy hillside slopes downward from the upper left to the lower right, covered in dense green vegetation. At the base of the slope, there is a patch of light-colored sand or dirt, and a few dark, leafy trees are visible in the background on the right side.",
+      "attributes": {
+        "terrain": "steep slope",
+        "vegetation": "dense green grass",
+        "base": "light-colored sand or dirt",
+        "background": "dark leafy trees",
+        "lighting": "natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        2.0,
+        404.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A rocky headland covered in green vegetation extends into the ocean, with a sandy beach in the foreground and a child running along the shoreline.",
+      "attributes": {
+        "vegetation": "green",
+        "rock_type": "dark",
+        "beach": "sandy",
+        "ocean": "blue-green",
+        "child": {
+          "clothing": "blue swimsuit",
+          "pose": "running",
+          "position": "near shoreline"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        8.0,
+        248.0,
+        708.0,
+        412.0
+      ],
+      "mask": "image_4.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "A grassy, sloping headland covered in dense green vegetation and trees, with several white buildings nestled among the foliage on the upper slopes. The landmass descends to a sandy beach at the bottom left, where a few people are visible, and meets the ocean on the right side.",
+      "attributes": {
+        "vegetation": {
+          "type": "dense green shrubs and trees",
+          "coverage": "extensive",
+          "color": "various shades of green"
+        },
+        "buildings": {
+          "color": "white",
+          "style": "modern, multi-story",
+          "location": "upper slopes of the headland"
+        },
+        "terrain": {
+          "shape": "sloping headland",
+          "surface": "grassy and rocky",
+          "elevation": "moderate"
+        },
+        "beach": {
+          "sand_color": "light beige",
+          "location": "base of the headland",
+          "activity": "people walking and standing"
+        },
+        "ocean": {
+          "color": "blue",
+          "location": "right side of the image",
+          "state": "calm"
+        },
+        "sky": {
+          "color": "clear blue",
+          "visibility": "good"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.61328125,
+      "box": [
+        203.0,
+        404.0,
+        221.0,
+        428.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        398.0,
+        400.0,
+        406.0,
+        416.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.75390625,
+      "box": [
+        364.0,
+        400.0,
+        372.0,
+        416.0
+      ],
+      "mask": "image_4.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.8046875,
+      "box": [
+        300.0,
+        392.0,
+        308.0,
+        424.0
+      ],
+      "mask": "image_4.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.8125,
+      "box": [
+        316.0,
+        394.0,
+        324.0,
+        422.0
+      ],
+      "mask": "image_4.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.875,
+      "box": [
+        272.0,
+        394.0,
+        284.0,
+        434.0
+      ],
+      "mask": "image_4.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.9609375,
+      "box": [
+        494.0,
+        432.0,
+        560.0,
+        560.0
+      ],
+      "mask": "image_4.masks/person_6.png",
+      "crop": null,
+      "description": "A young child with short dark hair is seen from behind, walking barefoot on a sandy beach towards the ocean. The child is wearing a solid blue short-sleeved one-piece swimsuit and has their arms slightly outstretched to the sides.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "swimsuit": {
+            "color": "blue",
+            "type": "one-piece",
+            "sleeves": "short"
+          }
+        },
+        "pose": "walking away",
+        "location": "beach",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.7265625,
+      "box": [
+        234.0,
+        416.0,
+        250.0,
+        436.0
+      ],
+      "mask": "image_4.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.5546875,
+      "box": [
+        438.0,
+        346.0,
+        704.0,
+        414.0
+      ],
+      "mask": "image_4.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "A rugged, steep rocky outcrop covered in lush green grass and vegetation rises from the water's edge, featuring dark, jagged rock faces at the base and a few trees perched on the upper ridges under a blue sky.",
+      "attributes": {
+        "terrain": "rocky cliff",
+        "vegetation": {
+          "type": "grass and trees",
+          "color": "green",
+          "coverage": "dense on top, sparse on lower rocks"
+        },
+        "rock": {
+          "color": "dark brown and grey",
+          "texture": "jagged and uneven",
+          "position": "base of the cliff"
+        },
+        "water": {
+          "color": "blue",
+          "position": "foreground and right side"
+        },
+        "sky": {
+          "color": "light blue",
+          "clouds": "white, scattered"
+        },
+        "orientation": "vertical, rising from water"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        0.0,
+        404.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a smooth and slightly compacted texture near the water's edge, transitioning to a looser, more granular texture further from the shore. There are visible footprints and small indentations in the sand, indicating recent activity. The sand appears dry in the foreground and becomes wetter and darker as it approaches the waterline, where it meets the gentle waves of the ocean.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "smooth near water, granular further out",
+        "moisture": "dry in foreground, wet near waterline",
+        "features": [
+          "footprints",
+          "small indentations"
+        ],
+        "location": "beach near ocean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        34.0,
+        0.0,
+        1024.0,
+        408.0
+      ],
+      "mask": "image_4.masks/sky_0.png",
+      "crop": null,
+      "description": "A vast, clear blue sky dominates the upper portion of the image, featuring a single, small, fluffy white cumulus cloud floating near the center. The sky transitions from a deeper blue at the top to a lighter, paler blue near the horizon line.",
+      "attributes": {
+        "color": "blue",
+        "clouds": {
+          "count": 1,
+          "type": "cumulus",
+          "color": "white",
+          "position": "center"
+        },
+        "weather": "clear",
+        "lighting": "bright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        338.0,
+        404.0,
+        1024.0,
+        620.0
+      ],
+      "mask": "image_4.masks/water_0.png",
+      "crop": null,
+      "description": "A young child with short dark hair is running along the shoreline of a beach, wearing a blue one-piece swimsuit. The child is barefoot and moving away from the camera, with their arms slightly outstretched for balance, as waves gently lap at the wet sand.",
+      "attributes": {
+        "age": "child",
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "swimsuit": {
+            "color": "blue",
+            "type": "one-piece"
+          }
+        },
+        "pose": "running",
+        "location": "beach shoreline",
+        "surface": "wet sand",
+        "water": {
+          "color": "teal",
+          "waves": "small, foamy"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

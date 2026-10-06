@@ -1,0 +1,117 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        76.0,
+        16.0,
+        956.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with a short black bob haircut and wispy bangs looks off to the side while holding a single red rose near her chest. She is wearing a black sheer mesh top with a high neck over a black camisole, set against a bright, white background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "clothing": {
+          "outer_layer": "black sheer mesh top",
+          "inner_layer": "black camisole",
+          "neckline": "high neck"
+        },
+        "accessories": {
+          "held_object": "red rose"
+        },
+        "pose": "holding flower to chest",
+        "gaze": "looking to the side",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        76.0,
+        536.0,
+        956.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/top_0.png",
+      "crop": null,
+      "description": "A person is wearing a black, sheer mesh top with a high neckline and long sleeves, layered over a black camisole with thin straps. The person is holding a single red rose with a green stem and leaves in front of their chest.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer mesh",
+            "neckline": "high",
+            "sleeves": "long"
+          },
+          "camisole": {
+            "color": "black",
+            "straps": "thin"
+          }
+        },
+        "accessories": {
+          "flower": {
+            "type": "rose",
+            "color": "red",
+            "stem": "green",
+            "leaves": "green"
+          }
+        },
+        "pose": "holding flower in front of chest",
+        "visible_body_parts": [
+          "neck",
+          "shoulders",
+          "chest",
+          "hands"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        158.0,
+        4.0,
+        1016.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/wall_0.png",
+      "crop": null,
+      "description": "A young woman with a short black bob haircut and bangs is holding a single red rose in front of her chest. She is wearing a black sheer top with thin straps and has a neutral expression while looking to the side.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "bob with bangs"
+        },
+        "clothing": {
+          "top": "black sheer with thin straps"
+        },
+        "accessories": {
+          "flower": "red rose"
+        },
+        "pose": "holding flower",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    }
+  ]
+}

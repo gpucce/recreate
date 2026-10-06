@@ -1,0 +1,983 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        696.0,
+        130.0,
+        1024.0,
+        244.0
+      ],
+      "mask": "image_3.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building's roof with a textured, gray shingle surface, partially obscured by vertical tree trunks and green foliage in the foreground. The bottom edge of the image shows the tops of white, possibly fabric, structures resembling umbrellas or canopies.",
+      "attributes": {
+        "roof": {
+          "material": "shingles",
+          "color": "gray",
+          "texture": "textured",
+          "shape": "sloped"
+        },
+        "foreground_elements": {
+          "tree_trunks": "vertical, brown",
+          "foliage": "green, yellowish",
+          "structures": {
+            "color": "white",
+            "shape": "pointed tops",
+            "material": "possibly fabric"
+          }
+        },
+        "focus": "blurry",
+        "lighting": "natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.63671875,
+      "box": [
+        688.0,
+        129.0,
+        1024.0,
+        304.0
+      ],
+      "mask": "image_3.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a dark, shingled roof and light-colored walls, partially obscured by palm tree trunks and three white patio umbrellas in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray",
+          "material": "shingles",
+          "shape": "gabled"
+        },
+        "walls": {
+          "color": "light beige or white"
+        },
+        "foreground_objects": {
+          "umbrellas": {
+            "color": "white",
+            "count": 3,
+            "type": "patio"
+          },
+          "trees": {
+            "type": "palm",
+            "trunks": "brown"
+          }
+        },
+        "focus": "blurry",
+        "setting": "outdoor, likely tropical or resort-like"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        46.0,
+        146.0,
+        576.0,
+        310.0
+      ],
+      "mask": "image_3.masks/building_2.png",
+      "crop": null,
+      "description": "A single-story building with a reddish-brown tiled roof and light-colored walls is visible in the background, partially obscured by palm tree trunks and white umbrellas in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile",
+          "shape": "hipped"
+        },
+        "walls": {
+          "color": "light beige or cream"
+        },
+        "structure": "single-story",
+        "foreground_elements": [
+          "palm tree trunks",
+          "white umbrellas"
+        ],
+        "setting": "outdoor, likely tropical or resort-like"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.76953125,
+      "box": [
+        344.0,
+        71.0,
+        728.0,
+        219.0
+      ],
+      "mask": "image_3.masks/building_3.png",
+      "crop": null,
+      "description": "A single-story building with a light-colored exterior wall and a reddish-brown tiled roof is partially visible behind the trunks and fronds of palm trees. The image is out of focus, making specific details like windows or doors indistinct, but a dark rectangular shape on the wall suggests a window or door.",
+      "attributes": {
+        "structure_type": "single-story building",
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile"
+        },
+        "walls": {
+          "color": "light beige or off-white"
+        },
+        "obstruction": "palm trees",
+        "focus": "blurred",
+        "visible_features": [
+          "roof",
+          "wall",
+          "possible window/door"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        0.625,
+        296.0,
+        45.5,
+        340.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        470.0,
+        300.0,
+        540.0,
+        360.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "{\"description\": \"The image is extremely blurry and out of focus, showing a person sitting outdoors. The person appears to be wearing a light-colored top and has their arm resting on what looks like a chair or table. The background consists of green foliage, suggesting a garden or park setting.\", \"attributes\": {\"pose\": \"sitting\", \"clothing\": {\"top\": \"light-colored\"}, \"setting\": \"outdoors\", \"background\": \"green foliage\", \"image_quality\": \"extremely blurry\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.5234375,
+      "box": [
+        856.0,
+        302.0,
+        904.0,
+        346.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.765625,
+      "box": [
+        576.0,
+        298.0,
+        640.0,
+        358.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.6328125,
+      "box": [
+        964.0,
+        302.0,
+        1012.0,
+        362.0
+      ],
+      "mask": "image_3.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.76171875,
+      "box": [
+        358.0,
+        302.0,
+        386.0,
+        338.0
+      ],
+      "mask": "image_3.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.71875,
+      "box": [
+        780.0,
+        306.0,
+        860.0,
+        366.0
+      ],
+      "mask": "image_3.masks/person_6.png",
+      "crop": null,
+      "description": "A blurry, low-resolution image of a person lying down, possibly on a beach or outdoor setting, wearing a blue and red garment with white accents. The person's face is not clearly visible, and the background is out of focus, showing indistinct shapes and colors.",
+      "attributes": {
+        "clothing": {
+          "top": "blue and red with white accents"
+        },
+        "pose": "lying down",
+        "setting": "outdoor, possibly beach",
+        "image_quality": "blurry, low-resolution"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.83203125,
+      "box": [
+        81.5,
+        304.0,
+        131.0,
+        352.0
+      ],
+      "mask": "image_3.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.984375,
+      "box": [
+        340.0,
+        420.0,
+        668.0,
+        740.0
+      ],
+      "mask": "image_3.masks/person_8.png",
+      "crop": null,
+      "description": "A young man with short dark hair is surfing on a wave, wearing a black short-sleeved rash guard and blue board shorts. He is in a crouched stance with arms outstretched for balance, looking forward with a focused expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "rash guard",
+            "color": "black",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "board shorts",
+            "color": "blue"
+          },
+          "accessories": {
+            "ankle": "black ankle leash"
+          }
+        },
+        "pose": "crouching, arms outstretched",
+        "expression": "focused",
+        "activity": "surfing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.5703125,
+      "box": [
+        904.0,
+        288.0,
+        928.0,
+        320.0
+      ],
+      "mask": "image_3.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.7265625,
+      "box": [
+        164.0,
+        296.0,
+        258.0,
+        356.0
+      ],
+      "mask": "image_3.masks/person_10.png",
+      "crop": null,
+      "description": "A blurry image of a person sitting on the ground, wearing a dark top and blue shorts, with their legs extended forward.",
+      "attributes": {
+        "clothing": {
+          "top": "dark",
+          "shorts": "blue"
+        },
+        "pose": "sitting",
+        "legs": "extended",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        0.0,
+        346.0,
+        1020.0,
+        454.0
+      ],
+      "mask": "image_3.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a fine, granular texture that appears dry and slightly uneven. It stretches horizontally across the image, with subtle variations in shading that suggest a natural, undisturbed surface. The sand is bordered by a darker, wetter area at the bottom, likely where the water meets the shore, and a blurred background of beach chairs and people at the top.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "fine, granular",
+        "state": "dry, slightly uneven",
+        "position": "horizontal stretch across the image",
+        "border": "darker, wetter area at the bottom, blurred background at the top"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surfboard",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        504.0,
+        708.0,
+        736.0,
+        780.0
+      ],
+      "mask": "image_3.masks/surfboard_0.png",
+      "crop": null,
+      "description": "A close-up view of the tail section of a white surfboard with a person's bare foot standing on it, showing the deck and part of the side rail. The board is in motion, creating a splash of water around it.",
+      "attributes": {
+        "object": "surfboard",
+        "part": "tail section",
+        "color": "white",
+        "material": "fiberglass/resin",
+        "surface": "smooth, glossy",
+        "action": "surfing",
+        "context": "in water, splashing",
+        "visible_person_part": "bare foot, ankle with black strap"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        -1.0,
+        69.5,
+        336.0,
+        236.0
+      ],
+      "mask": "image_3.masks/tree_0.png",
+      "crop": null,
+      "description": "The image shows a blurred view of several tall, slender tree trunks with green foliage in the background. The trees appear to be palm trees, with their trunks extending vertically and their leaves partially visible at the top.",
+      "attributes": {
+        "trunk": "tall, slender, brown",
+        "leaves": "green, partially visible",
+        "type": "palm tree",
+        "background": "blurred green foliage",
+        "position": "vertical, multiple trunks visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.81640625,
+      "box": [
+        -1.5,
+        -2.0,
+        196.0,
+        324.0
+      ],
+      "mask": "image_3.masks/tree_1.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, grayish-brown trunk and a crown of green fronds at the top, set against a blurred background of foliage and a building with a red-tiled roof.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "grayish-brown",
+          "shape": "slender",
+          "texture": "smooth"
+        },
+        "fronds": {
+          "color": "green",
+          "position": "top of trunk"
+        },
+        "background": {
+          "elements": [
+            "foliage",
+            "building with red-tiled roof"
+          ],
+          "clarity": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.51953125,
+      "box": [
+        364.0,
+        -1.0,
+        520.0,
+        304.0
+      ],
+      "mask": "image_3.masks/tree_2.png",
+      "crop": null,
+      "description": "A tall, slender tree trunk with dark, textured bark extends vertically through the frame, partially obscured by out-of-focus green and yellowish leaves at the top. The tree is positioned in the foreground, with a blurred background featuring a building with a red-tiled roof and white umbrellas.",
+      "attributes": {
+        "trunk": {
+          "color": "dark brown",
+          "texture": "rough",
+          "shape": "slender, vertical"
+        },
+        "leaves": {
+          "color": [
+            "green",
+            "yellowish"
+          ],
+          "focus": "out-of-focus",
+          "position": "top of frame"
+        },
+        "background": {
+          "building": {
+            "roof": "red-tiled",
+            "walls": "light-colored"
+          },
+          "umbrellas": {
+            "color": "white",
+            "focus": "out-of-focus"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.62109375,
+      "box": [
+        720.0,
+        0.0,
+        904.0,
+        248.0
+      ],
+      "mask": "image_3.masks/tree_3.png",
+      "crop": null,
+      "description": "A palm tree with a slender, grayish-brown trunk and a crown of long, arching fronds in shades of green and yellow. The image is blurry, making fine details of the leaves and bark texture indistinct.",
+      "attributes": {
+        "trunk": {
+          "color": "grayish-brown",
+          "shape": "slender",
+          "texture": "indistinct due to blur"
+        },
+        "leaves": {
+          "type": "palm fronds",
+          "color": [
+            "green",
+            "yellow"
+          ],
+          "arrangement": "arched crown",
+          "condition": "some yellowing visible"
+        },
+        "overall_condition": "blurry, out of focus",
+        "background": "indistinct, possibly a building or structure with a roof"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.5859375,
+      "box": [
+        482.0,
+        -2.5,
+        520.0,
+        236.0
+      ],
+      "mask": "image_3.masks/tree_4.png",
+      "crop": null,
+      "description": "A tall, slender tree trunk with dark, textured bark extends vertically through the center of the frame, surrounded by blurred green foliage and yellowish leaves in the background. The base of the trunk is partially obscured by a reddish-brown surface, possibly a roof or wall, and a white object at the bottom edge.",
+      "attributes": {
+        "trunk": {
+          "color": "dark brown/black",
+          "texture": "rough, textured bark",
+          "shape": "slender, vertical"
+        },
+        "foliage": {
+          "color": "green, yellowish",
+          "clarity": "blurred, out of focus"
+        },
+        "background": {
+          "elements": [
+            "reddish-brown surface",
+            "white object at bottom"
+          ],
+          "clarity": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.609375,
+      "box": [
+        198.0,
+        -4.0,
+        266.0,
+        308.0
+      ],
+      "mask": "image_3.masks/tree_5.png",
+      "crop": null,
+      "description": "A tall, slender tree trunk with dark, textured bark extends vertically through the frame, partially obscuring a background of green foliage and a red-tiled roof. The image is out of focus, giving the tree and surrounding elements a soft, blurred appearance.",
+      "attributes": {
+        "trunk": {
+          "color": "dark brown",
+          "texture": "rough",
+          "shape": "slender",
+          "orientation": "vertical"
+        },
+        "leaves": {
+          "color": "green",
+          "visibility": "blurred background"
+        },
+        "background": {
+          "roof": "red-tiled",
+          "foliage": "green"
+        },
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.59765625,
+      "box": [
+        504.0,
+        -2.0,
+        712.0,
+        324.0
+      ],
+      "mask": "image_3.masks/tree_6.png",
+      "crop": null,
+      "description": "{\"description\": \"A tall palm tree with a slender, dark brown trunk and a crown of long, arching green fronds, some of which are yellowing, stands in the background behind a blurred foreground of white umbrellas and a building.\", \"attributes\": {\"type\": \"palm tree\", \"trunk\": {\"color\": \"dark brown\", \"shape\": \"slender\", \"texture\": \"smooth\"}, \"fronds\": {\"color\": [\"green\", \"yellow\"], \"shape\": \"arched\", \"arrangement\": \"crown-like\"}, \"position\": \"background\", \"focus\": \"blurred\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.65625,
+      "box": [
+        199.0,
+        -5.0,
+        372.0,
+        308.0
+      ],
+      "mask": "image_3.masks/tree_7.png",
+      "crop": null,
+      "description": "The image shows a blurred view of a palm tree with a tall, slender trunk and green fronds at the top. The background includes a building with a red-tiled roof and white umbrellas, suggesting a tropical or beachside setting.",
+      "attributes": {
+        "trunk": "tall, slender, dark brown",
+        "fronds": "green, feathery",
+        "setting": "tropical, beachside",
+        "background": "red-tiled roof, white umbrellas"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.53125,
+      "box": [
+        612.0,
+        -2.0,
+        636.0,
+        243.0
+      ],
+      "mask": "image_3.masks/tree_8.png",
+      "crop": null,
+      "description": "A vertical, dark gray tree trunk with a rough, textured bark surface is visible in the center of the frame, surrounded by blurred green and yellow foliage in the background. The bottom of the trunk is partially obscured by a white, out-of-focus object.",
+      "attributes": {
+        "trunk": {
+          "color": "dark gray",
+          "texture": "rough",
+          "shape": "vertical",
+          "position": "center"
+        },
+        "background": {
+          "color": [
+            "green",
+            "yellow"
+          ],
+          "focus": "blurred"
+        },
+        "foreground": {
+          "object": "white",
+          "focus": "out-of-focus",
+          "position": "bottom"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        804.0,
+        225.0,
+        940.0,
+        322.0
+      ],
+      "mask": "image_3.masks/umbrella_0.png",
+      "crop": null,
+      "description": "A white umbrella is visible in the background, appearing out of focus and partially obscured by the foreground elements. The umbrella has a classic canopy shape with a central pole, suggesting it is likely a patio or beach umbrella.",
+      "attributes": {
+        "color": "white",
+        "shape": "canopy",
+        "focus": "out of focus",
+        "position": "background",
+        "type": "patio or beach umbrella"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 1,
+      "score": 0.890625,
+      "box": [
+        -1.125,
+        233.0,
+        64.0,
+        290.0
+      ],
+      "mask": "image_3.masks/umbrella_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        436.0,
+        232.0,
+        556.0,
+        312.0
+      ],
+      "mask": "image_3.masks/umbrella_2.png",
+      "crop": null,
+      "description": "A white umbrella with a scalloped edge is visible in the background, appearing out of focus and partially obscured by the foreground. The umbrella has a central pole and is positioned above what seems to be a seating area.",
+      "attributes": {
+        "color": "white",
+        "shape": "scalloped edge",
+        "focus": "out of focus",
+        "position": "background",
+        "pole": "central",
+        "function": "shade"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 3,
+      "score": 0.9140625,
+      "box": [
+        316.0,
+        230.0,
+        436.0,
+        310.0
+      ],
+      "mask": "image_3.masks/umbrella_3.png",
+      "crop": null,
+      "description": "A large, cream-colored patio umbrella is open and positioned in the upper center of the frame, featuring a multi-panel canopy with a central finial and a visible central pole. The umbrella is heavily blurred, obscuring fine texture details, and is set against a dark, indistinct background with hints of green foliage at the bottom.",
+      "attributes": {
+        "object_type": "patio umbrella",
+        "color": "cream",
+        "state": "open",
+        "structure": {
+          "canopy": "multi-panel",
+          "pole": "visible",
+          "finial": "present"
+        },
+        "image_quality": "blurred",
+        "position": "upper center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 4,
+      "score": 0.921875,
+      "box": [
+        61.75,
+        231.0,
+        182.0,
+        294.0
+      ],
+      "mask": "image_3.masks/umbrella_4.png",
+      "crop": null,
+      "description": "A white, square-shaped patio umbrella is visible in the center of the frame, appearing out of focus with a soft, blurred texture. The umbrella has a peaked top and extends outward with a flat canopy, supported by a central pole that is partially obscured by the blur. The background is indistinct, suggesting an outdoor setting with other similar structures or umbrellas nearby.",
+      "attributes": {
+        "color": "white",
+        "shape": "square",
+        "material": "fabric",
+        "state": "open",
+        "focus": "blurred",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 5,
+      "score": 0.91796875,
+      "box": [
+        544.0,
+        230.0,
+        680.0,
+        310.0
+      ],
+      "mask": "image_3.masks/umbrella_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a white umbrella with a scalloped edge, positioned outdoors with green foliage in the background. The umbrella appears to be open and is likely providing shade.",
+      "attributes": {
+        "color": "white",
+        "shape": "scalloped edge",
+        "state": "open",
+        "background": "green foliage",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 6,
+      "score": 0.890625,
+      "box": [
+        916.0,
+        225.0,
+        1024.0,
+        314.0
+      ],
+      "mask": "image_3.masks/umbrella_6.png",
+      "crop": null,
+      "description": "A large, light-colored umbrella with a conical shape is visible in the background, appearing out of focus. The umbrella has a fabric canopy that is likely beige or off-white, and it is positioned above what seems to be a seating area or outdoor space.",
+      "attributes": {
+        "color": "beige/off-white",
+        "shape": "conical",
+        "material": "fabric",
+        "focus": "out of focus",
+        "position": "background",
+        "function": "shading"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 7,
+      "score": 0.9140625,
+      "box": [
+        680.0,
+        230.0,
+        808.0,
+        310.0
+      ],
+      "mask": "image_3.masks/umbrella_7.png",
+      "crop": null,
+      "description": "A white umbrella with a scalloped edge is visible in the foreground, slightly out of focus, with a central pole and a red object hanging from its right side.",
+      "attributes": {
+        "color": "white",
+        "shape": "scalloped edge",
+        "material": "fabric",
+        "position": "foreground",
+        "focus": "out of focus",
+        "accessories": {
+          "hanging_object": "red"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 8,
+      "score": 0.89453125,
+      "box": [
+        171.0,
+        239.0,
+        300.0,
+        312.0
+      ],
+      "mask": "image_3.masks/umbrella_8.png",
+      "crop": null,
+      "description": "A large, cream-colored patio umbrella is open and centered in the frame, appearing out of focus with a soft, blurry texture. The umbrella has a classic octagonal canopy shape with a visible central pole extending downwards, set against a dark, indistinct background.",
+      "attributes": {
+        "object_type": "patio umbrella",
+        "color": "cream",
+        "shape": "octagonal canopy",
+        "state": "open",
+        "focus": "blurry",
+        "structure": "central pole",
+        "function": "outdoor shade"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 0,
+      "score": 0.5625,
+      "box": [
+        0.0,
+        290.0,
+        182.0,
+        334.0
+      ],
+      "mask": "image_3.masks/vegetation_0.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage, likely trees or bushes, with indistinct shapes and colors suggesting an outdoor setting. The vegetation appears dense and lush, with varying shades of green.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "density": "dense",
+        "setting": "outdoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 1,
+      "score": 0.609375,
+      "box": [
+        6.0,
+        -2.0,
+        1024.0,
+        324.0
+      ],
+      "mask": "image_3.masks/vegetation_1.png",
+      "crop": null,
+      "description": "The image shows a row of tall palm trees with slender, grayish-brown trunks and lush, green fronds that arch gracefully. The trees are situated in a tropical setting, with a blurred background featuring a building with a red-tiled roof and white umbrellas, suggesting a resort or beachside environment.",
+      "attributes": {
+        "trunk": "slender, grayish-brown",
+        "fronds": "green, arching",
+        "setting": "tropical, resort-like",
+        "background": "blurred, red-tiled roof, white umbrellas"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        0.0,
+        428.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A man is surfing on a wave, wearing a black rash guard and blue board shorts. He is crouched low on a white surfboard, with his arms outstretched for balance, as the wave curls and breaks behind him.\", \"attributes\": {\"gender\": \"male\", \"age\": \"young adult\", \"clothing\": {\"top\": \"black short-sleeved rash guard\", \"bottoms\": \"blue board shorts\"}, \"accessories\": {\"ankle leash\": \"black\", \"wristband\": \"black\"}, \"pose\": \"crouched, arms outstretched\", \"activity\": \"surfing\", \"surfboard\": \"white\", \"wave\": \"breaking, white foam\", \"water\": \"blue-green, choppy\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wave",
+      "index": 0,
+      "score": 0.62109375,
+      "box": [
+        6.0,
+        448.0,
+        1024.0,
+        864.0
+      ],
+      "mask": "image_3.masks/wave_0.png",
+      "crop": null,
+      "description": "A young man with short dark hair is surfing on a turquoise wave, wearing a black short-sleeved rash guard and blue board shorts. He is in a crouched stance on a white surfboard, with his arms outstretched for balance, and is barefoot with black ankle leashes attached to his feet.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "rash guard",
+            "color": "black",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "board shorts",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "ankle_leashes": "black"
+        },
+        "pose": "crouched, arms outstretched",
+        "activity": "surfing",
+        "equipment": {
+          "surfboard": {
+            "color": "white",
+            "type": "shortboard"
+          }
+        },
+        "environment": {
+          "water": {
+            "color": "turquoise",
+            "state": "wavy, with white foam"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

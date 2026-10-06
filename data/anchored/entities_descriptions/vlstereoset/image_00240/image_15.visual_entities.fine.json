@@ -1,0 +1,210 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        800.0,
+        7.5,
+        1024.0,
+        194.0
+      ],
+      "mask": "image_15.masks/curtain_0.png",
+      "crop": null,
+      "description": "A close-up, slightly out-of-focus view of a white lace curtain valance hanging from a wooden rod, featuring intricate floral patterns and a scalloped bottom edge that allows bright light to filter through.",
+      "attributes": {
+        "color": "white",
+        "material": "lace",
+        "pattern": "floral",
+        "edge": "scalloped",
+        "mounting": "wooden rod",
+        "focus": "blurry",
+        "lighting": "backlit"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        600.0,
+        300.0,
+        1024.0,
+        804.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian woman with short, wavy gray hair sits at a wooden table, wearing a maroon knit cardigan and a matching maroon headscarf. She holds a red ceramic cup with both hands, looking directly at the camera with a gentle, subtle smile, while a plate of dumplings is partially visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "maroon",
+            "material": "knit",
+            "texture": "fuzzy"
+          },
+          "headwear": {
+            "type": "headscarf",
+            "color": "maroon"
+          }
+        },
+        "pose": "sitting",
+        "expression": "gentle smile",
+        "action": "holding a red cup",
+        "accessories": {
+          "cup": {
+            "color": "red",
+            "material": "ceramic"
+          }
+        },
+        "context": {
+          "foreground_object": "dumplings",
+          "background": "kitchen setting with plant"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        374.0,
+        426.0,
+        620.0,
+        752.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian boy with short, dark brown hair and bangs sits at a table, wearing a blue polo shirt and smiling gently at the camera. In the foreground, a white teapot and a red cup are partially visible on the wooden table surface.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "straight with bangs"
+        },
+        "expression": "gentle smile",
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "blue",
+            "collar": "folded"
+          }
+        },
+        "pose": "sitting",
+        "foreground_objects": [
+          "white teapot",
+          "red cup"
+        ],
+        "background": "blurry, beige apron visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        -2.0,
+        240.0,
+        392.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly man with a gentle smile sits at a rustic wooden table, wearing a dark fedora, a maroon knit vest over a light grey button-down shirt, and holding a red coffee cup while a pipe rests in his mouth. He has white hair and visible wrinkles, with a white teapot and red saucer on the table in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short"
+        },
+        "facial_hair": "none",
+        "accessories": {
+          "hat": {
+            "type": "fedora",
+            "color": "dark brown"
+          },
+          "pipe": {
+            "color": "brown",
+            "position": "in mouth"
+          }
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light grey",
+            "type": "button-down"
+          },
+          "vest": {
+            "color": "maroon",
+            "material": "knit",
+            "type": "cardigan"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "objects": {
+          "cup": {
+            "color": "red",
+            "material": "ceramic"
+          },
+          "teapot": {
+            "color": "white",
+            "material": "ceramic"
+          },
+          "table": {
+            "material": "wood",
+            "condition": "worn"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        308.0,
+        133.0,
+        716.0,
+        636.0
+      ],
+      "mask": "image_15.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling Asian man with short black hair stands in the background wearing a dark grey long-sleeved shirt and a beige apron, leaning forward slightly behind a young boy. He has a warm, open expression with a wide smile showing his teeth.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": "dark grey long-sleeved",
+          "apron": "beige"
+        },
+        "pose": "standing, leaning forward"
+      },
+      "parse_ok": true
+    }
+  ]
+}

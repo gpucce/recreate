@@ -1,0 +1,110 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        480.0,
+        322.0,
+        856.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with curly light brown hair sits wearing a light blue Champion sweatshirt and blue jeans, with an older woman's hands resting on his arm and shoulder. He has a gentle, slight smile and is looking directly at the camera while seated on an ornate, patterned chair.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "brand": "Champion",
+            "logo": "red, white, and blue C logo with script text"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "context": "being embraced by an older woman"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.76953125,
+      "box": [
+        664.0,
+        -1.5,
+        840.0,
+        146.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A person is depicted in a classical painting style, wearing a flowing, light-colored dress with a dark sash or belt around the waist. The figure is shown from the torso down, with one arm bent and resting near the waist, and the fabric of the dress drapes in soft folds.",
+      "attributes": {
+        "clothing": {
+          "dress": {
+            "color": "light beige or cream",
+            "style": "flowing, classical",
+            "details": "dark sash or belt at the waist"
+          }
+        },
+        "pose": "standing, arm bent at the elbow",
+        "art_style": "classical painting",
+        "visible_parts": "torso, waist, upper legs, one arm"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        70.0,
+        158.0,
+        864.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits on a patterned armchair, wearing a dark blue velvet robe with silver beaded trim and a turquoise pendant necklace. She has a warm, gentle smile and is embracing a young boy with curly light brown hair who is wearing a blue Champion sweatshirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "robe": {
+            "color": "dark blue",
+            "material": "velvet",
+            "details": "silver beaded trim, buttons"
+          },
+          "accessories": {
+            "necklace": "gold chain with turquoise oval pendant",
+            "earrings": "pearl drop",
+            "ring": "visible on left hand"
+          }
+        },
+        "pose": "sitting, arm around child",
+        "expression": "smiling, warm",
+        "skin": "wrinkled, fair",
+        "position": "left side of frame, next to a boy"
+      },
+      "parse_ok": true
+    }
+  ]
+}

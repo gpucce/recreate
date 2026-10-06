@@ -1,0 +1,170 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "cliff",
+      "index": 0,
+      "score": 0.67578125,
+      "box": [
+        2.0,
+        370.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/cliff_0.png",
+      "crop": null,
+      "description": "A rugged, reddish-orange sandstone cliff face dominates the foreground, featuring distinct horizontal striations and weathered textures. The rock surface is uneven with cracks and crevices, and sparse desert vegetation, including small shrubs and a single dry plant, grows in the crevices. In the background, a winding dirt road cuts through a flat, arid landscape dotted with low-lying bushes and distant red rock formations under a clear sky.",
+      "attributes": {
+        "color": "reddish-orange",
+        "material": "sandstone",
+        "texture": "weathered, striated, cracked",
+        "vegetation": "sparse shrubs, dry plant",
+        "background": "arid landscape, dirt road, distant rock formations",
+        "position": "foreground, elevated view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dirt_path",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        480.0,
+        404.0,
+        1024.0,
+        708.0
+      ],
+      "mask": "image_2.masks/dirt_path_0.png",
+      "crop": null,
+      "description": "A winding dirt path cuts through a desert landscape, flanked by reddish-brown rock formations and sparse vegetation. The path appears well-trodden, with a light brown color contrasting against the darker soil and rocks.",
+      "attributes": {
+        "color": "light brown",
+        "material": "dirt",
+        "shape": "winding",
+        "surroundings": {
+          "vegetation": "sparse desert plants",
+          "rocks": "reddish-brown formations",
+          "terrain": "desert"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 0,
+      "score": 0.5546875,
+      "box": [
+        2.0,
+        372.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/hill_0.png",
+      "crop": null,
+      "description": "A rugged, reddish-brown sandstone hill with distinct, wavy sedimentary layers and erosion patterns dominates the foreground, featuring sparse desert vegetation including small shrubs and a single tuft of grass growing from a crevice. The hill slopes downward toward a flat, arid landscape with a winding dirt road and distant, hazy mountains in the background.",
+      "attributes": {
+        "color": "reddish-brown, orange, tan",
+        "material": "sandstone, rock",
+        "texture": "smooth, layered, eroded, wavy",
+        "vegetation": "sparse shrubs, single tuft of grass",
+        "topography": "sloping, rugged, eroded",
+        "background": "flat desert, winding dirt road, distant mountains",
+        "lighting": "bright sunlight, casting shadows"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        6.0,
+        326.0,
+        1016.0,
+        382.0
+      ],
+      "mask": "image_2.masks/hill_1.png",
+      "crop": null,
+      "description": "A panoramic view of a rugged, arid landscape featuring a range of eroded hills and mountains in the background, with prominent reddish-brown sand dunes in the foreground. The terrain is dry and barren, with visible erosion patterns and varying shades of brown, tan, and red across the hills and dunes.",
+      "attributes": {
+        "terrain_type": "arid, eroded hills and sand dunes",
+        "colors": [
+          "reddish-brown",
+          "tan",
+          "light brown"
+        ],
+        "features": [
+          "erosion patterns",
+          "sand dunes",
+          "barren landscape"
+        ],
+        "position": "background hills, foreground dunes",
+        "lighting": "natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 2,
+      "score": 0.50390625,
+      "box": [
+        84.0,
+        350.0,
+        366.0,
+        386.0
+      ],
+      "mask": "image_2.masks/hill_2.png",
+      "crop": null,
+      "description": "A reddish-brown hill with a rugged, eroded surface and a prominent peak, surrounded by lighter, sandy terrain and sparse vegetation at its base.",
+      "attributes": {
+        "color": "reddish-brown",
+        "texture": "rugged, eroded",
+        "shape": "prominent peak",
+        "surroundings": "lighter sandy terrain, sparse vegetation",
+        "position": "central in the crop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        2.0,
+        328.0,
+        1024.0,
+        384.0
+      ],
+      "mask": "image_2.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A panoramic view of a rugged mountain range with eroded, layered rock formations in shades of red, orange, and beige, stretching across the horizon under a clear sky. The foreground features smooth, undulating sand dunes and sparse desert vegetation, contrasting with the jagged peaks in the background.\", \"attributes\": {\"color\": [\"red\", \"orange\", \"beige\", \"brown\"], \"texture\": \"eroded\", \"layered\", \"smooth\", \"jagged\", \"terrain\": \"desert\", \"mountain_type\": \"eroded\", \"sky\": \"clear\", \"vegetation\": \"sparse\"}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        2.0,
+        -1.0,
+        1024.0,
+        336.0
+      ],
+      "mask": "image_2.masks/sky_0.png",
+      "crop": null,
+      "description": "A vast expanse of clear blue sky dominates the upper portion of the image, featuring wispy, streaky cirrus clouds that stretch diagonally across the frame. Below the sky, a rugged, arid landscape with reddish-brown rock formations and sparse vegetation forms a low horizon line.",
+      "attributes": {
+        "sky_color": "blue",
+        "cloud_type": "cirrus",
+        "cloud_shape": "wispy, streaky",
+        "cloud_position": "upper and middle sections",
+        "landscape": "arid, rocky",
+        "landscape_color": "reddish-brown",
+        "horizon_line": "low, uneven"
+      },
+      "parse_ok": true
+    }
+  ]
+}

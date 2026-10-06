@@ -1,0 +1,220 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        444.0,
+        98.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy gray hair and a full gray beard sits on a wooden stool, wearing a brown leather jacket over an orange polo shirt and blue jeans. He has a serious, contemplative expression while looking off to the side with his hands clasped together in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "wavy, medium length"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "style": "full beard and mustache"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "details": "zipper, ribbed cuffs"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "orange"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting on a wooden stool",
+        "expression": "serious, looking away",
+        "hands": "clasped together"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        -2.0,
+        142.0,
+        568.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly dark brown hair and light facial stubble sits on a wooden bench, wearing a teal t-shirt and beige trousers. He has a distressed expression, looking down with his right hand covering his nose and mouth area.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_hair": "light stubble",
+        "expression": "sad or distressed",
+        "pose": "sitting, head down, hand covering nose",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "position": "seated on a wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.55078125,
+      "box": [
+        972.0,
+        0.0,
+        1032.0,
+        366.0
+      ],
+      "mask": "image_8.masks/wall_0.png",
+      "crop": null,
+      "description": "A vertical crop of a plain, light beige wall with a smooth, matte finish and subtle vertical texture. A darker, shadowed horizontal band is visible at the very bottom edge, suggesting a floor or baseboard.",
+      "attributes": {
+        "color": "light beige",
+        "material": "plaster or drywall",
+        "texture": "smooth matte",
+        "lighting": "even",
+        "features": [
+          "plain surface",
+          "bottom shadow"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.5390625,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/wall_1.png",
+      "crop": null,
+      "description": "Two men are seated side by side on a wooden bench against a plain, light-colored wall. The man on the left has curly dark hair and is wearing a teal t-shirt and beige pants, with his hand covering his mouth in a contemplative or distressed pose. The man on the right has gray hair and a beard, wearing a brown leather jacket over an orange polo shirt and blue jeans, looking off to the side with a serious expression.",
+      "attributes": {
+        "men": [
+          {
+            "position": "left",
+            "hair": "curly, dark brown",
+            "clothing": {
+              "shirt": "teal t-shirt",
+              "pants": "beige"
+            },
+            "pose": "sitting, hand over mouth",
+            "expression": "contemplative or distressed"
+          },
+          {
+            "position": "right",
+            "hair": "gray, wavy",
+            "beard": "gray",
+            "clothing": {
+              "jacket": "brown leather",
+              "shirt": "orange polo",
+              "pants": "blue jeans"
+            },
+            "pose": "sitting, hands clasped",
+            "expression": "serious, looking away"
+          }
+        ],
+        "background": "plain, light-colored wall",
+        "seating": "wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        -8.0,
+        366.0,
+        968.0,
+        1016.0
+      ],
+      "mask": "image_8.masks/wall_2.png",
+      "crop": null,
+      "description": "Two men are sitting side by side on a wooden bench, with the younger man on the left appearing distressed and the older man on the right looking calm and supportive. The younger man is wearing a teal t-shirt and beige pants, while the older man is dressed in a brown leather jacket over an orange polo shirt and blue jeans.",
+      "attributes": {
+        "gender": "male",
+        "age": [
+          "young adult",
+          "older adult"
+        ],
+        "clothing": {
+          "younger_man": {
+            "shirt": "teal t-shirt",
+            "pants": "beige pants"
+          },
+          "older_man": {
+            "jacket": "brown leather",
+            "shirt": "orange polo",
+            "pants": "blue jeans"
+          }
+        },
+        "pose": "sitting",
+        "expression": {
+          "younger_man": "distressed",
+          "older_man": "calm"
+        },
+        "position": "side by side on a wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 3,
+      "score": 0.73828125,
+      "box": [
+        0.0,
+        -3.0,
+        968.0,
+        372.0
+      ],
+      "mask": "image_8.masks/wall_3.png",
+      "crop": null,
+      "description": "A plain, smooth wall with a light beige or off-white color, featuring a subtle vertical texture or paneling on the right side and a faint horizontal line or shadow near the bottom.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "texture": "smooth with subtle vertical paneling on the right",
+        "features": [
+          "faint horizontal line near the bottom",
+          "subtle vertical texture on the right side"
+        ],
+        "material": "likely painted drywall or plaster",
+        "lighting": "even, soft lighting with no harsh shadows"
+      },
+      "parse_ok": true
+    }
+  ]
+}

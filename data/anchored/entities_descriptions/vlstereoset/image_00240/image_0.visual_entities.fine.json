@@ -1,0 +1,319 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "counter",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        320.0,
+        326.0,
+        800.0,
+        528.0
+      ],
+      "mask": "image_0.masks/counter_0.png",
+      "crop": null,
+      "description": "A weathered blue wooden counter with a glass front, displaying a stack of golden-brown pastries and a single white bread roll on a metal tray. Above the counter, a shelf holds various items including a red Coca-Cola can, green glass jars, a white plate, and a white electric kettle.",
+      "attributes": {
+        "color": "blue",
+        "material": "wood",
+        "condition": "weathered",
+        "front": "glass",
+        "items_on_shelf": [
+          "red Coca-Cola can",
+          "green glass jars",
+          "white plate",
+          "white electric kettle"
+        ],
+        "items_on_counter": [
+          "stack of golden-brown pastries",
+          "white bread roll",
+          "metal tray"
+        ],
+        "background": "blue wooden paneling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        42.25,
+        0.0,
+        400.0,
+        480.0
+      ],
+      "mask": "image_0.masks/curtain_0.png",
+      "crop": null,
+      "description": "A patterned curtain hangs vertically in the background, featuring a beige section on the left with a faint, large floral or damask motif and a reddish-brown section on the right with a repeating vertical border design. The fabric appears to be a standard woven material with a matte finish, showing natural folds and creases.",
+      "attributes": {
+        "color": {
+          "left_section": "beige",
+          "right_section": "reddish-brown"
+        },
+        "pattern": {
+          "left_section": "faint floral or damask motif",
+          "right_section": "repeating vertical border design"
+        },
+        "material": "woven fabric",
+        "texture": "matte",
+        "state": "hanging with folds"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "curtain",
+      "index": 1,
+      "score": 0.53515625,
+      "box": [
+        223.0,
+        0.0,
+        404.0,
+        348.0
+      ],
+      "mask": "image_0.masks/curtain_1.png",
+      "crop": null,
+      "description": "A beige curtain with a vertical pattern of reddish-brown, ornate, repeating motifs hangs in the background, featuring a textured fabric surface.",
+      "attributes": {
+        "color": "beige with reddish-brown pattern",
+        "pattern": "vertical ornate motifs",
+        "material": "textured fabric",
+        "position": "background, left side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "curtain",
+      "index": 2,
+      "score": 0.7890625,
+      "box": [
+        428.0,
+        0.0,
+        800.0,
+        272.0
+      ],
+      "mask": "image_0.masks/curtain_2.png",
+      "crop": null,
+      "description": "A patterned curtain hangs in the background, featuring vertical stripes of deep maroon and a lighter, textured beige or off-white fabric. The maroon sections contain a repeating floral or leaf-like motif in a slightly lighter shade, while the beige sections have a subtle, possibly woven or embossed texture. The curtain appears to be made of a soft, drapable material, likely cotton or a blend, and is gathered in gentle folds.",
+      "attributes": {
+        "type": "curtain",
+        "pattern": "vertical stripes with floral/leaf motif",
+        "colors": {
+          "primary": "deep maroon",
+          "secondary": "beige/off-white"
+        },
+        "material": "textured fabric, likely cotton or blend",
+        "texture": "subtle weave or embossing on beige sections",
+        "drape": "gathered in soft folds",
+        "function": "window covering or room divider"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        580.0,
+        75.5,
+        752.0,
+        322.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with dark skin and a maroon headscarf sits at a table, wearing a light-colored, short-sleeved button-down shirt. In the foreground, a glass bottle of Dr Pepper and a blue bowl are visible on the table surface.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "headwear": {
+          "type": "headscarf",
+          "color": "maroon"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light grey or off-white",
+            "sleeves": "short",
+            "style": "button-down"
+          }
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "accessories": {
+          "bracelet": "thin, dark"
+        },
+        "foreground_objects": [
+          "Dr Pepper bottle",
+          "blue bowl"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        77.5,
+        212.0,
+        253.0,
+        532.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged man with a dark complexion and a mustache sits against a textured beige wall, wearing a brown fedora-style hat, a maroon collared shirt, and a blue denim jacket. He has a serious expression and is looking slightly to the side, with his hands resting in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "South Asian",
+        "facial_hair": "mustache",
+        "expression": "serious",
+        "pose": "sitting",
+        "clothing": {
+          "hat": {
+            "type": "fedora",
+            "color": "brown"
+          },
+          "shirt": {
+            "color": "maroon",
+            "type": "collared"
+          },
+          "jacket": {
+            "material": "denim",
+            "color": "blue"
+          },
+          "pants": {
+            "color": "brown"
+          }
+        },
+        "background": "textured beige wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        244.0,
+        270.0,
+        324.0,
+        532.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A young Black boy with short dark hair stands facing forward, wearing a dark, short-sleeved t-shirt and patterned pants. He has a neutral expression and is positioned in a dimly lit indoor setting with a patterned curtain visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "dark grey or black",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "pattern": "white floral or abstract print on dark background"
+          }
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "lighting": "dim"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9375,
+      "box": [
+        280.0,
+        67.5,
+        438.0,
+        340.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling Black man with short black hair stands wearing a short-sleeved polo shirt with horizontal green and white stripes, with a white cloth draped over his left shoulder. He is positioned behind a white machine or counter, with a young child partially visible in the lower left corner.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "pattern": "striped",
+            "colors": [
+              "green",
+              "white"
+            ]
+          },
+          "accessory": {
+            "type": "cloth",
+            "color": "white",
+            "position": "over left shoulder"
+          }
+        },
+        "pose": "standing",
+        "position": "center",
+        "context": {
+          "background": "curtained",
+          "foreground": "white machine/counter"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.92578125,
+      "box": [
+        418.0,
+        25.0,
+        576.0,
+        286.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A young Black man with short dark hair and a neutral expression stands facing the camera, wearing a short-sleeved polo shirt with a beige and brown plaid pattern. He is positioned behind a counter or table where a metal basket and a green thermos are visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "neutral",
+        "pose": "standing, facing forward",
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "sleeves": "short",
+            "pattern": "plaid",
+            "colors": [
+              "beige",
+              "brown",
+              "white"
+            ]
+          }
+        },
+        "position": "center, behind foreground objects"
+      },
+      "parse_ok": true
+    }
+  ]
+}

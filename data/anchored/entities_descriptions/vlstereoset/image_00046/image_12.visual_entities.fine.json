@@ -1,0 +1,130 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.72265625,
+      "box": [
+        888.0,
+        348.0,
+        1024.0,
+        440.0
+      ],
+      "mask": "image_12.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up view of a cabinet featuring a light-colored wooden top and a plain white front panel, with a thin vertical edge visible on the left side.",
+      "attributes": {
+        "material": {
+          "top": "wood",
+          "body": "painted surface"
+        },
+        "color": {
+          "top": "light brown",
+          "body": "white"
+        },
+        "style": "minimalist",
+        "visible_parts": [
+          "top edge",
+          "front panel",
+          "left side edge"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        2.0,
+        426.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/couch_0.png",
+      "crop": null,
+      "description": "A modern, light gray fabric couch with a textured weave, featuring a thick seat cushion and a backrest. A person wearing lavender satin pajamas is sitting cross-legged on the couch, with a beige throw pillow placed to their left.",
+      "attributes": {
+        "color": "light gray",
+        "material": "textured fabric",
+        "style": "modern",
+        "components": {
+          "seat": "thick cushion",
+          "backrest": "upright",
+          "armrest": "visible on the left side"
+        },
+        "occupant": {
+          "clothing": "lavender satin pajamas with white piping",
+          "pose": "sitting cross-legged",
+          "position": "center of the couch"
+        },
+        "accessories": {
+          "pillow": "beige, square, placed on the left side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        156.0,
+        62.0,
+        884.0,
+        1000.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with medium skin tone and voluminous dark curly hair sits cross-legged on a grey sofa, wearing a lavender satin pajama set with white piping and round wire-rimmed glasses. She has a neutral expression and is looking directly at the camera with her hands resting on her legs.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed"
+        },
+        "clothing": {
+          "type": "pajama set",
+          "material": "satin",
+          "color": "lavender",
+          "details": "white piping, button-down shirt, chest pocket"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        146.0,
+        502.0,
+        358.0,
+        744.0
+      ],
+      "mask": "image_12.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, off-white pillow with a soft, textured fabric surface rests against the back of a grey sofa, positioned next to a person wearing light purple clothing.",
+      "attributes": {
+        "color": "off-white",
+        "shape": "square",
+        "material": "soft fabric",
+        "texture": "slightly wrinkled",
+        "position": "leaning against sofa back",
+        "context": "indoor, on a sofa"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        284.0,
+        368.0,
+        628.0,
+        864.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with curly brown hair and a light blue knit sweater holding a baby in a white long-sleeved bodysuit. The woman is kissing the baby's forehead while the baby looks to the side with a calm expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light blue",
+            "material": "knit"
+          }
+        },
+        "action": "kissing baby on forehead",
+        "accessories": {
+          "earrings": "visible"
+        },
+        "associated_person": {
+          "age_group": "infant",
+          "clothing": {
+            "type": "bodysuit",
+            "color": "white",
+            "sleeves": "long"
+          },
+          "expression": "calm"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        -4.0,
+        102.0,
+        896.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark curly hair wearing a light blue knit sweater holds a baby in a white onesie, kissing the baby's forehead while seated on a beige couch.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light blue",
+            "material": "knit"
+          }
+        },
+        "pose": "sitting, holding baby",
+        "action": "kissing baby's forehead",
+        "expression": "affectionate, eyes closed",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "context": {
+          "holding": "baby",
+          "location": "on a couch"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        442.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or cream-colored sofa with a soft, textured fabric surface, featuring a thick, cushioned backrest and armrest. The sofa appears to be upholstered in a durable, woven material, providing a neutral and comfortable background for the scene.",
+      "attributes": {
+        "color": "light beige",
+        "material": "textured fabric",
+        "type": "sofa",
+        "features": [
+          "cushioned backrest",
+          "armrest"
+        ],
+        "condition": "clean and well-maintained"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,330 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        984.0,
+        632.0,
+        1032.0,
+        952.0
+      ],
+      "mask": "image_3.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a white chair leg with a black cap, positioned on a light floor in front of a blue and white striped surface.",
+      "attributes": {
+        "leg_color": "white",
+        "leg_cap": "black",
+        "leg_shape": "cylindrical",
+        "background": "blue and white stripes",
+        "floor": "light beige"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        856.0,
+        988.0,
+        1008.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of the top edge of a chair backrest, which is light gray or off-white with a smooth, matte finish and rounded corners. The background is a blurry, dark blue surface, likely a person's clothing.",
+      "attributes": {
+        "object": "chair",
+        "part": "backrest",
+        "color": "light gray",
+        "material": "smooth, matte",
+        "shape": "rounded top edge",
+        "focus": "blurry",
+        "background": "dark blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        -2.25,
+        800.0,
+        97.0,
+        904.0
+      ],
+      "mask": "image_3.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up view of a chair backrest featuring a smooth, dark teal or slate blue surface with a rounded top edge. The material appears to be a matte fabric or leather, positioned in front of a light wooden surface and a blurred background containing a person in a blue shirt.",
+      "attributes": {
+        "object_type": "chair",
+        "part_visible": "backrest",
+        "color": "dark teal",
+        "material": "matte fabric or leather",
+        "shape": "rounded top edge",
+        "background": "light wood, person in blue shirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        -0.5,
+        616.0,
+        85.5,
+        808.0
+      ],
+      "mask": "image_3.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's arm and torso, wearing a light blue shirt, with a blurred background featuring a wooden surface and a white drawer or cabinet.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue"
+        },
+        "body_part": "arm and torso",
+        "background": {
+          "surface": "wooden",
+          "cabinet": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -6.0,
+        840.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/desk_1.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, polished surface and visible wood grain patterns. A person is seated at the desk, writing on a clipboard with a black pen.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth, polished",
+        "features": [
+          "wood grain patterns",
+          "rounded edge"
+        ],
+        "function": "workspace",
+        "objects_on_desk": [
+          "clipboard",
+          "pen"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        268.0,
+        232.0,
+        468.0,
+        800.0
+      ],
+      "mask": "image_3.masks/door_0.png",
+      "crop": null,
+      "description": "A white door with a vertical rectangular window in the center, partially visible behind a person wearing blue scrubs. The door appears to be made of a smooth material and has a simple, clean design.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth",
+        "window": "vertical rectangular",
+        "position": "background",
+        "design": "simple, clean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        740.0,
+        172.0,
+        1004.0,
+        1012.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A man with dark curly hair and a short beard stands in profile facing left, wearing a light blue short-sleeved medical scrub top with a pen clipped to the chest pocket and matching pants with his hand in the pocket. He appears to be in a clinical or office setting, looking attentively at someone or something out of frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, short"
+        },
+        "facial_hair": "short beard and mustache",
+        "clothing": {
+          "top": "light blue V-neck scrub shirt",
+          "bottom": "light blue scrub pants",
+          "accessories": "black pen clipped to chest pocket"
+        },
+        "pose": "standing, side profile, one hand in pocket",
+        "expression": "neutral, attentive",
+        "context": "medical or professional environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        30.0,
+        188.0,
+        392.0,
+        892.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair stands in profile facing right, wearing light blue medical scrubs with a pen clipped to the chest pocket. He is gesturing with both hands open, palms facing each other, as if explaining something, with a focused expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "type": "scrubs",
+          "color": "light blue",
+          "details": "V-neck top, short sleeves, chest pocket with pen, matching pants"
+        },
+        "pose": "standing, gesturing with both hands",
+        "expression": "focused, speaking",
+        "setting": "indoor, likely medical or clinical environment (fan and monitor visible in background)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        404.0,
+        258.0,
+        676.0,
+        848.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A woman with short brown hair and black-rimmed glasses stands with her arms crossed, wearing a dark blue V-neck scrub top and a delicate gold necklace. She has a serious, attentive expression while looking to the side, positioned in the background behind another person with curly red hair.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "bob"
+        },
+        "accessories": {
+          "glasses": "black-rimmed",
+          "necklace": "thin gold chain",
+          "ring": "visible on finger"
+        },
+        "clothing": {
+          "top": "dark blue V-neck scrub shirt",
+          "bottom": "dark blue scrub pants"
+        },
+        "pose": "standing with arms crossed",
+        "expression": "serious and attentive",
+        "social_role": "medical professional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        446.0,
+        498.0,
+        864.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A person with voluminous, curly red hair is seen from behind, wearing a dark blue short-sleeved scrub top while seated at a wooden table. They are holding a black pen in their right hand, writing on a clipboard or paper, with their left arm resting on the table.",
+      "attributes": {
+        "hair": {
+          "color": "red",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "type": "scrub shirt",
+            "color": "dark blue",
+            "sleeves": "short"
+          }
+        },
+        "pose": "seated, writing",
+        "accessories": {
+          "glasses": "visible frame on side of head"
+        },
+        "action": "writing with a black pen"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        880.0,
+        224.0,
+        1024.0,
+        472.0
+      ],
+      "mask": "image_3.masks/sign_0.png",
+      "crop": null,
+      "description": "A close-up, over-the-shoulder view of a person with short dark hair wearing a light blue medical scrub top, facing a blurred white wall-mounted sign with blue headers and text lines.",
+      "attributes": {
+        "person": {
+          "hair": "dark brown, short",
+          "clothing": {
+            "top": "light blue scrub shirt"
+          },
+          "pose": "standing, facing away from camera"
+        },
+        "sign": {
+          "background": "white",
+          "text_color": "blue and black",
+          "layout": "columns of text with blue headers",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 1,
+      "score": 0.828125,
+      "box": [
+        336.0,
+        181.0,
+        400.0,
+        219.0
+      ],
+      "mask": "image_3.masks/sign_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

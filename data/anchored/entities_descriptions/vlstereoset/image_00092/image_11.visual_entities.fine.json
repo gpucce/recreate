@@ -1,0 +1,86 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        90.5,
+        43.5,
+        300.0,
+        252.0
+      ],
+      "mask": "image_11.masks/clock_0.png",
+      "crop": null,
+      "description": "A round wall clock with a light wood frame and a cream-colored face featuring black Roman numerals and hands. The clock is set against a solid light purple background.",
+      "attributes": {
+        "shape": "round",
+        "frame": {
+          "material": "wood",
+          "color": "light beige"
+        },
+        "face": {
+          "color": "cream",
+          "numerals": "black Roman numerals"
+        },
+        "hands": {
+          "color": "black",
+          "style": "simple stick"
+        },
+        "background": "light purple",
+        "type": "wall clock"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        120.0,
+        80.0,
+        912.0,
+        1008.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits cross-legged on a bed, wearing a white short-sleeved t-shirt and white textured pajama pants with a drawstring waist. She has a beige quilted sleep mask over her eyes and a calm, neutral expression, with her hands resting gently on her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "long, wavy",
+          "length": "past shoulders"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pajama pants",
+            "color": "white",
+            "texture": "ribbed or crinkled fabric",
+            "waistband": "drawstring"
+          },
+          "accessories": {
+            "sleep_mask": {
+              "color": "beige",
+              "pattern": "quilted diamond",
+              "position": "over eyes"
+            }
+          }
+        },
+        "pose": "sitting cross-legged on bed",
+        "expression": "calm, neutral, eyes covered",
+        "skin_tone": "fair",
+        "setting": "bedroom, purple wall, white bed frame, clock visible in background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

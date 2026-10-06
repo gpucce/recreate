@@ -1,0 +1,255 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        816.0,
+        290.0,
+        1024.0,
+        402.0
+      ],
+      "mask": "image_4.masks/building_0.png",
+      "crop": null,
+      "description": "A single-story, flat-roofed building with a smooth, light beige or tan stucco exterior. The structure features several rectangular windows with dark frames, some of which appear to have security bars or grilles. The building has a simple, boxy architectural style typical of arid or desert environments.",
+      "attributes": {
+        "structure": {
+          "type": "single-story building",
+          "roof": "flat",
+          "walls": "smooth stucco",
+          "color": "light beige/tan",
+          "windows": {
+            "shape": "rectangular",
+            "frame_color": "dark",
+            "features": "some with security bars"
+          },
+          "style": "modern, boxy, desert architecture"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.7421875,
+      "box": [
+        576.0,
+        288.0,
+        1024.0,
+        404.0
+      ],
+      "mask": "image_4.masks/building_1.png",
+      "crop": null,
+      "description": "A beige, two-story building with a flat roof and rectangular windows is visible in the background, partially obscured by a person in military gear and a dark vehicle in the foreground.",
+      "attributes": {
+        "color": "beige",
+        "structure": "two-story",
+        "roof": "flat",
+        "windows": "rectangular",
+        "material": "concrete or stucco",
+        "position": "background",
+        "obscured_by": [
+          "person in military gear",
+          "dark vehicle"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        520.0,
+        116.0,
+        832.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A soldier in a desert camouflage uniform and tactical gear is standing and saluting with their right hand, viewed from the side and back. They are wearing a tan helmet with attachments, a tactical vest, and tan combat boots, with other soldiers visible in the background.\", \"attributes\": {\"gender\": \"male\", \"age\": \"adult\", \"social_role\": \"soldier\", \"pose\": \"standing, saluting\", \"clothing\": {\"uniform\": \"desert camouflage pattern (tan, brown, beige)\", \"helmet\": \"tan, with rail system and attachments\", \"vest\": \"tan tactical vest with MOLLE webbing\", \"boots\": \"tan combat boots\", \"gloves\": \"tan tactical gloves\", \"accessories\": \"wristwatch on left wrist, sunglasses, tactical pouches on belt and vest\"}}, \"background\": \"outdoor, desert environment, other soldiers in similar uniform, white vehicle, dark SUV\"}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        288.0,
+        392.0,
+        528.0,
+        784.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A male soldier in his 20s or 30s is seated, wearing a desert camouflage uniform, a tan tactical vest, and a tan helmet with goggles resting on the brim. He is holding a black assault rifle with a curved magazine across his lap, looking off to the side with a neutral expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "desert camouflage",
+          "vest": "tan tactical vest",
+          "boots": "tan combat boots",
+          "helmet": "tan combat helmet",
+          "accessories": "goggles on helmet"
+        },
+        "pose": "seated",
+        "holding": "black assault rifle",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        107.0,
+        394.0,
+        372.0,
+        864.0
+      ],
+      "mask": "image_4.masks/person_2.png",
+      "crop": null,
+      "description": "A male soldier wearing a desert camouflage uniform and tan tactical gear sits on a wooden crate, holding a black assault rifle with a curved magazine across his lap. He wears a tan helmet with a star insignia, sunglasses, and tan combat boots, looking off to the side with a neutral expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "desert camouflage pattern",
+          "vest": "tan tactical vest",
+          "helmet": "tan with star insignia",
+          "boots": "tan combat boots",
+          "accessories": "sunglasses"
+        },
+        "pose": "sitting on wooden crate",
+        "holding": "black assault rifle",
+        "expression": "neutral",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.890625,
+      "box": [
+        540.0,
+        400.0,
+        628.0,
+        744.0
+      ],
+      "mask": "image_4.masks/person_3.png",
+      "crop": null,
+      "description": "A soldier wearing a tan combat uniform and helmet is crouching while holding a black assault rifle with a tan stock. The individual is equipped with tactical gear, including a vest and tan combat boots, positioned on a gravel surface.",
+      "attributes": {
+        "role": "soldier",
+        "pose": "crouching",
+        "clothing": {
+          "uniform": "tan camouflage",
+          "boots": "tan combat boots",
+          "helmet": "tan",
+          "vest": "tan tactical vest"
+        },
+        "equipment": {
+          "weapon": "black rifle with tan stock"
+        },
+        "location": "outdoors on gravel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.8984375,
+      "box": [
+        430.0,
+        396.0,
+        616.0,
+        764.0
+      ],
+      "mask": "image_4.masks/person_4.png",
+      "crop": null,
+      "description": "A male soldier in his 20s or 30s with a light complexion and short dark hair is seated, wearing a tan combat uniform, a helmet with a patch, and sunglasses. He holds a black assault rifle with a curved magazine across his lap, looking forward with a serious expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "social_role": "soldier",
+        "clothing": {
+          "uniform": "tan camouflage",
+          "helmet": "tan with patch",
+          "glasses": "black sunglasses",
+          "boots": "tan combat boots"
+        },
+        "pose": "seated",
+        "expression": "serious",
+        "accessories": {
+          "weapon": "black assault rifle"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        796.0,
+        358.0,
+        1024.0,
+        512.0
+      ],
+      "mask": "image_4.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A dark gray, four-door pickup truck is shown in profile, facing right, with a visible side mirror, door handles, and a black side step. The vehicle has a boxy design with a visible front wheel and tire, and a portion of a wooden crate or pallet is visible on the far left edge.",
+      "attributes": {
+        "vehicle_type": "pickup truck",
+        "color": "dark gray",
+        "doors": 4,
+        "orientation": "side profile",
+        "facing": "right",
+        "features": [
+          "side mirror",
+          "door handles",
+          "side step",
+          "front wheel",
+          "tire"
+        ],
+        "condition": "used",
+        "visible_objects": [
+          "wooden crate"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        0.0,
+        22.0,
+        576.0,
+        672.0
+      ],
+      "mask": "image_4.masks/vehicle_1.png",
+      "crop": null,
+      "description": "A white bus with a blue stripe running horizontally along its side is visible, featuring multiple rectangular windows with rounded corners. The bus appears to be a standard passenger or shuttle bus, with a clean and well-maintained exterior. The windows are evenly spaced, and the bus's design suggests it is used for transporting groups of people.",
+      "attributes": {
+        "color": "white with blue stripe",
+        "type": "bus",
+        "windows": "multiple rectangular with rounded corners",
+        "condition": "clean and well-maintained",
+        "function": "passenger transport"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        1000.0,
+        688.0,
+        1024.0,
+        856.0
+      ],
+      "mask": "image_1.masks/grass_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.6640625,
+      "box": [
+        -1.0,
+        620.0,
+        344.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/grass_1.png",
+      "crop": null,
+      "description": "A patch of green grass with some brown leaves scattered on the ground, growing alongside a paved path.",
+      "attributes": {
+        "color": "green",
+        "texture": "leafy",
+        "location": "alongside a paved path",
+        "condition": "healthy with some fallen leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.74609375,
+      "box": [
+        0.0,
+        432.0,
+        1020.0,
+        1016.0
+      ],
+      "mask": "image_1.masks/grass_2.png",
+      "crop": null,
+      "description": "A small child with curly blonde hair is walking on a paved path, holding the hand of an adult. The child is wearing a yellow t-shirt and denim shorts.",
+      "attributes": {
+        "hair": "curly blonde",
+        "clothing": {
+          "shirt": "yellow t-shirt",
+          "shorts": "denim shorts"
+        },
+        "pose": "walking, holding hand",
+        "age": "toddler",
+        "gender": "male"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        46.0,
+        540.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/path_0.png",
+      "crop": null,
+      "description": "A young child with curly blonde hair, wearing a yellow t-shirt and denim shorts, walks hand-in-hand with an older adult, likely a grandmother, who is dressed in a light-colored striped shirt and blue jeans. They are walking away from the camera on a paved path in a park, with green grass and trees visible in the background.",
+      "attributes": {
+        "child": {
+          "hair": "curly blonde",
+          "clothing": {
+            "shirt": "yellow t-shirt",
+            "shorts": "denim shorts"
+          },
+          "pose": "walking"
+        },
+        "adult": {
+          "clothing": {
+            "shirt": "light-colored striped shirt",
+            "pants": "blue jeans"
+          },
+          "pose": "walking"
+        },
+        "setting": {
+          "path": "paved",
+          "background": "green grass and trees",
+          "location": "park"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        548.0,
+        112.0,
+        892.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair is seen from behind, walking away while holding the hand of a child. She wears a light-colored, long-sleeved button-down shirt with thin vertical stripes and rolled-up sleeves, paired with light blue denim jeans.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white with light stripes",
+            "sleeves": "long, rolled up",
+            "material": "cotton"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "material": "denim"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hands",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        328.0,
+        460.0,
+        592.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with wavy blonde hair is seen from behind, wearing a yellow short-sleeved t-shirt and blue denim shorts, walking while holding the hand of an adult whose arm is partially visible on the right.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "blonde",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "yellow",
+            "sleeves": "short"
+          },
+          "shorts": {
+            "type": "denim shorts",
+            "color": "blue"
+          }
+        },
+        "pose": "walking, holding hand",
+        "position": "center-left of frame, facing away from camera"
+      },
+      "parse_ok": true
+    }
+  ]
+}

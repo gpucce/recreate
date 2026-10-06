@@ -1,0 +1,87 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        136.0,
+        476.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up crop of a man's upper torso wearing a formal black three-piece suit with a white high-collared shirt and a black bow tie. The man has a thick, reddish-brown handlebar mustache, and the image is a painting with visible brushstrokes and a dark, mottled background.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "adult",
+        "facial_hair": {
+          "mustache": "thick, reddish-brown, handlebar style"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "style": "formal suit jacket",
+            "lapel": "notched"
+          },
+          "vest": {
+            "color": "black",
+            "buttons": "visible, dark"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff, winged"
+          },
+          "neckwear": {
+            "type": "bow tie",
+            "color": "black",
+            "material": "satin or silk"
+          }
+        },
+        "art_style": "oil painting",
+        "background": "dark, mottled brown and grey"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        138.0,
+        68.0,
+        1016.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A painted portrait of a middle-aged man with dark, curly hair and a prominent, thick mustache, wearing a formal black suit with a white shirt and black bow tie. He has a serious expression and is looking slightly to the side against a mottled, dark brown background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, dark brown, curled ends"
+        },
+        "clothing": {
+          "jacket": "black suit",
+          "vest": "black",
+          "shirt": "white",
+          "neckwear": "black bow tie"
+        },
+        "pose": "seated, three-quarter view",
+        "expression": "serious",
+        "medium": "oil painting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

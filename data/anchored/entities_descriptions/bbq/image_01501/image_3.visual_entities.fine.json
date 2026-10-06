@@ -1,0 +1,99 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        95.0,
+        144.0,
+        596.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair sits facing forward, wearing a dark navy blue button-down cardigan over a floral patterned skirt. She has a calm, neutral expression with visible wrinkles and age spots, and her hands are clasped in her lap while a younger woman's hand rests on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "facial_features": {
+          "expression": "neutral",
+          "skin": "wrinkled, age spots"
+        },
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "navy blue",
+            "material": "knit",
+            "details": "button-down"
+          },
+          "bottom": {
+            "type": "skirt",
+            "pattern": "floral",
+            "colors": [
+              "brown",
+              "pink",
+              "white"
+            ]
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "earrings": "small gold hoops"
+          }
+        },
+        "pose": "sitting, hands clasped in lap",
+        "interaction": "hand on shoulder from person to the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        174.0,
+        106.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with wavy brown hair sits next to an older woman, wearing a white button-down shirt with red star embroidery on the chest and a loose red tie, paired with black pants. She has a gentle smile and is looking directly at the camera with her arm around the older woman's shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "details": "red star embroidery on both sides of the chest, sleeves rolled up"
+          },
+          "accessory": {
+            "type": "tie",
+            "color": "red",
+            "style": "loose knot"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "black"
+          }
+        },
+        "pose": "sitting, arm around another person",
+        "expression": "gentle smile, looking at camera"
+      },
+      "parse_ok": true
+    }
+  ]
+}

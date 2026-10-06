@@ -1,0 +1,130 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        516.0,
+        98.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy gray hair and a full gray beard sits facing forward, wearing a brown leather jacket over an orange polo shirt and blue jeans. He has a serious expression with his hands clasped together in his lap while seated on a wooden chair against a white paneled wall.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "wavy, medium length",
+          "beard": "full, gray"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "details": "zippered pockets, collar"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "orange",
+            "details": "buttoned placket"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "expression": "serious, neutral",
+        "background": "white wall with molding"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -5.0,
+        142.0,
+        516.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits on a wooden bench, wearing a teal t-shirt and beige pants, with a distressed expression as he covers his mouth with his right hand while his left arm rests on his lap.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "light stubble",
+        "expression": "distressed or anxious",
+        "pose": "sitting, hunched forward",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal",
+            "sleeve": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "action": "covering mouth with hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        0.0,
+        4.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/wall_0.png",
+      "crop": null,
+      "description": "Two men are seated side by side on a wooden bench against a plain white wall with a subtle horizontal molding. The man on the left has curly dark hair, is wearing a teal t-shirt and beige pants, and is looking down with his hand covering his mouth in a contemplative or distressed pose. The man on the right has gray hair and a full gray beard, is wearing a brown leather jacket over an orange polo shirt and blue jeans, and is looking directly at the camera with a serious expression.",
+      "attributes": {
+        "men": [
+          {
+            "position": "left",
+            "hair": "dark, curly",
+            "clothing": {
+              "shirt": "teal t-shirt",
+              "pants": "beige pants"
+            },
+            "pose": "sitting, head down, hand over mouth",
+            "expression": "contemplative or distressed"
+          },
+          {
+            "position": "right",
+            "hair": "gray, medium length",
+            "beard": "full, gray",
+            "clothing": {
+              "jacket": "brown leather",
+              "shirt": "orange polo",
+              "pants": "blue jeans"
+            },
+            "pose": "sitting, hands clasped",
+            "expression": "serious, direct gaze"
+          }
+        ],
+        "background": "white wall with horizontal molding",
+        "seating": "wooden bench"
+      },
+      "parse_ok": true
+    }
+  ]
+}

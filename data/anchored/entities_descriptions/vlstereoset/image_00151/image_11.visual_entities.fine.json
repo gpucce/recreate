@@ -1,0 +1,143 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        2.0,
+        860.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/desk_0.png",
+      "crop": null,
+      "description": "A person wearing a white long-sleeved shirt is writing in an open notebook with a blue pen, their hands resting on the pages. To the right, a silver laptop is partially visible, and to the left, a white cup sits on a wooden coaster, all placed on a white marble surface.",
+      "attributes": {
+        "person": {
+          "clothing": {
+            "shirt": "white long-sleeved"
+          },
+          "action": "writing",
+          "hand": "holding a blue pen"
+        },
+        "notebook": {
+          "color": "white pages, dark blue cover",
+          "state": "open"
+        },
+        "laptop": {
+          "color": "silver",
+          "state": "open, partially visible"
+        },
+        "cup": {
+          "color": "white",
+          "material": "ceramic",
+          "accessory": "wooden coaster"
+        },
+        "surface": {
+          "material": "marble",
+          "color": "white with gray veining"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        230.0,
+        724.0,
+        346.0,
+        908.0
+      ],
+      "mask": "image_11.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen is held in a person's right hand, positioned diagonally with the tip touching a white surface. The pen features a matching blue clip and a silver-colored metal tip.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": "blue",
+        "finish": "glossy",
+        "clip": {
+          "color": "blue",
+          "position": "top"
+        },
+        "tip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "action": "writing",
+        "hand": "right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        116.0,
+        72.0,
+        876.0,
+        908.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with light skin and brown hair tied in a high bun is wearing black-rimmed glasses and a white crewneck sweatshirt. She is seated at a desk, looking down with a slight smile while writing in an open notebook with a blue pen.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "neckline": "crewneck"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused, slight smile",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": "blue",
+          "notebook": "open, white pages"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        -1.0,
+        276.0,
+        208.0,
+        852.0
+      ],
+      "mask": "image_11.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod with three legs extending from a central hub, positioned in the background and out of focus. The tripod appears to be made of light-colored wood and is standing upright on a flat surface.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

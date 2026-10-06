@@ -1,0 +1,113 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        264.0,
+        114.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, voluminous curly brown hair is shown in profile, wearing a light blue ribbed knit sweater, gently holding a baby in a white onesie while kissing the baby's forehead. The baby has short dark hair and is looking forward with an open mouth.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "long"
+        },
+        "clothing": {
+          "sweater": {
+            "color": "light blue",
+            "material": "knit",
+            "texture": "ribbed"
+          }
+        },
+        "pose": "holding baby, kissing baby's forehead",
+        "expression": "tender, affectionate",
+        "baby": {
+          "clothing": {
+            "onesie": {
+              "color": "white"
+            }
+          },
+          "hair": {
+            "color": "dark brown",
+            "length": "short"
+          },
+          "expression": "alert, mouth slightly open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.85546875,
+      "box": [
+        308.0,
+        376.0,
+        644.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with curly light brown hair wearing a light blue ribbed knit sweater, holding a baby in a white long-sleeved bodysuit. The woman is kissing the baby's forehead while the baby looks forward with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light blue",
+            "texture": "ribbed knit"
+          }
+        },
+        "action": "kissing baby on forehead",
+        "holding": {
+          "subject": "baby",
+          "baby_clothing": "white long-sleeved bodysuit",
+          "baby_hair": "brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        0.0,
+        616.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or taupe fabric sofa with a soft, textured appearance, featuring a large, square back cushion and a matching throw pillow on the left side. The sofa has a modern, minimalist design with clean lines and a plush, comfortable look.",
+      "attributes": {
+        "color": "light beige/taupe",
+        "material": "fabric",
+        "style": "modern/minimalist",
+        "cushions": {
+          "back": "large, square",
+          "throw": "square, matching"
+        },
+        "texture": "soft, slightly textured",
+        "position": "background, partially visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

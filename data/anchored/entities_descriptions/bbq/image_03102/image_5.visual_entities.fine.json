@@ -1,0 +1,104 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        86.0,
+        194.0,
+        648.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with light brown, wavy hair and freckles sits on a beige couch, wearing a grey cable-knit sweater and blue jeans, looking down at a black smartphone held in his hands with a serious expression while a woman's hand rests on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, medium length"
+        },
+        "skin": {
+          "features": "freckles on nose and cheeks"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "grey",
+            "pattern": "cable knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, holding phone with both hands",
+        "expression": "serious, focused, looking down",
+        "accessories": {
+          "held_item": "black smartphone"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        82.0,
+        24.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair sits on a beige couch next to a young boy, wearing a dark blue blazer over a red t-shirt and blue jeans. She has a concerned expression with furrowed brows as she looks down at a black smartphone held by the boy, with her arm resting around his shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "outerwear": "dark blue blazer",
+          "top": "red t-shirt",
+          "bottoms": "blue jeans"
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "action": "looking at phone, arm around child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        364.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/sofa_0.png",
+      "crop": null,
+      "description": "A beige, textured fabric sofa with a thick, rectangular back cushion and a visible armrest on the left side, serving as the seating for a woman and a boy.",
+      "attributes": {
+        "color": "beige",
+        "material": "woven fabric",
+        "texture": "textured",
+        "components": [
+          "back cushion",
+          "armrest"
+        ],
+        "style": "modern"
+      },
+      "parse_ok": true
+    }
+  ]
+}

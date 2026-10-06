@@ -1,0 +1,311 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.73046875,
+      "box": [
+        1560.0,
+        298.0,
+        1584.0,
+        548.0
+      ],
+      "mask": "image_0.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a vertical, reddish-brown wooden structure, likely part of a chair's leg or frame, with a smooth surface and a slightly darker edge on the left side. The background is blurred and indistinct, focusing attention on the wood's texture and color.",
+      "attributes": {
+        "material": "wood",
+        "color": "reddish-brown",
+        "texture": "smooth",
+        "shape": "vertical rectangular",
+        "position": "centered in the frame",
+        "focus": "sharp on the wood, blurred background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        -2.3125,
+        346.0,
+        346.0,
+        688.0
+      ],
+      "mask": "image_0.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a chair featuring a dark, thin metal frame on the left and a white, textured fabric cushion on the right, set against a blurred beige background.",
+      "attributes": {
+        "frame": {
+          "color": "black",
+          "material": "metal",
+          "style": "thin, tubular"
+        },
+        "cushion": {
+          "color": "white",
+          "material": "fabric",
+          "texture": "textured or ribbed"
+        },
+        "focus": "blurry",
+        "background": "beige"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.8359375,
+      "box": [
+        564.0,
+        316.0,
+        1416.0,
+        592.0
+      ],
+      "mask": "image_0.masks/chair_2.png",
+      "crop": null,
+      "description": "A young woman with dark hair pulled back is wearing black-rimmed glasses and a white top, leaning forward with a focused expression as she writes with a blue pen.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "top": "white"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "pose": "leaning forward, writing",
+        "expression": "focused",
+        "object_in_hand": {
+          "type": "pen",
+          "color": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 3,
+      "score": 0.515625,
+      "box": [
+        1216.0,
+        322.0,
+        1416.0,
+        592.0
+      ],
+      "mask": "image_0.masks/chair_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person's upper back and shoulder area, showing dark hair falling over a white top and a black garment or object in the foreground.",
+      "attributes": {
+        "entity_type": "person",
+        "visible_body_parts": [
+          "back",
+          "shoulder",
+          "hair"
+        ],
+        "hair": {
+          "color": "black",
+          "texture": "fine, wispy strands"
+        },
+        "clothing": {
+          "top": {
+            "color": "white",
+            "material": "soft fabric"
+          },
+          "foreground_item": {
+            "color": "black",
+            "material": "smooth, possibly satin or silk"
+          }
+        },
+        "skin_tone": "light",
+        "focus": "blurry",
+        "position": "cropped, side/back view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.5390625,
+      "box": [
+        1408.0,
+        492.0,
+        1560.0,
+        588.0
+      ],
+      "mask": "image_0.masks/desk_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a desk surface featuring a dark, reddish-brown wooden area in the upper section and a dark gray, textured object, likely a laptop or notebook, in the lower right corner.",
+      "attributes": {
+        "surface_color": "dark reddish-brown",
+        "material": "wood",
+        "object_on_desk": {
+          "color": "dark gray",
+          "shape": "rectangular",
+          "position": "bottom right"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        3.09375,
+        744.0,
+        1584.0,
+        884.0
+      ],
+      "mask": "image_0.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up view of a wooden desk surface with a stack of white papers or a book resting on it, showing the edge of the pages and the wood grain texture.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "texture": "wood grain",
+        "object_on_top": "stack of papers or book",
+        "object_color": "white",
+        "focus": "shallow depth of field, blurred background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        668.0,
+        374.0,
+        840.0,
+        728.0
+      ],
+      "mask": "image_0.masks/pen_0.png",
+      "crop": null,
+      "description": "A blue and clear ballpoint pen is held in a person's right hand, with the tip touching a white surface. The pen has a blue cap and a transparent barrel revealing the ink cartridge inside.",
+      "attributes": {
+        "color": {
+          "cap": "blue",
+          "barrel": "clear",
+          "ink": "blue"
+        },
+        "material": {
+          "cap": "plastic",
+          "barrel": "plastic"
+        },
+        "type": "ballpoint pen",
+        "position": "held in hand, writing on a surface",
+        "visible_parts": [
+          "cap",
+          "barrel",
+          "ink cartridge",
+          "tip"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        229.0,
+        19.125,
+        1376.0,
+        744.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with dark hair pulled up into a high bun is leaning forward, focused on writing in a notebook with a blue pen. She wears black-rimmed glasses and a white long-sleeved top, with a black bag visible to her right.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt or hoodie",
+            "color": "white"
+          }
+        },
+        "pose": "leaning forward, writing",
+        "expression": "focused, concentrated",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": {
+            "color": "blue and clear"
+          },
+          "notebook": "open, with handwritten text",
+          "bag": {
+            "color": "black",
+            "position": "to the right of the person"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        2.703125,
+        -1.734375,
+        150.0,
+        824.0
+      ],
+      "mask": "image_0.masks/tripod_0.png",
+      "crop": null,
+      "description": "A close-up view of the lower section of a tripod, showing three thin, dark legs converging at a central joint. The legs appear to be made of metal or a similar rigid material and are positioned against a blurred background with warm, muted tones.",
+      "attributes": {
+        "material": "metal",
+        "color": "dark",
+        "structure": "three-legged",
+        "focus": "lower section",
+        "background": "blurred, warm tones"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window_or_door",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        648.0,
+        0.0,
+        1048.0,
+        326.0
+      ],
+      "mask": "image_0.masks/window_or_door_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus window with a reddish-brown wooden frame and multiple glass panes is visible in the background, partially obscured by the side of a person's head in the foreground.",
+      "attributes": {
+        "frame_color": "reddish-brown",
+        "frame_material": "wood",
+        "glass_panes": "multiple",
+        "focus": "blurred",
+        "position": "background",
+        "obscured_by": "person's head"
+      },
+      "parse_ok": true
+    }
+  ]
+}

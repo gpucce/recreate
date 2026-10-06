@@ -1,0 +1,78 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        768.0,
+        26.0,
+        824.0,
+        936.0
+      ],
+      "mask": "image_3.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender flagpole with a smooth, light-colored surface extends vertically, topped with a spherical finial that appears golden or brass in color. The pole is positioned against a clear, pale blue sky, with a partial view of a statue's arm at the bottom left corner.",
+      "attributes": {
+        "material": "metal",
+        "color": "light gray or silver",
+        "top": {
+          "shape": "spherical",
+          "color": "golden or brass"
+        },
+        "position": "vertical",
+        "background": "clear sky",
+        "visible_parts": [
+          "pole",
+          "finial",
+          "statue arm (partial)"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        238.0,
+        250.0,
+        840.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/statue_0.png",
+      "crop": null,
+      "description": "A close-up, three-quarter view of a classical marble statue of a young man with curly hair, wearing a draped toga secured by a brooch on the right shoulder. The statue has a serene, neutral expression and is positioned in front of a blurred French flag with red, white, and blue vertical stripes.",
+      "attributes": {
+        "material": "marble",
+        "color": "off-white",
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "type": "toga",
+          "details": "draped over left shoulder, fastened with a circular brooch on the right shoulder, folds visible across the chest and waist"
+        },
+        "pose": "standing, facing slightly to the right",
+        "expression": "serene, neutral",
+        "background": {
+          "object": "flag",
+          "colors": [
+            "red",
+            "white",
+            "blue"
+          ],
+          "arrangement": "vertical stripes"
+        },
+        "style": "classical",
+        "condition": "weathered, with some discoloration and surface texture visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

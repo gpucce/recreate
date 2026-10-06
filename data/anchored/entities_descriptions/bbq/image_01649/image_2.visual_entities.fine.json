@@ -1,0 +1,336 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        2.0,
+        604.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/alley_0.png",
+      "crop": null,
+      "description": "A close-up view of a wet, cobblestone alleyway with two people walking away from the camera, an adult and a child, holding hands. The adult is wearing dark pants and a dark jacket, while the child is wearing a blue puffer jacket, blue jeans, and brown boots. The cobblestones are glistening with water, reflecting the overcast sky, and the alley is flanked by stone walls on both sides.",
+      "attributes": {
+        "surface": "wet cobblestone",
+        "people": {
+          "adult": {
+            "clothing": {
+              "pants": "dark gray",
+              "shoes": "black",
+              "jacket": "dark blue"
+            },
+            "pose": "walking away"
+          },
+          "child": {
+            "clothing": {
+              "jacket": "blue puffer",
+              "jeans": "blue",
+              "boots": "brown"
+            },
+            "pose": "walking away, holding adult's hand"
+          }
+        },
+        "environment": {
+          "walls": "stone",
+          "lighting": "overcast, wet"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        560.0,
+        -2.0,
+        1032.0,
+        736.0
+      ],
+      "mask": "image_2.masks/building_0.png",
+      "crop": null,
+      "description": "A rustic stone building with a rough, uneven facade made of variously sized rocks and mortar, featuring a tall arched wooden door and a black metal lantern mounted on a decorative bracket. The structure appears old and weathered, with a vertical drainpipe running down the side and a small balcony visible in the background.",
+      "attributes": {
+        "material": "stone",
+        "texture": "rough, uneven",
+        "color": "grey, brown, beige",
+        "architectural_features": {
+          "door": {
+            "shape": "arched",
+            "material": "wood",
+            "color": "dark brown"
+          },
+          "window": {
+            "shape": "rectangular",
+            "frame": "wood"
+          },
+          "balcony": {
+            "material": "stone",
+            "railing": "wood"
+          },
+          "lighting": {
+            "type": "lantern",
+            "color": "black",
+            "mounting": "wall bracket"
+          }
+        },
+        "condition": "weathered, old",
+        "style": "rustic, traditional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.5703125,
+      "box": [
+        808.0,
+        2.0,
+        1024.0,
+        736.0
+      ],
+      "mask": "image_2.masks/building_1.png",
+      "crop": null,
+      "description": "A close-up view of a rustic stone wall featuring a wooden door set within a smooth, light-colored stone archway. The wall is constructed from irregular, rough-hewn stones in varying shades of gray and brown, while the door is a dark, weathered wood with a simple rectangular design and a small, dark handle.",
+      "attributes": {
+        "wall": {
+          "material": "stone",
+          "texture": "rough, irregular",
+          "color": "gray, brown, beige"
+        },
+        "door": {
+          "material": "wood",
+          "color": "dark brown",
+          "shape": "rectangular",
+          "arch": "rounded stone arch",
+          "arch_material": "smooth stone",
+          "arch_color": "light gray/beige",
+          "handle": "small, dark, visible"
+        },
+        "ground": {
+          "material": "stone",
+          "condition": "wet, reflective"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        478.0,
+        190.0,
+        612.0,
+        584.0
+      ],
+      "mask": "image_2.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus background showing the upper facade of a light beige or cream-colored building with a dark, sloped roof and a chimney. A dark, rectangular structure, possibly a balcony or window frame, is visible on the right side.",
+      "attributes": {
+        "wall_color": "beige",
+        "roof_color": "dark brown",
+        "roof_style": "sloped",
+        "features": [
+          "chimney",
+          "balcony"
+        ],
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.5078125,
+      "box": [
+        -4.0,
+        -2.0,
+        364.0,
+        744.0
+      ],
+      "mask": "image_2.masks/building_3.png",
+      "crop": null,
+      "description": "A rustic stone building with a rough, uneven facade made of mixed brown and grey rocks, featuring arched doorways and windows framed by smooth grey stone. A dark vertical drainpipe runs down the side of the structure, and the roof is covered in reddish-brown tiles, set against a wet, cobblestone street.",
+      "attributes": {
+        "material": "rough stone and brick",
+        "color": "brown, grey, and beige",
+        "architecture": "rustic, arched openings",
+        "roof": "red tiles",
+        "features": [
+          "arched doorway",
+          "arched window",
+          "black drainpipe"
+        ],
+        "condition": "weathered",
+        "setting": "narrow street"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.69921875,
+      "box": [
+        560.0,
+        -2.0,
+        792.0,
+        672.0
+      ],
+      "mask": "image_2.masks/building_4.png",
+      "crop": null,
+      "description": "{\"description\": \"A multi-story building with a textured, light-colored stone facade features a small balcony with a metal railing and a decorative wrought-iron lamp bracket extending from the wall. The building has rectangular windows with dark frames and a sloped roof visible at the top.\", \"attributes\": {\"facade\": \"light-colored stone\", \"balcony\": {\"railing\": \"metal\", \"size\": \"small\"}, \"lamp\": {\"type\": \"wrought-iron bracket\", \"position\": \"extending from wall\"}, \"windows\": {\"shape\": \"rectangular\", \"frame_color\": \"dark\"}, \"roof\": \"sloped\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.65625,
+      "box": [
+        -3.5,
+        -2.0,
+        208.0,
+        736.0
+      ],
+      "mask": "image_2.masks/building_5.png",
+      "crop": null,
+      "description": "A close-up view of a rustic stone building facade featuring two arched doorways with wooden doors, constructed from irregularly shaped stones in various shades of gray and brown. The image is slightly out of focus, giving it a soft, blurred appearance, with a wet cobblestone street visible at the bottom.",
+      "attributes": {
+        "material": "stone",
+        "architectural_style": "rustic",
+        "features": [
+          "arched_doorways",
+          "wooden_doors",
+          "irregular_stones"
+        ],
+        "color_palette": [
+          "gray",
+          "brown",
+          "beige"
+        ],
+        "condition": "weathered",
+        "focus": "blurred",
+        "ground_surface": "wet_cobblestone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.7265625,
+      "box": [
+        150.0,
+        2.0,
+        362.0,
+        640.0
+      ],
+      "mask": "image_2.masks/building_6.png",
+      "crop": null,
+      "description": "A multi-story building constructed from rough-hewn, light brown and grey stone blocks features a sloped roof with terracotta tiles and a dark gutter system. The structure includes a tall, narrow window on the upper level and an arched opening on the ground floor, with a potted plant visible near the base, all rendered in a soft, out-of-focus style.",
+      "attributes": {
+        "material": "stone",
+        "color": "light brown and grey",
+        "roof": {
+          "type": "sloped",
+          "material": "terracotta tiles",
+          "color": "reddish-brown"
+        },
+        "architectural_features": [
+          "arched opening",
+          "narrow window",
+          "gutter"
+        ],
+        "focus": "blurred",
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        502.0,
+        524.0,
+        704.0,
+        948.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with light brown hair is seen from behind, walking away on a wet cobblestone street while holding the hand of an adult. The child wears a dark navy blue puffy winter jacket with a hood, blue jeans, and brown boots.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "navy blue",
+            "type": "puffer",
+            "features": "hooded"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "boots"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        253.0,
+        200.0,
+        544.0,
+        936.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street while holding the hand of a child. They are wearing a dark navy blue quilted jacket, dark grey trousers, and black leather shoes.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "dark blue",
+            "type": "padded",
+            "pattern": "quilted"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black",
+            "material": "leather"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hands",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

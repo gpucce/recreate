@@ -1,0 +1,300 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        988.0,
+        36.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/door_0.png",
+      "crop": null,
+      "description": "A close-up of a light-colored wooden door with a vertical grain pattern, partially open to reveal a dark blue wall behind it. A hand wearing a gold ring is visible on the left side, gripping the edge of the door.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "grain": "vertical",
+        "state": "partially open",
+        "visible_elements": [
+          "hand",
+          "gold ring",
+          "dark blue wall"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.83203125,
+      "box": [
+        -1.125,
+        36.0,
+        65.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/door_1.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred view of a blue door with a rectangular glass window in the upper section and a metallic handle on the right side. The door frame is also blue, and the image is out of focus, making fine details indistinct.",
+      "attributes": {
+        "color": "blue",
+        "material": "wood or metal (indistinct due to blur)",
+        "features": {
+          "window": "rectangular, upper section",
+          "handle": "metallic, right side"
+        },
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        572.0,
+        316.0,
+        988.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight light brown hair stands in the foreground, looking down with a serious expression at a white sheet of paper held in both hands. She wears a short-sleeved t-shirt with horizontal navy blue and white stripes and blue denim jeans, while an adult male stands partially visible behind her, wearing a light blue button-down shirt and a black camera with a strap around his neck.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "pattern": "striped",
+            "colors": [
+              "white",
+              "navy blue"
+            ]
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "serious, focused",
+        "accessories": {
+          "holding": "white paper"
+        },
+        "background_figure": {
+          "gender": "male",
+          "clothing": {
+            "shirt": "light blue button-down"
+          },
+          "accessories": {
+            "camera": "black DSLR with strap"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        102.0,
+        248.0,
+        536.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair stands looking down at a white piece of paper held in both hands, wearing a blue denim shirt over a maroon t-shirt. An adult's hand rests on his shoulder, and the adult is partially visible in the background wearing a light blue shirt and carrying a camera.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "outer": "blue denim shirt",
+          "inner": "maroon t-shirt"
+        },
+        "pose": "standing, looking down",
+        "holding": "white paper",
+        "expression": "serious or focused",
+        "context": "being comforted or guided by an adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        128.0,
+        52.0,
+        1008.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with short, graying hair and a beard stands behind two children, wearing a light blue button-down shirt and khaki pants. He has a black DSLR camera with a red-trimmed strap hanging around his neck and places his hands on the shoulders of the boy and girl in front of him, looking down with a serious expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "length": "short",
+          "style": "swept back"
+        },
+        "facial_hair": "gray and black beard and mustache",
+        "clothing": {
+          "top": "light blue button-down shirt",
+          "bottom": "khaki pants",
+          "accessories": "black DSLR camera with red-trimmed strap around neck"
+        },
+        "pose": "standing behind two children, hands on their shoulders",
+        "expression": "serious, looking down",
+        "position": "center background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        676.0,
+        0.0,
+        972.0,
+        524.0
+      ],
+      "mask": "image_6.masks/wall_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight brown hair is shown in profile, looking down with a serious or focused expression. She is positioned in the foreground, partially obscuring an older man with grey hair and a blue shirt who stands behind her to the left.",
+      "attributes": {
+        "girl": {
+          "hair": {
+            "color": "brown",
+            "length": "long",
+            "style": "straight"
+          },
+          "expression": "serious",
+          "gaze": "downward",
+          "age_group": "child"
+        },
+        "man": {
+          "hair": {
+            "color": "grey",
+            "length": "short"
+          },
+          "clothing": {
+            "shirt": "blue",
+            "strap": "black with red trim"
+          },
+          "age_group": "adult"
+        },
+        "background": {
+          "wall": "white",
+          "door_frames": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.6640625,
+      "box": [
+        672.0,
+        -2.0,
+        976.0,
+        992.0
+      ],
+      "mask": "image_6.masks/wall_1.png",
+      "crop": null,
+      "description": "A young girl with long, straight brown hair is standing in a hallway, looking down at a piece of paper she is holding in her hands. She is wearing a short-sleeved t-shirt with horizontal navy blue and white stripes and blue denim jeans. An adult male stands behind her, with his hand resting on her shoulder, wearing a light blue button-down shirt and a black strap across his chest.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "pattern": "striped",
+            "colors": [
+              "navy blue",
+              "white"
+            ],
+            "sleeves": "short"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "focused, serious",
+        "accessories": {
+          "paper": "white, held in hands"
+        },
+        "background": {
+          "setting": "indoor hallway",
+          "walls": "white",
+          "door frames": "blue"
+        },
+        "other_person": {
+          "gender": "male",
+          "age": "adult",
+          "clothing": {
+            "shirt": "light blue",
+            "strap": "black"
+          },
+          "action": "hand on girl's shoulder"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.75,
+      "box": [
+        38.0,
+        -6.0,
+        326.0,
+        968.0
+      ],
+      "mask": "image_6.masks/wall_2.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair is looking down at a piece of paper he is holding in his hands. He is wearing a blue denim shirt over a maroon t-shirt, and an adult's hand is placed gently on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": "curly brown",
+        "clothing": {
+          "shirt": "blue denim",
+          "undershirt": "maroon t-shirt"
+        },
+        "pose": "standing, looking down",
+        "expression": "focused",
+        "action": "reading a paper",
+        "interaction": "adult hand on shoulder"
+      },
+      "parse_ok": true
+    }
+  ]
+}

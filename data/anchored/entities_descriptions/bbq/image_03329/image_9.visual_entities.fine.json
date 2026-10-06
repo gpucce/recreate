@@ -1,0 +1,204 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        540.0
+      ],
+      "mask": "image_9.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story white building with classical architectural features, including tall rectangular windows with white frames and decorative black wrought-iron balconies on the second floor. The facade is smooth and painted white, with visible cornices and pilasters adding to its elegant appearance. A large tree with yellow autumn leaves partially obscures the left side of the building.",
+      "attributes": {
+        "color": "white",
+        "material": "stucco or painted masonry",
+        "architecture_style": "classical",
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "white",
+          "count_visible": 6
+        },
+        "balconies": {
+          "material": "black wrought iron",
+          "design": "ornate scrollwork",
+          "floor": "second"
+        },
+        "cornices": "present",
+        "pilasters": "present",
+        "obstruction": "tree with yellow leaves on left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        358.0,
+        470.0,
+        632.0,
+        976.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly light brown hair sits in a wheelchair, wearing a bright red ribbed sweater and blue jeans, smiling gently at the camera. Behind him, an older man in a dark suit has his hands placed on the young man’s shoulders, suggesting support or affection.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "light brown",
+          "style": "curly, medium length"
+        },
+        "clothing": {
+          "top": "red ribbed knit sweater",
+          "bottoms": "blue denim jeans",
+          "footwear": "dark blue sneakers with white soles"
+        },
+        "pose": "seated in wheelchair, facing forward, hands resting on lap",
+        "expression": "smiling, relaxed, looking directly at viewer",
+        "accessories": "none visible",
+        "context": "being supported by another person standing behind, hands on shoulders; background includes part of a silver car door"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        434.0,
+        328.0,
+        644.0,
+        652.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "Two young men with curly brown hair are smiling at the camera, with the taller man standing behind the shorter one and placing his hands on his shoulders. The man in the back wears a dark blue suit jacket over a light blue shirt and tie, while the man in the front wears a red ribbed sweater.",
+      "attributes": {
+        "count": 2,
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "pose": "standing, one behind the other",
+        "clothing": {
+          "back_person": {
+            "jacket": "dark blue suit",
+            "shirt": "light blue",
+            "tie": "grey"
+          },
+          "front_person": {
+            "sweater": "red ribbed"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surface",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        2.0,
+        776.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/surface_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is seated in a manual wheelchair, visible from the waist down, wearing blue jeans and black sneakers with white soles. The wheelchair has large rear wheels with hand rims and smaller front casters, positioned on an asphalt surface scattered with fallen autumn leaves next to a parked car.\", \"attributes\": {\"clothing\": {\"pants\": \"blue jeans\", \"shoes\": \"black sneakers with white soles\"}, \"wheelchair\": {\"type\": \"manual\", \"wheels\": {\"rear\": \"large with hand rims\", \"front\": \"small casters\"}, \"frame\": \"metallic gray\"}, \"surface\": \"asphalt with scattered orange and brown autumn leaves\", \"vehicle\": \"gray car partially visible on the right\", \"pose\": \"seated\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        -2.0,
+        0.0,
+        672.0,
+        408.0
+      ],
+      "mask": "image_9.masks/tree_0.png",
+      "crop": null,
+      "description": "A large deciduous tree with a thick, mottled grey-brown trunk and spreading branches covered in vibrant yellow autumn leaves, positioned in the foreground to the left of a white building.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "autumn",
+        "leaf_color": "bright yellow",
+        "trunk_color": "mottled grey and brown",
+        "trunk_texture": "rough, peeling bark",
+        "position": "left foreground",
+        "background": "white building with windows and black iron balcony"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        28.0,
+        340.0,
+        1024.0,
+        892.0
+      ],
+      "mask": "image_9.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is parked on a street with its sliding side door open, revealing a person in a wheelchair positioned in the doorway. The vehicle features tinted windows, chrome door handles, and a sleek, modern design with a visible side mirror and alloy wheels.",
+      "attributes": {
+        "color": "silver",
+        "type": "minivan",
+        "doors": "sliding side door open",
+        "windows": "tinted",
+        "handles": "chrome",
+        "wheels": "alloy",
+        "position": "parked on street",
+        "context": "accessibility, person in wheelchair in doorway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        344.0,
+        724.0,
+        660.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A person is seated in a manual wheelchair, wearing blue jeans and dark blue sneakers with white soles. The wheelchair has a black seat and backrest, silver metal frame, large rear wheels with hand rims, and smaller front caster wheels.",
+      "attributes": {
+        "clothing": {
+          "pants": "blue jeans",
+          "shoes": "dark blue sneakers with white soles"
+        },
+        "wheelchair": {
+          "frame_color": "silver",
+          "seat_color": "black",
+          "backrest_color": "black",
+          "wheels": {
+            "rear": "large with hand rims",
+            "front": "small caster wheels"
+          },
+          "type": "manual"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

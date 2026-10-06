@@ -1,0 +1,157 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        274.0,
+        0.0,
+        1024.0,
+        432.0
+      ],
+      "mask": "image_13.masks/house_0.png",
+      "crop": null,
+      "description": "A residential house with white horizontal siding and dark green shutters flanking a white-framed window, visible in the background behind two women.",
+      "attributes": {
+        "siding": "white horizontal",
+        "shutters": "dark green",
+        "window_frame": "white",
+        "window_type": "double-hung",
+        "position": "background",
+        "visibility": "partial, behind subjects"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        480.0,
+        96.0,
+        984.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits on a white bench, wearing a grey and white horizontal striped long-sleeve shirt and blue jeans. She has a concerned or serious expression, looking to the side while placing her hands on the shoulder of another person partially visible on the left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "grey",
+              "white"
+            ]
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "action": "touching another person's shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        118.0,
+        110.0,
+        552.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits on a white bench, wearing a maroon V-neck sweater and blue jeans. She has a distressed expression with visible tears on her face, and another person's hand is resting on her shoulder in a comforting gesture.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "expression": "crying, distressed",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "maroon",
+            "neckline": "V-neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "thin gold chain"
+          }
+        },
+        "pose": "sitting",
+        "action": "being comforted by a hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        932.0,
+        262.0,
+        1020.0,
+        552.0
+      ],
+      "mask": "image_13.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus background of green shrubs or trees with a white object in the foreground.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "position": "background",
+        "type": "foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 1,
+      "score": 0.703125,
+      "box": [
+        -2.0,
+        274.0,
+        179.0,
+        478.0
+      ],
+      "mask": "image_13.masks/shrubs_1.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange marigold flowers with dense, layered petals is visible in the background, appearing slightly out of focus. Green foliage supports the blooms, and the edge of a person's blonde hair and a maroon knitted garment is visible in the foreground on the right.",
+      "attributes": {
+        "flower_color": "orange",
+        "flower_type": "marigold",
+        "focus": "blurred",
+        "foliage_color": "green",
+        "foreground_elements": {
+          "hair": "blonde",
+          "clothing": "maroon knit"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

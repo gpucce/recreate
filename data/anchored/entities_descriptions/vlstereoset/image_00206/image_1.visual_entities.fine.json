@@ -1,0 +1,254 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        892.0,
+        308.0,
+        988.0,
+        368.0
+      ],
+      "mask": "image_1.masks/building_0.png",
+      "crop": null,
+      "description": "A small, single-story, rectangular building with a flat roof and light beige or off-white exterior walls. It features a dark, recessed central doorway and a small, square window with a grid pattern on the left side, appearing to be made of concrete or stucco.",
+      "attributes": {
+        "structure_type": "small building",
+        "stories": 1,
+        "roof": "flat",
+        "wall_color": "beige",
+        "wall_material": "stucco or concrete",
+        "door": {
+          "color": "black",
+          "position": "center"
+        },
+        "windows": {
+          "count": 1,
+          "shape": "square",
+          "position": "left"
+        },
+        "shape": "rectangular"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        576.0,
+        162.0,
+        856.0,
+        1000.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A male soldier stands in profile facing left, wearing a tan and brown digital camouflage uniform, a tactical vest, and a helmet with sunglasses. He has his right hand raised in a waving or signaling gesture, while other soldiers are seated in the background near a vehicle.",
+      "attributes": {
+        "gender": "male",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "tan and brown digital camouflage",
+          "vest": "tan tactical plate carrier",
+          "boots": "tan combat boots",
+          "helmet": "camouflage combat helmet",
+          "accessories": "black sunglasses, tactical belt, pouches"
+        },
+        "pose": "standing, right hand raised",
+        "orientation": "profile view facing left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.890625,
+      "box": [
+        416.0,
+        490.0,
+        672.0,
+        716.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A male soldier with a light complexion and short dark hair sits on the ground wearing a camouflage uniform and a matching helmet, holding a black rifle across his lap. He is wearing dark sunglasses and has a serious expression, positioned in the foreground to the left of another soldier.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "caucasian",
+        "social_role": "soldier",
+        "clothing": {
+          "uniform": "camouflage",
+          "pattern": "multi-terrain",
+          "color": "tan and green",
+          "helmet": "camouflage",
+          "accessories": "sunglasses"
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "holding": "rifle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.8984375,
+      "box": [
+        302.0,
+        528.0,
+        672.0,
+        800.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A soldier wearing a camouflage uniform and helmet is lying on the ground, holding a rifle with a scope. The soldier is wearing sunglasses and has a serious expression.",
+      "attributes": {
+        "clothing": {
+          "uniform": "camouflage",
+          "helmet": "camouflage",
+          "boots": "tan"
+        },
+        "accessories": {
+          "sunglasses": "black",
+          "rifle": "black with scope"
+        },
+        "pose": "lying down",
+        "expression": "serious",
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "indeterminate"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.95703125,
+      "box": [
+        512.0,
+        458.0,
+        688.0,
+        632.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A male soldier wearing a camouflage uniform, helmet, and sunglasses sits on the ground holding a rifle, positioned in front of a vehicle wheel.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "camouflage",
+          "helmet": "camouflage",
+          "accessories": "sunglasses"
+        },
+        "pose": "sitting",
+        "holding": "rifle",
+        "background": "vehicle wheel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.765625,
+      "box": [
+        140.0,
+        564.0,
+        564.0,
+        892.0
+      ],
+      "mask": "image_1.masks/person_4.png",
+      "crop": null,
+      "description": "A male soldier in desert camouflage uniform and helmet sits on the ground holding an M16-style rifle with a wooden stock, wearing sunglasses and a tactical vest. He is positioned in the foreground with other similarly dressed soldiers seated behind him.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "social_role": "soldier",
+        "clothing": {
+          "uniform": "desert camouflage",
+          "helmet": "camouflage with cover",
+          "vest": "tactical vest",
+          "boots": "tan combat boots",
+          "gloves": "black tactical gloves"
+        },
+        "accessories": {
+          "sunglasses": "dark",
+          "watch": "black wristwatch"
+        },
+        "pose": "sitting on ground, legs extended",
+        "expression": "neutral, looking forward",
+        "weapon": "M16-style rifle with wooden stock and black barrel",
+        "position": "foreground, left side of frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.8515625,
+      "box": [
+        976.0,
+        340.0,
+        992.0,
+        384.0
+      ],
+      "mask": "image_1.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        0.0,
+        0.0,
+        672.0,
+        672.0
+      ],
+      "mask": "image_1.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A large, weathered bus with a two-tone paint job of faded light blue on the top and bottom and a dirty white stripe in the middle. The vehicle features a row of rectangular windows with rounded corners, visible interior seats, and a side mirror mounted on a black arm. The paint is chipped and peeling, revealing rust and wear, particularly along the lower panels and wheel wells. The bus is parked on a dusty surface with soldiers sitting in front of it.",
+      "attributes": {
+        "vehicle_type": "bus",
+        "color": {
+          "primary": "light blue",
+          "secondary": "white",
+          "condition": "faded, chipped, weathered"
+        },
+        "features": {
+          "windows": "row of rectangular windows with rounded corners",
+          "interior": "seats visible through windows",
+          "exterior": "side mirror, wheel arch, rear bumper, taillight",
+          "condition": "dirty, worn, rust spots"
+        },
+        "position": "parked, side view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 1,
+      "score": 0.85546875,
+      "box": [
+        992.0,
+        336.0,
+        1024.0,
+        368.0
+      ],
+      "mask": "image_1.masks/vehicle_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

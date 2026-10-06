@@ -1,0 +1,202 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        2.0,
+        -2.0,
+        1024.0,
+        480.0
+      ],
+      "mask": "image_14.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a beige facade, featuring rectangular windows with white frames and decorative black wrought-iron balconies. The building has a classic architectural style with a stone or stucco exterior.",
+      "attributes": {
+        "facade": "beige",
+        "windows": {
+          "frame": "white",
+          "shape": "rectangular"
+        },
+        "balconies": {
+          "material": "wrought iron",
+          "color": "black",
+          "design": "decorative"
+        },
+        "style": "classic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        428.0,
+        104.0,
+        796.0,
+        976.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair stands smiling, wearing a dark blue suit jacket and matching trousers with a light blue dress shirt and a dark blue tie. He has his left hand in his pocket and his right hand resting on the shoulder of a seated person, wearing brown leather shoes.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "jacket": "dark blue suit",
+          "shirt": "light blue dress shirt",
+          "tie": "dark blue",
+          "trousers": "dark blue suit",
+          "shoes": "brown leather"
+        },
+        "pose": "standing, hand on shoulder of seated person, other hand in pocket"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        244.0,
+        312.0,
+        656.0,
+        960.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a manual wheelchair, wearing a red knit sweater, blue jeans, and black sneakers with gum soles. He is smiling at the camera with a hand resting on his shoulder, positioned in front of a silver car on a paved surface with fallen leaves.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "red",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "black",
+            "sole": "gum"
+          }
+        },
+        "mobility_aid": {
+          "type": "wheelchair",
+          "frame": "silver metal",
+          "wheels": "large rear wheels with spokes"
+        },
+        "pose": "sitting",
+        "background": {
+          "vehicle": "silver car",
+          "ground": "paved with yellow leaves"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        -2.0,
+        -4.0,
+        800.0,
+        364.0
+      ],
+      "mask": "image_14.masks/tree_0.png",
+      "crop": null,
+      "description": "A large deciduous tree with a thick, dark brown trunk and spreading branches covered in vibrant yellow autumn leaves, with a few leaves falling through the air in the foreground.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "autumn",
+        "leaves": {
+          "color": "yellow",
+          "state": "some falling"
+        },
+        "trunk": {
+          "color": "dark brown",
+          "thickness": "thick"
+        },
+        "position": "left-center background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        2.0,
+        286.0,
+        1024.0,
+        856.0
+      ],
+      "mask": "image_14.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is parked on a street with autumn leaves scattered on the ground, featuring a sleek body, chrome door handles, and multi-spoke alloy wheels.",
+      "attributes": {
+        "color": "silver",
+        "type": "minivan",
+        "features": [
+          "chrome door handles",
+          "multi-spoke alloy wheels",
+          "side mirrors",
+          "tinted windows",
+          "roof rails"
+        ],
+        "position": "parked",
+        "environment": "outdoor, autumn setting with fallen leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        250.0,
+        668.0,
+        696.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A person is seated in a manual wheelchair, wearing blue jeans, black sneakers with white soles, and a red sweater. The wheelchair has a black seat and backrest, silver metal frame, large spoked rear wheels with hand rims, and smaller front caster wheels.",
+      "attributes": {
+        "clothing": {
+          "pants": "blue jeans",
+          "shoes": "black sneakers with white soles",
+          "top": "red sweater"
+        },
+        "wheelchair": {
+          "frame_color": "silver",
+          "seat_color": "black",
+          "backrest_color": "black",
+          "rear_wheels": "large, spoked, with hand rims",
+          "front_wheels": "small, solid, caster type",
+          "type": "manual"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

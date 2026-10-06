@@ -1,0 +1,526 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.62109375,
+      "box": [
+        568.0,
+        584.0,
+        784.0,
+        928.0
+      ],
+      "mask": "image_1.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person wearing a blue zip-up jacket over a pink shirt, seated next to another individual in a yellow long-sleeved top. The blue jacket features a visible metal zipper track and appears to be made of a smooth, synthetic fabric, while the yellow garment shows soft folds and wrinkles consistent with a cotton material.",
+      "attributes": {
+        "entity_type": "person",
+        "clothing": {
+          "outer_layer": {
+            "type": "jacket",
+            "color": "blue",
+            "features": "zipper",
+            "material": "synthetic"
+          },
+          "inner_layer": {
+            "type": "shirt",
+            "color": "pink"
+          },
+          "adjacent_person": {
+            "clothing": {
+              "type": "top",
+              "color": "yellow",
+              "sleeves": "long"
+            }
+          }
+        },
+        "pose": "seated",
+        "visible_body_parts": [
+          "arm",
+          "torso",
+          "chin"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        416.0,
+        520.0,
+        464.0,
+        616.0
+      ],
+      "mask": "image_1.masks/chair_1.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of a chair with a red backrest and a yellow seat. The chair appears to be made of a smooth material, possibly plastic or painted wood, and is positioned at an angle.",
+      "attributes": {
+        "color": {
+          "backrest": "red",
+          "seat": "yellow"
+        },
+        "material": "smooth, possibly plastic or painted wood",
+        "focus": "out-of-focus",
+        "position": "angled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.875,
+      "box": [
+        362.0,
+        510.0,
+        454.0,
+        624.0
+      ],
+      "mask": "image_1.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a chair backrest featuring a deep red, upholstered surface with a curved, rounded top edge. The chair is positioned in the background, appearing blurred against a dark, indistinct setting, with a small portion of a yellow object visible in the lower right foreground.",
+      "attributes": {
+        "color": "dark red",
+        "material": "upholstered fabric",
+        "shape": "curved backrest",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 3,
+      "score": 0.8203125,
+      "box": [
+        720.0,
+        576.0,
+        784.0,
+        656.0
+      ],
+      "mask": "image_1.masks/chair_3.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower face and upper torso, showing a light-skinned chin and neck above a blue denim shirt with a visible white button. The background is a solid, out-of-focus deep red surface, likely a chair back.",
+      "attributes": {
+        "person": {
+          "skin_tone": "light",
+          "clothing": {
+            "shirt": "blue denim",
+            "buttons": "white"
+          }
+        },
+        "background": {
+          "color": "dark red",
+          "texture": "smooth",
+          "object": "chair back"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 4,
+      "score": 0.50390625,
+      "box": [
+        572.0,
+        872.0,
+        700.0,
+        928.0
+      ],
+      "mask": "image_1.masks/chair_4.png",
+      "crop": null,
+      "description": "A close-up view of a black chair armrest with a smooth, curved design, partially visible against a blurred background featuring blue and yellow tones.",
+      "attributes": {
+        "color": "black",
+        "material": "plastic or metal",
+        "part": "armrest",
+        "shape": "curved",
+        "background": "blurred, blue and yellow"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 5,
+      "score": 0.80859375,
+      "box": [
+        316.0,
+        464.0,
+        396.0,
+        576.0
+      ],
+      "mask": "image_1.masks/chair_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a dark red or maroon chair back, appearing as a large, solid rectangular block of color. The image is extremely low resolution, making specific details about the material, texture, or design indistinguishable.",
+      "attributes": {
+        "color": "dark red",
+        "shape": "rectangular",
+        "focus": "blurry",
+        "material": "indistinguishable",
+        "part_visible": "backrest"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        -2.0,
+        330.0,
+        179.0,
+        976.0
+      ],
+      "mask": "image_1.masks/computer_0.png",
+      "crop": null,
+      "description": "A black CRT monitor with a thick bezel and a square base is positioned on a wooden desk, displaying a document with lines of text on its screen. The monitor is angled slightly to the left, and another similar monitor is partially visible in the background.",
+      "attributes": {
+        "type": "CRT monitor",
+        "color": "black",
+        "bezel": "thick",
+        "base": "square",
+        "screen_content": "document with text",
+        "position": "on wooden desk",
+        "angle": "slightly to the left",
+        "background": "another monitor partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.80078125,
+      "box": [
+        190.0,
+        418.0,
+        234.0,
+        556.0
+      ],
+      "mask": "image_1.masks/computer_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a dark, vertical rectangular shape, likely the side or back of a computer monitor or tower, against a light background. The object appears to be made of a matte material, possibly plastic or metal, with no visible details due to the extreme blur.",
+      "attributes": {
+        "color": "dark gray or black",
+        "shape": "rectangular",
+        "material": "matte",
+        "focus": "extremely blurry",
+        "orientation": "vertical",
+        "context": "computer component (likely monitor or tower)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.703125,
+      "box": [
+        129.0,
+        398.0,
+        217.0,
+        644.0
+      ],
+      "mask": "image_1.masks/computer_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a black computer tower or monitor with a vertical orientation, featuring a smooth, matte surface and a visible side edge.",
+      "attributes": {
+        "object_type": "computer hardware",
+        "color": "black",
+        "material": "matte plastic or metal",
+        "orientation": "vertical",
+        "focus": "blurry",
+        "visible_parts": [
+          "side panel",
+          "edge"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        4.0,
+        652.0,
+        572.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden desk surface featuring a black computer monitor on the left, a black keyboard in the center, and a black mouse to the right of the keyboard. An elderly person's hands, one wearing a gold ring, are visible interacting with the keyboard and gesturing above it. In the background, there are papers and another keyboard, with the person wearing a blue long-sleeved shirt and a yellow garment.",
+      "attributes": {
+        "desk": {
+          "material": "wood",
+          "color": "light brown",
+          "items": [
+            "black computer monitor",
+            "black keyboard",
+            "black mouse",
+            "stack of papers",
+            "second keyboard in background"
+          ]
+        },
+        "person": {
+          "age": "elderly",
+          "hands": {
+            "skin": "wrinkled",
+            "accessories": {
+              "ring": "gold band on left ring finger"
+            },
+            "action": "typing and gesturing"
+          },
+          "clothing": {
+            "sleeve": "blue long-sleeved",
+            "outer": "yellow garment"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "doorway",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        284.0,
+        95.0,
+        628.0,
+        556.0
+      ],
+      "mask": "image_1.masks/doorway_0.png",
+      "crop": null,
+      "description": "A wooden doorway with a light brown frame is visible in the background, leading into a room with a ceiling light fixture and a window with white blinds. The doorway is out of focus, with a woman in the foreground partially obscuring the view.",
+      "attributes": {
+        "frame": {
+          "material": "wood",
+          "color": "light brown"
+        },
+        "interior": {
+          "lighting": "ceiling light fixture",
+          "window": {
+            "blinds": "white"
+          }
+        },
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.6796875,
+      "box": [
+        752.0,
+        -0.375,
+        984.0,
+        36.0
+      ],
+      "mask": "image_1.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "A close-up view of a rectangular, recessed ceiling light fixture emitting a bright, uniform white light. The fixture is set into a white ceiling surface, with a dark, out-of-focus object visible in the bottom left corner.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "white",
+        "type": "recessed panel light",
+        "lighting": "bright, diffuse",
+        "installation": "flush mount",
+        "surface": "smooth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.73046875,
+      "box": [
+        346.0,
+        150.0,
+        442.0,
+        204.0
+      ],
+      "mask": "image_1.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "A close-up view of a ceiling-mounted light fixture featuring a smooth, opaque white dome-shaped diffuser that emits a soft, warm glow. The fixture is set against a plain, light-colored ceiling surface, with the edges of the dome blending softly into the surrounding area due to the brightness.",
+      "attributes": {
+        "type": "ceiling light",
+        "shape": "dome",
+        "color": "white",
+        "material": "opaque plastic or glass",
+        "light_color": "warm white",
+        "state": "on",
+        "mounting": "flush mount"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        232.0,
+        212.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair and glasses is seated at a desk, smiling as she points at a computer screen with her right hand while her left hand rests on a keyboard. She is wearing a blue zip-up jacket over a pink collared shirt and a beaded necklace with a green pendant.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "caucasian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "accessories": {
+          "glasses": "brown tortoiseshell frames",
+          "necklace": "beaded with green pendant",
+          "ring": "gold band on left ring finger",
+          "earrings": "small gold hoop"
+        },
+        "clothing": {
+          "jacket": "blue zip-up",
+          "shirt": "pink collared"
+        },
+        "pose": "seated, pointing at screen",
+        "expression": "smiling",
+        "action": "using computer"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.62109375,
+      "box": [
+        260.0,
+        296.0,
+        732.0,
+        928.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short white hair and glasses is shown in profile, wearing a blue long-sleeved top and a gold ring on her left hand. She is seated at a desk, pointing with her right index finger towards a computer screen while her left hand rests near a black keyboard.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "brown-rimmed",
+          "ring": "gold band on left ring finger"
+        },
+        "clothing": {
+          "top": "blue long-sleeved shirt or jacket"
+        },
+        "pose": "seated, pointing with right hand",
+        "expression": "smiling",
+        "skin": "wrinkled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        268.0,
+        294.0,
+        732.0,
+        728.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up profile of an elderly woman with short white hair and glasses, wearing a blue long-sleeved top, pointing her finger forward with a focused expression. In the blurred background, a younger woman with dark hair in a ponytail wearing a yellow hoodie is visible.",
+      "attributes": {
+        "age": "elderly",
+        "gender": "female",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "brown frame"
+        },
+        "clothing": {
+          "top": "blue long-sleeved"
+        },
+        "pose": "pointing",
+        "expression": "focused",
+        "skin": "wrinkled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9296875,
+      "box": [
+        592.0,
+        -2.0,
+        1024.0,
+        420.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling Asian man with short black hair wearing a grey t-shirt stands in the background, slightly out of focus, behind the head of an elderly person with white hair and glasses in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Asian",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "grey"
+          }
+        },
+        "position": "background",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        -0.75,
+        169.0,
+        122.0,
+        328.0
+      ],
+      "mask": "image_1.masks/picture_0.png",
+      "crop": null,
+      "description": "A framed picture with a light-colored wooden frame and a white mat, containing a blurred image of a person with dark hair and a light-colored top, possibly a woman, in a seated or reclined position.",
+      "attributes": {
+        "frame": {
+          "color": "light wood",
+          "material": "wood"
+        },
+        "mat": {
+          "color": "white"
+        },
+        "image_content": {
+          "subject": "person",
+          "hair": "dark",
+          "clothing": "light-colored top",
+          "pose": "seated or reclined",
+          "clarity": "blurred"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        -4.0,
+        0.0,
+        532.0,
+        432.0
+      ],
+      "mask": "image_11.masks/building_0.png",
+      "crop": null,
+      "description": "A single-story residential house with a red brick exterior and a shingled roof, featuring a white-framed double-hung window flanked by dark blue shutters. The building is situated behind a man in the foreground, with green bushes visible at the base of the wall.",
+      "attributes": {
+        "building_type": "residential house",
+        "exterior_material": "red brick",
+        "roof": "shingled",
+        "window": {
+          "frame_color": "white",
+          "style": "double-hung",
+          "shutters": "dark blue"
+        },
+        "trim_color": "yellowish-white",
+        "surroundings": "green bushes"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.86328125,
+      "box": [
+        528.0,
+        36.0,
+        1024.0,
+        398.0
+      ],
+      "mask": "image_11.masks/building_1.png",
+      "crop": null,
+      "description": "A single-story building with a light beige or cream-colored exterior and a gray, pitched roof is visible in the background, appearing out of focus behind a large tree trunk and the top of a person's head.",
+      "attributes": {
+        "structure": {
+          "roof": {
+            "color": "gray",
+            "style": "pitched"
+          },
+          "walls": {
+            "color": "light beige",
+            "material": "indeterminate"
+          },
+          "floors": 1
+        },
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.60546875,
+      "box": [
+        980.0,
+        404.0,
+        1032.0,
+        436.0
+      ],
+      "mask": "image_11.masks/grass_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        2.0,
+        466.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/grass_1.png",
+      "crop": null,
+      "description": "A lush, vibrant green grassy field dotted with numerous small yellow dandelion flowers, creating a natural and cheerful outdoor setting.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft and dense",
+        "flowers": "yellow dandelions",
+        "setting": "outdoor, sunny",
+        "condition": "healthy and well-maintained"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        600.0,
+        264.0,
+        1024.0,
+        896.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with curly brown hair sits cross-legged on a grassy lawn dotted with yellow dandelions, wearing a plain white t-shirt and distressed blue jeans with large rips at the knees. She is looking down and to the side with a gentle expression, positioned next to a partially visible child.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "ripped knees"
+          }
+        },
+        "setting": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        46.0,
+        266.0,
+        494.0,
+        976.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with short, curly black hair and a beard sits cross-legged on a grassy lawn dotted with yellow dandelions, wearing a white button-down shirt with rolled-up sleeves and blue jeans. He is looking affectionately to his right, where a young child with a yellow flower in their hair is partially visible.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "facial_hair": "full beard",
+        "expression": "smiling, looking to the side",
+        "pose": "sitting cross-legged on the ground",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up to elbows"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "white soles, dark upper",
+            "type": "sneakers"
+          }
+        },
+        "accessories": {
+          "earring": "small stud in left ear"
+        },
+        "setting": "outdoors, grassy area with dandelions, brick house in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        392.0,
+        476.0,
+        656.0,
+        924.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with curly brown hair adorned with a yellow flower accessory is sitting on the grass, wearing a white t-shirt and light blue jeans. She is smiling broadly, looking up and to the side, with her hands clasped together in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "accessory": "yellow flower"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "bottoms": "light blue jeans",
+          "shoes": "white sneakers"
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "position": "center",
+        "background": "green grass with yellow dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        512.0,
+        198.0,
+        656.0,
+        326.0
+      ],
+      "mask": "image_11.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up view of a textured, brown, fibrous surface, likely bark or a similar organic material, occupying the bottom right corner of the frame. The background is heavily blurred with soft bokeh effects in shades of green and yellow, suggesting an outdoor setting with foliage.",
+      "attributes": {
+        "material": "fibrous, textured",
+        "color": "brown",
+        "position": "bottom right corner",
+        "background": "blurred, green and yellow bokeh",
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        680.0,
+        1.0,
+        1024.0,
+        480.0
+      ],
+      "mask": "image_11.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, mature tree with a thick, textured brown trunk that splits into multiple large branches near the top, set against a blurred background of a building and greenery.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough bark",
+          "structure": "thick, splitting into multiple large limbs"
+        },
+        "leaves": {
+          "visibility": "sparse, visible only at the very top edge"
+        },
+        "focus": "out of focus",
+        "background": "blurred building and grass"
+      },
+      "parse_ok": true
+    }
+  ]
+}

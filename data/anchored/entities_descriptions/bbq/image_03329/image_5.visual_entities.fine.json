@@ -1,0 +1,228 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.53125,
+      "box": [
+        0.0,
+        -1.5,
+        358.0,
+        242.0
+      ],
+      "mask": "image_5.masks/building_0.png",
+      "crop": null,
+      "description": "A section of a brick building with white-framed windows is visible in the background, partially obscured by the open trunk of a red car in the foreground. The building features a traditional design with evenly spaced windows and a brick facade.",
+      "attributes": {
+        "building": {
+          "material": "brick",
+          "window_frames": "white",
+          "window_style": "traditional",
+          "color": "brownish-red"
+        },
+        "car": {
+          "color": "red",
+          "part_visible": "open trunk",
+          "position": "foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.58984375,
+      "box": [
+        2.0,
+        2.0,
+        1024.0,
+        640.0
+      ],
+      "mask": "image_5.masks/building_1.png",
+      "crop": null,
+      "description": "A multi-story building with a brick facade and white-painted window frames and trim, featuring large rectangular windows with multiple panes and a black wrought-iron balcony railing on the upper floor.",
+      "attributes": {
+        "material": "brick and painted wood",
+        "color": "brown brick, white trim",
+        "windows": "rectangular, multi-paned, white frames",
+        "balcony": "black wrought-iron railing",
+        "style": "traditional, possibly Victorian or Edwardian"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        504.0,
+        176.0,
+        784.0,
+        968.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with wavy light brown hair stands smiling, wearing a dark navy blue suit with a white dress shirt and a dark tie. He is leaning slightly forward with one hand resting on the back of a wheelchair occupied by another person, wearing brown leather dress shoes.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "suit": {
+            "color": "navy blue",
+            "type": "two-piece"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "color": "dark blue or black"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "leather dress shoes"
+          }
+        },
+        "pose": "standing, leaning forward, hand on wheelchair",
+        "position": "standing next to a person in a wheelchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        328.0,
+        358.0,
+        704.0,
+        936.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a manual wheelchair, wearing a red crew-neck sweater, blue jeans, and black sneakers with white soles. He is smiling broadly at the camera, with a person in a dark suit standing partially visible behind him to the right.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "pose": "sitting in a wheelchair",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "red",
+            "neckline": "crew neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "black",
+            "sole": "white"
+          }
+        },
+        "equipment": {
+          "type": "wheelchair",
+          "frame": "silver metal",
+          "wheels": "large rear wheels with spokes"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        324.0,
+        2.0,
+        1024.0,
+        648.0
+      ],
+      "mask": "image_5.masks/tree_0.png",
+      "crop": null,
+      "description": "A large tree with a thick, textured brown trunk and branches extending upward, covered in vibrant yellow leaves, indicating autumn foliage. The tree is positioned in the background, partially framing the scene with its branches and leaves.",
+      "attributes": {
+        "trunk": "thick, textured, brown",
+        "leaves": "yellow, autumn foliage",
+        "position": "background, framing the scene",
+        "season": "autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        2.0,
+        102.0,
+        688.0,
+        888.0
+      ],
+      "mask": "image_5.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A grey minivan or SUV is shown from the rear with its hatchback door fully open, revealing a dark interior with folded-down rear seats. The vehicle features a red taillight on the left side and a black bumper with a red reflector strip. The open trunk area is spacious, and the vehicle is parked on a paved surface with a brick building and autumn foliage in the background.",
+      "attributes": {
+        "vehicle_type": "minivan/SUV",
+        "color": "grey",
+        "trunk": "open",
+        "interior": "dark, folded seats",
+        "taillight": "red",
+        "bumper": "black with red reflector",
+        "background": "brick building, autumn foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        292.0,
+        656.0,
+        700.0,
+        1000.0
+      ],
+      "mask": "image_5.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A close-up view of a manual wheelchair featuring a silver aluminum frame, large spoked rear wheels with black tires, and small black caster wheels at the front. A person wearing blue jeans and black sneakers with white soles is seated in the chair, with their feet resting on black footrests.",
+      "attributes": {
+        "frame_color": "silver",
+        "frame_material": "aluminum",
+        "rear_wheels": {
+          "type": "spoked",
+          "tire_color": "black",
+          "rim_color": "silver"
+        },
+        "front_wheels": {
+          "type": "caster",
+          "color": "black"
+        },
+        "footrests": {
+          "color": "black",
+          "material": "metal"
+        },
+        "occupant_clothing": {
+          "pants": "blue jeans",
+          "shoes": "black sneakers with white soles",
+          "socks": "white"
+        },
+        "position": "seated"
+      },
+      "parse_ok": true
+    }
+  ]
+}

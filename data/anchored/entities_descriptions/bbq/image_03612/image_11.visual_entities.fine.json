@@ -1,0 +1,118 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        532.0,
+        158.0,
+        980.0,
+        864.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length blonde hair sits at a desk, resting her chin on her left hand while looking down with a concerned or confused expression. She wears a dark blue plaid flannel shirt with red and white lines, and her right hand holds a pen over a notebook in front of a silver laptop.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "expression": "concerned, confused, or worried",
+        "pose": "sitting, resting chin on hand",
+        "clothing": {
+          "shirt": {
+            "type": "flannel",
+            "pattern": "plaid",
+            "colors": [
+              "dark blue",
+              "red",
+              "white"
+            ]
+          }
+        },
+        "accessories": {
+          "earring": "small stud in left ear"
+        },
+        "objects": {
+          "laptop": "silver, partially visible in foreground",
+          "pen": "held in right hand",
+          "notebook": "white paper with lines, under pen"
+        },
+        "setting": "indoor, office or study environment, blurred background with shelves and binders"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        30.0,
+        132.0,
+        528.0,
+        892.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair sits at a desk, wearing a light pink button-down shirt with sleeves rolled to the elbows. She has a furrowed brow and a serious, focused expression while looking down at a silver laptop in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "mixed or middle eastern",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "concerned, focused, furrowed brow",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "context": "office setting, using a laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        6.0,
+        804.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/table_0.png",
+      "crop": null,
+      "description": "A person wearing a light pink long-sleeved shirt is seated at a white table, with their left arm resting on the surface and their right hand holding a pen over a notebook. A silver laptop is open in front of them, partially obscuring their torso, and a black smartphone lies on the table to the left.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light pink, long-sleeved"
+        },
+        "pose": "seated, writing or preparing to write",
+        "objects": {
+          "laptop": "silver, open, positioned in front of the person",
+          "notebook": "white pages, black cover, being written on",
+          "pen": "held in right hand, black or dark-colored",
+          "smartphone": "black, lying flat on the table to the left"
+        },
+        "surface": "white, smooth, likely a desk or table",
+        "visible_body_parts": {
+          "left_arm": "resting on table",
+          "right_hand": "holding pen over notebook"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

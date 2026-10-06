@@ -1,0 +1,103 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.68359375,
+      "box": [
+        70.0,
+        270.0,
+        680.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with blonde hair pulled back holds a young girl with blonde pigtails and large round glasses. The woman wears a dark blue long-sleeved top and a red plaid scarf, while the girl wears a salmon-pink fleece jacket over a plaid shirt, both looking off to the side with serious expressions against a blurred green background.",
+      "attributes": {
+        "group": {
+          "adult": {
+            "gender": "female",
+            "age": "adult",
+            "hair": {
+              "color": "blonde",
+              "style": "pulled back"
+            },
+            "clothing": {
+              "top": "dark blue long-sleeved shirt",
+              "accessory": "red, black, and green plaid scarf"
+            },
+            "expression": "serious, looking to the side"
+          },
+          "child": {
+            "gender": "female",
+            "age": "toddler",
+            "hair": {
+              "color": "blonde",
+              "style": "pigtails"
+            },
+            "accessories": {
+              "glasses": "large, round, dark frames"
+            },
+            "clothing": {
+              "jacket": "salmon-pink fleece",
+              "shirt": "red and white plaid"
+            },
+            "expression": "serious, looking to the side"
+          }
+        },
+        "pose": "adult holding child in arms",
+        "background": "blurred green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        64.0,
+        22.0,
+        736.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A blonde woman with a serious expression holds a young blonde girl wearing round glasses and a pink sweater. The woman wears a red plaid scarf and a dark blue long-sleeved top, with sunglasses perched on her head.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "style": "updo with loose strands"
+        },
+        "accessories": {
+          "sunglasses": "on head",
+          "scarf": "red plaid"
+        },
+        "clothing": {
+          "top": "dark blue long-sleeved shirt"
+        },
+        "expression": "serious",
+        "pose": "holding a child",
+        "child": {
+          "gender": "female",
+          "age": "toddler",
+          "hair": {
+            "color": "blonde",
+            "style": "ponytail"
+          },
+          "accessories": {
+            "glasses": "round, dark-rimmed"
+          },
+          "clothing": {
+            "sweater": "pink"
+          },
+          "expression": "neutral"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

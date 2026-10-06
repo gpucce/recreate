@@ -1,0 +1,76 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        418.0,
+        86.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with short, white hair and a wrinkled face is wearing a white polo shirt with dark blue trim on the collar and sleeves, sitting next to a young child with blonde hair who is leaning their head against his. The man has a gentle, smiling expression and is looking slightly downward, while the child is smiling and looking at him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair_color": "white",
+        "hair_length": "short",
+        "skin_texture": "wrinkled",
+        "expression": "smiling",
+        "gaze_direction": "downward",
+        "clothing": {
+          "type": "polo shirt",
+          "color": "white",
+          "trim_color": "dark blue",
+          "buttons": "white"
+        },
+        "position": "sitting",
+        "relationship_context": "with child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        32.0,
+        164.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short, tousled blonde hair sits on a wooden bench, wearing a white polo shirt with dark blue trim on the collar and sleeves. He has a gentle, subtle smile and is looking slightly downward and to the side, leaning his head against the arm of an older person whose white hair and arm are partially visible on the right.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "tousled"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "color": "white",
+            "trim": "dark blue"
+          },
+          "pants": {
+            "color": "dark blue"
+          }
+        },
+        "expression": "gentle smile",
+        "pose": "sitting, leaning head",
+        "skin_tone": "fair",
+        "context": "outdoors, park setting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "bowl",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        454.0,
+        604.0,
+        588.0,
+        652.0
+      ],
+      "mask": "image_9.masks/bowl_0.png",
+      "crop": null,
+      "description": "A wooden bowl with a smooth, polished surface and visible wood grain, containing an orange and a yellow fruit, possibly a pear or apple, with a red object partially visible in the background.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "shape": "round",
+        "contents": [
+          "orange",
+          "yellow fruit"
+        ],
+        "surface": "smooth",
+        "grain": "visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        560.0,
+        300.0,
+        960.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with shoulder-length wavy blonde hair sits in profile at a wooden table, wearing a cream-colored knit sweater and dark jeans. She is looking to the left with a happy expression, and a silver and black film camera rests on the table in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "cream",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "accessories": {
+          "earrings": "small hoop"
+        },
+        "context": {
+          "location": "indoors",
+          "furniture": "wooden table and chair",
+          "objects": "film camera, coffee cup, fruit bowl"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        78.0,
+        300.0,
+        470.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in profile at a wooden table, wearing a fuzzy lavender sweater and beige trousers. She holds a white teacup in her hands and has a gentle smile on her face, looking towards a window with a vase of flowers in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "lavender",
+            "texture": "fuzzy"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "action": "holding a white teacup"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plate",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        392.0,
+        652.0,
+        476.0,
+        676.0
+      ],
+      "mask": "image_9.masks/plate_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plate",
+      "index": 1,
+      "score": 0.7578125,
+      "box": [
+        454.0,
+        604.0,
+        588.0,
+        652.0
+      ],
+      "mask": "image_9.masks/plate_1.png",
+      "crop": null,
+      "description": "A wooden bowl containing a red apple, an orange, and a yellow fruit, possibly a pear or apple, is placed on a light-colored surface. The bowl has a smooth, polished finish with visible wood grain patterns.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "contents": [
+          "red apple",
+          "orange",
+          "yellow fruit"
+        ],
+        "surface": "light-colored",
+        "finish": "smooth, polished"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        896.0,
+        536.0,
+        1024.0,
+        808.0
+      ],
+      "mask": "image_9.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up of a wooden chair backrest with vertical slats and a curved top rail, partially obscured by a person wearing a beige sweater. The chair appears to be made of dark wood with a smooth finish, and the top rail has a lighter, possibly worn or polished surface.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "design": "vertical slats with curved top rail",
+        "condition": "smooth finish, possible wear on top rail",
+        "position": "partially visible behind a person",
+        "context": "indoor setting, likely a dining or living area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        244.0,
+        608.0,
+        812.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/table_1.png",
+      "crop": null,
+      "description": "A rustic wooden table with a thick, plank-style top featuring visible grain and knots, supported by sturdy, turned legs with decorative detailing. The table surface holds a white teacup on a saucer, a bowl of fruit, and a black DSLR camera, while two people sit on either side.",
+      "attributes": {
+        "material": "wood",
+        "style": "rustic",
+        "top": {
+          "type": "plank",
+          "finish": "natural",
+          "features": [
+            "visible grain",
+            "knots"
+          ]
+        },
+        "legs": {
+          "style": "turned",
+          "shape": "cylindrical with decorative rings"
+        },
+        "objects_on_top": [
+          "white teacup",
+          "white saucer",
+          "wooden fruit bowl",
+          "red apple",
+          "orange",
+          "yellow pear",
+          "black DSLR camera"
+        ],
+        "position": "centered between two seated individuals"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.5546875,
+      "box": [
+        900.0,
+        536.0,
+        1032.0,
+        640.0
+      ],
+      "mask": "image_9.masks/table_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a wooden table surface with a medium brown finish, featuring a dark, indistinct object resting on top. The foreground is dominated by the blurred, light-colored back of a chair, partially obscuring the lower portion of the table.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "surface": "smooth",
+        "focus": "blurry",
+        "objects_on_top": [
+          "dark indistinct object"
+        ],
+        "foreground_obstruction": "chair back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "teapot",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        992.0,
+        474.0,
+        1024.0,
+        548.0
+      ],
+      "mask": "image_9.masks/teapot_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "teapot",
+      "index": 1,
+      "score": 0.8671875,
+      "box": [
+        504.0,
+        536.0,
+        592.0,
+        600.0
+      ],
+      "mask": "image_9.masks/teapot_1.png",
+      "crop": null,
+      "description": "A white ceramic teapot with a smooth, glossy finish is positioned in the background, featuring a rounded body, a curved handle on the right, and a lid with a small knob on top. In the foreground, partially obscuring the base of the teapot, are an orange and a yellow apple with a visible stem.",
+      "attributes": {
+        "object_type": "teapot",
+        "material": "ceramic",
+        "color": "white",
+        "finish": "glossy",
+        "shape": "rounded body",
+        "features": {
+          "lid": "present with knob",
+          "handle": "curved, on the right side",
+          "spout": "partially visible on the left"
+        },
+        "position": "background, behind fruit",
+        "context": "kitchen or dining setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        4.0,
+        0.0,
+        1020.0,
+        828.0
+      ],
+      "mask": "image_9.masks/wall_0.png",
+      "crop": null,
+      "description": "A section of a light beige or off-white wall is visible, featuring two framed landscape paintings with gold-colored frames. The wall also has a white-framed window with multiple panes, through which pink blossoms and greenery are visible. A small potted plant sits on the windowsill, and a lamp with a beige shade is placed on a side table to the right.",
+      "attributes": {
+        "wall_color": "light beige/off-white",
+        "decorations": {
+          "paintings": {
+            "frame_color": "gold",
+            "subject": "landscape"
+          },
+          "window": {
+            "frame_color": "white",
+            "panes": "multiple",
+            "view": "pink blossoms and greenery"
+          },
+          "plant": {
+            "type": "potted",
+            "location": "windowsill"
+          },
+          "lamp": {
+            "shade_color": "beige",
+            "location": "side table"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        544.0
+      ],
+      "mask": "image_9.masks/wall_1.png",
+      "crop": null,
+      "description": "A beige wall with two framed landscape paintings hanging on it, one on the left and one on the right, with a window in the center showing a view of a blooming tree outside.",
+      "attributes": {
+        "color": "beige",
+        "decorations": [
+          "framed painting",
+          "framed painting"
+        ],
+        "window": {
+          "position": "center",
+          "view": "blooming tree"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        332.0,
+        26.0,
+        724.0,
+        536.0
+      ],
+      "mask": "image_9.masks/window_0.png",
+      "crop": null,
+      "description": "A white, double-hung sash window with a central vertical mullion and a black latch mechanism, featuring a grid of glass panes that look out onto a blurred background of pink cherry blossoms and green foliage. On the interior windowsill, there are two potted plants with white flowers and green leaves in terracotta pots, along with a small brown cup and a white teapot lid visible at the bottom edge.",
+      "attributes": {
+        "frame_color": "white",
+        "style": "sash window",
+        "hardware": {
+          "color": "black",
+          "type": "latch"
+        },
+        "view": {
+          "foreground": "pink blossoms",
+          "background": "green trees",
+          "focus": "blurred"
+        },
+        "sill_items": [
+          {
+            "type": "potted plant",
+            "pot_color": "terracotta",
+            "flowers": "white"
+          },
+          {
+            "type": "potted plant",
+            "pot_color": "terracotta",
+            "flowers": "white"
+          },
+          {
+            "type": "cup",
+            "color": "brown"
+          },
+          {
+            "type": "teapot lid",
+            "color": "white"
+          }
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

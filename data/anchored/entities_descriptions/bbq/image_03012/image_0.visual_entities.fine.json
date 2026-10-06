@@ -1,0 +1,449 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        0.0,
+        0.0,
+        1392.0,
+        346.0
+      ],
+      "mask": "image_0.masks/building_0.png",
+      "crop": null,
+      "description": "Two people are seated outdoors at a table, with one person wearing a light pink shirt and the other in a gray blazer with a red scarf. They appear to be engaged in a conversation or activity involving a laptop and a drink.",
+      "attributes": {
+        "clothing": {
+          "person_1": {
+            "shirt": "light pink"
+          },
+          "person_2": {
+            "blazer": "gray",
+            "scarf": "red"
+          }
+        },
+        "accessories": {
+          "laptop": "black",
+          "drink": "clear cup with straw"
+        },
+        "setting": "outdoor seating area",
+        "background": "building with glass doors and windows"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "document or tablet",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        660.0,
+        356.0,
+        788.0,
+        412.0
+      ],
+      "mask": "image_0.masks/document or tablet_0.png",
+      "crop": null,
+      "description": "A close-up of a person's hands holding a folded piece of white paper, possibly an origami figure or a paper airplane. The person is wearing a light-colored long-sleeved shirt with a dark watch on their left wrist.",
+      "attributes": {
+        "object": {
+          "type": "paper",
+          "color": "white",
+          "shape": "folded",
+          "material": "paper"
+        },
+        "person": {
+          "hands": "visible",
+          "clothing": {
+            "sleeve": "light-colored",
+            "watch": "dark"
+          }
+        },
+        "action": "holding"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hedge",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        5.46875,
+        660.0,
+        1392.0,
+        928.0
+      ],
+      "mask": "image_0.masks/hedge_0.png",
+      "crop": null,
+      "description": "A dense, low-lying hedge of small, vibrant green leaves occupies the foreground, stretching horizontally across the bottom of the frame. The foliage is thick and textured, with individual leaves visible, creating a lush, natural barrier in front of a paved area and a bicycle.",
+      "attributes": {
+        "color": "vibrant green",
+        "texture": "dense, leafy",
+        "position": "foreground, bottom of frame",
+        "type": "low-lying hedge",
+        "state": "healthy, lush"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        680.0,
+        294.0,
+        988.0,
+        444.0
+      ],
+      "mask": "image_0.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop with a black screen is open on a wooden table, positioned next to a glass of orange juice with a black straw. The laptop has a white keyboard and a visible trackpad, and it is angled slightly towards the left side of the frame.",
+      "attributes": {
+        "color": "silver",
+        "screen": "black",
+        "keyboard": "white",
+        "position": "open on a wooden table",
+        "angle": "slightly angled to the left",
+        "adjacent_objects": [
+          "glass of orange juice",
+          "black straw"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "paper cup",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        928.0,
+        374.0,
+        964.0,
+        426.0
+      ],
+      "mask": "image_0.masks/paper cup_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "paper cup",
+      "index": 1,
+      "score": 0.83984375,
+      "box": [
+        592.0,
+        342.0,
+        644.0,
+        382.0
+      ],
+      "mask": "image_0.masks/paper cup_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        330.0,
+        91.0,
+        788.0,
+        824.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A man with a beard and a top-knot hairstyle sits in a wheelchair, wearing a light pink button-down shirt and light blue jeans. He is holding a document and a white coffee cup while interacting with another person seated next to him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "top knot with shaved sides"
+        },
+        "facial_hair": "beard",
+        "clothing": {
+          "top": "light pink long-sleeved button-down shirt",
+          "bottom": "light blue denim jeans",
+          "shoes": "black high-top sneakers with white laces"
+        },
+        "mobility_aid": "green metal wheelchair",
+        "pose": "sitting, holding a paper and a cup",
+        "action": "reviewing a document"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        490.0,
+        129.0,
+        808.0,
+        800.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "An older person with short, white hair is seated at a wooden table, wearing a light grey blazer over a salmon-pink shirt with a matching neckerchief. They are holding a white paper cup in one hand and gesturing with the other while looking at a document held by another person.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "light grey",
+            "material": "wool blend"
+          },
+          "shirt": {
+            "color": "salmon pink",
+            "collar": "open"
+          },
+          "accessories": {
+            "neckwear": "salmon pink neckerchief"
+          }
+        },
+        "pose": "seated",
+        "action": "gesturing with open palm",
+        "holding": "white paper cup",
+        "context": "outdoor cafe setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.73046875,
+      "box": [
+        500.0,
+        133.0,
+        808.0,
+        516.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "An older person with short, white hair is seated at a table, wearing a light grey blazer over a white collared shirt and a pink scarf tied at the neck. They are holding a white paper cup in one hand and gesturing with the other while looking at a document held by another person.",
+      "attributes": {
+        "gender": "female",
+        "age": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "light grey",
+            "material": "wool blend"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          },
+          "accessories": {
+            "scarf": {
+              "color": "pink",
+              "style": "tied at neck"
+            }
+          }
+        },
+        "pose": "seated",
+        "action": "gesturing with hand",
+        "holding": "white paper cup"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        8.1875,
+        264.0,
+        1400.0,
+        932.0
+      ],
+      "mask": "image_0.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A light gray paved sidewalk made of large rectangular concrete slabs with visible seams and a slightly textured surface, extending into the background behind a wooden bench and wheelchair user.",
+      "attributes": {
+        "material": "concrete",
+        "color": "light gray",
+        "texture": "smooth with slight grain",
+        "pattern": "rectangular slabs",
+        "condition": "clean and intact",
+        "location": "outdoor urban setting",
+        "visible_elements": [
+          "seams between slabs",
+          "shadow from bench and people",
+          "edge near green shrubbery"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "storefront",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        0.0,
+        0.0,
+        490.0,
+        346.0
+      ],
+      "mask": "image_0.masks/storefront_0.png",
+      "crop": null,
+      "description": "A man with a top-knot hairstyle and a beard is seen in profile from the back, wearing a light pink button-down shirt. He is positioned in the foreground on the right, facing away from a blurred storefront background featuring glass doors and wooden frames.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "male",
+        "hair": {
+          "color": "dark brown",
+          "style": "top knot with shaved sides"
+        },
+        "facial_hair": "beard",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink"
+          }
+        },
+        "pose": "standing, facing right",
+        "background": {
+          "type": "storefront",
+          "features": [
+            "glass doors",
+            "wooden frames",
+            "metal handles"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "storefront",
+      "index": 1,
+      "score": 0.65234375,
+      "box": [
+        2.734375,
+        1.8203125,
+        1400.0,
+        348.0
+      ],
+      "mask": "image_0.masks/storefront_1.png",
+      "crop": null,
+      "description": "A man with a beard and a top-knot hairstyle wearing a light pink button-down shirt sits next to a person with short white hair wearing a grey blazer and a pink neckerchief, both looking at a laptop on a table with drinks in front of them against a blurred storefront background.",
+      "attributes": {
+        "people": [
+          {
+            "gender": "male",
+            "hair": {
+              "color": "dark brown",
+              "style": "top knot with shaved sides"
+            },
+            "facial_hair": "full beard",
+            "clothing": {
+              "shirt": "light pink button-down"
+            },
+            "pose": "sitting, facing right"
+          },
+          {
+            "hair": {
+              "color": "white",
+              "style": "short"
+            },
+            "clothing": {
+              "jacket": "grey blazer",
+              "accessory": "pink neckerchief"
+            },
+            "pose": "sitting, gesturing with hand"
+          }
+        ],
+        "objects": {
+          "laptop": "open, black screen",
+          "drinks": "two cups with straws"
+        },
+        "background": {
+          "setting": "outdoor storefront",
+          "features": "glass windows, grey stone pillars, blurred interior"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        600.0,
+        372.0,
+        1312.0,
+        788.0
+      ],
+      "mask": "image_0.masks/table_0.png",
+      "crop": null,
+      "description": "A modern outdoor table featuring a thick, rectangular top made of reddish-brown wood with visible grain, supported by a sleek, angular base of polished stainless steel. The table is part of a bench set, with matching wooden slats for seating visible underneath, and is occupied by a person using a laptop and holding papers.",
+      "attributes": {
+        "material": {
+          "top": "wood",
+          "base": "stainless steel"
+        },
+        "color": {
+          "top": "reddish-brown",
+          "base": "silver"
+        },
+        "shape": "rectangular",
+        "style": "modern",
+        "function": "outdoor furniture",
+        "components": [
+          "wooden top",
+          "metal legs",
+          "wooden bench seating"
+        ],
+        "condition": "clean",
+        "usage": "occupied by a person with a laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        142.0,
+        374.0,
+        688.0,
+        876.0
+      ],
+      "mask": "image_0.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A manual wheelchair with a dark green metal frame, black armrests, and large rear wheels with black tires and silver spokes. The wheelchair has a black backrest and a footrest with a black strap, and it is positioned on a paved surface with a person seated in it.",
+      "attributes": {
+        "frame_color": "dark green",
+        "armrests": "black",
+        "wheels": {
+          "rear": {
+            "tire": "black",
+            "spokes": "silver"
+          }
+        },
+        "backrest": "black",
+        "footrest": {
+          "strap": "black"
+        },
+        "position": "on paved surface",
+        "occupant": "seated"
+      },
+      "parse_ok": true
+    }
+  ]
+}

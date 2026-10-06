@@ -1,0 +1,435 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        482.0,
+        173.0,
+        716.0,
+        262.0
+      ],
+      "mask": "image_14.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story white building with a red-tiled roof, featuring multiple rectangular windows on both floors and a flat, white balcony or terrace on the left side. The structure is partially obscured by green foliage in the foreground, with a clear blue sky in the background.",
+      "attributes": {
+        "color": {
+          "walls": "white",
+          "roof": "red",
+          "sky": "blue"
+        },
+        "structure": {
+          "stories": 2,
+          "roof_type": "tiled",
+          "balcony": "white, flat, left side"
+        },
+        "windows": "rectangular, multiple on both floors",
+        "surroundings": {
+          "foreground": "green foliage",
+          "background": "clear blue sky"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.7734375,
+      "box": [
+        26.0,
+        232.0,
+        640.0,
+        436.0
+      ],
+      "mask": "image_14.masks/hillside_0.png",
+      "crop": null,
+      "description": "A lush, green hillside rises from the coastline, featuring a mix of dense vegetation and exposed rocky terrain. The hill is dotted with trees and shrubs, and a white building is visible at the top, partially obscured by the foliage.",
+      "attributes": {
+        "vegetation": "dense, green, includes trees and shrubs",
+        "terrain": "rocky, uneven",
+        "building": "white, partially visible at the top",
+        "location": "coastal, near the sea"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        348.0,
+        442.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A young girl with long, dark hair is running along the wet sand at the edge of the ocean, wearing a bright blue one-piece swimsuit with ruffled straps and bow details on the sides. Her bare feet are splashing in the shallow water, and her shadow stretches across the sandy beach behind her.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "clothing": {
+          "swimsuit": {
+            "color": "blue",
+            "style": "one-piece",
+            "details": [
+              "ruffled straps",
+              "side bows"
+            ]
+          }
+        },
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "state": "flowing"
+        },
+        "pose": "running",
+        "location": "beach shoreline",
+        "surface": "wet sand",
+        "background": {
+          "ocean": "visible waves",
+          "beach": "sandy with footprints",
+          "people": "seated on lounge chairs in the distance"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.76171875,
+      "box": [
+        22.0,
+        232.0,
+        640.0,
+        436.0
+      ],
+      "mask": "image_14.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A rocky headland covered in green vegetation, with a white building visible on top, situated near a body of water under a clear blue sky.\", \"attributes\": {\"terrain\": \"rocky\", \"vegetation\": \"green\", \"building\": {\"color\": \"white\", \"location\": \"top of headland\"}, \"sky\": \"clear blue\", \"water\": \"visible in foreground\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass or headland",
+      "index": 2,
+      "score": 0.60546875,
+      "box": [
+        6.0,
+        444.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/landmass or headland_2.png",
+      "crop": null,
+      "description": "A young girl with long dark hair is running barefoot along the wet sand at the water's edge, wearing a bright blue one-piece swimsuit with ruffled straps and side ties. Her right foot is splashing in the shallow water, and her shadow is cast on the sand to her right.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "clothing": {
+          "swimsuit": {
+            "type": "one-piece",
+            "color": "royal blue",
+            "details": [
+              "ruffled shoulder straps",
+              "side bow ties"
+            ]
+          }
+        },
+        "pose": "running",
+        "footwear": "barefoot",
+        "location": "beach shoreline",
+        "surface": "wet sand",
+        "action": "splashing water"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        660.0,
+        414.0,
+        692.0,
+        466.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        418.0,
+        330.0,
+        628.0,
+        856.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young girl with long, dark brown hair is running barefoot on a sandy beach, wearing a bright blue one-piece swimsuit with ruffled shoulder straps and side bows. She has a joyful expression with a slight smile, looking slightly to her left, while her hair flows behind her in the wind.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "loose and flowing"
+        },
+        "clothing": {
+          "type": "swimsuit",
+          "color": "royal blue",
+          "details": [
+            "ruffled straps",
+            "side bows"
+          ]
+        },
+        "pose": "running",
+        "expression": "smiling",
+        "location": "beach",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        824.0,
+        376.0,
+        936.0,
+        516.0
+      ],
+      "mask": "image_14.masks/person_2.png",
+      "crop": null,
+      "description": "A woman with dark hair is sitting in profile on a blue and white lounge chair at a beach, wearing a blue bikini. The image is heavily blurred, obscuring facial features and fine details of the skin and clothing texture.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "length": "medium"
+        },
+        "clothing": {
+          "type": "bikini",
+          "color": "blue"
+        },
+        "pose": "sitting",
+        "orientation": "profile",
+        "setting": "beach",
+        "furniture": {
+          "type": "lounge chair",
+          "color": "blue and white"
+        },
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.91015625,
+      "box": [
+        712.0,
+        400.0,
+        800.0,
+        488.0
+      ],
+      "mask": "image_14.masks/person_3.png",
+      "crop": null,
+      "description": "A blurry image of a person sitting on a white bench, wearing a white face mask and a dark-colored top, with their legs crossed at the knee.",
+      "attributes": {
+        "pose": "sitting",
+        "clothing": {
+          "top": "dark",
+          "mask": "white"
+        },
+        "accessories": {
+          "face_mask": "white"
+        },
+        "setting": "outdoor",
+        "furniture": "white bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.57421875,
+      "box": [
+        636.0,
+        414.0,
+        668.0,
+        454.0
+      ],
+      "mask": "image_14.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.640625,
+      "box": [
+        696.0,
+        404.0,
+        720.0,
+        448.0
+      ],
+      "mask": "image_14.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        21.5,
+        404.0,
+        66.0,
+        428.0
+      ],
+      "mask": "image_14.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.59375,
+      "box": [
+        20.0,
+        292.0,
+        408.0,
+        436.0
+      ],
+      "mask": "image_14.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "A steep, rocky hillside covered in patches of green vegetation rises from a rocky shoreline, with a clear blue sky in the background. The rocks appear rugged and brownish-gray, with some areas showing exposed earth and sparse plant growth.",
+      "attributes": {
+        "terrain": "rocky hillside",
+        "vegetation": "green patches, sparse",
+        "rock_color": "brownish-gray",
+        "sky": "clear blue",
+        "water": "visible at base, blue",
+        "texture": "rugged, uneven",
+        "elevation": "steep slope",
+        "location": "coastal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.69921875,
+      "box": [
+        350.0,
+        432.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a fine, granular texture that appears dry and slightly compacted in some areas. There are visible footprints and small indentations scattered across the surface, suggesting recent activity. The sand transitions from a drier, more textured area to a wetter, smoother area near the water's edge, where it appears darker and more reflective due to moisture.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "fine, granular",
+        "moisture": "dry in some areas, wet near water's edge",
+        "footprints": "visible",
+        "indentations": "small, scattered",
+        "reflectivity": "darker and more reflective near water's edge"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 1,
+      "score": 0.75,
+      "box": [
+        8.0,
+        428.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/sand_1.png",
+      "crop": null,
+      "description": "A young girl with long dark hair is running barefoot on a sandy beach, wearing a blue one-piece swimsuit with ruffled straps and side bows. She is captured mid-stride near the water's edge, with her shadow cast on the sand and waves breaking in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "clothing": {
+          "swimsuit": "blue one-piece with ruffled straps and side bows"
+        },
+        "hair": "long, dark",
+        "pose": "running",
+        "location": "beach",
+        "surface": "sand",
+        "background": "ocean waves, beach chairs, people sitting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        4.0,
+        3.0,
+        1020.0,
+        412.0
+      ],
+      "mask": "image_14.masks/sky_0.png",
+      "crop": null,
+      "description": "The sky is a clear, uniform light blue with no visible clouds, occupying the upper portion of the image above a hillside and palm trees.",
+      "attributes": {
+        "color": "light blue",
+        "clouds": "none",
+        "visibility": "clear",
+        "position": "upper background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        0.0,
+        430.0,
+        468.0,
+        720.0
+      ],
+      "mask": "image_14.masks/water_0.png",
+      "crop": null,
+      "description": "The water is a clear, turquoise-blue ocean with gentle waves breaking onto a sandy shore, creating white foam as it meets the beach. The surface of the water appears calm and inviting, with small ripples and reflections of sunlight.",
+      "attributes": {
+        "color": "turquoise-blue",
+        "state": "calm with gentle waves",
+        "foam": "white",
+        "shoreline": "sandy",
+        "lighting": "sunlit"
+      },
+      "parse_ok": true
+    }
+  ]
+}

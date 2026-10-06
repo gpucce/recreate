@@ -1,0 +1,120 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        516.0,
+        180.0,
+        940.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A mature woman with shoulder-length wavy blonde hair sits on a beige sofa, wearing a sleeveless dress with horizontal navy blue and white stripes. She holds a small white dropper bottle in her right hand, looking at it with a calm, contemplative expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged to senior",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "dress": {
+            "pattern": "horizontal stripes",
+            "colors": [
+              "navy blue",
+              "white"
+            ],
+            "sleeves": "sleeveless",
+            "length": "knee-length"
+          }
+        },
+        "pose": "sitting",
+        "expression": "calm, contemplative",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "object_in_hand": {
+          "type": "dropper bottle",
+          "color": "white"
+        },
+        "background": "beige sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        99.0,
+        170.0,
+        524.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, straight light brown hair sits on a beige couch, wearing a white sleeveless tank top and light blue distressed jeans with a rip at the knee. She is looking to the side with a neutral expression while holding a small white dropper bottle in her right hand, with another hand visible on the right edge holding a similar object.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "white",
+            "sleeves": "sleeveless"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "details": "distressed, ripped knee, frayed hem"
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "earrings": "small stud"
+          }
+        },
+        "pose": "sitting on couch, legs crossed",
+        "expression": "neutral, focused",
+        "action": "holding a small white dropper bottle",
+        "setting": "indoor, on a beige fabric couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        434.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or taupe fabric sofa with a textured, woven appearance, featuring thick, rectangular seat cushions and backrests. The sofa has a modern, minimalist design with clean lines and appears to be upholstered in a durable, neutral-toned material. Two individuals are seated on it, partially obscuring the armrests and lower frame.",
+      "attributes": {
+        "color": "light beige / taupe",
+        "material": "textured woven fabric",
+        "style": "modern minimalist",
+        "cushions": "thick rectangular seat and back cushions",
+        "visible_parts": "seat cushions, backrests, partial armrests",
+        "condition": "clean, well-maintained",
+        "function": "seating furniture",
+        "culture_specific": false
+      },
+      "parse_ok": true
+    }
+  ]
+}

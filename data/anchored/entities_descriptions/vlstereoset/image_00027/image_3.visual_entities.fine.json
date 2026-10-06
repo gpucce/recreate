@@ -1,0 +1,583 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        225.0,
+        286.0,
+        328.0,
+        422.0
+      ],
+      "mask": "image_3.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus building with a white facade and a red rectangular section on the upper right side. The structure appears to have multiple stories, but details are obscured by the shallow depth of field.",
+      "attributes": {
+        "color": [
+          "white",
+          "red"
+        ],
+        "material": "unknown",
+        "structure": "multi-story",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.6796875,
+      "box": [
+        684.0,
+        172.0,
+        940.0,
+        318.0
+      ],
+      "mask": "image_3.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, weathered building with a corrugated metal exterior showing significant rust and discoloration in shades of orange, yellow, and white. A small, dark, rectangular window with horizontal slats is visible on the right side, and a darker, open structure or doorway is on the left.",
+      "attributes": {
+        "structure_type": "building",
+        "material": "corrugated metal",
+        "condition": "weathered, rusty, blurry",
+        "colors": [
+          "white",
+          "orange",
+          "yellow",
+          "brown",
+          "grey"
+        ],
+        "features": {
+          "window": "small, rectangular, dark, horizontal slats",
+          "left_section": "darker, open structure"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.828125,
+      "box": [
+        904.0,
+        136.0,
+        1024.0,
+        516.0
+      ],
+      "mask": "image_3.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, low-resolution view of a small, single-story structure with a blue-painted wall and a vertical rectangular window or vent. The building has a corrugated metal roof and appears to be made of simple materials, possibly wood or metal siding, with a white or light-colored section visible on the left side.",
+      "attributes": {
+        "structure_type": "single-story building",
+        "wall_color": "blue",
+        "wall_material": "painted surface, possibly wood or metal",
+        "roof_material": "corrugated metal",
+        "roof_color": "grey/brown",
+        "window": {
+          "shape": "vertical rectangle",
+          "color": "dark",
+          "position": "center of blue wall"
+        },
+        "adjacent_structure": {
+          "color": "white/light grey",
+          "material": "corrugated metal"
+        },
+        "image_quality": "blurry, low resolution"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.8828125,
+      "box": [
+        -2.0,
+        111.0,
+        187.0,
+        512.0
+      ],
+      "mask": "image_3.masks/building_3.png",
+      "crop": null,
+      "description": "A two-story building with a blue upper level and a brown upper level, featuring a window with horizontal bars on the blue section and a white security light mounted on the corner. The lower level has a light blue door and a grey corrugated metal wall, with a person in a blue shirt standing near the entrance.",
+      "attributes": {
+        "structure": {
+          "stories": 2,
+          "upper_level_color": "blue and brown",
+          "lower_level_color": "light blue and grey",
+          "materials": "corrugated metal, wood",
+          "window": {
+            "type": "horizontal bars",
+            "location": "upper level"
+          },
+          "door": {
+            "color": "light blue",
+            "location": "lower level"
+          },
+          "lighting": {
+            "type": "security light",
+            "color": "white",
+            "location": "upper level corner"
+          }
+        },
+        "person": {
+          "clothing": {
+            "shirt": "blue"
+          },
+          "pose": "standing",
+          "location": "near entrance"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.59765625,
+      "box": [
+        680.0,
+        171.0,
+        944.0,
+        448.0
+      ],
+      "mask": "image_3.masks/building_4.png",
+      "crop": null,
+      "description": "A two-story building with a weathered, corrugated metal exterior featuring vertical streaks of rust in orange and brown tones. The upper level has a small, rectangular window with horizontal slats, and the structure appears to be in a state of disrepair.",
+      "attributes": {
+        "structure": {
+          "type": "building",
+          "stories": 2,
+          "material": "corrugated metal",
+          "condition": "weathered, rusted",
+          "color": "faded white, orange, brown",
+          "features": [
+            "small window with horizontal slats",
+            "vertical rust streaks"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.546875,
+      "box": [
+        640.0,
+        255.0,
+        696.0,
+        412.0
+      ],
+      "mask": "image_3.masks/building_5.png",
+      "crop": null,
+      "description": "A close-up portrait of a Black woman with short, dark hair, looking directly at the camera with a serious expression. The background is out of focus, showing indistinct shapes and colors including a blue horizontal element and a vertical beige structure.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "female",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "serious",
+        "gaze": "direct",
+        "background": {
+          "focus": "blurred",
+          "elements": [
+            "blue horizontal bar",
+            "beige vertical structure"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.52734375,
+      "box": [
+        748.0,
+        286.0,
+        916.0,
+        450.0
+      ],
+      "mask": "image_3.masks/building_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building facade featuring a large red patio umbrella in the foreground and a white horizontal sign or awning structure above a dark opening. The background wall appears to be made of light-colored, possibly corrugated material, with a blue vertical element on the right side.",
+      "attributes": {
+        "structure": {
+          "wall": "light-colored, possibly corrugated",
+          "sign": "white, horizontal, blurry",
+          "opening": "dark, rectangular"
+        },
+        "foreground_objects": {
+          "umbrella": {
+            "color": "red",
+            "state": "open",
+            "focus": "blurry"
+          },
+          "person": {
+            "clothing": "orange shirt",
+            "position": "left side, back to camera",
+            "focus": "blurry"
+          }
+        },
+        "image_quality": "extremely blurry, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.5078125,
+      "box": [
+        612.0,
+        396.0,
+        628.0,
+        436.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        560.0,
+        316.0,
+        808.0,
+        988.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A Black woman with short, dark hair walks forward on a gravelly path, wearing a bright green tank top and dark brown pants. She has a serious expression and is wearing simple sandals.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "green"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "brown"
+          },
+          "footwear": {
+            "type": "sandals"
+          }
+        },
+        "pose": "walking",
+        "expression": "serious",
+        "location": "outdoors, gravel path"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        253.0,
+        262.0,
+        524.0,
+        992.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged Black man with a short beard and short hair walks forward on a gravelly path, wearing an unbuttoned olive-green jacket over a bare chest and brown trousers. He carries a plastic bag filled with colorful fruits in his right hand and wears brown sandals.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Black",
+        "hair": {
+          "length": "short",
+          "color": "black"
+        },
+        "facial_hair": "short beard",
+        "expression": "neutral",
+        "pose": "walking",
+        "clothing": {
+          "jacket": {
+            "color": "olive green",
+            "style": "unbuttoned, long-sleeved"
+          },
+          "pants": {
+            "color": "brown",
+            "style": "trousers"
+          },
+          "footwear": {
+            "type": "sandals",
+            "color": "brown"
+          }
+        },
+        "accessories": {
+          "held_item": "plastic bag with fruit"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.80078125,
+      "box": [
+        856.0,
+        422.0,
+        928.0,
+        532.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a person sitting down, wearing a blue long-sleeved top and dark pants, with a red object or person partially visible behind them.",
+      "attributes": {
+        "clothing": {
+          "top": "blue",
+          "pants": "dark"
+        },
+        "pose": "sitting",
+        "image_quality": "blurry",
+        "background": "red object or person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.765625,
+      "box": [
+        552.0,
+        386.0,
+        576.0,
+        462.0
+      ],
+      "mask": "image_3.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.68359375,
+      "box": [
+        201.0,
+        418.0,
+        253.0,
+        494.0
+      ],
+      "mask": "image_3.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.9140625,
+      "box": [
+        132.0,
+        370.0,
+        170.0,
+        498.0
+      ],
+      "mask": "image_3.masks/person_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus figure of a person wearing a bright blue top and dark shorts, standing in profile facing right. The person's head is dark and indistinct, and they appear to be holding or standing next to a white vertical object, possibly a pole or handle, with a blue object visible at the bottom.",
+      "attributes": {
+        "clothing": {
+          "top": "blue",
+          "bottoms": "dark shorts"
+        },
+        "pose": "standing",
+        "orientation": "profile facing right",
+        "image_quality": "blurry",
+        "accessories": {
+          "held_object": "white vertical pole"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.94140625,
+      "box": [
+        740.0,
+        370.0,
+        804.0,
+        490.0
+      ],
+      "mask": "image_3.masks/person_7.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a person with dark skin wearing a bright orange t-shirt, seen from behind, with a portion of another person's shoulder in a green garment visible in the foreground.",
+      "attributes": {
+        "clothing": {
+          "shirt": "orange t-shirt",
+          "pants": "blue jeans"
+        },
+        "skin_tone": "dark",
+        "pose": "standing, facing away",
+        "focus": "blurry",
+        "foreground": "shoulder of person in green"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.51171875,
+      "box": [
+        848.0,
+        426.0,
+        864.0,
+        458.0
+      ],
+      "mask": "image_3.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.6796875,
+      "box": [
+        864.0,
+        426.0,
+        896.0,
+        474.0
+      ],
+      "mask": "image_3.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.61328125,
+      "box": [
+        824.0,
+        430.0,
+        864.0,
+        524.0
+      ],
+      "mask": "image_3.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 11,
+      "score": 0.91015625,
+      "box": [
+        520.0,
+        388.0,
+        552.0,
+        516.0
+      ],
+      "mask": "image_3.masks/person_11.png",
+      "crop": null,
+      "description": "A blurry, full-body shot of a person standing upright, wearing a bright turquoise short-sleeved t-shirt and black pants. The person has dark skin and short dark hair, with the face and background completely out of focus.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "black",
+        "clothing": {
+          "top": "turquoise t-shirt",
+          "bottom": "black pants"
+        },
+        "pose": "standing",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 12,
+      "score": 0.9453125,
+      "box": [
+        242.0,
+        376.0,
+        298.0,
+        520.0
+      ],
+      "mask": "image_3.masks/person_12.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person viewed from behind, wearing a white short-sleeved t-shirt and blue jeans, walking away from the camera.",
+      "attributes": {
+        "pose": "walking away",
+        "view": "back",
+        "clothing": {
+          "top": "white t-shirt",
+          "bottom": "blue jeans"
+        },
+        "hair": "dark",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "railway tracks",
+      "index": 0,
+      "score": 0.7578125,
+      "box": [
+        552.0,
+        448.0,
+        1032.0,
+        1008.0
+      ],
+      "mask": "image_3.masks/railway tracks_0.png",
+      "crop": null,
+      "description": "A set of railway tracks runs diagonally from the bottom right to the top left of the image, with wooden ties and metal rails visible. The tracks are surrounded by gravel and litter, including various pieces of trash such as plastic bottles and cans.",
+      "attributes": {
+        "material": "metal and wood",
+        "condition": "worn and littered",
+        "orientation": "diagonal",
+        "surroundings": "gravel and trash"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "railway tracks",
+      "index": 1,
+      "score": 0.59765625,
+      "box": [
+        -8.0,
+        532.0,
+        336.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/railway tracks_1.png",
+      "crop": null,
+      "description": "A close-up view of a set of railway tracks with rusty metal rails and wooden sleepers, surrounded by gravel ballast. The tracks extend into the distance, with a person's hand holding a plastic bag of vegetables in the foreground.",
+      "attributes": {
+        "material": "metal, wood, gravel",
+        "color": "rusty brown, gray, beige",
+        "condition": "weathered, rusty",
+        "perspective": "close-up, angled",
+        "foreground": "plastic bag of vegetables",
+        "background": "additional tracks, gravel"
+      },
+      "parse_ok": true
+    }
+  ]
+}

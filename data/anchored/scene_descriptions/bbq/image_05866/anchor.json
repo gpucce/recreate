@@ -1,0 +1,97 @@
+{
+  "scene": {
+    "background": "wooden desk, blurred shelf with office items, cityscape visible through the glass",
+    "lighting": "soft, natural daylight streaming through large floor-to-ceiling windows on the right, creating a warm, diffused light with a slightly cool-toned white balance",
+    "camera_angle": "slightly low, looking up at the subjects",
+    "style": "clean, crisp digital quality, typical of a modern reflex camera or DSLR, with no visible grain or noise",
+    "mood": "professional, collaborative, and attentive",
+    "color_palette": "muted and sophisticated — navy, light blue, warm wood tones, and neutral grays — with moderate saturation that enhances realism without over-processing"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark",
+          "style": "tied back"
+        },
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "color": "navy blue",
+            "pattern": "white polka dots"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "dark"
+          }
+        },
+        "pose": "standing side-by-side, holding tablet with both hands, fingers gently touching the screen, focused on the content"
+      },
+      "id": "person_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "gender": "male",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue"
+          }
+        },
+        "pose": "standing slightly behind her, holding the tablet’s lower edge with his left hand, leaning in with a focused gaze"
+      },
+      "id": "person_2",
+      "count": 1
+    },
+    {
+      "type": "tablet",
+      "attributes": {
+        "position": "held between the two individuals",
+        "interaction": "being examined by both individuals"
+      },
+      "id": "tablet_1",
+      "count": 1
+    },
+    {
+      "type": "window",
+      "attributes": {
+        "type": "floor-to-ceiling",
+        "lighting": "soft, natural daylight streaming through"
+      },
+      "id": "window_1",
+      "count": 1
+    },
+    {
+      "type": "desk",
+      "attributes": {
+        "material": "wooden"
+      },
+      "id": "desk_1",
+      "count": 1
+    },
+    {
+      "type": "shelf",
+      "attributes": {
+        "state": "blurred",
+        "content": "office items"
+      },
+      "id": "shelf_1",
+      "count": 1
+    },
+    {
+      "type": "cityscape",
+      "attributes": {
+        "position": "visible through the glass",
+        "setting": "urban"
+      },
+      "id": "cityscape_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

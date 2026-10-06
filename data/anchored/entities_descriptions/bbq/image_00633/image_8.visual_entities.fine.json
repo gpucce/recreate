@@ -1,0 +1,170 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        4.0,
+        14.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_8.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a glossy finish is shown from the side, with the driver's side window open. Inside, a young man with curly brown hair is driving, wearing a white button-down shirt and a green tie, while a young woman with long dark hair sits in the passenger seat, also wearing a white button-down shirt and holding a white disposable coffee cup. Both are wearing seatbelts and looking forward with neutral expressions.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "finish": "glossy",
+          "window": "open",
+          "interior": {
+            "seats": "black",
+            "headrests": "black"
+          }
+        },
+        "driver": {
+          "gender": "male",
+          "age": "young adult",
+          "hair": "curly brown",
+          "clothing": {
+            "shirt": "white button-down",
+            "tie": "green"
+          },
+          "pose": "driving",
+          "expression": "neutral",
+          "accessories": "seatbelt"
+        },
+        "passenger": {
+          "gender": "female",
+          "age": "young adult",
+          "hair": "long dark brown",
+          "clothing": {
+            "shirt": "white button-down"
+          },
+          "pose": "sitting, holding cup",
+          "expression": "neutral",
+          "accessories": "seatbelt",
+          "holding": "white disposable coffee cup"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        386.0,
+        700.0,
+        506.0,
+        844.0
+      ],
+      "mask": "image_8.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A close-up view of a white disposable paper coffee cup with a matching white plastic lid, held in a person's hand. The cup is cylindrical with a smooth surface, and the lid features a raised rim and a flat top with a small opening.",
+      "attributes": {
+        "object_type": "coffee cup",
+        "material": "paper",
+        "color": "white",
+        "lid": {
+          "material": "plastic",
+          "color": "white",
+          "type": "disposable"
+        },
+        "shape": "cylindrical",
+        "held_by": "hand",
+        "condition": "clean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        380.0,
+        268.0,
+        908.0,
+        844.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, dark brown hair sits in the passenger seat of a car, wearing a white button-down shirt and a black seatbelt. She holds a white paper coffee cup with a lid in her hands and looks off to the side with a neutral, contemplative expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down"
+          },
+          "accessories": {
+            "seatbelt": "black"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "holding": "white coffee cup",
+        "location": "inside car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        76.0,
+        252.0,
+        532.0,
+        860.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in the driver's seat of a red car, wearing a white button-down shirt and a dark green tie, with a seatbelt fastened across his chest. He is looking forward with a neutral expression, while a hand holding a white paper coffee cup is visible in the foreground near the passenger window.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down"
+          },
+          "tie": {
+            "color": "dark green"
+          },
+          "seatbelt": {
+            "color": "black",
+            "position": "across chest"
+          }
+        },
+        "pose": "sitting in driver's seat",
+        "expression": "neutral",
+        "vehicle": {
+          "color": "red",
+          "type": "car"
+        },
+        "accessories": {
+          "coffee_cup": {
+            "color": "white",
+            "material": "paper",
+            "held_by": "another person"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

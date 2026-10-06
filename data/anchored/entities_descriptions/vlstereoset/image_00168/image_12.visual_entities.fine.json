@@ -1,0 +1,314 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        844.0,
+        8.0,
+        996.0,
+        692.0
+      ],
+      "mask": "image_12.masks/flag_0.png",
+      "crop": null,
+      "description": "A vertical tricolor flag with horizontal stripes of white, blue, and red from top to bottom, displayed against a red patterned background. The flag is partially obscured by a person's shoulder in the foreground.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "position": "background",
+          "background": "red patterned fabric",
+          "obstruction": "person's shoulder in foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        21.5,
+        8.0,
+        200.0,
+        708.0
+      ],
+      "mask": "image_12.masks/flag_1.png",
+      "crop": null,
+      "description": "A vertical tricolor flag with horizontal stripes of white, blue, and red from top to bottom, displayed on a pole against a red patterned background.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "pole": "visible at top",
+          "background": "red patterned fabric"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        464.0,
+        154.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short gray hair and a slight smile stands in a formal setting, wearing a black suit, white shirt, and dark blue tie while shaking hands with another person. He is positioned in front of a red patterned wall with a golden bust and a Russian flag visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "suit": {
+            "color": "black",
+            "type": "jacket and pants"
+          },
+          "shirt": {
+            "color": "white"
+          },
+          "tie": {
+            "color": "dark blue"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "background": {
+          "wall": "red patterned",
+          "objects": [
+            "golden bust",
+            "Russian flag"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        174.0,
+        178.0,
+        520.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged man with short, light brown hair is standing and shaking hands with another person, wearing a dark suit, white dress shirt, and a dark blue tie. He has a neutral expression and is positioned in front of a red patterned wall with gold accents and a partial view of a flag on the left.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "light brown",
+          "style": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "black",
+            "type": "formal"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "color": "dark blue",
+            "pattern": "solid"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "neutral",
+        "background": {
+          "wall": {
+            "color": "red",
+            "pattern": "ornate"
+          },
+          "decorations": {
+            "color": "gold",
+            "type": "ornamental"
+          },
+          "flag": {
+            "visible": "partial",
+            "colors": [
+              "white",
+              "blue",
+              "red"
+            ]
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9140625,
+      "box": [
+        406.0,
+        59.0,
+        616.0,
+        304.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A golden bust of a man with short, wavy hair, wearing a military uniform with epaulets and a high collar, set against a red patterned background.",
+      "attributes": {
+        "entity_type": "bust",
+        "material": "gold",
+        "color": "gold",
+        "gender": "male",
+        "hair": {
+          "style": "short, wavy",
+          "color": "gold"
+        },
+        "clothing": {
+          "type": "military uniform",
+          "details": [
+            "epaulets",
+            "high collar",
+            "buttons"
+          ]
+        },
+        "pose": "bust",
+        "background": {
+          "color": "red",
+          "pattern": "damask"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.69140625,
+      "box": [
+        808.0,
+        -4.0,
+        1024.0,
+        544.0
+      ],
+      "mask": "image_12.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up view of a wall covered in deep red wallpaper featuring a dark, intricate damask pattern, partially obscured by a blurred Russian flag in the background and the shoulder of a person in a dark suit in the foreground.",
+      "attributes": {
+        "wall": {
+          "color": "dark red",
+          "pattern": "damask",
+          "pattern_color": "dark maroon",
+          "material": "wallpaper"
+        },
+        "foreground_object": {
+          "type": "clothing",
+          "color": "black",
+          "part": "shoulder"
+        },
+        "background_object": {
+          "type": "flag",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        -2.5,
+        0.0,
+        206.0,
+        552.0
+      ],
+      "mask": "image_12.masks/wall_1.png",
+      "crop": null,
+      "description": "A Russian flag with horizontal stripes of white, blue, and red is prominently displayed in the foreground, slightly out of focus. The background features a rich, dark red wall with an intricate, repeating damask pattern, suggesting a formal or official setting.",
+      "attributes": {
+        "flag": {
+          "country": "Russia",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "vertical",
+          "focus": "slightly blurred"
+        },
+        "wall": {
+          "color": "dark red",
+          "pattern": "damask",
+          "texture": "textured fabric or wallpaper",
+          "focus": "out of focus"
+        },
+        "setting": "formal or official"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.65625,
+      "box": [
+        260.0,
+        -4.0,
+        748.0,
+        508.0
+      ],
+      "mask": "image_12.masks/wall_2.png",
+      "crop": null,
+      "description": "A red wall with a dark red damask pattern, featuring a golden bust of a man on a white marble pedestal with a coat of arms.",
+      "attributes": {
+        "wall": {
+          "color": "red",
+          "pattern": "damask",
+          "material": "wallpaper"
+        },
+        "bust": {
+          "material": "gold",
+          "subject": "man",
+          "pose": "facing forward"
+        },
+        "pedestal": {
+          "material": "marble",
+          "color": "white",
+          "decorations": {
+            "coat_of_arms": {
+              "colors": [
+                "blue",
+                "red",
+                "green",
+                "gold"
+              ]
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

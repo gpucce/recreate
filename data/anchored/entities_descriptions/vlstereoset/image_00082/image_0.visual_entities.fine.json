@@ -1,0 +1,154 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        356.0,
+        492.0,
+        704.0,
+        1048.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length blonde hair sits on a gray couch, wearing a light gray t-shirt and white pants. She has a concerned expression with her mouth slightly open and her right hand placed flat against her chest.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": "light gray t-shirt",
+          "bottom": "white pants"
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "action": "hand on chest"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        -4.09375,
+        440.0,
+        316.0,
+        1048.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length blonde hair is shown in profile, wearing a white t-shirt and light grey pants while sitting on a grey couch. She has a distressed or frustrated expression with her mouth slightly open and hands raised in a gesturing motion.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "light grey"
+          }
+        },
+        "pose": "sitting, hands raised in gesture",
+        "expression": "frustrated or distressed",
+        "accessories": {
+          "ring": "visible on left hand"
+        },
+        "background": "grey couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        628.0,
+        372.0,
+        700.0,
+        560.0
+      ],
+      "mask": "image_0.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurred green plant with long, slender leaves is visible in the background, partially obscured by a light-colored, out-of-focus object in the foreground. The plant appears to be a type of palm or similar foliage, with a soft, indistinct texture due to the shallow depth of field.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "shape": "long, slender leaves",
+        "position": "background",
+        "focus": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.67578125,
+      "box": [
+        213.0,
+        636.0,
+        260.0,
+        668.0
+      ],
+      "mask": "image_0.masks/plant_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.8828125,
+      "box": [
+        322.0,
+        596.0,
+        400.0,
+        632.0
+      ],
+      "mask": "image_0.masks/plant_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        180.0,
+        696.0,
+        520.0,
+        1048.0
+      ],
+      "mask": "image_0.masks/sofa_0.png",
+      "crop": null,
+      "description": "A close-up view of a grey fabric sofa featuring a large, rectangular back cushion with visible vertical stitching and a soft, textured surface. Two people are seated on either side of the cushion, with their hands and arms visible in the foreground, wearing white and light grey clothing.",
+      "attributes": {
+        "color": "grey",
+        "material": "fabric",
+        "texture": "soft, woven",
+        "components": {
+          "back_cushion": "rectangular, padded, stitched"
+        },
+        "context": "occupied by two people"
+      },
+      "parse_ok": true
+    }
+  ]
+}

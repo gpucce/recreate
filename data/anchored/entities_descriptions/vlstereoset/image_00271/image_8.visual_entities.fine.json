@@ -1,0 +1,248 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        2.0,
+        516.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/ground_0.png",
+      "crop": null,
+      "description": "The ground is a dry, dusty, and uneven surface with a reddish-brown color, scattered with small rocks, sparse patches of green vegetation, and dried plant debris. It appears to be a rural or semi-arid environment, with a stone wall visible in the background.",
+      "attributes": {
+        "color": "reddish-brown",
+        "texture": "dusty, uneven",
+        "vegetation": "sparse green patches, dried plant debris",
+        "objects": "small rocks, stone wall in background",
+        "environment": "rural, semi-arid"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        494.0,
+        256.0,
+        672.0,
+        396.0
+      ],
+      "mask": "image_8.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up of a person's head wearing a vibrant, patterned headscarf wrapped tightly around the head. The headscarf features a mix of bright colors including red, yellow, green, and blue, with geometric and abstract patterns. The fabric appears to be a woven material, possibly cotton or a similar textile, with a textured surface. The person's forehead and part of their face are visible, showing dark skin and a calm expression.",
+      "attributes": {
+        "clothing": {
+          "headscarf": {
+            "colors": [
+              "red",
+              "yellow",
+              "green",
+              "blue"
+            ],
+            "pattern": "geometric and abstract",
+            "material": "woven fabric",
+            "style": "tightly wrapped"
+          }
+        },
+        "skin": "dark",
+        "expression": "calm",
+        "position": "head and upper face visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        142.0,
+        326.0,
+        768.0,
+        394.0
+      ],
+      "mask": "image_8.masks/hillside_0.png",
+      "crop": null,
+      "description": "A close-up of a woman's face, partially visible on the right side of the frame, wearing a colorful patterned headwrap with red, yellow, and blue accents. In the blurred background, there are thatched-roof huts and rolling green hills under a soft, natural light.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged to elderly",
+        "ethnicity": "African",
+        "clothing": {
+          "headwrap": "colorful patterned fabric with red, yellow, and blue"
+        },
+        "expression": "neutral, looking downward",
+        "background": {
+          "structures": "thatched-roof huts",
+          "landscape": "rolling green hills",
+          "lighting": "natural, soft"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 1,
+      "score": 0.51953125,
+      "box": [
+        145.0,
+        330.0,
+        508.0,
+        394.0
+      ],
+      "mask": "image_8.masks/hillside_1.png",
+      "crop": null,
+      "description": "A blurred, expansive hillside with rolling green and brown terrain stretches across the background, featuring a few out-of-focus thatched-roof structures in the foreground and a partial view of a person's face on the right edge.",
+      "attributes": {
+        "terrain": "rolling hills",
+        "color": "green and brown",
+        "structures": "thatched roofs",
+        "focus": "blurred background, sharp foreground elements",
+        "person": {
+          "visible_part": "right eye and part of face",
+          "position": "right edge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        328.0,
+        482.0,
+        596.0,
+        608.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up of a sleeping infant with dark skin and short, curly black hair, wrapped in a cream-colored knitted blanket. The baby is being held by an adult wearing a colorful, patterned top with geometric designs in red, green, black, and white.",
+      "attributes": {
+        "age": "infant",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "texture": "curly",
+          "length": "short"
+        },
+        "expression": "sleeping",
+        "clothing": {
+          "wrapping": "cream knitted blanket"
+        },
+        "pose": "lying down, being held",
+        "context": {
+          "held_by": "adult",
+          "adult_clothing": "colorful patterned top"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.5625,
+      "box": [
+        262.0,
+        468.0,
+        278.0,
+        492.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        332.0,
+        254.0,
+        756.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling African woman wearing a colorful patterned headwrap and matching dress holds a sleeping infant wrapped in a cream-colored knit blanket, with a black DSLR camera hanging from a strap around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "African",
+        "social_role": "mother",
+        "expression": "smiling, gentle",
+        "pose": "standing, holding baby",
+        "clothing": {
+          "headwrap": "colorful, patterned, geometric shapes in red, yellow, green, blue, white",
+          "dress": "colorful, patterned, geometric and abstract designs in red, green, yellow, black, white",
+          "baby_wrap": "cream, knitted, soft texture"
+        },
+        "accessories": {
+          "camera": "black DSLR with lens, hanging from strap around neck"
+        },
+        "baby": {
+          "state": "sleeping",
+          "position": "cradled in woman's arms",
+          "wrapping": "cream knit blanket"
+        },
+        "background_context": "outdoor rural setting, thatched huts visible in background, tree behind subject"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        812.0,
+        418.0,
+        1004.0,
+        592.0
+      ],
+      "mask": "image_8.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A close-up view of a stone wall constructed from irregularly shaped, rounded stones in varying shades of beige, tan, and light brown, set in a mortar that appears to be a similar light color, creating a textured and rustic surface.",
+      "attributes": {
+        "material": "stone",
+        "shape": "irregular, rounded",
+        "color": "beige, tan, light brown",
+        "texture": "rough, textured",
+        "construction": "mortared",
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        -1.0,
+        432.0,
+        211.0,
+        552.0
+      ],
+      "mask": "image_8.masks/stone wall_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a stone wall constructed from rounded, irregular stones. The left side of the wall is illuminated by warm, golden light, highlighting the texture and color of the stones, while the right side is in shadow, appearing darker and less distinct. The top edge of the wall is uneven, with some stones protruding slightly.",
+      "attributes": {
+        "material": "stone",
+        "shape": "rounded, irregular",
+        "color": "golden-brown (illuminated), dark gray (shadowed)",
+        "texture": "rough, uneven",
+        "lighting": "warm, directional (left to right)",
+        "focus": "out-of-focus",
+        "structure": "stacked, uneven top edge"
+      },
+      "parse_ok": true
+    }
+  ]
+}

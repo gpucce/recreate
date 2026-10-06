@@ -1,0 +1,80 @@
+{
+  "scene": {
+    "background": "paved sidewalk with the edge of a tree with yellow-green leaves visible in the upper left corner",
+    "lighting": "natural, soft daylight, suggesting midday with no harsh shadows. The white balance is slightly warm, enhancing the green wall and skin tones",
+    "camera_angle": "eye-level, slightly wide-angle",
+    "style": "photorealistic, with fine texture detail on the mural's paint, fabric of the clothing, and the pavement. No grain or stylization—clean, high-definition realism",
+    "mood": "contemplative and culturally grounded, with a sense of everyday life juxtaposed against powerful public art",
+    "color_palette": "moderate color saturation—vibrant green wall contrasts with the monochrome mural and the black abaya"
+  },
+  "entities": [
+    {
+      "type": "mural",
+      "attributes": {
+        "color": "grayscale",
+        "texture": "fine shading and texture",
+        "subject": "man's face",
+        "details": "direct and intense gaze, deep and expressive eyes, traditional white ghutra (headscarf) with red border, black mustache and goatee"
+      },
+      "id": "mural_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "hair": {
+          "length": "long",
+          "texture": "dark, wavy",
+          "color": "dark"
+        },
+        "clothing": {
+          "top": {
+            "color": "light gray"
+          },
+          "pants": {
+            "color": "dark"
+          }
+        },
+        "pose": "walking from right to left across the frame",
+        "expression": "smiling slightly",
+        "looking_towards": "the mural"
+      },
+      "id": "woman_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "clothing": {
+          "abaya": {
+            "color": "black"
+          },
+          "hijab": {
+            "color": "black"
+          },
+          "handbag": {
+            "color": "white",
+            "size": "small"
+          }
+        },
+        "pose": "walking slightly behind the first woman",
+        "expression": "neutral",
+        "looking_towards": "forward"
+      },
+      "id": "woman_2",
+      "count": 1
+    },
+    {
+      "type": "tree",
+      "attributes": {
+        "leaves": {
+          "color": "yellow-green"
+        }
+      },
+      "id": "tree_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

@@ -1,0 +1,88 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        69.0,
+        24.0,
+        292.0,
+        248.0
+      ],
+      "mask": "image_12.masks/clock_0.png",
+      "crop": null,
+      "description": "A round analog wall clock with a thin gold-colored rim and a white face featuring black Roman numerals. The clock has black hour and minute hands and a thin black second hand, set against a plain light purple background.",
+      "attributes": {
+        "shape": "round",
+        "rim": {
+          "color": "gold",
+          "material": "metal"
+        },
+        "face": {
+          "color": "white",
+          "numerals": "black Roman numerals"
+        },
+        "hands": {
+          "hour": "black",
+          "minute": "black",
+          "second": "black"
+        },
+        "background": "light purple"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        150.0,
+        88.0,
+        920.0,
+        1000.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits cross-legged on a bed in a meditative pose, wearing a white t-shirt and cream-colored textured pants. She has a beige quilted sleep mask covering her eyes and her hands rest on her knees in a mudra position.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "cream",
+            "texture": "textured",
+            "waist": "drawstring"
+          },
+          "accessories": {
+            "sleep_mask": {
+              "color": "beige",
+              "pattern": "quilted"
+            }
+          }
+        },
+        "pose": {
+          "position": "sitting",
+          "legs": "cross-legged",
+          "hands": "resting on knees"
+        },
+        "expression": "neutral",
+        "setting": "bedroom"
+      },
+      "parse_ok": true
+    }
+  ]
+}

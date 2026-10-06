@@ -1,0 +1,136 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.76953125,
+      "box": [
+        226.0,
+        402.0,
+        664.0,
+        736.0
+      ],
+      "mask": "image_6.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up view of a pair of wrinkled, elderly hands with visible veins and age spots, cupped together to receive a small, bright orange poppy held by a smaller, smoother hand. The elderly person wears a light-colored, long-sleeved shirt, while the smaller hand, likely belonging to a child, wears a simple gold ring on the ring finger.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled, veiny, dry",
+          "features": "age spots, prominent knuckles"
+        },
+        "clothing": {
+          "sleeve": "light beige, long-sleeved"
+        },
+        "pose": "cupped, receiving",
+        "interaction": "holding a flower",
+        "flower": {
+          "type": "poppy",
+          "color": "orange",
+          "center": "black"
+        },
+        "other_hand": {
+          "age": "child",
+          "accessory": "gold ring"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        370.0,
+        604.0,
+        584.0,
+        844.0
+      ],
+      "mask": "image_6.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up view of a young child's hand with light skin tone gently grasping the thin green stem of a plant. The child's hand is positioned in the foreground, while a larger, weathered adult hand with visible wrinkles and tanned skin is visible in the background, appearing to guide or support the child's grip.",
+      "attributes": {
+        "entity": "hand",
+        "age_group": "child",
+        "skin_tone": "light",
+        "skin_texture": "smooth",
+        "accessories": {
+          "ring": "gold band on ring finger"
+        },
+        "action": "holding plant stem",
+        "object_held": "green plant stem",
+        "context": "adult hand visible in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.765625,
+      "box": [
+        50.0,
+        488.0,
+        498.0,
+        736.0
+      ],
+      "mask": "image_6.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of a very old, weathered hand with deep wrinkles and brownish skin tone, showing signs of age and labor, with a younger hand gently holding it. The background is a blurred sandy beige, suggesting an outdoor desert setting.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "color": "brown",
+          "texture": "wrinkled, dry, weathered",
+          "details": "deep creases, visible veins, rough surface"
+        },
+        "pose": "being held by another hand",
+        "clothing": {
+          "sleeve": "light beige, long-sleeved"
+        },
+        "interaction": "being held by a younger hand",
+        "background": "sandy, blurred, beige"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.60546875,
+      "box": [
+        344.0,
+        460.0,
+        664.0,
+        732.0
+      ],
+      "mask": "image_6.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up shows a pair of wrinkled, elderly hands with visible veins and age spots gently cupping a small, smooth child's hand, which is holding the green stem of a vibrant orange poppy flower. The child's hand wears a simple gold band on the ring finger, and the background is a soft, out-of-focus sandy beige.",
+      "attributes": {
+        "entity": "hands",
+        "count": 2,
+        "age": {
+          "hand_1": "elderly",
+          "hand_2": "child"
+        },
+        "skin_texture": {
+          "hand_1": "wrinkled, veiny, spotted",
+          "hand_2": "smooth"
+        },
+        "accessories": {
+          "hand_2": "gold ring on ring finger"
+        },
+        "action": "holding flower stem",
+        "object_held": {
+          "type": "flower",
+          "color": "orange",
+          "center": "black",
+          "stem": "green"
+        },
+        "pose": "cupped, gentle"
+      },
+      "parse_ok": true
+    }
+  ]
+}

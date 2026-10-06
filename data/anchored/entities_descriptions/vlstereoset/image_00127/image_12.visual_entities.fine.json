@@ -1,0 +1,112 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        192.0,
+        4.0,
+        1008.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with a short black bob haircut and bangs holds a single red rose near her face. She is wearing a black top with sheer mesh sleeves and has a neutral expression with red lipstick.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "makeup": {
+          "lipstick": "red",
+          "eyes": "defined"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer mesh overlay",
+            "sleeves": "long"
+          }
+        },
+        "accessories": {
+          "held_object": {
+            "type": "flower",
+            "species": "rose",
+            "color": "red"
+          }
+        },
+        "pose": "holding flower to face",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        192.0,
+        596.0,
+        1008.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/top_0.png",
+      "crop": null,
+      "description": "A person is wearing a black, sheer mesh top with a solid black inner layer visible underneath. The top features thin straps and a round neckline, with the sheer fabric extending over the shoulders and arms.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer mesh",
+            "style": "layered",
+            "neckline": "round",
+            "sleeves": "long",
+            "straps": "thin"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        4.0,
+        2.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/wall_0.png",
+      "crop": null,
+      "description": "A young woman with a short black bob haircut and bangs is holding a single red rose in front of her face, partially obscuring her mouth. She is wearing a black top with sheer mesh sleeves and has a neutral expression with red lipstick.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "bob with bangs"
+        },
+        "clothing": {
+          "top": "black with sheer mesh sleeves"
+        },
+        "accessories": {
+          "rose": "red, single stem with green leaves"
+        },
+        "pose": "holding rose in front of face",
+        "expression": "neutral",
+        "makeup": {
+          "lipstick": "red"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,742 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        280.0,
+        660.0,
+        564.0,
+        948.0
+      ],
+      "mask": "image_9.masks/backpack_0.png",
+      "crop": null,
+      "description": "A black backpack made of a smooth, synthetic fabric sits upright on a white towel, positioned in front of a person's bare legs. The backpack features a main compartment with a zipper, a smaller front pocket with a horizontal zipper, and a top handle, with silver zipper pulls visible on the side.",
+      "attributes": {
+        "color": "black",
+        "material": "synthetic fabric",
+        "type": "backpack",
+        "features": [
+          "top handle",
+          "front zippered pocket",
+          "main zippered compartment",
+          "silver zipper pulls"
+        ],
+        "position": "upright on a white towel",
+        "context": "outdoor, beach setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.703125,
+      "box": [
+        384.0,
+        258.0,
+        404.0,
+        290.0
+      ],
+      "mask": "image_9.masks/building_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.86328125,
+      "box": [
+        227.0,
+        207.0,
+        340.0,
+        284.0
+      ],
+      "mask": "image_9.masks/building_1.png",
+      "crop": null,
+      "description": "A cluster of multi-story residential buildings with flat roofs, featuring facades painted in shades of yellow and beige, with small rectangular windows visible on the walls.",
+      "attributes": {
+        "building_type": "residential",
+        "color": [
+          "yellow",
+          "beige"
+        ],
+        "roof_style": "flat",
+        "windows": "rectangular",
+        "material": "stucco or plaster",
+        "condition": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.5234375,
+      "box": [
+        60.5,
+        184.0,
+        111.5,
+        212.0
+      ],
+      "mask": "image_9.masks/building_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.71484375,
+      "box": [
+        -0.5,
+        156.0,
+        37.25,
+        202.0
+      ],
+      "mask": "image_9.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.83984375,
+      "box": [
+        175.0,
+        231.0,
+        258.0,
+        340.0
+      ],
+      "mask": "image_9.masks/building_4.png",
+      "crop": null,
+      "description": "A multi-story building with a yellow facade and a light-colored roof, featuring several rectangular windows arranged in a grid pattern. The image is blurry, making fine details indistinct, but the structure appears to be a typical urban or residential building.",
+      "attributes": {
+        "color": "yellow",
+        "structure": "multi-story",
+        "windows": "rectangular",
+        "roof": "light-colored",
+        "condition": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.890625,
+      "box": [
+        92.0,
+        208.0,
+        182.0,
+        340.0
+      ],
+      "mask": "image_9.masks/building_5.png",
+      "crop": null,
+      "description": "A three-story building with a light green facade and a flat roof, featuring a central entrance with a small balcony above it and rectangular windows on each floor. The building is flanked by a pink structure on the left and a yellow structure on the right, with a white awning visible in the foreground.",
+      "attributes": {
+        "color": "light green",
+        "floors": 3,
+        "windows": "rectangular, dark green",
+        "entrance": "central, with a small balcony",
+        "roof": "flat",
+        "adjacent_buildings": {
+          "left": "pink",
+          "right": "yellow"
+        },
+        "foreground": "white awning"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.8828125,
+      "box": [
+        117.0,
+        188.0,
+        209.0,
+        230.0
+      ],
+      "mask": "image_9.masks/building_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 7,
+      "score": 0.8359375,
+      "box": [
+        -3.25,
+        202.0,
+        109.0,
+        338.0
+      ],
+      "mask": "image_9.masks/building_7.png",
+      "crop": null,
+      "description": "A multi-story building with a pink facade and a section of a green facade on the right side, featuring rectangular windows and a flat roofline, partially obscured by trees in the foreground.",
+      "attributes": {
+        "color": [
+          "pink",
+          "green"
+        ],
+        "structure": "multi-story",
+        "windows": "rectangular",
+        "roof": "flat",
+        "obstruction": "trees in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 8,
+      "score": 0.9140625,
+      "box": [
+        280.0,
+        224.0,
+        384.0,
+        316.0
+      ],
+      "mask": "image_9.masks/building_8.png",
+      "crop": null,
+      "description": "A three-story building with a yellow facade and a dark, sloped roof, featuring multiple rectangular windows with dark frames. The structure appears to be made of stucco or plaster, with a small chimney visible on the roof and some greenery at the base.",
+      "attributes": {
+        "color": "yellow",
+        "material": "stucco or plaster",
+        "roof": {
+          "type": "sloped",
+          "color": "dark",
+          "features": [
+            "chimney"
+          ]
+        },
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "dark",
+          "count": 6
+        },
+        "floors": 3,
+        "surroundings": {
+          "base": "greenery"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 9,
+      "score": 0.921875,
+      "box": [
+        368.0,
+        224.0,
+        448.0,
+        288.0
+      ],
+      "mask": "image_9.masks/building_9.png",
+      "crop": null,
+      "description": "A two-story building with a pink facade and a yellow section on the left side, featuring a brown roof and several rectangular windows.",
+      "attributes": {
+        "color": {
+          "facade": "pink",
+          "side_section": "yellow",
+          "roof": "brown"
+        },
+        "structure": {
+          "stories": 2,
+          "windows": "rectangular",
+          "roof_style": "sloped"
+        },
+        "material": "likely stucco or painted brick"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        748.0,
+        396.0,
+        764.0,
+        412.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        116.0,
+        390.0,
+        548.0,
+        832.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair is sitting on a white towel on a sandy beach, facing away from the camera. He is shirtless, revealing a tanned back, and is wearing dark swim trunks, with a black backpack resting on the sand next to him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "none",
+          "bottom": "dark swim trunks"
+        },
+        "accessories": {
+          "backpack": "black"
+        },
+        "pose": "sitting",
+        "location": "beach",
+        "skin_tone": "tanned"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.84765625,
+      "box": [
+        16.75,
+        354.0,
+        37.25,
+        414.0
+      ],
+      "mask": "image_9.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        540.0,
+        388.0,
+        932.0,
+        908.0
+      ],
+      "mask": "image_9.masks/person_3.png",
+      "crop": null,
+      "description": "A shirtless man with curly brown hair sits on a white towel on a sandy beach, facing away from the camera towards the ocean. He is wearing dark grey shorts and has his legs bent with one foot resting on the sand.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "skin": "tanned",
+        "clothing": {
+          "top": "none",
+          "bottom": {
+            "type": "shorts",
+            "color": "dark grey",
+            "material": "cotton"
+          }
+        },
+        "pose": "sitting",
+        "orientation": "back to camera",
+        "location": "beach",
+        "accessories": {
+          "towel": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9296875,
+      "box": [
+        212.0,
+        360.0,
+        244.0,
+        440.0
+      ],
+      "mask": "image_9.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.83203125,
+      "box": [
+        20.25,
+        408.0,
+        63.25,
+        456.0
+      ],
+      "mask": "image_9.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.93359375,
+      "box": [
+        117.0,
+        418.0,
+        235.0,
+        528.0
+      ],
+      "mask": "image_9.masks/person_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a woman with brown hair sitting on a beach towel, wearing a blue bikini and facing away from the camera with her back turned.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "medium"
+        },
+        "clothing": {
+          "type": "bikini",
+          "color": "blue"
+        },
+        "pose": "sitting",
+        "orientation": "back turned",
+        "location": "beach",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.9296875,
+      "box": [
+        73.0,
+        402.0,
+        125.0,
+        516.0
+      ],
+      "mask": "image_9.masks/person_7.png",
+      "crop": null,
+      "description": "A blurry, low-resolution side profile of a woman with long brown hair, wearing a blue bikini top and dark bottoms, sitting outdoors on a sandy surface.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": "blue bikini top",
+          "bottoms": "dark blue or black"
+        },
+        "pose": "sitting",
+        "view": "side profile",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.875,
+      "box": [
+        71.5,
+        354.0,
+        88.5,
+        414.0
+      ],
+      "mask": "image_9.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.7421875,
+      "box": [
+        896.0,
+        402.0,
+        912.0,
+        414.0
+      ],
+      "mask": "image_9.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.68359375,
+      "box": [
+        960.0,
+        410.0,
+        976.0,
+        422.0
+      ],
+      "mask": "image_9.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        508.0,
+        334.0,
+        548.0,
+        358.0
+      ],
+      "mask": "image_9.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.6015625,
+      "box": [
+        424.0,
+        302.0,
+        504.0,
+        354.0
+      ],
+      "mask": "image_9.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a rocky outcrop with light beige and tan tones, featuring irregular shapes and textures that suggest a natural stone formation. The image lacks sharp details, making it difficult to discern specific features or patterns on the rock surface.",
+      "attributes": {
+        "color": "light beige, tan",
+        "texture": "irregular, rough",
+        "focus": "blurry, out-of-focus",
+        "shape": "irregular, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 2,
+      "score": 0.71484375,
+      "box": [
+        272.0,
+        300.0,
+        592.0,
+        356.0
+      ],
+      "mask": "image_9.masks/rocky outcrop_2.png",
+      "crop": null,
+      "description": "A large, rugged rocky outcrop composed of light brown and tan stone rises from the water, featuring a steep, uneven surface with visible crevices and a rough texture. The rock formation is situated near a body of blue water, with a blurred yellow building and green foliage visible in the background.",
+      "attributes": {
+        "material": "rock",
+        "color": "light brown, tan",
+        "texture": "rough, uneven",
+        "shape": "irregular, jagged",
+        "position": "rising from water",
+        "background_elements": [
+          "yellow building",
+          "green foliage",
+          "blue water"
+        ],
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 3,
+      "score": 0.734375,
+      "box": [
+        556.0,
+        334.0,
+        596.0,
+        358.0
+      ],
+      "mask": "image_9.masks/rocky outcrop_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 4,
+      "score": 0.55078125,
+      "box": [
+        272.0,
+        302.0,
+        420.0,
+        354.0
+      ],
+      "mask": "image_9.masks/rocky outcrop_4.png",
+      "crop": null,
+      "description": "A large, dark gray rock formation with a rough, uneven surface dominates the left side of the frame, appearing to be part of a larger cliff or outcrop. The rock has a jagged, irregular shape with visible crevices and a slightly sloping top, set against a blurred background of lighter, tan-colored terrain and structures.",
+      "attributes": {
+        "color": "dark gray",
+        "texture": "rough, uneven",
+        "shape": "jagged, irregular",
+        "position": "left side of frame",
+        "background": "blurred, tan-colored terrain and structures",
+        "material": "rock"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        2.0,
+        348.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a granular texture and numerous small indentations and footprints scattered across the surface. It appears dry and compacted in some areas, while looser in others, with subtle shadows cast by the uneven terrain.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "granular",
+        "condition": "dry, compacted in some areas, loose in others",
+        "features": [
+          "indentations",
+          "footprints",
+          "uneven terrain"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sea",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        46.0,
+        340.0,
+        1024.0,
+        548.0
+      ],
+      "mask": "image_9.masks/sea_0.png",
+      "crop": null,
+      "description": "The sea is a vibrant turquoise color with gentle white waves breaking near the shore. The water appears clear and calm, with a few people swimming in the distance.",
+      "attributes": {
+        "color": "turquoise",
+        "wave": "gentle white",
+        "clarity": "clear",
+        "activity": "swimming",
+        "shoreline": "sandy beach"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        244.0,
+        280.0,
+        296.0,
+        304.0
+      ],
+      "mask": "image_9.masks/tree_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -1.75,
+        119.5,
+        102.0,
+        198.0
+      ],
+      "mask": "image_9.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, leafy tree with a dense canopy of dark green foliage stands prominently against a clear blue sky. The tree has a thick, sturdy trunk and branches that spread out widely, creating a broad, umbrella-like shape. The leaves appear to be small and clustered, giving the canopy a textured appearance. The tree is situated in an outdoor setting, possibly a park or a residential area, as suggested by the blurred structures in the background.",
+      "attributes": {
+        "foliage": "dense, dark green",
+        "trunk": "thick, sturdy",
+        "shape": "broad, umbrella-like",
+        "leaves": "small, clustered",
+        "setting": "outdoor, possibly park or residential area",
+        "background": "clear blue sky, blurred structures"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.78515625,
+      "box": [
+        -1.625,
+        268.0,
+        41.0,
+        308.0
+      ],
+      "mask": "image_9.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.87109375,
+      "box": [
+        460.0,
+        270.0,
+        492.0,
+        298.0
+      ],
+      "mask": "image_9.masks/tree_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.51953125,
+      "box": [
+        34.0,
+        300.0,
+        69.0,
+        332.0
+      ],
+      "mask": "image_9.masks/tree_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

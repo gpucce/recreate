@@ -1,0 +1,472 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        272.0,
+        374.0,
+        360.0,
+        528.0
+      ],
+      "mask": "image_0.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a chair featuring a high backrest upholstered in a reddish-brown fabric with a repeating geometric pattern of small, light-colored squares. The chair is positioned in the background, partially obscured by a yellow object in the foreground.",
+      "attributes": {
+        "type": "upholstered chair",
+        "color": "reddish-brown",
+        "pattern": "geometric squares",
+        "material": "fabric",
+        "position": "background",
+        "visibility": "partially obscured"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        86.5,
+        306.0,
+        170.0,
+        536.0
+      ],
+      "mask": "image_0.masks/computer_0.png",
+      "crop": null,
+      "description": "A close-up, angled view of the side profile of a black CRT computer monitor, featuring a thick, curved plastic casing and a visible seam along the edge. The monitor is positioned on a wooden surface against a plain, light-colored wall, with the image appearing somewhat blurry and low-resolution.",
+      "attributes": {
+        "object_type": "CRT monitor",
+        "color": "black",
+        "material": "plastic",
+        "shape": "curved, bulky",
+        "view_angle": "side profile",
+        "condition": "blurry, low resolution",
+        "background": "plain wall",
+        "surface": "wooden"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        -0.96875,
+        68.5,
+        101.0,
+        740.0
+      ],
+      "mask": "image_0.masks/computer_1.png",
+      "crop": null,
+      "description": "A close-up, angled view of a black CRT monitor displaying a Windows operating system interface with a blue taskbar and open windows. The monitor has a thick, dark plastic bezel with a small, circular silver button centered on the bottom frame, and a black computer mouse is partially visible in the foreground on a wooden surface.",
+      "attributes": {
+        "type": "CRT monitor",
+        "color": "black",
+        "bezel": "thick",
+        "button": "silver, circular, bottom center",
+        "screen_content": "Windows OS, blue taskbar",
+        "peripheral": "black mouse",
+        "surface": "wooden desk",
+        "angle": "side profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.61328125,
+      "box": [
+        0.0,
+        68.5,
+        364.0,
+        744.0
+      ],
+      "mask": "image_0.masks/computer_2.png",
+      "crop": null,
+      "description": "A black CRT computer monitor with a thick bezel and a silver power button is positioned on the left side of a wooden desk, displaying a bright screen with a blue taskbar. In the foreground, a black keyboard is partially visible with a person's hand resting on it, while a second monitor and a mouse are situated in the background.",
+      "attributes": {
+        "type": "CRT monitor",
+        "color": "black",
+        "bezel": "thick",
+        "button": "silver circular power button",
+        "screen": "on, displaying blue interface",
+        "position": "left side of desk",
+        "peripherals": {
+          "keyboard": "black, in foreground",
+          "mouse": "black, in background"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        44.5,
+        492.0,
+        392.0,
+        740.0
+      ],
+      "mask": "image_0.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden desk surface cluttered with office equipment, featuring a black computer keyboard in the foreground and a person's hand resting on it. A black folder with a yellow label and a second keyboard are visible in the background, along with a person wearing a yellow shirt on the right side.",
+      "attributes": {
+        "surface": "wooden",
+        "color": "brown",
+        "objects": [
+          "black keyboard",
+          "black folder",
+          "yellow label",
+          "second keyboard",
+          "black mouse"
+        ],
+        "person": {
+          "visible_parts": [
+            "hand",
+            "arm",
+            "torso"
+          ],
+          "clothing": {
+            "shirt": "yellow"
+          },
+          "action": "typing or resting hand on keyboard"
+        },
+        "overlay": "date stamp 03/31/2009"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "doorway",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        322.0,
+        82.0,
+        532.0,
+        372.0
+      ],
+      "mask": "image_0.masks/doorway_0.png",
+      "crop": null,
+      "description": "A wooden-framed doorway with a transom window above it, featuring a warm, yellowish light emanating from a ceiling fixture visible through the glass. The frame is a medium brown wood, and the glass panes reflect the interior lighting, creating a soft glow. The doorway appears to be part of an indoor setting, possibly a hallway or room entrance, with a clean and simple design.",
+      "attributes": {
+        "frame": {
+          "material": "wood",
+          "color": "medium brown"
+        },
+        "window": {
+          "type": "transom",
+          "glass": "clear",
+          "lighting": "warm yellow"
+        },
+        "lighting": {
+          "fixture": "ceiling-mounted",
+          "color": "yellowish"
+        },
+        "setting": "indoor",
+        "style": "simple, clean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.67578125,
+      "box": [
+        400.0,
+        169.0,
+        418.0,
+        177.0
+      ],
+      "mask": "image_0.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.50390625,
+      "box": [
+        218.0,
+        37.5,
+        237.0,
+        60.0
+      ],
+      "mask": "image_0.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 2,
+      "score": 0.7109375,
+      "box": [
+        372.0,
+        195.0,
+        388.0,
+        201.0
+      ],
+      "mask": "image_0.masks/light_fixture_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 3,
+      "score": 0.83984375,
+      "box": [
+        404.0,
+        163.0,
+        488.0,
+        208.0
+      ],
+      "mask": "image_0.masks/light_fixture_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 4,
+      "score": 0.75390625,
+      "box": [
+        560.0,
+        151.0,
+        584.0,
+        160.0
+      ],
+      "mask": "image_0.masks/light_fixture_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 5,
+      "score": 0.8203125,
+      "box": [
+        512.0,
+        78.0,
+        604.0,
+        106.0
+      ],
+      "mask": "image_0.masks/light_fixture_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        180.0,
+        96.0,
+        1000.0,
+        740.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, white hair and glasses is seated at a computer, wearing a blue blazer over a pink shirt and a colorful beaded necklace. She is pointing with her right index finger towards the left side of the frame while her left hand rests on a black keyboard.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "chain": "silver"
+          },
+          "necklace": "colorful beaded"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "blue",
+            "type": "blazer"
+          },
+          "shirt": {
+            "color": "pink"
+          }
+        },
+        "pose": "seated, pointing with right hand, left hand on keyboard",
+        "action": "pointing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.703125,
+      "box": [
+        368.0,
+        253.0,
+        462.0,
+        358.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up crop showing a person's hand with light skin tone holding a dark, textured object, possibly a piece of hair or a dark fabric, against a blurred background.",
+      "attributes": {
+        "skin_tone": "light",
+        "hand": "visible",
+        "object": {
+          "color": "dark",
+          "texture": "textured",
+          "type": "unknown"
+        },
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.5234375,
+      "box": [
+        430.0,
+        266.0,
+        568.0,
+        430.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up profile view of an elderly person with short, thinning gray hair and wrinkled skin, wearing wire-rimmed glasses and a bright yellow top. A hand is visible in the foreground, partially obscuring the person's face.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "texture": "thinning"
+        },
+        "accessories": {
+          "glasses": {
+            "frame": "wire-rimmed"
+          }
+        },
+        "clothing": {
+          "color": "yellow",
+          "type": "top"
+        },
+        "skin": {
+          "texture": "wrinkled"
+        },
+        "pose": "profile view, head tilted down"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.953125,
+      "box": [
+        596.0,
+        -1.453125,
+        868.0,
+        348.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A person with dark skin and dark hair pulled back is visible in the foreground, wearing a white top with a yellow collar or accessory, while a second person in a light blue sweater stands behind them.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "black",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "top": {
+            "color": "white",
+            "details": "yellow collar or accessory"
+          }
+        },
+        "pose": "seated or standing close to camera",
+        "expression": "neutral or slightly smiling (partially obscured)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.71484375,
+      "box": [
+        314.0,
+        140.0,
+        848.0,
+        616.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A young woman with dark hair pulled back is wearing a white t-shirt with a yellow and black graphic print under a yellow zip-up hoodie. She is positioned in the center, facing slightly to the left, with her face blurred for privacy.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "graphic": "yellow and black text/shape"
+          },
+          "jacket": {
+            "color": "yellow",
+            "type": "hoodie"
+          }
+        },
+        "face": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        239.0,
+        206.0,
+        290.0,
+        386.0
+      ],
+      "mask": "image_0.masks/picture_0.png",
+      "crop": null,
+      "description": "A framed piece of artwork or calligraphy is displayed on a wall, featuring a dark wooden frame and a light-colored mat. Inside the frame, there are two vertical rectangular sections containing text or designs, set against a pale background.",
+      "attributes": {
+        "frame": {
+          "color": "dark brown",
+          "material": "wood"
+        },
+        "mat": {
+          "color": "light beige or cream"
+        },
+        "content": {
+          "type": "vertical text or design",
+          "sections": 2,
+          "background": "pale yellow or off-white"
+        },
+        "wall": {
+          "color": "light beige or cream"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

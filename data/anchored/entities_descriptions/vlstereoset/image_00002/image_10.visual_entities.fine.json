@@ -1,0 +1,216 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        548.0,
+        540.0,
+        756.0,
+        972.0
+      ],
+      "mask": "image_10.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a person riding a black bicycle on a dirt road, wearing a vibrant, multicolored patterned dress and brown sandals. The bicycle features a silver handlebar, a black frame, and white-walled tires with silver rims.",
+      "attributes": {
+        "bicycle": {
+          "frame_color": "black",
+          "handlebar_color": "silver",
+          "tire_color": "white",
+          "rim_color": "silver",
+          "type": "standard"
+        },
+        "rider": {
+          "clothing": {
+            "dress": "multicolored patterned",
+            "sandals": "brown"
+          },
+          "pose": "riding"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        141.0,
+        392.0,
+        412.0,
+        616.0
+      ],
+      "mask": "image_10.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A large, coarse burlap sack in a light tan color is slung over the shoulder of a young boy, with the boy's hand gripping the gathered top of the fabric. The sack appears heavy and filled, bulging out behind the boy's head and back, with visible frayed edges and a rough, woven texture.",
+      "attributes": {
+        "material": "burlap",
+        "color": "tan",
+        "texture": "coarse, woven",
+        "condition": "frayed edges, filled",
+        "position": "slung over shoulder",
+        "function": "carrying load"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        62.5,
+        360.0,
+        86.5,
+        440.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        528.0,
+        284.0,
+        760.0,
+        796.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling young Black woman rides a bicycle, wearing a vibrant pink short-sleeved t-shirt and a colorful patterned wrap skirt in orange, green, and blue. She has a matching colorful headwrap and is wearing brown sandals, with a rural landscape featuring a thatched-roof hut in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Black",
+        "expression": "smiling",
+        "pose": "sitting on a bicycle, hands on handlebars",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "wrap skirt",
+            "pattern": "colorful geometric and floral",
+            "colors": [
+              "orange",
+              "green",
+              "blue",
+              "yellow"
+            ]
+          },
+          "headwear": {
+            "type": "headwrap",
+            "pattern": "matching colorful geometric",
+            "colors": [
+              "orange",
+              "green",
+              "blue",
+              "yellow"
+            ]
+          },
+          "footwear": {
+            "type": "sandals",
+            "color": "brown"
+          }
+        },
+        "accessories": {
+          "bicycle": {
+            "handlebars": "silver",
+            "frame": "black"
+          }
+        },
+        "background": {
+          "setting": "rural outdoor",
+          "structures": "thatched roof hut",
+          "ground": "dirt path"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        210.0,
+        412.0,
+        386.0,
+        900.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A young Black boy with short hair walks barefoot on a dirt path, carrying a large, tan burlap sack on his shoulder. He is wearing a yellow short-sleeved polo shirt and dark brown shorts, smiling at the camera.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "yellow",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "dark brown"
+          },
+          "footwear": "barefoot"
+        },
+        "pose": "walking",
+        "accessories": {
+          "item": "sack",
+          "material": "burlap",
+          "color": "tan",
+          "position": "on shoulder"
+        },
+        "background": "dirt ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        -4.0,
+        348.0,
+        708.0,
+        420.0
+      ],
+      "mask": "image_10.masks/rice paddy field_0.png",
+      "crop": null,
+      "description": "A smiling woman with dark skin and short hair is wearing a bright pink short-sleeved shirt, positioned on the right side of the frame. In the background, a blurred figure stands in a green field, and a tree trunk is visible in the center.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": "bright pink, short-sleeved"
+        },
+        "hair": "short, dark",
+        "position": "right side of frame",
+        "background": {
+          "field": "green, blurred",
+          "figure": "blurred, standing",
+          "tree": "trunk visible, center"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

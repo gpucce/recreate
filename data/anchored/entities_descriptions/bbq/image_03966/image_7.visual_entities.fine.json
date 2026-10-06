@@ -1,0 +1,1352 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceiling",
+      "index": 0,
+      "score": 0.8046875,
+      "box": [
+        740.0,
+        -1.5,
+        1024.0,
+        202.0
+      ],
+      "mask": "image_7.masks/ceiling_0.png",
+      "crop": null,
+      "description": "A close-up view of a ceiling featuring horizontal wooden slats in a light brown tone, with two long, thin, linear LED light fixtures emitting a warm white glow embedded within the structure. The slats are arranged in parallel lines, creating a textured, modern aesthetic, and the lighting is integrated seamlessly into the design.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "pattern": "horizontal slats",
+        "lighting": {
+          "type": "linear LED",
+          "color": "warm white",
+          "quantity": 2,
+          "position": "embedded within slats"
+        },
+        "style": "modern",
+        "texture": "smooth wood grain"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceiling",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        252.0,
+        -0.5,
+        804.0,
+        232.0
+      ],
+      "mask": "image_7.masks/ceiling_1.png",
+      "crop": null,
+      "description": "A modern, white ceiling features a central row of recessed circular downlights and a section on the right with wooden slat detailing and linear LED strip lighting.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth plaster or drywall",
+        "lighting": {
+          "type": "recessed",
+          "shape": "circular",
+          "arrangement": "linear row",
+          "additional": "linear LED strips"
+        },
+        "detailing": {
+          "feature": "wooden slats",
+          "location": "right side"
+        },
+        "style": "modern"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        900.0,
+        564.0,
+        1024.0,
+        868.0
+      ],
+      "mask": "image_7.masks/chair_0.png",
+      "crop": null,
+      "description": "A black office chair with a mesh backrest and padded armrests is positioned in an office setting, featuring a five-star base with casters for mobility. The chair is partially visible, with the focus on the backrest and armrests, and it is situated near a desk with a computer monitor in the background.",
+      "attributes": {
+        "color": "black",
+        "material": "mesh, plastic, metal",
+        "type": "office chair",
+        "features": {
+          "backrest": "mesh",
+          "armrests": "padded",
+          "base": "five-star with casters"
+        },
+        "position": "near desk",
+        "background": "office setting with computer monitor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.6328125,
+      "box": [
+        -1.0,
+        640.0,
+        25.625,
+        864.0
+      ],
+      "mask": "image_7.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a chair's backrest and seat, featuring a dark, possibly black or dark gray, material with a smooth texture. The chair has a modern design with clean lines and a minimalist aesthetic. The visible portion includes the upper part of the backrest and a section of the seat, which appears to be made of a similar dark material. The edges are sharp and well-defined, suggesting a sturdy construction.",
+      "attributes": {
+        "color": "dark",
+        "material": "smooth, possibly leather or synthetic",
+        "design": "modern, minimalist",
+        "visible_parts": [
+          "backrest",
+          "seat"
+        ],
+        "edges": "sharp, well-defined"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.66015625,
+      "box": [
+        864.0,
+        520.0,
+        992.0,
+        824.0
+      ],
+      "mask": "image_7.masks/chair_2.png",
+      "crop": null,
+      "description": "A black office chair with a mesh backrest and armrests is positioned at a desk, featuring a five-star base with casters.",
+      "attributes": {
+        "type": "office chair",
+        "color": "black",
+        "material": "mesh, plastic, metal",
+        "features": [
+          "armrests",
+          "mesh backrest",
+          "five-star base",
+          "casters"
+        ],
+        "position": "at desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        800.0,
+        612.0,
+        952.0,
+        852.0
+      ],
+      "mask": "image_7.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a modern office desk featuring a light wood-grain top and a sturdy, white-painted metal frame with rectangular legs. A black office chair with a mesh back and a five-star wheeled base is partially visible on the right side, positioned next to the desk on a gray carpet.",
+      "attributes": {
+        "desk": {
+          "top": {
+            "material": "wood",
+            "color": "light brown",
+            "finish": "wood grain"
+          },
+          "frame": {
+            "material": "metal",
+            "color": "white",
+            "style": "rectangular legs"
+          }
+        },
+        "chair": {
+          "color": "black",
+          "back": "mesh",
+          "base": "five-star with wheels"
+        },
+        "floor": {
+          "material": "carpet",
+          "color": "gray"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.75390625,
+      "box": [
+        -1.5,
+        612.0,
+        202.0,
+        844.0
+      ],
+      "mask": "image_7.masks/desk_1.png",
+      "crop": null,
+      "description": "The image shows a close-up of a modern office desk with a light-colored wooden top and a sleek, dark metal frame. The desk is partially obscured by vertical black bars in the foreground, suggesting it is behind a glass partition or window.",
+      "attributes": {
+        "material": {
+          "top": "wood",
+          "frame": "metal"
+        },
+        "color": {
+          "top": "light brown",
+          "frame": "black"
+        },
+        "style": "modern",
+        "position": "behind glass partition",
+        "visible_parts": [
+          "top",
+          "frame"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        388.0,
+        308.0,
+        456.0,
+        496.0
+      ],
+      "mask": "image_7.masks/fabric_0.png",
+      "crop": null,
+      "description": "A close-up crop of a person's torso wearing a crisp white button-down shirt with an open collar, layered under a black blazer. The person is holding a black smartphone in their left hand, with fingers visible gripping the device.",
+      "attributes": {
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "collar": "open"
+          },
+          "jacket": {
+            "color": "black",
+            "type": "blazer"
+          }
+        },
+        "accessories": {
+          "phone": {
+            "color": "black",
+            "type": "smartphone"
+          }
+        },
+        "pose": "holding phone",
+        "gender": "female",
+        "age": "adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 1,
+      "score": 0.578125,
+      "box": [
+        330.0,
+        492.0,
+        498.0,
+        916.0
+      ],
+      "mask": "image_7.masks/fabric_1.png",
+      "crop": null,
+      "description": "A close-up crop showing the lower torso and legs of a person wearing tailored black trousers and a black blazer over a white top. The trousers are slim-fitting with a straight leg cut, ending just above the ankle, and the fabric appears smooth and structured, likely a wool or wool-blend suiting material. The person is standing upright, with one hand partially visible at the side, and the background is softly blurred, suggesting an indoor setting with neutral tones.",
+      "attributes": {
+        "clothing": {
+          "pants": "black, tailored, slim-fit, straight-leg, ankle-length",
+          "jacket": "black, blazer-style, structured",
+          "top": "white, visible at neckline"
+        },
+        "pose": "standing, upright, partial view from waist to mid-calf",
+        "material": "smooth, structured suiting fabric (likely wool or blend)",
+        "color_palette": "black, white, neutral background",
+        "visible_body_parts": "lower torso, hips, legs, part of right hand",
+        "setting": "indoor, blurred background, neutral lighting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 2,
+      "score": 0.51953125,
+      "box": [
+        580.0,
+        256.0,
+        852.0,
+        604.0
+      ],
+      "mask": "image_7.masks/fabric_2.png",
+      "crop": null,
+      "description": "A man wearing a dark blue suit jacket over a white collared shirt and a matching dark blue tie, holding a black folder or notebook in his left hand. The suit jacket has a notched lapel and two visible buttons, with a pocket on the left side. The man is standing in a well-lit indoor environment with a blurred background that includes a white wall and a hint of greenery.",
+      "attributes": {
+        "clothing": {
+          "jacket": "dark blue suit jacket",
+          "shirt": "white collared shirt",
+          "tie": "dark blue tie",
+          "pants": "dark blue suit pants"
+        },
+        "accessories": {
+          "folder": "black folder or notebook"
+        },
+        "pose": "standing",
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "not visible",
+        "social_role": "professional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 3,
+      "score": 0.50390625,
+      "box": [
+        620.0,
+        528.0,
+        796.0,
+        952.0
+      ],
+      "mask": "image_7.masks/fabric_3.png",
+      "crop": null,
+      "description": "A person wearing a dark navy blue suit jacket and matching trousers, holding a black folder or document holder in their right hand. The trousers are tailored with a straight leg and visible crease, paired with brown leather dress shoes. The fabric appears smooth and structured, likely wool or a wool blend, with subtle sheen under even lighting.",
+      "attributes": {
+        "clothing": {
+          "jacket": "dark navy blue, tailored, structured",
+          "trousers": "dark navy blue, straight-leg, creased, smooth texture",
+          "shoes": "brown leather, polished, dress style"
+        },
+        "accessories": {
+          "folder": "black, held in right hand, rectangular, possibly leather or vinyl"
+        },
+        "pose": "standing, mid-stride or walking, legs slightly apart",
+        "material": "wool or wool-blend suit fabric, smooth finish, slight sheen",
+        "color": "dominant dark navy blue, accent brown (shoes), black (folder)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 4,
+      "score": 0.5546875,
+      "box": [
+        308.0,
+        308.0,
+        524.0,
+        576.0
+      ],
+      "mask": "image_7.masks/fabric_4.png",
+      "crop": null,
+      "description": "A woman with long dark wavy hair is shown from the neck down to the upper thighs, wearing a black blazer over a white collared shirt and black trousers. She is holding a black smartphone in her right hand, positioned in front of her chest.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "style": "long, wavy"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "black",
+            "sleeves": "long, slightly pushed up"
+          },
+          "top": {
+            "type": "shirt",
+            "color": "white",
+            "collar": "open"
+          },
+          "bottoms": {
+            "type": "trousers",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "phone": {
+            "color": "black",
+            "held_in": "right hand"
+          }
+        },
+        "pose": "standing, holding phone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        252.0,
+        96.0,
+        288.0,
+        804.0
+      ],
+      "mask": "image_7.masks/glass_0.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass pane with a dark frame, reflecting light and showing a blurred background. The glass appears to be part of a window or door, with a smooth surface and a slight tint.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame": "dark",
+        "surface": "smooth",
+        "tint": "slight",
+        "reflection": "visible",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.80078125,
+      "box": [
+        -1.625,
+        -4.0,
+        38.5,
+        988.0
+      ],
+      "mask": "image_7.masks/glass_1.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass pane with a light gray or white frame, reflecting the interior of a room with fluorescent lighting and a desk. The glass is transparent, allowing a view of the room's interior, including a computer monitor and a chair.",
+      "attributes": {
+        "material": "glass",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame_color": "light gray/white",
+        "transparency": "transparent",
+        "reflections": [
+          "fluorescent lights",
+          "desk",
+          "computer monitor",
+          "chair"
+        ],
+        "function": "window or partition"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.80078125,
+      "box": [
+        300.0,
+        168.0,
+        328.0,
+        768.0
+      ],
+      "mask": "image_7.masks/glass_2.png",
+      "crop": null,
+      "description": "A close-up of a person's arm wearing a dark, long-sleeved garment, possibly a jacket or sweater, with the sleeve bunched up around the elbow. The background is blurred and light-colored, suggesting an indoor setting with a window or door frame.",
+      "attributes": {
+        "clothing": {
+          "sleeve": "dark",
+          "material": "fabric",
+          "fit": "loose"
+        },
+        "pose": "arm bent at the elbow",
+        "background": "blurred, light-colored"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.87890625,
+      "box": [
+        71.5,
+        -6.0,
+        150.0,
+        936.0
+      ],
+      "mask": "image_7.masks/glass_3.png",
+      "crop": null,
+      "description": "A tall, rectangular glass pane with a reflective surface, showing a blurred reflection of an indoor environment with a table, chair, and a white cup. The glass is framed by a thin, dark border on the left and right sides, and a thicker, metallic or wooden frame at the bottom. The reflection is soft and out of focus, suggesting the glass is part of a window or partition in a modern interior setting.",
+      "attributes": {
+        "shape": "rectangular",
+        "material": "glass",
+        "frame": {
+          "left": "thin dark border",
+          "right": "thin dark border",
+          "bottom": "thicker metallic or wooden frame"
+        },
+        "reflection": {
+          "content": "indoor scene with table, chair, and white cup",
+          "clarity": "blurred",
+          "lighting": "soft, diffused"
+        },
+        "position": "vertical, likely part of a window or partition",
+        "setting": "modern interior"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.81640625,
+      "box": [
+        796.0,
+        238.0,
+        932.0,
+        528.0
+      ],
+      "mask": "image_7.masks/glass_4.png",
+      "crop": null,
+      "description": "A close-up view of a person's left arm and shoulder wearing a dark navy blue suit jacket with a smooth, matte fabric texture. The background is heavily blurred, showing indistinct horizontal lines and light sources suggestive of an office interior.",
+      "attributes": {
+        "clothing": {
+          "jacket": {
+            "color": "dark navy blue",
+            "type": "suit jacket",
+            "material": "smooth fabric"
+          }
+        },
+        "body_part": "left arm and shoulder",
+        "pose": "standing",
+        "background": "blurred office interior"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.87890625,
+      "box": [
+        182.0,
+        0.0,
+        236.0,
+        856.0
+      ],
+      "mask": "image_7.masks/glass_5.png",
+      "crop": null,
+      "description": "A vertical section of a glass window or door with a light gray frame, showing a blurred interior view with horizontal light fixtures and a hint of a plant in the background.",
+      "attributes": {
+        "material": "glass",
+        "frame_color": "light gray",
+        "view": "blurred interior",
+        "interior_elements": [
+          "horizontal light fixtures",
+          "plant"
+        ],
+        "position": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 6,
+      "score": 0.703125,
+      "box": [
+        928.0,
+        236.0,
+        1024.0,
+        508.0
+      ],
+      "mask": "image_7.masks/glass_6.png",
+      "crop": null,
+      "description": "A close-up view of a glass surface with a light beige or off-white tint, featuring a horizontal white line near the top and a dark rectangular shape at the bottom. The glass appears to be part of a larger structure, possibly a window or door, with a metallic frame visible on the left side.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "glass",
+        "frame": "metallic",
+        "features": [
+          "horizontal white line",
+          "dark rectangular shape at bottom"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "leather",
+      "index": 0,
+      "score": 0.53515625,
+      "box": [
+        684.0,
+        282.0,
+        716.0,
+        426.0
+      ],
+      "mask": "image_7.masks/leather_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a person's chest area wearing a dark blue necktie with a subtle sheen, knotted at the collar of a white dress shirt. The tie is neatly tied and hangs straight down the center of the frame, partially covering the shirt underneath.\", \"attributes\": {\"clothing\": {\"shirt\": \"white\", \"tie\": \"dark blue\", \"tie_knot\": \"standard\"}, \"material\": \"silk or satin-like fabric\", \"color\": {\"tie\": \"dark blue\", \"shirt\": \"white\"}, \"position\": \"centered on chest\", \"detail\": \"subtle sheen on tie fabric\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leather",
+      "index": 1,
+      "score": 0.77734375,
+      "box": [
+        398.0,
+        956.0,
+        442.0,
+        1012.0
+      ],
+      "mask": "image_7.masks/leather_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leather",
+      "index": 2,
+      "score": 0.89453125,
+      "box": [
+        716.0,
+        916.0,
+        748.0,
+        972.0
+      ],
+      "mask": "image_7.masks/leather_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leather",
+      "index": 3,
+      "score": 0.6875,
+      "box": [
+        390.0,
+        908.0,
+        406.0,
+        972.0
+      ],
+      "mask": "image_7.masks/leather_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leather",
+      "index": 4,
+      "score": 0.55078125,
+      "box": [
+        580.0,
+        254.0,
+        852.0,
+        600.0
+      ],
+      "mask": "image_7.masks/leather_4.png",
+      "crop": null,
+      "description": "A man wearing a dark navy blue suit jacket over a white collared shirt and a matching navy blue tie, holding a black folder or tablet in his left hand. The image is cropped from the neck down to the mid-thigh, showing the man's torso and arms in a standing pose.",
+      "attributes": {
+        "gender": "male",
+        "clothing": {
+          "jacket": "dark navy blue suit",
+          "shirt": "white",
+          "tie": "dark navy blue",
+          "pants": "dark navy blue"
+        },
+        "accessories": {
+          "held_item": "black folder/tablet"
+        },
+        "pose": "standing",
+        "crop": "torso and arms"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "leather",
+      "index": 5,
+      "score": 0.609375,
+      "box": [
+        308.0,
+        308.0,
+        524.0,
+        580.0
+      ],
+      "mask": "image_7.masks/leather_5.png",
+      "crop": null,
+      "description": "A woman with long dark wavy hair is shown from the neck down to the upper thighs, wearing a black blazer over a white collared shirt and black trousers. She is holding a black smartphone in her right hand, positioned in front of her chest.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "style": "long, wavy"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "black",
+            "sleeves": "rolled up to forearm"
+          },
+          "top": {
+            "type": "shirt",
+            "color": "white",
+            "collar": "open"
+          },
+          "bottoms": {
+            "type": "trousers",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "held_item": {
+            "type": "smartphone",
+            "color": "black"
+          }
+        },
+        "pose": "standing, holding phone with right hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "leather",
+      "index": 6,
+      "score": 0.87109375,
+      "box": [
+        660.0,
+        940.0,
+        716.0,
+        1012.0
+      ],
+      "mask": "image_7.masks/leather_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        792.0,
+        54.25,
+        1024.0,
+        67.5
+      ],
+      "mask": "image_7.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        744.0,
+        141.0,
+        1024.0,
+        155.0
+      ],
+      "mask": "image_7.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 2,
+      "score": 0.58984375,
+      "box": [
+        -1.8125,
+        142.0,
+        27.25,
+        154.0
+      ],
+      "mask": "image_7.masks/light_fixture_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 3,
+      "score": 0.81640625,
+      "box": [
+        508.0,
+        165.0,
+        540.0,
+        179.0
+      ],
+      "mask": "image_7.masks/light_fixture_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 4,
+      "score": 0.5703125,
+      "box": [
+        75.5,
+        56.0,
+        111.5,
+        67.0
+      ],
+      "mask": "image_7.masks/light_fixture_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 5,
+      "score": 0.52734375,
+      "box": [
+        1.0,
+        201.0,
+        284.0,
+        217.0
+      ],
+      "mask": "image_7.masks/light_fixture_5.png",
+      "crop": null,
+      "description": "A close-up view of a modern light fixture featuring a series of rectangular, frosted glass panels set within a dark gray or black metal frame. The panels are evenly spaced and emit a soft, diffused white light, creating a linear and minimalist aesthetic.",
+      "attributes": {
+        "shape": "rectangular",
+        "material": "frosted glass, metal",
+        "color": "white light, dark gray/black frame",
+        "style": "modern, minimalist",
+        "light_type": "diffused, linear",
+        "arrangement": "horizontal row"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 6,
+      "score": 0.53125,
+      "box": [
+        -1.875,
+        56.0,
+        28.125,
+        67.0
+      ],
+      "mask": "image_7.masks/light_fixture_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 7,
+      "score": 0.73046875,
+      "box": [
+        932.0,
+        316.0,
+        1032.0,
+        332.0
+      ],
+      "mask": "image_7.masks/light_fixture_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 8,
+      "score": 0.8125,
+      "box": [
+        516.0,
+        202.0,
+        540.0,
+        216.0
+      ],
+      "mask": "image_7.masks/light_fixture_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 9,
+      "score": 0.79296875,
+      "box": [
+        500.0,
+        115.0,
+        532.0,
+        129.0
+      ],
+      "mask": "image_7.masks/light_fixture_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 10,
+      "score": 0.703125,
+      "box": [
+        -0.75,
+        55.25,
+        110.0,
+        66.0
+      ],
+      "mask": "image_7.masks/light_fixture_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 11,
+      "score": 0.80859375,
+      "box": [
+        494.0,
+        30.125,
+        528.0,
+        43.0
+      ],
+      "mask": "image_7.masks/light_fixture_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 12,
+      "score": 0.734375,
+      "box": [
+        740.0,
+        204.0,
+        1032.0,
+        218.0
+      ],
+      "mask": "image_7.masks/light_fixture_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 13,
+      "score": 0.8046875,
+      "box": [
+        904.0,
+        268.0,
+        1024.0,
+        284.0
+      ],
+      "mask": "image_7.masks/light_fixture_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 14,
+      "score": 0.59375,
+      "box": [
+        836.0,
+        358.0,
+        932.0,
+        378.0
+      ],
+      "mask": "image_7.masks/light_fixture_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 15,
+      "score": 0.63671875,
+      "box": [
+        73.5,
+        142.0,
+        202.0,
+        154.0
+      ],
+      "mask": "image_7.masks/light_fixture_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        228.0,
+        56.0,
+        256.0,
+        824.0
+      ],
+      "mask": "image_7.masks/metal_0.png",
+      "crop": null,
+      "description": "A vertical, rectangular metal bar or frame with a smooth, matte gray surface, positioned centrally in the image. The metal appears to be part of a larger structure, possibly a window frame or door, with a blurred background suggesting an indoor setting.",
+      "attributes": {
+        "color": "gray",
+        "material": "metal",
+        "shape": "rectangular",
+        "surface": "smooth",
+        "position": "vertical",
+        "context": "part of a larger structure"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 1,
+      "score": 0.7421875,
+      "box": [
+        282.0,
+        128.0,
+        302.0,
+        784.0
+      ],
+      "mask": "image_7.masks/metal_1.png",
+      "crop": null,
+      "description": "A vertical, rectangular metal bar or frame with a smooth, matte finish in a dark gray or charcoal color. The object appears to be part of a larger structure, possibly a window frame or door, with a slight reflection visible on its surface.",
+      "attributes": {
+        "color": "dark gray",
+        "material": "metal",
+        "shape": "rectangular",
+        "finish": "matte",
+        "orientation": "vertical",
+        "context": "part of a frame or structure"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 2,
+      "score": 0.64453125,
+      "box": [
+        318.0,
+        180.0,
+        338.0,
+        756.0
+      ],
+      "mask": "image_7.masks/metal_2.png",
+      "crop": null,
+      "description": "{\"description\": \"The image shows a close-up of a person's arm and torso, wearing a black long-sleeved top with a visible cuff and a small logo or detail on the sleeve. The background is blurred, suggesting an indoor setting with vertical lines, possibly a door or window frame.\", \"attributes\": {\"clothing\": {\"top\": \"black long-sleeved\", \"sleeve_detail\": \"small logo or design near cuff\"}, \"pose\": \"arm bent at the elbow\", \"background\": \"blurred vertical lines, likely architectural elements\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 3,
+      "score": 0.78125,
+      "box": [
+        144.0,
+        -4.0,
+        184.0,
+        884.0
+      ],
+      "mask": "image_7.masks/metal_3.png",
+      "crop": null,
+      "description": "A vertical section of a dark gray metal frame, likely part of a window or door, with a smooth, matte finish. The frame is positioned against a blurred background, suggesting it is part of a larger structure.",
+      "attributes": {
+        "color": "dark gray",
+        "material": "metal",
+        "finish": "matte",
+        "shape": "vertical rectangular",
+        "position": "centered in the frame",
+        "background": "blurred, light-colored"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 4,
+      "score": 0.77734375,
+      "box": [
+        22.75,
+        -10.0,
+        74.0,
+        968.0
+      ],
+      "mask": "image_7.masks/metal_4.png",
+      "crop": null,
+      "description": "{\"description\": \"A vertical section of a metallic window frame or door frame, featuring a smooth, matte gray finish with subtle reflections and a narrow gap between two parallel metal bars. The surface appears clean and industrial, with no visible wear or damage.\", \"attributes\": {\"material\": \"metal\", \"color\": \"gray\", \"finish\": \"matte\", \"shape\": \"rectangular\", \"orientation\": \"vertical\", \"context\": \"window or door frame\", \"condition\": \"clean\", \"reflections\": \"subtle\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 5,
+      "score": 0.56640625,
+      "box": [
+        -5.875,
+        964.0,
+        63.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/metal_5.png",
+      "crop": null,
+      "description": "A close-up view of a metallic surface, likely part of a window frame or door, featuring a smooth, reflective finish with a slight sheen. The metal appears to be silver or gray in color, with a clean and polished appearance.",
+      "attributes": {
+        "material": "metal",
+        "color": "silver/gray",
+        "finish": "smooth, reflective",
+        "context": "window frame or door"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 6,
+      "score": 0.58203125,
+      "box": [
+        195.0,
+        -1.5,
+        332.0,
+        178.0
+      ],
+      "mask": "image_7.masks/metal_6.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a metal window frame or railing with vertical bars and a horizontal top rail, appearing grayish in color against a blurred background.",
+      "attributes": {
+        "material": "metal",
+        "color": "gray",
+        "structure": "vertical bars with horizontal top rail",
+        "focus": "out-of-focus",
+        "context": "window frame or railing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 7,
+      "score": 0.57421875,
+      "box": [
+        924.0,
+        235.0,
+        932.0,
+        516.0
+      ],
+      "mask": "image_7.masks/metal_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 8,
+      "score": 0.55859375,
+      "box": [
+        844.0,
+        636.0,
+        868.0,
+        852.0
+      ],
+      "mask": "image_7.masks/metal_8.png",
+      "crop": null,
+      "description": "A vertical, rectangular section of a light gray or off-white metal surface, likely part of a larger structure such as a door frame, panel, or appliance. The surface appears smooth and uniform in color, with subtle variations in shading suggesting a slight curvature or lighting effect. There are no visible textures, patterns, or markings on the metal itself.",
+      "attributes": {
+        "color": "light gray/off-white",
+        "material": "metal",
+        "shape": "rectangular",
+        "surface": "smooth",
+        "orientation": "vertical",
+        "context": "part of a larger structure"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 9,
+      "score": 0.53515625,
+      "box": [
+        804.0,
+        624.0,
+        828.0,
+        808.0
+      ],
+      "mask": "image_7.masks/metal_9.png",
+      "crop": null,
+      "description": "A vertical, rectangular metal object with a smooth, reflective surface, appearing to be a door or panel. The metal has a light gray or silver color and shows subtle reflections, indicating a polished finish. The edges are straight and clean, suggesting a manufactured item.",
+      "attributes": {
+        "color": "light gray/silver",
+        "material": "metal",
+        "shape": "rectangular",
+        "surface": "smooth, reflective",
+        "edges": "straight, clean",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 10,
+      "score": 0.5859375,
+      "box": [
+        67.5,
+        876.0,
+        174.0,
+        988.0
+      ],
+      "mask": "image_7.masks/metal_10.png",
+      "crop": null,
+      "description": "A close-up view of a metallic, silver-colored track or rail running horizontally along the bottom edge of a glass panel, likely part of a sliding door or window frame. The metal has a smooth, reflective surface with a slight sheen, and it is positioned on a light-colored, possibly tiled floor.",
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "shape": "long, horizontal bar",
+        "surface": "smooth, reflective",
+        "position": "bottom edge of a glass panel",
+        "context": "likely part of a sliding door or window frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        580.0,
+        140.0,
+        852.0,
+        1012.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian man with short black hair is walking forward in a modern office setting, wearing a tailored navy blue suit with a white dress shirt and a matching navy tie. He holds a black folder or tablet under his left arm and wears brown leather dress shoes, looking off to the side with a slight smile.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "short, styled"
+        },
+        "clothing": {
+          "suit": {
+            "color": "navy blue",
+            "type": "two-piece business suit"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "color": "navy blue",
+            "type": "solid necktie"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "leather dress shoes"
+          }
+        },
+        "accessories": {
+          "held_item": "black folder or tablet under left arm"
+        },
+        "pose": "walking forward, mid-stride",
+        "expression": "slight smile, looking to the side",
+        "setting": "modern office interior with blurred background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        308.0,
+        188.0,
+        524.0,
+        1012.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with long, wavy dark hair is walking forward in a professional setting, wearing a black blazer over a white collared shirt and black trousers. She holds a black smartphone in her right hand and wears black pointed-toe heels, looking off to the side with a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "black"
+          },
+          "top": {
+            "type": "shirt",
+            "color": "white",
+            "collar": "open"
+          },
+          "bottoms": {
+            "type": "trousers",
+            "color": "black",
+            "length": "cropped"
+          },
+          "shoes": {
+            "type": "heels",
+            "color": "black",
+            "toe": "pointed"
+          }
+        },
+        "accessories": {
+          "phone": {
+            "color": "black",
+            "held_in": "right hand"
+          }
+        },
+        "pose": "walking",
+        "expression": "smiling",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "workstation",
+      "index": 0,
+      "score": 0.73046875,
+      "box": [
+        804.0,
+        496.0,
+        1024.0,
+        864.0
+      ],
+      "mask": "image_7.masks/workstation_0.png",
+      "crop": null,
+      "description": "A modern office workstation featuring a light wood desk with white metal legs, holding a small potted green plant and a black computer monitor. A black mesh office chair with a five-star wheeled base is positioned in the foreground, while a person wearing a dark blue suit jacket and white shirt stands partially visible on the left side.",
+      "attributes": {
+        "desk": {
+          "top": "light wood",
+          "legs": "white metal",
+          "items": [
+            "potted plant",
+            "monitor",
+            "white card"
+          ]
+        },
+        "chair": {
+          "color": "black",
+          "material": "mesh and plastic",
+          "base": "five-star with wheels"
+        },
+        "person": {
+          "visible_parts": "torso and arm",
+          "clothing": {
+            "jacket": "dark blue suit",
+            "shirt": "white"
+          }
+        },
+        "background": "office environment"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        956.0,
+        716.0,
+        1020.0,
+        948.0
+      ],
+      "mask": "image_9.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a chair's backrest featuring a smooth, light gray fabric surface with a rounded top edge. A white, curved structural element is visible on the left side, contrasting with the gray upholstery.",
+      "attributes": {
+        "color": "light gray",
+        "material": "fabric",
+        "texture": "smooth",
+        "shape": "rounded top",
+        "visible_parts": [
+          "backrest",
+          "side frame"
+        ],
+        "side_frame_color": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        2.0,
+        824.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/desk_0.png",
+      "crop": null,
+      "description": "A person wearing a white long-sleeved shirt is writing in an open notebook with a blue pen on a white marble desk. The notebook has lined pages and a brown cover, and the person's hands are positioned over the notebook, with one hand holding the pen and the other resting on the page.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "sleeves": "long"
+        },
+        "object": {
+          "notebook": {
+            "pages": "lined",
+            "cover": "brown"
+          },
+          "pen": "blue"
+        },
+        "surface": {
+          "material": "marble",
+          "color": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        222.0,
+        716.0,
+        334.0,
+        924.0
+      ],
+      "mask": "image_9.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen is held in a person's right hand, positioned diagonally with the silver metal tip touching a light-colored surface. The pen features a matching blue clip attached to the top barrel and a silver conical tip.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": "blue",
+        "material": "plastic",
+        "finish": "glossy",
+        "clip": {
+          "color": "blue",
+          "position": "top"
+        },
+        "tip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "action": "writing",
+        "hand": "right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        124.0,
+        26.0,
+        980.0,
+        952.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a high bun is wearing black-rimmed glasses and a white crewneck sweatshirt, looking down with a slight smile while writing in an open notebook with a blue pen. She is seated at a table in a well-lit indoor setting with a lamp and a potted plant visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "neckline": "crewneck"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused, slight smile",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": {
+            "color": "blue"
+          },
+          "notebook": {
+            "state": "open"
+          }
+        },
+        "background": {
+          "lamp": "visible on left",
+          "plant": "potted plant on right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        -1.0,
+        240.0,
+        199.0,
+        832.0
+      ],
+      "mask": "image_9.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod with three legs is visible in the background, slightly out of focus. The tripod appears to be made of light-colored wood and has a simple, minimalist design.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "focus": "out of focus",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

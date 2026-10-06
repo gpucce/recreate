@@ -1,0 +1,175 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        0.0,
+        856.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/desk_0.png",
+      "crop": null,
+      "description": "A person's hands are visible writing in an open notebook with a blue cover on a white marble surface. The person is wearing a white long-sleeved shirt and holding a blue pen.",
+      "attributes": {
+        "surface": {
+          "material": "marble",
+          "color": "white",
+          "pattern": "gray veining"
+        },
+        "notebook": {
+          "cover_color": "blue",
+          "pages": "white",
+          "state": "open"
+        },
+        "pen": {
+          "color": "blue",
+          "type": "ballpoint"
+        },
+        "person": {
+          "clothing": {
+            "sleeve": "white",
+            "material": "cotton"
+          },
+          "action": "writing",
+          "hands": "visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        280.0,
+        712.0,
+        432.0,
+        920.0
+      ],
+      "mask": "image_3.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen is held in a person's right hand, positioned diagonally with the tip touching a white surface. The pen features a silver clip and a silver tip, with a smooth, cylindrical body.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": "blue",
+        "finish": "glossy",
+        "clip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "tip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "position": "held in hand, writing",
+        "hand": {
+          "skin_tone": "light",
+          "grip": "standard writing grip"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        58.0,
+        38.0,
+        992.0,
+        920.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a high bun and wearing black-rimmed glasses is seated at a table, writing in an open notebook with a blue pen. She is wearing a plain white crewneck sweatshirt and has a focused, calm expression while looking down at the page.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          },
+          "earrings": "small stud"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused, slight smile",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": {
+            "color": "blue"
+          },
+          "notebook": {
+            "cover": "dark blue",
+            "pages": "white, open"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        5.0,
+        192.0,
+        246.0,
+        880.0
+      ],
+      "mask": "image_3.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod stand with three slender legs converging at a central point, featuring a light brown finish and a simple, minimalist design. The legs are straight and evenly spaced, supporting a flat, circular top that is partially visible at the top of the frame.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "top": "circular, flat",
+        "style": "minimalist",
+        "position": "standing upright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window_or_door",
+      "index": 0,
+      "score": 0.50390625,
+      "box": [
+        640.0,
+        0.0,
+        1024.0,
+        848.0
+      ],
+      "mask": "image_3.masks/window_or_door_0.png",
+      "crop": null,
+      "description": "A wooden door with a light brown finish and visible wood grain texture, featuring a brass doorknob on the right side. The door has a classic panel design with vertical grooves and is partially obscured by a person in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "hardware": {
+          "doorknob": "brass"
+        },
+        "design": "paneled",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

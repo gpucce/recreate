@@ -1,0 +1,112 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.76953125,
+      "box": [
+        360.0,
+        78.0,
+        752.0,
+        928.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length wavy blonde hair sits holding a black DSLR camera with a red ring lens, wearing a blue and white vertical striped button-down shirt with rolled-up sleeves and blue jeans. A young boy with curly light brown hair, wearing a red polo shirt and blue jeans, sits on her shoulders with his arms wrapped around her neck, both smiling at the camera.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "lens_ring": "red"
+          },
+          "earrings": "small stud"
+        },
+        "pose": "sitting, holding camera with both hands",
+        "expression": "smiling",
+        "position": "foreground, lower half of frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        188.0,
+        314.0,
+        756.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling blonde woman with shoulder-length wavy hair sits on a beige couch holding a black DSLR camera with a red ring lens, while a young child in a red polo shirt and blue jeans sits on her shoulders with arms wrapped around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "blue and white vertical stripes",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "sitting on couch, holding camera with both hands",
+        "object_held": {
+          "type": "DSLR camera",
+          "color": "black",
+          "lens": "black with red ring"
+        },
+        "context": {
+          "child_on_shoulders": {
+            "clothing": {
+              "shirt": "red polo",
+              "pants": "blue jeans",
+              "socks": "white"
+            },
+            "pose": "sitting on woman's shoulders, arms around her neck"
+          },
+          "background": "indoor living room with plant and wooden furniture"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

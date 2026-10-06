@@ -1,0 +1,483 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        0.0,
+        856.0,
+        780.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/desk_0.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, polished surface and visible wood grain, featuring two open notebooks and hands writing on them, along with a partial view of a laptop on the right side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth, polished",
+        "items_on_desk": [
+          "open notebook",
+          "pen",
+          "laptop (partial)"
+        ],
+        "position": "horizontal, flat surface",
+        "context": "study or work environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        900.0,
+        624.0,
+        1032.0,
+        680.0
+      ],
+      "mask": "image_6.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a desk surface featuring a light beige or cream-colored top with a visible wooden edge trim. The desk is positioned in the background, appearing blurred, with a dark blue fabric visible in the immediate foreground on the left.",
+      "attributes": {
+        "surface_color": "light beige",
+        "edge_material": "wood",
+        "edge_color": "light brown",
+        "focus": "blurred",
+        "position": "background",
+        "foreground_object": "blue fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        612.0,
+        832.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk surface with a visible grain pattern, featuring a silver laptop and an open white notebook on top. The desk has a rounded edge and is supported by white cylindrical legs, with a person's legs visible underneath wearing dark pants.",
+      "attributes": {
+        "material": "light wood",
+        "color": "beige",
+        "surface": "smooth",
+        "edge": "rounded",
+        "legs": {
+          "color": "white",
+          "shape": "cylindrical"
+        },
+        "items_on_top": [
+          "silver laptop",
+          "white notebook"
+        ],
+        "underneath": "person's legs in dark pants"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 3,
+      "score": 0.7109375,
+      "box": [
+        282.0,
+        684.0,
+        334.0,
+        756.0
+      ],
+      "mask": "image_6.masks/desk_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 4,
+      "score": 0.78125,
+      "box": [
+        -1.25,
+        616.0,
+        85.0,
+        656.0
+      ],
+      "mask": "image_6.masks/desk_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 5,
+      "score": 0.72265625,
+      "box": [
+        266.0,
+        588.0,
+        704.0,
+        684.0
+      ],
+      "mask": "image_6.masks/desk_5.png",
+      "crop": null,
+      "description": "A close-up of a young Asian girl with long, straight dark hair wearing a mustard-yellow crew-neck sweater, looking downward with a focused expression. She is positioned in the center, flanked by the partial profiles of a boy in a blue shirt on the left and a person in a dark hoodie on the right, set against a blurred classroom background.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "neckline": "crew neck"
+          }
+        },
+        "pose": "seated",
+        "gaze": "downward",
+        "expression": "neutral, focused",
+        "position": "center",
+        "surroundings": {
+          "left": "partial view of boy in blue shirt",
+          "right": "partial view of person in dark hoodie",
+          "background": "blurred classroom interior"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 6,
+      "score": 0.69921875,
+      "box": [
+        266.0,
+        600.0,
+        370.0,
+        688.0
+      ],
+      "mask": "image_6.masks/desk_6.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus view of a light-colored wooden desk surface with a horizontal edge, positioned in the background behind two partially visible figures.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "focus": "blurred",
+        "position": "background",
+        "structure": "horizontal surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        640.0,
+        432.0,
+        992.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian boy with short black hair sits at a wooden desk, looking down with a focused expression while typing on a silver laptop. He is wearing a dark blue zip-up hoodie over a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "outer": "dark blue zip-up hoodie",
+          "inner": "white t-shirt"
+        },
+        "pose": "sitting",
+        "action": "typing on a laptop",
+        "expression": "focused",
+        "object_interaction": "hands on laptop keyboard"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        428.0,
+        334.0,
+        908.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian boy with short black hair is seated at a desk, looking down with a focused expression while writing in an open notebook with a black pen. He is wearing a blue denim shirt over a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "outer": "blue denim shirt",
+          "inner": "white t-shirt"
+        },
+        "pose": "sitting, writing",
+        "action": "writing in a notebook",
+        "expression": "focused",
+        "accessories": {
+          "pen": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        332.0,
+        452.0,
+        652.0,
+        876.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "A young East Asian girl with dark hair tied back and bangs sits at a desk, wearing a mustard-yellow long-sleeved sweater. She is looking down with a focused expression while writing in a notebook with a black pen held in her right hand.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "style": "tied back with bangs"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused",
+        "accessories": {
+          "hand": "holding a black pen"
+        },
+        "context": "classroom setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        390.0,
+        96.0,
+        760.0,
+        736.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark brown hair stands behind a seated child, wearing a light beige button-down shirt and a blue lanyard with a blank white ID card holder. She has a gentle smile and is looking down at the child, suggesting a teacher or mentor role in a bright, indoor setting.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "social_role": "teacher",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "beige",
+            "type": "button-down"
+          },
+          "accessory": {
+            "lanyard": {
+              "color": "blue"
+            },
+            "id_card": {
+              "color": "white",
+              "border": "blue"
+            }
+          }
+        },
+        "pose": "standing, leaning forward",
+        "expression": "smiling, attentive"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        692.0,
+        -1.5,
+        884.0,
+        126.5
+      ],
+      "mask": "image_6.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up view of a window frame with a white or light gray finish, featuring a horizontal mullion that divides the glass panes. The glass appears bright and overexposed, suggesting strong natural light coming from outside, while the bottom left corner shows a small, out-of-focus portion of a person's head or hair.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely wood or vinyl",
+        "glass": "bright, overexposed",
+        "structure": "horizontal mullion visible",
+        "lighting": "strong backlighting",
+        "foreground_element": "partial view of a person's head in bottom left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.59375,
+      "box": [
+        908.0,
+        -1.75,
+        1024.0,
+        78.0
+      ],
+      "mask": "image_6.masks/window_1.png",
+      "crop": null,
+      "description": "A close-up view of a window frame corner, featuring a white or light gray painted surface with a smooth finish. The frame has a simple, rectangular design with a visible miter joint where two pieces meet at a 45-degree angle. The lighting is soft and even, highlighting the clean lines and minimalistic style of the frame.",
+      "attributes": {
+        "color": "white/light gray",
+        "material": "painted wood or vinyl",
+        "style": "minimalist",
+        "joint_type": "miter joint",
+        "finish": "smooth",
+        "lighting": "soft and even"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 2,
+      "score": 0.62890625,
+      "box": [
+        908.0,
+        92.0,
+        1024.0,
+        532.0
+      ],
+      "mask": "image_6.masks/window_2.png",
+      "crop": null,
+      "description": "A close-up view of a window pane featuring a light gray frame and a bright, overexposed white glass surface. The glass is heavily blurred, obscuring the view outside with only faint, indistinct hints of green and blue tones visible in the lower section.",
+      "attributes": {
+        "frame": {
+          "color": "light gray",
+          "material": "metal or plastic",
+          "position": "left and top edges"
+        },
+        "glass": {
+          "color": "white",
+          "clarity": "blurred",
+          "lighting": "overexposed",
+          "background_hints": "faint green and blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 3,
+      "score": 0.7265625,
+      "box": [
+        520.0,
+        0.0,
+        1024.0,
+        552.0
+      ],
+      "mask": "image_6.masks/window_3.png",
+      "crop": null,
+      "description": "A large window with a dark gray metal frame and multiple rectangular panes of glass, allowing bright natural light to enter the room. The window is positioned in the background behind a woman and children, with the glass appearing slightly frosted or reflecting the outdoor light.",
+      "attributes": {
+        "frame": {
+          "color": "dark gray",
+          "material": "metal",
+          "style": "modern, grid-like"
+        },
+        "glass": {
+          "appearance": "bright, translucent, reflecting light",
+          "shape": "rectangular panes"
+        },
+        "position": "background, behind subjects",
+        "lighting": "natural, bright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 4,
+      "score": 0.66015625,
+      "box": [
+        510.0,
+        12.5,
+        672.0,
+        264.0
+      ],
+      "mask": "image_6.masks/window_4.png",
+      "crop": null,
+      "description": "A close-up crop showing the upper portion of a young woman's head and face, featuring long, straight dark brown hair parted in the middle. She is looking downward with a faint smile, and the background is a bright, out-of-focus white area suggesting a window or light source.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight, center-parted"
+        },
+        "expression": "faint smile, looking down",
+        "pose": "head tilted slightly down",
+        "background": "bright, blurred, white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 5,
+      "score": 0.59765625,
+      "box": [
+        728.0,
+        118.0,
+        880.0,
+        438.0
+      ],
+      "mask": "image_6.masks/window_5.png",
+      "crop": null,
+      "description": "A large, bright window with a white frame and a central vertical mullion dominates the background, appearing overexposed due to strong natural light. The window is partially obscured by the side profile of a person with long brown hair on the left and the top of another person's head at the bottom.",
+      "attributes": {
+        "frame_color": "white",
+        "structure": "vertical mullion",
+        "lighting": "bright, overexposed",
+        "position": "background",
+        "visibility": "partially obscured"
+      },
+      "parse_ok": true
+    }
+  ]
+}

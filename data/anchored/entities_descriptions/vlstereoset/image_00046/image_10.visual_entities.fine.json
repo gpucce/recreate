@@ -1,0 +1,130 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        56.0,
+        482.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a lavender satin pajama set with white piping. The couch has a modern design with clean lines and a textured upholstery, and a beige throw pillow is placed on the right side.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "style": "modern",
+          "features": [
+            "textured upholstery",
+            "clean lines"
+          ]
+        },
+        "pillow": {
+          "color": "beige",
+          "material": "fabric",
+          "position": "right side of couch"
+        },
+        "person": {
+          "clothing": {
+            "top": "lavender satin pajama shirt with white piping",
+            "bottoms": "lavender satin pajama pants with white piping"
+          },
+          "pose": "sitting cross-legged",
+          "position": "center of couch"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        190.0,
+        140.0,
+        856.0,
+        972.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with dark curly hair and round wire-rimmed glasses sits cross-legged on a grey sofa, wearing a lavender satin pajama set with white piping. She has a neutral expression and is looking directly at the camera with her hands resting on her legs.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed"
+        },
+        "clothing": {
+          "type": "pajamas",
+          "color": "lavender",
+          "material": "satin",
+          "details": "white piping on collar, cuffs, and pockets",
+          "top": "long-sleeved button-down shirt",
+          "bottom": "long pants"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        852.0,
+        536.0,
+        1024.0,
+        848.0
+      ],
+      "mask": "image_10.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, beige throw pillow with a textured, woven fabric surface rests against a dark gray background. The pillow features a subtle grid-like pattern and appears soft and slightly plump, with visible creases and folds indicating a relaxed state.",
+      "attributes": {
+        "color": "beige",
+        "shape": "square",
+        "material": "woven fabric",
+        "texture": "textured, grid-like pattern",
+        "condition": "soft, slightly plump, creased",
+        "position": "resting against a dark background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.703125,
+      "box": [
+        -2.0,
+        2.0,
+        912.0,
+        506.0
+      ],
+      "mask": "image_10.masks/window_0.png",
+      "crop": null,
+      "description": "A large window covered by white horizontal blinds is visible in the background, providing a bright, diffused light source behind the subject. The blinds are closed, creating a uniform pattern of horizontal lines across the entire background area.",
+      "attributes": {
+        "type": "window",
+        "covering": "horizontal blinds",
+        "color": "white",
+        "state": "closed",
+        "position": "background",
+        "lighting": "bright, diffused"
+      },
+      "parse_ok": true
+    }
+  ]
+}

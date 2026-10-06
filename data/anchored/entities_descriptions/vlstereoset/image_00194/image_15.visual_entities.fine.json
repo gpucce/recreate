@@ -1,0 +1,76 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        396.0,
+        116.0,
+        740.0,
+        916.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A man with short black hair and light skin is walking to the left in profile, wearing a black long-sleeved shirt and blue pants. He is holding the handle of a black wheeled cart or trolley with his right hand, wearing black slip-on shoes.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "skin_tone": "light",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "slip-ons",
+            "color": "black"
+          }
+        },
+        "pose": "walking",
+        "action": "pulling a cart",
+        "object_interaction": "holding a black cart handle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        154.0,
+        536.0,
+        482.0,
+        920.0
+      ],
+      "mask": "image_15.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black shopping cart with a grid-like basket and two visible wheels is being pushed by a person wearing blue pants and black shoes. The cart has a simple, flat design with a handle that the person is gripping.",
+      "attributes": {
+        "color": "black",
+        "material": "metal (implied by typical shopping cart construction)",
+        "wheels": "two visible, black with gray centers",
+        "basket": "grid-like structure",
+        "handle": "black, being held by a person",
+        "person": {
+          "clothing": {
+            "pants": "blue",
+            "shoes": "black"
+          },
+          "pose": "pushing the cart"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

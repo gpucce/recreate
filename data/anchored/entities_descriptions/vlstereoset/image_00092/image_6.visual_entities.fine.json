@@ -1,0 +1,68 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        85.5,
+        59.5,
+        332.0,
+        306.0
+      ],
+      "mask": "image_6.masks/clock_0.png",
+      "crop": null,
+      "description": "A round analog clock with a black rim and a white face, featuring black Arabic numerals from 1 to 12 and black hour, minute, and second hands. The clock is set against a light purple background.",
+      "attributes": {
+        "shape": "round",
+        "rim_color": "black",
+        "face_color": "white",
+        "numerals": "black arabic",
+        "hands": {
+          "hour": "black",
+          "minute": "black",
+          "second": "black"
+        },
+        "background_color": "light purple",
+        "time_displayed": "10:10"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        248.0,
+        124.0,
+        840.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits in a bed wearing a white t-shirt and a beige quilted sleep mask with black trim. She has a calm, neutral expression and is positioned against a light purple wall with a white clock visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "accessory": "beige quilted sleep mask with black trim"
+        },
+        "pose": "sitting in bed",
+        "expression": "neutral",
+        "background": {
+          "wall_color": "light purple",
+          "object": "white clock"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

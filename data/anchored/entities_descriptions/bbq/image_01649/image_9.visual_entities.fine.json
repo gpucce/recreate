@@ -1,0 +1,264 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        68.0,
+        664.0,
+        988.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/alley_0.png",
+      "crop": null,
+      "description": "A man and a young child are walking away from the camera down a wet, cobblestone alleyway, holding hands. The man is wearing a dark puffer jacket and dark pants, while the child is dressed in a blue puffer jacket, light blue jeans, and brown boots. The alley is flanked by stone walls and features a planter with red flowers on the right side.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "walls": "stone",
+          "decorations": "planter with red flowers"
+        },
+        "people": [
+          {
+            "gender": "male",
+            "age": "adult",
+            "clothing": {
+              "jacket": "dark puffer",
+              "pants": "dark"
+            },
+            "pose": "walking away"
+          },
+          {
+            "gender": "male",
+            "age": "child",
+            "clothing": {
+              "jacket": "blue puffer",
+              "pants": "light blue jeans",
+              "boots": "brown"
+            },
+            "pose": "walking away, holding hands with adult"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        314.0,
+        418.0,
+        490.0,
+        548.0
+      ],
+      "mask": "image_9.masks/building_0.png",
+      "crop": null,
+      "description": "A rustic stone building with a dark, sloped roof and two visible chimneys stands in the background, partially obscured by a person in the foreground. The structure features a weathered gray facade with small, dark window openings and is framed by out-of-focus orange flowers on the right and green foliage on the left.",
+      "attributes": {
+        "structure_type": "house",
+        "material": "stone",
+        "color": "gray",
+        "roof": {
+          "color": "dark gray",
+          "style": "sloped",
+          "features": [
+            "two chimneys"
+          ]
+        },
+        "windows": {
+          "count": 2,
+          "appearance": "dark, small openings"
+        },
+        "condition": "weathered",
+        "surroundings": {
+          "foreground": "person with white hair",
+          "flora": "orange flowers, green bushes"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        600.0,
+        2.0,
+        1032.0,
+        776.0
+      ],
+      "mask": "image_9.masks/building_1.png",
+      "crop": null,
+      "description": "A rustic stone building with a wooden balcony adorned with vibrant orange and yellow flowers in wooden planters. The building features a stone wall with wooden shutters on the windows, and a cobblestone path in front.",
+      "attributes": {
+        "building_type": "stone house",
+        "wall_material": "stone",
+        "balcony_material": "wood",
+        "balcony_decoration": "flowers in wooden planters",
+        "flower_colors": [
+          "orange",
+          "yellow",
+          "red"
+        ],
+        "window_shutters": "wooden",
+        "path_material": "cobblestone",
+        "roof_material": "wooden shingles"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.86328125,
+      "box": [
+        -1.0,
+        84.0,
+        296.0,
+        768.0
+      ],
+      "mask": "image_9.masks/building_2.png",
+      "crop": null,
+      "description": "A rustic stone building with a dark, sloped roof and a chimney, featuring a wooden balcony with a railing and flower boxes filled with vibrant orange and yellow flowers. The walls are constructed from irregularly shaped stones, and there is a wooden door and window with shutters.",
+      "attributes": {
+        "structure": {
+          "type": "stone building",
+          "roof": "dark, sloped",
+          "chimney": "present",
+          "balcony": "wooden with railing",
+          "flower_boxes": "orange and yellow flowers",
+          "walls": "irregularly shaped stones",
+          "door": "wooden",
+          "window": "wooden shutters"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.8671875,
+      "box": [
+        444.0,
+        256.0,
+        724.0,
+        644.0
+      ],
+      "mask": "image_9.masks/building_3.png",
+      "crop": null,
+      "description": "A traditional alpine-style building featuring a lower level constructed of rough, light grey stone masonry and an upper level made of dark brown wood with a small balcony. The structure is topped with a steep, grey slate roof, and vibrant orange and yellow flowers are visible in window boxes and hanging planters.",
+      "attributes": {
+        "architecture_style": "alpine/traditional",
+        "materials": {
+          "lower_wall": "stone masonry",
+          "upper_wall": "dark wood",
+          "roof": "grey slate tiles"
+        },
+        "features": [
+          "wooden balcony",
+          "window boxes with flowers",
+          "hanging flower pots",
+          "wooden window frames"
+        ],
+        "colors": {
+          "stone": "light grey",
+          "wood": "dark brown",
+          "roof": "grey",
+          "flowers": "orange, yellow, red"
+        },
+        "condition": "weathered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        332.0,
+        478.0,
+        512.0,
+        952.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street. They are wearing a dark navy blue quilted puffer jacket, dark grey trousers, and dark brown shoes, holding a blue umbrella in their right hand.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "pattern": "quilted"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "leather"
+          }
+        },
+        "accessories": {
+          "umbrella": {
+            "color": "blue",
+            "state": "closed"
+          }
+        },
+        "pose": "walking away",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        488.0,
+        644.0,
+        616.0,
+        940.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with short brown hair is seen from behind, walking away on a wet cobblestone path while holding the hand of an adult. The child wears a dark blue hooded puffer jacket, light blue jeans, and brown boots.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "light blue"
+          },
+          "footwear": {
+            "type": "boots",
+            "color": "brown"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand"
+      },
+      "parse_ok": true
+    }
+  ]
+}

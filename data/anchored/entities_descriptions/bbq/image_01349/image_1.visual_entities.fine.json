@@ -1,0 +1,593 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        684.0,
+        736.0,
+        1032.0,
+        936.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk with a smooth, rounded edge and a visible wood grain pattern, supported by a grey metal frame with square cross-section legs. A person wearing blue jeans and a dark top is seated at the desk, with their legs visible underneath the surface.",
+      "attributes": {
+        "desk": {
+          "material": "wood",
+          "color": "light brown",
+          "finish": "smooth",
+          "edge": "rounded",
+          "frame": {
+            "material": "metal",
+            "color": "grey",
+            "shape": "square"
+          }
+        },
+        "person": {
+          "clothing": {
+            "pants": "blue jeans",
+            "top": "dark"
+          },
+          "pose": "seated"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        246.0,
+        628.0,
+        302.0,
+        652.0
+      ],
+      "mask": "image_1.masks/desk_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        -3.0,
+        748.0,
+        484.0,
+        932.0
+      ],
+      "mask": "image_1.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up, low-angle view of a light brown wooden school desk with a smooth, flat top surface and a curved front panel featuring two visible screw heads. An open book with white pages rests on the desk surface, and a person's hands are visible in the background, holding a pen and writing.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "type": "school desk",
+        "surface": "smooth",
+        "front_panel": "curved",
+        "hardware": "screws",
+        "items_on_top": [
+          "open book",
+          "pen"
+        ],
+        "context": "classroom",
+        "perspective": "low angle, close-up"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 3,
+      "score": 0.90625,
+      "box": [
+        292.0,
+        684.0,
+        684.0,
+        892.0
+      ],
+      "mask": "image_1.masks/desk_3.png",
+      "crop": null,
+      "description": "A light-colored wooden school desk with a smooth, flat top surface and a front panel featuring a subtle wood grain pattern. The desk is supported by grey metal legs and is positioned in a classroom setting, with a person's legs visible underneath and an open book resting on the surface.",
+      "attributes": {
+        "material": {
+          "top": "light wood",
+          "legs": "grey metal"
+        },
+        "color": "beige",
+        "type": "school desk",
+        "surface": "flat",
+        "contents": "open book",
+        "position": "foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 4,
+      "score": 0.9140625,
+      "box": [
+        6.0,
+        884.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/desk_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light-colored wooden desk surface with a smooth finish, partially obscuring the background where a person's legs in dark pants are faintly visible.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "focus": "blurred",
+        "position": "foreground",
+        "background": "person's legs in dark pants"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 5,
+      "score": 0.6484375,
+      "box": [
+        253.0,
+        648.0,
+        294.0,
+        712.0
+      ],
+      "mask": "image_1.masks/desk_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        -0.625,
+        466.0,
+        40.0,
+        540.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        292.0,
+        460.0,
+        524.0,
+        900.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young female student with long dark hair sits at a wooden school desk, wearing a mustard-yellow sweater and dark jeans, focused on writing in an open notebook with a black pen. The setting appears to be a classroom with natural light coming from a window in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "teenager",
+        "ethnicity": "caucasian",
+        "social_role": "student",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "expression": "focused",
+        "objects": {
+          "pen": "black",
+          "notebook": "open",
+          "desk": "wooden"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        680.0,
+        396.0,
+        1024.0,
+        964.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with dark curly hair and a full beard sits at a wooden desk, looking down with a focused expression while typing on a silver laptop. He is wearing a navy blue cardigan over a white t-shirt and blue jeans.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "full beard",
+        "expression": "focused",
+        "clothing": {
+          "outer": "navy blue cardigan",
+          "inner": "white t-shirt",
+          "bottoms": "blue jeans"
+        },
+        "pose": "sitting",
+        "action": "typing on laptop",
+        "object_interaction": "laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        -2.0,
+        388.0,
+        286.0,
+        780.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A young male with short, wavy light brown hair is seated at a desk, looking down with a focused expression while writing in an open notebook with a pen. He is wearing a blue denim button-down shirt over a grey t-shirt, with a window and another person partially visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "outer": "blue denim shirt",
+          "inner": "grey t-shirt"
+        },
+        "pose": "sitting, writing",
+        "action": "writing in a notebook",
+        "expression": "focused",
+        "accessories": {
+          "holding": "pen"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.98046875,
+      "box": [
+        532.0,
+        306.0,
+        724.0,
+        888.0
+      ],
+      "mask": "image_1.masks/person_4.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair stands behind a wooden desk, wearing a light-colored striped button-down shirt with rolled-up sleeves and dark grey trousers. She has a blue lanyard with a blank white ID card around her neck and rests one hand on the desk surface while looking slightly to the side with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "color": "beige/white",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "accessories": {
+            "lanyard": {
+              "color": "blue",
+              "item": "white ID card"
+            }
+          }
+        },
+        "pose": "standing",
+        "action": "resting hand on desk",
+        "expression": "neutral",
+        "location": "classroom/office setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        342.0,
+        288.0,
+        498.0,
+        564.0
+      ],
+      "mask": "image_1.masks/window_0.png",
+      "crop": null,
+      "description": "A young woman with long, dark brown hair parted in the middle is shown from the shoulders up, looking downward with a focused expression. She is wearing a mustard-yellow top and is positioned in the lower foreground against a bright, overexposed background that appears to be a large window with a wooden frame at the top.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "parting": "center"
+        },
+        "clothing": {
+          "top": "mustard yellow"
+        },
+        "pose": "head tilted down",
+        "expression": "focused",
+        "background": {
+          "type": "window",
+          "lighting": "bright, overexposed",
+          "frame": "wooden, visible at top"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.6875,
+      "box": [
+        740.0,
+        228.0,
+        1024.0,
+        588.0
+      ],
+      "mask": "image_1.masks/window_1.png",
+      "crop": null,
+      "description": "A large, multi-pane window with white frames and a visible latch mechanism on the right side, topped by a partially lowered beige horizontal blind, providing bright, diffused natural light to the interior space.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely vinyl or painted wood",
+        "glass": "clear",
+        "blinds": {
+          "type": "horizontal",
+          "color": "beige",
+          "position": "partially lowered"
+        },
+        "hardware": {
+          "latch": "visible on right pane"
+        },
+        "lighting": "bright natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 2,
+      "score": 0.54296875,
+      "box": [
+        968.0,
+        226.0,
+        1024.0,
+        568.0
+      ],
+      "mask": "image_1.masks/window_2.png",
+      "crop": null,
+      "description": "A close-up view of a window with a white frame and a light-colored curtain rod at the top. The glass is transparent, allowing a bright, overexposed view of the outside, with a faint horizontal line visible through the glass.",
+      "attributes": {
+        "frame_color": "white",
+        "material": "glass",
+        "curtain_rod": "light-colored",
+        "visibility": "overexposed",
+        "details": "faint horizontal line visible through glass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 3,
+      "score": 0.6015625,
+      "box": [
+        724.0,
+        38.0,
+        1024.0,
+        592.0
+      ],
+      "mask": "image_1.masks/window_3.png",
+      "crop": null,
+      "description": "A large window with a white frame is covered by light beige horizontal blinds that are partially lowered, allowing bright, diffused daylight to enter the room. The window is set into a wall painted a soft, pale blue, with a wooden trim visible at the top of the window frame.",
+      "attributes": {
+        "window": {
+          "frame_color": "white",
+          "type": "double_hung",
+          "blinds": {
+            "color": "beige",
+            "type": "horizontal",
+            "state": "partially_closed"
+          },
+          "lighting": "bright_natural_light",
+          "wall_color": "pale_blue",
+          "trim": "wooden"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 4,
+      "score": 0.5859375,
+      "box": [
+        171.0,
+        276.0,
+        332.0,
+        568.0
+      ],
+      "mask": "image_1.masks/window_4.png",
+      "crop": null,
+      "description": "A large, rectangular window with a white frame and a horizontal mullion dividing the glass into two panes. The window is brightly lit from the outside, causing the view beyond to be overexposed and indistinct, while the interior side of the frame is clearly visible.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely wood or vinyl",
+        "glass": "clear, overexposed due to bright exterior light",
+        "structure": "double-hung or fixed sash with a central horizontal divider",
+        "position": "occupies most of the background",
+        "lighting": "strong backlighting from outside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 5,
+      "score": 0.71484375,
+      "box": [
+        -0.5,
+        264.0,
+        140.0,
+        520.0
+      ],
+      "mask": "image_1.masks/window_5.png",
+      "crop": null,
+      "description": "A close-up, blurry shot of a young man with short, light brown hair looking downward, positioned in the foreground on the right, with the top of a woman's head and dark hair visible in the lower left corner against a bright, overexposed background.",
+      "attributes": {
+        "entity_type": "people",
+        "foreground_person": {
+          "gender": "male",
+          "age_group": "young adult",
+          "hair": {
+            "color": "light brown",
+            "length": "short",
+            "style": "textured"
+          },
+          "pose": "looking down",
+          "visibility": "partial face, right side"
+        },
+        "background_person": {
+          "gender": "female",
+          "hair": {
+            "color": "dark brown",
+            "length": "long"
+          },
+          "visibility": "top of head only"
+        },
+        "image_quality": "blurry, low resolution",
+        "lighting": "bright, overexposed background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 6,
+      "score": 0.55859375,
+      "box": [
+        740.0,
+        268.0,
+        836.0,
+        532.0
+      ],
+      "mask": "image_1.masks/window_6.png",
+      "crop": null,
+      "description": "A bright window covered by a white sheer curtain hangs behind a person, with a light wooden valance visible at the top edge. The lower right corner shows the back of a person's head with dark hair and an ear, wearing a dark blue shirt.",
+      "attributes": {
+        "window": {
+          "cover": "white sheer curtain",
+          "top_trim": "light wood valance",
+          "lighting": "bright, overexposed"
+        },
+        "person": {
+          "position": "bottom right corner",
+          "hair": "dark, short",
+          "clothing": "dark blue shirt",
+          "view": "back of head and ear"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 7,
+      "score": 0.72265625,
+      "box": [
+        -4.0,
+        110.0,
+        516.0,
+        584.0
+      ],
+      "mask": "image_1.masks/window_7.png",
+      "crop": null,
+      "description": "A large window with a white frame and three vertical panes, covered by light beige horizontal blinds that are partially raised, allowing bright, diffused natural light to enter the room.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely plastic or painted wood",
+        "blinds": {
+          "type": "horizontal",
+          "color": "light beige",
+          "state": "partially raised",
+          "material": "likely fabric or vinyl"
+        },
+        "panes": 3,
+        "lighting": "bright, diffused daylight",
+        "position": "upper background, behind seated individuals"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 8,
+      "score": 0.50390625,
+      "box": [
+        848.0,
+        247.0,
+        952.0,
+        568.0
+      ],
+      "mask": "image_1.masks/window_8.png",
+      "crop": null,
+      "description": "A close-up, low-angle shot of a man with dark, curly hair and a full beard, looking downward with a serious expression. He is wearing a dark blue t-shirt and is positioned in the lower foreground against a bright, out-of-focus background featuring a window frame and white wall.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "beard": "full",
+          "mustache": "present"
+        },
+        "expression": "serious, focused",
+        "gaze": "downward",
+        "clothing": {
+          "top": "dark blue t-shirt"
+        },
+        "background": {
+          "window": "visible",
+          "lighting": "bright, natural"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

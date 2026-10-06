@@ -1,0 +1,180 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        1016.0,
+        712.0,
+        1024.0,
+        776.0
+      ],
+      "mask": "image_14.masks/chair_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        592.0,
+        656.0,
+        624.0,
+        688.0
+      ],
+      "mask": "image_14.masks/chair_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        712.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/desk_0.png",
+      "crop": null,
+      "description": "A wooden desk with a light brown finish and visible grain pattern, featuring a laptop and a camera placed on its surface. Two people are seated at the desk, one wearing a blue shirt and the other in a gray sweater, with their hands resting on the desk.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "visible grain",
+        "objects_on_desk": [
+          "laptop",
+          "camera"
+        ],
+        "people": [
+          {
+            "clothing": "blue shirt"
+          },
+          {
+            "clothing": "gray sweater"
+          }
+        ],
+        "position": "horizontal surface",
+        "function": "workspace or meeting area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        -2.0,
+        604.0,
+        480.0,
+        860.0
+      ],
+      "mask": "image_14.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop with a black keyboard and trackpad is open on a wooden table, positioned in front of a person wearing a light blue button-down shirt. The laptop's screen is angled away from the viewer, showing its back, while the person's hands are raised in a gesturing motion above the keyboard.",
+      "attributes": {
+        "color": "silver",
+        "keyboard": "black",
+        "trackpad": "silver",
+        "screen": "open, back facing viewer",
+        "position": "on wooden table",
+        "person": {
+          "clothing": "light blue button-down shirt",
+          "pose": "hands raised, gesturing",
+          "accessories": "ring on left hand"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        500.0,
+        214.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair is shown in profile, looking to the left with a neutral, attentive expression. She is wearing a light grey, long-sleeved knit sweater and is seated at a wooden table with her hands clasped together, positioned behind a black DSLR camera.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light grey",
+            "material": "knit",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, hands clasped on table",
+        "expression": "neutral, attentive",
+        "orientation": "profile view facing left",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "context": {
+          "objects": "black DSLR camera in foreground",
+          "setting": "indoor, wooden table"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        80.0,
+        208.0,
+        616.0,
+        784.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length wavy gray hair is seated at a table, wearing a light blue button-down shirt and gesturing with both hands while speaking. She has a warm, engaged expression, is wearing small gold hoop earrings and a delicate necklace, and is positioned next to an open laptop on a wooden surface.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "material": "linen or cotton"
+          },
+          "accessories": {
+            "earrings": "small gold hoops",
+            "necklace": "thin gold chain",
+            "ring": "gold band on left ring finger"
+          }
+        },
+        "pose": "seated, gesturing with both hands open, palms facing inward",
+        "expression": "engaged, smiling slightly, looking toward someone off-camera",
+        "setting": "indoor, near a window with natural light, potted plant visible in background, laptop on table in front of her"
+      },
+      "parse_ok": true
+    }
+  ]
+}

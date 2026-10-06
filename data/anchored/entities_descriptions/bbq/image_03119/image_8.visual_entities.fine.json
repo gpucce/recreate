@@ -1,0 +1,177 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        4.0,
+        864.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a polished wooden desk with a visible grain pattern, featuring a person's hands writing on a clipboard with a pen, and another person's hands resting on the table.",
+      "attributes": {
+        "material": "wood",
+        "finish": "polished",
+        "color": "brown",
+        "objects": [
+          "clipboard",
+          "pen",
+          "hands"
+        ],
+        "action": "writing",
+        "position": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        556.0,
+        350.0,
+        1024.0,
+        984.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with voluminous, curly red hair is seated at a wooden table, wearing a dark blue V-neck scrub top. She is holding a silver pen in her right hand, writing on a clipboard with white paper, while looking off to the side with a focused expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "red",
+          "texture": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": {
+            "type": "scrubs",
+            "color": "dark blue",
+            "neckline": "V-neck"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "accessories": {
+          "pen": "silver"
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -3.0,
+        340.0,
+        444.0,
+        908.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and light skin is shown in profile, wearing a light blue V-neck scrub top with a small chest pocket. He is seated at a wooden table, gesturing with both hands as if speaking, with a black hair tie on his right wrist and a black watch on his left.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "skin": "light",
+        "clothing": {
+          "top": {
+            "type": "scrubs",
+            "color": "light blue",
+            "neckline": "V-neck",
+            "sleeves": "short",
+            "pocket": "left chest"
+          }
+        },
+        "accessories": {
+          "wrist_right": "black hair tie",
+          "wrist_left": "black watch"
+        },
+        "pose": "seated, gesturing with hands",
+        "expression": "engaged, speaking",
+        "position": "profile view, facing right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        656.0,
+        68.0,
+        1024.0,
+        880.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "A woman with voluminous, curly red hair is shown in profile, wearing a dark blue V-neck scrub top with a pen clipped to the chest pocket. She is seated in the foreground with a focused expression, while a bearded man in light blue scrubs and a stethoscope stands behind her.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "red",
+          "texture": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "type": "scrubs",
+          "color": "dark blue",
+          "neckline": "V-neck",
+          "details": "pen in pocket"
+        },
+        "pose": "seated",
+        "view": "profile",
+        "expression": "neutral",
+        "context": "medical setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.984375,
+      "box": [
+        356.0,
+        240.0,
+        676.0,
+        880.0
+      ],
+      "mask": "image_8.masks/person_3.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair and black-rimmed glasses stands with her arms crossed, wearing a dark blue V-neck scrub top with a small pen in the chest pocket. She has a serious, attentive expression and is looking slightly downward and to the side, positioned in a bright indoor setting with a whiteboard visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "accessories": {
+          "glasses": "black-rimmed",
+          "necklace": "thin gold chain"
+        },
+        "clothing": {
+          "top": "dark blue V-neck scrub shirt",
+          "details": "pen in chest pocket"
+        },
+        "pose": "standing with arms crossed",
+        "expression": "serious, focused",
+        "context": "medical or professional setting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

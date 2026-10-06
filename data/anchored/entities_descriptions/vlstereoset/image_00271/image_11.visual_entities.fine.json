@@ -1,0 +1,156 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        0.0,
+        508.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/ground_0.png",
+      "crop": null,
+      "description": "The ground is a dry, dusty terrain with a light brown color, scattered with small rocks and sparse, dry vegetation. There are no visible signs of moisture or greenery, indicating an arid environment.",
+      "attributes": {
+        "color": "light brown",
+        "texture": "dusty and dry",
+        "vegetation": "sparse and dry",
+        "rocks": "small and scattered",
+        "moisture": "none visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        592.0,
+        272.0,
+        784.0,
+        436.0
+      ],
+      "mask": "image_11.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up of a person's head wearing a vibrant, patterned headscarf wrapped in a traditional style. The headscarf features bold geometric and abstract designs in red, yellow, green, and black, with some white accents. The fabric appears to be a woven textile, likely African wax print, and is tied or folded to create volume on top of the head.",
+      "attributes": {
+        "clothing": {
+          "headscarf": {
+            "pattern": "geometric, abstract",
+            "colors": [
+              "red",
+              "yellow",
+              "green",
+              "black",
+              "white"
+            ],
+            "material": "woven textile",
+            "style": "wrapped, voluminous",
+            "culture_specific": "African wax print"
+          }
+        },
+        "person": {
+          "gender": "female",
+          "age": "adult",
+          "ethnicity": "Black",
+          "visible_parts": [
+            "forehead",
+            "eyes",
+            "nose",
+            "cheek"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        436.0,
+        272.0,
+        820.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with dark skin and a colorful patterned headwrap holds a young child wrapped in a cream-colored shawl, while wearing a matching colorful dress and a black DSLR camera around her neck. She has a calm, focused expression and is looking slightly to the side, with the child looking forward.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "African",
+        "social_role": "mother",
+        "clothing": {
+          "headwrap": {
+            "color": "red, yellow, green, black",
+            "pattern": "geometric"
+          },
+          "dress": {
+            "color": "red, yellow, green, black, white",
+            "pattern": "geometric"
+          },
+          "shawl": {
+            "color": "cream",
+            "material": "wool or cotton",
+            "detail": "fringed"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "brand": "Canon",
+            "color": "black",
+            "type": "DSLR",
+            "strap": "black with red trim"
+          },
+          "earrings": "small, silver"
+        },
+        "pose": "standing, holding child",
+        "expression": "calm, focused",
+        "child": {
+          "age": "toddler",
+          "clothing": "naked, wrapped in shawl",
+          "expression": "curious"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        396.0,
+        400.0,
+        600.0,
+        976.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with short, curly hair is being carried on the back of an adult, wrapped securely in a thick, cream-colored woolen blanket with fringed edges. The child's bare legs and feet are visible, and they are wearing a colorful, patterned garment underneath the blanket, while the adult's hand supports the child's leg.",
+      "attributes": {
+        "age": "toddler",
+        "ethnicity": "African",
+        "hair": "short, curly, dark brown",
+        "clothing": {
+          "outer": "cream-colored woolen blanket with fringe",
+          "inner": "colorful patterned fabric (red, green, yellow, black)"
+        },
+        "pose": "being carried on an adult's back",
+        "expression": "neutral, looking to the side",
+        "skin": "dark brown",
+        "body_parts_visible": [
+          "head",
+          "arms",
+          "legs",
+          "feet"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

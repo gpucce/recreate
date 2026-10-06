@@ -1,0 +1,473 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        980.0,
+        656.0,
+        1024.0,
+        912.0
+      ],
+      "mask": "image_6.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark blue, soft-textured fabric, likely a cushion or upholstery, draped over a dark surface with horizontal ribbed slats. The fabric appears to be a plush material like velvet or suede, showing soft folds and shadows, while the background consists of a dark, linear pattern resembling a wooden or metal chair back.",
+      "attributes": {
+        "material": "plush fabric, possibly velvet or suede",
+        "color": "dark blue",
+        "texture": "soft, matte",
+        "background": "horizontal slats, dark grey or black",
+        "structure": "ribbed or slatted surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.59765625,
+      "box": [
+        588.0,
+        644.0,
+        620.0,
+        700.0
+      ],
+      "mask": "image_6.masks/chair_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.578125,
+      "box": [
+        588.0,
+        648.0,
+        620.0,
+        864.0
+      ],
+      "mask": "image_6.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up view of a dark blue upholstered chair featuring a soft, textured fabric surface with visible folds and creases. A small portion of a yellow object is visible in the upper left corner, and a blurry skin-tone area appears at the bottom edge.",
+      "attributes": {
+        "object_type": "chair",
+        "color": "dark blue",
+        "material": "fabric",
+        "texture": "soft, textured",
+        "visible_features": [
+          "folds",
+          "creases"
+        ],
+        "background_elements": [
+          "yellow object",
+          "skin-tone area"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        -1.75,
+        404.0,
+        62.75,
+        472.0
+      ],
+      "mask": "image_6.masks/computer_0.png",
+      "crop": null,
+      "description": "A close-up view of a computer monitor with a dark, reflective screen and a light-colored bezel. The screen appears to be off or displaying a very dark image, with a slight diagonal reflection visible on the surface.",
+      "attributes": {
+        "screen": "dark, reflective",
+        "bezel": "light-colored",
+        "state": "off or dark display",
+        "reflection": "diagonal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.7421875,
+      "box": [
+        -2.0,
+        464.0,
+        560.0,
+        984.0
+      ],
+      "mask": "image_6.masks/computer_1.png",
+      "crop": null,
+      "description": "A black computer monitor with a matte finish is positioned on a light wooden desk, viewed from the side and back. The monitor has a rectangular stand with a vertical slot and is accompanied by a black keyboard and mouse in the foreground.",
+      "attributes": {
+        "object": "computer monitor",
+        "color": "black",
+        "material": "matte plastic",
+        "view_angle": "side and back",
+        "stand": "rectangular base with vertical slot",
+        "peripherals": {
+          "keyboard": "black",
+          "mouse": "black"
+        },
+        "surface": "light wood desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.83984375,
+      "box": [
+        888.0,
+        408.0,
+        1024.0,
+        600.0
+      ],
+      "mask": "image_6.masks/computer_2.png",
+      "crop": null,
+      "description": "A close-up view of a person's shoulder and upper arm, wearing a dark blue shirt with a visible texture. The person has light skin and a small amount of white hair is visible at the top left corner.",
+      "attributes": {
+        "clothing": {
+          "shirt": "dark blue",
+          "texture": "textured fabric"
+        },
+        "skin": "light",
+        "hair": "white",
+        "position": "shoulder and upper arm visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 3,
+      "score": 0.765625,
+      "box": [
+        0.0,
+        468.0,
+        302.0,
+        988.0
+      ],
+      "mask": "image_6.masks/computer_3.png",
+      "crop": null,
+      "description": "A close-up, side-profile view of a black computer monitor with a matte finish, featuring a rectangular stand with a vertical slot and a flat base, positioned on a light wooden desk next to a black keyboard.",
+      "attributes": {
+        "object_type": "computer monitor",
+        "color": "black",
+        "material": "matte plastic",
+        "view_angle": "side profile",
+        "stand": {
+          "shape": "rectangular",
+          "base": "flat",
+          "feature": "vertical slot"
+        },
+        "position": "on desk",
+        "surface": "light wood",
+        "adjacent_objects": [
+          "black keyboard"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 4,
+      "score": 0.7421875,
+      "box": [
+        204.0,
+        394.0,
+        290.0,
+        486.0
+      ],
+      "mask": "image_6.masks/computer_4.png",
+      "crop": null,
+      "description": "A blurry, dark rectangular computer monitor with a black screen and a visible stand at the bottom, positioned against a light background.",
+      "attributes": {
+        "object_type": "computer monitor",
+        "color": "black",
+        "screen_state": "off",
+        "shape": "rectangular",
+        "visibility": "blurry",
+        "components": {
+          "screen": "dark",
+          "stand": "visible at bottom"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        251.0,
+        512.0,
+        310.0,
+        552.0
+      ],
+      "mask": "image_6.masks/desk_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        988.0,
+        616.0,
+        1024.0,
+        640.0
+      ],
+      "mask": "image_6.masks/desk_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        2.0,
+        844.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk surface with a black computer keyboard and a black wireless mouse placed on it. A person's right hand, wearing a dark blue long-sleeved sweater, is resting on the keyboard, with fingers poised over the keys. To the left, part of a black monitor stand is visible.",
+      "attributes": {
+        "desk": {
+          "material": "wood",
+          "color": "light brown",
+          "surface": "smooth"
+        },
+        "keyboard": {
+          "color": "black",
+          "type": "computer",
+          "position": "center-left"
+        },
+        "mouse": {
+          "color": "black",
+          "type": "wireless",
+          "position": "right of keyboard"
+        },
+        "person": {
+          "hand": "right",
+          "sweater": {
+            "color": "dark blue",
+            "sleeve": "long"
+          }
+        },
+        "monitor_stand": {
+          "color": "black",
+          "position": "left edge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        940.0,
+        173.0,
+        1032.0,
+        207.0
+      ],
+      "mask": "image_6.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.765625,
+      "box": [
+        66.0,
+        5.125,
+        390.0,
+        64.0
+      ],
+      "mask": "image_6.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "A long, rectangular light fixture with rounded ends is mounted on a plain, light-colored ceiling, emitting a bright, uniform white light. The fixture appears to be a modern LED panel or tube light, characterized by its sleek, minimalist design and smooth surface.",
+      "attributes": {
+        "shape": "rectangular with rounded ends",
+        "color": "white",
+        "material": "plastic or metal housing with diffuser",
+        "light_type": "LED panel or tube",
+        "orientation": "horizontal",
+        "mounting": "ceiling-mounted",
+        "brightness": "high",
+        "style": "modern, minimalist"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 2,
+      "score": 0.73046875,
+      "box": [
+        800.0,
+        20.75,
+        1024.0,
+        75.0
+      ],
+      "mask": "image_6.masks/light_fixture_2.png",
+      "crop": null,
+      "description": "A close-up view of a long, horizontal light fixture emitting a bright, uniform white light. The fixture has a sleek, linear design with rounded ends and appears to be mounted on a neutral, beige-colored surface.",
+      "attributes": {
+        "shape": "linear",
+        "orientation": "horizontal",
+        "color": "white",
+        "brightness": "high",
+        "ends": "rounded",
+        "background": "beige",
+        "type": "LED strip or tube"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        292.0,
+        278.0,
+        1024.0,
+        976.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian woman with short, wavy white hair and glasses is seated at a desk, smiling broadly while pointing at a computer screen with her right hand. She is wearing a dark blue cardigan over a light pink collared shirt, with her left hand resting on a keyboard.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "thin-rimmed, brown"
+        },
+        "clothing": {
+          "outer": "dark blue cardigan",
+          "inner": "light pink collared shirt"
+        },
+        "pose": "seated, pointing at screen",
+        "expression": "smiling, engaged",
+        "action": "using a computer"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        258.0,
+        294.0,
+        592.0,
+        864.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with long, straight dark hair is smiling broadly while looking at a computer screen, wearing a yellow zip-up hoodie over a white t-shirt. She is seated at a desk with a hand from another person pointing at the screen in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": "yellow hoodie",
+          "inner": "white t-shirt"
+        },
+        "pose": "seated",
+        "action": "looking at screen"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9375,
+      "box": [
+        420.0,
+        32.0,
+        1020.0,
+        660.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly Asian woman with short, wavy white hair and glasses is smiling broadly while looking to the left, wearing a dark blue cardigan over a light pink collared shirt. She is seated in the foreground, positioned in front of a young man and a young woman who are also smiling.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "dark",
+            "shape": "round"
+          }
+        },
+        "clothing": {
+          "outer": {
+            "type": "cardigan",
+            "color": "dark blue"
+          },
+          "inner": {
+            "type": "collared shirt",
+            "color": "light pink"
+          }
+        },
+        "expression": "smiling",
+        "pose": "seated, looking left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        -1.0,
+        160.0,
+        150.0,
+        336.0
+      ],
+      "mask": "image_6.masks/picture_0.png",
+      "crop": null,
+      "description": "A blurred landscape featuring a blue sky with soft, white clouds, a distant mountain range, and a foreground of yellow and green fields or vegetation.",
+      "attributes": {
+        "sky": "blue with white clouds",
+        "mountains": "distant, blueish",
+        "foreground": "yellow and green fields",
+        "clarity": "blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

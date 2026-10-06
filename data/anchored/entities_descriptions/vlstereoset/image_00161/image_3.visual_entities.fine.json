@@ -1,0 +1,118 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        648.0,
+        164.0,
+        1016.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A male soldier with short dark hair and a serious expression stands in profile facing left, wearing a digital camouflage uniform and a matching helmet equipped with a grey rail system. He is outfitted in a tan tactical vest with multiple pouches and a radio attached, set against a blurred rocky background.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "caucasian",
+        "role": "soldier",
+        "pose": "standing, profile view",
+        "expression": "serious, focused",
+        "clothing": {
+          "uniform": "digital camouflage pattern (green, brown, tan)",
+          "helmet": "camouflage with grey mounting rail",
+          "vest": "tan tactical plate carrier with MOLLE webbing",
+          "gear": "radio on chest, utility pouches, olive green chin strap"
+        },
+        "background": "rocky terrain, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        59.0,
+        162.0,
+        452.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A bearded man with a dark turban stands in profile facing right, wearing a textured brown wool overcoat over a dark shirt. He holds a rifle vertically with both hands in front of him, set against a background of a rocky riverbed and mountains.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "South Asian",
+        "headwear": {
+          "type": "turban",
+          "color": "black",
+          "underlayer": "white"
+        },
+        "facial_hair": "full dark beard and mustache",
+        "clothing": {
+          "outer": "brown wool overcoat",
+          "inner": "dark collared shirt"
+        },
+        "pose": "standing in profile",
+        "expression": "serious",
+        "holding": "rifle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        392.0,
+        262.0,
+        712.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with a mustache and a black turban stands facing forward, wearing a khaki military uniform with a button-down shirt, shoulder epaulets, and a belt with a silver buckle. He has a serious expression and is positioned outdoors near a rocky riverbed, flanked by other individuals in military gear.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "South Asian",
+        "headwear": {
+          "type": "turban",
+          "color": "black"
+        },
+        "facial_hair": "mustache",
+        "clothing": {
+          "shirt": {
+            "color": "khaki",
+            "style": "military uniform, button-down, long sleeves",
+            "details": [
+              "chest pockets",
+              "shoulder epaulets",
+              "name tag on right chest"
+            ]
+          },
+          "pants": {
+            "color": "khaki",
+            "style": "military trousers"
+          },
+          "accessories": {
+            "belt": {
+              "color": "khaki",
+              "buckle": "silver rectangular"
+            }
+          }
+        },
+        "pose": "standing",
+        "expression": "serious",
+        "social_role": "military officer"
+      },
+      "parse_ok": true
+    }
+  ]
+}

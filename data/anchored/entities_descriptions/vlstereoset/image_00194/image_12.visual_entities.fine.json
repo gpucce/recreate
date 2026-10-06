@@ -1,0 +1,77 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        380.0,
+        164.0,
+        708.0,
+        916.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A stylized, flat-design illustration of a man with black hair and light skin walking to the left while pushing a black shopping cart. He is wearing a long-sleeved black shirt and blue pants with black shoes.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "skin_tone": "light",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "shoes",
+            "color": "black"
+          }
+        },
+        "pose": "walking",
+        "action": "pushing a shopping cart",
+        "object": {
+          "type": "shopping cart",
+          "color": "black"
+        },
+        "style": "flat vector illustration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        126.0,
+        556.0,
+        458.0,
+        916.0
+      ],
+      "mask": "image_12.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black shopping cart with a grid-like basket and two visible wheels is being pushed by a person wearing blue pants and black shoes. The cart is positioned on a light green background, with the person's hand gripping the handle.",
+      "attributes": {
+        "color": "black",
+        "material": "metal",
+        "wheels": "two visible",
+        "basket": "grid-like",
+        "handle": "being held by a person",
+        "person_clothing": {
+          "pants": "blue",
+          "shoes": "black"
+        },
+        "background": "light green"
+      },
+      "parse_ok": true
+    }
+  ]
+}

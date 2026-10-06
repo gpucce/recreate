@@ -1,0 +1,127 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        368.0,
+        82.0,
+        744.0,
+        792.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair sits holding a black DSLR camera, wearing a light blue and white striped button-down shirt with rolled-up sleeves and blue jeans. A young boy with curly light brown hair, wearing a red t-shirt and blue jeans, sits on her shoulders with his arms wrapped around her neck, both smiling warmly.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "light blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "sitting, holding camera",
+        "expression": "smiling",
+        "object": {
+          "type": "camera",
+          "color": "black",
+          "brand": "Canon"
+        },
+        "companion": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "light brown",
+            "texture": "curly"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "t-shirt",
+              "color": "red"
+            },
+            "pants": {
+              "type": "jeans",
+              "color": "blue"
+            }
+          },
+          "pose": "sitting on shoulders",
+          "expression": "smiling"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        154.0,
+        274.0,
+        760.0,
+        960.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair sits cross-legged on a beige couch, wearing a light blue and white striped button-down shirt with rolled-up sleeves and blue jeans. She holds a black DSLR camera with a lens attached, looking down at it with a gentle smile, while a child in a red shirt and blue jeans sits on her shoulders, partially visible from the chest up.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Caucasian",
+        "social_role": "parent",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "light blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue",
+            "fit": "slim"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "expression": "smiling, focused downward",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "held_object": {
+          "type": "DSLR camera",
+          "color": "black",
+          "lens": "attached"
+        },
+        "position": "on couch, center frame",
+        "context": "child on shoulders (partially visible)"
+      },
+      "parse_ok": true
+    }
+  ]
+}

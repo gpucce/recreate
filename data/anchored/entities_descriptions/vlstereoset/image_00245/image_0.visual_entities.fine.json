@@ -1,0 +1,91 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        25.75,
+        284.0,
+        796.0,
+        796.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A baby with short black hair and an open-mouthed expression lies on its back, wearing a light gray short-sleeved onesie with faint white patterns and white socks. An adult's hand rests gently on the baby's abdomen, while the baby's right arm is raised with a loosely clenched fist.",
+      "attributes": {
+        "gender": "male",
+        "age": "infant",
+        "ethnicity": "East Asian",
+        "hair": "short black",
+        "clothing": {
+          "onesie": "light gray with white patterns",
+          "socks": "white"
+        },
+        "pose": "lying on back, one arm raised",
+        "expression": "open mouth, alert eyes",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        0.0,
+        73.5,
+        1048.0,
+        668.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark skin and curly black hair lies on her side on a light-colored surface, wearing a light blue long-sleeved shirt and black pants, with her eyes closed and a calm expression. She is holding a baby dressed in a white onesie with thin gray stripes, who is lying on their back with one arm raised and mouth open.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "clothing": {
+          "top": "light blue long-sleeved shirt",
+          "bottoms": "black pants"
+        },
+        "hair": "curly black",
+        "pose": "lying on side, cradling baby",
+        "expression": "calm, eyes closed",
+        "accessories": "small pearl earring visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        0.0,
+        1192.0,
+        796.0
+      ],
+      "mask": "image_0.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or off-white sofa with a smooth, possibly microfiber or suede-like fabric texture. The visible portion shows a large, cushioned backrest and seat section with a clean, modern design. The seams are neatly stitched, and the material appears soft and slightly plush. The sofa is positioned horizontally in the frame, serving as the surface on which a woman and infant are lying.",
+      "attributes": {
+        "color": "light beige / off-white",
+        "material": "smooth fabric, likely microfiber or suede-like",
+        "texture": "soft, slightly plush",
+        "design": "modern, clean lines",
+        "seams": "neatly stitched",
+        "visible_parts": [
+          "backrest",
+          "seat cushion"
+        ],
+        "orientation": "horizontal",
+        "function": "seating/furniture for lounging"
+      },
+      "parse_ok": true
+    }
+  ]
+}

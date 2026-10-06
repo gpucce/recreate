@@ -1,0 +1,90 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        362.0,
+        108.0,
+        992.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair sits with her eyes closed and a serene expression, wearing a dark blue knit cardigan over a black floral blouse with pink and white flowers. A younger woman with long brown hair, wearing a white collared shirt and a maroon tie, stands behind her with a hand resting on the older woman's shoulder.",
+      "attributes": {
+        "age": "elderly",
+        "gender": "female",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "expression": "serene, eyes closed",
+        "clothing": {
+          "outer": {
+            "type": "cardigan",
+            "color": "dark blue",
+            "material": "knit",
+            "buttons": "dark brown"
+          },
+          "inner": {
+            "type": "blouse",
+            "color": "black",
+            "pattern": "floral",
+            "pattern_colors": [
+              "pink",
+              "white"
+            ]
+          }
+        },
+        "pose": "sitting, hands clasped in lap",
+        "skin": "wrinkled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        10.0,
+        82.0,
+        976.0,
+        1032.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair is seated next to an elderly woman, wearing a white collared shirt and a dark red tie. She has a gentle smile and is resting her hand on the older woman's shoulder, with their hands clasped together in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "collared button-down"
+          },
+          "tie": {
+            "color": "dark red",
+            "type": "necktie"
+          },
+          "pants": {
+            "color": "dark brown"
+          }
+        },
+        "pose": "sitting, leaning towards the other person, hand on shoulder",
+        "expression": "smiling, looking at camera",
+        "skin_tone": "fair"
+      },
+      "parse_ok": true
+    }
+  ]
+}

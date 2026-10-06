@@ -1,0 +1,112 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        2.0,
+        402.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/grass_0.png",
+      "crop": null,
+      "description": "A rugby player wearing a green short-sleeved jersey with a yellow logo and the word 'Vipon' on the chest, black shorts with 'BATH' written on the left leg, and a white wristband on the right wrist, is holding a white rugby ball with red and blue stripes and the text '100% TUMOR' on it, in a crouched position on a grassy field.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green short-sleeved jersey with yellow logo and 'Vipon' text",
+          "shorts": "black with 'BATH' text on left leg",
+          "accessories": "white wristband on right wrist"
+        },
+        "pose": "crouched, holding rugby ball with both hands",
+        "object": {
+          "type": "rugby ball",
+          "color": "white with red and blue stripes",
+          "text": "100% TUMOR"
+        },
+        "environment": "grassy field, outdoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        184.0,
+        68.0,
+        928.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A female athlete with brown hair tied in a messy bun is crouching on a grass field, holding a rugby ball with both hands in a ready stance. She wears a green short-sleeved jersey with 'Vipon' and a gold logo, black shorts with 'BATH' text, and a white wristband on her left wrist, looking intently forward.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "bun"
+        },
+        "clothing": {
+          "top": {
+            "type": "jersey",
+            "color": "green",
+            "text": "Vipon",
+            "logo": "gold crest"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "black",
+            "text": "BATH"
+          },
+          "accessories": {
+            "wristband": "white"
+          }
+        },
+        "pose": "crouching, holding ball",
+        "object": {
+          "type": "rugby ball",
+          "color": "white, red, blue",
+          "text": "100% Rugby"
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        191.0,
+        672.0,
+        376.0,
+        856.0
+      ],
+      "mask": "image_12.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball with red and blue stripes, held in two hands. The ball features the text '100% AS' and 'TUCAN' in black, along with a smaller logo that appears to be 'Kangaroo'. The background is blurred, suggesting an outdoor setting.",
+      "attributes": {
+        "color": [
+          "white",
+          "red",
+          "blue"
+        ],
+        "text": [
+          "100% AS",
+          "TUCAN",
+          "Kangaroo"
+        ],
+        "material": "rubber or synthetic leather",
+        "shape": "oval",
+        "held_by": "two hands",
+        "background": "blurred outdoor setting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

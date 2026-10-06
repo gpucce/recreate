@@ -1,0 +1,103 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        494.0,
+        154.0,
+        904.0,
+        992.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian male with short black hair stands in a hallway, wearing a black blazer over a white button-down shirt and black skinny jeans. He is leaning against a beige tiled wall with his left arm extended, while another person's arm rests on his right shoulder.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Asian",
+        "age_group": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "black"
+          },
+          "shirt": {
+            "type": "button-down",
+            "color": "white"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "black",
+            "fit": "skinny"
+          },
+          "shoes": {
+            "type": "boots",
+            "color": "black",
+            "material": "leather"
+          }
+        },
+        "pose": {
+          "action": "standing",
+          "details": "leaning against wall with left hand, right arm being held by another person"
+        },
+        "location": "indoor hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        150.0,
+        146.0,
+        648.0,
+        968.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length dark hair stands in a hallway, wearing a cream-colored blazer over a short, floral dress featuring red roses and black leaves on a white background. She is wearing black, studded combat boots and has one hand resting on the tiled wall beside her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "cream"
+          },
+          "dress": {
+            "pattern": "floral",
+            "colors": [
+              "white",
+              "red",
+              "black"
+            ],
+            "length": "mini"
+          },
+          "footwear": {
+            "type": "combat boots",
+            "color": "black",
+            "details": "studded"
+          }
+        },
+        "pose": {
+          "action": "standing",
+          "hand_position": "one hand on wall"
+        },
+        "location": "hallway"
+      },
+      "parse_ok": true
+    }
+  ]
+}

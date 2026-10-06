@@ -1,0 +1,430 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.58984375,
+      "box": [
+        932.0,
+        -1.75,
+        1024.0,
+        75.0
+      ],
+      "mask": "image_6.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a light-colored wall or surface with faint vertical lines and a dark, indistinct shadow or object at the bottom right corner.",
+      "attributes": {
+        "color": "light beige or off-white",
+        "texture": "smooth but indistinct due to blur",
+        "features": [
+          "faint vertical lines",
+          "dark shadow or object at bottom right"
+        ],
+        "clarity": "very low, heavily blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.66015625,
+      "box": [
+        162.0,
+        81.5,
+        286.0,
+        150.0
+      ],
+      "mask": "image_6.masks/building_1.png",
+      "crop": null,
+      "description": "The image shows a blurry, out-of-focus section of a building with a gray wall and a white vertical frame or column on the right side. A brown vertical element, possibly a door or post, is visible on the left, and a tan or beige surface appears at the bottom.",
+      "attributes": {
+        "wall_color": "gray",
+        "frame_color": "white",
+        "left_element_color": "brown",
+        "bottom_surface_color": "tan",
+        "focus": "blurry",
+        "structure": "building_section"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.8359375,
+      "box": [
+        -5.0,
+        13.25,
+        158.0,
+        121.0
+      ],
+      "mask": "image_6.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, close-up view of a building's exterior wall, featuring a light beige or tan surface with a dark, square window or opening on the right side. Below the wall, there is a section of a roof with dark shingles and a white trim or gutter.",
+      "attributes": {
+        "wall_color": "light beige/tan",
+        "window": {
+          "shape": "square",
+          "color": "dark",
+          "position": "right side"
+        },
+        "roof": {
+          "shingles": "dark",
+          "trim": "white"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.58984375,
+      "box": [
+        -4.0,
+        82.0,
+        157.0,
+        346.0
+      ],
+      "mask": "image_6.masks/building_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building exterior featuring a red and yellow umbrella in the foreground and a person in a blue shirt standing below it. The background shows indistinct architectural elements, including a corrugated roof and a blue tarp or curtain.",
+      "attributes": {
+        "focus": "blurry",
+        "foreground": {
+          "umbrella": {
+            "color": "red and yellow",
+            "position": "right side"
+          },
+          "person": {
+            "clothing": "blue shirt",
+            "position": "center bottom",
+            "pose": "standing"
+          }
+        },
+        "background": {
+          "roof": "corrugated",
+          "material": "possibly metal or plastic",
+          "other_elements": "blue tarp or curtain on the left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.6875,
+      "box": [
+        696.0,
+        58.0,
+        1032.0,
+        366.0
+      ],
+      "mask": "image_6.masks/building_4.png",
+      "crop": null,
+      "description": "A simple, single-story structure with a corrugated metal roof and walls made of a mix of wood and corrugated metal, appearing weathered and utilitarian. The building has an open doorway or entrance, revealing a dark interior, and is situated in an outdoor setting with some greenery visible in the background.",
+      "attributes": {
+        "structure": {
+          "type": "single-story building",
+          "roof": "corrugated metal",
+          "walls": "wood and corrugated metal",
+          "condition": "weathered",
+          "entrance": "open doorway"
+        },
+        "setting": {
+          "location": "outdoor",
+          "background": "greenery"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        556.0,
+        116.0,
+        812.0,
+        980.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black woman with short, cropped hair walks forward on a set of railroad tracks, wearing a bright green tank top and dark brown leggings. She has a neutral expression and is wearing simple sandals, with a blurred background showing other people and structures.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "length": "short",
+          "style": "cropped"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "green"
+          },
+          "bottom": {
+            "type": "leggings",
+            "color": "brown"
+          },
+          "footwear": {
+            "type": "sandals"
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "location": "railroad tracks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        249.0,
+        80.0,
+        580.0,
+        1000.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged Black man with short, graying hair walks forward on a gravelly surface, wearing an unbuttoned, light olive-green jacket over a bare chest and brown trousers. He carries a clear plastic bag filled with colorful fruits in his right hand and wears simple brown sandals.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Black",
+        "hair": "short, graying",
+        "clothing": {
+          "jacket": "light olive-green, unbuttoned, long-sleeved",
+          "pants": "brown, loose-fitting",
+          "footwear": "brown sandals"
+        },
+        "accessories": {
+          "bag": "clear plastic bag containing red, yellow, and green fruits"
+        },
+        "pose": "walking forward",
+        "expression": "neutral, looking slightly downward",
+        "skin": "dark, weathered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        57.5,
+        238.0,
+        152.0,
+        544.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "A blurry, medium shot of a person viewed from behind, wearing a short-sleeved purple t-shirt and grey patterned shorts, standing in an outdoor setting with a white bucket visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "black",
+        "pose": "standing",
+        "view": "back",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "purple",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "grey",
+            "pattern": "textured"
+          }
+        },
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "skin_tone": "dark",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.953125,
+      "box": [
+        151.0,
+        234.0,
+        253.0,
+        528.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "A blurry, medium shot of a person with dark skin standing with their back to the camera, wearing a light yellow short-sleeved t-shirt and greyish-brown cropped pants. The person is positioned in the center of the frame against a heavily out-of-focus background featuring indistinct shapes and colors like red, blue, and orange.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "black",
+        "pose": "standing, back to camera",
+        "clothing": {
+          "top": "light yellow t-shirt",
+          "bottom": "greyish-brown cropped pants",
+          "footwear": "white shoes with green accents"
+        },
+        "skin_tone": "dark",
+        "hair": "short, dark",
+        "image_quality": "blurry, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9296875,
+      "box": [
+        236.0,
+        242.0,
+        292.0,
+        450.0
+      ],
+      "mask": "image_6.masks/person_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person wearing a bright red short-sleeved shirt and blue jeans stands in the background, partially obscured by a large, light-colored vertical object in the foreground.",
+      "attributes": {
+        "clothing": {
+          "top": "red t-shirt",
+          "bottoms": "blue jeans"
+        },
+        "skin_tone": "dark",
+        "pose": "standing",
+        "focus": "blurry",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.92578125,
+      "box": [
+        756.0,
+        206.0,
+        868.0,
+        528.0
+      ],
+      "mask": "image_6.masks/person_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person with dark skin and short black hair stands in the background wearing a pink short-sleeved t-shirt and blue denim shorts, holding an indistinct object in their hand. In the immediate foreground, a sharp, close-up view of a dark-skinned arm is visible on the left side, partially obscuring the background figure.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "black",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "blue",
+            "material": "denim"
+          }
+        },
+        "pose": "standing",
+        "focus": "out-of-focus",
+        "foreground": {
+          "body_part": "arm",
+          "skin_tone": "dark",
+          "focus": "sharp"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.86328125,
+      "box": [
+        924.0,
+        266.0,
+        1024.0,
+        386.0
+      ],
+      "mask": "image_6.masks/person_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person wearing a purple baseball cap and an orange short-sleeved shirt is visible, appearing to lean forward over a table with indistinct red and green objects in the foreground.",
+      "attributes": {
+        "clothing": {
+          "hat": "purple baseball cap",
+          "shirt": "orange short-sleeved"
+        },
+        "pose": "leaning forward",
+        "image_quality": "extremely blurry",
+        "foreground_objects": "red and green items"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.859375,
+      "box": [
+        540.0,
+        230.0,
+        588.0,
+        350.0
+      ],
+      "mask": "image_6.masks/person_7.png",
+      "crop": null,
+      "description": "{\"description\": \"The image shows a close-up of a person's shoulder and upper arm, with dark skin tone. The person is wearing a light-colored, possibly beige or off-white, garment that appears to be made of a soft fabric. The background is blurred, suggesting a shallow depth of field, with indistinct colors including yellow and red.\", \"attributes\": {\"skin_tone\": \"dark\", \"clothing\": {\"color\": \"light beige or off-white\", \"material\": \"soft fabric\"}, \"pose\": \"unclear due to close-up\", \"background\": \"blurred, multicolored\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "railway tracks",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        0.0,
+        520.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/railway tracks_0.png",
+      "crop": null,
+      "description": "A close-up view of a pair of weathered, rusty railway tracks running parallel through a bed of gray gravel and scattered trash, including plastic cups and cans. Two people are walking on the tracks, one carrying a plastic bag of colorful fruits, with their lower bodies and feet visible as they step over the wooden ties and metal rails.",
+      "attributes": {
+        "material": "metal and wood",
+        "condition": "rusty and worn",
+        "surroundings": "gravel, litter, and debris",
+        "function": "transportation infrastructure",
+        "position": "horizontal, extending into the distance",
+        "people": {
+          "visible_parts": "lower bodies and feet",
+          "clothing": [
+            "brown pants",
+            "brown jacket",
+            "green top",
+            "brown leggings"
+          ],
+          "footwear": [
+            "sandals",
+            "sandals"
+          ],
+          "accessories": [
+            "plastic bag with fruits"
+          ]
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

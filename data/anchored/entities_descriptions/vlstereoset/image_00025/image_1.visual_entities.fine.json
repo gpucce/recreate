@@ -1,0 +1,770 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        0.0,
+        298.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/grass_0.png",
+      "crop": null,
+      "description": "The grass is dry, yellowish-brown, and appears to be dead or dormant, covering the ground in a sparse, uneven layer. It consists of thin, brittle-looking blades that are scattered across the soil, with some areas more densely packed than others.",
+      "attributes": {
+        "color": "yellowish-brown",
+        "state": "dry, dead, or dormant",
+        "texture": "thin, brittle-looking blades",
+        "density": "sparse, uneven layer",
+        "coverage": "covers the ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        900.0,
+        350.0,
+        996.0,
+        466.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, medium shot of a man with short dark hair and a dark complexion sitting in a relaxed pose, wearing a loose-fitting, light brown or beige long-sleeved shirt over a dark undershirt. He is positioned centrally against a textured, light tan background, possibly a wall, with his hands resting in his lap holding a white object.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "outer": {
+            "type": "shirt",
+            "color": "beige",
+            "sleeves": "long"
+          },
+          "inner": {
+            "type": "undershirt",
+            "color": "black"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        460.0,
+        394.0,
+        892.0,
+        1016.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young Black man with short hair sits cross-legged on dry straw, wearing a white t-shirt, dark brown pants, and black slide sandals. He has a serious expression and is looking slightly to the side, with one hand resting on his knee and the other holding a small object.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": "short, black",
+        "clothing": {
+          "shirt": "white t-shirt",
+          "pants": "dark brown, loose-fitting",
+          "footwear": "black slide sandals"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "serious",
+        "position": "center of the frame",
+        "accessories": {
+          "hand": "holding a small object"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        512.0,
+        412.0,
+        592.0,
+        564.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up shot of a young child with short, dark, curly hair and a neutral expression being held by an adult. The child wears a white long-sleeved top and patterned pants with teal and white stripes, while the adult is visible in the background wearing a purple headscarf and a yellow garment with a black pattern.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "ethnicity": "African",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "top": "white long-sleeved",
+          "bottoms": "teal and white striped pattern"
+        },
+        "pose": "being held",
+        "expression": "neutral",
+        "context": {
+          "held_by": "adult",
+          "adult_clothing": {
+            "headscarf": "purple",
+            "garment": "yellow with black pattern"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.890625,
+      "box": [
+        824.0,
+        400.0,
+        1008.0,
+        592.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A young boy with short, dark curly hair sits on a ground covered in dry straw, wearing a short-sleeved t-shirt with horizontal blue and white stripes and a red rectangular graphic on the chest. He is wearing dark pants and has a blue cloth and a red cloth lying on the ground in front of his legs, with a neutral expression as he looks slightly downward.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "texture": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white",
+              "red"
+            ]
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "dark"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "context": "outdoors, dry ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.96484375,
+      "box": [
+        123.0,
+        492.0,
+        504.0,
+        932.0
+      ],
+      "mask": "image_1.masks/person_4.png",
+      "crop": null,
+      "description": "A young child with dark skin and brown hair is crouching barefoot on dry straw, wearing a green hooded sweatshirt and a white headscarf. The child is facing to the right in profile, reaching out with both hands to hold the hand of another person who is mostly out of frame.",
+      "attributes": {
+        "age": "child",
+        "gender": "female",
+        "ethnicity": "indeterminate",
+        "pose": "crouching",
+        "clothing": {
+          "top": "green hoodie",
+          "headwear": "white headscarf",
+          "bottom": "colorful patterned skirt",
+          "footwear": "barefoot"
+        },
+        "action": "holding hands",
+        "location": "outdoors on straw"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.96484375,
+      "box": [
+        9.0,
+        354.0,
+        198.0,
+        564.0
+      ],
+      "mask": "image_1.masks/person_5.png",
+      "crop": null,
+      "description": "A woman with dark skin and a maroon headscarf sits on dry, yellow grass, wearing a matching maroon long-sleeved top and dark blue pants. She is looking down at her hands, which are held together in front of her, suggesting a contemplative or focused expression.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "clothing": {
+          "headscarf": "maroon",
+          "top": "maroon long-sleeved",
+          "pants": "dark blue"
+        },
+        "pose": "sitting",
+        "expression": "focused",
+        "background": "dry grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.96875,
+      "box": [
+        434.0,
+        362.0,
+        632.0,
+        596.0
+      ],
+      "mask": "image_1.masks/person_6.png",
+      "crop": null,
+      "description": "A woman with dark skin and a purple headscarf sits on the ground, wearing a vibrant yellow dress with a black and white pattern, while holding a young child in her lap. The child, who has short dark hair, wears a white top and light blue patterned pants, looking off to the side.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "Black",
+        "headwear": {
+          "type": "headscarf",
+          "color": "purple"
+        },
+        "clothing": {
+          "dress": {
+            "base_color": "yellow",
+            "pattern": "black and white abstract shapes"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding a child",
+        "child": {
+          "age_group": "toddler",
+          "clothing": {
+            "top": "white",
+            "pants": "light blue with pattern"
+          },
+          "hair": "short, dark"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.9609375,
+      "box": [
+        472.0,
+        200.0,
+        552.0,
+        416.0
+      ],
+      "mask": "image_1.masks/person_7.png",
+      "crop": null,
+      "description": "A woman with dark skin stands in the background wearing a black long-sleeved dress and a black-and-white checkered keffiyeh headscarf, with her hands clasped in front of her. In the foreground, the top of another person's head is visible, wearing a solid purple headscarf.",
+      "attributes": {
+        "person_1": {
+          "gender": "female",
+          "age": "adult",
+          "ethnicity": "black",
+          "clothing": {
+            "dress": "black",
+            "headscarf": "black and white checkered keffiyeh"
+          },
+          "pose": "standing",
+          "hands": "clasped"
+        },
+        "person_2": {
+          "gender": "female",
+          "age": "adult",
+          "ethnicity": "black",
+          "clothing": {
+            "headscarf": "purple"
+          },
+          "position": "foreground, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.87109375,
+      "box": [
+        792.0,
+        366.0,
+        872.0,
+        462.0
+      ],
+      "mask": "image_1.masks/person_8.png",
+      "crop": null,
+      "description": "A woman wearing a dark blue headscarf and a patterned pink and purple shawl is seated next to a young child with short dark hair, both appearing to be in a rural or outdoor setting with a blurred, earthy background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "clothing": {
+          "headscarf": "dark blue",
+          "shawl": "pink and purple patterned"
+        },
+        "pose": "seated",
+        "expression": "neutral",
+        "position": "left side of the frame",
+        "background": "blurred, earthy tones"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.95703125,
+      "box": [
+        282.0,
+        344.0,
+        434.0,
+        516.0
+      ],
+      "mask": "image_1.masks/person_9.png",
+      "crop": null,
+      "description": "A man with short dark hair and a medium complexion sits cross-legged on dry, yellowish grass, wearing a dark long-sleeved shirt under a light beige vest and dark pants. He has a neutral expression and looks directly at the camera with his hands resting in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "vest",
+            "color": "beige",
+            "material": "fabric"
+          },
+          "undershirt": {
+            "type": "long-sleeve shirt",
+            "color": "dark blue or black"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "background": "dry grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        200.0,
+        145.0,
+        1024.0,
+        266.0
+      ],
+      "mask": "image_1.masks/sky_0.png",
+      "crop": null,
+      "description": "A person wearing a black and white checkered keffiyeh and a white headscarf stands outdoors under a tree, with a hazy, overcast sky and distant hills in the background.",
+      "attributes": {
+        "clothing": {
+          "headscarf": "white",
+          "keffiyeh": "black and white checkered"
+        },
+        "position": "center-left",
+        "background": {
+          "sky": "overcast, hazy",
+          "landscape": "distant hills, trees"
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "ethnicity": "Middle Eastern or North African (inferred from keffiyeh)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        532.0,
+        170.0,
+        892.0,
+        286.0
+      ],
+      "mask": "image_1.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up view of a tree trunk with rough, textured bark in shades of brown and gray, splitting into two main branches. The background is blurred, showing hints of green foliage and a bright sky, suggesting an outdoor setting.",
+      "attributes": {
+        "bark": "rough, textured, brown and gray",
+        "branches": "two main branches visible",
+        "background": "blurred, green foliage, bright sky",
+        "setting": "outdoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.55078125,
+      "box": [
+        416.0,
+        284.0,
+        448.0,
+        304.0
+      ],
+      "mask": "image_1.masks/tree_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        872.0,
+        264.0,
+        920.0,
+        308.0
+      ],
+      "mask": "image_1.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.546875,
+      "box": [
+        788.0,
+        179.0,
+        892.0,
+        253.0
+      ],
+      "mask": "image_1.masks/tree_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a tree trunk on the left side with green foliage extending to the right against a bright, overexposed sky background.",
+      "attributes": {
+        "focus": "blurry",
+        "trunk": {
+          "position": "left",
+          "color": "brown",
+          "texture": "rough"
+        },
+        "foliage": {
+          "color": "green",
+          "position": "right",
+          "density": "sparse"
+        },
+        "background": {
+          "color": "white",
+          "lighting": "overexposed"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.8984375,
+      "box": [
+        226.0,
+        264.0,
+        282.0,
+        304.0
+      ],
+      "mask": "image_1.masks/tree_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.515625,
+      "box": [
+        -1.625,
+        264.0,
+        56.5,
+        300.0
+      ],
+      "mask": "image_1.masks/tree_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.92578125,
+      "box": [
+        -4.5,
+        146.0,
+        230.0,
+        324.0
+      ],
+      "mask": "image_1.masks/tree_6.png",
+      "crop": null,
+      "description": "A medium-sized tree with a thick, brown trunk and a wide, spreading canopy of green leaves stands in a dry, grassy field. The image is out of focus, with a blurred foreground of leaves and branches hanging from the top right corner.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "thickness": "medium",
+          "structure": "branched"
+        },
+        "canopy": {
+          "color": "green",
+          "shape": "spreading",
+          "density": "moderate"
+        },
+        "leaves": {
+          "color": "green",
+          "arrangement": "clustered"
+        },
+        "environment": {
+          "ground": "dry grass",
+          "background": "hazy sky",
+          "focus": "blurred"
+        },
+        "foreground": {
+          "element": "leaves and branches",
+          "position": "top right",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.8359375,
+      "box": [
+        203.0,
+        272.0,
+        237.0,
+        304.0
+      ],
+      "mask": "image_1.masks/tree_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.68359375,
+      "box": [
+        304.0,
+        274.0,
+        348.0,
+        302.0
+      ],
+      "mask": "image_1.masks/tree_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 9,
+      "score": 0.65234375,
+      "box": [
+        169.0,
+        272.0,
+        197.0,
+        296.0
+      ],
+      "mask": "image_1.masks/tree_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 10,
+      "score": 0.84765625,
+      "box": [
+        86.5,
+        254.0,
+        168.0,
+        306.0
+      ],
+      "mask": "image_1.masks/tree_10.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a dark brown trunk and branches extending into a canopy of muted green foliage, set against a hazy, light-colored background.",
+      "attributes": {
+        "trunk": "dark brown, thick, partially visible on the left",
+        "foliage": "muted green, dense, blurry",
+        "background": "light, hazy, indistinct",
+        "focus": "out-of-focus, blurry",
+        "position": "left side of the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 11,
+      "score": 0.91796875,
+      "box": [
+        8.0,
+        1.0,
+        1024.0,
+        432.0
+      ],
+      "mask": "image_1.masks/tree_11.png",
+      "crop": null,
+      "description": "A large, mature tree with a thick, textured brown trunk that splits into multiple large branches, supporting a canopy of green leaves that partially frames the top of the scene. The tree stands in a dry, grassy field with a hazy sky and distant hills in the background.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough, bark-covered",
+          "structure": "thick, splitting into multiple large limbs"
+        },
+        "leaves": {
+          "color": "green",
+          "density": "moderate, allowing light through"
+        },
+        "environment": {
+          "ground": "dry, yellowish grass",
+          "background": "hazy sky, distant hills, scattered trees"
+        },
+        "position": "center-right, framing the scene"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 12,
+      "score": 0.9375,
+      "box": [
+        944.0,
+        222.0,
+        1024.0,
+        318.0
+      ],
+      "mask": "image_1.masks/tree_12.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a broad, rounded canopy of green foliage stands in a dry, open landscape. The trunk is thin and brown, branching out to support the dense leaves, while the background consists of a hazy, light-colored sky and a tan, sandy ground.",
+      "attributes": {
+        "canopy": "broad, rounded, green",
+        "trunk": "thin, brown",
+        "foliage": "dense, green",
+        "background": "hazy sky, sandy ground",
+        "focus": "blurry, out-of-focus",
+        "environment": "dry, open landscape"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 13,
+      "score": 0.90234375,
+      "box": [
+        344.0,
+        247.0,
+        416.0,
+        308.0
+      ],
+      "mask": "image_1.masks/tree_13.png",
+      "crop": null,
+      "description": "A single, medium-sized tree with a dense, rounded canopy of green foliage stands in the center of the frame. The tree has a visible brown trunk and branches that support the leafy crown, set against a blurred, light-colored background that suggests a dry or sandy environment.",
+      "attributes": {
+        "type": "deciduous",
+        "canopy_shape": "rounded",
+        "foliage_color": "green",
+        "trunk_color": "brown",
+        "trunk_visibility": "visible",
+        "background": "blurred, light-colored",
+        "setting": "outdoor, possibly arid or dry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 14,
+      "score": 0.546875,
+      "box": [
+        608.0,
+        276.0,
+        648.0,
+        312.0
+      ],
+      "mask": "image_1.masks/tree_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 15,
+      "score": 0.55859375,
+      "box": [
+        532.0,
+        172.0,
+        644.0,
+        282.0
+      ],
+      "mask": "image_1.masks/tree_15.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green leaves and brown branches is visible in the background, partially obscured by a person wearing a black and white checkered shirt in the foreground.",
+      "attributes": {
+        "leaves": "green",
+        "branches": "brown",
+        "focus": "blurry",
+        "position": "background",
+        "obscured_by": "person in checkered shirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 16,
+      "score": 0.76953125,
+      "box": [
+        780.0,
+        253.0,
+        860.0,
+        302.0
+      ],
+      "mask": "image_1.masks/tree_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

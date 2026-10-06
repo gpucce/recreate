@@ -1,0 +1,309 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "bookshelf",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        464.0,
+        114.0,
+        864.0,
+        816.0
+      ],
+      "mask": "image_2.masks/bookshelf_0.png",
+      "crop": null,
+      "description": "A white, multi-compartment bookshelf stands in the background, holding a row of books with spines in beige, white, and dark blue on the upper left shelf, while the other visible shelves are mostly empty or contain indistinct items.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or painted material",
+        "structure": "grid-like with multiple square compartments",
+        "contents": {
+          "upper_left_shelf": "row of books with beige, white, and dark blue spines",
+          "other_shelves": "mostly empty or indistinct"
+        },
+        "position": "background, behind the people",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        -2.0,
+        768.0,
+        131.0,
+        904.0
+      ],
+      "mask": "image_2.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A cylindrical ceramic mug with a two-tone design featuring a white upper section and a grey lower section, sitting on a light wooden surface.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color_scheme": "two-tone",
+        "colors": [
+          "white",
+          "grey"
+        ],
+        "shape": "cylindrical",
+        "handle": "visible on left",
+        "surface": "smooth",
+        "background": "wooden table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        121.0,
+        696.0,
+        460.0,
+        856.0
+      ],
+      "mask": "image_2.masks/clipboard_0.png",
+      "crop": null,
+      "description": "A dark blue clipboard with a silver metal clip at the top is held in a person's hands, with the back of the board facing the viewer. The person is wearing a light blue denim jacket and is seated at a wooden table with a white cup visible in the lower left corner.",
+      "attributes": {
+        "object": {
+          "type": "clipboard",
+          "color": "dark blue",
+          "material": "plastic or hardboard",
+          "clip": {
+            "color": "silver",
+            "material": "metal"
+          },
+          "orientation": "held horizontally",
+          "view": "back side"
+        },
+        "person": {
+          "hands": "visible holding the clipboard",
+          "clothing": {
+            "jacket": "light blue denim"
+          }
+        },
+        "context": {
+          "surface": "wooden table",
+          "other_objects": "white cup"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        324.0,
+        856.0,
+        684.0,
+        968.0
+      ],
+      "mask": "image_2.masks/clipboard_1.png",
+      "crop": null,
+      "description": "A close-up, slightly high-angle view of a blue clipboard resting on a light brown wooden surface, holding a stack of white lined paper. A hand is visible in the upper right corner holding a black and silver pen, poised to write on the paper.",
+      "attributes": {
+        "object": "clipboard",
+        "color": "blue",
+        "material": "plastic or wood",
+        "contents": "white lined paper",
+        "clip": "silver metal",
+        "surface": "wooden table",
+        "action": "writing",
+        "hand": "visible",
+        "pen": "black and silver"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        556.0,
+        520.0,
+        740.0,
+        696.0
+      ],
+      "mask": "image_2.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand, palm facing up with fingers slightly spread and relaxed. The skin is light-toned, and the hand appears to be in a gesture of offering or receiving.",
+      "attributes": {
+        "hand": {
+          "palm": "up",
+          "fingers": "slightly spread",
+          "skin_tone": "light",
+          "position": "extended forward",
+          "orientation": "right hand"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        428.0,
+        764.0,
+        464.0,
+        836.0
+      ],
+      "mask": "image_2.masks/hand_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.921875,
+      "box": [
+        640.0,
+        832.0,
+        744.0,
+        936.0
+      ],
+      "mask": "image_2.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of a person's hand, appearing to be a right hand, with fingers curled into a loose fist or resting position. The skin tone is light, and the hand is positioned against a blurred background that includes a hint of light blue fabric, possibly a sleeve or clothing.",
+      "attributes": {
+        "skin_tone": "light",
+        "pose": "curled fingers, loose fist",
+        "visible_clothing": "light blue fabric (possibly sleeve)",
+        "hand_side": "right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.828125,
+      "box": [
+        129.0,
+        768.0,
+        264.0,
+        864.0
+      ],
+      "mask": "image_2.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up of a person's hand with medium-brown skin tone resting on a dark blue surface, with fingers extended and slightly curled. The hand is positioned in the foreground, partially obscuring the background, with a wooden surface visible at the bottom edge.",
+      "attributes": {
+        "skin_tone": "medium-brown",
+        "pose": "resting on surface",
+        "fingers": "extended, slightly curled",
+        "surface": "dark blue",
+        "background": "wooden surface visible at bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 4,
+      "score": 0.86328125,
+      "box": [
+        544.0,
+        784.0,
+        696.0,
+        888.0
+      ],
+      "mask": "image_2.masks/hand_4.png",
+      "crop": null,
+      "description": "A close-up of a light-skinned right hand holding a black pen with a silver tip, poised over a white surface. The hand is positioned in a writing grip with fingers curled around the pen shaft and the thumb resting on the side.",
+      "attributes": {
+        "skin_tone": "light",
+        "hand": "right",
+        "pose": "writing grip",
+        "holding": {
+          "object": "pen",
+          "color": "black",
+          "tip": "silver"
+        },
+        "surface": "white paper"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        548.0,
+        34.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair is shown in profile, wearing a light blue button-down shirt. She is seated at a wooden table, holding a black pen in her right hand over a notebook while gesturing with her left hand, appearing to be in conversation.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "material": "cotton"
+          }
+        },
+        "pose": "seated, gesturing with left hand, holding pen in right hand",
+        "accessories": {
+          "pen": {
+            "color": "black"
+          }
+        },
+        "context": "office or study setting, notebook on table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        28.0,
+        110.0,
+        580.0,
+        864.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with medium skin tone and voluminous, dark brown curly hair sits at a wooden table, wearing a light blue denim shirt over a pale yellow t-shirt. She holds a blue clipboard in her hands and looks off to the side with a slight, attentive smile, while a two-toned grey and white mug sits on the table in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed or multiracial",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "outer": "light blue denim shirt",
+          "inner": "pale yellow t-shirt"
+        },
+        "pose": "sitting",
+        "expression": "attentive, slight smile",
+        "gaze": "looking to the right",
+        "accessories": {
+          "holding": "blue clipboard"
+        },
+        "context": {
+          "setting": "indoor, office or meeting room",
+          "objects": "wooden table, grey and white mug, pen in hand of another person"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

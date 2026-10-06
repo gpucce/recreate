@@ -1,0 +1,130 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "body_of_water",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        712.0,
+        -2.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_2.masks/body_of_water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A clear, shallow body of water with varying shades of turquoise and deep blue, revealing submerged sandbars and underwater features. The water transitions from a light, sandy-colored area near the shore to a darker blue further out, with visible ripples and patterns on the surface.\", \"attributes\": {\"color\": [\"turquoise\", \"blue\", \"sandy\"], \"clarity\": \"clear\", \"depth\": \"shallow to deep\", \"surface\": \"rippled\", \"features\": [\"sandbars\", \"underwater patterns\"], \"shoreline\": \"sandy beach with vegetation and structures visible in the distance\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass",
+      "index": 0,
+      "score": 0.69140625,
+      "box": [
+        -4.0,
+        -2.0,
+        900.0,
+        1016.0
+      ],
+      "mask": "image_2.masks/landmass_0.png",
+      "crop": null,
+      "description": "An aerial view of a coastal landscape featuring a winding river delta meeting a sandy beach and turquoise ocean. The land is divided into a patchwork of green and brown agricultural fields, interspersed with dense clusters of trees and small settlements with red-roofed buildings. A prominent sandbar or island with vegetation sits within the river's curve, separating the main channel from a smaller tributary.",
+      "attributes": {
+        "landscape_type": "coastal delta",
+        "water_bodies": {
+          "river": {
+            "color": "muddy brown",
+            "shape": "winding, branching"
+          },
+          "ocean": {
+            "color": "turquoise to deep blue",
+            "texture": "calm, shallow near shore"
+          }
+        },
+        "land_uses": {
+          "agriculture": {
+            "fields": "rectangular, varying shades of green and tan",
+            "layout": "grid-like"
+          },
+          "settlements": {
+            "buildings": "small, clustered, red roofs",
+            "density": "low to medium"
+          },
+          "vegetation": {
+            "trees": "dense, dark green clusters",
+            "sandbar": "partially vegetated island in river"
+          }
+        },
+        "beach": {
+          "color": "light tan",
+          "width": "narrow to moderate",
+          "features": "smooth, no visible structures"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        716.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/water_body_0.png",
+      "crop": null,
+      "description": "A clear, shallow body of water with varying shades of turquoise and deep blue, revealing sandy and rocky underwater features. The water transitions from a lighter, almost transparent green near the shore to a darker blue further out, with visible ripples and patterns on the surface.",
+      "attributes": {
+        "color": [
+          "turquoise",
+          "blue",
+          "green"
+        ],
+        "clarity": "clear",
+        "depth": "shallow to deep",
+        "surface": "rippled",
+        "underwater_features": [
+          "sandy",
+          "rocky"
+        ],
+        "shoreline": "sandy beach with vegetation"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 1,
+      "score": 0.57421875,
+      "box": [
+        376.0,
+        0.0,
+        848.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/water_body_1.png",
+      "crop": null,
+      "description": "A winding river with a mix of clear blue-green water and muddy brown sections, featuring a prominent sandbar or island in the middle. The riverbanks are lined with vegetation and a sandy beach on one side, while the other side shows a mix of green fields and a small settlement with buildings.",
+      "attributes": {
+        "water_color": [
+          "blue-green",
+          "brown"
+        ],
+        "features": [
+          "sandbar",
+          "island",
+          "sandy beach",
+          "vegetation",
+          "fields",
+          "settlement"
+        ],
+        "shape": "winding",
+        "clarity": "mixed (clear and muddy)"
+      },
+      "parse_ok": true
+    }
+  ]
+}

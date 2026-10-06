@@ -1,0 +1,188 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        126.0,
+        247.0,
+        498.0,
+        488.0
+      ],
+      "mask": "image_8.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A large, plain brown cardboard box is held up by a person, covering most of their face and body. The box is sealed with strips of clear packing tape on the top and bottom edges, and it appears to be made of standard corrugated cardboard.",
+      "attributes": {
+        "material": "corrugated cardboard",
+        "color": "brown",
+        "shape": "rectangular",
+        "sealing": "clear packing tape",
+        "position": "held up in front of a person",
+        "size": "large",
+        "function": "packaging or moving"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        145.0,
+        61.5,
+        464.0,
+        270.0
+      ],
+      "mask": "image_8.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A close-up view of a plain, light brown cardboard box sealed with strips of clear packing tape along the top and bottom edges. The box is positioned on top of another similar box, with a blurred, bright background suggesting an indoor setting.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "sealing": "clear packing tape",
+        "shape": "rectangular",
+        "position": "stacked on top of another box",
+        "condition": "new, undamaged",
+        "background": "blurred, bright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.625,
+      "box": [
+        153.0,
+        488.0,
+        227.0,
+        624.0
+      ],
+      "mask": "image_8.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A close-up view of a light fixture with a white, rectangular frame and a translucent, frosted glass panel. The fixture is mounted on a wall, with a visible seam or edge along the top and side.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "white",
+        "material": "glass, metal or plastic frame",
+        "position": "wall-mounted",
+        "visible_parts": [
+          "frame",
+          "glass panel",
+          "seam"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        224.0,
+        266.0,
+        620.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a shocked expression is lifting a large cardboard box on his shoulders while wearing a mustard yellow sweater and blue jeans. A black DSLR camera hangs around his neck on a strap, and he is positioned in a living room setting with a zebra statue visible to his right.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "shocked, mouth open, eyes wide",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "hanging around neck"
+          }
+        },
+        "pose": "standing, lifting box overhead",
+        "objects": {
+          "box": {
+            "type": "cardboard",
+            "position": "on shoulders"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        592.0,
+        344.0,
+        904.0
+      ],
+      "mask": "image_8.masks/sofa_0.png",
+      "crop": null,
+      "description": "A brown leather sofa with a smooth, slightly wrinkled texture and a square striped throw pillow in beige and dark grey resting on the seat. The sofa features thick, cushioned armrests and seat cushions, positioned behind a wooden coffee table.",
+      "attributes": {
+        "material": "leather",
+        "color": "brown",
+        "type": "sofa",
+        "cushions": {
+          "seat": "brown leather",
+          "throw": {
+            "pattern": "striped",
+            "colors": [
+              "beige",
+              "dark grey"
+            ],
+            "shape": "square"
+          }
+        },
+        "position": "background",
+        "state": "upright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        111.0,
+        620.0,
+        268.0,
+        732.0
+      ],
+      "mask": "image_8.masks/throw pillow_0.png",
+      "crop": null,
+      "description": "A square throw pillow with horizontal stripes in alternating shades of light beige and dark grey rests on a brown surface. The pillow appears soft and slightly plump, with visible seams along the edges.",
+      "attributes": {
+        "shape": "square",
+        "pattern": "horizontal stripes",
+        "colors": [
+          "light beige",
+          "dark grey"
+        ],
+        "material": "fabric",
+        "position": "resting on a surface",
+        "condition": "plump"
+      },
+      "parse_ok": true
+    }
+  ]
+}

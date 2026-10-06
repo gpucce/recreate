@@ -1,0 +1,142 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        7.0,
+        312.0,
+        251.0,
+        800.0
+      ],
+      "mask": "image_10.masks/backpack_0.png",
+      "crop": null,
+      "description": "A black backpack is worn over the shoulder of a person wearing an orange and dark blue plaid flannel shirt. The backpack features a wide black strap with a plastic adjustment buckle and a visible zipper pull on the side pocket.",
+      "attributes": {
+        "color": "black",
+        "material": "synthetic fabric",
+        "strap": {
+          "color": "black",
+          "width": "wide",
+          "buckle": "black plastic"
+        },
+        "features": [
+          "zipper",
+          "adjustable strap"
+        ],
+        "position": "worn on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        540.0,
+        116.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with a full white beard and mustache sits facing slightly to the left, wearing a brown plaid flat cap, a light blue button-down shirt, and a maroon and cream argyle patterned knit vest. He is wearing khaki trousers and has a gentle, contented smile on his face while looking off-camera.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "full beard and mustache"
+        },
+        "headwear": {
+          "type": "flat cap",
+          "pattern": "plaid",
+          "color": "brown and grey"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "sleeves": "long"
+          },
+          "vest": {
+            "type": "knit cardigan",
+            "pattern": "argyle",
+            "colors": [
+              "maroon",
+              "cream"
+            ],
+            "buttons": "dark"
+          },
+          "pants": {
+            "color": "khaki",
+            "type": "trousers"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "gaze": "looking left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        48.0,
+        100.0,
+        544.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling young man with light skin and brown hair sits facing right, wearing a blue baseball cap, an unbuttoned orange and navy plaid flannel shirt over a white t-shirt, and blue jeans. He has a black backpack strap over his right shoulder and rests his hands on his thighs.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "headwear": {
+          "type": "baseball cap",
+          "color": "blue"
+        },
+        "clothing": {
+          "outer": {
+            "type": "flannel shirt",
+            "pattern": "plaid",
+            "colors": [
+              "orange",
+              "navy blue"
+            ],
+            "state": "unbuttoned"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "backpack",
+            "color": "black",
+            "visible_part": "strap"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "gaze": "looking to the right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

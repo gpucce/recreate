@@ -1,0 +1,102 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        64.0,
+        236.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short, wavy light brown hair sits on a beige couch, wearing a light gray cable-knit sweater and blue jeans. He looks down with a serious or concerned expression at a smartphone held in his hands, while an adult's hand rests comfortingly on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light gray",
+            "pattern": "cable knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "action": "looking at phone",
+        "interaction": "adult hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        90.0,
+        40.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length dark brown hair sits on a beige couch, wearing a navy blue blazer over a red t-shirt and blue jeans. She has a concerned and worried expression, looking down at a black smartphone held in her hands, with her left arm resting on the shoulder of a young boy sitting next to her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "expression": "worried",
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "navy blue"
+          },
+          "top": {
+            "type": "t-shirt",
+            "color": "red"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at phone",
+        "interaction": "arm around child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        364.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/sofa_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A beige, textured fabric sofa with a soft, woven appearance, partially visible behind two individuals seated on it. The sofa has a neutral tone and appears to be upholstered in a durable, possibly linen or cotton-blend material.\", \"attributes\": {\"color\": \"beige\", \"material\": \"textured fabric (likely linen or cotton blend)\", \"type\": \"sofa\", \"visible_parts\": [\"backrest\", \"seat cushion edge\"], \"condition\": \"clean, well-maintained\", \"position\": \"indoor, behind seated individuals\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

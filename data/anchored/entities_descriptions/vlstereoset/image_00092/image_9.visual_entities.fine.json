@@ -1,0 +1,81 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        118.5,
+        14.5,
+        306.0,
+        204.0
+      ],
+      "mask": "image_9.masks/clock_0.png",
+      "crop": null,
+      "description": "A round analog wall clock with a black rim and a white face featuring black Roman numerals and hands, set against a light purple background.",
+      "attributes": {
+        "shape": "round",
+        "rim_color": "black",
+        "face_color": "white",
+        "numerals": "black Roman numerals",
+        "hands": {
+          "color": "black",
+          "hour_hand_position": "pointing to 10",
+          "minute_hand_position": "pointing to 2"
+        },
+        "background_color": "light purple",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        126.0,
+        96.0,
+        896.0,
+        992.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits cross-legged on a bed, wearing a white short-sleeved t-shirt and white textured sweatpants with a drawstring. She has a cream-colored quilted sleep mask with black trim covering her eyes, and her hands are resting on her lap with a calm, neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "sweatpants",
+            "color": "white",
+            "texture": "waffle knit",
+            "details": "drawstring waist"
+          },
+          "accessories": {
+            "sleep_mask": {
+              "color": "cream",
+              "trim": "black",
+              "pattern": "quilted diamond"
+            }
+          }
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a bed with white linens"
+      },
+      "parse_ok": true
+    }
+  ]
+}

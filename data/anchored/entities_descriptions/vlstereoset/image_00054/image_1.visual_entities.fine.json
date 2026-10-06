@@ -1,0 +1,72 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "body_of_water",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        266.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/body_of_water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A satellite view of a coastal area featuring a winding river or estuary flowing into a larger body of water, likely the sea or ocean. The water in the river displays swirling patterns of sediment, with colors ranging from dark blue to greenish-brown, indicating varying depths and sediment loads. The coastline is irregular, with sandy beaches and patches of dense green vegetation, including trees and possibly agricultural fields. Small structures, likely buildings, are scattered throughout the vegetated areas, suggesting a rural or semi-urban settlement. The larger body of water on the right side of the image is a deep blue, contrasting with the shallower, sediment-laden waters of the river and the coastal shallows.\", \"attributes\": {\"water_type\": \"river/estuary and sea/ocean\", \"color\": \"dark blue, greenish-brown, sandy beige\", \"pattern\": \"swirling sediment, winding river\", \"coastline\": \"irregular, sandy beaches\", \"vegetation\": \"dense green trees, agricultural fields\", \"structures\": \"small buildings, rural/semi-urban settlement\", \"sediment\": \"visible in river and coastal shallows\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        -10.0,
+        0.0,
+        904.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/landmass_0.png",
+      "crop": null,
+      "description": "A satellite view of a coastal area featuring a winding river with sediment-laden water flowing into a larger body of water, surrounded by dense green vegetation, agricultural fields, and scattered buildings.",
+      "attributes": {
+        "water": {
+          "color": "greenish-blue",
+          "sediment": "visible",
+          "flow": "winding"
+        },
+        "vegetation": {
+          "density": "dense",
+          "color": "green"
+        },
+        "land_use": {
+          "agriculture": "fields visible",
+          "settlements": "scattered buildings"
+        },
+        "coastline": {
+          "shape": "irregular",
+          "beach": "sandy areas visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        266.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/water_body_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A satellite view of a coastal area featuring a winding river or estuary flowing into a larger body of water, likely the sea or ocean. The water in the river displays swirling patterns of sediment, with colors ranging from dark blue to greenish-brown, indicating varying depths and sediment loads. The coastline is irregular, with sandy beaches and patches of dense green vegetation, including trees and possibly agricultural fields. Small structures, likely buildings, are scattered throughout the vegetated areas, suggesting a rural or semi-urban settlement. The larger body of water on the right side of the image is a deep blue, contrasting with the shallower, sediment-laden waters of the river and the coastal shallows.\", \"attributes\": {\"water_type\": \"river/estuary and sea/ocean\", \"color\": \"dark blue, greenish-brown, sandy beige\", \"pattern\": \"swirling sediment, winding river\", \"coastline\": \"irregular, sandy beaches\", \"vegetation\": \"dense green trees, agricultural fields\", \"structures\": \"small buildings scattered throughout\", \"sediment\": \"visible swirling patterns in river water\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

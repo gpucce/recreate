@@ -1,0 +1,109 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        0.0,
+        492.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/grass_0.png",
+      "crop": null,
+      "description": "The grass is a vibrant green, appearing well-maintained and short, typical of a sports field. It is interspersed with small patches of lighter green and a few scattered brown leaves, indicating a natural outdoor setting.",
+      "attributes": {
+        "color": "green",
+        "texture": "short and even",
+        "condition": "well-maintained",
+        "additional_elements": "small patches of lighter green, scattered brown leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        278.0,
+        58.0,
+        944.0,
+        976.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A female athlete with light brown hair tied in a high bun is captured in a dynamic running pose on a grass field, holding a white rugby ball with 'Havoc' branding in both hands. She wears a green short-sleeved jersey with a white logo, black athletic shorts, black socks with green stripes, and black cleats, with a focused expression on her face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "light brown",
+          "style": "high bun"
+        },
+        "clothing": {
+          "top": {
+            "type": "jersey",
+            "color": "green",
+            "sleeves": "short",
+            "logos": "white"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "black"
+          },
+          "socks": {
+            "color": "black",
+            "details": "green stripes"
+          },
+          "shoes": {
+            "type": "cleats",
+            "color": "black"
+          }
+        },
+        "pose": "running",
+        "action": "holding ball",
+        "object": {
+          "type": "rugby ball",
+          "color": "white",
+          "text": "Havoc"
+        },
+        "expression": "focused",
+        "background": "grass field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        202.0,
+        408.0,
+        326.0,
+        536.0
+      ],
+      "mask": "image_15.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball with blue and red curved stripes, featuring the brand name 'Havoc' in bold black letters and a smaller 'Gilbert' logo on the side. The ball is being held by a hand, with fingers wrapped around its surface, against a blurred green background.",
+      "attributes": {
+        "color": [
+          "white",
+          "blue",
+          "red"
+        ],
+        "branding": {
+          "primary": "Havoc",
+          "secondary": "Gilbert"
+        },
+        "material": "synthetic leather",
+        "shape": "prolate spheroid",
+        "grip": "hand-held",
+        "background": "blurred green field"
+      },
+      "parse_ok": true
+    }
+  ]
+}

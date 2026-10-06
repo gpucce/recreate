@@ -1,0 +1,167 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        572.0,
+        370.0,
+        688.0,
+        576.0
+      ],
+      "mask": "image_0.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a chair backrest featuring a dark blue or grey mesh material with a fine grid texture, framed by a smooth, dark border. A person's hand and arm are visible in the foreground, partially obscuring the left side of the chair, while a small section of light brown hair is visible on the right edge.",
+      "attributes": {
+        "material": "mesh",
+        "color": "dark blue/grey",
+        "texture": "grid pattern",
+        "type": "office chair",
+        "visible_parts": [
+          "backrest",
+          "frame"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        0.0,
+        568.0,
+        656.0,
+        640.0
+      ],
+      "mask": "image_0.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's right hand resting on a black computer mouse, positioned next to a silver laptop on a light-colored desk surface. The person is wearing a light gray or white short-sleeved shirt, and the background is blurred, suggesting a shallow depth of field.",
+      "attributes": {
+        "desk": {
+          "color": "light beige or off-white",
+          "material": "smooth surface, possibly wood or laminate"
+        },
+        "laptop": {
+          "color": "silver",
+          "type": "laptop",
+          "position": "left side of frame, partially visible"
+        },
+        "mouse": {
+          "color": "black",
+          "type": "computer mouse",
+          "position": "under the person's right hand"
+        },
+        "hand": {
+          "position": "right hand, resting on mouse",
+          "skin_tone": "light"
+        },
+        "clothing": {
+          "shirt": "light gray or white",
+          "sleeve_length": "short-sleeved"
+        },
+        "background": "blurred, indistinct office or workspace setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        392.0,
+        392.0,
+        636.0
+      ],
+      "mask": "image_0.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop is open on a desk, viewed from the side and back, with the screen facing away from the camera and the keyboard partially visible. The laptop has a sleek, metallic finish and is positioned in front of a person wearing a light-colored shirt.",
+      "attributes": {
+        "color": "silver",
+        "material": "metallic",
+        "state": "open",
+        "position": "on desk, facing away from camera",
+        "visible_parts": [
+          "back of screen",
+          "keyboard",
+          "base"
+        ],
+        "context": "in front of a person in a light shirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        436.0,
+        52.5,
+        960.0,
+        636.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy brown hair is shown in profile, wearing a light blue long-sleeved top, gesturing with her right hand while seated at a table. She is facing another person, who is partially visible and blurred, wearing a light-colored collared shirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "light blue",
+            "sleeves": "long"
+          }
+        },
+        "pose": "seated, gesturing with right hand",
+        "expression": "engaged in conversation",
+        "position": "right side of frame, facing left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        167.0,
+        57.5,
+        576.0,
+        604.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up shot of an older woman with short, wavy white hair wearing a light blue button-down shirt, seated at a desk with a laptop and gesturing with her hands while speaking. Her face is blurred, and she is positioned in profile facing right, appearing to be in a professional office setting.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy bob"
+        },
+        "clothing": {
+          "type": "shirt",
+          "color": "light blue",
+          "style": "button-down",
+          "sleeves": "long"
+        },
+        "pose": "sitting",
+        "action": "gesturing with hands",
+        "context": "office meeting",
+        "objects": {
+          "laptop": "visible in foreground"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

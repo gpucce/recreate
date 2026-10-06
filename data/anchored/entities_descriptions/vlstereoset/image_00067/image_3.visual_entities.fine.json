@@ -1,0 +1,244 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        704.0,
+        380.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short, dark hair and a serious expression sits facing forward, wearing a faded grey t-shirt with a graphic print and dark pants. His hands are clasped together in his lap, and he is positioned in front of a blurred background featuring a person in an orange garment and a green patterned cloth.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "serious",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "grey",
+            "details": "faded graphic print"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "dark grey"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        21.0,
+        372.0,
+        328.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young girl with dark hair and brown eyes sits facing forward, wearing a thick, bright red hooded shawl with fringed edges that covers her head and shoulders. She has a serious, neutral expression and her hands are clasped together in her lap, revealing white cuffs from a long-sleeved shirt underneath the shawl.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "indeterminate",
+        "hair": {
+          "color": "dark brown",
+          "style": "straight, visible under hood"
+        },
+        "eyes": {
+          "color": "brown"
+        },
+        "expression": "neutral, serious",
+        "pose": "sitting, hands clasped in lap",
+        "clothing": {
+          "outerwear": {
+            "type": "shawl/poncho",
+            "color": "red",
+            "material": "wool/felt-like",
+            "features": "hooded, fringed edges"
+          },
+          "underlayer": {
+            "type": "long-sleeved shirt",
+            "color": "white",
+            "visible_part": "cuffs"
+          },
+          "pants": {
+            "color": "dark blue",
+            "material": "denim"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        178.0,
+        136.0,
+        426.0,
+        600.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with dark hair and a serious expression is in the foreground wearing a bright red hooded garment, while a woman with dark hair and a brown shawl stands behind her against a green wall.",
+      "attributes": {
+        "person_1": {
+          "gender": "female",
+          "age": "child",
+          "ethnicity": "indigenous",
+          "hair": {
+            "color": "black",
+            "style": "parted in the middle"
+          },
+          "clothing": {
+            "item": "hooded garment",
+            "color": "red",
+            "material": "knit"
+          },
+          "expression": "neutral",
+          "position": "foreground left"
+        },
+        "person_2": {
+          "gender": "female",
+          "age": "adult",
+          "ethnicity": "indigenous",
+          "hair": {
+            "color": "black",
+            "style": "covered"
+          },
+          "clothing": {
+            "item": "shawl",
+            "color": "brown",
+            "material": "wool"
+          },
+          "expression": "neutral",
+          "position": "background center"
+        },
+        "background": {
+          "color": "green",
+          "texture": "smooth"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.89453125,
+      "box": [
+        612.0,
+        148.0,
+        892.0,
+        604.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A young boy with short, dark hair and a serious expression is in the foreground, wearing a plain grey t-shirt. Behind him, slightly out of focus, is a woman wearing a rust-colored headscarf and shawl, looking down with a somber expression.",
+      "attributes": {
+        "foreground_person": {
+          "gender": "male",
+          "age_group": "child",
+          "hair": {
+            "color": "black",
+            "length": "short"
+          },
+          "clothing": {
+            "top": {
+              "type": "t-shirt",
+              "color": "grey"
+            }
+          },
+          "expression": "serious",
+          "gaze": "directly at camera"
+        },
+        "background_person": {
+          "gender": "female",
+          "age_group": "adult",
+          "clothing": {
+            "headwear": {
+              "type": "headscarf",
+              "color": "rust orange"
+            },
+            "top": {
+              "type": "shawl",
+              "color": "rust orange"
+            }
+          },
+          "expression": "somber",
+          "gaze": "downward",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.984375,
+      "box": [
+        304.0,
+        230.0,
+        736.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_4.png",
+      "crop": null,
+      "description": "An elderly woman with deeply wrinkled skin and white hair sits facing forward, wearing a textured green shawl with fringed edges draped over her head and shoulders. Her hands, showing prominent veins and age spots, are clasped together in her lap over a patterned blouse with floral and paisley designs in brown, blue, and orange.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "indigenous",
+        "hair": {
+          "color": "white",
+          "style": "visible at forehead under shawl"
+        },
+        "face": {
+          "skin": "wrinkled, weathered",
+          "expression": "neutral, serious",
+          "eyes": "dark, direct gaze"
+        },
+        "clothing": {
+          "shawl": {
+            "color": "green",
+            "texture": "woven, patterned",
+            "detail": "fringed edges",
+            "coverage": "head and shoulders"
+          },
+          "blouse": {
+            "pattern": "floral/paisley",
+            "colors": [
+              "brown",
+              "blue",
+              "orange",
+              "black"
+            ],
+            "sleeves": "long, patterned"
+          }
+        },
+        "hands": {
+          "position": "clasped in lap",
+          "skin": "veiny, aged, spotted"
+        },
+        "pose": "seated, upright, facing camera",
+        "background": "other people partially visible, out of focus"
+      },
+      "parse_ok": true
+    }
+  ]
+}

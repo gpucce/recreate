@@ -1,0 +1,249 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "blackboard",
+      "index": 0,
+      "score": 0.7734375,
+      "box": [
+        0.0,
+        210.0,
+        231.0,
+        568.0
+      ],
+      "mask": "image_7.masks/blackboard_0.png",
+      "crop": null,
+      "description": "A whiteboard with faint, blurry black marker writing and grid lines is visible in the background, positioned behind a person with curly brown hair. The board appears to be a standard classroom or office whiteboard with a white surface and a thin frame.",
+      "attributes": {
+        "object": "whiteboard",
+        "color": "white",
+        "material": "smooth surface",
+        "content": "faint black marker writing, grid lines",
+        "clarity": "blurry, out of focus",
+        "position": "background, behind person",
+        "function": "writing surface, presentation board"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        956.0,
+        756.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a chair backrest featuring a dark gray, textured mesh fabric. A section of dark blue fabric, likely a person's clothing, is visible on the left side, partially obscuring the chair. The top edge of the chair is defined by a thin, dark frame.",
+      "attributes": {
+        "material": "mesh fabric",
+        "color": "dark gray",
+        "texture": "woven",
+        "frame": "dark",
+        "obstruction": "dark blue fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.90625,
+      "box": [
+        -1.125,
+        696.0,
+        47.5,
+        888.0
+      ],
+      "mask": "image_7.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a person's arm and torso wearing a light blue short-sleeved shirt, positioned in front of a dark grey mesh office chair backrest.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue",
+          "sleeve_length": "short"
+        },
+        "body_part": "arm",
+        "background_object": {
+          "type": "office chair",
+          "material": "mesh",
+          "color": "dark grey"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        0.0,
+        872.0,
+        892.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden desk with a visible grain pattern, featuring a person's hands writing on a clipboard with a pen and another person's hands resting on the table.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "grainy",
+        "objects": [
+          "clipboard",
+          "pen",
+          "hands",
+          "smartphone"
+        ],
+        "position": "horizontal",
+        "context": "office or meeting setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        406.0,
+        402.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with short, curly red hair is seated at a wooden table, wearing a dark blue V-neck scrub top and writing on a notepad with a silver pen. She is shown in profile facing left with a focused expression, while other medical staff in blue scrubs stand in the background.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "red",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "top": "dark blue V-neck scrub",
+          "accessories": "thin gold necklace"
+        },
+        "pose": "sitting, writing",
+        "action": "holding a silver pen",
+        "expression": "focused",
+        "social_role": "medical professional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        1.0,
+        366.0,
+        408.0,
+        912.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and light facial stubble is wearing a light blue V-neck medical scrub top, seated at a wooden table with his hands raised in a gesturing motion while looking to the side. He wears a black hair tie on his left wrist and a black watch on his right wrist, appearing engaged in a conversation in a clinical or office setting.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "top": {
+            "type": "scrubs",
+            "color": "light blue",
+            "neckline": "V-neck",
+            "sleeves": "short",
+            "details": "chest pocket with pen"
+          }
+        },
+        "accessories": {
+          "wrist_left": "black hair tie",
+          "wrist_right": "black watch"
+        },
+        "pose": "seated, hands gesturing",
+        "expression": "engaged, speaking",
+        "gaze": "looking to the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        652.0,
+        60.0,
+        1012.0,
+        736.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A man with dark, wavy hair and a full beard stands behind a seated woman, wearing light blue medical scrubs and a stethoscope around his neck. He has a serious expression and is looking downward, appearing to be a doctor or medical professional.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "wavy, short",
+          "facial_hair": "full beard"
+        },
+        "clothing": {
+          "type": "scrubs",
+          "color": "light blue",
+          "accessories": {
+            "stethoscope": {
+              "color": "black and silver"
+            }
+          }
+        },
+        "pose": "standing",
+        "expression": "serious, focused",
+        "role": "medical professional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.984375,
+      "box": [
+        340.0,
+        198.0,
+        652.0,
+        872.0
+      ],
+      "mask": "image_7.masks/person_3.png",
+      "crop": null,
+      "description": "A middle-aged woman with short brown hair and black-rimmed glasses stands with her arms crossed, wearing a dark blue V-neck scrub top and matching pants. She has a serious, skeptical expression with a slight frown, looking down and to the side, while partially visible arms of other people are in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "bob"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "dark blue V-neck scrub shirt",
+          "bottom": "dark blue scrub pants"
+        },
+        "pose": "standing with arms crossed",
+        "expression": "serious, skeptical, frowning",
+        "context": "medical or clinical setting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

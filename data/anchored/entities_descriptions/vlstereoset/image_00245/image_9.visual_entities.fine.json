@@ -1,0 +1,117 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        274.0,
+        338.0,
+        760.0,
+        992.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with curly brown hair wearing a light blue knit sweater holds a baby dressed in a white long-sleeved bodysuit, kissing the baby's forehead while the baby looks to the side.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light blue",
+            "material": "knit"
+          }
+        },
+        "action": "holding and kissing a baby",
+        "baby": {
+          "clothing": {
+            "type": "bodysuit",
+            "color": "white"
+          },
+          "hair": {
+            "color": "brown"
+          },
+          "expression": "calm, looking away"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        158.0,
+        70.0,
+        832.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark, voluminous curly hair wearing a light blue knit sweater sits on a beige couch, tenderly holding a baby in a white onesie while kissing the baby's forehead. The baby looks to the side with wide eyes, and the woman's eyes are closed in a gentle expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light blue",
+            "material": "knit"
+          },
+          "bottoms": {
+            "color": "white"
+          }
+        },
+        "pose": "sitting, holding baby",
+        "action": "kissing baby's forehead",
+        "expression": "tender, eyes closed",
+        "holding": {
+          "subject": "baby",
+          "baby_clothing": "white onesie"
+        },
+        "background": "beige couch, white wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        412.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or off-white fabric sofa with a textured, woven appearance, featuring a large, cushioned backrest and armrests. The sofa appears to be upholstered in a durable, possibly linen or cotton-blend material, with visible stitching along the seams of the cushions. It is positioned indoors, likely in a living room setting, and is being used as seating for a person holding a baby.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "textured fabric (possibly linen or cotton blend)",
+        "style": "modern, minimalist",
+        "features": [
+          "cushioned backrest",
+          "armrests",
+          "visible stitching"
+        ],
+        "condition": "clean, well-maintained",
+        "position": "indoor, likely living room",
+        "usage": "seating for a person holding a baby"
+      },
+      "parse_ok": true
+    }
+  ]
+}

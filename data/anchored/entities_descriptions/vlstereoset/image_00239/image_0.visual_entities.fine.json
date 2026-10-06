@@ -1,0 +1,1524 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.73046875,
+      "box": [
+        504.0,
+        143.0,
+        600.0,
+        178.0
+      ],
+      "mask": "image_0.masks/building_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.875,
+      "box": [
+        360.0,
+        154.0,
+        584.0,
+        244.0
+      ],
+      "mask": "image_0.masks/building_1.png",
+      "crop": null,
+      "description": "A two-story residential building with a reddish-brown exterior and a light-colored, sloped roof. The structure features multiple windows, a small balcony on the second floor, and a covered porch area on the ground level.",
+      "attributes": {
+        "color": "reddish-brown",
+        "roof": "light-colored, sloped",
+        "floors": 2,
+        "features": [
+          "balcony",
+          "porch",
+          "multiple windows"
+        ],
+        "material": "likely concrete or stucco",
+        "style": "residential"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.67578125,
+      "box": [
+        500.0,
+        177.0,
+        600.0,
+        330.0
+      ],
+      "mask": "image_0.masks/building_2.png",
+      "crop": null,
+      "description": "The image shows a partial view of a building with a sloped, corrugated metal roof supported by a dark metal pole. The wall of the building is painted a light yellow or beige color. In the background, there is a red brick building with arched windows and a decorative white cornice. A green lawn and some shrubbery are visible in the middle ground, along with a portion of a car in the foreground.",
+      "attributes": {
+        "roof": {
+          "material": "corrugated metal",
+          "color": "gray",
+          "shape": "sloped"
+        },
+        "wall": {
+          "color": "light yellow/beige",
+          "material": "plaster or stucco"
+        },
+        "support_structure": {
+          "material": "metal",
+          "color": "dark"
+        },
+        "background_building": {
+          "material": "red brick",
+          "architectural_features": [
+            "arched windows",
+            "white cornice"
+          ],
+          "color": "red"
+        },
+        "surroundings": {
+          "vegetation": [
+            "green lawn",
+            "shrubs"
+          ],
+          "foreground_object": "car (partial view)"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.8515625,
+      "box": [
+        -0.5859375,
+        102.5,
+        178.0,
+        338.0
+      ],
+      "mask": "image_0.masks/building_3.png",
+      "crop": null,
+      "description": "A two-story building with a yellow exterior and a brown metal roof, featuring a prominent brick chimney and a wooden balcony with a railing. The structure is situated on a hillside with a view of a distant town and greenery in the background.",
+      "attributes": {
+        "exterior_color": "yellow",
+        "roof_color": "brown",
+        "roof_material": "metal",
+        "chimney_material": "brick",
+        "balcony_material": "wood",
+        "balcony_railing": "wooden",
+        "location": "hillside",
+        "background": "town and greenery",
+        "number_of_stories": 2
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.5703125,
+      "box": [
+        245.0,
+        174.0,
+        346.0,
+        203.0
+      ],
+      "mask": "image_0.masks/building_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        424.0,
+        274.0,
+        556.0,
+        338.0
+      ],
+      "mask": "image_0.masks/car_0.png",
+      "crop": null,
+      "description": "A black SUV is parked on a dirt road, partially obscured by two large, green, missile-like objects in the foreground. The vehicle has a glossy finish and appears to be a modern model with a sunroof visible on the roof.",
+      "attributes": {
+        "color": "black",
+        "type": "SUV",
+        "features": [
+          "sunroof",
+          "glossy finish"
+        ],
+        "position": "parked on dirt road",
+        "obstruction": "partially obscured by green missile-like objects"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chimney",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        44.5,
+        101.5,
+        104.5,
+        207.0
+      ],
+      "mask": "image_0.masks/chimney_0.png",
+      "crop": null,
+      "description": "A tall, rectangular chimney constructed from light brown and beige bricks, featuring a dark, flat cap at the top with small decorative corbels or brackets underneath. The brickwork is arranged in a standard running bond pattern, and the structure stands vertically against a blurred background of sky and distant landscape.",
+      "attributes": {
+        "material": "brick",
+        "color": "light brown, beige",
+        "shape": "rectangular, tall",
+        "top": "dark flat cap with corbels",
+        "pattern": "running bond",
+        "condition": "weathered",
+        "position": "vertical, standing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 0,
+      "score": 0.71875,
+      "box": [
+        466.0,
+        -0.166015625,
+        588.0,
+        79.0
+      ],
+      "mask": "image_0.masks/cloud_0.png",
+      "crop": null,
+      "description": "A large, fluffy cumulus cloud dominates the frame, featuring soft, billowing edges and a textured surface with varying shades of white and light gray. The cloud is set against a pale blue sky, with smaller, wispy cloud fragments visible in the upper left corner.",
+      "attributes": {
+        "type": "cumulus",
+        "color": "white and light gray",
+        "shape": "billowing and fluffy",
+        "texture": "soft and cotton-like",
+        "background": "pale blue sky",
+        "position": "centered in the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 1,
+      "score": 0.671875,
+      "box": [
+        6.15625,
+        7.46875,
+        57.25,
+        49.75
+      ],
+      "mask": "image_0.masks/cloud_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 2,
+      "score": 0.77734375,
+      "box": [
+        276.0,
+        58.5,
+        342.0,
+        93.0
+      ],
+      "mask": "image_0.masks/cloud_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 3,
+      "score": 0.71875,
+      "box": [
+        462.0,
+        3.3125,
+        486.0,
+        21.25
+      ],
+      "mask": "image_0.masks/cloud_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 4,
+      "score": 0.8671875,
+      "box": [
+        256.0,
+        46.25,
+        284.0,
+        60.75
+      ],
+      "mask": "image_0.masks/cloud_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 5,
+      "score": 0.80859375,
+      "box": [
+        330.0,
+        38.25,
+        490.0,
+        93.0
+      ],
+      "mask": "image_0.masks/cloud_5.png",
+      "crop": null,
+      "description": "A fluffy, white cumulus cloud with soft, billowy edges floats against a light blue sky. The cloud has a textured, cotton-like appearance with varying shades of white and light gray, indicating depth and volume.",
+      "attributes": {
+        "color": "white",
+        "shape": "billowy, irregular",
+        "texture": "soft, cotton-like",
+        "sky_color": "light blue",
+        "type": "cumulus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 6,
+      "score": 0.92578125,
+      "box": [
+        148.0,
+        32.75,
+        234.0,
+        68.5
+      ],
+      "mask": "image_0.masks/cloud_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 7,
+      "score": 0.5078125,
+      "box": [
+        14.0625,
+        2.65625,
+        600.0,
+        147.0
+      ],
+      "mask": "image_0.masks/cloud_7.png",
+      "crop": null,
+      "description": "A large, fluffy cumulus cloud with a bright white top and a slightly grayish base floats in a blue sky, positioned above a distant landscape that includes a brick tower and a hazy horizon.",
+      "attributes": {
+        "type": "cumulus",
+        "color": "white and light gray",
+        "shape": "fluffy and rounded",
+        "position": "upper center of the sky",
+        "sky": "blue with scattered clouds",
+        "context": "above a landscape with a brick tower and distant hills"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 8,
+      "score": 0.90625,
+      "box": [
+        258.0,
+        -0.58203125,
+        324.0,
+        27.25
+      ],
+      "mask": "image_0.masks/cloud_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 9,
+      "score": 0.81640625,
+      "box": [
+        410.0,
+        28.5,
+        448.0,
+        47.25
+      ],
+      "mask": "image_0.masks/cloud_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "fence",
+      "index": 0,
+      "score": 0.6796875,
+      "box": [
+        134.0,
+        243.0,
+        576.0,
+        270.0
+      ],
+      "mask": "image_0.masks/fence_0.png",
+      "crop": null,
+      "description": "A horizontal section of a fence made of vertical wooden slats, appearing weathered and brown, with a thin metal wire or cable running diagonally across the right side. The fence is set against a backdrop of green grass and a stone wall, with some greenery visible behind it.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "structure": "vertical slats",
+        "condition": "weathered",
+        "additional_elements": [
+          "metal wire/cable",
+          "stone wall background",
+          "green grass",
+          "greenery"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        158.0,
+        306.0,
+        422.0,
+        340.0
+      ],
+      "mask": "image_0.masks/grass_0.png",
+      "crop": null,
+      "description": "A patch of green grass with a mix of light and dark green blades, appearing somewhat uneven in texture and density. A thin, light-colored line or string runs diagonally across the grass from the bottom left to the top right.",
+      "attributes": {
+        "color": "green",
+        "texture": "uneven",
+        "pattern": "mixed light and dark green",
+        "object_on_grass": "thin light-colored line or string"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        152.0,
+        262.0,
+        548.0,
+        286.0
+      ],
+      "mask": "image_0.masks/grass_1.png",
+      "crop": null,
+      "description": "A patch of green grass is visible in the background, appearing lush and well-maintained, with a few scattered blades of lighter green or yellowish grass. The grass is situated behind a wooden fence and a paved area, suggesting it is part of a landscaped outdoor space.",
+      "attributes": {
+        "color": "green",
+        "texture": "lush",
+        "condition": "well-maintained",
+        "location": "behind a wooden fence and paved area",
+        "type": "outdoor grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hill",
+      "index": 0,
+      "score": 0.61328125,
+      "box": [
+        390.0,
+        138.0,
+        478.0,
+        149.0
+      ],
+      "mask": "image_0.masks/hill_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lawn",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        157.0,
+        306.0,
+        424.0,
+        340.0
+      ],
+      "mask": "image_0.masks/lawn_0.png",
+      "crop": null,
+      "description": "A patch of green grass with a thin, light-colored hose or cable running diagonally across it, bordered by a dirt or gravel path on the top and left sides.",
+      "attributes": {
+        "color": "green",
+        "texture": "short, mowed grass",
+        "objects": [
+          "hose or cable"
+        ],
+        "border": "dirt or gravel path",
+        "condition": "well-maintained"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "lawn",
+      "index": 1,
+      "score": 0.76171875,
+      "box": [
+        152.0,
+        262.0,
+        548.0,
+        284.0
+      ],
+      "mask": "image_0.masks/lawn_1.png",
+      "crop": null,
+      "description": "A patch of green grass with a slightly uneven texture, bordered by a reddish-brown dirt path or edge. The grass appears to be well-maintained but not perfectly manicured, with some areas showing slight variations in color and density.",
+      "attributes": {
+        "color": "green",
+        "texture": "slightly uneven",
+        "border": "reddish-brown dirt path",
+        "maintenance": "well-maintained but not perfectly manicured",
+        "density": "varies slightly across the patch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        184.0,
+        278.0,
+        584.0,
+        314.0
+      ],
+      "mask": "image_0.masks/path_0.png",
+      "crop": null,
+      "description": "A narrow, unpaved path made of reddish-brown dirt runs horizontally across the image, bordered by patches of green grass on one side and a pile of dark gravel or soil on the other. The path appears uneven and slightly worn, with visible footprints or tire marks, and is partially obscured by the edge of a black vehicle on the right side of the frame.",
+      "attributes": {
+        "surface": "reddish-brown dirt",
+        "texture": "uneven, compacted",
+        "boundaries": {
+          "left": "green grass",
+          "right": "black vehicle (partial)",
+          "top": "pile of dark gravel/soil"
+        },
+        "condition": "worn, with faint tracks",
+        "width": "narrow",
+        "orientation": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        528.0,
+        115.0,
+        596.0,
+        153.0
+      ],
+      "mask": "image_0.masks/plant_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.83984375,
+      "box": [
+        232.0,
+        214.0,
+        272.0,
+        266.0
+      ],
+      "mask": "image_0.masks/plant_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.85546875,
+      "box": [
+        540.0,
+        254.0,
+        572.0,
+        296.0
+      ],
+      "mask": "image_0.masks/plant_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 3,
+      "score": 0.80078125,
+      "box": [
+        568.0,
+        248.0,
+        588.0,
+        294.0
+      ],
+      "mask": "image_0.masks/plant_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 4,
+      "score": 0.7109375,
+      "box": [
+        103.5,
+        288.0,
+        176.0,
+        338.0
+      ],
+      "mask": "image_0.masks/plant_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 5,
+      "score": 0.71484375,
+      "box": [
+        264.0,
+        203.0,
+        288.0,
+        222.0
+      ],
+      "mask": "image_0.masks/plant_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 6,
+      "score": 0.80078125,
+      "box": [
+        490.0,
+        218.0,
+        528.0,
+        274.0
+      ],
+      "mask": "image_0.masks/plant_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 7,
+      "score": 0.53125,
+      "box": [
+        154.0,
+        274.0,
+        196.0,
+        294.0
+      ],
+      "mask": "image_0.masks/plant_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 8,
+      "score": 0.578125,
+      "box": [
+        115.0,
+        223.0,
+        132.0,
+        252.0
+      ],
+      "mask": "image_0.masks/plant_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 9,
+      "score": 0.56640625,
+      "box": [
+        358.0,
+        235.0,
+        368.0,
+        243.0
+      ],
+      "mask": "image_0.masks/plant_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 10,
+      "score": 0.66015625,
+      "box": [
+        568.0,
+        227.0,
+        588.0,
+        246.0
+      ],
+      "mask": "image_0.masks/plant_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 11,
+      "score": 0.82421875,
+      "box": [
+        398.0,
+        239.0,
+        450.0,
+        268.0
+      ],
+      "mask": "image_0.masks/plant_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 12,
+      "score": 0.609375,
+      "box": [
+        -1.0234375,
+        0.6640625,
+        41.5,
+        155.0
+      ],
+      "mask": "image_0.masks/plant_12.png",
+      "crop": null,
+      "description": "A tall tree with dense, dark green foliage occupies the majority of the frame, its branches extending upward and outward against a backdrop of a bright blue sky with scattered white clouds. The leaves appear small and clustered, creating a textured canopy that partially obscures the sky behind it.",
+      "attributes": {
+        "type": "tree",
+        "foliage_color": "dark green",
+        "leaf_density": "dense",
+        "sky_background": "blue with white clouds",
+        "position": "centered, extending upwards",
+        "visible_parts": "upper branches and canopy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 13,
+      "score": 0.7109375,
+      "box": [
+        432.0,
+        266.0,
+        496.0,
+        340.0
+      ],
+      "mask": "image_0.masks/plant_13.png",
+      "crop": null,
+      "description": "A close-up view of a plant with long, pointed, sword-like leaves that are dark green in color. The leaves have a smooth texture and appear to be growing from a central point, with one leaf prominently in the foreground and others slightly blurred in the background.",
+      "attributes": {
+        "leaf_shape": "sword-like",
+        "leaf_color": "dark green",
+        "leaf_texture": "smooth",
+        "growth_pattern": "central point",
+        "focus": "one leaf in foreground, others blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 14,
+      "score": 0.67578125,
+      "box": [
+        298.0,
+        193.0,
+        336.0,
+        214.0
+      ],
+      "mask": "image_0.masks/plant_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 15,
+      "score": 0.65625,
+      "box": [
+        168.0,
+        175.0,
+        224.0,
+        220.0
+      ],
+      "mask": "image_0.masks/plant_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pole",
+      "index": 0,
+      "score": 0.67578125,
+      "box": [
+        556.0,
+        214.0,
+        560.0,
+        294.0
+      ],
+      "mask": "image_0.masks/pole_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pole",
+      "index": 1,
+      "score": 0.765625,
+      "box": [
+        162.0,
+        153.0,
+        166.0,
+        243.0
+      ],
+      "mask": "image_0.masks/pole_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pole",
+      "index": 2,
+      "score": 0.7578125,
+      "box": [
+        354.0,
+        189.0,
+        358.0,
+        242.0
+      ],
+      "mask": "image_0.masks/pole_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pole",
+      "index": 3,
+      "score": 0.90234375,
+      "box": [
+        272.0,
+        129.0,
+        284.0,
+        274.0
+      ],
+      "mask": "image_0.masks/pole_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "power_line",
+      "index": 0,
+      "score": 0.5390625,
+      "box": [
+        248.0,
+        67.5,
+        600.0,
+        338.0
+      ],
+      "mask": "image_0.masks/power_line_0.png",
+      "crop": null,
+      "description": "A thin, dark power line stretches diagonally across the upper right portion of the image, appearing taut and slightly blurred against the sky. It is part of a network of utility lines visible in the scene, with one line extending from the top right corner toward the center.",
+      "attributes": {
+        "color": "dark gray or black",
+        "material": "metal wire",
+        "position": "diagonal, upper right to center",
+        "state": "taut, intact",
+        "context": "part of an overhead electrical or communication line system"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "railing",
+      "index": 0,
+      "score": 0.72265625,
+      "box": [
+        428.0,
+        207.0,
+        452.0,
+        228.0
+      ],
+      "mask": "image_0.masks/railing_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "railing",
+      "index": 1,
+      "score": 0.51171875,
+      "box": [
+        502.0,
+        211.0,
+        576.0,
+        222.0
+      ],
+      "mask": "image_0.masks/railing_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "railing",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        115.5,
+        252.0,
+        151.0,
+        306.0
+      ],
+      "mask": "image_0.masks/railing_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        508.0,
+        142.0,
+        604.0,
+        166.0
+      ],
+      "mask": "image_0.masks/roof_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 1,
+      "score": 0.55078125,
+      "box": [
+        296.0,
+        210.0,
+        338.0,
+        220.0
+      ],
+      "mask": "image_0.masks/roof_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 2,
+      "score": 0.5625,
+      "box": [
+        440.0,
+        276.0,
+        524.0,
+        300.0
+      ],
+      "mask": "image_0.masks/roof_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 3,
+      "score": 0.83203125,
+      "box": [
+        502.0,
+        175.0,
+        604.0,
+        220.0
+      ],
+      "mask": "image_0.masks/roof_3.png",
+      "crop": null,
+      "description": "The image shows a close-up of a sloped roof made of weathered, brownish-gray corrugated material, likely metal or asbestos cement, with visible horizontal ridges and a slightly uneven surface. Below the roof edge, a section of a brick wall is visible, featuring a decorative pattern of white circular or oval shapes set into the red bricks.",
+      "attributes": {
+        "material": "corrugated metal or asbestos cement",
+        "color": "brownish-gray",
+        "texture": "weathered, ridged",
+        "structure": "sloped roof",
+        "wall": {
+          "material": "brick",
+          "color": "red",
+          "decoration": "white circular/oval pattern"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "roof",
+      "index": 4,
+      "score": 0.93359375,
+      "box": [
+        -0.5859375,
+        286.0,
+        116.5,
+        340.0
+      ],
+      "mask": "image_0.masks/roof_4.png",
+      "crop": null,
+      "description": "A close-up view of a sloped roof covered in weathered, grayish-brown wooden shingles or tiles arranged in overlapping rows. A thin, bare branch or twig lies horizontally across the surface of the roof, casting a faint shadow.",
+      "attributes": {
+        "material": "wood",
+        "color": "grayish-brown",
+        "texture": "weathered, rough",
+        "shape": "sloped, rectangular",
+        "details": "overlapping shingles, bare branch on surface",
+        "condition": "aged, worn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "roof",
+      "index": 5,
+      "score": 0.875,
+      "box": [
+        -0.5859375,
+        154.0,
+        180.0,
+        255.0
+      ],
+      "mask": "image_0.masks/roof_5.png",
+      "crop": null,
+      "description": "{\"description\": \"A section of a roof with a reddish-brown corrugated metal surface, featuring a prominent brick chimney rising from the center. The roof has a slight slope and is supported by a visible wooden beam on the right side, with a yellow wall beneath it.\", \"attributes\": {\"material\": \"corrugated metal\", \"color\": \"reddish-brown\", \"structure\": \"sloped\", \"chimney\": {\"material\": \"brick\", \"color\": \"brown\", \"position\": \"central\"}, \"support\": {\"material\": \"wood\", \"color\": \"light brown\", \"position\": \"right side\"}, \"wall_color\": \"yellow\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "roof",
+      "index": 6,
+      "score": 0.875,
+      "box": [
+        358.0,
+        155.0,
+        580.0,
+        189.0
+      ],
+      "mask": "image_0.masks/roof_6.png",
+      "crop": null,
+      "description": "The image shows a large, multi-gabled roof with a light beige or off-white color, likely made of metal or shingles. The roof has a complex structure with multiple peaks and valleys, and there is a small dormer window with a triangular pediment on the front slope. The surrounding area includes parts of other buildings with similar roofing materials.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "metal or shingles",
+        "structure": "multi-gabled",
+        "features": [
+          "dormer window",
+          "triangular pediment"
+        ],
+        "surroundings": "other buildings with similar roofing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "roof",
+      "index": 7,
+      "score": 0.71875,
+      "box": [
+        116.0,
+        219.0,
+        338.0,
+        243.0
+      ],
+      "mask": "image_0.masks/roof_7.png",
+      "crop": null,
+      "description": "A section of a roof with a light beige or tan color, featuring a textured surface that appears to be made of shingles or tiles. The roof has a slight slope and is partially obscured by vertical wooden beams or supports in the foreground.",
+      "attributes": {
+        "color": "light beige/tan",
+        "material": "shingles or tiles",
+        "texture": "textured",
+        "slope": "slight",
+        "obstruction": "vertical wooden beams or supports"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrub",
+      "index": 0,
+      "score": 0.625,
+      "box": [
+        490.0,
+        218.0,
+        528.0,
+        274.0
+      ],
+      "mask": "image_0.masks/shrub_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 1,
+      "score": 0.625,
+      "box": [
+        231.0,
+        214.0,
+        270.0,
+        266.0
+      ],
+      "mask": "image_0.masks/shrub_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 2,
+      "score": 0.79296875,
+      "box": [
+        540.0,
+        254.0,
+        572.0,
+        296.0
+      ],
+      "mask": "image_0.masks/shrub_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 3,
+      "score": 0.78515625,
+      "box": [
+        568.0,
+        248.0,
+        592.0,
+        294.0
+      ],
+      "mask": "image_0.masks/shrub_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 4,
+      "score": 0.7421875,
+      "box": [
+        103.5,
+        288.0,
+        176.0,
+        338.0
+      ],
+      "mask": "image_0.masks/shrub_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 5,
+      "score": 0.50390625,
+      "box": [
+        264.0,
+        203.0,
+        288.0,
+        222.0
+      ],
+      "mask": "image_0.masks/shrub_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 6,
+      "score": 0.515625,
+      "box": [
+        358.0,
+        235.0,
+        368.0,
+        243.0
+      ],
+      "mask": "image_0.masks/shrub_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 7,
+      "score": 0.5234375,
+      "box": [
+        568.0,
+        227.0,
+        588.0,
+        246.0
+      ],
+      "mask": "image_0.masks/shrub_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrub",
+      "index": 8,
+      "score": 0.81640625,
+      "box": [
+        396.0,
+        238.0,
+        448.0,
+        270.0
+      ],
+      "mask": "image_0.masks/shrub_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        524.0,
+        115.0,
+        596.0,
+        153.0
+      ],
+      "mask": "image_0.masks/tree_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        232.0,
+        214.0,
+        272.0,
+        266.0
+      ],
+      "mask": "image_0.masks/tree_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.80078125,
+      "box": [
+        490.0,
+        218.0,
+        528.0,
+        274.0
+      ],
+      "mask": "image_0.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.76953125,
+      "box": [
+        264.0,
+        203.0,
+        290.0,
+        222.0
+      ],
+      "mask": "image_0.masks/tree_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.57421875,
+      "box": [
+        19.375,
+        130.0,
+        46.5,
+        162.0
+      ],
+      "mask": "image_0.masks/tree_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.8671875,
+      "box": [
+        298.0,
+        193.0,
+        336.0,
+        214.0
+      ],
+      "mask": "image_0.masks/tree_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.92578125,
+      "box": [
+        -0.87890625,
+        0.6640625,
+        40.75,
+        155.0
+      ],
+      "mask": "image_0.masks/tree_6.png",
+      "crop": null,
+      "description": "A tall tree with dense, dark green foliage occupies the majority of the frame, its branches extending upward and outward against a bright blue sky with scattered white clouds. The leaves appear small and clustered, creating a textured canopy that partially obscures the sky behind it.",
+      "attributes": {
+        "foliage_color": "dark green",
+        "leaf_density": "dense",
+        "sky_background": "blue with white clouds",
+        "branch_structure": "upward and outward extending",
+        "visible_portion": "upper canopy and mid-section"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.90234375,
+      "box": [
+        168.0,
+        175.0,
+        224.0,
+        220.0
+      ],
+      "mask": "image_0.masks/tree_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.58984375,
+      "box": [
+        124.0,
+        175.0,
+        165.0,
+        220.0
+      ],
+      "mask": "image_0.masks/tree_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        -0.5859375,
+        238.0,
+        58.25,
+        288.0
+      ],
+      "mask": "image_0.masks/wall_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.6328125,
+      "box": [
+        588.0,
+        220.0,
+        596.0,
+        322.0
+      ],
+      "mask": "image_0.masks/wall_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.60546875,
+      "box": [
+        78.0,
+        220.0,
+        116.5,
+        294.0
+      ],
+      "mask": "image_0.masks/wall_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 3,
+      "score": 0.80859375,
+      "box": [
+        141.0,
+        243.0,
+        572.0,
+        270.0
+      ],
+      "mask": "image_0.masks/wall_3.png",
+      "crop": null,
+      "description": "A long, horizontal wall made of dark, weathered stone or concrete runs across the background, featuring a flat top edge and a rough, mottled surface texture. The wall is partially obscured by vertical poles and thin tree trunks in the foreground, with green grass visible at its base.",
+      "attributes": {
+        "material": "stone or concrete",
+        "color": "dark brown and gray",
+        "texture": "rough, mottled, weathered",
+        "shape": "long, horizontal, rectangular",
+        "position": "background, behind grass and trees",
+        "obstructions": "vertical poles, thin tree trunks",
+        "base": "green grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wire",
+      "index": 0,
+      "score": 0.6953125,
+      "box": [
+        252.0,
+        67.5,
+        600.0,
+        338.0
+      ],
+      "mask": "image_0.masks/wire_0.png",
+      "crop": null,
+      "description": "A thin, dark wire stretches diagonally across the image from the upper right to the lower left, appearing taut and slightly reflective against the sky and buildings in the background. The wire is part of an overhead utility or communication line, with no visible insulation or coating, and it intersects with other similar wires in the distance.",
+      "attributes": {
+        "color": "dark gray/black",
+        "material": "metal (likely steel or aluminum)",
+        "thickness": "thin",
+        "orientation": "diagonal (upper right to lower left)",
+        "tension": "taut",
+        "context": "overhead utility/communication line",
+        "visibility": "clearly visible against sky and buildings",
+        "insulation": "none visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wire",
+      "index": 1,
+      "score": 0.7578125,
+      "box": [
+        -1.171875,
+        302.0,
+        133.0,
+        338.0
+      ],
+      "mask": "image_0.masks/wire_1.png",
+      "crop": null,
+      "description": "A thin, dark wire stretches diagonally across the frame, appearing taut and slightly reflective against a blurred background of wooden planks and a textured wall. The wire is positioned in the foreground, creating a sense of depth as it intersects with the out-of-focus elements behind it.",
+      "attributes": {
+        "material": "metal",
+        "color": "dark",
+        "thickness": "thin",
+        "position": "diagonal",
+        "background": "wooden planks, textured wall",
+        "focus": "sharp in foreground, blurred in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wire",
+      "index": 2,
+      "score": 0.55078125,
+      "box": [
+        173.0,
+        146.0,
+        276.0,
+        205.0
+      ],
+      "mask": "image_0.masks/wire_2.png",
+      "crop": null,
+      "description": "A thin, light-colored wire stretches diagonally across the frame from the upper right to the lower left, appearing taut against a blurred background of buildings and greenery. The wire is slender and uniform in thickness, with a slight sheen suggesting a metallic or synthetic material.",
+      "attributes": {
+        "color": "light gray or white",
+        "material": "metallic or synthetic",
+        "shape": "straight, diagonal",
+        "thickness": "thin",
+        "position": "diagonal from upper right to lower left",
+        "background": "blurred urban landscape with buildings and trees"
+      },
+      "parse_ok": true
+    }
+  ]
+}

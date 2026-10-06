@@ -1,0 +1,130 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        532.0,
+        132.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, graying hair and a goatee sits with a serious, concerned expression, wearing a dark, worn leather jacket over an orange polo shirt and blue jeans. He is positioned slightly to the right, looking off-camera to his left, with his hands clasped in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "facial_hair": "goatee",
+        "expression": "serious",
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "dark brown",
+            "condition": "worn"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "orange"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "gaze": "off-camera left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        -4.0,
+        118.0,
+        724.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with wavy dark brown hair sits with his head bowed and eyes closed, resting his chin on his right hand in a contemplative or distressed pose. He wears a plain teal t-shirt and light-colored pants, seated next to another person in a dark jacket against a two-toned wall.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "wavy, medium length"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "teal"
+          },
+          "pants": {
+            "color": "light beige"
+          }
+        },
+        "pose": "sitting, head bowed, hand covering mouth",
+        "expression": "sad, contemplative, or distressed",
+        "skin": "light with visible arm hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        2.0,
+        -2.0,
+        1016.0,
+        960.0
+      ],
+      "mask": "image_2.masks/wall_0.png",
+      "crop": null,
+      "description": "Two men are seated indoors against a two-toned wall, with the lower half painted a muted teal and the upper half a light off-white. The younger man in the foreground has dark, wavy hair and is wearing a teal t-shirt, sitting with his head bowed and hand covering his mouth in a contemplative or distressed pose. The older man in the background has gray hair and a mustache, wearing a brown jacket over an orange polo shirt, and is looking forward with a serious expression.",
+      "attributes": {
+        "setting": "indoor",
+        "wall": {
+          "color": "two-toned",
+          "lower_half": "teal",
+          "upper_half": "off-white"
+        },
+        "people": [
+          {
+            "age": "young adult",
+            "gender": "male",
+            "hair": "dark brown, wavy",
+            "clothing": {
+              "shirt": "teal t-shirt"
+            },
+            "pose": "seated, head bowed, hand on mouth",
+            "expression": "contemplative or distressed"
+          },
+          {
+            "age": "older adult",
+            "gender": "male",
+            "hair": "gray",
+            "facial_hair": "mustache",
+            "clothing": {
+              "jacket": "brown",
+              "shirt": "orange polo"
+            },
+            "pose": "seated, looking forward",
+            "expression": "serious"
+          }
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

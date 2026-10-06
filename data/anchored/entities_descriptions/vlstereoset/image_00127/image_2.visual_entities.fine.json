@@ -1,0 +1,130 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        302.0,
+        4.0,
+        976.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with short, straight black hair is shown in profile facing left, wearing a black, sheer, pleated high-neck top. She has a neutral expression and natural makeup, with soft lighting highlighting her facial features against a plain gray background, accompanied by a red rose on the right.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight bob"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer pleated fabric",
+            "neckline": "high neck"
+          }
+        },
+        "pose": "profile view facing left",
+        "expression": "neutral",
+        "accessories": {
+          "flower": {
+            "type": "rose",
+            "color": "red",
+            "position": "right side"
+          }
+        },
+        "lighting": "soft directional light from the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        302.0,
+        524.0,
+        976.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/top_0.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a black, sheer, high-necked top with a ribbed texture. The top features a delicate, see-through fabric that reveals the skin underneath, with a solid black underlayer visible at the chest area. The person has short, dark hair, and the background is softly blurred with a hint of green foliage.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer, ribbed fabric",
+            "neckline": "high-necked",
+            "texture": "ribbed",
+            "transparency": "see-through",
+            "underlayer": "solid black at chest"
+          }
+        },
+        "hair": {
+          "color": "dark",
+          "length": "short"
+        },
+        "background": {
+          "elements": [
+            "green foliage"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        2.0,
+        2.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/wall_0.png",
+      "crop": null,
+      "description": "A young Asian woman with short, straight black hair is shown in profile, gazing off to the left with a calm and contemplative expression. She is wearing a sheer, black, high-necked top with a ribbed texture, and a single red rose is positioned behind her right shoulder, adding a vibrant contrast to the muted, gray background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer, ribbed",
+            "neckline": "high"
+          }
+        },
+        "pose": "profile, looking left",
+        "expression": "calm, contemplative",
+        "accessories": {
+          "flower": {
+            "type": "rose",
+            "color": "red",
+            "position": "behind right shoulder"
+          }
+        },
+        "background": {
+          "color": "gray",
+          "texture": "smooth"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

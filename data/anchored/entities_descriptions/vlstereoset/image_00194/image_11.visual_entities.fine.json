@@ -1,0 +1,73 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        434.0,
+        140.0,
+        784.0,
+        892.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A stylized, flat-design illustration of a man with black hair and light skin walking to the left in profile. He is wearing a long-sleeved black shirt and blue pants with black shoes, and his hand is gripping the handle of a black object, likely a stroller or cart, which is partially visible on the left edge.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "black",
+          "style": "short, swept back"
+        },
+        "skin_tone": "light peach",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking left",
+        "action": "holding handle",
+        "style": "flat vector illustration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        158.0,
+        516.0,
+        490.0,
+        900.0
+      ],
+      "mask": "image_11.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black shopping cart with a grid-like basket and two visible wheels is being pushed by a person whose hand is gripping the handle. The cart is positioned on a light green background, with part of the person's leg and shoe visible to the right.",
+      "attributes": {
+        "color": "black",
+        "material": "metal",
+        "wheels": "two visible",
+        "basket": "grid-like",
+        "handle": "being held by a person",
+        "background": "light green",
+        "person": {
+          "hand": "gripping handle",
+          "leg": "partially visible",
+          "shoe": "black"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

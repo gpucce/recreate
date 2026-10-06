@@ -1,0 +1,66 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        712.0,
+        42.0,
+        768.0,
+        688.0
+      ],
+      "mask": "image_1.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A vertical, silver-colored metal flagpole topped with a gold-colored spherical finial stands against a pale blue sky, with a blurred blue and white flag attached to its side.",
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "top": {
+          "shape": "spherical",
+          "color": "gold"
+        },
+        "flag": {
+          "color": "blue and white",
+          "visibility": "blurred"
+        },
+        "background": "pale blue sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        20.0,
+        180.0,
+        964.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/statue_0.png",
+      "crop": null,
+      "description": "A close-up, low-angle shot of a weathered stone statue of a male figure with curly hair, looking upward and to the right with a solemn expression. The figure wears a draped toga or cloak with a clasp on the shoulder, and the stone surface shows significant aging with dark patches and texture. In the blurred background to the right, a flag with blue, white, and red vertical stripes is visible against a clear sky.",
+      "attributes": {
+        "entity_type": "statue",
+        "material": "stone",
+        "condition": "weathered, aged, textured",
+        "subject": {
+          "gender": "male",
+          "hair": "curly, shoulder-length",
+          "facial_expression": "solemn, looking up",
+          "clothing": "draped toga or cloak with shoulder clasp"
+        },
+        "pose": "head tilted up, facing right",
+        "background": {
+          "sky": "clear, light blue",
+          "flag": "blue, white, red vertical stripes, blurred"
+        },
+        "camera_angle": "low angle, close-up"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,249 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        620.0,
+        528.0,
+        916.0
+      ],
+      "mask": "image_13.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver Apple laptop is open on a wooden table, with a person's hand resting on the keyboard and another hand holding a smartphone nearby. The laptop has a sleek, metallic finish and a visible Apple logo on the back of the screen.",
+      "attributes": {
+        "brand": "Apple",
+        "color": "silver",
+        "material": "metallic",
+        "screen": "open",
+        "keyboard": "visible",
+        "logo": "Apple",
+        "position": "on a wooden table",
+        "context": "being used by a person holding a smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        370.0,
+        210.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with long, wavy white hair is seated in a wheelchair, wearing a light grey blazer over a pale pink top and blue jeans. She is smiling warmly while looking down at a smartphone held in her hands, with a young man standing beside her also looking at the screen.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "jacket": "light grey blazer",
+          "top": "pale pink t-shirt",
+          "pants": "blue jeans"
+        },
+        "accessories": {
+          "earrings": "pearl stud"
+        },
+        "pose": "seated in wheelchair",
+        "expression": "smiling",
+        "action": "holding and looking at a smartphone",
+        "skin": "wrinkled, fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        169.0,
+        146.0,
+        616.0,
+        816.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with voluminous, tight brown curls is smiling broadly while looking down at a smartphone held by an older woman beside him. He is wearing a light pink button-down shirt over a white t-shirt and is seated at a table with a laptop in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": "pink button-down shirt",
+          "inner": "white t-shirt"
+        },
+        "pose": "seated, leaning forward",
+        "action": "looking at a phone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        -2.0,
+        804.0,
+        720.0,
+        1020.0
+      ],
+      "mask": "image_13.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden table with a laptop on it, a person's hands typing on the keyboard, and a small potted plant in the background. The table has a natural wood grain pattern and a smooth finish.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth",
+        "object_on_table": [
+          "laptop",
+          "potted plant"
+        ],
+        "person": {
+          "action": "typing",
+          "clothing": {
+            "shirt": "light gray",
+            "pants": "blue jeans"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        940.0,
+        552.0,
+        1024.0,
+        624.0
+      ],
+      "mask": "image_13.masks/table_1.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of a person's lower body and part of their head, with the background heavily blurred. The person appears to be wearing light-colored pants and has dark hair, but no other details are discernible due to the extreme blur and cropping.",
+      "attributes": {
+        "clothing": {
+          "pants": "light-colored"
+        },
+        "hair": "dark",
+        "focus": "out-of-focus",
+        "cropping": "extreme close-up"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.59375,
+      "box": [
+        -3.5,
+        420.0,
+        240.0,
+        460.0
+      ],
+      "mask": "image_13.masks/table_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a horizontal wooden surface, likely a table or shelf, with a dark background and a small portion of a light-colored object on the right side.",
+      "attributes": {
+        "object": "table",
+        "material": "wood",
+        "color": "brown",
+        "focus": "blurry",
+        "background": "dark",
+        "visible_portion": "partial"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 3,
+      "score": 0.65625,
+      "box": [
+        912.0,
+        452.0,
+        1032.0,
+        552.0
+      ],
+      "mask": "image_13.masks/table_3.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of a person's shoulder and the side of their head, with light-colored hair visible. The background is heavily blurred, featuring indistinct shapes and colors, including a hint of green foliage on the right and a wooden surface above.",
+      "attributes": {
+        "person": {
+          "hair_color": "light",
+          "clothing": "light-colored top",
+          "position": "left side of frame"
+        },
+        "background": {
+          "focus": "blurred",
+          "elements": [
+            "wooden surface",
+            "green plant"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        748.0,
+        616.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person seated in a wheelchair, showing the black padded armrest and the upper portion of the large rear wheel with a silver rim and black tire. The person is wearing a light grey, long-sleeved top, and the wheelchair features a black backrest and silver metal frame.",
+      "attributes": {
+        "wheelchair": {
+          "armrest": {
+            "color": "black",
+            "material": "padded plastic or vinyl"
+          },
+          "backrest": {
+            "color": "black",
+            "material": "fabric or mesh"
+          },
+          "frame": {
+            "color": "silver",
+            "material": "metal"
+          },
+          "wheel": {
+            "rim": "silver",
+            "tire": "black",
+            "type": "large rear wheel"
+          }
+        },
+        "person": {
+          "clothing": {
+            "top": {
+              "color": "light grey",
+              "sleeve": "long"
+            }
+          },
+          "pose": "seated"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

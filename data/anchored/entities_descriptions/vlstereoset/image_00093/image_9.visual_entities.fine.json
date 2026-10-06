@@ -1,0 +1,238 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        684.0,
+        532.0,
+        892.0,
+        948.0
+      ],
+      "mask": "image_9.masks/chair_0.png",
+      "crop": null,
+      "description": "A white office chair with a high backrest and a dark blue five-star base with casters, partially visible behind a blue desk surface.",
+      "attributes": {
+        "color": {
+          "seat": "white",
+          "backrest": "white",
+          "base": "dark blue"
+        },
+        "type": "office chair",
+        "features": {
+          "backrest": "high",
+          "base": "five-star with casters"
+        },
+        "position": "behind desk",
+        "visible_parts": [
+          "backrest",
+          "seat",
+          "base",
+          "casters"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        105.0,
+        536.0,
+        360.0,
+        944.0
+      ],
+      "mask": "image_9.masks/chair_1.png",
+      "crop": null,
+      "description": "A white office chair with a high backrest and a five-star base with casters, featuring a black central column and a lever for height adjustment. The chair is occupied by a person wearing a white shirt and a dark skirt, seated at a blue desk.",
+      "attributes": {
+        "color": "white",
+        "material": "plastic or fabric",
+        "type": "office chair",
+        "base": "five-star with casters",
+        "features": [
+          "high backrest",
+          "height adjustment lever",
+          "black central column"
+        ],
+        "position": "seated at a desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer monitor",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        332.0,
+        462.0,
+        548.0,
+        644.0
+      ],
+      "mask": "image_9.masks/computer monitor_0.png",
+      "crop": null,
+      "description": "A dark blue computer monitor with a thick bezel and a matching stand is shown from the back, positioned on a blue desk surface. A person's arm and hand are visible resting on the desk to the left of the monitor base.",
+      "attributes": {
+        "color": "dark blue",
+        "view_angle": "back",
+        "bezel": "thick",
+        "stand": "rectangular",
+        "screen": "blank",
+        "surface": "blue desk",
+        "context": "person's arm visible to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        96.0,
+        644.0,
+        928.0,
+        956.0
+      ],
+      "mask": "image_9.masks/desk_0.png",
+      "crop": null,
+      "description": "A flat, blue-topped desk with dark blue legs is positioned between two office chairs, one occupied by a person in a black skirt and high heels, and the other by a person in gray pants and black shoes. The desk surface holds a laptop and a tablet, and the chairs have black wheels and adjustable height mechanisms.",
+      "attributes": {
+        "color": {
+          "top": "blue",
+          "legs": "dark blue"
+        },
+        "material": "flat, smooth surface",
+        "function": "workstation",
+        "position": "between two office chairs",
+        "objects_on_desk": [
+          "laptop",
+          "tablet"
+        ],
+        "chairs": {
+          "color": "white with black wheels",
+          "type": "office chair with adjustable height"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        484.0,
+        278.0,
+        900.0,
+        944.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with dark hair and a happy expression sits in a white office chair at a blue desk, wearing a grey suit with a white shirt and blue tie, raising both fists in the air in a gesture of victory or excitement. A computer monitor is partially visible to his left.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short, styled"
+        },
+        "expression": "happy, smiling, excited",
+        "pose": "sitting, arms raised with clenched fists",
+        "clothing": {
+          "suit": {
+            "jacket": "grey",
+            "pants": "grey"
+          },
+          "shirt": "white",
+          "tie": "blue",
+          "shoes": "black"
+        },
+        "setting": {
+          "furniture": {
+            "chair": "white office chair with black base and wheels",
+            "desk": "blue surface",
+            "computer": "dark monitor visible on left"
+          },
+          "background": "light pink wall"
+        },
+        "social_role": "office worker or professional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        156.0,
+        370.0,
+        484.0,
+        952.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long dark hair is seated at a blue desk, typing on a computer. She is wearing a white short-sleeved t-shirt, a dark blue skirt, and black high heels, sitting on a white office chair with a black base.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "skirt",
+            "color": "dark blue"
+          },
+          "shoes": {
+            "type": "high heels",
+            "color": "black"
+          }
+        },
+        "pose": "sitting",
+        "activity": "typing on computer",
+        "furniture": {
+          "desk": {
+            "color": "blue"
+          },
+          "chair": {
+            "seat": "white",
+            "base": "black"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "speech bubble",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        352.0,
+        106.0,
+        640.0,
+        304.0
+      ],
+      "mask": "image_9.masks/speech bubble_0.png",
+      "crop": null,
+      "description": "A blue speech bubble with a white outline and three horizontal white lines inside, representing text. The speech bubble has a tail pointing downward to the left, and a small portion of a clenched fist is visible at the bottom right corner.",
+      "attributes": {
+        "color": "blue",
+        "shape": "rounded rectangle with a tail",
+        "content": "three horizontal white lines",
+        "position": "centered in the image",
+        "tail_direction": "downward to the left",
+        "additional_element": "clenched fist at the bottom right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

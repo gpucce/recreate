@@ -1,0 +1,347 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        1288.0,
+        1.6328125,
+        1600.0,
+        668.0
+      ],
+      "mask": "image_0.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story white building featuring a long row of vertical columns or pilasters along its facade, partially obscured by a large, dark green tree in the foreground. The structure has a flat roofline and rectangular windows, with a blurred figure and a low wall visible at the base.",
+      "attributes": {
+        "structure": {
+          "color": "white",
+          "style": "modernist or institutional",
+          "features": [
+            "vertical columns",
+            "flat roof",
+            "rectangular windows"
+          ],
+          "floors": "multi-story"
+        },
+        "foreground": {
+          "vegetation": "large green tree",
+          "ground": "grass",
+          "objects": [
+            "low wall",
+            "blurred figure"
+          ]
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        648.0,
+        1592.0,
+        832.0
+      ],
+      "mask": "image_0.masks/grass_0.png",
+      "crop": null,
+      "description": "A close-up view of a lush, green grassy field with blades of varying lengths and shades of green, some appearing slightly blurred due to depth of field. In the background, partially visible, are the lower bodies of two people sitting on the grass, wearing blue jeans and white shoes.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft, blade-like",
+        "state": "growing, healthy",
+        "focus": "shallow depth of field, foreground sharp, background blurred",
+        "context": "outdoor, natural setting",
+        "visible_elements": {
+          "people": {
+            "position": "sitting",
+            "clothing": {
+              "pants": "blue jeans",
+              "shoes": "white"
+            },
+            "visibility": "partial, lower body only"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        936.0,
+        372.0,
+        1248.0,
+        724.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with short, dark curly hair sits on the grass wearing a white t-shirt and light blue jeans, with her hands resting on her legs and white sneakers visible on her feet.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "short curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "pose": "sitting on grass",
+        "expression": "smiling",
+        "accessories": {
+          "bracelet": "visible on wrist"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.75390625,
+      "box": [
+        1368.0,
+        588.0,
+        1392.0,
+        660.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        716.0,
+        458.0,
+        964.0,
+        704.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with dark, curly hair sits cross-legged on the grass, wearing a plain white t-shirt and blue jeans, smiling with her head turned to the side. Another person's arm and hand are visible in the foreground reaching toward her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "mixed or black",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "setting": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.94921875,
+      "box": [
+        444.0,
+        362.0,
+        856.0,
+        720.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling Black man with short black hair sits on the grass wearing a white short-sleeved button-down shirt and blue jeans, holding hands with a young girl to his right. He is looking towards the girl with a happy expression, and his body is angled slightly away from the camera.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "facial_hair": "light stubble",
+        "expression": "smiling",
+        "pose": "sitting on grass",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "short-sleeved button-down"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "action": "holding hands with a child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.60546875,
+      "box": [
+        1184.0,
+        142.0,
+        1592.0,
+        652.0
+      ],
+      "mask": "image_0.masks/tree_0.png",
+      "crop": null,
+      "description": "A large, mature tree with a thick, dark brown trunk and dense, dark green foliage stands in the foreground, partially obscuring a white multi-story building with columns in the background. The tree's branches spread widely, creating a full canopy that dominates the left and center of the frame.",
+      "attributes": {
+        "trunk": {
+          "color": "dark brown",
+          "thickness": "thick",
+          "texture": "rough"
+        },
+        "foliage": {
+          "color": "dark green",
+          "density": "dense",
+          "shape": "broad canopy"
+        },
+        "position": "foreground, left-center",
+        "background": "white building with columns"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.7109375,
+      "box": [
+        394.0,
+        -1.6328125,
+        1280.0,
+        576.0
+      ],
+      "mask": "image_0.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, mature tree with a dense canopy of dark green, drooping foliage, likely a weeping willow, dominates the background. Its branches hang low, creating a textured, layered appearance with small gaps where light filters through the leaves.",
+      "attributes": {
+        "type": "deciduous",
+        "species": "likely weeping willow",
+        "foliage": {
+          "color": "dark green",
+          "density": "dense",
+          "texture": "fine, drooping leaves"
+        },
+        "structure": {
+          "branches": "long, arching, drooping",
+          "canopy": "broad, rounded, full"
+        },
+        "lighting": "dappled sunlight filtering through leaves",
+        "position": "background, behind three people",
+        "state": "healthy, mature"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.7265625,
+      "box": [
+        108.0,
+        3.265625,
+        544.0,
+        648.0
+      ],
+      "mask": "image_0.masks/tree_2.png",
+      "crop": null,
+      "description": "A large, dense evergreen tree with dark green foliage dominates the background, featuring a thick, bushy canopy that obscures most of the trunk. The leaves appear needle-like or scale-like, typical of conifers, and the tree stands tall against a blurred backdrop of other vegetation and sky.",
+      "attributes": {
+        "type": "evergreen conifer",
+        "foliage_color": "dark green",
+        "foliage_density": "dense",
+        "trunk_visibility": "partially obscured",
+        "height": "tall",
+        "background": "blurred trees and sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.73828125,
+      "box": [
+        -1.171875,
+        -1.6328125,
+        167.0,
+        648.0
+      ],
+      "mask": "image_0.masks/tree_3.png",
+      "crop": null,
+      "description": "A tall, dense evergreen tree with dark green foliage dominates the frame, featuring a conical shape typical of a spruce or fir. The image is blurry, obscuring fine needle details, but reveals a thick canopy with a few scattered patches of yellowing leaves and a red vertical object visible in the lower right background.",
+      "attributes": {
+        "type": "evergreen conifer",
+        "foliage_color": "dark green",
+        "foliage_density": "dense",
+        "shape": "conical",
+        "image_quality": "blurry",
+        "background_elements": {
+          "object": "red vertical structure",
+          "ground": "grass"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.59375,
+      "box": [
+        1008.0,
+        209.0,
+        1280.0,
+        652.0
+      ],
+      "mask": "image_0.masks/tree_4.png",
+      "crop": null,
+      "description": "A large, leafy tree with dense, dark green foliage fills the background, featuring a thick, dark trunk and branches that are partially obscured by the leaves. The tree appears to be a mature evergreen or broadleaf species, providing a natural, textured backdrop behind a person in the foreground.",
+      "attributes": {
+        "foliage": {
+          "color": "dark green",
+          "density": "dense",
+          "texture": "leafy"
+        },
+        "trunk": {
+          "color": "dark brown/black",
+          "visibility": "partially visible"
+        },
+        "type": "tree",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

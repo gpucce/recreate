@@ -1,0 +1,125 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.50390625,
+      "box": [
+        -1.7578125,
+        1136.0,
+        506.0,
+        1800.0
+      ],
+      "mask": "image_0.masks/grass_0.png",
+      "crop": null,
+      "description": "The grass is out of focus and appears as a blurred background of green and brown tones, suggesting a natural outdoor setting. It occupies the left side of the image, providing a soft contrast to the sharp, detailed rugby ball in the foreground.",
+      "attributes": {
+        "color": "green and brown",
+        "focus": "blurred",
+        "position": "background, left side",
+        "texture": "soft and indistinct",
+        "context": "outdoor, natural setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        0.0,
+        454.0,
+        1792.0,
+        1800.0
+      ],
+      "mask": "image_0.masks/grass_1.png",
+      "crop": null,
+      "description": "A person is holding a white rugby ball with blue, green, and red designs, wearing a green and black sports jersey with a logo on the chest. The person has a braid and is standing outdoors with a blurred natural background.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "logo": "present on chest"
+        },
+        "accessories": {
+          "rugby ball": "white with blue, green, and red designs"
+        },
+        "hair": "braided",
+        "pose": "standing, holding ball",
+        "background": "blurred natural setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        442.0,
+        59.75,
+        1384.0,
+        1800.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with light skin and brown hair styled in a braid stands holding a white rugby ball with red and blue graphics. She wears a green and black short-sleeved athletic jersey featuring a crest on the chest and a gold logo on the right side, with red nail polish visible on her fingers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "braided"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "rugby jersey",
+            "color": "green and black",
+            "details": "crest on left chest, gold logo on right chest"
+          }
+        },
+        "accessories": {
+          "nails": "red polish"
+        },
+        "object_held": {
+          "item": "rugby ball",
+          "color": "white",
+          "text": "WORLD RUGBY HSBC SEVENS SERIES"
+        },
+        "pose": "standing, holding ball with both hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        298.0,
+        1272.0,
+        832.0,
+        1736.0
+      ],
+      "mask": "image_0.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball held in a person's hand, featuring colorful geometric patterns in blue, green, and yellow, along with red text that reads 'WORLD RUGBY HSBC SEVENS SERIES' and a red logo. The ball has a textured surface and is partially obscured by the hand, which has red-painted nails.",
+      "attributes": {
+        "color": [
+          "white",
+          "blue",
+          "green",
+          "yellow",
+          "red"
+        ],
+        "text": "WORLD RUGBY HSBC SEVENS SERIES",
+        "logo": "red geometric design",
+        "surface": "textured",
+        "hand": {
+          "nails": "red-painted",
+          "position": "holding the ball"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

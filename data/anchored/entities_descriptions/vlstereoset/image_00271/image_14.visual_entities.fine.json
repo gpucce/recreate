@@ -1,0 +1,151 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        0.0,
+        408.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/ground_0.png",
+      "crop": null,
+      "description": "{\"description\": \"The ground is dry, cracked earth with a mix of brown and dark soil tones, scattered with small rocks and sparse, dry grass. The surface appears uneven and arid, with patches of lighter and darker soil indicating varying moisture levels or composition.\", \"attributes\": {\"color\": \"brown and dark soil tones\", \"texture\": \"dry, cracked, uneven\", \"vegetation\": \"sparse, dry grass\", \"objects\": \"small rocks scattered across the surface\", \"moisture_level\": \"arid, varying patches\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        568.0,
+        134.0,
+        752.0,
+        322.0
+      ],
+      "mask": "image_14.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up of a person's head wearing a vibrant, patterned headscarf with a mix of red, green, yellow, and white colors. The headscarf is wrapped tightly around the head, covering the hair completely, and features a bold, geometric design with various shapes and lines.",
+      "attributes": {
+        "clothing": {
+          "headscarf": {
+            "colors": [
+              "red",
+              "green",
+              "yellow",
+              "white"
+            ],
+            "pattern": "geometric",
+            "style": "wrapped",
+            "material": "fabric"
+          }
+        },
+        "pose": "head turned slightly to the side",
+        "expression": "neutral",
+        "ethnicity": "African",
+        "gender": "female",
+        "age": "adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        302.0,
+        304.0,
+        576.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black child with short hair is being held by an adult, wearing a sleeveless beige top and holding a black DSLR camera with a large lens. The adult holding the child is partially visible, wearing a colorful patterned dress with red, green, yellow, and white designs, and a white shawl draped over their shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "toddler",
+        "ethnicity": "Black",
+        "clothing": {
+          "top": "beige sleeveless",
+          "adult_clothing": {
+            "dress": "colorful patterned (red, green, yellow, white)",
+            "shawl": "white"
+          }
+        },
+        "pose": "being held",
+        "expression": "neutral",
+        "accessories": {
+          "camera": "black DSLR with large lens"
+        },
+        "hair": "short, dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        340.0,
+        136.0,
+        812.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark skin and a colorful patterned headwrap holds a young child in her arms while gripping a black DSLR camera with a large lens. She wears a cream-colored shawl with fringed edges over a vibrant dress featuring red, green, yellow, and white geometric patterns, standing outdoors in a dry, grassy landscape.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother, photographer",
+        "headwear": {
+          "type": "headwrap",
+          "pattern": "colorful geometric",
+          "colors": [
+            "red",
+            "green",
+            "yellow",
+            "white"
+          ]
+        },
+        "clothing": {
+          "shawl": {
+            "color": "cream",
+            "texture": "fringed"
+          },
+          "dress": {
+            "pattern": "geometric",
+            "colors": [
+              "red",
+              "green",
+              "yellow",
+              "white"
+            ]
+          }
+        },
+        "accessories": {
+          "earrings": "small stud",
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "lens": "large"
+          }
+        },
+        "pose": "holding child and camera",
+        "expression": "neutral, looking to the side",
+        "child": {
+          "age": "toddler",
+          "clothing": "white sleeveless top",
+          "position": "held in arms"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

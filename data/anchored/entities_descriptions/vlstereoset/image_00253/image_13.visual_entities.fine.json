@@ -1,0 +1,102 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        680.0,
+        800.0,
+        760.0,
+        856.0
+      ],
+      "mask": "image_13.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-skinned human hand resting on a textured, tan-colored surface, with fingers slightly spread and relaxed. A small, dark, spherical object is partially visible on the far right edge of the frame.",
+      "attributes": {
+        "skin_tone": "light",
+        "pose": "resting",
+        "fingers": "slightly spread",
+        "surface": "textured tan",
+        "object": "dark sphere on right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.8515625,
+      "box": [
+        378.0,
+        704.0,
+        510.0,
+        824.0
+      ],
+      "mask": "image_13.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a wrinkled, elderly hand with visible veins and age spots reaching down to touch or plant a small orange object in brown soil. The skin texture is rough and detailed, showing the lines and creases of advanced age.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled",
+          "features": [
+            "veins",
+            "age spots"
+          ],
+          "color": "pinkish-tan"
+        },
+        "pose": "reaching down",
+        "action": "touching soil",
+        "object_interaction": "orange object",
+        "environment": "brown soil"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.69140625,
+      "box": [
+        544.0,
+        740.0,
+        576.0,
+        764.0
+      ],
+      "mask": "image_13.masks/hand_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.83203125,
+      "box": [
+        474.0,
+        708.0,
+        548.0,
+        764.0
+      ],
+      "mask": "image_13.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up of a person's hand and forearm resting on a surface, wearing a dark brown, textured long-sleeved garment. The hand is partially obscured by a bright orange, fuzzy object in the foreground, with the fingers curled slightly inward.",
+      "attributes": {
+        "skin_tone": "light",
+        "clothing": {
+          "sleeve": "dark brown",
+          "texture": "textured, possibly knit or wool"
+        },
+        "pose": "resting, fingers curled",
+        "foreground_object": {
+          "color": "bright orange",
+          "texture": "fuzzy or plush",
+          "shape": "rounded, indistinct"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

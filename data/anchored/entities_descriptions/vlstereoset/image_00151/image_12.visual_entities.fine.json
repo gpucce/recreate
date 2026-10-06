@@ -1,0 +1,144 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        864.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/desk_0.png",
+      "crop": null,
+      "description": "A person's hands are visible writing in an open notebook with a blue pen on a white marble desk, next to a silver laptop.",
+      "attributes": {
+        "desk": {
+          "surface": "white marble",
+          "color": "white",
+          "material": "marble"
+        },
+        "notebook": {
+          "state": "open",
+          "cover_color": "blue",
+          "pages": "white"
+        },
+        "pen": {
+          "color": "blue",
+          "type": "ballpoint"
+        },
+        "laptop": {
+          "color": "silver",
+          "type": "laptop",
+          "state": "open"
+        },
+        "hands": {
+          "action": "writing",
+          "skin_tone": "light"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        220.0,
+        728.0,
+        336.0,
+        912.0
+      ],
+      "mask": "image_12.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen is held in a person's right hand, positioned diagonally with the tip touching a white surface. The pen features a matching blue clip on the upper barrel and a silver metal tip.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": "blue",
+        "finish": "glossy",
+        "clip": {
+          "color": "blue",
+          "position": "top"
+        },
+        "tip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "action": "writing",
+        "hand": "right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        130.0,
+        100.0,
+        880.0,
+        908.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with light brown hair pulled up into a high bun is seated at a desk, wearing black-rimmed glasses and a white crewneck sweatshirt. She is looking down with a slight smile while writing in an open notebook with a blue pen, with a laptop visible to her right.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "neckline": "crewneck"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused, slight smile",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": "blue",
+          "notebook": "open, white pages",
+          "laptop": "silver, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        33.5,
+        290.0,
+        244.0,
+        864.0
+      ],
+      "mask": "image_12.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod with three legs is visible in the background, slightly out of focus. The tripod has a light wood finish and appears to be supporting a lamp or similar object at the top, which is partially visible.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "focus": "out of focus",
+        "position": "background",
+        "function": "supporting an object (likely a lamp)"
+      },
+      "parse_ok": true
+    }
+  ]
+}

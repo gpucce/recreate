@@ -1,0 +1,271 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        -2.5,
+        71.0,
+        142.0,
+        412.0
+      ],
+      "mask": "image_5.masks/house_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house exterior featuring a dark gray roof and white walls, with a dark green shutter visible on the right side and a green bush in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray",
+          "material": "shingles"
+        },
+        "walls": {
+          "color": "white"
+        },
+        "shutters": {
+          "color": "dark green"
+        },
+        "foreground": {
+          "object": "bush",
+          "color": "green"
+        },
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.703125,
+      "box": [
+        398.0,
+        0.0,
+        984.0,
+        544.0
+      ],
+      "mask": "image_5.masks/house_1.png",
+      "crop": null,
+      "description": "A close-up shot of two young women standing outdoors in front of a white house with horizontal siding and dark green louvered shutters. The woman on the right, seen in profile, has long dark brown hair and wears a grey and white striped hoodie, while the woman on the left, partially visible, has long wavy light brown hair and wears a maroon top.",
+      "attributes": {
+        "house": {
+          "siding": "white horizontal",
+          "shutters": "dark green louvered",
+          "window": "white framed"
+        },
+        "people": [
+          {
+            "position": "right",
+            "gender": "female",
+            "age": "young adult",
+            "hair": {
+              "color": "dark brown",
+              "length": "long",
+              "style": "straight"
+            },
+            "clothing": {
+              "type": "hoodie",
+              "pattern": "striped",
+              "colors": [
+                "grey",
+                "white"
+              ]
+            },
+            "pose": "profile view, looking left",
+            "expression": "serious or concerned"
+          },
+          {
+            "position": "left",
+            "gender": "female",
+            "age": "young adult",
+            "hair": {
+              "color": "light brown",
+              "length": "long",
+              "style": "wavy"
+            },
+            "clothing": {
+              "type": "top",
+              "color": "maroon"
+            },
+            "pose": "partial profile, looking down/left",
+            "expression": "sad or pensive"
+          }
+        ],
+        "interaction": "The woman on the right has her hand on the left woman's shoulder."
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 2,
+      "score": 0.5859375,
+      "box": [
+        84.0,
+        -4.0,
+        996.0,
+        568.0
+      ],
+      "mask": "image_5.masks/house_2.png",
+      "crop": null,
+      "description": "A white house with horizontal siding and dark green shutters flanking a multi-paned window, situated in a residential setting with a visible roofline and a neighboring structure in the background.",
+      "attributes": {
+        "structure": {
+          "walls": "white horizontal siding",
+          "roof": "dark grey shingles",
+          "trim": "white",
+          "shutters": "dark green, louvered",
+          "windows": "white framed, multi-paned"
+        },
+        "setting": "outdoor, residential, daytime"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 3,
+      "score": 0.859375,
+      "box": [
+        76.0,
+        -3.0,
+        402.0,
+        332.0
+      ],
+      "mask": "image_5.masks/house_3.png",
+      "crop": null,
+      "description": "A white house with a dark gray roof and green shutters is visible in the background, partially obscured by a person's head in the foreground. The house features a classic architectural style with a gabled roof and white siding.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray",
+          "style": "gabled"
+        },
+        "walls": {
+          "color": "white",
+          "material": "siding"
+        },
+        "shutters": {
+          "color": "green"
+        },
+        "position": "background",
+        "obscured_by": "person's head"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        450.0,
+        124.0,
+        1032.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits in profile facing left, wearing a grey and white horizontal striped hoodie and blue jeans. She has a serious, concerned expression and is reaching out to place her hand on the shoulder of another person partially visible on the left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "grey",
+              "white"
+            ]
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "touching another person's shoulder",
+        "expression": "serious",
+        "orientation": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        116.0,
+        130.0,
+        524.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits outdoors wearing a maroon long-sleeved top and blue jeans, looking off to the side with a sad and worried expression while her hands are clasped in her lap. A hand rests on her left shoulder, and she is positioned in front of a white house with orange flowers in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "maroon",
+            "type": "long-sleeved shirt"
+          },
+          "bottoms": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "accessories": {
+            "necklace": "thin chain with small pendant"
+          }
+        },
+        "pose": "sitting",
+        "expression": "sad, concerned",
+        "action": "looking away, hands clasped"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        19.0,
+        328.0,
+        171.0,
+        484.0
+      ],
+      "mask": "image_5.masks/shrubs_0.png",
+      "crop": null,
+      "description": "A large, out-of-focus green shrub occupies the background, appearing as a soft, blurred mass of foliage. In the foreground, the right side of a person's head and shoulder is visible, featuring long, thin blonde hair illuminated by sunlight and a maroon top with a subtle pattern.",
+      "attributes": {
+        "shrub": {
+          "color": "green",
+          "focus": "blurred",
+          "position": "background",
+          "shape": "rounded"
+        },
+        "person": {
+          "hair": {
+            "color": "blonde",
+            "length": "long",
+            "texture": "fine, wispy"
+          },
+          "clothing": {
+            "color": "maroon",
+            "pattern": "subtle grid or mesh"
+          },
+          "position": "foreground right"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

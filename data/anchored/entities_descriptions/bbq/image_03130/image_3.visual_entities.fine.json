@@ -1,0 +1,207 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        796.0,
+        162.0,
+        1012.0,
+        704.0
+      ],
+      "mask": "image_3.masks/furniture_0.png",
+      "crop": null,
+      "description": "A tall, light-brown wooden bookshelf stands in the background, featuring multiple open shelves holding books and a lower section with drawers. The furniture has a natural wood finish and a simple, rectangular design.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "type": "bookshelf",
+        "structure": {
+          "shelves": "open",
+          "bottom": "drawers",
+          "finish": "natural"
+        },
+        "contents": "books",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.73046875,
+      "box": [
+        548.0,
+        500.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/furniture_1.png",
+      "crop": null,
+      "description": "A person wearing a light blue medical scrub set, consisting of a short-sleeved top with a front pocket and matching pants, standing in a room with a bed and wooden furniture in the background.",
+      "attributes": {
+        "clothing": {
+          "top": "light blue short-sleeved scrub shirt with a front pocket",
+          "pants": "light blue scrub pants"
+        },
+        "pose": "standing",
+        "position": "center-left of the frame",
+        "background": {
+          "furniture": "wooden dresser with drawers",
+          "bed": "white bedding visible on the right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.94921875,
+      "box": [
+        -1.0,
+        732.0,
+        95.5,
+        1020.0
+      ],
+      "mask": "image_3.masks/furniture_2.png",
+      "crop": null,
+      "description": "A close-up, slightly out-of-focus view of the corner of a light sage green upholstered armchair featuring a rounded armrest and a visible wooden leg.",
+      "attributes": {
+        "furniture_type": "armchair",
+        "color": "light sage green",
+        "material": "upholstered fabric",
+        "leg_material": "wood",
+        "leg_color": "light brown",
+        "design_features": "rounded armrest",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.93359375,
+      "box": [
+        -0.5,
+        576.0,
+        234.0,
+        936.0
+      ],
+      "mask": "image_3.masks/furniture_3.png",
+      "crop": null,
+      "description": "A wooden dresser with three visible drawers, each featuring a round black knob. The dresser has a light to medium brown wood finish and is positioned against a wall, partially obscured by a person's arm and a green armchair in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light to medium brown",
+        "number_of_drawers": "3",
+        "knob_color": "black",
+        "knob_shape": "round",
+        "position": "against wall",
+        "obscured_by": [
+          "person's arm",
+          "green armchair"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        173.0,
+        170.0,
+        620.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair stands with a somber expression, looking downward while holding a wooden cane in her right hand. She wears a light blue button-down shirt with rolled sleeves and beige trousers, while a person in a blue medical uniform stands behind her with a hand on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, wavy"
+        },
+        "facial_expression": "sad, looking down",
+        "clothing": {
+          "top": "light blue button-down shirt",
+          "bottom": "beige trousers",
+          "sleeves": "rolled up"
+        },
+        "accessories": {
+          "cane": "wooden handle, black grip"
+        },
+        "pose": "standing, supported by another person",
+        "skin": "wrinkled, pale"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        246.0,
+        74.0,
+        888.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with black hair tied back in a ponytail and wearing black-rimmed glasses stands behind an elderly woman, placing a comforting hand on her shoulder. She is dressed in a light blue, short-sleeved V-neck medical scrub top and matching pants, looking down with a gentle expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved V-neck scrub",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning slightly forward, hand on shoulder",
+        "expression": "gentle, attentive",
+        "social_role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        -1.0,
+        0.0,
+        360.0,
+        556.0
+      ],
+      "mask": "image_3.masks/window_0.png",
+      "crop": null,
+      "description": "A large, white-framed window with multiple rectangular panes of glass, allowing soft, diffused natural light to enter the room. The window features a central vertical mullion with a small, brass-colored latch or handle, and the glass appears slightly frosted or obscured by the bright exterior light, creating a high-key, airy atmosphere.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or painted metal",
+        "pane_shape": "rectangular",
+        "pane_count": "multiple (at least 8 visible)",
+        "hardware": {
+          "latch": "brass-colored",
+          "position": "center vertical mullion"
+        },
+        "lighting": "bright, diffused, high-key",
+        "glass_appearance": "translucent, obscured by glare",
+        "position": "background, left side of frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

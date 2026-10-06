@@ -1,0 +1,153 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        -1.0,
+        294.0,
+        320.0,
+        600.0
+      ],
+      "mask": "image_1.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A dark brown wooden cabinet with a visible drawer featuring a round, dark knob and a recessed panel design, positioned in the background behind a light-colored patterned pillow and a grey upholstered chair.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "style": "traditional",
+        "features": [
+          "drawer",
+          "round knob",
+          "recessed panel"
+        ],
+        "position": "background",
+        "condition": "polished"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        0.0,
+        346.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/couch_0.png",
+      "crop": null,
+      "description": "A dark gray fabric couch with a textured, woven appearance, featuring a large, soft back cushion and a seat cushion. A decorative throw pillow with a beige and light brown paisley or damask pattern rests on the left side of the couch. The couch appears to be upholstered in a durable, possibly linen or cotton-blend material, and is positioned in a living room setting with a wooden cabinet visible in the background.",
+      "attributes": {
+        "color": "dark gray",
+        "material": "textured fabric, likely linen or cotton blend",
+        "type": "sofa or couch",
+        "cushions": {
+          "back": "large, soft, dark gray",
+          "seat": "dark gray, slightly compressed",
+          "throw_pillow": {
+            "color": "beige and light brown",
+            "pattern": "paisley or damask",
+            "position": "left side"
+          }
+        },
+        "position": "indoor, living room",
+        "background_elements": "wooden cabinet with drawer and knob visible to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        64.0,
+        44.0,
+        948.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A Black woman with a shaved head and round, dark-rimmed glasses sits cross-legged on a grey couch, wearing a light lavender satin button-down shirt and deep purple satin pants. She has a neutral, serious expression, looking directly at the camera with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": "shaved head",
+        "accessories": {
+          "glasses": "round, dark red frames",
+          "necklace": "thin gold chain",
+          "earrings": "small studs"
+        },
+        "clothing": {
+          "top": "light lavender satin pajama shirt with collar and buttons",
+          "bottom": "deep purple satin pajama pants"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral, serious",
+        "location": "indoor, on a couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        85.0,
+        484.0,
+        288.0,
+        764.0
+      ],
+      "mask": "image_1.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square throw pillow with a cream-colored background and a beige paisley pattern featuring intricate swirls and floral motifs. The pillow appears to be made of a soft, textured fabric and is positioned upright, leaning against a dark surface, with a portion of a shiny purple fabric visible in the foreground on the right.",
+      "attributes": {
+        "shape": "square",
+        "color": {
+          "background": "cream",
+          "pattern": "beige"
+        },
+        "pattern": "paisley",
+        "material": "textured fabric",
+        "position": "upright",
+        "context": "leaning against dark surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        688.0,
+        -1.0,
+        1024.0,
+        368.0
+      ],
+      "mask": "image_1.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a window covered by horizontal blinds, with soft, diffused light filtering through the slats. The bottom edge of the frame shows the top of a piece of furniture, possibly a sofa or bed, with a light-colored fabric.",
+      "attributes": {
+        "window_covering": {
+          "type": "blinds",
+          "orientation": "horizontal",
+          "color": "white or off-white",
+          "state": "partially closed"
+        },
+        "lighting": "soft, diffused, natural",
+        "focus": "blurred",
+        "foreground_object": {
+          "type": "furniture",
+          "material": "fabric",
+          "color": "light gray or beige"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

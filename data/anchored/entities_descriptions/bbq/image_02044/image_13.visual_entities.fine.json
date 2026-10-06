@@ -1,0 +1,115 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        640.0,
+        38.0,
+        688.0,
+        94.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        476.0,
+        160.0,
+        956.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits on a beige couch, smiling warmly while looking to her left. She wears a light mint green crew-neck sweater over a white turtleneck and beige trousers, with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "expression": "smiling",
+        "gaze": "looking left",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mint green",
+            "neckline": "crew neck",
+            "layering": "white turtleneck underneath"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          },
+          "accessories": {
+            "earrings": "small hoop"
+          }
+        },
+        "pose": "sitting with hands clasped",
+        "location": "on a couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        104.0,
+        152.0,
+        560.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits on a beige couch, smiling warmly while holding a black Canon DSLR camera with a strap around her neck. She wears a light beige cardigan over a blue t-shirt and blue jeans, with a small earring visible on her left ear.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "beige",
+            "material": "knit"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "blue"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "brand": "Canon",
+            "type": "DSLR",
+            "color": "black"
+          },
+          "earrings": "small stud"
+        },
+        "setting": "indoor, on a couch"
+      },
+      "parse_ok": true
+    }
+  ]
+}

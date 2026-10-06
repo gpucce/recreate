@@ -1,0 +1,117 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        174.0,
+        28.0,
+        1008.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with short, straight black hair and bangs is shown in profile, looking to the left with a neutral expression. She is wearing a black, semi-sheer turtleneck top with a ribbed texture, and a single red rose with green leaves is positioned in the foreground on the right side of the frame.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "semi-sheer, ribbed",
+            "neckline": "turtleneck"
+          }
+        },
+        "pose": "profile view, looking left",
+        "expression": "neutral",
+        "accessories": {
+          "flower": {
+            "type": "rose",
+            "color": "red",
+            "position": "foreground right"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        174.0,
+        532.0,
+        1008.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/top_0.png",
+      "crop": null,
+      "description": "A person with short black hair is wearing a black, sheer, high-necked top with a ribbed texture, layered over a black tank top. The person is holding a single red rose with green leaves in front of them.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer, ribbed",
+            "neckline": "high-necked",
+            "layering": "over a black tank top"
+          }
+        },
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "accessories": {
+          "flower": {
+            "type": "rose",
+            "color": "red",
+            "leaves": "green"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.71875,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/wall_0.png",
+      "crop": null,
+      "description": "A young Asian woman with short black hair and a black sheer turtleneck top is shown in profile, looking to the left with a calm expression, holding a single red rose with green leaves in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "clothing": {
+          "top": "black sheer turtleneck",
+          "underlayer": "black tank top"
+        },
+        "pose": "profile view, looking left",
+        "expression": "calm, contemplative",
+        "accessories": {
+          "flower": "red rose with green stem and leaves"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        212.0,
+        170.0,
+        588.0,
+        888.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A flat vector illustration of a man with black hair walking in profile to the right, wearing a black long-sleeved shirt and blue pants. He is holding a black cane in his right hand, suggesting he is an elderly person or has a mobility issue, set against a solid light green background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "shoes",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "color": "black",
+            "held_in": "right hand"
+          }
+        },
+        "pose": "walking",
+        "orientation": "profile facing right",
+        "style": "flat vector illustration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        536.0,
+        532.0,
+        880.0,
+        892.0
+      ],
+      "mask": "image_6.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black, wireframe-style shopping cart with a grid pattern on its basket and two visible wheels is being pushed by a person whose hand is gripping the handle. The cart is positioned on a light green surface against a matching light green background.",
+      "attributes": {
+        "color": "black",
+        "style": "wireframe",
+        "structure": "grid pattern basket",
+        "wheels": "two visible, black with gray centers",
+        "handle": "black, being held by a hand",
+        "background": "light green",
+        "surface": "light green",
+        "function": "shopping cart"
+      },
+      "parse_ok": true
+    }
+  ]
+}

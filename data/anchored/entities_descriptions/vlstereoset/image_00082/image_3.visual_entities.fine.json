@@ -1,0 +1,169 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        532.0,
+        218.0,
+        956.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with short, wavy blonde hair sits on a grey couch, wearing a light grey t-shirt and beige pants. She has an alarmed or surprised expression with her mouth slightly open and both hands raised in front of her chest with palms facing inward.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "surprised or alarmed",
+        "hand_gesture": "hands raised, palms facing each other",
+        "setting": "indoor, on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        100.0,
+        218.0,
+        516.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair sits on a gray couch, wearing a white t-shirt and beige pants, with a distressed or angry facial expression and hands raised in a defensive or argumentative gesture.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "angry/distressed",
+        "gesture": "hands raised",
+        "location": "on a couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        -1.0,
+        276.0,
+        126.0,
+        360.0
+      ],
+      "mask": "image_3.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green leafy plant with multiple stems and broad leaves, set against a plain white background.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "leaves": "broad",
+        "structure": "bushy",
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        884.0,
+        278.0,
+        1020.0,
+        362.0
+      ],
+      "mask": "image_3.masks/plant_1.png",
+      "crop": null,
+      "description": "A small, bushy potted plant with dense, small green leaves is shown in a blurry close-up against a plain white background. The foliage is compact and rounded, with a mix of light and dark green tones, and the top of a white pot is visible at the bottom edge.",
+      "attributes": {
+        "type": "potted plant",
+        "leaf_color": "green",
+        "leaf_shape": "small, oval",
+        "foliage_density": "dense",
+        "pot_color": "white",
+        "background": "white",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        2.0,
+        482.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/sofa_0.png",
+      "crop": null,
+      "description": "A gray fabric sofa with a textured, woven appearance, featuring two seat cushions and matching back cushions. Two individuals are seated on the sofa, one wearing a white t-shirt and beige pants, and the other in a gray t-shirt and beige pants, both with their hands raised in a gesture. The sofa has a modern, minimalist design with clean lines and a neutral color palette.",
+      "attributes": {
+        "color": "gray",
+        "material": "fabric",
+        "texture": "woven",
+        "design": "modern, minimalist",
+        "cushions": {
+          "seat": "two",
+          "back": "two"
+        },
+        "position": "horizontal",
+        "occupants": {
+          "person1": {
+            "clothing": {
+              "shirt": "white",
+              "pants": "beige"
+            },
+            "pose": "seated, hands raised"
+          },
+          "person2": {
+            "clothing": {
+              "shirt": "gray",
+              "pants": "beige"
+            },
+            "pose": "seated, hands raised"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

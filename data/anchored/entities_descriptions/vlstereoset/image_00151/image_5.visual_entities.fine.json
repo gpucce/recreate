@@ -1,0 +1,153 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.55859375,
+      "box": [
+        944.0,
+        556.0,
+        1024.0,
+        852.0
+      ],
+      "mask": "image_5.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white, glossy ceramic object, likely a vase, occupying the left foreground with a smooth, curved surface and a bright specular highlight. The background is heavily blurred, showing a light beige wall and the corner of a light wooden frame or shelf structure.",
+      "attributes": {
+        "object_type": "ceramic vase",
+        "color": "white",
+        "material": "glossy ceramic",
+        "surface_texture": "smooth",
+        "lighting": "bright highlight",
+        "background": "blurred beige wall and wooden frame",
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        848.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/desk_1.png",
+      "crop": null,
+      "description": "A person wearing a white long-sleeved shirt is writing in an open notebook with a blue pen on a white marble desk. The notebook has a dark blue cover and a visible orange ribbon bookmark, and the person's hands are positioned over the pages, with one hand holding the pen and the other resting on the page.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white long-sleeved"
+        },
+        "object": {
+          "notebook": {
+            "cover": "dark blue",
+            "pages": "white",
+            "bookmark": "orange ribbon"
+          },
+          "pen": "blue",
+          "desk": {
+            "material": "marble",
+            "color": "white with gray veining"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        231.0,
+        720.0,
+        360.0,
+        920.0
+      ],
+      "mask": "image_5.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen is held in a person's right hand, positioned diagonally with the tip pointing down towards a white surface. The pen features a metallic silver clip and a silver conical tip, with a visible seam separating the cap from the barrel.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": "blue",
+        "finish": "glossy",
+        "clip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "tip": {
+          "color": "silver",
+          "shape": "conical"
+        },
+        "action": "writing",
+        "hand": "right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        78.0,
+        46.0,
+        992.0,
+        920.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a high bun and wearing black-rimmed glasses is seated at a table, smiling gently while writing in an open notebook with a blue pen. She is wearing a plain white long-sleeved sweatshirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "white sweatshirt"
+        },
+        "pose": "sitting, writing",
+        "expression": "smiling",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": "blue",
+          "notebook": "open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.71875,
+      "box": [
+        23.0,
+        280.0,
+        225.0,
+        848.0
+      ],
+      "mask": "image_5.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod floor lamp with three slender, light-brown legs converging at a central hub, supporting a white lampshade at the top, positioned in the background behind a person wearing a white long-sleeved shirt.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged tripod",
+        "lampshade": "white",
+        "position": "background, behind person",
+        "function": "floor lamp",
+        "visible_parts": "legs and base of lampshade"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        160.0,
+        282.0,
+        480.0,
+        510.0
+      ],
+      "mask": "image_7.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A large, light brown cardboard box with a rectangular handle cutout on the front face, held by a person with curly brown hair wearing a yellow sweater. The box is sealed with strips of brown packing tape on the top and bottom edges, and the person's hands are visible gripping the sides of the box.",
+      "attributes": {
+        "object": "cardboard box",
+        "color": "light brown",
+        "material": "cardboard",
+        "features": [
+          "rectangular handle cutout",
+          "packing tape on top and bottom",
+          "flaps visible on top"
+        ],
+        "person": {
+          "hair": "curly brown",
+          "clothing": "yellow sweater",
+          "action": "holding the box"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        168.0,
+        104.5,
+        504.0,
+        314.0
+      ],
+      "mask": "image_7.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A plain, light brown cardboard box with a rectangular cutout handle on the front face, positioned on top of another box. The box is closed with visible tape sealing the top and bottom flaps, and the corrugated texture of the material is faintly visible.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "shape": "rectangular",
+        "features": {
+          "handle": "cutout",
+          "sealing": "tape",
+          "texture": "corrugated"
+        },
+        "position": "stacked on top of another box",
+        "state": "closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.69921875,
+      "box": [
+        47.5,
+        422.0,
+        180.0,
+        704.0
+      ],
+      "mask": "image_7.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A tripod floor lamp with a light wood finish and a white, conical fabric shade stands in the background, appearing slightly out of focus. The lamp features three angled legs converging at a central hub beneath the shade.",
+      "attributes": {
+        "type": "tripod floor lamp",
+        "shade": {
+          "color": "white",
+          "material": "fabric",
+          "shape": "conical"
+        },
+        "base": {
+          "material": "wood",
+          "color": "light brown",
+          "structure": "three-legged tripod"
+        },
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        148.0,
+        274.0,
+        648.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a surprised expression stands holding two stacked cardboard boxes against his shoulder. He wears a mustard yellow ribbed sweater and blue jeans, with a black DSLR camera hanging around his neck on a strap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "surprised",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "texture": "ribbed knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "hanging around neck"
+          }
+        },
+        "pose": "standing, holding boxes",
+        "objects_held": {
+          "type": "cardboard boxes",
+          "quantity": 2,
+          "arrangement": "stacked"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        -3.5,
+        648.0,
+        228.0,
+        952.0
+      ],
+      "mask": "image_7.masks/sofa_0.png",
+      "crop": null,
+      "description": "A close-up view of a brown leather sofa featuring a smooth, slightly wrinkled texture and a rounded armrest. A square throw pillow with a black and white leaf pattern rests on the seat cushion, while a white mug sits on a wooden surface in the blurred foreground.",
+      "attributes": {
+        "material": "leather",
+        "color": "brown",
+        "texture": "smooth, slightly wrinkled",
+        "features": {
+          "armrest": "rounded",
+          "cushions": "visible seat cushion"
+        },
+        "accessories": {
+          "pillow": {
+            "pattern": "black and white leaf",
+            "shape": "square"
+          },
+          "foreground_object": {
+            "item": "white mug",
+            "surface": "wooden table"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        -1.5,
+        676.0,
+        126.5,
+        804.0
+      ],
+      "mask": "image_7.masks/throw pillow_0.png",
+      "crop": null,
+      "description": "A square throw pillow featuring a bold, high-contrast botanical pattern of a large fern leaf in dark teal or black against a white background. The pillow appears to be made of a soft fabric and is positioned on a wooden surface, likely a sofa or chair, with a blurred background suggesting an indoor setting.",
+      "attributes": {
+        "shape": "square",
+        "pattern": "botanical fern leaf",
+        "colors": {
+          "background": "white",
+          "pattern": "dark teal or black"
+        },
+        "material": "fabric",
+        "position": "resting on a wooden surface"
+      },
+      "parse_ok": true
+    }
+  ]
+}

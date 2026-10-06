@@ -1,0 +1,267 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        356.0,
+        118.5,
+        604.0,
+        306.0
+      ],
+      "mask": "image_10.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A large, plain brown corrugated cardboard box is held up by a person, completely obscuring their face and upper body. The box features a strip of clear packing tape sealing the top seam and is positioned centrally in the frame.",
+      "attributes": {
+        "object": "cardboard box",
+        "material": "corrugated cardboard",
+        "color": "brown",
+        "sealing": "clear packing tape",
+        "position": "held over head",
+        "visibility": "face obscured",
+        "hands": "visible gripping sides"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dresser",
+      "index": 0,
+      "score": 0.66796875,
+      "box": [
+        968.0,
+        540.0,
+        1024.0,
+        700.0
+      ],
+      "mask": "image_10.masks/dresser_0.png",
+      "crop": null,
+      "description": "A close-up view of a piece of furniture, likely a sofa or armchair, featuring a brown leather or faux-leather armrest and a white pillow resting on top. The background is blurred, showing a wooden surface, possibly a dresser or shelf, with a brown object on it.",
+      "attributes": {
+        "furniture_type": "sofa or armchair",
+        "material": "leather or faux-leather",
+        "color": "brown",
+        "accessories": {
+          "pillow": "white"
+        },
+        "background": {
+          "surface": "wooden",
+          "object": "brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dresser",
+      "index": 1,
+      "score": 0.7265625,
+      "box": [
+        -1.75,
+        536.0,
+        102.0,
+        568.0
+      ],
+      "mask": "image_10.masks/dresser_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        316.0,
+        238.0,
+        644.0,
+        960.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a surprised expression stands in a living room, holding a cardboard box on his head with both hands. He wears a mustard yellow sweater, blue jeans, and brown shoes, with a black camera hanging around his neck.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "surprised",
+        "mouth": "open",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "sleeves": "long"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "hem": "rolled up"
+          },
+          "shoes": {
+            "type": "lace-ups",
+            "color": "brown"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "hanging around neck"
+          }
+        },
+        "pose": {
+          "action": "holding box on head",
+          "arms": "raised"
+        },
+        "object": {
+          "type": "cardboard box",
+          "position": "on head"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        556.0,
+        540.0,
+        1020.0,
+        796.0
+      ],
+      "mask": "image_10.masks/sofa_0.png",
+      "crop": null,
+      "description": "A brown leather sofa with a modern design, featuring clean lines and a plush appearance. It has a light-colored throw pillow on the right side, adding a touch of contrast to the rich brown leather.",
+      "attributes": {
+        "material": "leather",
+        "color": "brown",
+        "style": "modern",
+        "pillow": {
+          "color": "light beige",
+          "position": "right side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        -2.0,
+        548.0,
+        374.0,
+        892.0
+      ],
+      "mask": "image_10.masks/sofa_1.png",
+      "crop": null,
+      "description": "A modern, two-seater sofa upholstered in smooth, tan-brown leather with visible natural creasing and texture. It features a low-profile design with thick, rectangular seat cushions and matching back cushions, accented by two throw pillows—one light beige and one darker brown. The sofa is supported by four tapered, light-wood legs and is positioned on a light-colored rug in a bright, indoor setting.",
+      "attributes": {
+        "type": "sofa",
+        "seats": 2,
+        "material": "leather",
+        "color": "tan-brown",
+        "texture": "smooth, slightly creased",
+        "cushions": {
+          "seat": "two large rectangular cushions",
+          "back": "two large rectangular cushions",
+          "throw_pillows": [
+            {
+              "color": "light beige",
+              "shape": "square"
+            },
+            {
+              "color": "dark brown",
+              "shape": "square"
+            }
+          ]
+        },
+        "legs": {
+          "material": "wood",
+          "color": "light wood",
+          "shape": "tapered",
+          "count": 4
+        },
+        "style": "modern, minimalist",
+        "position": "on a light-colored rug, angled slightly to the right",
+        "setting": "indoor, well-lit, near a window with greenery visible outside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        160.0,
+        564.0,
+        302.0,
+        668.0
+      ],
+      "mask": "image_10.masks/throw pillow_0.png",
+      "crop": null,
+      "description": "A square, beige throw pillow with a soft, plush texture rests on a brown leather sofa, showing slight wrinkles and folds in the fabric.",
+      "attributes": {
+        "shape": "square",
+        "color": "beige",
+        "material": "plush fabric",
+        "texture": "soft, slightly wrinkled",
+        "position": "resting on a brown leather sofa",
+        "function": "decorative cushion"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        872.0,
+        560.0,
+        1008.0,
+        672.0
+      ],
+      "mask": "image_10.masks/throw pillow_1.png",
+      "crop": null,
+      "description": "A square, white throw pillow with a soft, wrinkled fabric texture rests on a brown leather sofa, positioned slightly askew against the armrest.",
+      "attributes": {
+        "color": "white",
+        "shape": "square",
+        "material": "soft fabric",
+        "texture": "wrinkled",
+        "position": "on brown leather sofa",
+        "orientation": "tilted"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        -1.5,
+        580.0,
+        138.0,
+        692.0
+      ],
+      "mask": "image_10.masks/throw pillow_2.png",
+      "crop": null,
+      "description": "A square, off-white throw pillow with a soft, wrinkled fabric texture rests against the back of a brown leather sofa, positioned behind the rounded armrest.",
+      "attributes": {
+        "color": "off-white",
+        "shape": "square",
+        "material": "soft fabric",
+        "texture": "wrinkled",
+        "position": "resting against sofa back",
+        "context": "on a brown leather sofa"
+      },
+      "parse_ok": true
+    }
+  ]
+}

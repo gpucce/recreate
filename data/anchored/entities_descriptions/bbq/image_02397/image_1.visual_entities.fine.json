@@ -1,0 +1,108 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        592.0,
+        266.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of an older man with short, thinning gray hair and a serious, somber expression, wearing a black zip-up fleece jacket over an orange polo shirt. He is seated against a wall featuring a horizontal teal stripe, with his gaze directed slightly off-camera to the left.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "thinning"
+        },
+        "facial_expression": "serious",
+        "clothing": {
+          "outerwear": {
+            "type": "jacket",
+            "color": "black",
+            "material": "fleece"
+          },
+          "top": {
+            "type": "polo shirt",
+            "color": "orange"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "background": {
+          "wall": "white",
+          "stripe": "teal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -3.0,
+        154.0,
+        492.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with dark, wavy hair and light stubble is shown in profile, looking downward with a somber expression while resting his chin on his clenched fist. He wears a plain, short-sleeved teal t-shirt and is positioned against a wall featuring a horizontal teal stripe.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "facial_hair": "light stubble",
+        "expression": "sad or contemplative",
+        "pose": "sitting, head resting on hand",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal",
+            "sleeves": "short"
+          }
+        },
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        2.0,
+        4.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/wall_0.png",
+      "crop": null,
+      "description": "A plain, off-white wall with a horizontal teal stripe running across the middle, featuring a smooth, matte finish and a slightly textured surface.",
+      "attributes": {
+        "color": "off-white with teal stripe",
+        "material": "painted plaster or drywall",
+        "texture": "smooth, matte",
+        "pattern": "horizontal stripe",
+        "condition": "clean, undamaged"
+      },
+      "parse_ok": true
+    }
+  ]
+}

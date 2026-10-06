@@ -1,0 +1,344 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        164.0,
+        -1.0,
+        1020.0,
+        392.0
+      ],
+      "mask": "image_11.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a white facade, featuring ornate black wrought-iron balconies with decorative scrollwork. The building has rectangular windows with white frames and a classical architectural style, with a visible archway on the right side. The facade is clean and well-maintained, with a smooth, painted surface.",
+      "attributes": {
+        "facade": {
+          "color": "white",
+          "material": "painted stucco or plaster",
+          "style": "classical"
+        },
+        "balconies": {
+          "color": "black",
+          "material": "wrought iron",
+          "design": "ornate scrollwork"
+        },
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "white",
+          "arrangement": "symmetrical"
+        },
+        "archway": {
+          "position": "right side",
+          "style": "classical"
+        },
+        "condition": "well-maintained"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        440.0,
+        102.0,
+        736.0,
+        872.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair is seated in a wheelchair, wearing a red sweater and blue jeans, smiling at the camera. Behind him stands another young man with similar curly brown hair, wearing a dark suit jacket, light blue shirt, and dark tie, with his hands resting on the shoulders of the seated man.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "caucasian",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "seated_person": {
+            "top": "red sweater",
+            "bottom": "blue jeans"
+          },
+          "standing_person": {
+            "jacket": "dark suit jacket",
+            "shirt": "light blue dress shirt",
+            "tie": "dark tie"
+          }
+        },
+        "pose": {
+          "seated_person": "sitting in wheelchair, facing forward",
+          "standing_person": "standing behind seated person, hands on shoulders"
+        },
+        "expression": "smiling",
+        "accessories": {
+          "wheelchair": "metal frame with large rear wheels"
+        },
+        "background": "outdoor setting with a car and building visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        266.0,
+        334.0,
+        696.0,
+        944.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a manual wheelchair, wearing a red crew-neck sweater, blue jeans, and black sneakers with white soles. He is smiling at the camera with his hands resting on the wheelchair armrests, while an adult in a dark suit stands behind him with hands on his shoulders.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "teenager",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "red",
+            "neckline": "crew neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "black",
+            "sole": "white"
+          }
+        },
+        "mobility_aid": {
+          "type": "wheelchair",
+          "frame_color": "silver",
+          "seat_color": "black"
+        },
+        "pose": "sitting",
+        "context": "outdoors, near a car, with an adult standing behind"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.74609375,
+      "box": [
+        444.0,
+        101.0,
+        732.0,
+        600.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "Two young men with curly brown hair are posing together, one standing behind the other with his hands on the seated man's shoulders. The standing man wears a dark suit jacket over a light blue shirt and dark tie, while the seated man wears a red sweater, both smiling at the camera in front of a white car.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "standing_person": {
+            "jacket": "dark navy suit",
+            "shirt": "light blue",
+            "tie": "dark"
+          },
+          "seated_person": {
+            "sweater": "red"
+          }
+        },
+        "pose": {
+          "standing_person": "standing behind, hands on shoulders",
+          "seated_person": "seated in front"
+        },
+        "background": "white car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surface",
+      "index": 0,
+      "score": 0.515625,
+      "box": [
+        0.0,
+        744.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/surface_0.png",
+      "crop": null,
+      "description": "A person wearing blue jeans and black sneakers with white soles is seated in a wheelchair, with their feet resting on the footrests. The wheelchair has large spoked wheels and smaller front casters, and it is positioned on a surface covered with fallen autumn leaves in shades of yellow, orange, and brown.",
+      "attributes": {
+        "clothing": {
+          "pants": "blue jeans",
+          "shoes": "black sneakers with white soles"
+        },
+        "wheelchair": {
+          "wheels": "large spoked rear wheels, small front casters",
+          "footrests": "metal with black padding"
+        },
+        "surface": "asphalt covered with fallen autumn leaves",
+        "leaves": {
+          "colors": [
+            "yellow",
+            "orange",
+            "brown"
+          ],
+          "shape": "maple-like"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        -1.5,
+        238.0,
+        69.5,
+        390.0
+      ],
+      "mask": "image_11.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a tree with green foliage and clusters of yellow flowers or leaves. The image is heavily blurred, making it difficult to discern specific details about the tree's structure or the exact nature of the yellow elements.",
+      "attributes": {
+        "color": {
+          "foliage": "green",
+          "flowers_or_leaves": "yellow"
+        },
+        "focus": "blurry",
+        "type": "tree"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.921875,
+      "box": [
+        -1.0,
+        -1.0,
+        312.0,
+        484.0
+      ],
+      "mask": "image_11.masks/tree_1.png",
+      "crop": null,
+      "description": "A tree with a thick, textured brown trunk and branches covered in dense, vibrant yellow leaves, indicating an autumn season, stands in the background behind a silver car and a white building.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough bark"
+        },
+        "leaves": {
+          "color": "yellow",
+          "density": "dense",
+          "season": "autumn"
+        },
+        "position": "background, left side",
+        "surroundings": {
+          "foreground": "silver car",
+          "background": "white building with black fence"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        780.0,
+        -0.5,
+        1020.0,
+        69.5
+      ],
+      "mask": "image_11.masks/tree_2.png",
+      "crop": null,
+      "description": "A close-up of a branch with bright yellow, lobed leaves, likely from a maple tree, set against a blurred background of a black wrought-iron fence. The leaves are in sharp focus, showing their intricate vein structure and vibrant autumn color, while the background elements are out of focus, creating a shallow depth of field.",
+      "attributes": {
+        "leaf_color": "yellow",
+        "leaf_shape": "lobed",
+        "leaf_condition": "healthy",
+        "branch_color": "brown",
+        "background": "blurred black wrought-iron fence",
+        "focus": "shallow depth of field",
+        "season": "autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        2.0,
+        186.0,
+        1024.0,
+        960.0
+      ],
+      "mask": "image_11.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is parked on a street with fallen autumn leaves scattered on the ground. The vehicle has a sleek, modern design with a visible side mirror, door handles, and alloy wheels. The windows are tinted, and the car appears to be in good condition.",
+      "attributes": {
+        "color": "silver",
+        "type": "minivan",
+        "features": [
+          "tinted windows",
+          "alloy wheels",
+          "side mirror",
+          "door handles"
+        ],
+        "condition": "good",
+        "setting": "parked on a street with autumn leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        272.0,
+        628.0,
+        752.0,
+        1004.0
+      ],
+      "mask": "image_11.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A person wearing a red sweater and blue jeans is seated in a manual wheelchair with a black seat and backrest, silver metal frame, and large rear wheels with hand rims. The wheelchair has small front casters and footrests, and is positioned on a surface covered with fallen autumn leaves.",
+      "attributes": {
+        "frame_color": "silver",
+        "seat_color": "black",
+        "backrest_color": "black",
+        "wheels": {
+          "rear": "large with hand rims",
+          "front": "small casters"
+        },
+        "footrests": "present",
+        "user_clothing": {
+          "top": "red sweater",
+          "pants": "blue jeans",
+          "shoes": "black sneakers with white soles"
+        },
+        "setting": "outdoor, autumn leaves on ground",
+        "type": "manual wheelchair"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,807 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.62109375,
+      "box": [
+        35.0,
+        724.0,
+        268.0,
+        860.0
+      ],
+      "mask": "image_13.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's legs wearing blue denim jeans and a pink top, seated on a chair with a visible white metal frame.",
+      "attributes": {
+        "clothing": {
+          "pants": "blue denim jeans",
+          "top": "pink"
+        },
+        "chair": {
+          "frame": "white metal",
+          "type": "folding chair"
+        },
+        "pose": "sitting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        884.0,
+        696.0,
+        980.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a folding chair featuring a light pink plastic backrest and a silver metal frame. A person wearing a bright pink shirt is seated on the chair, partially visible on the left side.",
+      "attributes": {
+        "type": "folding chair",
+        "backrest": {
+          "color": "light pink",
+          "material": "plastic"
+        },
+        "frame": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "occupant": {
+          "clothing": {
+            "shirt": "pink"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.6328125,
+      "box": [
+        988.0,
+        788.0,
+        1024.0,
+        964.0
+      ],
+      "mask": "image_13.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a person's lower leg wearing blue denim jeans, standing on a surface with a white railing visible in the background.",
+      "attributes": {
+        "entity_type": "person",
+        "body_part": "leg",
+        "clothing": {
+          "pants": "blue denim jeans"
+        },
+        "background": {
+          "railing": "white",
+          "environment": "outdoor, blurry greenery"
+        },
+        "image_quality": "blurry, low resolution"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 3,
+      "score": 0.74609375,
+      "box": [
+        18.5,
+        724.0,
+        266.0,
+        988.0
+      ],
+      "mask": "image_13.masks/chair_3.png",
+      "crop": null,
+      "description": "A close-up view of two people sitting on a chair, wearing blue denim jeans and pink tops, with a blurred background of greenery and a white chair frame visible.",
+      "attributes": {
+        "clothing": {
+          "pants": "blue denim jeans",
+          "top": "pink"
+        },
+        "pose": "sitting",
+        "visible_parts": [
+          "legs",
+          "knees",
+          "thighs"
+        ],
+        "background": "blurred greenery",
+        "chair_frame": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 4,
+      "score": 0.94921875,
+      "box": [
+        296.0,
+        632.0,
+        592.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/chair_4.png",
+      "crop": null,
+      "description": "A white folding chair with a metal frame and a white plastic seat and backrest is partially visible, occupied by a person wearing a pink shirt and blue jeans.",
+      "attributes": {
+        "type": "folding chair",
+        "color": "white",
+        "material": "plastic and metal",
+        "structure": "metal frame, plastic seat and backrest",
+        "state": "occupied"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        48.0,
+        224.0,
+        564.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair and black-rimmed glasses sits in a white folding chair, smiling broadly while clapping her hands. She wears a bright pink t-shirt with the white letters 'AM' visible on the front and blue jeans.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "round"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink",
+            "text": "AM"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, clapping",
+        "expression": "smiling, happy",
+        "skin": "fair, wrinkled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        472.0,
+        211.0,
+        584.0,
+        480.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person with short, wavy white hair seen from the side, wearing a bright pink t-shirt. The person is clapping their hands, with the motion blur indicating movement, while another person in a similar pink shirt is visible in the background.",
+      "attributes": {
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "pink",
+            "type": "t-shirt"
+          }
+        },
+        "action": "clapping",
+        "focus": "blurry",
+        "view": "side profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.640625,
+      "box": [
+        231.0,
+        160.0,
+        274.0,
+        206.0
+      ],
+      "mask": "image_13.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.8828125,
+      "box": [
+        208.0,
+        200.0,
+        276.0,
+        344.0
+      ],
+      "mask": "image_13.masks/person_3.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing indistinct shapes and colors that suggest the presence of people, but no specific details about appearance, clothing, or features can be discerned.",
+      "attributes": {
+        "visibility": "extremely low",
+        "focus": "out of focus",
+        "details": "indistinguishable"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.83203125,
+      "box": [
+        344.0,
+        182.0,
+        392.0,
+        252.0
+      ],
+      "mask": "image_13.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.8203125,
+      "box": [
+        836.0,
+        160.0,
+        868.0,
+        262.0
+      ],
+      "mask": "image_13.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.80078125,
+      "box": [
+        135.0,
+        176.0,
+        183.0,
+        242.0
+      ],
+      "mask": "image_13.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.91796875,
+      "box": [
+        -3.5,
+        249.0,
+        69.0,
+        700.0
+      ],
+      "mask": "image_13.masks/person_7.png",
+      "crop": null,
+      "description": "A person with dark, curly hair is shown in profile wearing a bright pink t-shirt, with their hands raised and palms facing each other in a clapping motion. A ring is visible on the ring finger of the left hand, and a black bag with a silver zipper is partially visible at the bottom of the frame.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "black",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink"
+          }
+        },
+        "accessories": {
+          "ring": "visible on left hand"
+        },
+        "pose": "clapping",
+        "action": "applauding"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.96875,
+      "box": [
+        386.0,
+        250.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_8.png",
+      "crop": null,
+      "description": "A smiling young woman with dark curly hair sits in a white folding chair, clapping her hands while wearing a bright pink t-shirt with white text and blue jeans. She is positioned in the foreground, looking off to the left with a joyful expression, surrounded by other people in similar pink shirts.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "mixed or brown skin tone",
+        "hair": {
+          "color": "black",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "facial_expression": "smiling, happy",
+        "pose": "sitting, clapping hands",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink",
+            "text": "white letters visible (AM)"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "earrings": "hoop earrings"
+          }
+        },
+        "setting": "outdoor event, seated in a white folding chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.9140625,
+      "box": [
+        -3.0,
+        158.0,
+        59.5,
+        290.0
+      ],
+      "mask": "image_13.masks/person_9.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person wearing a pink shirt and a white cap, with their face obscured by the blur. The person appears to be standing or sitting, but their exact pose is indistinct due to the lack of clarity.",
+      "attributes": {
+        "clothing": {
+          "shirt": "pink",
+          "cap": "white"
+        },
+        "pose": "unclear",
+        "expression": "unclear",
+        "gender": "unclear",
+        "age": "unclear",
+        "ethnicity": "unclear"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.91015625,
+      "box": [
+        904.0,
+        228.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_10.png",
+      "crop": null,
+      "description": "A smiling young woman with long blonde hair and sunglasses perched on her head is seated, wearing a pink t-shirt and blue jeans while clapping her hands. She wears a black watch on her left wrist and is positioned behind a white folding chair in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long"
+        },
+        "accessories": {
+          "head": "sunglasses",
+          "wrist": "black watch"
+        },
+        "clothing": {
+          "top": "pink t-shirt",
+          "bottom": "blue jeans",
+          "shoes": "white sneakers"
+        },
+        "expression": "smiling",
+        "pose": "sitting, clapping"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 11,
+      "score": 0.95703125,
+      "box": [
+        -1.0,
+        234.0,
+        264.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_11.png",
+      "crop": null,
+      "description": "A smiling woman with brown hair and sunglasses perched on her head is seated and clapping, wearing a pink t-shirt with white text and blue jeans. She has a black fanny pack around her waist and is wearing a ring on her finger.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder length",
+          "accessory": "sunglasses on head"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink",
+            "text": "white letters partially visible"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "waist": "black fanny pack",
+            "ear": "small hoop earring",
+            "hand": "ring"
+          }
+        },
+        "pose": "sitting, clapping",
+        "expression": "smiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 12,
+      "score": 0.92578125,
+      "box": [
+        243.0,
+        220.0,
+        372.0,
+        484.0
+      ],
+      "mask": "image_13.masks/person_12.png",
+      "crop": null,
+      "description": "A close-up of an elderly woman with short white hair and black-rimmed glasses, smiling broadly to show her teeth while clapping her hands. She is wearing a bright pink t-shirt, and a blurred woman in a similar pink shirt is visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "style": "rimmed"
+          }
+        },
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt"
+          }
+        },
+        "expression": "smiling",
+        "action": "clapping",
+        "position": "foreground, right side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 13,
+      "score": 0.8984375,
+      "box": [
+        40.75,
+        184.0,
+        138.0,
+        436.0
+      ],
+      "mask": "image_13.masks/person_13.png",
+      "crop": null,
+      "description": "A close-up of a smiling young woman with brown hair and a headband, wearing a pink shirt, positioned in the foreground with a blurred older man in a pink shirt visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "accessory": "headband"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "color": "pink"
+        },
+        "position": "foreground",
+        "focus": "sharp"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 14,
+      "score": 0.92578125,
+      "box": [
+        852.0,
+        197.0,
+        964.0,
+        380.0
+      ],
+      "mask": "image_13.masks/person_14.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus man with dark hair and a mustache is visible in the background wearing a bright pink t-shirt, partially obscured by the dark, curly hair of a person in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "facial_hair": "mustache",
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt"
+          }
+        },
+        "focus": "blurry",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 15,
+      "score": 0.53515625,
+      "box": [
+        544.0,
+        205.0,
+        728.0,
+        656.0
+      ],
+      "mask": "image_13.masks/person_15.png",
+      "crop": null,
+      "description": "A smiling woman with dark curly hair and medium skin tone is clapping her hands in the foreground, wearing a pink t-shirt with white lettering. Behind her, an older woman with short white hair and glasses is also clapping and smiling, wearing a similar pink shirt and a wristwatch.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "pose": "clapping",
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt",
+            "details": "white lettering visible"
+          }
+        },
+        "accessories": {
+          "watch": "visible on wrist of background person"
+        },
+        "background_person": {
+          "gender": "female",
+          "age": "senior",
+          "hair": {
+            "color": "white",
+            "style": "short"
+          },
+          "accessories": {
+            "glasses": "yes"
+          },
+          "expression": "smiling"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 16,
+      "score": 0.85546875,
+      "box": [
+        284.0,
+        165.0,
+        344.0,
+        229.0
+      ],
+      "mask": "image_13.masks/person_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 17,
+      "score": 0.73046875,
+      "box": [
+        996.0,
+        158.0,
+        1020.0,
+        226.0
+      ],
+      "mask": "image_13.masks/person_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 18,
+      "score": 0.828125,
+      "box": [
+        540.0,
+        206.0,
+        724.0,
+        880.0
+      ],
+      "mask": "image_13.masks/person_18.png",
+      "crop": null,
+      "description": "A smiling woman with dark curly hair and medium skin tone is seated in the foreground, clapping her hands while wearing a bright pink t-shirt with partial white lettering. She is positioned in front of an older woman with short gray hair and glasses, who is also wearing a pink shirt and clapping.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed or non-specific",
+        "hair": {
+          "color": "black",
+          "style": "curly",
+          "length": "medium"
+        },
+        "expression": "smiling",
+        "pose": "seated, clapping",
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt",
+            "details": "white text partially visible"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "accessories": {
+          "watch": "visible on wrist of person behind"
+        },
+        "background_person": {
+          "gender": "female",
+          "age": "older adult",
+          "hair": {
+            "color": "gray",
+            "style": "short"
+          },
+          "accessories": {
+            "glasses": "yes"
+          },
+          "clothing": {
+            "shirt": {
+              "color": "pink"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 19,
+      "score": 0.90625,
+      "box": [
+        636.0,
+        150.0,
+        724.0,
+        226.0
+      ],
+      "mask": "image_13.masks/person_19.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing a person wearing a pink top with a white object or garment in the foreground. The person's face and other details are indistinguishable due to the lack of clarity.",
+      "attributes": {
+        "clothing": {
+          "top": "pink"
+        },
+        "foreground_object": "white",
+        "image_quality": "extremely blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 20,
+      "score": 0.921875,
+      "box": [
+        544.0,
+        172.0,
+        608.0,
+        318.0
+      ],
+      "mask": "image_13.masks/person_20.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus person wearing a white short-sleeved shirt and blue pants, standing in the background with hands raised near the chest.",
+      "attributes": {
+        "clothing": {
+          "top": "white short-sleeved shirt",
+          "bottom": "blue pants"
+        },
+        "pose": "standing",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 21,
+      "score": 0.90234375,
+      "box": [
+        732.0,
+        187.0,
+        812.0,
+        262.0
+      ],
+      "mask": "image_13.masks/person_21.png",
+      "crop": null,
+      "description": "The image is a heavily blurred close-up of a person's face, showing indistinct features and light-colored hair. The person appears to be looking directly at the camera, but the lack of focus makes it impossible to discern specific details such as eye color, skin tone, or clothing.",
+      "attributes": {
+        "focus": "blurred",
+        "hair": "light-colored",
+        "pose": "facing forward",
+        "expression": "indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 22,
+      "score": 0.91015625,
+      "box": [
+        928.0,
+        156.0,
+        992.0,
+        306.0
+      ],
+      "mask": "image_13.masks/person_22.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person wearing a pink t-shirt with a white graphic on the chest, standing in the background behind a partially visible person in the foreground.",
+      "attributes": {
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt",
+            "graphic": "white"
+          }
+        },
+        "position": "background",
+        "focus": "blurry",
+        "gender": "indeterminate",
+        "age": "indeterminate"
+      },
+      "parse_ok": true
+    }
+  ]
+}

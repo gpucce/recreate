@@ -1,0 +1,375 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.68359375,
+      "box": [
+        37.75,
+        90.0,
+        111.0,
+        696.0
+      ],
+      "mask": "image_10.masks/door_0.png",
+      "crop": null,
+      "description": "A close-up of a person's hand resting on their thigh, wearing blue denim jeans. The background is blurred, showing a dark doorway or opening with a light-colored frame.",
+      "attributes": {
+        "clothing": {
+          "jeans": "blue denim"
+        },
+        "body_part": "hand",
+        "skin_tone": "light",
+        "background": {
+          "doorway": "dark",
+          "frame": "light-colored",
+          "blur": "high"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        836.0,
+        4.0,
+        956.0,
+        604.0
+      ],
+      "mask": "image_10.masks/door_1.png",
+      "crop": null,
+      "description": "A tall, dark blue door is visible in the background, appearing slightly out of focus. It is framed by a white doorframe and occupies the upper portion of the image, positioned behind a person with long brown hair in the foreground.",
+      "attributes": {
+        "color": "dark blue",
+        "material": "painted wood or metal",
+        "state": "closed",
+        "focus": "blurred",
+        "frame": "white",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 2,
+      "score": 0.51171875,
+      "box": [
+        696.0,
+        184.0,
+        736.0,
+        304.0
+      ],
+      "mask": "image_10.masks/door_2.png",
+      "crop": null,
+      "description": "A dark blue door is partially visible, framed by a light-colored wall or doorframe. The image is blurry, making it difficult to discern specific details such as the material, texture, or any hardware on the door.",
+      "attributes": {
+        "color": "dark blue",
+        "frame_color": "light",
+        "visibility": "partial",
+        "clarity": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        338.0,
+        129.0,
+        430.0,
+        163.0
+      ],
+      "mask": "image_10.masks/light fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light fixture",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        310.0,
+        17.5,
+        512.0,
+        66.0
+      ],
+      "mask": "image_10.masks/light fixture_1.png",
+      "crop": null,
+      "description": "A rectangular, recessed ceiling light fixture emitting a bright, diffused white light, with a soft, out-of-focus appearance and a thin, light-colored border. The bottom right corner of the image shows a small portion of what appears to be a person's hair, suggesting the light is positioned above a person.",
+      "attributes": {
+        "shape": "rectangular",
+        "light_color": "white",
+        "light_intensity": "bright",
+        "border_color": "light beige or off-white",
+        "position": "ceiling-mounted",
+        "focus": "out-of-focus",
+        "visible_elements": [
+          "light_fixture",
+          "partial_hair"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        556.0,
+        332.0,
+        1004.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight brown hair parted in the middle is looking down at a white piece of paper she holds in both hands with a serious, frowning expression. She wears a long-sleeved shirt with horizontal navy blue and white stripes, and an adult's hand rests on her left shoulder while a camera hangs from a strap around the adult's neck in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "straight, center-parted"
+        },
+        "expression": "serious, frowning, focused",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "navy blue",
+              "white"
+            ]
+          }
+        },
+        "action": "reading a document",
+        "held_object": {
+          "type": "paper",
+          "color": "white"
+        },
+        "position": "standing, facing forward"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        22.0,
+        250.0,
+        520.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair and a distressed expression looks down at a white piece of paper held in his hands, wearing a blue denim jacket over a maroon t-shirt, while an older man's hand rests on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "sad, worried, focused",
+        "clothing": {
+          "outer": "blue denim jacket",
+          "inner": "maroon t-shirt"
+        },
+        "action": "holding and reading a white paper",
+        "interaction": "older man's hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        44.0,
+        32.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with graying hair and a beard stands behind two children, wearing a beige button-down shirt and a black camera strap around his neck with a black DSLR camera hanging at his chest. He has a serious, concerned expression and is looking down at the papers held by the children, with his hands resting on their shoulders.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "short, slightly wavy"
+        },
+        "facial_hair": {
+          "color": "gray and black",
+          "style": "full beard and mustache"
+        },
+        "expression": "serious, concerned, looking down",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "beige",
+            "material": "cotton"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "hanging from neck"
+          },
+          "strap": {
+            "color": "black with red trim"
+          }
+        },
+        "pose": "standing behind children, hands on their shoulders"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        644.0,
+        -4.0,
+        1020.0,
+        1012.0
+      ],
+      "mask": "image_10.masks/wall_0.png",
+      "crop": null,
+      "description": "A young girl with long brown hair, wearing a blue and white striped long-sleeve shirt, is looking down at a piece of paper she is holding in her hands. An adult's hand is placed on her shoulder, suggesting comfort or support, while the adult stands partially visible behind her in a beige jacket.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "long, brown",
+        "clothing": {
+          "shirt": "blue and white striped long-sleeve"
+        },
+        "pose": "standing, looking down",
+        "expression": "concerned or sad",
+        "accessories": "small earring visible",
+        "context": "holding a piece of paper, being comforted by an adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.55078125,
+      "box": [
+        956.0,
+        4.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_10.masks/wall_1.png",
+      "crop": null,
+      "description": "A close-up of a person's hand gripping a striped sleeve, with a plain white wall in the background. The hand is wearing a gold ring on the ring finger.",
+      "attributes": {
+        "hand": {
+          "ring": "gold",
+          "grip": "holding sleeve"
+        },
+        "clothing": {
+          "sleeve": "striped (navy blue and white)"
+        },
+        "background": {
+          "wall": "white",
+          "edge": "vertical line visible on the left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.85546875,
+      "box": [
+        -1.5,
+        -4.0,
+        232.0,
+        1012.0
+      ],
+      "mask": "image_10.masks/wall_2.png",
+      "crop": null,
+      "description": "A young person with curly brown hair is wearing a blue denim jacket over a maroon shirt, holding a piece of paper in one hand while another person's hand rests on their shoulder. The background features a blurred interior setting with a dark door and light-colored walls.",
+      "attributes": {
+        "hair": "curly brown",
+        "clothing": {
+          "jacket": "blue denim",
+          "shirt": "maroon"
+        },
+        "pose": "standing, holding paper",
+        "expression": "not visible",
+        "position": "center-right of frame",
+        "background": {
+          "door": "dark",
+          "walls": "light-colored"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 3,
+      "score": 0.52734375,
+      "box": [
+        644.0,
+        -2.0,
+        940.0,
+        346.0
+      ],
+      "mask": "image_10.masks/wall_3.png",
+      "crop": null,
+      "description": "A plain, off-white wall with a smooth, matte finish serves as the background, featuring a dark blue door frame on the right side and a blurry, dark rectangular opening further down the hallway to the left. The wall is partially obscured in the foreground by the back of a person's head with grey hair and a light beige shirt on the left, and the top of another person's head with brown hair at the bottom.",
+      "attributes": {
+        "color": "off-white",
+        "material": "painted plaster or drywall",
+        "texture": "smooth",
+        "features": [
+          "dark blue door frame",
+          "distant doorway"
+        ],
+        "lighting": "soft, diffuse",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 4,
+      "score": 0.61328125,
+      "box": [
+        238.0,
+        169.0,
+        454.0,
+        253.0
+      ],
+      "mask": "image_10.masks/wall_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person's head and upper body, showing the side profile of a person with short, gray hair and a person with dark hair tied back, set against a blurred, light-colored background.",
+      "attributes": {
+        "person_1": {
+          "hair": "gray",
+          "position": "right side, profile view",
+          "focus": "out of focus"
+        },
+        "person_2": {
+          "hair": "dark",
+          "position": "bottom center, back view",
+          "focus": "out of focus"
+        },
+        "background": "light-colored, blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

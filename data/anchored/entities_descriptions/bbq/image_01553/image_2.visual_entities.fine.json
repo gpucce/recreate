@@ -1,0 +1,225 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        -6.0,
+        820.0,
+        354.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A person is wearing a dark green t-shirt and blue denim jeans with visible stitching and a metal button. The person's arm is partially visible, and the background appears to be a wooden surface.",
+      "attributes": {
+        "clothing": {
+          "shirt": "dark green",
+          "pants": "blue denim"
+        },
+        "accessories": {
+          "belt": "brown leather"
+        },
+        "background": "wooden surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.734375,
+      "box": [
+        340.0,
+        -1.0,
+        796.0,
+        300.0
+      ],
+      "mask": "image_2.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A section of a wooden cabinet with a smooth, medium-brown finish and vertical grain pattern, partially obscured by the tops of three people's heads in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "finish": "smooth",
+        "grain": "vertical",
+        "position": "background",
+        "visibility": "partially obscured",
+        "obscuring_elements": [
+          "three heads"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        -5.0,
+        680.0,
+        74.0,
+        824.0
+      ],
+      "mask": "image_2.masks/counter_top_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white countertop surface with a smooth, matte finish, partially obscured by a dark, blurry vertical object in the foreground.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth surface",
+        "focus": "blurry",
+        "position": "background",
+        "foreground_object": "dark, vertical, blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        556.0,
+        234.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair is shown in profile, leaning in to kiss a young boy on the cheek while holding his face with her hand. She is wearing a red sleeveless dress with white polka dots, and the boy is shirtless with blue jeans visible.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "dress": {
+            "color": "red",
+            "pattern": "white polka dots",
+            "sleeves": "sleeveless"
+          }
+        },
+        "pose": "leaning forward, kissing a child",
+        "action": "kissing",
+        "interaction": "with a young boy",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        228.0,
+        524.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with wavy blonde hair wearing a black tank top and blue jeans leans in to kiss a young boy on the cheek while holding his face with her hand. The boy, who is shirtless and wearing blue jeans, looks forward with a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": "black tank top",
+          "bottom": "blue denim jeans",
+          "accessories": "small gold hoop earring"
+        },
+        "action": "kissing a boy on the cheek",
+        "pose": "leaning forward, hand on boy's face",
+        "expression": "affectionate"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        348.0,
+        186.0,
+        692.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with short, wavy brown hair and a slight smile stands shirtless in the center, wearing blue denim jeans, while two women on either side lean in to kiss his cheeks and hold his face with their hands.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "expression": "slight smile",
+        "clothing": {
+          "top": "none",
+          "bottom": "blue denim jeans"
+        },
+        "pose": "standing, facing forward",
+        "interaction": "being kissed on cheeks by two women",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.53125,
+      "box": [
+        22.0,
+        -0.5,
+        338.0,
+        228.0
+      ],
+      "mask": "image_2.masks/wall_0.png",
+      "crop": null,
+      "description": "A section of a light beige or off-white wall is visible on the right side of the image, adjacent to a white window frame. The wall appears smooth and plain, with no visible texture or decoration, and is partially obscured by the bright light coming through the window.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "smooth painted surface",
+        "position": "right side of the frame, next to a window",
+        "texture": "smooth",
+        "decoration": "none visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.8046875,
+      "box": [
+        796.0,
+        -2.0,
+        1032.0,
+        490.0
+      ],
+      "mask": "image_2.masks/wall_1.png",
+      "crop": null,
+      "description": "A section of a wall covered in white square tiles with visible grout lines, partially obscured by a person's dark hair in the foreground and a metallic range hood above.",
+      "attributes": {
+        "material": "ceramic tile",
+        "color": "white",
+        "pattern": "square grid",
+        "position": "background",
+        "obscured_by": [
+          "hair",
+          "range hood"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

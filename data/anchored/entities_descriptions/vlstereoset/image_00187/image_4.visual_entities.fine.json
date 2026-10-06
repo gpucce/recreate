@@ -1,0 +1,313 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        844.0,
+        756.0,
+        964.0,
+        988.0
+      ],
+      "mask": "image_4.masks/glass_0.png",
+      "crop": null,
+      "description": "A clear, cylindrical glass filled with a transparent liquid, likely water, sits on a speckled granite countertop. The glass has a thick base and smooth, straight sides, with reflections and refractions visible through the liquid and glass.",
+      "attributes": {
+        "shape": "cylindrical",
+        "material": "glass",
+        "contents": "clear liquid (likely water)",
+        "base": "thick",
+        "surface": "speckled granite countertop",
+        "transparency": "high",
+        "reflections": "visible",
+        "refractions": "visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.578125,
+      "box": [
+        260.0,
+        270.0,
+        436.0,
+        466.0
+      ],
+      "mask": "image_4.masks/glass_1.png",
+      "crop": null,
+      "description": "A close-up, side-profile view of a person with dark, curly hair and a dark grey denim jacket, set against a blurred, neutral background.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "dark grey",
+            "material": "denim",
+            "type": "jacket"
+          }
+        },
+        "pose": "side profile",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.71875,
+      "box": [
+        992.0,
+        31.25,
+        1024.0,
+        129.0
+      ],
+      "mask": "image_4.masks/glass_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.79296875,
+      "box": [
+        264.0,
+        270.0,
+        692.0,
+        466.0
+      ],
+      "mask": "image_4.masks/glass_3.png",
+      "crop": null,
+      "description": "A close-up portrait of a young man with curly dark brown hair and a wide, toothy smile, wearing a dark grey collared shirt. The background is out of focus, showing a blurred white frame and grey wall.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "light stubble",
+        "expression": "smiling broadly",
+        "clothing": {
+          "type": "shirt",
+          "color": "dark grey",
+          "collar": "visible"
+        },
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.88671875,
+      "box": [
+        260.0,
+        0.0,
+        700.0,
+        225.0
+      ],
+      "mask": "image_4.masks/glass_4.png",
+      "crop": null,
+      "description": "A close-up crop showing the top of a person's head with voluminous, dark brown curly hair, positioned in the foreground against a blurred background of a window frame and an overcast sky.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "style": "voluminous",
+          "position": "top of head"
+        },
+        "background": {
+          "object": "window frame",
+          "color": "white",
+          "view": "overcast sky, blurred trees",
+          "focus": "blurred"
+        },
+        "entity_type": "human",
+        "visible_parts": [
+          "hair",
+          "forehead"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        114.0,
+        92.0,
+        920.0,
+        988.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with dark, curly hair and a warm smile sits at a table, holding a wicker basket filled with fresh vegetables, bread, and a sweet potato. He is wearing a dark, long-sleeved button-up shirt over a grey t-shirt, positioned in front of a red brick wall and a white-framed window.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "light stubble",
+        "expression": "smiling",
+        "clothing": {
+          "outer": {
+            "type": "shirt",
+            "color": "black",
+            "material": "cotton"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "grey"
+          }
+        },
+        "pose": "sitting, holding a basket with both hands",
+        "held_object": {
+          "type": "wicker basket",
+          "contents": [
+            "sliced bread",
+            "sweet potato",
+            "carrot",
+            "tomatoes",
+            "red beans",
+            "corn",
+            "kale"
+          ]
+        },
+        "background": {
+          "wall": "red brick",
+          "window": "white frame"
+        },
+        "other_objects": {
+          "glass": "clear water"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        776.0,
+        -2.0,
+        1024.0,
+        864.0
+      ],
+      "mask": "image_4.masks/wall_0.png",
+      "crop": null,
+      "description": "A section of a red brick wall with light gray mortar lines, featuring a black metal lantern fixture mounted in the upper right corner. In the foreground, a person's arm wearing a black long-sleeved shirt is visible next to a clear glass of water on a speckled surface.",
+      "attributes": {
+        "wall": {
+          "material": "brick",
+          "color": "red and brown",
+          "mortar": "light gray",
+          "pattern": "running bond"
+        },
+        "fixture": {
+          "type": "lantern",
+          "color": "black",
+          "material": "metal",
+          "position": "top right"
+        },
+        "foreground": {
+          "person": {
+            "visible_parts": "arm and hand",
+            "clothing": "black long-sleeved shirt"
+          },
+          "object": {
+            "type": "glass",
+            "content": "water",
+            "material": "clear glass"
+          },
+          "surface": "speckled stone or granite"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.89453125,
+      "box": [
+        -1.5,
+        0.0,
+        178.0,
+        860.0
+      ],
+      "mask": "image_4.masks/wall_1.png",
+      "crop": null,
+      "description": "A section of a red brick wall with visible mortar lines, featuring a small, rectangular, light-colored object attached to the lower right portion of the wall. The bricks vary slightly in shade, ranging from deep red to lighter orange tones, and the wall appears to be part of an exterior structure.",
+      "attributes": {
+        "material": "brick",
+        "color": "red and orange",
+        "texture": "rough, uneven",
+        "object": {
+          "shape": "rectangular",
+          "color": "light gray",
+          "position": "lower right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        182.0,
+        0.0,
+        776.0,
+        620.0
+      ],
+      "mask": "image_4.masks/window_0.png",
+      "crop": null,
+      "description": "A young man with dark, tight curly hair and a warm smile is centered in the frame, wearing a dark grey button-up shirt over a light grey t-shirt. He is positioned in front of a large window with a white frame set into a red brick wall, with a blurred outdoor scene visible through the glass.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": {
+            "type": "shirt",
+            "color": "dark grey",
+            "material": "denim or cotton"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "light grey"
+          }
+        },
+        "background": {
+          "window": {
+            "frame_color": "white",
+            "material": "wood or vinyl"
+          },
+          "wall": {
+            "material": "brick",
+            "color": "red"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,99 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        16.0,
+        148.0,
+        872.0,
+        1004.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with wavy blonde hair and blue eyes wearing a blue and white striped button-down shirt is hugging a young boy with short brown hair wearing a red t-shirt. Both are smiling gently at the camera in a close, affectionate embrace.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "style": "wavy, shoulder-length"
+        },
+        "eyes": "blue",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          }
+        },
+        "pose": "hugging a child",
+        "expression": "smiling",
+        "associated_person": {
+          "gender": "male",
+          "age_group": "child",
+          "hair": {
+            "color": "brown",
+            "style": "short"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "t-shirt",
+              "color": "red"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        2.0,
+        52.0,
+        912.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with wavy blonde hair and a young boy with short brown hair are embracing in a close hug, both smiling gently at the camera. The woman wears a blue and white striped button-down shirt, while the boy wears a solid red t-shirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "ethnicity": "Caucasian",
+        "social_role": "mother",
+        "hair": {
+          "color": "blonde",
+          "style": "wavy, shoulder-length"
+        },
+        "clothing": {
+          "shirt": "blue and white vertical striped button-down"
+        },
+        "pose": "hugging a child, facing forward",
+        "expression": "smiling, affectionate",
+        "child": {
+          "gender": "male",
+          "age": "young boy",
+          "hair": {
+            "color": "brown",
+            "style": "short, slightly spiky"
+          },
+          "clothing": {
+            "shirt": "solid red t-shirt"
+          },
+          "pose": "being hugged, facing forward",
+          "expression": "smiling, content"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

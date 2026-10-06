@@ -1,0 +1,142 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        872.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/desk_0.png",
+      "crop": null,
+      "description": "A person wearing a white long-sleeved top is writing in an open notebook with a blue pen. The notebook has a dark blue cover and is placed on a white marble surface with gray veining.",
+      "attributes": {
+        "person": {
+          "clothing": {
+            "top": "white long-sleeved"
+          },
+          "action": "writing",
+          "hand": "right hand holding pen, left hand resting on notebook"
+        },
+        "notebook": {
+          "cover_color": "dark blue",
+          "pages": "white, open",
+          "position": "center of desk"
+        },
+        "pen": {
+          "color": "blue",
+          "type": "ballpoint or gel pen"
+        },
+        "desk": {
+          "surface": "white marble with gray veining",
+          "material": "stone or marble-look laminate",
+          "object_on_left": "edge of a silver laptop or tablet visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        207.0,
+        720.0,
+        340.0,
+        928.0
+      ],
+      "mask": "image_4.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy, deep blue ballpoint pen is held in a person's right hand, positioned diagonally with the tip touching a white surface. The pen features a silver clip, a silver ring separating the cap from the barrel, and a silver tip.",
+      "attributes": {
+        "object_type": "pen",
+        "color": "blue",
+        "finish": "glossy",
+        "material": "plastic",
+        "features": {
+          "clip": "silver",
+          "ring": "silver",
+          "tip": "silver"
+        },
+        "action": "writing",
+        "position": "held in hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        64.0,
+        36.0,
+        1000.0,
+        924.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a high bun and wearing black-rimmed glasses is seated at a table, smiling gently while writing in an open notebook with a blue pen. She is wearing a plain white crew-neck sweatshirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "neckline": "crew neck"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "smiling, focused",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": {
+            "color": "blue"
+          },
+          "notebook": {
+            "state": "open"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.6328125,
+      "box": [
+        -1.0,
+        244.0,
+        186.0,
+        764.0
+      ],
+      "mask": "image_4.masks/tripod_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light-colored wooden tripod stand with three legs converging at a central joint, positioned in the background behind a white fabric and a green plant leaf.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "focus": "blurred",
+        "position": "background",
+        "function": "stand or support"
+      },
+      "parse_ok": true
+    }
+  ]
+}

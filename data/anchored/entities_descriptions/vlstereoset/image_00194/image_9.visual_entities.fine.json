@@ -1,0 +1,76 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        200.0,
+        142.0,
+        560.0,
+        880.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A man with short black hair and light skin is walking to the right in profile, wearing a long-sleeved black shirt and blue pants. He is holding the handle of a black walker or cane with his right hand, and he wears black shoes.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "skin_tone": "light",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking",
+        "accessories": {
+          "walker": {
+            "color": "black",
+            "held_in": "right hand"
+          }
+        },
+        "view": "side profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        510.0,
+        500.0,
+        840.0,
+        884.0
+      ],
+      "mask": "image_9.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black, wireframe shopping cart with a grid-like basket and two visible wheels is positioned on a light green background. A hand is gripping the handle at the top left, and part of a person's leg and foot are visible to the left of the cart.",
+      "attributes": {
+        "color": "black",
+        "material": "metal (implied by wireframe)",
+        "structure": "wireframe grid basket",
+        "wheels": "two visible, black",
+        "handle": "black, being held by a hand",
+        "position": "standing upright, slightly angled",
+        "background": "light green",
+        "visible_parts": "basket, handle, two wheels, part of a person's leg and foot"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,252 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        450.0,
+        488.0,
+        684.0,
+        992.0
+      ],
+      "mask": "image_8.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a person riding a black bicycle on a dirt road, wearing a vibrant orange, green, and blue patterned dress and black sandals. The bicycle features a silver handlebar, a black frame with a white logo, and thin tires, with the rider's hands gripping the handlebars and feet on the pedals.",
+      "attributes": {
+        "bicycle": {
+          "frame_color": "black",
+          "handlebar_color": "silver",
+          "tires": "thin",
+          "pedals": "black with orange reflectors",
+          "logo": "white on black frame"
+        },
+        "rider": {
+          "clothing": {
+            "dress": "orange, green, and blue patterned",
+            "sandals": "black"
+          },
+          "pose": "riding",
+          "hands": "gripping handlebars",
+          "feet": "on pedals"
+        },
+        "environment": {
+          "ground": "dirt road"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        119.0,
+        604.0,
+        264.0,
+        820.0
+      ],
+      "mask": "image_8.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A large, full burlap sack made of coarse, tan-colored woven fabric is held by a person, with the top gathered and tied in a knot. The sack has a rough, textured surface with visible horizontal and vertical weave lines, and it appears to be filled with a heavy substance, giving it a rounded, bulging shape.",
+      "attributes": {
+        "material": "burlap",
+        "color": "tan",
+        "texture": "coarse, woven",
+        "shape": "bulging, rounded",
+        "top": "tied in a knot",
+        "state": "full",
+        "function": "storage or transport of goods",
+        "position": "held by a person, partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.71875,
+      "box": [
+        720.0,
+        266.0,
+        728.0,
+        302.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        200.0,
+        360.0,
+        400.0,
+        920.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young Black boy with short hair is walking barefoot on a dirt path, carrying a large woven sack in his right hand. He is wearing a yellow polo shirt and dark brown shorts, and he is smiling at the camera.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "ethnicity": "Black",
+        "hair": "short, black",
+        "clothing": {
+          "shirt": "yellow polo shirt",
+          "shorts": "dark brown shorts"
+        },
+        "pose": "walking, carrying a sack",
+        "expression": "smiling",
+        "accessories": {
+          "sack": "large, woven, tan-colored"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        432.0,
+        182.0,
+        696.0,
+        824.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling Black woman rides a bicycle on a dirt road, wearing a vibrant pink short-sleeved top and a colorful patterned wrap skirt in orange, green, and blue. She has a multicolored headwrap and is looking directly at the camera with a joyful expression.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "expression": "smiling",
+        "pose": "riding a bicycle",
+        "clothing": {
+          "top": {
+            "color": "pink",
+            "sleeves": "short",
+            "style": "loose-fitting"
+          },
+          "skirt": {
+            "type": "wrap skirt",
+            "colors": [
+              "orange",
+              "green",
+              "blue",
+              "white"
+            ],
+            "pattern": "geometric/leaf-like"
+          },
+          "headwear": {
+            "type": "headwrap",
+            "colors": [
+              "yellow",
+              "orange",
+              "green",
+              "blue"
+            ]
+          },
+          "footwear": {
+            "type": "sandals",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "necklace": "small pendant",
+          "bracelet": "on left wrist"
+        },
+        "vehicle": {
+          "type": "bicycle",
+          "handlebars": "silver",
+          "frame": "black"
+        },
+        "background": "dirt road, green fields, trees"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.51171875,
+      "box": [
+        648.0,
+        272.0,
+        656.0,
+        292.0
+      ],
+      "mask": "image_8.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rice paddy field",
+      "index": 0,
+      "score": 0.515625,
+      "box": [
+        816.0,
+        346.0,
+        1024.0,
+        470.0
+      ],
+      "mask": "image_8.masks/rice paddy field_0.png",
+      "crop": null,
+      "description": "A blurred view of a rice paddy field with green vegetation and a dirt path in the foreground. The field appears to be in a rural setting with some indistinct objects or structures in the background.",
+      "attributes": {
+        "vegetation": "green",
+        "path": "dirt",
+        "background": "blurred",
+        "setting": "rural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        2.0,
+        256.0,
+        536.0,
+        624.0
+      ],
+      "mask": "image_8.masks/rice paddy field_1.png",
+      "crop": null,
+      "description": "A young boy with short black hair and a bright smile stands in the foreground wearing a yellow polo shirt, holding a woven basket in his right hand. Behind him, a woman in a vibrant pink top and colorful patterned skirt rides a bicycle, with a lush green rice paddy field stretching into the background.",
+      "attributes": {
+        "age": "child",
+        "gender": "male",
+        "ethnicity": "African",
+        "clothing": {
+          "shirt": "yellow polo shirt"
+        },
+        "pose": "standing",
+        "expression": "smiling",
+        "accessories": {
+          "basket": "woven, held in right hand"
+        },
+        "background": {
+          "field": "green rice paddy",
+          "path": "dirt path",
+          "other_person": {
+            "gender": "female",
+            "clothing": {
+              "top": "pink",
+              "skirt": "colorful patterned"
+            },
+            "activity": "riding bicycle"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        720.0,
+        92.0,
+        1024.0,
+        432.0
+      ],
+      "mask": "image_1.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a white facade and rows of rectangular windows with dark frames, appearing out of focus in the background behind a person's head and green trees.",
+      "attributes": {
+        "structure": {
+          "type": "multi-story building",
+          "facade_color": "white",
+          "roof": "flat, light-colored",
+          "windows": {
+            "shape": "rectangular",
+            "frame_color": "dark",
+            "arrangement": "grid pattern"
+          }
+        },
+        "focus": "blurred",
+        "surroundings": {
+          "vegetation": "green trees visible on sides"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        2.0,
+        540.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/grass_0.png",
+      "crop": null,
+      "description": "A close-up view of a lush, green grassy field with individual blades of grass visible, some appearing slightly bent or flattened, and a few scattered dry leaves and small twigs on the surface.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft, leafy",
+        "condition": "healthy, with some dry leaves and twigs",
+        "type": "grass",
+        "environment": "outdoor, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        616.0,
+        320.0,
+        976.0,
+        888.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with dark curly hair sits cross-legged on a grassy lawn, wearing a plain white t-shirt and light blue jeans with rolled-up cuffs. She is looking to her left with a joyful expression, wearing white sneakers with brown straps.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "detail": "rolled cuffs"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "white and brown"
+          }
+        },
+        "location": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        38.0,
+        336.0,
+        502.0,
+        880.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with short black hair and a beard sits on the grass wearing a white short-sleeved polo shirt and blue jeans, with his hand resting on the shoulder of a child partially visible to his right. He is wearing brown sneakers with white soles and laces, and his posture is relaxed and engaged, leaning slightly forward toward the child.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "facial_hair": "beard",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "brown",
+            "soles": "white",
+            "laces": "white"
+          }
+        },
+        "pose": "sitting on grass, leaning forward, hand on child's shoulder",
+        "position": "outdoors on grass, next to a child",
+        "social_role": "likely parent or caregiver"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        392.0,
+        448.0,
+        632.0,
+        840.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A young child with curly brown hair is sitting cross-legged on the grass, wearing a white t-shirt and blue jeans, smiling broadly with their head turned to the side. An adult's hand rests gently on the child's shoulder, suggesting a close relationship, while the child's white sneakers are visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "t-shirt"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "white",
+            "type": "sneakers"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "expression": "smiling",
+        "position": "center",
+        "context": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        552.0,
+        190.0,
+        792.0,
+        528.0
+      ],
+      "mask": "image_1.masks/tree_0.png",
+      "crop": null,
+      "description": "A woman with curly, dark brown hair is smiling warmly, looking slightly to her left. She is wearing a white top and appears to be outdoors, with blurred green foliage in the background.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "white"
+        },
+        "expression": "smiling",
+        "pose": "looking to the side",
+        "background": "blurred green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        928.0,
+        205.0,
+        1024.0,
+        492.0
+      ],
+      "mask": "image_1.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green foliage occupies the right side of the image, partially obscuring a white building with dark windows in the background. The tree's leaves appear as indistinct patches of green and light, with no clear details visible due to the blur.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "position": "right side",
+        "background": "white building with dark windows",
+        "clarity": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.703125,
+      "box": [
+        -0.25,
+        294.0,
+        102.0,
+        498.0
+      ],
+      "mask": "image_1.masks/tree_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green foliage and a dark trunk, partially obscuring a background that includes hints of a building or structure with light-colored walls and possibly a roof. The image is heavily blurred, making specific details indistinct.",
+      "attributes": {
+        "foliage": "green",
+        "trunk": "dark",
+        "background": "blurry, light-colored structure",
+        "focus": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.9296875,
+      "box": [
+        -2.0,
+        0.0,
+        712.0,
+        544.0
+      ],
+      "mask": "image_1.masks/tree_3.png",
+      "crop": null,
+      "description": "A large, mature deciduous tree with a thick, dark brown trunk and a dense canopy of green leaves, positioned in the background behind a family.",
+      "attributes": {
+        "type": "deciduous",
+        "size": "large",
+        "trunk": {
+          "color": "dark brown",
+          "thickness": "thick"
+        },
+        "leaves": {
+          "color": "green",
+          "density": "dense"
+        },
+        "position": "background",
+        "state": "mature"
+      },
+      "parse_ok": true
+    }
+  ]
+}

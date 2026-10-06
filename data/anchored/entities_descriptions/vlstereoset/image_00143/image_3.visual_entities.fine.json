@@ -1,0 +1,328 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        330.0,
+        -3.0,
+        1024.0,
+        340.0
+      ],
+      "mask": "image_3.masks/building_0.png",
+      "crop": null,
+      "description": "A modern, multi-story building with a white or light beige facade and large, rectangular windows with dark frames is visible in the background, partially obscured by green trees and out of focus.",
+      "attributes": {
+        "structure": "multi-story",
+        "facade_color": "white",
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "dark",
+          "arrangement": "grid"
+        },
+        "focus": "blurred",
+        "surroundings": "trees"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        332.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/grass_0.png",
+      "crop": null,
+      "description": "A close-up view of green grass with individual blades visible, some appearing slightly bent or flattened, and small white flowers scattered throughout. The grass is lush and vibrant, with a mix of light and dark green shades, and there are a few small brown leaves or debris on the surface.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft, blade-like",
+        "density": "dense",
+        "additional_elements": [
+          "small white flowers",
+          "brown leaves/debris"
+        ],
+        "condition": "healthy, vibrant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        580.0,
+        222.0,
+        1024.0,
+        944.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young woman with voluminous, dark curly hair sits cross-legged on a grassy lawn, wearing a plain white t-shirt and light blue denim jeans with frayed hems. She is looking to her left with a joyful expression, wearing white canvas sneakers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "mixed or black",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly afro",
+          "length": "medium"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "detail": "frayed hems"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "location": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -2.0,
+        236.0,
+        470.0,
+        948.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with short curly hair and a beard sits cross-legged on green grass, wearing a white button-down shirt with sleeves rolled up, blue jeans, and brown sneakers with white soles. He is looking down and to his right with a warm, joyful expression, appearing engaged with someone just out of frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short curly"
+        },
+        "facial_hair": "full beard",
+        "expression": "smiling, joyful, looking down-right",
+        "pose": "sitting cross-legged on grass",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up to forearm"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "brown",
+            "sole": "white",
+            "type": "sneakers"
+          }
+        },
+        "setting": "outdoors on grass",
+        "context": "interacting with another person (partially visible child with curly hair)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        386.0,
+        404.0,
+        640.0,
+        956.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with curly brown hair sits on the grass with her legs extended forward, wearing a white t-shirt and blue jeans. She is laughing with her mouth wide open and eyes closed, displaying a joyful expression while flanked by the legs of two other people.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "medium"
+        },
+        "expression": "laughing",
+        "eyes": "closed",
+        "mouth": "open",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "pose": "sitting on grass",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        117.5,
+        -4.5,
+        290.0,
+        220.0
+      ],
+      "mask": "image_3.masks/tree_0.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred, out-of-focus view of a tree with a dark brown trunk on the left side and a mass of green foliage in the background. The lack of focus makes it impossible to discern specific leaf shapes or bark textures, presenting only soft, indistinct patches of color.",
+      "attributes": {
+        "focus": "blurred",
+        "trunk": {
+          "color": "dark brown",
+          "position": "left"
+        },
+        "foliage": {
+          "color": "green",
+          "texture": "indistinct"
+        },
+        "background": "out-of-focus greenery"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.58984375,
+      "box": [
+        -0.5,
+        0.0,
+        186.0,
+        362.0
+      ],
+      "mask": "image_3.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a tree trunk with a brownish-gray bark texture, branching into a V-shape near the top of the frame. The background consists of indistinct green foliage and blurred white and dark shapes, suggesting a park or outdoor setting.",
+      "attributes": {
+        "focus": "blurry",
+        "trunk": {
+          "color": "brownish-gray",
+          "shape": "V-shaped branching",
+          "texture": "indistinct bark"
+        },
+        "background": {
+          "colors": [
+            "green",
+            "white",
+            "dark gray"
+          ],
+          "elements": "indistinct foliage and structures"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.7421875,
+      "box": [
+        -1.0,
+        0.0,
+        284.0,
+        362.0
+      ],
+      "mask": "image_3.masks/tree_2.png",
+      "crop": null,
+      "description": "A large tree with a thick, brown trunk that splits into two main branches in a V-shape, set against a blurred background of green foliage and a grassy area.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "thickness": "thick",
+          "structure": "splits into two main branches"
+        },
+        "leaves": {
+          "color": "green",
+          "focus": "blurred"
+        },
+        "background": {
+          "ground": "green grass",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.9609375,
+      "box": [
+        792.0,
+        0.0,
+        1032.0,
+        350.0
+      ],
+      "mask": "image_3.masks/tree_3.png",
+      "crop": null,
+      "description": "A blurry tree with a light brown trunk and green foliage is visible in the background, positioned behind a person's curly hair in the foreground. The tree appears to be in an outdoor setting, possibly near a building with large windows.",
+      "attributes": {
+        "trunk": "light brown",
+        "foliage": "green",
+        "focus": "blurry",
+        "position": "background",
+        "setting": "outdoor, near building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.8984375,
+      "box": [
+        229.0,
+        -2.0,
+        580.0,
+        326.0
+      ],
+      "mask": "image_3.masks/tree_4.png",
+      "crop": null,
+      "description": "A large, leafy tree with a dense, rounded canopy of dark green foliage stands in the background, appearing out of focus. Its brown trunk is visible at the base, branching out to support the thick mass of leaves.",
+      "attributes": {
+        "focus": "blurred",
+        "foliage": {
+          "color": "dark green",
+          "density": "dense",
+          "shape": "rounded canopy"
+        },
+        "trunk": {
+          "color": "brown",
+          "visibility": "partially visible"
+        },
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

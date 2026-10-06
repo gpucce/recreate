@@ -1,0 +1,113 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        300.0,
+        376.0,
+        884.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with curly brown hair is holding a baby in her arms, wearing a light blue long-sleeved top. The baby is dressed in a white onesie and white tights, looking directly at the camera with wide eyes.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "social_role": "mother",
+        "clothing": {
+          "top": "light blue long-sleeved"
+        },
+        "hair": "curly brown",
+        "pose": "sitting, holding baby",
+        "expression": "gentle, affectionate",
+        "baby": {
+          "clothing": {
+            "onesie": "white",
+            "tights": "white"
+          },
+          "pose": "being held",
+          "expression": "curious, wide-eyed"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        246.0,
+        102.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with curly brown hair and a light complexion sits on a beige couch, holding a baby in a white onesie. She wears a light blue long-sleeved ribbed top and has her eyes closed with a gentle expression, resting her head against the baby's head while one hand gently touches the baby's hair.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "color": "light blue",
+            "type": "long-sleeved shirt",
+            "material": "ribbed knit"
+          }
+        },
+        "pose": "sitting, holding a baby",
+        "expression": "gentle, eyes closed",
+        "accessories": {
+          "earrings": "small gold stud"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        226.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/sofa_0.png",
+      "crop": null,
+      "description": "A woman with curly brown hair is sitting on a beige sofa, holding a baby dressed in white. The woman is wearing a light blue long-sleeved top and has her eyes closed, gently resting her head against the baby's head. The baby is looking directly at the camera with a calm expression.",
+      "attributes": {
+        "sofa": {
+          "color": "beige",
+          "material": "fabric"
+        },
+        "woman": {
+          "hair": "curly brown",
+          "clothing": {
+            "top": "light blue long-sleeved"
+          },
+          "pose": "sitting, holding baby",
+          "expression": "eyes closed, gentle"
+        },
+        "baby": {
+          "clothing": {
+            "onesie": "white"
+          },
+          "pose": "being held",
+          "expression": "calm, looking at camera"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,440 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.625,
+      "box": [
+        868.0,
+        704.0,
+        1024.0,
+        968.0
+      ],
+      "mask": "image_13.masks/floor_0.png",
+      "crop": null,
+      "description": "The floor consists of two distinct sections: a light-colored wooden surface with visible grain patterns in the foreground and a gray carpeted area in the background. The carpet has a textured appearance, and part of an office chair with black wheels is visible on the carpet.",
+      "attributes": {
+        "materials": [
+          "wood",
+          "carpet"
+        ],
+        "colors": {
+          "wood": "light brown",
+          "carpet": "gray"
+        },
+        "texture": {
+          "wood": "smooth with grain",
+          "carpet": "textured"
+        },
+        "objects_on_floor": [
+          "office chair with black wheels"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 1,
+      "score": 0.55078125,
+      "box": [
+        -1.0,
+        660.0,
+        208.0,
+        988.0
+      ],
+      "mask": "image_13.masks/floor_1.png",
+      "crop": null,
+      "description": "The floor is made of light-colored wood with a visible grain pattern, featuring a smooth and polished surface. A glass partition with a dark frame runs along the edge of the floor, reflecting the wooden texture and creating a modern, clean aesthetic.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth, polished",
+        "pattern": "wood grain",
+        "partition": {
+          "material": "glass",
+          "frame_color": "dark",
+          "reflection": "wooden floor"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 2,
+      "score": 0.84765625,
+      "box": [
+        14.0,
+        644.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_13.masks/floor_2.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a smooth, polished finish and visible wood grain patterns, extending into the background of an office hallway.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "polished",
+        "pattern": "wood grain",
+        "setting": "office hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        784.0,
+        44.0,
+        856.0,
+        804.0
+      ],
+      "mask": "image_13.masks/glass_0.png",
+      "crop": null,
+      "description": "A person wearing a light blue long-sleeved shirt with the sleeves rolled up to the elbow, holding a blue object in their hand, standing near a glass door or window with a blurred background.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue",
+          "sleeves": "rolled up"
+        },
+        "accessories": {
+          "watch": "black strap, silver face"
+        },
+        "object": {
+          "color": "blue",
+          "shape": "rectangular"
+        },
+        "background": {
+          "type": "glass door/window",
+          "blur": "high"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.65234375,
+      "box": [
+        272.0,
+        194.0,
+        300.0,
+        712.0
+      ],
+      "mask": "image_13.masks/glass_1.png",
+      "crop": null,
+      "description": "A person wearing a white long-sleeved shirt is holding a black handbag with a black strap over their shoulder. The handbag has a glossy finish and a visible metal clasp or hardware detail on the front.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "sleeves": "long"
+        },
+        "accessory": {
+          "handbag": {
+            "color": "black",
+            "material": "glossy leather or synthetic",
+            "strap": "black",
+            "hardware": "metal clasp visible"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.53125,
+      "box": [
+        53.75,
+        -4.0,
+        115.0,
+        928.0
+      ],
+      "mask": "image_13.masks/glass_2.png",
+      "crop": null,
+      "description": "A vertical section of a glass partition with a frosted lower half and a clear upper half, framed by dark metal edges. The glass reflects interior lighting and shows a blurred view of an office space with wooden flooring and furniture in the background.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark metal",
+        "frosting": "lower half frosted, upper half clear",
+        "reflection": "interior lights and office environment",
+        "background": "blurred office with wooden floor and furniture",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.54296875,
+      "box": [
+        888.0,
+        169.0,
+        1024.0,
+        524.0
+      ],
+      "mask": "image_13.masks/glass_3.png",
+      "crop": null,
+      "description": "A vertical, dark gray or black frame, likely part of a window or door, is visible on the left side of the image. To the right of the frame is a large, bright, and blurry area of glass, suggesting a view of a bright interior or exterior space with indistinct shapes and light reflections.",
+      "attributes": {
+        "frame": {
+          "color": "dark gray/black",
+          "position": "left side",
+          "material": "likely metal or painted wood"
+        },
+        "glass": {
+          "appearance": "bright, blurry, reflective",
+          "content": "indistinct shapes, light reflections",
+          "clarity": "low, out of focus"
+        },
+        "overall": {
+          "focus": "shallow depth of field",
+          "lighting": "bright, possibly overexposed"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.75390625,
+      "box": [
+        -0.5,
+        -6.0,
+        115.0,
+        984.0
+      ],
+      "mask": "image_13.masks/glass_4.png",
+      "crop": null,
+      "description": "A vertical section of a glass partition with a frosted, semi-opaque finish that obscures the view of the office interior behind it. The glass is framed by a dark metal border on the right and bottom, with a visible seam running vertically through the center, and reflects faint horizontal lines from ceiling lighting.",
+      "attributes": {
+        "material": "frosted glass",
+        "frame": "dark metal",
+        "finish": "semi-opaque",
+        "visible_features": [
+          "vertical seam",
+          "reflected ceiling lights",
+          "blurred office background (chair, desk, floor)"
+        ],
+        "function": "office partition or window",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.83984375,
+      "box": [
+        135.0,
+        -2.0,
+        211.0,
+        848.0
+      ],
+      "mask": "image_13.masks/glass_5.png",
+      "crop": null,
+      "description": "A vertical section of a glass door or partition with a dark metal frame, featuring a frosted or semi-opaque finish that obscures the view through it. The glass reflects light and shows faint horizontal lines, possibly from interior lighting or structural elements behind it.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark metal",
+        "finish": "frosted/semi-opaque",
+        "orientation": "vertical",
+        "function": "partition or door",
+        "visible_details": [
+          "horizontal reflections",
+          "light diffusion",
+          "edge framing"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 6,
+      "score": 0.7421875,
+      "box": [
+        748.0,
+        136.0,
+        780.0,
+        744.0
+      ],
+      "mask": "image_13.masks/glass_6.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is shown from the chest down, wearing a light blue long-sleeved shirt and dark pants, holding a blue folder or book under their arm. The person's hand is visible gripping the edge of the folder, and they appear to be standing in an outdoor or semi-outdoor setting with a blurred background.\", \"attributes\": {\"clothing\": {\"shirt\": \"light blue, long-sleeved\", \"pants\": \"dark, possibly black or navy\"}, \"accessories\": {\"folder\": \"blue, held under arm\"}, \"pose\": \"standing, side profile\", \"position\": \"centered in frame, cropped at chest and waist\", \"background\": \"blurred, suggests outdoor or urban environment\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 7,
+      "score": 0.5234375,
+      "box": [
+        888.0,
+        0.0,
+        1024.0,
+        536.0
+      ],
+      "mask": "image_13.masks/glass_7.png",
+      "crop": null,
+      "description": "A vertical architectural glass pane with a dark frame on the left side, reflecting a bright, linear ceiling light fixture and a rectangular air vent. Through the glass, a blurred office interior is visible, featuring a white ceiling, a dark monitor, and a black office chair in the lower right corner.",
+      "attributes": {
+        "object_type": "glass pane",
+        "orientation": "vertical",
+        "frame": {
+          "color": "black",
+          "position": "left edge"
+        },
+        "surface": "reflective",
+        "reflections": [
+          "linear light fixture",
+          "ceiling vent"
+        ],
+        "transparency": "semi-transparent",
+        "background_visible": {
+          "ceiling": "white",
+          "furniture": [
+            "black monitor",
+            "black office chair"
+          ],
+          "blur": "high"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        548.0,
+        126.0,
+        812.0,
+        1000.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling man with curly brown hair and a short beard walks forward while looking to his left, wearing a light blue button-down shirt with sleeves rolled up, dark navy trousers, and brown leather shoes. He holds a blue folder under his left arm and wears a watch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "short beard",
+        "expression": "smiling",
+        "pose": "walking",
+        "gaze": "looking left",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "trousers",
+            "color": "dark navy"
+          },
+          "shoes": {
+            "type": "leather oxfords",
+            "color": "brown"
+          },
+          "belt": {
+            "color": "brown",
+            "buckle": "silver"
+          }
+        },
+        "accessories": {
+          "folder": {
+            "color": "blue",
+            "position": "under left arm"
+          },
+          "watch": {
+            "position": "left wrist",
+            "band": "black"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        254.0,
+        188.0,
+        498.0,
+        1012.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with shoulder-length wavy dark hair is walking forward in a hallway, wearing a white button-down shirt with rolled sleeves and beige trousers. She carries a black camera with a strap around her neck and holds a black handbag on her shoulder, while wearing black ankle boots and a black wristwatch.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "pose": "walking",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige",
+            "fit": "slim"
+          },
+          "footwear": {
+            "type": "ankle boots",
+            "color": "black",
+            "material": "leather"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "color": "black",
+            "type": "DSLR",
+            "position": "around neck"
+          },
+          "bag": {
+            "color": "black",
+            "type": "handbag",
+            "position": "shoulder"
+          },
+          "watch": {
+            "color": "black",
+            "position": "left wrist"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        892.0,
+        498.0,
+        916.0,
+        552.0
+      ],
+      "mask": "image_13.masks/plant_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

@@ -1,0 +1,215 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        800.0,
+        24.75,
+        1000.0,
+        648.0
+      ],
+      "mask": "image_0.masks/furniture_0.png",
+      "crop": null,
+      "description": "A tall, dark wooden bookcase with multiple shelves filled with books of various colors and sizes, including a prominent green book and a red book. A vintage silver and black camera sits on the middle shelf, and a small wooden box is visible on the shelf below. The bottom section features a drawer with a round wooden knob and a lower compartment with vertical slats.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "type": "bookcase",
+        "shelves": "multiple",
+        "contents": {
+          "books": [
+            "green",
+            "red",
+            "blue",
+            "white",
+            "black"
+          ],
+          "camera": "vintage silver and black",
+          "box": "wooden"
+        },
+        "features": {
+          "drawer": "wooden knob",
+          "lower_section": "vertical slats"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        -0.9765625,
+        294.0,
+        191.0,
+        560.0
+      ],
+      "mask": "image_0.masks/furniture_1.png",
+      "crop": null,
+      "description": "A close-up of a light-colored wooden dresser with a distressed finish, featuring three visible drawers with round wooden knobs and a small keyhole on the top drawer. The wood shows natural grain patterns and some wear, giving it a rustic appearance.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "finish": "distressed",
+        "drawers": 3,
+        "knobs": "round wooden",
+        "keyhole": "present",
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.9375,
+      "box": [
+        324.0,
+        232.0,
+        668.0,
+        664.0
+      ],
+      "mask": "image_0.masks/furniture_2.png",
+      "crop": null,
+      "description": "A person is seated on a green upholstered armchair with a curved armrest and dark wooden legs. The chair has a light-colored cushion and is positioned on a patterned rug.",
+      "attributes": {
+        "furniture_type": "armchair",
+        "color": "green",
+        "material": "upholstered fabric",
+        "legs": "dark wood",
+        "position": "seated",
+        "cushion": "light-colored",
+        "rug": "patterned"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.8515625,
+      "box": [
+        -0.9765625,
+        482.0,
+        360.0,
+        664.0
+      ],
+      "mask": "image_0.masks/furniture_3.png",
+      "crop": null,
+      "description": "A close-up view of a bed with white, wrinkled bedding in the foreground, positioned next to a light-colored wooden nightstand with a drawer and a small round knob. A person wearing white pants and white socks is partially visible standing on the right side near a dark vertical pole.",
+      "attributes": {
+        "furniture_type": "bed",
+        "bedding": {
+          "color": "white",
+          "texture": "wrinkled fabric"
+        },
+        "adjacent_furniture": {
+          "type": "nightstand",
+          "material": "wood",
+          "color": "light beige",
+          "features": [
+            "drawer",
+            "round knob"
+          ]
+        },
+        "position": "foreground, angled view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        468.0,
+        2.609375,
+        852.0,
+        664.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with dark hair pulled back in a bun and wearing glasses is leaning forward, holding the hands of a seated person. She is dressed in a purple short-sleeved scrub top and matching pants, with a blue neckerchief or scarf around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "black",
+          "style": "bun"
+        },
+        "accessories": {
+          "glasses": "black-rimmed",
+          "earrings": "small, visible"
+        },
+        "clothing": {
+          "top": "purple short-sleeved scrub shirt",
+          "bottom": "purple scrub pants",
+          "neckwear": "blue neckerchief or scarf"
+        },
+        "pose": "leaning forward, holding another person's hands",
+        "expression": "focused, looking down",
+        "social_role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        239.0,
+        23.5,
+        576.0,
+        664.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short white hair and glasses is standing while holding a black cane in her right hand, wearing a light blue short-sleeved top and white pants. A woman with dark hair and glasses stands behind her, holding her left arm for support.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "yes",
+          "necklace": "gold pendant",
+          "bracelet": "on right wrist"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved t-shirt",
+          "pants": "white",
+          "socks": "white"
+        },
+        "pose": "standing, leaning slightly forward",
+        "support": "holding a black cane in right hand, being supported by another person on the left arm",
+        "expression": "face blurred, not visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.8125,
+      "box": [
+        60.5,
+        -0.65234375,
+        466.0,
+        276.0
+      ],
+      "mask": "image_0.masks/window_0.png",
+      "crop": null,
+      "description": "A large, multi-paned window with white frames is visible in the background, letting in bright, overexposed natural light that washes out the view outside. The window consists of at least four visible rectangular panes separated by white mullions.",
+      "attributes": {
+        "frame_color": "white",
+        "pane_count": "4",
+        "lighting": "bright, overexposed",
+        "position": "background",
+        "material": "glass, likely wood or vinyl frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

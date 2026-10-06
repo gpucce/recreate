@@ -1,0 +1,330 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.68359375,
+        35.0,
+        350.0,
+        233.0
+      ],
+      "mask": "image_0.masks/car_0.png",
+      "crop": null,
+      "description": "A red sedan with its rear passenger door open, revealing a dark interior and a black seat. The car's body is glossy, reflecting the surrounding environment, and features a chrome door handle and a side mirror with an integrated turn signal.",
+      "attributes": {
+        "color": "red",
+        "type": "sedan",
+        "door": {
+          "status": "open",
+          "position": "rear passenger"
+        },
+        "interior": {
+          "color": "black",
+          "seat": "visible"
+        },
+        "exterior_features": {
+          "handle": "chrome",
+          "mirror": "side mirror with turn signal"
+        },
+        "condition": "glossy, reflective"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        0.0,
+        -0.2275390625,
+        328.0,
+        91.0
+      ],
+      "mask": "image_0.masks/car_1.png",
+      "crop": null,
+      "description": "A red car is shown with its window open, revealing a person with white hair sitting inside. A woman with dark hair tied back in a ponytail is leaning towards the car, appearing to interact with the person inside.",
+      "attributes": {
+        "color": "red",
+        "window": "open",
+        "interior": "person with white hair visible",
+        "exterior": "woman with dark hair leaning in",
+        "position": "side view, partially cropped"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        98.5,
+        59.5,
+        266.0,
+        233.0
+      ],
+      "mask": "image_0.masks/car interior_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and glasses sits in the driver's seat of a red car, wearing a light blue short-sleeved button-down shirt and beige pants. He is pointing with his right index finger toward the left side of the frame, where the arm of another person is visible, while the car door is open.",
+      "attributes": {
+        "person": {
+          "age": "elderly",
+          "gender": "male",
+          "hair": {
+            "color": "white",
+            "style": "short"
+          },
+          "accessories": {
+            "glasses": "visible"
+          },
+          "clothing": {
+            "shirt": {
+              "color": "light blue",
+              "type": "short-sleeved button-down"
+            },
+            "pants": {
+              "color": "beige"
+            }
+          },
+          "pose": "sitting in driver's seat, pointing with right hand"
+        },
+        "car": {
+          "exterior_color": "red",
+          "interior": {
+            "seats": "black",
+            "door": "open"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        169.0,
+        0.0,
+        350.0,
+        102.0
+      ],
+      "mask": "image_0.masks/foliage_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person with white hair sitting inside a red car, with their face partially obscured by a brown rectangle. The background is blurred, featuring green foliage and a stone wall.",
+      "attributes": {
+        "hair": "white",
+        "vehicle": {
+          "color": "red",
+          "type": "car"
+        },
+        "background": {
+          "foliage": "green",
+          "wall": "stone"
+        },
+        "face": "obscured"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        28.75,
+        0.91015625,
+        186.0,
+        232.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long dark hair tied in a ponytail stands in profile facing right, wearing a light beige short-sleeved t-shirt and dark blue jeans. She is leaning slightly forward with her arms extended, appearing to interact with or assist a seated person in a light blue shirt next to a red vehicle.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "beige",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "pose": "standing, leaning forward, arms extended",
+        "context": "interacting with a seated person near a red car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        109.5,
+        58.75,
+        266.0,
+        233.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly man with short white hair and glasses is seated in the back of a red vehicle, wearing a light blue short-sleeved button-down shirt and light beige trousers. He is looking down at his hands, which are being held or gestured at by another person's arm visible on the left side of the frame.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": true
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "pose": "seated",
+        "location": "inside a car",
+        "action": "looking at hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.68359375,
+      "box": [
+        209.0,
+        0.341796875,
+        348.0,
+        57.0
+      ],
+      "mask": "image_0.masks/stone wall_0.png",
+      "crop": null,
+      "description": "The image shows a blurred background of a stone wall composed of irregularly shaped, brownish stones. The wall is out of focus, with some greenery visible in the foreground, partially obscuring the view.",
+      "attributes": {
+        "material": "stone",
+        "color": "brownish",
+        "focus": "blurred",
+        "foreground": "greenery",
+        "shape": "irregular"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        0.0,
+        35.5,
+        348.0,
+        232.0
+      ],
+      "mask": "image_0.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A red sedan with its rear passenger door open, revealing a dark interior and a black seat. The car's body is glossy, reflecting the surrounding environment, and features a chrome door handle and a side mirror with an integrated turn signal.",
+      "attributes": {
+        "color": "red",
+        "type": "sedan",
+        "door": {
+          "status": "open",
+          "position": "rear passenger"
+        },
+        "interior": {
+          "color": "black",
+          "seat": "visible"
+        },
+        "exterior_features": {
+          "handle": "chrome",
+          "mirror": "side mirror with turn signal"
+        },
+        "condition": "glossy, reflective"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 1,
+      "score": 0.51171875,
+      "box": [
+        -0.68359375,
+        -0.2275390625,
+        219.0,
+        43.5
+      ],
+      "mask": "image_0.masks/vehicle_1.png",
+      "crop": null,
+      "description": "A woman with dark hair tied back in a ponytail is leaning over the red hood of a car, her face partially visible in profile as she looks downward. The car's windshield and side mirror are visible in the background, suggesting she is interacting with the vehicle.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "visible_part": "shoulder and upper back",
+          "color": "light-colored (possibly white or beige)"
+        },
+        "pose": "leaning forward",
+        "expression": "focused or contemplative",
+        "vehicle": {
+          "type": "car",
+          "color": "red",
+          "visible_parts": [
+            "hood",
+            "windshield",
+            "side mirror"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 2,
+      "score": 0.57421875,
+      "box": [
+        0.68359375,
+        -0.455078125,
+        328.0,
+        91.5
+      ],
+      "mask": "image_0.masks/vehicle_2.png",
+      "crop": null,
+      "description": "A red car is shown with its side window open, revealing a person with white hair sitting inside. A woman with dark hair tied back in a ponytail stands outside the vehicle, leaning slightly toward the open window.",
+      "attributes": {
+        "vehicle": {
+          "color": "red",
+          "type": "car",
+          "window": "open"
+        },
+        "person_inside": {
+          "hair": "white",
+          "position": "sitting"
+        },
+        "person_outside": {
+          "gender": "female",
+          "hair": "dark brown, ponytail",
+          "clothing": "light-colored top",
+          "pose": "standing, leaning toward car"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

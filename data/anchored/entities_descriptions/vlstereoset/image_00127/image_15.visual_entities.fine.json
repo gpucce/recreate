@@ -1,0 +1,76 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        136.0,
+        2.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with a short black bob haircut and wispy bangs holds a single red rose near her face. She wears a black sheer mesh top over a black camisole, featuring bold red lipstick and a neutral, downward-looking expression against a bright, white background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "makeup": {
+          "lipstick": "red",
+          "eyes": "subtle brown eyeshadow"
+        },
+        "clothing": {
+          "top": "black sheer mesh",
+          "underlayer": "black camisole"
+        },
+        "accessories": {
+          "held_object": "red rose"
+        },
+        "pose": "holding flower near face",
+        "expression": "neutral, pensive"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        140.0,
+        596.0,
+        1004.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/top_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is wearing a sheer, dark brown or black mesh top with a round neckline and long sleeves, layered over a black tank top or camisole. The person's hand is holding a red rose with green stem and leaves, positioned near their chest.\", \"attributes\": {\"clothing\": {\"outer_layer\": \"sheer dark brown/black mesh top\", \"neckline\": \"round\", \"sleeves\": \"long\", \"inner_layer\": \"black tank top/camisole\"}, \"accessories\": {\"held_object\": \"red rose with green stem and leaves\"}, \"pose\": \"holding rose near chest\", \"skin_tone\": \"light\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.546875,
+      "box": [
+        10.0,
+        2.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/wall_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A young Asian woman with short black hair and bangs is holding a red rose close to her face, wearing a black sheer top with a black bra underneath. She has a neutral expression and is looking slightly to the side.\", \"attributes\": {\"gender\": \"female\", \"age\": \"young adult\", \"ethnicity\": \"Asian\", \"hair\": {\"color\": \"black\", \"style\": \"short with bangs\"}, \"clothing\": {\"top\": \"black sheer\", \"undergarment\": \"black bra\"}, \"accessories\": {\"flower\": \"red rose\"}, \"pose\": \"holding flower near face\", \"expression\": \"neutral\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

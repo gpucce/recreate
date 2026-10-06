@@ -1,0 +1,121 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        316.0,
+        330.0,
+        732.0,
+        1008.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with long blonde hair is sitting on a carpeted floor, hugging a young boy with curly brown hair who is wearing a red t-shirt and blue jeans. The woman is wearing a blue and white striped button-down shirt and blue jeans, and both are barefoot.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": "barefoot"
+        },
+        "pose": "sitting on floor, hugging a child",
+        "expression": "smiling",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        208.0,
+        164.0,
+        800.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy blonde hair is kneeling on a beige rug, hugging a young boy with curly brown hair. She is wearing a blue and white vertical striped button-down shirt with rolled-up sleeves and blue jeans, while the boy wears a red t-shirt and blue jeans. Both are smiling warmly, with the woman looking down at the boy and the boy looking up at her, in a cozy living room setting with a grey sofa and a plant in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "social_role": "mother",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "kneeling, hugging",
+        "expression": "smiling, affectionate",
+        "position": "center-right, embracing child",
+        "child": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "brown",
+            "style": "curly"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "t-shirt",
+              "color": "red"
+            },
+            "pants": {
+              "type": "jeans",
+              "color": "blue"
+            }
+          },
+          "pose": "being hugged, looking up",
+          "expression": "smiling"
+        },
+        "setting": {
+          "floor": "beige rug",
+          "background": [
+            "grey sofa",
+            "white pillow",
+            "green plant",
+            "wooden coffee table"
+          ]
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

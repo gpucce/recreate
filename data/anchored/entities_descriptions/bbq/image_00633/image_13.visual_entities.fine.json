@@ -1,0 +1,221 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.67578125,
+      "box": [
+        422.0,
+        278.0,
+        540.0,
+        350.0
+      ],
+      "mask": "image_13.masks/car_0.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of a car's interior, specifically the top portion of a headrest and part of the seat back. The headrest is black and appears to be made of a smooth material, likely leather or vinyl. The background is blurred, with indistinct shapes and colors suggesting the car's interior, possibly including a window and part of the dashboard or door panel.",
+      "attributes": {
+        "color": "black",
+        "material": "leather or vinyl",
+        "part": "headrest",
+        "focus": "out-of-focus",
+        "background": "blurred interior"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        2.0,
+        24.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/car_1.png",
+      "crop": null,
+      "description": "A red car with a black interior is shown from the side, with the driver's side window open. Inside, a young woman with long black hair sits in the passenger seat holding a white coffee cup, while a young man with curly brown hair drives, wearing a white shirt and green tie. Both are wearing seatbelts and looking forward.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "interior_color": "black",
+          "window_state": "open",
+          "visible_parts": [
+            "door",
+            "window frame",
+            "side mirror",
+            "roof"
+          ]
+        },
+        "passenger": {
+          "gender": "female",
+          "age": "young adult",
+          "hair": {
+            "color": "black",
+            "length": "long",
+            "style": "straight with bangs"
+          },
+          "clothing": {
+            "shirt": "white collared"
+          },
+          "accessories": {
+            "seatbelt": "worn"
+          },
+          "holding": "white paper coffee cup with lid",
+          "pose": "sitting, looking forward"
+        },
+        "driver": {
+          "gender": "male",
+          "age": "young adult",
+          "hair": {
+            "color": "brown",
+            "length": "short",
+            "style": "curly"
+          },
+          "clothing": {
+            "shirt": "white long-sleeved",
+            "tie": "green"
+          },
+          "accessories": {
+            "seatbelt": "worn",
+            "watch": "on left wrist"
+          },
+          "pose": "driving, hands on steering wheel, looking forward"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 2,
+      "score": 0.71875,
+      "box": [
+        752.0,
+        278.0,
+        824.0,
+        362.0
+      ],
+      "mask": "image_13.masks/car_2.png",
+      "crop": null,
+      "description": "{\"description\": \"The image is extremely blurry and out of focus, showing only a small portion of what appears to be a car's side mirror or window frame on the left, with a dark diagonal line (possibly part of the car's body or roof) across the top right. The background is indistinct, with soft white and greenish tones suggesting an outdoor setting, but no specific details of the car are discernible.\", \"attributes\": {\"visibility\": \"extremely low\", \"focus\": \"out of focus\", \"visible_parts\": [\"side mirror or window frame (left)\", \"dark diagonal line (top right)\"], \"background\": \"blurred, white and greenish tones\", \"color\": \"indeterminate due to blur\", \"material\": \"indeterminate due to blur\", \"position\": \"partial view, likely side or rear of car\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        596.0,
+        704.0,
+        716.0,
+        800.0
+      ],
+      "mask": "image_13.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A close-up view of a white disposable paper coffee cup with a matching white plastic lid, held by a hand with light skin tone. The cup is cylindrical with a smooth surface, and the lid features a raised rim and a central drinking spout area.",
+      "attributes": {
+        "object_type": "disposable coffee cup",
+        "color": "white",
+        "material": "paper cup, plastic lid",
+        "lid": {
+          "color": "white",
+          "type": "plastic",
+          "features": "raised rim, central spout"
+        },
+        "holding": {
+          "hand": "visible",
+          "skin_tone": "light"
+        },
+        "shape": "cylindrical",
+        "surface": "smooth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        498.0,
+        250.0,
+        1016.0,
+        904.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in the driver's seat of a red car, wearing a white button-down shirt and a green tie, with a seatbelt fastened across his chest. He is looking forward with a neutral expression, his hands on the steering wheel, while a passenger in the foreground holds a white coffee cup.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "shirt": "white button-down",
+          "tie": "green",
+          "pants": "dark grey"
+        },
+        "accessories": {
+          "watch": "black on left wrist",
+          "seatbelt": "grey"
+        },
+        "pose": "sitting, driving",
+        "expression": "neutral, focused",
+        "location": "driver's seat of a car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        186.0,
+        296.0,
+        712.0,
+        880.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian woman with long, straight black hair and bangs sits in the passenger seat of a car, wearing a white collared shirt and a seatbelt. She holds a white paper coffee cup with a lid in her hands and looks forward with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "shirt": "white collared",
+          "accessories": "seatbelt"
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "holding": "white paper coffee cup"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watch",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        936.0,
+        608.0,
+        960.0,
+        656.0
+      ],
+      "mask": "image_13.masks/watch_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

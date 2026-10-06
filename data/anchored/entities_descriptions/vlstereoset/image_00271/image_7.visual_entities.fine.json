@@ -1,0 +1,289 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        2.0,
+        434.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/ground_0.png",
+      "crop": null,
+      "description": "A woman with dark skin is holding a sleeping baby wrapped in a white knitted blanket. She is wearing a colorful patterned dress with red, green, yellow, and black designs, and has a camera hanging around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "African",
+        "social_role": "mother",
+        "clothing": {
+          "dress": "colorful patterned with red, green, yellow, and black",
+          "accessories": "camera hanging around neck"
+        },
+        "pose": "holding baby",
+        "expression": "neutral",
+        "baby": {
+          "age": "infant",
+          "clothing": "white knitted blanket",
+          "pose": "sleeping"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        492.0,
+        188.0,
+        708.0,
+        364.0
+      ],
+      "mask": "image_7.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up of a person's forehead and eyes wearing a vibrant, patterned headscarf featuring geometric shapes in red, green, yellow, and black. The fabric is wrapped tightly around the head, displaying a mix of stripes and abstract motifs typical of African wax print.",
+      "attributes": {
+        "entity": "headscarf",
+        "colors": [
+          "red",
+          "green",
+          "yellow",
+          "black",
+          "white"
+        ],
+        "pattern": "geometric, abstract, striped",
+        "style": "African wax print, head wrap",
+        "material": "fabric",
+        "visible_features": [
+          "forehead",
+          "eyes",
+          "skin"
+        ],
+        "culture_specific": true
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        198.0,
+        324.0,
+        502.0,
+        380.0
+      ],
+      "mask": "image_7.masks/hillside_0.png",
+      "crop": null,
+      "description": "A blurred, out-of-focus view of a hilly landscape featuring a single, flat-topped acacia tree in the mid-ground and a vertical tree trunk in the foreground, with a partial view of a person's face on the far right edge.",
+      "attributes": {
+        "landscape": {
+          "terrain": "hilly",
+          "vegetation": [
+            "acacia tree",
+            "tree trunk"
+          ],
+          "focus": "blurred",
+          "colors": [
+            "brown",
+            "green",
+            "gray"
+          ]
+        },
+        "person": {
+          "visibility": "partial",
+          "position": "right edge",
+          "features": "skin texture visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        266.0,
+        452.0,
+        824.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling Black woman with short dark hair is holding a sleeping infant wrapped in a cream-colored knitted blanket. She wears a vibrant, patterned dress with red, green, yellow, and black geometric designs, and a black camera strap is visible across her chest, with a DSLR camera hanging at her side.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "expression": "smiling",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "dress": {
+            "pattern": "geometric",
+            "colors": [
+              "red",
+              "green",
+              "yellow",
+              "black",
+              "white"
+            ],
+            "style": "African print"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "hanging at side"
+          },
+          "camera_strap": {
+            "color": "black",
+            "position": "across chest"
+          }
+        },
+        "pose": "holding infant",
+        "infant": {
+          "state": "sleeping",
+          "wrapping": "cream-colored knitted blanket"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        270.0,
+        190.0,
+        824.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black woman wearing a colorful patterned headwrap and matching dress holds a sleeping baby wrapped in a cream-colored knitted blanket. She has a black DSLR camera with a large lens hanging from a strap around her neck, resting against her chest.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "expression": "smiling",
+        "headwear": {
+          "type": "headwrap",
+          "pattern": "geometric",
+          "colors": [
+            "red",
+            "green",
+            "yellow",
+            "black",
+            "white"
+          ]
+        },
+        "clothing": {
+          "dress": {
+            "pattern": "geometric",
+            "colors": [
+              "red",
+              "green",
+              "yellow",
+              "black",
+              "white"
+            ],
+            "sleeves": "short",
+            "trim": "fringed"
+          }
+        },
+        "accessories": {
+          "earrings": "small hoop",
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "lens": "large",
+            "strap": "black"
+          }
+        },
+        "pose": "holding baby",
+        "baby": {
+          "state": "sleeping",
+          "wrapping": "cream knitted blanket"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.62890625,
+      "box": [
+        472.0,
+        430.0,
+        488.0,
+        466.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        752.0,
+        410.0,
+        984.0,
+        548.0
+      ],
+      "mask": "image_7.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A blurred stone wall composed of irregularly shaped, light brown and beige stones stacked together, with a thatched roof visible at the top edge and a small portion of a red and green patterned object in the bottom left corner.",
+      "attributes": {
+        "material": "stone",
+        "color": "light brown, beige",
+        "texture": "rough, irregular",
+        "structure": "stacked stones",
+        "roof": "thatched",
+        "focus": "blurred",
+        "additional_elements": "red and green patterned object in bottom left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -1.0,
+        418.0,
+        238.0,
+        548.0
+      ],
+      "mask": "image_7.masks/stone wall_1.png",
+      "crop": null,
+      "description": "A close-up view of a stone wall constructed from irregularly shaped, rounded stones in varying shades of brown, tan, and gray. The stones are tightly packed together with visible mortar or gaps between them, creating a textured surface. The top edge of the wall is uneven, with some stones protruding slightly above others.",
+      "attributes": {
+        "material": "stone",
+        "color": [
+          "brown",
+          "tan",
+          "gray"
+        ],
+        "texture": "rough",
+        "shape": "irregular",
+        "construction": "stacked",
+        "top_edge": "uneven"
+      },
+      "parse_ok": true
+    }
+  ]
+}

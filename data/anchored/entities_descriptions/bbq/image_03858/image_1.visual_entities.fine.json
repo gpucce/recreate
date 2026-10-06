@@ -1,0 +1,235 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        2.0,
+        356.0,
+        1024.0,
+        684.0
+      ],
+      "mask": "image_1.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is wearing a green and black sports jersey with a white logo on the left chest and a team emblem on the right chest. The background is a blurred grassy field, suggesting an outdoor sports setting.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "logo": "white",
+          "emblem": "team crest"
+        },
+        "background": "blurred grassy field",
+        "pose": "standing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.64453125,
+      "box": [
+        0.0,
+        358.0,
+        1020.0,
+        1016.0
+      ],
+      "mask": "image_1.masks/grass_1.png",
+      "crop": null,
+      "description": "A person is holding a rugby ball with both hands, wearing a green and black sports jersey with a logo on the left chest and a brand logo on the right chest. The background is a blurred grassy field, suggesting an outdoor sports setting.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "logo_left_chest": "team emblem",
+          "logo_right_chest": "brand logo"
+        },
+        "object": {
+          "type": "rugby ball",
+          "color": "white with blue and red accents",
+          "text": "visible text on the ball"
+        },
+        "pose": "holding ball with both hands",
+        "background": "blurred grassy field",
+        "gender": "female",
+        "age": "adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.8046875,
+      "box": [
+        0.0,
+        704.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/grass_2.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is holding a white rugby ball with blue and green accents, featuring the text 'PHOENIX' and a logo. The person is wearing a green and black sports jersey and black shorts, with their hands gripping the ball. The background is a blurred grassy field, suggesting an outdoor sports setting.\", \"attributes\": {\"clothing\": {\"shirt\": \"green and black sports jersey\", \"shorts\": \"black\"}, \"object\": {\"type\": \"rugby ball\", \"color\": \"white with blue and green accents\", \"text\": \"PHOENIX\", \"logo\": \"visible\"}, \"pose\": \"holding ball with both hands\", \"background\": \"blurred grassy field\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        214.0,
+        90.0,
+        808.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with dark hair pulled back in a braid stands outdoors holding a white rugby ball with blue and red accents. She wears a green and black short-sleeved athletic jersey featuring a white logo on the right chest and a team crest on the left, with a serious expression looking directly at the camera.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "braided and pulled back"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "athletic jersey",
+            "colors": [
+              "green",
+              "black"
+            ],
+            "logos": [
+              "white geometric logo",
+              "team crest"
+            ]
+          },
+          "pants": {
+            "color": "black"
+          }
+        },
+        "pose": "standing, holding ball with both hands",
+        "expression": "serious, neutral",
+        "object": {
+          "type": "rugby ball",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "text": "visible Cyrillic text"
+        },
+        "background": "blurred green field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        332.0,
+        716.0,
+        548.0,
+        980.0
+      ],
+      "mask": "image_1.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball with blue and green accents, held in two hands with red-painted nails. The ball features Cyrillic text and logos, including a prominent 'МТН-СОНЬ' brand name and a smaller 'RUGBY' logo.",
+      "attributes": {
+        "color": [
+          "white",
+          "blue",
+          "green"
+        ],
+        "text": [
+          "МТН-СОНЬ",
+          "RUGBY"
+        ],
+        "logos": [
+          "MTS",
+          "Rugby"
+        ],
+        "material": "rubber",
+        "shape": "oval",
+        "held_by": "hands with red nail polish"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        -0.5,
+        23.0,
+        130.0,
+        202.0
+      ],
+      "mask": "image_1.masks/tree_0.png",
+      "crop": null,
+      "description": "The image is heavily blurred, showing a dark, indistinct shape that appears to be the trunk or lower part of a tree against a lighter, out-of-focus background. The colors are muted, with shades of brown and gray dominating the foreground and hints of green and blue in the background.",
+      "attributes": {
+        "color": "dark brown/gray",
+        "shape": "indistinct, possibly trunk-like",
+        "background": "lighter, out-of-focus, hints of green and blue",
+        "clarity": "heavily blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        692.0,
+        -5.0,
+        1020.0,
+        372.0
+      ],
+      "mask": "image_1.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a light brown trunk and branches extending upward into a canopy of muted green and yellowish foliage. The background is indistinct, with a hint of a fence or structure at the bottom and a pale sky above.",
+      "attributes": {
+        "trunk": "light brown, slightly curved",
+        "foliage": "muted green and yellowish, dense",
+        "focus": "blurry, out-of-focus",
+        "background": "indistinct, pale sky, possible fence or structure at bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.75390625,
+      "box": [
+        128.0,
+        -3.0,
+        608.0,
+        308.0
+      ],
+      "mask": "image_1.masks/tree_2.png",
+      "crop": null,
+      "description": "A close-up of a young woman's face positioned on the right side of the frame, featuring dark brown hair pulled back with loose strands and a serious, neutral expression. The background is heavily blurred with green and brown tones, suggesting an outdoor setting with trees.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back",
+          "texture": "wavy with loose strands"
+        },
+        "facial_features": {
+          "eyes": "brown",
+          "expression": "neutral, serious",
+          "skin_tone": "light"
+        },
+        "position": "right side of frame",
+        "background": "blurred green and brown foliage"
+      },
+      "parse_ok": true
+    }
+  ]
+}

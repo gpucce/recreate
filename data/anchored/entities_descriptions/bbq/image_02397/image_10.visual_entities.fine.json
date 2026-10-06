@@ -1,0 +1,116 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        500.0,
+        116.0,
+        1004.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy gray hair and a full gray beard sits on a wooden bench, wearing a brown leather jacket over an orange polo shirt and blue jeans. He has a serious expression, looking slightly off-camera, with his hands clasped together in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "wavy, medium length"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "type": "full beard and mustache"
+        },
+        "expression": "serious, intense gaze",
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "details": "zippered pockets, ribbed cuffs"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "orange"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "background": "white paneled wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        33.0,
+        142.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly dark brown hair sits on a wooden bench, wearing a faded teal t-shirt and beige pants. He has a distressed expression, looking down with his right hand covering his mouth and nose, while his left hand rests on his thigh.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal",
+            "material": "cotton"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige",
+            "material": "cotton"
+          }
+        },
+        "pose": {
+          "action": "sitting",
+          "posture": "slouched",
+          "hand_position": "right hand covering mouth, left hand on lap"
+        },
+        "expression": "sad or distressed",
+        "setting": "indoor, white paneled wall background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        0.0,
+        0.0,
+        1020.0,
+        1016.0
+      ],
+      "mask": "image_10.masks/wall_0.png",
+      "crop": null,
+      "description": "A white wall with a classic wainscoting design, featuring rectangular panels outlined by raised molding. The wall appears smooth and painted in a light, neutral color, providing a clean and formal backdrop.",
+      "attributes": {
+        "color": "white",
+        "material": "painted plaster or drywall",
+        "design": "wainscoting with rectangular panels",
+        "style": "classic, formal",
+        "condition": "smooth, clean"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        55.0,
+        -2.0,
+        235.0,
+        608.0
+      ],
+      "mask": "image_10.masks/flag_0.png",
+      "crop": null,
+      "description": "A close-up view of a flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag is displayed vertically, hanging from a pole with a gold finial, against a backdrop of a patterned red curtain and a white wall with gold trim.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "stripes": {
+            "top": "white",
+            "middle": "blue",
+            "bottom": "red"
+          },
+          "pole": "gold finial",
+          "background": {
+            "left": "red patterned curtain",
+            "right": "white wall with gold trim"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        812.0,
+        -4.0,
+        980.0,
+        612.0
+      ],
+      "mask": "image_10.masks/flag_1.png",
+      "crop": null,
+      "description": "A vertical flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag is displayed indoors, hanging from a pole, with a patterned red curtain and a light-colored wall visible in the background.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "position": "hanging",
+          "background": {
+            "left": "light-colored wall",
+            "right": "red patterned curtain"
+          },
+          "pole": "visible at the bottom"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        444.0,
+        124.0,
+        812.0,
+        1004.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An older man with short, light brown hair stands facing forward, wearing a dark navy suit, a white dress shirt, and a maroon tie. He is shaking hands with another person whose arm is visible on the left, and he has a serious expression on his face.",
+      "attributes": {
+        "gender": "male",
+        "age": "senior",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "dark navy",
+            "type": "two-piece"
+          },
+          "shirt": {
+            "color": "white"
+          },
+          "tie": {
+            "color": "maroon"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "leather dress shoes"
+          },
+          "accessories": {
+            "lapel_pin": "small blue and red pin"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "serious",
+        "skin_tone": "fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        262.0,
+        156.0,
+        506.0,
+        1012.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged man with short, light brown hair and a fair complexion is standing and shaking hands with another person. He is wearing a dark navy suit, a white dress shirt, and a dark blue tie, with black leather shoes. His expression is neutral, and he is positioned in a formal setting with ornate gold and red decorations in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Caucasian",
+        "social_role": "formal or political figure",
+        "clothing": {
+          "suit": "dark navy",
+          "shirt": "white",
+          "tie": "dark blue",
+          "shoes": "black leather"
+        },
+        "hair": "short, light brown",
+        "pose": "standing, shaking hands",
+        "expression": "neutral",
+        "background": "ornate gold and red decorations"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.875,
+      "box": [
+        418.0,
+        101.0,
+        604.0,
+        352.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up crop showing the left side of a man's face with fair skin and short, light brown hair, wearing a dark suit jacket over a white collared shirt, positioned in the foreground to the left of a white bust statue.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "skin_tone": "fair",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": "dark suit",
+          "shirt": "white"
+        },
+        "position": "foreground left",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        -1.0,
+        -1.0,
+        94.0,
+        456.0
+      ],
+      "mask": "image_10.masks/wall_0.png",
+      "crop": null,
+      "description": "A section of a wall covered in dark maroon wallpaper featuring an intricate, repeating floral damask pattern in a slightly darker shade. To the right, a vertical strip of a flag with blue and red sections is partially visible, hanging against the patterned background.",
+      "attributes": {
+        "wallpaper": {
+          "color": "dark maroon",
+          "pattern": "floral damask",
+          "texture": "smooth"
+        },
+        "flag": {
+          "visible_colors": [
+            "blue",
+            "red"
+          ],
+          "position": "right edge",
+          "orientation": "vertical"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.53515625,
+      "box": [
+        692.0,
+        -2.0,
+        1024.0,
+        720.0
+      ],
+      "mask": "image_10.masks/wall_1.png",
+      "crop": null,
+      "description": "A man in a dark suit stands to the left of a Russian flag, which is displayed on a gold stand. The background features a red patterned wallpaper with gold trim and a white column.",
+      "attributes": {
+        "flag": {
+          "country": "Russia",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "stand": "gold"
+        },
+        "wall": {
+          "color": "red",
+          "pattern": "damask",
+          "trim": "gold"
+        },
+        "column": {
+          "color": "white"
+        },
+        "man": {
+          "clothing": {
+            "suit": "dark",
+            "shirt": "white"
+          },
+          "accessories": {
+            "lapel pin": "blue"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.5546875,
+      "box": [
+        0.0,
+        0.0,
+        296.0,
+        720.0
+      ],
+      "mask": "image_10.masks/wall_2.png",
+      "crop": null,
+      "description": "A section of an ornate interior wall featuring a deep red damask wallpaper with a gold floral pattern on the left, adjacent to a white paneled wall with gold trim on the right. A Russian flag on a gold stand is prominently displayed in the foreground, partially obscuring the wall.",
+      "attributes": {
+        "wall": {
+          "left_section": {
+            "color": "deep red",
+            "pattern": "gold floral damask"
+          },
+          "right_section": {
+            "color": "white",
+            "trim": "gold",
+            "style": "paneled"
+          },
+          "baseboard": {
+            "color": "white",
+            "trim": "gold"
+          }
+        },
+        "flag": {
+          "country": "Russia",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "stand": {
+            "color": "gold",
+            "material": "metal"
+          }
+        },
+        "setting": "formal interior"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 3,
+      "score": 0.5546875,
+      "box": [
+        2.0,
+        2.0,
+        1024.0,
+        736.0
+      ],
+      "mask": "image_10.masks/wall_3.png",
+      "crop": null,
+      "description": "Two men in dark suits are shaking hands in front of a white bust of a historical figure, flanked by two Russian flags on golden stands. The background features a red damask wallpaper with gold trim and white paneled walls.",
+      "attributes": {
+        "people": [
+          {
+            "gender": "male",
+            "age": "middle-aged",
+            "clothing": {
+              "suit": "dark",
+              "shirt": "white",
+              "tie": "dark blue"
+            },
+            "pose": "standing, shaking hands"
+          },
+          {
+            "gender": "male",
+            "age": "middle-aged",
+            "clothing": {
+              "suit": "dark",
+              "shirt": "white",
+              "tie": "maroon"
+            },
+            "pose": "standing, shaking hands"
+          }
+        ],
+        "background": {
+          "wallpaper": "red damask",
+          "trim": "gold",
+          "panels": "white"
+        },
+        "objects": {
+          "flags": {
+            "count": 2,
+            "type": "Russian",
+            "stand": "golden"
+          },
+          "bust": {
+            "color": "white",
+            "material": "marble or stone"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 4,
+      "score": 0.5703125,
+      "box": [
+        924.0,
+        -4.0,
+        1024.0,
+        452.0
+      ],
+      "mask": "image_10.masks/wall_4.png",
+      "crop": null,
+      "description": "A section of a wall covered in a deep maroon or burgundy wallpaper featuring an intricate, repeating damask pattern in a slightly darker shade. To the left, a portion of a flag with vertical stripes of white, blue, and red is visible, partially obscuring the wall.",
+      "attributes": {
+        "wall": {
+          "color": "maroon",
+          "pattern": "damask",
+          "material": "wallpaper"
+        },
+        "flag": {
+          "visible_portion": "left side",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "vertical stripes"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 5,
+      "score": 0.58984375,
+      "box": [
+        324.0,
+        -2.0,
+        684.0,
+        268.0
+      ],
+      "mask": "image_10.masks/wall_5.png",
+      "crop": null,
+      "description": "A formal indoor scene featuring two men in dark suits and ties standing in the foreground, with a white bust of a historical figure in a military uniform centered behind them against a deep red damask wallpaper with a gold frame.",
+      "attributes": {
+        "background": {
+          "wallpaper": {
+            "color": "dark red",
+            "pattern": "damask",
+            "texture": "ornate"
+          },
+          "frame": {
+            "color": "gold",
+            "material": "wood or metal"
+          },
+          "bust": {
+            "material": "white marble or stone",
+            "subject": "male figure",
+            "clothing": "military uniform with epaulets",
+            "position": "centered"
+          }
+        },
+        "people": [
+          {
+            "position": "left",
+            "gender": "male",
+            "age": "middle-aged",
+            "hair": "blonde, receding",
+            "clothing": {
+              "suit": "dark",
+              "shirt": "white",
+              "tie": "dark"
+            },
+            "expression": "neutral"
+          },
+          {
+            "position": "right",
+            "gender": "male",
+            "age": "older",
+            "hair": "grey, short",
+            "clothing": {
+              "suit": "dark",
+              "shirt": "white",
+              "tie": "maroon"
+            },
+            "expression": "serious"
+          }
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

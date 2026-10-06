@@ -1,0 +1,130 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        66.0,
+        472.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a lavender satin pajama set with white piping and buttons. The couch has a modern design with clean lines and a light gray upholstery, and there is a beige throw pillow placed behind the person.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "style": "modern",
+          "pillow": {
+            "color": "beige",
+            "material": "fabric"
+          }
+        },
+        "person": {
+          "clothing": {
+            "top": "lavender satin pajama shirt with white piping and buttons",
+            "bottoms": "lavender satin pajama pants with white piping"
+          },
+          "pose": "sitting cross-legged",
+          "position": "center of the couch"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        186.0,
+        104.0,
+        920.0,
+        976.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with medium skin tone and voluminous curly brown hair sits cross-legged on a grey sofa, wearing a lavender satin pajama set with white piping and round wire-rimmed glasses. She has a neutral expression and is looking directly at the camera with her hands resting on her legs.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "mixed or multiracial",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed"
+        },
+        "clothing": {
+          "type": "pajama set",
+          "material": "satin",
+          "color": "lavender",
+          "details": "white piping on collar, cuffs, and pocket",
+          "top": "button-down shirt",
+          "bottom": "long pants"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        198.0,
+        544.0,
+        370.0,
+        784.0
+      ],
+      "mask": "image_11.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, beige throw pillow with a textured, woven fabric surface rests against the arm of a gray sofa. The pillow is positioned next to a smooth, shiny purple fabric, likely a duvet or sheet, which drapes in the foreground.",
+      "attributes": {
+        "color": "beige",
+        "shape": "square",
+        "material": "textured woven fabric",
+        "texture": "matte, cross-hatch pattern",
+        "position": "leaning against sofa arm",
+        "adjacent_objects": {
+          "sofa": "gray fabric",
+          "bedding": "purple satin-like fabric"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        0.0,
+        0.0,
+        728.0,
+        508.0
+      ],
+      "mask": "image_11.masks/window_0.png",
+      "crop": null,
+      "description": "A window covered by white horizontal blinds with a soft, diffused light filtering through, creating a bright and neutral background. The blinds are closed, with the slats aligned horizontally, and the window frame is not visible in the crop.",
+      "attributes": {
+        "type": "window",
+        "covering": "horizontal blinds",
+        "color": "white",
+        "material": "likely plastic or metal",
+        "state": "closed",
+        "lighting": "diffused, soft",
+        "position": "background",
+        "function": "light control and privacy"
+      },
+      "parse_ok": true
+    }
+  ]
+}

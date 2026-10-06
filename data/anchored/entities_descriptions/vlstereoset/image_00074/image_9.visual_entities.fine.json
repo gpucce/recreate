@@ -1,0 +1,402 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "blanket",
+      "index": 0,
+      "score": 0.5625,
+      "box": [
+        20.0,
+        724.0,
+        984.0,
+        980.0
+      ],
+      "mask": "image_9.masks/blanket_0.png",
+      "crop": null,
+      "description": "A red, textured blanket with a scalloped edge is spread out on a concrete surface, serving as a play mat for a child sitting on it with colorful building blocks and a toy horse.",
+      "attributes": {
+        "color": "red",
+        "material": "textured fabric",
+        "edge": "scalloped",
+        "function": "play mat",
+        "position": "spread out on concrete surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        0.0,
+        278.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/ground_0.png",
+      "crop": null,
+      "description": "A concrete sidewalk surface is visible, characterized by light gray tones and distinct expansion joints. The ground is scattered with dry, brown and yellow autumn leaves, particularly concentrated along the edges where the pavement meets the grassy areas.",
+      "attributes": {
+        "material": "concrete",
+        "color": "light gray",
+        "texture": "smooth with expansion joints",
+        "debris": "dry autumn leaves",
+        "debris_color": "brown, yellow, orange",
+        "location": "outdoor sidewalk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        832.0,
+        110.0,
+        1024.0,
+        274.0
+      ],
+      "mask": "image_9.masks/house_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a single-story house with white siding and a dark, pitched roof, partially obscured by a silver car parked in the foreground and autumn foliage on the left.",
+      "attributes": {
+        "structure": {
+          "type": "single-story house",
+          "siding_color": "white",
+          "roof_color": "dark grey or black",
+          "roof_style": "pitched"
+        },
+        "foreground": {
+          "object": "silver car",
+          "state": "blurred",
+          "position": "center bottom"
+        },
+        "surroundings": {
+          "foliage": "orange and brown leaves visible on the left",
+          "lighting": "bright, possibly daylight with lens flare"
+        },
+        "image_quality": "extremely blurry and out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.734375,
+      "box": [
+        146.0,
+        111.5,
+        208.0,
+        206.0
+      ],
+      "mask": "image_9.masks/house_1.png",
+      "crop": null,
+      "description": "The image shows a blurry, out-of-focus section of a house, featuring a dark rectangular area that appears to be a window or door, surrounded by lighter, indistinct shapes that suggest walls or other architectural elements. The colors are muted, with shades of brown, beige, and gray dominating the scene.",
+      "attributes": {
+        "structure": "house",
+        "visible_elements": [
+          "dark rectangular area (window/door)",
+          "lighter surrounding areas (walls)"
+        ],
+        "colors": [
+          "brown",
+          "beige",
+          "gray"
+        ],
+        "focus": "blurry/out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 2,
+      "score": 0.62109375,
+      "box": [
+        207.0,
+        141.0,
+        288.0,
+        284.0
+      ],
+      "mask": "image_9.masks/house_2.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of a person wearing a pink knitted sweater. The background is blurred, with indistinct shapes and colors suggesting an outdoor setting.",
+      "attributes": {
+        "clothing": {
+          "sweater": "pink",
+          "material": "knitted"
+        },
+        "focus": "out-of-focus",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 3,
+      "score": 0.8984375,
+      "box": [
+        -1.5,
+        62.0,
+        162.0,
+        278.0
+      ],
+      "mask": "image_9.masks/house_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house featuring a dark, sloped roof and light-colored exterior walls, with a section of a garage door visible on the left and a dark green bush in the lower right corner.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray",
+          "shape": "sloped"
+        },
+        "walls": {
+          "color": "light beige or white",
+          "material": "indistinct due to blur"
+        },
+        "garage": {
+          "visible": true,
+          "door_color": "tan"
+        },
+        "vegetation": {
+          "type": "bush",
+          "color": "dark green",
+          "position": "bottom right"
+        },
+        "image_quality": "extremely blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 4,
+      "score": 0.50390625,
+      "box": [
+        664.0,
+        131.0,
+        856.0,
+        268.0
+      ],
+      "mask": "image_9.masks/house_4.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus view of a house exterior featuring warm brown and orange tones on the walls, with indistinct white and blue shapes suggesting windows or architectural details. The image is extremely low resolution and lacks sharp edges, making specific materials or structural features impossible to identify.",
+      "attributes": {
+        "focus": "extremely blurry",
+        "colors": [
+          "brown",
+          "orange",
+          "white",
+          "blue"
+        ],
+        "structure": "indistinct",
+        "details": "unidentifiable"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        256.0,
+        54.0,
+        468.0,
+        600.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with shoulder-length brown hair is seen from behind, walking away on a paved path. The child is wearing a bright pink, puffy hooded jacket and blue jeans with the cuffs rolled up, revealing red shoes.",
+      "attributes": {
+        "age": "child",
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "pink",
+            "type": "puffer",
+            "features": "hooded"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans",
+            "details": "rolled cuffs"
+          },
+          "shoes": {
+            "color": "red"
+          }
+        },
+        "pose": "walking away",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        284.0,
+        372.0,
+        780.0,
+        860.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with light skin and brown hair sits cross-legged on a red blanket outdoors, wearing a navy blue puffer jacket with pink zipper accents and a pink, grey, and white striped knit beanie. The child is focused on stacking colorful wooden blocks, with a pink toy horse visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "hat": {
+            "type": "beanie",
+            "pattern": "striped",
+            "colors": [
+              "pink",
+              "grey",
+              "white"
+            ]
+          },
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "details": "pink zipper and inner lining"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "boots"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "activity": "playing with blocks",
+        "expression": "focused",
+        "location": "outdoors on a red blanket"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        4.0,
+        278.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A light gray concrete sidewalk with visible seams and a slightly rough texture, partially covered by scattered dry brown and yellow autumn leaves along the edges. A red blanket is spread on the sidewalk, with a child sitting on it playing with colorful blocks and a pink toy horse.",
+      "attributes": {
+        "material": "concrete",
+        "color": "light gray",
+        "texture": "rough",
+        "features": [
+          "seams",
+          "scattered leaves",
+          "red blanket"
+        ],
+        "context": "outdoor, autumn setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.60546875,
+      "box": [
+        340.0,
+        2.0,
+        620.0,
+        300.0
+      ],
+      "mask": "image_9.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry tree with yellow and orange autumn leaves stands in the background, out of focus behind a person in a pink jacket.",
+      "attributes": {
+        "leaves": {
+          "color": "yellow and orange",
+          "season": "autumn"
+        },
+        "trunk": {
+          "color": "brown",
+          "visibility": "blurry"
+        },
+        "focus": "out of focus",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.59765625,
+      "box": [
+        588.0,
+        0.0,
+        916.0,
+        342.0
+      ],
+      "mask": "image_9.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree trunk with a brownish-gray bark stands in the foreground, with a few branches extending upward and to the right. The background is heavily blurred, showing indistinct shapes of a house, cars, and other trees in autumnal colors.",
+      "attributes": {
+        "focus": "out-of-focus",
+        "trunk": {
+          "color": "brownish-gray",
+          "texture": "smooth (due to blur)"
+        },
+        "branches": {
+          "direction": "upward and to the right",
+          "leaves": "sparse, dark green"
+        },
+        "background": {
+          "objects": [
+            "house",
+            "cars",
+            "trees"
+          ],
+          "colors": [
+            "white",
+            "gray",
+            "orange",
+            "brown"
+          ],
+          "season": "autumn (suggested by colors)"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.7421875,
+      "box": [
+        920.0,
+        26.0,
+        1024.0,
+        112.0
+      ],
+      "mask": "image_9.masks/tree_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a tree with bare branches against a light, overcast sky. The branches are thin and spread out in a complex, intricate pattern, with no leaves visible.",
+      "attributes": {
+        "focus": "blurry",
+        "leaves": "none",
+        "branches": "bare, thin, intricate",
+        "sky": "light, overcast",
+        "color": "grayish-white"
+      },
+      "parse_ok": true
+    }
+  ]
+}

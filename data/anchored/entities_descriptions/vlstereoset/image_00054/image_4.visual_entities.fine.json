@@ -1,0 +1,61 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "body_of_water",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        212.0,
+        166.0,
+        932.0,
+        992.0
+      ],
+      "mask": "image_4.masks/body_of_water_0.png",
+      "crop": null,
+      "description": "A calm, dark green body of water forms a large, oval-shaped loop around a central island, with a sandy shoreline and lush green vegetation on the island and surrounding banks. The water reflects the surrounding trees and sky, creating a serene and picturesque scene.",
+      "attributes": {
+        "shape": "oval",
+        "color": "dark green",
+        "surface": "calm",
+        "surroundings": {
+          "island": "central, with sandy shoreline and green vegetation",
+          "banks": "lush green vegetation and trees",
+          "reflection": "trees and sky visible on water surface"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        212.0,
+        166.0,
+        932.0,
+        992.0
+      ],
+      "mask": "image_4.masks/water_body_0.png",
+      "crop": null,
+      "description": "An aerial view of a calm, dark green river that forms a large, U-shaped bend around a central island. The island is landscaped with green lawns, trees, and a winding sandy path, surrounded by a narrow strip of light-colored sand along the water's edge. The riverbanks are lined with dense vegetation and trees, casting shadows on the water, and are bordered by grassy fields and residential areas with red-roofed houses.",
+      "attributes": {
+        "shape": "U-shaped bend",
+        "color": "dark green",
+        "clarity": "calm, slightly murky",
+        "island": {
+          "landscaping": "green lawns, trees, sandy path",
+          "beach": "narrow sandy strip",
+          "vegetation": "trees and shrubs"
+        },
+        "banks": {
+          "vegetation": "dense trees and shrubs",
+          "shadows": "cast on water",
+          "surroundings": "grassy fields, residential houses with red roofs"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

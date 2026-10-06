@@ -1,0 +1,101 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        284.0,
+        352.0,
+        656.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with curly brown hair wearing a light blue ribbed sweater, holding a baby with dark hair and a white short-sleeved onesie. The woman is kissing the baby's forehead while the baby looks to the side with an open mouth.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light blue",
+            "material": "knit"
+          }
+        },
+        "action": "holding and kissing a baby",
+        "baby": {
+          "clothing": {
+            "type": "onesie",
+            "color": "white"
+          },
+          "expression": "open mouth, looking away"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        0.0,
+        2.0,
+        960.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair is seated on a light-colored sofa, gently holding a newborn baby in her arms. She wears a light blue, long-sleeved knit sweater and is leaning down to kiss the baby's forehead, her eyes closed in a tender expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light blue",
+            "material": "knit",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, holding a baby",
+        "expression": "tender, eyes closed",
+        "action": "kissing baby's forehead",
+        "position": "center of frame, slightly angled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        340.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or off-white sofa with a smooth, possibly leather or faux-leather upholstery is visible in the background. The sofa has a clean, modern design with a flat backrest and armrests that are partially obscured by the person sitting on it.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "smooth, possibly leather or faux-leather",
+        "design": "modern, clean lines",
+        "position": "background, partially obscured by the person sitting on it"
+      },
+      "parse_ok": true
+    }
+  ]
+}

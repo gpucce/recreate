@@ -1,0 +1,94 @@
+{
+  "scene": {
+    "background": "plain blue floor with minimal background detail",
+    "lighting": "harsh and clinical, from overhead fluorescent lights, casting sharp shadows and creating high contrast",
+    "camera_angle": "low and slightly tilted, as if shot from a body-mounted camera or handheld device",
+    "style": "realistic, high-resolution style, as if taken with a modern smartphone or compact camera in an indoor emergency setting, with naturalistic lighting and minimal post-processing",
+    "mood": "urgent, tense, and human-centered — focused on the critical care being rendered",
+    "color_palette": "neutral to slightly cool white balance with high color saturation in the uniforms and the blue stretcher, contrasting with the darker tones of the officers’ gear"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "uniform": "dark navy blue",
+        "badge_patch": "SAFETY with badge emblem",
+        "gear": "duty belt with holsters, radios, and reflective patches",
+        "belt_buckle": "small, glowing indicator light",
+        "pose": "kneeling",
+        "clothing": {
+          "gloves": "worn",
+          "tool": "small tool (possibly a tourniquet applicator or medical instrument)"
+        }
+      },
+      "id": "police_officer_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "uniform": "dark navy blue",
+        "badge_patch": "POLICE with shield emblem",
+        "gear": "duty belt with holsters, radios, and reflective patches",
+        "pose": "leaning over",
+        "clothing": {
+          "gloves": "worn",
+          "hands": "near the patient’s chest or back"
+        }
+      },
+      "id": "police_officer_2",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "uniform": "dark navy blue",
+        "badge_patch": "POLICE with shield emblem",
+        "gear": "duty belt with holsters, radios, and reflective patches",
+        "pose": "standing in the background, partially visible"
+      },
+      "id": "police_officer_3",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "race": "Black",
+        "gender": "male",
+        "hair": {
+          "length": "short",
+          "texture": "unknown",
+          "color": "unknown"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "dark"
+          }
+        },
+        "pose": "lying face-down or in a semi-reclined position with head tilted down",
+        "face": "partially obscured, conveying vulnerability or injury"
+      },
+      "id": "patient_1",
+      "count": 1
+    },
+    {
+      "type": "medical stretcher",
+      "attributes": {
+        "color": "blue"
+      },
+      "id": "stretcher_1",
+      "count": 1
+    },
+    {
+      "type": "tool",
+      "attributes": {
+        "type": "small tool (possibly a tourniquet applicator or medical instrument)"
+      },
+      "id": "tool_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

@@ -1,0 +1,103 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        0.0,
+        384.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is holding a rugby ball with both hands, wearing a green and black sports jersey with a logo on the chest. The background is a blurred grassy field.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "logo": "white and black emblem on the chest"
+        },
+        "pose": "holding a rugby ball with both hands",
+        "background": "blurred grassy field",
+        "object": {
+          "type": "rugby ball",
+          "color": "white with red and blue stripes",
+          "text": "STEFANOVA"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        218.0,
+        4.0,
+        832.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a messy bun stands facing forward, holding a white rugby ball with red and blue stripes in front of her waist. She wears a green and black short-sleeved rugby jersey with a 'NIPON' logo on the right chest and a team crest on the left, displaying a serious, focused expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "messy bun"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "rugby jersey",
+            "color": "green and black",
+            "logos": [
+              "NIPON",
+              "team crest"
+            ]
+          }
+        },
+        "pose": "standing, holding ball with both hands",
+        "expression": "serious, focused",
+        "object": {
+          "type": "rugby ball",
+          "color": "white with red and blue stripes",
+          "text": "STEFANOVIC"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        428.0,
+        804.0,
+        684.0,
+        1012.0
+      ],
+      "mask": "image_2.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball held in two hands, featuring red and blue curved stripes and black text that reads 'STEFANOVIC' along with a logo. The ball appears to be made of a textured material, likely leather or synthetic, and is positioned centrally in the frame.",
+      "attributes": {
+        "color": [
+          "white",
+          "red",
+          "blue",
+          "black"
+        ],
+        "text": "STEFANOVIC",
+        "logo": "present",
+        "material": "textured, possibly leather or synthetic",
+        "shape": "oval",
+        "held_by": "two hands",
+        "position": "central"
+      },
+      "parse_ok": true
+    }
+  ]
+}

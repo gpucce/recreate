@@ -1,0 +1,94 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        212.0,
+        18.0,
+        996.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with a short black bob haircut and wispy bangs is shown in a close-up profile view, holding a single red rose with a green stem and leaf. She wears a black sheer mesh top with a high neck over a black camisole, and her expression is calm and contemplative as she looks off to the side against a bright, white background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob cut with bangs"
+        },
+        "clothing": {
+          "outer_layer": "black sheer mesh top",
+          "neckline": "high neck",
+          "inner_layer": "black camisole"
+        },
+        "accessories": {
+          "held_object": "red rose"
+        },
+        "pose": "holding flower near chest",
+        "expression": "neutral, pensive",
+        "gaze": "looking away to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        214.0,
+        556.0,
+        1000.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/top_0.png",
+      "crop": null,
+      "description": "A person is wearing a black, sheer mesh top with a high neckline and long sleeves, featuring a solid black underlayer visible beneath the transparent fabric. The person is holding a single red rose with a green stem and leaves in their right hand, positioned near their chest.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer mesh",
+            "neckline": "high",
+            "sleeves": "long",
+            "underlayer": "solid black"
+          }
+        },
+        "accessories": {
+          "flower": {
+            "type": "rose",
+            "color": "red",
+            "stem": "green",
+            "leaves": "green"
+          }
+        },
+        "pose": "holding flower near chest",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        4.0,
+        2.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/wall_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A young Asian woman with a short black bob haircut and bangs is holding a single red rose in her right hand, gazing off to the side with a calm expression. She is wearing a black top with a sheer mesh overlay on the shoulders and neckline, standing in front of a plain white wall and a window.\", \"attributes\": {\"gender\": \"female\", \"age\": \"young adult\", \"ethnicity\": \"Asian\", \"hair\": {\"color\": \"black\", \"style\": \"bob with bangs\"}, \"clothing\": {\"top\": \"black with sheer mesh overlay\"}, \"accessories\": {\"none\"}, \"pose\": \"standing, holding a rose\", \"expression\": \"calm, contemplative\", \"object\": {\"type\": \"flower\", \"color\": \"red\", \"name\": \"rose\"}, \"background\": {\"wall\": \"white\", \"window\": \"visible on the left\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

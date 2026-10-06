@@ -1,0 +1,304 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.8125,
+      "box": [
+        868.0,
+        16.0,
+        988.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/door_0.png",
+      "crop": null,
+      "description": "A blue door with a white rectangular sign or label on the right side and a silver handle on the left side. The door is partially open, revealing a glimpse of the room behind it.",
+      "attributes": {
+        "color": "blue",
+        "handle": "silver",
+        "sign": "white rectangular",
+        "state": "partially open"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.59765625,
+      "box": [
+        192.0,
+        202.0,
+        232.0,
+        426.0
+      ],
+      "mask": "image_8.masks/door_1.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored, possibly white or cream, door with a smooth surface. A portion of a metallic, ornate doorknob is visible in the lower right corner, featuring a circular design and a keyhole.",
+      "attributes": {
+        "color": "light beige or off-white",
+        "material": "smooth, likely painted wood or metal",
+        "hardware": {
+          "doorknob": "metallic, ornate, circular design",
+          "keyhole": "visible below the doorknob"
+        },
+        "surface": "smooth, no visible texture or grain"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 2,
+      "score": 0.8359375,
+      "box": [
+        12.0,
+        44.0,
+        100.5,
+        1020.0
+      ],
+      "mask": "image_8.masks/door_2.png",
+      "crop": null,
+      "description": "A vertical, rectangular door painted in a dark teal or navy blue color, featuring a silver lever-style handle and a matching escutcheon plate. The door is framed by a white or light-colored door frame and is set against a plain, light-colored wall.",
+      "attributes": {
+        "color": "dark teal",
+        "material": "painted wood",
+        "hardware": {
+          "handle": "silver lever",
+          "escutcheon": "silver"
+        },
+        "frame": "white",
+        "orientation": "vertical",
+        "state": "closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        386.0,
+        110.5,
+        438.0,
+        144.0
+      ],
+      "mask": "image_8.masks/light fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light fixture",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        372.0,
+        -0.625,
+        508.0,
+        36.5
+      ],
+      "mask": "image_8.masks/light fixture_1.png",
+      "crop": null,
+      "description": "A close-up view of a rectangular light fixture with rounded corners, emitting a bright, uniform white light. The fixture is set within a slightly darker, beige or off-white frame that blends into the surrounding ceiling surface.",
+      "attributes": {
+        "shape": "rounded rectangle",
+        "color": "white",
+        "frame_color": "beige",
+        "lighting": "bright, diffuse",
+        "material": "plastic or acrylic diffuser",
+        "orientation": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        540.0,
+        410.0,
+        908.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight light brown hair stands looking down at a white sheet of paper held in both hands, wearing a blue and white horizontal striped t-shirt under denim overalls. An adult stands behind her with a hand resting on her shoulder, wearing an olive green shirt and carrying a black DSLR camera with a strap around their neck.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": "blue and white striped t-shirt",
+          "outerwear": "denim overalls",
+          "accessories": "black backpack straps"
+        },
+        "pose": "standing, looking down",
+        "expression": "serious, focused",
+        "holding": "white paper",
+        "background_person": {
+          "clothing": "olive green shirt",
+          "accessories": "black DSLR camera"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        108.0,
+        366.0,
+        532.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with voluminous, curly brown hair stands looking down at a white sheet of paper held in both hands, wearing a blue denim jacket over a maroon t-shirt. An adult's hand rests on his shoulder, and a camera hangs from a strap around the adult's neck in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "blue"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "maroon"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "serious, focused",
+        "holding": "white paper"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        126.0,
+        42.0,
+        904.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with graying hair and a beard stands behind two children, looking down with a serious expression while wearing an olive green button-down shirt and a black camera strap around his neck. He has his hands resting on the shoulders of the children in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "short, swept back"
+        },
+        "facial_hair": "gray and black beard and mustache",
+        "expression": "serious, looking down",
+        "clothing": {
+          "shirt": "olive green button-down"
+        },
+        "accessories": {
+          "camera": "black DSLR hanging from neck",
+          "strap": "black with red trim"
+        },
+        "pose": "standing, arms around children"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        272.0,
+        166.0,
+        464.0,
+        374.0
+      ],
+      "mask": "image_8.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up, over-the-shoulder view of a person with short, grey hair wearing a light olive-green collared shirt, facing away from the camera towards a bright, out-of-focus window in the background.",
+      "attributes": {
+        "hair": {
+          "color": "grey",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "olive green",
+            "type": "collared shirt"
+          }
+        },
+        "pose": "facing away",
+        "background": {
+          "window": "bright, out of focus"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        656.0,
+        4.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/wall_1.png",
+      "crop": null,
+      "description": "A young girl with long brown hair is standing in a hallway, looking down at a piece of paper she is holding. She is wearing a blue and white striped shirt and has a backpack on her shoulders. An adult's arm is around her shoulder, providing comfort or support.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "long brown",
+        "clothing": {
+          "shirt": "blue and white striped",
+          "backpack": "black"
+        },
+        "pose": "standing, looking down",
+        "expression": "serious or contemplative",
+        "context": "hallway with a door in the background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.8671875,
+      "box": [
+        -2.0,
+        -4.0,
+        236.0,
+        1012.0
+      ],
+      "mask": "image_8.masks/wall_2.png",
+      "crop": null,
+      "description": "A person with curly brown hair is standing in a hallway, wearing a blue denim jacket and holding a piece of paper. Another person's hand is placed on their shoulder, suggesting a comforting or supportive gesture.",
+      "attributes": {
+        "hair": "curly brown",
+        "clothing": {
+          "jacket": "blue denim"
+        },
+        "pose": "standing",
+        "action": "holding paper",
+        "interaction": "being comforted by another person"
+      },
+      "parse_ok": true
+    }
+  ]
+}

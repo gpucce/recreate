@@ -1,0 +1,78 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        132.0,
+        16.0,
+        190.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A vertical, silver-colored metal flagpole topped with a shiny, golden spherical finial. A thin black cable runs down the side of the pole, secured by small black clips, set against a plain, light blue sky background.",
+      "attributes": {
+        "object_type": "flagpole",
+        "material": "metal",
+        "color": "silver",
+        "top_finial": {
+          "shape": "sphere",
+          "color": "gold",
+          "material": "metal"
+        },
+        "accessories": {
+          "cable": {
+            "color": "black",
+            "position": "side"
+          },
+          "clips": {
+            "color": "black",
+            "count": 2
+          }
+        },
+        "background": "light blue sky",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        262.0,
+        224.0,
+        800.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/statue_0.png",
+      "crop": null,
+      "description": "A marble statue of a young man with curly hair, wearing a draped toga with a brooch on the shoulder, holding a scroll in his right hand and a piece of cloth in his left, set against a backdrop of a French flag.",
+      "attributes": {
+        "material": "marble",
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "type": "toga",
+          "details": "draped over left shoulder, secured with a circular brooch, folds and pleats visible"
+        },
+        "accessories": {
+          "right_hand": "scroll",
+          "left_hand": "cloth"
+        },
+        "pose": "standing, slightly turned to the right",
+        "expression": "neutral, contemplative",
+        "background": "French flag (blue, white, red)"
+      },
+      "parse_ok": true
+    }
+  ]
+}

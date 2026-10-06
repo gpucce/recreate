@@ -1,0 +1,119 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        430.0,
+        108.0,
+        1008.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy blonde hair sits on a beige couch, wearing a sleeveless blue and white striped dress with a tie waist. She holds a white pump bottle in both hands and looks to her left with a gentle smile, while a younger woman is partially visible on the left edge of the frame.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "dress": {
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "sleeveless",
+            "neckline": "V-neck",
+            "waist": "tied"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "skin": {
+          "condition": "wrinkled, age spots"
+        },
+        "holding": "white pump bottle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        68.0,
+        88.0,
+        560.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling young woman with long brown hair sits on a beige couch, wearing a white tank top and distressed blue jeans with large rips at the knees. She holds a white pump bottle in her right hand while looking to the side, with another person's hand holding a similar bottle visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "style": "distressed",
+            "details": "ripped knees"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding a white pump bottle",
+        "accessories": {
+          "earrings": "small studs"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        394.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or off-white fabric sofa with a soft, textured appearance, featuring a large back cushion and a seat cushion where two people are seated. The sofa has a modern, minimalist design with clean lines and appears to be upholstered in a durable, possibly linen or cotton-blend material.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "fabric (likely linen or cotton blend)",
+        "style": "modern/minimalist",
+        "cushions": {
+          "back": "large, single piece",
+          "seat": "visible under the seated individuals"
+        },
+        "texture": "soft, slightly wrinkled fabric",
+        "position": "indoor, against a plain wall",
+        "function": "seating furniture"
+      },
+      "parse_ok": true
+    }
+  ]
+}

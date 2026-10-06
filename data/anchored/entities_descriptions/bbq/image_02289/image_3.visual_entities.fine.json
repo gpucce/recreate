@@ -1,0 +1,176 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        2.0,
+        -2.0,
+        1024.0,
+        592.0
+      ],
+      "mask": "image_3.masks/building_0.png",
+      "crop": null,
+      "description": "A large, multi-story red brick building with white stone trim and a central balcony featuring a balustrade. The architecture includes arched windows on the ground floor and rectangular windows on the upper floors, with a wooden double door entrance beneath the balcony.",
+      "attributes": {
+        "material": "red brick",
+        "trim": "white stone",
+        "windows": {
+          "ground_floor": "arched",
+          "upper_floors": "rectangular"
+        },
+        "entrance": {
+          "door": "wooden double door",
+          "balcony": "white stone balustrade"
+        },
+        "style": "classical or institutional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        454.0,
+        608.0,
+        776.0,
+        792.0
+      ],
+      "mask": "image_3.masks/notebook_0.png",
+      "crop": null,
+      "description": "A yellow spiral-bound notebook is held open by a person wearing a blue hoodie, with white pages visible inside. The person is writing in the notebook with a purple pen held in their right hand, while their left hand supports the bottom of the notebook.",
+      "attributes": {
+        "color": "yellow",
+        "binding": "spiral",
+        "pages": "white",
+        "state": "open",
+        "held_by": "person in blue hoodie",
+        "writing_instrument": "purple pen",
+        "position": "held in front of the person's torso"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.8046875,
+      "box": [
+        544.0,
+        628.0,
+        576.0,
+        660.0
+      ],
+      "mask": "image_3.masks/pen_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        506.0,
+        226.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young male with wavy light brown hair stands outdoors, looking down with a focused expression while writing in a yellow spiral-bound notebook held in his left hand. He wears a bright blue hooded sweatshirt with drawstrings and a black backpack, with a purple pen in his right hand.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, medium length"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "blue",
+            "details": "drawstrings, front pocket"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black",
+              "straps": "visible on shoulders"
+            }
+          }
+        },
+        "pose": "standing, looking down",
+        "action": "writing",
+        "objects": {
+          "notebook": {
+            "color": "yellow",
+            "binding": "spiral"
+          },
+          "pen": {
+            "color": "purple"
+          }
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        138.0,
+        346.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with blonde hair pulled back in a braid stands outdoors, looking down at an open brown spiral-bound notebook held in her hands. She wears a grey crewneck sweater over a white collared shirt, blue jeans, and carries a black backpack on her shoulders.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "braided updo"
+        },
+        "clothing": {
+          "sweater": {
+            "color": "grey",
+            "type": "crewneck"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "jeans"
+          }
+        },
+        "accessories": {
+          "backpack": {
+            "color": "black"
+          },
+          "earrings": "small stud"
+        },
+        "pose": "standing, looking down",
+        "holding": {
+          "object": "notebook",
+          "color": "brown",
+          "binding": "spiral"
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,401 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.72265625,
+      "box": [
+        884.0,
+        52.0,
+        1024.0,
+        366.0
+      ],
+      "mask": "image_6.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a reddish-brown brick facade and a row of tall, rectangular windows is visible in the background, appearing out of focus behind a person's head in the foreground.",
+      "attributes": {
+        "material": "brick",
+        "color": "reddish-brown",
+        "windows": {
+          "shape": "rectangular",
+          "arrangement": "row",
+          "count": 5
+        },
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.51953125,
+      "box": [
+        -2.0,
+        200.0,
+        134.0,
+        388.0
+      ],
+      "mask": "image_6.masks/building_1.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus view of a building with a prominent vertical brown structure, possibly a pillar or wall, in the foreground. The background features indistinct shapes and colors, including hints of red and green, suggesting architectural elements and foliage, but no specific details are discernible due to the extreme blur.",
+      "attributes": {
+        "focus": "blurred",
+        "foreground": {
+          "color": "brown",
+          "shape": "vertical"
+        },
+        "background": {
+          "colors": [
+            "red",
+            "green",
+            "white"
+          ],
+          "details": "indistinct"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        -3.4375,
+        348.0,
+        14.4375,
+        412.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        544.0,
+        100.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A Black man with short, dark, curly hair and a beard stands in profile facing left, wearing a black zip-up track jacket with white stripes on the sleeves and a white undershirt. He holds a bright pink soccer ball with both hands at waist level, with a blurred urban street scene including a bench and cars in the background.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown/black",
+          "style": "short, curly, textured"
+        },
+        "facial_hair": "beard and mustache",
+        "clothing": {
+          "jacket": {
+            "type": "track jacket",
+            "color": "black",
+            "details": "white zipper, white stripes on sleeves, white collar trim"
+          },
+          "undershirt": {
+            "color": "white"
+          }
+        },
+        "pose": "standing, holding object with both hands",
+        "object_held": {
+          "type": "soccer ball",
+          "color": "bright pink",
+          "pattern": "pentagonal/hexagonal panels"
+        },
+        "expression": "neutral, looking forward",
+        "background": "outdoor urban setting, blurred, includes bench, street, cars, trees"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        18.0,
+        114.0,
+        506.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "An older Black man with a white beard and mustache is smiling broadly while gesturing with his right hand, wearing a bright turquoise short-sleeved button-down shirt featuring a pattern of pink flamingos and yellow hibiscus flowers, topped with a black knit beanie.",
+      "attributes": {
+        "gender": "male",
+        "age": "senior",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "white",
+          "mustache": "white"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "sleeves": "short",
+            "color": "turquoise",
+            "pattern": "flamingos and hibiscus flowers",
+            "pattern_colors": [
+              "pink",
+              "yellow",
+              "orange",
+              "green"
+            ]
+          },
+          "accessories": {
+            "watch": {
+              "band": "black",
+              "position": "left wrist"
+            }
+          }
+        },
+        "pose": "standing, gesturing with right hand",
+        "expression": "smiling, looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.7578125,
+      "box": [
+        386.0,
+        354.0,
+        418.0,
+        426.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.94921875,
+      "box": [
+        532.0,
+        410.0,
+        660.0,
+        644.0
+      ],
+      "mask": "image_6.masks/person_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person with short dark hair is seated on a bench, wearing a light grey t-shirt and blue jeans, with their hands resting on their lap.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "location": "outdoors",
+        "furniture": "bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.90234375,
+      "box": [
+        432.0,
+        358.0,
+        496.0,
+        560.0
+      ],
+      "mask": "image_6.masks/person_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus figure of a person viewed from behind, wearing a dark short-sleeved t-shirt and blue jeans, walking away on a light-colored surface.",
+      "attributes": {
+        "clothing": {
+          "top": "black t-shirt",
+          "bottom": "blue jeans"
+        },
+        "pose": "walking away",
+        "view": "back",
+        "image_quality": "blurry",
+        "hair": "dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "soccer ball",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        552.0,
+        692.0,
+        776.0,
+        900.0
+      ],
+      "mask": "image_6.masks/soccer ball_0.png",
+      "crop": null,
+      "description": "A bright pink soccer ball with a classic pentagon and hexagon pattern is held in a person's hands. The ball appears to be made of a smooth, possibly synthetic material, and the hands are positioned to cradle it securely.",
+      "attributes": {
+        "color": "pink",
+        "pattern": "pentagon and hexagon",
+        "material": "smooth synthetic",
+        "held_by": "hands",
+        "position": "centered in the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        776.0,
+        -0.5,
+        1024.0,
+        116.5
+      ],
+      "mask": "image_6.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a tree trunk splitting into a V-shape, with a small cluster of green leaves visible on the right side against a bright, blurred background. The bottom edge of the frame shows a textured, dark brown surface, possibly soil or bark.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "shape": "V-shaped split",
+          "focus": "blurred"
+        },
+        "leaves": {
+          "color": "green",
+          "position": "right side",
+          "focus": "blurred"
+        },
+        "background": {
+          "color": "bright white and light blue",
+          "focus": "heavily blurred"
+        },
+        "foreground": {
+          "texture": "rough, dark brown",
+          "position": "bottom edge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.5546875,
+      "box": [
+        113.5,
+        41.0,
+        266.0,
+        340.0
+      ],
+      "mask": "image_6.masks/tree_1.png",
+      "crop": null,
+      "description": "A close-up profile view of an older Black man wearing a black ribbed knit beanie, with visible gray and white hair on his head and beard, and a turquoise shirt collar.",
+      "attributes": {
+        "gender": "male",
+        "age": "older",
+        "ethnicity": "Black",
+        "clothing": {
+          "hat": {
+            "type": "beanie",
+            "color": "black",
+            "texture": "ribbed knit"
+          },
+          "shirt": {
+            "color": "turquoise"
+          }
+        },
+        "hair": {
+          "color": "gray and white",
+          "location": "head and beard"
+        },
+        "pose": "profile view",
+        "background": "blurred greenery and tree trunk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.6953125,
+      "box": [
+        312.0,
+        1.0,
+        712.0,
+        384.0
+      ],
+      "mask": "image_6.masks/tree_2.png",
+      "crop": null,
+      "description": "A large tree with a thick, brown trunk and a dense canopy of green leaves stands in the background, appearing out of focus behind two men in the foreground.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "thickness": "thick"
+        },
+        "leaves": {
+          "color": "green",
+          "density": "dense"
+        },
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.8828125,
+      "box": [
+        -2.5,
+        0.0,
+        248.0,
+        528.0
+      ],
+      "mask": "image_6.masks/tree_3.png",
+      "crop": null,
+      "description": "A large tree with a thick, brown trunk and branching limbs is visible in the background, appearing out of focus behind a person in the foreground. The tree has green foliage at the top, and the background is blurred, suggesting a shallow depth of field.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "thickness": "thick",
+          "texture": "rough"
+        },
+        "branches": {
+          "color": "brown",
+          "structure": "branching"
+        },
+        "leaves": {
+          "color": "green",
+          "density": "moderate"
+        },
+        "focus": "out of focus",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        106.0,
+        262.0,
+        688.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of an adult woman with fair skin and visible freckles holding a baby with dark, wet-looking hair and chubby cheeks. The woman is wearing a light beige top and is kissing the baby's forehead, while the baby, dressed in a matching beige short-sleeved shirt, looks off to the side with a calm expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "skin_tone": "fair",
+        "skin_features": "freckles",
+        "hair_color": "brown",
+        "clothing": {
+          "top": "light beige, sleeveless or tank top"
+        },
+        "action": "kissing baby's forehead",
+        "pose": "holding baby",
+        "expression": "affectionate, eyes closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        142.0,
+        2.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, dark brown hair is shown in profile, gently kissing the forehead of a baby she is holding. The woman has fair skin, closed eyes, and is wearing a white tank top, while the baby has dark, wet-looking hair and is wearing a light beige short-sleeved shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "skin_tone": "fair",
+        "facial_expression": "tender, eyes closed",
+        "clothing": {
+          "top": "white tank top"
+        },
+        "pose": "holding a baby, leaning in to kiss",
+        "action": "kissing baby's forehead",
+        "associated_entity": {
+          "type": "baby",
+          "hair": "dark, wet",
+          "clothing": "beige short-sleeved shirt",
+          "expression": "looking to the side"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

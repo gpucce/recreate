@@ -1,0 +1,352 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        -4.0,
+        624.0,
+        996.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/alley_0.png",
+      "crop": null,
+      "description": "A man and a young child are walking away from the camera down a wet, cobblestone alleyway, holding hands. The man is wearing a dark blue puffer jacket and dark pants, while the child is dressed in a similar dark blue puffer jacket and light blue jeans. The alley is lined with stone buildings and potted plants, with fallen leaves scattered on the ground.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "walls": "stone",
+          "decorations": "potted plants, fallen leaves"
+        },
+        "man": {
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "pants": "dark",
+            "shoes": "brown"
+          },
+          "pose": "walking away"
+        },
+        "child": {
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "jeans": "light blue",
+            "shoes": "brown"
+          },
+          "pose": "walking away, holding hands with man"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        604.0,
+        2.0,
+        1024.0,
+        816.0
+      ],
+      "mask": "image_14.masks/building_0.png",
+      "crop": null,
+      "description": "A rustic stone building with a wooden balcony adorned with vibrant flower boxes, featuring a cobblestone pathway in front and a person walking by.",
+      "attributes": {
+        "building": {
+          "material": "stone",
+          "balcony": {
+            "material": "wood",
+            "decoration": "flower boxes",
+            "flowers": {
+              "colors": [
+                "red",
+                "orange",
+                "yellow",
+                "pink",
+                "white"
+              ]
+            }
+          },
+          "windows": {
+            "frame": "wood",
+            "color": "brown"
+          },
+          "door": {
+            "material": "wood",
+            "color": "brown"
+          },
+          "pathway": {
+            "material": "cobblestone",
+            "condition": "wet"
+          }
+        },
+        "person": {
+          "clothing": {
+            "jacket": "dark blue",
+            "pants": "light blue"
+          },
+          "position": "walking",
+          "direction": "away from camera"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.59375,
+      "box": [
+        412.0,
+        312.0,
+        676.0,
+        452.0
+      ],
+      "mask": "image_14.masks/building_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a building's roofline and upper facade, featuring a dark, sloped roof with a small chimney and a triangular gable end. The walls appear to be made of dark wood or siding, with a glimpse of a lighter interior or window area below the eaves.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray or black",
+          "shape": "sloped, gabled",
+          "features": [
+            "small chimney",
+            "triangular gable end"
+          ]
+        },
+        "walls": {
+          "material": "wood or siding",
+          "color": "dark brown"
+        },
+        "focus": "out-of-focus",
+        "viewpoint": "close-up, low angle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.52734375,
+      "box": [
+        280.0,
+        282.0,
+        552.0,
+        502.0
+      ],
+      "mask": "image_14.masks/building_2.png",
+      "crop": null,
+      "description": "A traditional wooden building with dark brown horizontal siding and a sloped roof, featuring a balcony with flower boxes and a small window, set against a backdrop of autumn foliage and a grassy hill.",
+      "attributes": {
+        "structure": "wooden",
+        "siding": "dark brown horizontal planks",
+        "roof": "sloped, grey",
+        "features": [
+          "balcony",
+          "flower boxes",
+          "small window"
+        ],
+        "surroundings": {
+          "foliage": "autumn colors (orange, yellow)",
+          "background": "grassy hill, distant buildings"
+        },
+        "style": "traditional alpine or chalet"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.51953125,
+      "box": [
+        486.0,
+        260.0,
+        520.0,
+        280.0
+      ],
+      "mask": "image_14.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.87109375,
+      "box": [
+        1.0,
+        2.0,
+        320.0,
+        760.0
+      ],
+      "mask": "image_14.masks/building_4.png",
+      "crop": null,
+      "description": "A traditional alpine-style building with a stone lower facade and a dark wooden upper balcony adorned with vibrant orange, yellow, and red flowers in hanging planters. The balcony features vertical wooden slats and a sturdy overhang, while the ground floor has a wooden door and a small window set into the rough-hewn stone wall.",
+      "attributes": {
+        "architecture_style": "alpine/traditional",
+        "materials": {
+          "lower_facade": "stone",
+          "upper_facade": "wood",
+          "balcony": "wood"
+        },
+        "colors": {
+          "stone": "gray/white",
+          "wood": "dark brown",
+          "flowers": "orange, yellow, red, white"
+        },
+        "features": {
+          "balcony": "wooden with vertical slats",
+          "planters": "hanging, filled with flowers",
+          "door": "wooden, arched",
+          "window": "small, rectangular, stone-framed"
+        },
+        "condition": "well-maintained",
+        "setting": "rural/mountainous"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.5859375,
+      "box": [
+        568.0,
+        340.0,
+        720.0,
+        444.0
+      ],
+      "mask": "image_14.masks/building_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a dark, sloped roof and a small, pointed finial at the peak. The structure appears to be made of dark wood or similar material, with a lighter-colored wall visible in the background. The image is heavily blurred, making it difficult to discern specific details or textures.",
+      "attributes": {
+        "roof": {
+          "color": "dark",
+          "shape": "sloped",
+          "finial": "pointed"
+        },
+        "walls": {
+          "color": "light",
+          "material": "unknown"
+        },
+        "focus": "blurry",
+        "structure": "building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        552.0,
+        568.0,
+        568.0,
+        608.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        328.0,
+        436.0,
+        532.0,
+        964.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "An older man with short white hair is seen from behind, walking away on a wet cobblestone street while holding the hand of a child. He wears a dark navy blue puffer jacket, dark grey trousers, and brown leather shoes.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "material": "synthetic"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "brown",
+            "material": "leather"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding a child's hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        494.0,
+        612.0,
+        656.0,
+        972.0
+      ],
+      "mask": "image_14.masks/person_2.png",
+      "crop": null,
+      "description": "A young child with light brown hair is seen from behind, walking away on a wet cobblestone street while holding the hand of an adult. The child wears a dark navy blue puffy hooded jacket, light blue jeans, and brown shoes.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "light blue"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "sneakers"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.5859375,
+      "box": [
+        568.0,
+        576.0,
+        592.0,
+        616.0
+      ],
+      "mask": "image_14.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

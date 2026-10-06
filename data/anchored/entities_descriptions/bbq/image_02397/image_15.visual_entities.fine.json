@@ -1,0 +1,129 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        508.0,
+        82.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy gray hair and a full gray beard sits on a wooden bench, wearing a distressed brown leather jacket over an orange polo shirt and gray pants. He has a serious expression with a slight frown, looking slightly off-camera to his left with his hands clasped in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "wavy, medium length",
+          "beard": "full, gray"
+        },
+        "expression": "serious, frowning",
+        "pose": "sitting, hands clasped",
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "condition": "distressed, worn",
+            "details": "zippered pockets, collar"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "orange",
+            "collar": "buttoned"
+          },
+          "pants": {
+            "color": "gray",
+            "material": "denim or cotton"
+          }
+        },
+        "setting": "indoor, plain white background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -4.0,
+        152.0,
+        516.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits on a wooden bench, wearing a blue t-shirt and beige pants, with his head bowed and one hand covering his face in a gesture of distress or exhaustion.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "blue"
+          },
+          "pants": {
+            "type": "casual",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting, head down, hand on face",
+        "expression": "distressed, tired, or sad",
+        "setting": "indoor, plain background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        4.0,
+        4.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/wall_0.png",
+      "crop": null,
+      "description": "Two men are seated side by side on a wooden bench against a plain white wall. The man on the left has curly brown hair, is wearing a blue t-shirt and beige pants, and is covering his face with his hand in a gesture of distress or exhaustion. The man on the right has gray hair and a beard, is wearing an orange polo shirt under a brown leather jacket and gray pants, and is looking forward with a serious expression.",
+      "attributes": {
+        "men": [
+          {
+            "position": "left",
+            "hair": "curly brown",
+            "clothing": {
+              "shirt": "blue t-shirt",
+              "pants": "beige"
+            },
+            "pose": "sitting, hand covering face",
+            "expression": "distressed or exhausted"
+          },
+          {
+            "position": "right",
+            "hair": "gray",
+            "beard": "gray",
+            "clothing": {
+              "shirt": "orange polo",
+              "jacket": "brown leather",
+              "pants": "gray"
+            },
+            "pose": "sitting, hands clasped",
+            "expression": "serious"
+          }
+        ],
+        "background": "plain white wall",
+        "seating": "wooden bench"
+      },
+      "parse_ok": true
+    }
+  ]
+}

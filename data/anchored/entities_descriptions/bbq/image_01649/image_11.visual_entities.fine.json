@@ -1,0 +1,344 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        44.0,
+        672.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/alley_0.png",
+      "crop": null,
+      "description": "A young child and an adult are walking away from the camera down a wet, cobblestone alleyway, holding hands. The child is wearing a dark blue puffer jacket and jeans, while the adult is dressed in a black puffer jacket and dark pants. The alley is lined with potted plants and stone walls, and the ground is reflective from rain.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "lighting": "overcast",
+          "decorations": [
+            "potted plants",
+            "stone walls"
+          ]
+        },
+        "child": {
+          "age": "toddler",
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "pants": "blue jeans",
+            "shoes": "brown boots"
+          },
+          "pose": "walking",
+          "position": "left of adult"
+        },
+        "adult": {
+          "clothing": {
+            "jacket": "black puffer",
+            "pants": "dark gray",
+            "shoes": "black"
+          },
+          "pose": "walking",
+          "position": "right of child"
+        },
+        "interaction": "holding hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        258.0,
+        312.0,
+        434.0,
+        680.0
+      ],
+      "mask": "image_11.masks/building_0.png",
+      "crop": null,
+      "description": "A stone building with a gray slate roof, featuring a wooden balcony with a railing and flower boxes filled with colorful flowers. The building has a rustic appearance with visible stone masonry and a small window with a wooden frame.",
+      "attributes": {
+        "material": "stone",
+        "roof": "gray slate",
+        "balcony": {
+          "material": "wood",
+          "railing": "wooden"
+        },
+        "flowers": {
+          "color": "multicolored",
+          "location": "flower boxes"
+        },
+        "window": {
+          "frame": "wooden"
+        },
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.85546875,
+      "box": [
+        676.0,
+        2.0,
+        1024.0,
+        840.0
+      ],
+      "mask": "image_11.masks/building_1.png",
+      "crop": null,
+      "description": "A traditional European-style building with a white stucco facade and a wooden balcony adorned with vibrant red, orange, and white flowers. The balcony features dark wooden railings and is supported by wooden brackets, while the ground floor has a stone foundation and a wooden door with an arched top.",
+      "attributes": {
+        "facade": "white stucco",
+        "balcony": {
+          "material": "wood",
+          "color": "dark brown",
+          "decorations": "flowers in red, orange, and white",
+          "railings": "vertical wooden slats"
+        },
+        "door": {
+          "material": "wood",
+          "color": "brown",
+          "shape": "arched top"
+        },
+        "foundation": "stone",
+        "windows": {
+          "shutters": "wooden, brown"
+        },
+        "style": "traditional European",
+        "ground": "cobblestone street"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.85546875,
+      "box": [
+        -1.0,
+        4.0,
+        316.0,
+        840.0
+      ],
+      "mask": "image_11.masks/building_2.png",
+      "crop": null,
+      "description": "A two-story building with a white stucco facade and a dark wooden balcony adorned with vibrant flower boxes containing red, yellow, and white blooms. The ground floor features a wooden door and a window with brown shutters, while a large terracotta pot with flowers sits on the wet cobblestone street in front.",
+      "attributes": {
+        "facade": "white stucco",
+        "balcony": {
+          "material": "wood",
+          "color": "dark brown",
+          "decoration": "flower boxes with red, yellow, and white flowers"
+        },
+        "windows": {
+          "shutters": "brown wood",
+          "frame": "stone"
+        },
+        "door": {
+          "material": "wood",
+          "color": "brown"
+        },
+        "ground_floor": {
+          "pot": {
+            "material": "terracotta",
+            "color": "orange-brown",
+            "contents": "flowers"
+          },
+          "street": {
+            "material": "cobblestone",
+            "condition": "wet"
+          }
+        },
+        "roof": {
+          "material": "wood",
+          "color": "dark brown"
+        },
+        "adjacent_building": {
+          "material": "stone",
+          "color": "gray"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.84375,
+      "box": [
+        604.0,
+        178.0,
+        796.0,
+        664.0
+      ],
+      "mask": "image_11.masks/building_3.png",
+      "crop": null,
+      "description": "A two-story building with a white lower facade and a dark wooden upper story featuring a small balcony with a wooden railing. The roof is covered in grey shingles, and vibrant red, white, and orange flowers hang from window boxes on both levels.",
+      "attributes": {
+        "structure": {
+          "stories": 2,
+          "roof": {
+            "material": "shingles",
+            "color": "grey"
+          },
+          "upper_facade": {
+            "material": "wood",
+            "color": "dark brown",
+            "features": [
+              "balcony",
+              "wooden railing"
+            ]
+          },
+          "lower_facade": {
+            "material": "plaster",
+            "color": "white"
+          }
+        },
+        "decorations": {
+          "flower_boxes": {
+            "location": [
+              "upper balcony",
+              "lower window"
+            ],
+            "flower_colors": [
+              "red",
+              "white",
+              "orange"
+            ]
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.875,
+      "box": [
+        386.0,
+        398.0,
+        632.0,
+        648.0
+      ],
+      "mask": "image_11.masks/building_4.png",
+      "crop": null,
+      "description": "A traditional alpine-style house with a steep, grey shingled roof and a wooden gable end featuring a small window. The building has a light-colored facade, possibly stucco or stone, with a wooden balcony on the second floor and a hanging flower basket with red and yellow flowers on the left side.",
+      "attributes": {
+        "architecture_style": "alpine",
+        "roof": {
+          "color": "grey",
+          "material": "shingles",
+          "shape": "steep gable"
+        },
+        "facade": {
+          "color": "light beige/white",
+          "material": "stucco or stone"
+        },
+        "balcony": {
+          "material": "wood",
+          "color": "brown"
+        },
+        "decorations": {
+          "flower_baskets": {
+            "colors": [
+              "red",
+              "yellow"
+            ],
+            "location": "left side"
+          }
+        },
+        "windows": {
+          "frame_color": "brown",
+          "material": "wood"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        506.0,
+        472.0,
+        688.0,
+        960.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly person with short white hair and glasses is seen from behind, walking away on a wet cobblestone street while holding the hand of a child. They are wearing a black puffy winter jacket and dark grey trousers.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "visible from side profile"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "black",
+            "style": "horizontal quilting"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding a child's hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        400.0,
+        652.0,
+        536.0,
+        948.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with short, wavy light brown hair is seen from behind, walking away on a wet, cobblestone surface. The child wears a dark navy blue puffy hooded jacket, blue jeans, and brown shoes, holding the hand of an adult whose arm is partially visible on the right.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark navy blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "brown",
+            "type": "sneakers"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

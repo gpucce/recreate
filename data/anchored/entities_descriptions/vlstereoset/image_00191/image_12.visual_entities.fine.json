@@ -1,0 +1,62 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        139.0,
+        145.0,
+        163.0,
+        492.0
+      ],
+      "mask": "image_12.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender, white flagpole stands vertically against a clear blue sky, topped with a small, rounded, light-colored finial. The pole appears smooth and cylindrical, with a slight shadow on its right side indicating lighting from the left.",
+      "attributes": {
+        "color": "white",
+        "shape": "cylindrical",
+        "top": "rounded finial",
+        "material": "metal or painted wood",
+        "position": "vertical",
+        "background": "blue sky",
+        "lighting": "side-lit from left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        238.0,
+        60.0,
+        904.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/statue_0.png",
+      "crop": null,
+      "description": "A weathered white marble statue of a male figure, likely a Roman emperor, wearing a laurel wreath and a draped toga with a chain and medallion around his neck. He holds a scroll in his right hand and a small vessel in his left, standing in front of a classical building with a French flag visible in the background.",
+      "attributes": {
+        "material": "white marble",
+        "condition": "weathered, stained",
+        "gender": "male",
+        "age": "adult",
+        "headwear": "laurel wreath",
+        "necklace": "chain with medallion",
+        "clothing": "draped toga",
+        "accessories": {
+          "right_hand": "scroll",
+          "left_hand": "small vessel"
+        },
+        "background": {
+          "flag": "French tricolor",
+          "architecture": "classical columns and balustrade"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,1093 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.76953125,
+      "box": [
+        -1.0,
+        4.0,
+        328.0,
+        454.0
+      ],
+      "mask": "image_9.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a reddish-brown brick facade is visible in the background, featuring tall, narrow windows with white frames and a dark awning over a ground-floor entrance. The building is partially obscured by a tree trunk in the foreground and appears out of focus.",
+      "attributes": {
+        "structure": {
+          "material": "brick",
+          "color": "reddish-brown",
+          "stories": "multi-story",
+          "windows": {
+            "shape": "tall and narrow",
+            "frame_color": "white"
+          },
+          "features": [
+            "dark awning",
+            "white trim"
+          ]
+        },
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.6640625,
+      "box": [
+        844.0,
+        83.0,
+        1024.0,
+        239.0
+      ],
+      "mask": "image_9.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a building with a light-colored facade, possibly white or beige, featuring vertical lines that suggest windows or architectural details. A yellow rectangular sign is partially visible on the left side, and a tree with orange leaves is in the foreground on the left.",
+      "attributes": {
+        "color": "light-colored facade, yellow sign",
+        "material": "unknown due to blur",
+        "features": [
+          "vertical lines",
+          "yellow sign",
+          "tree with orange leaves"
+        ],
+        "focus": "blurry, out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.796875,
+      "box": [
+        972.0,
+        131.0,
+        1024.0,
+        288.0
+      ],
+      "mask": "image_9.masks/building_2.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a light brown or beige surface with vertical lines, possibly part of a building's facade or wall. The texture appears smooth, and the color is uniform across the visible area.",
+      "attributes": {
+        "color": "light brown/beige",
+        "texture": "smooth",
+        "lines": "vertical",
+        "clarity": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        824.0,
+        424.0,
+        992.0,
+        672.0
+      ],
+      "mask": "image_9.masks/car_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of the front right side of a dark-colored car, showing a side mirror and part of the front bumper and headlight area. The car appears to be parked in a row with other vehicles, which are also blurred in the background.",
+      "attributes": {
+        "color": "dark",
+        "part_visible": [
+          "side mirror",
+          "front bumper",
+          "headlight area"
+        ],
+        "focus": "blurred",
+        "position": "parked",
+        "context": "row of cars"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        932.0,
+        402.0,
+        1024.0,
+        808.0
+      ],
+      "mask": "image_9.masks/car_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of the side of a dark-colored car, showing the side mirror and door panel. The car is parked on a street with yellow fallen leaves visible on the ground in the foreground.",
+      "attributes": {
+        "object": "car",
+        "color": "dark grey or black",
+        "parts_visible": [
+          "side mirror",
+          "door",
+          "window frame"
+        ],
+        "focus": "blurry",
+        "environment": "street with fallen leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 2,
+      "score": 0.828125,
+      "box": [
+        780.0,
+        418.0,
+        908.0,
+        494.0
+      ],
+      "mask": "image_9.masks/car_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus crop of a car's side profile, showing a portion of the door and window frame. The car appears to be light-colored, possibly white or silver, with a dark window tint. The background is indistinct and blurred, suggesting a shallow depth of field.",
+      "attributes": {
+        "color": "light-colored (white/silver)",
+        "window_tint": "dark",
+        "focus": "blurry/out-of-focus",
+        "visible_parts": [
+          "door",
+          "window_frame"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fence",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        -1.0,
+        430.0,
+        96.5,
+        532.0
+      ],
+      "mask": "image_9.masks/fence_0.png",
+      "crop": null,
+      "description": "A close-up view of a black metal fence featuring a decorative finial on top of a vertical post, with a blurred background showing a brick wall and additional fence elements.",
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "design": "decorative finial",
+        "background": "blurred brick wall",
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fence",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        -1.0,
+        496.0,
+        324.0,
+        856.0
+      ],
+      "mask": "image_9.masks/fence_1.png",
+      "crop": null,
+      "description": "A black metal fence with vertical bars and decorative finials on top, running along a sidewalk covered in fallen autumn leaves.",
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "style": "vertical bars with decorative finials",
+        "condition": "clean and intact",
+        "surroundings": {
+          "ground": "sidewalk with fallen autumn leaves",
+          "position": "along the edge of the sidewalk"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fence",
+      "index": 2,
+      "score": 0.64453125,
+      "box": [
+        -2.0,
+        430.0,
+        268.0,
+        532.0
+      ],
+      "mask": "image_9.masks/fence_2.png",
+      "crop": null,
+      "description": "A close-up view of a black metal fence featuring vertical bars topped with spherical finials, set against a blurred background of a tree trunk and greenery.",
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "style": "ornamental",
+        "features": {
+          "top": "spherical finials",
+          "structure": "vertical bars"
+        },
+        "background": "blurred tree and foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "leaf",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        494.0,
+        896.0,
+        552.0,
+        912.0
+      ],
+      "mask": "image_9.masks/leaf_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        506.0,
+        924.0,
+        548.0,
+        932.0
+      ],
+      "mask": "image_9.masks/leaf_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 2,
+      "score": 0.53515625,
+      "box": [
+        190.0,
+        980.0,
+        266.0,
+        1004.0
+      ],
+      "mask": "image_9.masks/leaf_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 3,
+      "score": 0.57421875,
+      "box": [
+        780.0,
+        812.0,
+        812.0,
+        820.0
+      ],
+      "mask": "image_9.masks/leaf_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 4,
+      "score": 0.5703125,
+      "box": [
+        804.0,
+        924.0,
+        868.0,
+        948.0
+      ],
+      "mask": "image_9.masks/leaf_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 5,
+      "score": 0.609375,
+      "box": [
+        528.0,
+        864.0,
+        576.0,
+        872.0
+      ],
+      "mask": "image_9.masks/leaf_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 6,
+      "score": 0.5703125,
+      "box": [
+        466.0,
+        1004.0,
+        486.0,
+        1012.0
+      ],
+      "mask": "image_9.masks/leaf_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 7,
+      "score": 0.671875,
+      "box": [
+        512.0,
+        784.0,
+        544.0,
+        792.0
+      ],
+      "mask": "image_9.masks/leaf_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 8,
+      "score": 0.5234375,
+      "box": [
+        560.0,
+        844.0,
+        576.0,
+        852.0
+      ],
+      "mask": "image_9.masks/leaf_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 9,
+      "score": 0.53125,
+      "box": [
+        466.0,
+        812.0,
+        494.0,
+        820.0
+      ],
+      "mask": "image_9.masks/leaf_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 10,
+      "score": 0.61328125,
+      "box": [
+        54.0,
+        816.0,
+        93.0,
+        832.0
+      ],
+      "mask": "image_9.masks/leaf_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 11,
+      "score": 0.64453125,
+      "box": [
+        936.0,
+        916.0,
+        992.0,
+        964.0
+      ],
+      "mask": "image_9.masks/leaf_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 12,
+      "score": 0.68359375,
+      "box": [
+        908.0,
+        920.0,
+        940.0,
+        952.0
+      ],
+      "mask": "image_9.masks/leaf_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 13,
+      "score": 0.61328125,
+      "box": [
+        264.0,
+        944.0,
+        312.0,
+        960.0
+      ],
+      "mask": "image_9.masks/leaf_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 14,
+      "score": 0.8046875,
+      "box": [
+        478.0,
+        980.0,
+        528.0,
+        996.0
+      ],
+      "mask": "image_9.masks/leaf_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 15,
+      "score": 0.8125,
+      "box": [
+        302.0,
+        984.0,
+        378.0,
+        1008.0
+      ],
+      "mask": "image_9.masks/leaf_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 16,
+      "score": 0.51953125,
+      "box": [
+        564.0,
+        800.0,
+        588.0,
+        808.0
+      ],
+      "mask": "image_9.masks/leaf_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 17,
+      "score": 0.546875,
+      "box": [
+        492.0,
+        832.0,
+        528.0,
+        840.0
+      ],
+      "mask": "image_9.masks/leaf_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 18,
+      "score": 0.55078125,
+      "box": [
+        856.0,
+        988.0,
+        904.0,
+        1004.0
+      ],
+      "mask": "image_9.masks/leaf_18.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 19,
+      "score": 0.56640625,
+      "box": [
+        536.0,
+        808.0,
+        568.0,
+        816.0
+      ],
+      "mask": "image_9.masks/leaf_19.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 20,
+      "score": 0.625,
+      "box": [
+        776.0,
+        864.0,
+        840.0,
+        872.0
+      ],
+      "mask": "image_9.masks/leaf_20.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 21,
+      "score": 0.578125,
+      "box": [
+        205.0,
+        936.0,
+        245.0,
+        952.0
+      ],
+      "mask": "image_9.masks/leaf_21.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 22,
+      "score": 0.7109375,
+      "box": [
+        266.0,
+        976.0,
+        298.0,
+        984.0
+      ],
+      "mask": "image_9.masks/leaf_22.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 23,
+      "score": 0.73828125,
+      "box": [
+        740.0,
+        844.0,
+        764.0,
+        852.0
+      ],
+      "mask": "image_9.masks/leaf_23.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 24,
+      "score": 0.69921875,
+      "box": [
+        161.0,
+        880.0,
+        215.0,
+        928.0
+      ],
+      "mask": "image_9.masks/leaf_24.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 25,
+      "score": 0.7734375,
+      "box": [
+        64.5,
+        876.0,
+        125.5,
+        924.0
+      ],
+      "mask": "image_9.masks/leaf_25.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 26,
+      "score": 0.734375,
+      "box": [
+        56.25,
+        972.0,
+        134.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/leaf_26.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 27,
+      "score": 0.54296875,
+      "box": [
+        908.0,
+        880.0,
+        948.0,
+        912.0
+      ],
+      "mask": "image_9.masks/leaf_27.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 28,
+      "score": 0.6953125,
+      "box": [
+        940.0,
+        976.0,
+        988.0,
+        1016.0
+      ],
+      "mask": "image_9.masks/leaf_28.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 29,
+      "score": 0.7109375,
+      "box": [
+        720.0,
+        884.0,
+        744.0,
+        892.0
+      ],
+      "mask": "image_9.masks/leaf_29.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 30,
+      "score": 0.60546875,
+      "box": [
+        476.0,
+        780.0,
+        500.0,
+        788.0
+      ],
+      "mask": "image_9.masks/leaf_30.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 31,
+      "score": 0.50390625,
+      "box": [
+        -1.625,
+        26.375,
+        65.5,
+        72.0
+      ],
+      "mask": "image_9.masks/leaf_31.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 32,
+      "score": 0.6953125,
+      "box": [
+        592.0,
+        792.0,
+        624.0,
+        800.0
+      ],
+      "mask": "image_9.masks/leaf_32.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 33,
+      "score": 0.8203125,
+      "box": [
+        744.0,
+        988.0,
+        808.0,
+        1004.0
+      ],
+      "mask": "image_9.masks/leaf_33.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 34,
+      "score": 0.60546875,
+      "box": [
+        600.0,
+        772.0,
+        624.0,
+        780.0
+      ],
+      "mask": "image_9.masks/leaf_34.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 35,
+      "score": 0.578125,
+      "box": [
+        123.0,
+        968.0,
+        169.0,
+        1008.0
+      ],
+      "mask": "image_9.masks/leaf_35.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 36,
+      "score": 0.7109375,
+      "box": [
+        544.0,
+        992.0,
+        584.0,
+        1000.0
+      ],
+      "mask": "image_9.masks/leaf_36.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 37,
+      "score": 0.7421875,
+      "box": [
+        274.0,
+        912.0,
+        330.0,
+        928.0
+      ],
+      "mask": "image_9.masks/leaf_37.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "leaf",
+      "index": 38,
+      "score": 0.6796875,
+      "box": [
+        792.0,
+        960.0,
+        840.0,
+        968.0
+      ],
+      "mask": "image_9.masks/leaf_38.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "parking_sign",
+      "index": 0,
+      "score": 0.55859375,
+      "box": [
+        510.0,
+        288.0,
+        572.0,
+        368.0
+      ],
+      "mask": "image_9.masks/parking_sign_0.png",
+      "crop": null,
+      "description": "A blurred, square-shaped yellow sign with a black letter 'P' in the center, indicating a parking area. The sign is out of focus, with soft edges and indistinct details.",
+      "attributes": {
+        "shape": "square",
+        "color": "yellow",
+        "symbol": "black letter 'P'",
+        "focus": "blurred",
+        "material": "unknown due to blur",
+        "function": "parking indicator"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        552.0,
+        246.0,
+        800.0,
+        984.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long dark hair walks forward on a sidewalk scattered with autumn leaves, wearing a blue denim jacket over a light blue button-down shirt, a thick cream-colored knitted scarf with fringe, black skinny jeans, and white sneakers. She has a neutral expression and is looking slightly to her left.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "blue"
+          },
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue"
+          },
+          "accessories": {
+            "scarf": {
+              "color": "cream",
+              "material": "knitted",
+              "detail": "fringe"
+            }
+          },
+          "bottoms": {
+            "type": "skinny jeans",
+            "color": "black"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "background": "outdoor sidewalk with fallen leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8046875,
+      "box": [
+        508.0,
+        430.0,
+        548.0,
+        592.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's arm and shoulder area, wearing a light gray, long-sleeved garment with visible fabric texture and folds. The background is blurred, suggesting a shallow depth of field, with indistinct colors including dark blue and beige tones.",
+      "attributes": {
+        "clothing": {
+          "sleeve": "light gray",
+          "material": "soft fabric, possibly cotton or knit"
+        },
+        "pose": "arm partially visible, likely relaxed or slightly bent",
+        "background": "blurred, indistinct colors (dark blue, beige)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        262.0,
+        184.0,
+        536.0,
+        984.0
+      ],
+      "mask": "image_9.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with curly dark hair walks forward on a sidewalk covered in fallen autumn leaves, wearing a grey zip-up hoodie, blue jeans, and brown shoes. He carries a black backpack and holds a white cane with a red band in his right hand, looking off to the side with a neutral expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "grey zip-up hoodie",
+          "bottom": "blue jeans",
+          "shoes": "brown sneakers",
+          "accessories": "black backpack"
+        },
+        "pose": "walking",
+        "accessory": "white cane with red band",
+        "expression": "neutral",
+        "background": "autumn leaves on sidewalk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        194.0,
+        556.0,
+        928.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A concrete sidewalk paved with large rectangular slabs, scattered with dry, yellow and brown autumn leaves, particularly concentrated along the edges and in the center. Two people are walking on it, one using a white cane with a red band, indicating they are visually impaired. The sidewalk is bordered by a dark metal fence on the left and parked cars on the right.",
+      "attributes": {
+        "surface": "concrete",
+        "pattern": "rectangular slabs",
+        "debris": "autumn leaves",
+        "leaf_color": [
+          "yellow",
+          "brown",
+          "orange"
+        ],
+        "leaf_distribution": "scattered, denser at edges",
+        "boundaries": {
+          "left": "dark metal fence",
+          "right": "parked cars"
+        },
+        "users": [
+          {
+            "clothing": {
+              "top": "grey hoodie",
+              "pants": "blue jeans",
+              "shoes": "brown sneakers"
+            },
+            "accessory": "white cane with red band",
+            "pose": "walking"
+          },
+          {
+            "clothing": {
+              "top": "denim jacket over light blue shirt",
+              "scarf": "cream-colored knit scarf",
+              "pants": "black leggings",
+              "shoes": "white sneakers"
+            },
+            "pose": "walking"
+          }
+        ],
+        "season": "autumn",
+        "lighting": "natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        234.0,
+        2.0,
+        928.0,
+        332.0
+      ],
+      "mask": "image_9.masks/tree_0.png",
+      "crop": null,
+      "description": "A tree with a thick, brown trunk and branches extending upward, covered in vibrant yellow autumn leaves. The leaves are maple-shaped and densely clustered, creating a canopy that fills the upper portion of the frame.",
+      "attributes": {
+        "season": "autumn",
+        "leaf_color": "yellow",
+        "leaf_shape": "maple",
+        "trunk_color": "brown",
+        "trunk_thickness": "thick",
+        "branching": "multiple branches extending upward",
+        "density": "dense foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        0.0,
+        0.0,
+        940.0,
+        524.0
+      ],
+      "mask": "image_9.masks/tree_1.png",
+      "crop": null,
+      "description": "A large deciduous tree with a thick, textured brown trunk and branches extending upward, covered in vibrant yellow autumn leaves that form a canopy overhead.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "autumn",
+        "leaves": {
+          "color": "yellow",
+          "density": "dense"
+        },
+        "trunk": {
+          "color": "brown",
+          "texture": "rough",
+          "thickness": "thick"
+        },
+        "position": "left side of frame, extending across top"
+      },
+      "parse_ok": true
+    }
+  ]
+}

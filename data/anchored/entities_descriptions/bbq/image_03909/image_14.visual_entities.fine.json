@@ -1,0 +1,148 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        446.0,
+        720.0,
+        608.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's leg wearing dark gray or black leggings, with a hand resting on the knee. In the background, there is a black metal side table with a circular top and thin legs.",
+      "attributes": {
+        "clothing": {
+          "leggings": "dark gray or black"
+        },
+        "accessories": {
+          "ring": "visible on finger"
+        },
+        "furniture": {
+          "side_table": {
+            "color": "black",
+            "material": "metal",
+            "shape": "circular top, thin legs"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        528.0,
+        136.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A man with curly brown hair and light facial stubble sits in profile on a tan leather armchair, wearing a dark navy button-down shirt with sleeves rolled to the elbows and dark grey jeans. He has a calm, contemplative expression, looking off to the left with his hands clasped between his knees.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly, medium length"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "dark navy blue",
+            "sleeves": "rolled up to elbows"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "dark grey"
+          }
+        },
+        "pose": "sitting, leaning slightly forward, hands clasped",
+        "expression": "neutral, contemplative",
+        "furniture": {
+          "type": "armchair",
+          "material": "leather",
+          "color": "tan"
+        },
+        "background": {
+          "plant": "white calla lilies in a pot",
+          "wall": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        31.0,
+        154.0,
+        440.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair sits in a grey armchair, wearing a white button-down shirt with sleeves rolled to the elbows and maroon cropped trousers. She is looking off to the side with a serious, contemplative expression, her hands clasped together in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "maroon",
+            "length": "cropped"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "gaze": "to the side",
+        "accessories": {
+          "earrings": "small drop"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "whiteboard",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        436.0,
+        5.0,
+        1024.0,
+        412.0
+      ],
+      "mask": "image_14.masks/whiteboard_0.png",
+      "crop": null,
+      "description": "A large, blank whiteboard with a thin, light-colored frame is mounted on a white wall, featuring a small, dark rectangular object resting on its bottom ledge.",
+      "attributes": {
+        "object": "whiteboard",
+        "surface": "white, blank",
+        "frame": "thin, light-colored",
+        "ledge": "white, bottom",
+        "object_on_ledge": "small, dark, rectangular",
+        "background": "white wall",
+        "state": "clean, unused"
+      },
+      "parse_ok": true
+    }
+  ]
+}

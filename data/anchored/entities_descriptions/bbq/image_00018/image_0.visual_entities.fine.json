@@ -1,0 +1,131 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        444.0,
+        1136.0,
+        1600.0,
+        1592.0
+      ],
+      "mask": "image_0.masks/grass_0.png",
+      "crop": null,
+      "description": "A patch of green grass is visible in the background, appearing lush and well-maintained, with a slightly blurred effect due to the shallow depth of field. The grass is located on the right side of the image, bordering a paved path.",
+      "attributes": {
+        "color": "green",
+        "texture": "lush",
+        "state": "well-maintained",
+        "position": "background, right side",
+        "effect": "blurred due to shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.69140625,
+      "box": [
+        3.125,
+        1136.0,
+        1528.0,
+        1592.0
+      ],
+      "mask": "image_0.masks/path_0.png",
+      "crop": null,
+      "description": "A close-up view of an adult and a child walking hand in hand on a paved path, with the adult wearing light blue jeans and a striped shirt, and the child wearing a yellow t-shirt and light blue shorts. The background is blurred, showing green grass on either side of the path.",
+      "attributes": {
+        "clothing": {
+          "adult": {
+            "pants": "light blue jeans",
+            "shirt": "striped, light-colored"
+          },
+          "child": {
+            "shirt": "yellow t-shirt",
+            "shorts": "light blue"
+          }
+        },
+        "pose": "walking hand in hand",
+        "setting": {
+          "path": "paved, light gray",
+          "background": "green grass, blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        620.0,
+        234.0,
+        1560.0,
+        1592.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair is seen from behind, walking away on a paved path. She wears a light-colored, long-sleeved button-down shirt with thin vertical stripes and light blue denim jeans, holding the hand of a smaller person on her left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "shirt",
+            "color": "white with thin vertical stripes",
+            "sleeves": "long, cuffed"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue"
+          }
+        },
+        "pose": "walking away, holding hands",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        79.5,
+        872.0,
+        708.0,
+        1592.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with short, light blonde hair is seen from behind, wearing a pale yellow short-sleeved t-shirt and light blue pants. The child is walking away from the camera, holding the hand of an adult whose arm is visible on the right side of the frame.",
+      "attributes": {
+        "age": "toddler",
+        "hair": {
+          "color": "blonde",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pale yellow",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "light blue"
+          }
+        },
+        "pose": "walking away, holding hands",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

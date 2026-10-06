@@ -1,0 +1,146 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        149.0,
+        -2.25,
+        247.0,
+        120.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus portrait of a person with light skin and brown hair, wearing a reddish-brown top with a white collar, positioned behind a blurred beige object in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": {
+            "color": "reddish-brown",
+            "collar": "white"
+          }
+        },
+        "image_quality": "blurry",
+        "foreground": "beige object"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        182.0,
+        112.0,
+        832.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in a floral armchair, wearing a dark blue velvet robe with a pearl trim and a turquoise pendant necklace, while a young boy with curly brown hair sits on her lap wearing a light blue Champion sweatshirt.",
+      "attributes": {
+        "entity_type": "group",
+        "people": [
+          {
+            "role": "elderly woman",
+            "age_group": "senior",
+            "gender": "female",
+            "hair": {
+              "color": "white",
+              "style": "curly",
+              "length": "short"
+            },
+            "clothing": {
+              "garment": "robe",
+              "color": "dark blue",
+              "material": "velvet",
+              "details": "pearl trim on lapel"
+            },
+            "accessories": {
+              "necklace": "gold chain with turquoise pendant",
+              "earrings": "pearl drop"
+            },
+            "expression": "smiling",
+            "pose": "sitting, arm around child"
+          },
+          {
+            "role": "child",
+            "age_group": "child",
+            "gender": "male",
+            "hair": {
+              "color": "brown",
+              "style": "curly",
+              "length": "short"
+            },
+            "clothing": {
+              "top": "sweatshirt",
+              "color": "light blue",
+              "brand": "Champion",
+              "logo": "red and blue C with text"
+            },
+            "expression": "neutral",
+            "pose": "sitting on lap"
+          }
+        ],
+        "setting": {
+          "furniture": "floral patterned armchair with wooden frame",
+          "background": "white fireplace mantel with blue and white porcelain vases"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        432.0,
+        354.0,
+        912.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with curly light brown hair sits on the lap of an older woman, wearing a light blue Champion sweatshirt and dark blue jeans. The woman, partially visible, wears a dark blue velvet top with pearl detailing and a turquoise pendant necklace, her hands resting gently on the boy's arms.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "brand": "Champion",
+            "logo": "red and blue C with black text"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting on lap",
+        "expression": "neutral, looking forward",
+        "accessories": {
+          "woman": {
+            "necklace": "turquoise pendant on gold chain",
+            "top": "dark blue velvet with pearl trim",
+            "ring": "gold band on right hand"
+          }
+        },
+        "context": "indoor setting, fireplace in background, floral arrangement to the right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

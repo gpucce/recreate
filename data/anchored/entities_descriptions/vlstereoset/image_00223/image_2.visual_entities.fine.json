@@ -1,0 +1,87 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        172.0,
+        452.0,
+        1012.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up view of a man's upper torso wearing a formal black coat with wide lapels over a black waistcoat and a white shirt with a high, stiff collar. A black cravat is tied in a bow at the neck, and the man has a thick brown mustache and sideburns visible against a dark, neutral background.",
+      "attributes": {
+        "entity": "man",
+        "gender": "male",
+        "age": "adult",
+        "facial_hair": {
+          "mustache": "thick, brown",
+          "sideburns": "brown"
+        },
+        "clothing": {
+          "coat": {
+            "color": "black",
+            "style": "formal, wide lapels",
+            "material": "wool or heavy fabric"
+          },
+          "waistcoat": {
+            "color": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "neckwear": {
+            "type": "cravat",
+            "color": "black",
+            "style": "tied in a bow"
+          }
+        },
+        "pose": "seated or standing, facing slightly left",
+        "background": "dark, neutral, indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        172.0,
+        90.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A portrait of a man with dark, curly hair and a prominent mustache, wearing a black coat and cravat over a white shirt, set against a dark, neutral background. He has a serious expression and is looking slightly to the side.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "facial_hair": {
+          "mustache": "thick, brown",
+          "beard": "light stubble"
+        },
+        "clothing": {
+          "coat": "black",
+          "shirt": "white",
+          "cravat": "black"
+        },
+        "pose": "seated, facing forward",
+        "expression": "serious",
+        "background": "dark, neutral"
+      },
+      "parse_ok": true
+    }
+  ]
+}

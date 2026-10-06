@@ -1,0 +1,101 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        144.0,
+        204.0,
+        528.0,
+        996.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with shoulder-length black hair stands in a hallway, wearing a black floral midi dress under an open beige blazer. She has her right hand placed flat against the wall and is wearing black lace-up boots, with a man's arm visible around her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "clothing": {
+          "dress": {
+            "color": "black",
+            "pattern": "red and white floral",
+            "length": "midi"
+          },
+          "jacket": {
+            "type": "blazer",
+            "color": "beige",
+            "fit": "loose"
+          },
+          "shoes": {
+            "type": "boots",
+            "color": "black",
+            "style": "lace-up"
+          },
+          "accessories": {
+            "necklace": "thin chain"
+          }
+        },
+        "pose": {
+          "action": "standing",
+          "hand_position": "right hand on wall"
+        },
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        316.0,
+        126.0,
+        924.0,
+        1008.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian man with short, dark, wavy hair stands in a hallway, wearing a black suit jacket over a white button-down shirt and black trousers. He has a serious expression, stands with his left arm extended against the wall, and wears black leather dress shoes.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Asian",
+        "age_group": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "type": "suit jacket"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "button-down"
+          },
+          "pants": {
+            "color": "black",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "leather dress shoes"
+          }
+        },
+        "pose": "standing, left arm extended against wall",
+        "expression": "serious"
+      },
+      "parse_ok": true
+    }
+  ]
+}

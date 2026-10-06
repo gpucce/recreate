@@ -1,0 +1,204 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        948.0,
+        364.0,
+        1032.0,
+        452.0
+      ],
+      "mask": "image_7.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A close-up view of a brown cardboard box with a circular, slightly darker mark or indentation on its surface. The texture appears matte and uniform, typical of corrugated cardboard.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "brown",
+        "shape": "rectangular",
+        "surface_texture": "matte",
+        "markings": "circular indentation"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        652.0,
+        780.0,
+        1032.0,
+        996.0
+      ],
+      "mask": "image_7.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A rectangular cardboard box wrapped in plain tan paper sits on a wooden surface, secured with a wide, glossy blue satin ribbon tied in a bow on top. The box is positioned centrally in the frame with a shallow depth of field blurring the background.",
+      "attributes": {
+        "object_type": "gift box",
+        "shape": "rectangular",
+        "material": "cardboard",
+        "color": "tan",
+        "wrapping": {
+          "paper": "tan",
+          "ribbon": {
+            "color": "blue",
+            "material": "satin",
+            "style": "crossed with bow on top"
+          }
+        },
+        "position": "on wooden table",
+        "function": "gift packaging"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 2,
+      "score": 0.86328125,
+      "box": [
+        920.0,
+        460.0,
+        1024.0,
+        532.0
+      ],
+      "mask": "image_7.masks/cardboard box_2.png",
+      "crop": null,
+      "description": "A close-up view of a light brown cardboard box with a smooth surface, partially visible in the frame. The box appears to be made of standard corrugated cardboard material.",
+      "attributes": {
+        "color": "light brown",
+        "material": "cardboard",
+        "shape": "rectangular",
+        "surface": "smooth",
+        "visibility": "partial"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 3,
+      "score": 0.92578125,
+      "box": [
+        -1.375,
+        436.0,
+        43.0,
+        556.0
+      ],
+      "mask": "image_7.masks/cardboard box_3.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a plain brown cardboard surface featuring a vertical seam or fold line running down the center. The material appears to be standard corrugated fiberboard with a matte, tan finish.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "brown",
+        "texture": "matte",
+        "features": [
+          "vertical seam",
+          "fold line"
+        ],
+        "clarity": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 4,
+      "score": 0.96875,
+      "box": [
+        -7.0,
+        364.0,
+        360.0,
+        548.0
+      ],
+      "mask": "image_7.masks/cardboard box_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light brown cardboard box featuring a red circular logo on its side and a strip of packing tape sealing the top flap.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "focus": "blurred",
+        "features": {
+          "logo": "red circle",
+          "seal": "packing tape"
+        },
+        "function": "packaging"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 5,
+      "score": 0.96875,
+      "box": [
+        29.0,
+        234.0,
+        324.0,
+        370.0
+      ],
+      "mask": "image_7.masks/cardboard box_5.png",
+      "crop": null,
+      "description": "A rectangular, light brown cardboard box is shown in a blurry close-up, featuring a red circular target logo on the left side and a vertical strip of packing tape running down the center seam.",
+      "attributes": {
+        "object_type": "cardboard box",
+        "color": "light brown",
+        "material": "cardboard",
+        "shape": "rectangular",
+        "features": {
+          "logo": "red circular target",
+          "tape": "vertical strip",
+          "focus": "blurry"
+        },
+        "function": "packaging"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        298.0,
+        106.0,
+        1000.0,
+        888.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark wavy hair is seated at a wooden desk, wearing a light grey button-down shirt. She is looking down with a focused expression, writing in a notebook with a silver pen, while a cardboard box tied with a blue ribbon sits on the desk in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy, parted to the side"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light grey",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "action": "writing",
+        "expression": "focused, neutral",
+        "accessories": {
+          "holding": "silver pen"
+        },
+        "context": {
+          "setting": "indoor, office or workspace",
+          "objects": [
+            "notebook",
+            "laptop",
+            "cardboard box with blue ribbon"
+          ]
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

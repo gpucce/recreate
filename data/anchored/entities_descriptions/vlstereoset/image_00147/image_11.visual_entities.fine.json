@@ -1,0 +1,54 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        2.0,
+        228.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "A rugged mountain range with vibrant, multicolored layers of red, orange, yellow, and white rock formations, featuring a winding road cutting through the landscape with a few vehicles visible. The terrain is arid, with sparse vegetation and a clear blue sky above.",
+      "attributes": {
+        "colors": [
+          "red",
+          "orange",
+          "yellow",
+          "white"
+        ],
+        "terrain": "arid",
+        "vegetation": "sparse",
+        "road": "winding",
+        "vehicles": "few",
+        "sky": "clear blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        2.0,
+        2.0,
+        1024.0,
+        306.0
+      ],
+      "mask": "image_11.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear blue sky with scattered, wispy white clouds stretches across the top of the image, above a range of colorful, eroded mountains with hues of red, orange, and yellow.",
+      "attributes": {
+        "sky_color": "blue",
+        "clouds": "white, wispy, scattered",
+        "mountains": "colorful, eroded, red, orange, yellow"
+      },
+      "parse_ok": true
+    }
+  ]
+}

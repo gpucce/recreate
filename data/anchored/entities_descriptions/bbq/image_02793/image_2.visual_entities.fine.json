@@ -1,0 +1,254 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        140.0,
+        131.0,
+        174.0,
+        217.0
+      ],
+      "mask": "image_2.masks/clock_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lighting",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        358.0,
+        183.0,
+        394.0,
+        213.0
+      ],
+      "mask": "image_2.masks/lighting_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lighting",
+      "index": 1,
+      "score": 0.52734375,
+      "box": [
+        368.0,
+        143.0,
+        396.0,
+        169.0
+      ],
+      "mask": "image_2.masks/lighting_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "lighting",
+      "index": 2,
+      "score": 0.75390625,
+      "box": [
+        374.0,
+        0.5,
+        418.0,
+        122.5
+      ],
+      "mask": "image_2.masks/lighting_2.png",
+      "crop": null,
+      "description": "A vertical, linear light fixture hangs from the ceiling, featuring a thin, dark suspension cord and a rectangular, dark-colored shade or housing at the bottom. The fixture is positioned centrally against a plain, light-colored wall, appearing somewhat blurry and out of focus.",
+      "attributes": {
+        "type": "pendant light",
+        "shape": "rectangular",
+        "color": "dark grey or black",
+        "cord": "thin, vertical, dark",
+        "position": "hanging from ceiling",
+        "background": "light beige wall",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        548.0,
+        312.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with shoulder-length dark brown hair stands in profile, looking down at a white sheet of paper held in her hands. She wears a short-sleeved t-shirt with horizontal pink and white stripes underneath blue denim overalls with metal clasps, and a black backpack strap is visible on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "white",
+              "dusty pink"
+            ]
+          },
+          "outerwear": {
+            "type": "overalls",
+            "material": "denim",
+            "color": "blue",
+            "details": "metal buttons and clasps"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black",
+              "straps": "visible on shoulder"
+            },
+            "earrings": "small stud"
+          }
+        },
+        "pose": "standing, looking down",
+        "action": "holding and reading a paper",
+        "expression": "focused, serious"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        24.0,
+        224.0,
+        500.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with dark, curly hair and a medium complexion stands looking down at a stack of white papers held in his hands. He wears a light blue denim shirt over a maroon t-shirt and carries a black backpack, with a hand resting on his shoulder from an unseen person behind him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "outer": {
+            "type": "denim shirt",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "maroon"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black",
+              "straps": "visible on shoulder"
+            }
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "focused, serious",
+        "action": "holding papers",
+        "interaction": "hand on shoulder from behind"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        86.0,
+        74.0,
+        760.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with dark, curly hair and a medium skin tone stands in the foreground, looking down with a serious expression at a stack of white papers he holds in both hands. He is wearing a light blue denim button-down shirt over a maroon t-shirt and has a black backpack strap visible on his right shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "skin_tone": "medium",
+        "clothing": {
+          "outer": {
+            "type": "denim shirt",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "maroon"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black",
+              "strap": "visible on right shoulder"
+            }
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "focused, serious",
+        "holding": "white papers"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "whiteboard",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        -1.625,
+        186.0,
+        65.5,
+        576.0
+      ],
+      "mask": "image_2.masks/whiteboard_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a whiteboard with a light-colored surface and a thin wooden frame. A red rectangular object, likely an eraser, is attached to the right side of the board, and a small dark object is visible near the top center.",
+      "attributes": {
+        "object": "whiteboard",
+        "surface_color": "white",
+        "frame": {
+          "material": "wood",
+          "color": "light brown"
+        },
+        "accessories": [
+          {
+            "type": "eraser",
+            "color": "red",
+            "position": "right side"
+          },
+          {
+            "type": "magnet_or_clip",
+            "color": "dark",
+            "position": "top center"
+          }
+        ],
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    }
+  ]
+}

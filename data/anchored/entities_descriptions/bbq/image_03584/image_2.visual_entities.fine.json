@@ -1,0 +1,360 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "flowers",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        87.0,
+        198.0,
+        167.0,
+        306.0
+      ],
+      "mask": "image_2.masks/flowers_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white flower with soft, blurred petals and a hint of green stem or leaf in the background.",
+      "attributes": {
+        "color": "white",
+        "focus": "blurred",
+        "type": "flower",
+        "details": "petals visible but indistinct due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 1,
+      "score": 0.671875,
+      "box": [
+        85.0,
+        172.0,
+        444.0,
+        564.0
+      ],
+      "mask": "image_2.masks/flowers_1.png",
+      "crop": null,
+      "description": "A bouquet of white peonies with ruffled petals and pale yellow centers is arranged in a clear glass vase filled with water, sitting on a wooden table. The flowers are in focus with green stems visible through the glass, while the background is softly blurred, showing a window and a person's shoulder on the right.",
+      "attributes": {
+        "flower_type": "peony",
+        "color": "white",
+        "center_color": "pale yellow",
+        "petal_shape": "ruffled",
+        "arrangement": "bouquet",
+        "vase": {
+          "material": "glass",
+          "color": "clear",
+          "contents": "water"
+        },
+        "stems": "green",
+        "leaves": "green",
+        "surface": "wooden table",
+        "background": "blurred window and person's shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 2,
+      "score": 0.75,
+      "box": [
+        270.0,
+        226.0,
+        398.0,
+        346.0
+      ],
+      "mask": "image_2.masks/flowers_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white flower with layered petals, possibly a peony or rose, set against a blurred background of green foliage and other indistinct white blooms.",
+      "attributes": {
+        "color": "white",
+        "shape": "round, layered petals",
+        "focus": "blurred",
+        "background": "green foliage, other white flowers",
+        "type": "flower"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 3,
+      "score": 0.765625,
+      "box": [
+        138.0,
+        220.0,
+        270.0,
+        344.0
+      ],
+      "mask": "image_2.masks/flowers_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white flower with soft, overlapping petals and a hint of yellow at the center, surrounded by blurred green foliage.",
+      "attributes": {
+        "color": "white",
+        "center_color": "yellow",
+        "focus": "blurred",
+        "type": "flower",
+        "background": "green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 4,
+      "score": 0.765625,
+      "box": [
+        222.0,
+        167.0,
+        342.0,
+        241.0
+      ],
+      "mask": "image_2.masks/flowers_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white flower with soft, blurred petals and a hint of green stem or leaves at the bottom. The background is a uniform, light beige or gray, creating a shallow depth of field effect.",
+      "attributes": {
+        "color": "white",
+        "focus": "blurred",
+        "type": "flower",
+        "background": "light beige/gray",
+        "details": "soft petals, green stem/leaves visible at base"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 5,
+      "score": 0.70703125,
+      "box": [
+        368.0,
+        203.0,
+        448.0,
+        316.0
+      ],
+      "mask": "image_2.masks/flowers_5.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a bouquet of white flowers, likely peonies or roses, with soft, layered petals. The image is heavily blurred, creating a bokeh effect where the details of the petals and stems are indistinct, and a thin, wispy strand of hair or fiber is visible on the right edge.",
+      "attributes": {
+        "color": "white",
+        "focus": "blurred",
+        "type": "bouquet",
+        "texture": "soft",
+        "visible_parts": [
+          "petals",
+          "stems"
+        ],
+        "other_elements": "wispy hair or fiber on the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "magazine",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        26.0,
+        656.0,
+        536.0,
+        952.0
+      ],
+      "mask": "image_2.masks/magazine_0.png",
+      "crop": null,
+      "description": "An open magazine held by a person's hands, displaying a cover with the title 'FLOURISH' in large, black serif font. Below the title is a photograph of a woman with short, curly brown hair, wearing a dark, long-sleeved top, smiling slightly. The magazine pages are white, and the person holding it is wearing a light blue, button-down shirt.",
+      "attributes": {
+        "title": "FLOURISH",
+        "title_font": "serif",
+        "title_color": "black",
+        "cover_image": {
+          "subject": "woman",
+          "hair": {
+            "color": "brown",
+            "style": "curly, short"
+          },
+          "clothing": {
+            "top": "dark, long-sleeved"
+          },
+          "expression": "smiling"
+        },
+        "pages": "white",
+        "holder": {
+          "clothing": {
+            "shirt": "light blue, button-down"
+          },
+          "hands": "visible, holding the magazine open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        352.0,
+        812.0,
+        496.0,
+        948.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with short, wavy brown hair is shown from the chest up, wearing a black top with a V-neckline and sheer, textured sleeves. She is smiling gently and looking slightly to her left, with her arms crossed in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "neckline": "V-neck",
+            "sleeves": "sheer, textured"
+          }
+        },
+        "pose": "seated, arms crossed",
+        "expression": "smiling",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        82.0,
+        66.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair and wire-rimmed glasses sits in a beige armchair, smiling gently while reading a magazine titled 'FLOURISH'. She wears a light blue linen button-down shirt with a patterned silk scarf tied around her neck and light-colored trousers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "wire-rimmed",
+          "scarf": "patterned silk tied at neck",
+          "earrings": "small hoop"
+        },
+        "clothing": {
+          "top": "light blue linen button-down shirt",
+          "bottoms": "light beige trousers"
+        },
+        "pose": "sitting in armchair",
+        "action": "reading a magazine",
+        "expression": "gentle smile",
+        "object_in_hand": "magazine titled FLOURISH"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        83.0,
+        528.0,
+        400.0,
+        792.0
+      ],
+      "mask": "image_2.masks/table_0.png",
+      "crop": null,
+      "description": "A small, round wooden side table with a medium-brown finish and a single central pedestal leg featuring turned detailing. The table is positioned in the background, slightly out of focus, with a glass vase containing green stems resting on its surface.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "shape": "round",
+        "leg_style": "single central pedestal, turned",
+        "finish": "smooth, polished",
+        "object_on_top": "glass vase with green stems",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        760.0,
+        406.0,
+        1032.0,
+        474.0
+      ],
+      "mask": "image_2.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up view of a person's shoulder and upper chest area, wearing a light blue collared shirt. The background is blurred, showing a wooden headboard and white bedding, suggesting the person is lying down or sitting on a bed.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue",
+          "collar": "visible"
+        },
+        "position": "lying down or reclining",
+        "background": {
+          "headboard": "wooden",
+          "bedding": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        -1.0,
+        0.0,
+        102.5,
+        468.0
+      ],
+      "mask": "image_2.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up view of a white window frame with a vertical mullion on the right side, featuring a small, white, fan-shaped decorative element attached to the frame. The glass pane is visible on the left, showing a blurred, out-of-focus background with soft green and white tones, suggesting an outdoor scene.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely wood or vinyl",
+        "glass_visibility": "blurred background",
+        "background_colors": [
+          "green",
+          "white"
+        ],
+        "decorative_element": "fan-shaped, white, attached to right frame",
+        "position": "vertical orientation, right side of frame visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.54296875,
+      "box": [
+        -2.0,
+        0.0,
+        214.0,
+        508.0
+      ],
+      "mask": "image_2.masks/window_1.png",
+      "crop": null,
+      "description": "A white-framed window with a vertical mullion is visible on the left side, appearing out of focus with a bright, blurred view of the outdoors. To the right, a bouquet of white flowers with green stems sits in the foreground, also blurred, positioned near the window frame.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or painted material",
+        "structure": "vertical mullion visible",
+        "focus": "out of focus",
+        "lighting": "bright natural light",
+        "foreground_object": "white flowers with green stems",
+        "position": "left side of the frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

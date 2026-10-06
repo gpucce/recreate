@@ -1,0 +1,88 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        568.0,
+        104.5,
+        1004.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "{\n  \"description\": \"A middle-aged woman with shoulder-length wavy blonde hair sits on a beige couch, wearing a sleeveless dress with horizontal navy blue and white stripes. She has a silver watch on her left wrist and a bracelet on her right, with her hands clasped in her lap, and her face is blurred.\",\n  \"attributes\": {\n    \"gender\": \"female\",\n    \"age_group\": \"middle-aged\",\n    \"hair\": {\n      \"color\": \"blonde\",\n      \"length\": \"shoulder-length\",\n      \"style\": \"wavy\"\n    },\n    \"clothing\": {\n      \"dress\": {\n        \"pattern\": \"horizontal stripes\",\n        \"colors\": [\n          \"white\",\n          \"navy blue\"\n        ],\n        \"sleeves\": \"sleeveless\",\n        \"length\": \"knee-length\"\n        ]\n      },\n      \"accessories\": {\n        \"watch\": \"silver\",\n        \"bracelet\": \"silver\",\n        \"earrings\": \"pearl stud\"\n      }\n    },\n    \"pose\": \"sitting\",\n    \"position\": \"on couch\",\n    \"expression\": \"neutral (face blurred)\"\n  }\n}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.7265625,
+      "box": [
+        182.0,
+        44.75,
+        672.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, highlighted brown hair sits on a beige couch, wearing a white sleeveless top and distressed light blue jeans. She is looking to the side with a blurred face, her hands resting in her lap with dark nail polish visible, while the hands of another person are partially visible to her right.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "length": "long",
+          "color": "brown with blonde highlights",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sleeveless shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "light blue",
+            "details": "distressed with rips on the knee"
+          }
+        },
+        "accessories": {
+          "nails": "dark polish"
+        },
+        "pose": "sitting",
+        "location": "on a beige couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        2.53125,
+        232.0,
+        1288.0,
+        868.0
+      ],
+      "mask": "image_0.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or off-white fabric sofa with a textured, woven appearance, featuring thick, rectangular seat cushions and a backrest with visible seams and padding. Two women are seated on the sofa, one wearing a white sleeveless top and ripped blue jeans, and the other in a black-and-white striped sleeveless dress, both engaged in conversation with their hands gesturing or resting on their laps.",
+      "attributes": {
+        "color": "light beige / off-white",
+        "material": "textured woven fabric",
+        "cushions": "thick, rectangular seat cushions",
+        "backrest": "padded with visible seams",
+        "occupants": [
+          "woman in white top and ripped jeans",
+          "woman in striped dress"
+        ],
+        "setting": "indoor, likely living room",
+        "condition": "clean, well-maintained"
+      },
+      "parse_ok": true
+    }
+  ]
+}

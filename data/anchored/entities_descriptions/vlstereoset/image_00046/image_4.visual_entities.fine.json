@@ -1,0 +1,169 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        0.0,
+        402.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a light purple satin pajama set with white piping. The couch has a textured, woven appearance and is adorned with a white pillow featuring a subtle geometric pattern on the right side.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "texture": "woven",
+          "pillow": {
+            "color": "white",
+            "pattern": "geometric"
+          }
+        },
+        "person": {
+          "clothing": {
+            "top": "light purple satin pajama shirt",
+            "bottoms": "light purple satin pajama pants",
+            "details": "white piping"
+          },
+          "pose": "sitting cross-legged",
+          "accessories": {
+            "necklace": "gold with pendant"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        100.0,
+        46.0,
+        924.0,
+        992.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A Black woman with a short buzz cut and round wire-rimmed glasses sits cross-legged on a grey sofa, wearing a light purple satin pajama set with white piping. She has a neutral expression, looking directly at the camera, with her hands resting on her ankles and a delicate gold necklace visible on her chest.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": {
+          "style": "buzz cut",
+          "color": "black"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed",
+          "necklace": "thin gold chain with small pendant"
+        },
+        "clothing": {
+          "type": "pajamas",
+          "material": "satin",
+          "color": "light purple",
+          "details": "white piping on collar, cuffs, and pocket",
+          "top": "button-down shirt with lapels",
+          "bottom": "matching pants"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        840.0,
+        468.0,
+        1024.0,
+        852.0
+      ],
+      "mask": "image_4.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, cream-colored throw pillow with a textured, woven fabric featuring a geometric pattern of intersecting lines and diamond shapes. The pillow is positioned upright against a gray sofa backrest, with a blurry purple object visible in the bottom left foreground.",
+      "attributes": {
+        "color": "cream",
+        "shape": "square",
+        "material": "textured fabric",
+        "pattern": "geometric lines and diamonds",
+        "position": "upright",
+        "background": "gray sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 1,
+      "score": 0.8671875,
+      "box": [
+        0.125,
+        760.0,
+        34.5,
+        824.0
+      ],
+      "mask": "image_4.masks/pillow_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        2.0,
+        -1.0,
+        776.0,
+        376.0
+      ],
+      "mask": "image_4.masks/window_0.png",
+      "crop": null,
+      "description": "A woman with short black hair and round glasses is wearing a light purple collared shirt and a thin gold necklace, looking directly at the camera with a neutral expression. To her left, a vase of pink roses is visible in the foreground against a background of white horizontal window blinds.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "very short"
+        },
+        "accessories": {
+          "glasses": {
+            "frame": "round",
+            "color": "dark"
+          },
+          "necklace": "thin gold chain"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light purple",
+            "collar": "visible"
+          }
+        },
+        "expression": "neutral",
+        "pose": "facing forward",
+        "background": {
+          "window": {
+            "blinds": "white horizontal"
+          },
+          "flowers": {
+            "type": "roses",
+            "color": "pink",
+            "container": "glass vase"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

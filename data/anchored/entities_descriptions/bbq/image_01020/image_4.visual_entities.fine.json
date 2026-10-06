@@ -1,0 +1,153 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        18.0,
+        374.0,
+        256.0,
+        856.0
+      ],
+      "mask": "image_4.masks/backpack_0.png",
+      "crop": null,
+      "description": "A vintage-style olive green canvas backpack with a brown leather bottom panel and black leather straps featuring brass buckles, resting on a wooden chair next to a person wearing a mustard yellow sweater.",
+      "attributes": {
+        "color": "olive green",
+        "material": "canvas",
+        "accent_material": "leather",
+        "accent_color": "brown",
+        "strap_color": "black",
+        "hardware": "brass buckles",
+        "style": "vintage",
+        "position": "on chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        508.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with black metal armrests and legs, featuring a slatted seat and backrest, is occupied by two individuals, one holding books and the other resting hands on a cane.",
+      "attributes": {
+        "material": "wood and metal",
+        "color": "brown wood, black metal",
+        "structure": "slatted seat and backrest, armrests, legs",
+        "occupants": "two individuals",
+        "function": "seating"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        500.0,
+        128.0,
+        980.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a gentle smile sits on a wooden bench, wearing a dark grey flat cap, a brown argyle sweater vest over a grey button-down shirt, and beige trousers. He holds a wooden walking cane with both hands resting on the top, looking off to the side.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap"
+        },
+        "facial_expression": "smiling, looking to the side",
+        "clothing": {
+          "headwear": {
+            "type": "flat cap",
+            "color": "dark grey",
+            "material": "wool or tweed"
+          },
+          "top": {
+            "shirt": {
+              "color": "grey",
+              "type": "button-down",
+              "sleeves": "long"
+            },
+            "vest": {
+              "color": "brown",
+              "pattern": "argyle",
+              "type": "sweater vest",
+              "buttons": "dark"
+            }
+          },
+          "bottom": {
+            "pants": {
+              "color": "beige",
+              "type": "trousers"
+            }
+          }
+        },
+        "accessories": {
+          "cane": {
+            "material": "wood",
+            "color": "light brown"
+          }
+        },
+        "pose": "sitting, hands clasped on cane",
+        "setting": "sitting on a wooden bench with black metal armrests"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        114.0,
+        146.0,
+        520.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits on a wooden bench, wearing a mustard yellow knit sweater and distressed blue jeans with large rips at the knees. She holds a stack of four hardcover books in her lap and has a dark backpack strap over her shoulder, looking off to the side with a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "distressed with rips at knees"
+          }
+        },
+        "accessories": {
+          "bag": "backpack with black strap and brown leather bottom"
+        },
+        "pose": "sitting",
+        "expression": "smiling, looking to the side",
+        "holding": "stack of books"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "body_of_water",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        166.0,
+        232.0,
+        856.0,
+        864.0
+      ],
+      "mask": "image_8.masks/body_of_water_0.png",
+      "crop": null,
+      "description": "A large, circular body of water with a clear, greenish-blue hue, surrounded by a light-colored stone or concrete edge. In the center, there is a small, sandy island with several blue umbrellas and lounge chairs arranged around it. The water appears calm, with subtle ripples and reflections of the surrounding environment, including palm trees and structures. The overall scene suggests a resort or recreational area designed for relaxation and leisure.",
+      "attributes": {
+        "shape": "circular",
+        "color": "greenish-blue",
+        "surface": "calm with subtle ripples",
+        "central feature": "sandy island with blue umbrellas and lounge chairs",
+        "surrounding edge": "light-colored stone or concrete",
+        "reflections": "palm trees and structures",
+        "setting": "resort or recreational area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        166.0,
+        228.0,
+        856.0,
+        860.0
+      ],
+      "mask": "image_8.masks/water_body_0.png",
+      "crop": null,
+      "description": "A large, circular swimming pool with clear, turquoise water surrounds a central sandy island. The island is furnished with six blue beach umbrellas and lounge chairs, arranged in a circle. The pool is bordered by a light-colored stone deck, and palm trees are visible around the perimeter, casting shadows on the water and deck.",
+      "attributes": {
+        "shape": "circular",
+        "water_color": "turquoise",
+        "central_feature": "sandy island",
+        "island_furniture": {
+          "umbrellas": {
+            "color": "blue",
+            "count": 6
+          },
+          "chairs": "lounge chairs"
+        },
+        "surrounding_deck": "light-colored stone",
+        "vegetation": "palm trees",
+        "shadows": "visible on water and deck"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        0.0625,
+        780.0,
+        28.75,
+        1020.0
+      ],
+      "mask": "image_3.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark blue upholstered chair featuring a scalloped, wavy edge on the right side. The fabric appears to be a textured material like denim or heavy cotton, with a deep shadow visible in the crevice between the sections.",
+      "attributes": {
+        "color": "dark blue",
+        "material": "textured fabric",
+        "edge_style": "scalloped",
+        "lighting": "high contrast shadow"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        -2.5,
+        498.0,
+        107.0,
+        696.0
+      ],
+      "mask": "image_3.masks/chair_1.png",
+      "crop": null,
+      "description": "A dark blue upholstered chair with a metal frame is visible in the background, appearing out of focus. The chair has a rectangular backrest and thin, silver-colored legs.",
+      "attributes": {
+        "color": "dark blue",
+        "material": "fabric upholstery, metal frame",
+        "type": "office or classroom chair",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        944.0,
+        342.0,
+        1016.0,
+        378.0
+      ],
+      "mask": "image_3.masks/computer_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.55859375,
+      "box": [
+        752.0,
+        362.0,
+        800.0,
+        510.0
+      ],
+      "mask": "image_3.masks/computer_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a vertical rectangular object with a dark frame and a lighter, possibly gray or white, screen area. The object appears to be a computer monitor or a similar display device, but the details are indistinct due to the lack of focus.",
+      "attributes": {
+        "object_type": "computer monitor",
+        "focus": "blurry",
+        "color": "dark frame, light screen",
+        "shape": "rectangular",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.5390625,
+      "box": [
+        700.0,
+        368.0,
+        852.0,
+        644.0
+      ],
+      "mask": "image_3.masks/computer_2.png",
+      "crop": null,
+      "description": "A row of black desktop computer monitors with matching black keyboards and mice arranged on a light wooden desk, with a person's hands visible in the foreground.",
+      "attributes": {
+        "type": "desktop computer",
+        "color": "black",
+        "components": {
+          "monitor": "flat screen",
+          "keyboard": "black",
+          "mouse": "black"
+        },
+        "arrangement": "row",
+        "surface": "light wood desk",
+        "foreground": "human hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 3,
+      "score": 0.6796875,
+      "box": [
+        788.0,
+        364.0,
+        852.0,
+        556.0
+      ],
+      "mask": "image_3.masks/computer_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a computer monitor or screen with a dark bezel, displaying a blurred image with vertical bands of light and dark colors. The screen appears to be part of a larger setup, possibly a desktop or laptop, but the specific details are indistinct due to the blur.",
+      "attributes": {
+        "object_type": "computer_screen",
+        "focus": "blurred",
+        "bezel_color": "dark",
+        "display_content": "vertical_bands",
+        "colors_visible": [
+          "dark",
+          "light",
+          "grayish"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 4,
+      "score": 0.609375,
+      "box": [
+        -0.1875,
+        368.0,
+        30.75,
+        448.0
+      ],
+      "mask": "image_3.masks/computer_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "computer",
+      "index": 5,
+      "score": 0.89453125,
+      "box": [
+        876.0,
+        380.0,
+        1024.0,
+        908.0
+      ],
+      "mask": "image_3.masks/computer_5.png",
+      "crop": null,
+      "description": "A black flat-screen computer monitor is shown in a close-up, angled view, displaying a document with text on a white background. The monitor has a thick black bezel and sits on a black stand on a light wooden desk, with a blurred second monitor visible in the background.",
+      "attributes": {
+        "object": "computer monitor",
+        "color": "black",
+        "material": "plastic",
+        "screen_content": "text document",
+        "screen_background": "white",
+        "bezel": "thick black",
+        "stand": "black rectangular base",
+        "position": "angled to the left",
+        "surface": "light wood desk",
+        "background": "blurred second monitor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 6,
+      "score": 0.52734375,
+      "box": [
+        684.0,
+        366.0,
+        804.0,
+        564.0
+      ],
+      "mask": "image_3.masks/computer_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a computer workstation featuring a black monitor and a black keyboard on a light wooden desk. The background consists of a wooden wall or partition, and the entire scene is heavily blurred, obscuring fine details.",
+      "attributes": {
+        "monitor": {
+          "color": "black",
+          "position": "right side",
+          "state": "upright"
+        },
+        "keyboard": {
+          "color": "black",
+          "position": "foreground",
+          "type": "standard"
+        },
+        "desk": {
+          "material": "wood",
+          "color": "light brown"
+        },
+        "background": {
+          "material": "wood",
+          "color": "medium brown"
+        },
+        "image_quality": "extremely blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 7,
+      "score": 0.80859375,
+      "box": [
+        25.75,
+        370.0,
+        96.0,
+        478.0
+      ],
+      "mask": "image_3.masks/computer_7.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a computer monitor displaying a solid light blue screen, framed by a dark bezel and supported by a stand at the bottom.",
+      "attributes": {
+        "object": "computer monitor",
+        "screen": {
+          "color": "light blue",
+          "content": "solid color",
+          "state": "on"
+        },
+        "bezel": {
+          "color": "dark",
+          "shape": "rectangular"
+        },
+        "stand": {
+          "visibility": "partial",
+          "position": "bottom center"
+        },
+        "image_quality": "extremely blurry",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 8,
+      "score": 0.7421875,
+      "box": [
+        668.0,
+        362.0,
+        804.0,
+        520.0
+      ],
+      "mask": "image_3.masks/computer_8.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a computer monitor and keyboard on a desk. The monitor is dark and rectangular, positioned to the right, while the keyboard is partially visible in the foreground with a black and white color scheme. The background features a wooden door or panel with a frosted glass window.",
+      "attributes": {
+        "monitor": {
+          "color": "dark",
+          "shape": "rectangular",
+          "position": "right"
+        },
+        "keyboard": {
+          "color": "black and white",
+          "position": "foreground"
+        },
+        "background": {
+          "material": "wood",
+          "feature": "frosted glass window"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 9,
+      "score": 0.85546875,
+      "box": [
+        892.0,
+        332.0,
+        932.0,
+        372.0
+      ],
+      "mask": "image_3.masks/computer_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "computer",
+      "index": 10,
+      "score": 0.91796875,
+      "box": [
+        828.0,
+        372.0,
+        932.0,
+        676.0
+      ],
+      "mask": "image_3.masks/computer_10.png",
+      "crop": null,
+      "description": "A close-up, angled view of a black computer monitor with a thick bezel, displaying a blurry, light-colored screen interface. A human finger is visible in the lower left corner, pointing towards the screen, while the background shows a blurred second monitor and a desk surface.",
+      "attributes": {
+        "object": "computer monitor",
+        "color": "black",
+        "bezel": "thick",
+        "screen": "on, blurry, light-colored",
+        "view_angle": "side profile",
+        "interaction": "finger pointing",
+        "background": "blurred, second monitor visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        408.0,
+        486.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/desk_0.png",
+      "crop": null,
+      "description": "A light-colored wooden desk surface holds a black computer keyboard, a black mouse, and a stack of white papers. An older person's hands are visible, with one hand resting on the keyboard and the other pointing at a computer monitor screen. In the background, a younger woman in a yellow hoodie is seated at the same desk, smiling.",
+      "attributes": {
+        "surface": "light wood grain",
+        "objects": [
+          "black keyboard",
+          "black mouse",
+          "white papers",
+          "computer monitor"
+        ],
+        "people": {
+          "foreground_person": {
+            "age": "elderly",
+            "skin": "wrinkled",
+            "accessories": "gold ring on left hand",
+            "clothing": "blue long-sleeved sweater",
+            "action": "typing and pointing at screen"
+          },
+          "background_person": {
+            "age": "young adult",
+            "gender": "female",
+            "expression": "smiling",
+            "clothing": "yellow hoodie over white t-shirt"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.68359375,
+      "box": [
+        -0.75,
+        488.0,
+        109.0,
+        544.0
+      ],
+      "mask": "image_3.masks/desk_1.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus view of a desk surface and a dark object, likely a chair back or monitor, occupying the right side of the frame. The desk surface appears light brown or tan, while the dark object is a deep blue or black, with no distinct details visible due to the extreme blur.",
+      "attributes": {
+        "desk": {
+          "color": "light brown",
+          "material": "wood or laminate",
+          "focus": "blurred"
+        },
+        "object": {
+          "color": "dark blue or black",
+          "position": "right side",
+          "focus": "blurred"
+        },
+        "image_quality": "extremely low resolution, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        -0.75,
+        488.0,
+        110.0,
+        672.0
+      ],
+      "mask": "image_3.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a wooden desk surface in the upper left corner, positioned behind a blue chair with metal legs. In the immediate foreground, a blurry, light blue textured fabric, likely a person's shoulder, obscures the lower right portion of the scene.",
+      "attributes": {
+        "desk": {
+          "material": "wood",
+          "color": "light brown",
+          "position": "background, upper left",
+          "focus": "blurred"
+        },
+        "chair": {
+          "color": "blue",
+          "legs": "metal",
+          "position": "mid-ground",
+          "focus": "blurred"
+        },
+        "foreground_object": {
+          "material": "fabric",
+          "color": "light blue",
+          "texture": "fuzzy or heathered",
+          "position": "foreground, lower right",
+          "focus": "extremely blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "doorway",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        616.0,
+        156.0,
+        816.0,
+        484.0
+      ],
+      "mask": "image_3.masks/doorway_0.png",
+      "crop": null,
+      "description": "A light brown wooden door with a vertical rectangular frosted glass window in the center is visible in the background, featuring a silver lever handle on the left side. The door is framed by a matching wooden frame and is slightly out of focus, with the top of a person's head and a computer monitor visible in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "window": {
+          "shape": "vertical rectangle",
+          "material": "frosted glass",
+          "position": "center"
+        },
+        "handle": {
+          "type": "lever",
+          "color": "silver",
+          "position": "left"
+        },
+        "focus": "blurred",
+        "foreground_elements": [
+          "person's head",
+          "computer monitor"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.8046875,
+      "box": [
+        -1.0,
+        0.1875,
+        173.0,
+        21.75
+      ],
+      "mask": "image_3.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.75,
+      "box": [
+        452.0,
+        0.09375,
+        620.0,
+        12.0
+      ],
+      "mask": "image_3.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        370.0,
+        326.0,
+        696.0,
+        872.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with black hair tied back in a ponytail is smiling while looking to the right, wearing a yellow zip-up hoodie over a white t-shirt. She is seated at a desk, positioned behind an older person's arm in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": {
+            "type": "hoodie",
+            "color": "yellow",
+            "style": "zip-up"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        18.0,
+        270.0,
+        872.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair and round wire-rimmed glasses is seated at a desk, smiling broadly while pointing at a computer monitor with her right hand and resting her left hand on a black keyboard. She is wearing a blue zip-up fleece jacket over a pink collared shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "caucasian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed",
+          "ring": "gold band on left ring finger"
+        },
+        "clothing": {
+          "jacket": "blue fleece zip-up",
+          "shirt": "pink collared"
+        },
+        "expression": "smiling",
+        "pose": "seated, pointing at screen",
+        "action": "using computer"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        108.0,
+        66.0,
+        772.0,
+        672.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair and round wire-rimmed glasses is seated in the foreground, smiling broadly while looking to the right. She is wearing a blue zip-up fleece jacket over a pink collared shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed"
+        },
+        "clothing": {
+          "outer": "blue fleece jacket",
+          "inner": "pink collared shirt"
+        },
+        "expression": "smiling",
+        "pose": "seated, looking right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        948.0,
+        0.0,
+        1020.0,
+        212.0
+      ],
+      "mask": "image_3.masks/picture_0.png",
+      "crop": null,
+      "description": "A framed picture or artwork is displayed on a wall, featuring a landscape scene with green and blue hues. The frame appears to be made of light-colored wood, and the image within the frame is slightly blurred, suggesting it might be a painting or a photograph of a natural setting.",
+      "attributes": {
+        "frame": {
+          "material": "wood",
+          "color": "light brown"
+        },
+        "content": {
+          "type": "landscape",
+          "colors": [
+            "green",
+            "blue"
+          ],
+          "clarity": "blurred"
+        },
+        "position": "on wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        26.0,
+        178.0,
+        186.0,
+        300.0
+      ],
+      "mask": "image_3.masks/picture_1.png",
+      "crop": null,
+      "description": "A framed painting depicting a landscape scene with a blue sky, green hills, and a yellow field, enclosed in a light-colored wooden frame.",
+      "attributes": {
+        "frame": {
+          "color": "light brown",
+          "material": "wood"
+        },
+        "painting": {
+          "subject": "landscape",
+          "colors": [
+            "blue",
+            "green",
+            "yellow"
+          ],
+          "style": "impressionistic"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

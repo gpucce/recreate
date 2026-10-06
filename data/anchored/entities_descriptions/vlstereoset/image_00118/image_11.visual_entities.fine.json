@@ -1,0 +1,453 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        68.5,
+        165.0,
+        198.0,
+        201.0
+      ],
+      "mask": "image_11.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, low-resolution image of a white, single-story building with a flat roof and large rectangular windows, partially obscured by green foliage in the foreground and background.",
+      "attributes": {
+        "color": "white",
+        "structure": "single-story",
+        "roof": "flat",
+        "windows": "large, rectangular",
+        "surroundings": "green foliage",
+        "clarity": "blurry, low-resolution"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.57421875,
+      "box": [
+        36.0,
+        56.0,
+        70.0,
+        74.0
+      ],
+      "mask": "image_11.masks/building_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.890625,
+      "box": [
+        394.0,
+        207.0,
+        520.0,
+        276.0
+      ],
+      "mask": "image_11.masks/building_2.png",
+      "crop": null,
+      "description": "A two-story building with a white gabled roof and light-colored walls, featuring a row of rectangular windows on the upper level and a flat overhang or balcony structure on the lower level, partially obscured by green foliage in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "white",
+          "shape": "gabled"
+        },
+        "walls": {
+          "color": "light gray or off-white"
+        },
+        "windows": {
+          "shape": "rectangular",
+          "arrangement": "horizontal row on upper floor"
+        },
+        "structure": {
+          "floors": 2,
+          "features": [
+            "balcony or overhang on lower level"
+          ]
+        },
+        "surroundings": {
+          "foreground": "green foliage",
+          "background": "blurred trees"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        -2.0,
+        -1.0,
+        720.0,
+        194.0
+      ],
+      "mask": "image_11.masks/hillside_0.png",
+      "crop": null,
+      "description": "A lush, green hillside covered in dense vegetation and trees, with a few scattered buildings visible at the base and on the slopes. The foreground features blurred palm fronds, suggesting a tropical or subtropical setting.",
+      "attributes": {
+        "vegetation": "dense, green, varied",
+        "buildings": "white, small, scattered",
+        "foreground": "blurred palm fronds",
+        "terrain": "hillside, sloped",
+        "sky": "clear, blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        258.0,
+        292.0,
+        1032.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A young girl with long, dark brown hair is running away from the camera along the shoreline of a sandy beach. She is wearing a bright blue one-piece swimsuit with ruffled straps and is barefoot, with her left foot lifted off the wet sand.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "loose and flowing"
+        },
+        "clothing": {
+          "swimsuit": {
+            "color": "blue",
+            "type": "one-piece",
+            "details": "ruffled straps"
+          }
+        },
+        "pose": "running",
+        "location": "beach shoreline",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.7421875,
+      "box": [
+        6.0,
+        292.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "A young girl with long, dark brown hair is running barefoot along the wet sand of a beach, moving away from the camera. She is wearing a bright blue one-piece swimsuit with ruffled straps and leg openings.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "loose and flowing"
+        },
+        "clothing": {
+          "swimsuit": {
+            "type": "one-piece",
+            "color": "royal blue",
+            "details": "ruffled straps and leg openings"
+          }
+        },
+        "pose": "running",
+        "direction": "away from camera",
+        "location": "beach shoreline",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 2,
+      "score": 0.68359375,
+      "box": [
+        -2.0,
+        -2.5,
+        720.0,
+        184.0
+      ],
+      "mask": "image_11.masks/landmass or headland_2.png",
+      "crop": null,
+      "description": "A lush, green hillside covered in dense vegetation and trees, with a few small structures visible on the slope. The foreground features blurred palm fronds, suggesting a tropical setting.",
+      "attributes": {
+        "vegetation": "dense, green",
+        "structures": "small, scattered",
+        "foreground": "blurred palm fronds",
+        "setting": "tropical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.5546875,
+      "box": [
+        764.0,
+        304.0,
+        796.0,
+        352.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        388.0,
+        326.0,
+        620.0,
+        872.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young girl with long, wavy brown hair is seen from behind, running barefoot on a sandy beach toward the ocean. She is wearing a bright blue one-piece swimsuit with ruffled straps and ruffled leg openings.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy, flowing"
+        },
+        "clothing": {
+          "type": "swimsuit",
+          "color": "blue",
+          "style": "one-piece",
+          "details": "ruffled straps and leg openings"
+        },
+        "pose": "running, viewed from behind",
+        "location": "beach",
+        "footwear": "barefoot"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        820.0,
+        330.0,
+        996.0,
+        478.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A woman with long dark hair sits on a blue and white lounge chair on a sandy beach, holding an open book or magazine in her lap. She is wearing a white tank top and appears to be reading, with her legs extended and bare feet visible.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": "white tank top"
+        },
+        "pose": "sitting",
+        "activity": "reading",
+        "object": "book or magazine",
+        "furniture": {
+          "type": "lounge chair",
+          "color": "blue and white"
+        },
+        "location": "beach"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.65234375,
+      "box": [
+        660.0,
+        308.0,
+        732.0,
+        352.0
+      ],
+      "mask": "image_11.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.7265625,
+      "box": [
+        744.0,
+        334.0,
+        848.0,
+        382.0
+      ],
+      "mask": "image_11.masks/person_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a person lying on a blue lounge chair, with their legs extended and bent at the knees, wearing light-colored shorts or a skirt.",
+      "attributes": {
+        "pose": "lying down",
+        "clothing": {
+          "bottoms": "light-colored"
+        },
+        "furniture": {
+          "type": "lounge chair",
+          "color": "blue"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        -3.0,
+        253.0,
+        126.0,
+        296.0
+      ],
+      "mask": "image_11.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "A dark, elongated rocky outcrop with a rough, uneven surface dominates the center of the frame, appearing blurred and out of focus. The rock is situated above a lighter, textured ground or water surface, with indistinct green foliage visible in the background.",
+      "attributes": {
+        "color": "dark brown to black",
+        "texture": "rough, uneven",
+        "shape": "elongated, irregular",
+        "focus": "blurred",
+        "position": "central, elevated",
+        "background": "green foliage, light-colored ground/water"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        73.0,
+        270.0,
+        253.0,
+        302.0
+      ],
+      "mask": "image_11.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus rocky outcrop with light brown and beige tones, partially obscured by a dark, indistinct area on the left and a greenish area on the right, suggesting vegetation or a hillside in the background.",
+      "attributes": {
+        "color": [
+          "light brown",
+          "beige",
+          "dark",
+          "greenish"
+        ],
+        "texture": "rocky",
+        "focus": "blurry",
+        "position": "central",
+        "background": [
+          "dark area",
+          "greenish area"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        8.0,
+        292.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a smooth and slightly damp texture near the water's edge, transitioning to a drier, more granular surface further inland. There are visible footprints and small indentations in the sand, indicating recent activity.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "smooth near water, granular further inland",
+        "moisture": "damp near water, dry further inland",
+        "footprints": "visible",
+        "indentations": "small"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        1.5,
+        0.875,
+        230.0,
+        52.5
+      ],
+      "mask": "image_11.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear, light blue sky occupies the upper portion of the image, with a blurred, green hillside and a few indistinct trees visible along the bottom edge.",
+      "attributes": {
+        "color": "light blue",
+        "clarity": "clear",
+        "position": "upper portion",
+        "background": "green hillside, trees"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        -2.0,
+        298.0,
+        608.0,
+        648.0
+      ],
+      "mask": "image_11.masks/water_0.png",
+      "crop": null,
+      "description": "A young girl with long, wavy brown hair is running along a sandy beach towards the ocean. She is wearing a bright blue one-piece swimsuit with ruffled straps and side details, and her back is turned to the camera as she moves through the shallow water.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "swimsuit": {
+            "color": "blue",
+            "type": "one-piece",
+            "details": "ruffled straps and side ruffles"
+          }
+        },
+        "pose": "running",
+        "location": "beach",
+        "environment": {
+          "water": "clear turquoise ocean",
+          "sand": "light beige",
+          "background": "crowded beach with umbrellas and people"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

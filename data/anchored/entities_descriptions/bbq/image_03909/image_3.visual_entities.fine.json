@@ -1,0 +1,160 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        444.0,
+        616.0,
+        612.0,
+        672.0
+      ],
+      "mask": "image_3.masks/desk_0.png",
+      "crop": null,
+      "description": "A small, light brown wooden side table with a rectangular top and thin, dark legs is visible in the background, holding a stack of books with blue and white spines. The table is positioned behind a brown leather armchair and a beige sofa, appearing slightly out of focus.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "leg_color": "dark",
+        "shape": "rectangular",
+        "contents": [
+          "books",
+          "blue book",
+          "white book"
+        ],
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        536.0,
+        130.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a brown leather armchair, wearing a dark blue button-down shirt with sleeves rolled up and black pants. He has a serious expression, looking off to the side with his hands clasped together in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "dark blue",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "black"
+          },
+          "accessories": {
+            "wrist": "black band"
+          }
+        },
+        "pose": {
+          "action": "sitting",
+          "hands": "clasped",
+          "gaze": "looking left"
+        },
+        "expression": "serious",
+        "furniture": {
+          "type": "armchair",
+          "material": "leather",
+          "color": "brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        74.0,
+        156.0,
+        494.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits in a grey armchair, wearing a beige patterned button-down shirt with rolled sleeves and maroon trousers. She is looking off to the side with a neutral expression, her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "beige",
+            "pattern": "subtle paisley",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "maroon"
+          },
+          "accessories": {
+            "earrings": "small gold hoops",
+            "necklace": "thin gold chain"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "gaze": "to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "whiteboard",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        -2.0,
+        2.0,
+        552.0,
+        416.0
+      ],
+      "mask": "image_3.masks/whiteboard_0.png",
+      "crop": null,
+      "description": "A large, blank whiteboard with a silver aluminum frame is mounted on a wall, featuring a small black eraser resting on the bottom left of its tray and a green plant leaf visible in the bottom right corner.",
+      "attributes": {
+        "object": "whiteboard",
+        "surface": {
+          "color": "white",
+          "state": "blank",
+          "material": "smooth"
+        },
+        "frame": {
+          "color": "silver",
+          "material": "aluminum"
+        },
+        "accessories": {
+          "eraser": {
+            "color": "black",
+            "position": "bottom left"
+          }
+        },
+        "position": "background",
+        "function": "writing surface"
+      },
+      "parse_ok": true
+    }
+  ]
+}

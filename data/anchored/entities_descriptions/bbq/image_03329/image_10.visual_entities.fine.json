@@ -1,0 +1,304 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        180.0,
+        3.0,
+        1024.0,
+        444.0
+      ],
+      "mask": "image_10.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story white building with classical architectural features, including tall rectangular windows with white frames, decorative moldings, and black wrought-iron balconies with intricate scrollwork. The facade is smooth and light-colored, likely stucco or painted stone, with visible cornices and pilasters. A tree with autumn leaves partially obscures the left side of the building.",
+      "attributes": {
+        "color": "white",
+        "material": "stucco or painted stone",
+        "architecture_style": "classical",
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "white",
+          "count_visible": 6
+        },
+        "balconies": {
+          "material": "wrought iron",
+          "color": "black",
+          "design": "scrollwork",
+          "count_visible": 2
+        },
+        "decorative_elements": [
+          "cornices",
+          "pilasters",
+          "moldings"
+        ],
+        "obstruction": "tree with yellow/orange leaves on left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        510.0,
+        268.0,
+        712.0,
+        612.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "Two young men with curly brown hair are posing together, with the taller man standing behind the seated man and placing his hands on his shoulders. The standing man wears a dark blue suit with a white shirt and grey tie, while the seated man wears a red crew-neck sweater and is positioned in a wheelchair.",
+      "attributes": {
+        "count": 2,
+        "person_1": {
+          "position": "standing behind",
+          "gender": "male",
+          "age": "young adult",
+          "hair": {
+            "color": "brown",
+            "style": "curly"
+          },
+          "expression": "smiling",
+          "clothing": {
+            "jacket": "dark blue suit",
+            "shirt": "white",
+            "tie": "grey"
+          },
+          "pose": "hands on shoulders of person in front"
+        },
+        "person_2": {
+          "position": "seated in front",
+          "gender": "male",
+          "age": "young adult",
+          "hair": {
+            "color": "brown",
+            "style": "curly"
+          },
+          "expression": "smiling",
+          "clothing": {
+            "top": "red sweater"
+          },
+          "mobility_aid": "wheelchair"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        348.0,
+        446.0,
+        692.0,
+        960.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with wavy brown hair sits in a wheelchair, wearing a red crew-neck sweater, blue jeans, and black boots, smiling at the camera while a person in a dark suit stands behind him with hands on his shoulders.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, medium length"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "red",
+            "neckline": "crew neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "boots",
+            "color": "black"
+          }
+        },
+        "pose": "sitting in a wheelchair",
+        "expression": "smiling",
+        "accessories": {
+          "wheelchair": {
+            "frame": "silver metal",
+            "wheels": "large rear wheels with spokes"
+          }
+        },
+        "context": {
+          "background_person": {
+            "clothing": "dark blue suit, white shirt, grey tie",
+            "action": "standing behind, hands on shoulders"
+          },
+          "vehicle": "silver car with open door visible to the left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.68359375,
+      "box": [
+        143.0,
+        -1.0,
+        460.0,
+        424.0
+      ],
+      "mask": "image_10.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up of a tree trunk with mottled, peeling bark in shades of gray, beige, and brown, featuring a cluster of yellow and orange autumn leaves stuck to the side. The trunk splits into two main branches at the top, with a few remaining yellow leaves visible against a blurred background of a white building and a car roof.",
+      "attributes": {
+        "trunk": {
+          "color": "mottled gray, beige, and brown",
+          "texture": "peeling bark",
+          "structure": "splits into two main branches"
+        },
+        "leaves": {
+          "color": "yellow and orange",
+          "state": "autumn foliage, some stuck to trunk",
+          "position": "top branches and mid-trunk"
+        },
+        "background": {
+          "building": "white facade with black railing",
+          "vehicle": "silver car roof visible at bottom"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.6953125,
+      "box": [
+        19.5,
+        78.0,
+        192.0,
+        446.0
+      ],
+      "mask": "image_10.masks/tree_1.png",
+      "crop": null,
+      "description": "A tree with vibrant yellow and orange autumn leaves, partially obscuring a white building with a black fence in the background. The tree's branches are thin and spread out, with some leaves still attached and others falling.",
+      "attributes": {
+        "leaf_color": [
+          "yellow",
+          "orange"
+        ],
+        "season": "autumn",
+        "background": {
+          "building": "white",
+          "fence": "black"
+        },
+        "branch_structure": "thin and spread out"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.67578125,
+      "box": [
+        -0.5,
+        2.0,
+        180.0,
+        568.0
+      ],
+      "mask": "image_10.masks/tree_2.png",
+      "crop": null,
+      "description": "A tall tree with a thick, textured brown trunk and branches extending upward, covered in vibrant yellow and orange autumn leaves. The tree is positioned on the left side of the frame, with its foliage filling the upper portion of the image against a blurred background of a building and a black metal fence.",
+      "attributes": {
+        "trunk": "thick, brown, textured",
+        "leaves": "yellow, orange, autumnal",
+        "position": "left side of frame",
+        "background": "blurred building, black metal fence",
+        "season": "autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.6015625,
+      "box": [
+        1.0,
+        4.0,
+        452.0,
+        572.0
+      ],
+      "mask": "image_10.masks/tree_3.png",
+      "crop": null,
+      "description": "A tall tree with a thick, mottled trunk featuring patches of light gray and brown bark stands in the foreground, its branches extending upward and outward with clusters of yellow and orange autumn leaves. The tree is positioned in front of a white building with a black wrought-iron balcony, and a silver car is partially visible in the lower right corner.",
+      "attributes": {
+        "trunk": {
+          "color": "mottled gray and brown",
+          "texture": "rough, peeling bark"
+        },
+        "leaves": {
+          "color": "yellow and orange",
+          "season": "autumn"
+        },
+        "position": "foreground, in front of a building",
+        "background": {
+          "building": "white with black wrought-iron balcony",
+          "car": "silver, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        20.0,
+        318.0,
+        1024.0,
+        920.0
+      ],
+      "mask": "image_10.masks/vehicle_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A silver minivan is parked on a street with its sliding side door open, revealing a black interior seat. The vehicle has a sleek, modern design with a visible side mirror, door handle, and alloy wheels. The background shows a building with large windows and a tree with autumn leaves on the ground.\", \"attributes\": {\"color\": \"silver\", \"type\": \"minivan\", \"door\": \"sliding side door open\", \"interior\": \"black seat visible\", \"wheels\": \"alloy wheels\", \"background\": \"building with large windows, tree with autumn leaves\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        362.0,
+        604.0,
+        744.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person seated in a manual wheelchair, wearing a red long-sleeved sweater, blue jeans, and black boots. The wheelchair features a black seat and backrest, silver metal frame, large spoked rear wheels with handrims, and smaller front caster wheels.",
+      "attributes": {
+        "clothing": {
+          "top": "red sweater",
+          "bottom": "blue jeans",
+          "footwear": "black boots"
+        },
+        "wheelchair": {
+          "frame_color": "silver",
+          "seat_color": "black",
+          "backrest_color": "black",
+          "rear_wheels": "large, spoked, with handrims",
+          "front_wheels": "small, solid caster wheels",
+          "armrests": "black, padded",
+          "footrests": "black, adjustable"
+        },
+        "pose": "seated",
+        "position": "facing forward, slightly angled to the left",
+        "background": "partially visible car door and tire, autumn leaves on ground"
+      },
+      "parse_ok": true
+    }
+  ]
+}

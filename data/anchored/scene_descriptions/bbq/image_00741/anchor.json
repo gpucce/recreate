@@ -1,0 +1,79 @@
+{
+  "scene": {
+    "background": "cozy, lived-in home interior with a dark wooden cabinet with glass doors, a yellow lampshade on a side table, a brown upholstered armchair, and a white countertop with indistinct kitchen items",
+    "lighting": "soft and warm, coming from an indoor source, creating gentle shadows and a golden-hour ambiance. White balance is slightly warm, enhancing the cozy, nostalgic mood",
+    "camera_angle": "eye-level, slightly elevated, as if taken from a seated position or a low-angle perspective, enhancing the intimacy of the scene",
+    "style": "photorealistic, capturing fine textures (velvet, fabric, hair) and natural imperfections of a real-life moment",
+    "mood": "tender, nostalgic, and familial",
+    "color_palette": "dominant navy, warm beige walls, soft blue of the sweatshirt, and rich wood tones. Slight color saturation to preserve realism without over-processing"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "age": "elderly",
+        "gender": "female",
+        "hair": {
+          "length": "short",
+          "volume": "voluminous",
+          "color": "white"
+        },
+        "clothing": {
+          "robe": {
+            "material": "plush navy velvet",
+            "pattern": "embroidered floral patterns in gold and white",
+            "collar": "gold and white",
+            "cuffs": "gold and white"
+          }
+        },
+        "pose": "seated",
+        "expression": "neutral",
+        "arm_position": "right arm gently placed around the boy’s shoulder in a comforting gesture",
+        "gaze": "looking slightly toward the camera, but their gazes are soft and directed forward"
+      },
+      "id": "person_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "male",
+        "hair": {
+          "length": "short",
+          "color": "dark"
+        },
+        "clothing": {
+          "shirt": {
+            "brand": "Champion",
+            "color": "light blue",
+            "pattern": "repeating white logo pattern",
+            "sleeves": "short"
+          }
+        },
+        "pose": "seated facing forward",
+        "expression": "neutral",
+        "face": "blurred for privacy",
+        "gaze": "looking slightly toward the camera, but their gazes are soft and directed forward"
+      },
+      "id": "person_2",
+      "count": 1
+    },
+    {
+      "type": "cabinet",
+      "attributes": {
+        "material": "dark wooden",
+        "doors": "glass",
+        "reflection": "ambient light"
+      },
+      "id": "cabinet_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": [
+    "armchair",
+    "countertop",
+    "lampshade"
+  ]
+}

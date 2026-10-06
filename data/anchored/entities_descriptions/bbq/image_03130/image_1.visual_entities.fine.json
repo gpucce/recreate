@@ -1,0 +1,252 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        158.0,
+        412.0,
+        640.0,
+        948.0
+      ],
+      "mask": "image_1.masks/furniture_0.png",
+      "crop": null,
+      "description": "An elderly woman is standing in a living room, wearing a light blue button-up shirt and white pants. She is holding a wooden cane in her right hand, and a person in blue scrubs is standing beside her, with one hand on her arm, providing support.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, button-up, long-sleeved",
+          "pants": "white"
+        },
+        "accessories": {
+          "cane": "wooden, held in right hand"
+        },
+        "pose": "standing, supported by another person",
+        "age": "elderly",
+        "gender": "female",
+        "setting": "indoor, living room with a green armchair and a wooden cabinet in the background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        804.0,
+        62.0,
+        1032.0,
+        808.0
+      ],
+      "mask": "image_1.masks/furniture_1.png",
+      "crop": null,
+      "description": "A tall, light-brown wooden bookcase with a natural grain finish features open shelving on the upper half and a closed cabinet with two doors and drawers on the lower half. The shelves are filled with stacks of books, a framed photograph, a black and white vintage-style camera, and a small digital clock, while a person in blue clothing is partially visible on the left edge.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "natural grain",
+        "structure": {
+          "upper": "open shelves",
+          "lower": "closed cabinet with doors and drawers"
+        },
+        "contents": [
+          "books",
+          "framed photo",
+          "camera",
+          "digital clock"
+        ],
+        "position": "standing against wall",
+        "visible_person": "partial view of person in blue clothing on left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        -2.0,
+        460.0,
+        214.0,
+        852.0
+      ],
+      "mask": "image_1.masks/furniture_2.png",
+      "crop": null,
+      "description": "A wooden dresser with a light brown finish and visible grain pattern, featuring three drawers with small, dark, round knobs. The top surface holds a few items, including a white object and a black camera, while the right side is partially obscured by the arm of a beige upholstered chair.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "natural grain",
+        "type": "dresser",
+        "drawers": {
+          "count": 3,
+          "knobs": "dark, round"
+        },
+        "top_items": [
+          "white object",
+          "black camera"
+        ],
+        "adjacent_furniture": "beige upholstered chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.87109375,
+      "box": [
+        114.0,
+        804.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/furniture_3.png",
+      "crop": null,
+      "description": "A close-up view of a bed with white, wrinkled sheets in the foreground, partially obscuring the lower legs of two people standing behind it. One person is wearing white pants, and the other is wearing blue pants. A green upholstered armchair with a wooden leg is visible in the background to the left.",
+      "attributes": {
+        "furniture_type": "bed",
+        "material": "fabric",
+        "color": "white",
+        "condition": "wrinkled",
+        "position": "foreground",
+        "background_elements": {
+          "people": {
+            "person_1": {
+              "pants": "white"
+            },
+            "person_2": {
+              "pants": "blue"
+            }
+          },
+          "armchair": {
+            "color": "green",
+            "material": "upholstered",
+            "leg_material": "wood"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        262.0,
+        178.0,
+        600.0,
+        920.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair is walking with the support of a wooden cane in her right hand and a younger woman's hand on her left arm. She is wearing a light blue, long-sleeved button-down blouse and white pants, with a gentle, downward-looking expression.",
+      "attributes": {
+        "age": "elderly",
+        "gender": "female",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "color": "light blue",
+            "sleeves": "long",
+            "details": "button-down front"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "white"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "material": "wood",
+            "color": "brown"
+          }
+        },
+        "pose": "walking, supported by another person",
+        "expression": "gentle, looking down",
+        "skin": "wrinkled, fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        312.0,
+        90.0,
+        840.0,
+        872.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with dark hair tied back in a ponytail and wearing black-rimmed glasses is dressed in a light blue short-sleeved medical scrub set. She is standing and leaning slightly forward, placing one hand on the shoulder and the other on the arm of an elderly woman, appearing to offer support or comfort.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub shirt with a chest pocket",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning forward, hands on another person",
+        "social_role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.51953125,
+      "box": [
+        972.0,
+        152.0,
+        996.0,
+        206.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        0.0,
+        0.0,
+        540.0,
+        448.0
+      ],
+      "mask": "image_1.masks/window_0.png",
+      "crop": null,
+      "description": "A large, multi-paned window with white frames and mullions, allowing bright, diffused natural light to enter the room. The glass appears slightly frosted or obscured by glare, with a blurred view of greenery outside.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely wood or vinyl",
+        "pane_configuration": "multi-paned, at least four visible panes in a grid",
+        "mullions": "white, dividing the window into rectangular sections",
+        "glass": "clear but with strong backlighting causing glare and obscuring the exterior view",
+        "exterior_view": "blurred greenery, suggesting trees or foliage outside",
+        "lighting": "bright, natural daylight streaming through",
+        "position": "occupies the upper and left background of the image, behind the subjects",
+        "function": "provides natural illumination and a view to the outside"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,153 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        3.5,
+        332.0,
+        238.0,
+        812.0
+      ],
+      "mask": "image_7.masks/backpack_0.png",
+      "crop": null,
+      "description": "A black backpack is worn on the back of a person, with a wide, padded black shoulder strap visible over the right shoulder. The strap features a black plastic side-release buckle and adjustment hardware, and the backpack's main body is made of a smooth, matte black fabric with a visible side pocket and zipper pull.",
+      "attributes": {
+        "color": "black",
+        "material": "fabric",
+        "strap": {
+          "color": "black",
+          "padding": "yes",
+          "buckle": "plastic side-release"
+        },
+        "pockets": {
+          "side": "visible"
+        },
+        "hardware": {
+          "zipper": "visible",
+          "pull": "black"
+        },
+        "worn_by": {
+          "clothing": {
+            "shirt": "orange and blue plaid flannel",
+            "pants": "blue denim"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        478.0,
+        104.0,
+        1008.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with a white beard and mustache sits facing slightly to the left, wearing a brown plaid flat cap, a light blue button-down shirt, and a maroon and beige argyle sweater vest. He has a gentle smile and is wearing khaki pants, with his hands resting on his thighs.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap"
+        },
+        "facial_hair": {
+          "beard": "white, full",
+          "mustache": "white"
+        },
+        "expression": "smiling, looking to the side",
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "pattern": "plaid",
+            "color": "brown and beige"
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "collar": "visible"
+          },
+          "vest": {
+            "type": "sweater vest",
+            "pattern": "argyle",
+            "colors": [
+              "maroon",
+              "beige"
+            ]
+          },
+          "pants": {
+            "color": "khaki",
+            "type": "trousers"
+          }
+        },
+        "pose": "sitting, hands on knees",
+        "skin": "wrinkled, aged"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        53.0,
+        86.0,
+        540.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with light skin and brown hair is seated, wearing a blue baseball cap, an orange and navy plaid flannel shirt over a white t-shirt, and blue jeans. He has a black backpack strap over his right shoulder and is smiling while looking to the side.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "headwear": {
+          "type": "baseball cap",
+          "color": "blue"
+        },
+        "clothing": {
+          "outer": {
+            "type": "flannel shirt",
+            "pattern": "plaid",
+            "colors": [
+              "orange",
+              "navy blue"
+            ],
+            "state": "unbuttoned"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue",
+            "wash": "light"
+          }
+        },
+        "accessories": {
+          "backpack": {
+            "color": "black",
+            "strap": "visible on right shoulder"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "gaze": "looking to the right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

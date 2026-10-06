@@ -1,0 +1,405 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.66796875,
+      "box": [
+        540.0,
+        -2.0,
+        724.0,
+        426.0
+      ],
+      "mask": "image_11.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up profile of a Black man with short dreadlocks and a beard, smiling gently while looking to the left, set against a blurred urban background featuring a building with a green awning and a vertical sign.",
+      "attributes": {
+        "subject": {
+          "gender": "male",
+          "ethnicity": "Black",
+          "age": "adult",
+          "hair": {
+            "style": "dreadlocks",
+            "color": "black"
+          },
+          "facial_hair": "beard",
+          "expression": "smiling",
+          "pose": "profile view, looking left",
+          "clothing": {
+            "visible_part": "black jacket or shirt collar"
+          }
+        },
+        "background": {
+          "building": {
+            "features": [
+              "green awning",
+              "vertical sign with white text on black background",
+              "pinkish-beige facade"
+            ],
+            "blur": "out of focus"
+          },
+          "environment": "urban street",
+          "lighting": "natural daylight"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.51953125,
+      "box": [
+        532.0,
+        -1.0,
+        1024.0,
+        468.0
+      ],
+      "mask": "image_11.masks/building_1.png",
+      "crop": null,
+      "description": "A medium shot of a young Black man in profile facing left, smiling with a short beard and textured, short afro hair. He is wearing a black varsity jacket with white striped trim on the collar over a white t-shirt, set against a blurred urban street background with storefronts and awnings.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "male",
+        "ethnicity": "Black",
+        "age_group": "young adult",
+        "hair": {
+          "style": "short afro/twists",
+          "color": "black",
+          "texture": "curly/coily"
+        },
+        "facial_hair": {
+          "style": "short beard",
+          "color": "black"
+        },
+        "expression": "smiling",
+        "pose": "profile view, facing left",
+        "clothing": {
+          "outerwear": {
+            "type": "varsity jacket",
+            "color": "black",
+            "details": "white striped collar"
+          },
+          "inner_layer": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "background": {
+          "setting": "outdoor urban street",
+          "elements": [
+            "storefronts",
+            "green awning",
+            "red awning",
+            "signage"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.59375,
+      "box": [
+        828.0,
+        -2.0,
+        1024.0,
+        464.0
+      ],
+      "mask": "image_11.masks/building_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a storefront featuring a deep red or maroon awning and a glass window with a dark frame. The building facade is a light beige or off-white color, and the background is heavily blurred, emphasizing the foreground subject.",
+      "attributes": {
+        "building_type": "storefront",
+        "awning": {
+          "color": "maroon",
+          "material": "fabric"
+        },
+        "window": {
+          "frame_color": "black",
+          "glass": "reflective"
+        },
+        "facade_color": "beige",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.671875,
+      "box": [
+        -1.5,
+        138.0,
+        138.0,
+        390.0
+      ],
+      "mask": "image_11.masks/building_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a reddish-brown facade, partially obscured by a large green tree in the foreground. The lower portion of the image shows the tops of two parked cars, one yellow and one white, in front of the building.",
+      "attributes": {
+        "building": {
+          "color": "reddish-brown",
+          "material": "indeterminate due to blur",
+          "visibility": "partially obscured by tree"
+        },
+        "tree": {
+          "color": "green",
+          "position": "foreground, center",
+          "state": "out of focus"
+        },
+        "cars": {
+          "count": 2,
+          "colors": [
+            "yellow",
+            "white"
+          ],
+          "position": "bottom foreground",
+          "state": "out of focus"
+        },
+        "image_quality": "extremely blurry, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        556.0,
+        112.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling Black man with short, dark, curly hair and a beard stands in profile facing left, wearing a black and white varsity jacket over a white t-shirt. He holds a bright pink soccer ball with both hands at chest level.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short, curly, textured"
+        },
+        "facial_hair": "short beard and mustache",
+        "expression": "smiling",
+        "pose": "standing, profile view, holding object",
+        "clothing": {
+          "jacket": {
+            "type": "varsity/bomber",
+            "body_color": "black",
+            "sleeve_color": "white",
+            "collar": "ribbed black with white stripes",
+            "cuffs": "ribbed black with white stripes",
+            "buttons": "silver snap buttons"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "accessories": {
+          "held_object": {
+            "type": "soccer ball",
+            "color": "bright pink",
+            "material": "glossy plastic or leather"
+          }
+        },
+        "background": "outdoor street scene, blurred storefronts"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.5859375,
+      "box": [
+        512.0,
+        380.0,
+        528.0,
+        436.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        146.0,
+        596.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "An older Black man with a white beard and mustache is smiling broadly while gesturing with both hands open, wearing a bright turquoise short-sleeved button-down shirt featuring a pattern of pink flamingos and orange and pink hibiscus flowers, topped with a black ribbed beanie.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "white",
+          "mustache": "white"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "texture": "ribbed knit"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "sleeves": "short",
+            "base_color": "turquoise",
+            "pattern": "flamingos and tropical flowers",
+            "pattern_colors": [
+              "pink",
+              "orange",
+              "white",
+              "green"
+            ]
+          }
+        },
+        "accessories": {
+          "wrist": [
+            "black band on left wrist",
+            "watch on right wrist"
+          ],
+          "neck": "thin chain"
+        },
+        "expression": "smiling",
+        "pose": "standing, gesturing with hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "soccer ball",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        620.0,
+        664.0,
+        852.0,
+        856.0
+      ],
+      "mask": "image_11.masks/soccer ball_0.png",
+      "crop": null,
+      "description": "A glossy, bright pink soccer ball with a standard black pentagon and hexagon panel pattern is held in a person's hand. The ball has a smooth, reflective surface and is positioned in the foreground against a dark background.",
+      "attributes": {
+        "object": "soccer ball",
+        "color": "bright pink",
+        "pattern": "black pentagon and hexagon lines",
+        "material": "glossy synthetic leather",
+        "condition": "new",
+        "size": "standard",
+        "position": "held in hand",
+        "lighting": "bright, creating specular highlights"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.69140625,
+      "box": [
+        102.5,
+        292.0,
+        194.0,
+        372.0
+      ],
+      "mask": "image_11.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up of a tree trunk with rough, textured bark in shades of gray and brown, partially visible on the right side of the frame. The background is blurred, showing hints of green foliage and a light blue object at the bottom.",
+      "attributes": {
+        "bark": "rough, textured, gray-brown",
+        "position": "right side of frame",
+        "background": "blurred, green foliage, light blue object"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        -2.0,
+        178.0,
+        149.0,
+        382.0
+      ],
+      "mask": "image_11.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a dense canopy of light green leaves stands in the foreground, partially obscuring a building with a reddish-brown facade and a blue awning in the background. The tree's trunk is visible but indistinct due to the lack of focus, and the overall image has a soft, hazy quality.",
+      "attributes": {
+        "focus": "blurry",
+        "leaves": "light green",
+        "trunk": "visible but indistinct",
+        "background": {
+          "building": "reddish-brown",
+          "awning": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.83203125,
+      "box": [
+        2.0,
+        -1.0,
+        608.0,
+        178.0
+      ],
+      "mask": "image_11.masks/tree_2.png",
+      "crop": null,
+      "description": "A large tree with a thick, brown trunk and branches extending upward, covered in green leaves with some yellowing, set against a blurred background of a street lamp and buildings.",
+      "attributes": {
+        "trunk": "thick, brown, textured",
+        "leaves": "green with yellowing",
+        "branches": "extending upward",
+        "background": "blurred, includes street lamp and buildings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.6484375,
+      "box": [
+        304.0,
+        55.0,
+        580.0,
+        428.0
+      ],
+      "mask": "image_11.masks/tree_3.png",
+      "crop": null,
+      "description": "An elderly Black man with a white beard and mustache is shown in profile, smiling warmly. He is wearing a black beanie and a colorful patterned shirt.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "white",
+          "mustache": "white"
+        },
+        "clothing": {
+          "hat": "black beanie",
+          "shirt": "colorful patterned"
+        },
+        "expression": "smiling",
+        "pose": "profile view"
+      },
+      "parse_ok": true
+    }
+  ]
+}

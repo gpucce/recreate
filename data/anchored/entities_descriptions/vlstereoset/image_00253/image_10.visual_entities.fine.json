@@ -1,0 +1,81 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        520.0,
+        704.0,
+        656.0,
+        848.0
+      ],
+      "mask": "image_10.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of a weathered, elderly hand with deep wrinkles and visible veins, resting on a surface of light brown soil or sand. The skin is rough and textured, showing signs of age and labor, with short, clean fingernails.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled, rough",
+          "veins": "visible",
+          "color": "tanned, reddish-brown"
+        },
+        "fingers": "short, slightly bent",
+        "nails": "short, clean",
+        "pose": "resting on ground",
+        "background": "soil, sand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.875,
+      "box": [
+        374.0,
+        720.0,
+        478.0,
+        792.0
+      ],
+      "mask": "image_10.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's hand, likely a child's or young adult's, gently holding the stem of a red flower. The hand is fair-skinned with visible veins and fine hairs, and the fingers are slightly curled around the green stem.",
+      "attributes": {
+        "skin_tone": "fair",
+        "age_group": "child or young adult",
+        "pose": "holding a flower stem",
+        "object_held": "red flower with green stem",
+        "lighting": "natural, soft"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.85546875,
+      "box": [
+        470.0,
+        672.0,
+        552.0,
+        792.0
+      ],
+      "mask": "image_10.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of a wrinkled, elderly hand gently holding the stem of a bright orange poppy flower. The skin is deeply lined and textured, indicating advanced age, with visible veins and knuckles.",
+      "attributes": {
+        "age": "elderly",
+        "skin": "wrinkled, textured, veiny",
+        "action": "holding a flower",
+        "flower": {
+          "color": "orange",
+          "type": "poppy",
+          "center": "black"
+        },
+        "pose": "gripping stem with fingers"
+      },
+      "parse_ok": true
+    }
+  ]
+}

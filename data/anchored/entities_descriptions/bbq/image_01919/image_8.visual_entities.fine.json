@@ -1,0 +1,179 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        185.0,
+        460.0,
+        306.0,
+        644.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus shot of a person's hand gripping the shoulder of another individual wearing a blue and white plaid shirt. The hand is in sharp focus, showing light skin tone and short fingernails, while the background figure is heavily blurred.",
+      "attributes": {
+        "hand": {
+          "skin_tone": "light",
+          "action": "gripping shoulder",
+          "focus": "sharp"
+        },
+        "clothing": {
+          "shirt": {
+            "pattern": "plaid",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "material": "fabric"
+          }
+        },
+        "background_figure": {
+          "focus": "blurred",
+          "hair": "dark"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        192.0,
+        238.0,
+        560.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling young boy with curly brown hair stands facing the camera, wearing a blue and white plaid flannel shirt over a white t-shirt. He has a blue lanyard around his neck holding a blank white ID badge, and an adult's hand rests on his shoulder from the right side.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": "blue and white plaid flannel shirt",
+          "inner": "white t-shirt",
+          "accessories": "blue lanyard with blank ID badge"
+        },
+        "pose": "standing",
+        "interaction": "hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        848.0,
+        486.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with short dark hair is sitting at a desk, wearing a light blue button-down shirt and looking down at an open book or paper in front of him. He appears to be focused on writing or reading, with his hands resting on the surface.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "focused",
+        "activity": "writing or reading",
+        "position": "seated at a desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        -2.5,
+        478.0,
+        210.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_3.png",
+      "crop": null,
+      "description": "A young girl with dark hair tied back sits at a wooden desk, looking down at an open notebook while writing with a pen. She wears a light blue button-down shirt over a white t-shirt and blue jeans, appearing focused on her work in a classroom setting.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "black",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue",
+            "layering": "over white t-shirt"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "expression": "focused",
+        "context": "classroom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.96875,
+      "box": [
+        214.0,
+        74.0,
+        920.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_4.png",
+      "crop": null,
+      "description": "A smiling woman with long brown hair stands next to a young boy with curly brown hair, wearing a white button-down shirt under a light grey cardigan and beige trousers, holding a black Canon DSLR camera with a strap around her neck. The boy wears a blue and white plaid shirt over a white t-shirt with a blue lanyard and ID badge around his neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "clothing": {
+          "shirt": "white button-down",
+          "cardigan": "light grey",
+          "pants": "beige",
+          "accessories": {
+            "camera": "black Canon DSLR",
+            "camera_strap": "black with red trim"
+          }
+        },
+        "pose": "standing, arm around boy, holding camera",
+        "expression": "smiling",
+        "context": "classroom setting with blackboard in background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

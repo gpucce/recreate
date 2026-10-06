@@ -1,0 +1,861 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.66796875,
+      "box": [
+        852.0,
+        182.0,
+        1032.0,
+        358.0
+      ],
+      "mask": "image_1.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, low-resolution view of a small, makeshift structure with a corrugated metal roof and dark, possibly wooden or metal, walls. Two people are visible in the foreground: one wearing a red shirt and a white hard hat, and another in a white shirt carrying an orange bag, standing near the entrance of the building.",
+      "attributes": {
+        "structure": {
+          "roof": "corrugated metal",
+          "walls": "dark, possibly wooden or metal",
+          "condition": "blurry, low-resolution",
+          "type": "makeshift or temporary"
+        },
+        "people": [
+          {
+            "clothing": {
+              "shirt": "red",
+              "hat": "white hard hat"
+            },
+            "position": "left side, near entrance"
+          },
+          {
+            "clothing": {
+              "shirt": "white",
+              "pants": "dark"
+            },
+            "accessories": {
+              "bag": "orange"
+            },
+            "position": "center, walking away"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.765625,
+      "box": [
+        -1.0,
+        150.0,
+        456.0,
+        374.0
+      ],
+      "mask": "image_1.masks/building_1.png",
+      "crop": null,
+      "description": "A small, single-story structure with a sloped roof made of corrugated metal sheets, some of which are rusted. The walls are constructed from vertical wooden planks and corrugated metal panels, with a dark, open doorway on the left side. The building appears weathered and is situated in a densely packed area with other similar structures visible in the background.",
+      "attributes": {
+        "roof": {
+          "material": "corrugated metal",
+          "condition": "rusted",
+          "shape": "sloped"
+        },
+        "walls": {
+          "material": [
+            "wooden planks",
+            "corrugated metal"
+          ],
+          "color": [
+            "gray",
+            "blue",
+            "brown"
+          ]
+        },
+        "doorway": {
+          "state": "open",
+          "color": "dark"
+        },
+        "condition": "weathered",
+        "structure_type": "single-story",
+        "surroundings": "densely packed with similar structures"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.59375,
+      "box": [
+        114.0,
+        98.5,
+        442.0,
+        204.0
+      ],
+      "mask": "image_1.masks/building_2.png",
+      "crop": null,
+      "description": "A close-up view of a building's roof made of corrugated metal sheets, showing significant rust and weathering with patches of brown and faded silver. The roof has a sloped, gabled structure with visible seams and a dark ridge cap at the peak, set against a blurred background of green foliage and a clear sky.",
+      "attributes": {
+        "material": "corrugated metal",
+        "condition": "weathered, rusted",
+        "color": "brown, faded silver, dark grey",
+        "structure": "gabled roof",
+        "details": [
+          "visible seams",
+          "ridge cap",
+          "rust patches"
+        ],
+        "background": "blurred green foliage, clear sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.89453125,
+      "box": [
+        732.0,
+        68.0,
+        868.0,
+        147.0
+      ],
+      "mask": "image_1.masks/building_3.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurry, multi-story building with a light beige or off-white exterior, featuring rectangular windows arranged in a grid pattern. The structure appears to be made of concrete or stucco, with a flat roof and a small, darker section on the upper right corner. Green foliage is visible in the foreground, partially obscuring the lower part of the building.\", \"attributes\": {\"color\": \"light beige/off-white\", \"material\": \"concrete/stucco\", \"structure\": \"multi-story\", \"windows\": \"rectangular, grid pattern\", \"roof\": \"flat\", \"foreground\": \"green foliage\", \"blur\": \"high\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.64453125,
+      "box": [
+        426.0,
+        172.0,
+        552.0,
+        298.0
+      ],
+      "mask": "image_1.masks/building_4.png",
+      "crop": null,
+      "description": "A small, single-story building with a sloped roof and a yellow-painted wall is visible in the background, partially obscured by a vertical pole and a green bush in the foreground. The image is out of focus, making specific details of the building's structure and materials difficult to discern.",
+      "attributes": {
+        "structure": "single-story",
+        "roof": "sloped",
+        "wall_color": "yellow",
+        "foreground_objects": [
+          "vertical pole",
+          "green bush"
+        ],
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.62109375,
+      "box": [
+        684.0,
+        114.0,
+        732.0,
+        135.0
+      ],
+      "mask": "image_1.masks/building_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.6875,
+      "box": [
+        772.0,
+        150.0,
+        932.0,
+        284.0
+      ],
+      "mask": "image_1.masks/building_6.png",
+      "crop": null,
+      "description": "A blurry, low-resolution view of a building structure featuring a dark, sloped roof and a lighter-colored horizontal beam or eave. The walls appear to be a light gray or off-white material, possibly concrete or stucco, with a dark, shadowed opening or doorway visible in the center. The image is out of focus, obscuring fine details of the texture and construction.",
+      "attributes": {
+        "roof": {
+          "color": "dark brown or black",
+          "shape": "sloped",
+          "material": "indistinct"
+        },
+        "walls": {
+          "color": "light gray or off-white",
+          "material": "indistinct, possibly concrete or stucco"
+        },
+        "features": {
+          "opening": "dark, shadowed doorway or entrance",
+          "eave": "light-colored horizontal beam under the roof"
+        },
+        "image_quality": "blurry, low resolution"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "child",
+      "index": 0,
+      "score": 0.73046875,
+      "box": [
+        350.0,
+        326.0,
+        370.0,
+        410.0
+      ],
+      "mask": "image_1.masks/child_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "child",
+      "index": 1,
+      "score": 0.703125,
+      "box": [
+        244.0,
+        338.0,
+        266.0,
+        398.0
+      ],
+      "mask": "image_1.masks/child_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "child",
+      "index": 2,
+      "score": 0.8203125,
+      "box": [
+        278.0,
+        324.0,
+        314.0,
+        380.0
+      ],
+      "mask": "image_1.masks/child_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "child",
+      "index": 3,
+      "score": 0.50390625,
+      "box": [
+        225.0,
+        350.0,
+        239.0,
+        374.0
+      ],
+      "mask": "image_1.masks/child_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "child",
+      "index": 4,
+      "score": 0.953125,
+      "box": [
+        572.0,
+        402.0,
+        628.0,
+        536.0
+      ],
+      "mask": "image_1.masks/child_4.png",
+      "crop": null,
+      "description": "A young child with dark skin and short black hair is seen from behind, walking away on a sandy surface. The child is wearing a bright red short-sleeved t-shirt and dark maroon shorts, with bare feet visible.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "red",
+            "type": "t-shirt",
+            "sleeves": "short"
+          },
+          "shorts": {
+            "color": "maroon",
+            "type": "shorts"
+          }
+        },
+        "pose": "walking away",
+        "position": "center",
+        "footwear": "barefoot",
+        "surface": "sandy ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "path",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        240.0,
+        322.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/path_0.png",
+      "crop": null,
+      "description": "An elderly Black man with short gray hair and a mustache is walking away from the camera on a dirt path littered with trash, wearing a brown jacket and dark pants, carrying a white plastic bag in his left hand.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": "short, gray",
+        "facial hair": "mustache",
+        "clothing": {
+          "jacket": "brown, long-sleeved",
+          "pants": "dark, possibly gray or black",
+          "shoes": "brown, worn"
+        },
+        "pose": "walking away from camera",
+        "accessories": {
+          "bag": "white plastic bag, held in left hand"
+        },
+        "environment": "dirt path, littered with trash, near train tracks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        856.0,
+        270.0,
+        880.0,
+        350.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.6875,
+      "box": [
+        245.0,
+        336.0,
+        266.0,
+        388.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.6640625,
+      "box": [
+        668.0,
+        240.0,
+        684.0,
+        270.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.8359375,
+      "box": [
+        66.5,
+        274.0,
+        93.5,
+        342.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.7890625,
+      "box": [
+        632.0,
+        247.0,
+        640.0,
+        276.0
+      ],
+      "mask": "image_1.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.640625,
+      "box": [
+        179.0,
+        332.0,
+        199.0,
+        360.0
+      ],
+      "mask": "image_1.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.828125,
+      "box": [
+        350.0,
+        326.0,
+        370.0,
+        410.0
+      ],
+      "mask": "image_1.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.8828125,
+      "box": [
+        556.0,
+        292.0,
+        580.0,
+        376.0
+      ],
+      "mask": "image_1.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.609375,
+      "box": [
+        688.0,
+        231.0,
+        704.0,
+        264.0
+      ],
+      "mask": "image_1.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.97265625,
+      "box": [
+        736.0,
+        344.0,
+        840.0,
+        612.0
+      ],
+      "mask": "image_1.masks/person_9.png",
+      "crop": null,
+      "description": "A Black woman with short dark hair is walking forward on a dirt path, wearing a green short-sleeved t-shirt and dark blue or black pants, with brown sandals on her feet. Her expression is neutral, and she appears to be in motion, with one foot slightly ahead of the other.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": "short, dark",
+        "clothing": {
+          "shirt": "green, short-sleeved, t-shirt",
+          "pants": "dark blue or black, full-length",
+          "footwear": "brown sandals"
+        },
+        "pose": "walking forward",
+        "expression": "neutral",
+        "position": "centered in frame, mid-stride",
+        "background": "dirt path with scattered rocks and wooden planks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.63671875,
+      "box": [
+        536.0,
+        242.0,
+        552.0,
+        270.0
+      ],
+      "mask": "image_1.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 11,
+      "score": 0.78515625,
+      "box": [
+        470.0,
+        274.0,
+        490.0,
+        338.0
+      ],
+      "mask": "image_1.masks/person_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 12,
+      "score": 0.9296875,
+      "box": [
+        896.0,
+        284.0,
+        936.0,
+        384.0
+      ],
+      "mask": "image_1.masks/person_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 13,
+      "score": 0.66015625,
+      "box": [
+        812.0,
+        264.0,
+        828.0,
+        304.0
+      ],
+      "mask": "image_1.masks/person_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 14,
+      "score": 0.9453125,
+      "box": [
+        576.0,
+        402.0,
+        624.0,
+        536.0
+      ],
+      "mask": "image_1.masks/person_14.png",
+      "crop": null,
+      "description": "A young child with dark skin and short black hair is seen from behind, walking away on a sandy surface. The child is wearing a bright red short-sleeved t-shirt and dark maroon shorts, and appears to be barefoot.",
+      "attributes": {
+        "age": "child",
+        "gender": "male",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "red",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "maroon"
+          },
+          "footwear": "barefoot"
+        },
+        "pose": "walking away",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 15,
+      "score": 0.52734375,
+      "box": [
+        548.0,
+        246.0,
+        564.0,
+        278.0
+      ],
+      "mask": "image_1.masks/person_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 16,
+      "score": 0.6171875,
+      "box": [
+        225.0,
+        350.0,
+        239.0,
+        374.0
+      ],
+      "mask": "image_1.masks/person_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 17,
+      "score": 0.53515625,
+      "box": [
+        648.0,
+        240.0,
+        656.0,
+        272.0
+      ],
+      "mask": "image_1.masks/person_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 18,
+      "score": 0.890625,
+      "box": [
+        712.0,
+        264.0,
+        736.0,
+        340.0
+      ],
+      "mask": "image_1.masks/person_18.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 19,
+      "score": 0.89453125,
+      "box": [
+        278.0,
+        324.0,
+        314.0,
+        380.0
+      ],
+      "mask": "image_1.masks/person_19.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 20,
+      "score": 0.52734375,
+      "box": [
+        572.0,
+        246.0,
+        588.0,
+        294.0
+      ],
+      "mask": "image_1.masks/person_20.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 21,
+      "score": 0.734375,
+      "box": [
+        182.0,
+        332.0,
+        214.0,
+        376.0
+      ],
+      "mask": "image_1.masks/person_21.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 22,
+      "score": 0.93359375,
+      "box": [
+        520.0,
+        286.0,
+        552.0,
+        390.0
+      ],
+      "mask": "image_1.masks/person_22.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 23,
+      "score": 0.9375,
+      "box": [
+        494.0,
+        386.0,
+        564.0,
+        528.0
+      ],
+      "mask": "image_1.masks/person_23.png",
+      "crop": null,
+      "description": "A blurry, low-resolution image of a person with dark skin bending forward at the waist, wearing a dark short-sleeved shirt and dark shorts. The person is holding a white plastic bag in their right hand and appears to be interacting with a yellow object or bag on the ground to their left.",
+      "attributes": {
+        "pose": "bending forward",
+        "skin_tone": "dark",
+        "clothing": {
+          "top": "dark short-sleeved shirt",
+          "bottom": "dark shorts"
+        },
+        "accessories": {
+          "holding": "white plastic bag"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 24,
+      "score": 0.74609375,
+      "box": [
+        656.0,
+        245.0,
+        672.0,
+        280.0
+      ],
+      "mask": "image_1.masks/person_24.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 25,
+      "score": 0.83203125,
+      "box": [
+        748.0,
+        266.0,
+        764.0,
+        314.0
+      ],
+      "mask": "image_1.masks/person_25.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 26,
+      "score": 0.9765625,
+      "box": [
+        326.0,
+        318.0,
+        524.0,
+        896.0
+      ],
+      "mask": "image_1.masks/person_26.png",
+      "crop": null,
+      "description": "An older Black man with short gray hair and a mustache is walking away from the camera, wearing a brown jacket and dark pants. He is carrying a white plastic bag in his left hand.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "ethnicity": "Black",
+        "hair": "short, gray",
+        "facial_hair": "mustache",
+        "clothing": {
+          "jacket": "brown, long-sleeved",
+          "pants": "dark, possibly gray or black",
+          "shoes": "light-colored, possibly beige or tan"
+        },
+        "accessories": {
+          "bag": "white plastic bag in left hand"
+        },
+        "pose": "walking away from the camera",
+        "position": "center of the frame, slightly to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "railway tracks",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        624.0,
+        278.0,
+        1032.0,
+        552.0
+      ],
+      "mask": "image_1.masks/railway tracks_0.png",
+      "crop": null,
+      "description": "A set of railway tracks curves gently from the foreground into the background, consisting of two parallel steel rails mounted on wooden sleepers and embedded in a bed of grey gravel ballast. The tracks appear weathered and are situated in a dusty, unpaved area with scattered debris and trash visible on the ground to the left.",
+      "attributes": {
+        "structure": {
+          "rails": "parallel steel",
+          "sleepers": "wooden",
+          "ballast": "grey gravel",
+          "alignment": "curved"
+        },
+        "condition": "weathered",
+        "surroundings": {
+          "ground": "dusty, unpaved",
+          "debris": "scattered trash and objects"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

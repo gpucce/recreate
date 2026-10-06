@@ -1,0 +1,101 @@
+{
+  "scene": {
+    "background": "rich with detail — visible product labels, barcode stickers, and neatly stacked boxes — including recognizable brands like 'Kraft' and 'Nestlé' on some shelves",
+    "lighting": "bright and even, likely from overhead fluorescent fixtures, casting minimal shadows and giving the scene a crisp, daylight feel",
+    "camera_angle": "slightly low-angle, eye-level perspective",
+    "style": "candid snapshot taken with a smartphone, with natural depth of field, slight focus softness on the background shelves, and a realistic, unretouched look",
+    "mood": "lively, bustling, and authentic — capturing a candid moment in a local shop",
+    "color_palette": "vibrant green, red, yellow, and white packaging"
+  },
+  "entities": [
+    {
+      "type": "store",
+      "attributes": {
+        "layout": "densely stocked grocery or convenience store",
+        "shelves": {
+          "arrangement": "packed tightly with colorful product boxes — primarily canned goods, snacks, and packaged food — arranged in rows",
+          "height": "floor to ceiling"
+        },
+        "ceiling": {
+          "design": "green and yellow patterned tile"
+        },
+        "walls": {
+          "shelves": "lined with shelves extending from floor to ceiling"
+        },
+        "foreground": {
+          "counter": {
+            "material": "wooden",
+            "items": {
+              "weighing_scale": "present",
+              "banana_display": "small display of bananas"
+            }
+          }
+        }
+      },
+      "id": "store_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "clothing": {
+          "shirt": {
+            "type": "button-up",
+            "color": "gray"
+          }
+        },
+        "pose": "gesturing with his right hand, pointing toward the camera",
+        "face": "blurred for privacy",
+        "expression": "smiling or in a cheerful mood"
+      },
+      "id": "man_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "clothing": {
+          "shirt": {
+            "type": "T-shirt",
+            "color": "black"
+          }
+        },
+        "pose": "making a peace sign with his right hand",
+        "face": "blurred",
+        "expression": "smiling or in a cheerful mood"
+      },
+      "id": "man_2",
+      "count": 1
+    },
+    {
+      "type": "product_box",
+      "attributes": {
+        "content": "canned goods, snacks, and packaged food",
+        "packaging": {
+          "colors": "vibrant green, red, yellow, and white",
+          "brands": "Kraft, Nestlé"
+        }
+      },
+      "id": "product_boxes_1",
+      "count": 1
+    },
+    {
+      "type": "banana",
+      "attributes": {
+        "location": "small display on wooden counter"
+      },
+      "id": "banana_display_1",
+      "count": 1
+    },
+    {
+      "type": "weighing_scale",
+      "attributes": {
+        "location": "on wooden counter"
+      },
+      "id": "weighing_scale_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

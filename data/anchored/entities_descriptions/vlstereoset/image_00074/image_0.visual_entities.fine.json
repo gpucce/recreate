@@ -1,0 +1,637 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "blanket",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        12.0,
+        1360.0,
+        800.0,
+        1600.0
+      ],
+      "mask": "image_0.masks/blanket_0.png",
+      "crop": null,
+      "description": "A red blanket is spread out on the ground, with a child sitting on it. The blanket has a smooth texture and is slightly wrinkled. Various items, including a sippy cup, a water bottle, and some toys, are placed on the blanket.",
+      "attributes": {
+        "color": "red",
+        "material": "fabric",
+        "texture": "smooth",
+        "condition": "slightly wrinkled",
+        "items_on_blanket": [
+          "sippy cup",
+          "water bottle",
+          "toys",
+          "book"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bottle",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        504.0,
+        1528.0,
+        536.0,
+        1592.0
+      ],
+      "mask": "image_0.masks/bottle_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "bottle",
+      "index": 1,
+      "score": 0.796875,
+      "box": [
+        366.0,
+        1496.0,
+        420.0,
+        1592.0
+      ],
+      "mask": "image_0.masks/bottle_1.png",
+      "crop": null,
+      "description": "A purple plastic bottle with a pink cap and a pink spout, set against a red background.",
+      "attributes": {
+        "color": {
+          "body": "purple",
+          "cap": "pink",
+          "spout": "pink"
+        },
+        "material": "plastic",
+        "shape": "cylindrical",
+        "background": "red"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bottle",
+      "index": 2,
+      "score": 0.86328125,
+      "box": [
+        560.0,
+        1488.0,
+        608.0,
+        1600.0
+      ],
+      "mask": "image_0.masks/bottle_2.png",
+      "crop": null,
+      "description": "A close-up of a metallic silver bottle with a purple lid, featuring a circular logo with the word 'WORTHY' in white text on a black background and a green emblem in the center. The bottle is placed on a red textured surface.",
+      "attributes": {
+        "color": {
+          "body": "silver",
+          "lid": "purple",
+          "logo_background": "black",
+          "logo_text": "white",
+          "logo_emblem": "green"
+        },
+        "material": "metallic",
+        "shape": "cylindrical",
+        "logo": {
+          "text": "WORTHY",
+          "design": "circular with green emblem"
+        },
+        "surface": "red textured background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.5625,
+      "box": [
+        -3.0,
+        840.0,
+        1280.0,
+        936.0
+      ],
+      "mask": "image_0.masks/ground_0.png",
+      "crop": null,
+      "description": "A young girl with long brown hair is sitting on the ground next to a large tree trunk, wearing a pink long-sleeved shirt and blue jeans. She is positioned in a grassy area with dry, brown leaves scattered around, and there is a blue bag next to her.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "long brown",
+        "clothing": {
+          "shirt": "pink long-sleeved",
+          "pants": "blue jeans"
+        },
+        "pose": "sitting",
+        "position": "next to a tree trunk",
+        "accessories": {
+          "bag": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ground",
+      "index": 1,
+      "score": 0.546875,
+      "box": [
+        3.0,
+        848.0,
+        1520.0,
+        976.0
+      ],
+      "mask": "image_0.masks/ground_1.png",
+      "crop": null,
+      "description": "A young girl with long brown hair sits on a white bench next to a large tree trunk, wearing a pink long-sleeved top and dark pants. She is positioned in a park-like setting with dry, brown grass and fallen leaves covering the ground, and a paved path runs horizontally in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "long brown",
+        "clothing": {
+          "top": "pink long-sleeved",
+          "pants": "dark"
+        },
+        "pose": "sitting",
+        "location": "park",
+        "ground": "dry brown grass and fallen leaves",
+        "objects": {
+          "bench": "white",
+          "tree": "large trunk",
+          "path": "paved"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ground",
+      "index": 2,
+      "score": 0.87109375,
+      "box": [
+        6.0,
+        1240.0,
+        1528.0,
+        1608.0
+      ],
+      "mask": "image_0.masks/ground_2.png",
+      "crop": null,
+      "description": "A patch of dry, dormant grass mixed with scattered brown leaves and dirt, situated next to a concrete sidewalk and a red blanket.",
+      "attributes": {
+        "surface": "dry grass and dirt",
+        "debris": "scattered brown leaves",
+        "condition": "dormant, brownish-yellow",
+        "adjacent_objects": [
+          "concrete sidewalk",
+          "red blanket"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        -3.0,
+        460.0,
+        584.0,
+        852.0
+      ],
+      "mask": "image_0.masks/house_0.png",
+      "crop": null,
+      "description": "A single-story house with light green siding and a gray shingled roof, featuring a red front door with a small window, a white-framed window with a green curtain, and a small porch with wooden steps. The house is partially obscured by bare tree branches in the foreground, suggesting a late autumn or winter setting.",
+      "attributes": {
+        "siding_color": "light green",
+        "roof_color": "gray",
+        "roof_material": "shingles",
+        "door_color": "red",
+        "door_features": "small window at top",
+        "window_frame_color": "white",
+        "window_curtain_color": "green",
+        "porch_material": "wood",
+        "porch_steps": "wooden",
+        "surrounding_vegetation": "bare tree branches",
+        "season_suggestion": "late autumn or winter"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.921875,
+      "box": [
+        960.0,
+        456.0,
+        1536.0,
+        872.0
+      ],
+      "mask": "image_0.masks/house_1.png",
+      "crop": null,
+      "description": "A single-story house with a gray shingled roof and a red brick chimney. The exterior walls are painted in a dark gray color, with a section of light brown wood paneling on the gable end. The house features a covered front porch supported by two concrete pillars and wooden posts. There is a set of concrete steps leading up to the porch, and a window with white trim is visible on the right side of the house. The surrounding area includes bare trees and some dry vegetation, suggesting a late autumn or winter setting.",
+      "attributes": {
+        "roof": {
+          "material": "shingles",
+          "color": "gray"
+        },
+        "chimney": {
+          "material": "brick",
+          "color": "red"
+        },
+        "walls": {
+          "color": "dark gray",
+          "material": "siding",
+          "accent": {
+            "color": "light brown",
+            "material": "wood paneling"
+          }
+        },
+        "porch": {
+          "support": {
+            "material": "concrete",
+            "color": "light gray"
+          },
+          "posts": {
+            "material": "wood",
+            "color": "brown"
+          }
+        },
+        "steps": {
+          "material": "concrete",
+          "color": "gray"
+        },
+        "window": {
+          "trim": "white",
+          "frame": "white"
+        },
+        "surroundings": {
+          "trees": "bare",
+          "vegetation": "dry"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        260.0,
+        1136.0,
+        504.0,
+        1488.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, wavy blonde hair tied in a ponytail is seen from behind, wearing a black jacket with a pattern of pink, purple, and white polka dots. She is wearing a knitted beanie with a light blue and white pattern and a pom-pom on top that is red and light blue, and she is sitting on a red blanket outdoors.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": {
+          "color": "blonde",
+          "style": "ponytail",
+          "length": "long"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "pattern": "polka dots",
+            "pattern_colors": [
+              "pink",
+              "purple",
+              "white"
+            ]
+          },
+          "hat": {
+            "type": "beanie",
+            "color": "light blue, white, red",
+            "pattern": "knitted",
+            "feature": "pom-pom"
+          }
+        },
+        "pose": "sitting",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        876.0,
+        884.0,
+        948.0,
+        980.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young girl with long, light brown hair sits on a white bench outdoors, wearing a light pink long-sleeved top and matching pants. She is looking down at a purple object in her lap, possibly a toy or bag, with a white cup on the ground near her feet and a large tree trunk behind her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "light pink",
+            "sleeves": "long"
+          },
+          "pants": {
+            "color": "light pink"
+          },
+          "shoes": {
+            "color": "dark purple"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking down at object in lap",
+        "objects": {
+          "in_lap": "purple object",
+          "on_ground": "white cup"
+        },
+        "background": "tree trunk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plush toy",
+      "index": 0,
+      "score": 0.58203125,
+      "box": [
+        632.0,
+        1456.0,
+        708.0,
+        1504.0
+      ],
+      "mask": "image_0.masks/plush toy_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plush toy",
+      "index": 1,
+      "score": 0.78515625,
+      "box": [
+        680.0,
+        1376.0,
+        752.0,
+        1456.0
+      ],
+      "mask": "image_0.masks/plush toy_1.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a light tan or cream-colored plush toy, likely a rabbit, featuring a prominent red heart shape on its chest and long, upright ears extending from the top of its head. The toy is positioned against a red background, possibly a seat or fabric, with a small portion of a white and pink object visible on the left edge.",
+      "attributes": {
+        "type": "plush toy",
+        "species": "rabbit",
+        "color": "light tan",
+        "material": "plush",
+        "features": {
+          "ears": "long, upright",
+          "chest": "red heart emblem"
+        },
+        "background": "red",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plush toy",
+      "index": 2,
+      "score": 0.58984375,
+      "box": [
+        584.0,
+        1344.0,
+        688.0,
+        1456.0
+      ],
+      "mask": "image_0.masks/plush toy_2.png",
+      "crop": null,
+      "description": "A pink plush toy with a soft, fuzzy texture is positioned on a red surface, featuring a rounded body and a visible head with a small, greenish-yellow patch on the face. The toy appears to be lying down or slumped, with its limbs indistinct due to the plush material and the angle of the shot.",
+      "attributes": {
+        "color": "pink",
+        "material": "plush",
+        "texture": "fuzzy",
+        "face": {
+          "patch": "greenish-yellow"
+        },
+        "pose": "lying down",
+        "background": "red surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        0.0,
+        940.0,
+        1528.0,
+        988.0
+      ],
+      "mask": "image_0.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A concrete sidewalk runs horizontally across the image, bordered by a curb and a strip of dirt with scattered dry leaves. A person is partially visible on the right side, wearing a light-colored top and dark pants, with a pink bag or item in their hand.",
+      "attributes": {
+        "material": "concrete",
+        "border": "curb",
+        "ground_cover": "dirt and dry leaves",
+        "person": {
+          "clothing": {
+            "top": "light-colored",
+            "pants": "dark"
+          },
+          "accessory": "pink bag or item",
+          "position": "right side, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        6.0,
+        1576.0,
+        1528.0,
+        2040.0
+      ],
+      "mask": "image_0.masks/sidewalk_1.png",
+      "crop": null,
+      "description": "A section of a light gray concrete sidewalk with visible expansion joints and minor surface imperfections, including small cracks and dirt spots. In the upper left corner, a pair of bright pink rubber boots and a red cloth with small items on it are partially visible.",
+      "attributes": {
+        "material": "concrete",
+        "color": "light gray",
+        "surface": "flat, slightly textured",
+        "features": [
+          "expansion joints",
+          "small cracks",
+          "dirt spots"
+        ],
+        "objects_present": [
+          {
+            "item": "rubber boots",
+            "color": "pink",
+            "position": "upper left"
+          },
+          {
+            "item": "cloth",
+            "color": "red",
+            "position": "upper left"
+          },
+          {
+            "item": "small items on cloth",
+            "details": "purple bottle, white and green objects",
+            "position": "upper left"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.69921875,
+      "box": [
+        1216.0,
+        -1.0,
+        1536.0,
+        312.0
+      ],
+      "mask": "image_0.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up view of a tree's upper branches against a clear, bright blue sky. The branches are mostly bare and dark, with a complex network of twigs, and a few clusters of yellowish-brown leaves or buds are visible on the right side.",
+      "attributes": {
+        "branches": {
+          "color": "dark brown/black",
+          "state": "mostly bare",
+          "structure": "complex, branching network"
+        },
+        "leaves": {
+          "color": "yellowish-brown",
+          "presence": "sparse, clustered on right side"
+        },
+        "background": {
+          "sky": "clear blue"
+        },
+        "season": "late autumn or early spring"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.7109375,
+      "box": [
+        1168.0,
+        292.0,
+        1536.0,
+        572.0
+      ],
+      "mask": "image_0.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, leafless deciduous tree with a complex network of bare, grayish-brown branches extending against a clear blue sky. The tree is positioned behind the roof of a house, with its upper canopy visible above the shingled roof and a wooden gable end.",
+      "attributes": {
+        "type": "deciduous",
+        "state": "leafless",
+        "branch_color": "grayish-brown",
+        "branch_structure": "dense, intricate network",
+        "background": "blue sky",
+        "position": "behind house roof",
+        "visible_parts": "upper canopy, branches"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.8359375,
+      "box": [
+        0.0,
+        -6.0,
+        284.0,
+        920.0
+      ],
+      "mask": "image_0.masks/tree_2.png",
+      "crop": null,
+      "description": "A tall, mature deciduous tree with a thick, dark gray trunk featuring rough, vertically furrowed bark stands in the foreground. Its branches are bare and spread out extensively against a clear blue sky, indicating a dormant season, while the background shows a house with light green siding and a red door.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "dormant",
+        "leaves": "none",
+        "trunk": {
+          "color": "dark gray",
+          "texture": "rough, furrowed",
+          "thickness": "thick"
+        },
+        "branches": "bare, spreading",
+        "position": "foreground, left of center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.78515625,
+      "box": [
+        780.0,
+        0.0,
+        1184.0,
+        924.0
+      ],
+      "mask": "image_0.masks/tree_3.png",
+      "crop": null,
+      "description": "A tall, mature deciduous tree with a thick, straight trunk featuring rough, deeply furrowed grayish-brown bark stands prominently in the foreground. Its branches are bare and spread out widely against a clear blue sky, indicating a dormant season, while a small child sits at the base of the trunk near a house with a brick chimney in the background.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "dormant",
+        "leaves": "none",
+        "trunk": {
+          "color": "grayish-brown",
+          "texture": "rough, furrowed",
+          "shape": "straight, cylindrical"
+        },
+        "branches": "bare, spreading",
+        "position": "foreground, center",
+        "background": "house, blue sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.734375,
+      "box": [
+        304.0,
+        -2.0,
+        864.0,
+        848.0
+      ],
+      "mask": "image_0.masks/tree_4.png",
+      "crop": null,
+      "description": "A large, mature deciduous tree stands in the foreground, its trunk splitting into multiple thick branches that extend upward and outward. The tree is mostly bare, with a sparse scattering of brown, dried leaves clinging to the fine twigs, set against a clear blue sky. The bark appears gray and textured, and the tree is positioned in front of a house with light-colored siding and a shingled roof.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "late autumn or winter",
+        "foliage": {
+          "density": "sparse",
+          "color": "brown",
+          "state": "dried leaves"
+        },
+        "trunk": {
+          "color": "gray",
+          "structure": "multi-stemmed or branching low"
+        },
+        "background": {
+          "sky": "blue",
+          "building": "house with light siding"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

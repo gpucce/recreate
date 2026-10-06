@@ -1,0 +1,216 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        444.0,
+        452.0,
+        1024.0,
+        980.0
+      ],
+      "mask": "image_14.masks/furniture_0.png",
+      "crop": null,
+      "description": "A wooden bed with a light-colored headboard and footboard, featuring a simple design with visible wood grain. The bed is made with white bedding, including a fitted sheet and a flat sheet, and is positioned against a wall with a bedside table and lamp in the background.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "style": "simple, modern",
+        "components": {
+          "headboard": "visible",
+          "footboard": "visible",
+          "bedding": {
+            "sheet": "white",
+            "fitted_sheet": "white"
+          }
+        },
+        "position": "against wall",
+        "background": {
+          "bedside_table": "visible",
+          "lamp": "visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.76953125,
+      "box": [
+        844.0,
+        420.0,
+        932.0,
+        588.0
+      ],
+      "mask": "image_14.masks/furniture_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a table lamp featuring a cream-colored, cylindrical fabric shade and a slender, dark metal base with a curved, arch-like design. The lamp is positioned in the background behind a blurred, light blue fabric in the foreground.",
+      "attributes": {
+        "object_type": "table lamp",
+        "shade": {
+          "color": "cream",
+          "material": "fabric",
+          "shape": "cylindrical"
+        },
+        "base": {
+          "color": "dark",
+          "material": "metal",
+          "style": "curved arch"
+        },
+        "focus": "blurred",
+        "foreground": "light blue fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        -2.25,
+        224.0,
+        120.0,
+        872.0
+      ],
+      "mask": "image_14.masks/furniture_2.png",
+      "crop": null,
+      "description": "A tall, light-colored wooden bookshelf with four visible shelves, featuring a minimalist design with open sides and angled legs. The shelves hold various books and a woven basket on the bottom shelf.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "style": "minimalist",
+        "structure": {
+          "shelves": 4,
+          "legs": "angled",
+          "sides": "open"
+        },
+        "contents": {
+          "top_shelf": "books",
+          "second_shelf": "books",
+          "third_shelf": "books",
+          "bottom_shelf": "woven basket"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.828125,
+      "box": [
+        876.0,
+        588.0,
+        964.0,
+        620.0
+      ],
+      "mask": "image_14.masks/furniture_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        448.0,
+        142.0,
+        880.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair is walking forward with a slight downward gaze, supported by a wooden cane in her left hand and a caregiver's hand on her right arm. She wears a light blue button-down shirt with sleeves rolled to the elbows and beige trousers, standing in a brightly lit room with a bed visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "beige",
+            "type": "trousers"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "handle": "black",
+            "shaft": "wooden"
+          }
+        },
+        "pose": "walking, supported",
+        "expression": "downcast, focused",
+        "context": "assisted by caregiver"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        168.0,
+        70.0,
+        584.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with dark hair tied back in a ponytail and wearing glasses is dressed in a light blue medical scrub set, standing and gently holding the arm of an elderly person while looking down with a caring expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "social_role": "caregiver or nurse",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub shirt with V-neck and chest pocket",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning slightly forward, holding another person's arm",
+        "expression": "gentle, focused, caring"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        276.0,
+        -4.0,
+        636.0,
+        516.0
+      ],
+      "mask": "image_14.masks/window_0.png",
+      "crop": null,
+      "description": "A large, multi-paned window with white frames is visible in the background, allowing bright natural light to enter the room. The window appears to be made of glass and is divided into multiple rectangular sections by the white mullions.",
+      "attributes": {
+        "frame_color": "white",
+        "material": "glass and likely wood or vinyl",
+        "type": "multi-paned",
+        "lighting": "bright natural light",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

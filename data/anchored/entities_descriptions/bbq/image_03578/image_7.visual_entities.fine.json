@@ -1,0 +1,577 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        824.0,
+        32.0,
+        1024.0,
+        312.0
+      ],
+      "mask": "image_7.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a multi-story building with a reddish-brown facade, partially obscured by a tree branch with yellow leaves in the foreground. The building has indistinct windows and a ground floor with a green awning or storefront.",
+      "attributes": {
+        "color": "reddish-brown",
+        "material": "likely brick or stucco",
+        "structure": "multi-story",
+        "foreground": "tree branch with yellow leaves",
+        "focus": "out-of-focus",
+        "ground_floor": "green awning or storefront visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.58984375,
+      "box": [
+        142.0,
+        -2.0,
+        254.0,
+        286.0
+      ],
+      "mask": "image_7.masks/building_1.png",
+      "crop": null,
+      "description": "A blurred section of a red brick building featuring a dark window frame and a black awning extending over a lower window area.",
+      "attributes": {
+        "material": "red brick",
+        "features": [
+          "window",
+          "black awning"
+        ],
+        "color": "red",
+        "state": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.64453125,
+      "box": [
+        1.0,
+        -3.0,
+        245.0,
+        436.0
+      ],
+      "mask": "image_7.masks/building_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a red brick building facade featuring a window with white trim and a black awning extending over a lower entrance. A black metal fence and blurred green foliage are visible in the foreground.",
+      "attributes": {
+        "material": "red brick",
+        "color": "red",
+        "features": {
+          "window": {
+            "frame": "white",
+            "trim": "white"
+          },
+          "awning": {
+            "color": "black",
+            "shape": "rectangular"
+          },
+          "fence": {
+            "color": "black",
+            "material": "metal"
+          }
+        },
+        "focus": "blurred",
+        "type": "residential building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.71875,
+      "box": [
+        242.0,
+        2.0,
+        334.0,
+        288.0
+      ],
+      "mask": "image_7.masks/building_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a brown facade and a green awning or sign at the bottom. The image is heavily blurred, making specific details indistinguishable.",
+      "attributes": {
+        "color": [
+          "brown",
+          "green",
+          "white"
+        ],
+        "focus": "blurry",
+        "structure": "building",
+        "features": [
+          "awning",
+          "sign"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cane",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        244.0,
+        560.0,
+        300.0,
+        1008.0
+      ],
+      "mask": "image_7.masks/cane_0.png",
+      "crop": null,
+      "description": "A silver metal cane with a black handle and red accents is being held by a person's hand, standing upright on a paved surface with fallen leaves in the background.",
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "handle": {
+          "color": "black",
+          "shape": "straight"
+        },
+        "accents": {
+          "color": "red",
+          "location": "near handle and mid-shaft"
+        },
+        "base": {
+          "color": "black",
+          "shape": "flat"
+        },
+        "position": "upright",
+        "held_by": "hand",
+        "background": "paved surface with fallen leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        920.0,
+        304.0,
+        1024.0,
+        348.0
+      ],
+      "mask": "image_7.masks/car_0.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus crop showing a section of a white vehicle, likely a side panel or door, with a dark rectangular area suggesting a window or shadow. The image is extremely low resolution and indistinct, making specific details impossible to discern.",
+      "attributes": {
+        "color": "white",
+        "focus": "blurred",
+        "visible_parts": [
+          "body panel",
+          "window area"
+        ],
+        "clarity": "low"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        804.0,
+        348.0,
+        1024.0,
+        684.0
+      ],
+      "mask": "image_7.masks/car_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of the front left side of a white sedan, featuring a sleek headlight assembly and a side mirror, positioned next to a dark grey car on the right and a person's arm in a blue denim jacket on the left.",
+      "attributes": {
+        "color": "white",
+        "type": "sedan",
+        "visible_parts": [
+          "front bumper",
+          "headlight",
+          "side mirror",
+          "front wheel",
+          "windshield"
+        ],
+        "focus": "blurred",
+        "position": "center-left",
+        "adjacent_objects": {
+          "left": "person wearing blue denim jacket",
+          "right": "dark grey car"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        948.0,
+        400.0,
+        1024.0,
+        776.0
+      ],
+      "mask": "image_7.masks/car_2.png",
+      "crop": null,
+      "description": "A close-up, blurry view of the side of a dark gray or brown car, showing the front wheel, side mirror, and part of the door. The car appears to be parked on a surface with some leaves or debris visible near the wheel.",
+      "attributes": {
+        "color": "dark gray or brown",
+        "part_visible": [
+          "front wheel",
+          "side mirror",
+          "door"
+        ],
+        "condition": "blurry",
+        "surface": "parked on a surface with leaves or debris"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 3,
+      "score": 0.6484375,
+      "box": [
+        796.0,
+        306.0,
+        828.0,
+        334.0
+      ],
+      "mask": "image_7.masks/car_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 4,
+      "score": 0.890625,
+      "box": [
+        788.0,
+        332.0,
+        908.0,
+        436.0
+      ],
+      "mask": "image_7.masks/car_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white car's side profile, showing the window frame and a portion of the door, with a blurry background suggesting an outdoor setting.",
+      "attributes": {
+        "color": "white",
+        "part": "side window and door frame",
+        "focus": "blurry",
+        "material": "metal and glass",
+        "type": "car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 5,
+      "score": 0.859375,
+      "box": [
+        840.0,
+        304.0,
+        928.0,
+        348.0
+      ],
+      "mask": "image_7.masks/car_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "fence",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        -2.0,
+        428.0,
+        187.0,
+        516.0
+      ],
+      "mask": "image_7.masks/fence_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a black metal fence featuring vertical bars topped with decorative spear-like finials and a horizontal rail with repeating turned balusters. The background is heavily blurred, showing indistinct brown and green tones with small, circular bokeh highlights suggesting distant lights or foliage.",
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "structure": {
+          "vertical_elements": "bars with spear finials",
+          "horizontal_elements": "rail with turned balusters"
+        },
+        "focus": "blurred",
+        "background": "bokeh with brown and green tones"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fence",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -1.0,
+        428.0,
+        268.0,
+        924.0
+      ],
+      "mask": "image_7.masks/fence_1.png",
+      "crop": null,
+      "description": "A black metal fence with vertical bars and decorative finials runs along a sidewalk, with fallen leaves scattered on the ground beside it.",
+      "attributes": {
+        "material": "metal",
+        "color": "black",
+        "design": "vertical bars with decorative finials",
+        "position": "along a sidewalk",
+        "surroundings": "fallen leaves on the ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fence",
+      "index": 2,
+      "score": 0.63671875,
+      "box": [
+        -1.0,
+        346.0,
+        208.0,
+        446.0
+      ],
+      "mask": "image_7.masks/fence_2.png",
+      "crop": null,
+      "description": "A blurred section of a dark metal fence with vertical bars and pointed finials, set against a background of out-of-focus yellow flowers and a reddish-brown brick structure.",
+      "attributes": {
+        "material": "metal",
+        "color": "dark",
+        "structure": "vertical bars with pointed finials",
+        "background": {
+          "flowers": "yellow, out-of-focus",
+          "building": "reddish-brown brick, out-of-focus"
+        },
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        544.0,
+        198.0,
+        824.0,
+        1016.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, dark brown hair walks forward on a city sidewalk, wearing a light blue button-down shirt under a blue denim jacket, paired with black skinny jeans and white sneakers. She has a thick, cream-colored scarf with fringed ends wrapped around her neck and is looking off to the side with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "loose and wavy"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "blue"
+          },
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue"
+          },
+          "accessories": {
+            "scarf": {
+              "color": "cream",
+              "texture": "knitted",
+              "detail": "fringed ends"
+            },
+            "bag": {
+              "type": "backpack",
+              "visible_part": "black strap"
+            }
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "black",
+            "fit": "skinny"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        246.0,
+        120.0,
+        552.0,
+        1016.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair walks forward on a sidewalk, wearing a grey zip-up hoodie over a dark t-shirt, blue jeans, and brown sneakers. He carries a black backpack and holds a white cane with red bands in his right hand, indicating he is visually impaired.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "grey",
+            "style": "zip-up",
+            "details": "drawstrings, front pockets"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "brown"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black"
+            },
+            "cane": {
+              "color": "white with red bands",
+              "function": "mobility aid for visually impaired"
+            }
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral, looking slightly to the side",
+        "context": "outdoor urban sidewalk with fallen leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "traffic sign",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        868.0,
+        221.0,
+        892.0,
+        247.0
+      ],
+      "mask": "image_7.masks/traffic sign_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "traffic sign",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        532.0,
+        150.0,
+        628.0,
+        244.0
+      ],
+      "mask": "image_7.masks/traffic sign_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A yellow diamond-shaped traffic sign with a black curved arrow indicating a curve to the left. The sign is slightly blurred and appears to be mounted on a post, with an out-of-focus background.\", \"attributes\": {\"shape\": \"diamond\", \"color\": \"yellow\", \"symbol\": \"curved arrow\", \"symbol_color\": \"black\", \"symbol_direction\": \"left\", \"material\": \"metal or plastic\", \"condition\": \"slightly blurred\", \"background\": \"out-of-focus\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.55078125,
+      "box": [
+        422.0,
+        -3.0,
+        1016.0,
+        372.0
+      ],
+      "mask": "image_7.masks/tree_0.png",
+      "crop": null,
+      "description": "A large tree with a thick, textured gray-brown trunk stands in the background, its branches extending upward and outward with sparse yellow leaves, indicating an autumn setting. The tree is positioned behind two people, partially framing the scene with its natural structure.",
+      "attributes": {
+        "trunk": {
+          "color": "gray-brown",
+          "texture": "rough, bark-covered",
+          "thickness": "thick"
+        },
+        "branches": {
+          "structure": "spreading, multiple limbs",
+          "leaves": {
+            "color": "yellow",
+            "density": "sparse",
+            "season": "autumn"
+          }
+        },
+        "position": "background, behind subjects",
+        "function": "natural element, urban landscaping",
+        "culture_specific": false
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        336.0,
+        -1.0,
+        744.0,
+        320.0
+      ],
+      "mask": "image_7.masks/tree_1.png",
+      "crop": null,
+      "description": "A tree with a thick, dark brown trunk and branches extending upward, covered in yellow leaves, indicating an autumn setting. The tree is in the background, slightly out of focus, with a yellow road sign visible in front of it.",
+      "attributes": {
+        "trunk": "dark brown, thick",
+        "leaves": "yellow, autumnal",
+        "position": "background",
+        "focus": "out of focus",
+        "season": "autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        804.0,
+        173.0,
+        876.0,
+        276.0
+      ],
+      "mask": "image_7.masks/tree_2.png",
+      "crop": null,
+      "description": "The image is a heavily blurred, out-of-focus crop showing indistinct shapes and colors, primarily in shades of yellow, brown, and white, with no discernible features or details of a tree visible.",
+      "attributes": {
+        "visibility": "extremely low",
+        "focus": "blurred",
+        "colors": [
+          "yellow",
+          "brown",
+          "white"
+        ],
+        "details": "none visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        564.0,
+        194.0,
+        996.0,
+        888.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length blonde hair sits at a desk, resting her chin on her right hand while holding a pen in her left hand over a spiral notebook. She wears a dark blue and red plaid button-down shirt and has a focused, slightly furrowed expression as she looks at a silver laptop in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "plaid",
+            "colors": [
+              "dark blue",
+              "red"
+            ]
+          }
+        },
+        "pose": "sitting, resting chin on hand",
+        "expression": "focused, concerned",
+        "accessories": {
+          "earrings": "small studs"
+        },
+        "objects": {
+          "laptop": "silver, Apple logo visible",
+          "notebook": "spiral bound",
+          "pen": "black and silver"
+        },
+        "setting": "office or study environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        40.0,
+        192.0,
+        536.0,
+        888.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair is seated at a desk, wearing a light pink button-down shirt with the sleeves rolled up. She has a concerned or confused expression, with furrowed brows, while looking down at a silver laptop in front of her; a black DSLR camera is visible in the foreground on the left.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "concerned, furrowed brows",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "objects": {
+          "laptop": "silver",
+          "camera": "black DSLR"
+        },
+        "setting": "office"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        2.0,
+        880.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a white table surface with a black camera lens on the left, a silver laptop in the center, and a spiral-bound notebook on the right. The table appears to be made of a smooth, reflective material, and the objects are arranged in a way that suggests a workspace or study area.",
+      "attributes": {
+        "table": {
+          "color": "white",
+          "material": "smooth, reflective",
+          "objects": {
+            "camera": {
+              "color": "black",
+              "position": "left"
+            },
+            "laptop": {
+              "color": "silver",
+              "position": "center"
+            },
+            "notebook": {
+              "color": "white",
+              "binding": "spiral",
+              "position": "right"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

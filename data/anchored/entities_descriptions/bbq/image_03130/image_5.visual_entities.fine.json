@@ -1,0 +1,194 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        808.0,
+        492.0,
+        1024.0,
+        964.0
+      ],
+      "mask": "image_5.masks/furniture_0.png",
+      "crop": null,
+      "description": "A wooden bed frame with a light natural finish features a headboard with a rectangular cutout design and is dressed with white sheets, a beige throw blanket, and pillows in white and beige tones. A person wearing a light blue long-sleeved shirt stands in the foreground to the left, partially obscuring the view of the bed.",
+      "attributes": {
+        "furniture_type": "bed",
+        "material": "wood",
+        "color": "light wood",
+        "headboard_style": "rectangular cutout",
+        "bedding": {
+          "sheets": "white",
+          "blanket": "beige",
+          "pillows": [
+            "white",
+            "beige"
+          ]
+        },
+        "person": {
+          "clothing": {
+            "shirt": "light blue",
+            "pants": "beige"
+          },
+          "position": "standing, left side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        -1.0,
+        620.0,
+        276.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/furniture_1.png",
+      "crop": null,
+      "description": "A light-colored wooden chest of drawers with three visible drawers, each featuring two small, dark, round knobs. The wood has a prominent, wavy grain pattern, and the piece stands on four tapered legs. On top of the furniture, there is a white bowl and a black camera.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "type": "chest of drawers",
+        "number_of_drawers": 3,
+        "hardware": {
+          "knobs": "dark, round"
+        },
+        "legs": "tapered",
+        "top_items": [
+          "white bowl",
+          "black camera"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.82421875,
+      "box": [
+        470.0,
+        158.0,
+        696.0,
+        336.0
+      ],
+      "mask": "image_5.masks/furniture_2.png",
+      "crop": null,
+      "description": "A light-colored wooden bookshelf with a simple, rectangular design is visible in the background, holding a few books and a small white object on its shelves. The wood appears to be a natural finish, possibly oak or birch, with a smooth texture.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "type": "bookshelf",
+        "contents": [
+          "books",
+          "white object"
+        ],
+        "position": "background",
+        "style": "modern, minimalist"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        460.0,
+        188.0,
+        884.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair stands with a somber expression, looking downward while holding a wooden cane in her right hand. She wears a light blue button-down shirt with rolled-up sleeves and beige trousers, while a caregiver in blue scrubs stands behind her with hands placed gently on her shoulders.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "facial_expression": "sad, looking down",
+        "clothing": {
+          "top": "light blue button-down shirt",
+          "bottom": "beige trousers",
+          "sleeves": "rolled up"
+        },
+        "accessories": {
+          "cane": "wooden, held in right hand"
+        },
+        "pose": "standing, supported by caregiver",
+        "context": "caregiver visible behind with hands on shoulders"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        260.0,
+        72.0,
+        860.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with dark hair tied back in a ponytail and wearing black-rimmed glasses is dressed in a light blue short-sleeved medical scrub top and matching pants. She stands behind an elderly woman, placing her hands gently on the older woman's shoulders in a supportive gesture while looking down at her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub top",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, hands on shoulders",
+        "expression": "concerned, attentive",
+        "social_role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        -1.5,
+        0.0,
+        202.0,
+        580.0
+      ],
+      "mask": "image_5.masks/window_0.png",
+      "crop": null,
+      "description": "A white, multi-paned window with a grid pattern is visible, featuring a brass handle on the left side. In the foreground, a white vase holds a bouquet of orange and red flowers, partially obscuring the lower portion of the window.",
+      "attributes": {
+        "frame_color": "white",
+        "pane_configuration": "grid",
+        "handle": {
+          "color": "brass",
+          "position": "left"
+        },
+        "foreground_object": {
+          "type": "vase",
+          "color": "white",
+          "contents": "orange and red flowers"
+        },
+        "lighting": "bright, natural light"
+      },
+      "parse_ok": true
+    }
+  ]
+}

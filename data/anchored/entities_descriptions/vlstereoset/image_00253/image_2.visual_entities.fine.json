@@ -1,0 +1,69 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.71875,
+      "box": [
+        247.0,
+        460.0,
+        548.0,
+        884.0
+      ],
+      "mask": "image_2.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of two hands gently clasped together, with the hand in the foreground displaying a simple gold band on the ring finger. The skin shows visible wrinkles and texture, suggesting an older individual, and a red flower is partially visible at the top edge.",
+      "attributes": {
+        "entity": "hand",
+        "count": 2,
+        "skin": {
+          "texture": "wrinkled, aged",
+          "tone": "light, warm"
+        },
+        "accessories": {
+          "ring": {
+            "material": "gold",
+            "style": "simple band",
+            "finger": "ring finger"
+          }
+        },
+        "pose": "clasped, holding",
+        "other_elements": {
+          "flower": {
+            "color": "red",
+            "position": "top edge"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.78125,
+      "box": [
+        338.0,
+        424.0,
+        904.0,
+        912.0
+      ],
+      "mask": "image_2.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of two hands gently clasped together, with the right hand resting over the left. The skin shows signs of aging with visible wrinkles and veins, and a simple gold band is worn on the ring finger of the left hand. A red poppy flower is held between the fingers at the top of the frame against a blurred, sandy background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged to elderly",
+        "skin": "tanned, wrinkled, veiny",
+        "accessories": {
+          "ring": "plain gold band on left ring finger"
+        },
+        "pose": "hands clasped, holding a flower",
+        "object": "red poppy flower",
+        "lighting": "warm, natural sunlight"
+      },
+      "parse_ok": true
+    }
+  ]
+}

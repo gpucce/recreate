@@ -1,0 +1,288 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        0.0,
+        552.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/alley_0.png",
+      "crop": null,
+      "description": "A man and a young child are walking away from the camera down a wet, cobblestone alleyway, holding hands. The man is wearing a dark blue puffer jacket and gray pants, while the child is dressed in a matching dark blue puffer jacket, blue jeans, and brown boots. The alley is lined with potted plants and flowers on both sides, and the ground is reflective due to rain.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "weather": "rainy",
+          "decorations": "potted plants and flowers"
+        },
+        "man": {
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "pants": "gray",
+            "shoes": "dark brown"
+          },
+          "pose": "walking away",
+          "position": "left of child"
+        },
+        "child": {
+          "age": "toddler",
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "pants": "blue jeans",
+            "boots": "brown"
+          },
+          "hair": "curly, light brown",
+          "pose": "walking away, holding man's hand",
+          "position": "right of man"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        138.0,
+        201.0,
+        272.0,
+        536.0
+      ],
+      "mask": "image_6.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a stone facade and a dark, overhanging roof structure. A green bush is visible in the foreground, partially obscuring the lower part of the building.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "roof": "dark, overhanging",
+          "state": "blurry, out-of-focus"
+        },
+        "foreground": {
+          "object": "green bush",
+          "position": "lower left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.875,
+      "box": [
+        227.0,
+        288.0,
+        428.0,
+        528.0
+      ],
+      "mask": "image_6.masks/building_1.png",
+      "crop": null,
+      "description": "A two-story building with a stone facade on the upper level and a smooth, light-colored wall on the lower level, featuring a sloped roof with a chimney and a small balcony with a wooden railing, all appearing out of focus in the background.",
+      "attributes": {
+        "structure": "two-story",
+        "facade": {
+          "upper": "stone",
+          "lower": "smooth light-colored"
+        },
+        "roof": {
+          "type": "sloped",
+          "color": "grey",
+          "features": [
+            "chimney"
+          ]
+        },
+        "features": [
+          "balcony",
+          "wooden railing"
+        ],
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        604.0,
+        4.0,
+        1020.0,
+        688.0
+      ],
+      "mask": "image_6.masks/building_2.png",
+      "crop": null,
+      "description": "A rustic stone building with a wooden door and window frames, featuring a balcony with a black wrought-iron railing and potted flowers. The facade is made of irregularly shaped stones, and there are additional potted plants with orange and yellow flowers placed near the entrance and on a small ledge.",
+      "attributes": {
+        "material": "stone",
+        "door": {
+          "material": "wood",
+          "color": "brown"
+        },
+        "window": {
+          "frame": "wood",
+          "color": "brown"
+        },
+        "balcony": {
+          "railing": "black wrought-iron",
+          "decoration": "potted flowers"
+        },
+        "plants": {
+          "color": [
+            "orange",
+            "yellow"
+          ],
+          "location": [
+            "balcony",
+            "ledge",
+            "ground"
+          ]
+        },
+        "style": "rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.86328125,
+      "box": [
+        -1.5,
+        -2.0,
+        196.0,
+        624.0
+      ],
+      "mask": "image_6.masks/building_3.png",
+      "crop": null,
+      "description": "A two-story stone building with a rough, irregular facade made of light gray and beige stones. The upper floor features a small balcony with a black metal railing and a dark wooden door, while the lower floor has a similar dark wooden door. A black downspout runs vertically along the right side of the building, and a terracotta pot with orange flowers sits on the ground near the base.",
+      "attributes": {
+        "material": "stone",
+        "color": "gray, beige, brown",
+        "structure": "two-story",
+        "features": {
+          "balcony": "black metal railing",
+          "doors": "dark wood",
+          "downspout": "black metal",
+          "plant": "terracotta pot with orange flowers"
+        },
+        "style": "rustic, traditional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.8671875,
+      "box": [
+        384.0,
+        103.0,
+        696.0,
+        516.0
+      ],
+      "mask": "image_6.masks/building_4.png",
+      "crop": null,
+      "description": "A rustic stone building with a sloped roof and a chimney, featuring a black lantern-style light fixture mounted on the wall and a green bush in the foreground, set against a misty background.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "roof": "sloped, tiled",
+          "chimney": "present, dark colored",
+          "windows": "wooden frames, partially visible"
+        },
+        "fixtures": {
+          "lighting": "black, lantern-style, mounted on wall"
+        },
+        "surroundings": {
+          "vegetation": "green bush, orange flowers",
+          "weather": "misty, overcast"
+        },
+        "style": "rustic, traditional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        520.0,
+        564.0,
+        688.0,
+        940.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with curly light brown hair is seen from behind, walking away on a wet cobblestone surface while holding the hand of an adult. The child wears a dark blue hooded puffer jacket, light blue jeans, and brown boots.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "light blue"
+          },
+          "shoes": {
+            "type": "boots",
+            "color": "brown"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        326.0,
+        336.0,
+        552.0,
+        920.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street while holding the hand of a child. They are wearing a dark navy blue puffer jacket with horizontal quilting and grey trousers.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "pattern": "horizontal quilting"
+          },
+          "pants": {
+            "color": "grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hands",
+        "view": "back"
+      },
+      "parse_ok": true
+    }
+  ]
+}

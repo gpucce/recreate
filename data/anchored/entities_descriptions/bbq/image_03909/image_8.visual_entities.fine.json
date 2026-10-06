@@ -1,0 +1,153 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        478.0,
+        720.0,
+        604.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower body wearing dark grey heathered sweatpants, seated with a hand resting on the thigh. In the background, a small round side table with a light wood top and dark metal legs is visible, holding a white ceramic pot.",
+      "attributes": {
+        "clothing": {
+          "pants": "dark grey heathered sweatpants"
+        },
+        "body_part": "hand and leg",
+        "furniture": {
+          "type": "side table",
+          "top": "light wood",
+          "legs": "dark metal",
+          "shape": "round"
+        },
+        "objects": {
+          "pot": "white ceramic"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        528.0,
+        124.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and light skin sits in profile facing left, wearing a dark navy button-down shirt with sleeves rolled to the elbows and dark grey pants. He is seated in a brown leather armchair with his hands clasped in his lap, looking off-camera with a neutral expression, next to a small table holding a white pot of white calla lilies.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "skin": "light",
+        "facial_hair": "light stubble",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "dark navy blue",
+            "sleeves": "rolled up to elbows",
+            "pocket": "left chest"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "dark grey"
+          }
+        },
+        "pose": "sitting in profile, hands clasped",
+        "expression": "neutral, contemplative",
+        "furniture": {
+          "chair": "brown leather armchair",
+          "table": "wooden side table"
+        },
+        "accessories": {
+          "plant": "white calla lilies in a white pot"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        20.0,
+        184.0,
+        428.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair sits on a grey armchair, wearing a white button-down shirt with cuffed sleeves and maroon trousers. She has a neutral expression, looking off to the side with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "shirt",
+            "color": "white",
+            "sleeves": "long, cuffed"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "maroon"
+          },
+          "accessories": {
+            "earrings": "small stud",
+            "necklace": "thin chain"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "gaze": "to the side",
+        "setting": "indoor, on a grey armchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "whiteboard",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        246.0,
+        -1.0,
+        1024.0,
+        456.0
+      ],
+      "mask": "image_8.masks/whiteboard_0.png",
+      "crop": null,
+      "description": "A large, blank white whiteboard with a smooth, matte surface occupies the background, featuring a thin silver metal frame and a bottom tray holding a black eraser and a white marker with a red cap.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth matte surface",
+        "frame": "silver metal",
+        "tray": "white",
+        "contents": [
+          "black eraser",
+          "white marker with red cap"
+        ],
+        "state": "blank",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

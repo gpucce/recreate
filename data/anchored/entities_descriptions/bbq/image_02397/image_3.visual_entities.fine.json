@@ -1,0 +1,168 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        496.0,
+        98.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with graying hair and a full gray beard sits with a somber expression, wearing a distressed brown leather jacket over an orange polo shirt and blue jeans. His hands are clasped together in his lap, and he is looking slightly downward and to the side.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "short, slightly wavy"
+        },
+        "facial_hair": {
+          "type": "full beard and mustache",
+          "color": "gray"
+        },
+        "expression": "serious, contemplative, looking down",
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "condition": "distressed, worn"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "orange"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, hands clasped in lap"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -2.0,
+        210.0,
+        584.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with wavy brown hair and light facial stubble sits with his head bowed, resting his chin on his right fist in a contemplative or distressed pose. He wears a teal short-sleeved t-shirt and light beige pants, with his left arm resting on his lap.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, medium length"
+        },
+        "facial_hair": "light stubble",
+        "expression": "downcast, contemplative, or sad",
+        "pose": "sitting, head bowed, right hand covering mouth/chin",
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "teal",
+            "sleeves": "short"
+          },
+          "pants": {
+            "color": "beige",
+            "type": "casual trousers"
+          }
+        },
+        "skin_tone": "light",
+        "position_in_frame": "center-left, partially cropped on left and bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        2.0,
+        4.0,
+        1024.0,
+        908.0
+      ],
+      "mask": "image_3.masks/wall_0.png",
+      "crop": null,
+      "description": "Two men are seated side by side against a plain, light-colored wall with a subtle horizontal line dividing the upper and lower sections. The man on the left has curly brown hair, a beard, and is wearing a teal t-shirt, with his hand resting on his chin in a contemplative pose. The man on the right has gray hair and a beard, wearing a brown leather jacket over an orange shirt, with his hands clasped together.",
+      "attributes": {
+        "background": {
+          "wall_color": "light beige",
+          "wall_division": "horizontal line"
+        },
+        "man_left": {
+          "hair": "curly brown",
+          "beard": "short",
+          "clothing": {
+            "shirt": "teal t-shirt"
+          },
+          "pose": "seated, hand on chin",
+          "expression": "contemplative"
+        },
+        "man_right": {
+          "hair": "gray",
+          "beard": "gray",
+          "clothing": {
+            "jacket": "brown leather",
+            "shirt": "orange"
+          },
+          "pose": "seated, hands clasped",
+          "expression": "serious"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        0.0,
+        -2.0,
+        1020.0,
+        368.0
+      ],
+      "mask": "image_3.masks/wall_1.png",
+      "crop": null,
+      "description": "An older man with gray hair and a beard looks down with a serious expression, wearing a brown leather jacket, positioned next to the back of a younger person's head with dark curly hair against a plain light green wall.",
+      "attributes": {
+        "entity_type": "human",
+        "count": 2,
+        "primary_subject": {
+          "gender": "male",
+          "age_group": "senior",
+          "hair_color": "gray",
+          "hair_style": "short, wavy",
+          "facial_hair": "gray beard and mustache",
+          "expression": "serious, looking down",
+          "clothing": {
+            "jacket": "brown leather"
+          }
+        },
+        "secondary_subject": {
+          "visible_part": "back of head",
+          "hair_color": "dark brown",
+          "hair_style": "curly"
+        },
+        "background": {
+          "color": "pale green",
+          "texture": "smooth"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

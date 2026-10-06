@@ -1,0 +1,68 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        736.0,
+        17.875,
+        1012.0,
+        278.0
+      ],
+      "mask": "image_0.masks/clock_0.png",
+      "crop": null,
+      "description": "A round, white analog wall clock with a silver metallic rim is mounted on a light-colored wall. The image is heavily out of focus, blurring the details of the clock face, hands, and numerals, though the general shape and position of the hands are discernible.",
+      "attributes": {
+        "shape": "round",
+        "color": "white",
+        "rim": "silver metallic",
+        "type": "analog wall clock",
+        "focus": "blurred",
+        "hands": "visible but indistinct",
+        "background": "light-colored wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        576.0,
+        282.0,
+        1448.0,
+        1072.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, messy brown hair is shown from the chest up, wearing a white sleep mask with black trim over her eyes. She is wearing a white t-shirt and has a beige pillow or blanket held against her chest, with a slightly open-mouthed, dazed expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "messy, straight"
+        },
+        "accessories": {
+          "sleep_mask": {
+            "color": "white",
+            "trim": "black"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "expression": "dazed, mouth slightly open",
+        "pose": "sitting, holding pillow to chest"
+      },
+      "parse_ok": true
+    }
+  ]
+}

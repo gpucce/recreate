@@ -1,0 +1,114 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        204.0,
+        186.0,
+        724.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with long wavy blonde hair hugs a young boy with curly blonde hair, both wearing casual clothing in a bright indoor setting. The woman wears a blue and white striped button-down shirt with rolled sleeves and blue jeans, while the boy wears a red t-shirt and blue jeans.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Caucasian",
+        "social_role": "mother",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "hugging a child",
+        "accessories": {
+          "earrings": "small hoop"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        56.0,
+        112.0,
+        812.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with long wavy blonde hair hugs a young boy with curly blonde hair; the woman wears a blue and white striped button-down shirt with rolled sleeves and blue jeans, while the boy wears a red t-shirt and blue jeans. They are seated indoors in a bright room with a potted plant in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Caucasian",
+        "social_role": "mother",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, hugging a child",
+        "expression": "smiling",
+        "child": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "blonde",
+            "style": "curly"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "t-shirt",
+              "color": "red"
+            },
+            "pants": {
+              "type": "jeans",
+              "color": "blue"
+            }
+          },
+          "expression": "smiling"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

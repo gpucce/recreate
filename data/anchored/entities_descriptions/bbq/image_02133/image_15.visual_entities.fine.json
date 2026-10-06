@@ -1,0 +1,324 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        960.0,
+        132.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/door_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's hands clasped together in front of a blurred, light blue door. The person is wearing a long-sleeved shirt with horizontal navy blue and white stripes and a simple gold ring on the ring finger of the left hand.",
+      "attributes": {
+        "person": {
+          "hands": "clasped",
+          "skin_tone": "light",
+          "accessories": {
+            "ring": "gold band on left ring finger"
+          },
+          "clothing": {
+            "sleeve": "navy blue and white horizontal stripes"
+          }
+        },
+        "background": {
+          "object": "door",
+          "color": "light blue",
+          "focus": "blurred",
+          "details": "white doorknob visible on the left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.84765625,
+      "box": [
+        -1.4375,
+        166.0,
+        28.5,
+        1016.0
+      ],
+      "mask": "image_15.masks/door_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light blue door with a metallic doorknob visible on the right side. The door appears to be made of a smooth material, possibly painted wood or metal, and is set within a frame of the same color.",
+      "attributes": {
+        "color": "light blue",
+        "material": "smooth, possibly painted wood or metal",
+        "hardware": {
+          "doorknob": "metallic, visible on the right"
+        },
+        "focus": "out-of-focus",
+        "frame": "matching light blue color"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        400.0,
+        25.375,
+        512.0,
+        44.5
+      ],
+      "mask": "image_15.masks/light fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light fixture",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        344.0,
+        194.0,
+        448.0,
+        224.0
+      ],
+      "mask": "image_15.masks/light fixture_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light fixture",
+      "index": 2,
+      "score": 0.8671875,
+      "box": [
+        362.0,
+        249.0,
+        470.0,
+        276.0
+      ],
+      "mask": "image_15.masks/light fixture_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light fixture",
+      "index": 3,
+      "score": 0.8515625,
+      "box": [
+        296.0,
+        92.5,
+        616.0,
+        136.0
+      ],
+      "mask": "image_15.masks/light fixture_3.png",
+      "crop": null,
+      "description": "A rectangular, recessed ceiling light fixture with a white frame and a diffused, glowing panel is visible in the upper left corner, partially obscured by the top of a person's head with gray hair.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "white",
+        "type": "recessed ceiling light",
+        "state": "on",
+        "position": "upper left, partially obscured"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        616.0,
+        412.0,
+        992.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight brown hair parted in the middle is looking down with a serious expression at a white document titled 'NOTICE OF DISCHARGE TO BE FILLED' that she is holding with both hands. She wears a long-sleeved shirt with horizontal navy blue and white stripes, and an adult's hand rests on her left shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight, center-parted"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "navy blue",
+              "white"
+            ]
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "serious, focused",
+        "accessories": {
+          "holding": "paper document"
+        },
+        "context": {
+          "document_text": "NOTICE OF DISCHARGE TO BE FILLED",
+          "interaction": "adult hand on shoulder"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        50.0,
+        320.0,
+        474.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with dark, curly hair and a serious, downward-looking expression stands holding a white document titled 'NOTICE OF DISCHARGES TO BE FILED' with both hands. He wears a blue denim jacket over a maroon t-shirt, and an adult's hand rests on his shoulder from behind, suggesting a supportive or guiding presence.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "expression": "serious, focused, looking down",
+        "clothing": {
+          "jacket": "blue denim",
+          "shirt": "maroon t-shirt"
+        },
+        "pose": "standing, holding paper with both hands",
+        "object": {
+          "type": "paper document",
+          "text": "NOTICE OF DISCHARGES TO BE FILED"
+        },
+        "context": "adult hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        66.0,
+        58.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with graying hair and a beard stands in the center, wearing a light beige button-down shirt and dark jeans, with a black DSLR camera hanging from a strap around his neck. He has his arms around two children, a boy with curly hair in a denim jacket and a girl with long brown hair in a striped shirt, who are both looking down at papers they are holding.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "short, swept back",
+          "facial_hair": "full beard"
+        },
+        "clothing": {
+          "shirt": "light beige button-down",
+          "pants": "dark blue jeans",
+          "belt": "brown leather"
+        },
+        "accessories": {
+          "camera": "black DSLR with strap"
+        },
+        "pose": "standing, arms around children",
+        "expression": "serious, looking down",
+        "context": "hospital or office hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.5546875,
+      "box": [
+        300.0,
+        278.0,
+        408.0,
+        342.0
+      ],
+      "mask": "image_15.masks/wall_0.png",
+      "crop": null,
+      "description": "{\"description\": \"The image shows a close-up of a textured, light-colored surface, possibly a wall or fabric, with a blurred background. The texture appears soft and slightly uneven, suggesting a material like plaster or a woven textile. There are no distinct features or objects visible in the crop.\", \"attributes\": {\"color\": \"light beige or off-white\", \"texture\": \"soft, slightly uneven\", \"material\": \"possibly plaster or woven textile\", \"background\": \"blurred, indistinct\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.85546875,
+      "box": [
+        -1.0,
+        -2.0,
+        272.0,
+        608.0
+      ],
+      "mask": "image_15.masks/wall_1.png",
+      "crop": null,
+      "description": "A young boy with dark, tight curly hair and a serious expression looks downward, wearing a blue denim jacket over a maroon shirt. An adult's hand rests on his shoulder, set against a blurred background of a white hallway with a blue door frame.",
+      "attributes": {
+        "entity": "boy",
+        "age": "child",
+        "gender": "male",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly"
+        },
+        "expression": "serious",
+        "gaze": "downward",
+        "clothing": {
+          "outer": "blue denim jacket",
+          "inner": "maroon shirt"
+        },
+        "interaction": "hand on shoulder",
+        "background": {
+          "setting": "indoor hallway",
+          "wall_color": "white",
+          "door_frame": "blue",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.828125,
+      "box": [
+        636.0,
+        0.0,
+        1024.0,
+        544.0
+      ],
+      "mask": "image_15.masks/wall_2.png",
+      "crop": null,
+      "description": "A plain, off-white wall with a smooth, matte finish serves as the background, featuring a vertical blue door frame on the right side and a blurry, dark rectangular shape in the distance on the left.",
+      "attributes": {
+        "color": "off-white",
+        "material": "painted plaster or drywall",
+        "texture": "smooth",
+        "features": [
+          "blue door frame",
+          "distant doorway"
+        ],
+        "lighting": "soft and diffuse",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    }
+  ]
+}

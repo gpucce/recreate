@@ -1,0 +1,249 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        -1.0,
+        212.0,
+        272.0,
+        484.0
+      ],
+      "mask": "image_10.masks/house_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house featuring a gray shingled roof and a brown wooden fence in the background, partially obscured by the sunlit, wavy blonde hair of a person in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "gray",
+          "material": "shingles",
+          "style": "gabled"
+        },
+        "fence": {
+          "color": "brown",
+          "material": "wood",
+          "style": "vertical planks"
+        },
+        "focus": "blurry",
+        "lighting": "backlit",
+        "foreground_obstruction": "blonde hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        178.0,
+        -2.0,
+        1024.0,
+        486.0
+      ],
+      "mask": "image_10.masks/house_1.png",
+      "crop": null,
+      "description": "A single-story house with white horizontal siding and dark green louvered shutters flanking a white-framed window. The house features a white gutter system along the roofline and is illuminated by warm, golden-hour sunlight from the left side.",
+      "attributes": {
+        "siding": {
+          "color": "white",
+          "type": "horizontal lap siding"
+        },
+        "shutters": {
+          "color": "dark green",
+          "style": "louvered",
+          "position": "flanking window"
+        },
+        "window": {
+          "frame_color": "white",
+          "type": "double-hung"
+        },
+        "roofline": {
+          "gutter": "white",
+          "fascia": "white"
+        },
+        "lighting": "warm sunlight from left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        424.0,
+        156.0,
+        984.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair sits in profile on a white bench, wearing a grey and white horizontal striped long-sleeve shirt and blue jeans. She has a serious, contemplative expression and is reaching out to place her hand on the shoulder of another person seated next to her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "grey",
+              "white"
+            ]
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, side profile, hand on another person's shoulder",
+        "expression": "serious, concerned",
+        "setting": "outdoors, sitting on a white bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        152.0,
+        194.0,
+        572.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits with a distressed expression, her eyes closed and brows furrowed as if crying. She wears a maroon V-neck sweater and blue jeans, with her hands clasped tightly in her lap while a hand rests on her shoulder in a comforting gesture.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "expression": "sad, crying, distressed",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "maroon",
+            "neckline": "V-neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "earrings": "dangling gold"
+          }
+        },
+        "pose": "sitting, hands clasped in lap",
+        "interaction": "being comforted by another person's hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        920.0,
+        354.0,
+        1024.0,
+        560.0
+      ],
+      "mask": "image_10.masks/shrubs_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's hair, which is light brown or auburn in color, with some strands appearing slightly disheveled or windblown. The background is out of focus, featuring green foliage and a bright, possibly overcast sky, suggesting an outdoor setting.",
+      "attributes": {
+        "hair": {
+          "color": "light brown/auburn",
+          "texture": "slightly disheveled/windblown"
+        },
+        "background": {
+          "elements": [
+            "green foliage",
+            "bright sky"
+          ],
+          "focus": "out of focus"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 1,
+      "score": 0.64453125,
+      "box": [
+        -1.5,
+        444.0,
+        45.75,
+        492.0
+      ],
+      "mask": "image_10.masks/shrubs_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "shrubs",
+      "index": 2,
+      "score": 0.734375,
+      "box": [
+        -1.0,
+        524.0,
+        216.0,
+        908.0
+      ],
+      "mask": "image_10.masks/shrubs_2.png",
+      "crop": null,
+      "description": "A cluster of vibrant orange marigold flowers with green foliage is visible in the background, slightly out of focus. In the foreground, a white wooden bench armrest and part of a person's arm wearing a maroon long-sleeve shirt are visible.",
+      "attributes": {
+        "flower_color": "orange",
+        "leaf_color": "green",
+        "bench_color": "white",
+        "bench_material": "wood",
+        "person_clothing": {
+          "sleeve_color": "maroon",
+          "sleeve_length": "long"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shrubs",
+      "index": 3,
+      "score": 0.84375,
+      "box": [
+        114.0,
+        392.0,
+        218.0,
+        536.0
+      ],
+      "mask": "image_10.masks/shrubs_3.png",
+      "crop": null,
+      "description": "A close-up of a person's hair, with fine, light blonde strands visible against a blurred background. The hair appears to be slightly wavy and is illuminated by natural light, creating a soft, glowing effect.",
+      "attributes": {
+        "hair": {
+          "color": "light blonde",
+          "texture": "fine, slightly wavy",
+          "lighting": "natural, soft glow"
+        },
+        "background": {
+          "blur": "high",
+          "color": "greenish-brown"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

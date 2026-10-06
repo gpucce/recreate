@@ -1,0 +1,312 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "bookshelf",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        434.0,
+        50.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/bookshelf_0.png",
+      "crop": null,
+      "description": "A white, multi-compartment bookshelf stands in the background, holding a collection of books with spines in various colors including blue, yellow, orange, and white. The shelf is out of focus, appearing behind a woman in the foreground.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or painted material",
+        "structure": "grid-like with multiple square compartments",
+        "contents": "books",
+        "book_spine_colors": [
+          "blue",
+          "yellow",
+          "orange",
+          "white",
+          "green"
+        ],
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        35.0,
+        764.0,
+        187.0,
+        900.0
+      ],
+      "mask": "image_1.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A cylindrical ceramic mug with a two-tone design featuring a white upper section and a matte grey lower section, separated by a distinct horizontal line. The mug has a curved handle on the left side and sits on a light wooden surface with a blurred background.",
+      "attributes": {
+        "object_type": "ceramic mug",
+        "material": "ceramic",
+        "shape": "cylindrical",
+        "color_scheme": {
+          "top": "white",
+          "bottom": "grey"
+        },
+        "finish": "matte",
+        "handle": {
+          "position": "left",
+          "color": "white"
+        },
+        "background": "blurred",
+        "surface": "light wood"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        251.0,
+        688.0,
+        536.0,
+        856.0
+      ],
+      "mask": "image_1.masks/clipboard_0.png",
+      "crop": null,
+      "description": "A close-up view of two blue clipboards held by hands, one showing the back with a metal clip and the other showing the front with a metal clip holding a sheet of white paper with text.",
+      "attributes": {
+        "object": "clipboard",
+        "count": 2,
+        "color": "blue",
+        "material": "plastic or hardboard",
+        "clip": {
+          "material": "metal",
+          "color": "silver",
+          "type": "spring clip"
+        },
+        "content": {
+          "visible_on_one": "white paper with text",
+          "visible_on_other": "blank back surface"
+        },
+        "held_by": "hands",
+        "position": "one in foreground, one in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clipboard",
+      "index": 1,
+      "score": 0.55859375,
+      "box": [
+        372.0,
+        752.0,
+        700.0,
+        952.0
+      ],
+      "mask": "image_1.masks/clipboard_1.png",
+      "crop": null,
+      "description": "A close-up view of a blue clipboard held by a person's hands, featuring a silver metal clip at the top securing a sheet of white lined paper. A right hand holds a black pen with a silver tip, poised to write on the paper, while the left hand supports the bottom of the clipboard.",
+      "attributes": {
+        "object": "clipboard",
+        "color": "blue",
+        "material": "plastic or wood",
+        "clip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "paper": {
+          "color": "white",
+          "type": "lined"
+        },
+        "hands": {
+          "left": "holding clipboard",
+          "right": "holding pen"
+        },
+        "pen": {
+          "color": "black",
+          "tip": "silver"
+        },
+        "action": "writing or preparing to write"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        620.0,
+        784.0,
+        724.0,
+        888.0
+      ],
+      "mask": "image_1.masks/hand_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a person's right hand holding a black pen with a silver tip, poised over a white surface with faint horizontal lines, likely paper. The hand is fair-skinned with short, clean fingernails, and the fingers are curled in a writing grip, with the thumb and index finger pinching the pen near the tip.\", \"attributes\": {\"skin_tone\": \"fair\", \"nails\": \"short, clean, unpainted\", \"grip\": \"writing grip, thumb and index finger pinching pen\", \"pen\": {\"color\": \"black\", \"tip\": \"silver\", \"type\": \"ballpoint or similar\"}, \"surface\": \"white, lined paper\", \"position\": \"right hand, angled downward toward surface\", \"clothing\": \"white sleeve visible at wrist\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.7578125,
+      "box": [
+        482.0,
+        836.0,
+        620.0,
+        956.0
+      ],
+      "mask": "image_1.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand holding a blue pen, with the fingers curled around the pen and the thumb resting on top. The hand is positioned over a piece of lined paper, suggesting the act of writing or drawing.",
+      "attributes": {
+        "hand": {
+          "position": "right",
+          "skin_tone": "light",
+          "action": "holding a pen",
+          "pen_color": "blue",
+          "background": "lined paper"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.84765625,
+      "box": [
+        420.0,
+        808.0,
+        492.0,
+        856.0
+      ],
+      "mask": "image_1.masks/hand_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.9375,
+      "box": [
+        185.0,
+        772.0,
+        324.0,
+        868.0
+      ],
+      "mask": "image_1.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up of a light-skinned hand with fingers curled inward, gripping the edge of a dark blue object, likely a folder or book, resting on a light wooden surface. The hand is positioned in the center of the frame with the thumb visible on top and the other fingers wrapped around the side, showing natural skin texture and short, clean nails.",
+      "attributes": {
+        "skin_tone": "light",
+        "pose": "gripping",
+        "action": "holding",
+        "object_held": {
+          "color": "dark blue",
+          "material": "matte",
+          "type": "folder or book"
+        },
+        "nails": "short, clean",
+        "background": "light wood surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 4,
+      "score": 0.8125,
+      "box": [
+        552.0,
+        488.0,
+        720.0,
+        640.0
+      ],
+      "mask": "image_1.masks/hand_4.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand with the palm facing up and fingers slightly curled, showing the lines and texture of the skin. The hand is positioned against a blurred background with soft, natural lighting.",
+      "attributes": {
+        "skin_tone": "light",
+        "hand_orientation": "palm up",
+        "fingers": "slightly curled",
+        "wrist": "visible",
+        "background": "blurred",
+        "lighting": "natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        480.0,
+        104.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy blonde hair is seen from a side profile, wearing a light blue button-down shirt. She is seated at a table, holding a pen in one hand and a clipboard with lined paper in the other, while gesturing with her free hand as if speaking to someone off-camera.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down"
+          }
+        },
+        "pose": "seated, gesturing with one hand, holding a pen and clipboard with the other",
+        "accessories": {
+          "earrings": "small, visible"
+        },
+        "context": "appears to be in a professional or academic setting, possibly taking notes or conducting an interview"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        42.0,
+        112.0,
+        552.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young Black woman with voluminous, curly dark brown hair sits at a light wooden table, wearing a light blue denim shirt over a pale yellow t-shirt. She holds a blue clipboard in her hands and looks attentively to her right with a slight smile, while a two-toned grey and white mug sits on the table in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, voluminous"
+        },
+        "clothing": {
+          "outer": "light blue denim shirt",
+          "inner": "pale yellow t-shirt"
+        },
+        "pose": "sitting, holding a clipboard",
+        "expression": "attentive, slight smile",
+        "accessories": {
+          "clipboard": "blue",
+          "mug": "grey and white"
+        },
+        "setting": "indoor, office or meeting room"
+      },
+      "parse_ok": true
+    }
+  ]
+}

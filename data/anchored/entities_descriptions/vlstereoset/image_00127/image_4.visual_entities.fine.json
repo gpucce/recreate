@@ -1,0 +1,103 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        180.0,
+        34.0,
+        932.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian woman with a short black bob haircut and bangs is shown in profile, looking to the left with a neutral expression. She wears a black sheer turtleneck top over a black camisole and holds a single red rose with a green stem and leaves in her hand.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "bob with bangs"
+        },
+        "clothing": {
+          "top": "black sheer turtleneck",
+          "underlayer": "black camisole"
+        },
+        "accessories": {
+          "held_object": "red rose"
+        },
+        "pose": "profile view, holding flower",
+        "expression": "neutral, calm"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "top",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        300.0,
+        524.0,
+        932.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/top_0.png",
+      "crop": null,
+      "description": "A person is wearing a black, sheer, high-necked top with long sleeves, layered over a solid black tank top. The sheer fabric has a subtle texture and drapes loosely around the shoulders and chest.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "color": "black",
+            "material": "sheer, textured fabric",
+            "neckline": "high, turtleneck",
+            "sleeves": "long",
+            "layering": "over a solid black tank top"
+          },
+          "tank_top": {
+            "color": "black",
+            "style": "solid, fitted"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.671875,
+      "box": [
+        118.0,
+        4.0,
+        1016.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/wall_0.png",
+      "crop": null,
+      "description": "A young Asian woman with a short black bob haircut and bangs is shown in profile, looking to the left with a calm expression. She is wearing a black sheer turtleneck top over a black camisole and is holding a single red rose with green leaves in her hand.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "bob",
+          "bangs": "yes"
+        },
+        "clothing": {
+          "top": "black sheer turtleneck",
+          "underlayer": "black camisole"
+        },
+        "pose": "profile, looking left",
+        "expression": "calm, neutral",
+        "accessories": {
+          "held_object": "red rose with green stem and leaves"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

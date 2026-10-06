@@ -1,0 +1,158 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        498.0,
+        210.0,
+        992.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with light brown skin and tight, curly brown hair smiles broadly at the camera, wearing a blue and white plaid button-down shirt with a black lanyard around his neck. He is positioned in the foreground, with an adult's hand resting on his shoulder and a blurred classroom background visible behind him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "plaid",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "accessories": {
+            "lanyard": "black"
+          }
+        },
+        "pose": "standing",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        9.5,
+        486.0,
+        117.0,
+        696.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus person with short brown hair is visible in the background, wearing a dark blue or black jacket over a lighter shirt, seated at a wooden table. The foreground is dominated by a sharp, close-up view of a textured, heather grey fabric, likely a sweater or coat, obscuring the person's face and body.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": "dark blue or black",
+          "undershirt": "light grey or white",
+          "foreground_fabric": "heather grey, textured knit"
+        },
+        "pose": "seated",
+        "focus": "out of focus",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        14.0,
+        146.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling woman with short blonde hair and a young boy with curly brown hair stand side-by-side, with the woman's hand resting on the boy's shoulder. The woman wears a grey fleece jacket over a light blue button-down shirt and has a black DSLR camera hanging from a strap around her neck, while the boy wears a blue and white plaid flannel shirt with a black lanyard around his neck.",
+      "attributes": {
+        "group": {
+          "composition": "two people, woman and boy",
+          "pose": "standing close together, woman's hand on boy's shoulder",
+          "expression": "both smiling broadly"
+        },
+        "woman": {
+          "age": "middle-aged",
+          "hair": {
+            "color": "blonde",
+            "length": "short",
+            "style": "wavy"
+          },
+          "clothing": {
+            "outer": "grey fleece zip-up jacket",
+            "inner": "light blue button-down shirt"
+          },
+          "accessories": {
+            "neck": "black camera strap with black DSLR camera",
+            "ear": "small hoop earring"
+          }
+        },
+        "boy": {
+          "age": "child",
+          "hair": {
+            "color": "brown",
+            "texture": "curly",
+            "length": "short"
+          },
+          "clothing": {
+            "shirt": "blue and white plaid flannel button-down"
+          },
+          "accessories": {
+            "neck": "black lanyard with white ID badge"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.92578125,
+      "box": [
+        872.0,
+        490.0,
+        1008.0,
+        704.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus shot of a person with long dark hair wearing a grey t-shirt, positioned in the background behind a hand resting on the shoulder of a person in the foreground wearing a blue and white plaid shirt.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "grey",
+            "type": "t-shirt"
+          }
+        },
+        "focus": "blurred",
+        "position": "background",
+        "gender": "female"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,171 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        728.0,
+        304.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short, dark brown hair and a serious, neutral expression sits facing forward, wearing a plain, dusty grey t-shirt and dark trousers. He is positioned against a rough, textured brown wall, with his hands clasped in his lap, and a portion of a person wearing a green shawl and patterned fabric is visible to his left.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "messy bangs"
+        },
+        "facial_expression": "serious, neutral, direct gaze",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "grey",
+            "condition": "slightly dirty"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "dark grey or black"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "background": "rough textured wall",
+        "adjacent_object": "green shawl and patterned fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        6.0,
+        322.0,
+        374.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young girl with a solemn expression sits facing forward, wearing a textured red hooded shawl with frayed edges that is fastened at the chest with a dark button, over a dark maroon dress. Her hands are clasped together in her lap, and her brown hair is partially visible beneath the hood.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "style": "partially visible under hood"
+        },
+        "facial_expression": "serious, neutral",
+        "clothing": {
+          "outerwear": {
+            "type": "shawl",
+            "color": "red",
+            "features": [
+              "hooded",
+              "frayed edges",
+              "buttoned at chest"
+            ],
+            "material": "wool-like"
+          },
+          "dress": {
+            "color": "dark maroon"
+          }
+        },
+        "pose": "sitting, hands clasped in lap"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        155.0,
+        72.0,
+        440.0,
+        560.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A woman and a young girl are shown in a close-up, both wearing headscarves; the woman wears a dark maroon scarf over a dark blue garment, while the girl wears a bright red scarf. Both have serious, somber expressions and are looking directly at the camera against a plain, textured brown background.",
+      "attributes": {
+        "people": [
+          {
+            "gender": "female",
+            "age_group": "adult",
+            "clothing": {
+              "headscarf": "dark maroon",
+              "top": "dark blue"
+            },
+            "expression": "serious",
+            "position": "background"
+          },
+          {
+            "gender": "female",
+            "age_group": "child",
+            "clothing": {
+              "headscarf": "bright red"
+            },
+            "hair": "light brown",
+            "expression": "serious",
+            "position": "foreground"
+          }
+        ],
+        "background": "textured brown wall",
+        "lighting": "dim, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        324.0,
+        170.0,
+        812.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_3.png",
+      "crop": null,
+      "description": "An elderly woman with deeply wrinkled skin and gray hair sits facing forward, wearing a dark green fringed shawl over a patterned dress with floral and geometric motifs in red, black, and gold. Her hands rest on her lap, showing prominent veins and age spots, while her expression is solemn and direct.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Middle Eastern or South Asian",
+        "hair": {
+          "color": "gray",
+          "style": "partially visible under head covering"
+        },
+        "clothing": {
+          "shawl": {
+            "color": "dark green",
+            "material": "wool or felt-like fabric",
+            "detail": "fringed edges"
+          },
+          "dress": {
+            "pattern": "floral and geometric",
+            "colors": [
+              "red",
+              "black",
+              "gold",
+              "brown"
+            ],
+            "sleeves": "long, patterned"
+          }
+        },
+        "pose": "seated, hands resting on lap",
+        "expression": "solemn, direct gaze",
+        "skin": "deeply wrinkled, aged, visible veins on hands",
+        "position": "centered in frame, slightly angled toward viewer"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,258 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        70.0,
+        608.0,
+        584.0,
+        880.0
+      ],
+      "mask": "image_10.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver Apple laptop is open on a wooden table, with its back facing the viewer, displaying the Apple logo. The laptop has a black keyboard and is positioned next to a small potted plant and a person holding a smartphone.",
+      "attributes": {
+        "brand": "Apple",
+        "color": "silver",
+        "material": "metal",
+        "type": "laptop",
+        "status": "open",
+        "position": "on a wooden table",
+        "logo": "Apple logo on the back",
+        "keyboard": "black",
+        "adjacent_objects": [
+          "small potted plant",
+          "person holding a smartphone"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "paper cup",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        -1.3125,
+        292.0,
+        30.0,
+        344.0
+      ],
+      "mask": "image_10.masks/paper cup_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        382.0,
+        188.0,
+        928.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair is seated in a wheelchair, smiling broadly while looking at a smartphone held in her hands. She wears a light grey blazer over a pale pink top and is positioned next to a young man who is also smiling.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "jacket": "light grey blazer",
+          "top": "pale pink t-shirt"
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "sitting in a wheelchair",
+        "action": "holding a smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.71875,
+      "box": [
+        184.0,
+        213.0,
+        226.0,
+        243.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        90.0,
+        146.0,
+        608.0,
+        768.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a light beard, wearing a pink button-down shirt over a white t-shirt, smiles while looking down at a smartphone held by an older woman beside him. He is seated at a table with a silver laptop in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "light beard",
+        "expression": "smiling",
+        "clothing": {
+          "outer": "pink button-down shirt",
+          "inner": "white t-shirt"
+        },
+        "pose": "seated, looking down",
+        "context": "interacting with an older woman, laptop visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.58984375,
+      "box": [
+        -2.0,
+        324.0,
+        552.0,
+        368.0
+      ],
+      "mask": "image_10.masks/table_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a person's face, showing the lower half of the face including the nose, mouth, and chin. The person has light skin and is wearing a pink collared shirt. The background is blurred, suggesting a shallow depth of field.\", \"attributes\": {\"gender\": \"male\", \"age\": \"adult\", \"skin_tone\": \"light\", \"clothing\": {\"shirt\": \"pink\", \"collar\": \"visible\"}, \"expression\": \"neutral\", \"pose\": \"facing forward\", \"background\": \"blurred\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.87890625,
+      "box": [
+        -4.0,
+        760.0,
+        740.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/table_1.png",
+      "crop": null,
+      "description": "A wooden table with a light brown finish and visible grain patterns, featuring a laptop and a small potted plant on its surface. A person's hand is visible, interacting with the laptop.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth with visible grain",
+        "objects_on_table": [
+          "laptop",
+          "potted plant"
+        ],
+        "person_interaction": "hand on laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.8125,
+      "box": [
+        908.0,
+        482.0,
+        1024.0,
+        840.0
+      ],
+      "mask": "image_10.masks/table_2.png",
+      "crop": null,
+      "description": "A close-up view of a wheelchair's armrest and side frame, featuring a black plastic armrest with a smooth surface and a vertical black support structure. A light blue or teal-colored metal tube is visible behind the black support, curving upwards towards the backrest area. The background is blurred, showing a wooden table and a white cup, suggesting an indoor setting.",
+      "attributes": {
+        "object_type": "wheelchair_component",
+        "parts_visible": [
+          "armrest",
+          "side_frame",
+          "support_structure"
+        ],
+        "colors": {
+          "armrest": "black",
+          "support_structure": "black",
+          "metal_tube": "light_blue/teal"
+        },
+        "materials": {
+          "armrest": "plastic",
+          "support_structure": "plastic",
+          "metal_tube": "metal"
+        },
+        "background": {
+          "table": "wooden",
+          "cup": "white",
+          "blur": "high"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 3,
+      "score": 0.52734375,
+      "box": [
+        836.0,
+        360.0,
+        1024.0,
+        408.0
+      ],
+      "mask": "image_10.masks/table_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a horizontal wooden surface, likely a table or shelf, with a dark area below it and a lighter, indistinct background above. The left edge of the frame shows a small portion of what appears to be light-colored hair or fur.",
+      "attributes": {
+        "surface": "wooden",
+        "color": "brown",
+        "focus": "blurry",
+        "background": "light-colored",
+        "foreground": "dark",
+        "left_edge": "light-colored hair or fur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        764.0,
+        564.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person sitting in a wheelchair, showing the right armrest, part of the backrest, and the upper portion of the rear wheel. The wheelchair has a light blue frame, black armrests, and a black backrest with a visible adjustment mechanism. The person is wearing a light gray long-sleeved shirt.",
+      "attributes": {
+        "frame_color": "light blue",
+        "armrest_color": "black",
+        "backrest_color": "black",
+        "wheel_color": "silver",
+        "person_clothing": {
+          "shirt": "light gray long-sleeved"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

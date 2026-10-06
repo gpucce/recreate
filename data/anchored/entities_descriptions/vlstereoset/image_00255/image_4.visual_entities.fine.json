@@ -1,0 +1,227 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        174.0,
+        772.0,
+        544.0,
+        996.0
+      ],
+      "mask": "image_4.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A medium-sized, light brown corrugated cardboard box is being held by a person's right hand, which is gripping the side near a black cutout handle. The box is sealed with clear packing tape along the top seam and has a flap folded over the top edge.",
+      "attributes": {
+        "material": "corrugated cardboard",
+        "color": "light brown",
+        "features": [
+          "cutout handle",
+          "packing tape",
+          "flap"
+        ],
+        "state": "sealed",
+        "interaction": "held by hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        175.0,
+        592.0,
+        520.0,
+        800.0
+      ],
+      "mask": "image_4.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A close-up view of a light brown cardboard box with a rectangular handle cutout on the side, sealed with clear packing tape on the top and bottom edges. The box is stacked on top of another similar box, with a portion of the box above it also visible.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "features": {
+          "handle": "rectangular cutout",
+          "tape": "clear packing tape"
+        },
+        "position": "stacked",
+        "state": "closed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        180.0,
+        406.0,
+        528.0,
+        600.0
+      ],
+      "mask": "image_4.masks/cardboard box_2.png",
+      "crop": null,
+      "description": "A plain, light brown cardboard box with a rectangular cutout handle on the front face and a piece of clear packing tape sealing the top flap. The box is positioned in the foreground, appearing to be stacked on top of another box, with a person wearing a yellow sweater partially visible in the background.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "shape": "rectangular",
+        "features": {
+          "handle": "rectangular cutout",
+          "seal": "clear packing tape on top flap"
+        },
+        "position": "foreground, stacked",
+        "background": "person in yellow sweater"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        11.0,
+        432.0,
+        144.0,
+        800.0
+      ],
+      "mask": "image_4.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A tripod floor lamp with a light wood finish and a white, tapered drum shade stands in the background, emitting a warm, soft glow. The lamp features three slender, angled legs that converge at a central hub beneath the shade, positioned behind a partial view of a green plant and a patterned cushion in the foreground.",
+      "attributes": {
+        "type": "tripod floor lamp",
+        "shade": {
+          "color": "white",
+          "shape": "tapered drum",
+          "material": "fabric"
+        },
+        "base": {
+          "material": "wood",
+          "color": "light brown",
+          "structure": "three-legged tripod"
+        },
+        "lighting": "warm, on",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        286.0,
+        186.0,
+        696.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a surprised expression stands holding a stack of three cardboard boxes, with a black DSLR camera resting on top of the pile. He is wearing a mustard yellow sweater and blue jeans, positioned indoors near a window with a brown leather sofa visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "surprised",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing",
+        "action": "holding boxes",
+        "objects_held": [
+          "cardboard boxes",
+          "camera"
+        ],
+        "camera": {
+          "type": "DSLR",
+          "color": "black"
+        },
+        "background": {
+          "furniture": "brown leather sofa",
+          "window": "visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        28.0,
+        740.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/sofa_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A brown leather sofa with a smooth, slightly glossy finish is visible in the background, featuring two throw pillows: one with a dark green and white floral pattern on the left and another with a light beige background and a green leaf design on the right. The sofa has a modern, clean-lined design with visible stitching along the edges of the cushions and armrests.\", \"attributes\": {\"material\": \"leather\", \"color\": \"brown\", \"style\": \"modern\", \"pillows\": [{\"color\": \"dark green and white\", \"pattern\": \"floral\"}, {\"color\": \"light beige\", \"pattern\": \"green leaf\"}], \"stitching\": \"visible along edges\", \"armrests\": \"rounded, padded\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "throw pillow",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        748.0,
+        784.0,
+        1004.0,
+        992.0
+      ],
+      "mask": "image_4.masks/throw pillow_0.png",
+      "crop": null,
+      "description": "A square, cream-colored throw pillow with a textured fabric surface features a large, muted green leaf print in the center. The pillow is positioned on a brown leather sofa, showing soft folds and creases in the material.",
+      "attributes": {
+        "shape": "square",
+        "color": "cream",
+        "pattern": "single large leaf",
+        "pattern_color": "muted green",
+        "material": "textured fabric",
+        "placement": "on brown leather sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        102.0,
+        748.0,
+        176.0,
+        900.0
+      ],
+      "mask": "image_4.masks/throw pillow_1.png",
+      "crop": null,
+      "description": "A rectangular throw pillow with a dark green background and a white floral pattern featuring large, stylized flowers and leaves. The pillow is positioned upright, leaning against a wooden surface, and appears to be made of a soft fabric material.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": {
+          "background": "dark green",
+          "pattern": "white"
+        },
+        "pattern": "floral",
+        "material": "fabric",
+        "position": "upright",
+        "support": "wooden surface"
+      },
+      "parse_ok": true
+    }
+  ]
+}

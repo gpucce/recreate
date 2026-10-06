@@ -1,0 +1,189 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        246.0,
+        516.0,
+        656.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a black bicycle with a silver handlebar and front wheel, being ridden by a person wearing orange patterned pants and sandals. The bicycle is positioned on a dirt path next to a body of water with green plants growing in it.",
+      "attributes": {
+        "color": "black",
+        "handlebar": "silver",
+        "wheels": "silver",
+        "rider": {
+          "clothing": {
+            "pants": "orange patterned",
+            "shoes": "sandals"
+          },
+          "pose": "riding"
+        },
+        "location": "dirt path next to water"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        660.0,
+        564.0,
+        836.0,
+        756.0
+      ],
+      "mask": "image_3.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A large, full burlap sack made of coarse, light brown woven fabric stands upright on a dirt surface, with its top gathered and held by a person's hands. The sack appears to be filled with a granular substance, possibly grain or seeds, and shows visible creases and texture from the weight of its contents.",
+      "attributes": {
+        "material": "burlap",
+        "color": "light brown",
+        "texture": "coarse, woven",
+        "shape": "cylindrical, bulging",
+        "state": "full, upright",
+        "top": "gathered, held by hands",
+        "contents": "granular substance (possibly grain or seeds)",
+        "position": "on dirt surface",
+        "visible_parts": "sack body, top opening, person's hands and lower legs"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        712.0,
+        376.0,
+        872.0,
+        736.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black man with short black hair is bent forward at the waist, reaching into a large, open burlap sack with both hands. He is wearing a two-toned t-shirt with a beige body and dark blue sleeves, along with dark brown shorts, and is standing barefoot on a dirt surface.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "beige and dark blue",
+            "sleeves": "dark blue"
+          },
+          "bottoms": {
+            "type": "shorts",
+            "color": "dark brown"
+          },
+          "footwear": "barefoot"
+        },
+        "pose": "bending forward",
+        "action": "reaching into a sack",
+        "skin_tone": "dark brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        304.0,
+        160.0,
+        644.0,
+        936.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black woman wearing a colorful patterned headwrap and a pink t-shirt sits on a bicycle in a rural setting. She wears a vibrant orange, black, and white patterned skirt and sandals, with a rice paddy and houses visible in the background.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "expression": "smiling",
+        "pose": "sitting on a bicycle",
+        "clothing": {
+          "top": "pink short-sleeved t-shirt",
+          "bottom": "orange, black, and white patterned skirt",
+          "headwear": "colorful patterned headwrap (orange, blue, yellow)",
+          "footwear": "brown sandals"
+        },
+        "accessories": {
+          "earrings": "small hoop earrings"
+        },
+        "vehicle": "black bicycle with silver handlebars",
+        "background": "rice paddy field, rural houses, clear sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        -2.0,
+        340.0,
+        976.0,
+        964.0
+      ],
+      "mask": "image_3.masks/rice paddy field_0.png",
+      "crop": null,
+      "description": "A woman wearing a pink t-shirt and patterned orange and white pants is riding a bicycle on a dirt path next to a flooded rice paddy field. In the background, a man in a beige and blue shirt is bending over a large burlap sack, possibly filling or emptying it, while the rice paddies stretch out with young green plants growing in the water.",
+      "attributes": {
+        "rice_paddy": {
+          "state": "flooded",
+          "plants": "young green rice shoots",
+          "water": "shallow, reflecting light"
+        },
+        "path": {
+          "material": "dirt",
+          "condition": "uneven, with some debris"
+        },
+        "woman": {
+          "clothing": {
+            "top": "pink t-shirt",
+            "pants": "orange and white patterned pants",
+            "footwear": "sandals"
+          },
+          "pose": "riding a bicycle",
+          "ethnicity": "African"
+        },
+        "man": {
+          "clothing": {
+            "shirt": "beige and blue",
+            "pants": "dark shorts",
+            "footwear": "barefoot"
+          },
+          "pose": "bending over a sack",
+          "ethnicity": "African"
+        },
+        "sack": {
+          "material": "burlap",
+          "color": "tan",
+          "state": "open, being handled"
+        },
+        "bicycle": {
+          "type": "standard",
+          "color": "black frame, silver handlebars"
+        },
+        "background": {
+          "buildings": "simple structures, possibly rural homes",
+          "vegetation": "green fields"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

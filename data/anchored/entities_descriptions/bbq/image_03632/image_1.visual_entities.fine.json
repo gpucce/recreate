@@ -1,0 +1,386 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        732.0,
+        628.0,
+        1024.0,
+        876.0
+      ],
+      "mask": "image_1.masks/floor_0.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a smooth, polished finish, featuring subtle grain patterns and a reflective surface. The floor is bordered by a glass partition on one side, with a metal frame visible along the edge.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "finish": "polished",
+        "pattern": "subtle grain",
+        "border": "glass partition with metal frame",
+        "reflection": "visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        2.0,
+        628.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/floor_1.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a smooth, polished finish and visible grain patterns, extending into the background of an office hallway.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "finish": "polished",
+        "pattern": "plank",
+        "setting": "office hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        896.0,
+        0.0,
+        976.0,
+        840.0
+      ],
+      "mask": "image_1.masks/glass_0.png",
+      "crop": null,
+      "description": "A vertical section of a glass partition with a frosted horizontal band in the middle, reflecting office chairs and fluorescent lights.",
+      "attributes": {
+        "material": "glass",
+        "type": "partition",
+        "features": [
+          "frosted band",
+          "reflections"
+        ],
+        "reflections": [
+          "office chairs",
+          "fluorescent lights"
+        ],
+        "position": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.61328125,
+      "box": [
+        -0.875,
+        532.0,
+        35.5,
+        908.0
+      ],
+      "mask": "image_1.masks/glass_1.png",
+      "crop": null,
+      "description": "A vertical section of a glass pane with a metallic frame on the right side, reflecting a blurred interior space with indistinct shapes and light sources. The glass appears clean and transparent, allowing a view of the background while also showing reflections.",
+      "attributes": {
+        "material": "glass",
+        "frame": "metallic",
+        "reflection": "blurred interior",
+        "transparency": "high",
+        "position": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.72265625,
+      "box": [
+        972.0,
+        2.0,
+        1024.0,
+        872.0
+      ],
+      "mask": "image_1.masks/glass_2.png",
+      "crop": null,
+      "description": "{\"description\": \"A vertical section of a transparent glass panel with a frosted horizontal band across the middle, reflecting light and partially obscuring the view of an office interior with desks and chairs in the background. The glass is framed by a metallic or dark-colored border at the bottom.\", \"attributes\": {\"material\": \"glass\", \"transparency\": \"transparent with frosted band\", \"color\": \"clear with white frosted stripe\", \"frame\": \"metallic or dark-colored bottom edge\", \"function\": \"partition or window\", \"reflection\": \"visible light reflections on surface\", \"background_visibility\": \"partially obscured office interior with desks and chairs\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.5546875,
+      "box": [
+        876.0,
+        -2.25,
+        892.0,
+        81.0
+      ],
+      "mask": "image_1.masks/glass_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.515625,
+      "box": [
+        97.0,
+        516.0,
+        140.0,
+        820.0
+      ],
+      "mask": "image_1.masks/glass_4.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a glass surface with a vertical frame on the right side, reflecting a beige or light brown wall and a lighter floor area. The glass appears to be part of a door or window, with a metallic or gray frame visible along the edge.",
+      "attributes": {
+        "material": "glass",
+        "frame_color": "gray",
+        "reflection": "beige wall and light floor",
+        "clarity": "blurry",
+        "position": "vertical",
+        "type": "door or window glass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.6328125,
+      "box": [
+        31.5,
+        -2.0,
+        142.0,
+        880.0
+      ],
+      "mask": "image_1.masks/glass_5.png",
+      "crop": null,
+      "description": "A close-up view of a modern glass partition or door with a frosted horizontal band across the middle, framed by dark metal edges. The glass reflects light and shows a blurred interior background with office furniture and wooden flooring.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark metal",
+        "frosting": "horizontal band",
+        "reflection": "visible",
+        "background": "blurred office interior",
+        "flooring": "wooden",
+        "function": "partition or door"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 6,
+      "score": 0.796875,
+      "box": [
+        732.0,
+        0.0,
+        852.0,
+        752.0
+      ],
+      "mask": "image_1.masks/glass_6.png",
+      "crop": null,
+      "description": "A person is shown from the chest down, wearing a light blue button-down shirt with the sleeves rolled up to the forearm. The individual has a wristwatch with a black leather strap and a round white face on their left wrist, and is wearing dark-colored pants.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, long-sleeved, button-down, sleeves rolled up",
+          "pants": "dark, likely jeans or slacks"
+        },
+        "accessories": {
+          "watch": "black leather strap, round white face, worn on left wrist"
+        },
+        "pose": "standing, arm relaxed at side",
+        "visible_body_parts": [
+          "torso",
+          "left arm",
+          "left hand",
+          "upper legs"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 7,
+      "score": 0.6875,
+      "box": [
+        -0.5,
+        -2.0,
+        37.25,
+        912.0
+      ],
+      "mask": "image_1.masks/glass_7.png",
+      "crop": null,
+      "description": "A vertical section of a glass door or window with a metallic frame, showing reflections and a blurred background. The glass appears to be part of a modern architectural structure, with a clean and sleek design.",
+      "attributes": {
+        "material": "glass",
+        "frame": "metallic",
+        "color": "transparent with reflections",
+        "design": "modern",
+        "function": "door or window",
+        "background": "blurred interior or exterior space"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 8,
+      "score": 0.64453125,
+      "box": [
+        872.0,
+        114.0,
+        896.0,
+        768.0
+      ],
+      "mask": "image_1.masks/glass_8.png",
+      "crop": null,
+      "description": "A tall, narrow, vertical glass panel with a frosted or semi-opaque finish, featuring a smooth, elongated rectangular shape and a slightly reflective surface. The glass appears to be part of a larger structure, possibly a door or window, with a metallic or dark frame visible along its edges.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "material": "glass",
+        "finish": "frosted",
+        "transparency": "semi-opaque",
+        "frame": "metallic or dark",
+        "position": "centered in the crop",
+        "context": "part of a larger structure (door or window)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        520.0,
+        80.0,
+        808.0,
+        992.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A man with dark curly hair and a beard walks forward in a modern office hallway, wearing a light blue button-down shirt with rolled-up sleeves, black trousers, and a black belt. He holds a blue folder under his right arm and wears a wristwatch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "middle eastern",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_hair": "beard",
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "black",
+            "type": "trousers"
+          },
+          "belt": {
+            "color": "black",
+            "buckle": "silver"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "dress shoes"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "band": "black",
+            "face": "white"
+          },
+          "holding": "blue folder"
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "setting": "office hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        246.0,
+        124.0,
+        490.0,
+        996.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long dark hair is walking forward in a professional office setting, wearing a white button-down shirt and beige trousers. She holds a black clipboard under her right arm and wears black heeled shoes with ankle straps.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "long, rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige",
+            "fit": "slim"
+          },
+          "shoes": {
+            "type": "heels",
+            "color": "black",
+            "style": "ankle strap"
+          },
+          "accessories": {
+            "bracelet": "red string on right wrist",
+            "earrings": "small stud"
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral, looking ahead",
+        "object": {
+          "type": "clipboard",
+          "color": "black",
+          "held_in": "right arm"
+        },
+        "setting": "indoor, office hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        478.0,
+        400.0,
+        560.0,
+        576.0
+      ],
+      "mask": "image_1.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green plant with indistinct leaves and branches is visible in the background, partially obscured by a person's arm and clothing in the foreground.",
+      "attributes": {
+        "focus": "blurry",
+        "color": "green",
+        "position": "background",
+        "visibility": "partially obscured"
+      },
+      "parse_ok": true
+    }
+  ]
+}

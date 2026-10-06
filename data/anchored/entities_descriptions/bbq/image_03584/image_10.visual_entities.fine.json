@@ -1,0 +1,290 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "flowers",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        0.0,
+        418.0,
+        68.0,
+        544.0
+      ],
+      "mask": "image_10.masks/flowers_0.png",
+      "crop": null,
+      "description": "A close-up view of a white flower with soft, overlapping petals and a hint of yellow at the center, set against a blurred background of green leaves and stems.",
+      "attributes": {
+        "color": "white",
+        "petal_texture": "soft, smooth",
+        "center_color": "yellow",
+        "background": "green leaves and stems",
+        "focus": "close-up, shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 1,
+      "score": 0.59375,
+      "box": [
+        29.25,
+        364.0,
+        150.0,
+        436.0
+      ],
+      "mask": "image_10.masks/flowers_1.png",
+      "crop": null,
+      "description": "A close-up of a white flower with multiple layers of soft, rounded petals. The center of the flower features a prominent, rounded, yellowish-brown structure, possibly the pistil or stamen, surrounded by smaller, darker spots. The petals appear delicate and slightly translucent, with a smooth texture. The background is blurred, emphasizing the flower's details.",
+      "attributes": {
+        "color": "white",
+        "petal_shape": "rounded",
+        "center_color": "yellowish-brown",
+        "texture": "smooth",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 2,
+      "score": 0.78515625,
+      "box": [
+        2.0,
+        364.0,
+        244.0,
+        764.0
+      ],
+      "mask": "image_10.masks/flowers_2.png",
+      "crop": null,
+      "description": "{\"description\": \"A bouquet of white peonies with yellow centers is arranged in a clear glass vase filled with water, placed on a wooden surface. The flowers are in full bloom, with some buds still closed, and the green stems are visible through the transparent vase.\", \"attributes\": {\"flower_type\": \"peony\", \"color\": \"white\", \"center_color\": \"yellow\", \"vase\": {\"material\": \"glass\", \"color\": \"clear\", \"shape\": \"rounded with a narrow neck\"}, \"stems\": \"green\", \"buds\": \"present\", \"bloom_stage\": \"full bloom\", \"surface\": \"wooden\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "flowers",
+      "index": 3,
+      "score": 0.60546875,
+      "box": [
+        140.0,
+        408.0,
+        244.0,
+        528.0
+      ],
+      "mask": "image_10.masks/flowers_3.png",
+      "crop": null,
+      "description": "A close-up of a white peony flower with soft, ruffled petals and a visible green stem and sepals, set against a bright, out-of-focus background.",
+      "attributes": {
+        "flower_type": "peony",
+        "color": "white",
+        "petal_texture": "soft, ruffled",
+        "stem_color": "green",
+        "background": "bright, blurred",
+        "focus": "close-up"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 4,
+      "score": 0.6015625,
+      "box": [
+        45.0,
+        462.0,
+        174.0,
+        580.0
+      ],
+      "mask": "image_10.masks/flowers_4.png",
+      "crop": null,
+      "description": "A close-up of a white flower with multiple layers of petals, featuring a prominent yellow center with a small red dot in the middle. The petals are smooth and slightly curved, with a soft, delicate texture.",
+      "attributes": {
+        "petal_color": "white",
+        "center_color": "yellow",
+        "center_detail": "red dot",
+        "petal_texture": "smooth",
+        "petal_shape": "curved",
+        "flower_type": "camellia"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "magazine",
+      "index": 0,
+      "score": 0.6796875,
+      "box": [
+        212.0,
+        560.0,
+        564.0,
+        768.0
+      ],
+      "mask": "image_10.masks/magazine_0.png",
+      "crop": null,
+      "description": "A person wearing a light blue button-down shirt holds an open paperback book titled 'Flourish' with both hands. The book cover features a photograph of a smiling woman with curly brown hair, and the spine is visible with red text on a white background.",
+      "attributes": {
+        "object": "book",
+        "type": "paperback",
+        "state": "open",
+        "title": "Flourish",
+        "cover": {
+          "background_color": "white",
+          "image": "smiling woman with curly brown hair",
+          "text_color": "black"
+        },
+        "spine": {
+          "color": "white",
+          "text_color": "red"
+        },
+        "holder": {
+          "clothing": {
+            "shirt": "light blue button-down"
+          },
+          "hands": "visible holding the book"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        414.0,
+        648.0,
+        512.0,
+        760.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with curly, light brown hair is shown in a close-up, wearing a light blue collared shirt. Her face is centered in the frame, and a hand is visible in the foreground, partially obscuring the bottom of the image.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "collared"
+          }
+        },
+        "pose": "facing forward",
+        "foreground": {
+          "hand": "visible, partially obscuring the image"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        242.0,
+        110.0,
+        856.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair and round wire-rimmed glasses sits in an ornate armchair, reading a book titled 'Flourish' with a gentle, contented smile. She wears a light blue blouse with a bow at the neck and light grey trousers, holding the open book with both hands.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "accessories": {
+          "glasses": "round, wire-rimmed",
+          "earrings": "small, gold"
+        },
+        "clothing": {
+          "top": "light blue blouse with bow tie",
+          "bottom": "light grey trousers"
+        },
+        "pose": "sitting, reading",
+        "expression": "smiling, focused",
+        "object": "book titled Flourish"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        -2.0,
+        724.0,
+        236.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up of a round wooden side table with a dark brown finish and a turned pedestal base featuring a bulbous central section. The table has a smooth, slightly reflective top surface where a glass vase with green stems is partially visible at the top edge.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "shape": "round",
+        "base_style": "turned pedestal",
+        "finish": "polished",
+        "object_on_top": "glass vase with green stems"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.6171875,
+      "box": [
+        1.0,
+        0.0,
+        178.0,
+        408.0
+      ],
+      "mask": "image_10.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up view of a white window frame with a horizontal sash and a small latch mechanism at the top, set against a bright, out-of-focus background of greenery. In the lower foreground, a white flower with a yellow center and a green bud are visible, partially obscuring the bottom of the frame.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "painted wood or vinyl",
+        "structure": "horizontal sash with latch",
+        "background": "blurred green foliage",
+        "foreground_objects": [
+          "white flower",
+          "green bud"
+        ],
+        "lighting": "bright natural light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.7265625,
+      "box": [
+        1.0,
+        -2.0,
+        336.0,
+        512.0
+      ],
+      "mask": "image_10.masks/window_1.png",
+      "crop": null,
+      "description": "A white-framed window with a visible latch mechanism at the top, partially open to reveal a blurred outdoor view of greenery. The window is positioned next to a white curtain, with a bouquet of white flowers in the foreground.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely wood or vinyl",
+        "window_state": "partially open",
+        "curtain_color": "white",
+        "curtain_position": "to the right of the window",
+        "foreground_object": "white flowers",
+        "background_view": "blurred greenery",
+        "latch": "visible at the top of the window frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

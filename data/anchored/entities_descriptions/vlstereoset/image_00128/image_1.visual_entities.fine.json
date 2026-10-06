@@ -1,0 +1,53 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        2.0,
+        50.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of an elderly man with thinning gray hair and deeply wrinkled skin, covering his face with both hands in a gesture of distress or despair. He is wearing a dark gray t-shirt, and the background is softly blurred, showing a window frame on the left and a neutral wall.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "texture": "thin, receding"
+        },
+        "skin": {
+          "texture": "wrinkled, aged",
+          "color": "fair"
+        },
+        "pose": "sitting, hands covering face",
+        "expression": "distressed, hiding face",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "dark gray"
+          }
+        },
+        "hands": {
+          "position": "covering eyes and upper face",
+          "details": "veiny, wrinkled, visible knuckles"
+        },
+        "background": {
+          "elements": [
+            "window frame",
+            "neutral wall"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

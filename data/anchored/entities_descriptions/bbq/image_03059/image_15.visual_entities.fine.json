@@ -1,0 +1,182 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        228.0,
+        388.0,
+        796.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with light brown hair and black-rimmed glasses is being hugged tightly by an adult, her face pressed against their chest with a somber expression. She wears a light pink fleece jacket and holds a black DSLR camera in her hand, while the adult wears a dark blue knit sweater and also holds a camera.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "medium"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "round"
+          },
+          "earrings": "small stud"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "light pink",
+            "material": "fleece"
+          }
+        },
+        "expression": "sad or somber",
+        "pose": "being hugged, leaning into adult",
+        "holding": {
+          "object": "black DSLR camera"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        274.0,
+        106.0,
+        824.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A blonde woman with sunglasses perched on her head and a streak of red blood on her cheek is tightly embracing a young girl with glasses and a pink sweater. The woman wears a dark blue knit cardigan and has two black DSLR cameras hanging from straps around her neck, while the girl rests her head against the woman's chest with a somber expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "style": "ponytail",
+          "accessories": "sunglasses on head"
+        },
+        "face": {
+          "expression": "sad, distressed",
+          "marks": "red blood streak on left cheek"
+        },
+        "clothing": {
+          "top": "dark blue knit cardigan"
+        },
+        "accessories": {
+          "cameras": "two black DSLR cameras with straps"
+        },
+        "pose": "hugging a child",
+        "associated_person": {
+          "gender": "female",
+          "age_group": "child",
+          "hair": "light brown",
+          "clothing": "pink sweater",
+          "accessories": "black-rimmed glasses",
+          "pose": "being hugged"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        928.0,
+        396.0,
+        992.0,
+        444.0
+      ],
+      "mask": "image_15.masks/plant_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.828125,
+      "box": [
+        820.0,
+        388.0,
+        908.0,
+        440.0
+      ],
+      "mask": "image_15.masks/plant_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a dark green, rectangular object, likely a piece of furniture such as a sofa or cabinet, with a lighter brown surface visible to the left and a white vertical element on the right.",
+      "attributes": {
+        "color": "dark green",
+        "shape": "rectangular",
+        "focus": "blurry",
+        "material": "indistinct",
+        "context": "indoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.76171875,
+      "box": [
+        75.0,
+        366.0,
+        203.0,
+        422.0
+      ],
+      "mask": "image_15.masks/plant_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a dark green, horizontal band of foliage, likely a hedge or shrubbery, situated above a lighter, indistinct surface that appears to be the roof of a vehicle. The background is heavily blurred with hints of white and red structures.",
+      "attributes": {
+        "color": "dark green",
+        "shape": "horizontal band",
+        "focus": "blurry",
+        "position": "above a light-colored surface",
+        "type": "foliage or hedge"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 3,
+      "score": 0.640625,
+      "box": [
+        1000.0,
+        422.0,
+        1024.0,
+        450.0
+      ],
+      "mask": "image_15.masks/plant_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 4,
+      "score": 0.59375,
+      "box": [
+        768.0,
+        400.0,
+        816.0,
+        432.0
+      ],
+      "mask": "image_15.masks/plant_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

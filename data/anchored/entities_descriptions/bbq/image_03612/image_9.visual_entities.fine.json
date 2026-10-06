@@ -1,0 +1,109 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        580.0,
+        268.0,
+        1012.0,
+        844.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with shoulder-length blonde hair sits at a desk, looking down at a laptop with a worried and furrowed expression. She is wearing a dark blue plaid button-down shirt with red accents and rests her chin on her right hand while looking at the screen.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "expression": "worried, concerned, frowning",
+        "pose": "sitting, resting chin on hand",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "plaid",
+            "color": "dark blue with red lines"
+          }
+        },
+        "context": {
+          "object": "laptop",
+          "setting": "office"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        41.0,
+        252.0,
+        512.0,
+        852.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair sits at a desk looking down at a silver laptop with a furrowed brow and a concerned or confused expression. She is wearing a light pink, long-sleeved button-down shirt in a professional office setting with white shelving in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed or hispanic",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "confused or concerned",
+        "clothing": {
+          "shirt": {
+            "color": "light pink",
+            "type": "button-down",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at laptop",
+        "object": {
+          "type": "laptop",
+          "color": "silver"
+        },
+        "setting": "office"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        2.0,
+        840.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/table_0.png",
+      "crop": null,
+      "description": "A white table with two silver laptops placed on it, one on the left and one on the right, with a person's arm visible behind the left laptop.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth surface",
+        "objects_on_table": [
+          "silver laptop (left)",
+          "silver laptop (right)",
+          "person's arm (behind left laptop)"
+        ],
+        "position": "horizontal",
+        "context": "office or workspace setting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

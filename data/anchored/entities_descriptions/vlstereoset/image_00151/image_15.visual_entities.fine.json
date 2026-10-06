@@ -1,0 +1,185 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        2.0,
+        848.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a white desk surface with a person's hands writing in an open notebook with a blue pen, next to a silver laptop.",
+      "attributes": {
+        "desk": {
+          "color": "white",
+          "material": "smooth surface",
+          "items": [
+            "open notebook",
+            "silver laptop",
+            "blue pen",
+            "person's hands"
+          ]
+        },
+        "notebook": {
+          "cover": "dark blue",
+          "pages": "white",
+          "state": "open"
+        },
+        "laptop": {
+          "color": "silver",
+          "type": "laptop",
+          "state": "open"
+        },
+        "pen": {
+          "color": "blue",
+          "type": "ballpoint"
+        },
+        "hands": {
+          "action": "writing",
+          "skin_tone": "light"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.546875,
+      "box": [
+        -0.5625,
+        784.0,
+        10.0,
+        808.0
+      ],
+      "mask": "image_15.masks/pen_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pen",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        284.0,
+        704.0,
+        408.0,
+        880.0
+      ],
+      "mask": "image_15.masks/pen_1.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen is held in a person's right hand, positioned diagonally with the tip touching a white surface. The pen features a silver clip and a silver tip, with a smooth, cylindrical body.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": "blue",
+        "finish": "glossy",
+        "clip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "tip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "position": "held in hand, writing",
+        "hand": {
+          "skin_tone": "light",
+          "grip": "standard writing grip"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 2,
+      "score": 0.56640625,
+      "box": [
+        14.375,
+        752.0,
+        62.0,
+        808.0
+      ],
+      "mask": "image_15.masks/pen_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        124.0,
+        98.0,
+        816.0,
+        880.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with light brown hair pulled up into a high bun is wearing black-rimmed glasses and a white crewneck sweatshirt. She is seated at a desk, looking down with a slight smile while writing in an open notebook with a blue pen, with a laptop visible to her right.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rounded"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "neckline": "crewneck"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused, slight smile",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": "blue",
+          "notebook": "open, white pages",
+          "laptop": "silver, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        1.0,
+        296.0,
+        189.0,
+        840.0
+      ],
+      "mask": "image_15.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod with three slender legs extending upward to a central joint, positioned against a plain, light-colored background. The tripod appears to be made of light wood and is out of focus, with a white object partially visible in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "focus": "out of focus",
+        "position": "standing upright",
+        "background": "plain, light-colored",
+        "foreground_object": "white, partially visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

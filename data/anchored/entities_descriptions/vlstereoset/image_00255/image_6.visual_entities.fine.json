@@ -1,0 +1,176 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        384.0,
+        510.0,
+        680.0,
+        696.0
+      ],
+      "mask": "image_6.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A closed, rectangular brown cardboard box is sealed with strips of clear packing tape on the top and side seams. The box is positioned on a surface with a yellow textured background visible behind it.",
+      "attributes": {
+        "object_type": "cardboard box",
+        "color": "brown",
+        "material": "corrugated cardboard",
+        "shape": "rectangular",
+        "state": "closed",
+        "sealing": "clear packing tape",
+        "orientation": "upright",
+        "background": "yellow textured surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        364.0,
+        676.0,
+        740.0,
+        932.0
+      ],
+      "mask": "image_6.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A large, plain brown cardboard box is held by a person's hand, featuring visible tape sealing the top and bottom flaps. A smaller cardboard box is stacked on top of the main box, partially visible at the top edge of the frame.",
+      "attributes": {
+        "object": "cardboard box",
+        "color": "brown",
+        "material": "cardboard",
+        "sealing": "beige packing tape",
+        "stacking": "another box on top",
+        "interaction": "held by a hand",
+        "condition": "new, undamaged"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.7421875,
+      "box": [
+        62.5,
+        368.0,
+        198.0,
+        720.0
+      ],
+      "mask": "image_6.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A wooden tripod floor lamp with a cylindrical, off-white fabric shade stands against a light-colored wall. The lamp features three slender, light-brown wooden legs that converge at the top to support the shade, which is illuminated from within, casting a warm glow.",
+      "attributes": {
+        "type": "tripod floor lamp",
+        "shade": {
+          "shape": "cylindrical",
+          "color": "off-white",
+          "material": "fabric"
+        },
+        "base": {
+          "material": "wood",
+          "color": "light brown",
+          "structure": "three-legged tripod"
+        },
+        "lighting": "on",
+        "position": "standing on floor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        230.0,
+        162.0,
+        592.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a surprised expression stands holding two stacked cardboard boxes, wearing a yellow sweater and blue jeans with a black camera hanging from a strap around his neck.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "surprised",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "yellow",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "color": "black",
+            "type": "DSLR"
+          },
+          "strap": {
+            "color": "black"
+          }
+        },
+        "holding": {
+          "object": "cardboard boxes",
+          "quantity": 2,
+          "arrangement": "stacked"
+        },
+        "pose": "standing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        34.0,
+        672.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/sofa_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A brown leather sofa with a modern design, featuring clean lines and a plush appearance. It has a single visible cushion with a black and white leaf pattern, and the sofa is positioned in a well-lit room with a cozy ambiance.\", \"attributes\": {\"material\": \"leather\", \"color\": \"brown\", \"style\": \"modern\", \"cushion\": {\"pattern\": \"leaf\", \"colors\": [\"black\", \"white\"]}, \"position\": \"indoor\", \"lighting\": \"well-lit\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "throw pillow",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        122.0,
+        672.0,
+        296.0,
+        816.0
+      ],
+      "mask": "image_6.masks/throw pillow_0.png",
+      "crop": null,
+      "description": "A square throw pillow with a white background and a black botanical leaf pattern, positioned on a couch behind a person wearing a yellow sweater.",
+      "attributes": {
+        "shape": "square",
+        "color": {
+          "background": "white",
+          "pattern": "black"
+        },
+        "pattern": "botanical leaves",
+        "material": "fabric",
+        "position": "background, left side"
+      },
+      "parse_ok": true
+    }
+  ]
+}

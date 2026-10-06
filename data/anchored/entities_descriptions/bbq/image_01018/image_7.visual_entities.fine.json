@@ -1,0 +1,378 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "bowl",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        434.0,
+        604.0,
+        592.0,
+        660.0
+      ],
+      "mask": "image_7.masks/bowl_0.png",
+      "crop": null,
+      "description": "A wooden bowl with a smooth, rounded shape and a visible grain pattern, containing various fruits including a yellow pear and red apples. The bowl is placed on a surface, with a white object partially visible to the left.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "shape": "round",
+        "contents": [
+          "yellow pear",
+          "red apples"
+        ],
+        "position": "on a surface",
+        "adjacent_object": "white object to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        564.0,
+        300.0,
+        988.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling blonde woman with wavy, shoulder-length hair sits at a rustic wooden table, wearing a cream-colored knit sweater and dark jeans. She is holding a white teacup with both hands, looking off to the side with a pleasant expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "cream",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "action": "holding a teacup",
+        "accessories": {
+          "earrings": "small hoop"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        47.0,
+        292.0,
+        464.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in profile at a wooden table, smiling gently while holding a white teacup. She wears a soft lavender knit sweater and beige trousers, seated on a wooden chair with a woven seat.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly, short"
+        },
+        "expression": "smiling, content",
+        "pose": "sitting, side profile, holding a cup",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "lavender",
+            "material": "knit"
+          },
+          "bottoms": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "accessories": {
+          "earrings": "small pearl or stud"
+        },
+        "setting": {
+          "furniture": "wooden table, wooden chair with woven seat",
+          "objects": "white teacup and saucer, vintage camera, bowl of fruit, potted plants"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plate",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        584.0,
+        656.0,
+        656.0,
+        688.0
+      ],
+      "mask": "image_7.masks/plate_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plate",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        388.0,
+        664.0,
+        476.0,
+        696.0
+      ],
+      "mask": "image_7.masks/plate_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        248.0,
+        632.0,
+        824.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/table_0.png",
+      "crop": null,
+      "description": "A rustic wooden table with a thick, plank-style top featuring visible grain, knots, and a dark, worn finish. The table is supported by sturdy, turned legs with a classic, traditional design, and two people are seated at it, each holding a white teacup on a saucer.",
+      "attributes": {
+        "material": "wood",
+        "style": "rustic, traditional",
+        "top": {
+          "type": "plank",
+          "finish": "dark, worn",
+          "details": "visible grain, knots"
+        },
+        "legs": {
+          "type": "turned",
+          "design": "classic, sturdy"
+        },
+        "objects_on_table": [
+          "white teacup on saucer (left)",
+          "white teacup on saucer (right)",
+          "wooden bowl with fruit (center, partially visible)"
+        ],
+        "people": {
+          "left": {
+            "clothing": {
+              "top": "purple sweater",
+              "pants": "beige"
+            },
+            "action": "holding teacup"
+          },
+          "right": {
+            "clothing": {
+              "top": "cream sweater",
+              "pants": "black"
+            },
+            "action": "holding teacup"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.50390625,
+      "box": [
+        920.0,
+        524.0,
+        1024.0,
+        596.0
+      ],
+      "mask": "image_7.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up view of a wooden table with a dark brown finish, featuring a drawer with a round knob. The surface appears smooth and polished, reflecting light subtly. In the foreground, there is a blurred object that seems to be part of a chair or another piece of furniture.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "finish": "polished",
+        "features": [
+          "drawer",
+          "round knob"
+        ],
+        "position": "foreground",
+        "context": "indoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "teapot",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        576.0,
+        556.0,
+        680.0,
+        628.0
+      ],
+      "mask": "image_7.masks/teapot_0.png",
+      "crop": null,
+      "description": "A white ceramic teapot with a smooth, glossy finish is positioned centrally, featuring a rounded body, a curved spout on the left, and a handle on the right. The teapot has a matching lid with a small knob on top, and it is placed on a surface next to a bowl containing yellow fruit and a white cup.",
+      "attributes": {
+        "color": "white",
+        "material": "ceramic",
+        "shape": "rounded body",
+        "spout": "curved, on the left",
+        "handle": "on the right",
+        "lid": "with a small knob",
+        "position": "central, on a surface",
+        "adjacent_objects": {
+          "bowl": "containing yellow fruit",
+          "cup": "white, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        756.0,
+        -2.0,
+        1024.0,
+        520.0
+      ],
+      "mask": "image_7.masks/wall_0.png",
+      "crop": null,
+      "description": "A section of a plain, light beige wall serves as the background, featuring a framed landscape painting with a wooden frame and a table lamp with a cream shade and ornate brass base positioned in front of it.",
+      "attributes": {
+        "wall_color": "light beige",
+        "wall_texture": "smooth",
+        "decor": {
+          "painting": {
+            "frame": "wooden, brown",
+            "content": "landscape with trees and a path"
+          },
+          "lamp": {
+            "shade": "cream, conical",
+            "base": "brass, ornate"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.57421875,
+      "box": [
+        0.0,
+        -2.0,
+        1020.0,
+        528.0
+      ],
+      "mask": "image_7.masks/wall_1.png",
+      "crop": null,
+      "description": "Two women, one elderly with white curly hair and one younger with blonde wavy hair, are seated facing each other in a warmly lit room, smiling and engaged in conversation. Behind them is a large window with a view of a garden with pink flowers, flanked by framed landscape paintings and potted plants on the windowsill.",
+      "attributes": {
+        "people": [
+          {
+            "age": "elderly",
+            "hair": "white, curly",
+            "clothing": "light purple sweater",
+            "expression": "smiling",
+            "position": "left side, facing right"
+          },
+          {
+            "age": "middle-aged",
+            "hair": "blonde, wavy",
+            "clothing": "cream-colored knit top",
+            "expression": "smiling",
+            "position": "right side, facing left"
+          }
+        ],
+        "background": {
+          "window": "large, multi-pane, white frame",
+          "view": "garden with pink flowers and greenery",
+          "decorations": [
+            "two framed landscape paintings (one on each side of window)",
+            "potted plants on windowsill",
+            "table lamp with brass base and beige shade on right"
+          ]
+        },
+        "lighting": "soft, natural, warm",
+        "mood": "warm, intimate, conversational"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.58984375,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        848.0
+      ],
+      "mask": "image_7.masks/wall_2.png",
+      "crop": null,
+      "description": "A section of a light beige wall is visible, featuring two framed landscape paintings with wooden frames and a large window with white trim. The wall also has a potted plant on a sideboard to the left and a lamp on a sideboard to the right.",
+      "attributes": {
+        "color": "light beige",
+        "material": "painted drywall",
+        "decorations": [
+          "framed landscape painting (left)",
+          "framed landscape painting (right)",
+          "window with white trim",
+          "potted plant on sideboard",
+          "lamp on sideboard"
+        ],
+        "position": "background",
+        "function": "enclosure, decoration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        304.0,
+        12.0,
+        716.0,
+        532.0
+      ],
+      "mask": "image_7.masks/window_0.png",
+      "crop": null,
+      "description": "A white, multi-paned window with a grid pattern, featuring a central latch mechanism, set within a cream-colored wall frame. Through the glass, a blurred outdoor scene is visible, showing bare tree branches against a bright sky in the upper panes and a green hedge with pink flowers in the lower panes.",
+      "attributes": {
+        "frame_color": "white",
+        "wall_color": "cream",
+        "pane_configuration": "grid",
+        "hardware": "central latch",
+        "view": {
+          "upper": "bare trees, bright sky",
+          "lower": "green hedge, pink flowers"
+        },
+        "focus": "sharp on frame, blurred on view"
+      },
+      "parse_ok": true
+    }
+  ]
+}

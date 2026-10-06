@@ -1,0 +1,307 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        724.0,
+        844.0,
+        848.0
+      ],
+      "mask": "image_0.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk surface featuring a horizontal grain pattern. The top edge of the desk is visible, with the bottom of a white object on the left, a stack of white papers in a blue folder or tray in the center, and a small grey object on the right.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "grain": "horizontal",
+        "items_on_top": [
+          "white object",
+          "stack of papers",
+          "blue folder",
+          "grey object"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 0,
+      "score": 0.5625,
+      "box": [
+        390.0,
+        596.0,
+        688.0,
+        756.0
+      ],
+      "mask": "image_0.masks/file folder_0.png",
+      "crop": null,
+      "description": "A close-up view of a blue ring binder filled with a thick stack of white paper documents, resting on a light wooden surface. The binder is open, revealing the metal rings on the right side and the dense, layered pages inside.",
+      "attributes": {
+        "object": "file folder",
+        "type": "ring binder",
+        "color": "blue",
+        "material": "plastic",
+        "contents": "white paper",
+        "quantity": "large stack",
+        "state": "open",
+        "position": "resting on surface",
+        "surface": "wooden table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 1,
+      "score": 0.57421875,
+      "box": [
+        388.0,
+        596.0,
+        672.0,
+        688.0
+      ],
+      "mask": "image_0.masks/file folder_1.png",
+      "crop": null,
+      "description": "A thick, blue file folder is filled with a large stack of white papers, with the edges of the pages visible and slightly uneven. The folder is positioned horizontally, and the metal binding mechanism on the right side is partially visible.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic or cardboard",
+        "contents": "white papers",
+        "binding": "metal",
+        "position": "horizontal",
+        "state": "filled and slightly bulging"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "file folder",
+      "index": 2,
+      "score": 0.56640625,
+      "box": [
+        410.0,
+        680.0,
+        688.0,
+        760.0
+      ],
+      "mask": "image_0.masks/file folder_2.png",
+      "crop": null,
+      "description": "A close-up view of a blue file folder filled with numerous white sheets of paper, showing the side profile of the folder and the stacked pages inside. The folder appears to be made of a sturdy material, possibly plastic or heavy paper, and is placed on a flat surface.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic or heavy paper",
+        "contents": "white sheets of paper",
+        "position": "on a flat surface",
+        "type": "file folder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        1.65625,
+        544.0,
+        318.0,
+        744.0
+      ],
+      "mask": "image_0.masks/laptop_0.png",
+      "crop": null,
+      "description": "A closed, white laptop with a smooth, matte finish is positioned in the foreground, showing only the back of its lid. The laptop is rectangular with rounded corners and appears to be sitting on a surface in front of a person wearing a blue striped shirt.",
+      "attributes": {
+        "color": "white",
+        "state": "closed",
+        "material": "matte plastic or metal",
+        "shape": "rectangular with rounded corners",
+        "view": "back of lid",
+        "background": "blue striped shirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        460.0,
+        81.0,
+        848.0,
+        716.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, graying hair and a white beard leans forward, pointing with his right index finger at a stack of documents in a blue binder. He is wearing a dark navy suit jacket, a white dress shirt, and a red and white striped tie, with a silver wristwatch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "short, slicked back"
+        },
+        "facial_hair": {
+          "color": "white",
+          "style": "short beard"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "suit",
+            "color": "dark navy blue"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "pattern": "striped",
+            "colors": [
+              "red",
+              "white"
+            ]
+          }
+        },
+        "accessories": {
+          "glasses": {
+            "frame": "black"
+          },
+          "watch": {
+            "band": "silver metal",
+            "face": "white"
+          }
+        },
+        "pose": "leaning forward, pointing with right index finger",
+        "action": "pointing at documents",
+        "context": "office setting, near a stack of papers in a blue binder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        0.0,
+        264.0,
+        506.0,
+        724.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A man with short dark hair, wearing a blue pinstripe suit, white shirt, and red tie, sits at a desk with a laptop in front of him, his face blurred and his right hand raised to his head in a gesture of stress or fatigue. A stack of papers is visible to his right, and another person's arm is partially visible in the upper right corner.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "unknown",
+        "social_role": "professional/office worker",
+        "clothing": {
+          "suit": "blue pinstripe",
+          "shirt": "white",
+          "tie": "red"
+        },
+        "hair": "dark, short",
+        "pose": "sitting, hand on head",
+        "expression": "blurred, but posture suggests stress or concentration",
+        "objects": {
+          "laptop": "silver, open, in front of him",
+          "papers": "stacked to his right",
+          "desk": "wooden surface implied"
+        },
+        "background": "bright, out-of-focus office environment with shelving"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "phone",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        736.0,
+        672.0,
+        848.0,
+        740.0
+      ],
+      "mask": "image_0.masks/phone_0.png",
+      "crop": null,
+      "description": "A close-up of a vintage rotary dial telephone with a light gray or off-white body, featuring a circular dial with finger holes and a coiled handset cord resting on the left side. The phone has a classic design with a rectangular base and a slightly curved top, set against a dark, blurred background.",
+      "attributes": {
+        "color": "light gray/off-white",
+        "type": "rotary dial",
+        "material": "plastic or bakelite",
+        "features": [
+          "circular dial",
+          "coiled cord",
+          "rectangular base"
+        ],
+        "condition": "vintage/antique",
+        "background": "dark and blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shelving unit",
+      "index": 0,
+      "score": 0.82421875,
+      "box": [
+        -0.62109375,
+        97.5,
+        102.5,
+        524.0
+      ],
+      "mask": "image_0.masks/shelving unit_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a white shelving unit with horizontal shelves and vertical supports, appearing to be made of wood or a similar material. The background is heavily blurred, showing only the structural lines of the empty shelves.",
+      "attributes": {
+        "object_type": "shelving unit",
+        "color": "white",
+        "material": "wood or composite",
+        "structure": "horizontal shelves, vertical supports",
+        "focus": "blurred",
+        "contents": "empty"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shelving unit",
+      "index": 1,
+      "score": 0.69921875,
+      "box": [
+        616.0,
+        95.0,
+        848.0,
+        252.0
+      ],
+      "mask": "image_0.masks/shelving unit_1.png",
+      "crop": null,
+      "description": "A close-up crop showing the back of a person's head and shoulder, featuring short gray hair, a visible ear, and a dark navy blue suit jacket with a light gray shirt collar underneath.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "middle-aged to senior",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "dark navy blue",
+            "type": "suit jacket"
+          },
+          "shirt": {
+            "color": "light gray",
+            "visible_part": "collar"
+          }
+        },
+        "pose": "head bowed or turned away",
+        "visible_features": [
+          "ear",
+          "back of head",
+          "shoulder"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

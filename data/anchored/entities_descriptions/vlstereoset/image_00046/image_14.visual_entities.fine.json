@@ -1,0 +1,110 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        2.0,
+        424.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a lavender satin pajama set with white piping. To the left, there is a vase of pink roses on a wooden side table, and to the right, a beige throw pillow rests against the couch's backrest.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "type": "sofa"
+        },
+        "person": {
+          "clothing": {
+            "top": "lavender satin pajama shirt with white piping",
+            "bottoms": "lavender satin pajama pants with white piping"
+          },
+          "pose": "sitting cross-legged",
+          "position": "center of the couch"
+        },
+        "decor": {
+          "flowers": {
+            "type": "roses",
+            "color": "pink",
+            "container": "glass vase",
+            "placement": "on wooden side table to the left"
+          },
+          "pillow": {
+            "color": "beige",
+            "texture": "textured fabric",
+            "placement": "on the right side of the couch"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        164.0,
+        78.0,
+        884.0,
+        960.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with voluminous dark curly hair and round wire-rimmed glasses sits cross-legged on a grey sofa, wearing a lavender satin pajama set with white piping. She has a neutral expression and is looking directly at the camera with her hands resting on her feet.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "long"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed"
+        },
+        "clothing": {
+          "type": "pajamas",
+          "material": "satin",
+          "color": "lavender",
+          "details": "white piping on collar, cuffs, and pocket",
+          "top": "button-down shirt",
+          "bottom": "long pants"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        812.0,
+        488.0,
+        1024.0,
+        864.0
+      ],
+      "mask": "image_14.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square, cream-colored throw pillow with a textured, woven fabric featuring a subtle grid pattern rests against a dark gray sofa backrest. In the lower left foreground, a blurry, glossy purple object partially obscures the view of the pillow.",
+      "attributes": {
+        "color": "cream",
+        "shape": "square",
+        "material": "textured fabric",
+        "pattern": "grid weave",
+        "position": "resting on sofa",
+        "background": "dark gray fabric"
+      },
+      "parse_ok": true
+    }
+  ]
+}

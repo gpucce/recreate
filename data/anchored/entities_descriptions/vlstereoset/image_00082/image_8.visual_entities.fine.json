@@ -1,0 +1,195 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        482.0,
+        272.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length wavy blonde hair sits on a grey couch, wearing a light grey t-shirt and beige pants. She has a shocked expression with her mouth open and hands raised in a defensive or startled gesture, facing a partially visible person to her left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "expression": "shocked",
+        "mouth": "open",
+        "pose": "sitting with hands raised",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "setting": "indoor, on a grey couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        48.0,
+        264.0,
+        604.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length wavy brown hair sits on a gray couch, wearing a white t-shirt and beige pants, displaying an angry and frustrated expression with furrowed brows and an open mouth while gesturing with both hands toward another person off-frame.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "expression": "angry, frustrated, arguing",
+        "clothing": {
+          "top": "white short-sleeved t-shirt",
+          "bottom": "beige trousers"
+        },
+        "pose": "sitting, leaning forward, hands raised in gesture",
+        "setting": "indoor, on a gray sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        920.0,
+        368.0,
+        1024.0,
+        448.0
+      ],
+      "mask": "image_8.masks/plant_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a green plant with several broad leaves extending from a central point against a plain, light-colored background. The image is heavily blurred, rendering the specific texture and edges of the leaves indistinct.",
+      "attributes": {
+        "focus": "blurred",
+        "color": "green",
+        "leaf_shape": "broad",
+        "arrangement": "clustered",
+        "background": "light",
+        "texture": "indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.54296875,
+      "box": [
+        -1.640625,
+        426.0,
+        6.125,
+        446.0
+      ],
+      "mask": "image_8.masks/plant_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.9453125,
+      "box": [
+        -1.0,
+        58.5,
+        141.0,
+        160.0
+      ],
+      "mask": "image_8.masks/plant_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green houseplant with broad, lance-shaped leaves growing from a central point, set against a plain, light-colored background.",
+      "attributes": {
+        "focus": "blurry",
+        "color": "green",
+        "leaf_shape": "broad",
+        "background": "white",
+        "type": "houseplant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 3,
+      "score": 0.94140625,
+      "box": [
+        896.0,
+        98.5,
+        1000.0,
+        168.0
+      ],
+      "mask": "image_8.masks/plant_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus potted plant with dense, bushy green foliage and small, light-colored flowers or buds scattered throughout the leaves. The plant sits in a simple, light-colored pot that is barely visible at the bottom of the frame.",
+      "attributes": {
+        "focus": "blurry",
+        "foliage": {
+          "color": "green",
+          "texture": "bushy",
+          "density": "dense"
+        },
+        "flowers": {
+          "color": "white or pale yellow",
+          "size": "small",
+          "distribution": "scattered"
+        },
+        "container": {
+          "type": "pot",
+          "color": "light"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        528.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/sofa_0.png",
+      "crop": null,
+      "description": "A gray fabric sofa with a textured, woven appearance, featuring two visible seat cushions and backrest sections. The sofa has a modern, minimalist design with clean lines and is partially occupied by two individuals sitting side by side.",
+      "attributes": {
+        "color": "gray",
+        "material": "fabric",
+        "texture": "woven",
+        "style": "modern",
+        "cushions": {
+          "seat": "two visible",
+          "backrest": "two visible sections"
+        },
+        "position": "horizontal",
+        "occupants": "two individuals sitting side by side"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,445 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        314.0,
+        824.0,
+        696.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/chair_0.png",
+      "crop": null,
+      "description": "A beige upholstered chair with a smooth, curved backrest and a small, square label affixed to the upper right side. The chair is positioned in the foreground, partially obscuring the legs of a person wearing blue pants and white shoes standing behind it.",
+      "attributes": {
+        "color": "beige",
+        "material": "upholstered fabric",
+        "type": "chair",
+        "features": [
+          "curved backrest",
+          "square label on backrest"
+        ],
+        "position": "foreground, angled to the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        588.0,
+        680.0,
+        884.0,
+        856.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, rectangular surface and visible wood grain, supported by a dark grey metal leg. On the desk, there are two open white notebooks or papers, one of which is being written on by a person with curly hair holding a black pen, and a black smartphone lying flat on the left side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "shape": "rectangular",
+        "surface": "smooth",
+        "legs": {
+          "material": "metal",
+          "color": "dark grey"
+        },
+        "objects_on_desk": [
+          {
+            "type": "notebook",
+            "color": "white",
+            "state": "open",
+            "count": 2
+          },
+          {
+            "type": "smartphone",
+            "color": "black",
+            "state": "off"
+          },
+          {
+            "type": "pen",
+            "color": "black"
+          }
+        ],
+        "function": "writing surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.5546875,
+      "box": [
+        -1.0,
+        604.0,
+        468.0,
+        724.0
+      ],
+      "mask": "image_1.masks/desk_1.png",
+      "crop": null,
+      "description": "A light gray desk surface holds a black computer mouse, a black keyboard, and a small black fan on the left side, with a white piece of paper lying flat in the foreground. A person wearing a light blue medical scrub top with a chest pocket stands in front of the desk, partially obscuring the view.",
+      "attributes": {
+        "desk": {
+          "color": "light gray",
+          "items": [
+            "black computer mouse",
+            "black keyboard",
+            "black fan",
+            "white paper"
+          ]
+        },
+        "person": {
+          "clothing": {
+            "top": "light blue medical scrub with chest pocket"
+          },
+          "position": "standing in front of desk"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.625,
+      "box": [
+        -1.0,
+        608.0,
+        472.0,
+        904.0
+      ],
+      "mask": "image_1.masks/desk_2.png",
+      "crop": null,
+      "description": "A light gray desk surface is visible in the background, holding a black computer mouse, a black keyboard, and a small black fan. A white piece of paper lies flat on the desk near the edge.",
+      "attributes": {
+        "color": "light gray",
+        "material": "smooth surface",
+        "objects_on_desk": [
+          "black computer mouse",
+          "black keyboard",
+          "black fan",
+          "white paper"
+        ],
+        "position": "background, behind a person in blue scrubs"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        680.0,
+        194.0,
+        872.0,
+        696.0
+      ],
+      "mask": "image_1.masks/door_0.png",
+      "crop": null,
+      "description": "A plain, light beige or off-white door is visible in the background, featuring a silver metal hinge on the left side and a silver handle or lock mechanism on the right side. The door appears to be made of a smooth, painted material and is partially obscured by a woman standing in front of it.",
+      "attributes": {
+        "color": "beige",
+        "material": "painted wood or composite",
+        "hardware": {
+          "hinges": "silver metal",
+          "handle": "silver metal"
+        },
+        "state": "closed",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.81640625,
+      "box": [
+        548.0,
+        203.0,
+        684.0,
+        708.0
+      ],
+      "mask": "image_1.masks/door_1.png",
+      "crop": null,
+      "description": "A young Black man with short black hair is standing in a room, wearing light blue medical scrubs with a small logo on the left chest pocket. He is looking slightly to his right with a neutral expression and holding a small white object in both hands.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": "short black",
+        "clothing": {
+          "top": "light blue V-neck scrub top",
+          "bottom": "light blue scrub pants",
+          "logo": "small dark logo on left chest pocket"
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "holding": "small white object in both hands",
+        "background": "off-white door and wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        864.0,
+        440.0,
+        936.0,
+        532.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with dark hair and a mustache is shown in profile facing right, wearing a dark blue top and a white lanyard around her neck. She has a slight smile and is positioned in front of a plain beige wall, with a blurry, light brown object visible in the immediate foreground.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "facial_hair": "mustache",
+        "clothing": {
+          "top": "dark blue"
+        },
+        "accessories": {
+          "lanyard": "white"
+        },
+        "pose": "profile view",
+        "expression": "smiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.83203125,
+      "box": [
+        832.0,
+        464.0,
+        1024.0,
+        736.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A person with voluminous, curly reddish-brown hair is seen from the back and side, wearing a green surgical cap and a dark blue top, holding a pen and writing on a piece of paper.",
+      "attributes": {
+        "hair": {
+          "color": "reddish-brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": "dark blue",
+          "headwear": "green surgical cap"
+        },
+        "accessories": {
+          "earrings": "small hoop",
+          "glasses": "visible frame"
+        },
+        "action": "writing",
+        "pose": "seated, leaning forward"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.859375,
+      "box": [
+        -1.25,
+        904.0,
+        85.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's shoulder and upper arm area, wearing a light blue fabric garment. The material appears soft and slightly wrinkled, suggesting a casual or comfortable fit.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue"
+        },
+        "pose": "unclear due to close-up",
+        "material": "soft fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        660.0,
+        520.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A person with voluminous, curly reddish-brown hair is seated in profile, wearing dark blue medical scrubs and a green surgical cap. They are holding a black pen and writing in a white spiral-bound notebook resting on their lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "reddish-brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": "dark blue scrub top",
+          "headwear": "green surgical cap",
+          "accessories": "black watch on left wrist"
+        },
+        "pose": "sitting, writing",
+        "action": "writing in a notebook",
+        "objects": {
+          "notebook": "white spiral-bound",
+          "pen": "black"
+        },
+        "social_role": "medical professional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9765625,
+      "box": [
+        262.0,
+        260.0,
+        536.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_4.png",
+      "crop": null,
+      "description": "A man with short, dark curly hair and a goatee stands in profile facing right, wearing a light blue short-sleeved medical scrub top and matching pants. He is gesturing with his right hand, pointing his index finger forward, while standing in an indoor setting with a white wall and a document in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "facial_hair": "goatee",
+        "clothing": {
+          "top": "light blue short-sleeved scrub shirt",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, profile view, pointing with right hand",
+        "expression": "neutral, focused",
+        "context": "indoor, likely medical or office environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.96484375,
+      "box": [
+        680.0,
+        304.0,
+        840.0,
+        880.0
+      ],
+      "mask": "image_1.masks/person_5.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair and glasses stands facing forward, wearing a dark navy polo shirt with a small pink ribbon pin on the left chest and light beige trousers. She has a neutral expression, her hands clasped in front of her, and wears a silver watch on her left wrist.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "accessories": {
+          "glasses": "black-rimmed",
+          "watch": "silver",
+          "pin": "pink ribbon"
+        },
+        "clothing": {
+          "top": "dark navy polo shirt",
+          "bottom": "light beige trousers"
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "position": "centered in frame, behind a table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.98046875,
+      "box": [
+        426.0,
+        288.0,
+        652.0,
+        944.0
+      ],
+      "mask": "image_1.masks/person_6.png",
+      "crop": null,
+      "description": "A young Black man with short black hair stands facing forward, wearing a light blue V-neck scrub top and matching pants. He holds a small white object in both hands at waist level while looking slightly to his left with a neutral expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": "light blue V-neck scrub shirt",
+          "bottom": "light blue scrub pants",
+          "shoes": "white sneakers"
+        },
+        "pose": "standing",
+        "action": "holding a small white object",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        392.0,
+        304.0,
+        472.0,
+        416.0
+      ],
+      "mask": "image_1.masks/sign_0.png",
+      "crop": null,
+      "description": "A close-up profile view of a man with dark hair and a goatee, facing to the right. He appears to be looking at a document or sign in the background, which is out of focus and contains text on a white surface with a blue header.",
+      "attributes": {
+        "gender": "male",
+        "hair": "dark",
+        "facial_hair": "goatee",
+        "pose": "profile view",
+        "background": "out-of-focus document with text"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        502.0,
+        171.0,
+        536.0,
+        225.0
+      ],
+      "mask": "image_1.masks/sign_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

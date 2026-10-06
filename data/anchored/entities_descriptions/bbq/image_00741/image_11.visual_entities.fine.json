@@ -1,0 +1,144 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        -1.0,
+        496.0,
+        166.0,
+        912.0
+      ],
+      "mask": "image_11.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark, polished wooden cabinet featuring a drawer with a round, dark knob and a lower paneled door section. The wood has a rich, reddish-brown hue with visible grain, and a small metal hinge is visible on the right edge of the frame.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "finish": "polished",
+        "features": [
+          "drawer",
+          "round knob",
+          "paneled door",
+          "metal hinge"
+        ],
+        "style": "traditional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        77.5,
+        400.0,
+        135.0,
+        480.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, low-resolution portrait of a woman with long, dark hair, wearing a dark reddish or maroon top, set against a plain, neutral gray background.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown or black",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "maroon or dark red"
+          }
+        },
+        "background": "gray",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        118.0,
+        86.0,
+        872.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in a floral armchair, wearing a dark blue velvet robe with pearl trim and a necklace with a green pendant. She has a gentle, warm expression and is holding a young boy with curly brown hair who is wearing a light blue Champion sweatshirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "caucasian",
+        "social_role": "grandmother",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "robe": {
+            "color": "dark blue",
+            "material": "velvet",
+            "trim": "pearl"
+          },
+          "accessories": {
+            "necklace": {
+              "color": "silver",
+              "pendant": "green"
+            },
+            "earrings": "small, gold",
+            "ring": "gold"
+          }
+        },
+        "pose": "sitting",
+        "expression": "gentle, warm",
+        "position": "left side of the frame, holding a child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        490.0,
+        342.0,
+        840.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with curly light brown hair and a serious expression sits wearing a light blue Champion sweatshirt, with an older woman's hands resting on his shoulder and lap.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "expression": "serious",
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "brand": "Champion",
+            "logo": "red and blue C with black script text"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting",
+        "context": "being held by an older person"
+      },
+      "parse_ok": true
+    }
+  ]
+}

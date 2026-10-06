@@ -1,0 +1,208 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "clothing",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        368.0,
+        182.0,
+        800.0,
+        532.0
+      ],
+      "mask": "image_0.masks/clothing_0.png",
+      "crop": null,
+      "description": "A close-up of an older man wearing a dark blue denim jacket with a zipper and metal buttons over a light blue collared shirt, with his hands clasped together in front of him.",
+      "attributes": {
+        "clothing": {
+          "jacket": {
+            "color": "dark blue",
+            "material": "denim",
+            "features": [
+              "zipper",
+              "metal buttons"
+            ]
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "collared"
+          }
+        },
+        "person": {
+          "age": "older",
+          "gender": "male",
+          "hands": "clasped together"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        -0.78125,
+        219.0,
+        328.0,
+        536.0
+      ],
+      "mask": "image_0.masks/clothing_1.png",
+      "crop": null,
+      "description": "A close-up crop of a man wearing a white short-sleeved polo shirt with a collar and a small logo on the left chest, set against a blurred blue background.",
+      "attributes": {
+        "clothing": {
+          "type": "polo shirt",
+          "color": "white",
+          "sleeves": "short",
+          "collar": "present",
+          "logo": "small, on left chest"
+        },
+        "person": {
+          "gender": "male",
+          "age_group": "middle-aged to older",
+          "skin_tone": "light"
+        },
+        "background": "blue, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 2,
+      "score": 0.70703125,
+      "box": [
+        564.0,
+        280.0,
+        652.0,
+        360.0
+      ],
+      "mask": "image_0.masks/clothing_2.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's upper chest and neck area, wearing a light blue collared shirt with a dark blue or black jacket over it. The jacket has a visible zipper at the bottom edge, and the shirt's collar is neatly folded over the jacket's lapel.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue",
+          "jacket": "dark blue or black",
+          "zipper": "visible at bottom edge"
+        },
+        "pose": "upper body, facing forward"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 3,
+      "score": 0.69921875,
+      "box": [
+        454.0,
+        25.625,
+        684.0,
+        138.0
+      ],
+      "mask": "image_0.masks/clothing_3.png",
+      "crop": null,
+      "description": "A close-up of a flat cap worn on a person's head, featuring a houndstooth pattern in beige and black. The cap has a rounded crown and a short, stiff brim at the front, with a visible seam running down the center.",
+      "attributes": {
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "pattern": "houndstooth",
+            "colors": [
+              "beige",
+              "black"
+            ],
+            "material": "wool or tweed",
+            "brim": "short and stiff"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        368.0,
+        23.0,
+        800.0,
+        532.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a checkered flat cap is shown from the chest up, wearing a dark blue jacket over a light blue collared shirt. He is gesturing with his hands, which show visible veins and a ring on one finger, against a blurred background of a blue sky and ocean.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short"
+        },
+        "headwear": {
+          "type": "flat cap",
+          "pattern": "checkered",
+          "color": "beige and brown"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "dark blue",
+            "material": "denim or canvas",
+            "details": "zipper pocket, metal buttons"
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "collared"
+          }
+        },
+        "accessories": {
+          "ring": "gold band on left ring finger"
+        },
+        "pose": "gesturing with hands",
+        "background": {
+          "sky": "blue",
+          "ocean": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        1.5625,
+        50.25,
+        406.0,
+        536.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly man with short, thinning white hair is shown in profile facing right, wearing a white short-sleeved polo shirt. He is gesturing with his right hand, pointing with his index finger, against a background of a blue sky and ocean horizon.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "thinning"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "color": "white",
+            "sleeves": "short"
+          }
+        },
+        "pose": "standing, gesturing with right hand pointing",
+        "background": {
+          "sky": "blue",
+          "ocean": "visible horizon"
+        },
+        "skin": "fair, wrinkled"
+      },
+      "parse_ok": true
+    }
+  ]
+}

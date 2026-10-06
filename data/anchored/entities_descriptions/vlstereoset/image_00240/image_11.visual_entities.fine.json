@@ -1,0 +1,269 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "counter",
+      "index": 0,
+      "score": 0.71484375,
+      "box": [
+        -2.0,
+        494.0,
+        486.0,
+        556.0
+      ],
+      "mask": "image_11.masks/counter_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of two individuals, likely an adult and a child, sitting side by side. The adult on the left is wearing a blue button-up shirt with a dark vest over it, while the child on the right is wearing a blue t-shirt. The child has light-colored hair and is looking slightly to the side with a neutral expression. The background is blurred, suggesting an indoor setting with warm lighting.",
+      "attributes": {
+        "individuals": [
+          {
+            "age": "adult",
+            "clothing": {
+              "shirt": "blue button-up",
+              "vest": "dark"
+            },
+            "position": "left"
+          },
+          {
+            "age": "child",
+            "clothing": {
+              "shirt": "blue t-shirt"
+            },
+            "hair": "light-colored",
+            "expression": "neutral",
+            "position": "right"
+          }
+        ],
+        "setting": "indoor",
+        "lighting": "warm"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        -1.0,
+        -1.0,
+        268.0,
+        163.0
+      ],
+      "mask": "image_11.masks/curtain_0.png",
+      "crop": null,
+      "description": "A close-up view of a cream-colored lace curtain featuring an intricate, openwork pattern with diamond-shaped motifs and scalloped edges. The fabric is semi-transparent, allowing bright light to filter through from a window behind it, creating a soft, glowing effect.",
+      "attributes": {
+        "color": "cream",
+        "material": "lace",
+        "pattern": "openwork, diamond motifs, scalloped edges",
+        "transparency": "semi-transparent",
+        "lighting": "backlit, bright",
+        "position": "hanging over a window"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        612.0,
+        312.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian woman with short white hair sits at a rustic wooden table, wearing a vibrant red headscarf and a patterned brown and red sweater. She holds a red mug with both hands, looking slightly off-camera with a calm, gentle expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "headwear": {
+            "type": "headscarf",
+            "color": "red"
+          },
+          "top": {
+            "type": "sweater",
+            "pattern": "paisley/geometric",
+            "colors": [
+              "brown",
+              "red",
+              "black"
+            ]
+          }
+        },
+        "pose": "sitting",
+        "expression": "calm, gentle",
+        "accessories": {
+          "holding": "red mug"
+        },
+        "setting": "indoor, kitchen/dining area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.89453125,
+      "box": [
+        348.0,
+        388.0,
+        520.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young East Asian boy with short brown hair sits at a rustic wooden table, wearing a blue long-sleeved shirt and looking forward with a gentle smile. In front of him are a red cup on a saucer, a white teapot, and a plate of dumplings.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "blue"
+          }
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "context": {
+          "setting": "indoor dining",
+          "objects": [
+            "red cup",
+            "white teapot",
+            "plate of dumplings",
+            "wooden table"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        35.0,
+        272.0,
+        432.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly man with a gray mustache and beard, wearing a dark gray fedora, a maroon vest over a blue button-down shirt, and gray trousers, sits at a rustic wooden table holding a red coffee cup while smoking a cigarette. He has a calm, slightly smiling expression and is positioned next to a young boy in a blue shirt.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "caucasian",
+        "hair": {
+          "color": "gray",
+          "style": "short, visible under hat"
+        },
+        "facial_hair": {
+          "mustache": "gray",
+          "beard": "gray, short"
+        },
+        "accessories": {
+          "hat": "dark gray fedora",
+          "mouth": "cigarette"
+        },
+        "clothing": {
+          "shirt": "blue long-sleeve button-down",
+          "vest": "maroon sleeveless",
+          "pants": "gray"
+        },
+        "pose": "sitting at table, holding cup",
+        "expression": "calm, slight smile",
+        "object_in_hand": "red ceramic cup on saucer"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.6015625,
+      "box": [
+        352.0,
+        388.0,
+        520.0,
+        660.0
+      ],
+      "mask": "image_11.masks/person_3.png",
+      "crop": null,
+      "description": "A young East Asian boy with short brown hair and a small tuft sticking up on top sits at a table, wearing a blue long-sleeved shirt with a single visible button. He has a gentle, neutral expression and is positioned next to a white ceramic teapot and a red mug.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "straight with a small tuft on top"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "blue",
+            "details": "single visible button"
+          }
+        },
+        "expression": "neutral, gentle",
+        "pose": "sitting",
+        "objects_nearby": [
+          "white teapot",
+          "red mug"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.93359375,
+      "box": [
+        476.0,
+        276.0,
+        748.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_4.png",
+      "crop": null,
+      "description": "A middle-aged Asian man with short black hair and a warm smile is wearing a dark olive-green button-down shirt and a beige apron, seated at a rustic wooden table with a plate of dumplings and a white teapot in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "facial_hair": "none",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "color": "dark olive green",
+            "type": "button-down"
+          },
+          "apron": {
+            "color": "beige",
+            "material": "fabric"
+          }
+        },
+        "pose": "seated",
+        "position": "center"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        524.0,
+        88.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy gray hair and a full gray beard sits with his hands clasped in his lap, wearing a distressed brown leather jacket over an orange polo shirt and blue jeans. He has a serious expression and is looking off to the side against a plain light green wall.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "wavy, medium length"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "style": "full beard and mustache"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "leather",
+            "color": "brown",
+            "texture": "distressed, shiny"
+          },
+          "shirt": {
+            "type": "polo",
+            "color": "orange"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "expression": "serious, contemplative",
+        "gaze": "looking to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        -4.0,
+        116.0,
+        532.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A man with curly brown hair and a short beard sits on a wooden bench, wearing a teal t-shirt and beige pants. He has a distressed expression, looking down with his right hand covering his mouth and nose.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "short beard",
+        "expression": "distressed, sad, or anxious",
+        "pose": "sitting, hunched forward, hand over mouth",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "teal"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "setting": "indoor, sitting on a wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        4.0,
+        0.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/wall_0.png",
+      "crop": null,
+      "description": "A plain, light green wall with a subtle horizontal molding or trim running across the middle, serving as a neutral background behind two seated individuals.",
+      "attributes": {
+        "color": "light green",
+        "material": "painted plaster or drywall",
+        "features": [
+          "horizontal molding/trim"
+        ],
+        "texture": "smooth",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

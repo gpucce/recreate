@@ -1,0 +1,117 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        504.0,
+        88.0,
+        968.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A mature woman with shoulder-length wavy blonde hair sits on a beige sofa, wearing a sleeveless dress with horizontal navy blue and white stripes. She holds a small white pump bottle in both hands, looking off to the side with a gentle, content smile.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "dress": {
+            "pattern": "horizontal stripes",
+            "colors": [
+              "navy blue",
+              "white"
+            ],
+            "sleeves": "sleeveless",
+            "length": "knee-length"
+          }
+        },
+        "accessories": {
+          "ring": "gold band on left ring finger",
+          "earrings": "small gold hoop"
+        },
+        "pose": "sitting",
+        "expression": "smiling, looking away",
+        "holding": "white pump bottle",
+        "background": "beige sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        62.0,
+        96.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, straight brown hair sits on a beige couch, wearing a white tank top and distressed blue jeans with large rips at the knees. She holds a white pump bottle in her right hand, looking off to the side with a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "distressed, ripped knees"
+          }
+        },
+        "accessories": {
+          "earrings": "small gold hoop"
+        },
+        "pose": "sitting",
+        "expression": "smiling, looking away",
+        "object_in_hand": {
+          "type": "bottle",
+          "color": "white",
+          "feature": "pump dispenser"
+        },
+        "background": "beige couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        362.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/sofa_0.png",
+      "crop": null,
+      "description": "A beige, textured fabric sofa with a modern, minimalist design, featuring clean lines and a neutral color palette. The sofa appears to be upholstered in a durable, woven material, providing a comfortable and stylish seating option.",
+      "attributes": {
+        "color": "beige",
+        "material": "textured fabric",
+        "style": "modern, minimalist",
+        "design": "clean lines",
+        "function": "seating"
+      },
+      "parse_ok": true
+    }
+  ]
+}

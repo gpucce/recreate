@@ -1,0 +1,180 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        0.0,
+        452.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is holding a rugby ball with both hands, wearing a green and black sports jersey with the brand 'Vipon' and a team logo on the chest. The background is a blurred grassy field, suggesting an outdoor sports setting.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "brand": "Vipon",
+          "logo": "team emblem on chest"
+        },
+        "object": {
+          "type": "rugby ball",
+          "brand": "Zalmblez",
+          "colors": "white, red, blue"
+        },
+        "pose": "holding ball with both hands",
+        "background": "blurred grassy field",
+        "setting": "outdoor sports field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        140.0,
+        50.0,
+        924.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with curly brown hair tied in a messy bun stands facing the camera, holding a white rugby ball with red and blue stripes and 'Zalmblez' text in front of her chest. She wears a green and black short-sleeved athletic jersey with 'Vipon' branding and a team crest, displaying a serious, focused expression against a blurred outdoor field background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly, tied in a bun"
+        },
+        "expression": "serious, focused",
+        "clothing": {
+          "shirt": {
+            "type": "athletic jersey",
+            "colors": [
+              "green",
+              "black"
+            ],
+            "brand": "Vipon",
+            "logo": "team crest on left chest"
+          }
+        },
+        "pose": "standing, holding ball with both hands",
+        "object": {
+          "type": "rugby ball",
+          "color": "white with red and blue stripes",
+          "text": "Zalmblez"
+        },
+        "background": "outdoor field, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        386.0,
+        660.0,
+        616.0,
+        988.0
+      ],
+      "mask": "image_7.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball held by two hands, featuring bold black text 'Zalmblez' and smaller text 'STOLIN' and 'Ellison' on its surface. The ball has red and blue stripes running along its length, and the hands are positioned on either side, gripping it firmly.",
+      "attributes": {
+        "color": [
+          "white",
+          "red",
+          "blue",
+          "black"
+        ],
+        "text": [
+          "Zalmblez",
+          "STOLIN",
+          "Ellison"
+        ],
+        "shape": "oval",
+        "material": "rubber or synthetic leather",
+        "grip": "held by two hands",
+        "stripes": [
+          "red",
+          "blue"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        664.0,
+        284.0,
+        856.0,
+        416.0
+      ],
+      "mask": "image_7.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a brownish trunk and indistinct foliage is visible in the background, partially obscured by a blurred foreground element on the left.",
+      "attributes": {
+        "focus": "out-of-focus",
+        "color": "brownish",
+        "position": "background",
+        "clarity": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.63671875,
+      "box": [
+        -2.5,
+        244.0,
+        214.0,
+        412.0
+      ],
+      "mask": "image_7.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with dark green foliage is visible in the background, partially obscured by a vertical pole and a horizontal bar in the foreground. The tree appears to be a large, leafy deciduous tree, but specific details are indistinguishable due to the blur.",
+      "attributes": {
+        "type": "deciduous",
+        "foliage_color": "dark green",
+        "focus": "out_of_focus",
+        "position": "background",
+        "obscured_by": [
+          "vertical pole",
+          "horizontal bar"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.5703125,
+      "box": [
+        864.0,
+        304.0,
+        1024.0,
+        392.0
+      ],
+      "mask": "image_7.masks/tree_2.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing a large, dark mass with indistinct brownish-green tones that suggests the foliage of a tree. The shape is amorphous and lacks any discernible texture or detail due to the severe blur.",
+      "attributes": {
+        "color": "dark brownish-green",
+        "texture": "indistinct",
+        "focus": "extremely blurry",
+        "shape": "amorphous mass"
+      },
+      "parse_ok": true
+    }
+  ]
+}

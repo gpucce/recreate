@@ -1,0 +1,104 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        378.0,
+        2.46875,
+        1040.0,
+        628.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A person with shoulder-length brown hair is wearing a bright red crew-neck sweater under a black blazer, sitting next to another person whose face is partially visible on the left. The person's face is blurred, and they are positioned in the center-right of the frame against a background of white vertical blinds.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "red",
+            "neckline": "crew neck"
+          },
+          "outerwear": {
+            "type": "blazer",
+            "color": "black"
+          }
+        },
+        "face": "blurred",
+        "pose": "sitting",
+        "position": "center-right",
+        "background": "white vertical blinds"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        1.171875,
+        29.625,
+        488.0,
+        632.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up profile shot of a young person with short, wavy brown hair looking downward with a neutral expression, wearing a dark grey ribbed knit sweater.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "type": "sweater",
+          "color": "dark grey",
+          "material": "knit",
+          "neckline": "crew neck"
+        },
+        "pose": "head tilted down",
+        "expression": "neutral",
+        "view_angle": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.53125,
+      "box": [
+        2.34375,
+        362.0,
+        1200.0,
+        628.0
+      ],
+      "mask": "image_0.masks/sofa_0.png",
+      "crop": null,
+      "description": "Two people are sitting close together on a white sofa, with one person wearing a gray sweater and the other wearing a red shirt under a black jacket. The person in the gray sweater has their head slightly bowed, while the person in the red shirt is partially visible, with their face blurred.",
+      "attributes": {
+        "clothing": {
+          "sweater": "gray",
+          "shirt": "red",
+          "jacket": "black"
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "position": "close together",
+        "sofa": "white"
+      },
+      "parse_ok": true
+    }
+  ]
+}

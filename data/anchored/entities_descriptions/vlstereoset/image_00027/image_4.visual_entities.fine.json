@@ -1,0 +1,414 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        -1.625,
+        146.0,
+        53.0,
+        394.0
+      ],
+      "mask": "image_4.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up view of a light blue wall with a small, vertical rectangular window or opening in the center, framed by a darker border. The wall appears to be made of a smooth material, possibly painted concrete or stucco, and is situated next to a section of orange or terracotta-colored wall on the right side.",
+      "attributes": {
+        "color": "light blue",
+        "material": "smooth, possibly painted concrete or stucco",
+        "features": [
+          "small vertical rectangular window or opening",
+          "darker border around the opening"
+        ],
+        "adjacent_structure": "orange or terracotta-colored wall on the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        676.0,
+        60.0,
+        1024.0,
+        450.0
+      ],
+      "mask": "image_4.masks/building_1.png",
+      "crop": null,
+      "description": "A weathered, single-story building with corrugated metal siding that is heavily rusted and discolored in patches of orange and brown. The structure features a dark, open doorway and a small window with a white frame and vertical bars on the right side, set against a backdrop of green foliage.",
+      "attributes": {
+        "structure_type": "single-story building",
+        "material": "corrugated metal",
+        "condition": "weathered, rusted",
+        "color": "grey, orange rust, brown",
+        "features": {
+          "doorway": "dark, open",
+          "window": "white frame, vertical bars"
+        },
+        "background": "green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.734375,
+      "box": [
+        -1.0,
+        84.0,
+        194.0,
+        398.0
+      ],
+      "mask": "image_4.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a blue wall on the left and a yellowish-brown wall on the right, featuring a vertical wooden post in the center and a small window or opening in the blue section.",
+      "attributes": {
+        "color": {
+          "wall_left": "blue",
+          "wall_right": "yellowish-brown",
+          "post": "brown"
+        },
+        "material": {
+          "wall": "painted concrete or plaster",
+          "post": "wood"
+        },
+        "structure": {
+          "type": "building",
+          "features": [
+            "vertical post",
+            "window/opening"
+          ]
+        },
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        169.0,
+        304.0,
+        197.0,
+        416.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        540.0,
+        182.0,
+        820.0,
+        992.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young Black woman with short, dark hair walks forward on a set of railroad tracks, wearing a bright green tank top and brown pants. She has a neutral expression and is wearing tan sandals, with a blurred background featuring a red and white umbrella and a building structure.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "green"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "brown"
+          },
+          "footwear": {
+            "type": "sandals",
+            "color": "tan"
+          }
+        },
+        "pose": "walking",
+        "location": "railroad tracks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.76953125,
+      "box": [
+        772.0,
+        308.0,
+        820.0,
+        392.0
+      ],
+      "mask": "image_4.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        189.0,
+        110.0,
+        516.0,
+        1000.0
+      ],
+      "mask": "image_4.masks/person_3.png",
+      "crop": null,
+      "description": "A middle-aged Black man with short dark hair and a goatee walks forward on a gravel surface, wearing an unbuttoned olive-green jacket over a bare chest and brown trousers. He holds a plastic bag containing red and yellow produce in his right hand and wears brown sandals.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "facial_hair": "goatee",
+        "clothing": {
+          "jacket": {
+            "color": "olive green",
+            "type": "button-up",
+            "state": "unbuttoned"
+          },
+          "pants": {
+            "color": "brown",
+            "type": "trousers"
+          },
+          "footwear": {
+            "type": "sandals",
+            "color": "brown"
+          }
+        },
+        "pose": "walking",
+        "accessories": {
+          "held_item": "plastic bag with produce"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.66796875,
+      "box": [
+        148.0,
+        304.0,
+        174.0,
+        376.0
+      ],
+      "mask": "image_4.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.8984375,
+      "box": [
+        816.0,
+        332.0,
+        920.0,
+        456.0
+      ],
+      "mask": "image_4.masks/person_5.png",
+      "crop": null,
+      "description": "A blurry, low-resolution image showing a person sitting on a blue plastic stool, wearing a black shirt and dark pants, with an orange object visible near their feet.",
+      "attributes": {
+        "pose": "sitting",
+        "clothing": {
+          "shirt": "black",
+          "pants": "dark"
+        },
+        "accessories": {
+          "stool": "blue plastic"
+        },
+        "other_objects": {
+          "orange_object": "near feet"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.8984375,
+      "box": [
+        482.0,
+        292.0,
+        520.0,
+        404.0
+      ],
+      "mask": "image_4.masks/person_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person is visible wearing a white short-sleeved t-shirt and dark pants, standing in a vertical pose.",
+      "attributes": {
+        "clothing": {
+          "top": "white t-shirt",
+          "bottom": "dark pants"
+        },
+        "pose": "standing",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.8828125,
+      "box": [
+        192.0,
+        290.0,
+        232.0,
+        434.0
+      ],
+      "mask": "image_4.masks/person_7.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person is seen from behind, wearing a bright red short-sleeved shirt and dark pants, standing in an indistinct environment with blue and white background elements.",
+      "attributes": {
+        "clothing": {
+          "shirt": "red",
+          "pants": "dark"
+        },
+        "pose": "standing",
+        "view": "back",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.546875,
+      "box": [
+        130.0,
+        340.0,
+        182.0,
+        420.0
+      ],
+      "mask": "image_4.masks/person_8.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing indistinct shapes and colors that suggest a person wearing a red top and light-colored pants, possibly sitting or crouching. The background contains vague patches of blue, green, and black, but no specific details are discernible.",
+      "attributes": {
+        "clothing": {
+          "top": "red",
+          "pants": "light-colored"
+        },
+        "pose": "sitting or crouching",
+        "image_quality": "extremely blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.8203125,
+      "box": [
+        87.0,
+        340.0,
+        157.0,
+        428.0
+      ],
+      "mask": "image_4.masks/person_9.png",
+      "crop": null,
+      "description": "A blurry, low-resolution image of a person sitting down, wearing a blue top and holding a red object in their lap.",
+      "attributes": {
+        "pose": "sitting",
+        "clothing": {
+          "top": "blue"
+        },
+        "object": {
+          "color": "red",
+          "location": "lap"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.734375,
+      "box": [
+        840.0,
+        328.0,
+        872.0,
+        388.0
+      ],
+      "mask": "image_4.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 11,
+      "score": 0.81640625,
+      "box": [
+        792.0,
+        346.0,
+        840.0,
+        438.0
+      ],
+      "mask": "image_4.masks/person_11.png",
+      "crop": null,
+      "description": "{\"description\": \"The image is extremely blurry and out of focus, showing a person wearing a red top and dark pants. The person appears to be in a seated or crouched position, but specific details such as facial features, hair, or exact pose are indistinguishable due to the lack of clarity.\", \"attributes\": {\"clothing\": {\"top\": \"red\", \"bottoms\": \"dark\"}, \"pose\": \"seated or crouched\", \"clarity\": \"extremely blurry\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "railway tracks",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        4.0,
+        498.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/railway tracks_0.png",
+      "crop": null,
+      "description": "A section of railway tracks with two parallel steel rails set on wooden sleepers and surrounded by gravel ballast, with scattered litter including plastic bottles and debris on the right side. Two individuals are walking along the tracks, one carrying a plastic bag of colorful vegetables.",
+      "attributes": {
+        "rails": "steel, parallel, slightly rusted",
+        "sleepers": "wooden, weathered",
+        "ballast": "gravel, mixed with small stones",
+        "litter": "plastic bottles, cups, and other debris scattered on the right side",
+        "vegetables": "red, green, and yellow items in a transparent plastic bag",
+        "individuals": {
+          "clothing": {
+            "person_1": {
+              "shirt": "green",
+              "pants": "brown"
+            },
+            "person_2": {
+              "jacket": "beige",
+              "pants": "brown"
+            }
+          },
+          "footwear": "sandals",
+          "pose": "walking"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

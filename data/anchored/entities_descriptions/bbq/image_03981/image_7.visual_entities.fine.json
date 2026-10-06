@@ -1,0 +1,366 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "calculator",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        218.0,
+        856.0,
+        410.0,
+        912.0
+      ],
+      "mask": "image_7.masks/calculator_0.png",
+      "crop": null,
+      "description": "A close-up, angled view of a black desktop calculator with a keypad featuring round, dark buttons and a single red button on the right side. The calculator has a matte finish and is positioned on a light-colored surface, with a blurred background showing indistinct objects.",
+      "attributes": {
+        "color": "black",
+        "material": "plastic",
+        "shape": "rectangular with rounded edges",
+        "buttons": {
+          "color": "dark gray/black",
+          "shape": "round",
+          "special_button": "red"
+        },
+        "position": "angled, resting on a surface",
+        "focus": "shallow depth of field, background blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        708.0,
+        816.0,
+        828.0,
+        992.0
+      ],
+      "mask": "image_7.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A white disposable coffee cup with a matching white lid sits on a white surface, featuring a ribbed texture on its body. The cup is positioned in the foreground with a blurred red object visible to the left.",
+      "attributes": {
+        "color": "white",
+        "material": "plastic or paper",
+        "lid": {
+          "color": "white",
+          "type": "screw-top or snap-on"
+        },
+        "body_texture": "ribbed",
+        "shape": "cylindrical",
+        "position": "centered",
+        "background": "white surface with blurred red object"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        18.5,
+        756.0,
+        91.0,
+        876.0
+      ],
+      "mask": "image_7.masks/glass_0.png",
+      "crop": null,
+      "description": "A clear, cylindrical glass filled with a transparent liquid, likely water, sits on a white surface. The glass has a thick base and a smooth, transparent rim, with light reflecting off its surface and the liquid inside.",
+      "attributes": {
+        "shape": "cylindrical",
+        "material": "glass",
+        "contents": "transparent liquid",
+        "color": "clear",
+        "base": "thick",
+        "position": "on a white surface",
+        "lighting": "reflections visible on the glass and liquid"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        680.0,
+        -2.0,
+        1024.0,
+        560.0
+      ],
+      "mask": "image_7.masks/glass_1.png",
+      "crop": null,
+      "description": "A close-up profile view of a young woman with long, straight blonde hair, wearing a white collared shirt and a small stud earring, looking off to the left against a blurred background of a modern office with linear ceiling lights.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": "white collared shirt"
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "profile view, looking left",
+        "setting": "indoor office"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.5546875,
+      "box": [
+        374.0,
+        0.0,
+        656.0,
+        848.0
+      ],
+      "mask": "image_7.masks/glass_2.png",
+      "crop": null,
+      "description": "A woman with light skin and blonde hair is shown in profile, gesturing with both hands as if explaining something. She is wearing a white long-sleeved shirt and a ring on her left hand, seated at a table with documents in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": "blonde",
+        "clothing": {
+          "shirt": "white",
+          "sleeves": "long"
+        },
+        "accessories": {
+          "ring": "on left hand"
+        },
+        "pose": "seated, gesturing with both hands",
+        "expression": "engaged, speaking",
+        "position": "right side of the frame, facing left",
+        "context": "office setting, table with papers visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        474.0,
+        864.0,
+        720.0,
+        960.0
+      ],
+      "mask": "image_7.masks/notebook_0.png",
+      "crop": null,
+      "description": "A closed, red hardcover notebook with a smooth, matte finish lies flat on a white surface, featuring a visible white page block along the bottom edge and a rounded spine on the right. A black pen with silver accents rests diagonally across the top of the notebook.",
+      "attributes": {
+        "object_type": "notebook",
+        "color": "red",
+        "cover_material": "hardcover",
+        "cover_texture": "smooth",
+        "spine": "rounded",
+        "pages": "white",
+        "state": "closed",
+        "orientation": "horizontal",
+        "accessories": {
+          "pen": {
+            "color": "black",
+            "accents": "silver",
+            "position": "on top"
+          }
+        },
+        "background": "white surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -1.0,
+        680.0,
+        250.0,
+        848.0
+      ],
+      "mask": "image_7.masks/notebook_1.png",
+      "crop": null,
+      "description": "A person wearing a gray suit jacket and white dress shirt is seated at a desk with their hands clasped together, next to a silver laptop and a glass of water.",
+      "attributes": {
+        "clothing": {
+          "jacket": "gray suit",
+          "shirt": "white dress shirt"
+        },
+        "pose": "seated, hands clasped",
+        "objects": {
+          "laptop": "silver, partially visible",
+          "glass": "clear, filled with water"
+        },
+        "setting": "office or workspace"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 2,
+      "score": 0.5078125,
+      "box": [
+        340.0,
+        828.0,
+        676.0,
+        900.0
+      ],
+      "mask": "image_7.masks/notebook_2.png",
+      "crop": null,
+      "description": "A white clipboard with a metal clip holds a stack of lined paper, resting on a red surface next to a black pen and a partial view of a calculator.",
+      "attributes": {
+        "object": "clipboard",
+        "color": "white",
+        "material": "plastic or wood",
+        "contents": "lined paper",
+        "clip": "metal",
+        "position": "on a red surface",
+        "adjacent_objects": [
+          "black pen",
+          "calculator"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        528.0,
+        872.0,
+        608.0,
+        904.0
+      ],
+      "mask": "image_7.masks/pen_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        402.0,
+        306.0,
+        976.0,
+        896.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with long, straight blonde hair is seated at a table, wearing a white button-down shirt and gesturing with both hands while speaking. She is positioned in profile facing left, with a red folder, papers, and a white coffee cup visible on the table in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "long"
+          }
+        },
+        "accessories": {
+          "ring": "silver band on left ring finger",
+          "earring": "small stud"
+        },
+        "pose": "seated, gesturing with hands",
+        "expression": "speaking, focused",
+        "position": "profile view, facing left",
+        "context": "office meeting setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        90.0,
+        322.0,
+        498.0,
+        816.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and light skin is seated at a white table, wearing a grey suit jacket, a white collared shirt, and a dark blue tie. He is looking to his left with a focused expression while his hands are clasped together on the table near a laptop, and another person's hand is gesturing in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "suit",
+            "color": "grey"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          },
+          "tie": {
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "attentive",
+        "gaze": "looking left",
+        "hands": "clasped on table",
+        "context": "office meeting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        2.0,
+        808.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/table_0.png",
+      "crop": null,
+      "description": "A white table with a smooth surface, featuring a black calculator, a red notebook, a pen, a clipboard with papers, a white coffee cup, and a glass of water. A person's hands are visible, one resting on the table and the other near a laptop.",
+      "attributes": {
+        "table": {
+          "color": "white",
+          "material": "smooth surface",
+          "items": [
+            "black calculator",
+            "red notebook",
+            "pen",
+            "clipboard with papers",
+            "white coffee cup",
+            "glass of water",
+            "laptop"
+          ]
+        },
+        "person": {
+          "hands": "visible",
+          "clothing": "white shirt",
+          "pose": "seated at the table"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

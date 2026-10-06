@@ -1,0 +1,231 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        600.0,
+        528.0,
+        680.0,
+        608.0
+      ],
+      "mask": "image_12.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A close-up view of a cylindrical ceramic mug with a smooth, matte teal exterior and a white interior rim. A hand with dark skin tone is holding the mug from the side, with fingers visible gripping the surface.",
+      "attributes": {
+        "object_type": "ceramic mug",
+        "color": "teal",
+        "interior_color": "white",
+        "material": "ceramic",
+        "finish": "matte",
+        "shape": "cylindrical",
+        "visible_parts": [
+          "body",
+          "rim"
+        ],
+        "interaction": "held by hand",
+        "hand": {
+          "skin_tone": "dark"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.8828125,
+      "box": [
+        358.0,
+        840.0,
+        528.0,
+        992.0
+      ],
+      "mask": "image_12.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, matte finish and a curved handle on the left side, sitting on a wooden surface with a blurred background.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "white",
+        "finish": "matte",
+        "handle_position": "left",
+        "shape": "cylindrical",
+        "surface": "smooth",
+        "contents": "empty",
+        "background": "blurred",
+        "surface_below": "wooden"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 2,
+      "score": 0.8671875,
+      "box": [
+        336.0,
+        532.0,
+        440.0,
+        628.0
+      ],
+      "mask": "image_12.masks/ceramic mug_2.png",
+      "crop": null,
+      "description": "A white ceramic mug with a smooth, glossy finish is held by two hands, one on each side. The mug has a simple, cylindrical shape with a slightly flared rim and a curved handle on the left side. The hands are positioned to support the mug from the bottom and sides, with fingers visible around the base and handle.",
+      "attributes": {
+        "color": "white",
+        "material": "ceramic",
+        "shape": "cylindrical",
+        "handle": "curved, on the left side",
+        "finish": "glossy",
+        "position": "held by two hands",
+        "context": "close-up view, hands supporting the mug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        478.0,
+        162.0,
+        992.0,
+        920.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Black man with short, curly gray hair and a gray goatee sits on a beige couch, smiling broadly with his mouth open. He wears a sage green t-shirt and light beige trousers, holding a teal ceramic mug with both hands, which are adorned with gold rings.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray",
+          "style": "short curly"
+        },
+        "facial_hair": "gray goatee",
+        "expression": "smiling, happy",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "sage green"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "accessories": {
+          "rings": "gold"
+        },
+        "holding": {
+          "object": "mug",
+          "color": "teal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        9.0,
+        172.0,
+        496.0,
+        908.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly Black man with short, curly white hair and a white goatee sits on a beige couch, smiling broadly while holding a white ceramic mug with both hands. He is wearing a light blue short-sleeved polo shirt and khaki shorts, with a watch visible on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "white",
+          "style": "short curly"
+        },
+        "facial_hair": "white goatee",
+        "expression": "smiling, happy",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "light blue",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "khaki"
+          }
+        },
+        "accessories": {
+          "wrist": "watch on left wrist"
+        },
+        "holding": "white mug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        376.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_12.masks/sofa_0.png",
+      "crop": null,
+      "description": "Two elderly Black men are seated on a beige fabric sofa, each holding a mug, with one man wearing a light blue polo shirt and khaki shorts, and the other in a sage green t-shirt and light-colored pants. The sofa has a textured, neutral-toned upholstery with visible seams and cushioning, and is positioned in a well-lit indoor setting with a wooden coffee table in the foreground holding a white mug and a plate.",
+      "attributes": {
+        "sofa": {
+          "color": "beige",
+          "material": "fabric",
+          "texture": "textured",
+          "cushions": "visible seams and padding",
+          "position": "indoor, against wall or window"
+        },
+        "men": [
+          {
+            "age": "elderly",
+            "ethnicity": "Black",
+            "clothing": {
+              "shirt": "light blue polo",
+              "shorts": "khaki"
+            },
+            "pose": "seated, holding white mug"
+          },
+          {
+            "age": "elderly",
+            "ethnicity": "Black",
+            "clothing": {
+              "shirt": "sage green t-shirt",
+              "pants": "light beige"
+            },
+            "pose": "seated, holding teal mug"
+          }
+        ],
+        "foreground_objects": {
+          "coffee_table": {
+            "material": "wood",
+            "color": "medium brown"
+          },
+          "mug_on_table": {
+            "color": "white"
+          },
+          "plate": {
+            "color": "white",
+            "contents": "indistinct food items"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

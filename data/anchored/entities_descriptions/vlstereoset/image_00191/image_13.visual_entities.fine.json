@@ -1,0 +1,185 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        182.0,
+        72.0,
+        208.0,
+        404.0
+      ],
+      "mask": "image_13.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A tall, slender white flagpole stands vertically against a clear blue sky, topped with a golden spherical finial. A white flag hangs limp and folded down the side of the pole, indicating a lack of wind.",
+      "attributes": {
+        "color": "white",
+        "material": "metal",
+        "top": {
+          "type": "finial",
+          "shape": "spherical",
+          "color": "gold"
+        },
+        "flag": {
+          "color": "white",
+          "state": "furled",
+          "position": "hanging down"
+        },
+        "background": "blue sky",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        868.0,
+        528.0,
+        932.0,
+        608.0
+      ],
+      "mask": "image_13.masks/statue_0.png",
+      "crop": null,
+      "description": "A white marble statue of a muscular male figure, possibly a classical deity or hero, is depicted in a dynamic pose with one arm raised and the other holding an object. The figure appears to be standing on a pedestal, with a clear blue sky in the background.",
+      "attributes": {
+        "material": "marble",
+        "color": "white",
+        "pose": "dynamic, one arm raised",
+        "object_in_hand": "unclear, possibly a weapon or tool",
+        "background": "blue sky",
+        "style": "classical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 1,
+      "score": 0.55859375,
+      "box": [
+        0.375,
+        474.0,
+        49.5,
+        516.0
+      ],
+      "mask": "image_13.masks/statue_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "statue",
+      "index": 2,
+      "score": 0.671875,
+      "box": [
+        121.0,
+        460.0,
+        183.0,
+        544.0
+      ],
+      "mask": "image_13.masks/statue_2.png",
+      "crop": null,
+      "description": "A white statue of a seated figure, possibly a child or small person, with a rounded head and simple, smooth features. The figure appears to be wearing a short-sleeved top and shorts, with one arm resting on its knee and the other by its side. The material looks like marble or a similar stone, and the overall style is minimalist and abstract.",
+      "attributes": {
+        "material": "white stone or marble",
+        "pose": "seated",
+        "clothing": {
+          "top": "short-sleeved",
+          "bottoms": "shorts"
+        },
+        "style": "minimalist, abstract",
+        "details": {
+          "head": "rounded",
+          "features": "simple, smooth",
+          "arms": "one on knee, one by side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 3,
+      "score": 0.58203125,
+      "box": [
+        264.0,
+        318.0,
+        324.0,
+        374.0
+      ],
+      "mask": "image_13.masks/statue_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "statue",
+      "index": 4,
+      "score": 0.7109375,
+      "box": [
+        33.25,
+        470.0,
+        118.0,
+        536.0
+      ],
+      "mask": "image_13.masks/statue_4.png",
+      "crop": null,
+      "description": "A blurry, light-colored statue of a nude male figure is depicted in a reclining pose, with one arm extended outward and the other resting near the torso. The figure appears to be made of stone or marble, with a smooth surface and a neutral expression.",
+      "attributes": {
+        "material": "stone or marble",
+        "pose": "reclining",
+        "clothing": "nude",
+        "gender": "male",
+        "expression": "neutral",
+        "color": "light-colored"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 5,
+      "score": 0.96875,
+      "box": [
+        232.0,
+        60.0,
+        904.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/statue_5.png",
+      "crop": null,
+      "description": "A close-up, low-angle shot of a white marble statue of a muscular male figure wearing a laurel wreath and a draped toga, holding a scroll in his right hand and a sphere in his left. The statue features a chiseled beard, a stern expression, and a gold medallion on a chain around its neck, set against a clear blue sky with a French flag and a classical building facade in the background.",
+      "attributes": {
+        "material": "white marble",
+        "gender": "male",
+        "age": "adult",
+        "headwear": "laurel wreath",
+        "facial_hair": "short beard and mustache",
+        "expression": "stern, looking to the side",
+        "clothing": {
+          "type": "toga",
+          "details": "draped over left shoulder, bare chest, sash around waist"
+        },
+        "accessories": {
+          "necklace": "gold chain with medallion",
+          "arm_bands": "braided bands on upper arms"
+        },
+        "pose": "standing",
+        "held_objects": {
+          "right_hand": "rolled scroll",
+          "left_hand": "sphere"
+        },
+        "background": {
+          "sky": "clear blue",
+          "flag": "French tricolor",
+          "architecture": "classical building with columns and statues"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

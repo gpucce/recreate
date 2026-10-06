@@ -1,0 +1,676 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.546875,
+      "box": [
+        820.0,
+        109.0,
+        1024.0,
+        193.0
+      ],
+      "mask": "image_15.masks/building_0.png",
+      "crop": null,
+      "description": "A single-story residential building with a dark gray roof and light-colored walls, featuring a covered porch with white columns and a visible chimney on the roof.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray",
+          "style": "gabled"
+        },
+        "walls": {
+          "color": "light beige or off-white"
+        },
+        "porch": {
+          "columns": "white",
+          "style": "covered"
+        },
+        "chimney": {
+          "color": "dark",
+          "position": "on roof"
+        },
+        "structure": "single-story house"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        0.0,
+        58.0,
+        172.0,
+        191.0
+      ],
+      "mask": "image_15.masks/building_1.png",
+      "crop": null,
+      "description": "A two-story building with a light gray exterior and a white roof, featuring a balcony on the second floor and a covered porch on the ground floor. The image is blurry, making specific details like window frames and door colors indistinct, but the overall structure suggests a residential or commercial property.",
+      "attributes": {
+        "structure": "two-story",
+        "roof": "white",
+        "exterior_color": "light gray",
+        "features": [
+          "balcony",
+          "porch"
+        ],
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.9296875,
+      "box": [
+        260.0,
+        113.0,
+        524.0,
+        189.0
+      ],
+      "mask": "image_15.masks/building_2.png",
+      "crop": null,
+      "description": "A single-story building with a reddish-brown tiled roof and light-colored walls, featuring a visible window and a chimney on the left side, appears blurred in the background.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile"
+        },
+        "walls": {
+          "color": "light-colored"
+        },
+        "features": [
+          "window",
+          "chimney"
+        ],
+        "blur": "high"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.6875,
+      "box": [
+        912.0,
+        109.0,
+        1024.0,
+        193.0
+      ],
+      "mask": "image_15.masks/building_3.png",
+      "crop": null,
+      "description": "A single-story house with a gray gabled roof and white trim, featuring a covered front porch supported by white columns and a dark chimney visible on the roof.",
+      "attributes": {
+        "roof": {
+          "color": "gray",
+          "style": "gabled"
+        },
+        "walls": {
+          "color": "white"
+        },
+        "porch": {
+          "columns": "white",
+          "covered": true
+        },
+        "chimney": {
+          "color": "dark",
+          "position": "on roof"
+        },
+        "structure": "single-story"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.734375,
+      "box": [
+        812.0,
+        128.0,
+        924.0,
+        186.0
+      ],
+      "mask": "image_15.masks/building_4.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing a dark, horizontal rectangular shape that appears to be the lower portion of a building or structure. The top edge of this dark shape is straight, suggesting a roofline or upper boundary, while the bottom fades into a lighter, indistinct area. There are no discernible details, textures, or features visible due to the severe blur.",
+      "attributes": {
+        "focus": "extremely blurry",
+        "shape": "horizontal rectangle",
+        "color": "dark gray or black",
+        "position": "centered horizontally",
+        "details": "none visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.93359375,
+      "box": [
+        516.0,
+        89.0,
+        828.0,
+        191.0
+      ],
+      "mask": "image_15.masks/building_5.png",
+      "crop": null,
+      "description": "A single-story building with a red-tiled roof and light-colored walls, featuring multiple windows with dark frames. The structure appears to be made of concrete or stucco, with a simple rectangular design and a flat facade.",
+      "attributes": {
+        "roof": {
+          "color": "red",
+          "material": "tile"
+        },
+        "walls": {
+          "color": "light beige or off-white",
+          "material": "concrete or stucco"
+        },
+        "windows": {
+          "frame_color": "dark",
+          "quantity": "multiple",
+          "arrangement": "evenly spaced along the facade"
+        },
+        "structure": {
+          "type": "single-story",
+          "shape": "rectangular"
+        },
+        "surroundings": {
+          "ground": "visible but indistinct",
+          "sky": "clear blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        616.0,
+        232.0,
+        640.0,
+        264.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.65625,
+      "box": [
+        99.5,
+        218.0,
+        119.5,
+        252.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.56640625,
+      "box": [
+        568.0,
+        233.0,
+        600.0,
+        264.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.88671875,
+      "box": [
+        744.0,
+        240.0,
+        768.0,
+        324.0
+      ],
+      "mask": "image_15.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.80859375,
+      "box": [
+        932.0,
+        268.0,
+        964.0,
+        308.0
+      ],
+      "mask": "image_15.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.55859375,
+      "box": [
+        964.0,
+        276.0,
+        996.0,
+        308.0
+      ],
+      "mask": "image_15.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.73828125,
+      "box": [
+        252.0,
+        223.0,
+        276.0,
+        255.0
+      ],
+      "mask": "image_15.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.65625,
+      "box": [
+        138.0,
+        231.0,
+        158.0,
+        253.0
+      ],
+      "mask": "image_15.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.984375,
+      "box": [
+        194.0,
+        182.0,
+        696.0,
+        744.0
+      ],
+      "mask": "image_15.masks/person_8.png",
+      "crop": null,
+      "description": "A young male surfer with wet, dark brown hair is captured in a crouched stance on a white surfboard, wearing a black long-sleeved wetsuit top and teal board shorts. He has black ankle leashes attached to his ankles and is balancing with arms outstretched amidst white water spray, with a beach and umbrellas visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "medium",
+          "texture": "wet, tousled"
+        },
+        "clothing": {
+          "top": "black long-sleeved wetsuit",
+          "bottom": "teal board shorts",
+          "accessories": "black ankle leashes"
+        },
+        "pose": "crouching, balancing on surfboard",
+        "action": "surfing",
+        "expression": "focused",
+        "skin_tone": "tanned"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.53515625,
+      "box": [
+        584.0,
+        232.0,
+        600.0,
+        262.0
+      ],
+      "mask": "image_15.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.515625,
+      "box": [
+        844.0,
+        274.0,
+        860.0,
+        290.0
+      ],
+      "mask": "image_15.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        2.0,
+        194.0,
+        1024.0,
+        346.0
+      ],
+      "mask": "image_15.masks/sand_0.png",
+      "crop": null,
+      "description": "A young man with wet, dark brown hair is wearing a black wetsuit and appears to be in the water, possibly surfing or swimming. He has a focused expression and is looking slightly to his left. In the background, there is a sandy beach with several people sitting under colorful umbrellas, and the ocean waves are visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "texture": "wet"
+        },
+        "clothing": {
+          "wetsuit": "black"
+        },
+        "pose": "in water, possibly surfing or swimming",
+        "expression": "focused",
+        "background": {
+          "beach": "sandy",
+          "people": "sitting under umbrellas",
+          "umbrellas": {
+            "colors": [
+              "yellow",
+              "orange"
+            ]
+          },
+          "ocean": "waves visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        2.0,
+        -0.5,
+        1024.0,
+        140.0
+      ],
+      "mask": "image_15.masks/sky_0.png",
+      "crop": null,
+      "description": "The sky is a clear, light blue expanse with no visible clouds, occupying the upper portion of the image above the rooftops of buildings and palm trees.",
+      "attributes": {
+        "color": "light blue",
+        "clarity": "clear",
+        "clouds": "none visible",
+        "position": "upper portion of the image"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surfboard",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        422.0,
+        716.0,
+        736.0,
+        804.0
+      ],
+      "mask": "image_15.masks/surfboard_0.png",
+      "crop": null,
+      "description": "A close-up view of the underside of a white surfboard with a black stringer running along its center, partially submerged in splashing water with a surfer's bare foot visible on the deck.",
+      "attributes": {
+        "color": "white",
+        "stringer": "black",
+        "material": "fiberglass or similar composite",
+        "position": "angled upward, partially in water",
+        "water": "splashing, white foam",
+        "foot": "bare, light skin tone, positioned on the deck"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        190.0,
+        83.5,
+        250.0,
+        170.0
+      ],
+      "mask": "image_15.masks/tree_0.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a single trunk and a crown of green fronds at the top, set against a blurred background of blue sky and indistinct greenery.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "single, slender, brown",
+        "leaves": "green, fronds",
+        "background": "blurred, blue sky, greenery",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.85546875,
+      "box": [
+        772.0,
+        68.5,
+        836.0,
+        116.5
+      ],
+      "mask": "image_15.masks/tree_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 0,
+      "score": 0.50390625,
+      "box": [
+        167.0,
+        154.0,
+        221.0,
+        180.0
+      ],
+      "mask": "image_15.masks/umbrella_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 1,
+      "score": 0.89453125,
+      "box": [
+        79.0,
+        173.0,
+        175.0,
+        203.0
+      ],
+      "mask": "image_15.masks/umbrella_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 2,
+      "score": 0.89453125,
+      "box": [
+        560.0,
+        189.0,
+        648.0,
+        219.0
+      ],
+      "mask": "image_15.masks/umbrella_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 3,
+      "score": 0.91796875,
+      "box": [
+        237.0,
+        179.0,
+        334.0,
+        211.0
+      ],
+      "mask": "image_15.masks/umbrella_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 0,
+      "score": 0.703125,
+      "box": [
+        212.0,
+        153.0,
+        292.0,
+        183.0
+      ],
+      "mask": "image_15.masks/vegetation_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 1,
+      "score": 0.72265625,
+      "box": [
+        189.0,
+        84.0,
+        251.0,
+        170.0
+      ],
+      "mask": "image_15.masks/vegetation_1.png",
+      "crop": null,
+      "description": "A tall, slender palm tree with a single trunk and a crown of green fronds at the top, set against a blurred background of blue sky and indistinct greenery.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "single, slender, brownish",
+        "fronds": "green, clustered at the top",
+        "background": "blurred, blue sky, green vegetation",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 2,
+      "score": 0.74609375,
+      "box": [
+        772.0,
+        68.5,
+        836.0,
+        116.5
+      ],
+      "mask": "image_15.masks/vegetation_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        332.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A surfer is riding a wave on a white surfboard, wearing a black long-sleeve rash guard and turquoise board shorts. The surfer's arms are outstretched for balance, and their legs are bent in a crouched stance as they navigate the breaking wave.\", \"attributes\": {\"clothing\": {\"top\": \"black long-sleeve rash guard\", \"bottoms\": \"turquoise board shorts\"}, \"accessories\": {\"ankle leash\": \"black\"}, \"pose\": \"crouched, arms outstretched for balance\", \"activity\": \"surfing\", \"surfboard\": \"white with a black stringer\", \"water\": \"foamy, breaking wave\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wave",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        10.0,
+        468.0,
+        1024.0,
+        868.0
+      ],
+      "mask": "image_15.masks/wave_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A surfer is riding a wave, with their lower body and surfboard visible. The surfer is wearing teal shorts and has black ankle leashes attached to their ankles. The surfboard is white with a black stripe along the edge. The wave is breaking with white foam and spray around the surfer.\", \"attributes\": {\"clothing\": {\"shorts\": \"teal\"}, \"accessories\": {\"ankle_leashes\": \"black\"}, \"surfboard\": {\"color\": \"white\", \"stripe\": \"black\"}, \"wave\": {\"foam\": \"white\", \"spray\": \"visible\"}, \"pose\": \"riding\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wave",
+      "index": 1,
+      "score": 0.75,
+      "box": [
+        6.0,
+        330.0,
+        1024.0,
+        394.0
+      ],
+      "mask": "image_15.masks/wave_1.png",
+      "crop": null,
+      "description": "A person wearing a black wetsuit is captured mid-motion, leaning forward with their back arched, likely surfing or bodyboarding. The background shows a blurred ocean with white-capped waves and a distant shoreline.",
+      "attributes": {
+        "clothing": {
+          "wetsuit": "black"
+        },
+        "pose": "leaning forward, back arched",
+        "background": {
+          "ocean": "blue with white waves",
+          "shoreline": "distant, blurred"
+        },
+        "activity": "surfing or bodyboarding"
+      },
+      "parse_ok": true
+    }
+  ]
+}

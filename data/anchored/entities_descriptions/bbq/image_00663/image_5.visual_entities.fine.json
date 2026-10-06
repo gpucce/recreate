@@ -1,0 +1,327 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        2.0,
+        42.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/car_0.png",
+      "crop": null,
+      "description": "A close-up view of a glossy red car with a young woman leaning into the open driver's side window to speak with an elderly man sitting in the driver's seat. The car features a body-colored side mirror and door handle, black window trim, and a black interior headrest.",
+      "attributes": {
+        "color": "red",
+        "finish": "glossy",
+        "visible_parts": [
+          "driver's side door",
+          "side mirror",
+          "door handle",
+          "window frame",
+          "roof edge"
+        ],
+        "interior": {
+          "headrest_color": "black",
+          "seat_color": "black"
+        },
+        "exterior_details": {
+          "mirror": "red with black base",
+          "handle": "red",
+          "trim": "black rubber"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        378.0,
+        197.0,
+        1032.0,
+        664.0
+      ],
+      "mask": "image_5.masks/car interior_0.png",
+      "crop": null,
+      "description": "A close-up shot inside a red car shows an elderly Asian man with white hair and glasses sitting in the driver's seat, smiling warmly at a young Asian woman leaning in from the open passenger window. The man wears a light blue button-down shirt, and the car's interior features black leather seats and headrests.",
+      "attributes": {
+        "car_interior": {
+          "exterior_color": "red",
+          "seat_material": "black leather",
+          "headrest": "black",
+          "window_frame": "black rubber seal"
+        },
+        "man": {
+          "age": "elderly",
+          "ethnicity": "Asian",
+          "hair": "white, short",
+          "accessories": "metal-framed glasses",
+          "clothing": "light blue button-down shirt",
+          "expression": "smiling, happy",
+          "position": "driver's seat"
+        },
+        "woman": {
+          "age": "young adult",
+          "ethnicity": "Asian",
+          "hair": "dark, tied back",
+          "position": "leaning into car from outside",
+          "expression": "smiling"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        2.0,
+        168.0,
+        1024.0,
+        788.0
+      ],
+      "mask": "image_5.masks/car interior_1.png",
+      "crop": null,
+      "description": "An elderly Asian man with short white hair and glasses sits in the driver's seat of a red car, wearing a light blue button-down shirt and smiling warmly. A young Asian woman with dark hair tied in a ponytail leans into the open window from outside, wearing a white t-shirt and blue jeans, with her hand resting on the door frame as she looks at him.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "interior": {
+            "seat_color": "black",
+            "seat_material": "leather or synthetic leather"
+          }
+        },
+        "man": {
+          "age": "elderly",
+          "ethnicity": "Asian",
+          "hair": {
+            "color": "white",
+            "style": "short"
+          },
+          "accessories": {
+            "glasses": "metal frame"
+          },
+          "clothing": {
+            "shirt": "light blue button-down"
+          },
+          "expression": "smiling",
+          "pose": "sitting in driver's seat"
+        },
+        "woman": {
+          "age": "young adult",
+          "ethnicity": "Asian",
+          "hair": {
+            "color": "dark brown",
+            "style": "ponytail"
+          },
+          "clothing": {
+            "top": "white t-shirt",
+            "bottom": "blue jeans"
+          },
+          "pose": "leaning into car window, hand on door frame",
+          "expression": "smiling, looking at man"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.71484375,
+      "box": [
+        3.0,
+        -1.25,
+        448.0,
+        56.0
+      ],
+      "mask": "image_5.masks/foliage_0.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred background of green foliage, likely leaves or branches, with indistinct shapes and colors. The focus is not sharp, making it difficult to discern specific details about the type of plant or its structure.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurred",
+        "type": "foliage",
+        "clarity": "low"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 1,
+      "score": 0.7265625,
+      "box": [
+        548.0,
+        -2.5,
+        788.0,
+        46.75
+      ],
+      "mask": "image_5.masks/foliage_1.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred background of green foliage with hints of yellow, suggesting out-of-focus leaves or trees. The bottom edge of the image features a horizontal, light-colored surface, possibly a wall or ledge, which is also out of focus.",
+      "attributes": {
+        "color": [
+          "green",
+          "yellow",
+          "light beige"
+        ],
+        "focus": "blurred",
+        "type": "foliage",
+        "position": "background",
+        "surface": "horizontal light-colored surface at the bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        488.0,
+        246.0,
+        1024.0,
+        760.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian man with short white hair and wire-rimmed glasses sits in the driver's seat of a red car, smiling warmly while looking toward a woman outside the window. He is wearing a light blue button-down shirt and appears to be engaged in a pleasant conversation.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "facial_hair": "none",
+        "accessories": {
+          "glasses": "wire-rimmed"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue"
+          }
+        },
+        "pose": "sitting in car",
+        "location": "driver's seat"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        -2.0,
+        116.0,
+        704.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a ponytail leans over the open window of a red car, smiling warmly at an older man inside. She is wearing a plain white t-shirt and blue jeans, with her arms resting on the car door frame.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "ponytail",
+          "accessory": "black hair tie"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeve": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "leaning forward",
+        "expression": "smiling",
+        "action": "talking to person in car",
+        "position": "outside car, next to open window"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        0.0,
+        0.75,
+        256.0,
+        87.0
+      ],
+      "mask": "image_5.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A blurred, out-of-focus section of a light-colored stone or concrete wall with a pinkish-red horizontal line or edge in the foreground. The background is indistinct, showing soft, muted tones of gray and green, suggesting an outdoor setting with possible foliage.",
+      "attributes": {
+        "material": "stone or concrete",
+        "color": "light gray/white",
+        "focus": "blurred",
+        "foreground_element": "pinkish-red horizontal line",
+        "background": "indistinct, muted tones of gray and green",
+        "setting": "outdoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        2.0,
+        44.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A close-up view of a glossy red car with a young woman leaning into the open driver's side window to talk to an elderly man sitting in the driver's seat. The car features a body-colored side mirror and door handle, with reflections of trees visible on its shiny surface.",
+      "attributes": {
+        "color": "red",
+        "finish": "glossy",
+        "visible_parts": [
+          "driver's side door",
+          "side mirror",
+          "door handle",
+          "window frame",
+          "roof"
+        ],
+        "interior": {
+          "seat_color": "black",
+          "headrest": "black"
+        },
+        "occupants": {
+          "driver": {
+            "age": "elderly",
+            "gender": "male",
+            "hair": "white",
+            "accessories": "glasses",
+            "clothing": "light blue button-down shirt",
+            "expression": "smiling"
+          },
+          "passenger": {
+            "age": "young adult",
+            "gender": "female",
+            "hair": "brown ponytail",
+            "clothing": "white t-shirt, blue jeans",
+            "pose": "leaning into car window"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

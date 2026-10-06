@@ -1,0 +1,383 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        -1.0,
+        648.0,
+        247.0,
+        968.0
+      ],
+      "mask": "image_6.masks/floor_0.png",
+      "crop": null,
+      "description": "The floor is made of light-colored wood with a visible grain pattern, featuring a smooth and polished surface. A glass partition with a metal frame runs along the edge of the floor, reflecting the wooden texture and part of an office chair.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth, polished",
+        "pattern": "wood grain",
+        "additional_elements": {
+          "glass_partition": "present",
+          "metal_frame": "present",
+          "reflection": "visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 1,
+      "score": 0.921875,
+      "box": [
+        6.0,
+        624.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/floor_1.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a smooth, polished finish and visible wood grain patterns, featuring a mix of light and medium brown tones. The floor is clean and reflective, with the legs of two people walking on it, one wearing beige pants and black shoes, and the other in dark blue pants and brown shoes.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "polished",
+        "pattern": "wood grain",
+        "condition": "clean",
+        "reflection": "visible",
+        "people": {
+          "person1": {
+            "pants": "beige",
+            "shoes": "black"
+          },
+          "person2": {
+            "pants": "dark blue",
+            "shoes": "brown"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        73.5,
+        -4.0,
+        160.0,
+        892.0
+      ],
+      "mask": "image_6.masks/glass_0.png",
+      "crop": null,
+      "description": "A vertical section of a glass partition or window with a thin metallic frame on the left side, reflecting light and showing a blurred view of an office interior with a black office chair and wooden flooring.",
+      "attributes": {
+        "material": "glass",
+        "frame": "metallic",
+        "reflection": "visible",
+        "view": "office interior",
+        "chair": "black",
+        "flooring": "wooden",
+        "lighting": "reflected"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.76171875,
+      "box": [
+        752.0,
+        46.0,
+        864.0,
+        784.0
+      ],
+      "mask": "image_6.masks/glass_1.png",
+      "crop": null,
+      "description": "A person wearing a light blue long-sleeved shirt with the sleeves rolled up to the forearm, standing in an office environment with glass walls and modern furniture in the background. The person is wearing a black wristwatch on their left wrist.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, long-sleeved, rolled-up sleeves"
+        },
+        "accessories": {
+          "wristwatch": "black band, white face"
+        },
+        "pose": "standing, arm slightly bent",
+        "environment": {
+          "background": "office with glass walls, modern chairs, and lighting fixtures"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.5234375,
+      "box": [
+        208.0,
+        102.0,
+        248.0,
+        768.0
+      ],
+      "mask": "image_6.masks/glass_2.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass panel with a dark frame, likely part of a window or door, reflecting light and showing a blurred background with horizontal lines and a dark object.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame": "dark",
+        "material": "glass",
+        "reflection": "visible",
+        "background": "blurred",
+        "background_elements": [
+          "horizontal lines",
+          "dark object"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.7578125,
+      "box": [
+        888.0,
+        -2.0,
+        1024.0,
+        896.0
+      ],
+      "mask": "image_6.masks/glass_3.png",
+      "crop": null,
+      "description": "A modern office chair with a black mesh backrest and armrests, positioned in front of a desk with two computer monitors. The chair has a five-star base with casters and is situated on a gray carpeted floor, with a wooden floor visible in the foreground.",
+      "attributes": {
+        "type": "office chair",
+        "backrest": "black mesh",
+        "armrests": "black",
+        "base": "five-star with casters",
+        "position": "in front of desk",
+        "desk": "wooden",
+        "monitors": "two black",
+        "floor": "gray carpet with wooden border",
+        "setting": "modern office"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.78125,
+      "box": [
+        -2.5,
+        -4.0,
+        76.5,
+        968.0
+      ],
+      "mask": "image_6.masks/glass_4.png",
+      "crop": null,
+      "description": "A tall, transparent glass panel with a thin metallic frame on the right side, reflecting light and showing a blurred view of an office interior including a desk, chair, and computer monitor. The glass is clean and smooth, allowing visibility through to the background while also creating subtle reflections on its surface.",
+      "attributes": {
+        "material": "glass",
+        "frame": "metallic, thin, on right edge",
+        "transparency": "high",
+        "reflections": "visible, soft",
+        "background_visible": "office interior (desk, chair, monitor)",
+        "surface": "smooth, clean",
+        "orientation": "vertical",
+        "function": "partition or window in office setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.51171875,
+      "box": [
+        -0.5,
+        -6.0,
+        254.0,
+        976.0
+      ],
+      "mask": "image_6.masks/glass_5.png",
+      "crop": null,
+      "description": "A transparent glass panel with a thin black frame, reflecting light and showing a blurred view of an office interior with desks, chairs, and computer monitors. The glass is part of a partition wall, allowing visibility into the workspace while providing a sense of separation.",
+      "attributes": {
+        "material": "glass",
+        "frame": "black",
+        "transparency": "high",
+        "reflection": "visible",
+        "function": "partition wall",
+        "view": "office interior",
+        "objects_visible": [
+          "desks",
+          "chairs",
+          "computer monitors"
+        ],
+        "lighting": "reflected light",
+        "position": "vertical panel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        540.0,
+        158.0,
+        804.0,
+        992.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling man with curly brown hair and a short beard walks forward while looking to his left, wearing a light blue button-down shirt with sleeves rolled up, dark navy trousers, and brown leather shoes. He holds a blue folder under his right arm and wears a watch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "short beard",
+        "expression": "smiling",
+        "pose": "walking",
+        "gaze": "looking left",
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "dark navy",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "brown",
+            "material": "leather"
+          },
+          "belt": {
+            "color": "brown",
+            "buckle": "silver"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "strap": "black",
+            "face": "white"
+          },
+          "held_item": {
+            "type": "folder",
+            "color": "blue"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        308.0,
+        208.0,
+        524.0,
+        1000.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with shoulder-length wavy dark hair walks forward in a bright office hallway, wearing a white button-down shirt and beige trousers. She holds a black clipboard with both hands at waist level and wears black ankle boots.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "pose": "walking",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "long"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige",
+            "fit": "slim"
+          },
+          "footwear": {
+            "type": "ankle boots",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "held_item": {
+            "type": "clipboard",
+            "color": "black"
+          }
+        },
+        "setting": "office hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        828.0,
+        436.0,
+        940.0,
+        540.0
+      ],
+      "mask": "image_6.masks/plant_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A green leafy plant with multiple stems and broad leaves is visible in the background, partially obscured by a dark vertical frame or window pane in the foreground. The plant appears to be potted, with a light-colored pot base visible at the bottom right.\", \"attributes\": {\"color\": \"green\", \"leaves\": \"broad, multiple\", \"stems\": \"multiple\", \"pot\": \"light-colored, partially visible\", \"position\": \"background, behind a dark vertical frame\", \"focus\": \"blurred\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.828125,
+      "box": [
+        484.0,
+        502.0,
+        524.0,
+        544.0
+      ],
+      "mask": "image_6.masks/plant_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.80078125,
+      "box": [
+        892.0,
+        436.0,
+        940.0,
+        540.0
+      ],
+      "mask": "image_6.masks/plant_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green plant with broad leaves is visible in the background, positioned behind a dark vertical object on the left and a dark rectangular shape on the right.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "position": "background",
+        "leaves": "broad",
+        "context": "indoor setting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

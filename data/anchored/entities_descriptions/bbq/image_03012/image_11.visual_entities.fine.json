@@ -1,0 +1,277 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        54.0,
+        628.0,
+        576.0,
+        900.0
+      ],
+      "mask": "image_11.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver Apple laptop is open on a wooden desk, with its lid facing the viewer, displaying the Apple logo. The laptop is positioned at an angle, with the keyboard and trackpad visible on the right side, and a person's hand is seen typing on the keyboard.",
+      "attributes": {
+        "brand": "Apple",
+        "color": "silver",
+        "material": "metal",
+        "state": "open",
+        "position": "on a wooden desk",
+        "visible_parts": [
+          "lid",
+          "keyboard",
+          "trackpad",
+          "ports"
+        ],
+        "logo": "Apple logo on the lid",
+        "person_interaction": "hand typing on the keyboard"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        394.0,
+        242.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with wavy white hair sits in a wheelchair, smiling warmly while holding a black smartphone in both hands. She wears a light grey blazer over a pale pink top and beige trousers, with a small ring on her finger and a delicate earring visible.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "wavy, shoulder-length"
+        },
+        "clothing": {
+          "jacket": "light grey blazer",
+          "top": "pale pink",
+          "pants": "beige"
+        },
+        "accessories": {
+          "ring": "silver band on left ring finger",
+          "earrings": "small hoop"
+        },
+        "pose": "sitting in a wheelchair, holding a phone",
+        "expression": "smiling, looking down at phone",
+        "mobility_aid": "wheelchair with teal frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        160.0,
+        180.0,
+        656.0,
+        812.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a light beard, wearing a pink button-down shirt over a white t-shirt, smiles warmly while looking down at a smartphone held by an older woman beside him. He is seated at a table with a silver laptop in the foreground, appearing engaged and happy in a bright, indoor setting.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "light beard",
+        "expression": "smiling, happy",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "pink",
+            "material": "cotton"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "seated, leaning slightly forward, looking down",
+        "context": "interacting with an older woman holding a smartphone, laptop visible in front"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        940.0,
+        382.0,
+        1032.0,
+        552.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus view of a person with dark hair, wearing a light grey top, positioned in the background.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": {
+            "color": "light grey"
+          }
+        },
+        "pose": "seated",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        2.0,
+        800.0,
+        712.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden table with visible grain patterns, featuring a silver laptop and a white potted plant on its surface. A person's hands are partially visible, interacting with the laptop.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth with visible grain",
+        "objects_on_table": [
+          "silver laptop",
+          "white potted plant"
+        ],
+        "person_visible": true,
+        "person_clothing": {
+          "sleeve": "light gray with black buttons",
+          "pants": "light beige"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.734375,
+      "box": [
+        948.0,
+        588.0,
+        1024.0,
+        684.0
+      ],
+      "mask": "image_11.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up view of a curved, teal-colored handlebar with a black grip and a black band near the top, likely part of a bicycle or similar vehicle.",
+      "attributes": {
+        "color": "teal",
+        "material": "metal",
+        "shape": "curved",
+        "grip": "black",
+        "band": "black"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        -1.0,
+        552.0,
+        180.0,
+        704.0
+      ],
+      "mask": "image_11.masks/table_2.png",
+      "crop": null,
+      "description": "A person is sitting at a wooden table, using a silver laptop. The person is wearing a light pink top, and their arm is visible as they type or interact with the device. In the background, there is a blurred view of what appears to be a café or office setting with a dark wall and a white cup on the table.",
+      "attributes": {
+        "clothing": {
+          "top": "light pink"
+        },
+        "object": {
+          "laptop": "silver",
+          "table": "wooden",
+          "cup": "white"
+        },
+        "setting": "indoor, possibly a café or office",
+        "background": "blurred, dark wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        752.0,
+        624.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person sitting in a wheelchair, showing the armrest, part of the backrest, and the upper portion of the rear wheel. The wheelchair has a teal-colored frame, black padded armrests, and a black fabric backrest. The person is wearing a light gray long-sleeved top.",
+      "attributes": {
+        "frame_color": "teal",
+        "armrest": {
+          "color": "black",
+          "material": "padded plastic or vinyl"
+        },
+        "backrest": {
+          "color": "black",
+          "material": "fabric"
+        },
+        "wheel": {
+          "color": "silver rim with black tire",
+          "type": "rear wheel"
+        },
+        "person_clothing": {
+          "top": "light gray long-sleeved shirt or sweater"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 1,
+      "score": 0.51171875,
+      "box": [
+        358.0,
+        624.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/wheelchair_1.png",
+      "crop": null,
+      "description": "A partial view of a manual wheelchair featuring a teal-colored metal frame, black padded armrests, and a large rear wheel with a silver rim and black tire. The wheelchair is occupied by a person wearing a grey blazer, positioned next to a wooden table.",
+      "attributes": {
+        "frame_color": "teal",
+        "frame_material": "metal",
+        "armrests": {
+          "color": "black",
+          "material": "padded plastic or vinyl"
+        },
+        "wheels": {
+          "type": "manual",
+          "rim_color": "silver",
+          "tire_color": "black"
+        },
+        "position": "seated, facing left"
+      },
+      "parse_ok": true
+    }
+  ]
+}

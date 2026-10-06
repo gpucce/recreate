@@ -1,0 +1,101 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        406.0,
+        128.0,
+        960.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair sits facing forward with a gentle, neutral expression, wearing a dark blue button-up cardigan over a dark floral collared shirt. Her hands are clasped in her lap, and a younger woman's arm is visible resting on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "facial_features": {
+          "skin": "wrinkled",
+          "expression": "neutral, calm"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "cardigan",
+            "color": "dark blue",
+            "material": "knit",
+            "details": "buttoned front"
+          },
+          "inner_layer": {
+            "type": "shirt",
+            "pattern": "floral",
+            "base_color": "dark blue/black",
+            "collar": "pointed"
+          }
+        },
+        "pose": "sitting, hands clasped in lap",
+        "interaction": "arm of another person on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        54.0,
+        74.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits next to an elderly woman with short, wavy white hair. The younger woman wears a white button-down shirt with a maroon tie and black pants, smiling gently while resting her hand on the older woman's arm. The older woman wears a dark blue cardigan over a floral patterned shirt and skirt, with a calm, neutral expression and hands clasped in her lap.",
+      "attributes": {
+        "person_1": {
+          "gender": "female",
+          "age": "young adult",
+          "hair": {
+            "color": "brown",
+            "length": "long",
+            "style": "wavy"
+          },
+          "clothing": {
+            "shirt": "white button-down",
+            "tie": "maroon",
+            "pants": "black"
+          },
+          "expression": "smiling",
+          "pose": "sitting, arm around person_2"
+        },
+        "person_2": {
+          "gender": "female",
+          "age": "elderly",
+          "hair": {
+            "color": "white",
+            "length": "short",
+            "style": "wavy"
+          },
+          "clothing": {
+            "cardigan": "dark blue knit",
+            "shirt": "floral pattern, dark background with red and white flowers",
+            "skirt": "floral pattern, matching shirt"
+          },
+          "expression": "neutral, calm",
+          "pose": "sitting, hands clasped"
+        },
+        "relationship": "likely familial (e.g., granddaughter and grandmother)",
+        "background": "solid beige"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        126.0,
+        276.0,
+        864.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a young girl with brown hair and black-rimmed glasses, wearing a salmon-pink hoodie, being tightly embraced by an adult woman with blonde hair in a dark blue sweater. The girl holds a black Canon DSLR camera with a large lens against her chest, and both individuals display sad, tearful expressions with closed eyes.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "medium",
+          "accessory": "pink hair tie"
+        },
+        "face": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "round"
+          },
+          "expression": "sad, crying, eyes closed"
+        },
+        "clothing": {
+          "type": "hoodie",
+          "color": "salmon pink",
+          "material": "fleece"
+        },
+        "accessories": {
+          "camera": {
+            "brand": "Canon",
+            "type": "DSLR",
+            "color": "black",
+            "lens": "large telephoto"
+          }
+        },
+        "pose": "hugging, head resting on adult's shoulder",
+        "context": "emotional embrace, outdoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        128.0,
+        28.0,
+        868.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A blonde woman with sunglasses perched on her head is crying while tightly hugging a young girl with brown hair and glasses who is wearing a pink hoodie and holding a black Canon DSLR camera. The woman wears a dark blue long-sleeved top and has a camera strap around her neck, while the girl has her eyes closed and a distressed expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "accessory": "sunglasses on head"
+        },
+        "facial_expression": "crying, distressed",
+        "clothing": {
+          "top": "dark blue long-sleeved sweater"
+        },
+        "accessories": {
+          "neck": "camera strap",
+          "ear": "small stud earring"
+        },
+        "pose": "hugging a child",
+        "action": "comforting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

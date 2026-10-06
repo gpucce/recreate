@@ -1,0 +1,64 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        432.0,
+        66.0,
+        472.0,
+        1032.0
+      ],
+      "mask": "image_8.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A close-up view of a white flagpole with a gold finial at the top, partially obscured by a statue in the foreground. The flagpole is positioned vertically against a clear blue sky, with a blue flag visible in the background.",
+      "attributes": {
+        "color": "white",
+        "finial": "gold",
+        "material": "metal",
+        "position": "vertical",
+        "background": "blue sky",
+        "flag": "blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        344.0,
+        64.0,
+        992.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/statue_0.png",
+      "crop": null,
+      "description": "A close-up, eye-level shot of a classical marble statue of a male figure wearing a green laurel wreath and draped in a toga, holding a scroll in his right hand. The statue has a serene expression and is positioned in front of a blurred blue flag on a pole against a clear sky.",
+      "attributes": {
+        "material": "white marble",
+        "headwear": "green laurel wreath",
+        "hair": "curly, short, light-colored",
+        "clothing": {
+          "type": "toga",
+          "color": "white",
+          "details": "draped over left shoulder, fastened with a circular brooch at the waist"
+        },
+        "accessories": {
+          "held_object": "rolled scroll",
+          "held_in_hand": "right"
+        },
+        "pose": "standing, facing slightly right",
+        "expression": "calm, neutral",
+        "background": {
+          "flag": "blue",
+          "sky": "light blue"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

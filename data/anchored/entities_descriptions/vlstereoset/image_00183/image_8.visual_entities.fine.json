@@ -1,0 +1,307 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "beach",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        2.0,
+        676.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/beach_0.png",
+      "crop": null,
+      "description": "A pristine white sandy beach stretches along the shoreline, with gentle waves lapping at the edge. The sand is smooth and undisturbed except for the shadows of palm fronds cast across it, suggesting nearby vegetation. In the background, the turquoise water is clear and calm, with two sailboats anchored offshore, their white sails contrasting against the vibrant blue-green sea. The horizon is visible in the distance, separating the water from a clear sky.",
+      "attributes": {
+        "sand": {
+          "color": "white",
+          "texture": "smooth",
+          "condition": "undisturbed"
+        },
+        "water": {
+          "color": "turquoise",
+          "clarity": "clear",
+          "calmness": "calm"
+        },
+        "boats": {
+          "type": "sailboats",
+          "color": "white",
+          "position": "anchored offshore"
+        },
+        "shadows": {
+          "source": "palm fronds",
+          "pattern": "irregular",
+          "color": "dark"
+        },
+        "sky": {
+          "visibility": "clear",
+          "color": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 0,
+      "score": 0.703125,
+      "box": [
+        860.0,
+        556.0,
+        964.0,
+        636.0
+      ],
+      "mask": "image_8.masks/cloud_0.png",
+      "crop": null,
+      "description": "A large, fluffy cumulus cloud dominates the center of the frame, featuring a bright white, cotton-like texture with soft, billowing edges. The cloud is set against a clear, light blue sky, with smaller, fainter wisps of cloud visible in the lower left and right corners.",
+      "attributes": {
+        "type": "cumulus",
+        "color": "white",
+        "texture": "fluffy, cotton-like",
+        "shape": "billowing, irregular",
+        "background": "light blue sky",
+        "position": "centered",
+        "lighting": "bright, natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 1,
+      "score": 0.71875,
+      "box": [
+        10.0,
+        408.0,
+        528.0,
+        672.0
+      ],
+      "mask": "image_8.masks/cloud_1.png",
+      "crop": null,
+      "description": "A large, fluffy white cumulus cloud dominates the center of the image, with a soft, billowy texture and subtle gray shading on its underside. It stretches horizontally across the sky, partially obscured by green leaves in the foreground.",
+      "attributes": {
+        "color": "white",
+        "shape": "cumulus",
+        "texture": "fluffy, billowy",
+        "position": "center of the sky",
+        "obscured_by": "green leaves in the foreground",
+        "shading": "subtle gray on the underside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 2,
+      "score": 0.51171875,
+      "box": [
+        812.0,
+        600.0,
+        844.0,
+        624.0
+      ],
+      "mask": "image_8.masks/cloud_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 3,
+      "score": 0.73046875,
+      "box": [
+        696.0,
+        584.0,
+        768.0,
+        624.0
+      ],
+      "mask": "image_8.masks/cloud_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 4,
+      "score": 0.53515625,
+      "box": [
+        1000.0,
+        584.0,
+        1024.0,
+        616.0
+      ],
+      "mask": "image_8.masks/cloud_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 5,
+      "score": 0.71875,
+      "box": [
+        664.0,
+        408.0,
+        760.0,
+        472.0
+      ],
+      "mask": "image_8.masks/cloud_5.png",
+      "crop": null,
+      "description": "A patch of light blue sky with soft, wispy white clouds visible through gaps between green leaves. The leaves are in the foreground, partially obscuring the view of the sky and clouds.",
+      "attributes": {
+        "color": "light blue",
+        "texture": "soft, wispy",
+        "position": "background, visible through gaps in leaves",
+        "obscured_by": "green leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foam",
+      "index": 0,
+      "score": 0.55078125,
+      "box": [
+        512.0,
+        760.0,
+        1032.0,
+        824.0
+      ],
+      "mask": "image_8.masks/foam_0.png",
+      "crop": null,
+      "description": "A thin, horizontal band of white sea foam stretches across the image, appearing as a frothy, textured line where the water meets the shore. The foam is bright white and contrasts with the turquoise water above and the sandy beach below.",
+      "attributes": {
+        "color": "white",
+        "texture": "frothy, bubbly",
+        "shape": "elongated, horizontal band",
+        "location": "waterline, between sand and water",
+        "state": "active, breaking wave"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foam",
+      "index": 1,
+      "score": 0.59375,
+      "box": [
+        90.0,
+        688.0,
+        1024.0,
+        824.0
+      ],
+      "mask": "image_8.masks/foam_1.png",
+      "crop": null,
+      "description": "A thin, irregular line of white sea foam stretches horizontally across the bottom of the image, marking the edge where the turquoise water meets the sandy beach. The foam appears delicate and slightly textured, with small bubbles and wisps visible along its length, indicating gentle wave action. It is positioned at the water's edge, separating the clear, shallow water from the pale sand.",
+      "attributes": {
+        "color": "white",
+        "texture": "bubbly, wispy, delicate",
+        "position": "at the water's edge, horizontal line",
+        "context": "separating turquoise water from sandy beach",
+        "formation": "created by gentle wave action"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ocean",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        92.0,
+        672.0,
+        1020.0,
+        824.0
+      ],
+      "mask": "image_8.masks/ocean_0.png",
+      "crop": null,
+      "description": "A vibrant turquoise ocean with gentle waves lapping onto a white sandy beach. Several sailboats are visible in the distance, floating on the clear water.",
+      "attributes": {
+        "color": "turquoise",
+        "clarity": "clear",
+        "waves": "gentle",
+        "beach": "white sand",
+        "boats": "sailboats",
+        "distance": "far"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sailboat",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        612.0,
+        580.0,
+        692.0,
+        700.0
+      ],
+      "mask": "image_8.masks/sailboat_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A white catamaran sailboat with two large, triangular white sails is sailing on turquoise water under a clear blue sky with scattered clouds. The boat has a sleek, modern design with a flat deck and a central mast supporting the sails.\", \"attributes\": {\"type\": \"catamaran\", \"sails\": {\"color\": \"white\", \"shape\": \"triangular\", \"quantity\": 2}, \"hull\": {\"color\": \"white\", \"design\": \"sleek, modern\"}, \"water\": {\"color\": \"turquoise\"}, \"sky\": {\"color\": \"blue\", \"clouds\": \"scattered\"}, \"position\": \"sailing\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sailboat",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        408.0,
+        596.0,
+        476.0,
+        700.0
+      ],
+      "mask": "image_8.masks/sailboat_1.png",
+      "crop": null,
+      "description": "A white sailboat with two large, triangular white sails is sailing on turquoise water under a light blue sky with scattered clouds. The boat has a sleek, modern design with a visible hull and a mast supporting the sails.",
+      "attributes": {
+        "color": {
+          "sails": "white",
+          "hull": "white",
+          "water": "turquoise",
+          "sky": "light blue"
+        },
+        "sails": {
+          "shape": "triangular",
+          "quantity": 2,
+          "material": "fabric"
+        },
+        "hull": {
+          "shape": "sleek",
+          "color": "white"
+        },
+        "environment": {
+          "water": "calm",
+          "sky": "partly cloudy"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        2.0,
+        6.0,
+        1024.0,
+        672.0
+      ],
+      "mask": "image_8.masks/sky_0.png",
+      "crop": null,
+      "description": "The sky is a vibrant, clear blue with scattered white cumulus clouds. It is partially obscured by the green leaves and branches of a tree in the foreground.",
+      "attributes": {
+        "color": "blue",
+        "clouds": {
+          "type": "cumulus",
+          "color": "white",
+          "density": "scattered"
+        },
+        "visibility": "partially obscured by tree branches and leaves",
+        "lighting": "bright daylight"
+      },
+      "parse_ok": true
+    }
+  ]
+}

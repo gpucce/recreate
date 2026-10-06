@@ -1,0 +1,356 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "fire alarm",
+      "index": 0,
+      "score": 0.55078125,
+      "box": [
+        972.0,
+        75.0,
+        1032.0,
+        216.0
+      ],
+      "mask": "image_0.masks/fire alarm_0.png",
+      "crop": null,
+      "description": "A close-up view of a circular fire alarm device with a white central lens or light and a dark gray or black outer casing. The image is blurry, making fine details indistinct, but the overall shape and color contrast are visible.",
+      "attributes": {
+        "shape": "circular",
+        "color": {
+          "center": "white",
+          "outer_casing": "dark gray or black"
+        },
+        "material": "likely plastic or metal (inferred from typical fire alarm construction, though not clearly visible)",
+        "function": "fire alarm",
+        "visibility": "blurry, low resolution",
+        "position": "centered in crop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        972.0,
+        73.5,
+        1032.0,
+        216.0
+      ],
+      "mask": "image_0.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A close-up view of a circular light fixture with a bright, white, illuminated center surrounded by a dark, possibly black or dark gray, ring. The fixture appears to be mounted on a surface, with the edges of the ring slightly blurred, suggesting a shallow depth of field.",
+      "attributes": {
+        "shape": "circular",
+        "color": {
+          "center": "white",
+          "ring": "dark gray or black"
+        },
+        "material": "unknown",
+        "illumination": "bright",
+        "position": "mounted on a surface",
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        278.0,
+        154.0,
+        712.0,
+        864.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with short dark hair stands facing slightly to the right, wearing an unbuttoned blue denim shirt over a maroon t-shirt and carrying a grey backpack. He holds a stack of notebooks or papers in his hands, while another person's hand rests on his shoulder from the right side.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "outer": {
+            "type": "denim shirt",
+            "color": "blue",
+            "state": "unbuttoned"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "maroon"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "grey",
+              "straps": "visible on shoulders"
+            }
+          }
+        },
+        "pose": "standing, holding items in hands",
+        "items_held": "notebooks or papers",
+        "interaction": "hand on shoulder from right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        908.0,
+        49.0,
+        1296.0,
+        864.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy brown hair is seen from the side and back, wearing a white and grey striped long-sleeve shirt under blue denim overalls with a visible silver button. She is carrying a grey backpack with a thick strap over her shoulder and is positioned in the foreground, appearing slightly out of focus.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "pattern": "striped",
+            "colors": [
+              "white",
+              "grey"
+            ]
+          },
+          "outerwear": {
+            "type": "overalls",
+            "material": "denim",
+            "color": "blue",
+            "details": "silver button"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "backpack",
+            "color": "grey",
+            "strap": "thick"
+          },
+          "earrings": "small stud"
+        },
+        "pose": "standing",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.921875,
+      "box": [
+        -3.796875,
+        93.0,
+        460.0,
+        856.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with short brown hair stands in profile facing left, wearing a blue denim shirt over a maroon t-shirt with a grey backpack strap visible on his shoulder. He is holding a white object, possibly a book or folder, in his hand while standing in a hallway with a blurred figure in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "outer": "blue denim shirt",
+          "inner": "maroon t-shirt",
+          "accessories": "grey backpack strap"
+        },
+        "pose": "standing, facing left",
+        "action": "holding a white object"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.94921875,
+      "box": [
+        536.0,
+        123.0,
+        1024.0,
+        864.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A middle-aged man with short, graying hair and a beard stands in the center, wearing a dark blue button-down shirt with sleeves rolled up and khaki pants secured by a brown leather belt. He holds a white clipboard with documents in his left hand and places his right hand on the shoulder of a person to his left, appearing to be in a conversation or supervisory role.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray and brown",
+          "length": "short"
+        },
+        "facial_hair": "beard",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "dark blue",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "khaki",
+            "type": "trousers"
+          },
+          "belt": {
+            "color": "brown",
+            "material": "leather"
+          }
+        },
+        "accessories": {
+          "held_item": "clipboard with papers"
+        },
+        "pose": "standing, hand on another person's shoulder",
+        "expression": "neutral, looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.734375,
+      "box": [
+        684.0,
+        202.0,
+        744.0,
+        358.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A close-up, heavily blurred crop of a person with short dark hair, wearing a dark blue shirt over a white undershirt, with a teal strap visible on the shoulder.",
+      "attributes": {
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "outer": {
+            "color": "dark blue",
+            "type": "shirt"
+          },
+          "inner": {
+            "color": "white",
+            "type": "undershirt"
+          },
+          "accessories": {
+            "strap": {
+              "color": "teal"
+            }
+          }
+        },
+        "pose": "profile view",
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.5390625,
+      "box": [
+        46.5,
+        143.0,
+        128.0,
+        336.0
+      ],
+      "mask": "image_0.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up view of a smooth, light beige or off-white wall surface with a soft, diffused shadow cast across the center. The texture appears uniform and matte, with no visible imperfections or distinct features other than the subtle gradient of light and shadow.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "texture": "smooth, matte",
+        "lighting": "diffused, soft shadow",
+        "material": "likely painted drywall or plaster"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.56640625,
+      "box": [
+        1264.0,
+        0.52734375,
+        1296.0,
+        52.25
+      ],
+      "mask": "image_0.masks/wall_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.55078125,
+      "box": [
+        884.0,
+        -4.21875,
+        1112.0,
+        402.0
+      ],
+      "mask": "image_0.masks/wall_2.png",
+      "crop": null,
+      "description": "A white interior wall features a modern, circular light fixture with a black rim and a bright, glowing center, mounted on the surface. The wall is partially obscured by the out-of-focus shoulder and head of a person in the foreground, and the background shows a blurred hallway with a window or doorway.",
+      "attributes": {
+        "color": "white",
+        "material": "painted drywall",
+        "fixture": {
+          "type": "wall sconce",
+          "shape": "circular",
+          "color": "black",
+          "light": "bright white"
+        },
+        "context": "indoor hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 3,
+      "score": 0.5078125,
+      "box": [
+        884.0,
+        77.0,
+        968.0,
+        340.0
+      ],
+      "mask": "image_0.masks/wall_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person's head and shoulder from behind, showing short brown hair and a dark blue collared shirt, set against a blurred white wall with a faint diagonal line.",
+      "attributes": {
+        "entity_type": "person",
+        "view": "back",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "color": "dark blue",
+          "type": "collared shirt"
+        },
+        "background": {
+          "color": "white",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

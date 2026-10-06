@@ -1,0 +1,377 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        804.0,
+        40.0,
+        956.0,
+        532.0
+      ],
+      "mask": "image_5.masks/flag_0.png",
+      "crop": null,
+      "description": "A vertical flag featuring a white upper section and a blue lower section, separated by a diagonal line running from the bottom left to the top right, is displayed on a pole with a gold finial against a dark red patterned background. The shoulder of a person wearing a dark suit is visible in the bottom left foreground.",
+      "attributes": {
+        "flag": {
+          "colors": [
+            "white",
+            "blue"
+          ],
+          "pattern": "diagonal split",
+          "orientation": "vertical",
+          "pole": "gold finial"
+        },
+        "background": {
+          "color": "dark red",
+          "texture": "patterned"
+        },
+        "foreground": {
+          "person": {
+            "clothing": "dark suit"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        270.0,
+        44.0,
+        426.0,
+        692.0
+      ],
+      "mask": "image_5.masks/flag_1.png",
+      "crop": null,
+      "description": "A red flag with a large yellow star and smaller yellow stars is visible in the background, partially obscured by a man in a dark suit. The flag is positioned vertically, with the top portion showing a gold finial on a pole.",
+      "attributes": {
+        "flag": {
+          "color": "red",
+          "stars": {
+            "color": "yellow",
+            "arrangement": "one large star with smaller stars"
+          },
+          "pole": {
+            "finial": "gold"
+          }
+        },
+        "man": {
+          "clothing": {
+            "suit": "dark",
+            "shirt": "white",
+            "tie": "dark blue"
+          },
+          "hair": "gray",
+          "pose": "standing",
+          "expression": "smiling"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 2,
+      "score": 0.91015625,
+      "box": [
+        -0.375,
+        316.0,
+        49.5,
+        724.0
+      ],
+      "mask": "image_5.masks/flag_2.png",
+      "crop": null,
+      "description": "A close-up, blurry crop of a flag featuring a blue section on the left and a red section on the right, with a dark, textured background visible in the upper right corner.",
+      "attributes": {
+        "colors": [
+          "blue",
+          "red",
+          "dark red/maroon"
+        ],
+        "texture": "blurry, fabric-like",
+        "position": "left side of the frame",
+        "background": "dark, textured surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 3,
+      "score": 0.9140625,
+      "box": [
+        960.0,
+        184.0,
+        1024.0,
+        728.0
+      ],
+      "mask": "image_5.masks/flag_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a flag with horizontal stripes of white, blue, and red, partially visible on the right side of the frame. The flag appears to be made of fabric and is positioned next to a dark, textured surface on the left.",
+      "attributes": {
+        "flag": {
+          "type": "horizontal tricolor",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "vertical",
+          "focus": "blurred",
+          "position": "right side of frame",
+          "adjacent_object": "dark textured surface"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 4,
+      "score": 0.95703125,
+      "box": [
+        37.0,
+        44.0,
+        204.0,
+        748.0
+      ],
+      "mask": "image_5.masks/flag_4.png",
+      "crop": null,
+      "description": "A vertical tricolor flag featuring horizontal bands of white, blue, and red from top to bottom, hanging from a pole with a gold finial against a dark red patterned curtain background. A person wearing a dark suit jacket is partially visible in the foreground on the right side.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "orientation": "vertical",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "pole": "gold finial",
+          "background": "dark red patterned curtain"
+        },
+        "person": {
+          "clothing": "dark suit jacket",
+          "position": "foreground right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 5,
+      "score": 0.90625,
+      "box": [
+        596.0,
+        36.0,
+        740.0,
+        604.0
+      ],
+      "mask": "image_5.masks/flag_5.png",
+      "crop": null,
+      "description": "A vertical crop of a flag featuring a solid red field with a large, bright yellow five-pointed star centered on the visible portion. The flag is made of a smooth fabric and hangs vertically behind a man in a suit, with a gold finial visible at the top of the flagpole.",
+      "attributes": {
+        "flag": {
+          "color": "red",
+          "symbol": "yellow star",
+          "symbol_color": "yellow",
+          "symbol_position": "center",
+          "orientation": "vertical",
+          "material": "fabric",
+          "pole_top": "gold finial"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        446.0,
+        290.0,
+        976.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, thinning blond hair stands in a formal setting, wearing a black suit, white dress shirt, and a dark red tie. He is shaking hands with another person, looking slightly to his left with a serious expression, while flags and a white bust statue are visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "blond",
+          "style": "short, thinning"
+        },
+        "clothing": {
+          "suit": "black",
+          "shirt": "white",
+          "tie": "dark red"
+        },
+        "pose": "standing, shaking hands",
+        "expression": "serious",
+        "background": {
+          "flags": [
+            "red and yellow",
+            "white, blue, red"
+          ],
+          "statue": "white bust"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        109.0,
+        278.0,
+        520.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "An older man with short, graying hair stands in profile facing right, wearing a dark navy suit, white dress shirt, and a dark blue patterned tie. He is smiling slightly while shaking hands with another person whose arm is partially visible on the right side of the frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "dark navy",
+            "type": "business suit"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "dress shirt"
+          },
+          "tie": {
+            "color": "dark blue",
+            "pattern": "subtle texture or weave"
+          }
+        },
+        "pose": "standing, shaking hands",
+        "expression": "smiling, engaged",
+        "position": "left-center of frame, facing right",
+        "context": "formal diplomatic or official setting (implied by flags and bust in background)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.76953125,
+      "box": [
+        398.0,
+        298.0,
+        608.0,
+        524.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A white marble bust of a man with short, wavy hair, wearing a military uniform with a sash and epaulettes, set against a dark red, textured background. The bust is positioned centrally, facing forward, with a neutral expression.",
+      "attributes": {
+        "material": "white marble",
+        "type": "bust",
+        "gender": "male",
+        "hair": {
+          "color": "white (marble)",
+          "style": "short, wavy"
+        },
+        "clothing": {
+          "type": "military uniform",
+          "details": [
+            "sash",
+            "epaulettes"
+          ]
+        },
+        "expression": "neutral",
+        "pose": "facing forward",
+        "background": {
+          "color": "dark red",
+          "texture": "textured"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.703125,
+      "box": [
+        6.0,
+        -2.0,
+        992.0,
+        656.0
+      ],
+      "mask": "image_5.masks/wall_0.png",
+      "crop": null,
+      "description": "A formal indoor scene featuring two men in dark suits standing in the foreground, facing each other in profile. The man on the left has grey hair and is smiling, while the man on the right has thinning blonde hair and a serious expression. Behind them, a row of flags alternating between the Russian tricolor and the Chinese national flag stands against a deep red, damask-patterned wallpaper. A white marble bust of a historical figure on a pedestal is centered in the background between the two men.",
+      "attributes": {
+        "setting": "formal diplomatic meeting",
+        "background": {
+          "wallpaper": {
+            "color": "dark red",
+            "pattern": "damask"
+          },
+          "flags": [
+            {
+              "type": "Russian flag",
+              "colors": [
+                "white",
+                "blue",
+                "red"
+              ]
+            },
+            {
+              "type": "Chinese flag",
+              "colors": [
+                "red",
+                "yellow"
+              ]
+            }
+          ],
+          "sculpture": {
+            "type": "bust",
+            "material": "white marble",
+            "subject": "male figure"
+          }
+        },
+        "people": [
+          {
+            "position": "left",
+            "gender": "male",
+            "age": "senior",
+            "hair": "grey",
+            "expression": "smiling",
+            "clothing": {
+              "suit": "dark blue",
+              "shirt": "white",
+              "tie": "dark blue"
+            }
+          },
+          {
+            "position": "right",
+            "gender": "male",
+            "age": "senior",
+            "hair": "blonde, thinning",
+            "expression": "serious",
+            "clothing": {
+              "suit": "black",
+              "shirt": "white",
+              "tie": "maroon"
+            }
+          }
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

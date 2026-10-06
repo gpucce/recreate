@@ -1,0 +1,211 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        840.0,
+        488.0,
+        1024.0,
+        888.0
+      ],
+      "mask": "image_6.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A dark brown wooden cabinet with a single visible drawer featuring a round, metallic knob, positioned behind a floral upholstered armchair and a blue velvet fabric.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "features": {
+          "drawer": "visible",
+          "knob": "round, metallic"
+        },
+        "position": "background",
+        "context": "behind furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.7109375,
+      "box": [
+        250.0,
+        -1.5,
+        430.0,
+        144.0
+      ],
+      "mask": "image_6.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a wooden cabinet door featuring a medium-brown finish and a raised panel design with a visible vertical frame. The wood grain is faintly discernible despite the blur, and a small portion of a metallic handle is visible on the right edge.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "style": "raised panel",
+        "focus": "blurred",
+        "visible_parts": [
+          "door",
+          "frame",
+          "handle"
+        ],
+        "finish": "smooth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.66015625,
+      "box": [
+        -1.25,
+        434.0,
+        63.25,
+        1000.0
+      ],
+      "mask": "image_6.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A close-up view of a decorative cabinet featuring a cream-colored surface adorned with intricate floral patterns in shades of red, green, and gold. The cabinet has a curved, ornate design with detailed carvings and a glossy finish, suggesting a luxurious and traditional style.",
+      "attributes": {
+        "color": [
+          "cream",
+          "red",
+          "green",
+          "gold"
+        ],
+        "material": "wood",
+        "design": "floral",
+        "finish": "glossy",
+        "style": "traditional",
+        "details": [
+          "carvings",
+          "curved edges"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 3,
+      "score": 0.6875,
+      "box": [
+        -4.0,
+        -1.5,
+        428.0,
+        188.0
+      ],
+      "mask": "image_6.masks/cabinet_3.png",
+      "crop": null,
+      "description": "{\n  \"description\": \"A medium-brown wooden cabinet with a visible vertical grain pattern is mounted on the wall, featuring a closed door with a small, dark knob on the right side. To the left of the cabinet, a matching wooden shelf holds a framed photograph and a green potted plant, positioned above a white tiled backsplash.\",\n  \"attributes\": {\n    \"material\": \"wood\",\n    \"color\": \"medium brown\",\n    \"finish\": \"glossy\",\n    \"type\": \"wall-mounted\",\n    \"door\": {\n      \"state\": \"closed\",\n      \"hardware\": \"small dark knob\"\n    },\n    \"location\": \"kitchen\",\n    \"surroundings\": {\n      \"shelf\": \"wooden, to the left\",\n      \"items_on_shelf\": [\n        \"framed photo\",\n        \"green plant\"\n      ],\n      \"wall\": \"white tiles\"\n    ]\n  }\n}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        184.0,
+        260.0,
+        608.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short, wavy brown hair and light skin sits in the foreground wearing a light blue crewneck sweatshirt with a dark blue 'Champion' logo and red, white, and blue 'C' emblem on the chest. He is positioned next to an elderly woman with white hair, who has her hand resting on his shoulder, wearing a dark blue velvet top with colorful embroidered details.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "brand": "Champion",
+            "logo_color": "dark blue, red, white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.66796875,
+      "box": [
+        115.5,
+        36.0,
+        165.0,
+        83.5
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        116.0,
+        90.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits on a floral armchair, wearing a dark blue velvet robe with intricate, colorful embroidered trim along the collar and cuffs. She has a gentle, warm expression and is holding a young boy on her lap, with her arm around his shoulder and their hands clasped together.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "type": "robe",
+          "color": "dark blue",
+          "material": "velvet",
+          "details": "colorful embroidered trim on collar and cuffs"
+        },
+        "accessories": {
+          "ring": "visible on left hand"
+        },
+        "pose": "sitting, holding a child",
+        "expression": "gentle, warm smile",
+        "position": "on a floral armchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.73828125,
+      "box": [
+        980.0,
+        398.0,
+        1024.0,
+        474.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

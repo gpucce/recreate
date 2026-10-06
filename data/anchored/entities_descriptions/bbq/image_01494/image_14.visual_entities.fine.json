@@ -1,0 +1,110 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        360.0,
+        64.0,
+        712.0,
+        816.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair sits holding a black DSLR camera with a large lens, looking down at it with a gentle smile. She wears a light blue and white vertical striped button-down shirt with rolled-up sleeves and blue jeans, while a young child with curly brown hair sits on her shoulders behind her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "expression": "smiling, looking down",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "pattern": "vertical stripes",
+            "colors": [
+              "light blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "held_object": {
+            "type": "camera",
+            "color": "black",
+            "type_detail": "DSLR with large lens"
+          }
+        },
+        "pose": "sitting, holding camera with both hands",
+        "context": "child sitting on shoulders"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        170.0,
+        276.0,
+        760.0,
+        996.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length blonde hair sits cross-legged on a beige couch, wearing a blue and white striped button-down shirt and blue jeans, while holding a black DSLR camera with both hands and looking down at it with a gentle smile. A child in a red shirt and blue jeans sits on her shoulders, with their arms wrapped around her neck.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "socks",
+            "color": "white"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "expression": "smiling",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "holding": {
+          "object": "DSLR camera",
+          "color": "black"
+        },
+        "context": {
+          "location": "on a couch",
+          "companion": "child on shoulders"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

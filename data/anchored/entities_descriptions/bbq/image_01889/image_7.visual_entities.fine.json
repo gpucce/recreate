@@ -1,0 +1,333 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        129.0,
+        125.5,
+        231.0,
+        190.0
+      ],
+      "mask": "image_7.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up view of a textured, gray fabric surface, likely part of a chair or sofa, with a blurred background featuring a pinkish wall and green foliage.",
+      "attributes": {
+        "material": "fabric",
+        "color": "gray",
+        "texture": "textured",
+        "background": {
+          "wall_color": "pinkish",
+          "foliage": "green"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        0.5,
+        -1.0,
+        128.0,
+        352.0
+      ],
+      "mask": "image_7.masks/building_1.png",
+      "crop": null,
+      "description": "A multi-story building with a light beige or cream facade features a dark metal balcony railing on an upper level and a reddish-brown awning extending over the ground floor windows. The structure is partially obscured by green foliage in the upper right and a dark, textured object in the foreground right, with the background appearing slightly out of focus.",
+      "attributes": {
+        "structure": {
+          "type": "multi-story building",
+          "facade_color": "light beige",
+          "balcony": {
+            "railing_color": "dark",
+            "material": "metal"
+          },
+          "awning": {
+            "color": "reddish-brown",
+            "location": "ground floor"
+          }
+        },
+        "surroundings": {
+          "foliage": "green leaves visible top right",
+          "foreground_object": "dark textured object on right edge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        528.0,
+        78.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black man with short, dark, curly hair and a short beard stands in profile facing left, wearing a black and white zip-up track jacket. He holds a bright pink soccer ball in his left hand while gesturing with his right hand, appearing to be in conversation or explaining something.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short, curly, textured"
+        },
+        "facial_hair": "short beard and mustache",
+        "clothing": {
+          "jacket": {
+            "type": "track jacket",
+            "color": "black and white",
+            "details": "zip-up front, white panels on shoulders and sleeves"
+          }
+        },
+        "pose": "standing, side profile, holding ball in one hand, gesturing with the other",
+        "expression": "neutral to engaged, mouth slightly open as if speaking",
+        "object_held": {
+          "type": "soccer ball",
+          "color": "bright pink",
+          "pattern": "classic pentagon/hexagon panel design"
+        },
+        "background_context": "outdoor urban setting with trees, blurred cars, and buildings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        512.0,
+        394.0,
+        608.0,
+        516.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's hand with dark skin tone, with the thumb and part of the index finger visible in the foreground. The background is heavily blurred, showing indistinct shapes and colors, including a person wearing a dark shirt and blue pants.",
+      "attributes": {
+        "skin_tone": "dark",
+        "hand": {
+          "visible_parts": [
+            "thumb",
+            "index_finger"
+          ]
+        },
+        "background": {
+          "blur": "high",
+          "person": {
+            "clothing": {
+              "shirt": "dark",
+              "pants": "blue"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.83984375,
+      "box": [
+        356.0,
+        332.0,
+        388.0,
+        436.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        -2.0,
+        184.0,
+        640.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_3.png",
+      "crop": null,
+      "description": "An older Black man with a white beard and mustache, wearing a black beanie and a bright turquoise Hawaiian shirt with pink flamingos and yellow flowers, stands outdoors with a joyful expression, gesturing with both hands as if in conversation or explanation. He is positioned slightly to the left of frame, facing right, with a pink soccer ball held by another person partially visible on the right edge.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "white, full",
+          "mustache": "white, full"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "Hawaiian shirt",
+            "base_color": "turquoise",
+            "pattern": "pink flamingos, yellow hibiscus flowers, green palm leaves",
+            "collar": "open",
+            "sleeves": "short"
+          }
+        },
+        "accessories": {
+          "wristwatch": {
+            "band_color": "black",
+            "position": "left wrist"
+          }
+        },
+        "pose": "standing, arms extended forward with open palms, gesturing",
+        "expression": "smiling broadly, eyes crinkled with joy, looking toward right",
+        "position_in_frame": "left-center, facing right",
+        "contextual_elements": {
+          "object_nearby": "pink soccer ball held by unseen person on right",
+          "background": "outdoor urban street scene, blurred trees and cars"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.546875,
+      "box": [
+        932.0,
+        314.0,
+        964.0,
+        366.0
+      ],
+      "mask": "image_7.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "soccer ball",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        520.0,
+        608.0,
+        728.0,
+        800.0
+      ],
+      "mask": "image_7.masks/soccer ball_0.png",
+      "crop": null,
+      "description": "A bright pink soccer ball with a standard black pentagon and hexagon panel pattern is held in a person's hand. The ball has a smooth, slightly glossy surface with visible seams connecting the panels.",
+      "attributes": {
+        "object": "soccer ball",
+        "color": "bright pink",
+        "pattern": "black pentagons and hexagons",
+        "material": "synthetic leather or rubber",
+        "surface": "smooth, glossy",
+        "state": "held in hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        444.0,
+        11.0,
+        636.0,
+        408.0
+      ],
+      "mask": "image_7.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with a thick, brown trunk and branches extending upward, surrounded by green foliage. The background is indistinct, with hints of a street scene including vehicles and possibly a signpost.",
+      "attributes": {
+        "trunk": "thick, brown",
+        "branches": "extending upward",
+        "foliage": "green",
+        "focus": "out-of-focus",
+        "background": "indistinct street scene"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.5703125,
+      "box": [
+        264.0,
+        53.0,
+        468.0,
+        400.0
+      ],
+      "mask": "image_7.masks/tree_1.png",
+      "crop": null,
+      "description": "A close-up profile of an elderly Black man with a white beard and mustache, wearing a black knit beanie, smiling with his mouth open to reveal teeth. The background is heavily blurred, showing green foliage and a tree trunk, suggesting an outdoor setting.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Black",
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "facial_hair": {
+          "beard": "white",
+          "mustache": "white"
+        },
+        "expression": "smiling",
+        "mouth": "open",
+        "pose": "profile view",
+        "background": {
+          "blur": "high",
+          "elements": [
+            "green leaves",
+            "tree trunk"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.6875,
+      "box": [
+        68.0,
+        2.0,
+        1020.0,
+        632.0
+      ],
+      "mask": "image_7.masks/tree_2.png",
+      "crop": null,
+      "description": "A mature tree with a thick, textured brown trunk and branches extending upward, covered in dense green foliage that is partially out of focus, standing on a sidewalk in an urban setting.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough bark",
+          "structure": "thick, branching"
+        },
+        "leaves": {
+          "color": "green",
+          "density": "dense",
+          "focus": "blurred"
+        },
+        "location": "urban sidewalk",
+        "state": "leafy, healthy"
+      },
+      "parse_ok": true
+    }
+  ]
+}

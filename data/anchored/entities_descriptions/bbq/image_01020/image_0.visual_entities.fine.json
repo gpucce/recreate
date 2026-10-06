@@ -1,0 +1,176 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        37.5,
+        292.0,
+        161.0,
+        480.0
+      ],
+      "mask": "image_0.masks/backpack_0.png",
+      "crop": null,
+      "description": "A close-up view of an olive green backpack made of a durable, slightly wrinkled fabric, featuring a front pocket with a zipper and a small white rectangular tag. The backpack is positioned next to a person wearing a mustard yellow long-sleeved top and blue jeans, with a black strap visible on the left side.",
+      "attributes": {
+        "color": "olive green",
+        "material": "fabric",
+        "features": {
+          "pockets": "front zippered pocket",
+          "tags": "small white rectangular tag",
+          "straps": "black strap visible on side"
+        },
+        "condition": "slightly wrinkled",
+        "position": "next to a person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        47.0,
+        320.0,
+        728.0,
+        532.0
+      ],
+      "mask": "image_0.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with a black metal frame and a decorative lattice backrest, occupied by two individuals, one holding books and the other a cane.",
+      "attributes": {
+        "material": {
+          "seat": "wood",
+          "frame": "black metal"
+        },
+        "backrest": "black metal lattice pattern",
+        "occupants": {
+          "left": "person in yellow top and blue jeans holding books",
+          "right": "person in brown sweater and beige pants holding a cane"
+        },
+        "position": "horizontal, side view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        416.0,
+        51.25,
+        748.0,
+        536.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair sits on a wooden bench, wearing a brown argyle sweater over a light blue collared shirt, beige trousers, and a dark flat cap. He holds a black cane in his left hand while gesturing with his right hand, and his face is blurred.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short"
+        },
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "color": "dark grey/brown"
+          },
+          "sweater": {
+            "color": "brown",
+            "pattern": "argyle",
+            "pattern_colors": [
+              "dark blue",
+              "grey"
+            ]
+          },
+          "shirt": {
+            "color": "light blue",
+            "collar": "visible"
+          },
+          "pants": {
+            "color": "beige",
+            "type": "trousers"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "color": "black",
+            "handle": "curved"
+          }
+        },
+        "pose": "sitting",
+        "action": "gesturing with right hand",
+        "face": "blurred",
+        "background": "white",
+        "furniture": {
+          "type": "bench",
+          "material": "wood and metal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        115.5,
+        80.5,
+        404.0,
+        536.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, straight dark hair sits on a wooden bench, wearing a mustard-yellow long-sleeved turtleneck sweater and distressed blue jeans. She holds a stack of three books with red, white, and blue covers in her lap, with a green backpack visible to her left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "sleeves": "long",
+            "neckline": "turtleneck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "ripped knee"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "backpack",
+            "color": "olive green",
+            "position": "left side"
+          }
+        },
+        "held_objects": {
+          "items": "books",
+          "count": 3,
+          "colors": [
+            "red",
+            "white",
+            "blue"
+          ]
+        },
+        "pose": "sitting",
+        "furniture": {
+          "type": "bench",
+          "material": "wood"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

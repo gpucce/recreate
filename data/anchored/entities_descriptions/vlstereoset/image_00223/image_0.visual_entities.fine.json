@@ -1,0 +1,72 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        81.5,
+        246.0,
+        536.0,
+        404.0
+      ],
+      "mask": "image_0.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a dark, possibly black, coat with a high collar over a white shirt. The coat appears to be made of a heavy fabric, and the person's chin and lower face are visible, suggesting a formal or historical style of dress.",
+      "attributes": {
+        "clothing": {
+          "coat": "black",
+          "shirt": "white"
+        },
+        "pose": "facing forward",
+        "visible_parts": [
+          "chin",
+          "lower face",
+          "neck",
+          "upper chest"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        91.5,
+        14.1875,
+        536.0,
+        402.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A portrait of a young man with wavy brown hair and a fair complexion, wearing a black coat and a white shirt with a high collar. He has a neutral expression and is looking slightly to the side against a dark, indistinct background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy",
+          "length": "medium"
+        },
+        "clothing": {
+          "outer": {
+            "type": "coat",
+            "color": "black"
+          },
+          "inner": {
+            "type": "shirt",
+            "color": "white",
+            "collar": "high"
+          }
+        },
+        "expression": "neutral",
+        "pose": "head turned slightly to the right",
+        "background": "dark"
+      },
+      "parse_ok": true
+    }
+  ]
+}

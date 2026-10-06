@@ -1,0 +1,228 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        4.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/car_0.png",
+      "crop": null,
+      "description": "A close-up view of a glossy red car with a black side mirror and door handle, featuring an elderly man with white hair and glasses in a blue shirt sitting in the driver's seat and a young woman with dark hair in a ponytail wearing a white t-shirt leaning into the open window, both smiling at each other.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "finish": "glossy",
+          "visible_parts": [
+            "side mirror",
+            "door handle",
+            "window frame",
+            "A-pillar"
+          ],
+          "interior": {
+            "seats": "black"
+          }
+        },
+        "people": {
+          "driver": {
+            "gender": "male",
+            "age": "elderly",
+            "hair": "white",
+            "accessories": "glasses",
+            "clothing": "light blue button-down shirt",
+            "expression": "smiling"
+          },
+          "passenger": {
+            "gender": "female",
+            "age": "young adult",
+            "hair": "dark brown, ponytail",
+            "clothing": "white t-shirt",
+            "pose": "leaning into car window",
+            "expression": "smiling"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.66796875,
+      "box": [
+        104.0,
+        148.0,
+        760.0,
+        672.0
+      ],
+      "mask": "image_6.masks/car interior_0.png",
+      "crop": null,
+      "description": "A close-up shot inside a red car shows an elderly man with white hair and glasses sitting in the driver's seat, smiling warmly while looking at a young woman with dark hair leaning in from the passenger side. The man wears a light blue button-down shirt, and the woman wears a white t-shirt, with the car's red exterior and black interior seats visible in the frame.",
+      "attributes": {
+        "car": {
+          "exterior_color": "red",
+          "interior_seats": "black",
+          "viewpoint": "from outside looking in through the open window"
+        },
+        "man": {
+          "age": "elderly",
+          "hair": "white, short",
+          "accessories": "wire-rimmed glasses",
+          "clothing": "light blue button-down shirt",
+          "expression": "smiling, looking to the right",
+          "position": "driver's seat"
+        },
+        "woman": {
+          "age": "young adult",
+          "hair": "dark brown, pulled back",
+          "clothing": "white t-shirt",
+          "expression": "smiling, looking at the man",
+          "position": "leaning in from the passenger side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        2.0,
+        -1.5,
+        1024.0,
+        66.5
+      ],
+      "mask": "image_6.masks/foliage_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of a red, glossy surface with a curved edge, likely part of a vehicle or object, with a blurred background of green foliage. The red surface has a smooth texture and reflects light, indicating a polished finish.",
+      "attributes": {
+        "color": "red",
+        "texture": "glossy",
+        "shape": "curved",
+        "background": "green foliage",
+        "focus": "sharp on red surface, blurred background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        500.0,
+        178.0,
+        956.0,
+        680.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with dark brown hair tied in a ponytail is sitting in the passenger seat of a car, smiling warmly at an older man next to her. She is wearing a plain white t-shirt and has her arm resting on the open car window frame.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "shirt": "white t-shirt"
+        },
+        "expression": "smiling",
+        "pose": "sitting in car, arm on window",
+        "context": "inside a car, next to an older man"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        150.0,
+        208.0,
+        648.0,
+        720.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly man with short, wavy gray hair and wire-rimmed glasses sits in the driver's seat of a red car, wearing a light blue button-down shirt. He is smiling broadly, looking towards a younger woman seated in the passenger seat who is partially visible on the right.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "facial_hair": "none",
+        "accessories": {
+          "glasses": {
+            "frame": "wire-rimmed",
+            "color": "black"
+          }
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "material": "cotton"
+          }
+        },
+        "pose": "sitting",
+        "location": "inside car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        2.0,
+        4.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A close-up view of a glossy red car with an older man and a younger woman sitting inside, smiling at each other. The man is in the driver's seat wearing a blue shirt and glasses, while the woman leans on the open window frame wearing a white t-shirt.",
+      "attributes": {
+        "vehicle": {
+          "color": "red",
+          "finish": "glossy",
+          "type": "car",
+          "features": {
+            "side_mirror": "red with black base",
+            "door_handle": "red",
+            "window": "open"
+          }
+        },
+        "occupants": {
+          "driver": {
+            "gender": "male",
+            "age": "elderly",
+            "hair": "grey",
+            "accessories": "glasses",
+            "clothing": "light blue button-down shirt",
+            "expression": "smiling"
+          },
+          "passenger": {
+            "gender": "female",
+            "age": "young adult",
+            "hair": "dark brown ponytail",
+            "clothing": "white t-shirt",
+            "pose": "leaning on window frame",
+            "expression": "smiling"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

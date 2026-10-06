@@ -1,0 +1,336 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        78.0,
+        -1.5,
+        1008.0,
+        206.0
+      ],
+      "mask": "image_6.masks/building_0.png",
+      "crop": null,
+      "description": "A blurred view of a red brick building with white trim around the windows and a white base, partially obscured by green trees and bushes in the foreground.",
+      "attributes": {
+        "material": "brick",
+        "color": "red",
+        "trim": "white",
+        "structure": "multi-story",
+        "surroundings": {
+          "vegetation": "green trees and bushes",
+          "foreground": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        266.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/grass_0.png",
+      "crop": null,
+      "description": "A lush, green grassy field dotted with numerous small yellow dandelions, serving as the ground surface where a family is seated.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft, leafy",
+        "features": [
+          "yellow dandelions",
+          "scattered throughout"
+        ],
+        "state": "healthy, vibrant",
+        "function": "ground cover, outdoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.88671875,
+      "box": [
+        80.0,
+        197.0,
+        736.0,
+        253.0
+      ],
+      "mask": "image_6.masks/grass_1.png",
+      "crop": null,
+      "description": "A close-up view of a patch of green grass in the background, appearing blurred and out of focus, with a dark, textured object in the foreground that is also out of focus.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurred",
+        "position": "background",
+        "texture": "soft",
+        "object_in_foreground": "dark, textured, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        644.0,
+        220.0,
+        1024.0,
+        964.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling young woman with curly brown hair sits cross-legged on a grassy field dotted with yellow dandelions, wearing a plain white t-shirt and distressed blue jeans with a large rip on the knee. She is looking down and to the side with a gentle expression, wearing white sneakers.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "ripped knee"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "accessories": {
+          "necklace": "thin chain"
+        },
+        "setting": "outdoors, grass, dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        236.0,
+        462.0,
+        964.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with short curly hair and a beard sits cross-legged on a grassy lawn dotted with yellow dandelions, wearing a white button-down shirt with sleeves rolled up, light blue jeans, and black-and-white sneakers. He is looking to his right with a warm, engaged expression, and part of another person’s curly hair and shoulder is visible beside him.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short curly"
+        },
+        "facial_hair": "beard",
+        "expression": "smiling, looking to the side",
+        "pose": "sitting cross-legged on grass",
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up to elbow"
+          },
+          "pants": {
+            "color": "light blue",
+            "type": "jeans"
+          },
+          "shoes": {
+            "color": "black and white",
+            "type": "sneakers"
+          }
+        },
+        "setting": "outdoor grassy area with dandelions",
+        "visible_companions": "partial view of another person with curly hair to the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        420.0,
+        420.0,
+        684.0,
+        892.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with curly brown hair sits cross-legged on the grass, laughing heartily with her eyes closed and mouth wide open. She is wearing a white short-sleeved t-shirt, blue jeans, and white sneakers, with a small gold hair clip in her hair.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "accessory": "gold hair clip"
+        },
+        "expression": "laughing, eyes closed, mouth open",
+        "clothing": {
+          "top": "white short-sleeved t-shirt",
+          "bottoms": "blue jeans",
+          "shoes": "white sneakers"
+        },
+        "pose": "sitting cross-legged",
+        "setting": "outdoors, grass with yellow dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        840.0,
+        -1.0,
+        1024.0,
+        255.0
+      ],
+      "mask": "image_6.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a tree with green leaves is visible in the upper left corner, partially obscuring a building in the background. The lower portion of the image shows a dark, textured surface, possibly part of a person's hair or another object, which is also out of focus.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "position": "upper left corner",
+        "background": "building",
+        "foreground": "dark textured surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        -0.25,
+        -1.0,
+        100.0,
+        304.0
+      ],
+      "mask": "image_6.masks/tree_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a thick, brown tree trunk occupying the left side of the frame, with a blurred background showing green grass and a white vehicle.",
+      "attributes": {
+        "object": "tree trunk",
+        "color": "brown",
+        "focus": "blurry",
+        "background": {
+          "ground": "green grass",
+          "object": "white car"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.5625,
+      "box": [
+        380.0,
+        -3.0,
+        660.0,
+        201.0
+      ],
+      "mask": "image_6.masks/tree_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green foliage is visible against a reddish-brown background, possibly a brick wall. The tree's leaves are indistinct due to the blur, and there is a small, bright, circular light or reflection near the bottom center of the image.",
+      "attributes": {
+        "foliage": "green, blurry",
+        "background": "reddish-brown, possibly brick",
+        "focus": "out-of-focus",
+        "light": "small, bright, circular, near bottom center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.62109375,
+      "box": [
+        83.0,
+        -0.5,
+        400.0,
+        220.0
+      ],
+      "mask": "image_6.masks/tree_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree trunk with a brownish-gray bark texture stands in the foreground, partially obscuring a red brick building with white trim and a dark car parked in front of it. The background is heavily blurred, showing green foliage and a grassy area, suggesting a shallow depth of field.",
+      "attributes": {
+        "focus": "out-of-focus",
+        "color": "brownish-gray",
+        "position": "foreground",
+        "background": "red brick building, white trim, dark car, green foliage, grassy area",
+        "depth_of_field": "shallow"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.6953125,
+      "box": [
+        88.0,
+        -3.0,
+        660.0,
+        218.0
+      ],
+      "mask": "image_6.masks/tree_4.png",
+      "crop": null,
+      "description": "A blurry tree with a brown trunk and green leaves is in the foreground, partially obscuring a red brick building with white trim in the background. The image is out of focus, making details indistinct.",
+      "attributes": {
+        "trunk": "brown",
+        "leaves": "green",
+        "focus": "blurry",
+        "background": {
+          "building": "red brick",
+          "trim": "white",
+          "windows": "visible but blurry"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.5078125,
+      "box": [
+        378.0,
+        -1.5,
+        656.0,
+        104.5
+      ],
+      "mask": "image_6.masks/tree_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of green foliage, likely the leaves of a tree or bush, with varying shades of green and some darker areas suggesting depth or shadow. The background is indistinct and appears to be a mix of brown and green tones.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurry",
+        "focus": "out-of-focus",
+        "type": "foliage"
+      },
+      "parse_ok": true
+    }
+  ]
+}

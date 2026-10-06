@@ -1,0 +1,128 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        556.0,
+        120.0,
+        1024.0,
+        884.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with shoulder-length blonde hair sits at a desk, wearing a dark blue and red plaid flannel shirt. She has a furrowed brow and a concerned expression, resting her chin on her left hand while holding a black pen in her right hand over a spiral notebook, with a silver laptop visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder length",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "flannel",
+            "pattern": "plaid",
+            "colors": [
+              "dark blue",
+              "red"
+            ]
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": {
+          "action": "sitting",
+          "hand_position": "chin resting on left hand, holding pen in right hand"
+        },
+        "expression": "concerned, furrowed brow",
+        "objects": {
+          "pen": "black",
+          "notebook": "spiral bound",
+          "laptop": "silver, Apple logo visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        102.0,
+        528.0,
+        888.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair sits at a desk looking down at a laptop screen with a furrowed brow and a concerned expression. She is wearing a light pink, long-sleeved button-down shirt with the sleeves rolled up to the elbows.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "concerned",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        8.0,
+        816.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/table_0.png",
+      "crop": null,
+      "description": "A person is seated at a white desk, using a silver laptop with an Apple logo on the back of the screen. The person's hands are visible, with one hand resting on the laptop and the other writing in a spiral-bound notebook with a black pen. To the left of the laptop, a black DSLR camera is placed on the desk.",
+      "attributes": {
+        "laptop": {
+          "brand": "Apple",
+          "color": "silver",
+          "type": "laptop"
+        },
+        "notebook": {
+          "binding": "spiral",
+          "color": "white"
+        },
+        "pen": {
+          "color": "black"
+        },
+        "camera": {
+          "type": "DSLR",
+          "color": "black"
+        },
+        "desk": {
+          "color": "white",
+          "material": "smooth surface"
+        },
+        "person": {
+          "hands": "visible",
+          "action": "using laptop and writing"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

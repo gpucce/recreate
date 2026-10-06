@@ -1,0 +1,184 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        744.0,
+        40.0,
+        952.0,
+        488.0
+      ],
+      "mask": "image_4.masks/curtain_0.png",
+      "crop": null,
+      "description": "A cream-colored fabric curtain hangs vertically, featuring a scattered floral pattern with red and pink flowers and green leaves. The curtain is gathered at the top by a rod and appears to be made of a lightweight material.",
+      "attributes": {
+        "color": "cream",
+        "pattern": "floral",
+        "pattern_details": "red and pink flowers with green leaves",
+        "material": "fabric",
+        "position": "hanging",
+        "top_attachment": "gathered on rod"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        302.0,
+        432.0,
+        512.0,
+        744.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young East Asian boy with short black hair and a neutral expression sits facing forward, wearing a plain blue t-shirt. In the foreground, a plate of steamed buns is partially visible, and a large wooden bowl is blurred in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "buzz cut"
+        },
+        "expression": "neutral",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "blue",
+            "sleeve": "short"
+          }
+        },
+        "pose": "sitting",
+        "orientation": "frontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        708.0,
+        348.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling middle-aged Asian woman wearing a bright red headscarf and a white long-sleeved shirt sits at a dark blue wooden table with a red plastic colander in front of her. She has a warm expression and is looking slightly to the side, with her hands resting on the table surface.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "ethnicity": "Asian",
+        "expression": "smiling",
+        "headwear": {
+          "type": "headscarf",
+          "color": "red"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "sleeves": "long",
+            "collar": "black trim"
+          }
+        },
+        "accessories": {
+          "bracelet": "thin, on left wrist"
+        },
+        "pose": "sitting",
+        "foreground_object": {
+          "type": "colander",
+          "color": "red",
+          "material": "plastic"
+        },
+        "furniture": {
+          "table": {
+            "color": "dark blue",
+            "material": "wood",
+            "condition": "worn"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        9.0,
+        318.0,
+        408.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly Asian man with a mustache and weathered skin sits at a distressed blue wooden table, wearing a grey fedora, a red vest over a blue denim shirt, and grey trousers. He holds a thin object, possibly a cigarette or chopstick, to his mouth with his right hand while looking slightly off-camera.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "facial_hair": "mustache",
+        "skin": "wrinkled, weathered",
+        "clothing": {
+          "hat": "grey fedora",
+          "vest": "red, sleeveless",
+          "shirt": "blue denim, long-sleeved",
+          "pants": "grey"
+        },
+        "pose": "sitting",
+        "action": "holding object to mouth",
+        "position": "left side of frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9609375,
+      "box": [
+        508.0,
+        316.0,
+        788.0,
+        676.0
+      ],
+      "mask": "image_4.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling middle-aged Asian man with short black hair is wearing a green and white striped button-down shirt and a white apron, holding a thin black chopstick in his right hand. He is seated at a table with a silver thermos and a white teapot visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "green",
+              "white"
+            ]
+          },
+          "apron": {
+            "color": "white",
+            "material": "fabric"
+          }
+        },
+        "action": "holding chopstick",
+        "objects_in_hand": "chopstick"
+      },
+      "parse_ok": true
+    }
+  ]
+}

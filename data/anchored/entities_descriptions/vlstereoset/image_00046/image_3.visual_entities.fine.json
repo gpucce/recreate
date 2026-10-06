@@ -1,0 +1,168 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.6953125,
+      "box": [
+        -2.25,
+        420.0,
+        91.0,
+        544.0
+      ],
+      "mask": "image_3.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a wooden cabinet with a warm brown finish, featuring a visible drawer front and a vertical side panel. The top edge of the cabinet is slightly visible, with a blurred object resting on it.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "type": "cabinet",
+        "features": [
+          "drawer",
+          "side panel"
+        ],
+        "focus": "out-of-focus",
+        "position": "partial view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        0.0,
+        378.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a light purple satin pajama set with white piping. The couch has a textured, woven appearance and is adorned with a beige patterned throw pillow on the right side.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "texture": "woven",
+          "pillow": {
+            "color": "beige",
+            "pattern": "geometric"
+          }
+        },
+        "person": {
+          "clothing": {
+            "top": "light purple satin pajama shirt",
+            "bottoms": "light purple satin pajama pants",
+            "details": "white piping"
+          },
+          "pose": "sitting cross-legged",
+          "accessories": {
+            "necklace": "gold chain with small pendant"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        100.0,
+        66.0,
+        932.0,
+        1016.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A Black woman with a shaved head and round wire-rimmed glasses sits cross-legged on a gray sofa, wearing a shiny lavender silk pajama set with white piping and a delicate gold necklace. She has a neutral expression and looks directly at the camera.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": "shaved head",
+        "accessories": {
+          "glasses": "round wire-rimmed",
+          "necklace": "thin gold chain with small pendant"
+        },
+        "clothing": {
+          "type": "pajamas",
+          "material": "silk or satin",
+          "color": "lavender",
+          "details": "white piping on collar, cuffs, and pocket; button-down front"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a gray fabric sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        824.0,
+        484.0,
+        1024.0,
+        868.0
+      ],
+      "mask": "image_3.masks/pillow_0.png",
+      "crop": null,
+      "description": "A square beige throw pillow featuring an intricate, tonal geometric pattern with floral motifs and a fringed edge, resting against a dark textured background with a blurred purple object in the foreground.",
+      "attributes": {
+        "color": "beige",
+        "shape": "square",
+        "pattern": "geometric floral",
+        "texture": "woven fabric",
+        "edge_detail": "fringed",
+        "position": "tilted",
+        "background": "dark textured surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        274.0,
+        1.0,
+        840.0,
+        384.0
+      ],
+      "mask": "image_3.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up portrait of a young Black woman with a very short buzz cut hairstyle, wearing round, thin-rimmed gold glasses and a delicate gold necklace. She is wearing a light purple collared shirt and has a neutral, direct gaze at the camera, set against a blurred background of white horizontal window blinds.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": {
+          "style": "buzz cut",
+          "color": "black"
+        },
+        "accessories": {
+          "glasses": {
+            "frame": "gold",
+            "shape": "round"
+          },
+          "necklace": "thin gold chain",
+          "earrings": "small stud"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light purple",
+            "type": "collared"
+          }
+        },
+        "pose": "frontal, looking at camera",
+        "expression": "neutral",
+        "background": "white horizontal blinds"
+      },
+      "parse_ok": true
+    }
+  ]
+}

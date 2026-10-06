@@ -1,0 +1,172 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        372.0,
+        138.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with long, wavy gray hair is seated, wearing a light pink cardigan over a white t-shirt and beige pants. She is smiling broadly while holding a black smartphone in her hands, looking at the screen with a joyful expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "gray",
+          "length": "long",
+          "style": "wavy, parted to the side"
+        },
+        "facial_hair": "none",
+        "expression": "smiling, happy",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "pink",
+            "material": "knit",
+            "details": "buttons down the front"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "beige"
+          },
+          "accessories": {
+            "earrings": "small hoop"
+          }
+        },
+        "pose": "sitting, holding phone with both hands",
+        "action": "looking at phone, smiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        70.0,
+        588.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a short beard sits on a couch, wearing a blue plaid flannel shirt over a white t-shirt and blue jeans. He is smiling broadly and pointing at a smartphone held by an older woman next to him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "short beard",
+        "expression": "smiling, laughing",
+        "clothing": {
+          "outer": "blue plaid flannel shirt",
+          "inner": "white t-shirt",
+          "bottoms": "blue jeans"
+        },
+        "pose": "sitting, pointing at phone",
+        "action": "interacting with smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        466.0,
+        560.0,
+        588.0,
+        712.0
+      ],
+      "mask": "image_15.masks/smartphone_0.png",
+      "crop": null,
+      "description": "A black smartphone is held in a person's hand, showing the back of the device with a dual-lens camera module in the top-left corner. The phone has a matte finish and rounded edges, with a visible flash next to the camera lenses.",
+      "attributes": {
+        "color": "black",
+        "material": "matte plastic or glass",
+        "camera": {
+          "type": "dual-lens",
+          "position": "top-left corner"
+        },
+        "shape": "rectangular with rounded corners",
+        "held_by": "hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        860.0,
+        368.0,
+        1024.0,
+        392.0
+      ],
+      "mask": "image_15.masks/wood_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 1,
+      "score": 0.8828125,
+      "box": [
+        -2.5,
+        374.0,
+        125.5,
+        442.0
+      ],
+      "mask": "image_15.masks/wood_1.png",
+      "crop": null,
+      "description": "The image shows a close-up of a wooden surface with a smooth, light brown finish. The wood grain is subtly visible, running horizontally across the frame, and the texture appears polished and even.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth",
+        "grain_direction": "horizontal",
+        "finish": "polished"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 2,
+      "score": 0.88671875,
+      "box": [
+        780.0,
+        61.5,
+        1024.0,
+        87.5
+      ],
+      "mask": "image_15.masks/wood_2.png",
+      "crop": null,
+      "description": "A horizontal, light brown wooden plank or beam with a smooth surface and slightly rounded edges, set against a blurred background.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "shape": "rectangular",
+        "orientation": "horizontal",
+        "surface": "smooth",
+        "edges": "slightly rounded",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

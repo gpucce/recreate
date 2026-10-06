@@ -1,0 +1,95 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        2.0,
+        436.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is holding a rugby ball with both hands, wearing a green and black sports jersey with the text 'Vipon' and 'BRYN GOR' along with a bird logo on the chest. The background is a blurred grassy field.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "text": "Vipon, BRYN GOR",
+          "logo": "bird"
+        },
+        "pose": "holding a rugby ball",
+        "object": {
+          "type": "rugby ball",
+          "brand": "Zaumiz",
+          "colors": "white, red, blue"
+        },
+        "background": "grassy field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        156.0,
+        44.0,
+        808.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with curly brown hair tied in a messy bun is running while holding a rugby ball with both hands. She wears a green and black short-sleeved jersey with the text 'Vipon' and 'BRYN GOR' along with a golden eagle logo, and has a focused, intense expression on her face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly, tied in a high bun"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "rugby jersey",
+            "color": "green with black shoulders and collar",
+            "text": "Vipon, BRYN GOR",
+            "logo": "golden eagle"
+          },
+          "shorts": {
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "wristband": "white on right wrist"
+        },
+        "pose": "running, holding ball",
+        "expression": "focused, serious",
+        "object": {
+          "type": "rugby ball",
+          "brand": "Zaumiz",
+          "color": "white with red and blue stripes"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        214.0,
+        708.0,
+        426.0,
+        972.0
+      ],
+      "mask": "image_9.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a white rugby ball with blue and red stripes, held in two hands. The ball features the brand name 'Zaumiz' in bold black letters on its side, along with partial text 'NIA' and 'AS' visible on the curved surface. The ball appears to be made of a textured synthetic material, typical for grip, and is positioned against a blurred green background, suggesting an outdoor setting.\", \"attributes\": {\"color\": [\"white\", \"blue\", \"red\"], \"brand\": \"Zaumiz\", \"text\": [\"Zaumiz\", \"NIA\", \"AS\"], \"material\": \"textured synthetic\", \"shape\": \"oval\", \"held_by\": \"two hands\", \"background\": \"blurred green\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        632.0,
+        520.0,
+        720.0,
+        608.0
+      ],
+      "mask": "image_13.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A close-up view of a teal ceramic mug with a white interior being held by a pair of hands with dark skin tone. The mug has a smooth, glossy finish and a cylindrical shape with a visible handle on the left side.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": {
+          "exterior": "teal",
+          "interior": "white"
+        },
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": "visible on left",
+        "held_by": {
+          "skin_tone": "dark",
+          "grip": "wrapping around body"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.921875,
+      "box": [
+        286.0,
+        872.0,
+        442.0,
+        1016.0
+      ],
+      "mask": "image_13.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, glossy finish and a curved handle on the left side, sitting on a light wooden surface. The image is out of focus, blurring the details of the mug and the background.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "white",
+        "finish": "glossy",
+        "handle_position": "left",
+        "shape": "cylindrical",
+        "surface": "wooden table",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 2,
+      "score": 0.89453125,
+      "box": [
+        378.0,
+        560.0,
+        478.0,
+        648.0
+      ],
+      "mask": "image_13.masks/ceramic mug_2.png",
+      "crop": null,
+      "description": "{\"description\": \"A white ceramic mug with a smooth, glossy finish is held by two hands, one on each side. The mug has a simple, cylindrical shape with a slightly flared rim and a curved handle on the left side. The hands appear to be of a darker skin tone, with fingers wrapped around the mug, suggesting a warm beverage inside.\", \"attributes\": {\"color\": \"white\", \"material\": \"ceramic\", \"shape\": \"cylindrical\", \"handle\": \"curved, on the left side\", \"finish\": \"glossy\", \"held_by\": \"two hands\", \"hand_skin_tone\": \"darker\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        508.0,
+        204.0,
+        948.0,
+        1020.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Black man with short, curly gray hair sits on a beige couch, smiling broadly with his mouth open. He wears a sage green t-shirt and light beige trousers, holding a teal ceramic mug with both hands while wearing a wristwatch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray",
+          "style": "short curly"
+        },
+        "expression": "smiling broadly",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "sage green"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "light beige"
+          }
+        },
+        "accessories": {
+          "watch": "silver wristwatch on left wrist"
+        },
+        "holding": {
+          "object": "mug",
+          "color": "teal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        116.0,
+        204.0,
+        560.0,
+        956.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly Black man with short, curly gray hair sits on a beige couch, laughing heartily with his head turned to the side. He wears a light blue polo shirt and khaki shorts, holding a white mug with both hands in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray",
+          "style": "short curly"
+        },
+        "expression": "laughing",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "light blue"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "khaki"
+          }
+        },
+        "accessories": {
+          "holding": "white mug"
+        },
+        "skin": "dark brown with visible wrinkles and veins"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        378.0,
+        1024.0,
+        960.0
+      ],
+      "mask": "image_13.masks/sofa_0.png",
+      "crop": null,
+      "description": "Two elderly Black men are seated side by side on a beige fabric sofa, each holding a mug and engaged in conversation. The man on the left wears a light blue polo shirt and khaki shorts, while the man on the right wears an olive green t-shirt and light beige trousers; both appear relaxed and smiling.",
+      "attributes": {
+        "sofa": {
+          "color": "beige",
+          "material": "fabric",
+          "style": "modern",
+          "cushions": "patterned throw pillows visible on both ends"
+        },
+        "men": [
+          {
+            "position": "left",
+            "age": "elderly",
+            "ethnicity": "Black",
+            "clothing": {
+              "shirt": "light blue polo",
+              "shorts": "khaki"
+            },
+            "pose": "seated, holding white mug with both hands",
+            "expression": "smiling, looking toward companion"
+          },
+          {
+            "position": "right",
+            "age": "elderly",
+            "ethnicity": "Black",
+            "clothing": {
+              "shirt": "olive green t-shirt",
+              "pants": "light beige trousers"
+            },
+            "accessories": {
+              "watch": "on left wrist"
+            },
+            "pose": "seated, holding teal mug with both hands",
+            "expression": "smiling, looking toward companion"
+          }
+        ],
+        "foreground": {
+          "mug": "white ceramic mug on wooden coffee table",
+          "plant": "small green succulent partially visible"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

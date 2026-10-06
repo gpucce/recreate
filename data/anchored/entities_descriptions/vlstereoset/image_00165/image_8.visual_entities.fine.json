@@ -1,0 +1,210 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        588.0,
+        552.0,
+        684.0,
+        640.0
+      ],
+      "mask": "image_8.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A close-up view of a light blue ceramic mug with a glossy finish, held by a hand with fingers visible on the left side. The mug has a white interior and a smooth, cylindrical shape with a handle partially visible on the left.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "light blue",
+        "interior_color": "white",
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": "visible on left",
+        "held_by": "hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.88671875,
+      "box": [
+        332.0,
+        564.0,
+        436.0,
+        668.0
+      ],
+      "mask": "image_8.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A white ceramic mug with a fluted exterior surface featuring vertical ridges is held by a pair of hands against a blurred blue background. The mug has a smooth, glossy finish and a standard C-shaped handle on the left side.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "white",
+        "surface_texture": "fluted",
+        "pattern": "vertical ridges",
+        "finish": "glossy",
+        "handle_position": "left",
+        "shape": "cylindrical",
+        "context": "held by hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 2,
+      "score": 0.90625,
+      "box": [
+        158.0,
+        824.0,
+        310.0,
+        968.0
+      ],
+      "mask": "image_8.masks/ceramic mug_2.png",
+      "crop": null,
+      "description": "A plain white ceramic mug with a smooth, matte finish and a curved handle on the left side, sitting on a light wooden surface against a blurred gray background.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "white",
+        "finish": "matte",
+        "handle_position": "left",
+        "shape": "cylindrical",
+        "surface": "smooth",
+        "background": "blurred gray",
+        "surface_below": "wooden table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        496.0,
+        166.0,
+        984.0,
+        920.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "An older Black man with short, curly gray hair and a gray goatee sits on a beige couch, smiling warmly while holding a light blue mug with both hands. He is wearing a sage green t-shirt and light beige pants, looking off to the side with a relaxed and happy expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray",
+          "style": "short curly"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "style": "goatee"
+        },
+        "expression": "smiling",
+        "gaze": "looking left",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "sage green"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding a mug",
+        "object": {
+          "type": "mug",
+          "color": "light blue"
+        },
+        "setting": "indoor, on a couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        20.0,
+        178.0,
+        524.0,
+        904.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly Black man with a white beard and curly white hair sits on a beige couch, smiling warmly while holding a white mug with both hands. He is wearing a light blue polo shirt and khaki shorts, with a watch visible on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "white",
+          "style": "curly, short"
+        },
+        "facial_hair": {
+          "color": "white",
+          "style": "full beard"
+        },
+        "expression": "smiling, looking to the side",
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "light blue",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "khaki"
+          },
+          "accessories": {
+            "wrist": "watch on left wrist"
+          }
+        },
+        "pose": "sitting on a couch, holding a mug",
+        "object_held": {
+          "type": "mug",
+          "color": "white",
+          "material": "ceramic"
+        },
+        "skin_tone": "dark brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        388.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_8.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or cream-colored fabric sofa with a textured, woven appearance, featuring thick, rectangular back cushions and matching seat cushions. The sofa has a modern, minimalist design with clean lines and appears to be upholstered in a durable, neutral-toned material. Two individuals are seated on it, partially obscuring the seat, but the visible portions show a consistent color and texture throughout.",
+      "attributes": {
+        "color": "light beige / cream",
+        "material": "textured woven fabric",
+        "style": "modern minimalist",
+        "cushions": {
+          "back": "thick, rectangular, matching fabric",
+          "seat": "thick, rectangular, matching fabric"
+        },
+        "visible_features": [
+          "clean lines",
+          "neutral tone",
+          "durable upholstery"
+        ],
+        "occupants": "two individuals seated, partially visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

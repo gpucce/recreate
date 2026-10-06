@@ -1,0 +1,178 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        -1.5,
+        492.0,
+        202.0,
+        916.0
+      ],
+      "mask": "image_9.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark brown wooden cabinet featuring a drawer with a round, dark metal knob and a paneled lower section, positioned behind the arm of a patterned armchair.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "style": "traditional",
+        "features": {
+          "drawer": "visible with round knob",
+          "knob": "dark metal",
+          "lower_section": "paneled"
+        },
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.64453125,
+      "box": [
+        660.0,
+        90.5,
+        1024.0,
+        218.0
+      ],
+      "mask": "image_9.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A wooden shelf with a dark brown finish is mounted on a white tiled wall, featuring a visible support bracket on the left side. The shelf holds partially visible items, including what appears to be a bowl and other objects, while the lower left corner shows a portion of a person's curly, light-colored hair.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "type": "shelf",
+        "wall": {
+          "color": "white",
+          "material": "tile",
+          "pattern": "subway tile"
+        },
+        "items_on_shelf": [
+          "bowl",
+          "other objects"
+        ],
+        "person_hair": {
+          "color": "light",
+          "texture": "curly",
+          "position": "lower left corner"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        46.0,
+        402.0,
+        112.0,
+        478.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, close-up portrait of a person with light brown, wavy hair, wearing a white collared shirt under a dark jacket. The person is facing forward with a neutral expression, and the image is heavily out of focus, obscuring fine facial details.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, shoulder-length"
+        },
+        "clothing": {
+          "shirt": "white",
+          "jacket": "dark, possibly black or navy"
+        },
+        "pose": "facing forward",
+        "expression": "neutral",
+        "image_quality": "blurry, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        172.0,
+        312.0,
+        580.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly light brown hair and blue eyes sits facing forward, wearing a light blue sweatshirt with a dark blue 'Champion' logo and red/white emblem on the chest. He has a neutral expression, his hands clasped in his lap, while an older woman's hand rests on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "eyes": "blue",
+        "expression": "neutral",
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "logo": "Champion",
+            "logo_color": "dark blue text, red and white emblem"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "position": "center",
+        "context": "older woman's hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        160.0,
+        106.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in a floral armchair, wearing a dark blue velvet robe with silver beaded trim and a silver necklace. She has a gentle, neutral expression and is looking directly at the camera, with her hand resting on the shoulder of a young boy sitting next to her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_features": {
+          "skin": "wrinkled",
+          "eyes": "blue",
+          "expression": "neutral, gentle"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "robe",
+            "color": "dark blue",
+            "material": "velvet",
+            "details": "silver beaded trim on lapels and cuffs"
+          },
+          "accessories": {
+            "necklace": "silver",
+            "rings": "silver"
+          }
+        },
+        "pose": "sitting, arm around child"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,290 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        1688.0,
+        852.0,
+        2496.0,
+        1416.0
+      ],
+      "mask": "image_0.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a teal-green plastic chair with a smooth, matte finish, featuring a person's hand resting on the top edge of the backrest. The chair has a curved, molded design typical of stackable outdoor or event seating, with a visible armrest on the left side.",
+      "attributes": {
+        "color": "teal-green",
+        "material": "plastic",
+        "type": "stackable chair",
+        "features": [
+          "curved backrest",
+          "armrest",
+          "smooth surface"
+        ],
+        "interaction": "hand resting on top edge"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.54296875,
+      "box": [
+        163.0,
+        880.0,
+        524.0,
+        1312.0
+      ],
+      "mask": "image_0.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a black metal chair frame with a person wearing a pink shirt sitting on it, partially obscured by a large clump of white, curly pet fur held in the foreground.",
+      "attributes": {
+        "frame": {
+          "color": "black",
+          "material": "metal",
+          "structure": "tubular"
+        },
+        "occupant": {
+          "clothing": {
+            "shirt": "pink"
+          }
+        },
+        "foreground_object": {
+          "type": "pet fur",
+          "color": "white",
+          "texture": "curly, matted",
+          "position": "held in hand, obscuring part of the chair"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        282.0,
+        376.0,
+        1472.0,
+        1424.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Black woman with short, curly white hair and glasses is smiling with her hands raised near her face, wearing a pink top. She is seated next to a younger Black woman with long, curly black hair, who is also wearing a pink shirt with the word 'GLAMOUR' visible on it.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "accessories": {
+          "glasses": "pink-framed"
+        },
+        "clothing": {
+          "top": "pink"
+        },
+        "pose": "seated, hands raised near face",
+        "expression": "smiling",
+        "context": "next to a younger woman in a pink shirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        -3.046875,
+        25.0,
+        212.0,
+        504.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of the back of a person's head and shoulders, featuring dark, shoulder-length hair and a pink top. The image is heavily obscured by motion blur or low resolution, making specific details indistinguishable.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown or black",
+          "length": "shoulder length",
+          "style": "down"
+        },
+        "clothing": {
+          "top": {
+            "color": "pink",
+            "type": "shirt or jacket"
+          }
+        },
+        "pose": "back facing camera",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.5234375,
+      "box": [
+        -5.625,
+        308.0,
+        40.25,
+        486.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing only indistinct patches of color. There is a large area of light blue or grayish-blue on the left and a pinkish-red area on the right, with a dark, undefined shape at the top. No specific features, clothing, or body parts of a person are discernible.",
+      "attributes": {
+        "visibility": "extremely low",
+        "focus": "blurred",
+        "colors": [
+          "light blue",
+          "pinkish-red",
+          "dark gray/black"
+        ],
+        "identifiable_features": "none"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.94140625,
+      "box": [
+        1688.0,
+        -5.5625,
+        2288.0,
+        1352.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A person with long blonde hair is seen from the side, wearing a loose-fitting pink t-shirt and dark blue shorts, standing with one hand resting on the back of a green chair.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "pink",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "dark blue"
+          }
+        },
+        "pose": "standing",
+        "action": "hand resting on chair",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.8046875,
+      "box": [
+        194.0,
+        62.5,
+        322.0,
+        272.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus close-up of a person with light brown or blonde hair, wearing a dark, textured garment, possibly a sweater or jacket, with a small portion of a pinkish area visible at the bottom right.",
+      "attributes": {
+        "hair": {
+          "color": "light brown/blonde",
+          "style": "indistinguishable due to blur"
+        },
+        "clothing": {
+          "color": "dark grey/black",
+          "texture": "indistinct, possibly knit or fabric"
+        },
+        "skin_tone": "light",
+        "pose": "indistinguishable",
+        "image_quality": "extremely blurry/out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.9140625,
+      "box": [
+        -7.3125,
+        134.0,
+        432.0,
+        1088.0
+      ],
+      "mask": "image_0.masks/person_5.png",
+      "crop": null,
+      "description": "A person with long, dark, wavy hair is seen from behind, wearing a bright pink short-sleeved t-shirt with faint white text on the upper back. The individual is seated, likely in a wheelchair given the visible black frame and handle, with a textured, light-colored object (possibly a shawl or blanket) in the foreground to the right.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown/black",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "type": "t-shirt",
+            "sleeves": "short",
+            "details": "white text on back"
+          }
+        },
+        "pose": "seated",
+        "view": "back",
+        "context": "possibly in a wheelchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.93359375,
+      "box": [
+        956.0,
+        0.0,
+        1912.0,
+        1416.0
+      ],
+      "mask": "image_0.masks/person_6.png",
+      "crop": null,
+      "description": "A young woman with long, dark curly hair is smiling while wearing a pink t-shirt with the word 'GLAMOUR' printed in white letters and a necklace with a name pendant. She is seated, leaning slightly forward, with her hands resting near an older person's hands in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "long, curly"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "pink",
+            "text": "GLAMOUR",
+            "type": "t-shirt"
+          },
+          "necklace": {
+            "type": "chain",
+            "pendant": "nameplate"
+          }
+        },
+        "expression": "smiling",
+        "pose": "seated, leaning forward",
+        "accessories": {
+          "bracelet": "beaded, on left wrist"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

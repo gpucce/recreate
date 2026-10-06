@@ -1,0 +1,227 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        580.0
+      ],
+      "mask": "image_4.masks/building_0.png",
+      "crop": null,
+      "description": "A large, multi-story red brick building with a symmetrical facade featuring rows of white-framed arched windows on the upper level and rectangular windows on the lower level. A central entrance with a wooden double door is topped by a white pediment and a small decorative element, set against the red brick wall.",
+      "attributes": {
+        "material": "red brick",
+        "color": "red",
+        "architecture_style": "classical or institutional",
+        "windows": {
+          "frame_color": "white",
+          "shape": "arched on top floor, rectangular on bottom",
+          "arrangement": "symmetrical rows"
+        },
+        "entrance": {
+          "door": "wooden, double",
+          "surround": "white pediment and trim",
+          "position": "center"
+        },
+        "floors_visible": 2,
+        "condition": "well-maintained"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        532.0,
+        584.0,
+        836.0,
+        760.0
+      ],
+      "mask": "image_4.masks/notebook_0.png",
+      "crop": null,
+      "description": "A yellow spiral-bound notebook is held open by a person wearing a blue hoodie, with one hand gripping the bottom edge and the other writing with a purple pen on the white pages. The notebook features a silver metal coil binding and is positioned in the person's lap or hands.",
+      "attributes": {
+        "object": "notebook",
+        "cover_color": "yellow",
+        "binding": "spiral",
+        "binding_color": "silver",
+        "pages": "white",
+        "state": "open",
+        "held_by": "person",
+        "person_clothing": "blue hoodie",
+        "accessory": "purple pen",
+        "action": "writing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        248.0,
+        636.0,
+        528.0,
+        780.0
+      ],
+      "mask": "image_4.masks/notebook_1.png",
+      "crop": null,
+      "description": "A brown, spiral-bound notebook is held open by a person's hands, revealing the white pages inside. The notebook has a smooth, matte cover and a silver metal spiral binding along the spine.",
+      "attributes": {
+        "object": "notebook",
+        "color": "brown",
+        "binding": "spiral",
+        "binding_color": "silver",
+        "pages": "white",
+        "state": "open",
+        "material": "matte cover",
+        "held_by": "hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.578125,
+      "box": [
+        580.0,
+        592.0,
+        612.0,
+        632.0
+      ],
+      "mask": "image_4.masks/pen_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pen",
+      "index": 1,
+      "score": 0.78125,
+      "box": [
+        584.0,
+        596.0,
+        640.0,
+        660.0
+      ],
+      "mask": "image_4.masks/pen_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        516.0,
+        194.0,
+        956.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young male with wavy brown hair stands outdoors, looking down with a focused expression while writing in a yellow spiral-bound notebook held in his left hand. He wears a bright blue hooded sweatshirt with drawstrings and blue jeans, with a black backpack strap visible over his right shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, medium length"
+        },
+        "clothing": {
+          "top": {
+            "type": "hoodie",
+            "color": "blue",
+            "details": "drawstrings, front pocket"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black",
+              "strap": "visible on right shoulder"
+            }
+          }
+        },
+        "pose": "standing, looking down",
+        "action": "writing",
+        "objects": {
+          "notebook": {
+            "color": "yellow",
+            "binding": "spiral"
+          },
+          "pen": {
+            "color": "blue"
+          }
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        128.0,
+        284.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long blonde hair stands outdoors, looking down at an open brown spiral-bound notebook held in her hands. She wears a light grey cable-knit sweater over a white collared shirt, blue jeans, and carries a black backpack on her left shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light grey",
+            "pattern": "cable-knit",
+            "layer": "over white collared shirt"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "backpack": {
+              "color": "black",
+              "strap": "visible on left shoulder"
+            },
+            "earrings": "small stud",
+            "ring": "on left ring finger"
+          }
+        },
+        "pose": "standing, holding open notebook with both hands, head tilted downward",
+        "expression": "focused, neutral",
+        "object_in_hand": {
+          "type": "notebook",
+          "cover_color": "brown",
+          "binding": "spiral",
+          "state": "open"
+        },
+        "background": "outdoor, brick building with white-framed windows"
+      },
+      "parse_ok": true
+    }
+  ]
+}

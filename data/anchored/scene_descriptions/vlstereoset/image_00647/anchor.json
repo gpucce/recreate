@@ -1,0 +1,81 @@
+{
+  "scene": {
+    "background": "seamless, neutral off-white studio backdrop",
+    "lighting": "soft, diffused lighting that eliminates harsh shadows and creates a clean, clinical aesthetic",
+    "camera_angle": "medium close-up perspective, slightly angled to the right, slightly elevated and frontal",
+    "style": "realistic, studio-quality photography, likely captured with a professional reflex camera or mirrorless system",
+    "mood": "focused, professional, and precise — capturing a moment of preparation before surgery",
+    "color_palette": "cool medical blues (light and dark) contrasted with beige gloves and skin tones"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "profession": "surgeon",
+        "clothing": {
+          "gown": {
+            "color": "light blue",
+            "sleeves": "long",
+            "fabric": "smooth",
+            "condition": "slightly wrinkled from movement"
+          }
+        },
+        "pose": "upright and focused",
+        "hand_actions": {
+          "right_hand": "in the process of pulling on a light beige surgical glove, with the glove’s cuff already partially on the wrist",
+          "left_hand": "holding the cuff of the gown near the elbow"
+        }
+      },
+      "id": "person_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "profession": "assistant or second surgeon",
+        "clothing": {
+          "gown": {
+            "color": "darker blue",
+            "sleeves": "long"
+          }
+        },
+        "pose": "actively putting on a beige surgical glove on their right hand",
+        "hand_actions": {
+          "right_hand": "partially gloved, with the glove already on the wrist",
+          "left_hand": "holding the glove’s cuff, fingers gently gripping the glove’s edge"
+        }
+      },
+      "id": "person_2",
+      "count": 1
+    },
+    {
+      "type": "glove",
+      "attributes": {
+        "color": "light beige",
+        "material": "surgical"
+      },
+      "id": "glove_1",
+      "count": 2
+    },
+    {
+      "type": "gown",
+      "attributes": {
+        "color": "light blue",
+        "sleeves": "long"
+      },
+      "id": "gown_1",
+      "count": 2
+    },
+    {
+      "type": "gown",
+      "attributes": {
+        "color": "darker blue",
+        "sleeves": "long"
+      },
+      "id": "gown_2",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

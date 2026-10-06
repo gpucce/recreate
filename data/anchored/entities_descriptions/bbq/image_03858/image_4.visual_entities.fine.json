@@ -1,0 +1,118 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        2.0,
+        348.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/grass_0.png",
+      "crop": null,
+      "description": "A person is holding a rugby ball with both hands, wearing a green and black sports jersey with the brand 'Vipon' and a team logo on the chest. The background is a blurred grassy field, suggesting an outdoor sports setting.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green and black sports jersey",
+          "brand": "Vipon",
+          "logo": "team emblem on chest"
+        },
+        "pose": "holding a rugby ball with both hands",
+        "object": {
+          "type": "rugby ball",
+          "color": "white with red and blue stripes",
+          "text": "partially visible text on the ball"
+        },
+        "background": "blurred grassy field",
+        "lighting": "natural, possibly late afternoon or early evening"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        128.0,
+        10.0,
+        904.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a messy top bun stands facing forward, holding a white, red, and blue rugby ball with both hands at waist level. She wears a green and black short-sleeved athletic jersey featuring a 'Vipon' logo on the right chest and a team crest on the left, with a serious, focused expression against a blurred outdoor field background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "top bun",
+          "texture": "wavy"
+        },
+        "expression": "serious, focused",
+        "clothing": {
+          "shirt": {
+            "type": "rugby jersey",
+            "colors": [
+              "green",
+              "black"
+            ],
+            "logos": [
+              "Vipon",
+              "team crest"
+            ]
+          }
+        },
+        "pose": "standing, holding ball",
+        "object": {
+          "type": "rugby ball",
+          "colors": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "text": "MAEVOLA"
+        },
+        "background": "outdoor field, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        414.0,
+        748.0,
+        664.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a rugby ball held in two hands, featuring a white surface with red and blue curved stripes. The brand name 'GILBERT' is prominently displayed in black text, along with a yellow logo and the text '1150g' and '400ml'. The ball appears to be made of a textured material suitable for grip.",
+      "attributes": {
+        "brand": "Gilbert",
+        "colors": [
+          "white",
+          "red",
+          "blue",
+          "black",
+          "yellow"
+        ],
+        "text": [
+          "GILBERT",
+          "1150g",
+          "400ml"
+        ],
+        "material": "textured rubber or synthetic",
+        "shape": "oval",
+        "held_by": "two hands"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        2.0,
+        728.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "A person wearing a white long-sleeved shirt is writing in an open notebook with a blue pen, their hands resting on the pages. The notebook is placed on a marble-patterned desk next to a laptop and a smartphone.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "sleeves": "long"
+        },
+        "action": "writing",
+        "objects": {
+          "notebook": {
+            "color": "white",
+            "binding": "red",
+            "pages": "lined"
+          },
+          "pen": {
+            "color": "blue",
+            "type": "ballpoint"
+          },
+          "laptop": {
+            "color": "silver",
+            "position": "left side"
+          },
+          "smartphone": {
+            "color": "black",
+            "position": "top left corner"
+          }
+        },
+        "surface": {
+          "material": "marble",
+          "pattern": "gray and white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        146.0,
+        672.0,
+        248.0,
+        904.0
+      ],
+      "mask": "image_1.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen with a silver clip and silver band is held in a person's right hand, poised over a white surface. The pen has a conical silver tip and is gripped between the thumb and index finger.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": {
+          "body": "blue",
+          "clip": "silver",
+          "band": "silver",
+          "tip": "silver"
+        },
+        "material": {
+          "body": "plastic",
+          "hardware": "metal"
+        },
+        "finish": "glossy",
+        "action": "writing",
+        "hand": "right",
+        "grip": "tripod"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        122.0,
+        62.0,
+        1008.0,
+        1000.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with dark hair pulled up into a messy bun is wearing black-rimmed glasses and a white long-sleeved sweatshirt. She is seated at a table, looking down with a focused expression while writing in an open notebook with a blue pen.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "top bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "action": "writing",
+        "expression": "focused",
+        "objects": {
+          "pen": {
+            "color": "blue"
+          },
+          "notebook": {
+            "state": "open"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        -1.0,
+        56.0,
+        95.5,
+        708.0
+      ],
+      "mask": "image_1.masks/tripod_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a tripod with thin, dark legs extending upward against a light-colored wall. The structure appears to be made of metal or dark wood, with a central vertical column and angled legs visible in the lower portion of the frame.",
+      "attributes": {
+        "object_type": "tripod",
+        "color": "dark grey or black",
+        "material": "metal or wood",
+        "structure": "three-legged stand with central column",
+        "focus": "blurry/out of focus",
+        "position": "standing upright against a wall",
+        "visibility": "partial view, cropped"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window_or_door",
+      "index": 0,
+      "score": 0.6328125,
+      "box": [
+        856.0,
+        -1.5,
+        1024.0,
+        226.0
+      ],
+      "mask": "image_1.masks/window_or_door_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a window frame corner featuring a medium-brown wooden border surrounding a pane of frosted or textured glass. The glass appears opaque and light gray, with faint vertical lines suggesting a mullion or pane division, while the wood grain is indistinct due to the blur.",
+      "attributes": {
+        "frame": {
+          "material": "wood",
+          "color": "medium brown",
+          "shape": "rectangular corner"
+        },
+        "glass": {
+          "type": "frosted or textured",
+          "color": "light gray",
+          "opacity": "opaque"
+        },
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window_or_door",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        255.0,
+        0.0,
+        600.0,
+        400.0
+      ],
+      "mask": "image_1.masks/window_or_door_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus wooden door with a medium brown finish and a round, metallic doorknob is visible in the background on the left side.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "hardware": {
+          "doorknob": "round, metallic, silver"
+        },
+        "focus": "blurred",
+        "position": "background left"
+      },
+      "parse_ok": true
+    }
+  ]
+}

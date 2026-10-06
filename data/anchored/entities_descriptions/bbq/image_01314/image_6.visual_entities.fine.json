@@ -1,0 +1,446 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        556.0,
+        1024.0,
+        1004.0
+      ],
+      "mask": "image_6.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with horizontal slats, featuring a natural wood grain and light brown color, is partially visible behind two seated individuals. The bench appears to be made of solid wood with a smooth finish and is positioned against a plain white background.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "design": "horizontal slats",
+        "finish": "smooth",
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        480.0,
+        164.0,
+        928.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "An older woman with long, straight gray hair sits on a wooden bench, wearing a light pink cardigan over a white t-shirt and beige pants. She holds a black smartphone in both hands, looking at the screen with a focused, slightly surprised expression, while a man beside her points at the phone.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "gray",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "pink",
+            "material": "knit"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "focused/surprised",
+        "accessories": {
+          "phone": "black smartphone"
+        },
+        "context": "being assisted by a younger man"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        78.0,
+        92.0,
+        912.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a beard sits on a wooden bench, wearing a blue and white checkered shirt over a white t-shirt and blue jeans. He is smiling and pointing at a smartphone held by an older woman next to him, with his arm around her shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "beard",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "checkered",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "undershirt": {
+            "color": "white"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, pointing at phone, arm around companion",
+        "action": "interacting with smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        608.0,
+        508.0,
+        696.0,
+        612.0
+      ],
+      "mask": "image_6.masks/smartphone_0.png",
+      "crop": null,
+      "description": "A close-up view of the back of a black smartphone held in a person's hand, showing a single camera lens in the top left corner and a matte finish on the device's surface.",
+      "attributes": {
+        "color": "black",
+        "material": "matte plastic or glass",
+        "camera": {
+          "lens_count": 1,
+          "position": "top_left"
+        },
+        "orientation": "vertical",
+        "held_by": "hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        888.0,
+        560.0,
+        1024.0,
+        640.0
+      ],
+      "mask": "image_6.masks/wood_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a rich, medium-brown color and prominent, swirling grain patterns. The wood features a distinct knot on the right side, surrounded by concentric rings, and a smooth, polished finish.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "grain_pattern": "swirling, prominent",
+        "features": [
+          "knot",
+          "concentric rings"
+        ],
+        "finish": "smooth, polished",
+        "texture": "natural wood grain"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 1,
+      "score": 0.66015625,
+      "box": [
+        856.0,
+        956.0,
+        1024.0,
+        1004.0
+      ],
+      "mask": "image_6.masks/wood_1.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a rich, warm brown tone and visible grain patterns, including knots and streaks that suggest natural wood. The wood appears to be part of a piece of furniture or flooring, with a smooth finish and a slight sheen reflecting light.",
+      "attributes": {
+        "color": "warm brown",
+        "texture": "smooth with visible grain",
+        "grain_pattern": "natural with knots and streaks",
+        "finish": "slight sheen",
+        "material": "wood",
+        "context": "part of furniture or flooring"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 2,
+      "score": 0.6015625,
+      "box": [
+        -2.25,
+        916.0,
+        82.0,
+        932.0
+      ],
+      "mask": "image_6.masks/wood_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 3,
+      "score": 0.83984375,
+      "box": [
+        -1.0,
+        672.0,
+        180.0,
+        752.0
+      ],
+      "mask": "image_6.masks/wood_3.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden surface with visible grain patterns and a prominent knot in the center. The wood has a smooth finish and is partially covered by a blue and white checkered cloth on the right side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "smooth",
+        "grain": "visible",
+        "knot": "present",
+        "covering": "blue and white checkered cloth"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 4,
+      "score": 0.63671875,
+      "box": [
+        4.0,
+        668.0,
+        1020.0,
+        756.0
+      ],
+      "mask": "image_6.masks/wood_4.png",
+      "crop": null,
+      "description": "A close-up of a wooden surface with a light brown color and visible grain patterns, including knots and lines that run horizontally across the image. The wood appears to be part of a larger structure, possibly a bench or table, with a smooth finish.",
+      "attributes": {
+        "color": "light brown",
+        "texture": "smooth",
+        "grain": "visible horizontal lines and knots",
+        "material": "wood",
+        "finish": "smooth",
+        "structure": "part of a larger object, possibly a bench or table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 5,
+      "score": 0.84375,
+      "box": [
+        -2.5,
+        556.0,
+        168.0,
+        636.0
+      ],
+      "mask": "image_6.masks/wood_5.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden surface featuring a prominent, dark circular knot near the center, surrounded by concentric grain patterns that radiate outward. The wood has a smooth finish with visible horizontal grain lines and subtle variations in tone, suggesting a natural, unfinished or lightly varnished texture.",
+      "attributes": {
+        "color": "light brown",
+        "texture": "smooth",
+        "grain_pattern": "horizontal with concentric rings around knot",
+        "knot": "dark, circular, central",
+        "finish": "natural or lightly varnished",
+        "material": "wood"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 6,
+      "score": 0.5078125,
+      "box": [
+        -1.25,
+        956.0,
+        91.0,
+        1004.0
+      ],
+      "mask": "image_6.masks/wood_6.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden surface with a prominent horizontal grain pattern, featuring subtle variations in tone from pale beige to light brown. The wood appears smooth and polished, with a natural, organic texture visible throughout the grain.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown, beige",
+        "texture": "smooth, polished",
+        "grain": "horizontal, prominent",
+        "pattern": "natural, organic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 7,
+      "score": 0.59765625,
+      "box": [
+        0.0,
+        556.0,
+        1020.0,
+        1004.0
+      ],
+      "mask": "image_6.masks/wood_7.png",
+      "crop": null,
+      "description": "A wooden bench with horizontal slats, featuring a natural wood grain pattern and a warm brown tone, is visible in the background and foreground of the image. The bench appears to be made of solid wood with a smooth finish, and the slats are evenly spaced, providing a structured and sturdy seating surface.",
+      "attributes": {
+        "material": "wood",
+        "color": "brown",
+        "pattern": "natural wood grain",
+        "structure": "horizontal slats",
+        "finish": "smooth",
+        "function": "seating"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 8,
+      "score": 0.51953125,
+      "box": [
+        904.0,
+        936.0,
+        1024.0,
+        960.0
+      ],
+      "mask": "image_6.masks/wood_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 9,
+      "score": 0.54296875,
+      "box": [
+        6.0,
+        920.0,
+        1024.0,
+        1008.0
+      ],
+      "mask": "image_6.masks/wood_9.png",
+      "crop": null,
+      "description": "Two people are sitting side by side on a wooden bench, with only their lower legs and knees visible. The person on the left is wearing blue denim jeans, while the person on the right is wearing light beige or khaki pants.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "pants": "blue denim jeans"
+          },
+          "right_person": {
+            "pants": "light beige or khaki pants"
+          }
+        },
+        "setting": {
+          "surface": "wooden bench",
+          "material": "wood",
+          "color": "light brown with visible grain"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 10,
+      "score": 0.59375,
+      "box": [
+        2.0,
+        560.0,
+        1016.0,
+        640.0
+      ],
+      "mask": "image_6.masks/wood_10.png",
+      "crop": null,
+      "description": "A close-up of a wooden surface with a prominent grain pattern and a visible knot, featuring a warm, medium-brown tone and a smooth finish.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "texture": "smooth",
+        "grain": "prominent, linear",
+        "features": [
+          "knot"
+        ],
+        "finish": "polished or varnished"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 11,
+      "score": 0.5390625,
+      "box": [
+        -1.25,
+        936.0,
+        85.0,
+        960.0
+      ],
+      "mask": "image_6.masks/wood_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 12,
+      "score": 0.58984375,
+      "box": [
+        916.0,
+        916.0,
+        1024.0,
+        932.0
+      ],
+      "mask": "image_6.masks/wood_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 13,
+      "score": 0.80859375,
+      "box": [
+        876.0,
+        676.0,
+        1024.0,
+        756.0
+      ],
+      "mask": "image_6.masks/wood_13.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a medium brown color and visible horizontal grain patterns, including a small knot on the right side. The wood appears smooth and polished, with subtle variations in tone and texture.",
+      "attributes": {
+        "color": "medium brown",
+        "texture": "smooth, polished",
+        "grain": "horizontal",
+        "knots": "small, visible on the right",
+        "material": "wood"
+      },
+      "parse_ok": true
+    }
+  ]
+}

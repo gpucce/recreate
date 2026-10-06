@@ -1,0 +1,112 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        454.0,
+        60.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with blonde hair tied back in a ponytail is shown in profile, looking down with a distressed expression while pressing her fingers to her forehead. She is wearing a blue, red, and white plaid flannel shirt over a white top, seated at a white table.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "ponytail",
+          "accessory": "black hair tie"
+        },
+        "expression": "sad, distressed, or tired",
+        "pose": "sitting, head bowed, hand on forehead",
+        "clothing": {
+          "shirt": {
+            "type": "flannel",
+            "pattern": "plaid",
+            "colors": [
+              "blue",
+              "red",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          },
+          "undershirt": {
+            "color": "white"
+          }
+        },
+        "skin": "fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        -4.0,
+        46.0,
+        648.0,
+        880.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A Black woman with short, dark curly hair is seated at a table, wearing a light pink button-down shirt. She is looking down and writing in a spiral-bound notebook with a black pen, her expression focused and attentive.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown/black",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "material": "cotton-like fabric"
+          }
+        },
+        "pose": "seated, leaning slightly forward, right hand holding pen over notebook, left hand resting on table",
+        "expression": "focused, neutral, downward gaze",
+        "accessories": {
+          "pen": "black, held in right hand",
+          "notebook": "spiral-bound, white pages, open on table"
+        },
+        "context": "appears to be in a professional or counseling setting, possibly taking notes during a conversation"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        -2.0,
+        792.0,
+        848.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of two people sitting at a white table, with one person writing in a spiral-bound notebook using a black pen, while the other person, wearing a plaid shirt, rests their arms on the table.",
+      "attributes": {
+        "clothing": {
+          "shirt": "plaid, blue, red, and white"
+        },
+        "pose": "sitting, writing, resting arms",
+        "object": {
+          "notebook": "spiral-bound, white pages",
+          "pen": "black"
+        },
+        "surface": "white table"
+      },
+      "parse_ok": true
+    }
+  ]
+}

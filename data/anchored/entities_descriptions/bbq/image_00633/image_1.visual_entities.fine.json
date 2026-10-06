@@ -1,0 +1,225 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a black interior is shown from the side, with the driver's side window open. Inside, a young woman with shoulder-length brown hair sits in the passenger seat holding a paper coffee cup, while a young man with short blonde hair drives, both wearing white shirts and seatbelts.",
+      "attributes": {
+        "exterior": {
+          "color": "red",
+          "window": "open"
+        },
+        "interior": {
+          "color": "black",
+          "seats": "black with red stitching",
+          "steering_wheel": "black",
+          "gear_shift": "black"
+        },
+        "occupants": {
+          "driver": {
+            "gender": "male",
+            "age": "young adult",
+            "hair": "blonde, short",
+            "clothing": {
+              "shirt": "white, long-sleeved, button-down",
+              "pants": "blue jeans"
+            },
+            "accessories": {
+              "watch": "black band on left wrist"
+            },
+            "pose": "driving, hands on steering wheel"
+          },
+          "passenger": {
+            "gender": "female",
+            "age": "young adult",
+            "hair": "brown, shoulder-length, wavy",
+            "clothing": {
+              "top": "white, v-neck"
+            },
+            "accessories": {
+              "necklace": "thin chain with small pendant",
+              "ring": "on left ring finger",
+              "watch": "black band on left wrist"
+            },
+            "pose": "sitting, holding coffee cup in right hand",
+            "expression": "neutral, looking forward"
+          }
+        },
+        "objects": {
+          "coffee_cup": {
+            "material": "paper",
+            "lid": "white plastic",
+            "color": "brown"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        450.0,
+        608.0,
+        580.0,
+        720.0
+      ],
+      "mask": "image_1.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A close-up view of a disposable paper coffee cup held in a person's hand, featuring a light brown kraft paper body and a white plastic lid with a raised rim and sipping area. The hand grips the lower portion of the cup, with fingers visible wrapping around the side.",
+      "attributes": {
+        "object_type": "disposable coffee cup",
+        "body_color": "light brown",
+        "body_material": "paper",
+        "lid_color": "white",
+        "lid_material": "plastic",
+        "lid_features": "raised rim, sipping hole",
+        "holding": "hand grip",
+        "hand_position": "lower half of cup",
+        "visible_parts": "cup body, lid, fingers",
+        "function": "beverage container",
+        "culture_specific": "common in coffee shops and takeout settings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        426.0,
+        194.0,
+        1032.0,
+        920.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with wavy blonde hair sits in the driver's seat of a car, wearing a white button-down shirt with sleeves rolled up and blue jeans. He is looking forward with a neutral expression, hands on the steering wheel, while a passenger's hand holding a coffee cup is visible in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "medium",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "watch": "black band on left wrist",
+            "seatbelt": "grey"
+          }
+        },
+        "pose": "sitting, driving",
+        "expression": "neutral, focused",
+        "context": "inside a car, driver's seat"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.84765625,
+      "box": [
+        -4.0,
+        240.0,
+        596.0,
+        880.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length wavy brown hair is seated in the passenger seat of a car, wearing a white V-neck top and a black seatbelt. She is holding a disposable coffee cup with a white lid in her right hand, which features a ring on the ring finger and a watch on the wrist, while looking forward with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": "white V-neck shirt",
+          "accessories": [
+            "black seatbelt",
+            "silver ring",
+            "black watch",
+            "necklace"
+          ]
+        },
+        "pose": "sitting in car",
+        "action": "holding coffee cup",
+        "expression": "neutral",
+        "location": "inside vehicle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ring",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        544.0,
+        744.0,
+        560.0,
+        776.0
+      ],
+      "mask": "image_1.masks/ring_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "watch",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        996.0,
+        464.0,
+        1024.0,
+        520.0
+      ],
+      "mask": "image_1.masks/watch_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "watch",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        460.0,
+        836.0,
+        500.0,
+        860.0
+      ],
+      "mask": "image_1.masks/watch_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

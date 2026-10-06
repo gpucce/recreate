@@ -1,0 +1,206 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        528.0,
+        216.0,
+        800.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with voluminous dark curly hair stands on a sidewalk holding a young child in her arms. She wears a purple tank top and blue jeans, while the child is dressed in an orange t-shirt, blue jeans, and black sneakers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "purple"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "hem": "rolled up"
+          },
+          "accessories": {
+            "necklace": "thin chain with pendant"
+          }
+        },
+        "pose": "standing, holding a child",
+        "held_object": {
+          "type": "child",
+          "clothing": {
+            "top": "orange t-shirt",
+            "bottom": "blue jeans",
+            "shoes": "black sneakers with white soles"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        238.0,
+        246.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with long blonde hair holds a young girl with light brown hair in a pink and white gingham dress. The woman wears a light grey t-shirt and blue jeans, while the child wears white sneakers, and they are positioned outdoors against a blurred background with warm lighting.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing, holding a child",
+        "held_person": {
+          "gender": "female",
+          "age_group": "child",
+          "hair": {
+            "color": "light brown",
+            "style": "ponytail"
+          },
+          "clothing": {
+            "dress": {
+              "pattern": "gingham",
+              "colors": [
+                "pink",
+                "white"
+              ]
+            },
+            "shoes": {
+              "type": "sneakers",
+              "color": "white"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        211.0,
+        250.0,
+        452.0,
+        784.0
+      ],
+      "mask": "image_14.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling woman with long blonde hair holds a young girl with light brown hair in a high ponytail. The woman wears a white tank top and blue jeans, while the girl is dressed in a pink and white gingham dress with ruffled straps and white sneakers.",
+      "attributes": {
+        "group": {
+          "adult": {
+            "gender": "female",
+            "age_group": "adult",
+            "hair": {
+              "color": "blonde",
+              "length": "long"
+            },
+            "expression": "smiling",
+            "clothing": {
+              "top": {
+                "type": "tank top",
+                "color": "white"
+              },
+              "bottom": {
+                "type": "jeans",
+                "color": "blue"
+              }
+            },
+            "pose": "holding child"
+          },
+          "child": {
+            "gender": "female",
+            "age_group": "toddler",
+            "hair": {
+              "color": "light brown",
+              "style": "ponytail"
+            },
+            "expression": "neutral",
+            "clothing": {
+              "dress": {
+                "pattern": "gingham",
+                "colors": [
+                  "pink",
+                  "white"
+                ],
+                "details": "ruffled straps"
+              },
+              "shoes": {
+                "type": "sneakers",
+                "color": "white"
+              }
+            },
+            "pose": "being held"
+          }
+        },
+        "background": {
+          "lighting": "sunset",
+          "setting": "outdoor"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9609375,
+      "box": [
+        488.0,
+        248.0,
+        648.0,
+        784.0
+      ],
+      "mask": "image_14.masks/person_3.png",
+      "crop": null,
+      "description": "A young child with curly brown hair is being held by an adult, wearing an orange t-shirt, blue jeans, and black sneakers with white soles. The child has a neutral expression and is looking slightly to the side.",
+      "attributes": {
+        "gender": "male",
+        "age": "toddler",
+        "ethnicity": "caucasian",
+        "social_role": "child",
+        "clothing": {
+          "shirt": "orange t-shirt",
+          "pants": "blue jeans",
+          "shoes": "black sneakers with white soles"
+        },
+        "hair": "curly brown",
+        "pose": "being held",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    }
+  ]
+}

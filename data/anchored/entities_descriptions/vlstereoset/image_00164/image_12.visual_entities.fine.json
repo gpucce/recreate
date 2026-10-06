@@ -1,0 +1,72 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        86.0,
+        316.0,
+        696.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with dark hair holding a newborn baby in her arms, kissing the baby's cheek. The baby has dark hair and is wearing a cream-colored ribbed long-sleeve onesie, looking to the side with an open mouth. The woman is wearing a light beige top and has her eyes closed in a tender expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair_color": "dark brown",
+        "hair_length": "long",
+        "clothing": {
+          "top": "light beige, soft material"
+        },
+        "action": "kissing baby",
+        "expression": "tender, affectionate",
+        "baby": {
+          "age": "newborn",
+          "hair_color": "dark",
+          "clothing": "cream ribbed onesie",
+          "expression": "alert, mouth open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        94.0,
+        50.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair is shown in profile, gently kissing the forehead of a newborn baby she is holding. The woman wears a light beige, long-sleeved top, and the baby is dressed in a matching cream-colored ribbed onesie.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "beige",
+            "sleeves": "long"
+          }
+        },
+        "pose": "holding a baby",
+        "action": "kissing baby's forehead",
+        "expression": "tender, eyes closed",
+        "skin_tone": "fair"
+      },
+      "parse_ok": true
+    }
+  ]
+}

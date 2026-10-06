@@ -1,0 +1,469 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.8125,
+      "box": [
+        0.5,
+        -2.0,
+        228.0,
+        968.0
+      ],
+      "mask": "image_2.masks/building_0.png",
+      "crop": null,
+      "description": "A close-up view of a red brick building facade featuring two dark-framed windows with light gray concrete sills. The bricks are laid in a running bond pattern with visible mortar lines, and a smooth concrete foundation runs along the base of the wall adjacent to a concrete sidewalk.",
+      "attributes": {
+        "material": {
+          "wall": "red brick",
+          "window_frame": "dark metal or painted wood",
+          "sill": "light gray concrete",
+          "foundation": "smooth gray concrete",
+          "sidewalk": "concrete"
+        },
+        "color": {
+          "brick": "reddish-brown",
+          "window_frame": "dark gray or black",
+          "sill": "light gray",
+          "foundation": "medium gray"
+        },
+        "structure": {
+          "window": "rectangular, double-hung style",
+          "brick_pattern": "running bond",
+          "foundation": "solid concrete base"
+        },
+        "condition": "clean, well-maintained",
+        "perspective": "low angle, close-up, diagonal view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.74609375,
+      "box": [
+        864.0,
+        -2.0,
+        1024.0,
+        284.0
+      ],
+      "mask": "image_2.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a multi-story building with a reddish-brown brick facade, featuring vertical rectangular windows on the upper floors and a blue awning over the ground-level storefront.",
+      "attributes": {
+        "building_type": "multi-story commercial or mixed-use",
+        "facade_material": "brick",
+        "facade_color": "reddish-brown",
+        "windows": {
+          "shape": "rectangular",
+          "orientation": "vertical",
+          "arrangement": "row on upper floor"
+        },
+        "awning": {
+          "color": "blue",
+          "location": "ground floor"
+        },
+        "focus": "blurry/out-of-focus",
+        "foreground_element": "tree branch (left edge)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.5546875,
+      "box": [
+        243.0,
+        2.0,
+        432.0,
+        544.0
+      ],
+      "mask": "image_2.masks/building_2.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length wavy brown hair is shown in profile facing right, wearing a blue denim jacket over a light blue button-down shirt and a thick, beige knitted scarf wrapped around her neck. She has a black backpack strap visible on her shoulder and is wearing a black belt with a silver buckle.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "blue"
+          },
+          "inner_layer": {
+            "type": "button-down shirt",
+            "color": "light blue"
+          },
+          "accessories": {
+            "scarf": {
+              "color": "beige",
+              "material": "knitted",
+              "style": "thick, wrapped"
+            },
+            "bag": {
+              "type": "backpack",
+              "strap_color": "black"
+            },
+            "belt": {
+              "color": "black",
+              "buckle": "silver"
+            }
+          }
+        },
+        "pose": "standing, profile view facing right",
+        "background": "blurred urban street scene"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.6171875,
+      "box": [
+        748.0,
+        -1.0,
+        828.0,
+        255.0
+      ],
+      "mask": "image_2.masks/building_3.png",
+      "crop": null,
+      "description": "A close-up, partial view of a person with dark, curly hair and a mustache, wearing a light grey hooded sweatshirt and a dark backpack strap, set against a heavily blurred background of a building facade and a tree trunk.",
+      "attributes": {
+        "entity_type": "person",
+        "visible_parts": [
+          "left eye",
+          "nose",
+          "mouth",
+          "chin",
+          "hair",
+          "shoulder"
+        ],
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "style": "medium length"
+        },
+        "facial_hair": {
+          "mustache": "present"
+        },
+        "clothing": {
+          "hoodie": {
+            "color": "light grey",
+            "type": "pullover"
+          },
+          "accessories": {
+            "backpack_strap": {
+              "color": "dark blue or black"
+            }
+          }
+        },
+        "background": {
+          "focus": "blurred",
+          "elements": [
+            "building facade",
+            "tree trunk"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        940.0,
+        274.0,
+        1024.0,
+        322.0
+      ],
+      "mask": "image_2.masks/car_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        844.0,
+        294.0,
+        1004.0,
+        524.0
+      ],
+      "mask": "image_2.masks/car_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of the front right corner of a dark-colored car, showing a headlight with an amber reflector and a portion of the front bumper, positioned next to a blurred white car in the background.",
+      "attributes": {
+        "color": "dark",
+        "part": "front corner",
+        "features": [
+          "headlight",
+          "amber reflector",
+          "bumper"
+        ],
+        "focus": "blurry",
+        "position": "foreground right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 2,
+      "score": 0.90625,
+      "box": [
+        924.0,
+        316.0,
+        1024.0,
+        596.0
+      ],
+      "mask": "image_2.masks/car_2.png",
+      "crop": null,
+      "description": "A close-up, blurry view of the side profile of a dark gray or black car, showing the front fender, side mirror, and part of the front wheel. The car appears to be parked next to a wooden bench or structure.",
+      "attributes": {
+        "color": "dark gray/black",
+        "part_visible": [
+          "front fender",
+          "side mirror",
+          "front wheel",
+          "door handle"
+        ],
+        "material": "metallic paint",
+        "condition": "blurry",
+        "position": "parked",
+        "adjacent_object": "wooden bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car",
+      "index": 3,
+      "score": 0.54296875,
+      "box": [
+        524.0,
+        278.0,
+        588.0,
+        350.0
+      ],
+      "mask": "image_2.masks/car_3.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred, out-of-focus section of a car, with indistinct shapes and colors suggesting a light-colored body and a dark window or interior area. The lack of focus makes it impossible to discern specific details about the car's make, model, or features.",
+      "attributes": {
+        "focus": "blurred",
+        "color": "light-colored body, dark interior/window",
+        "details": "indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        560.0,
+        84.0,
+        856.0,
+        988.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly dark hair and a light beard walks forward on a sidewalk, holding a white and red cane in his right hand. He wears a grey zip-up hoodie over a black t-shirt, light blue jeans, and black sneakers, with a black backpack strapped to his shoulders.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_hair": "light beard",
+        "clothing": {
+          "top": "grey zip-up hoodie",
+          "bottom": "light blue jeans",
+          "shoes": "black sneakers with white soles"
+        },
+        "accessories": {
+          "backpack": "black",
+          "cane": "white with red lower section"
+        },
+        "pose": "walking",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        258.0,
+        152.0,
+        560.0,
+        1016.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length wavy brown hair walks forward on a city sidewalk, wearing a blue denim jacket over a light blue button-down shirt, dark blue jeans with rolled-up cuffs, and black high-top sneakers. She has a thick, beige knitted scarf wrapped around her neck and is carrying a black backpack.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "blue",
+            "sleeves": "rolled up"
+          },
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue"
+          },
+          "accessories": {
+            "scarf": {
+              "color": "beige",
+              "material": "knitted",
+              "style": "thick, wrapped"
+            },
+            "bag": {
+              "type": "backpack",
+              "color": "black"
+            }
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "dark blue",
+            "cuffs": "rolled up"
+          },
+          "footwear": {
+            "type": "sneakers",
+            "color": "black and white",
+            "style": "high-top"
+          }
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "location": "outdoor sidewalk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.66015625,
+      "box": [
+        504.0,
+        290.0,
+        536.0,
+        346.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        800.0,
+        -2.0,
+        912.0,
+        616.0
+      ],
+      "mask": "image_2.masks/tree_0.png",
+      "crop": null,
+      "description": "A vertical section of a tree trunk with rough, textured bark in shades of brown and gray, positioned in the foreground with a blurred background featuring a street scene including a car and a building.",
+      "attributes": {
+        "bark": {
+          "color": "brown and gray",
+          "texture": "rough"
+        },
+        "position": "foreground",
+        "background": {
+          "focus": "blurred",
+          "elements": [
+            "car",
+            "building",
+            "street"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.5390625,
+      "box": [
+        446.0,
+        58.0,
+        588.0,
+        286.0
+      ],
+      "mask": "image_2.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus background featuring the dark, bare branches of a deciduous tree extending upwards against a pale, overcast sky. The tree is situated behind a woman in the foreground, with a yellow traffic sign visible in the mid-ground.",
+      "attributes": {
+        "type": "deciduous",
+        "state": "bare, leafless",
+        "color": "dark brown, black",
+        "focus": "out of focus, blurry",
+        "position": "background",
+        "season": "winter, late autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.67578125,
+      "box": [
+        500.0,
+        0.0,
+        828.0,
+        298.0
+      ],
+      "mask": "image_2.masks/tree_2.png",
+      "crop": null,
+      "description": "A young man with dark, voluminous curly hair stands outdoors, wearing a light grey zip-up hoodie with white drawstrings and a black backpack. He has a neutral expression and is looking off to the side, set against a blurred background of bare trees and a street scene.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "hoodie": {
+            "color": "grey",
+            "type": "zip-up",
+            "drawstrings": "white"
+          },
+          "backpack": {
+            "color": "black",
+            "straps": "visible on shoulders"
+          }
+        },
+        "pose": "standing, facing slightly right",
+        "expression": "neutral",
+        "background": "outdoor, blurred trees, street"
+      },
+      "parse_ok": true
+    }
+  ]
+}

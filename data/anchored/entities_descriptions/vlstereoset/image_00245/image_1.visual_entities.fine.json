@@ -1,0 +1,121 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        174.0,
+        362.0,
+        800.0,
+        920.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A baby with dark skin and short, curly black hair is lying on its back, wearing a white ribbed bodysuit and white socks. The baby has its mouth open in an expression of surprise or excitement, with one arm raised and the other bent, while an adult's hand rests gently on its belly.",
+      "attributes": {
+        "age": "infant",
+        "gender": "unknown",
+        "ethnicity": "mixed or Black",
+        "hair": {
+          "color": "black",
+          "texture": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "bodysuit": {
+            "color": "white",
+            "material": "ribbed cotton"
+          },
+          "socks": {
+            "color": "white"
+          }
+        },
+        "pose": "lying on back",
+        "expression": "mouth open, eyes wide, appearing surprised or happy",
+        "skin_tone": "dark brown",
+        "position": "centered in frame, supported by an adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        84.0,
+        924.0,
+        980.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark curly hair and a baby with short dark hair are lying on a beige couch; the woman is wearing a light blue long-sleeved shirt and black pants, while the baby is in a white bodysuit and white socks, with the woman's hand resting on the baby's stomach and her eyes closed in a peaceful expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "clothing": {
+          "shirt": "light blue long-sleeved",
+          "pants": "black"
+        },
+        "hair": "dark curly",
+        "pose": "lying down",
+        "expression": "peaceful, eyes closed",
+        "position": "on a beige couch",
+        "baby": {
+          "clothing": {
+            "bodysuit": "white",
+            "socks": "white"
+          },
+          "hair": "short dark",
+          "pose": "lying on the woman's lap",
+          "expression": "mouth open, looking up"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        0.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/sofa_0.png",
+      "crop": null,
+      "description": "A woman with dark curly hair and a baby are lying on a light beige fabric sofa. The woman is wearing a light blue long-sleeved shirt and black pants, while the baby is dressed in a white onesie and white socks.",
+      "attributes": {
+        "sofa": {
+          "color": "light beige",
+          "material": "fabric",
+          "type": "couch"
+        },
+        "woman": {
+          "hair": "dark curly",
+          "clothing": {
+            "top": "light blue long-sleeved shirt",
+            "bottom": "black pants"
+          },
+          "pose": "lying down",
+          "expression": "eyes closed, smiling"
+        },
+        "baby": {
+          "clothing": {
+            "onesie": "white",
+            "socks": "white"
+          },
+          "pose": "lying on the woman's chest",
+          "expression": "mouth open, looking up"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

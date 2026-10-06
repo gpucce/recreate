@@ -1,0 +1,147 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "body_of_water",
+      "index": 0,
+      "score": 0.76953125,
+      "box": [
+        956.0,
+        -4.6875,
+        1808.0,
+        644.0
+      ],
+      "mask": "image_0.masks/body_of_water_0.png",
+      "crop": null,
+      "description": "A large, irregularly shaped body of water with varying shades of green and blue, surrounded by land with patches of vegetation and some developed areas. The water has a smooth surface with subtle variations in color, possibly indicating depth or sediment.",
+      "attributes": {
+        "shape": "irregular",
+        "color": "green and blue",
+        "surface": "smooth",
+        "surroundings": "land with vegetation and developed areas",
+        "depth_variation": "indicated by color changes"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "body_of_water",
+      "index": 1,
+      "score": 0.77734375,
+      "box": [
+        3.546875,
+        28.125,
+        1816.0,
+        1200.0
+      ],
+      "mask": "image_0.masks/body_of_water_1.png",
+      "crop": null,
+      "description": "A large body of water with varying shades of green and blue, surrounding a landmass with diverse vegetation and some urban areas. The water appears to have different depths or sediment levels, indicated by the color variations.",
+      "attributes": {
+        "color": [
+          "green",
+          "blue"
+        ],
+        "shape": "irregular",
+        "surrounding_land": {
+          "vegetation": "diverse",
+          "urban_areas": "present"
+        },
+        "depth_variation": "indicated by color changes"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass",
+      "index": 0,
+      "score": 0.6328125,
+      "box": [
+        1504.0,
+        464.0,
+        1816.0,
+        916.0
+      ],
+      "mask": "image_0.masks/landmass_0.png",
+      "crop": null,
+      "description": "A satellite view of a coastal landmass featuring a mix of green vegetation, agricultural fields, and developed areas, surrounded by varying shades of blue and green water.",
+      "attributes": {
+        "land_cover": [
+          "vegetation",
+          "agricultural_fields",
+          "developed_areas"
+        ],
+        "water_color": [
+          "blue",
+          "green"
+        ],
+        "coastline": "irregular",
+        "landmass_shape": "elongated"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass",
+      "index": 1,
+      "score": 0.828125,
+      "box": [
+        7.09375,
+        -2.34375,
+        1808.0,
+        1032.0
+      ],
+      "mask": "image_0.masks/landmass_1.png",
+      "crop": null,
+      "description": "A satellite view of a large, irregularly shaped landmass surrounded by dark blue water, featuring a patchwork of green vegetation and brown earth with a prominent pinkish-purple area and a small blue lake near the top center.",
+      "attributes": {
+        "shape": "irregular, peninsula-like",
+        "color": "predominantly green and brown, with a distinct pinkish-purple patch and a small blue lake",
+        "texture": "patchwork of fields and vegetation",
+        "surroundings": "enclosed by dark blue water on three sides",
+        "notable_features": [
+          "pinkish-purple area",
+          "small blue lake",
+          "coastal wetlands with light green fringes"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        956.0,
+        -4.6875,
+        1808.0,
+        644.0
+      ],
+      "mask": "image_0.masks/water_body_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A large, irregularly shaped body of water with varying shades of green and blue, indicating different depths or sediment levels. The water is surrounded by land with patches of green vegetation and some areas of lighter, possibly sandy or rocky terrain. There are visible inlets and peninsulas extending into the water, creating a complex coastline. The water appears calm, with no visible waves or ripples.\", \"attributes\": {\"color\": \"green and blue\", \"shape\": \"irregular\", \"coastline\": \"complex with inlets and peninsulas\", \"surrounding_land\": \"green vegetation and lighter terrain\", \"water_surface\": \"calm\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "water_body",
+      "index": 1,
+      "score": 0.83984375,
+      "box": [
+        0.0,
+        28.125,
+        1808.0,
+        1200.0
+      ],
+      "mask": "image_0.masks/water_body_1.png",
+      "crop": null,
+      "description": "A satellite view of a large body of water, likely a lake or sea, with varying shades of green and blue indicating different depths or sediment levels. The water is bordered by land with patches of green vegetation and some areas of lighter, possibly sandy or urban terrain. There are also some smaller water bodies or inlets visible within the main body of water.",
+      "attributes": {
+        "color": "green and blue",
+        "texture": "smooth with some variations in color",
+        "shape": "irregular with inlets and peninsulas",
+        "surroundings": "land with vegetation and possibly urban areas",
+        "type": "lake or sea"
+      },
+      "parse_ok": true
+    }
+  ]
+}

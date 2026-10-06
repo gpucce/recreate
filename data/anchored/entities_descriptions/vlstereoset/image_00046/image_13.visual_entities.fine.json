@@ -1,0 +1,105 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "couch",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        2.0,
+        434.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/couch_0.png",
+      "crop": null,
+      "description": "A person is sitting cross-legged on a gray fabric couch, wearing a light purple satin pajama set with white piping. The couch has a modern design with clean lines and a textured upholstery, and a beige throw pillow is placed on the right side.",
+      "attributes": {
+        "couch": {
+          "color": "gray",
+          "material": "fabric",
+          "style": "modern",
+          "features": [
+            "textured upholstery",
+            "clean lines"
+          ]
+        },
+        "pillow": {
+          "color": "beige",
+          "position": "right side"
+        },
+        "person": {
+          "clothing": {
+            "top": "light purple satin pajama shirt with white piping",
+            "bottoms": "light purple satin pajama pants with white piping"
+          },
+          "pose": "sitting cross-legged",
+          "hair": "curly, dark"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        142.0,
+        60.0,
+        816.0,
+        996.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with voluminous, dark curly hair and round wire-rimmed glasses sits cross-legged on a grey sofa, wearing a matching lavender satin pajama set with white piping. She has a neutral expression and is looking directly at the camera, with a vase of pink roses visible in the background to her left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "long"
+        },
+        "accessories": {
+          "glasses": "round, thin metal frame"
+        },
+        "clothing": {
+          "type": "pajama set",
+          "material": "satin",
+          "color": "lavender",
+          "details": "white piping on collar, cuffs, and pocket",
+          "top": "button-down shirt",
+          "bottom": "long pants"
+        },
+        "pose": "sitting cross-legged",
+        "expression": "neutral",
+        "location": "on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        860.0,
+        532.0,
+        1024.0,
+        940.0
+      ],
+      "mask": "image_13.masks/pillow_0.png",
+      "crop": null,
+      "description": "A close-up view of a square, cream-colored throw pillow with a subtle, tonal floral embroidery pattern on its surface. The pillow is positioned at an angle, leaning against a textured, dark gray fabric background, likely a sofa or headboard.",
+      "attributes": {
+        "color": "cream",
+        "shape": "square",
+        "material": "textured fabric",
+        "pattern": "tonal floral embroidery",
+        "position": "angled, leaning",
+        "background": "dark gray textured fabric"
+      },
+      "parse_ok": true
+    }
+  ]
+}

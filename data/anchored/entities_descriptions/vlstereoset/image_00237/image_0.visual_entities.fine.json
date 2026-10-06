@@ -1,0 +1,209 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "bag",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        318.0,
+        34.75,
+        376.0,
+        90.0
+      ],
+      "mask": "image_0.masks/bag_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        0.60546875,
+        -2.90625,
+        126.0,
+        266.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy is captured in motion running on a grassy field marked with white lines, wearing a red long-sleeved shirt with dark blue sleeves and white text on the chest, paired with grey plaid shorts and black socks.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "pose": "running",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "red",
+            "sleeves": "dark blue",
+            "details": "white text on chest"
+          },
+          "bottom": {
+            "type": "shorts",
+            "pattern": "plaid",
+            "color": "grey"
+          },
+          "footwear": {
+            "type": "socks",
+            "color": "black"
+          }
+        },
+        "background": "green grass field with white lines"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        1064.0,
+        -1.453125,
+        1208.0,
+        258.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A person is captured mid-stride running on a grassy field, wearing a grey t-shirt, dark blue athletic shorts with red accents, and red sneakers. The individual's face is not visible, and the background is blurred, showing green grass and a white line.",
+      "attributes": {
+        "gender": "unknown",
+        "age": "adult",
+        "ethnicity": "unknown",
+        "social_role": "athlete",
+        "clothing": {
+          "shirt": "grey t-shirt",
+          "shorts": "dark blue athletic shorts with red accents",
+          "shoes": "red sneakers"
+        },
+        "pose": "running",
+        "location": "outdoors on a grassy field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.66015625,
+      "box": [
+        0.6640625,
+        39.5,
+        9.75,
+        135.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        173.0,
+        -1.453125,
+        304.0,
+        352.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A person is captured from the neck down, running on a green grass field with white painted lines. They are wearing a white long-sleeved shirt with sleeves rolled up, orange shorts, and dark socks with black shoes.",
+      "attributes": {
+        "clothing": {
+          "top": {
+            "type": "shirt",
+            "color": "white",
+            "sleeves": "long, rolled up"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "orange"
+          },
+          "footwear": {
+            "socks": "dark grey",
+            "shoes": "black"
+          }
+        },
+        "pose": "running",
+        "location": "grass field",
+        "background": "green grass with white lines"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9609375,
+      "box": [
+        912.0,
+        -1.453125,
+        1008.0,
+        196.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A person is captured in motion, running on a green grass field with white painted lines, wearing a light grey t-shirt, white athletic shorts, black socks, and black cleats.",
+      "attributes": {
+        "clothing": {
+          "top": "light grey t-shirt",
+          "bottom": "white athletic shorts",
+          "footwear": "black cleats",
+          "socks": "black"
+        },
+        "pose": "running",
+        "action": "sprinting",
+        "location": "grass field",
+        "background": "green grass, white field lines"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.9765625,
+      "box": [
+        580.0,
+        -0.7265625,
+        756.0,
+        268.0
+      ],
+      "mask": "image_0.masks/person_5.png",
+      "crop": null,
+      "description": "A person is captured in motion running on a green grass field with white painted lines, wearing a black t-shirt with a white graphic design, light grey athletic shorts, dark grey socks, and white sneakers with blue accents. The person's right leg is extended forward while the left leg is bent behind, and their arms are swinging naturally.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "adult",
+        "pose": "running",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "black",
+            "details": "white graphic design on chest"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "light grey",
+            "style": "athletic"
+          },
+          "socks": {
+            "color": "dark grey"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white and blue"
+          }
+        },
+        "background": {
+          "surface": "green grass",
+          "markings": "white lines"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

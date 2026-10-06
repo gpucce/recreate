@@ -1,0 +1,290 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.546875,
+      "box": [
+        904.0,
+        133.0,
+        1032.0,
+        195.0
+      ],
+      "mask": "image_10.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a building with a light-colored wall and a dark horizontal line, possibly a roofline or window frame, against a pale sky. The image is heavily blurred, making specific details indistinguishable.",
+      "attributes": {
+        "blur": "extreme",
+        "color": "light beige or off-white",
+        "structure": "horizontal line visible, possibly roof or window",
+        "sky": "pale, overcast or bright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.84765625,
+      "box": [
+        -1.0,
+        -3.0,
+        276.0,
+        492.0
+      ],
+      "mask": "image_10.masks/building_1.png",
+      "crop": null,
+      "description": "A close-up of an older Black man with a gray beard and mustache, wearing a black beanie and a bright turquoise Hawaiian shirt with a floral pattern. He is looking to the right with a slight smile, and the background shows a blurred building with a red door and green awning.",
+      "attributes": {
+        "gender": "male",
+        "age": "older",
+        "ethnicity": "Black",
+        "clothing": {
+          "hat": "black beanie",
+          "shirt": "turquoise Hawaiian shirt with floral pattern"
+        },
+        "facial_hair": "gray beard and mustache",
+        "expression": "slight smile",
+        "pose": "looking to the right",
+        "background": {
+          "building": "blurred",
+          "door": "red",
+          "awning": "green"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        576.0,
+        92.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling Black man with short, curly hair and a beard stands in profile facing left, wearing a black and white varsity jacket over a white t-shirt while holding a bright pink soccer ball in his hands. The background is a blurred outdoor street scene with trees and vehicles.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short curly top, faded sides"
+        },
+        "facial_hair": "short beard and mustache",
+        "expression": "smiling",
+        "pose": "standing, profile view",
+        "clothing": {
+          "jacket": {
+            "type": "varsity",
+            "body_color": "black",
+            "sleeve_color": "white",
+            "details": "white buttons, striped collar and cuffs"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "t-shirt"
+          }
+        },
+        "accessories": {
+          "held_object": {
+            "item": "soccer ball",
+            "color": "bright pink",
+            "material": "glossy plastic"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.734375,
+      "box": [
+        414.0,
+        390.0,
+        434.0,
+        442.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        198.0,
+        568.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "An older Black man with a white beard and mustache is smiling broadly while gesturing with both hands, wearing a black beanie and a bright turquoise short-sleeved button-down shirt featuring a pattern of pink flamingos and tropical flowers. He is standing outdoors on a sunny day with a blurred street background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "white",
+          "mustache": "white"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "sleeves": "short",
+            "color": "turquoise",
+            "pattern": "flamingos and tropical flowers",
+            "pattern_colors": [
+              "pink",
+              "orange",
+              "green"
+            ]
+          }
+        },
+        "accessories": {
+          "wrist": "black watch or band"
+        },
+        "expression": "smiling",
+        "pose": "standing, gesturing with open hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.75390625,
+      "box": [
+        380.0,
+        376.0,
+        408.0,
+        472.0
+      ],
+      "mask": "image_10.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "soccer ball",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        564.0,
+        672.0,
+        788.0,
+        880.0
+      ],
+      "mask": "image_10.masks/soccer ball_0.png",
+      "crop": null,
+      "description": "A glossy, bright pink soccer ball with a standard black pentagon and hexagon panel pattern is held in a person's hand. The ball's surface is highly reflective, showing white highlights, and is positioned in front of a person wearing a black and white striped shirt.",
+      "attributes": {
+        "object": "soccer ball",
+        "color": "bright pink",
+        "pattern": "black pentagon and hexagon lines",
+        "material": "glossy synthetic leather",
+        "finish": "shiny",
+        "state": "held in hand",
+        "context": {
+          "holder": "person with dark skin",
+          "clothing": "black and white striped shirt"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        300.0,
+        123.0,
+        564.0,
+        492.0
+      ],
+      "mask": "image_10.masks/tree_0.png",
+      "crop": null,
+      "description": "An older Black man with a white beard and mustache is smiling broadly, showing his teeth. He is wearing a black beanie and a green and yellow patterned shirt.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "white",
+          "mustache": "white"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "hat": "black beanie",
+          "shirt": "green and yellow patterned"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        158.0,
+        0.0,
+        1024.0,
+        612.0
+      ],
+      "mask": "image_10.masks/tree_1.png",
+      "crop": null,
+      "description": "A mature tree with a thick, light brown trunk and rough bark texture stands in the background, its branches extending upward and outward with green leaves that are slightly blurred due to depth of field.",
+      "attributes": {
+        "trunk": {
+          "color": "light brown",
+          "texture": "rough",
+          "thickness": "thick"
+        },
+        "leaves": {
+          "color": "green",
+          "state": "slightly blurred"
+        },
+        "position": "background",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.6875,
+      "box": [
+        860.0,
+        184.0,
+        1024.0,
+        340.0
+      ],
+      "mask": "image_10.masks/tree_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a tree with dense, yellowish-green foliage illuminated by warm sunlight, set against a blurred background containing indistinct shapes and a hint of a red light.",
+      "attributes": {
+        "foliage_color": "yellowish-green",
+        "focus": "blurred",
+        "lighting": "warm, natural sunlight",
+        "background": "out-of-focus, contains indistinct structures and a red light",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,530 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "calculator",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        394.0,
+        880.0,
+        568.0,
+        936.0
+      ],
+      "mask": "image_12.masks/calculator_0.png",
+      "crop": null,
+      "description": "A black, rectangular calculator with a grid of round, light-colored buttons is positioned on a flat surface, slightly angled to the right. The device has a thick, dark casing and appears to be made of plastic, with a red object partially visible in the background.",
+      "attributes": {
+        "color": "black",
+        "shape": "rectangular",
+        "buttons": {
+          "color": "light-colored",
+          "shape": "round",
+          "arrangement": "grid"
+        },
+        "material": "plastic",
+        "position": "angled to the right",
+        "background": "red object partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        274.0,
+        836.0,
+        402.0,
+        996.0
+      ],
+      "mask": "image_12.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A white disposable coffee cup with a matching white lid sits on a white surface, featuring a ribbed texture on its body. The image is slightly out of focus, with a blurred background containing dark and light elements.",
+      "attributes": {
+        "object_type": "coffee cup",
+        "color": "white",
+        "material": "paper or plastic",
+        "lid": {
+          "present": true,
+          "color": "white"
+        },
+        "texture": "ribbed",
+        "shape": "cylindrical",
+        "focus": "blurry",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.58984375,
+      "box": [
+        892.0,
+        8.0,
+        1024.0,
+        408.0
+      ],
+      "mask": "image_12.masks/glass_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a glass partition or window in an indoor setting, featuring horizontal light fixtures and a vertical frame element. The background is indistinct with soft, muted tones of white, gray, and light blue.",
+      "attributes": {
+        "material": "glass",
+        "state": "blurry, out-of-focus",
+        "features": [
+          "horizontal light fixtures",
+          "vertical frame",
+          "indoor setting"
+        ],
+        "colors": [
+          "white",
+          "gray",
+          "light blue"
+        ],
+        "function": "partition or window"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.75,
+      "box": [
+        -1.75,
+        2.0,
+        95.0,
+        466.0
+      ],
+      "mask": "image_12.masks/glass_1.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass pane with a dark frame, likely a window or glass door, is shown in a blurry, out-of-focus state. The glass reflects a bright, horizontal light source, possibly a fluorescent tube, and the background is a soft, indistinct mix of light gray and white tones.",
+      "attributes": {
+        "object_type": "glass pane",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame": {
+          "color": "dark",
+          "material": "unknown"
+        },
+        "glass": {
+          "clarity": "blurry",
+          "reflection": "bright horizontal light",
+          "color": "light gray/white"
+        },
+        "focus": "out of focus",
+        "context": "indoor, possibly office or modern building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.72265625,
+      "box": [
+        110.0,
+        30.0,
+        354.0,
+        494.0
+      ],
+      "mask": "image_12.masks/glass_2.png",
+      "crop": null,
+      "description": "A close-up, partial view of a fair-skinned woman with blonde hair tied back, wearing a white collared shirt, positioned in the bottom right corner with her hand gesturing in the foreground against a blurred office background featuring a large window and a laptop.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "blonde",
+          "style": "tied back"
+        },
+        "clothing": {
+          "top": "white collared shirt"
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "seated, gesturing with hand",
+        "position": "bottom right",
+        "background": {
+          "setting": "office",
+          "elements": [
+            "window",
+            "laptop"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.70703125,
+      "box": [
+        404.0,
+        84.0,
+        576.0,
+        524.0
+      ],
+      "mask": "image_12.masks/glass_3.png",
+      "crop": null,
+      "description": "A close-up profile view of a young woman with light brown hair pulled back, wearing a white collared shirt and a thin headset, positioned in the foreground against a blurred office background featuring a green potted plant and glass partitions.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          }
+        },
+        "accessories": {
+          "headset": "thin, light-colored"
+        },
+        "pose": "seated, facing left",
+        "expression": "neutral, attentive",
+        "background": {
+          "setting": "office",
+          "elements": [
+            "green plant",
+            "glass wall",
+            "ceiling lights"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.68359375,
+      "box": [
+        580.0,
+        125.0,
+        716.0,
+        448.0
+      ],
+      "mask": "image_12.masks/glass_4.png",
+      "crop": null,
+      "description": "A close-up profile view of a young man with light skin and dark brown, tightly curled hair, facing to the left. The background is heavily blurred, showing indistinct light gray and white tones suggestive of a window or office interior, with a hint of green foliage in the lower left corner.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "young adult",
+        "skin_tone": "light",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "pose": "profile view facing left",
+        "expression": "neutral",
+        "background": "blurred, light gray, white, green"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        444.0,
+        820.0,
+        892.0,
+        924.0
+      ],
+      "mask": "image_12.masks/notebook_0.png",
+      "crop": null,
+      "description": "An open notebook with white pages and a reddish-brown cover lies flat on a light-colored surface, with a black pen resting across the open pages. A portion of a black calculator is visible in the lower left corner, and a hand is partially visible at the top edge of the frame.",
+      "attributes": {
+        "object": "notebook",
+        "state": "open",
+        "pages": {
+          "color": "white",
+          "content": "text lines visible"
+        },
+        "cover": {
+          "color": "reddish-brown",
+          "material": "likely leather or faux leather"
+        },
+        "accessories": {
+          "pen": {
+            "color": "black",
+            "position": "resting on open pages"
+          },
+          "calculator": {
+            "color": "black",
+            "position": "lower left, partially visible"
+          }
+        },
+        "surface": "light-colored, smooth",
+        "hand": "partially visible at top, skin tone light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        3.0,
+        608.0,
+        460.0,
+        840.0
+      ],
+      "mask": "image_12.masks/notebook_1.png",
+      "crop": null,
+      "description": "A person wearing a white button-down shirt is seated at a desk, gesturing with their hands while using a silver laptop. A black camera is placed in the foreground on the desk, and a smartphone is visible to the left of the laptop.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white",
+          "sleeves": "long"
+        },
+        "accessories": {
+          "watch": {
+            "band": "brown leather",
+            "face": "white"
+          }
+        },
+        "pose": "seated, gesturing with hands",
+        "objects": {
+          "laptop": {
+            "color": "silver",
+            "type": "notebook"
+          },
+          "camera": {
+            "color": "black",
+            "type": "DSLR"
+          },
+          "smartphone": {
+            "color": "black",
+            "position": "left of laptop"
+          }
+        },
+        "setting": "indoor, desk environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        620.0,
+        828.0,
+        700.0,
+        876.0
+      ],
+      "mask": "image_12.masks/pen_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        504.0,
+        212.0,
+        1016.0,
+        852.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and light skin is shown in profile, wearing a grey textured suit jacket over a light blue collared shirt and a dark blue tie. He is seated at a white table with his hands clasped together, looking attentively to the left with a serious expression, while an open notebook and a black pen rest on the table in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "grey",
+            "type": "suit jacket",
+            "texture": "textured"
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "collared dress shirt"
+          },
+          "tie": {
+            "color": "dark blue",
+            "type": "necktie"
+          }
+        },
+        "pose": {
+          "body": "seated",
+          "hands": "clasped on table",
+          "head": "turned to the left"
+        },
+        "expression": "serious",
+        "context": {
+          "setting": "office",
+          "objects": [
+            "open notebook",
+            "black pen",
+            "white table"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        92.0,
+        260.0,
+        524.0,
+        772.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A fair-skinned woman with blonde hair tied back in a low ponytail is seated at a desk, wearing a crisp white button-down shirt and gesturing with both hands as if explaining something. She wears a delicate necklace and a wristwatch with a brown leather strap on her left wrist, and her expression is engaged and articulate, with her mouth slightly open mid-speech.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "blonde",
+          "style": "tied back in a low ponytail"
+        },
+        "clothing": {
+          "shirt": "white, long-sleeved, button-down, collared",
+          "accessories": {
+            "necklace": "thin chain with small pendant",
+            "watch": "brown leather strap, round face"
+          }
+        },
+        "pose": "seated, leaning slightly forward, both hands raised and open in expressive gesture",
+        "expression": "engaged, speaking, focused",
+        "setting": "indoor office environment, laptop visible in foreground, blurred background with plant and furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        -3.0,
+        736.0,
+        60.25,
+        760.0
+      ],
+      "mask": "image_12.masks/smartphone_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        2.0,
+        700.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a white office table surface featuring a black DSLR camera with a red ring on the lens, a white disposable coffee cup, a black calculator, and an open notebook with a pen resting on it. In the background, two individuals are seated; one wears a white shirt and the other a grey suit jacket with a blue tie, with their hands clasped together on the table.",
+      "attributes": {
+        "table": {
+          "color": "white",
+          "material": "smooth surface",
+          "items": [
+            {
+              "object": "camera",
+              "type": "DSLR",
+              "color": "black",
+              "lens_ring": "red",
+              "position": "left foreground"
+            },
+            {
+              "object": "cup",
+              "type": "disposable coffee cup",
+              "color": "white",
+              "lid": "white",
+              "position": "center foreground"
+            },
+            {
+              "object": "calculator",
+              "color": "black",
+              "position": "center foreground"
+            },
+            {
+              "object": "notebook",
+              "state": "open",
+              "cover_color": "red",
+              "pages": "white",
+              "accessory": "black pen"
+            },
+            {
+              "object": "laptop",
+              "color": "silver",
+              "state": "open",
+              "position": "background left"
+            }
+          ]
+        },
+        "people": [
+          {
+            "position": "left background",
+            "clothing": {
+              "shirt": "white",
+              "sleeves": "long"
+            },
+            "accessories": {
+              "watch": "visible on wrist"
+            }
+          },
+          {
+            "position": "right background",
+            "clothing": {
+              "jacket": "grey suit",
+              "shirt": "light blue",
+              "tie": "dark blue"
+            },
+            "pose": "hands clasped on table"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.54296875,
+      "box": [
+        528.0,
+        524.0,
+        640.0,
+        572.0
+      ],
+      "mask": "image_12.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up view of a dark, possibly black, object with a smooth surface and a curved edge, set against a blurred background with light and dark areas.",
+      "attributes": {
+        "color": "black",
+        "shape": "curved edge",
+        "surface": "smooth",
+        "background": "blurred, light and dark areas"
+      },
+      "parse_ok": true
+    }
+  ]
+}

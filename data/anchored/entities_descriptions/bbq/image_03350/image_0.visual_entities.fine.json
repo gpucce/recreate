@@ -1,0 +1,103 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        342.0,
+        120.0,
+        632.0,
+        788.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A man with short dark hair stands in a hallway, wearing a black blazer over a white collared shirt and black skinny jeans. He is leaning against a white brick wall with his left hand, while his right arm is around another person who is partially visible on the left side of the frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "visible"
+          },
+          "pants": {
+            "color": "black",
+            "style": "skinny jeans"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "boots"
+          }
+        },
+        "pose": {
+          "action": "standing",
+          "orientation": "facing forward",
+          "interaction": "leaning on wall, arm around companion"
+        },
+        "location": "indoor hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        53.25,
+        39.5,
+        492.0,
+        772.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A tall, slender woman with blonde hair pulled back stands in a hallway, wearing a long white blazer over a black and white floral dress with red accents. She is posing with one hand on the wall and legs crossed, wearing black studded ankle boots.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "white",
+            "length": "long"
+          },
+          "dress": {
+            "pattern": "floral",
+            "colors": [
+              "black",
+              "white",
+              "red"
+            ],
+            "length": "mini"
+          },
+          "shoes": {
+            "type": "ankle boots",
+            "color": "black",
+            "detail": "studded"
+          }
+        },
+        "pose": {
+          "action": "standing",
+          "legs": "crossed",
+          "arms": "one hand on wall, other arm around companion"
+        },
+        "position": "left side of frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

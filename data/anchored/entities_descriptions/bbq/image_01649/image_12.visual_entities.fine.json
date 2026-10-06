@@ -1,0 +1,377 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        2.0,
+        592.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/alley_0.png",
+      "crop": null,
+      "description": "A young child and an adult are walking away from the camera down a wet, cobblestone alleyway, holding hands. The child is wearing a blue puffer jacket and jeans, while the adult is dressed in a dark jacket and dark pants. The alley is lined with stone walls and potted plants on either side, and the ground is reflective from recent rain.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "walls": "stone",
+          "decorations": "potted plants"
+        },
+        "child": {
+          "age": "toddler",
+          "clothing": {
+            "jacket": "blue puffer",
+            "pants": "blue jeans",
+            "shoes": "brown and white sneakers"
+          },
+          "hair": "light brown",
+          "pose": "walking"
+        },
+        "adult": {
+          "clothing": {
+            "jacket": "dark blue puffer",
+            "pants": "dark gray",
+            "shoes": "black"
+          },
+          "pose": "walking"
+        },
+        "interaction": "holding hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        242.0,
+        296.0,
+        454.0,
+        612.0
+      ],
+      "mask": "image_12.masks/building_0.png",
+      "crop": null,
+      "description": "A traditional alpine-style building featuring a lower level of light grey stone masonry and an upper level of dark brown wood paneling. The structure includes a wooden balcony with a railing and a hanging flower box containing red and orange blooms, situated next to a large green leafy bush in the foreground.",
+      "attributes": {
+        "architecture_style": "alpine",
+        "materials": {
+          "lower_wall": "stone",
+          "upper_wall": "wood",
+          "balcony": "wood"
+        },
+        "colors": {
+          "stone": "light grey",
+          "wood": "dark brown",
+          "foliage": "green",
+          "flowers": "red and orange"
+        },
+        "features": [
+          "balcony",
+          "hanging flower box",
+          "window"
+        ],
+        "condition": "weathered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        628.0,
+        -4.0,
+        1024.0,
+        748.0
+      ],
+      "mask": "image_12.masks/building_1.png",
+      "crop": null,
+      "description": "A traditional alpine-style building with a weathered wooden balcony adorned with vibrant flower boxes containing red, yellow, and white blooms. The lower facade features a mix of rough stone masonry and plastered walls, with small windows and a wooden door, and a potted plant sits on the wet cobblestone street in front.",
+      "attributes": {
+        "architecture_style": "alpine/traditional",
+        "materials": {
+          "balcony": "dark weathered wood",
+          "lower_wall": "stone masonry and plaster",
+          "door": "wooden",
+          "windows": "wooden frames"
+        },
+        "decorations": {
+          "balcony_flowers": {
+            "colors": [
+              "red",
+              "yellow",
+              "white",
+              "orange"
+            ],
+            "container": "terracotta pots"
+          },
+          "window_flowers": {
+            "colors": [
+              "red",
+              "yellow"
+            ],
+            "container": "terracotta pots"
+          },
+          "ground_plant": {
+            "container": "large terracotta pot",
+            "plant_type": "leafy green"
+          }
+        },
+        "street": {
+          "surface": "wet cobblestone",
+          "condition": "wet"
+        },
+        "person": {
+          "clothing": {
+            "jacket": "dark blue puffer"
+          },
+          "position": "left foreground, walking away",
+          "visibility": "partial (back and side)"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.59765625,
+      "box": [
+        462.0,
+        372.0,
+        516.0,
+        396.0
+      ],
+      "mask": "image_12.masks/building_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.88671875,
+      "box": [
+        -3.0,
+        -4.0,
+        376.0,
+        740.0
+      ],
+      "mask": "image_12.masks/building_3.png",
+      "crop": null,
+      "description": "A rustic stone building with a wooden balcony adorned with vibrant flower boxes, featuring a mix of orange, yellow, and white blooms. The structure has a traditional alpine architectural style, with a stone facade and wooden accents, set against a backdrop of a cobblestone street and lush greenery.",
+      "attributes": {
+        "architecture": "alpine",
+        "facade": "stone",
+        "balcony": {
+          "material": "wood",
+          "decoration": "flower boxes",
+          "flowers": {
+            "colors": [
+              "orange",
+              "yellow",
+              "white"
+            ]
+          }
+        },
+        "street": "cobblestone",
+        "surroundings": "greenery"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.8984375,
+      "box": [
+        524.0,
+        298.0,
+        732.0,
+        470.0
+      ],
+      "mask": "image_12.masks/building_4.png",
+      "crop": null,
+      "description": "A traditional alpine-style house with a steep, grey-tiled roof and dark brown wooden eaves is visible in the background, featuring a white lower wall and a small window with a wooden frame. The building is partially obscured by a person in the foreground and some green foliage with yellow flowers.",
+      "attributes": {
+        "roof": {
+          "color": "grey",
+          "material": "tiles",
+          "style": "steep pitched"
+        },
+        "walls": {
+          "upper": {
+            "color": "dark brown",
+            "material": "wood"
+          },
+          "lower": {
+            "color": "white",
+            "material": "plaster"
+          }
+        },
+        "window": {
+          "frame_color": "brown",
+          "frame_material": "wood"
+        },
+        "style": "alpine chalet",
+        "condition": "well-maintained"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.703125,
+      "box": [
+        436.0,
+        440.0,
+        520.0,
+        504.0
+      ],
+      "mask": "image_12.masks/building_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a gray roof and light-colored walls, partially obscured by orange and green foliage in the foreground. The image is heavily blurred, making specific details of the building's structure or materials indistinct.",
+      "attributes": {
+        "roof": "gray",
+        "walls": "light-colored",
+        "foreground": "orange and green foliage",
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        488.0,
+        396.0,
+        680.0,
+        916.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone path while holding the hand of a child. They are wearing a dark navy blue puffer jacket and dark grey trousers with dark shoes.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark blue",
+            "material": "synthetic"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hands",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        364.0,
+        576.0,
+        520.0,
+        904.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with short, wavy light brown hair is seen from behind, walking away on a wet cobblestone street while holding the hand of an adult. The child wears a dark navy blue puffy hooded jacket, blue jeans, and brown shoes with white soles.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "light brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "features": "hooded"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "brown",
+            "sole": "white"
+          }
+        },
+        "pose": "walking away",
+        "action": "holding hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.76953125,
+      "box": [
+        440.0,
+        548.0,
+        456.0,
+        588.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.87109375,
+      "box": [
+        456.0,
+        540.0,
+        476.0,
+        596.0
+      ],
+      "mask": "image_12.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.63671875,
+      "box": [
+        406.0,
+        540.0,
+        422.0,
+        580.0
+      ],
+      "mask": "image_12.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

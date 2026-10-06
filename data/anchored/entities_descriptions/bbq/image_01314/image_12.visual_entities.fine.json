@@ -1,0 +1,126 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        486.0,
+        144.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with long, straight gray hair is seated, wearing a light pink cardigan over a white top and beige pants. She holds a black smartphone in both hands, looking at the screen with a wide-eyed, open-mouthed expression of shock or surprise, while a man with curly dark hair and a beard, wearing a plaid shirt, points at the phone from the left side of the frame.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "shocked",
+        "eyes": "wide open",
+        "mouth": "open",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "pink",
+            "material": "knit"
+          },
+          "inner_top": {
+            "type": "shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "sitting",
+        "action": "holding phone",
+        "object": {
+          "type": "smartphone",
+          "color": "black"
+        },
+        "context": {
+          "other_person": {
+            "gender": "male",
+            "hair": "curly, dark",
+            "facial_hair": "beard",
+            "clothing": "plaid shirt",
+            "action": "pointing at phone"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        -2.0,
+        86.0,
+        576.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a short beard sits on a beige couch, wearing a blue and white plaid flannel shirt over a white t-shirt and blue jeans. He has a wide, excited smile and is pointing at a smartphone held by a person next to him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "facial_hair": "short beard",
+        "expression": "excited, smiling broadly",
+        "clothing": {
+          "outer": "blue and white plaid flannel shirt, unbuttoned",
+          "inner": "white t-shirt",
+          "bottoms": "blue denim jeans"
+        },
+        "pose": "sitting, pointing with right index finger",
+        "action": "looking at a smartphone held by another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        568.0,
+        520.0,
+        680.0,
+        672.0
+      ],
+      "mask": "image_12.masks/smartphone_0.png",
+      "crop": null,
+      "description": "A close-up view of the back of a black smartphone held in a person's hand, featuring a square camera module in the top-left corner with three lenses arranged in a triangle and a flash. The phone has a matte finish and rounded corners, with fingers visible gripping the lower portion of the device.",
+      "attributes": {
+        "color": "black",
+        "material": "matte plastic or glass",
+        "camera_module": {
+          "shape": "square",
+          "lens_count": 3,
+          "arrangement": "triangular",
+          "flash": "present"
+        },
+        "orientation": "vertical",
+        "held_by": "hand"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        2.0,
+        540.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/ground_0.png",
+      "crop": null,
+      "description": "A woman with dark skin and short curly hair is holding a sleeping baby wrapped in a white knitted blanket. She is wearing a colorful patterned dress with red, green, yellow, and black geometric designs, and has a black camera with a lens hanging from a strap around her neck. The background shows a dirt ground with some rocks and a stone wall.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "African",
+        "social_role": "mother",
+        "clothing": {
+          "dress": "colorful patterned with red, green, yellow, and black geometric designs"
+        },
+        "accessories": {
+          "camera": "black with a lens, hanging from a strap around her neck"
+        },
+        "pose": "standing, holding a baby",
+        "baby": {
+          "state": "sleeping",
+          "clothing": "wrapped in a white knitted blanket"
+        },
+        "background": {
+          "ground": "dirt with some rocks",
+          "wall": "stone wall"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        506.0,
+        284.0,
+        680.0,
+        432.0
+      ],
+      "mask": "image_9.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up crop of a person's head wearing a vibrant, patterned headscarf wrapped in a turban style. The fabric features a bold, multicolored print with large, abstract shapes in red, yellow, green, and black, resembling a traditional African wax print or Ankara style. The person's forehead and closed eyes are visible at the bottom of the frame, showing dark skin and a serene expression.",
+      "attributes": {
+        "entity": "headscarf",
+        "style": "turban wrap",
+        "pattern": "abstract, geometric, multicolored",
+        "colors": [
+          "red",
+          "yellow",
+          "green",
+          "black",
+          "white"
+        ],
+        "material": "fabric, likely cotton or wax print",
+        "culture": "African",
+        "person": {
+          "skin_tone": "dark",
+          "eyes": "closed",
+          "expression": "serene",
+          "visible_parts": [
+            "forehead",
+            "eyes",
+            "eyebrows"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        344.0,
+        462.0,
+        524.0,
+        596.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up of a sleeping infant with dark skin and short, curly dark hair, wrapped in a white knitted garment. The baby is being held by an adult, whose chin and neck are partially visible in the upper right corner, wearing a patterned garment with red, white, and black geometric designs.",
+      "attributes": {
+        "age": "infant",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "texture": "curly",
+          "length": "short"
+        },
+        "expression": "sleeping",
+        "eyes": "closed",
+        "clothing": {
+          "type": "knitted wrap",
+          "color": "white",
+          "material": "yarn"
+        },
+        "pose": "being held",
+        "context": {
+          "held_by": "adult",
+          "adult_clothing": "patterned fabric (red, white, black)"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        328.0,
+        284.0,
+        752.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black woman wearing a vibrant red, green, and yellow patterned headwrap and matching dress holds a sleeping infant wrapped in a cream-colored knit blanket. She has a black DSLR camera with a large lens hanging from a strap around her neck, and the background features blurred thatched-roof huts and trees.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "expression": "smiling, looking down at child",
+        "clothing": {
+          "headwear": "red, green, yellow, and black patterned headwrap",
+          "dress": "red, green, yellow, and black patterned dress",
+          "accessories": "small earrings"
+        },
+        "pose": "standing, holding baby in arms",
+        "held_object": {
+          "type": "infant",
+          "state": "sleeping",
+          "wrapping": "cream-colored knit blanket"
+        },
+        "equipment": {
+          "camera": "black DSLR with large lens",
+          "strap": "black neck strap"
+        },
+        "background": "outdoor, rural, thatched huts, trees"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        812.0,
+        494.0,
+        996.0,
+        632.0
+      ],
+      "mask": "image_9.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a stone wall constructed from rounded, irregularly shaped stones in shades of beige, tan, and light brown, set in a mortar pattern. The stones vary in size and are tightly packed together, creating a textured surface with a warm, earthy color palette.",
+      "attributes": {
+        "material": "stone",
+        "shape": "rounded, irregular",
+        "color": "beige, tan, light brown",
+        "texture": "rough, textured",
+        "focus": "out-of-focus",
+        "pattern": "irregular, tightly packed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 1,
+      "score": 0.796875,
+      "box": [
+        246.0,
+        486.0,
+        350.0,
+        544.0
+      ],
+      "mask": "image_9.masks/stone wall_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a stone wall with a rough, textured surface on the right side, featuring warm, golden-brown tones and a blurred background.",
+      "attributes": {
+        "material": "stone",
+        "texture": "rough",
+        "color": "golden-brown",
+        "focus": "out-of-focus",
+        "position": "right side of the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        0.5,
+        502.0,
+        248.0,
+        624.0
+      ],
+      "mask": "image_9.masks/stone wall_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a stone wall constructed from irregularly shaped, rounded stones in varying shades of brown, tan, and gray. The stones are tightly packed together, creating a textured surface with visible mortar lines, though the details are obscured by the blur.",
+      "attributes": {
+        "material": "stone",
+        "shape": "irregular, rounded",
+        "color": [
+          "brown",
+          "tan",
+          "gray"
+        ],
+        "texture": "rough, uneven",
+        "focus": "blurred",
+        "structure": "stacked masonry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 3,
+      "score": 0.61328125,
+      "box": [
+        608.0,
+        480.0,
+        760.0,
+        528.0
+      ],
+      "mask": "image_9.masks/stone wall_3.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's shoulder and upper arm, wearing a dark-colored garment with a colorful, patterned fabric visible at the neckline or collar area. The background is blurred, suggesting an outdoor setting with warm, earthy tones.",
+      "attributes": {
+        "clothing": {
+          "color": "dark",
+          "pattern": "colorful, patterned fabric at neckline"
+        },
+        "background": "blurred, warm, earthy tones",
+        "focus": "shoulder and upper arm"
+      },
+      "parse_ok": true
+    }
+  ]
+}

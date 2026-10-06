@@ -1,0 +1,72 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        386.0,
+        14.0,
+        636.0,
+        252.0
+      ],
+      "mask": "image_1.masks/clock_0.png",
+      "crop": null,
+      "description": "A round analog clock with a white face and black Arabic numerals from 1 to 12. The clock has three black hands: an hour hand pointing between 10 and 11, a minute hand pointing at 2, and a second hand pointing at 7. The clock is encased in a thin black rim and is mounted on a light purple wall.",
+      "attributes": {
+        "shape": "round",
+        "face_color": "white",
+        "numerals": "black Arabic",
+        "hands": {
+          "hour_hand": "black, pointing between 10 and 11",
+          "minute_hand": "black, pointing at 2",
+          "second_hand": "black, pointing at 7"
+        },
+        "rim": "black",
+        "background": "light purple wall",
+        "time_displayed": "approximately 10:10:35"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        174.0,
+        248.0,
+        856.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits in bed wearing a white t-shirt and a beige sleep mask covering her eyes. She is partially covered by a white duvet, with a calm and neutral expression, against a soft purple wall background with a clock visible at the top.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "accessory": "beige sleep mask"
+        },
+        "pose": "sitting upright in bed",
+        "expression": "neutral",
+        "background": {
+          "wall_color": "light purple",
+          "object": "clock"
+        },
+        "bedding": {
+          "color": "white",
+          "type": "duvet"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

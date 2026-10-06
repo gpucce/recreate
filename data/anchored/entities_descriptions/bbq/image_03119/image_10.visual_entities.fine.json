@@ -1,0 +1,259 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "blackboard",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        856.0,
+        278.0,
+        1024.0,
+        600.0
+      ],
+      "mask": "image_10.masks/blackboard_0.png",
+      "crop": null,
+      "description": "A whiteboard with a grid pattern is visible in the background, partially obscured by the back of a person's head with curly red hair in the foreground.",
+      "attributes": {
+        "object": "whiteboard",
+        "color": "white",
+        "surface": "grid pattern",
+        "frame": "white",
+        "position": "background",
+        "foreground": "curly red hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        960.0,
+        740.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark navy blue upholstered chair back featuring a smooth fabric surface with soft folds and creases. A curved, light-colored trim or piping is visible along the bottom edge, separating the blue fabric from a wooden surface below.",
+      "attributes": {
+        "color": "dark navy blue",
+        "material": "fabric",
+        "texture": "smooth",
+        "details": [
+          "curved light-colored trim",
+          "wooden base visible at bottom"
+        ],
+        "type": "upholstered chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.84375,
+      "box": [
+        -1.0,
+        908.0,
+        80.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a chair featuring a curved, silver metallic armrest and a section of light brown, wood-grain textured surface, likely the seat or backrest. The background is out of focus, showing a dark vertical element and a light gray surface.",
+      "attributes": {
+        "armrest": {
+          "material": "metal",
+          "color": "silver",
+          "shape": "curved"
+        },
+        "seat_or_backrest": {
+          "material": "wood",
+          "color": "light brown",
+          "texture": "wood grain"
+        },
+        "background": {
+          "color": "dark blue/black and light gray",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        26.0,
+        824.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/desk_0.png",
+      "crop": null,
+      "description": "A light brown wooden desk with a prominent, natural grain pattern and a glossy finish that reflects the overhead lighting. On the surface, a person's hands are visible writing on a clipboard with a silver clip, while a white smartphone with a black screen lies flat in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "glossy",
+        "texture": "wood grain",
+        "items_on_surface": [
+          "clipboard",
+          "pen",
+          "smartphone"
+        ],
+        "smartphone": {
+          "color": "white",
+          "screen": "black"
+        },
+        "clipboard": {
+          "clip": "silver metal"
+        },
+        "perspective": "close-up, angled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        572.0,
+        416.0,
+        1024.0,
+        984.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with voluminous, curly red hair is seated at a wooden table, wearing a dark blue short-sleeved medical scrub top. She is looking to the left with a focused expression, holding a pen in her right hand over a clipboard, while wearing a dark watch on her left wrist.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "red",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "type": "scrubs",
+            "color": "dark blue",
+            "sleeves": "short"
+          },
+          "accessories": {
+            "watch": {
+              "color": "black",
+              "face": "round"
+            }
+          }
+        },
+        "pose": "sitting",
+        "action": "writing or holding a pen",
+        "expression": "serious",
+        "gaze": "looking left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        6.0,
+        226.0,
+        394.0,
+        1000.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair stands in profile facing right, wearing a dark blue short-sleeved medical scrub top with a small pen in the chest pocket. He is gesturing with both hands open in front of him, appearing to be in the middle of a conversation or explanation, with a focused expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "dark blue short-sleeved scrub shirt",
+          "details": "pen in chest pocket"
+        },
+        "pose": "standing, gesturing with hands",
+        "expression": "focused, speaking",
+        "position": "left side of frame, profile view"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        588.0,
+        254.0,
+        820.0,
+        832.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "A man with dark curly hair and a beard stands wearing dark blue medical scrubs and a stethoscope around his neck, holding a black tablet in his hands while looking off to the side with a serious expression. A woman with red curly hair is partially visible in the foreground on the right, also wearing blue scrubs and holding a pen.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "beard",
+        "clothing": {
+          "top": "dark blue scrub top",
+          "undershirt": "white t-shirt",
+          "accessory": "stethoscope"
+        },
+        "pose": "standing",
+        "expression": "serious",
+        "holding": "black tablet",
+        "context": "medical setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        300.0,
+        334.0,
+        548.0,
+        832.0
+      ],
+      "mask": "image_10.masks/person_3.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length dark hair and glasses stands with her arms crossed, wearing a dark blue V-neck scrub top and a stethoscope around her neck. She has a serious, attentive expression and is facing slightly to the left, with another person's hands gesturing in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length",
+          "style": "straight"
+        },
+        "accessories": {
+          "glasses": "black rimmed",
+          "necklace": "thin gold chain",
+          "stethoscope": "black tubing with silver chest piece"
+        },
+        "clothing": {
+          "top": "dark blue V-neck scrub shirt",
+          "bottom": "dark blue scrub pants"
+        },
+        "pose": "standing with arms crossed",
+        "expression": "serious",
+        "social_role": "medical professional"
+      },
+      "parse_ok": true
+    }
+  ]
+}

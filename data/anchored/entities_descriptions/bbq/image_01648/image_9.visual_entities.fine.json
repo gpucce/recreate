@@ -1,0 +1,82 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        490.0,
+        146.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with short, wavy white hair and a wrinkled face with age spots is shown in profile, wearing a white polo shirt. He is leaning his forehead against the forehead of a young child with short blonde hair, who is partially visible on the left, sharing a gentle, affectionate moment in a sunlit outdoor setting.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "skin": {
+          "tone": "fair",
+          "features": [
+            "wrinkles",
+            "age spots"
+          ]
+        },
+        "clothing": {
+          "type": "polo shirt",
+          "color": "white",
+          "collar": "white"
+        },
+        "pose": "leaning head against child",
+        "expression": "gentle, affectionate",
+        "interaction": "forehead-to-forehead with a child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        50.0,
+        186.0,
+        576.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short, tousled blonde hair and freckles on his cheeks is shown in profile, wearing a white polo shirt with navy blue trim on the collar and sleeves. He is leaning his head affectionately against the head of an older person, whose white hair and wrinkled skin are partially visible on the right, set against a blurred outdoor background of green grass and trees.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "tousled"
+        },
+        "skin": {
+          "tone": "fair",
+          "features": "freckles"
+        },
+        "clothing": {
+          "type": "polo shirt",
+          "color": "white",
+          "trim": "navy blue",
+          "material": "cotton"
+        },
+        "pose": "sitting, leaning head against another person",
+        "expression": "gentle, content",
+        "relationship_context": "child with elderly person"
+      },
+      "parse_ok": true
+    }
+  ]
+}

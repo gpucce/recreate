@@ -1,0 +1,197 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        2.0,
+        -2.0,
+        1024.0,
+        552.0
+      ],
+      "mask": "image_12.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a light beige stone facade features rectangular windows with white frames and black wrought-iron balconies with decorative railings. The architecture suggests a classic European style, possibly Parisian, with visible horizontal stone lines and a downspout running vertically along the wall.",
+      "attributes": {
+        "facade": {
+          "color": "light beige",
+          "material": "stone",
+          "style": "classic European"
+        },
+        "windows": {
+          "frame_color": "white",
+          "shape": "rectangular",
+          "arrangement": "vertical alignment"
+        },
+        "balconies": {
+          "railings": {
+            "color": "black",
+            "material": "wrought iron",
+            "design": "decorative scrollwork"
+          },
+          "support": "stone corbels"
+        },
+        "other_features": {
+          "downspout": "dark vertical pipe",
+          "wall_texturing": "horizontal stone lines"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        420.0,
+        194.0,
+        748.0,
+        760.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair stands smiling, wearing a dark navy suit jacket over a light blue button-down shirt and a dark grey tie, with his hand resting on the shoulder of a seated man in a wheelchair.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "jacket": "dark navy suit",
+          "shirt": "light blue button-down",
+          "tie": "dark grey",
+          "pants": "dark navy suit pants",
+          "belt": "black"
+        },
+        "pose": "standing, hand on shoulder of seated person",
+        "position": "standing behind and to the right of a seated man"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        360.0,
+        384.0,
+        792.0,
+        952.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly light brown hair sits in a manual wheelchair, wearing a red knit sweater, blue jeans, and black boots, smiling at the camera while a man in a dark suit stands behind him with a hand on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": "red knit sweater",
+          "bottom": "blue jeans",
+          "footwear": "black boots"
+        },
+        "pose": "sitting in a wheelchair",
+        "accessory": "manual wheelchair",
+        "context": "outdoors, autumn leaves on ground, car in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        -2.0,
+        4.0,
+        680.0,
+        684.0
+      ],
+      "mask": "image_12.masks/tree_0.png",
+      "crop": null,
+      "description": "A large tree with a thick, dark brown trunk featuring rough, textured bark stands on the left side of the frame. Its branches extend upward and to the right, covered in vibrant yellow autumn leaves that are in full color.",
+      "attributes": {
+        "trunk": {
+          "color": "dark brown",
+          "texture": "rough, bark",
+          "thickness": "thick"
+        },
+        "leaves": {
+          "color": "yellow",
+          "season": "autumn",
+          "density": "dense"
+        },
+        "position": "left foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        48.0,
+        282.0,
+        1024.0,
+        944.0
+      ],
+      "mask": "image_12.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is parked on a street with fallen autumn leaves scattered on the ground. The vehicle features a sleek, modern design with a smooth, metallic finish, and its side profile is visible, including the front and rear wheels with silver alloy rims.",
+      "attributes": {
+        "color": "silver",
+        "type": "minivan",
+        "wheels": {
+          "color": "silver",
+          "material": "alloy"
+        },
+        "condition": "clean",
+        "position": "parked",
+        "surroundings": {
+          "ground": "covered with autumn leaves",
+          "background": "building with windows"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        324.0,
+        576.0,
+        788.0,
+        1008.0
+      ],
+      "mask": "image_12.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A person wearing a red sweater and blue jeans is seated in a wheelchair with large rear wheels and smaller front casters. The wheelchair has a black seat and backrest, with silver metal frames and black footrests.",
+      "attributes": {
+        "clothing": {
+          "sweater": "red",
+          "jeans": "blue",
+          "shoes": "black"
+        },
+        "wheelchair": {
+          "seat": "black",
+          "backrest": "black",
+          "frame": "silver metal",
+          "rear_wheels": "large with spokes",
+          "front_wheels": "small casters",
+          "footrests": "black"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

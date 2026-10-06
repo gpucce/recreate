@@ -1,0 +1,245 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        516.0,
+        290.0,
+        860.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with long, dark curly hair holds a young toddler with light brown hair. The woman wears a mauve tank top and blue jeans, while the child wears an orange t-shirt with a yellow lightning bolt logo, blue jeans, and black sneakers with white soles.",
+      "attributes": {
+        "woman": {
+          "hair": {
+            "color": "dark brown",
+            "style": "long, curly"
+          },
+          "expression": "smiling",
+          "clothing": {
+            "top": "mauve tank top",
+            "bottom": "blue jeans",
+            "accessories": "thin gold necklace"
+          },
+          "pose": "standing, holding child"
+        },
+        "child": {
+          "hair": {
+            "color": "light brown",
+            "style": "short, tousled"
+          },
+          "expression": "neutral",
+          "clothing": {
+            "top": "orange t-shirt with yellow lightning bolt",
+            "bottom": "blue jeans",
+            "shoes": "black sneakers with white soles"
+          },
+          "pose": "being held"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        195.0,
+        280.0,
+        524.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with long wavy brown hair holds a young toddler with curly blonde hair in her arms. The woman wears a grey tank top and blue jeans, while the child is dressed in a pink and white gingham dress with ruffled straps and white sandals.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "facial_expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "grey",
+            "material": "ribbed knit"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "accessories": {
+            "necklace": "thin chain with small pendant"
+          }
+        },
+        "pose": "standing, holding a child",
+        "held_person": {
+          "age_group": "toddler",
+          "hair": {
+            "color": "blonde",
+            "texture": "curly"
+          },
+          "clothing": {
+            "dress": {
+              "pattern": "gingham",
+              "colors": [
+                "pink",
+                "white"
+              ],
+              "details": "ruffled straps"
+            },
+            "shoes": {
+              "type": "sandals",
+              "color": "white"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        177.0,
+        300.0,
+        496.0,
+        900.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling woman with long wavy brown hair holds a young toddler with curly blonde hair in her arms. The woman wears a grey tank top and blue jeans, while the child is dressed in a pink and white gingham dress with ruffled sleeves and white sandals.",
+      "attributes": {
+        "group": {
+          "adult": {
+            "gender": "female",
+            "age": "adult",
+            "hair": {
+              "color": "brown",
+              "length": "long",
+              "style": "wavy"
+            },
+            "expression": "smiling",
+            "clothing": {
+              "top": {
+                "type": "tank top",
+                "color": "grey"
+              },
+              "bottom": {
+                "type": "jeans",
+                "color": "blue"
+              },
+              "accessories": {
+                "necklace": "thin chain with small pendant"
+              }
+            },
+            "pose": "holding child"
+          },
+          "child": {
+            "gender": "female",
+            "age": "toddler",
+            "hair": {
+              "color": "blonde",
+              "texture": "curly",
+              "style": "pigtails"
+            },
+            "expression": "neutral",
+            "clothing": {
+              "dress": {
+                "pattern": "gingham",
+                "colors": [
+                  "pink",
+                  "white"
+                ],
+                "details": "ruffled sleeves"
+              },
+              "shoes": {
+                "type": "sandals",
+                "color": "white"
+              }
+            },
+            "pose": "being held"
+          }
+        },
+        "background": "outdoor residential setting with warm lighting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.95703125,
+      "box": [
+        624.0,
+        336.0,
+        872.0,
+        920.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling woman with dark curly hair holds a young child with light brown hair who is wearing an orange t-shirt with a yellow Wonder Woman logo. The woman wears a maroon tank top and blue jeans, while the child wears blue jeans and dark sneakers with white soles.",
+      "attributes": {
+        "person_1": {
+          "gender": "female",
+          "age": "adult",
+          "hair": {
+            "color": "dark brown",
+            "style": "curly"
+          },
+          "expression": "smiling",
+          "clothing": {
+            "top": {
+              "type": "tank top",
+              "color": "maroon"
+            },
+            "bottom": {
+              "type": "jeans",
+              "color": "blue"
+            },
+            "accessories": {
+              "necklace": "thin gold chain with small pendant"
+            }
+          },
+          "pose": "holding a child"
+        },
+        "person_2": {
+          "gender": "male",
+          "age": "toddler",
+          "hair": {
+            "color": "light brown",
+            "style": "short, slightly messy"
+          },
+          "expression": "neutral, looking forward",
+          "clothing": {
+            "top": {
+              "type": "t-shirt",
+              "color": "orange",
+              "graphic": "yellow Wonder Woman logo"
+            },
+            "bottom": {
+              "type": "jeans",
+              "color": "blue"
+            },
+            "footwear": {
+              "type": "sneakers",
+              "color": "dark blue/black",
+              "sole": "white"
+            }
+          },
+          "pose": "being held"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

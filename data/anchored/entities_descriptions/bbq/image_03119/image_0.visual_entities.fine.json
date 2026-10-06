@@ -1,0 +1,635 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "blackboard",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        -2.5,
+        70.5,
+        189.0,
+        380.0
+      ],
+      "mask": "image_0.masks/blackboard_0.png",
+      "crop": null,
+      "description": "A large, dark green blackboard with a light-colored wooden frame is mounted on a wall, partially obscured at the bottom by the back of a black mesh office chair.",
+      "attributes": {
+        "color": "dark green",
+        "frame": "light wood",
+        "state": "empty",
+        "position": "wall-mounted",
+        "obstruction": "black mesh chair back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        520.0,
+        524.0,
+        740.0,
+        720.0
+      ],
+      "mask": "image_0.masks/chair_0.png",
+      "crop": null,
+      "description": "A simple, utilitarian chair with a black metal frame and beige fabric upholstery on the seat and backrest. The chair is positioned in the foreground, partially obscuring the legs of a person standing behind it.",
+      "attributes": {
+        "type": "chair",
+        "frame": {
+          "material": "metal",
+          "color": "black",
+          "style": "tubular"
+        },
+        "upholstery": {
+          "color": "beige",
+          "material": "fabric",
+          "parts": [
+            "seat",
+            "backrest"
+          ]
+        },
+        "backrest": {
+          "shape": "rectangular",
+          "attachment": "visible screws"
+        },
+        "position": "foreground",
+        "context": "indoor, near a person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "countertop",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        101.0,
+        436.0,
+        556.0,
+        548.0
+      ],
+      "mask": "image_0.masks/countertop_0.png",
+      "crop": null,
+      "description": "A white countertop with a smooth surface and a visible edge, holding various items including a blue cloth, a black object that appears to be a monitor stand, and some cables. The countertop is part of a larger piece of furniture, possibly a desk or table, with a white base visible below.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth, possibly laminate or stone",
+        "items_on_top": [
+          "blue cloth",
+          "black monitor stand",
+          "cables"
+        ],
+        "edge": "visible, straight",
+        "base": "white, part of a larger piece of furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        744.0,
+        420.0,
+        1128.0,
+        716.0
+      ],
+      "mask": "image_0.masks/desk_0.png",
+      "crop": null,
+      "description": "A long, wooden conference table with a reddish-brown finish is shown in a side view, cluttered with various items including a black smartphone, a white notepad, a clear plastic bag containing pink and white items, and several open laptops. The table features a circular black inductive charging pad embedded in the surface and is positioned next to a person wearing grey trousers and a person in a blue shirt.",
+      "attributes": {
+        "material": "wood",
+        "color": "reddish-brown",
+        "type": "conference table",
+        "surface_items": [
+          "black smartphone",
+          "white notepad",
+          "clear plastic bag",
+          "laptops",
+          "inductive charging pad"
+        ],
+        "features": {
+          "charging_pad": "circular, black, embedded"
+        },
+        "position": "horizontal, long"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.796875,
+      "box": [
+        32.5,
+        438.0,
+        552.0,
+        720.0
+      ],
+      "mask": "image_0.masks/desk_1.png",
+      "crop": null,
+      "description": "A white desk with a flat top surface and a visible front panel, featuring a black microphone stand and a blue cloth on top, with a silver fan partially visible on the left side.",
+      "attributes": {
+        "color": "white",
+        "material": "wood or laminate",
+        "items_on_top": [
+          "black microphone stand",
+          "blue cloth",
+          "black cables"
+        ],
+        "visible_parts": [
+          "top surface",
+          "front panel",
+          "left side"
+        ],
+        "adjacent_objects": [
+          "silver fan"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        1072.0,
+        101.0,
+        1232.0,
+        438.0
+      ],
+      "mask": "image_0.masks/door_0.png",
+      "crop": null,
+      "description": "A closed, light beige interior door with a white frame, featuring a small dark rectangular sign on the upper left and a round metallic doorknob on the lower left side.",
+      "attributes": {
+        "color": "beige",
+        "frame_color": "white",
+        "hardware": {
+          "doorknob": "round metallic",
+          "sign": "small dark rectangle"
+        },
+        "state": "closed",
+        "type": "interior door"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.796875,
+      "box": [
+        832.0,
+        118.0,
+        888.0,
+        532.0
+      ],
+      "mask": "image_0.masks/door_1.png",
+      "crop": null,
+      "description": "A white interior door is shown partially open, featuring a white rectangular sign with the word 'EXIT' in black capital letters affixed to the lower left side. A black door handle is visible on the left edge, and a black hinge is located at the bottom left corner.",
+      "attributes": {
+        "color": "white",
+        "material": "painted wood or composite",
+        "state": "partially open",
+        "signage": {
+          "text": "EXIT",
+          "color": "white background, black text",
+          "position": "lower left"
+        },
+        "hardware": {
+          "handle": "black",
+          "hinge": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 2,
+      "score": 0.91015625,
+      "box": [
+        724.0,
+        159.0,
+        836.0,
+        428.0
+      ],
+      "mask": "image_0.masks/door_2.png",
+      "crop": null,
+      "description": "A person with dark skin and short dark hair is shown from the chest up, wearing light purple medical scrubs with a V-neck and a black long-sleeved undershirt. The person's face is blurred, and they are standing in front of a white door or wall panel with a visible handle or latch mechanism on the right side.",
+      "attributes": {
+        "person": {
+          "skin_tone": "dark",
+          "hair": "short, dark",
+          "face": "blurred",
+          "clothing": {
+            "outer": "light purple scrubs",
+            "inner": "black long-sleeve shirt"
+          },
+          "pose": "standing, facing slightly left"
+        },
+        "background": {
+          "object": "white door or panel",
+          "feature": "metal handle/latch on right edge"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.6953125,
+      "box": [
+        1008.0,
+        360.0,
+        1280.0,
+        636.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with dark hair pulled back and wearing glasses is seated in profile, wearing a blue short-sleeved shirt and holding a pen in her hand while looking towards a laptop on a wooden desk.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "accessories": {
+          "glasses": "black framed"
+        },
+        "clothing": {
+          "shirt": "blue short-sleeved"
+        },
+        "pose": "sitting",
+        "action": "holding a pen",
+        "orientation": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.5546875,
+      "box": [
+        1088.0,
+        390.0,
+        1280.0,
+        696.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with dark hair pulled back is shown in profile, wearing black-rimmed glasses and a blue short-sleeved shirt over a black long-sleeved undershirt. She is seated and holding a pen in her hand, appearing to be engaged in writing or taking notes.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "pulled back"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "blue",
+            "sleeves": "short"
+          },
+          "undershirt": {
+            "color": "black",
+            "sleeves": "long"
+          }
+        },
+        "pose": "seated, profile view",
+        "action": "holding a pen"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.57421875,
+      "box": [
+        1104.0,
+        304.0,
+        1272.0,
+        496.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up, side-profile view of a person with dark skin and short, dark hair, wearing black-rimmed glasses and a small hoop earring. The person is seated, facing left, with a blurred background showing another person in a green shirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "style": "rectangular"
+          },
+          "earrings": {
+            "type": "hoop",
+            "color": "gold"
+          }
+        },
+        "pose": "seated",
+        "view": "side profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.93359375,
+      "box": [
+        544.0,
+        179.0,
+        716.0,
+        720.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A person with light skin and blonde hair is standing in a medical setting, wearing a blue short-sleeved scrub top and matching pants. They are holding a black object, possibly a phone or small device, in their hands while facing another person who is partially visible on the right.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "white",
+        "social_role": "medical professional",
+        "clothing": {
+          "top": "blue short-sleeved scrub shirt",
+          "bottom": "blue scrub pants"
+        },
+        "hair": "blonde",
+        "pose": "standing",
+        "action": "holding a black object",
+        "location": "medical facility"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.7890625,
+      "box": [
+        944.0,
+        390.0,
+        1280.0,
+        716.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A woman with dark hair pulled back and wearing glasses is seated in profile, facing left, wearing a blue short-sleeved shirt over a black long-sleeved top. She is holding a pen in her right hand and appears to be writing or taking notes on a clipboard or tablet resting on her lap, with a pink folder or notebook visible beneath it.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "social_role": "student or attendee",
+        "clothing": {
+          "shirt": "blue short-sleeved",
+          "undershirt": "black long-sleeved",
+          "pants": "light gray or beige"
+        },
+        "hair": "dark, pulled back",
+        "accessories": {
+          "glasses": "yes",
+          "earrings": "small hoop or stud"
+        },
+        "pose": "seated, side profile, leaning slightly forward",
+        "action": "writing or holding pen over clipboard/tablet",
+        "objects_in_hand": "pen",
+        "objects_on_lap": "clipboard or tablet, pink folder/notebook",
+        "position_in_frame": "right side, mid-to-lower portion"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.8359375,
+      "box": [
+        416.0,
+        292.0,
+        450.0,
+        340.0
+      ],
+      "mask": "image_0.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.9609375,
+      "box": [
+        872.0,
+        181.0,
+        992.0,
+        552.0
+      ],
+      "mask": "image_0.masks/person_6.png",
+      "crop": null,
+      "description": "A woman with short brown hair and glasses stands facing forward, wearing a black short-sleeved polo shirt with a white logo on the left chest and light beige pants. She has a slight smile and is positioned behind a table with a packaged item on it.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": true
+        },
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "black",
+            "sleeves": "short",
+            "logo": "white on left chest"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "standing",
+        "expression": "slight smile",
+        "position": "behind a table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.5625,
+      "box": [
+        1208.0,
+        306.0,
+        1272.0,
+        374.0
+      ],
+      "mask": "image_0.masks/person_7.png",
+      "crop": null,
+      "description": "The image shows the back of a person's head and upper shoulders, featuring dark, curly hair and a light green shirt. The person is facing away from the camera, with only the top of their head and neck visible.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly"
+        },
+        "clothing": {
+          "shirt": "light green"
+        },
+        "pose": "facing away",
+        "visible_parts": [
+          "back of head",
+          "shoulders"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.953125,
+      "box": [
+        616.0,
+        186.0,
+        836.0,
+        676.0
+      ],
+      "mask": "image_0.masks/person_8.png",
+      "crop": null,
+      "description": "A person with dark skin and dark hair pulled back is standing, wearing a light purple short-sleeved scrub top over a black long-sleeved shirt and matching light purple scrub pants. Their face is blurred, and they are positioned next to another person in blue scrubs, with a chair visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "black",
+        "age": "adult",
+        "social_role": "medical professional",
+        "clothing": {
+          "top": "light purple scrub top",
+          "undershirt": "black long-sleeved shirt",
+          "pants": "light purple scrub pants"
+        },
+        "hair": "dark, pulled back",
+        "pose": "standing",
+        "face": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        1088.0,
+        159.0,
+        1104.0,
+        172.0
+      ],
+      "mask": "image_0.masks/sign_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sign",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        664.0,
+        684.0,
+        864.0,
+        720.0
+      ],
+      "mask": "image_0.masks/sign_1.png",
+      "crop": null,
+      "description": "A close-up, slightly blurred view of a black rectangular sign or label with white text and graphics. The text appears to be in a stylized font, possibly cursive or decorative, and includes the word 'Brew' or similar. There is a circular logo or emblem in the upper left corner. The sign is placed on a surface that looks like wood or a similar material.",
+      "attributes": {
+        "color": "black background with white text",
+        "material": "possibly paper or plastic",
+        "text_style": "stylized, possibly cursive",
+        "logo": "circular emblem in upper left",
+        "surface": "wooden or similar material",
+        "clarity": "slightly blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 2,
+      "score": 0.84765625,
+      "box": [
+        524.0,
+        195.0,
+        560.0,
+        240.0
+      ],
+      "mask": "image_0.masks/sign_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sign",
+      "index": 3,
+      "score": 0.87890625,
+      "box": [
+        836.0,
+        324.0,
+        856.0,
+        362.0
+      ],
+      "mask": "image_0.masks/sign_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sign",
+      "index": 4,
+      "score": 0.9296875,
+      "box": [
+        400.0,
+        132.0,
+        476.0,
+        188.0
+      ],
+      "mask": "image_0.masks/sign_4.png",
+      "crop": null,
+      "description": "A rectangular sign with a light gray background and dark text, featuring a small emblem or logo in the upper right corner. The text is arranged in multiple lines, with some words appearing bolder than others, and the overall image is slightly blurred.",
+      "attributes": {
+        "shape": "rectangular",
+        "background_color": "light gray",
+        "text_color": "dark",
+        "logo": "present",
+        "logo_position": "upper right",
+        "text_layout": "multiple lines",
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 5,
+      "score": 0.921875,
+      "box": [
+        712.0,
+        62.5,
+        752.0,
+        107.0
+      ],
+      "mask": "image_0.masks/sign_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

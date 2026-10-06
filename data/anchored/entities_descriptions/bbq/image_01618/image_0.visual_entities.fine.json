@@ -1,0 +1,120 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        684.0,
+        187.0,
+        1192.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy blonde hair is shown in profile, wearing a black sleeveless top. She is embracing a shirtless person, with her hand resting on their chest, and her face is blurred for privacy.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": "black sleeveless"
+        },
+        "pose": "embracing",
+        "skin": "wrinkled, sun-spotted",
+        "face": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.85546875,
+      "box": [
+        128.0,
+        217.0,
+        568.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair is wearing a red, white, and black patterned halter top and has her arm around a shirtless man standing to her right. She is wearing a blue ring on her left hand and a thin black bracelet on her wrist, with her face blurred for privacy.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": {
+            "type": "halter top",
+            "pattern": "geometric",
+            "colors": [
+              "red",
+              "white",
+              "black"
+            ]
+          }
+        },
+        "accessories": {
+          "ring": {
+            "color": "blue",
+            "hand": "left"
+          },
+          "bracelet": {
+            "color": "black",
+            "type": "thin band"
+          },
+          "earrings": {
+            "color": "green"
+          }
+        },
+        "pose": "standing, arm around another person",
+        "skin": "fair with visible freckles"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        418.0,
+        99.0,
+        912.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A shirtless young man with short, spiky brown hair stands in the center, flanked by two older women whose hands are resting on his arms and shoulders. The man's face is blurred, and he has a fair complexion with visible nipples and a few moles on his chest.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "short, spiky"
+        },
+        "clothing": {
+          "top": "none"
+        },
+        "skin": {
+          "tone": "fair",
+          "features": [
+            "moles on chest"
+          ]
+        },
+        "pose": "standing, facing forward",
+        "face": "blurred",
+        "context": "being held by two older women"
+      },
+      "parse_ok": true
+    }
+  ]
+}

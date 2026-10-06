@@ -1,0 +1,558 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        524.0
+      ],
+      "mask": "image_4.masks/building_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a beard, wearing a pink button-up shirt, is seated in a wheelchair and looking down at a laptop. An older woman with short white hair, wearing a gray blazer over a pink top, is leaning in beside him, smiling as she looks at the laptop screen.",
+      "attributes": {
+        "people": [
+          {
+            "gender": "male",
+            "age": "young adult",
+            "hair": "curly brown",
+            "facial_hair": "beard",
+            "clothing": {
+              "shirt": "pink button-up"
+            },
+            "pose": "seated in wheelchair, looking down",
+            "expression": "focused, slight smile"
+          },
+          {
+            "gender": "female",
+            "age": "older adult",
+            "hair": "short white",
+            "clothing": {
+              "blazer": "gray",
+              "top": "pink"
+            },
+            "pose": "leaning forward, looking at laptop",
+            "expression": "smiling, engaged"
+          }
+        ],
+        "setting": "outdoor cafe or patio",
+        "objects": [
+          "laptop",
+          "coffee cup",
+          "wheelchair",
+          "potted plants",
+          "wooden tables"
+        ],
+        "background": "blurred storefront with large windows, other patrons seated, warm interior lighting visible through glass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        516.0,
+        512.0,
+        924.0,
+        728.0
+      ],
+      "mask": "image_4.masks/laptop_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A silver laptop is open on a wooden table, with its back facing the viewer. The laptop has a sleek, metallic finish and a visible keyboard with black keys. A person is holding a smartphone in front of the laptop, partially obscuring the view of the screen.\", \"attributes\": {\"color\": \"silver\", \"material\": \"metallic\", \"state\": \"open\", \"position\": \"on a wooden table\", \"visible_parts\": [\"back\", \"keyboard\"], \"obscured_by\": \"smartphone\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "paper cup",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        972.0,
+        326.0,
+        1004.0,
+        370.0
+      ],
+      "mask": "image_4.masks/paper cup_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "paper cup",
+      "index": 1,
+      "score": 0.8515625,
+      "box": [
+        664.0,
+        508.0,
+        736.0,
+        612.0
+      ],
+      "mask": "image_4.masks/paper cup_1.png",
+      "crop": null,
+      "description": "A white disposable paper cup with a matching white plastic lid is held in a hand, positioned behind a black smartphone in the foreground. The cup has a smooth, cylindrical body and a ribbed lid design typical of hot beverage containers.",
+      "attributes": {
+        "object_type": "paper cup",
+        "color": "white",
+        "lid": {
+          "color": "white",
+          "material": "plastic",
+          "type": "screw-on or snap-on"
+        },
+        "material": "paper",
+        "shape": "cylindrical",
+        "context": "held in hand",
+        "foreground_object": "black smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        940.0,
+        182.0,
+        1012.0,
+        308.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A heavily blurred and out-of-focus figure wearing a dark, likely black, top is visible in the background, with a blurry white shape in the foreground.",
+      "attributes": {
+        "clothing": {
+          "top": "black"
+        },
+        "pose": "standing",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.796875,
+      "box": [
+        34.0,
+        290.0,
+        121.0,
+        402.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus image of a person with light blonde hair wearing a light-colored top, positioned in the foreground against a dark, indistinct background.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": {
+            "color": "white",
+            "type": "shirt"
+          }
+        },
+        "pose": "seated",
+        "image_quality": "extremely blurry",
+        "gender": "female"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        510.0,
+        180.0,
+        808.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair is smiling warmly while looking down at a smartphone held by a younger man. She is wearing a light grey blazer over a pale pink t-shirt and is seated at a wooden table with a laptop and a coffee cup in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "expression": "smiling",
+        "gaze": "downward",
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "light grey"
+          },
+          "top": {
+            "type": "t-shirt",
+            "color": "pale pink"
+          }
+        },
+        "pose": "seated, leaning forward",
+        "context": "interacting with a younger man, looking at a phone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.51953125,
+      "box": [
+        33.25,
+        286.0,
+        122.0,
+        466.0
+      ],
+      "mask": "image_4.masks/person_3.png",
+      "crop": null,
+      "description": "A heavily blurred, out-of-focus image showing a person with light blonde hair wearing a light-colored top, seated next to another figure in dark clothing, with a green plant visible in the foreground.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": "light-colored"
+        },
+        "pose": "seated",
+        "image_quality": "extremely blurry",
+        "foreground": "green plant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.80859375,
+      "box": [
+        936.0,
+        248.0,
+        1024.0,
+        360.0
+      ],
+      "mask": "image_4.masks/person_4.png",
+      "crop": null,
+      "description": "A heavily blurred and out-of-focus crop showing the upper body of a person wearing a light grey top, positioned behind a white cup on a table surface.",
+      "attributes": {
+        "clothing": {
+          "top": "light grey"
+        },
+        "pose": "seated",
+        "focus": "blurred",
+        "foreground_object": "white cup"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.984375,
+      "box": [
+        216.0,
+        160.0,
+        768.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_5.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a short beard sits in a wheelchair, wearing a light pink button-down shirt and blue jeans, smiling as he looks at a smartphone held in his hands. He is positioned at a wooden table with a laptop in front of him, and an older woman with white hair is partially visible behind him, also looking at the phone.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short to medium"
+        },
+        "facial_hair": "short beard",
+        "expression": "smiling, focused",
+        "pose": "seated in wheelchair, holding smartphone with both hands",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "sleeves": "long, rolled up to forearms"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "mobility_aid": {
+          "type": "wheelchair",
+          "frame_color": "teal",
+          "wheels": "silver rimmed"
+        },
+        "accessories": {
+          "device": "black smartphone"
+        },
+        "context": "outdoor or semi-outdoor setting, seated at wooden table with laptop and coffee cup nearby"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.94921875,
+      "box": [
+        70.5,
+        284.0,
+        208.0,
+        468.0
+      ],
+      "mask": "image_4.masks/person_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a person with short dark hair wearing a dark blue long-sleeved top, seated at a table facing another person with light hair.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "color": "dark blue",
+            "type": "long-sleeved shirt"
+          }
+        },
+        "pose": "sitting",
+        "orientation": "back to camera",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        -2.0,
+        536.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A section of a light gray paved sidewalk is visible in the background, composed of rectangular concrete slabs with visible seams. The surface appears smooth and clean, extending behind a wooden picnic table and a person in a wheelchair.",
+      "attributes": {
+        "material": "concrete",
+        "color": "light gray",
+        "pattern": "rectangular slabs",
+        "condition": "clean, smooth",
+        "location": "outdoor, behind furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "storefront",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        57.0,
+        -3.0,
+        376.0,
+        364.0
+      ],
+      "mask": "image_4.masks/storefront_0.png",
+      "crop": null,
+      "description": "A blurred storefront featuring large glass windows framed by dark vertical mullions, with a warm, circular light visible inside. In the foreground, the back of a person with curly brown hair wearing a pink shirt is visible on the right, while two other blurred figures sit at a table in the lower left.",
+      "attributes": {
+        "storefront": {
+          "windows": "large glass panes",
+          "frames": "dark, vertical mullions",
+          "interior": "warm circular light, blurred furniture",
+          "exterior": "green bushes visible at the bottom"
+        },
+        "people": {
+          "foreground_right": {
+            "hair": "curly brown",
+            "clothing": "pink shirt",
+            "position": "back to camera, right edge"
+          },
+          "background_left": {
+            "count": 2,
+            "appearance": "blurred, one with white hair, one with dark hair",
+            "pose": "sitting"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "storefront",
+      "index": 1,
+      "score": 0.7578125,
+      "box": [
+        548.0,
+        -2.0,
+        1024.0,
+        520.0
+      ],
+      "mask": "image_4.masks/storefront_1.png",
+      "crop": null,
+      "description": "A close-up shot of an older woman with short, wavy white hair smiling warmly while looking down at a laptop screen. She is wearing a light grey blazer over a pale pink top and is seated at a table with a white coffee cup and a small green plant in the foreground.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "expression": "smiling",
+        "gaze": "downward",
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "light grey"
+          },
+          "top": {
+            "color": "pale pink"
+          }
+        },
+        "pose": "seated, leaning forward",
+        "context": {
+          "setting": "cafe or shop exterior",
+          "objects": [
+            "laptop",
+            "white coffee cup",
+            "green plant"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        400.0,
+        660.0,
+        1032.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/table_0.png",
+      "crop": null,
+      "description": "A weathered wooden table with a rustic, distressed finish, featuring visible grain and patches of lighter, worn areas. The table has a sturdy, rectangular top with a slightly uneven edge and is supported by thick, angled legs. A person is seated at the table, using a laptop, with their hands visible on the keyboard. The table's surface shows signs of age and use, with a mix of darker and lighter wood tones.",
+      "attributes": {
+        "material": "wood",
+        "finish": "weathered, distressed",
+        "color": "brown with lighter patches",
+        "shape": "rectangular",
+        "legs": "thick, angled",
+        "condition": "worn, rustic",
+        "function": "work surface, dining table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        -1.0,
+        468.0,
+        216.0,
+        796.0
+      ],
+      "mask": "image_4.masks/table_1.png",
+      "crop": null,
+      "description": "A wooden table with a light brown finish and black metal legs is visible in the background, slightly out of focus. The table has a rectangular top and is positioned behind a wheelchair, which is partially visible in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "legs": "black metal",
+        "shape": "rectangular",
+        "position": "background",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.859375,
+      "box": [
+        868.0,
+        358.0,
+        1024.0,
+        520.0
+      ],
+      "mask": "image_4.masks/table_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a table with a light wood top and black metal legs, positioned in the background behind a small green plant and the corner of a laptop.",
+      "attributes": {
+        "table": {
+          "top": {
+            "material": "wood",
+            "color": "light brown"
+          },
+          "legs": {
+            "material": "metal",
+            "color": "black"
+          },
+          "focus": "blurred"
+        },
+        "foreground": {
+          "plant": {
+            "color": "green",
+            "leaves": "small"
+          },
+          "laptop": {
+            "color": "silver",
+            "visibility": "partial"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        68.0,
+        516.0,
+        812.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A manual wheelchair with a teal metal frame and black fabric seat and backrest is occupied by a person wearing a pink shirt and blue jeans. The wheelchair features large rear wheels with silver rims and black tires, along with a black push handle at the top of the backrest.",
+      "attributes": {
+        "type": "manual wheelchair",
+        "frame_color": "teal",
+        "seat_color": "black",
+        "backrest_color": "black",
+        "wheels": {
+          "rear": {
+            "rim_color": "silver",
+            "tire_color": "black",
+            "spokes": "silver"
+          }
+        },
+        "handle": {
+          "color": "black",
+          "position": "top of backrest"
+        },
+        "occupant": {
+          "shirt": "pink",
+          "pants": "blue jeans"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,295 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.55859375,
+      "box": [
+        33.75,
+        83.5,
+        126.0,
+        200.0
+      ],
+      "mask": "image_9.masks/glass_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurry, out-of-focus image of a glass object with a dark, possibly black or dark gray, frame and a lighter, possibly white or light gray, interior. The shape suggests it could be a cup or a small container, but the details are indistinct due to the blur.\", \"attributes\": {\"color\": {\"frame\": \"dark\", \"interior\": \"light\"}, \"material\": \"glass\", \"shape\": \"cylindrical or cup-like\", \"focus\": \"blurry\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        784.0,
+        776.0,
+        896.0,
+        992.0
+      ],
+      "mask": "image_9.masks/glass_1.png",
+      "crop": null,
+      "description": "A clear, cylindrical drinking glass filled with a transparent liquid, likely water, sits on a speckled granite surface. The glass has a thick, solid base and shows slight refraction of the background through the liquid and glass walls.",
+      "attributes": {
+        "object_type": "drinking glass",
+        "material": "clear glass",
+        "shape": "cylindrical",
+        "contents": "clear liquid",
+        "fill_level": "about two-thirds full",
+        "base": "thick, solid",
+        "surface": "speckled granite",
+        "background": "blurry, showing a person's arm and clothing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.5390625,
+      "box": [
+        928.0,
+        89.5,
+        1016.0,
+        206.0
+      ],
+      "mask": "image_9.masks/glass_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a dark, rectangular object with a lighter, possibly white or light gray, central area. The object appears to be a glass or a similar transparent container, but the details are indistinct due to the blur.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "dark with a lighter central area",
+        "material": "possibly glass",
+        "focus": "blurry",
+        "context": "unclear due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.8515625,
+      "box": [
+        324.0,
+        0.0,
+        708.0,
+        418.0
+      ],
+      "mask": "image_9.masks/glass_3.png",
+      "crop": null,
+      "description": "A close-up portrait of a young man with voluminous, tight brown curls and a wide, toothy smile, wearing a blue denim jacket against a blurred background of a white window frame and greenery.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "tight curls",
+          "length": "short to medium"
+        },
+        "facial_hair": "light stubble",
+        "expression": "smiling broadly",
+        "clothing": {
+          "jacket": "blue denim"
+        },
+        "background": "blurred window frame and nature"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        148.0,
+        50.0,
+        916.0,
+        976.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with voluminous, tight brown curls and a bright smile sits at a table, wearing a blue denim jacket over a grey t-shirt. He holds a woven wicker basket filled with fresh vegetables, including carrots with green tops, a red tomato, a yellow corn cob, and leafy greens, while a glass of water sits on the speckled table surface to his right.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short to medium"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": "blue denim jacket",
+          "inner": "grey t-shirt"
+        },
+        "pose": "sitting, holding basket with both hands",
+        "objects_held": {
+          "container": "woven wicker basket",
+          "contents": [
+            "carrots with green tops",
+            "red tomato",
+            "yellow corn",
+            "leafy greens",
+            "purple root vegetable"
+          ]
+        },
+        "background": "red brick wall with white window frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        784.0,
+        -2.0,
+        1024.0,
+        880.0
+      ],
+      "mask": "image_9.masks/wall_0.png",
+      "crop": null,
+      "description": "A red brick wall with a black outdoor lantern mounted on it, partially obscured by a person's arm in a denim jacket and a glass of water in the foreground.",
+      "attributes": {
+        "material": "brick",
+        "color": "red",
+        "texture": "rough",
+        "object": {
+          "type": "lantern",
+          "color": "black",
+          "position": "upper right",
+          "state": "off"
+        },
+        "foreground": {
+          "person": {
+            "clothing": "denim jacket",
+            "position": "left side"
+          },
+          "object": {
+            "type": "glass",
+            "content": "water",
+            "position": "bottom left"
+          },
+          "plant": {
+            "type": "green leaves",
+            "position": "bottom right"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.875,
+      "box": [
+        0.0,
+        0.0,
+        254.0,
+        892.0
+      ],
+      "mask": "image_9.masks/wall_1.png",
+      "crop": null,
+      "description": "A section of a red brick wall with light gray mortar, featuring a black metal outdoor lantern mounted near the top left. A person's arm, wearing a blue denim jacket, is visible in the lower right corner, holding a bunch of fresh green herbs with feathery leaves.",
+      "attributes": {
+        "wall": {
+          "material": "brick",
+          "color": "red",
+          "mortar_color": "light gray",
+          "texture": "rough"
+        },
+        "lighting_fixture": {
+          "type": "outdoor lantern",
+          "color": "black",
+          "material": "metal",
+          "position": "top left"
+        },
+        "person": {
+          "visible_part": "arm and hand",
+          "clothing": {
+            "jacket": "blue denim"
+          },
+          "holding": {
+            "item": "fresh herbs",
+            "color": "green",
+            "leaf_shape": "feathery"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.5078125,
+      "box": [
+        4.0,
+        -2.0,
+        1020.0,
+        896.0
+      ],
+      "mask": "image_9.masks/wall_2.png",
+      "crop": null,
+      "description": "A red brick wall with a white-framed window in the center and two black lantern-style light fixtures mounted on either side of the window.",
+      "attributes": {
+        "material": "brick",
+        "color": "red",
+        "window": {
+          "frame_color": "white",
+          "position": "center"
+        },
+        "light_fixtures": {
+          "color": "black",
+          "style": "lantern",
+          "quantity": 2,
+          "position": "left and right of window"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        252.0,
+        -2.0,
+        780.0,
+        460.0
+      ],
+      "mask": "image_9.masks/window_0.png",
+      "crop": null,
+      "description": "A young man with voluminous, tight brown curls and a wide, toothy smile is centered in the frame, wearing a blue denim jacket. He is positioned in front of a white-framed window set into a red brick wall, with the background slightly out of focus.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "tight curls",
+          "length": "medium"
+        },
+        "facial_hair": "light stubble",
+        "expression": "smiling broadly",
+        "clothing": {
+          "jacket": {
+            "material": "denim",
+            "color": "blue"
+          },
+          "undershirt": {
+            "color": "light grey"
+          }
+        },
+        "background": {
+          "window": {
+            "frame_color": "white",
+            "style": "multi-pane"
+          },
+          "wall": {
+            "material": "brick",
+            "color": "red"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

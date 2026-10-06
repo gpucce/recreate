@@ -1,0 +1,89 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "dirt_path",
+      "index": 0,
+      "score": 0.69921875,
+      "box": [
+        6.0,
+        494.0,
+        1024.0,
+        608.0
+      ],
+      "mask": "image_6.masks/dirt_path_0.png",
+      "crop": null,
+      "description": "A winding dirt path cuts through a landscape of colorful, eroded hills with hues of orange, red, and yellow. The path appears smooth and well-trodden, contrasting with the rugged terrain surrounding it.",
+      "attributes": {
+        "color": "light brown",
+        "texture": "smooth",
+        "shape": "winding",
+        "surroundings": "colorful eroded hills",
+        "terrain": "rugged"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mountain_range",
+      "index": 0,
+      "score": 0.5625,
+      "box": [
+        2.0,
+        314.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/mountain_range_0.png",
+      "crop": null,
+      "description": "A vibrant, multi-colored mountain range with distinct layers of red, orange, yellow, and white rock formations, featuring a winding road cutting through the landscape and sparse vegetation in the foreground.",
+      "attributes": {
+        "colors": [
+          "red",
+          "orange",
+          "yellow",
+          "white",
+          "brown"
+        ],
+        "texture": "layered, eroded",
+        "vegetation": "sparse, dry grass in foreground",
+        "road": "winding, paved",
+        "sky": "clear, light blue",
+        "lighting": "bright, natural sunlight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        0.0,
+        1.0,
+        1020.0,
+        388.0
+      ],
+      "mask": "image_6.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear blue sky with wispy, streaky white clouds scattered across it, above a colorful, rugged mountain range with hues of red, orange, and brown.",
+      "attributes": {
+        "sky_color": "blue",
+        "clouds": {
+          "type": "wispy",
+          "color": "white",
+          "distribution": "scattered"
+        },
+        "mountains": {
+          "color": [
+            "red",
+            "orange",
+            "brown"
+          ],
+          "texture": "rugged",
+          "position": "bottom of the image"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

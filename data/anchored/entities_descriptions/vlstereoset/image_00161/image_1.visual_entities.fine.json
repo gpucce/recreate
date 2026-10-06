@@ -1,0 +1,188 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        9.0,
+        328.0,
+        192.0,
+        600.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A man with dark hair and a full beard stands in the background wearing an olive-green military uniform with a shoulder strap, looking towards the right side of the frame. In the immediate foreground, a large, coarse burlap sack is visible, partially obscuring the view and creating a depth of field effect.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short",
+          "facial_hair": "full beard"
+        },
+        "clothing": {
+          "type": "military uniform",
+          "color": "olive green",
+          "details": "shoulder strap visible"
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "position": "background",
+        "foreground_object": {
+          "type": "sack",
+          "material": "burlap",
+          "color": "brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        608.0,
+        22.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up, over-the-shoulder view of a soldier in woodland camouflage facing a middle-aged man with a thick black beard and a black turban. The man wears a khaki shirt and holds a rifle, set against a backdrop of arid, rocky hills.",
+      "attributes": {
+        "person_1": {
+          "role": "soldier",
+          "view": "back and side profile",
+          "clothing": {
+            "uniform": "woodland camouflage",
+            "gear": "tan tactical vest, helmet with camouflage cover"
+          },
+          "hair": "black, visible under helmet"
+        },
+        "person_2": {
+          "role": "civilian or local official",
+          "gender": "male",
+          "age": "middle-aged",
+          "ethnicity": "South Asian",
+          "headwear": "black turban",
+          "facial_hair": "thick black beard and mustache",
+          "clothing": {
+            "shirt": "khaki button-down",
+            "strap": "tan leather or fabric strap across chest"
+          },
+          "accessories": {
+            "ring": "gold ring on finger"
+          },
+          "holding": "rifle with wooden stock",
+          "expression": "serious"
+        },
+        "background": {
+          "terrain": "arid hills, rocky ground",
+          "weather": "sunny, clear sky"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        -3.0,
+        176.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up profile of a middle-aged man with a thick, dark beard featuring gray streaks, wearing a black turban and a heavy, textured brown wool coat over a tan collared shirt. He has a serious, focused expression and is positioned in the foreground, with two other men in military-style olive green uniforms visible in the background against a rocky, arid landscape.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Middle Eastern or South Asian",
+        "headwear": {
+          "type": "turban",
+          "color": "black",
+          "material": "fabric"
+        },
+        "facial_hair": {
+          "type": "full beard",
+          "color": "black with gray",
+          "texture": "thick"
+        },
+        "clothing": {
+          "outer_layer": {
+            "type": "coat",
+            "color": "brown",
+            "material": "wool or felt",
+            "texture": "fuzzy"
+          },
+          "inner_layer": {
+            "type": "shirt",
+            "color": "tan",
+            "collar": "button-down"
+          }
+        },
+        "pose": "standing, profile view",
+        "expression": "serious",
+        "background": {
+          "people": "two men in olive green uniforms",
+          "environment": "rocky hillside"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        400.0,
+        234.0,
+        752.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A middle-aged man with a thick, dark beard and mustache, wearing a black turban with a white band, is shown in profile. He is dressed in an olive-green military-style uniform with a name tag and holds a rifle with a wooden stock across his chest.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "South Asian",
+        "social_role": "soldier",
+        "clothing": {
+          "turban": {
+            "color": "black",
+            "band": "white"
+          },
+          "uniform": {
+            "color": "olive green",
+            "type": "military shirt",
+            "details": [
+              "collar",
+              "chest pockets",
+              "name tag"
+            ]
+          }
+        },
+        "facial_hair": {
+          "beard": "thick, dark",
+          "mustache": "thick, dark"
+        },
+        "accessories": {
+          "weapon": {
+            "type": "rifle",
+            "stock": "wooden",
+            "barrel": "metallic"
+          }
+        },
+        "pose": "standing",
+        "expression": "serious"
+      },
+      "parse_ok": true
+    }
+  ]
+}

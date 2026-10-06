@@ -1,0 +1,179 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        820.0,
+        33.0,
+        1800.0,
+        932.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, dark hair and a receding hairline is shown from the chest up, wearing a black fleece jacket over an orange polo shirt. His face is blurred, and he is positioned against a wall with a horizontal blue stripe.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "receding hairline"
+        },
+        "face": {
+          "status": "blurred",
+          "features": "visible forehead wrinkles"
+        },
+        "clothing": {
+          "outer": {
+            "type": "jacket",
+            "color": "black",
+            "material": "fleece"
+          },
+          "inner": {
+            "type": "polo shirt",
+            "color": "orange",
+            "details": "white button visible, small logo on chest"
+          }
+        },
+        "pose": "seated or standing facing forward",
+        "background": {
+          "wall": "white with a thick blue horizontal stripe"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        1.828125,
+        700.0,
+        936.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up profile view of a young boy with short, dark curly hair, looking downward with a hand raised to his mouth in a contemplative or anxious gesture. He is wearing a dark green t-shirt with a white trim around the collar, set against a background of blue and white horizontal stripes.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "texture": "curly"
+        },
+        "pose": "profile view, hand near mouth",
+        "expression": "contemplative or worried",
+        "clothing": {
+          "type": "t-shirt",
+          "color": "dark green",
+          "details": "white collar trim"
+        },
+        "background": "blue and white stripes"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        976.0,
+        3.65625,
+        1920.0,
+        932.0
+      ],
+      "mask": "image_0.masks/wall_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, dark hair and a receding hairline is shown from the chest up, wearing a black zip-up jacket over an orange polo shirt. His face is blurred, and he appears to be looking slightly downward with a neutral or serious expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "dark",
+          "style": "short",
+          "condition": "receding hairline"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "type": "zip-up"
+          },
+          "shirt": {
+            "color": "orange",
+            "type": "polo"
+          }
+        },
+        "expression": "neutral or serious",
+        "pose": "seated or standing, facing forward",
+        "face_blur": "true"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        548.0,
+        3.65625,
+        976.0,
+        932.0
+      ],
+      "mask": "image_0.masks/wall_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A section of a wall painted in two horizontal bands, with a lighter color on top and a darker teal or blue-green color below. The wall appears to be made of a smooth material, possibly plaster or painted drywall, and shows some minor imperfections or texture. The lighting is soft, casting subtle shadows that suggest the wall is part of an indoor setting.\", \"attributes\": {\"color\": {\"top_band\": \"light\", \"bottom_band\": \"teal/blue-green\"}, \"material\": \"smooth, possibly plaster or painted drywall\", \"texture\": \"minor imperfections or texture visible\", \"lighting\": \"soft, with subtle shadows\", \"setting\": \"indoor\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.71875,
+      "box": [
+        532.0,
+        3.65625,
+        1912.0,
+        932.0
+      ],
+      "mask": "image_0.masks/wall_2.png",
+      "crop": null,
+      "description": "A middle-aged man with short, dark hair and a receding hairline is wearing a black fleece jacket over an orange polo shirt. He is looking slightly downward with a serious or contemplative expression, and his face is partially blurred. The background consists of a wall with a horizontal blue stripe on a light-colored surface.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "dark",
+          "style": "short",
+          "condition": "receding hairline"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "material": "fleece"
+          },
+          "shirt": {
+            "color": "orange",
+            "type": "polo"
+          }
+        },
+        "expression": "serious/contemplative",
+        "background": {
+          "wall": {
+            "color": "light",
+            "stripe": {
+              "color": "blue",
+              "orientation": "horizontal"
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

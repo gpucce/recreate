@@ -1,0 +1,364 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.65234375,
+      "box": [
+        1004.0,
+        732.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden cabinet featuring a light brown finish with visible horizontal grain patterns. The surface is divided into rectangular panels by dark, recessed horizontal lines, with a vertical dark edge visible on the left side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "matte",
+        "structure": "rectangular panels",
+        "details": "horizontal grain, dark recessed lines, vertical edge"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.69921875,
+      "box": [
+        -1.5,
+        732.0,
+        150.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up view of a person's midsection wearing light blue denim jeans, showing the side pocket and stitching details. The background features a wooden cabinet with a warm brown finish and visible wood grain texture.",
+      "attributes": {
+        "clothing": {
+          "jeans": "light blue denim",
+          "pocket": "visible side pocket with stitching"
+        },
+        "background": {
+          "cabinet": "wooden, warm brown finish, visible wood grain"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        320.0,
+        -1.0,
+        792.0,
+        211.0
+      ],
+      "mask": "image_6.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A light-colored wooden cabinet with a smooth, vertical grain pattern and a visible dark knot on the right panel, positioned in the background behind the heads of three people.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "smooth",
+        "grain": "vertical",
+        "features": [
+          "dark knot",
+          "vertical panel seams"
+        ],
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        848.0,
+        676.0,
+        1024.0,
+        732.0
+      ],
+      "mask": "image_6.masks/counter_top_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a white countertop with a smooth surface, partially obscured by a red object on the left side. The background is indistinct, showing hints of a kitchen environment with blurred shapes and colors.",
+      "attributes": {
+        "color": "white",
+        "material": "smooth surface",
+        "visibility": "blurry",
+        "position": "horizontal",
+        "obstruction": "red object on the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 1,
+      "score": 0.75390625,
+      "box": [
+        -2.5,
+        640.0,
+        170.0,
+        760.0
+      ],
+      "mask": "image_6.masks/counter_top_1.png",
+      "crop": null,
+      "description": "A close-up view of a white countertop featuring a double-basin stainless steel sink set into the surface. The sink has a metallic finish with a visible divider between the two basins, and the surrounding counter appears to be made of a smooth, light-colored material.",
+      "attributes": {
+        "material": "stainless steel",
+        "color": "silver",
+        "type": "double-basin sink",
+        "countertop_color": "white",
+        "countertop_material": "smooth surface",
+        "position": "embedded in countertop",
+        "condition": "clean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 2,
+      "score": 0.58984375,
+      "box": [
+        4.0,
+        648.0,
+        1020.0,
+        760.0
+      ],
+      "mask": "image_6.masks/counter_top_2.png",
+      "crop": null,
+      "description": "The image shows a close-up of three people standing side by side in a kitchen, with their torsos and midsections visible. The person on the left is wearing a black top and light blue jeans, the middle person is wearing a denim skirt or shorts with a buttoned front, and the person on the right is wearing a red dress with white polka dots. The background includes a kitchen counter with a sink and stove, suggesting a domestic setting.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "top": "black",
+            "bottoms": "light blue jeans"
+          },
+          "middle_person": {
+            "bottoms": "denim skirt/shorts with buttoned front"
+          },
+          "right_person": {
+            "dress": "red with white polka dots"
+          }
+        },
+        "setting": "kitchen",
+        "background_elements": [
+          "sink",
+          "stove",
+          "counter"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        524.0,
+        168.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair stands in profile, wearing a red dress with white polka dots and short sleeves. She is leaning in to kiss a young boy on the cheek while holding his face with both hands.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "dress": {
+            "color": "red",
+            "pattern": "white polka dots",
+            "sleeves": "short",
+            "waist": "cinched"
+          }
+        },
+        "pose": "leaning forward, kissing a child",
+        "action": "holding a child's face with both hands",
+        "expression": "eyes closed, affectionate"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        82.0,
+        152.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy blonde hair wearing a black sleeveless top and light blue denim jeans is leaning in to kiss a young boy on the cheek while holding his face with both hands. The boy, who is shirtless and wearing blue jeans, has his eyes closed and a slight smile on his face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue"
+          }
+        },
+        "action": "kissing a boy on the cheek",
+        "pose": "leaning forward, hands on boy's face",
+        "expression": "affectionate"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        388.0,
+        146.0,
+        660.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with short brown hair stands shirtless wearing blue denim jeans, with his eyes closed and a slight smile on his face as two women, one blonde and one brunette, kiss his cheeks and hold his chin with their hands.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "expression": "smiling, eyes closed",
+        "clothing": {
+          "top": "none",
+          "bottom": "blue jeans"
+        },
+        "pose": "standing, facing forward",
+        "interaction": "being kissed on cheeks by two women"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.53515625,
+      "box": [
+        792.0,
+        -2.25,
+        880.0,
+        129.0
+      ],
+      "mask": "image_6.masks/wall_0.png",
+      "crop": null,
+      "description": "A plain, light beige wall with a smooth surface and a vertical edge on the left side, meeting a darker floor at the bottom.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "smooth",
+        "position": "vertical",
+        "edge": "left side",
+        "floor": "darker, visible at the bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.75390625,
+      "box": [
+        812.0,
+        223.0,
+        1024.0,
+        592.0
+      ],
+      "mask": "image_6.masks/wall_1.png",
+      "crop": null,
+      "description": "A wall covered in glossy white rectangular subway tiles arranged in a staggered brick pattern with thin, light-colored grout lines. The tiles reflect light, creating soft highlights on their smooth surfaces, and the wall is partially obscured on the left by a person's long, wavy brown hair.",
+      "attributes": {
+        "material": "ceramic or porcelain",
+        "color": "white",
+        "pattern": "subway tile",
+        "arrangement": "staggered brick",
+        "finish": "glossy",
+        "grout": "thin, light-colored",
+        "visible_obstruction": "long wavy brown hair on left side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.5703125,
+      "box": [
+        181.0,
+        -3.0,
+        320.0,
+        336.0
+      ],
+      "mask": "image_6.masks/wall_2.png",
+      "crop": null,
+      "description": "A close-up view of a person's head showing light blonde hair with fine, straight strands. The background is a plain, light-colored wall with a soft, neutral tone.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "texture": "straight",
+          "length": "medium to long"
+        },
+        "background": {
+          "color": "light beige",
+          "texture": "smooth"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 3,
+      "score": 0.53515625,
+      "box": [
+        135.0,
+        -2.0,
+        320.0,
+        484.0
+      ],
+      "mask": "image_6.masks/wall_3.png",
+      "crop": null,
+      "description": "A close-up, side profile view of a person with long, wavy blonde hair cascading down their back, revealing a bare shoulder and a thin black strap. The background is a soft, out-of-focus interior wall in a neutral beige tone, illuminated by bright, natural light coming from the left.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "skin": "fair",
+        "clothing": {
+          "strap": "black"
+        },
+        "pose": "side profile",
+        "background": {
+          "color": "beige",
+          "lighting": "bright natural light"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

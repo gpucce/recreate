@@ -1,0 +1,211 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        -4.0,
+        864.0,
+        1004.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/desk_0.png",
+      "crop": null,
+      "description": "A light brown wooden desk with a smooth, polished surface and visible wood grain patterns. A person's hands are visible, one holding a pen and the other resting on a clipboard with paper, suggesting a writing or signing action.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth, polished",
+        "wood_grain": "visible",
+        "objects_on_desk": [
+          "clipboard",
+          "pen",
+          "paper"
+        ],
+        "action": "writing or signing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        528.0,
+        418.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with voluminous, curly reddish-brown hair is seated at a wooden table, wearing a dark blue medical scrub top. She is holding a silver pen in her right hand, poised over a white document, while looking attentively to her left with a focused expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "reddish-brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "scrubs",
+            "color": "dark blue",
+            "sleeves": "short"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "accessories": {
+          "pen": "silver"
+        },
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        -1.0,
+        160.0,
+        420.0,
+        920.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A man with curly brown hair and light stubble stands in profile facing right, wearing light blue medical scrubs with a pen in the chest pocket. He is gesturing with both hands open, palms facing each other, as if explaining something to another person partially visible on the right.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "top": "light blue V-neck scrub top",
+          "bottom": "light blue scrub pants",
+          "accessories": "black pen in chest pocket"
+        },
+        "pose": "standing, gesturing with both hands",
+        "expression": "focused, engaged in conversation",
+        "setting": "medical or clinical environment (indicated by scrubs, exit sign, and background equipment)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        656.0,
+        138.0,
+        976.0,
+        872.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A man with dark hair and a full beard stands in the background wearing light blue medical scrubs, looking off to the side with a serious expression, while a woman with curly red hair in dark blue scrubs is seated in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "short, slightly wavy",
+          "facial_hair": "full beard"
+        },
+        "clothing": {
+          "type": "scrubs",
+          "color": "light blue",
+          "neckline": "V-neck"
+        },
+        "pose": "standing",
+        "expression": "serious, focused",
+        "position": "background, left of center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        364.0,
+        278.0,
+        644.0,
+        872.0
+      ],
+      "mask": "image_5.masks/person_3.png",
+      "crop": null,
+      "description": "A middle-aged woman with short brown hair and black-rimmed glasses stands with her arms crossed, wearing a dark blue V-neck scrub top and matching pants. She has a serious, concerned expression and is looking off to the side, with a small necklace visible on her chest and a pen clipped to her pocket.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "bob"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          },
+          "necklace": "thin gold chain with small pendant",
+          "earrings": "small stud"
+        },
+        "clothing": {
+          "top": {
+            "type": "scrub top",
+            "color": "dark blue",
+            "neckline": "V-neck",
+            "sleeves": "short",
+            "pocket": "left chest with pen clipped"
+          },
+          "bottom": {
+            "type": "scrub pants",
+            "color": "dark blue"
+          }
+        },
+        "pose": {
+          "arms": "crossed",
+          "body": "standing",
+          "head": "turned slightly to the left"
+        },
+        "expression": "serious, concerned, or skeptical",
+        "context": "medical or clinical setting (implied by scrubs and background)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        350.0,
+        147.0,
+        430.0,
+        211.0
+      ],
+      "mask": "image_5.masks/sign_0.png",
+      "crop": null,
+      "description": "A rectangular sign with a white background and the word 'EXIT' written in red, uppercase letters. The text is centered on the sign, and the edges of the sign are slightly blurred.",
+      "attributes": {
+        "shape": "rectangular",
+        "background_color": "white",
+        "text_color": "red",
+        "text_content": "EXIT",
+        "text_style": "uppercase",
+        "border": "none visible",
+        "clarity": "slightly blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

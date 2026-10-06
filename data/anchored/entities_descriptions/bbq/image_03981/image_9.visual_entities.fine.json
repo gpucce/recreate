@@ -1,0 +1,367 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "calculator",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        234.0,
+        856.0,
+        478.0,
+        920.0
+      ],
+      "mask": "image_9.masks/calculator_0.png",
+      "crop": null,
+      "description": "A black calculator with a red button on the right side of the keypad is placed on a white surface, partially obscured by a red object in the foreground. The calculator has a standard layout with multiple rows of buttons and a display screen at the top.",
+      "attributes": {
+        "color": "black",
+        "button_color": "red",
+        "position": "on a white surface",
+        "obstruction": "partially obscured by a red object",
+        "type": "standard calculator"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        736.0,
+        800.0,
+        896.0,
+        1000.0
+      ],
+      "mask": "image_9.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A white disposable paper coffee cup with a matching white plastic lid sits on a white surface. The cup has a ribbed texture on its body and is positioned in the foreground, slightly out of focus, with a blurred background containing a pink object and a spiral notebook.",
+      "attributes": {
+        "object_type": "coffee cup",
+        "color": "white",
+        "material": "paper, plastic",
+        "lid": {
+          "present": true,
+          "color": "white",
+          "material": "plastic"
+        },
+        "texture": "ribbed",
+        "position": "foreground",
+        "focus": "slightly blurred",
+        "background_objects": [
+          "pink object",
+          "spiral notebook"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 1,
+      "score": 0.66796875,
+      "box": [
+        576.0,
+        498.0,
+        624.0,
+        540.0
+      ],
+      "mask": "image_9.masks/coffee cup_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        284.0,
+        11.0,
+        512.0,
+        396.0
+      ],
+      "mask": "image_9.masks/glass_0.png",
+      "crop": null,
+      "description": "A close-up profile of a young man with curly, light brown hair and light skin, wearing a dark suit jacket over a white collared shirt. He is looking off to the left with a neutral expression against a blurred background of glass windows and light-colored walls.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": "dark grey suit",
+          "shirt": "white collared"
+        },
+        "pose": "profile view, looking left",
+        "expression": "neutral",
+        "background": "blurred office interior with glass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        -2.0,
+        608.0,
+        386.0,
+        880.0
+      ],
+      "mask": "image_9.masks/notebook_0.png",
+      "crop": null,
+      "description": "A silver laptop with a black keyboard is open on a white desk, positioned in front of a person wearing a grey suit and white shirt who has their hands clasped together. The laptop is angled slightly to the left, with its screen partially visible and the keyboard and trackpad clearly shown.",
+      "attributes": {
+        "color": "silver",
+        "keyboard": "black",
+        "state": "open",
+        "position": "on desk",
+        "angle": "slightly left",
+        "visible_parts": [
+          "screen",
+          "keyboard",
+          "trackpad",
+          "ports"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        384.0,
+        864.0,
+        760.0,
+        984.0
+      ],
+      "mask": "image_9.masks/notebook_1.png",
+      "crop": null,
+      "description": "A closed, spiral-bound notebook with a dark red cover and white pages lies flat on a white surface, with a black pen resting diagonally across the top. The notebook is positioned in the foreground, slightly angled, with a calculator partially visible in the background to the left.",
+      "attributes": {
+        "object": "notebook",
+        "type": "spiral-bound",
+        "cover_color": "dark red",
+        "page_color": "white",
+        "binding": "metal spiral",
+        "state": "closed",
+        "position": "lying flat",
+        "orientation": "angled",
+        "accessories": {
+          "pen": {
+            "color": "black",
+            "position": "resting on top",
+            "orientation": "diagonal"
+          }
+        },
+        "background_objects": {
+          "calculator": {
+            "color": "black",
+            "position": "left, partially visible"
+          }
+        },
+        "surface": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        524.0,
+        880.0,
+        692.0,
+        928.0
+      ],
+      "mask": "image_9.masks/pen_0.png",
+      "crop": null,
+      "description": "{\n  \"description\": \"A sleek black pen with silver accents lies diagonally on a red surface. The pen features a silver clip, a silver band separating the cap and barrel, and a silver tip.\",\n  \"attributes\": {\n    \"object_type\": \"pen\",\n    \"color\": {\n      \"body\": \"black\",\n      \"accents\": \"silver\"\n    },\n    \"material\": {\n      \"body\": \"plastic or metal\",\n      \"accents\": \"metal\"\n    },\n    \"features\": [\n      \"clip\",\n      \"band\",\n      \"tip\"\n    ],\n    \"orientation\": \"diagonal\",\n    \"background\": \"red surface\"\n  ]\n}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        350.0,
+        136.0,
+        1024.0,
+        928.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with long, straight blonde hair is shown in profile, wearing a white button-down shirt with the sleeves rolled up to the elbows. She is gesturing with both hands open, palms facing each other, as if explaining something, while wearing a thin ring on her left ring finger.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          }
+        },
+        "accessories": {
+          "ring": "thin band on left ring finger",
+          "earrings": "small stud"
+        },
+        "pose": "sitting, gesturing with hands",
+        "expression": "engaged, speaking",
+        "skin_tone": "fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        64.0,
+        136.0,
+        584.0,
+        824.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and light stubble is seated at a white table, wearing a grey suit jacket, white collared shirt, and dark blue tie. He is looking to his left with a serious expression while his hands are clasped on the table in front of a silver laptop, as another person's hands gesture in the foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "medium"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "jacket": {
+            "type": "suit",
+            "color": "grey"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          },
+          "tie": {
+            "color": "dark blue"
+          }
+        },
+        "pose": "seated, hands clasped",
+        "expression": "serious, attentive",
+        "gaze": "looking to the side",
+        "context": "business meeting",
+        "objects": {
+          "laptop": "silver, partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.56640625,
+      "box": [
+        56.0,
+        496.0,
+        111.0,
+        536.0
+      ],
+      "mask": "image_9.masks/table_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        576.0,
+        528.0,
+        728.0,
+        584.0
+      ],
+      "mask": "image_9.masks/table_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus crop showing a white table surface with a dark object on the left and a white object on the right, set against a light background.",
+      "attributes": {
+        "color": "white",
+        "material": "unknown",
+        "focus": "blurry",
+        "objects_on_table": [
+          "dark object",
+          "white object"
+        ],
+        "background": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.9375,
+      "box": [
+        2.0,
+        784.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/table_2.png",
+      "crop": null,
+      "description": "A close-up view of a white office desk featuring a silver laptop, a black calculator, a red spiral-bound notebook with a black pen on top, and a white disposable coffee cup with a lid. Two people are partially visible in the background, one wearing a white shirt and the other in a dark suit, with their hands resting on the table.",
+      "attributes": {
+        "desk": {
+          "color": "white",
+          "material": "smooth surface"
+        },
+        "laptop": {
+          "color": "silver",
+          "type": "laptop",
+          "position": "left side"
+        },
+        "calculator": {
+          "color": "black",
+          "position": "center-left"
+        },
+        "notebook": {
+          "color": "red",
+          "binding": "spiral",
+          "position": "center-right"
+        },
+        "pen": {
+          "color": "black",
+          "position": "on notebook"
+        },
+        "coffee_cup": {
+          "color": "white",
+          "type": "disposable",
+          "lid": "white",
+          "position": "right side"
+        },
+        "people": {
+          "count": 2,
+          "clothing": [
+            "white shirt",
+            "dark suit"
+          ],
+          "position": "background, hands on table"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        516.0,
+        134.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with long, straight gray hair sits on a beige couch, wearing a light pink cardigan over a white t-shirt and beige pants. She holds a black smartphone in both hands, looking at the screen with a wide-eyed, open-mouthed expression of shock or surprise, while a man's hand points at the phone from the left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "gray",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "shocked",
+        "mouth": "open",
+        "eyes": "wide",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "pink",
+            "material": "knit"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "action": "holding phone",
+        "object": {
+          "type": "smartphone",
+          "color": "black"
+        },
+        "location": "indoor",
+        "furniture": "sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -4.0,
+        84.0,
+        588.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a short beard sits on a beige couch, wearing a blue and white plaid flannel shirt over a white t-shirt and blue jeans. He is smiling broadly with an excited expression, pointing at a smartphone held by a person next to him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "short beard",
+        "expression": "laughing, excited",
+        "clothing": {
+          "shirt": "blue and white plaid flannel, unbuttoned",
+          "undershirt": "white t-shirt",
+          "pants": "blue denim jeans"
+        },
+        "pose": "sitting, pointing with right index finger",
+        "action": "looking at a smartphone held by another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        540.0,
+        486.0,
+        652.0,
+        632.0
+      ],
+      "mask": "image_13.masks/smartphone_0.png",
+      "crop": null,
+      "description": "A close-up view of the back of a black smartphone held in a person's hand, featuring a square camera module in the top-left corner with three lenses arranged in a triangular pattern and a flash. The phone has a matte finish and rounded corners, with fingers gripping the lower portion of the device.",
+      "attributes": {
+        "color": "black",
+        "material": "matte plastic or glass",
+        "camera_module": {
+          "shape": "square",
+          "lens_count": 3,
+          "arrangement": "triangular",
+          "flash": "visible"
+        },
+        "orientation": "vertical",
+        "held_by": "hand",
+        "grip": "fingers visible on lower half"
+      },
+      "parse_ok": true
+    }
+  ]
+}

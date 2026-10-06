@@ -1,0 +1,83 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        203.0,
+        274.0,
+        592.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with wavy blonde hair and blue eyes smiles broadly, showing his teeth, while being hugged from behind by an adult woman wearing a blue and white striped shirt. The boy is wearing a solid red short-sleeved t-shirt and is positioned in the foreground, facing slightly to the right.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "eyes": {
+          "color": "blue"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "red",
+            "sleeves": "short"
+          }
+        },
+        "pose": "sitting or standing, being hugged",
+        "context": "indoor, domestic setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.86328125,
+      "box": [
+        30.0,
+        104.0,
+        888.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling blonde woman with wavy hair wearing a blue and white striped button-down shirt hugs a young blonde boy in a red t-shirt, both looking directly at the camera with happy expressions in a bright indoor setting.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "sleeves": "rolled up"
+          }
+        },
+        "expression": "smiling",
+        "pose": "hugging a child",
+        "accessories": {
+          "earrings": "small hoop"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

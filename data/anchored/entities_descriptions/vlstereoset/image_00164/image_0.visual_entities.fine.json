@@ -1,0 +1,83 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        322.0,
+        1.796875,
+        776.0,
+        458.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot showing the lower face of a smiling adult man with stubble and the full face of a baby with large dark eyes and chubby cheeks, positioned closely together. The man is wearing a light-colored shirt, and the baby is looking slightly to the side with a neutral expression.",
+      "attributes": {
+        "entity_type": "person",
+        "count": 2,
+        "adult": {
+          "gender": "male",
+          "age_group": "adult",
+          "facial_hair": "stubble",
+          "expression": "smiling",
+          "clothing": {
+            "shirt": "light beige or white"
+          }
+        },
+        "baby": {
+          "age_group": "infant",
+          "eye_color": "dark brown",
+          "expression": "neutral",
+          "skin_tone": "light"
+        },
+        "pose": "close contact, lying down or leaning in"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        0.0,
+        0.8984375,
+        456.0,
+        460.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up profile view of a baby with light skin and dark brown hair, looking upward and to the right with a gentle, content expression. The baby has large, dark eyes with long eyelashes, a small nose, and slightly parted lips, with chubby cheeks and a soft, smooth complexion.",
+      "attributes": {
+        "age": "infant",
+        "gender": "unknown",
+        "ethnicity": "mixed/indeterminate",
+        "hair": {
+          "color": "dark brown",
+          "texture": "fine, slightly wavy"
+        },
+        "eyes": {
+          "color": "dark brown",
+          "shape": "large, almond-shaped",
+          "eyelashes": "long, prominent"
+        },
+        "skin": {
+          "tone": "light",
+          "texture": "smooth, soft"
+        },
+        "expression": "content, curious, gentle smile",
+        "pose": "lying down, head tilted slightly upward",
+        "visible_body_parts": [
+          "face",
+          "ear",
+          "neck",
+          "part of shoulder"
+        ],
+        "background": "soft, out-of-focus, possibly fabric or skin (adult's face partially visible on right)"
+      },
+      "parse_ok": true
+    }
+  ]
+}

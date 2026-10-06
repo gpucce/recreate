@@ -1,0 +1,107 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        432.0,
+        -6.0,
+        1024.0,
+        952.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length dark brown hair, wearing a red t-shirt under a dark blue blazer, is seated next to a child and looking down at a smartphone held in her hands with a focused expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "red"
+          },
+          "outerwear": {
+            "type": "blazer",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at phone",
+        "expression": "focused",
+        "accessories": {
+          "phone": "black smartphone"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.78515625,
+      "box": [
+        2.0,
+        110.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short, wavy brown hair and freckles is seated, wearing a textured grey knit sweater, looking down with a serious expression while holding a smartphone in his hands. Behind him, a woman with shoulder-length dark hair, wearing a red top and a dark blazer, leans in to look at the phone screen.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "skin": {
+          "features": "freckles"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "grey",
+            "material": "knit"
+          }
+        },
+        "pose": "sitting",
+        "expression": "focused",
+        "action": "holding a smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        2.0,
+        350.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_2.masks/sofa_0.png",
+      "crop": null,
+      "description": "A close-up view of a light beige or off-white sofa with a textured, woven fabric surface. The visible portion includes the backrest and part of the seat cushion, showing a soft, slightly wrinkled texture typical of upholstered furniture.",
+      "attributes": {
+        "color": "light beige/off-white",
+        "material": "textured woven fabric",
+        "type": "upholstered sofa",
+        "visible_parts": [
+          "backrest",
+          "seat cushion"
+        ],
+        "texture": "soft, slightly wrinkled"
+      },
+      "parse_ok": true
+    }
+  ]
+}

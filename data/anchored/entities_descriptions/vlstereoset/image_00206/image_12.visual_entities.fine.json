@@ -1,0 +1,353 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        860.0,
+        402.0,
+        1020.0,
+        632.0
+      ],
+      "mask": "image_12.masks/building_0.png",
+      "crop": null,
+      "description": "A large, light-colored building with vertical siding and a flat roof is visible in the background. The building has a rectangular window with a dark frame and a small section of greenery at the base.",
+      "attributes": {
+        "color": "light beige",
+        "material": "metal siding",
+        "window": {
+          "shape": "rectangular",
+          "frame": "dark",
+          "position": "center-right"
+        },
+        "roof": "flat",
+        "vegetation": "small green shrub at the base"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        0.5,
+        420.0,
+        132.0,
+        572.0
+      ],
+      "mask": "image_12.masks/building_1.png",
+      "crop": null,
+      "description": "A large, light-colored building with vertical siding and a flat roofline is visible in the background, partially obscured by a person in the foreground.",
+      "attributes": {
+        "structure": {
+          "type": "building",
+          "siding": "vertical",
+          "color": "light beige or off-white",
+          "roof": "flat",
+          "position": "background"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.84375,
+      "box": [
+        2.0,
+        402.0,
+        1024.0,
+        628.0
+      ],
+      "mask": "image_12.masks/building_2.png",
+      "crop": null,
+      "description": "A row of soldiers in desert camouflage uniforms and tactical vests stand in formation, each holding a black assault rifle with a curved magazine. They are positioned in front of a large, light-colored industrial building with vertical siding and a dark window visible on the right side.",
+      "attributes": {
+        "soldiers": {
+          "uniform": "desert camouflage",
+          "gear": "tactical vest, gloves, sunglasses",
+          "weapon": "black assault rifle",
+          "pose": "standing in formation, holding rifles at the ready"
+        },
+        "building": {
+          "type": "industrial or warehouse",
+          "color": "light beige or off-white",
+          "material": "vertical metal siding",
+          "features": "dark rectangular window on the right",
+          "position": "background behind the soldiers"
+        },
+        "vehicle": {
+          "type": "pickup truck",
+          "color": "dark gray or black",
+          "position": "partially visible on the far left"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        724.0,
+        330.0,
+        868.0,
+        888.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A young male soldier stands in profile facing left, wearing a desert camouflage uniform, tan combat boots, and a matching helmet with sunglasses. He holds a black assault rifle with a vertical foregrip in a ready position, with a second soldier partially visible behind him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "desert camouflage",
+          "boots": "tan combat boots",
+          "helmet": "camouflage helmet",
+          "accessories": "sunglasses"
+        },
+        "equipment": {
+          "weapon": "black assault rifle",
+          "features": "vertical foregrip, carrying handle"
+        },
+        "pose": "standing",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        804.0,
+        370.0,
+        924.0,
+        848.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A male soldier stands in a desert environment wearing a full camouflage uniform, including a helmet and tactical vest, while holding a black assault rifle with a scope. He wears dark sunglasses and tan combat boots, with a serious expression visible on his face.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "multi-cam camouflage",
+          "helmet": "camouflage with cover",
+          "vest": "tactical plate carrier",
+          "boots": "tan combat boots"
+        },
+        "accessories": {
+          "glasses": "dark sunglasses",
+          "patches": "visible on arm and chest"
+        },
+        "equipment": {
+          "weapon": "black rifle with scope and magazine"
+        },
+        "pose": "standing",
+        "expression": "serious"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        78.5,
+        328.0,
+        240.0,
+        880.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A male soldier stands in a desert environment wearing a full set of Multicam camouflage tactical gear, including a helmet with a cover, sunglasses, and a plate carrier vest. He holds a black rifle with a vertical foregrip across his chest with both gloved hands, looking off to the side with a serious expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "Multicam camouflage",
+          "helmet": "tactical with camouflage cover",
+          "vest": "tactical plate carrier",
+          "gloves": "tan tactical",
+          "boots": "tan combat boots"
+        },
+        "accessories": {
+          "eyewear": "black sunglasses",
+          "weapon": "black rifle with vertical foregrip"
+        },
+        "pose": "standing",
+        "expression": "serious",
+        "background": "gravel ground, blue sky, partial view of a dark vehicle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.86328125,
+      "box": [
+        376.0,
+        374.0,
+        440.0,
+        848.0
+      ],
+      "mask": "image_12.masks/person_3.png",
+      "crop": null,
+      "description": "A person wearing a desert camouflage military uniform and tactical gear, including a vest and gloves, is standing while holding a black rifle. The individual is wearing a helmet and has a serious expression, with the background showing a clear blue sky and a rocky ground.",
+      "attributes": {
+        "clothing": {
+          "uniform": "desert camouflage",
+          "vest": "tactical",
+          "gloves": "tactical",
+          "boots": "military"
+        },
+        "accessories": {
+          "helmet": "military",
+          "rifle": "black"
+        },
+        "pose": "standing",
+        "expression": "serious",
+        "background": {
+          "sky": "blue",
+          "ground": "rocky"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.95703125,
+      "box": [
+        192.0,
+        286.0,
+        428.0,
+        920.0
+      ],
+      "mask": "image_12.masks/person_4.png",
+      "crop": null,
+      "description": "A young male soldier stands in the center wearing a digital camouflage uniform and tactical gear, holding a black rifle with both hands. He wears a helmet with a matching camouflage cover, sunglasses, and tan combat boots, with a serious expression on his face.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "digital camouflage (MARPAT style)",
+          "vest": "tan tactical plate carrier",
+          "boots": "tan combat boots",
+          "gloves": "tan tactical gloves"
+        },
+        "accessories": {
+          "headgear": "camouflage helmet",
+          "eyewear": "dark sunglasses"
+        },
+        "equipment": {
+          "weapon": "black rifle (AR-15 style)"
+        },
+        "pose": "standing, holding weapon",
+        "expression": "neutral/serious"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.92578125,
+      "box": [
+        608.0,
+        268.0,
+        784.0,
+        932.0
+      ],
+      "mask": "image_12.masks/person_5.png",
+      "crop": null,
+      "description": "A young male soldier stands in a desert camouflage uniform, wearing a tan tactical vest, helmet, and sunglasses while holding a black rifle with a curved magazine. He has a serious expression and is positioned in the foreground on a gravel surface, with another soldier partially visible behind him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "role": "soldier",
+        "clothing": {
+          "uniform": "desert camouflage pattern",
+          "vest": "tan tactical vest",
+          "helmet": "tan combat helmet",
+          "footwear": "tan combat boots"
+        },
+        "accessories": {
+          "glasses": "black sunglasses",
+          "weapon": "black rifle with curved magazine"
+        },
+        "pose": "standing",
+        "expression": "serious",
+        "position": "foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.953125,
+      "box": [
+        316.0,
+        150.0,
+        660.0,
+        1000.0
+      ],
+      "mask": "image_12.masks/person_6.png",
+      "crop": null,
+      "description": "A young male soldier of Asian ethnicity stands at attention in the foreground, saluting with his right hand while holding a black assault rifle with a tan magazine in his left hand. He wears a full set of military gear including a tan helmet with a mounted night vision device, dark sunglasses, a tan tactical vest over a multi-cam patterned uniform, and tan combat boots on a gravel surface.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "social_role": "soldier",
+        "pose": "standing, saluting",
+        "expression": "neutral, serious",
+        "clothing": {
+          "uniform": "multi-cam patterned shirt and pants",
+          "vest": "tan tactical plate carrier",
+          "helmet": "tan combat helmet with NVG mount",
+          "footwear": "tan combat boots",
+          "accessories": "dark sunglasses, tan belt"
+        },
+        "equipment": {
+          "weapon": "black assault rifle (AR-15 style) with tan magazine",
+          "helmet_mount": "night vision goggle mount"
+        },
+        "background": "gravel ground, blue sky, other soldiers partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        -0.5,
+        540.0,
+        123.5,
+        660.0
+      ],
+      "mask": "image_12.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A dark gray or black four-door pickup truck is shown in profile, featuring a crew cab configuration with tinted windows and black door handles. The vehicle has black side mirrors, black wheel arches, and black tires, and is positioned on a light-colored paved surface next to a person in camouflage.",
+      "attributes": {
+        "vehicle_type": "pickup truck",
+        "color": "dark gray or black",
+        "doors": "4",
+        "cab_style": "crew cab",
+        "windows": "tinted",
+        "wheels": "black tires",
+        "trim": "black",
+        "orientation": "side profile"
+      },
+      "parse_ok": true
+    }
+  ]
+}

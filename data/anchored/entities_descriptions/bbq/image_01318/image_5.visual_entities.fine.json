@@ -1,0 +1,426 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        824.0,
+        632.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's arm and side wearing a dark blue, textured long-sleeved garment, seated in a black mesh office chair with a visible black armrest.",
+      "attributes": {
+        "clothing": {
+          "color": "dark blue",
+          "texture": "heathered or knit",
+          "type": "long-sleeved top"
+        },
+        "chair": {
+          "backrest": "black mesh",
+          "armrest": "black plastic or metal",
+          "type": "office chair"
+        },
+        "accessories": {
+          "wrist": "silver watch or bracelet visible at top right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        164.0,
+        466.0,
+        270.0,
+        624.0
+      ],
+      "mask": "image_5.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a black mesh office chair backrest positioned behind a person wearing a yellow garment, with a finger visible in the foreground.",
+      "attributes": {
+        "object": "office chair",
+        "backrest": {
+          "color": "black",
+          "material": "mesh",
+          "shape": "rectangular with rounded corners"
+        },
+        "focus": "blurry",
+        "foreground_elements": {
+          "clothing": {
+            "color": "yellow"
+          },
+          "body_part": "finger"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.859375,
+      "box": [
+        552.0,
+        552.0,
+        632.0,
+        840.0
+      ],
+      "mask": "image_5.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up view of a person's arm wearing a dark navy blue long-sleeved top, positioned in the foreground with a blurred yellow garment visible in the background.",
+      "attributes": {
+        "clothing": {
+          "sleeve": "dark navy blue",
+          "fabric": "knit or cotton",
+          "background_garment": "yellow"
+        },
+        "body_part": "arm",
+        "skin_tone": "light",
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 0,
+      "score": 0.76953125,
+      "box": [
+        924.0,
+        386.0,
+        1024.0,
+        548.0
+      ],
+      "mask": "image_5.masks/computer_0.png",
+      "crop": null,
+      "description": "A close-up of a person's arm, showing light skin tone and fine hair, positioned in the foreground with a blurred dark background that appears to be a computer monitor or screen.",
+      "attributes": {
+        "skin_tone": "light",
+        "hair": "fine, visible on arm",
+        "position": "foreground, partially obscuring background",
+        "background": "blurred, dark, possibly a computer monitor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 1,
+      "score": 0.890625,
+      "box": [
+        -2.0,
+        394.0,
+        192.0,
+        912.0
+      ],
+      "mask": "image_5.masks/computer_1.png",
+      "crop": null,
+      "description": "A close-up, side-profile view of the back of a black computer monitor featuring a matte plastic finish, a central stand with a rectangular base, and visible ventilation grilles on the side. The monitor is positioned on a light wooden desk with black cables running along the surface, while a blurred hand and keyboard are visible in the background.",
+      "attributes": {
+        "object_type": "computer monitor",
+        "color": "black",
+        "material": "matte plastic",
+        "view_angle": "side profile",
+        "features": {
+          "back_panel": "solid with horizontal vent lines",
+          "stand": "rectangular base with vertical support",
+          "cables": "black, visible on desk"
+        },
+        "surface": "light wood desk",
+        "background": "blurred hand and keyboard"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 2,
+      "score": 0.671875,
+      "box": [
+        -1.625,
+        376.0,
+        43.5,
+        808.0
+      ],
+      "mask": "image_5.masks/computer_2.png",
+      "crop": null,
+      "description": "A close-up view of the side and back of a black computer monitor, showing its matte plastic casing, a small circular button or indicator light on the side, and a thick stand base with visible cables.",
+      "attributes": {
+        "object_type": "computer monitor",
+        "color": "black",
+        "material": "matte plastic",
+        "visible_parts": [
+          "side panel",
+          "back panel",
+          "stand base",
+          "cables"
+        ],
+        "features": [
+          "circular button/indicator",
+          "thick stand",
+          "visible wiring"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer",
+      "index": 3,
+      "score": 0.69921875,
+      "box": [
+        -2.625,
+        380.0,
+        42.5,
+        400.0
+      ],
+      "mask": "image_5.masks/computer_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.62109375,
+      "box": [
+        908.0,
+        540.0,
+        1032.0,
+        596.0
+      ],
+      "mask": "image_5.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus crop showing a person's bare forearm and a section of dark blue denim fabric, likely a knee or thigh, with a blurred background.",
+      "attributes": {
+        "entity": "person",
+        "body_part": "forearm",
+        "skin_tone": "light",
+        "clothing": {
+          "material": "denim",
+          "color": "dark blue"
+        },
+        "focus": "blurry",
+        "background": "indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.8984375,
+      "box": [
+        -2.0,
+        604.0,
+        784.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/desk_1.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, matte finish and visible wood grain, holding two black computer monitors, two black keyboards, and one black mouse. The desk is occupied by two people, one in a yellow hoodie and one in a dark blue zip-up sweater, who are interacting with the computers.",
+      "attributes": {
+        "material": "light wood",
+        "color": "beige",
+        "surface": "smooth",
+        "items": [
+          "black monitor",
+          "black keyboard",
+          "black mouse",
+          "black cables"
+        ],
+        "occupants": {
+          "person_1": {
+            "clothing": "yellow hoodie",
+            "action": "typing"
+          },
+          "person_2": {
+            "clothing": "dark blue zip-up sweater, pink collared shirt",
+            "accessories": "silver ring",
+            "action": "pointing at screen, hand on keyboard"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "doorway",
+      "index": 0,
+      "score": 0.62890625,
+      "box": [
+        848.0,
+        111.0,
+        1008.0,
+        396.0
+      ],
+      "mask": "image_5.masks/doorway_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a wooden door with a vertical rectangular window pane on the right side, partially obscured by a person's shoulder and arm in the foreground.",
+      "attributes": {
+        "door": {
+          "material": "wood",
+          "color": "medium brown",
+          "features": [
+            "vertical rectangular window",
+            "wooden frame"
+          ],
+          "focus": "blurred"
+        },
+        "foreground": {
+          "object": "human arm and shoulder",
+          "clothing": "grey short-sleeved shirt",
+          "position": "left side, partially blocking view"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        230.0,
+        264.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian woman with short, wavy white hair and glasses is seated at a desk, smiling broadly while pointing at a computer screen with her right hand and resting her left hand on a black keyboard. She is wearing a dark blue zip-up cardigan over a light pink collared shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "thin metal frame",
+          "ring": "silver band on left ring finger"
+        },
+        "clothing": {
+          "outer": "dark blue zip-up cardigan",
+          "inner": "light pink collared shirt"
+        },
+        "expression": "smiling",
+        "pose": "seated, pointing with right index finger, left hand on keyboard"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.90625,
+      "box": [
+        166.0,
+        248.0,
+        576.0,
+        760.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with long, straight black hair is seated at a desk, wearing a bright yellow zip-up hoodie over a white t-shirt. She is smiling warmly while looking slightly to her left, with her hands resting near a keyboard and mouse on a light wooden surface.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": {
+            "type": "hoodie",
+            "color": "yellow",
+            "style": "zip-up"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "seated",
+        "action": "looking at screen",
+        "context": "office or study setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        426.0,
+        32.0,
+        1032.0,
+        644.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly Asian woman with short, wavy white hair and wire-rimmed glasses is seated, smiling broadly while looking to the left. She is wearing a dark blue zip-up cardigan over a light pink collared shirt.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "wire-rimmed"
+        },
+        "clothing": {
+          "outer": "dark blue cardigan",
+          "inner": "pink collared shirt"
+        },
+        "expression": "smiling",
+        "pose": "seated"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "picture",
+      "index": 0,
+      "score": 0.796875,
+      "box": [
+        -1.0,
+        75.5,
+        150.0,
+        286.0
+      ],
+      "mask": "image_5.masks/picture_0.png",
+      "crop": null,
+      "description": "A framed painting depicting a landscape scene with a body of water, green trees, and a yellowish field or path, set against a light blue sky. The frame is a simple, light brown wood.",
+      "attributes": {
+        "frame": {
+          "color": "light brown",
+          "material": "wood"
+        },
+        "painting": {
+          "subject": "landscape",
+          "elements": [
+            "water",
+            "trees",
+            "field/path",
+            "sky"
+          ],
+          "colors": [
+            "blue",
+            "green",
+            "yellow",
+            "light blue"
+          ]
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

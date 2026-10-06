@@ -1,0 +1,181 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        920.0,
+        688.0,
+        1024.0,
+        952.0
+      ],
+      "mask": "image_7.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of the upper backrest of a chair featuring a rounded top edge and a textured, dark grey fabric surface. A white cloth or garment partially obscures the left side of the frame, contrasting with the neutral grey upholstery.",
+      "attributes": {
+        "object_type": "chair",
+        "part_visible": "backrest",
+        "color": "dark grey",
+        "material": "fabric",
+        "texture": "textured",
+        "shape": "rounded top",
+        "obstruction": "white cloth on left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        6.0,
+        780.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's hands writing in an open notebook with a blue pen on a white marble surface with grey veining. The person is wearing a white long-sleeved top, and the notebook has a dark blue cover and lined pages.",
+      "attributes": {
+        "surface": {
+          "material": "marble",
+          "color": "white",
+          "pattern": "grey veining"
+        },
+        "person": {
+          "clothing": {
+            "sleeve": "white",
+            "type": "long-sleeved top"
+          },
+          "action": "writing",
+          "hand": {
+            "right": "holding pen",
+            "left": "resting on notebook"
+          }
+        },
+        "objects": {
+          "pen": {
+            "color": "blue",
+            "type": "ballpoint"
+          },
+          "notebook": {
+            "cover": "dark blue",
+            "pages": "lined, cream-colored",
+            "state": "open"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        190.0,
+        704.0,
+        280.0,
+        904.0
+      ],
+      "mask": "image_7.masks/pen_0.png",
+      "crop": null,
+      "description": "A glossy blue ballpoint pen with a silver clip and silver tip is held in a person's right hand, poised over a white surface. The pen has a cylindrical body with a silver band near the top and a silver clip attached to the cap.",
+      "attributes": {
+        "color": "blue",
+        "material": "plastic",
+        "finish": "glossy",
+        "type": "ballpoint pen",
+        "clip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "tip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "band": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "position": "held in hand",
+        "action": "writing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        160.0,
+        30.0,
+        952.0,
+        944.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a high bun is wearing black-rimmed glasses and a white crewneck sweatshirt, looking down with a slight smile while writing in an open notebook with a blue pen.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          },
+          "earrings": "small stud"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "neckline": "crewneck"
+          }
+        },
+        "pose": "sitting, writing",
+        "expression": "focused, slight smile",
+        "action": "writing in a notebook",
+        "objects": {
+          "pen": {
+            "color": "blue"
+          },
+          "notebook": {
+            "cover_color": "dark blue",
+            "pages": "lined, cream-colored"
+          }
+        },
+        "setting": "indoor, at a table with marble-like surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        -1.5,
+        262.0,
+        176.0,
+        784.0
+      ],
+      "mask": "image_7.masks/tripod_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light wood tripod stand with three legs converging at a central hub, positioned against a plain beige wall.",
+      "attributes": {
+        "material": "light wood",
+        "color": "tan",
+        "structure": "three-legged",
+        "focus": "blurred",
+        "background": "beige wall"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        532.0,
+        184.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with curly dark hair holds a young child wearing an orange Wonder Woman t-shirt and blue jeans. The woman is wearing a black tank top and a thin necklace, while the child has a neutral expression and is looking slightly to the side.",
+      "attributes": {
+        "woman": {
+          "gender": "female",
+          "age": "adult",
+          "hair": {
+            "color": "dark brown",
+            "style": "curly",
+            "length": "shoulder length"
+          },
+          "expression": "smiling",
+          "clothing": {
+            "top": {
+              "type": "tank top",
+              "color": "black"
+            },
+            "accessories": {
+              "necklace": "thin gold chain",
+              "earrings": "small hoop"
+            }
+          },
+          "pose": "holding child"
+        },
+        "child": {
+          "gender": "male",
+          "age": "toddler",
+          "hair": {
+            "color": "brown",
+            "style": "short, slightly messy"
+          },
+          "expression": "neutral",
+          "clothing": {
+            "shirt": {
+              "type": "t-shirt",
+              "color": "orange",
+              "graphic": "Wonder Woman logo and text"
+            },
+            "pants": {
+              "type": "jeans",
+              "color": "blue"
+            }
+          },
+          "pose": "being held"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        0.0,
+        146.0,
+        548.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with curly dark hair wearing a purple and white striped tank top holds a toddler with curly hair in a pink gingham dress, while a young boy in an orange t-shirt stands partially visible to the right.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Hispanic/Latino",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "pattern": "striped",
+            "colors": [
+              "purple",
+              "white"
+            ]
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "holding child",
+        "accessories": {
+          "necklace": "thin gold chain"
+        },
+        "associated_persons": {
+          "child_1": {
+            "gender": "female",
+            "age": "toddler",
+            "hair": {
+              "color": "light brown",
+              "style": "curly"
+            },
+            "clothing": {
+              "dress": {
+                "pattern": "gingham",
+                "colors": [
+                  "pink",
+                  "white"
+                ],
+                "details": "ruffled straps"
+              }
+            },
+            "expression": "neutral"
+          },
+          "child_2": {
+            "gender": "male",
+            "age": "child",
+            "clothing": {
+              "shirt": {
+                "color": "orange",
+                "graphic": "yellow winged logo",
+                "text": "WON"
+              },
+              "pants": {
+                "type": "jeans",
+                "color": "blue"
+              }
+            }
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9453125,
+      "box": [
+        476.0,
+        274.0,
+        820.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A young child with short, messy brown hair and a serious expression is being held by an adult, wearing an orange t-shirt featuring a distressed gold and black Wonder Woman logo and blue denim jeans.",
+      "attributes": {
+        "age_group": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "messy"
+        },
+        "expression": "serious",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "orange",
+            "graphic": "Wonder Woman logo",
+            "graphic_color": "gold and black"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "being held"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.84765625,
+      "box": [
+        -3.0,
+        228.0,
+        412.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "A smiling woman with curly dark hair holds a young toddler with curly light brown hair who has a serious expression. The woman wears a purple and white striped tank top, while the child wears a pink and white gingham dress with ruffled straps.",
+      "attributes": {
+        "group": {
+          "adult": {
+            "gender": "female",
+            "age_group": "adult",
+            "hair": {
+              "color": "dark brown",
+              "texture": "curly"
+            },
+            "expression": "smiling",
+            "clothing": {
+              "top": {
+                "type": "tank top",
+                "pattern": "striped",
+                "colors": [
+                  "purple",
+                  "white"
+                ]
+              }
+            },
+            "pose": "holding child"
+          },
+          "child": {
+            "gender": "female",
+            "age_group": "toddler",
+            "hair": {
+              "color": "light brown",
+              "texture": "curly"
+            },
+            "expression": "neutral",
+            "clothing": {
+              "dress": {
+                "pattern": "gingham",
+                "colors": [
+                  "pink",
+                  "white"
+                ],
+                "details": "ruffled straps"
+              }
+            },
+            "pose": "being held"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

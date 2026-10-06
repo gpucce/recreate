@@ -1,0 +1,208 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "beads",
+      "index": 0,
+      "score": 0.6328125,
+      "box": [
+        326.0,
+        251.0,
+        336.0,
+        280.0
+      ],
+      "mask": "image_0.masks/beads_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "beads",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        308.0,
+        236.0,
+        318.0,
+        282.0
+      ],
+      "mask": "image_0.masks/beads_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        222.0,
+        0.0,
+        368.0,
+        165.0
+      ],
+      "mask": "image_0.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up of a smiling woman wearing a patterned headscarf wrapped around her head, featuring a mix of dark green, black, and white geometric designs. The fabric appears to be a woven textile, possibly cotton, with a visible texture and a decorative border along the edge.",
+      "attributes": {
+        "entity": "headscarf",
+        "colors": [
+          "dark green",
+          "black",
+          "white",
+          "beige"
+        ],
+        "pattern": "geometric",
+        "material": "woven textile",
+        "style": "wrapped",
+        "wearer": {
+          "gender": "female",
+          "expression": "smiling",
+          "skin_tone": "dark brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.69140625,
+      "box": [
+        1.6640625,
+        33.5,
+        246.0,
+        94.0
+      ],
+      "mask": "image_0.masks/hillside_0.png",
+      "crop": null,
+      "description": "A blurred, out-of-focus view of a rocky hillside with sparse vegetation, including a few trees in the background. The foreground features light-colored, possibly sandy or rocky terrain, while the background shows a mix of green and brown hues, suggesting a natural, arid landscape.",
+      "attributes": {
+        "terrain": "rocky and sandy",
+        "vegetation": "sparse, with a few trees",
+        "color_palette": "light browns, greens, and muted earth tones",
+        "focus": "blurred and out-of-focus",
+        "setting": "natural, arid landscape"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        380.0,
+        95.5,
+        398.0,
+        155.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        75.5,
+        188.0,
+        209.0,
+        312.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up of a young child with dark skin and short, dark hair, sleeping with their head resting on the shoulder of an adult. The child wears a light-colored garment with an orange cloth tied around the neck, and their arm is visible resting against the adult's patterned clothing.",
+      "attributes": {
+        "age": "child",
+        "gender": "indeterminate",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "skin_tone": "dark",
+        "pose": "sleeping, head resting on shoulder",
+        "clothing": {
+          "child": {
+            "color": "beige",
+            "accessory": "orange cloth tied at neck"
+          },
+          "adult": {
+            "pattern": "black and white geometric",
+            "material": "textile"
+          }
+        },
+        "expression": "sleeping"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.93359375,
+      "box": [
+        187.0,
+        1.21875,
+        378.0,
+        310.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling woman with dark skin and a head wrap, wearing a patterned shawl and beaded necklaces, stands outdoors with a blurred natural background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "African",
+        "expression": "smiling",
+        "headwear": {
+          "type": "head wrap",
+          "color": "green and yellow"
+        },
+        "clothing": {
+          "top": "patterned shawl",
+          "pattern": "geometric",
+          "color": "brown and white"
+        },
+        "accessories": {
+          "necklace": "beaded",
+          "bead_colors": [
+            "white",
+            "black",
+            "red",
+            "green"
+          ]
+        },
+        "pose": "standing, facing slightly to the right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        -0.5546875,
+        61.5,
+        209.0,
+        312.0
+      ],
+      "mask": "image_0.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A rough, dry-stacked stone wall composed of irregular, light brown and tan rocks with visible gaps and uneven surfaces, serving as a textured background behind a sleeping child.",
+      "attributes": {
+        "material": "stone",
+        "color": "light brown, tan, beige",
+        "texture": "rough, uneven, dry-stacked",
+        "structure": "irregular masonry",
+        "condition": "weathered, rustic",
+        "position": "background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

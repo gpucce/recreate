@@ -1,0 +1,88 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        410.0,
+        96.0,
+        752.0,
+        784.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair is seated, holding a black DSLR camera with a large lens up to her face, while a young boy with curly brown hair sits on her shoulders, wearing a red t-shirt and blue jeans, smiling down at her.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "caucasian",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": "light blue and white striped button-up",
+          "pants": "blue jeans"
+        },
+        "pose": "seated, holding camera to eye",
+        "expression": "focused, slight smile",
+        "accessories": {
+          "camera": "black DSLR with large lens"
+        },
+        "context": "child on shoulders"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        206.0,
+        294.0,
+        768.0,
+        968.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair sits cross-legged on a beige sofa, holding a black DSLR camera up to her face with both hands. She wears a light blue and white striped button-down shirt with rolled-up sleeves, blue jeans, and white socks, while a young child in a red t-shirt and blue jeans sits on her shoulders.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "pose": "sitting cross-legged",
+        "action": "holding camera to eye",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue and white",
+            "pattern": "striped",
+            "sleeves": "rolled up"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": "white socks"
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black"
+          }
+        },
+        "context": {
+          "location": "on a sofa",
+          "companion": "child on shoulders"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

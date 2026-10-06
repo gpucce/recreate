@@ -1,0 +1,359 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.515625,
+      "box": [
+        -2.0,
+        656.0,
+        378.0,
+        944.0
+      ],
+      "mask": "image_3.masks/floor_0.png",
+      "crop": null,
+      "description": "{\"description\": \"The floor is made of light-colored wood with a smooth, polished finish, featuring a linear grain pattern that runs parallel to the glass partition. The wood planks are arranged in a straight, uniform layout, and the surface reflects some light, indicating a glossy or semi-glossy coating.\", \"attributes\": {\"material\": \"wood\", \"color\": \"light brown\", \"finish\": \"polished\", \"pattern\": \"linear grain\", \"layout\": \"straight planks\", \"reflection\": \"glossy\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "floor",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        2.0,
+        652.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/floor_1.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a smooth, polished finish and visible grain patterns, extending into the background of an office setting.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "finish": "polished",
+        "pattern": "plank",
+        "setting": "office"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        298.0,
+        28.0,
+        418.0,
+        804.0
+      ],
+      "mask": "image_3.masks/glass_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A woman with long, dark wavy hair is standing in a modern office environment, wearing a white button-down shirt and beige trousers. She is holding a black clipboard with a metal clip against her chest with both hands, her face partially obscured by her hair and the angle of the shot.\", \"attributes\": {\"gender\": \"female\", \"age\": \"young adult\", \"hair\": {\"color\": \"dark brown\", \"style\": \"long, wavy\"}, \"clothing\": {\"shirt\": {\"color\": \"white\", \"type\": \"button-down\", \"sleeves\": \"long, rolled up to forearms\"}, \"pants\": {\"color\": \"beige\", \"type\": \"trousers\"}}, \"accessories\": {\"earrings\": \"small, gold\"}, \"pose\": \"standing, holding clipboard\", \"object\": {\"type\": \"clipboard\", \"color\": \"black\", \"clip\": \"metal\"}}, \"setting\": {\"location\": \"office\", \"background\": \"glass wall, blurred interior\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.66015625,
+      "box": [
+        840.0,
+        322.0,
+        960.0,
+        556.0
+      ],
+      "mask": "image_3.masks/glass_1.png",
+      "crop": null,
+      "description": "A close-up, cropped view of a person's left arm and torso wearing a light blue, long-sleeved button-down shirt with the sleeve rolled up to the forearm. A wristwatch with a silver case and black strap is visible on the wrist, set against a heavily blurred, bright background suggesting an office environment with a plant and chair.",
+      "attributes": {
+        "entity": "person",
+        "body_part": "left arm and torso",
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "case": "silver",
+            "strap": "black"
+          }
+        },
+        "background": {
+          "blur": "high",
+          "elements": [
+            "plant",
+            "chair",
+            "window"
+          ],
+          "lighting": "bright"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.89453125,
+      "box": [
+        -1.5,
+        2.0,
+        111.0,
+        944.0
+      ],
+      "mask": "image_3.masks/glass_2.png",
+      "crop": null,
+      "description": "A vertical section of a glass partition with a dark gray metal frame, featuring a frosted horizontal band across the middle. Through the clear glass, a black office chair with a mesh back and a five-star base is visible, along with a desk and a blurred background suggesting an office environment.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark gray metal",
+        "frosting": "horizontal band",
+        "visible_objects": [
+          "black office chair",
+          "desk",
+          "office environment"
+        ],
+        "function": "partition or window"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.82421875,
+      "box": [
+        227.0,
+        -2.0,
+        296.0,
+        832.0
+      ],
+      "mask": "image_3.masks/glass_3.png",
+      "crop": null,
+      "description": "A vertical glass door or partition with a frosted horizontal stripe pattern in the middle, featuring a black handle on the left side and a blurred office background visible through the transparent sections.",
+      "attributes": {
+        "material": "glass",
+        "type": "door or partition",
+        "pattern": "frosted horizontal stripes",
+        "handle": "black, on the left",
+        "background": "blurred office interior",
+        "frame": "metallic, visible on the edges"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.84375,
+      "box": [
+        123.0,
+        -6.0,
+        205.0,
+        872.0
+      ],
+      "mask": "image_3.masks/glass_4.png",
+      "crop": null,
+      "description": "A tall, rectangular glass panel with a dark gray or black metal frame, featuring a frosted or semi-opaque finish that obscures the view of the interior. The glass reflects light, creating horizontal streaks of brightness across its surface, and is positioned vertically as part of a partition or door structure.",
+      "attributes": {
+        "material": "glass",
+        "frame_color": "dark gray/black",
+        "finish": "frosted/semi-opaque",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "function": "partition/door",
+        "light_reflection": "horizontal streaks"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.63671875,
+      "box": [
+        532.0,
+        236.0,
+        556.0,
+        692.0
+      ],
+      "mask": "image_3.masks/glass_5.png",
+      "crop": null,
+      "description": "A close-up of a person's arm and shoulder wearing a white, long-sleeved garment, with the background blurred to show vertical lines suggesting a window or door frame.",
+      "attributes": {
+        "clothing": {
+          "sleeve": "white",
+          "material": "smooth fabric"
+        },
+        "body_part": "arm",
+        "background": "blurred vertical lines"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 6,
+      "score": 0.69140625,
+      "box": [
+        556.0,
+        256.0,
+        596.0,
+        688.0
+      ],
+      "mask": "image_3.masks/glass_6.png",
+      "crop": null,
+      "description": "A close-up of a person's arm and hand, wearing a light gray long-sleeved shirt with the sleeve rolled up to the forearm. The background is blurred, showing indistinct vertical lines and light tones, possibly a window or glass structure.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light gray",
+          "sleeve": "rolled up to forearm"
+        },
+        "skin_tone": "light",
+        "pose": "arm hanging down",
+        "background": "blurred, light-colored, vertical lines"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 7,
+      "score": 0.546875,
+      "box": [
+        416.0,
+        134.0,
+        448.0,
+        172.0
+      ],
+      "mask": "image_3.masks/glass_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        580.0,
+        108.0,
+        860.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling man with curly dark hair and a short beard walks forward while holding a blue folder under his left arm. He is dressed in a light blue button-down shirt with rolled-up sleeves, dark trousers with a black belt, and black leather shoes.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_hair": "short beard",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "dark blue or black",
+            "type": "trousers"
+          },
+          "belt": {
+            "color": "black",
+            "buckle": "silver"
+          },
+          "shoes": {
+            "color": "black",
+            "type": "leather dress shoes"
+          },
+          "accessories": {
+            "watch": {
+              "band": "black",
+              "face": "silver"
+            },
+            "item_held": "blue folder"
+          }
+        },
+        "pose": "walking",
+        "position": "full body visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        308.0,
+        170.0,
+        548.0,
+        1008.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long dark hair is walking forward in a modern office hallway, wearing a white button-down shirt and beige trousers. She is holding a black clipboard under her arm and smiling while looking to the side.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "loose and wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "rolled up to forearms"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige",
+            "fit": "slim"
+          },
+          "shoes": {
+            "type": "heels",
+            "color": "black",
+            "style": "ankle strap"
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "earrings": "small studs"
+          }
+        },
+        "pose": "walking",
+        "expression": "smiling",
+        "holding": "black clipboard"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        924.0,
+        418.0,
+        1024.0,
+        510.0
+      ],
+      "mask": "image_3.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green plant with multiple leaves is visible in the background, positioned behind a white rectangular object in the foreground.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "position": "background",
+        "container": "white rectangular object"
+      },
+      "parse_ok": true
+    }
+  ]
+}

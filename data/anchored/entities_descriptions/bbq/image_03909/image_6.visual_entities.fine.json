@@ -1,0 +1,171 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        430.0,
+        660.0,
+        592.0,
+        996.0
+      ],
+      "mask": "image_6.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower body seated in a chair, wearing dark grey trousers and a dark shirt, with a hand resting on the thigh. To the left is the arm of a grey upholstered chair, and in the background, a wooden table with a white cup sits on a light wood floor with a patterned rug.",
+      "attributes": {
+        "entity": "person",
+        "pose": "sitting",
+        "clothing": {
+          "pants": "dark grey",
+          "shirt": "dark"
+        },
+        "body_parts": {
+          "hand": "visible, resting on knee",
+          "leg": "bent at knee"
+        },
+        "furniture": {
+          "chair": {
+            "color": "grey",
+            "material": "upholstered fabric"
+          },
+          "table": {
+            "color": "wood",
+            "material": "wood"
+          }
+        },
+        "objects": {
+          "cup": {
+            "color": "white",
+            "material": "ceramic"
+          }
+        },
+        "background": {
+          "floor": "light wood",
+          "rug": "patterned"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        500.0,
+        138.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a brown leather armchair, wearing a dark navy button-down shirt with sleeves rolled up and dark grey pants. He is looking off to the left with a serious, contemplative expression, hands clasped between his knees, with a potted plant visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "dark navy blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "dark grey",
+            "type": "trousers"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "furniture": {
+          "type": "armchair",
+          "material": "leather",
+          "color": "brown"
+        },
+        "background": {
+          "plant": "white calla lilies in a white pot"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        38.0,
+        176.0,
+        426.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair sits on a grey armchair, wearing a white button-down shirt with rolled-up sleeves and maroon trousers. She has a serious, contemplative expression, looking off to the side with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "maroon"
+          },
+          "accessories": {
+            "necklace": "thin gold chain",
+            "ring": "visible on finger"
+          }
+        },
+        "pose": "sitting",
+        "expression": "serious",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "whiteboard",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        392.0,
+        0.0,
+        1024.0,
+        434.0
+      ],
+      "mask": "image_6.masks/whiteboard_0.png",
+      "crop": null,
+      "description": "A large, blank whiteboard with a silver metal frame is mounted on a wall, featuring a black marker tray at the bottom holding a single black eraser. The surface is clean and unmarked, positioned behind a man with curly hair.",
+      "attributes": {
+        "object": "whiteboard",
+        "surface": {
+          "color": "white",
+          "state": "blank",
+          "material": "glossy"
+        },
+        "frame": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "accessories": {
+          "tray": "black",
+          "eraser": "black"
+        },
+        "position": "background, wall-mounted"
+      },
+      "parse_ok": true
+    }
+  ]
+}

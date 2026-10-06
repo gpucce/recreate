@@ -1,0 +1,120 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        402.0,
+        146.0,
+        976.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair sits with her eyes closed and a gentle, serene smile, wearing a dark blue cardigan over a floral blouse with pink and white flowers on a dark background. Her hands are clasped in her lap, and a younger woman's hand rests on her arm, suggesting a moment of comfort or affection.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "expression": "serene, eyes closed, slight smile",
+        "clothing": {
+          "outerwear": {
+            "type": "cardigan",
+            "color": "dark blue",
+            "material": "knit",
+            "details": "buttoned front"
+          },
+          "innerwear": {
+            "type": "blouse",
+            "pattern": "floral",
+            "colors": [
+              "pink",
+              "white",
+              "dark blue/black"
+            ],
+            "collar": "pointed"
+          }
+        },
+        "pose": "seated, hands clasped in lap",
+        "skin": "wrinkled, age spots visible",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "context": "being embraced by another person (hand visible on shoulder/arm)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        68.0,
+        84.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long wavy brown hair, wearing a white collared shirt and a maroon tie, sits closely beside an elderly woman with short gray hair who is wearing a floral blouse under a navy blue cardigan. The younger woman has her arm around the older woman's shoulder, and both are smiling gently with the older woman's eyes closed.",
+      "attributes": {
+        "person_1": {
+          "gender": "female",
+          "age_group": "young adult",
+          "hair": {
+            "color": "brown",
+            "length": "long",
+            "style": "wavy"
+          },
+          "clothing": {
+            "shirt": {
+              "color": "white",
+              "type": "button-down"
+            },
+            "tie": {
+              "color": "maroon"
+            },
+            "pants": {
+              "color": "gray"
+            }
+          },
+          "expression": "smiling",
+          "pose": "sitting, arm around other person"
+        },
+        "person_2": {
+          "gender": "female",
+          "age_group": "elderly",
+          "hair": {
+            "color": "gray",
+            "length": "short"
+          },
+          "clothing": {
+            "blouse": {
+              "pattern": "floral",
+              "colors": [
+                "pink",
+                "white",
+                "blue"
+              ]
+            },
+            "cardigan": {
+              "color": "navy blue",
+              "type": "knit"
+            }
+          },
+          "expression": "eyes closed, content smile",
+          "pose": "sitting, leaning into other person"
+        },
+        "interaction": "affectionate, close physical contact"
+      },
+      "parse_ok": true
+    }
+  ]
+}

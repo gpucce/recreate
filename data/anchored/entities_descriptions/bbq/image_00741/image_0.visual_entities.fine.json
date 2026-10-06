@@ -1,0 +1,101 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.6953125,
+      "box": [
+        400.0,
+        0.0,
+        792.0,
+        374.0
+      ],
+      "mask": "image_0.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A dark wooden cabinet with glass-paneled doors is visible in the background, featuring a traditional design with visible wood grain and a reflective surface. The cabinet appears to be part of a larger piece of furniture, possibly a hutch or armoire, with a decorative element at the top.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "doors": "glass-paneled",
+        "design": "traditional",
+        "position": "background",
+        "function": "storage/display",
+        "visible_details": [
+          "wood grain",
+          "reflective glass",
+          "decorative top element"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        130.0,
+        103.0,
+        760.0,
+        528.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair is shown in profile, wearing a dark blue velvet robe with floral embroidery and gold trim. She has her hand placed on the shoulder of a younger person, whose face is blurred, wearing a light blue patterned sweatshirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "type": "robe",
+          "color": "dark blue",
+          "material": "velvet",
+          "details": [
+            "floral embroidery",
+            "gold trim"
+          ]
+        },
+        "pose": "sitting, hand on another person's shoulder",
+        "expression": "neutral (face blurred)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        17.0,
+        82.5,
+        464.0,
+        528.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young person with short, dark curly hair is shown from the chest up, wearing a light blue sweatshirt with a repeating dark blue pattern. Their face is blurred, and another person's hand is visible resting on their right shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short, curly"
+        },
+        "clothing": {
+          "type": "sweatshirt",
+          "color": "light blue",
+          "pattern": "repeating dark blue text/logo",
+          "collar": "dark blue ribbed"
+        },
+        "pose": "sitting, facing forward",
+        "face": "blurred",
+        "other": "hand on shoulder"
+      },
+      "parse_ok": true
+    }
+  ]
+}

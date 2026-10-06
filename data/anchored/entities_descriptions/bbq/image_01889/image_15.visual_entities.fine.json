@@ -1,0 +1,486 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.7421875,
+      "box": [
+        848.0,
+        0.0,
+        1024.0,
+        360.0
+      ],
+      "mask": "image_15.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a reddish-brown brick facade features rectangular windows and a small balcony with a black metal railing on the upper level. A blue awning is visible at the street level, and the background is out of focus.",
+      "attributes": {
+        "material": "brick",
+        "color": "reddish-brown",
+        "structure": "multi-story",
+        "features": [
+          "rectangular windows",
+          "balcony with black railing",
+          "blue awning"
+        ],
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.5703125,
+      "box": [
+        848.0,
+        -1.0,
+        976.0,
+        272.0
+      ],
+      "mask": "image_15.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus building with a light pink or beige facade and rectangular windows is visible in the background, partially obscured by a close-up of curly brown hair in the foreground.",
+      "attributes": {
+        "building": {
+          "color": "light pink/beige",
+          "windows": "rectangular",
+          "focus": "blurred",
+          "position": "background"
+        },
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "position": "foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.6875,
+      "box": [
+        -1.0,
+        -1.0,
+        90.0,
+        472.0
+      ],
+      "mask": "image_15.masks/building_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a building's exterior featuring a dark gray or black window frame and a section of a light gray wall. In the bottom right corner, a small portion of a colorful, patterned fabric is visible, partially obscuring the lower part of the frame.",
+      "attributes": {
+        "building": {
+          "window_frame": "dark gray/black",
+          "wall": "light gray",
+          "focus": "blurred/out-of-focus"
+        },
+        "foreground_object": {
+          "type": "fabric",
+          "colors": [
+            "teal",
+            "pink",
+            "yellow",
+            "white"
+          ],
+          "pattern": "colorful/abstract",
+          "position": "bottom right corner"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.58984375,
+      "box": [
+        89.0,
+        -2.0,
+        213.0,
+        402.0
+      ],
+      "mask": "image_15.masks/building_3.png",
+      "crop": null,
+      "description": "A close-up, side-profile view of a person wearing a black ribbed knit beanie and a teal collared shirt with a pink and orange floral pattern. The person has short, curly gray hair visible at the nape of the neck and is positioned in the foreground, facing away from the camera towards a blurred background featuring a blue rectangular sign with the white text 'GAP' on a white building facade.",
+      "attributes": {
+        "entity_type": "person",
+        "age": "older adult",
+        "hair": {
+          "color": "gray",
+          "texture": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "headwear": {
+            "type": "beanie",
+            "color": "black",
+            "material": "knit"
+          },
+          "shirt": {
+            "color": "teal",
+            "pattern": "floral",
+            "pattern_colors": [
+              "pink",
+              "orange"
+            ],
+            "collar": "visible"
+          }
+        },
+        "pose": "profile view, facing left",
+        "background": {
+          "sign": {
+            "text": "GAP",
+            "color": "blue",
+            "text_color": "white"
+          },
+          "building": {
+            "color": "white"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.58203125,
+      "box": [
+        203.0,
+        -1.5,
+        348.0,
+        156.0
+      ],
+      "mask": "image_15.masks/building_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a building facade featuring a large, vertical section of reddish-brown siding or brickwork on the left and a white architectural element with a dark blue vertical accent on the right. The bottom of the frame is obscured by a blurry, dark textured object, likely a person's head or hat.",
+      "attributes": {
+        "building": {
+          "wall_color": "reddish-brown",
+          "wall_material": "siding or brick",
+          "trim_color": "white",
+          "accent_color": "dark blue",
+          "focus": "blurred"
+        },
+        "foreground": {
+          "object": "dark textured material",
+          "color": "black",
+          "position": "bottom"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.67578125,
+      "box": [
+        -2.0,
+        0.0,
+        352.0,
+        488.0
+      ],
+      "mask": "image_15.masks/building_5.png",
+      "crop": null,
+      "description": "An older Black man with a gray beard and mustache is smiling broadly, wearing a black knit beanie and a teal short-sleeved shirt with a colorful floral pattern. He is positioned in the foreground, facing slightly to the right, with a blurred storefront featuring a blue 'GAP' sign in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "gray",
+          "mustache": "gray"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "teal",
+            "pattern": "floral",
+            "sleeves": "short",
+            "collar": "button-down"
+          }
+        },
+        "expression": "smiling",
+        "pose": "profile view, looking right",
+        "background": {
+          "storefront": true,
+          "sign": {
+            "text": "GAP",
+            "color": "blue"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        540.0,
+        52.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling man with dark curly hair and a short beard stands outdoors holding a bright pink soccer ball with both hands. He is wearing a black and white varsity jacket with striped trim over a plain white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "mixed or middle eastern",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "facial_hair": "short beard and mustache",
+        "expression": "smiling",
+        "gaze": "looking to the left",
+        "clothing": {
+          "jacket": {
+            "type": "varsity",
+            "body_color": "black",
+            "sleeve_color": "white",
+            "collar": "ribbed with black and white stripes",
+            "cuffs": "ribbed with black and white stripes",
+            "buttons": "white snap buttons"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "accessories": {
+          "bracelet": "black band on left wrist"
+        },
+        "pose": "standing, holding object",
+        "object": {
+          "type": "soccer ball",
+          "color": "pink",
+          "pattern": "pentagonal panels"
+        },
+        "background": "outdoor street scene, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8046875,
+      "box": [
+        374.0,
+        346.0,
+        402.0,
+        422.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.984375,
+      "box": [
+        2.0,
+        126.0,
+        592.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_2.png",
+      "crop": null,
+      "description": "An older Black man with a gray beard and mustache is smiling broadly while gesturing with both hands, wearing a black beanie and a teal short-sleeved button-down shirt featuring a vibrant pattern of pink flamingos and tropical flowers. He is standing outdoors on a city sidewalk, engaged in conversation with another person partially visible on the right.",
+      "attributes": {
+        "gender": "male",
+        "age": "senior",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "gray",
+          "mustache": "gray"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "sleeves": "short",
+            "color": "teal",
+            "pattern": "flamingos and tropical flowers",
+            "pattern_colors": [
+              "pink",
+              "yellow",
+              "white",
+              "green"
+            ]
+          }
+        },
+        "accessories": {
+          "wrist": "watch"
+        },
+        "pose": "standing, gesturing with open hands",
+        "expression": "smiling, happy",
+        "location": "outdoor city street"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.765625,
+      "box": [
+        410.0,
+        338.0,
+        438.0,
+        426.0
+      ],
+      "mask": "image_15.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "soccer ball",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        580.0,
+        672.0,
+        812.0,
+        904.0
+      ],
+      "mask": "image_15.masks/soccer ball_0.png",
+      "crop": null,
+      "description": "A bright pink soccer ball with a classic pentagon and hexagon panel design is held in the hands of a person. The ball has a smooth, matte finish with visible stitching along the seams, and the hands are positioned on either side, gripping the ball firmly.",
+      "attributes": {
+        "color": "pink",
+        "material": "synthetic leather",
+        "pattern": "pentagon and hexagon panels",
+        "stitching": "visible",
+        "finish": "matte",
+        "held_by": "hands",
+        "position": "centered in the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.58984375,
+      "box": [
+        370.0,
+        266.0,
+        446.0,
+        342.0
+      ],
+      "mask": "image_15.masks/tree_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's nose and upper lip area, with a blurred background of green foliage. The skin tone is light, and there is visible hair on the upper lip, suggesting the person may be male or have facial hair. The focus is sharp on the nose and lip, while the background is out of focus, creating a shallow depth of field.",
+      "attributes": {
+        "skin_tone": "light",
+        "facial_hair": "visible on upper lip",
+        "focus": "sharp on nose and lip, blurred background",
+        "background": "green foliage, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.5390625,
+      "box": [
+        376.0,
+        61.0,
+        644.0,
+        468.0
+      ],
+      "mask": "image_15.masks/tree_1.png",
+      "crop": null,
+      "description": "A blurry tree with green leaves and a thin trunk is visible in the background, partially obscured by the out-of-focus foreground elements. The tree appears to be part of a street or park setting, with other indistinct shapes and colors suggesting an urban environment.",
+      "attributes": {
+        "color": "green",
+        "trunk": "thin",
+        "leaves": "green",
+        "focus": "blurry",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.6328125,
+      "box": [
+        460.0,
+        -1.0,
+        700.0,
+        512.0
+      ],
+      "mask": "image_15.masks/tree_2.png",
+      "crop": null,
+      "description": "A leafy green tree with a slender, dark trunk stands in the background, appearing out of focus behind a man in the foreground. The tree has a full canopy of green leaves and is situated on a sidewalk next to a street with parked cars.",
+      "attributes": {
+        "type": "deciduous",
+        "leaves": {
+          "color": "green",
+          "density": "medium"
+        },
+        "trunk": {
+          "color": "dark brown",
+          "thickness": "slender"
+        },
+        "focus": "blurred",
+        "location": "sidewalk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.54296875,
+      "box": [
+        370.0,
+        69.0,
+        520.0,
+        420.0
+      ],
+      "mask": "image_15.masks/tree_3.png",
+      "crop": null,
+      "description": "A blurry tree with green leaves and a few yellowish-orange fruits or flowers is visible in the background, out of focus. The tree's trunk and branches are partially obscured by the blur, and the overall image has a shallow depth of field, emphasizing the foreground subject (a person's face) over the background details.",
+      "attributes": {
+        "leaves": "green",
+        "fruits_or_flowers": "yellowish-orange",
+        "focus": "out_of_focus",
+        "position": "background",
+        "trunk": "partially_visible",
+        "branches": "partially_visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.5546875,
+      "box": [
+        600.0,
+        280.0,
+        664.0,
+        336.0
+      ],
+      "mask": "image_15.masks/tree_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

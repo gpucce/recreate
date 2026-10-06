@@ -1,0 +1,93 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        128.0,
+        340.0,
+        928.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling blonde woman with blue eyes and freckles is shown from the chest up, wearing a blue and white striped button-down shirt and a delicate gold necklace. A young child in a red polo shirt is sitting on her shoulders, with their arms wrapped around her head and the woman's hands holding the child's legs.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "eyes": "blue",
+        "skin": "fair with visible freckles",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "accessories": {
+            "necklace": "thin gold chain with small pendant",
+            "ring": "gold band on left ring finger"
+          }
+        },
+        "pose": "sitting, holding a child on shoulders",
+        "context": "indoor, bright lighting, blurred background with sofa and plant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.87890625,
+      "box": [
+        222.0,
+        28.0,
+        688.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with wavy blonde hair and blue eyes wearing a blue and white striped button-down shirt and a delicate gold necklace, with a young curly-haired boy in a red polo shirt sitting on her shoulders and smiling at the camera.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "style": "wavy, shoulder-length"
+        },
+        "eyes": "blue",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": "blue and white vertical striped button-down",
+          "accessories": "thin gold necklace with small pendant"
+        },
+        "pose": "facing forward, head slightly tilted, supporting child on shoulders",
+        "child_on_shoulders": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "light brown",
+            "style": "curly"
+          },
+          "eyes": "blue",
+          "expression": "smiling",
+          "clothing": {
+            "shirt": "red short-sleeved polo"
+          },
+          "pose": "sitting on woman's shoulders, arms wrapped around her neck"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

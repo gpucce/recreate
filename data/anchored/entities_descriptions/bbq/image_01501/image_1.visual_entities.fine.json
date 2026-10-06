@@ -1,0 +1,98 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        536.0,
+        178.0,
+        976.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with wavy brown hair sits smiling gently, wearing a white long-sleeved shirt with small red stars and a red neckerchief tied in a bow at the collar. She is seated next to an older person, holding their hand, with a soft, warm expression and a relaxed posture.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "pattern": "small red stars",
+            "sleeves": "long, rolled up slightly at cuffs"
+          },
+          "accessory": {
+            "type": "neckerchief",
+            "color": "red",
+            "style": "tied in a bow at neck"
+          },
+          "pants": {
+            "color": "black"
+          }
+        },
+        "pose": "seated, leaning slightly toward companion, hands clasped",
+        "expression": "gentle smile, calm and affectionate",
+        "position": "center-right of frame, partially overlapping with older person on left",
+        "skin_tone": "fair",
+        "context": "intimate, familial or caregiving setting implied by hand-holding and proximity"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        80.0,
+        210.0,
+        628.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair sits with a gentle smile, wearing a blue knit cardigan over a brown shirt and floral patterned pants. She is positioned next to a younger woman, with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "expression": "gentle smile",
+        "clothing": {
+          "outerwear": {
+            "type": "cardigan",
+            "color": "blue",
+            "material": "knit",
+            "details": "brown buttons"
+          },
+          "top": {
+            "color": "brown"
+          },
+          "bottoms": {
+            "type": "pants",
+            "pattern": "floral",
+            "colors": [
+              "purple",
+              "white",
+              "brown"
+            ]
+          },
+          "accessories": {
+            "necklace": "thin chain"
+          }
+        },
+        "pose": "sitting, hands clasped"
+      },
+      "parse_ok": true
+    }
+  ]
+}

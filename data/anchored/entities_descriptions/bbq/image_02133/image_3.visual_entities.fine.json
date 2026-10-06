@@ -1,0 +1,304 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.6484375,
+      "box": [
+        888.0,
+        13.0,
+        1024.0,
+        428.0
+      ],
+      "mask": "image_3.masks/door_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a blue door frame and the upper portion of a door, featuring a vertical rectangular window or panel. The bottom of the frame is partially obscured by the top of a person's head with brown hair.",
+      "attributes": {
+        "color": "blue",
+        "material": "painted wood or composite",
+        "features": [
+          "door frame",
+          "vertical rectangular window or panel"
+        ],
+        "focus": "blurred",
+        "occlusion": "partially obscured by brown hair at the bottom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.703125,
+      "box": [
+        15.25,
+        114.0,
+        55.75,
+        672.0
+      ],
+      "mask": "image_3.masks/door_1.png",
+      "crop": null,
+      "description": "A vertical, rectangular door painted in a muted blue color is visible, featuring a white frame and a white doorknob positioned on the left side. The image is heavily blurred, obscuring fine surface textures and specific material details.",
+      "attributes": {
+        "color": "blue",
+        "frame_color": "white",
+        "doorknob": {
+          "color": "white",
+          "position": "left"
+        },
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 2,
+      "score": 0.609375,
+      "box": [
+        77.0,
+        180.0,
+        100.0,
+        572.0
+      ],
+      "mask": "image_3.masks/door_2.png",
+      "crop": null,
+      "description": "A vertical, dark blue or gray door frame is visible on the left side of the image, with a hand holding a gray object in the bottom right corner. The background is blurred and indistinct.",
+      "attributes": {
+        "color": "dark blue/gray",
+        "material": "unknown",
+        "position": "left side",
+        "visible_parts": [
+          "door frame",
+          "hand",
+          "gray object"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 3,
+      "score": 0.5625,
+      "box": [
+        768.0,
+        100.5,
+        840.0,
+        318.0
+      ],
+      "mask": "image_3.masks/door_3.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurry, out-of-focus view of a door frame and part of a door, with a dark blue or gray door panel visible on the left side and a lighter, possibly white or beige, wall or door section on the right. The image is heavily blurred, making fine details indistinct.\", \"attributes\": {\"color\": {\"door_panel\": \"dark blue or gray\", \"wall_or_door_section\": \"light beige or white\"}, \"focus\": \"blurry\", \"material\": \"indeterminate due to blur\", \"position\": \"left side of frame\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        284.0,
+        49.75,
+        436.0,
+        90.0
+      ],
+      "mask": "image_3.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A rectangular, recessed ceiling light fixture emitting a bright, diffuse white light. The fixture features a flat, white diffuser panel set within a thin, light-colored frame, appearing flush with the ceiling surface.",
+      "attributes": {
+        "shape": "rectangular",
+        "color": "white",
+        "material": "plastic or metal frame, glass or acrylic diffuser",
+        "type": "recessed panel light",
+        "lighting": "bright, diffuse white",
+        "installation": "flush mount",
+        "state": "on"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        576.0,
+        272.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight brown hair stands in profile, looking down with a focused expression at a white piece of paper held in her hands. She wears a short-sleeved t-shirt with horizontal black and white stripes and has a black backpack strap over her shoulder, standing next to an older man holding a camera.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "pattern": "striped",
+            "colors": [
+              "black",
+              "white"
+            ]
+          },
+          "accessories": {
+            "backpack": {
+              "strap": "black"
+            }
+          }
+        },
+        "pose": "standing, looking down",
+        "action": "reading a document",
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        29.0,
+        226.0,
+        512.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair stands looking down at a white piece of paper held in his hands, wearing a blue denim jacket over a maroon t-shirt and carrying a black backpack. An adult's hand rests on his shoulder from the right side, suggesting a supportive or guiding interaction in a brightly lit indoor hallway.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "maroon"
+          }
+        },
+        "accessories": {
+          "backpack": {
+            "color": "black",
+            "straps": "visible on shoulders"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "serious, focused",
+        "action": "reading a document",
+        "interaction": "adult hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        100.0,
+        98.0,
+        812.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair and a serious expression looks down at a white paper he is holding with both hands. He is wearing a blue denim jacket over a maroon t-shirt and has black backpack straps on his shoulders.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "maroon"
+          },
+          "accessories": {
+            "backpack": "black straps visible"
+          }
+        },
+        "pose": "standing, looking down",
+        "action": "reading a document",
+        "expression": "focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        -3.0,
+        -4.0,
+        152.0,
+        896.0
+      ],
+      "mask": "image_3.masks/wall_0.png",
+      "crop": null,
+      "description": "A person wearing a blue denim jacket is seen from the side, with their hand resting on their shoulder. The background features a blurred hallway with blue doors and white walls.",
+      "attributes": {
+        "clothing": {
+          "jacket": "blue denim"
+        },
+        "pose": "standing, hand on shoulder",
+        "background": {
+          "doors": "blue",
+          "walls": "white",
+          "setting": "hallway"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.62890625,
+      "box": [
+        588.0,
+        -1.0,
+        1024.0,
+        312.0
+      ],
+      "mask": "image_3.masks/wall_1.png",
+      "crop": null,
+      "description": "A close-up view of an older man with short, wavy gray hair and a gray beard, looking downward with a focused expression. He is wearing a light blue collared shirt, and the background features a white wall with two out-of-focus blue door frames.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "hair": {
+          "color": "gray",
+          "style": "short, wavy"
+        },
+        "facial_hair": "gray beard",
+        "expression": "focused, looking down",
+        "clothing": {
+          "shirt": "light blue collared"
+        },
+        "background": {
+          "wall": "white",
+          "doors": "blue frames, out of focus"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

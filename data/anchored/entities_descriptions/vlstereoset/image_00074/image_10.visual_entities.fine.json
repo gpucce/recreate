@@ -1,0 +1,475 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.7578125,
+      "box": [
+        2.0,
+        262.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_10.masks/ground_0.png",
+      "crop": null,
+      "description": "The ground is a paved concrete sidewalk with a smooth, light gray surface, partially covered by scattered dry autumn leaves in shades of yellow, orange, and brown. A red textured blanket is spread out on the sidewalk, serving as a play area for a child sitting on it.",
+      "attributes": {
+        "surface": "concrete sidewalk",
+        "color": "light gray",
+        "texture": "smooth",
+        "debris": "autumn leaves",
+        "leaf_colors": [
+          "yellow",
+          "orange",
+          "brown"
+        ],
+        "object_on_ground": "red blanket",
+        "blanket_texture": "textured",
+        "blanket_color": "red"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        192.0,
+        113.0,
+        270.0,
+        189.0
+      ],
+      "mask": "image_10.masks/house_0.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a reddish-brown brick wall featuring a diagonal gray structural beam or support running across the surface. The image is out of focus, obscuring fine texture details of the masonry.",
+      "attributes": {
+        "material": "brick",
+        "color": "reddish-brown",
+        "structural_elements": "diagonal gray beam",
+        "focus": "blurry",
+        "type": "wall section"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.8125,
+      "box": [
+        -5.5,
+        21.5,
+        192.0,
+        244.0
+      ],
+      "mask": "image_10.masks/house_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a single-story house featuring a reddish-brown gabled roof and white exterior walls. A dark, indistinct bush is visible in the foreground, partially obscuring the lower portion of the structure, while a section of a porch with vertical supports is visible on the left side.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "style": "gabled"
+        },
+        "walls": {
+          "color": "white"
+        },
+        "structure": {
+          "type": "single-story house",
+          "features": [
+            "porch",
+            "vertical supports"
+          ]
+        },
+        "foreground": {
+          "object": "bush",
+          "color": "dark green",
+          "clarity": "blurred"
+        },
+        "image_quality": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 2,
+      "score": 0.7109375,
+      "box": [
+        764.0,
+        83.0,
+        980.0,
+        239.0
+      ],
+      "mask": "image_10.masks/house_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house with a dark gray roof and light-colored walls, featuring two prominent white, conical structures in the foreground that appear to be part of the house's architecture or nearby objects. The image is heavily blurred, making specific details indistinct.",
+      "attributes": {
+        "roof": "dark gray",
+        "walls": "light-colored",
+        "foreground_objects": "white, conical",
+        "focus": "blurry",
+        "structure_type": "house"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 3,
+      "score": 0.7734375,
+      "box": [
+        960.0,
+        89.0,
+        1024.0,
+        177.0
+      ],
+      "mask": "image_10.masks/house_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house facade featuring a light beige or cream-colored wall and a dark brown roof. A dark, rectangular doorway is visible in the lower center, and a small portion of a blue object is visible at the very bottom edge.",
+      "attributes": {
+        "wall_color": "beige",
+        "roof_color": "brown",
+        "doorway": "dark",
+        "focus": "blurry",
+        "structure": "house"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 4,
+      "score": 0.70703125,
+      "box": [
+        760.0,
+        100.5,
+        848.0,
+        234.0
+      ],
+      "mask": "image_10.masks/house_4.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred, out-of-focus view of a white, conical or triangular structure, likely a roof or part of a building, set against a background of muted greens and grays. The structure appears to be made of a smooth material, possibly metal or painted wood, but the lack of focus makes it impossible to discern specific textures or details.",
+      "attributes": {
+        "color": "white",
+        "shape": "conical/triangular",
+        "material": "indeterminate due to blur",
+        "focus": "out-of-focus",
+        "background": "muted greens and grays"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 5,
+      "score": 0.66796875,
+      "box": [
+        832.0,
+        91.0,
+        976.0,
+        237.0
+      ],
+      "mask": "image_10.masks/house_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house with a white gabled roof and a brown wall, partially obscured by a white conical structure in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "white",
+          "shape": "gabled"
+        },
+        "walls": {
+          "color": "brown"
+        },
+        "foreground_object": {
+          "color": "white",
+          "shape": "conical"
+        },
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        272.0,
+        -2.0,
+        508.0,
+        584.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with light brown hair is seen from behind, walking away on a paved path. The child is wearing a bright pink, quilted puffer jacket with a hood, blue jeans, and light-colored shoes.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "pink",
+            "features": "hooded, quilted"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "light"
+          }
+        },
+        "pose": "walking away",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        266.0,
+        310.0,
+        704.0,
+        864.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with light skin and blonde hair sits cross-legged on a red blanket outdoors, wearing a navy blue puffer jacket with pink zippers and a pink, grey, and white striped knit beanie. The child is focused on stacking colorful wooden blocks, with a pink plastic horse toy visible to the right.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "female",
+        "hair": {
+          "color": "blonde",
+          "length": "short"
+        },
+        "clothing": {
+          "hat": {
+            "type": "beanie",
+            "pattern": "striped",
+            "colors": [
+              "pink",
+              "grey",
+              "white"
+            ]
+          },
+          "jacket": {
+            "type": "puffer",
+            "color": "navy blue",
+            "details": "pink zipper, pink inner lining"
+          },
+          "pants": {
+            "color": "grey"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "pink"
+          }
+        },
+        "pose": "sitting cross-legged",
+        "activity": "playing with blocks",
+        "expression": "focused",
+        "accessories": {
+          "toys": [
+            "wooden blocks",
+            "pink plastic horse"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plush toy",
+      "index": 0,
+      "score": 0.625,
+      "box": [
+        616.0,
+        720.0,
+        824.0,
+        936.0
+      ],
+      "mask": "image_10.masks/plush toy_0.png",
+      "crop": null,
+      "description": "A small, pink plush toy horse with a simple, stylized design, featuring a rounded body, short legs, a mane, and a tail, all in a uniform pink color. The toy is positioned on a red, textured surface, possibly a blanket or fabric.",
+      "attributes": {
+        "color": "pink",
+        "material": "plush",
+        "type": "horse",
+        "features": {
+          "mane": "pink",
+          "tail": "pink",
+          "eyes": "black",
+          "nose": "pink"
+        },
+        "pose": "standing",
+        "surface": "red textured fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        2.0,
+        264.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_10.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A gray concrete sidewalk with a smooth surface, partially covered by a red blanket and scattered with autumn leaves on the edges.",
+      "attributes": {
+        "material": "concrete",
+        "color": "gray",
+        "surface": "smooth",
+        "condition": "clean",
+        "surroundings": "autumn leaves",
+        "objects_on_sit": [
+          "red blanket",
+          "toys"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 1,
+      "score": 0.50390625,
+      "box": [
+        0.0,
+        306.0,
+        1016.0,
+        362.0
+      ],
+      "mask": "image_10.masks/sidewalk_1.png",
+      "crop": null,
+      "description": "A person wearing a pink jacket and blue jeans is walking away from the camera on a sidewalk, holding a striped beanie in their right hand. The background is blurred, showing autumn leaves and a road.",
+      "attributes": {
+        "clothing": {
+          "jacket": "pink",
+          "jeans": "blue"
+        },
+        "accessories": {
+          "beanie": "striped with pink, white, and gray"
+        },
+        "pose": "walking away",
+        "background": {
+          "leaves": "autumn colors",
+          "road": "visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.63671875,
+      "box": [
+        213.0,
+        82.0,
+        237.0,
+        113.0
+      ],
+      "mask": "image_10.masks/tree_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.74609375,
+      "box": [
+        660.0,
+        -1.0,
+        956.0,
+        308.0
+      ],
+      "mask": "image_10.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, thick tree trunk with rough, brownish-gray bark stands in the foreground on the left, appearing out of focus. The trunk extends vertically through the frame, with a few branches visible at the top, while the background shows a blurred residential street scene with houses and parked cars.",
+      "attributes": {
+        "object_type": "tree",
+        "part_visible": "trunk",
+        "bark_color": "brownish-gray",
+        "bark_texture": "rough",
+        "focus": "blurred",
+        "position": "foreground left",
+        "background": "residential street, houses, cars"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.578125,
+      "box": [
+        924.0,
+        33.75,
+        1020.0,
+        98.0
+      ],
+      "mask": "image_10.masks/tree_2.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing indistinct shapes and colors that suggest a tree with branches against a light background. The colors are muted, with hints of brown and gray, but no clear details can be discerned due to the lack of focus.",
+      "attributes": {
+        "focus": "extremely blurry",
+        "colors": [
+          "brown",
+          "gray",
+          "light background"
+        ],
+        "details": "indistinct shapes suggesting branches"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.6953125,
+      "box": [
+        462.0,
+        -2.0,
+        676.0,
+        274.0
+      ],
+      "mask": "image_10.masks/tree_3.png",
+      "crop": null,
+      "description": "A blurry tree with a thick, dark brown trunk and branches extending upward, adorned with sparse yellow leaves, set against a blurred background of other trees and a building.",
+      "attributes": {
+        "trunk": "thick, dark brown",
+        "branches": "extending upward",
+        "leaves": "sparse, yellow",
+        "background": "blurred, includes other trees and a building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.5390625,
+      "box": [
+        752.0,
+        44.0,
+        848.0,
+        125.0
+      ],
+      "mask": "image_10.masks/tree_4.png",
+      "crop": null,
+      "description": "The image is a heavily blurred, out-of-focus crop showing indistinct shapes and colors that suggest a tree or plant. The upper portion consists of light blue and white tones, possibly representing leaves or sky, while the lower portion shows darker, brownish-gray vertical forms that could be branches or a trunk. No specific details, textures, or features are discernible due to the extreme blur.",
+      "attributes": {
+        "focus": "extremely blurred",
+        "colors": {
+          "upper": "light blue, white",
+          "lower": "brownish-gray"
+        },
+        "structure": "indistinct vertical and horizontal forms",
+        "visibility": "low detail, no clear features"
+      },
+      "parse_ok": true
+    }
+  ]
+}

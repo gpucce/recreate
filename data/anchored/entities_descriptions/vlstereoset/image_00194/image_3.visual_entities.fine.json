@@ -1,0 +1,75 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        153.0,
+        76.0,
+        504.0,
+        796.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A stylized illustration of a person walking to the right, wearing a long black coat over blue pants and black shoes, with yellow skin and black hair, holding a cane in their right hand.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "skin_color": "yellow",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "clothing": {
+          "coat": {
+            "color": "black",
+            "length": "long"
+          },
+          "pants": {
+            "color": "blue"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "color": "black"
+          }
+        },
+        "pose": "walking",
+        "direction": "right",
+        "style": "flat illustration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        452.0,
+        384.0,
+        860.0,
+        800.0
+      ],
+      "mask": "image_3.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black, wireframe shopping cart with a grid-like basket and two visible wheels is positioned on a light green background. The cart is partially cropped on the left side, where a person's leg and foot are visible, suggesting the cart is being pushed.",
+      "attributes": {
+        "color": "black",
+        "material": "wireframe",
+        "wheels": "two visible, black",
+        "basket": "grid-like",
+        "position": "partially cropped on the left",
+        "background": "light green",
+        "function": "shopping cart",
+        "culture_specific": false
+      },
+      "parse_ok": true
+    }
+  ]
+}

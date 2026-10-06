@@ -1,0 +1,97 @@
+{
+  "scene": {
+    "background": "light gray office shelving with stacked white storage boxes",
+    "lighting": "soft and diffused, likely from overhead office lights, with a warm, slightly yellowish white balance",
+    "camera_angle": "slightly elevated eye-level angle",
+    "style": "realistic, documentary-like, with a touch of cinematic quality",
+    "mood": "tense, professional, and emotionally charged — a moment of workplace conflict or performance pressure",
+    "color_palette": "muted — dominated by navy blues, whites, grays, and the pop of red from the pencil"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "age": "adult",
+        "gender": "male",
+        "clothing": {
+          "suit": "dark navy",
+          "shirt": "light yellow collared",
+          "cuffs": "white"
+        },
+        "pose": "standing",
+        "expression": "serious",
+        "gesture": "pointing with right index finger at laptop screen",
+        "object_held": "silver tablet in left hand"
+      },
+      "id": "man_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "younger",
+        "gender": "male",
+        "clothing": {
+          "suit": "dark navy",
+          "shirt": "white dress",
+          "tie": "black"
+        },
+        "pose": "seated",
+        "expression": "distressed",
+        "hair": {
+          "length": "short",
+          "color": "dark",
+          "style": "neatly styled"
+        },
+        "gesture": "pressing red pencil to forehead with right hand",
+        "object_held": "red pencil",
+        "additional": {
+          "eyes": "closed or half-closed",
+          "head_position": "slightly bowed"
+        }
+      },
+      "id": "man_2",
+      "count": 1
+    },
+    {
+      "type": "laptop",
+      "attributes": {
+        "color": "silver",
+        "position": "open and positioned directly in front of man_2",
+        "object_interaction": "left hand resting on keyboard"
+      },
+      "id": "laptop_1",
+      "count": 1
+    },
+    {
+      "type": "tablet",
+      "attributes": {
+        "color": "silver",
+        "object_interaction": "held in left hand by man_1"
+      },
+      "id": "tablet_1",
+      "count": 1
+    },
+    {
+      "type": "notebook",
+      "attributes": {
+        "color": "black leather-bound",
+        "clasp": "silver",
+        "position": "placed to the left of laptop_1"
+      },
+      "id": "notebook_1",
+      "count": 1
+    },
+    {
+      "type": "pencil",
+      "attributes": {
+        "color": "red",
+        "object_interaction": "pressed to forehead by man_2"
+      },
+      "id": "pencil_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

@@ -1,0 +1,193 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a black interior is shown from the side, with the driver's side window open. Inside, a young woman with wavy brown hair sits in the passenger seat, wearing a white button-down shirt and a seatbelt, holding a white paper coffee cup. In the driver's seat, a young man with curly blonde hair, also in a white button-down shirt and seatbelt, is driving, with his left hand on the steering wheel and a black watch on his wrist. A manual gear shift is visible between the seats.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "interior_color": "black",
+          "transmission": "manual",
+          "window": "open"
+        },
+        "passenger": {
+          "gender": "female",
+          "age": "young adult",
+          "hair": {
+            "color": "brown",
+            "style": "wavy, shoulder-length"
+          },
+          "clothing": {
+            "shirt": "white, button-down"
+          },
+          "accessories": {
+            "seatbelt": "worn",
+            "item_held": "white paper coffee cup with lid"
+          },
+          "pose": "sitting, looking forward"
+        },
+        "driver": {
+          "gender": "male",
+          "age": "young adult",
+          "hair": {
+            "color": "blonde",
+            "style": "curly, short"
+          },
+          "clothing": {
+            "shirt": "white, button-down, sleeves rolled up",
+            "pants": "dark grey or black"
+          },
+          "accessories": {
+            "seatbelt": "worn",
+            "watch": "black, on left wrist"
+          },
+          "pose": "driving, left hand on steering wheel, looking forward"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        684.0,
+        744.0,
+        812.0,
+        920.0
+      ],
+      "mask": "image_4.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A close-up view of a white disposable paper coffee cup with a matching white plastic lid, held firmly in a person's hand. The cup is cylindrical with a smooth surface, and the lid features a raised rim and a central drinking spout area.",
+      "attributes": {
+        "object": "coffee cup",
+        "color": "white",
+        "material": "paper, plastic",
+        "lid": {
+          "color": "white",
+          "type": "plastic",
+          "features": "raised rim, drinking spout"
+        },
+        "holding": {
+          "hand": "visible",
+          "grip": "wrapped around the cup"
+        },
+        "condition": "clean, unused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        458.0,
+        166.0,
+        1032.0,
+        872.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with wavy, light blonde hair sits in the driver's seat of a car, wearing a white button-down shirt with rolled-up sleeves and a grey seatbelt. He is looking forward with a neutral expression, his left hand resting on the steering wheel and wearing a black wristwatch.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "style": "wavy, medium length"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "grey"
+          },
+          "accessories": {
+            "watch": {
+              "color": "black",
+              "location": "left wrist"
+            },
+            "seatbelt": {
+              "color": "grey"
+            }
+          }
+        },
+        "pose": "sitting, driving",
+        "expression": "neutral, focused",
+        "location": "driver's seat"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        122.0,
+        202.0,
+        912.0,
+        944.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with wavy, shoulder-length brown hair sits in the passenger seat of a car, wearing a white button-down shirt and a black seatbelt. She holds a white paper coffee cup with a lid in her hands and looks forward with a neutral expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down"
+          },
+          "seatbelt": {
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "holding": "white paper coffee cup with lid",
+        "location": "passenger seat of a car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watch",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        968.0,
+        424.0,
+        1008.0,
+        480.0
+      ],
+      "mask": "image_4.masks/watch_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        213.0,
+        968.0,
+        364.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a green chair armrest with a smooth, matte finish, positioned next to a person's brown-skinned arm. The armrest has a rounded, rectangular shape and appears to be made of plastic or a similar synthetic material.",
+      "attributes": {
+        "object": "chair armrest",
+        "color": "green",
+        "material": "plastic",
+        "shape": "rounded rectangular",
+        "finish": "matte",
+        "adjacent_object": "human arm",
+        "skin_tone": "brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.859375,
+      "box": [
+        908.0,
+        628.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a green plastic chair featuring a curved armrest and a backrest with vertical slats. A person wearing a pink top and blue pants is seated on the chair, with their hand visible near the armrest.",
+      "attributes": {
+        "material": "plastic",
+        "color": "green",
+        "type": "armchair",
+        "features": {
+          "armrest": "curved",
+          "backrest": "vertical slats"
+        },
+        "occupant": {
+          "clothing": {
+            "top": "pink",
+            "bottoms": "blue"
+          },
+          "visible_parts": [
+            "hand",
+            "torso",
+            "legs"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.953125,
+      "box": [
+        -2.5,
+        792.0,
+        156.0,
+        1016.0
+      ],
+      "mask": "image_2.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up view of a green chair frame, likely made of plastic or painted metal, with a curved armrest visible. The chair is partially obscured by a person wearing blue denim jeans and a pink top, with a white table surface visible in the foreground.",
+      "attributes": {
+        "color": "green",
+        "material": "plastic or metal",
+        "part_visible": "armrest and frame",
+        "shape": "curved",
+        "context": "seating furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 3,
+      "score": 0.65234375,
+      "box": [
+        868.0,
+        796.0,
+        988.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/chair_3.png",
+      "crop": null,
+      "description": "A close-up view of a green plastic chair backrest featuring a curved, tubular design with a smooth, glossy finish. A person wearing a light pink short-sleeved shirt is partially visible on the left side, positioned in front of the chair.",
+      "attributes": {
+        "object": "chair",
+        "material": "plastic",
+        "color": "green",
+        "design": "curved tubular backrest",
+        "finish": "glossy",
+        "visible_person": {
+          "clothing": {
+            "shirt": "light pink",
+            "sleeve_length": "short"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 4,
+      "score": 0.86328125,
+      "box": [
+        220.0,
+        796.0,
+        988.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/chair_4.png",
+      "crop": null,
+      "description": "{\"description\": \"A green plastic chair with a curved backrest and armrests, partially visible behind a person wearing a pink shirt. The chair appears to be made of molded plastic and is positioned in an outdoor or semi-outdoor setting.\", \"attributes\": {\"material\": \"plastic\", \"color\": \"green\", \"type\": \"molded plastic chair\", \"features\": [\"curved backrest\", \"armrests\"], \"position\": \"behind the person\", \"setting\": \"outdoor or semi-outdoor\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        884.0,
+        306.0,
+        964.0,
+        406.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus crop of a person's head and shoulder area. The person has dark hair, and a portion of a light-colored, possibly white or cream, textured garment is visible on the left side.",
+      "attributes": {
+        "hair": "dark",
+        "clothing": {
+          "color": "light",
+          "texture": "textured"
+        },
+        "focus": "out-of-focus",
+        "position": "close-up"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.61328125,
+      "box": [
+        992.0,
+        264.0,
+        1024.0,
+        308.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.890625,
+      "box": [
+        97.0,
+        358.0,
+        185.0,
+        536.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus crop showing the side profile of a person with dark, curly hair and a light pink garment, with a blurred face visible in the background.",
+      "attributes": {
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "style": "loose"
+        },
+        "clothing": {
+          "color": "light pink",
+          "type": "shirt"
+        },
+        "skin_tone": "light",
+        "focus": "blurry",
+        "view": "side profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9453125,
+      "box": [
+        832.0,
+        308.0,
+        1024.0,
+        956.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "A close-up view of a person with dark skin and white curly hair, wearing a light pink t-shirt, sitting on a green plastic chair with another person's hand resting on their shoulder.",
+      "attributes": {
+        "hair": {
+          "color": "white",
+          "texture": "curly"
+        },
+        "skin_tone": "dark",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light pink"
+          }
+        },
+        "accessories": {
+          "rings": "visible on the hand resting on the shoulder"
+        },
+        "pose": "sitting",
+        "furniture": {
+          "chair": {
+            "color": "green",
+            "material": "plastic"
+          }
+        },
+        "interaction": "hand on shoulder"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9765625,
+      "box": [
+        -2.0,
+        338.0,
+        157.0,
+        976.0
+      ],
+      "mask": "image_2.masks/person_4.png",
+      "crop": null,
+      "description": "A woman with dark skin and dark hair is seated in profile, wearing a pink mesh-back baseball cap and a light pink t-shirt. She is wearing blue denim jeans and a gold hoop earring, sitting on a green chair with a blurred background.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "black",
+        "age": "adult",
+        "clothing": {
+          "hat": {
+            "color": "pink",
+            "type": "baseball cap",
+            "back": "mesh"
+          },
+          "top": {
+            "color": "light pink",
+            "type": "t-shirt"
+          },
+          "bottoms": {
+            "color": "blue",
+            "material": "denim",
+            "type": "jeans"
+          },
+          "accessories": {
+            "earrings": "gold hoop"
+          }
+        },
+        "pose": "sitting",
+        "orientation": "profile",
+        "furniture": {
+          "chair": {
+            "color": "green",
+            "material": "plastic"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.953125,
+      "box": [
+        132.0,
+        112.0,
+        924.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_5.png",
+      "crop": null,
+      "description": "A smiling young Black woman with long, dark curly hair stands behind an older Black woman, placing her hand on the older woman's shoulder. The younger woman wears a light pink t-shirt with the word 'GLAMOUR' printed in white and blue jeans, while the older woman, who has short white curly hair and wears glasses, is clapping her hands and also wears a matching pink t-shirt.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "long, curly"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "light pink",
+            "text": "GLAMOUR"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing, leaning forward, hand on another person's shoulder",
+        "expression": "smiling broadly, showing teeth",
+        "accessories": {
+          "earrings": "small stud"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.93359375,
+      "box": [
+        296.0,
+        226.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_6.png",
+      "crop": null,
+      "description": "An elderly Black woman with short, curly white hair and glasses is smiling broadly while clapping her hands, wearing a pink t-shirt with white text. She is seated in a green chair, with a younger Black woman standing behind her with a hand on her shoulder, both wearing matching pink shirts.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "lens_tint": "blue"
+          },
+          "earrings": "pearl",
+          "ring": "gold band on left ring finger",
+          "necklace": "thin gold chain"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "t-shirt",
+            "color": "pink",
+            "text": "GLAMOUR (partially visible)"
+          }
+        },
+        "pose": "seated, clapping hands",
+        "expression": "smiling, joyful",
+        "context": "part of a group, likely at an event or gathering"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.546875,
+      "box": [
+        872.0,
+        316.0,
+        912.0,
+        364.0
+      ],
+      "mask": "image_2.masks/person_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.61328125,
+      "box": [
+        872.0,
+        404.0,
+        944.0,
+        508.0
+      ],
+      "mask": "image_2.masks/person_8.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's face, partially obscured by a white, fluffy object, possibly a feather or fur, on the left side. The person has dark hair and is wearing a light-colored top, with only part of their cheek and eye visible.",
+      "attributes": {
+        "hair": "dark",
+        "clothing": {
+          "top": "light-colored"
+        },
+        "accessories": {
+          "fluffy_object": "white, possibly feather or fur"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

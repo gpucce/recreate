@@ -1,0 +1,76 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        468.0,
+        116.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with short, wavy white hair and heavily wrinkled skin is shown in profile, gently pressing his forehead against the head of a young child with blonde hair. He is wearing a white polo shirt with dark blue trim on the collar and sleeves, and has a soft, affectionate expression on his face.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "skin": {
+          "texture": "wrinkled",
+          "features": "age spots"
+        },
+        "clothing": {
+          "type": "polo shirt",
+          "color": "white",
+          "trim": "dark blue"
+        },
+        "pose": "leaning head against child",
+        "expression": "affectionate, gentle",
+        "relationship_context": "grandfather and grandchild"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        18.0,
+        200.0,
+        560.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short, tousled blonde hair is shown in profile, wearing a white polo shirt with dark blue trim on the collar and sleeves. He has a gentle, subtle smile and is leaning his head against the shoulder of an older person, whose white hair and arm are partially visible on the right side of the frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "tousled"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "color": "white",
+            "trim": "dark blue"
+          }
+        },
+        "expression": "gentle smile",
+        "pose": "sitting, leaning head on another person's shoulder",
+        "position": "left of frame, next to an older person"
+      },
+      "parse_ok": true
+    }
+  ]
+}

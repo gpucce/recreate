@@ -1,0 +1,427 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "bowl",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        612.0,
+        720.0,
+        676.0,
+        752.0
+      ],
+      "mask": "image_2.masks/bowl_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        588.0,
+        342.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A fair-skinned woman with shoulder-length wavy blonde hair and bangs sits in profile at a rustic wooden table, smiling gently while looking to the left. She wears a cream-colored chunky knit cardigan over a light blue collared shirt, with her arms resting on the table near a white teacup and saucer.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder length",
+          "style": "wavy with bangs"
+        },
+        "clothing": {
+          "outerwear": "cream chunky knit cardigan",
+          "inner": "light blue collared shirt"
+        },
+        "pose": "sitting in profile",
+        "expression": "smiling",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "context": {
+          "furniture": "wooden table",
+          "objects": "white teacup, saucer, plate with pastry"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -3.0,
+        356.0,
+        436.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with wavy, shoulder-length gray hair sits in profile at a rustic wooden table, wearing a light purple long-sleeved top and smiling gently while looking out a window. A white teacup and saucer rest on a green placemat in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light purple",
+            "sleeves": "long"
+          },
+          "bottoms": {
+            "color": "dark green"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "gaze": "looking right",
+        "accessories": {
+          "earrings": "small pearl"
+        },
+        "context": {
+          "furniture": "wooden table",
+          "objects": [
+            "white teacup",
+            "white saucer",
+            "green placemat",
+            "spoon"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "placemat",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        584.0,
+        752.0,
+        768.0,
+        816.0
+      ],
+      "mask": "image_2.masks/placemat_0.png",
+      "crop": null,
+      "description": "A dark green, textured placemat is placed on a wooden table, serving as a base for a white teacup and saucer. The placemat has a woven or fabric-like texture and is partially visible beneath the cup and saucer, with its edges extending towards the bottom of the frame.",
+      "attributes": {
+        "color": "dark green",
+        "material": "textured fabric or woven material",
+        "shape": "rectangular",
+        "position": "underneath a white teacup and saucer",
+        "surface": "wooden table",
+        "visible_edges": "bottom and sides partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "placemat",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        268.0,
+        764.0,
+        448.0,
+        820.0
+      ],
+      "mask": "image_2.masks/placemat_1.png",
+      "crop": null,
+      "description": "A rectangular, textured green placemat lies flat on a wooden table surface, supporting a white ceramic cup and saucer set. A silver spoon rests horizontally on the lower edge of the placemat, with its handle extending to the left and the bowl of the spoon positioned near the center.",
+      "attributes": {
+        "color": "green",
+        "material": "textured fabric or woven material",
+        "shape": "rectangular",
+        "position": "flat on table",
+        "objects_on_top": [
+          "white cup",
+          "white saucer",
+          "silver spoon"
+        ],
+        "table_surface": "wooden"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plate",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        608.0,
+        768.0,
+        728.0,
+        800.0
+      ],
+      "mask": "image_2.masks/plate_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plate",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        318.0,
+        768.0,
+        434.0,
+        800.0
+      ],
+      "mask": "image_2.masks/plate_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plate",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        442.0,
+        776.0,
+        604.0,
+        816.0
+      ],
+      "mask": "image_2.masks/plate_2.png",
+      "crop": null,
+      "description": "A white ceramic plate holds a serving of fresh red strawberries and golden-brown cookies, arranged side by side on a wooden surface.",
+      "attributes": {
+        "plate": {
+          "color": "white",
+          "material": "ceramic",
+          "shape": "round"
+        },
+        "food": {
+          "strawberries": {
+            "color": "red",
+            "quantity": "multiple",
+            "state": "fresh"
+          },
+          "cookies": {
+            "color": "golden-brown",
+            "quantity": "multiple",
+            "type": "round"
+          }
+        },
+        "surface": "wooden"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plate",
+      "index": 3,
+      "score": 0.640625,
+      "box": [
+        596.0,
+        748.0,
+        636.0,
+        764.0
+      ],
+      "mask": "image_2.masks/plate_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.69140625,
+      "box": [
+        -1.625,
+        628.0,
+        61.5,
+        684.0
+      ],
+      "mask": "image_2.masks/table_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        140.0,
+        716.0,
+        908.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/table_1.png",
+      "crop": null,
+      "description": "A rustic wooden table with a weathered, distressed finish and visible grain, featuring a thick top with rounded edges and sturdy legs. On the table are two white teacups on saucers, a plate of strawberries and cookies, and a silver teapot, set on green placemats.",
+      "attributes": {
+        "material": "wood",
+        "finish": "weathered, distressed",
+        "color": "brown, natural wood tones",
+        "style": "rustic",
+        "shape": "rectangular",
+        "top": "thick, rounded edges",
+        "legs": "sturdy, square",
+        "items_on_table": {
+          "teacups": "white, two",
+          "saucers": "white, two",
+          "plate": "white, with strawberries and cookies",
+          "teapot": "silver, metallic",
+          "placemats": "green, two"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 2,
+      "score": 0.5546875,
+      "box": [
+        968.0,
+        612.0,
+        1024.0,
+        708.0
+      ],
+      "mask": "image_2.masks/table_2.png",
+      "crop": null,
+      "description": "A close-up view of a white, textured surface, likely a piece of fabric or paper, occupying the left side of the frame. The right side shows a blurred, dark background with a hint of a brown object in the lower right corner.",
+      "attributes": {
+        "color": "white",
+        "texture": "textured",
+        "material": "fabric or paper",
+        "position": "left side of frame",
+        "background": "dark and blurred",
+        "other_objects": "brown object in lower right corner"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "teapot",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        450.0,
+        652.0,
+        592.0,
+        756.0
+      ],
+      "mask": "image_2.masks/teapot_0.png",
+      "crop": null,
+      "description": "A shiny, metallic silver teapot with a rounded body, curved spout, and a black handle is positioned on a surface, with steam rising from the top and a pastry visible in the foreground.",
+      "attributes": {
+        "material": "metallic silver",
+        "color": "silver",
+        "shape": "rounded body",
+        "parts": {
+          "spout": "curved",
+          "handle": "black",
+          "lid": "silver with knob"
+        },
+        "state": "steaming",
+        "context": "sitting on a table with a pastry nearby"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.859375,
+      "box": [
+        2.0,
+        0.0,
+        1024.0,
+        680.0
+      ],
+      "mask": "image_2.masks/wall_0.png",
+      "crop": null,
+      "description": "A plain, off-white interior wall serves as the background, featuring a large, white-framed window in the center and two small, framed landscape paintings hanging symmetrically on either side. The wall appears smooth and matte, illuminated by soft, natural light coming through the window.",
+      "attributes": {
+        "color": "off-white",
+        "material": "painted plaster or drywall",
+        "features": [
+          "window frame",
+          "two framed pictures"
+        ],
+        "lighting": "natural, soft"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        256.0,
+        20.0,
+        776.0,
+        660.0
+      ],
+      "mask": "image_2.masks/window_0.png",
+      "crop": null,
+      "description": "A white, double-hung sash window with a six-over-six grid pattern is set into a white wall, featuring a central horizontal rail and vertical mullions. Through the glass, a blurred outdoor scene with bare tree branches and a green lawn is visible, while two small potted plants sit on the interior windowsill.",
+      "attributes": {
+        "frame_color": "white",
+        "style": "double-hung sash",
+        "grid_pattern": "6-over-6",
+        "mullions": "white",
+        "sill": "white",
+        "glass": "clear",
+        "view_outside": "blurred trees and lawn",
+        "decorations": [
+          {
+            "type": "potted plant",
+            "position": "left",
+            "pot_color": "brown"
+          },
+          {
+            "type": "potted plant",
+            "position": "right",
+            "pot_color": "brown"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        312.0,
+        74.0,
+        708.0,
+        648.0
+      ],
+      "mask": "image_2.masks/window_1.png",
+      "crop": null,
+      "description": "A white, six-pane window with a grid pattern is centered in the frame, showing a blurred outdoor view of bare trees and a green lawn. Two small potted plants sit on the windowsill, and wisps of steam rise from a teapot in the foreground, partially obscuring the lower center of the window.",
+      "attributes": {
+        "frame_color": "white",
+        "pane_configuration": "six-pane grid (2 columns x 3 rows)",
+        "material": "wood or painted composite",
+        "view_outside": "blurred, bare trees, green lawn, overcast sky",
+        "windowsill_items": [
+          "small potted plant (left)",
+          "small potted plant (right)",
+          "steaming teapot (center, partially visible)"
+        ],
+        "lighting": "natural, diffused daylight",
+        "focus": "shallow depth of field, window in focus, background blurred",
+        "position_in_frame": "central, occupying most of the vertical space"
+      },
+      "parse_ok": true
+    }
+  ]
+}

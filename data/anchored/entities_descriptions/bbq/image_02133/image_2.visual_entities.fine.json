@@ -1,0 +1,322 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        10.6875,
+        284.0,
+        28.5,
+        580.0
+      ],
+      "mask": "image_2.masks/door_0.png",
+      "crop": null,
+      "description": "A vertical section of a door featuring a dark, slender frame and a large, rectangular glass panel that occupies most of the visible area. The glass appears slightly reflective or frosted, with a blurred background visible through it, and the bottom edge of the frame is partially visible at the base of the crop.",
+      "attributes": {
+        "frame": {
+          "color": "dark",
+          "material": "metal or wood",
+          "style": "slim"
+        },
+        "glass": {
+          "type": "clear or frosted",
+          "visibility": "blurred background visible"
+        },
+        "orientation": "vertical",
+        "position": "centered in crop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.74609375,
+      "box": [
+        580.0,
+        -1.0,
+        764.0,
+        328.0
+      ],
+      "mask": "image_2.masks/door_1.png",
+      "crop": null,
+      "description": "A close-up of a middle-aged man with wavy, salt-and-pepper hair and a matching beard, looking downward with a serious expression. He is wearing a dark blue collared shirt, and the background features a blurred teal door frame.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "wavy, swept back",
+          "length": "short"
+        },
+        "facial_hair": {
+          "beard": "gray and black, short",
+          "mustache": "gray and black"
+        },
+        "expression": "serious, contemplative",
+        "gaze": "downward",
+        "clothing": {
+          "top": "dark blue collared shirt"
+        },
+        "background": {
+          "object": "door frame",
+          "color": "teal",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 2,
+      "score": 0.58203125,
+      "box": [
+        366.0,
+        133.0,
+        450.0,
+        428.0
+      ],
+      "mask": "image_2.masks/door_2.png",
+      "crop": null,
+      "description": "A close-up crop of a young man with dark, tightly curled hair, looking downward with a serious or contemplative expression. The image focuses on the upper face and hair, showing dark eyebrows, eyes cast down, and the top of a dark collared shirt.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "facial_features": {
+          "eyebrows": "dark",
+          "eyes": "looking down",
+          "expression": "serious"
+        },
+        "clothing": {
+          "visible_item": "collared shirt",
+          "color": "dark"
+        },
+        "pose": "head tilted down"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 3,
+      "score": 0.6796875,
+      "box": [
+        141.0,
+        231.0,
+        173.0,
+        464.0
+      ],
+      "mask": "image_2.masks/door_3.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up view of a dark blue door with a smooth, matte finish, partially visible in the frame. The edge of the door is slightly blurred, suggesting a shallow depth of field, and a hand is visible at the bottom right corner, possibly holding or touching the door.\", \"attributes\": {\"color\": \"dark blue\", \"material\": \"smooth, matte surface\", \"position\": \"partially visible, edge in focus\", \"hand\": \"visible at bottom right, possibly interacting with the door\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "fire alarm",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        494.0,
+        100.5,
+        524.0,
+        166.0
+      ],
+      "mask": "image_2.masks/fire alarm_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        620.0,
+        152.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with graying hair and a beard stands in profile, looking down at a camera held in his hands. He wears a blue button-down shirt and a brown leather watch, with a camera strap around his neck.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "short, swept back"
+        },
+        "facial_hair": {
+          "color": "gray",
+          "style": "beard and mustache"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "blue",
+            "type": "button-down",
+            "material": "denim or chambray"
+          },
+          "pants": {
+            "color": "khaki"
+          },
+          "belt": {
+            "color": "brown",
+            "material": "leather"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "band": "brown leather",
+            "face": "silver"
+          },
+          "camera_strap": {
+            "color": "black",
+            "text": "YASHICA"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "focused",
+        "object": {
+          "type": "camera",
+          "color": "silver and black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        66.0,
+        178.0,
+        576.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young male with dark, curly hair and a concerned expression looks down at a stack of white papers held in his hands. He wears a blue denim jacket over a maroon t-shirt and has a black backpack strap over his right shoulder, while an older person's hand rests on his shoulder in the background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "teenager",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "expression": "worried or serious",
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "maroon"
+          },
+          "accessories": {
+            "backpack": "black strap visible"
+          }
+        },
+        "action": "reading papers",
+        "interaction": "hand on shoulder from another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.97265625,
+      "box": [
+        138.0,
+        82.0,
+        888.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with dark, curly hair and a serious expression looks down at a stack of white papers held in his hands. He is wearing a blue denim jacket over a maroon t-shirt and has a black backpack strap visible on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "teenager",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_expression": "serious, focused",
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue"
+          },
+          "shirt": {
+            "type": "t-shirt",
+            "color": "maroon"
+          },
+          "accessories": {
+            "backpack": "black strap visible"
+          }
+        },
+        "pose": "standing, looking down",
+        "action": "holding and reading papers"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.6328125,
+      "box": [
+        27.0,
+        450.0,
+        138.0,
+        628.0
+      ],
+      "mask": "image_2.masks/wall_0.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's shoulder and upper arm, wearing a blue denim jacket or shirt. The background is blurred, with a light brown or beige wall visible behind the person.",
+      "attributes": {
+        "clothing": {
+          "jacket": "blue denim"
+        },
+        "position": "shoulder and upper arm visible",
+        "background": "blurred, light brown or beige wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.6796875,
+      "box": [
+        0.0,
+        -4.0,
+        1020.0,
+        960.0
+      ],
+      "mask": "image_2.masks/wall_1.png",
+      "crop": null,
+      "description": "A white wall with a red fire alarm and a blue door frame, located in a hallway with a clock on the left side.",
+      "attributes": {
+        "color": "white",
+        "material": "painted drywall",
+        "features": [
+          "red fire alarm",
+          "blue door frame",
+          "clock"
+        ],
+        "location": "hallway"
+      },
+      "parse_ok": true
+    }
+  ]
+}

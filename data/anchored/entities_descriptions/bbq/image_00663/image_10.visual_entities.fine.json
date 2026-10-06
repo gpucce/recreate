@@ -1,0 +1,383 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        110.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_10.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a glossy finish is shown from the side, with the driver's side window open. Inside, an older man with glasses and a blue polo shirt is seated in the driver's seat, smiling, while a younger woman with dark hair tied back, wearing a white t-shirt, is in the passenger seat, also smiling. Both are wearing seatbelts, and the car's interior features black seats and a black steering wheel. The side mirror is red, matching the car's exterior, and the door handle is visible on the red door panel.",
+      "attributes": {
+        "color": "red",
+        "interior": {
+          "seats": "black",
+          "steering_wheel": "black",
+          "seatbelts": "black"
+        },
+        "exterior": {
+          "side_mirror": "red",
+          "door_handle": "red"
+        },
+        "occupants": {
+          "driver": {
+            "gender": "male",
+            "age": "older",
+            "clothing": "blue polo shirt",
+            "accessories": "glasses",
+            "expression": "smiling"
+          },
+          "passenger": {
+            "gender": "female",
+            "age": "younger",
+            "clothing": "white t-shirt",
+            "hair": "dark, tied back",
+            "expression": "smiling"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.76171875,
+      "box": [
+        -2.0,
+        240.0,
+        896.0,
+        928.0
+      ],
+      "mask": "image_10.masks/car interior_0.png",
+      "crop": null,
+      "description": "A young Asian woman with black hair tied back in a ponytail is driving a red car, wearing a white t-shirt and a seatbelt, while an older Asian man with glasses and a blue polo shirt sits in the passenger seat, both smiling and looking forward. The car's interior features black leather seats and a visible red side mirror.",
+      "attributes": {
+        "car": {
+          "color": "red",
+          "interior": {
+            "seats": "black leather",
+            "steering_wheel": "black"
+          },
+          "exterior": {
+            "side_mirror": "red"
+          }
+        },
+        "driver": {
+          "gender": "female",
+          "age": "young adult",
+          "ethnicity": "Asian",
+          "hair": "black, ponytail",
+          "clothing": {
+            "shirt": "white t-shirt"
+          },
+          "accessories": {
+            "seatbelt": "black"
+          },
+          "expression": "smiling",
+          "pose": "driving, hands on steering wheel"
+        },
+        "passenger": {
+          "gender": "male",
+          "age": "older adult",
+          "ethnicity": "Asian",
+          "hair": "gray",
+          "clothing": {
+            "shirt": "blue polo shirt"
+          },
+          "accessories": {
+            "glasses": "black-rimmed",
+            "seatbelt": "black"
+          },
+          "expression": "smiling",
+          "pose": "sitting"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        732.0,
+        -2.0,
+        956.0,
+        116.5
+      ],
+      "mask": "image_10.masks/foliage_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of green foliage, likely trees or bushes, with varying shades of green and some lighter areas suggesting sunlight filtering through the leaves. The image is heavily blurred, making it difficult to discern specific details of the leaves or branches.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "type": "foliage",
+        "lighting": "natural, possibly sunlight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        -3.0625,
+        121.0,
+        31.0,
+        165.0
+      ],
+      "mask": "image_10.masks/foliage_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "foliage",
+      "index": 2,
+      "score": 0.8203125,
+      "box": [
+        888.0,
+        20.75,
+        1032.0,
+        124.0
+      ],
+      "mask": "image_10.masks/foliage_2.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage, likely trees or bushes, with varying shades of green. The bottom edge of the image has a white horizontal line, possibly a wall or a structure.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "type": "foliage",
+        "background": "out-of-focus",
+        "foreground_element": "white horizontal line"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 3,
+      "score": 0.734375,
+      "box": [
+        -5.0,
+        -1.5,
+        476.0,
+        154.0
+      ],
+      "mask": "image_10.masks/foliage_3.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage with hints of brown branches, suggesting a natural outdoor setting. In the foreground, there is a smooth, curved surface with a reddish-brown color, possibly part of a vehicle or structure.",
+      "attributes": {
+        "background": {
+          "color": "green",
+          "texture": "blurred",
+          "elements": [
+            "leaves",
+            "branches"
+          ]
+        },
+        "foreground": {
+          "color": "reddish-brown",
+          "texture": "smooth",
+          "shape": "curved"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 4,
+      "score": 0.57421875,
+      "box": [
+        732.0,
+        -3.75,
+        1040.0,
+        118.0
+      ],
+      "mask": "image_10.masks/foliage_4.png",
+      "crop": null,
+      "description": "The image shows a blurred view of dense green foliage, likely from trees or bushes, with varying shades of green indicating different types of leaves or lighting conditions. The background is out of focus, emphasizing the texture and color variations within the leaves.",
+      "attributes": {
+        "color": "various shades of green",
+        "texture": "dense and leafy",
+        "focus": "blurred",
+        "type": "trees or bushes"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 5,
+      "score": 0.81640625,
+      "box": [
+        428.0,
+        20.5,
+        620.0,
+        111.5
+      ],
+      "mask": "image_10.masks/foliage_5.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred background of green foliage, likely trees or bushes, with varying shades of green and yellow-green. The blur suggests a shallow depth of field, with the focus not on the foliage itself but on something in the foreground that is not visible in this crop.",
+      "attributes": {
+        "color": [
+          "green",
+          "yellow-green"
+        ],
+        "focus": "blurred",
+        "type": "foliage",
+        "background": true
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 6,
+      "score": 0.5390625,
+      "box": [
+        552.0,
+        0.25,
+        608.0,
+        61.75
+      ],
+      "mask": "image_10.masks/foliage_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "foliage",
+      "index": 7,
+      "score": 0.7734375,
+      "box": [
+        596.0,
+        30.5,
+        740.0,
+        111.5
+      ],
+      "mask": "image_10.masks/foliage_7.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage with a vertical brown pole or tree trunk in the center. The foreground is out of focus, and the overall scene appears to be an outdoor setting with natural elements.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "position": "background",
+        "object": "foliage",
+        "additional_elements": {
+          "pole": "brown, vertical"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        151.0,
+        308.0,
+        504.0,
+        684.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian man with short white hair and black-rimmed glasses sits in the driver's seat of a car, smiling broadly while gripping the steering wheel with his right hand. He is wearing a light blue short-sleeved polo shirt and has a black seatbelt fastened across his chest.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue polo shirt"
+        },
+        "expression": "smiling",
+        "pose": "sitting in driver's seat",
+        "action": "driving",
+        "context": "inside a car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        198.0,
+        286.0,
+        816.0,
+        800.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with dark hair tied back in a ponytail sits in the driver's seat of a red car, wearing a white t-shirt and a black seatbelt, smiling while looking forward. An older Asian man with glasses and a blue polo shirt sits in the passenger seat next to her, also smiling.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "accessories": "black seatbelt"
+        },
+        "expression": "smiling",
+        "pose": "sitting in driver's seat, hands on steering wheel",
+        "context": "inside a red car with an older male passenger"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        2.0,
+        110.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_10.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A red car with a visible side mirror and door handle, featuring two occupants: an older man in a blue polo shirt and glasses, and a younger woman in a white t-shirt, both smiling and wearing seatbelts.",
+      "attributes": {
+        "color": "red",
+        "type": "car",
+        "interior": {
+          "seats": "black",
+          "seatbelts": "black"
+        },
+        "occupants": {
+          "older_man": {
+            "clothing": "blue polo shirt",
+            "accessories": "glasses",
+            "expression": "smiling"
+          },
+          "younger_woman": {
+            "clothing": "white t-shirt",
+            "expression": "smiling",
+            "hair": "black, tied back"
+          }
+        },
+        "exterior": {
+          "side_mirror": "red",
+          "door_handle": "red"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

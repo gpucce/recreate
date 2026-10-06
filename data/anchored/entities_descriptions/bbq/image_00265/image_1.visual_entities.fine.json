@@ -1,0 +1,220 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "clothing",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        540.0,
+        338.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/clothing_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair is wearing a blue denim jacket over a light blue button-up shirt, standing outdoors near a body of water. His hands are clasped together in front of him, and he appears to be smiling slightly.",
+      "attributes": {
+        "clothing": {
+          "jacket": "blue denim",
+          "shirt": "light blue button-up"
+        },
+        "hair": "white",
+        "pose": "standing with hands clasped",
+        "expression": "smiling slightly",
+        "location": "outdoors near water"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        414.0,
+        418.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/clothing_1.png",
+      "crop": null,
+      "description": "An elderly man is wearing a white short-sleeved polo shirt with a collar and a buttoned placket. The shirt appears to be made of a lightweight, breathable fabric suitable for warm weather.",
+      "attributes": {
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "color": "white",
+            "sleeves": "short",
+            "collar": "present",
+            "placket": "buttoned"
+          }
+        },
+        "gender": "male",
+        "age": "elderly",
+        "pose": "standing",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 2,
+      "score": 0.61328125,
+      "box": [
+        620.0,
+        112.5,
+        940.0,
+        264.0
+      ],
+      "mask": "image_1.masks/clothing_2.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a flat cap with a houndstooth pattern in shades of brown and beige. The cap has a structured, rounded crown and a short, stiff brim, and it is positioned on the head of an individual with white hair visible at the nape.",
+      "attributes": {
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "pattern": "houndstooth",
+            "color": [
+              "brown",
+              "beige"
+            ],
+            "material": "wool or tweed",
+            "brim": "short and stiff"
+          }
+        },
+        "hair": "white",
+        "age": "elderly",
+        "gender": "male"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "clothing",
+      "index": 3,
+      "score": 0.93359375,
+      "box": [
+        656.0,
+        340.0,
+        928.0,
+        996.0
+      ],
+      "mask": "image_1.masks/clothing_3.png",
+      "crop": null,
+      "description": "An elderly man with white hair and visible facial wrinkles is shown in profile, wearing a blue denim jacket with copper-colored buttons and a light blue button-down shirt underneath. His hand is raised in a gesture, revealing age spots and veins on the skin, while a body of water is visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": "white",
+        "skin": "wrinkled, age spots",
+        "clothing": {
+          "jacket": {
+            "type": "denim",
+            "color": "blue",
+            "details": "copper buttons, chest pocket, collar"
+          },
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue"
+          }
+        },
+        "pose": "hand raised, gesturing",
+        "background": "water, sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        516.0,
+        108.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a weathered complexion stands in profile on a beach, wearing a brown houndstooth flat cap and a blue denim jacket over a light blue button-down shirt. He is clapping his hands together with a gentle smile, set against a backdrop of the ocean and a clear blue sky.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "facial_features": {
+          "skin": "wrinkled, tanned",
+          "expression": "smiling"
+        },
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "pattern": "houndstooth",
+            "color": "brown and beige"
+          },
+          "jacket": {
+            "material": "denim",
+            "color": "blue",
+            "details": "copper buttons, chest pocket"
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down"
+          },
+          "accessories": {
+            "ring": "gold band on left ring finger"
+          }
+        },
+        "pose": "standing, clapping hands",
+        "background": {
+          "location": "beach",
+          "elements": [
+            "ocean",
+            "sand",
+            "sky"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        -5.0,
+        144.0,
+        500.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly man with white hair and sun-spotted skin stands in profile on a beach, wearing a white polo shirt and gesturing with his right hand as if in conversation. The background features a calm blue ocean and clear sky, suggesting a sunny day at the seaside.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, slightly tousled"
+        },
+        "skin": {
+          "tone": "fair with visible age spots and wrinkles",
+          "texture": "wrinkled, especially on hands and face"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "polo",
+            "color": "white",
+            "collar": "buttoned at neck"
+          }
+        },
+        "pose": "standing, turned to the right in profile, right hand raised mid-gesture",
+        "expression": "engaged, mouth slightly open as if speaking",
+        "location": "beach, with ocean and sky in background",
+        "lighting": "bright daylight, casting soft shadows"
+      },
+      "parse_ok": true
+    }
+  ]
+}

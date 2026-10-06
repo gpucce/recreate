@@ -1,0 +1,136 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        2.0,
+        840.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/desk_0.png",
+      "crop": null,
+      "description": "A person is writing in an open notebook with a blue pen on a white marble desk, with a silver laptop partially visible to the right.",
+      "attributes": {
+        "desk": {
+          "material": "marble",
+          "color": "white",
+          "surface": "glossy"
+        },
+        "notebook": {
+          "cover": "brown",
+          "pages": "white",
+          "state": "open"
+        },
+        "pen": {
+          "color": "blue"
+        },
+        "laptop": {
+          "color": "silver",
+          "type": "laptop",
+          "position": "right side of desk"
+        },
+        "person": {
+          "clothing": {
+            "sleeve": "white"
+          },
+          "action": "writing"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        302.0,
+        704.0,
+        418.0,
+        880.0
+      ],
+      "mask": "image_13.masks/pen_0.png",
+      "crop": null,
+      "description": "A hand is holding a blue pen, poised to write on a piece of paper. The pen has a sleek, metallic finish and a clip on the side.",
+      "attributes": {
+        "color": "blue",
+        "material": "metallic",
+        "type": "ballpoint pen",
+        "position": "held in hand",
+        "action": "writing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        128.0,
+        92.0,
+        816.0,
+        884.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with light brown hair tied in a high bun is wearing black-rimmed glasses and a white crewneck sweatshirt, smiling gently while writing in an open notebook with a blue pen. She is seated at a white desk with a laptop partially visible to her right, and a floor lamp and potted plant are softly blurred in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "light brown",
+          "style": "high bun"
+        },
+        "accessories": {
+          "glasses": "black-rimmed, round frames"
+        },
+        "clothing": {
+          "top": "white crewneck sweatshirt"
+        },
+        "pose": "seated, leaning slightly forward, writing in notebook",
+        "expression": "gentle smile, focused downward gaze",
+        "objects_in_hand": {
+          "right_hand": "blue ballpoint pen",
+          "left_hand": "resting on open notebook"
+        },
+        "setting": {
+          "desk": "white surface",
+          "background_elements": [
+            "floor lamp with wooden tripod base and beige shade",
+            "potted green plant on shelf"
+          ],
+          "lighting": "soft, warm, ambient"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tripod",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        83.5,
+        272.0,
+        270.0,
+        840.0
+      ],
+      "mask": "image_13.masks/tripod_0.png",
+      "crop": null,
+      "description": "A wooden tripod with three legs is visible in the background, slightly out of focus. The tripod has a light wood finish and appears to be supporting a lamp or similar object at the top, which is partially visible.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "three-legged",
+        "focus": "out of focus",
+        "position": "background",
+        "function": "supporting an object (likely a lamp)"
+      },
+      "parse_ok": true
+    }
+  ]
+}

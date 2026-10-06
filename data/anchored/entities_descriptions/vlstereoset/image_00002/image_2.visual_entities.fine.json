@@ -1,0 +1,284 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        234.0,
+        644.0,
+        656.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a person riding a bicycle, focusing on the handlebars, front wheel, and the rider's legs. The bicycle has a black frame with a silver front fork and handlebars, and the rider is wearing patterned pants with orange and white floral designs on a dark background.",
+      "attributes": {
+        "bicycle": {
+          "frame_color": "black",
+          "handlebars": "silver",
+          "fork": "silver",
+          "wheels": "black tires with silver rims"
+        },
+        "rider": {
+          "clothing": {
+            "pants": "dark with orange and white floral pattern",
+            "shirt": "pink"
+          },
+          "pose": "riding"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        672.0,
+        632.0,
+        888.0,
+        912.0
+      ],
+      "mask": "image_2.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A large, full burlap sack stands upright on a dirt surface, held open at the top by a pair of hands. The sack is made of a coarse, light tan woven fabric with visible vertical creases and a gathered, knotted top section.",
+      "attributes": {
+        "material": "burlap",
+        "color": "tan",
+        "state": "full",
+        "top": "gathered and knotted",
+        "position": "upright",
+        "surface": "dirt",
+        "interaction": "held by hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        696.0,
+        330.0,
+        928.0,
+        888.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young Black man with short black hair is bending forward at the waist, gripping the top of a large, full burlap sack with both hands. He is wearing a two-toned t-shirt with dark blue sleeves and a beige torso, along with dark brown shorts, and is standing barefoot on dirt ground in a field setting.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "raglan t-shirt",
+            "color": "beige and dark blue"
+          },
+          "shorts": {
+            "color": "dark brown",
+            "length": "knee-length"
+          },
+          "footwear": "barefoot"
+        },
+        "pose": "bending forward, holding a sack",
+        "action": "lifting or carrying a burlap sack",
+        "object": {
+          "type": "burlap sack",
+          "color": "tan",
+          "state": "full"
+        },
+        "setting": "outdoor field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        224.0,
+        212.0,
+        672.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black woman sits on a bicycle in a rural field, wearing a colorful patterned headwrap, a pink short-sleeved t-shirt, and floral patterned pants. She has a joyful expression, looking directly at the camera, with her hands on the handlebars.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "expression": "smiling",
+        "pose": "sitting on a bicycle",
+        "clothing": {
+          "headwear": "colorful patterned headwrap",
+          "top": "pink short-sleeved t-shirt",
+          "bottoms": "floral patterned pants"
+        },
+        "accessories": {
+          "earrings": "small hoop earrings"
+        },
+        "vehicle": "bicycle",
+        "background": "rural field with water and green plants"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        -4.0,
+        460.0,
+        800.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/rice paddy field_0.png",
+      "crop": null,
+      "description": "A person is riding a bicycle in a rice paddy field, with their hands on the handlebars and their legs positioned on the pedals. The field is filled with water and young rice plants, and another person is visible in the background, holding a sack.",
+      "attributes": {
+        "clothing": {
+          "shirt": "pink",
+          "pants": "floral patterned"
+        },
+        "pose": "riding a bicycle",
+        "environment": {
+          "field": "rice paddy",
+          "water": "present",
+          "plants": "young rice plants"
+        },
+        "other_person": {
+          "action": "holding a sack",
+          "position": "background"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 1,
+      "score": 0.65234375,
+      "box": [
+        -4.0,
+        402.0,
+        1004.0,
+        482.0
+      ],
+      "mask": "image_2.masks/rice paddy field_1.png",
+      "crop": null,
+      "description": "A close-up view of a rice paddy field with vibrant green rice plants growing in rows, partially obscured by two individuals in the foreground. The person on the left is wearing a pink short-sleeved shirt, while the person on the right is wearing a blue and white raglan shirt. The background shows a blurred expanse of the field, suggesting a rural agricultural setting.",
+      "attributes": {
+        "field": {
+          "type": "rice paddy",
+          "color": "green",
+          "state": "growing",
+          "rows": "visible"
+        },
+        "people": [
+          {
+            "position": "left",
+            "clothing": {
+              "shirt": "pink",
+              "sleeves": "short"
+            }
+          },
+          {
+            "position": "right",
+            "clothing": {
+              "shirt": "blue and white raglan"
+            }
+          }
+        ],
+        "background": "blurred green field",
+        "lighting": "natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 2,
+      "score": 0.50390625,
+      "box": [
+        0.0,
+        366.0,
+        1020.0,
+        418.0
+      ],
+      "mask": "image_2.masks/rice paddy field_2.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people in a rice paddy field. The person in the foreground is wearing a pink shirt and has a dark complexion, while the person in the background is wearing a dark shirt with a light-colored stripe on the shoulder. The background is a blurred green field, suggesting a rural setting.",
+      "attributes": {
+        "clothing": {
+          "foreground_person": "pink shirt",
+          "background_person": "dark shirt with light stripe"
+        },
+        "skin_tone": "dark",
+        "setting": "rice paddy field",
+        "background": "blurred green field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 3,
+      "score": 0.734375,
+      "box": [
+        -4.0,
+        372.0,
+        1012.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/rice paddy field_3.png",
+      "crop": null,
+      "description": "A woman with a bright smile is riding a bicycle in the foreground, wearing a pink t-shirt and patterned pants, while a man in the background bends over a large burlap sack in a flooded rice paddy field with young green rice plants.",
+      "attributes": {
+        "woman": {
+          "clothing": {
+            "shirt": "pink short-sleeved t-shirt",
+            "pants": "dark blue with orange and white floral pattern"
+          },
+          "pose": "sitting on a bicycle, hands on handlebars",
+          "expression": "smiling broadly",
+          "ethnicity": "Black",
+          "age": "adult"
+        },
+        "man": {
+          "clothing": {
+            "shirt": "raglan style, beige body with dark blue sleeves",
+            "shorts": "dark brown or black"
+          },
+          "pose": "bending forward, holding a burlap sack",
+          "ethnicity": "Black",
+          "age": "adult"
+        },
+        "bicycle": {
+          "type": "standard road or hybrid bike",
+          "color": "black frame with silver handlebars"
+        },
+        "rice_paddy": {
+          "state": "flooded with water",
+          "plants": "young green rice seedlings in rows",
+          "soil": "muddy brown earth visible at the edges"
+        },
+        "sack": {
+          "material": "burlap or jute",
+          "color": "beige",
+          "state": "open at the top, held by the man"
+        },
+        "setting": {
+          "location": "rural agricultural field",
+          "lighting": "bright daylight, likely late afternoon or early morning"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

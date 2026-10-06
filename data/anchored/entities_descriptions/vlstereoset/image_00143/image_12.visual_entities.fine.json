@@ -1,0 +1,325 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        0.0,
+        0.0,
+        668.0,
+        390.0
+      ],
+      "mask": "image_12.masks/building_0.png",
+      "crop": null,
+      "description": "A single-story residential building with a red brick exterior and white-trimmed windows featuring blue shutters, set against a blurred background with green foliage and a person's head in the foreground.",
+      "attributes": {
+        "building_type": "residential house",
+        "material": "red brick",
+        "window_details": {
+          "frame_color": "white",
+          "shutter_color": "blue",
+          "style": "double-hung"
+        },
+        "roof": {
+          "color": "white",
+          "visibility": "partial"
+        },
+        "surroundings": {
+          "vegetation": "green bushes and trees",
+          "lighting": "bright daylight"
+        },
+        "foreground": {
+          "person": "top of head visible, dark curly hair"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        632.0,
+        48.0,
+        1024.0,
+        374.0
+      ],
+      "mask": "image_12.masks/building_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A blurry, out-of-focus building with a light-colored roof and reddish-brown walls is visible in the background, partially obscured by a large tree trunk in the foreground. The building appears to be a single-story structure with a sloped roof and a window or door frame visible on the left side.\", \"attributes\": {\"roof\": {\"color\": \"light beige or gray\", \"shape\": \"sloped\"}, \"walls\": {\"color\": \"reddish-brown\", \"material\": \"possibly brick or stucco\"}, \"window_or_door\": {\"visible\": true, \"position\": \"left side\", \"frame_color\": \"dark\"}, \"focus\": \"out-of-focus\", \"obstruction\": \"tree trunk in foreground\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        2.0,
+        438.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_12.masks/grass_0.png",
+      "crop": null,
+      "description": "A lush, vibrant green grassy field dotted with numerous small yellow dandelion flowers, creating a natural and cheerful outdoor setting.",
+      "attributes": {
+        "color": "green",
+        "texture": "soft, leafy",
+        "flowers": "yellow dandelions",
+        "density": "dense",
+        "condition": "healthy, well-maintained"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 1,
+      "score": 0.6328125,
+      "box": [
+        -4.0,
+        382.0,
+        668.0,
+        422.0
+      ],
+      "mask": "image_12.masks/grass_1.png",
+      "crop": null,
+      "description": "The image shows a close-up of a person's head and neck, with short, dark, curly hair. The background is blurred, suggesting an outdoor setting with greenery.",
+      "attributes": {
+        "hair": {
+          "color": "dark",
+          "texture": "curly",
+          "length": "short"
+        },
+        "skin_tone": "light brown",
+        "background": {
+          "setting": "outdoor",
+          "elements": [
+            "greenery"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 2,
+      "score": 0.69921875,
+      "box": [
+        0.0,
+        378.0,
+        1020.0,
+        422.0
+      ],
+      "mask": "image_12.masks/grass_2.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people's heads, with one person having short, dark hair and the other having curly, light brown hair. The background is blurred, suggesting an outdoor setting with greenery.",
+      "attributes": {
+        "hair": {
+          "person_1": "short, dark",
+          "person_2": "curly, light brown"
+        },
+        "background": "blurred, greenery",
+        "setting": "outdoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        588.0,
+        324.0,
+        1024.0,
+        900.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with curly brown hair sits cross-legged on a grassy lawn dotted with yellow dandelions, wearing a plain white t-shirt and distressed blue jeans with large rips at the knees. She is looking to her left with a joyful expression, appearing to interact with a child partially visible on the left side of the frame.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "ripped at knees"
+          }
+        },
+        "context": "outdoors, grass, dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        27.0,
+        332.0,
+        476.0,
+        916.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black man with short black hair and a goatee sits on a grassy field filled with yellow dandelions, wearing a white short-sleeved button-down shirt and blue jeans. He is positioned next to a child, looking down and to the side with a warm expression.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "facial_hair": "goatee",
+        "expression": "smiling",
+        "pose": "sitting on grass",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "brown and white"
+          }
+        },
+        "accessories": {
+          "ring": "visible on left hand"
+        },
+        "context": "outdoors, grassy field with dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        414.0,
+        484.0,
+        640.0,
+        916.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A young girl with curly brown hair and a yellow flower accessory sits on the grass, wearing a white t-shirt and distressed blue jeans. She is smiling broadly with her head tilted slightly upward, looking off to the side, while sitting next to an adult whose legs are partially visible.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "accessory": "yellow flower clip"
+        },
+        "clothing": {
+          "top": "white short-sleeved t-shirt",
+          "bottoms": "blue jeans with distressed knee details"
+        },
+        "pose": "sitting on grass",
+        "expression": "smiling, looking up and to the side",
+        "accessories": "yellow flower in hair",
+        "setting": "outdoors, grassy area with dandelions"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        440.0,
+        -1.0,
+        1024.0,
+        464.0
+      ],
+      "mask": "image_12.masks/tree_0.png",
+      "crop": null,
+      "description": "A large, mature tree with a thick, textured brown trunk stands in the background, its bark appearing rough and weathered. The trunk splits into two main branches near the top of the frame, with a small cluster of green leaves visible in the upper left corner, while the rest of the tree is out of focus.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough",
+          "thickness": "thick",
+          "structure": "splitting into two main branches"
+        },
+        "leaves": {
+          "color": "green",
+          "visibility": "partial, upper left"
+        },
+        "focus": "blurred",
+        "position": "background, right side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        98.0,
+        -1.0,
+        1024.0,
+        464.0
+      ],
+      "mask": "image_12.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, mature tree with a thick, textured brown trunk stands on the right side of the frame, its branches extending upward and out of view. The bark appears rough and weathered, and the tree is positioned in the foreground, partially obscuring the background.",
+      "attributes": {
+        "trunk": {
+          "color": "brown",
+          "texture": "rough",
+          "thickness": "thick"
+        },
+        "position": "right foreground",
+        "state": "mature"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.52734375,
+      "box": [
+        768.0,
+        -1.0,
+        1024.0,
+        464.0
+      ],
+      "mask": "image_12.masks/tree_2.png",
+      "crop": null,
+      "description": "A large tree trunk with rough, textured bark in shades of brown and gray dominates the center of the image, extending vertically from the bottom to the top. The trunk splits into two main branches near the top, which are out of focus, and the background is blurred, showing hints of a building and greenery.",
+      "attributes": {
+        "bark": "rough, textured",
+        "color": "brown, gray",
+        "structure": "single trunk splitting into two branches",
+        "focus": "trunk in focus, branches and background out of focus",
+        "background": "blurred building and greenery"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,267 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.66796875,
+      "box": [
+        1004.0,
+        756.0,
+        1020.0,
+        892.0
+      ],
+      "mask": "image_1.masks/cabinet_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.76171875,
+      "box": [
+        -0.125,
+        752.0,
+        32.5,
+        928.0
+      ],
+      "mask": "image_1.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up view of a white surface with red polka dots, likely fabric or paper, positioned in front of a dark brown wooden background. The red dots are evenly spaced and circular, contrasting sharply with the white base and the dark wood behind it.",
+      "attributes": {
+        "color": {
+          "primary": "white",
+          "secondary": "red",
+          "background": "dark brown"
+        },
+        "pattern": "polka dots",
+        "material": "possibly fabric or paper",
+        "background_material": "wood",
+        "position": "foreground object against a wooden backdrop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.83984375,
+      "box": [
+        420.0,
+        -2.0,
+        892.0,
+        246.0
+      ],
+      "mask": "image_1.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A medium-brown wooden cabinet with a smooth finish and vertical paneling is visible in the background, appearing slightly out of focus. The top edge of two heads with dark and light brown hair is visible in the immediate foreground, partially obscuring the bottom of the cabinet.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "style": "paneling",
+        "finish": "smooth",
+        "focus": "blurred",
+        "position": "background",
+        "occlusion": "partially obscured by hair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 0,
+      "score": 0.5625,
+      "box": [
+        -0.75,
+        672.0,
+        43.0,
+        760.0
+      ],
+      "mask": "image_1.masks/counter_top_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "counter_top",
+      "index": 1,
+      "score": 0.5390625,
+      "box": [
+        -1.625,
+        716.0,
+        41.5,
+        756.0
+      ],
+      "mask": "image_1.masks/counter_top_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        548.0,
+        176.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with wavy, shoulder-length blonde hair is shown in profile, leaning in to kiss a young boy on the cheek. She wears a black sleeveless top and a delicate necklace, with her hand gently touching the boy's neck.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": "black sleeveless tank top"
+        },
+        "accessories": {
+          "necklace": "thin chain",
+          "ring": "visible on finger"
+        },
+        "pose": "leaning forward, kissing child on cheek",
+        "expression": "eyes closed, affectionate",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        230.0,
+        652.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A shirtless young boy with short, dark, wavy hair stands in the center, looking directly at the camera with a neutral expression, while two women flank him, kissing his cheeks. The woman on the left has wavy brown hair and wears a white sleeveless top with red polka dots, while the woman on the right has blonde hair and is partially visible. The boy is wearing blue denim jeans, and the woman on the left has her hand resting on his stomach.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": "shirtless",
+          "bottoms": "blue denim jeans"
+        },
+        "pose": "standing, facing forward",
+        "expression": "neutral, looking at camera",
+        "context": "being kissed on cheeks by two women"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        324.0,
+        186.0,
+        700.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with short, curly dark brown hair and a light complexion stands shirtless in the center, wearing blue denim jeans. He is flanked by two women who are kissing his cheeks, with one woman's hand gently touching his neck and the other's hand resting on his waist.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "top": "none",
+          "bottom": "blue jeans"
+        },
+        "pose": "standing",
+        "expression": "neutral",
+        "interaction": "being kissed on cheeks by two women"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        892.0,
+        -6.0,
+        1024.0,
+        536.0
+      ],
+      "mask": "image_1.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person's shoulder and the side of their head, featuring wavy blonde hair and a black sleeveless top. The background is heavily blurred, showing a beige wall, a horizontal metal bar, and a blue object hanging below it.",
+      "attributes": {
+        "hair": {
+          "color": "blonde",
+          "texture": "wavy",
+          "length": "medium"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "style": "sleeveless"
+          }
+        },
+        "body_part": "shoulder",
+        "background": {
+          "wall_color": "beige",
+          "objects": [
+            "metal bar",
+            "blue hanging object"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.7734375,
+      "box": [
+        18.0,
+        -3.0,
+        422.0,
+        284.0
+      ],
+      "mask": "image_1.masks/wall_1.png",
+      "crop": null,
+      "description": "A section of a wall painted in a warm, muted yellow tone, featuring a white window frame with a grid of glass panes that is out of focus. The top of a person's head with dark hair is visible in the bottom right corner, partially obscuring the wall.",
+      "attributes": {
+        "wall": {
+          "color": "yellow",
+          "material": "painted surface"
+        },
+        "window": {
+          "frame_color": "white",
+          "style": "grid panes",
+          "focus": "blurred"
+        },
+        "foreground": {
+          "object": "top of head",
+          "hair_color": "dark"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

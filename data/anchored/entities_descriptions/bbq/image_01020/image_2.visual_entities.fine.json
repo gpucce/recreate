@@ -1,0 +1,165 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        11.5,
+        364.0,
+        226.0,
+        812.0
+      ],
+      "mask": "image_2.masks/backpack_0.png",
+      "crop": null,
+      "description": "An olive green canvas backpack with black leather straps and buckles is worn by a person in a yellow sweater, resting against a wooden chair back.",
+      "attributes": {
+        "color": "olive green",
+        "material": "canvas",
+        "straps": {
+          "color": "black",
+          "material": "leather",
+          "hardware": "black metal buckles"
+        },
+        "position": "worn on back",
+        "context": "resting against wooden chair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        28.0,
+        480.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden park bench with black metal armrests and legs, featuring a decorative wrought iron backrest with a scroll pattern. Two people are seated on the bench, one holding books and the other holding a cane.",
+      "attributes": {
+        "material": {
+          "seat": "wood",
+          "frame": "black metal"
+        },
+        "design": {
+          "backrest": "wrought iron scroll pattern",
+          "armrests": "black metal with curved ends"
+        },
+        "function": "seating",
+        "position": "horizontal, with two people seated on it"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        504.0,
+        146.0,
+        928.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a mustache sits on a wooden bench, wearing a dark grey flat cap, a brown argyle sweater vest over a light grey button-down shirt, and beige trousers. He holds a black walking cane with both hands resting on the top, looking off to the side with a calm expression.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap"
+        },
+        "facial_hair": "white mustache",
+        "headwear": {
+          "type": "flat cap",
+          "color": "dark grey",
+          "material": "wool or tweed"
+        },
+        "clothing": {
+          "top": {
+            "shirt": {
+              "color": "light grey",
+              "type": "button-down",
+              "sleeves": "long, rolled up slightly"
+            },
+            "vest": {
+              "type": "sweater vest",
+              "pattern": "argyle",
+              "colors": [
+                "brown",
+                "dark blue",
+                "maroon"
+              ],
+              "material": "knit"
+            }
+          },
+          "bottom": {
+            "pants": {
+              "color": "beige",
+              "type": "trousers"
+            }
+          }
+        },
+        "accessories": {
+          "cane": {
+            "color": "black",
+            "handle": "wooden, light brown"
+          }
+        },
+        "pose": "sitting, hands clasped over cane handle",
+        "expression": "neutral, contemplative",
+        "gaze": "looking to the left (viewer's right)",
+        "background": "plain white wall, wooden bench with black metal armrests"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        114.0,
+        152.0,
+        482.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with wavy brown hair sits on a wooden bench, wearing a mustard yellow knit sweater and distressed blue jeans with rolled-up cuffs. She holds a stack of three books in her lap and has a black strap over her shoulder, looking off to the side with a calm expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "details": "ripped knees, cuffed hems"
+          }
+        },
+        "accessories": {
+          "bag": "black strap visible"
+        },
+        "pose": "sitting",
+        "action": "holding books",
+        "expression": "neutral, looking away"
+      },
+      "parse_ok": true
+    }
+  ]
+}

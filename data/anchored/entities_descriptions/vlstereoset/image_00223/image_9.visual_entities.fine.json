@@ -1,0 +1,86 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.7421875,
+      "box": [
+        0.0,
+        520.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up view of a man's upper torso wearing a formal black suit jacket with wide lapels over a white high-collared shirt and a black bow tie. The man has a thick, reddish-brown mustache and is positioned centrally against a dark, mottled background.",
+      "attributes": {
+        "entity": "man",
+        "gender": "male",
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "style": "formal suit",
+            "lapels": "wide"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "accessories": {
+            "tie": {
+              "type": "bow tie",
+              "color": "black"
+            }
+          }
+        },
+        "facial_hair": {
+          "mustache": {
+            "color": "reddish-brown",
+            "style": "thick"
+          }
+        },
+        "pose": "frontal, upper body",
+        "background": "dark, mottled brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        68.0,
+        960.0,
+        1020.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A painted portrait of a middle-aged man with curly dark brown hair and a thick, curled mustache, wearing a black suit jacket over a white collared shirt and a black bow tie. He has a serious expression with a direct gaze, set against a mottled, dark brown background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, curled ends",
+          "sideburns": "present"
+        },
+        "clothing": {
+          "jacket": "black suit",
+          "shirt": "white",
+          "neckwear": "black bow tie"
+        },
+        "expression": "serious",
+        "pose": "bust portrait, facing forward",
+        "medium": "oil painting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,686 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceiling",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        244.0,
+        2.0,
+        780.0,
+        264.0
+      ],
+      "mask": "image_3.masks/ceiling_0.png",
+      "crop": null,
+      "description": "A modern ceiling featuring horizontal wooden slats in a light brown tone, interspersed with long, recessed linear LED light fixtures emitting a bright white light. The slats run parallel to the length of the corridor, creating a rhythmic pattern, with circular recessed lights visible in the gaps between the main fixtures.",
+      "attributes": {
+        "material": "wooden slats",
+        "color": "light brown",
+        "lighting": {
+          "type": "recessed linear LED",
+          "color": "white",
+          "shape": "long rectangular strips"
+        },
+        "pattern": "horizontal parallel slats",
+        "style": "modern",
+        "additional_features": "circular recessed lights"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        940.0,
+        548.0,
+        1024.0,
+        836.0
+      ],
+      "mask": "image_3.masks/chair_0.png",
+      "crop": null,
+      "description": "A black office chair with a mesh backrest and a five-star base with casters, positioned in an office setting with a desk in the background.",
+      "attributes": {
+        "type": "office chair",
+        "color": "black",
+        "material": "mesh backrest, metal base",
+        "base": "five-star with casters",
+        "position": "facing away from the camera",
+        "background": "office desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.9453125,
+      "box": [
+        -3.0,
+        556.0,
+        90.5,
+        828.0
+      ],
+      "mask": "image_3.masks/chair_1.png",
+      "crop": null,
+      "description": "A black office chair with a high backrest and armrests is positioned in front of a light-colored wooden desk. The chair features a mesh or fabric back and a metal base, appearing slightly out of focus.",
+      "attributes": {
+        "type": "office chair",
+        "color": "black",
+        "backrest": "high",
+        "armrests": "present",
+        "material": "mesh or fabric",
+        "base": "metal",
+        "position": "in front of desk",
+        "focus": "slightly out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.55859375,
+      "box": [
+        924.0,
+        628.0,
+        1004.0,
+        780.0
+      ],
+      "mask": "image_3.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a black office chair featuring a padded backrest and a five-star base with casters, set against a bright, blurred background.",
+      "attributes": {
+        "object_type": "office chair",
+        "color": "black",
+        "material": "padded fabric or leather",
+        "structure": {
+          "backrest": "padded",
+          "base": "five-star with casters"
+        },
+        "focus": "blurred",
+        "lighting": "backlit"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.625,
+      "box": [
+        836.0,
+        584.0,
+        972.0,
+        616.0
+      ],
+      "mask": "image_3.masks/desk_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a desk surface with a dark vertical object, possibly a monitor stand or leg, in the foreground. The background shows indistinct shapes and colors, including light wood tones and darker areas, suggesting a typical office or workspace environment.",
+      "attributes": {
+        "focus": "blurry",
+        "objects": [
+          "dark vertical object",
+          "desk surface"
+        ],
+        "colors": [
+          "dark",
+          "light wood",
+          "indistinct"
+        ],
+        "setting": "office or workspace"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        836.0,
+        584.0,
+        972.0,
+        800.0
+      ],
+      "mask": "image_3.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up view of a dark gray, cylindrical metal pole or leg, likely part of a desk or table structure, with a blurred background showing a light-colored wooden surface and other indistinct furniture elements.",
+      "attributes": {
+        "material": "metal",
+        "color": "dark gray",
+        "shape": "cylindrical",
+        "context": "part of a desk or table",
+        "background": "blurred, light-colored wooden surface, other furniture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.78125,
+      "box": [
+        -2.0,
+        584.0,
+        138.0,
+        632.0
+      ],
+      "mask": "image_3.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a desk with a light-colored wooden surface and dark, vertical metal legs or supports. The background is blurred, showing indistinct shapes and colors that suggest an indoor setting.",
+      "attributes": {
+        "surface": "light-colored wood",
+        "legs": "dark metal",
+        "focus": "out-of-focus",
+        "setting": "indoor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        824.0,
+        30.0,
+        888.0,
+        840.0
+      ],
+      "mask": "image_3.masks/glass_0.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass pane with a dark frame, reflecting the interior of a room with fluorescent lighting and blurred furniture. The glass is transparent, allowing a view of the room's interior, which includes a table and chairs.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame": "dark",
+        "transparency": "transparent",
+        "reflections": [
+          "fluorescent lights",
+          "furniture"
+        ],
+        "visible_interior": [
+          "table",
+          "chairs"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.73046875,
+      "box": [
+        912.0,
+        -2.0,
+        1024.0,
+        952.0
+      ],
+      "mask": "image_3.masks/glass_1.png",
+      "crop": null,
+      "description": "A vertical glass partition with a dark frame on the left side, reflecting light and providing a view into an office space with a desk, chair, and computer monitor. The glass is transparent, allowing a clear view of the interior, which includes a black office chair with wheels, a wooden desk, and a computer monitor. The background shows a bright, well-lit room with a plant and additional office furniture.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark",
+        "transparency": "transparent",
+        "reflection": "light",
+        "interior_view": {
+          "desk": "wooden",
+          "chair": "black with wheels",
+          "monitor": "computer",
+          "plant": "green",
+          "lighting": "bright"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.84765625,
+      "box": [
+        -2.5,
+        -4.0,
+        94.0,
+        980.0
+      ],
+      "mask": "image_3.masks/glass_2.png",
+      "crop": null,
+      "description": "A vertical glass partition with a dark gray metal frame, reflecting the interior of an office space. Through the glass, a blurred view of a desk with a computer monitor, a black office chair, and overhead fluorescent lighting is visible.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark gray metal",
+        "reflection": "office interior",
+        "visible_objects": [
+          "desk",
+          "computer monitor",
+          "office chair",
+          "fluorescent lights"
+        ],
+        "clarity": "blurred",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.8515625,
+      "box": [
+        117.0,
+        36.0,
+        189.0,
+        860.0
+      ],
+      "mask": "image_3.masks/glass_3.png",
+      "crop": null,
+      "description": "A tall, rectangular glass panel with a dark gray or black frame, likely part of a door or window, reflecting light and showing a blurred interior background with horizontal lines and indistinct shapes.",
+      "attributes": {
+        "shape": "rectangular",
+        "frame_color": "dark gray/black",
+        "material": "glass",
+        "reflection": "visible",
+        "background_blur": "high",
+        "interior_elements": [
+          "horizontal_lines",
+          "indistinct_shapes"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.828125,
+      "box": [
+        756.0,
+        106.0,
+        820.0,
+        784.0
+      ],
+      "mask": "image_3.masks/glass_4.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a person's arm and hand, wearing a dark blue suit jacket with a white shirt cuff visible at the wrist. The person is holding a black folder or document in their hand, with a blurred background suggesting an indoor setting.\", \"attributes\": {\"clothing\": {\"jacket\": \"dark blue suit\", \"shirt\": \"white\"}, \"accessories\": {\"folder\": \"black\"}, \"pose\": \"holding folder\", \"background\": \"blurred indoor setting\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        940.0,
+        62.5,
+        1024.0,
+        75.5
+      ],
+      "mask": "image_3.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.61328125,
+      "box": [
+        472.0,
+        205.0,
+        504.0,
+        223.0
+      ],
+      "mask": "image_3.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 2,
+      "score": 0.53515625,
+      "box": [
+        796.0,
+        175.0,
+        884.0,
+        191.0
+      ],
+      "mask": "image_3.masks/light_fixture_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 3,
+      "score": 0.5234375,
+      "box": [
+        776.0,
+        232.0,
+        1024.0,
+        250.0
+      ],
+      "mask": "image_3.masks/light_fixture_3.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up view of a light fixture with a dark, vertical frame structure and rectangular, frosted glass panels that emit a soft, diffused light. The fixture appears to be part of a larger structure, possibly a window or a multi-panel light, with a blurred background suggesting depth.\", \"attributes\": {\"frame_color\": \"dark\", \"frame_material\": \"metal or wood\", \"glass_type\": \"frosted\", \"light_diffusion\": \"soft\", \"shape\": \"rectangular\", \"structure\": \"vertical frame with horizontal panels\", \"background\": \"blurred\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 4,
+      "score": 0.7109375,
+      "box": [
+        366.0,
+        173.0,
+        576.0,
+        189.0
+      ],
+      "mask": "image_3.masks/light_fixture_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 5,
+      "score": 0.68359375,
+      "box": [
+        478.0,
+        125.0,
+        516.0,
+        141.0
+      ],
+      "mask": "image_3.masks/light_fixture_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 6,
+      "score": 0.59375,
+      "box": [
+        117.0,
+        173.0,
+        191.0,
+        189.0
+      ],
+      "mask": "image_3.masks/light_fixture_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 7,
+      "score": 0.75,
+      "box": [
+        324.0,
+        58.5,
+        684.0,
+        75.5
+      ],
+      "mask": "image_3.masks/light_fixture_7.png",
+      "crop": null,
+      "description": "A long, horizontal, rectangular light fixture with a bright white, diffused surface is mounted on a brown wall. The fixture has rounded ends and emits a uniform, soft light.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "horizontal",
+        "color": "white",
+        "material": "diffused plastic or glass",
+        "mounting": "wall-mounted",
+        "light_type": "fluorescent or LED tube",
+        "end_shape": "rounded",
+        "wall_color": "brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 8,
+      "score": 0.62109375,
+      "box": [
+        118.5,
+        233.0,
+        190.0,
+        249.0
+      ],
+      "mask": "image_3.masks/light_fixture_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 9,
+      "score": 0.546875,
+      "box": [
+        796.0,
+        174.0,
+        1024.0,
+        192.0
+      ],
+      "mask": "image_3.masks/light_fixture_9.png",
+      "crop": null,
+      "description": "A close-up view of a modern light fixture featuring a horizontal bar with a dark, matte finish, possibly black or dark gray. The fixture has a sleek, minimalist design with a smooth surface and a rectangular shape. The lighting appears to be diffused, creating a soft glow around the edges of the fixture.",
+      "attributes": {
+        "shape": "rectangular",
+        "finish": "matte",
+        "color": "dark",
+        "design": "minimalist",
+        "lighting": "diffused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 10,
+      "score": 0.61328125,
+      "box": [
+        -2.5,
+        174.0,
+        92.5,
+        188.0
+      ],
+      "mask": "image_3.masks/light_fixture_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 11,
+      "score": 0.5078125,
+      "box": [
+        912.0,
+        176.0,
+        1024.0,
+        190.0
+      ],
+      "mask": "image_3.masks/light_fixture_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 12,
+      "score": 0.6953125,
+      "box": [
+        400.0,
+        233.0,
+        584.0,
+        251.0
+      ],
+      "mask": "image_3.masks/light_fixture_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 13,
+      "score": 0.6796875,
+      "box": [
+        -3.0,
+        60.5,
+        92.0,
+        73.5
+      ],
+      "mask": "image_3.masks/light_fixture_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        880.0,
+        -4.0,
+        920.0,
+        868.0
+      ],
+      "mask": "image_3.masks/metal_0.png",
+      "crop": null,
+      "description": "A vertical, dark-colored metal bar or frame, likely part of a window or door structure, with a smooth surface and a slight reflection. The background is blurred, showing indistinct light and dark areas, suggesting an indoor or semi-outdoor setting.",
+      "attributes": {
+        "color": "dark gray or black",
+        "material": "metal",
+        "shape": "vertical bar",
+        "surface": "smooth",
+        "context": "part of a window or door frame",
+        "background": "blurred, indistinct light and dark areas"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        816.0,
+        84.0,
+        832.0,
+        796.0
+      ],
+      "mask": "image_3.masks/metal_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a person's arm wearing a dark blue long-sleeved shirt, with a white and black patterned cuff visible at the wrist, set against a blurred background of vertical gray bars or panels.",
+      "attributes": {
+        "clothing": {
+          "sleeve": "dark blue",
+          "cuff": "white and black patterned"
+        },
+        "background": "blurred vertical gray bars",
+        "focus": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        500.0,
+        126.0,
+        836.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian man with short dark hair is walking forward in a modern indoor hallway, wearing a navy blue blazer over a light blue collared shirt and a patterned grey tie. He is holding a black folder or tablet under his left arm and wearing grey trousers.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Asian",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "textured"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "navy blue",
+            "buttons": "one visible blue button"
+          },
+          "shirt": {
+            "color": "light blue",
+            "type": "collared dress shirt"
+          },
+          "tie": {
+            "color": "grey",
+            "pattern": "textured"
+          },
+          "pants": {
+            "color": "grey",
+            "type": "trousers"
+          }
+        },
+        "accessories": {
+          "held_item": "black folder or tablet"
+        },
+        "pose": "walking",
+        "expression": "neutral",
+        "setting": "indoor hallway"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        205.0,
+        196.0,
+        476.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with shoulder-length brown hair is walking forward while looking to her left, wearing a professional black blazer over a white collared shirt and black trousers. She holds a smartphone in her right hand at waist level, with a slight smile on her face.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "blazer",
+            "color": "black"
+          },
+          "top": {
+            "type": "shirt",
+            "color": "white",
+            "collar": "open"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "handheld": "smartphone"
+        },
+        "pose": "walking",
+        "expression": "smiling",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,280 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "blackboard",
+      "index": 0,
+      "score": 0.62109375,
+      "box": [
+        848.0,
+        238.0,
+        1024.0,
+        624.0
+      ],
+      "mask": "image_13.masks/blackboard_0.png",
+      "crop": null,
+      "description": "A close-up view of a person with voluminous, curly red hair seen from behind, wearing a dark blue shirt, standing in front of a white surface with a thin frame.",
+      "attributes": {
+        "hair": {
+          "color": "red",
+          "texture": "curly",
+          "length": "medium"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "dark blue"
+          }
+        },
+        "pose": "standing",
+        "view": "back",
+        "background": {
+          "color": "white",
+          "feature": "thin frame"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.90234375,
+      "box": [
+        972.0,
+        732.0,
+        1024.0,
+        980.0
+      ],
+      "mask": "image_13.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a black mesh office chair backrest featuring a fine grid texture and a solid black top rail. A dark blue fabric, likely a person's sleeve, is visible on the left side, partially obscuring the mesh.",
+      "attributes": {
+        "object_type": "office chair",
+        "material": "mesh",
+        "color": "black",
+        "texture": "grid pattern",
+        "visible_parts": [
+          "backrest",
+          "top rail"
+        ],
+        "obstruction": "dark blue fabric on left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.84765625,
+      "box": [
+        -0.75,
+        704.0,
+        75.0,
+        848.0
+      ],
+      "mask": "image_13.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of the upper corner of a black office chair backrest, featuring a mesh fabric with a fine grid pattern and a smooth, rounded plastic frame.",
+      "attributes": {
+        "object_type": "chair",
+        "part": "backrest",
+        "color": "black",
+        "material": {
+          "backrest": "mesh",
+          "frame": "plastic"
+        },
+        "shape": "rounded corner",
+        "style": "ergonomic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        0.0,
+        820.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_13.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden desk with a visible grain pattern, featuring a person's hands writing on a clipboard with a pen. The person is wearing a dark blue shirt and a wristwatch with a gold case and black strap.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth",
+        "grain": "visible",
+        "object_on_desk": {
+          "type": "clipboard",
+          "contents": "paper",
+          "accessory": "pen"
+        },
+        "person": {
+          "visible_parts": [
+            "hands",
+            "arms",
+            "torso"
+          ],
+          "clothing": {
+            "shirt": "dark blue"
+          },
+          "accessories": {
+            "watch": {
+              "case": "gold",
+              "strap": "black"
+            },
+            "stethoscope": "partially visible"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        500.0,
+        428.0,
+        996.0,
+        972.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with voluminous, curly red hair is seated at a wooden table, wearing a dark blue medical scrub top and a stethoscope around her neck. She is looking upward and to the left with a focused expression while holding a pen in her right hand, poised over a notebook, and wearing a gold watch on her left wrist.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "red",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": "dark blue scrub shirt",
+          "accessories": {
+            "stethoscope": "silver and black",
+            "watch": "gold with white face"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing or holding a pen",
+        "gaze": "looking up and left",
+        "expression": "attentive"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        68.0,
+        154.0,
+        388.0,
+        840.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly dark brown hair and light facial stubble stands in profile facing right, wearing a dark blue V-neck scrub top and matching pants. He has a stethoscope with black tubing and silver earpieces draped around his neck and is gesturing with both hands open in front of his torso, appearing to be in conversation.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "top": "dark blue V-neck scrub shirt",
+          "bottom": "dark blue scrub pants",
+          "accessories": "stethoscope around neck"
+        },
+        "pose": "standing, gesturing with hands",
+        "expression": "neutral, focused",
+        "orientation": "profile facing right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        624.0,
+        132.0,
+        928.0,
+        828.0
+      ],
+      "mask": "image_13.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with dark curly hair and a short beard stands in profile facing left, wearing dark blue medical scrubs and a stethoscope around his neck while holding a white tablet in his hands. He has a focused expression and appears to be listening or observing something off-camera.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "mixed or black",
+        "hair": {
+          "color": "black",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "short beard",
+        "clothing": {
+          "top": "dark blue scrub top",
+          "undershirt": "white v-neck",
+          "bottom": "dark blue scrub pants"
+        },
+        "accessories": {
+          "stethoscope": "black tubing with silver chest piece"
+        },
+        "pose": "standing, profile view",
+        "expression": "neutral, focused",
+        "holding": "white tablet"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.96875,
+      "box": [
+        384.0,
+        310.0,
+        624.0,
+        848.0
+      ],
+      "mask": "image_13.masks/person_3.png",
+      "crop": null,
+      "description": "A young woman with long dark hair and glasses stands with her arms crossed, wearing dark blue medical scrubs and a stethoscope around her neck. She has a serious, attentive expression while looking off to the side, holding a tablet in her left hand.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "mixed or hispanic",
+        "social_role": "medical professional",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "accessories": {
+          "glasses": "thin metal frames",
+          "stethoscope": "black tubing with silver chest piece",
+          "earrings": "small stud"
+        },
+        "clothing": {
+          "top": "dark blue v-neck scrub top",
+          "bottom": "dark blue scrub pants"
+        },
+        "pose": {
+          "body": "standing",
+          "arms": "crossed",
+          "head": "turned to the left"
+        },
+        "expression": "serious",
+        "holding": "tablet"
+      },
+      "parse_ok": true
+    }
+  ]
+}

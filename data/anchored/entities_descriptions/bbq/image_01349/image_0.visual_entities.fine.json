@@ -1,0 +1,614 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        984.0,
+        536.0,
+        1296.0,
+        688.0
+      ],
+      "mask": "image_0.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a desk featuring a light-colored wooden top and a dark, possibly black, metal frame with curved legs. The image is heavily blurred, with a shallow depth of field that obscures specific textures and details, showing only the general shape and color of the furniture components.",
+      "attributes": {
+        "material": {
+          "top": "wood",
+          "frame": "metal"
+        },
+        "color": {
+          "top": "light beige",
+          "frame": "black"
+        },
+        "structure": {
+          "legs": "curved",
+          "type": "desk"
+        },
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.73828125,
+      "box": [
+        350.0,
+        510.0,
+        956.0,
+        552.0
+      ],
+      "mask": "image_0.masks/desk_1.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth surface, partially visible in the foreground, holding a stack of books and papers. The desk has a simple, modern design with clean lines and a natural wood finish.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "surface": "smooth",
+        "items_on_desk": [
+          "books",
+          "papers"
+        ],
+        "design": "modern",
+        "position": "foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.58984375,
+      "box": [
+        60.75,
+        512.0,
+        244.0,
+        536.0
+      ],
+      "mask": "image_0.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden desk surface with a smooth finish, featuring a blurred edge and a partial view of a white object in the upper left corner.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth",
+        "visible_objects": [
+          "white object (partial)"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 3,
+      "score": 0.7734375,
+      "box": [
+        -2.53125,
+        540.0,
+        1152.0,
+        684.0
+      ],
+      "mask": "image_0.masks/desk_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light-colored wooden desk surface with a blurred object, possibly a book or paper, resting on it. The background is indistinct, showing hints of other furniture or objects in a classroom or office setting.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "focus": "blurred",
+        "objects_on_desk": "blurred rectangular object",
+        "setting": "indoor, likely classroom or office"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.78515625,
+      "box": [
+        294.0,
+        171.0,
+        740.0,
+        684.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short, grey hair is seated at a table, wearing a grey long-sleeved sweater over a dark collared shirt. He is leaning forward with his right arm extended, appearing to write or sign a document on a red folder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "grey",
+          "length": "short",
+          "style": "swept back"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "grey",
+            "sleeves": "long"
+          },
+          "undershirt": {
+            "type": "collared shirt",
+            "color": "black"
+          }
+        },
+        "pose": "sitting, leaning forward, arm extended",
+        "action": "writing or signing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        968.0,
+        176.0,
+        1296.0,
+        684.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with short dark hair and a beard sits at a wooden desk, wearing a blue cardigan over a white t-shirt. He is facing to the right with a blurred face, appearing to be in a study or work setting with a red object on the table in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "facial_hair": "beard",
+        "face": "blurred",
+        "clothing": {
+          "outer": {
+            "type": "cardigan",
+            "color": "blue",
+            "material": "knit"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting",
+        "orientation": "profile",
+        "context": "indoor, desk setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.83984375,
+      "box": [
+        -0.6328125,
+        10.625,
+        235.0,
+        596.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A woman with long, straight brown hair is seated at a table, wearing a bright yellow long-sleeved top. Her face is blurred, and she is positioned in the mid-ground, facing slightly to the right, with her hands resting on the table near a white object.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "color": "yellow",
+            "type": "long-sleeved shirt or sweater"
+          }
+        },
+        "pose": "seated",
+        "position": "mid-ground, right side of frame",
+        "face": "blurred",
+        "context": "appears to be in an office or meeting setting, with another person partially visible in the foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.85546875,
+      "box": [
+        608.0,
+        127.5,
+        852.0,
+        684.0
+      ],
+      "mask": "image_0.masks/person_3.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair and glasses leans forward over a desk, wearing a white button-down shirt with vertical brown and black stripes and a blue lanyard with an ID badge. She is looking down at a document or object on the table, with her hands positioned near the surface, while another person's arm is visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "accessories": {
+          "glasses": "visible",
+          "necklace": "visible",
+          "lanyard": "blue"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "pattern": "vertical stripes",
+            "stripe_colors": [
+              "brown",
+              "black"
+            ],
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "leaning forward",
+        "action": "looking down at desk"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.85546875,
+      "box": [
+        0.6328125,
+        270.0,
+        155.0,
+        512.0
+      ],
+      "mask": "image_0.masks/person_4.png",
+      "crop": null,
+      "description": "A person with long, straight brown hair is seen from the side, wearing a mustard-yellow long-sleeved top and a black wristwatch on their left wrist. Their hand is resting on a white surface, possibly a table, with a blurred background suggesting an indoor setting.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "color": "mustard yellow",
+            "type": "long-sleeved"
+          }
+        },
+        "accessories": {
+          "watch": {
+            "color": "black",
+            "position": "left wrist"
+          }
+        },
+        "pose": "seated, hand resting on surface",
+        "position": "side view, right side of frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.5625,
+      "box": [
+        612.0,
+        127.5,
+        852.0,
+        506.0
+      ],
+      "mask": "image_0.masks/person_5.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair and glasses is leaning forward over a desk, wearing a white button-down shirt with thin vertical stripes in brown and blue. She has a blue lanyard with an ID badge around her neck and is looking down, seemingly focused on a task or document in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "accessories": {
+          "glasses": true,
+          "lanyard": {
+            "color": "blue",
+            "badge": true
+          },
+          "necklace": {
+            "color": "gold"
+          }
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "white",
+            "pattern": "vertical stripes",
+            "stripe_colors": [
+              "brown",
+              "blue"
+            ],
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "leaning forward",
+        "action": "looking down",
+        "context": "office or workspace"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.91796875,
+      "box": [
+        53.75,
+        242.0,
+        304.0,
+        492.0
+      ],
+      "mask": "image_0.masks/person_6.png",
+      "crop": null,
+      "description": "A woman with long brown hair wearing a mustard yellow long-sleeved top is seated at a desk, writing in a notebook with a red pen. Her face is blurred, and she is positioned in profile facing right with a bright, out-of-focus background featuring greenery.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "mustard yellow",
+            "type": "long-sleeved shirt"
+          }
+        },
+        "accessories": {
+          "wrist": "black watch or band"
+        },
+        "action": "writing",
+        "objects": {
+          "pen": "red",
+          "notebook": "white"
+        },
+        "pose": "seated",
+        "face": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.6015625,
+      "box": [
+        560.0,
+        103.0,
+        872.0,
+        478.0
+      ],
+      "mask": "image_0.masks/window_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair is leaning forward, wearing a white button-down shirt with thin vertical stripes in brown and blue, and a blue lanyard with an ID badge around her neck. She is wearing glasses and a delicate necklace, and her face is blurred for privacy.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "pattern": "vertical stripes",
+            "stripe_colors": [
+              "brown",
+              "blue"
+            ],
+            "type": "button-down"
+          },
+          "accessories": {
+            "lanyard": {
+              "color": "blue"
+            },
+            "badge": {
+              "visible": true
+            },
+            "necklace": {
+              "style": "delicate",
+              "pendant": "small dark stone or bead"
+            },
+            "glasses": {
+              "frame_color": "dark"
+            }
+          }
+        },
+        "pose": "leaning forward",
+        "expression": "blurred",
+        "position": "center-right of frame, upper body visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.66015625,
+      "box": [
+        1072.0,
+        145.0,
+        1296.0,
+        482.0
+      ],
+      "mask": "image_0.masks/window_1.png",
+      "crop": null,
+      "description": "A man with short brown hair and a beard is shown in profile, wearing a blue cardigan over a white t-shirt, sitting in front of a large window with a blurred cityscape background.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "facial_hair": "beard",
+        "clothing": {
+          "outer": {
+            "type": "cardigan",
+            "color": "blue",
+            "material": "knit"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting",
+        "orientation": "profile",
+        "background": {
+          "type": "window",
+          "view": "blurred cityscape"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 2,
+      "score": 0.5625,
+      "box": [
+        1064.0,
+        51.25,
+        1296.0,
+        161.0
+      ],
+      "mask": "image_0.masks/window_2.png",
+      "crop": null,
+      "description": "A close-up view of a white window frame with a horizontal wooden bar at the top and a vertical wooden bar on the left side. The glass pane is clear, allowing light to pass through, and there is a small, faint reflection or smudge visible on the glass surface.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood",
+        "glass": "clear",
+        "details": [
+          "horizontal wooden bar",
+          "vertical wooden bar",
+          "faint reflection on glass"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 3,
+      "score": 0.53125,
+      "box": [
+        221.0,
+        151.0,
+        548.0,
+        430.0
+      ],
+      "mask": "image_0.masks/window_3.png",
+      "crop": null,
+      "description": "A close-up profile view of an older man with short, slicked-back gray hair, wearing a gray long-sleeved shirt over a black collared shirt. He is seated in a bright, outdoor or semi-outdoor setting with a blurred background of green foliage and light.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "hair": {
+          "color": "gray",
+          "style": "short, slicked back"
+        },
+        "clothing": {
+          "outer": "gray long-sleeved shirt",
+          "inner": "black collared shirt"
+        },
+        "pose": "seated, facing right",
+        "background": "blurred greenery, bright lighting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 4,
+      "score": 0.51171875,
+      "box": [
+        190.0,
+        6.0625,
+        1296.0,
+        492.0
+      ],
+      "mask": "image_0.masks/window_4.png",
+      "crop": null,
+      "description": "A large window with horizontal blinds partially open, allowing natural light to enter the room. The window is divided into multiple panes by thin, dark frames, and the blinds are made of a light-colored material, possibly wood or a wood-like composite. The window is positioned behind a group of people, suggesting it is part of an office or meeting room setting.",
+      "attributes": {
+        "blinds": {
+          "material": "light-colored, possibly wood or wood-like composite",
+          "state": "partially open"
+        },
+        "frames": {
+          "color": "dark",
+          "thickness": "thin"
+        },
+        "panes": "multiple",
+        "lighting": "natural light entering the room",
+        "position": "behind a group of people",
+        "setting": "office or meeting room"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 5,
+      "score": 0.6328125,
+      "box": [
+        876.0,
+        171.0,
+        1056.0,
+        478.0
+      ],
+      "mask": "image_0.masks/window_5.png",
+      "crop": null,
+      "description": "A large, bright window with a white frame is visible in the background, letting in significant natural light that creates a high-key, overexposed effect on the view outside. The window appears to be a sliding or fixed pane with a vertical mullion visible on the left side, and the glass is slightly reflective or hazy, obscuring the exterior details.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely metal or vinyl",
+        "glass": "clear but overexposed",
+        "lighting": "bright natural light",
+        "position": "background",
+        "structure": "vertical mullion visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 6,
+      "score": 0.5390625,
+      "box": [
+        872.0,
+        80.5,
+        1056.0,
+        180.0
+      ],
+      "mask": "image_0.masks/window_6.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a window frame with a light-colored, possibly white or beige, material. The frame appears to have a simple, rectangular design with a horizontal bar across the top and vertical bars on the sides. The background is blurred, suggesting a shallow depth of field, and the overall image is bright, indicating natural light coming through the window.",
+      "attributes": {
+        "frame_color": "light-colored",
+        "frame_material": "possibly wood or metal",
+        "design": "rectangular with horizontal and vertical bars",
+        "focus": "out-of-focus",
+        "lighting": "bright, natural light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 7,
+      "score": 0.67578125,
+      "box": [
+        1248.0,
+        175.0,
+        1272.0,
+        212.0
+      ],
+      "mask": "image_0.masks/window_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        516.0,
+        206.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A mature woman with shoulder-length blonde hair sits on a beige couch, wearing a sleeveless dress with horizontal navy blue and white stripes. She holds a white pump bottle in her hands, looking off to the side with a calm, pleasant expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "senior",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "type": "dress",
+          "pattern": "striped",
+          "colors": [
+            "white",
+            "navy blue"
+          ],
+          "sleeves": "sleeveless"
+        },
+        "pose": "sitting",
+        "expression": "neutral, content",
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "objects_held": "white pump bottle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        66.0,
+        178.0,
+        520.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long brown hair sits on a beige couch, wearing a white tank top and distressed blue jeans with large rips at the knees. She holds a white spray bottle in her right hand, looking off to the side with a slight smile.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "white"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "distressed, ripped knees"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "accessories": {
+          "held_object": {
+            "type": "spray bottle",
+            "color": "white"
+          }
+        },
+        "background": {
+          "furniture": "couch",
+          "color": "beige"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        464.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or taupe fabric sofa with a textured, woven appearance, featuring a cushioned backrest and seat. Two individuals are seated on it, partially obscuring the view, but the visible portions show a neutral, modern design with clean lines and a soft, upholstered surface.",
+      "attributes": {
+        "color": "light beige/taupe",
+        "material": "textured fabric (likely cotton or linen blend)",
+        "style": "modern, minimalist",
+        "visible_parts": [
+          "backrest",
+          "seat cushion"
+        ],
+        "condition": "clean, well-maintained",
+        "function": "seating furniture",
+        "position": "indoor, likely living room setting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

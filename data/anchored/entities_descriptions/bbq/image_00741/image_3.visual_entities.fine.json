@@ -1,0 +1,191 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        744.0,
+        406.0,
+        1024.0,
+        840.0
+      ],
+      "mask": "image_3.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A medium-brown wooden cabinet with a traditional design, featuring a drawer with a dark knob on the right and a paneled door on the left, positioned in the background behind a person.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "style": "traditional",
+        "features": [
+          "drawer",
+          "door",
+          "dark knob",
+          "paneled"
+        ],
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.51953125,
+      "box": [
+        -4.0,
+        354.0,
+        324.0,
+        398.0
+      ],
+      "mask": "image_3.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up view of a blue velvet fabric with a shiny, textured surface, possibly part of a garment or upholstery, featuring a decorative silver or metallic trim along the edge. The background is blurred, showing a patterned surface that could be a tablecloth or carpet.",
+      "attributes": {
+        "color": "blue",
+        "material": "velvet",
+        "texture": "shiny, textured",
+        "trim": "silver or metallic",
+        "background": "blurred, patterned surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.8671875,
+      "box": [
+        -2.0,
+        -1.5,
+        294.0,
+        178.0
+      ],
+      "mask": "image_3.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A close-up view of a wooden cabinet featuring a glass-paneled door on the left and a solid wood door on the right. The glass section reveals shelves holding indistinct white and blue dishware, while the solid section displays a vertical wood grain texture and a small, dark knob at the bottom.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "type": "kitchen cabinet",
+        "door_style": {
+          "left": "glass paneled with grid",
+          "right": "solid wood"
+        },
+        "hardware": "small dark knob",
+        "contents": "white and blue dishware",
+        "texture": "wood grain"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        856.0,
+        312.0,
+        928.0,
+        388.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A very blurry, low-resolution portrait of a person, likely an older male, wearing a dark suit jacket and a light-colored shirt. The image is framed by a light brown border, suggesting it is a photograph within a frame.",
+      "attributes": {
+        "gender": "male",
+        "age": "older adult",
+        "clothing": {
+          "jacket": "dark",
+          "shirt": "light"
+        },
+        "image_quality": "extremely blurry",
+        "framing": "light brown border"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        492.0,
+        286.0,
+        996.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short brown hair sits with a somber expression, wearing a light blue Champion sweatshirt, while an elderly woman with wrinkled skin and a dark blue patterned top rests her hand on his shoulder and holds his hand.",
+      "attributes": {
+        "boy": {
+          "age": "child",
+          "gender": "male",
+          "hair": {
+            "color": "brown",
+            "length": "short"
+          },
+          "expression": "sad, looking down",
+          "clothing": {
+            "sweatshirt": {
+              "color": "light blue",
+              "brand": "Champion",
+              "logo": "red, white, and blue C logo with text"
+            }
+          }
+        },
+        "woman": {
+          "age": "elderly",
+          "gender": "female",
+          "skin": "wrinkled",
+          "clothing": {
+            "top": {
+              "color": "dark blue",
+              "pattern": "floral or abstract"
+            }
+          },
+          "accessories": {
+            "ring": "silver band on left hand"
+          },
+          "pose": "sitting behind the boy, arm around his shoulder"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        100.0,
+        106.0,
+        924.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits on a floral patterned couch, wearing a dark blue velvet robe with intricate floral embroidery in red, yellow, and green along the lapel and cuffs. She has a gentle, slightly smiling expression and is looking directly at the camera, with her left arm resting around a young boy sitting next to her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "type": "robe",
+          "color": "dark blue",
+          "material": "velvet",
+          "details": "floral embroidery on lapel and cuffs"
+        },
+        "accessories": {
+          "ring": "visible on left hand"
+        },
+        "pose": "sitting",
+        "expression": "gentle smile",
+        "position": "left side of frame, arm around boy"
+      },
+      "parse_ok": true
+    }
+  ]
+}

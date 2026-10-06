@@ -1,0 +1,318 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.83203125,
+      "box": [
+        964.0,
+        772.0,
+        1032.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light brown wooden cabinet featuring a shaker-style door with a recessed panel and a small, round, dark knob. The wood grain is faintly visible, and the image is heavily blurred, obscuring fine surface details.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "style": "shaker",
+        "hardware": {
+          "type": "knob",
+          "shape": "round",
+          "color": "dark"
+        },
+        "focus": "blurred",
+        "structure": "door with recessed panel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.75,
+      "box": [
+        -0.75,
+        812.0,
+        110.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower torso wearing light blue denim jeans with a visible side pocket and stitching details, standing in front of a wooden cabinet with a medium brown finish and recessed panel doors.",
+      "attributes": {
+        "clothing": {
+          "jeans": {
+            "color": "light blue",
+            "material": "denim",
+            "details": "visible stitching, side pocket"
+          }
+        },
+        "background": {
+          "object": "cabinet",
+          "material": "wood",
+          "color": "medium brown",
+          "style": "recessed panel doors"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.875,
+      "box": [
+        360.0,
+        55.0,
+        736.0,
+        332.0
+      ],
+      "mask": "image_5.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A light-colored wooden cabinet with a natural grain finish features two doors with recessed paneling and a raised top molding. The cabinet is positioned against a plain, light-colored wall and is partially obscured at the bottom by the heads of three people.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "natural grain",
+        "structure": {
+          "doors": 2,
+          "style": "recessed panel",
+          "top": "raised molding"
+        },
+        "position": "wall-mounted or standing against wall",
+        "visibility": "partially obscured by people in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        892.0,
+        720.0,
+        1024.0,
+        776.0
+      ],
+      "mask": "image_5.masks/counter_top_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a white countertop with a dark, indistinct object resting on it in the background. The foreground is partially obscured by a red, polka-dotted object on the left side.",
+      "attributes": {
+        "color": "white",
+        "material": "unknown",
+        "focus": "blurry",
+        "objects_on_top": [
+          "dark_indistinct_object"
+        ],
+        "foreground_obstruction": "red_polka_dotted_object"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "counter_top",
+      "index": 1,
+      "score": 0.64453125,
+      "box": [
+        -3.0,
+        728.0,
+        114.0,
+        832.0
+      ],
+      "mask": "image_5.masks/counter_top_1.png",
+      "crop": null,
+      "description": "A close-up view of a white countertop surface with a smooth, matte finish, positioned in front of a blurred stainless steel sink and faucet in the background. The edge of the counter is visible, showing a clean, straight line, with a dark object partially visible on the right side.",
+      "attributes": {
+        "color": "white",
+        "material": "solid surface or laminate",
+        "finish": "matte",
+        "shape": "flat surface with straight edge",
+        "background": "stainless steel sink, faucet",
+        "focus": "shallow depth of field, background blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        572.0,
+        262.0,
+        972.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with long, wavy dark brown hair is shown in profile, wearing a red short-sleeved dress with white polka dots. She is leaning in to kiss a young boy on the cheek, with her hand gently touching his face, while the boy is shirtless and wearing blue jeans.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "dress": {
+            "color": "red",
+            "pattern": "white polka dots",
+            "sleeves": "short",
+            "fit": "fitted waist"
+          }
+        },
+        "pose": "leaning in to kiss",
+        "action": "kissing a child on the cheek",
+        "expression": "eyes closed, affectionate",
+        "skin_tone": "light",
+        "accessories": {
+          "earrings": "small stud"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        38.0,
+        266.0,
+        510.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with long, wavy blonde hair is shown in profile, wearing a black sleeveless tank top and blue denim jeans. She is leaning in to kiss a young boy on the cheek while gently touching his face with her hand.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue denim"
+          }
+        },
+        "accessories": {
+          "earrings": "small hoop"
+        },
+        "action": "kissing a boy on the cheek",
+        "pose": "leaning forward"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        374.0,
+        264.0,
+        680.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_2.png",
+      "crop": null,
+      "description": "A young boy with short, light brown hair stands shirtless wearing blue denim jeans, smiling with his eyes closed as two women, one blonde and one brunette, kiss his cheeks while holding his face with their hands.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "length": "short"
+        },
+        "expression": "smiling, eyes closed",
+        "clothing": {
+          "top": "none",
+          "bottom": "blue jeans"
+        },
+        "pose": "standing, facing forward",
+        "interaction": "being kissed on cheeks by two women"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        836.0,
+        332.0,
+        1024.0,
+        708.0
+      ],
+      "mask": "image_5.masks/wall_0.png",
+      "crop": null,
+      "description": "A white brick wall with a grid pattern of rectangular bricks and light gray mortar lines, appearing slightly out of focus in the background behind a person's hair and shoulder.",
+      "attributes": {
+        "material": "brick",
+        "color": "white",
+        "pattern": "running bond",
+        "mortar_color": "light gray",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        0.0,
+        -3.0,
+        416.0,
+        300.0
+      ],
+      "mask": "image_5.masks/wall_1.png",
+      "crop": null,
+      "description": "A plain, light beige wall with a smooth, matte finish occupies the upper portion of the frame, featuring a white window frame on the left and a wooden cabinet on the right.",
+      "attributes": {
+        "color": "light beige",
+        "material": "painted drywall",
+        "texture": "smooth",
+        "finish": "matte",
+        "adjacent_elements": {
+          "left": "white window frame",
+          "right": "wooden cabinet"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.72265625,
+      "box": [
+        406.0,
+        -2.0,
+        832.0,
+        262.0
+      ],
+      "mask": "image_5.masks/wall_2.png",
+      "crop": null,
+      "description": "A light-colored wooden cabinet with a visible grain pattern and paneled doors is mounted against a plain white wall, appearing slightly out of focus. The top of a person's head with dark hair is visible at the very bottom edge of the frame.",
+      "attributes": {
+        "object": "cabinet",
+        "material": "wood",
+        "color": "light brown",
+        "finish": "natural grain",
+        "structure": "paneled doors",
+        "background": "white wall",
+        "focus": "blurry",
+        "foreground": "top of head with dark hair"
+      },
+      "parse_ok": true
+    }
+  ]
+}

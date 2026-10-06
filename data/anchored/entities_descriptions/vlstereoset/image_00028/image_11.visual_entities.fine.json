@@ -1,0 +1,608 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        31.5,
+        720.0,
+        266.0,
+        864.0
+      ],
+      "mask": "image_11.masks/backpack_0.png",
+      "crop": null,
+      "description": "A black backpack made of a smooth, synthetic material rests on a white towel in a sandy environment. The bag features a main compartment with a zipper, a front zippered pocket, and a small metal D-ring on the lower front panel, with black shoulder straps visible on the sides.",
+      "attributes": {
+        "color": "black",
+        "material": "synthetic fabric",
+        "type": "backpack",
+        "features": {
+          "zippers": "silver",
+          "pockets": "front zippered pocket",
+          "hardware": "metal D-ring",
+          "straps": "black shoulder straps"
+        },
+        "position": "resting on a white towel",
+        "background": "sandy ground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "beach towel",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        50.0,
+        824.0,
+        920.0,
+        992.0
+      ],
+      "mask": "image_11.masks/beach towel_0.png",
+      "crop": null,
+      "description": "A white beach towel is spread out on the sand, with a person sitting on it. The towel has fringed edges and appears to be made of a soft, absorbent material. It is partially covered by the person's legs and a black bag.",
+      "attributes": {
+        "color": "white",
+        "material": "soft, absorbent fabric",
+        "edges": "fringed",
+        "position": "spread out on the sand",
+        "covered_by": [
+          "person's legs",
+          "black bag"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "beach towel",
+      "index": 1,
+      "score": 0.796875,
+      "box": [
+        -0.5,
+        596.0,
+        216.0,
+        620.0
+      ],
+      "mask": "image_11.masks/beach towel_1.png",
+      "crop": null,
+      "description": "A person is lying on a white beach towel with a blue border, partially visible in the image. The person appears to be wearing a blue bikini top and has their legs extended, with one leg slightly bent at the knee.",
+      "attributes": {
+        "clothing": {
+          "bikini_top": "blue"
+        },
+        "pose": "lying_down",
+        "towel": {
+          "color": "white",
+          "border": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        224.0,
+        434.0,
+        264.0,
+        490.0
+      ],
+      "mask": "image_11.masks/building_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.859375,
+      "box": [
+        -1.5,
+        410.0,
+        34.0,
+        458.0
+      ],
+      "mask": "image_11.masks/building_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.89453125,
+      "box": [
+        81.5,
+        412.0,
+        172.0,
+        484.0
+      ],
+      "mask": "image_11.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, multi-story building with a brown facade and white trim around the windows and roofline, situated next to a yellow building on the left and a pinkish building on the right.",
+      "attributes": {
+        "color": "brown",
+        "style": "multi-story",
+        "features": [
+          "white trim",
+          "rectangular windows"
+        ],
+        "adjacent_buildings": {
+          "left": "yellow",
+          "right": "pinkish"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.9140625,
+      "box": [
+        162.0,
+        426.0,
+        226.0,
+        486.0
+      ],
+      "mask": "image_11.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.76171875,
+      "box": [
+        98.0,
+        456.0,
+        139.0,
+        492.0
+      ],
+      "mask": "image_11.masks/building_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.90625,
+      "box": [
+        -3.75,
+        394.0,
+        102.0,
+        478.0
+      ],
+      "mask": "image_11.masks/building_5.png",
+      "crop": null,
+      "description": "A two-story building with a yellow facade and white trim, featuring rectangular windows with dark frames. The structure has a flat roof and is partially obscured by a green tree in the foreground.",
+      "attributes": {
+        "color": "yellow",
+        "architecture_style": "modern",
+        "number_of_stories": 2,
+        "window_shape": "rectangular",
+        "roof_type": "flat",
+        "foreground_object": "tree"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 0,
+      "score": 0.73046875,
+      "box": [
+        356.0,
+        328.0,
+        544.0,
+        408.0
+      ],
+      "mask": "image_11.masks/cloud_0.png",
+      "crop": null,
+      "description": "A soft, white cloud formation in a pale blue sky, with a distinct heart-shaped gap or indentation in the center of the cloud mass. The cloud has a fluffy, cotton-like texture with slightly darker grayish-blue tones in the recessed areas.",
+      "attributes": {
+        "shape": "heart-shaped indentation",
+        "color": "white and light gray",
+        "background": "pale blue sky",
+        "texture": "fluffy, soft",
+        "type": "cumulus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 1,
+      "score": 0.703125,
+      "box": [
+        -2.4375,
+        302.0,
+        14.9375,
+        330.0
+      ],
+      "mask": "image_11.masks/cloud_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 2,
+      "score": 0.578125,
+      "box": [
+        856.0,
+        430.0,
+        904.0,
+        454.0
+      ],
+      "mask": "image_11.masks/cloud_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 3,
+      "score": 0.75,
+      "box": [
+        912.0,
+        424.0,
+        984.0,
+        456.0
+      ],
+      "mask": "image_11.masks/cloud_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 4,
+      "score": 0.7734375,
+      "box": [
+        616.0,
+        228.0,
+        864.0,
+        332.0
+      ],
+      "mask": "image_11.masks/cloud_4.png",
+      "crop": null,
+      "description": "A fluffy, white cumulus cloud floats against a clear, light blue sky. The cloud has a soft, billowy texture with rounded edges and varying shades of white, appearing bright and well-lit.",
+      "attributes": {
+        "color": "white",
+        "shape": "billowy, rounded",
+        "texture": "soft, fluffy",
+        "sky_color": "light blue",
+        "type": "cumulus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 5,
+      "score": 0.9453125,
+      "box": [
+        596.0,
+        22.0,
+        956.0,
+        163.0
+      ],
+      "mask": "image_11.masks/cloud_5.png",
+      "crop": null,
+      "description": "A single, fluffy white cumulus cloud floats against a clear, light blue sky. The cloud has a soft, cotton-like texture with rounded, billowing edges and a slightly denser, brighter white core that fades into a lighter, more translucent periphery.",
+      "attributes": {
+        "color": "white",
+        "shape": "irregular, billowing, rounded",
+        "texture": "soft, fluffy, cotton-like",
+        "transparency": "semi-transparent at edges, opaque in center",
+        "background": "light blue sky",
+        "type": "cumulus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 6,
+      "score": 0.60546875,
+      "box": [
+        -4.0,
+        54.0,
+        644.0,
+        334.0
+      ],
+      "mask": "image_11.masks/cloud_6.png",
+      "crop": null,
+      "description": "A large, fluffy cumulus cloud dominates the frame, featuring a bright white, cotton-like texture with soft, rounded edges and subtle gray shading along its base. The cloud is set against a clear, light blue sky, with smaller, wispy cloud fragments visible in the upper right and lower portions of the image.",
+      "attributes": {
+        "type": "cumulus",
+        "color": "white with gray undertones",
+        "texture": "fluffy, cotton-like",
+        "shape": "irregular, rounded, billowy",
+        "position": "centered, occupying most of the frame",
+        "background": "light blue sky",
+        "lighting": "bright, natural daylight",
+        "details": "soft edges, subtle shadows on the underside, smaller cloud fragments nearby"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 7,
+      "score": 0.890625,
+      "box": [
+        908.0,
+        294.0,
+        964.0,
+        334.0
+      ],
+      "mask": "image_11.masks/cloud_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 8,
+      "score": 0.67578125,
+      "box": [
+        0.0,
+        54.0,
+        864.0,
+        344.0
+      ],
+      "mask": "image_11.masks/cloud_8.png",
+      "crop": null,
+      "description": "A large, fluffy cumulus cloud dominates the left side of the image, with a bright white top and a slightly grayish underside, set against a clear blue sky. Smaller, scattered cumulus clouds are visible in the background to the right, adding depth to the scene.",
+      "attributes": {
+        "type": "cumulus",
+        "color": "white and light gray",
+        "shape": "fluffy and rounded",
+        "position": "left side of the image",
+        "sky": "clear blue",
+        "other_clouds": "smaller cumulus clouds in the background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 9,
+      "score": 0.6953125,
+      "box": [
+        816.0,
+        420.0,
+        848.0,
+        440.0
+      ],
+      "mask": "image_11.masks/cloud_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "ocean",
+      "index": 0,
+      "score": 0.90625,
+      "box": [
+        40.0,
+        502.0,
+        1024.0,
+        680.0
+      ],
+      "mask": "image_11.masks/ocean_0.png",
+      "crop": null,
+      "description": "The ocean is a vibrant turquoise blue with white foamy waves crashing onto the sandy shore. The water appears clear and calm in the distance, with a few small boats visible on the horizon.",
+      "attributes": {
+        "color": "turquoise blue",
+        "waves": "white foamy",
+        "clarity": "clear",
+        "calmness": "calm in the distance",
+        "boats": "small, visible on the horizon"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        516.0,
+        430.0,
+        892.0,
+        912.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with wavy brown hair sits on a white towel on a sandy beach, facing away from the camera toward the ocean. He is shirtless, wearing dark blue swim trunks with a white stripe, and his bare back and legs are visible as he sits with one knee up.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "wavy, medium length"
+        },
+        "clothing": {
+          "top": "none (shirtless)",
+          "bottom": {
+            "type": "swim trunks",
+            "color": "dark blue",
+            "detail": "white horizontal stripe on side"
+          }
+        },
+        "pose": "sitting, facing away, one knee raised",
+        "location": "beach, on white towel",
+        "background": "ocean with waves, boats in distance, clear sky",
+        "skin": "light to medium tone, sun-kissed",
+        "visible_body_parts": [
+          "back",
+          "shoulders",
+          "arms",
+          "legs",
+          "feet",
+          "head (back)"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.65234375,
+      "box": [
+        -0.28125,
+        520.0,
+        10.625,
+        560.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.8828125,
+      "box": [
+        61.0,
+        528.0,
+        199.0,
+        616.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A woman with long dark hair is sitting on a white towel on a sandy beach, facing away from the camera towards the ocean waves. She is wearing a two-piece bikini with a light-colored top and blue patterned bottoms.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "length": "long",
+          "color": "dark brown"
+        },
+        "clothing": {
+          "type": "bikini",
+          "top_color": "light pink or white",
+          "bottom_color": "blue patterned"
+        },
+        "pose": "sitting",
+        "location": "beach",
+        "background": "ocean waves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.73046875,
+      "box": [
+        12.625,
+        524.0,
+        28.375,
+        572.0
+      ],
+      "mask": "image_11.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9765625,
+      "box": [
+        290.0,
+        422.0,
+        516.0,
+        872.0
+      ],
+      "mask": "image_11.masks/person_4.png",
+      "crop": null,
+      "description": "A young man with curly brown hair is seen from behind, sitting on a white towel on a sandy beach. He is shirtless, wearing dark blue shorts with a white stripe, and is looking out towards the ocean.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "none",
+          "bottom": {
+            "type": "shorts",
+            "color": "dark blue",
+            "details": "white stripe on side"
+          }
+        },
+        "pose": "sitting",
+        "view": "back",
+        "location": "beach",
+        "background": {
+          "ground": "sand",
+          "water": "ocean",
+          "sky": "blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        2.0,
+        556.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a fine, granular texture and scattered small pebbles and shells. It appears dry and slightly compacted, with visible footprints and indentations from the people sitting on it.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "fine, granular",
+        "condition": "dry, slightly compacted",
+        "features": [
+          "footprints",
+          "indentations",
+          "small pebbles",
+          "shells"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        0.0,
+        2.0,
+        1020.0,
+        500.0
+      ],
+      "mask": "image_11.masks/sky_0.png",
+      "crop": null,
+      "description": "A bright blue sky filled with large, fluffy white cumulus clouds that have soft, rounded edges and varying densities. The clouds are scattered across the upper portion of the frame, with some appearing more opaque and others slightly translucent against the blue background.",
+      "attributes": {
+        "color": "blue",
+        "cloud_type": "cumulus",
+        "cloud_color": "white",
+        "cloud_shape": "fluffy, rounded",
+        "lighting": "bright, natural daylight",
+        "atmosphere": "clear, sunny"
+      },
+      "parse_ok": true
+    }
+  ]
+}

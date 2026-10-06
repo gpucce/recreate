@@ -1,0 +1,645 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        968.0,
+        290.0,
+        1024.0,
+        382.0
+      ],
+      "mask": "image_3.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a building featuring a horizontal, light-colored beam or lintel above a dark, rectangular opening, with a rounded, light-colored object visible in the lower portion of the frame.",
+      "attributes": {
+        "structure": "building",
+        "features": [
+          "horizontal beam",
+          "dark opening",
+          "rounded object"
+        ],
+        "colors": [
+          "light beige",
+          "dark brown/black",
+          "white"
+        ],
+        "focus": "blurry",
+        "material": "indeterminate due to blur"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.7109375,
+      "box": [
+        14.5,
+        129.0,
+        168.0,
+        392.0
+      ],
+      "mask": "image_3.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a multi-story building with a white facade and dark rectangular windows, partially obscured by a dark vertical pole and a tree trunk in the foreground.",
+      "attributes": {
+        "structure": {
+          "type": "multi-story building",
+          "facade_color": "white",
+          "windows": "dark, rectangular",
+          "ground_floor": "dark awning or storefront visible"
+        },
+        "foreground_elements": {
+          "pole": "dark, vertical, out of focus",
+          "tree": "trunk visible on the left, out of focus"
+        },
+        "focus": "extremely blurry/out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.51171875,
+      "box": [
+        18.0,
+        94.0,
+        520.0,
+        402.0
+      ],
+      "mask": "image_3.masks/building_2.png",
+      "crop": null,
+      "description": "An older Black man with a gray and white beard and mustache is smiling broadly, showing his teeth, while wearing a black ribbed knit beanie. He is positioned in the foreground in profile facing right, with a blurred background of a street scene including a lamp post and buildings.",
+      "attributes": {
+        "entity_type": "person",
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "texture": "ribbed knit"
+        },
+        "facial_hair": {
+          "beard": "gray and white",
+          "mustache": "gray and white"
+        },
+        "expression": "smiling",
+        "pose": "profile view facing right",
+        "clothing": {
+          "visible_part": "collar",
+          "color": "teal"
+        },
+        "background": {
+          "focus": "blurred",
+          "elements": [
+            "street lamp",
+            "trees",
+            "buildings"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        624.0,
+        354.0,
+        664.0,
+        446.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.88671875,
+      "box": [
+        23.0,
+        364.0,
+        96.5,
+        500.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "The image is heavily blurred, showing a person in the background wearing a white top and dark pants, with a colorful, striped object in the foreground.",
+      "attributes": {
+        "clothing": {
+          "top": "white",
+          "bottoms": "dark"
+        },
+        "pose": "standing",
+        "focus": "blurred",
+        "foreground_object": "colorful striped"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        512.0,
+        34.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A young Black man with short, dark, curly hair and a goatee is shown in profile, smiling slightly while holding a bright pink soccer ball under his arm. He is wearing a black zip-up track jacket with a thick white stripe running down the sleeve, standing outdoors in a park setting with blurred trees and people in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "black",
+          "style": "short, curly, textured"
+        },
+        "facial_hair": "goatee",
+        "expression": "smiling, looking to the left",
+        "pose": "standing, holding object",
+        "clothing": {
+          "jacket": {
+            "type": "track jacket",
+            "color": "black",
+            "details": "white stripe on sleeve, zipper front"
+          }
+        },
+        "accessories": {
+          "watch": "visible on left wrist, dark band"
+        },
+        "object_held": {
+          "type": "soccer ball",
+          "color": "bright pink",
+          "position": "held under right arm"
+        },
+        "background": "outdoor park, blurred figures, trees, bench"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.63671875,
+      "box": [
+        -3.1875,
+        440.0,
+        27.75,
+        564.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        150.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_4.png",
+      "crop": null,
+      "description": "An older Black man with a gray beard and mustache is smiling broadly while wearing a black knit beanie and a vibrant teal short-sleeved shirt patterned with pink flamingos, palm trees, and yellow flowers. He has his right hand placed over his chest in a gesture of emotion or gratitude, standing outdoors with a blurred background of people and buildings.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "gray",
+          "mustache": "gray"
+        },
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "material": "knit"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "short-sleeved button-down",
+            "base_color": "teal",
+            "pattern": "flamingos, palm trees, flowers",
+            "pattern_colors": [
+              "pink",
+              "yellow",
+              "green",
+              "blue"
+            ]
+          },
+          "accessories": {
+            "watch": "black band on left wrist"
+          }
+        },
+        "pose": {
+          "body": "standing",
+          "hand": "right hand on chest"
+        },
+        "expression": "smiling, happy",
+        "skin_tone": "dark brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.70703125,
+      "box": [
+        452.0,
+        374.0,
+        476.0,
+        458.0
+      ],
+      "mask": "image_3.masks/person_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.50390625,
+      "box": [
+        976.0,
+        360.0,
+        1016.0,
+        440.0
+      ],
+      "mask": "image_3.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.91796875,
+      "box": [
+        470.0,
+        422.0,
+        572.0,
+        616.0
+      ],
+      "mask": "image_3.masks/person_7.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus person is sitting on a bench, wearing a light grey short-sleeved shirt and blue jeans, with a dark patterned object visible in the immediate foreground on the left.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "clothing": {
+          "top": "light grey t-shirt",
+          "bottom": "blue jeans"
+        },
+        "pose": "sitting",
+        "focus": "blurred",
+        "position": "center background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.7890625,
+      "box": [
+        532.0,
+        360.0,
+        572.0,
+        440.0
+      ],
+      "mask": "image_3.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "soccer ball",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        504.0,
+        684.0,
+        752.0,
+        900.0
+      ],
+      "mask": "image_3.masks/soccer ball_0.png",
+      "crop": null,
+      "description": "A bright pink soccer ball with a standard black pentagon and hexagon panel pattern is held in a person's hand. The ball has a smooth, slightly glossy surface and is positioned in the foreground, partially obscuring the person's dark clothing.",
+      "attributes": {
+        "object": "soccer ball",
+        "color": "bright pink",
+        "pattern": "black pentagons and hexagons",
+        "material": "synthetic leather",
+        "surface": "smooth, glossy",
+        "condition": "clean",
+        "size": "standard",
+        "position": "held in hand",
+        "orientation": "facing camera"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.7734375,
+      "box": [
+        580.0,
+        0.0,
+        1024.0,
+        394.0
+      ],
+      "mask": "image_3.masks/tree_0.png",
+      "crop": null,
+      "description": "A close-up profile view of a young Black man with short, dark brown curly hair and a goatee, wearing a black jacket with a white stripe on the shoulder, set against a blurred background of green foliage and a tree trunk.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "young adult",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "dark brown",
+          "style": "short curls",
+          "length": "short"
+        },
+        "facial_hair": {
+          "type": "goatee",
+          "color": "black"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "details": "white stripe on shoulder"
+          }
+        },
+        "pose": "profile view, facing left",
+        "expression": "neutral, slightly smiling",
+        "background": {
+          "elements": [
+            "green foliage",
+            "tree trunk",
+            "blurred lights"
+          ],
+          "setting": "outdoor, daytime"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        390.0,
+        480.0,
+        458.0,
+        608.0
+      ],
+      "mask": "image_3.masks/tree_1.png",
+      "crop": null,
+      "description": "A palm tree with a slender, light brown trunk and a crown of green fronds is depicted on a piece of fabric. The fabric also features a large yellow flower with red accents and a turquoise background.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "light brown, slender",
+        "fronds": "green",
+        "context": "printed on fabric",
+        "fabric_colors": [
+          "turquoise",
+          "yellow",
+          "red",
+          "pink"
+        ],
+        "other_elements": "yellow flower"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.765625,
+      "box": [
+        227.0,
+        716.0,
+        360.0,
+        972.0
+      ],
+      "mask": "image_3.masks/tree_2.png",
+      "crop": null,
+      "description": "A stylized palm tree with a segmented, brown trunk featuring horizontal bands and a crown of dark green, feathery fronds stands centrally against a teal background. The tree is part of a tropical-themed pattern that includes pink flamingos and a yellow sun.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "brown",
+          "texture": "segmented with horizontal bands",
+          "shape": "tall and slender"
+        },
+        "leaves": {
+          "color": "dark green",
+          "style": "feathery fronds"
+        },
+        "context": "printed pattern on fabric",
+        "background": "teal with yellow sun and pink flamingos"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.6640625,
+      "box": [
+        117.0,
+        840.0,
+        195.0,
+        984.0
+      ],
+      "mask": "image_3.masks/tree_3.png",
+      "crop": null,
+      "description": "A tall palm tree with a slender, segmented brown trunk and a crown of long, arching green fronds stands against a bright turquoise background. The fronds are dark green with lighter highlights, and the tree is positioned to the left of a pink flamingo in the foreground.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "brown",
+          "texture": "segmented",
+          "shape": "slender"
+        },
+        "leaves": {
+          "color": "green",
+          "shape": "arched fronds",
+          "arrangement": "crown"
+        },
+        "background": "turquoise",
+        "position": "left side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.72265625,
+      "box": [
+        -1.0,
+        -2.0,
+        191.0,
+        438.0
+      ],
+      "mask": "image_3.masks/tree_4.png",
+      "crop": null,
+      "description": "A large tree with a thick, brown trunk and branches extending across the top of the frame, with green leaves visible in the background. The tree is out of focus, with the background blurred, showing a street lamp and a building.",
+      "attributes": {
+        "trunk": "brown, thick",
+        "branches": "extending across the top",
+        "leaves": "green, out of focus",
+        "focus": "out of focus",
+        "background": "blurred, street lamp, building"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.67578125,
+      "box": [
+        436.0,
+        68.0,
+        660.0,
+        380.0
+      ],
+      "mask": "image_3.masks/tree_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green foliage and a brown trunk is visible in the background, positioned behind a person's profile on the right side of the frame.",
+      "attributes": {
+        "focus": "blurry",
+        "foliage_color": "green",
+        "trunk_color": "brown",
+        "position": "background",
+        "state": "out_of_focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.6015625,
+      "box": [
+        -1.0,
+        -2.0,
+        512.0,
+        438.0
+      ],
+      "mask": "image_3.masks/tree_6.png",
+      "crop": null,
+      "description": "An older Black man with a gray and white beard and mustache is smiling broadly, showing his teeth, while wearing a black ribbed knit beanie and a colorful shirt with a floral pattern in shades of blue, yellow, and pink. He is positioned in the foreground facing to the right, set against a blurred background of green trees, a street lamp, and buildings.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "facial_hair": {
+          "beard": "gray and white, full",
+          "mustache": "gray and white"
+        },
+        "expression": "smiling, happy",
+        "headwear": {
+          "type": "beanie",
+          "color": "black",
+          "texture": "ribbed knit"
+        },
+        "clothing": {
+          "shirt": {
+            "pattern": "floral",
+            "colors": [
+              "blue",
+              "yellow",
+              "pink"
+            ]
+          }
+        },
+        "pose": "head turned to the right",
+        "background": "out of focus, urban setting with trees and buildings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.60546875,
+      "box": [
+        13.0,
+        568.0,
+        93.0,
+        720.0
+      ],
+      "mask": "image_3.masks/tree_7.png",
+      "crop": null,
+      "description": "A stylized palm tree with a slender, light pinkish-brown trunk and a crown of dark green fronds with yellow highlights, set against a bright turquoise background. A large orange and yellow flower is visible in the lower foreground.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "light pinkish-brown",
+          "shape": "slender"
+        },
+        "leaves": {
+          "color": "dark green with yellow highlights",
+          "arrangement": "crown"
+        },
+        "background": "bright turquoise",
+        "foreground_element": {
+          "type": "flower",
+          "color": "orange and yellow"
+        },
+        "style": "stylized, tropical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.61328125,
+      "box": [
+        187.0,
+        488.0,
+        308.0,
+        600.0
+      ],
+      "mask": "image_3.masks/tree_8.png",
+      "crop": null,
+      "description": "A stylized palm tree with a curved, segmented brown trunk and dark green fronds is depicted on a turquoise fabric surface, accompanied by a pink flamingo head in the lower left corner.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "brown",
+          "texture": "segmented",
+          "shape": "curved"
+        },
+        "leaves": {
+          "color": "dark green",
+          "style": "stylized"
+        },
+        "background": {
+          "color": "turquoise",
+          "material": "fabric"
+        },
+        "context": "print pattern",
+        "associated_elements": [
+          "pink flamingo head"
+        ]
+      },
+      "parse_ok": true
+    }
+  ]
+}

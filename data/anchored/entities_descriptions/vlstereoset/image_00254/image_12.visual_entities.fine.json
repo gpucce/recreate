@@ -1,0 +1,1003 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.890625,
+      "box": [
+        0.0,
+        -6.0,
+        129.0,
+        151.0
+      ],
+      "mask": "image_12.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a multi-story building featuring a white balcony with vertical railings and a beige or light brown wall below. In the foreground, the tops of two beach umbrellas, one blue and one yellow, are partially visible.",
+      "attributes": {
+        "building": {
+          "color": "white and beige",
+          "features": [
+            "balcony",
+            "vertical railings"
+          ],
+          "condition": "blurry"
+        },
+        "foreground_objects": {
+          "type": "beach umbrellas",
+          "colors": [
+            "blue",
+            "yellow"
+          ],
+          "visibility": "partial, out-of-focus"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.67578125,
+      "box": [
+        688.0,
+        8.0,
+        896.0,
+        147.0
+      ],
+      "mask": "image_12.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a gray wall and a brown roof, partially obscured by a green bush on the left and a dark vertical pole in the foreground.",
+      "attributes": {
+        "wall_color": "gray",
+        "roof_color": "brown",
+        "visibility": "blurry",
+        "obstructions": [
+          "green bush",
+          "dark pole"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.55078125,
+      "box": [
+        448.0,
+        51.0,
+        556.0,
+        89.0
+      ],
+      "mask": "image_12.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus section of a building featuring a reddish-brown brick wall with a dark vertical structural element, possibly a window frame or pillar, and a small portion of a white rectangular sign or window in the upper right corner.",
+      "attributes": {
+        "material": "brick",
+        "color": "reddish-brown",
+        "structure": "vertical dark element",
+        "sign": "white rectangular shape",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.93359375,
+      "box": [
+        121.0,
+        -4.5,
+        468.0,
+        182.0
+      ],
+      "mask": "image_12.masks/building_3.png",
+      "crop": null,
+      "description": "A two-story building with a reddish-brown tiled roof and light beige exterior walls, featuring dark rectangular windows on both floors and a balcony on the upper level. The image is blurry, with greenery visible at the bottom and a yellow object partially seen on the left.",
+      "attributes": {
+        "structure": {
+          "floors": 2,
+          "roof": {
+            "color": "reddish-brown",
+            "material": "tile"
+          },
+          "walls": {
+            "color": "light beige"
+          },
+          "windows": {
+            "color": "dark",
+            "shape": "rectangular",
+            "count": 6
+          },
+          "balcony": {
+            "present": true,
+            "floor": 2
+          }
+        },
+        "surroundings": {
+          "greenery": "visible at bottom",
+          "other_objects": [
+            "yellow object on left",
+            "blue sign in foreground"
+          ]
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.84765625,
+      "box": [
+        908.0,
+        6.5,
+        1024.0,
+        140.0
+      ],
+      "mask": "image_12.masks/building_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a reddish-brown tiled roof and white walls. The structure features a balcony or porch area with white railings and dark rectangular windows or doors behind them. The image is heavily blurred, making fine details indistinct.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile"
+        },
+        "walls": {
+          "color": "white"
+        },
+        "balcony": {
+          "railings": "white",
+          "structure": "visible"
+        },
+        "windows": {
+          "color": "dark",
+          "shape": "rectangular"
+        },
+        "image_quality": "blurry",
+        "focus": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.72265625,
+      "box": [
+        664.0,
+        -2.5,
+        800.0,
+        40.5
+      ],
+      "mask": "image_12.masks/building_5.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a dark, sloped roof and a reddish-brown wall, partially obscured by a vertical tree trunk in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "dark gray or black",
+          "shape": "sloped",
+          "material": "indistinguishable due to blur"
+        },
+        "wall": {
+          "color": "reddish-brown",
+          "material": "indistinguishable due to blur"
+        },
+        "foreground": {
+          "object": "tree trunk",
+          "color": "dark brown",
+          "position": "center-right"
+        },
+        "image_quality": "extremely blurry, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        928.0,
+        182.0,
+        968.0,
+        226.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.796875,
+      "box": [
+        704.0,
+        172.0,
+        728.0,
+        216.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.76171875,
+      "box": [
+        66.0,
+        179.0,
+        106.0,
+        239.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.70703125,
+      "box": [
+        167.0,
+        154.0,
+        191.0,
+        190.0
+      ],
+      "mask": "image_12.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.671875,
+      "box": [
+        450.0,
+        231.0,
+        470.0,
+        264.0
+      ],
+      "mask": "image_12.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 5,
+      "score": 0.875,
+      "box": [
+        81.5,
+        256.0,
+        176.0,
+        308.0
+      ],
+      "mask": "image_12.masks/person_5.png",
+      "crop": null,
+      "description": "A blurry, low-resolution figure of a person sitting on a light-colored sandy surface, wearing a white short-sleeved shirt and dark blue shorts. The person has a light skin tone and appears to be leaning back with legs extended, possibly holding a dark object near their head.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "skin_tone": "light",
+        "clothing": {
+          "top": "white t-shirt",
+          "bottom": "dark blue shorts"
+        },
+        "pose": "sitting",
+        "location": "sandy ground",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 6,
+      "score": 0.90234375,
+      "box": [
+        228.0,
+        181.0,
+        282.0,
+        227.0
+      ],
+      "mask": "image_12.masks/person_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 7,
+      "score": 0.98046875,
+      "box": [
+        368.0,
+        312.0,
+        840.0,
+        692.0
+      ],
+      "mask": "image_12.masks/person_7.png",
+      "crop": null,
+      "description": "A young man with short, dark, wet hair is surfing on a wave, wearing a black long-sleeved rash guard and bright turquoise board shorts. He is in a crouched, balanced stance with arms outstretched, looking forward with a focused expression, while white water splashes around his legs and the surfboard.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "texture": "wet"
+        },
+        "clothing": {
+          "top": {
+            "type": "rash guard",
+            "color": "black",
+            "sleeves": "long"
+          },
+          "bottom": {
+            "type": "board shorts",
+            "color": "turquoise"
+          },
+          "accessories": {
+            "wristband": "black"
+          }
+        },
+        "pose": "crouching, arms extended for balance",
+        "expression": "focused",
+        "activity": "surfing",
+        "environment": "ocean, white water spray"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 8,
+      "score": 0.85546875,
+      "box": [
+        416.0,
+        226.0,
+        472.0,
+        278.0
+      ],
+      "mask": "image_12.masks/person_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 9,
+      "score": 0.7734375,
+      "box": [
+        464.0,
+        232.0,
+        500.0,
+        276.0
+      ],
+      "mask": "image_12.masks/person_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 10,
+      "score": 0.8671875,
+      "box": [
+        872.0,
+        176.0,
+        912.0,
+        224.0
+      ],
+      "mask": "image_12.masks/person_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        8.0,
+        208.0,
+        1024.0,
+        324.0
+      ],
+      "mask": "image_12.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a granular texture that appears coarse and uneven. It covers the ground extensively, with some areas appearing slightly darker due to shadows or variations in the sand's composition.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "granular, coarse",
+        "surface": "uneven",
+        "shadows": "present in some areas"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.75,
+      "box": [
+        510.0,
+        -3.125,
+        688.0,
+        51.0
+      ],
+      "mask": "image_12.masks/sky_0.png",
+      "crop": null,
+      "description": "The sky is a pale, light blue with no visible clouds, appearing clear and bright. It serves as the background for blurred silhouettes of trees and structures in the foreground.",
+      "attributes": {
+        "color": "light blue",
+        "clarity": "clear",
+        "clouds": "none visible",
+        "lighting": "bright",
+        "time_of_day": "daytime"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surfboard",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        210.0,
+        556.0,
+        512.0,
+        716.0
+      ],
+      "mask": "image_12.masks/surfboard_0.png",
+      "crop": null,
+      "description": "A close-up view of the nose of a white surfboard with a black stringer running down the center, positioned in churning white water with a surfer's tanned legs and blue shorts visible in the background.",
+      "attributes": {
+        "object": "surfboard",
+        "color": "white",
+        "features": {
+          "stringer": "black",
+          "nose": "rounded"
+        },
+        "environment": "churning white water",
+        "associated_person": {
+          "body_part": "legs",
+          "skin_tone": "tanned",
+          "clothing": "blue shorts"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.6640625,
+      "box": [
+        716.0,
+        -8.0,
+        748.0,
+        148.0
+      ],
+      "mask": "image_12.masks/tree_0.png",
+      "crop": null,
+      "description": "A vertical, dark brown tree trunk dominates the center of the frame, appearing out of focus with a smooth, cylindrical texture. The background is heavily blurred, showing indistinct patches of green foliage and a horizontal band of light brown or tan, possibly a building or wall, with a small area of light blue visible in the lower right.",
+      "attributes": {
+        "trunk": {
+          "color": "dark brown",
+          "shape": "vertical cylinder",
+          "focus": "blurred"
+        },
+        "background": {
+          "foliage": "green, out of focus",
+          "structure": "tan or light brown horizontal band",
+          "sky_or_light": "light blue patch"
+        },
+        "image_quality": "extremely blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.609375,
+      "box": [
+        348.0,
+        -4.3125,
+        404.0,
+        20.25
+      ],
+      "mask": "image_12.masks/tree_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.8515625,
+      "box": [
+        544.0,
+        -3.5,
+        576.0,
+        188.0
+      ],
+      "mask": "image_12.masks/tree_2.png",
+      "crop": null,
+      "description": "A tall, slender tree with a dark, vertical trunk and a rounded, dense canopy of dark green foliage at the top, set against a blurred background of blue sky and greenery.",
+      "attributes": {
+        "trunk": "dark, vertical, slender",
+        "canopy": "rounded, dense, dark green",
+        "background": "blurred, blue sky, greenery",
+        "shape": "tall, narrow"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.6484375,
+      "box": [
+        486.0,
+        -6.0,
+        516.0,
+        173.0
+      ],
+      "mask": "image_12.masks/tree_3.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a vertical dark structure, likely a tree trunk, with indistinct patches of green and yellow foliage in the background. The overall scene is heavily blurred, making specific details of the tree's texture or shape unidentifiable.",
+      "attributes": {
+        "focus": "blurry",
+        "structure": "vertical dark trunk",
+        "foliage": "indistinct green and yellow patches",
+        "background": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.76953125,
+      "box": [
+        508.0,
+        35.75,
+        788.0,
+        143.0
+      ],
+      "mask": "image_12.masks/tree_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with dense green foliage is visible in the background, partially obscured by vertical dark poles or structures in the foreground. The tree appears to be a medium-sized deciduous tree with a rounded canopy, and its leaves are a mix of light and dark green shades.",
+      "attributes": {
+        "foliage": "dense, green, rounded canopy",
+        "trunk": "not visible",
+        "position": "background, behind vertical poles",
+        "focus": "out-of-focus, blurry",
+        "color": "various shades of green",
+        "type": "deciduous tree"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.69921875,
+      "box": [
+        410.0,
+        -3.5,
+        502.0,
+        52.0
+      ],
+      "mask": "image_12.masks/tree_5.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred, out-of-focus view of a tree with green foliage and brown branches against a light blue sky. The lower portion of the image contains a reddish-brown, indistinct shape, possibly a roof or structure, and a vertical dark line on the right side.",
+      "attributes": {
+        "focus": "blurred",
+        "foliage_color": "green",
+        "branch_color": "brown",
+        "sky_color": "light blue",
+        "other_elements": {
+          "lower_shape": "reddish-brown",
+          "right_side": "dark vertical line"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.7109375,
+      "box": [
+        596.0,
+        -8.0,
+        636.0,
+        190.0
+      ],
+      "mask": "image_12.masks/tree_6.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a vertical, dark gray pole or trunk in the foreground, with indistinct green foliage and a light blue sky in the background. The details are obscured due to the lack of focus.",
+      "attributes": {
+        "focus": "blurry",
+        "color": "dark gray",
+        "shape": "vertical",
+        "background": {
+          "sky": "light blue",
+          "foliage": "green"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 7,
+      "score": 0.5703125,
+      "box": [
+        748.0,
+        -4.75,
+        764.0,
+        82.0
+      ],
+      "mask": "image_12.masks/tree_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 8,
+      "score": 0.5703125,
+      "box": [
+        1008.0,
+        -4.5,
+        1024.0,
+        22.125
+      ],
+      "mask": "image_12.masks/tree_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        864.0,
+        131.0,
+        984.0,
+        171.0
+      ],
+      "mask": "image_12.masks/umbrella_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of an umbrella canopy featuring alternating panels of orange and white fabric. The umbrella appears to be open, with the curved surface of the canopy visible against a blurred background.",
+      "attributes": {
+        "object_type": "umbrella",
+        "color": [
+          "orange",
+          "white"
+        ],
+        "pattern": "striped",
+        "state": "open",
+        "focus": "blurred",
+        "material": "fabric"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 1,
+      "score": 0.5859375,
+      "box": [
+        -1.0,
+        137.0,
+        41.5,
+        167.0
+      ],
+      "mask": "image_12.masks/umbrella_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 2,
+      "score": 0.75,
+      "box": [
+        864.0,
+        130.0,
+        984.0,
+        204.0
+      ],
+      "mask": "image_12.masks/umbrella_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of an umbrella with alternating panels of orange and white, positioned above two indistinct figures in the background.",
+      "attributes": {
+        "color": [
+          "orange",
+          "white"
+        ],
+        "pattern": "striped",
+        "focus": "blurry",
+        "position": "above people",
+        "type": "beach or patio umbrella"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 3,
+      "score": 0.84765625,
+      "box": [
+        39.25,
+        135.0,
+        140.0,
+        177.0
+      ],
+      "mask": "image_12.masks/umbrella_3.png",
+      "crop": null,
+      "description": "A yellow umbrella is visible in the image, appearing as a large, rounded canopy with a smooth surface. The umbrella is positioned centrally and occupies most of the frame, with its edges slightly blurred, suggesting it is the main focus of the image.",
+      "attributes": {
+        "color": "yellow",
+        "shape": "rounded canopy",
+        "position": "central",
+        "focus": "main focus",
+        "edges": "slightly blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "umbrella",
+      "index": 4,
+      "score": 0.8203125,
+      "box": [
+        0.25,
+        136.0,
+        42.75,
+        226.0
+      ],
+      "mask": "image_12.masks/umbrella_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 5,
+      "score": 0.86328125,
+      "box": [
+        968.0,
+        130.0,
+        1024.0,
+        160.0
+      ],
+      "mask": "image_12.masks/umbrella_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        548.0,
+        191.0,
+        628.0,
+        217.0
+      ],
+      "mask": "image_12.masks/vegetation_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        408.0,
+        -4.375,
+        504.0,
+        53.0
+      ],
+      "mask": "image_12.masks/vegetation_1.png",
+      "crop": null,
+      "description": "The image shows a blurred view of green foliage, likely from a tree or large shrub, with some yellowish-green leaves visible. The background is out of focus, suggesting a shallow depth of field, and there is a hint of a reddish-brown structure, possibly a roof, in the lower left corner.",
+      "attributes": {
+        "color": [
+          "green",
+          "yellowish-green"
+        ],
+        "texture": "blurred",
+        "type": "foliage",
+        "background": "out of focus",
+        "structure": "reddish-brown roof (partial)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 2,
+      "score": 0.65625,
+      "box": [
+        444.0,
+        77.5,
+        492.0,
+        104.5
+      ],
+      "mask": "image_12.masks/vegetation_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 3,
+      "score": 0.51171875,
+      "box": [
+        -1.0,
+        184.0,
+        284.0,
+        224.0
+      ],
+      "mask": "image_12.masks/vegetation_3.png",
+      "crop": null,
+      "description": "The image is heavily blurred and out of focus, showing indistinct shapes and colors that do not clearly depict vegetation. There are hints of green and brown tones in the background, possibly suggesting grass or foliage, but no specific plant features can be discerned due to the extreme blur.",
+      "attributes": {
+        "clarity": "extremely low",
+        "color_tones": [
+          "green",
+          "brown"
+        ],
+        "visible_features": "none discernible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 4,
+      "score": 0.83203125,
+      "box": [
+        506.0,
+        34.0,
+        792.0,
+        140.0
+      ],
+      "mask": "image_12.masks/vegetation_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a green tree with dense foliage, partially obscured by vertical dark poles or trunks in the foreground. The background is indistinct, showing hints of a building and sky.",
+      "attributes": {
+        "type": "tree",
+        "foliage": "dense, green",
+        "focus": "blurry, out-of-focus",
+        "obstruction": "vertical dark poles or trunks",
+        "background": "indistinct, hints of building and sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 5,
+      "score": 0.75390625,
+      "box": [
+        254.0,
+        171.0,
+        560.0,
+        205.0
+      ],
+      "mask": "image_12.masks/vegetation_5.png",
+      "crop": null,
+      "description": "A blurred, out-of-focus background of green vegetation, likely bushes or hedges, with a vertical blue and white object partially visible on the left side.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurred",
+        "type": "bushes or hedges",
+        "position": "background",
+        "other_objects": "vertical blue and white object on the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 6,
+      "score": 0.53125,
+      "box": [
+        -2.0,
+        180.0,
+        640.0,
+        220.0
+      ],
+      "mask": "image_12.masks/vegetation_6.png",
+      "crop": null,
+      "description": "The image shows a blurred background with green vegetation, possibly trees or bushes, and a few indistinct figures in the foreground. The vegetation appears to be lush and dense, with varying shades of green. There are also some yellow and blue elements that could be part of the scene but are not clearly defined due to the blur.",
+      "attributes": {
+        "color": "green",
+        "texture": "blurred",
+        "density": "dense",
+        "elements": [
+          "trees",
+          "bushes",
+          "indistinct figures",
+          "yellow and blue elements"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        2.0,
+        350.0,
+        1024.0,
+        1016.0
+      ],
+      "mask": "image_12.masks/water_0.png",
+      "crop": null,
+      "description": "A young man with short dark hair is surfing on a wave, wearing a black long-sleeved rash guard and turquoise board shorts. He is in a crouched stance on a white surfboard, with his arms outstretched for balance, and water splashing around him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": "short, dark",
+        "clothing": {
+          "top": "black long-sleeved rash guard",
+          "bottoms": "turquoise board shorts"
+        },
+        "pose": "crouched, arms outstretched",
+        "activity": "surfing",
+        "equipment": {
+          "surfboard": "white",
+          "leash": "visible on ankle"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wave",
+      "index": 0,
+      "score": 0.703125,
+      "box": [
+        52.0,
+        422.0,
+        1024.0,
+        792.0
+      ],
+      "mask": "image_12.masks/wave_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A surfer is captured mid-action, riding a wave on a white surfboard. The surfer is wearing a black wetsuit top and blue board shorts, with their body leaning forward and arms extended for balance. The wave is breaking with white foam and spray, indicating motion and energy.\", \"attributes\": {\"clothing\": {\"top\": \"black wetsuit\", \"shorts\": \"blue board shorts\"}, \"pose\": \"leaning forward, arms extended\", \"surfboard\": \"white\", \"wave\": \"breaking, white foam and spray\", \"action\": \"surfing\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wave",
+      "index": 1,
+      "score": 0.53125,
+      "box": [
+        6.0,
+        354.0,
+        1024.0,
+        442.0
+      ],
+      "mask": "image_12.masks/wave_1.png",
+      "crop": null,
+      "description": "{\"description\": \"A young man with dark hair is lying prone on a surfboard, wearing a black wetsuit, with his right arm extended forward and his left arm resting on the board. He is in the process of paddling or positioning himself on the wave, with white foam and water splashes visible around him.\", \"attributes\": {\"gender\": \"male\", \"age\": \"young adult\", \"ethnicity\": \"indeterminate\", \"clothing\": {\"wetsuit\": \"black\"}, \"pose\": \"prone, paddling\", \"expression\": \"focused\", \"hair\": \"dark\", \"position\": \"on surfboard, in water\", \"environment\": \"ocean, wave, foam\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

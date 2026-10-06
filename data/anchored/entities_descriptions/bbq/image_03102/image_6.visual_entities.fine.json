@@ -1,0 +1,108 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        394.0,
+        176.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with light brown wavy hair and freckles sits looking down at a black smartphone held in his hands, wearing a grey cable-knit sweater and blue jeans, while a woman with dark hair in a red shirt and black blazer sits beside him with a concerned expression, her hand resting on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, short"
+        },
+        "skin": {
+          "features": "freckles"
+        },
+        "clothing": {
+          "top": "grey cable-knit sweater",
+          "bottom": "blue jeans"
+        },
+        "pose": "sitting, looking down at phone",
+        "expression": "sad, serious",
+        "accessories": {
+          "held_item": "black smartphone"
+        },
+        "context": {
+          "interaction": "being comforted by a woman",
+          "woman_clothing": {
+            "shirt": "red",
+            "jacket": "black blazer"
+          },
+          "woman_expression": "worried, concerned"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        14.0,
+        40.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair, wearing a dark blue blazer over a red t-shirt and blue jeans, sits on a beige couch with a concerned expression, her hand resting on the shoulder of a young boy next to her who is looking at a smartphone.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "outerwear": "dark blue blazer",
+          "top": "red t-shirt",
+          "bottoms": "blue jeans"
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "action": "placing hand on boy's shoulder",
+        "position": "left side of the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        362.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or taupe fabric sofa with a textured, woven appearance, featuring a thick, cushioned backrest and armrest. The sofa is partially visible, with two individuals seated on it, their bodies obscuring much of the seating area. The fabric appears soft and slightly wrinkled, suggesting a comfortable, casual setting.",
+      "attributes": {
+        "color": "light beige/taupe",
+        "material": "textured woven fabric",
+        "type": "cushioned sofa",
+        "visible_parts": [
+          "backrest",
+          "armrest",
+          "seat cushion (partially obscured)"
+        ],
+        "condition": "slightly wrinkled, soft appearance",
+        "context": "indoor, casual setting with people seated"
+      },
+      "parse_ok": true
+    }
+  ]
+}

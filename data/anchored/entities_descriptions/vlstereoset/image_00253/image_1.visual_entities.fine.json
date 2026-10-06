@@ -1,0 +1,123 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.61328125,
+      "box": [
+        220.0,
+        468.0,
+        644.0,
+        924.0
+      ],
+      "mask": "image_1.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up, low-light shot of a person's hands clasped together, with the right hand resting over the left. A thin, gold-colored ring with a small, light-colored stone is visible on the ring finger of the right hand. The skin tone is medium-dark, and the lighting is dim, creating soft shadows and a warm, intimate atmosphere.",
+      "attributes": {
+        "body_part": "hands",
+        "pose": "clasped, right hand over left",
+        "skin_tone": "medium-dark",
+        "accessories": {
+          "ring": {
+            "finger": "ring finger, right hand",
+            "material": "gold-colored metal",
+            "design": "thin band with a small, light-colored stone"
+          }
+        },
+        "lighting": "dim, low-light",
+        "focus": "close-up, shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.609375,
+      "box": [
+        214.0,
+        468.0,
+        494.0,
+        940.0
+      ],
+      "mask": "image_1.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's hands clasped together, with the right hand resting over the left. The skin tone is medium-brown, and the hands appear to be those of an adult. A thin, gold-colored ring is visible on the ring finger of the right hand. The lighting is soft and warm, casting gentle shadows that highlight the contours of the fingers and knuckles.",
+      "attributes": {
+        "skin_tone": "medium-brown",
+        "hand_pose": "clasped",
+        "ring": {
+          "present": true,
+          "finger": "ring finger",
+          "hand": "right",
+          "color": "gold",
+          "style": "thin band"
+        },
+        "lighting": "soft, warm",
+        "focus": "close-up"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.80859375,
+      "box": [
+        452.0,
+        384.0,
+        916.0,
+        712.0
+      ],
+      "mask": "image_1.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of two hands clasped together in a prayer-like gesture, featuring dark skin tone and visible wrinkles on the knuckles and fingers. A small, bright red flower is held between the fingers at the top, and a thin gold ring is visible on the ring finger of the left hand.",
+      "attributes": {
+        "skin_tone": "dark brown",
+        "skin_texture": "wrinkled, detailed knuckles",
+        "pose": "clasped hands, fingers interlaced",
+        "accessories": {
+          "ring": "thin gold band on left ring finger"
+        },
+        "object_held": "small red flower",
+        "lighting": "soft, low-key"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 3,
+      "score": 0.86328125,
+      "box": [
+        246.0,
+        380.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/hand_3.png",
+      "crop": null,
+      "description": "A close-up of two hands clasped together in a prayer-like gesture, featuring a thin gold ring on the ring finger of the left hand and a small red flower resting on the top of the fingers. The skin is tanned with visible texture and fine hairs, set against a blurred, neutral brown background.",
+      "attributes": {
+        "entity": "hands",
+        "pose": "clasped together, fingers interlaced",
+        "skin_tone": "tanned",
+        "accessories": {
+          "ring": {
+            "material": "gold",
+            "style": "thin band",
+            "finger": "ring finger"
+          },
+          "object": {
+            "item": "red flower",
+            "position": "resting on top of fingers"
+          }
+        },
+        "details": {
+          "hair": "visible fine hairs on back of hand",
+          "nails": "short, natural"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,277 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.84765625,
+      "box": [
+        260.0,
+        -2.0,
+        1024.0,
+        268.0
+      ],
+      "mask": "image_7.masks/building_0.png",
+      "crop": null,
+      "description": "A large, white, multi-story building with a classical architectural style, featuring tall rectangular windows with white frames and a black metal balcony railing. The facade is smooth and white, with decorative molding around the windows and a prominent tree with yellow leaves in the foreground.",
+      "attributes": {
+        "building_type": "residential or institutional",
+        "color": "white",
+        "architecture_style": "classical",
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "white",
+          "count": "multiple"
+        },
+        "balcony": {
+          "railing_color": "black",
+          "material": "metal"
+        },
+        "foreground_elements": {
+          "tree": {
+            "leaves_color": "yellow",
+            "trunk_color": "brown"
+          },
+          "car": {
+            "color": "dark",
+            "position": "bottom left"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.703125,
+      "box": [
+        1.5,
+        169.0,
+        252.0,
+        484.0
+      ],
+      "mask": "image_7.masks/building_1.png",
+      "crop": null,
+      "description": "A white car is parked in front of a building with a red roof and white walls. The car's rear window and part of its trunk are visible, along with a red taillight. The building has a window with white frames and a black metal fence in front of it.",
+      "attributes": {
+        "car": {
+          "color": "white",
+          "part_visible": "rear window, trunk, taillight"
+        },
+        "building": {
+          "roof_color": "red",
+          "wall_color": "white",
+          "window_frame_color": "white",
+          "fence_color": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        264.0,
+        410.0,
+        680.0,
+        992.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a manual wheelchair, wearing a red knit sweater, blue jeans, and black boots. He is smiling broadly at the camera with a relaxed posture, while a person in a dark suit stands partially visible behind him near a silver vehicle.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "red",
+            "material": "knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "boots",
+            "color": "black"
+          }
+        },
+        "mobility_aid": {
+          "type": "wheelchair",
+          "frame_color": "silver",
+          "armrests": "black"
+        },
+        "pose": "sitting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        452.0,
+        220.0,
+        676.0,
+        596.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "Two young men with curly brown hair are smiling at the camera, one standing in the background wearing a dark blue suit with a white shirt and dark tie, and the other seated in the foreground wearing a red knit sweater. The man in the background is positioned slightly behind and to the left of the man in the foreground, with a vehicle visible behind them.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "background_person": {
+            "suit": "dark blue",
+            "shirt": "white",
+            "tie": "dark"
+          },
+          "foreground_person": {
+            "sweater": "red",
+            "material": "knit"
+          }
+        },
+        "pose": {
+          "background_person": "standing",
+          "foreground_person": "seated"
+        },
+        "expression": "smiling",
+        "position": {
+          "background_person": "behind and to the left",
+          "foreground_person": "in front and to the right"
+        },
+        "background": "vehicle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        -1.0,
+        -1.0,
+        268.0,
+        512.0
+      ],
+      "mask": "image_7.masks/tree_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A tall tree with a thick, textured trunk featuring mottled gray and brown bark stands in the background, its branches extending upward and outward with clusters of yellow and green leaves, indicating an autumnal setting. The tree is positioned behind a silver car, partially obscured by the vehicle's roof and rear window, with its foliage filling the upper portion of the frame against a blurred urban backdrop.\", \"attributes\": {\"trunk\": {\"color\": \"gray and brown\", \"texture\": \"mottled, rough\", \"thickness\": \"thick\"}, \"leaves\": {\"color\": \"yellow and green\", \"season\": \"autumn\", \"density\": \"moderate to dense\"}, \"position\": \"background, behind a car\", \"setting\": \"urban, with buildings and a fence visible in the distance\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.79296875,
+      "box": [
+        324.0,
+        -1.0,
+        852.0,
+        268.0
+      ],
+      "mask": "image_7.masks/tree_1.png",
+      "crop": null,
+      "description": "A mature tree with a thick, mottled trunk featuring patches of light tan and grey bark stands in the foreground, its branches extending upward and outward with sparse yellow autumn leaves. The tree is positioned in front of a white building with large windows and a black balcony railing.",
+      "attributes": {
+        "trunk": {
+          "color": "mottled tan and grey",
+          "texture": "smooth with peeling bark",
+          "thickness": "thick"
+        },
+        "leaves": {
+          "color": "yellow",
+          "season": "autumn",
+          "density": "sparse"
+        },
+        "position": "foreground, center-left",
+        "background": "white building with windows"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        20.0,
+        224.0,
+        1024.0,
+        888.0
+      ],
+      "mask": "image_7.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is parked on the side of a street with its rear hatch and sliding side door open. The vehicle has a sleek, modern design with tinted windows, chrome door handles, and alloy wheels. The interior features black leather seats, and the open doors reveal a spacious cabin. The minivan is positioned on a paved road with fallen autumn leaves scattered around, and a building with large windows is visible in the background.",
+      "attributes": {
+        "color": "silver",
+        "type": "minivan",
+        "doors": {
+          "rear_hatch": "open",
+          "side_door": "open"
+        },
+        "windows": "tinted",
+        "handles": "chrome",
+        "wheels": "alloy",
+        "interior": {
+          "seats": "black leather"
+        },
+        "position": "parked on the side of the street",
+        "background": {
+          "road": "paved",
+          "leaves": "autumn",
+          "building": "large windows"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        270.0,
+        672.0,
+        704.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A close-up view of a person seated in a manual wheelchair, wearing a red sweater, blue jeans, and black shoes. The wheelchair features a silver metal frame, black armrests, and large spoked rear wheels with handrims.",
+      "attributes": {
+        "person": {
+          "clothing": {
+            "top": "red sweater",
+            "bottom": "blue jeans",
+            "shoes": "black lace-up shoes"
+          },
+          "pose": "seated"
+        },
+        "wheelchair": {
+          "type": "manual",
+          "frame_color": "silver",
+          "armrests": "black",
+          "wheels": {
+            "rear": "large, spoked, with handrims",
+            "front": "small, solid casters"
+          },
+          "footrests": "black"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

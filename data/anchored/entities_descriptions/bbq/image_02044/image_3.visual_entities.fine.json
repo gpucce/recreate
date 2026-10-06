@@ -1,0 +1,98 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        544.0,
+        126.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark brown hair is sitting on a couch, smiling warmly while looking to the side. She is wearing a beige cardigan over a dark blue t-shirt and blue jeans, holding a black Nikon DSLR camera with a red-ringed lens in her hands.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "smiling",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "dark blue"
+          },
+          "outerwear": {
+            "type": "cardigan",
+            "color": "beige",
+            "material": "knit"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "earrings": "small hoop",
+          "camera": {
+            "brand": "Nikon",
+            "type": "DSLR",
+            "color": "black",
+            "lens_ring": "red",
+            "strap": "black with orange trim"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        4.0,
+        96.0,
+        592.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits on a beige couch, wearing a light mint green crew-neck sweater over a white turtleneck. She is smiling warmly while looking off to the right, with her hands clasped in her lap, and the text 'College Senior Companions' is overlaid at the bottom.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, curly"
+        },
+        "expression": "smiling",
+        "gaze": "looking right",
+        "clothing": {
+          "sweater": {
+            "color": "mint green",
+            "type": "crew neck"
+          },
+          "undershirt": {
+            "color": "white",
+            "type": "turtleneck"
+          },
+          "pants": {
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "text_overlay": "College Senior Companions"
+      },
+      "parse_ok": true
+    }
+  ]
+}

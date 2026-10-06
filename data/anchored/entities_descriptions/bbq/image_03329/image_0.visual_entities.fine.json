@@ -1,0 +1,333 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.81640625,
+      "box": [
+        2.34375,
+        1.7578125,
+        1200.0,
+        458.0
+      ],
+      "mask": "image_0.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story brick building with white-framed windows and a white entrance door, partially obscured by green foliage and a tree in the foreground.",
+      "attributes": {
+        "material": "brick",
+        "color": "brown",
+        "windows": {
+          "frame_color": "white",
+          "style": "rectangular"
+        },
+        "door": {
+          "frame_color": "white",
+          "style": "rectangular"
+        },
+        "foliage": "green",
+        "tree": "present"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        110.5,
+        304.0,
+        260.0,
+        796.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged man with short gray hair is walking outdoors while pushing a stroller, wearing a formal dark blue suit with a light blue shirt and a patterned tie. He has a lanyard with an ID badge around his neck and is wearing black leather dress shoes.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "dark blue",
+            "type": "two-piece"
+          },
+          "shirt": {
+            "color": "light blue"
+          },
+          "tie": {
+            "color": "blue",
+            "pattern": "striped"
+          },
+          "shoes": {
+            "color": "black",
+            "material": "leather"
+          },
+          "accessories": {
+            "lanyard": "visible",
+            "badge": "visible"
+          }
+        },
+        "pose": "walking",
+        "action": "pushing a stroller",
+        "stroller": {
+          "fabric": "purple floral pattern"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        288.0,
+        424.0,
+        616.0,
+        752.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A man with short dark hair and a goatee sits in a black motorized wheelchair, wearing a red long-sleeved shirt and blue jeans. He is looking to the side with a neutral expression while his right hand rests on the joystick control.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "ethnicity": "south asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "facial_hair": "goatee",
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "color": "red"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "black"
+          }
+        },
+        "pose": "sitting",
+        "equipment": {
+          "type": "motorized wheelchair",
+          "color": "black",
+          "features": "joystick control"
+        },
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ramp",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        644.0,
+        676.0,
+        1024.0,
+        824.0
+      ],
+      "mask": "image_0.masks/ramp_0.png",
+      "crop": null,
+      "description": "A metallic, silver-colored ramp with a textured, non-slip surface is shown extending from the back of a vehicle. The ramp has yellow reflective strips on its sides and is positioned on a paved surface with a stone wall in the background.",
+      "attributes": {
+        "material": "metal",
+        "color": "silver",
+        "surface": "textured, non-slip",
+        "features": [
+          "yellow reflective strips",
+          "hinges",
+          "bolts"
+        ],
+        "position": "extending from vehicle",
+        "background": "paved surface, stone wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surface",
+      "index": 0,
+      "score": 0.5546875,
+      "box": [
+        -4.6875,
+        608.0,
+        944.0,
+        664.0
+      ],
+      "mask": "image_0.masks/surface_0.png",
+      "crop": null,
+      "description": "A person is seated in a wheelchair, wearing a blue jacket over a purple floral top, with a black backpack or bag on their back. The wheelchair has visible metal frame components and an orange reflector or detail on the side.",
+      "attributes": {
+        "clothing": {
+          "jacket": "blue",
+          "top": "purple floral pattern"
+        },
+        "accessories": {
+          "backpack_or_bag": "black"
+        },
+        "mobility_aid": {
+          "type": "wheelchair",
+          "frame_color": "metallic/silver",
+          "detail": "orange reflector or accent"
+        },
+        "pose": "seated",
+        "position": "centered in frame, facing forward (implied by orientation)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surface",
+      "index": 1,
+      "score": 0.8125,
+      "box": [
+        0.0,
+        740.0,
+        1192.0,
+        896.0
+      ],
+      "mask": "image_0.masks/surface_1.png",
+      "crop": null,
+      "description": "A close-up view of a dark asphalt road surface with a white dashed line running horizontally across the lower portion. The texture of the asphalt is visible, showing small aggregate stones embedded in the black binder. In the upper part of the image, there are parts of vehicles: on the left, a person's legs wearing blue jeans and black shoes next to a motorcycle wheel, and on the right, a metal ramp with yellow reflective strips attached to a vehicle.",
+      "attributes": {
+        "surface_type": "asphalt",
+        "color": "dark gray/black",
+        "texture": "rough, granular",
+        "markings": {
+          "type": "dashed line",
+          "color": "white",
+          "position": "horizontal, lower third"
+        },
+        "objects_present": {
+          "left": {
+            "person_legs": {
+              "clothing": "blue jeans",
+              "shoes": "black"
+            },
+            "vehicle_part": "motorcycle wheel"
+          },
+          "right": {
+            "vehicle_part": "metal ramp with yellow reflective strips"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        -0.859375,
+        130.0,
+        9.75,
+        243.0
+      ],
+      "mask": "image_0.masks/tree_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        14.0625,
+        0.87890625,
+        720.0,
+        366.0
+      ],
+      "mask": "image_0.masks/tree_1.png",
+      "crop": null,
+      "description": "A large tree with a thick, textured brown trunk and dense green foliage stands in front of a brick building with white window frames. The tree's branches extend outward, partially obscuring the building's facade.",
+      "attributes": {
+        "trunk": "thick, brown, textured",
+        "foliage": "dense, green",
+        "position": "in front of a brick building",
+        "building": {
+          "material": "brick",
+          "window_frames": "white"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        644.0,
+        160.0,
+        1200.0,
+        828.0
+      ],
+      "mask": "image_0.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A silver minivan is shown from the rear with its tailgate open, revealing a deployed metal wheelchair ramp extending to the ground. The vehicle is parked on an asphalt surface in front of a brick house with white-framed windows and a green bush.",
+      "attributes": {
+        "vehicle_type": "minivan",
+        "color": "silver",
+        "tailgate": "open",
+        "ramp": {
+          "material": "metal",
+          "surface": "textured",
+          "status": "deployed",
+          "features": "yellow reflective strips"
+        },
+        "location": "parked on asphalt",
+        "background": {
+          "building": "brick house",
+          "windows": "white-framed",
+          "vegetation": "green bush"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        225.0,
+        446.0,
+        524.0,
+        812.0
+      ],
+      "mask": "image_0.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A black motorized wheelchair with a high backrest and headrest is occupied by a man wearing a red long-sleeved shirt and blue jeans. The wheelchair features large rear wheels with black tires and silver rims, smaller front casters, and a control joystick on the right armrest. A colorful floral backpack is attached to the back of the wheelchair, and a person's hand is visible on the left side, possibly assisting or holding the wheelchair.",
+      "attributes": {
+        "type": "motorized wheelchair",
+        "color": "black",
+        "features": {
+          "backrest": "high with headrest",
+          "wheels": {
+            "rear": "large with black tires and silver rims",
+            "front": "small casters"
+          },
+          "controls": "joystick on right armrest",
+          "accessories": "colorful floral backpack attached to the back"
+        },
+        "occupant": {
+          "clothing": {
+            "shirt": "red long-sleeved",
+            "pants": "blue jeans"
+          },
+          "pose": "seated, holding the joystick"
+        },
+        "position": "on a paved surface, possibly outdoors"
+      },
+      "parse_ok": true
+    }
+  ]
+}

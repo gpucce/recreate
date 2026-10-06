@@ -1,0 +1,1412 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceiling",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        256.0,
+        0.0,
+        784.0,
+        177.0
+      ],
+      "mask": "image_2.masks/ceiling_0.png",
+      "crop": null,
+      "description": "A blurred view of a ceiling featuring horizontal wooden slats in a light brown tone, with two long, rectangular recessed light fixtures emitting a soft white glow. The perspective is from below, looking up along the length of the ceiling, with the edges of the ceiling and adjacent walls slightly visible but out of focus.",
+      "attributes": {
+        "material": "wooden slats",
+        "color": "light brown",
+        "lighting": "two long rectangular recessed lights, white glow",
+        "perspective": "upward view, elongated",
+        "focus": "blurred",
+        "structure": "horizontal slats, recessed lighting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        980.0,
+        572.0,
+        1024.0,
+        844.0
+      ],
+      "mask": "image_2.masks/chair_0.png",
+      "crop": null,
+      "description": "A dark gray office chair with a high backrest and armrests is shown in a blurry, side-profile view. The chair features a five-star base with casters and is positioned on a light-colored floor.",
+      "attributes": {
+        "type": "office chair",
+        "color": "dark gray",
+        "material": "mesh or fabric",
+        "features": [
+          "high backrest",
+          "armrests",
+          "five-star base",
+          "casters"
+        ],
+        "orientation": "side profile",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        -0.625,
+        584.0,
+        64.5,
+        856.0
+      ],
+      "mask": "image_2.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a black office chair featuring a curved backrest and a visible metal support arm. The chair is positioned in front of a light-colored wooden desk surface, with a grey metal base and casters partially visible at the bottom.",
+      "attributes": {
+        "object_type": "office chair",
+        "color": "black",
+        "material": "plastic or mesh back, metal frame",
+        "features": [
+          "curved backrest",
+          "metal support arm",
+          "casters"
+        ],
+        "context": "positioned near a desk",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 2,
+      "score": 0.5859375,
+      "box": [
+        924.0,
+        592.0,
+        1020.0,
+        784.0
+      ],
+      "mask": "image_2.masks/chair_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a dark gray or black office chair featuring a mesh backrest and a metal frame, positioned behind a vertical gray pole in the foreground.",
+      "attributes": {
+        "type": "office chair",
+        "material": "mesh back, metal frame",
+        "color": "dark gray/black",
+        "focus": "blurry",
+        "visible_parts": [
+          "backrest",
+          "frame"
+        ],
+        "obstruction": "vertical pole in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        896.0,
+        596.0,
+        1024.0,
+        804.0
+      ],
+      "mask": "image_2.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a desk with a light-colored wooden surface and a dark gray metal frame. The image is heavily blurred, showing only the edge of the desk and part of its support structure.",
+      "attributes": {
+        "material": {
+          "surface": "wood",
+          "frame": "metal"
+        },
+        "color": {
+          "surface": "light brown",
+          "frame": "dark gray"
+        },
+        "focus": "blurred",
+        "visible_parts": [
+          "edge of surface",
+          "vertical support leg"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.75390625,
+      "box": [
+        1.0,
+        604.0,
+        157.0,
+        860.0
+      ],
+      "mask": "image_2.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light wood-grain desk surface positioned behind a black office chair with a mesh back and metal frame. A dark vertical structural element, likely a window frame or partition, obstructs the center of the view, while the background shows a blurred office environment with white cabinetry.",
+      "attributes": {
+        "desk": {
+          "material": "light wood",
+          "color": "beige",
+          "visibility": "partial, top edge only"
+        },
+        "chair": {
+          "back": "black mesh",
+          "frame": "black metal",
+          "base": "metal with casters",
+          "position": "left side, facing away"
+        },
+        "foreground": {
+          "object": "vertical black bar",
+          "type": "window frame or partition"
+        },
+        "background": {
+          "furniture": "white cabinets",
+          "floor": "light colored",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.6171875,
+      "box": [
+        -3.0,
+        604.0,
+        156.0,
+        644.0
+      ],
+      "mask": "image_2.masks/desk_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a desk with a light-colored wooden surface and dark, vertical metal legs or supports. The image is heavily blurred, making specific details indistinct.",
+      "attributes": {
+        "material": {
+          "surface": "wood",
+          "legs": "metal"
+        },
+        "color": {
+          "surface": "light brown",
+          "legs": "dark gray or black"
+        },
+        "focus": "blurred",
+        "visible_parts": [
+          "surface",
+          "legs"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        490.0,
+        354.0,
+        800.0,
+        752.0
+      ],
+      "mask": "image_2.masks/fabric_0.png",
+      "crop": null,
+      "description": "A man is wearing a dark navy blue suit jacket with a single button closure, paired with a white dress shirt and a grey patterned tie. He is holding a black folder or notebook in his left hand, and the background is blurred, suggesting an indoor setting with natural light.",
+      "attributes": {
+        "clothing": {
+          "jacket": "dark navy blue, single button, suit jacket",
+          "shirt": "white, dress shirt",
+          "tie": "grey, patterned",
+          "pants": "light grey, dress pants"
+        },
+        "accessories": {
+          "folder": "black, held in left hand"
+        },
+        "pose": "standing, facing slightly to the right",
+        "background": "blurred, indoor setting with natural light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 1,
+      "score": 0.578125,
+      "box": [
+        222.0,
+        418.0,
+        474.0,
+        752.0
+      ],
+      "mask": "image_2.masks/fabric_1.png",
+      "crop": null,
+      "description": "A woman wearing a black blazer over a white collared shirt, holding a black smartphone in her left hand. The blazer has a notched lapel and a single visible button, and the shirt is buttoned up to the collar.",
+      "attributes": {
+        "clothing": {
+          "blazer": "black",
+          "shirt": "white",
+          "pants": "black"
+        },
+        "accessories": {
+          "phone": "black"
+        },
+        "pose": "standing",
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "unknown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 2,
+      "score": 0.640625,
+      "box": [
+        328.0,
+        422.0,
+        392.0,
+        644.0
+      ],
+      "mask": "image_2.masks/fabric_2.png",
+      "crop": null,
+      "description": "A close-up crop showing the torso of a person wearing a crisp white button-down shirt with an open collar, layered under a black blazer. A hand is visible in the lower right corner holding a black smartphone.",
+      "attributes": {
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "button-down",
+            "collar": "open",
+            "material": "cotton"
+          },
+          "jacket": {
+            "color": "black",
+            "type": "blazer"
+          }
+        },
+        "accessories": {
+          "phone": {
+            "color": "black",
+            "held": true
+          }
+        },
+        "body_parts": {
+          "hand": "visible",
+          "neck": "visible"
+        },
+        "pose": "holding phone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 3,
+      "score": 0.6640625,
+      "box": [
+        540.0,
+        672.0,
+        724.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/fabric_3.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower torso and legs wearing light grey dress pants with a smooth, matte finish and a tailored fit, paired with a dark navy or black blazer and a black belt with a silver buckle. The person is holding a black folder or briefcase in their right hand, standing in a neutral pose.",
+      "attributes": {
+        "clothing": {
+          "pants": {
+            "color": "light grey",
+            "style": "dress pants",
+            "fit": "tailored",
+            "material": "smooth fabric"
+          },
+          "jacket": {
+            "color": "dark navy or black",
+            "type": "blazer"
+          },
+          "accessories": {
+            "belt": {
+              "color": "black",
+              "buckle": "silver"
+            },
+            "held_item": {
+              "color": "black",
+              "type": "folder or briefcase"
+            }
+          }
+        },
+        "pose": "standing",
+        "body_part": "lower torso and legs"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 4,
+      "score": 0.61328125,
+      "box": [
+        612.0,
+        386.0,
+        644.0,
+        544.0
+      ],
+      "mask": "image_2.masks/fabric_4.png",
+      "crop": null,
+      "description": "A close-up of a person wearing a dark gray necktie with a subtle diagonal stripe pattern, tied in a standard knot over a white collared shirt. The tie is made of a smooth, possibly silk or synthetic material, and the knot is neatly formed.",
+      "attributes": {
+        "clothing": {
+          "tie": {
+            "color": "dark gray",
+            "pattern": "diagonal stripes",
+            "material": "smooth, possibly silk or synthetic",
+            "knot": "standard"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "visible"
+          }
+        },
+        "pose": "frontal, upper torso only"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "fabric",
+      "index": 5,
+      "score": 0.63671875,
+      "box": [
+        268.0,
+        652.0,
+        452.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/fabric_5.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower torso and legs wearing tailored black trousers and a matching black blazer. The fabric appears smooth and matte, likely a wool or synthetic blend, with visible creases and folds around the hip and thigh areas indicating a standing pose.",
+      "attributes": {
+        "clothing": {
+          "pants": {
+            "color": "black",
+            "style": "slim fit",
+            "material": "smooth matte fabric"
+          },
+          "jacket": {
+            "color": "black",
+            "type": "blazer"
+          }
+        },
+        "pose": "standing",
+        "body_part": "legs and hips"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        840.0,
+        214.0,
+        880.0,
+        816.0
+      ],
+      "mask": "image_2.masks/glass_0.png",
+      "crop": null,
+      "description": "A tall, rectangular glass pane with a dark frame, likely part of a door or window, is shown in a vertical orientation. The glass is transparent, revealing a blurred background with a green plant and a light-colored surface, possibly a table or counter.",
+      "attributes": {
+        "shape": "rectangular",
+        "material": "glass",
+        "frame": "dark",
+        "transparency": "transparent",
+        "background": "blurred",
+        "background_elements": [
+          "green plant",
+          "light-colored surface"
+        ],
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.90234375,
+      "box": [
+        -2.25,
+        -2.0,
+        69.0,
+        992.0
+      ],
+      "mask": "image_2.masks/glass_1.png",
+      "crop": null,
+      "description": "A vertical glass panel with a metallic frame, reflecting light and showing a blurred office environment in the background, including a chair and a desk.",
+      "attributes": {
+        "material": "glass",
+        "frame": "metallic",
+        "reflection": "light",
+        "background": "office environment",
+        "visible_objects": [
+          "chair",
+          "desk"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.859375,
+      "box": [
+        980.0,
+        -6.0,
+        1024.0,
+        936.0
+      ],
+      "mask": "image_2.masks/glass_2.png",
+      "crop": null,
+      "description": "A vertical section of a glass partition or window with a dark frame, reflecting light and showing a blurred office environment in the background, including a chair and a desk.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark",
+        "reflection": "visible",
+        "background": "office",
+        "objects_in_background": [
+          "chair",
+          "desk"
+        ],
+        "lighting": "bright",
+        "clarity": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.87890625,
+      "box": [
+        892.0,
+        -2.0,
+        956.0,
+        880.0
+      ],
+      "mask": "image_2.masks/glass_3.png",
+      "crop": null,
+      "description": "A tall, vertical glass panel with a dark frame, featuring four horizontal frosted stripes near the top. The glass is transparent, revealing a blurred office interior with a desk, chair, and computer monitor in the background.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark",
+        "stripes": {
+          "count": 4,
+          "type": "frosted",
+          "position": "top"
+        },
+        "transparency": "transparent",
+        "background": "office interior",
+        "visible_objects": [
+          "desk",
+          "chair",
+          "monitor"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.890625,
+      "box": [
+        100.0,
+        -4.0,
+        166.0,
+        884.0
+      ],
+      "mask": "image_2.masks/glass_4.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass pane with a dark frame, likely part of a window or door, showing a blurred interior view of an office space with desks, chairs, and ceiling lights. The glass is transparent but reflects some light, and the background is out of focus, emphasizing the glass's clarity and the frame's structure.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark-colored, possibly metal or wood",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "transparency": "high",
+        "reflection": "visible",
+        "background": "blurred office interior",
+        "function": "window or door panel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.88671875,
+      "box": [
+        182.0,
+        70.0,
+        226.0,
+        808.0
+      ],
+      "mask": "image_2.masks/glass_5.png",
+      "crop": null,
+      "description": "A vertical, rectangular glass pane with a dark frame, likely part of a door or window, is visible. The glass is transparent, allowing a blurred view of an indoor space with light-colored walls and possibly furniture in the background.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame": "dark",
+        "material": "glass",
+        "transparency": "transparent",
+        "background": "blurred indoor space",
+        "function": "likely part of a door or window"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 6,
+      "score": 0.828125,
+      "box": [
+        848.0,
+        36.5,
+        880.0,
+        188.0
+      ],
+      "mask": "image_2.masks/glass_6.png",
+      "crop": null,
+      "description": "A vertical, rectangular pane of glass with a dark frame, appearing slightly blurred and reflecting light. The glass is transparent, allowing a faint view of the background, which includes a hint of a brownish surface at the bottom.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "frame": "dark",
+        "transparency": "transparent",
+        "reflection": "light",
+        "background_visibility": "faint",
+        "bottom_surface": "brownish"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 7,
+      "score": 0.8203125,
+      "box": [
+        232.0,
+        138.0,
+        264.0,
+        520.0
+      ],
+      "mask": "image_2.masks/glass_7.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a vertical structure that appears to be a window or glass panel with a light source behind it, and a dark, indistinct shape in the lower right corner.",
+      "attributes": {
+        "object": "glass or window",
+        "focus": "blurry",
+        "lighting": "bright light source behind",
+        "color": "white, gray, black",
+        "shape": "vertical rectangle",
+        "position": "centered",
+        "details": "indistinct dark shape in lower right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 8,
+      "score": 0.6875,
+      "box": [
+        424.0,
+        286.0,
+        688.0,
+        616.0
+      ],
+      "mask": "image_2.masks/glass_8.png",
+      "crop": null,
+      "description": "A young Asian man with short black hair is shown from the chest up, wearing a dark navy blue suit jacket over a white collared shirt and a grey patterned tie. He is looking off to the side with a neutral expression, and the shoulder of another person in a black suit is partially visible on the left.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Asian",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "suit": {
+            "color": "navy blue",
+            "type": "jacket"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          },
+          "tie": {
+            "color": "grey",
+            "pattern": "textured"
+          }
+        },
+        "pose": "standing, looking to the side",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 9,
+      "score": 0.796875,
+      "box": [
+        724.0,
+        176.0,
+        748.0,
+        388.0
+      ],
+      "mask": "image_2.masks/glass_9.png",
+      "crop": null,
+      "description": "A vertical, cylindrical glass with a smooth, translucent surface, appearing to be made of clear or frosted glass. The glass is partially visible, showing only a portion of its side and bottom edge.",
+      "attributes": {
+        "material": "glass",
+        "shape": "cylindrical",
+        "color": "translucent",
+        "surface": "smooth",
+        "visibility": "partial"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 10,
+      "score": 0.8671875,
+      "box": [
+        784.0,
+        100.0,
+        824.0,
+        780.0
+      ],
+      "mask": "image_2.masks/glass_10.png",
+      "crop": null,
+      "description": "A close-up of a person's arm wearing a dark blue suit jacket with a white shirt cuff visible at the wrist, set against a blurred background of a window and greenery.",
+      "attributes": {
+        "clothing": {
+          "jacket": "dark blue suit",
+          "shirt": "white cuff visible"
+        },
+        "pose": "arm extended or resting",
+        "background": "blurred window and greenery"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 11,
+      "score": 0.8125,
+      "box": [
+        752.0,
+        139.0,
+        784.0,
+        464.0
+      ],
+      "mask": "image_2.masks/glass_11.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image showing a vertical structure that appears to be a window or glass pane with a light source behind it, and a dark blue object in the foreground, possibly part of a person's clothing.",
+      "attributes": {
+        "object": "window/glass pane",
+        "color": "light blue/white",
+        "material": "glass",
+        "foreground_object": "dark blue fabric",
+        "focus": "blurry/out-of-focus",
+        "lighting": "bright light source behind the glass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        900.0,
+        82.5,
+        956.0,
+        96.5
+      ],
+      "mask": "image_2.masks/light_fixture_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 1,
+      "score": 0.609375,
+      "box": [
+        -3.125,
+        138.0,
+        67.0,
+        152.0
+      ],
+      "mask": "image_2.masks/light_fixture_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 2,
+      "score": 0.56640625,
+      "box": [
+        900.0,
+        81.5,
+        1024.0,
+        97.5
+      ],
+      "mask": "image_2.masks/light_fixture_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 3,
+      "score": 0.578125,
+      "box": [
+        848.0,
+        262.0,
+        880.0,
+        278.0
+      ],
+      "mask": "image_2.masks/light_fixture_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 4,
+      "score": 0.5859375,
+      "box": [
+        900.0,
+        256.0,
+        956.0,
+        272.0
+      ],
+      "mask": "image_2.masks/light_fixture_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 5,
+      "score": 0.609375,
+      "box": [
+        896.0,
+        137.0,
+        960.0,
+        153.0
+      ],
+      "mask": "image_2.masks/light_fixture_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 6,
+      "score": 0.62890625,
+      "box": [
+        -1.5,
+        209.0,
+        66.5,
+        225.0
+      ],
+      "mask": "image_2.masks/light_fixture_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 7,
+      "score": 0.77734375,
+      "box": [
+        360.0,
+        148.0,
+        652.0,
+        164.0
+      ],
+      "mask": "image_2.masks/light_fixture_7.png",
+      "crop": null,
+      "description": "A long, horizontal light fixture with a soft, diffused glow, emitting a warm white light. The fixture appears to be a linear LED strip or tube light, mounted on a surface with a brownish background.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "horizontal",
+        "light_color": "warm white",
+        "glow": "diffused",
+        "background_color": "brown",
+        "type": "linear light fixture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 8,
+      "score": 0.64453125,
+      "box": [
+        -3.0,
+        82.0,
+        137.0,
+        95.0
+      ],
+      "mask": "image_2.masks/light_fixture_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 9,
+      "score": 0.55078125,
+      "box": [
+        980.0,
+        212.0,
+        1024.0,
+        228.0
+      ],
+      "mask": "image_2.masks/light_fixture_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 10,
+      "score": 0.64453125,
+      "box": [
+        484.0,
+        226.0,
+        508.0,
+        242.0
+      ],
+      "mask": "image_2.masks/light_fixture_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 11,
+      "score": 0.609375,
+      "box": [
+        99.0,
+        137.0,
+        161.0,
+        153.0
+      ],
+      "mask": "image_2.masks/light_fixture_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 12,
+      "score": 0.51171875,
+      "box": [
+        102.0,
+        256.0,
+        164.0,
+        272.0
+      ],
+      "mask": "image_2.masks/light_fixture_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 13,
+      "score": 0.69921875,
+      "box": [
+        488.0,
+        125.0,
+        528.0,
+        141.0
+      ],
+      "mask": "image_2.masks/light_fixture_13.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 14,
+      "score": 0.51171875,
+      "box": [
+        988.0,
+        83.0,
+        1032.0,
+        96.0
+      ],
+      "mask": "image_2.masks/light_fixture_14.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 15,
+      "score": 0.58984375,
+      "box": [
+        -1.5,
+        137.0,
+        162.0,
+        153.0
+      ],
+      "mask": "image_2.masks/light_fixture_15.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 16,
+      "score": 0.59375,
+      "box": [
+        101.0,
+        209.0,
+        165.0,
+        225.0
+      ],
+      "mask": "image_2.masks/light_fixture_16.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 17,
+      "score": 0.578125,
+      "box": [
+        980.0,
+        138.0,
+        1024.0,
+        152.0
+      ],
+      "mask": "image_2.masks/light_fixture_17.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light_fixture",
+      "index": 18,
+      "score": 0.78515625,
+      "box": [
+        338.0,
+        80.5,
+        688.0,
+        96.5
+      ],
+      "mask": "image_2.masks/light_fixture_18.png",
+      "crop": null,
+      "description": "A long, horizontal, rectangular light fixture emitting a bright, diffused white light, set against a dark brown background. The light appears to be a linear LED strip or tube with rounded ends, creating a soft glow that fades into the surrounding darkness.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "horizontal",
+        "color": "white",
+        "brightness": "high",
+        "edges": "rounded",
+        "background": "dark brown",
+        "type": "linear light fixture"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light_fixture",
+      "index": 19,
+      "score": 0.52734375,
+      "box": [
+        896.0,
+        212.0,
+        960.0,
+        228.0
+      ],
+      "mask": "image_2.masks/light_fixture_19.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        816.0,
+        72.0,
+        840.0,
+        800.0
+      ],
+      "mask": "image_2.masks/metal_0.png",
+      "crop": null,
+      "description": "A vertical section of a dark-colored metal frame, likely part of a door or window, with a smooth, matte finish. The frame is positioned against a lighter background, possibly a wall or another structural element.",
+      "attributes": {
+        "color": "dark",
+        "material": "metal",
+        "finish": "matte",
+        "shape": "vertical frame",
+        "position": "against a lighter background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        824.0,
+        171.0,
+        880.0,
+        227.0
+      ],
+      "mask": "image_2.masks/metal_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 2,
+      "score": 0.53125,
+      "box": [
+        280.0,
+        188.0,
+        296.0,
+        376.0
+      ],
+      "mask": "image_2.masks/metal_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 3,
+      "score": 0.5859375,
+      "box": [
+        780.0,
+        122.0,
+        796.0,
+        544.0
+      ],
+      "mask": "image_2.masks/metal_3.png",
+      "crop": null,
+      "description": "A vertical, cylindrical metal pole with a smooth, dark gray surface, possibly made of steel or aluminum, stands upright against a blurred background. The pole appears to be part of a larger structure, such as a fence or railing, and is positioned in the foreground of the image.",
+      "attributes": {
+        "material": "metal",
+        "color": "dark gray",
+        "shape": "cylindrical",
+        "position": "vertical",
+        "surface": "smooth",
+        "context": "part of a structure (e.g., fence or railing)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 4,
+      "score": 0.515625,
+      "box": [
+        130.0,
+        -1.5,
+        294.0,
+        192.0
+      ],
+      "mask": "image_2.masks/metal_4.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a metal railing or handrail with vertical bars, appearing gray or silver in color. The metal surface is smooth and reflective, with a blurred background suggesting an indoor setting with warm lighting.",
+      "attributes": {
+        "material": "metal",
+        "color": "gray/silver",
+        "structure": "vertical bars with a horizontal top rail",
+        "focus": "out-of-focus",
+        "setting": "indoor",
+        "lighting": "warm, blurred background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 5,
+      "score": 0.5703125,
+      "box": [
+        748.0,
+        168.0,
+        756.0,
+        392.0
+      ],
+      "mask": "image_2.masks/metal_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 6,
+      "score": 0.69921875,
+      "box": [
+        956.0,
+        -8.0,
+        988.0,
+        904.0
+      ],
+      "mask": "image_2.masks/metal_6.png",
+      "crop": null,
+      "description": "A vertical, dark gray metal frame with a smooth, matte finish, likely part of a window or door structure. The frame is positioned centrally in the image, with a blurred background showing hints of light and possibly an interior space.",
+      "attributes": {
+        "color": "dark gray",
+        "material": "metal",
+        "finish": "matte",
+        "shape": "rectangular",
+        "position": "central",
+        "context": "window or door frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 7,
+      "score": 0.5234375,
+      "box": [
+        258.0,
+        158.0,
+        270.0,
+        438.0
+      ],
+      "mask": "image_2.masks/metal_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 8,
+      "score": 0.6875,
+      "box": [
+        161.0,
+        32.0,
+        185.0,
+        828.0
+      ],
+      "mask": "image_2.masks/metal_8.png",
+      "crop": null,
+      "description": "A vertical, dark gray metal frame or bar with a smooth, matte finish, positioned against a blurred background of light and shadow. The metal appears to be part of a larger structure, possibly a window or door frame, with a slight reflection on its surface.",
+      "attributes": {
+        "color": "dark gray",
+        "material": "metal",
+        "finish": "matte",
+        "shape": "vertical bar",
+        "position": "centered",
+        "background": "blurred light and shadow",
+        "reflection": "slight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 9,
+      "score": 0.55859375,
+      "box": [
+        716.0,
+        186.0,
+        732.0,
+        382.0
+      ],
+      "mask": "image_2.masks/metal_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "metal",
+      "index": 10,
+      "score": 0.64453125,
+      "box": [
+        64.0,
+        -12.0,
+        101.0,
+        924.0
+      ],
+      "mask": "image_2.masks/metal_10.png",
+      "crop": null,
+      "description": "A vertical, dark gray metal bar or frame with a smooth, matte finish, positioned centrally in the image. The background is blurred, showing indistinct light and dark areas, suggesting an indoor setting with possible reflections or light sources.",
+      "attributes": {
+        "color": "dark gray",
+        "material": "metal",
+        "finish": "matte",
+        "shape": "vertical bar",
+        "position": "central",
+        "background": "blurred, indoor setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 11,
+      "score": 0.625,
+      "box": [
+        220.0,
+        113.0,
+        236.0,
+        568.0
+      ],
+      "mask": "image_2.masks/metal_11.png",
+      "crop": null,
+      "description": "A vertical, rectangular metal bar or frame with a smooth, reflective surface, appearing in shades of gray and silver. The object is slightly blurred, suggesting it is part of a larger structure, possibly a window frame or architectural element.",
+      "attributes": {
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "material": "metal",
+        "color": "gray/silver",
+        "surface": "smooth, reflective",
+        "context": "architectural element, possibly a window frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "metal",
+      "index": 12,
+      "score": 0.6953125,
+      "box": [
+        872.0,
+        4.0,
+        896.0,
+        832.0
+      ],
+      "mask": "image_2.masks/metal_12.png",
+      "crop": null,
+      "description": "A vertical, dark gray metal bar or frame, likely part of a window or door structure, with a smooth, matte finish. The background is blurred, showing indistinct light and dark areas, suggesting an indoor or outdoor setting with natural light.",
+      "attributes": {
+        "color": "dark gray",
+        "material": "metal",
+        "finish": "matte",
+        "shape": "vertical bar",
+        "context": "window or door frame",
+        "background": "blurred, light and dark areas"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        490.0,
+        218.0,
+        800.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian man with short, wavy dark hair is walking forward while looking to his left, wearing a navy blue blazer over a white collared shirt and a patterned grey tie. He is dressed in light grey trousers with a black belt and is holding a black folder or tablet under his left arm.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "dark brown",
+          "style": "short, wavy, textured"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "blazer",
+            "color": "navy blue",
+            "details": "notched lapels, two buttons, chest pocket"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "collared dress shirt"
+          },
+          "tie": {
+            "color": "grey",
+            "pattern": "textured or micro-pattern"
+          },
+          "pants": {
+            "color": "light grey",
+            "type": "trousers"
+          },
+          "accessories": {
+            "belt": "black with silver buckle",
+            "held_item": "black folder or tablet"
+          }
+        },
+        "pose": "walking, looking to the side",
+        "expression": "neutral, focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        222.0,
+        286.0,
+        474.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark hair is walking forward while looking to her left, wearing a professional black suit jacket and matching trousers over a white button-down shirt. She holds a black smartphone in her left hand, and the background is a blurred, bright indoor space with large windows.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "age_range": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "type": "blazer"
+          },
+          "shirt": {
+            "color": "white",
+            "type": "button-down"
+          },
+          "pants": {
+            "color": "black",
+            "type": "trousers"
+          }
+        },
+        "accessories": {
+          "phone": "black smartphone"
+        },
+        "pose": "walking",
+        "gaze": "looking to the side",
+        "expression": "neutral"
+      },
+      "parse_ok": true
+    }
+  ]
+}

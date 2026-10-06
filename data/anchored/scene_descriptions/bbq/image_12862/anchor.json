@@ -1,0 +1,106 @@
+{
+  "scene": {
+    "background": "bright, sterile white dental office with medical equipment",
+    "lighting": "even and bright, with soft shadows, indicating professional studio lighting",
+    "camera_angle": "high-resolution reflex camera in a modern studio setting",
+    "style": "professional, crisp, high-definition quality with minimal grain",
+    "mood": "professional, calm, and reassuring",
+    "color_palette": "predominantly cool and clinical — whites, light blues, and grays — with subtle pops of color from small items like a yellow tool or orange object on the counter"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "role": "dentist",
+        "gender": "male",
+        "clothing": {
+          "shirt": "light blue collared shirt",
+          "coat": "crisp white lab coat",
+          "mask": "light blue surgical mask (hanging loosely around his neck)"
+        },
+        "pose": "leaning slightly forward, looking attentively at the patient",
+        "expression": "calm, professional demeanor",
+        "face": "blurred for privacy"
+      },
+      "id": "person_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "role": "patient",
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": "graying hair",
+        "clothing": {
+          "shirt": "light gray button-up shirt"
+        },
+        "pose": "seated on a dental chair, looking toward the dentist",
+        "face": "blurred"
+      },
+      "id": "person_2",
+      "count": 1
+    },
+    {
+      "type": "dental chair",
+      "attributes": {
+        "position": "on the right",
+        "occupant": "patient"
+      },
+      "id": "dental_chair_1",
+      "count": 1
+    },
+    {
+      "type": "dental light fixture",
+      "attributes": {
+        "position": "suspended above the patient’s head"
+      },
+      "id": "dental_light_fixture_1",
+      "count": 1
+    },
+    {
+      "type": "sink",
+      "attributes": {
+        "color": "white"
+      },
+      "id": "sink_1",
+      "count": 1
+    },
+    {
+      "type": "dental unit",
+      "attributes": {
+        "color": "white and gray",
+        "description": "possibly a dental handpiece or sterilizer"
+      },
+      "id": "dental_unit_1",
+      "count": 1
+    },
+    {
+      "type": "cabinet",
+      "attributes": {
+        "color": "white",
+        "features": "drawers"
+      },
+      "id": "cabinet_1",
+      "count": 1
+    },
+    {
+      "type": "tool",
+      "attributes": {
+        "color": "yellow"
+      },
+      "id": "tool_1",
+      "count": 1
+    },
+    {
+      "type": "object",
+      "attributes": {
+        "color": "orange"
+      },
+      "id": "object_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

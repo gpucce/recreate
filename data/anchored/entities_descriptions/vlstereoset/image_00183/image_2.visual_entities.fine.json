@@ -1,0 +1,382 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "beach",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        2.0,
+        616.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/beach_0.png",
+      "crop": null,
+      "description": "A sandy beach with light beige sand scattered with small rocks and pebbles, leading to turquoise water with gentle waves lapping at the shore. Two white sailboats are anchored in the clear water near the beach, with a rocky outcrop visible in the background.",
+      "attributes": {
+        "sand": {
+          "color": "light beige",
+          "texture": "smooth with scattered rocks and pebbles"
+        },
+        "water": {
+          "color": "turquoise",
+          "clarity": "clear",
+          "waves": "gentle"
+        },
+        "boats": {
+          "type": "sailboats",
+          "color": "white",
+          "quantity": 2
+        },
+        "background": {
+          "feature": "rocky outcrop",
+          "color": "dark gray"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        704.0,
+        464.0,
+        1032.0,
+        584.0
+      ],
+      "mask": "image_2.masks/cloud_0.png",
+      "crop": null,
+      "description": "A fluffy, white cumulus cloud with a rounded, billowy top and a flatter base floats against a clear, light blue sky. The cloud has soft, cotton-like edges and appears to be illuminated by sunlight from above, creating subtle shadows within its structure.",
+      "attributes": {
+        "color": "white",
+        "shape": "cumulus",
+        "texture": "fluffy, cotton-like",
+        "sky": "light blue, clear",
+        "lighting": "sunlit from above",
+        "position": "center-right of the frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 1,
+      "score": 0.7734375,
+      "box": [
+        640.0,
+        532.0,
+        664.0,
+        548.0
+      ],
+      "mask": "image_2.masks/cloud_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "cloud",
+      "index": 2,
+      "score": 0.8203125,
+      "box": [
+        1.5,
+        83.0,
+        168.0,
+        201.0
+      ],
+      "mask": "image_2.masks/cloud_2.png",
+      "crop": null,
+      "description": "The image shows a bright blue sky with scattered, wispy white clouds. The clouds appear soft and diffuse, blending into the blue background. In the foreground, there are green leaves from a tree, partially obscuring the view of the sky.",
+      "attributes": {
+        "color": "blue and white",
+        "texture": "soft and wispy",
+        "position": "background",
+        "obstruction": "green leaves in the foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 3,
+      "score": 0.87890625,
+      "box": [
+        89.0,
+        165.0,
+        380.0,
+        336.0
+      ],
+      "mask": "image_2.masks/cloud_3.png",
+      "crop": null,
+      "description": "A large, fluffy white cloud dominates the center of the image, set against a bright blue sky. The cloud has soft, billowy edges and appears to be a cumulus type, with varying shades of white and light gray indicating its volume and density.",
+      "attributes": {
+        "color": "white",
+        "shape": "billowy, irregular",
+        "type": "cumulus",
+        "position": "center",
+        "sky_color": "blue",
+        "lighting": "bright, natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 4,
+      "score": 0.7265625,
+      "box": [
+        836.0,
+        348.0,
+        916.0,
+        404.0
+      ],
+      "mask": "image_2.masks/cloud_4.png",
+      "crop": null,
+      "description": "A patch of bright blue sky with soft, wispy white clouds visible through gaps between green leaves in the foreground.",
+      "attributes": {
+        "color": "blue",
+        "texture": "soft",
+        "shape": "wispy",
+        "position": "background",
+        "obscured_by": "green leaves"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cloud",
+      "index": 5,
+      "score": 0.62890625,
+      "box": [
+        836.0,
+        468.0,
+        972.0,
+        564.0
+      ],
+      "mask": "image_2.masks/cloud_5.png",
+      "crop": null,
+      "description": "A large, fluffy cumulus cloud dominates the center of the frame against a clear blue sky. The cloud has a bright white color with soft, billowy edges and subtle gray shading in its lower sections, indicating volume and depth.",
+      "attributes": {
+        "type": "cumulus",
+        "color": "white",
+        "shape": "billowy, rounded",
+        "position": "center",
+        "background": "blue sky",
+        "texture": "soft, fluffy",
+        "lighting": "bright, natural daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foam",
+      "index": 0,
+      "score": 0.75,
+      "box": [
+        190.0,
+        632.0,
+        1024.0,
+        840.0
+      ],
+      "mask": "image_2.masks/foam_0.png",
+      "crop": null,
+      "description": "The foam is white and frothy, forming a thin, irregular line along the edge of the turquoise water where it meets the sandy beach. It appears to be in motion, with small waves breaking and creating a textured, bubbly surface.",
+      "attributes": {
+        "color": "white",
+        "texture": "frothy, bubbly",
+        "position": "along the shoreline",
+        "state": "in motion, breaking waves",
+        "water_color": "turquoise",
+        "beach": "sandy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        24.0,
+        338.0,
+        652.0,
+        624.0
+      ],
+      "mask": "image_2.masks/hillside_0.png",
+      "crop": null,
+      "description": "A lush, green hillside rises steeply from a sandy beach, featuring large, smooth, gray-brown boulders scattered across its slope. Several buildings with red and white roofs are nestled among the dense vegetation, including palm trees and other tropical foliage, with a clear blue sky above.",
+      "attributes": {
+        "vegetation": {
+          "type": "tropical",
+          "density": "dense",
+          "trees": [
+            "palm trees",
+            "other tropical foliage"
+          ]
+        },
+        "boulders": {
+          "color": "gray-brown",
+          "texture": "smooth",
+          "size": "large",
+          "distribution": "scattered"
+        },
+        "buildings": {
+          "roof_colors": [
+            "red",
+            "white"
+          ],
+          "structure": "nestled among vegetation"
+        },
+        "sky": {
+          "color": "blue",
+          "condition": "clear"
+        },
+        "beach": {
+          "sand_color": "light",
+          "adjacent_to": "hillside"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hut",
+      "index": 0,
+      "score": 0.79296875,
+      "box": [
+        20.75,
+        584.0,
+        85.0,
+        616.0
+      ],
+      "mask": "image_2.masks/hut_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hut",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        93.0,
+        568.0,
+        177.0,
+        616.0
+      ],
+      "mask": "image_2.masks/hut_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "ocean",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        192.0,
+        612.0,
+        1024.0,
+        836.0
+      ],
+      "mask": "image_2.masks/ocean_0.png",
+      "crop": null,
+      "description": "The ocean features clear, turquoise water with gentle waves breaking onto a sandy beach. Two white boats are anchored near the shore, with one having a person visible on board.",
+      "attributes": {
+        "water_color": "turquoise",
+        "wave_action": "gentle",
+        "beach_type": "sandy",
+        "boats": {
+          "count": 2,
+          "color": "white",
+          "type": "sailboat",
+          "position": "anchored near shore"
+        },
+        "person_on_board": {
+          "visible": true,
+          "boat": "right"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sailboat",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        592.0,
+        412.0,
+        752.0,
+        652.0
+      ],
+      "mask": "image_2.masks/sailboat_0.png",
+      "crop": null,
+      "description": "A white catamaran sailboat with a tall mast and rigging is floating on turquoise water, with a person wearing a life jacket visible in the cockpit. The boat has a sleek, modern design with a blue sail cover and is positioned near a rocky shoreline with green vegetation.",
+      "attributes": {
+        "type": "catamaran",
+        "color": "white",
+        "mast": "tall, metallic",
+        "rigging": "visible, white lines",
+        "sail_cover": "blue",
+        "cockpit": "occupied by a person in a life jacket",
+        "water": "turquoise",
+        "background": "rocky shoreline with green vegetation",
+        "sky": "clear blue with a few clouds"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sailboat",
+      "index": 1,
+      "score": 0.9375,
+      "box": [
+        424.0,
+        486.0,
+        540.0,
+        640.0
+      ],
+      "mask": "image_2.masks/sailboat_1.png",
+      "crop": null,
+      "description": "A white catamaran with a tall, bare mast and a white bimini top over the cockpit is anchored in clear turquoise water. The boat is positioned in the foreground against a backdrop of a steep, green hillside with large, smooth brown rocks and a few buildings visible in the distance.",
+      "attributes": {
+        "type": "catamaran",
+        "hull_color": "white",
+        "mast": {
+          "color": "white",
+          "sails": "not deployed"
+        },
+        "cockpit": {
+          "cover": "white bimini top"
+        },
+        "water": {
+          "color": "turquoise",
+          "clarity": "clear"
+        },
+        "background": {
+          "terrain": "steep green hillside",
+          "rocks": "large, smooth, brown",
+          "structures": "buildings visible on the hill"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        2.0,
+        20.0,
+        1024.0,
+        612.0
+      ],
+      "mask": "image_2.masks/sky_0.png",
+      "crop": null,
+      "description": "A bright blue sky with scattered white clouds, partially framed by green leaves in the foreground.",
+      "attributes": {
+        "color": "blue",
+        "clouds": "white, scattered",
+        "framing": "green leaves in foreground"
+      },
+      "parse_ok": true
+    }
+  ]
+}

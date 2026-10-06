@@ -1,0 +1,198 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        656.0,
+        480.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/ground_0.png",
+      "crop": null,
+      "description": "The ground is a dirt road with a rough, uneven surface, composed of small pebbles and soil. It appears dry and dusty, with a light brown color, and there are some patches of green vegetation on the sides.",
+      "attributes": {
+        "surface": "rough, uneven",
+        "composition": "small pebbles, soil",
+        "color": "light brown",
+        "condition": "dry, dusty",
+        "vegetation": "patches of green on the sides"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "headscarf",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        290.0,
+        87.5,
+        576.0,
+        292.0
+      ],
+      "mask": "image_2.masks/headscarf_0.png",
+      "crop": null,
+      "description": "A close-up crop of a person's head wearing a patterned headscarf wrapped tightly around the forehead and crown, featuring a beige base with red, green, and blue geometric and abstract motifs, and fringed edges visible on the left side.",
+      "attributes": {
+        "headwear": {
+          "type": "headscarf",
+          "pattern": "geometric and abstract",
+          "colors": [
+            "beige",
+            "red",
+            "green",
+            "blue"
+          ],
+          "material": "fabric",
+          "details": "fringed edges on left side, wrapped style"
+        },
+        "visible_body_part": "forehead and upper face",
+        "skin_tone": "dark brown",
+        "expression": "neutral, direct gaze",
+        "pose": "frontal, head slightly tilted"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        270.0,
+        276.0,
+        1024.0,
+        408.0
+      ],
+      "mask": "image_2.masks/hillside_0.png",
+      "crop": null,
+      "description": "A smiling Black woman with short hair and beaded earrings is in the foreground, with a blurred background of green hills, a tree, and a stone structure.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "expression": "smiling",
+        "hair": "short",
+        "earrings": "beaded",
+        "background": {
+          "hills": "green",
+          "tree": "present",
+          "structure": "stone"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        406.0,
+        400.0,
+        752.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a smiling woman with dark skin holding a sleeping infant with dark skin and short curly hair. The woman wears a patterned top with geometric designs in brown and white, while the baby is wrapped in a plain, light-colored cloth.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "expression": "smiling",
+        "clothing": {
+          "top": "patterned, geometric, brown and white"
+        },
+        "accessories": {
+          "ring": "gold"
+        },
+        "pose": "holding baby",
+        "baby": {
+          "age": "infant",
+          "ethnicity": "Black",
+          "expression": "sleeping",
+          "hair": "short, curly, dark",
+          "clothing": "light-colored cloth wrap"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        138.0,
+        86.0,
+        808.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling Black woman with a patterned headwrap and beaded earrings holds a sleeping infant wrapped in a light-colored cloth. She wears a patterned shawl with geometric designs in black and beige, and the background shows a rural setting with a stone wall and green hills.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Black",
+        "social_role": "mother",
+        "clothing": {
+          "headwrap": "patterned, multicolored",
+          "earrings": "beaded, black",
+          "shawl": "patterned, black and beige, geometric designs",
+          "infant_clothing": "light-colored cloth"
+        },
+        "pose": "holding infant",
+        "expression": "smiling",
+        "background": "rural, stone wall, green hills"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.5234375,
+      "box": [
+        796.0,
+        432.0,
+        812.0,
+        472.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        -1.0,
+        272.0,
+        368.0,
+        904.0
+      ],
+      "mask": "image_2.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A rustic stone wall constructed from irregularly shaped, rough-hewn stones in varying shades of brown, gray, and beige, stacked without visible mortar. The stones are of different sizes and shapes, creating a textured and uneven surface, with some larger flat stones used as caps or supports.",
+      "attributes": {
+        "material": "stone",
+        "color": [
+          "brown",
+          "gray",
+          "beige"
+        ],
+        "texture": "rough",
+        "construction": "dry-stacked",
+        "shape": "irregular",
+        "function": "boundary or support structure",
+        "condition": "weathered"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "bag",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        984.0,
+        736.0,
+        1024.0,
+        872.0
+      ],
+      "mask": "image_1.masks/bag_0.png",
+      "crop": null,
+      "description": "A close-up view of a dark blue leather bag with a visible brass buckle and strap detail. The bag appears to be made of smooth, high-quality leather with a slight sheen.",
+      "attributes": {
+        "color": "dark blue",
+        "material": "leather",
+        "hardware": "brass buckle",
+        "texture": "smooth",
+        "type": "bag"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        300.0,
+        992.0,
+        560.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk surface with a visible horizontal grain pattern, positioned in front of a dark maroon or purple background object.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "texture": "smooth",
+        "grain": "horizontal",
+        "background": "dark maroon",
+        "view_angle": "top-down"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        376.0,
+        544.0,
+        680.0,
+        848.0
+      ],
+      "mask": "image_1.masks/desk_1.png",
+      "crop": null,
+      "description": "A modern desk with a light wood top and black metal legs, holding a stack of blue books and a white object.",
+      "attributes": {
+        "top": {
+          "material": "wood",
+          "color": "light brown"
+        },
+        "legs": {
+          "material": "metal",
+          "color": "black",
+          "shape": "rectangular"
+        },
+        "items_on_top": [
+          {
+            "type": "books",
+            "color": "blue",
+            "arrangement": "stacked"
+          },
+          {
+            "type": "object",
+            "color": "white"
+          }
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        512.0,
+        266.0,
+        1000.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian man with short, dark, wavy hair sits in profile on a tan leather sofa, wearing a dark navy blue button-down shirt with sleeves rolled to the elbows and black trousers. He has a neutral expression, looking off to the left, with his hands clasped together in his lap.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "short, wavy, textured"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "dark blue",
+            "sleeves": "rolled up to elbows"
+          },
+          "pants": {
+            "color": "black",
+            "type": "trousers"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "expression": "neutral, contemplative",
+        "orientation": "profile view facing left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        46.0,
+        282.0,
+        422.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits in profile on a beige armchair, wearing a patterned blouse with a V-neck and maroon trousers. She has a neutral expression and her hands are clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "blouse",
+            "pattern": "paisley/floral",
+            "color": "beige and brown",
+            "sleeves": "long"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "maroon"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "furniture": "beige armchair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "whiteboard",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        -3.0,
+        82.0,
+        460.0,
+        470.0
+      ],
+      "mask": "image_1.masks/whiteboard_0.png",
+      "crop": null,
+      "description": "A large, rectangular whiteboard with a thin silver metal frame is mounted on a gray wall, featuring a clean, blank white surface and a black marker tray at the bottom.",
+      "attributes": {
+        "object_type": "whiteboard",
+        "surface": {
+          "color": "white",
+          "state": "blank",
+          "material": "smooth"
+        },
+        "frame": {
+          "color": "silver",
+          "material": "metal",
+          "thickness": "thin"
+        },
+        "accessories": {
+          "tray": {
+            "color": "black",
+            "position": "bottom"
+          }
+        },
+        "background": {
+          "wall_color": "gray"
+        },
+        "position": "upper background"
+      },
+      "parse_ok": true
+    }
+  ]
+}

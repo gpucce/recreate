@@ -1,0 +1,181 @@
+{
+  "scene": {
+    "background": "community center or library computer lab",
+    "lighting": "soft ambient lighting from overhead fixtures and a warm glow from a ceiling lamp visible through a glass-paneled door",
+    "camera_angle": "slightly low and tilted, capturing the scene from the side and slightly in front of the elderly woman",
+    "style": "candid, slightly grainy, indoor photograph with natural, slightly yellowish white balance and moderate color saturation",
+    "mood": "warm, nostalgic, and communal — a snapshot of intergenerational interaction in a public or educational setting",
+    "color_palette": "warm tones with a slight yellowish tint, dark wood or laminate desk surface, red upholstered chair"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "age": "elderly",
+        "gender": "female",
+        "hair": {
+          "color": "white"
+        },
+        "clothing": {
+          "glasses": "thick-rimmed",
+          "jacket": {
+            "color": "blue"
+          },
+          "shirt": {
+            "collar": "pink",
+            "type": "collared"
+          }
+        },
+        "pose": "seated at a computer",
+        "expression": "smiling gently",
+        "gaze": "directed toward the screen",
+        "hand": {
+          "right": {
+            "action": "extended with index finger pointing toward the monitor"
+          },
+          "left": {
+            "action": "resting on the keyboard"
+          }
+        },
+        "accessory": {
+          "necklace": {
+            "type": "colorful beaded"
+          }
+        }
+      },
+      "id": "person_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "female",
+        "hair": {
+          "color": "dark",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "hoodie": {
+            "color": "yellow"
+          },
+          "shirt": {
+            "color": "white",
+            "graphic": "ANNIHILATE or similar"
+          }
+        },
+        "pose": "seated at the same computer",
+        "expression": "slight smile",
+        "focus": "on the screen or listening",
+        "face": "blurred for privacy"
+      },
+      "id": "person_2",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "adult",
+        "gender": "male",
+        "clothing": {
+          "sweater": {
+            "color": "light gray"
+          }
+        },
+        "pose": "standing to the right and slightly behind the young woman",
+        "expression": "smiling",
+        "gaze": "toward the camera or the group",
+        "face": "partially visible"
+      },
+      "id": "person_3",
+      "count": 1
+    },
+    {
+      "type": "computer",
+      "attributes": {
+        "monitor": {
+          "type": "CRT",
+          "color": "black",
+          "screen": {
+            "display": "desktop interface"
+          }
+        },
+        "keyboard": {
+          "color": "black"
+        },
+        "mouse": {
+          "color": "black"
+        }
+      },
+      "id": "computer_1",
+      "count": 1
+    },
+    {
+      "type": "desk",
+      "attributes": {
+        "surface": {
+          "material": "dark wood or laminate"
+        },
+        "items": {
+          "stack": {
+            "type": "books or papers"
+          }
+        }
+      },
+      "id": "desk_1",
+      "count": 1
+    },
+    {
+      "type": "doorway",
+      "attributes": {
+        "frame": {
+          "material": "wooden"
+        },
+        "access": {
+          "leading_to": "another room with a visible light fixture and a red upholstered chair"
+        }
+      },
+      "id": "doorway_1",
+      "count": 1
+    },
+    {
+      "type": "picture",
+      "attributes": {
+        "frame": {
+          "position": "on the wall to the left"
+        }
+      },
+      "id": "picture_1",
+      "count": 1
+    },
+    {
+      "type": "chair",
+      "attributes": {
+        "material": "upholstered",
+        "color": "red"
+      },
+      "id": "chair_1",
+      "count": 1
+    },
+    {
+      "type": "light_fixture",
+      "attributes": {
+        "position": "in another room",
+        "visibility": "visible"
+      },
+      "id": "light_fixture_1",
+      "count": 1
+    },
+    {
+      "type": "text",
+      "attributes": {
+        "content": "03/31/2009",
+        "position": "bottom-left corner"
+      },
+      "id": "text_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

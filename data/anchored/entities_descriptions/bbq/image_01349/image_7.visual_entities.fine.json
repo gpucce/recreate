@@ -1,0 +1,299 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        -1.75,
+        608.0,
+        93.0,
+        704.0
+      ],
+      "mask": "image_7.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk surface with a visible edge, positioned in the background behind a person wearing a blue shirt.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "position": "background",
+        "state": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        -3.0,
+        816.0,
+        340.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/desk_1.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden desk surface with a visible grain pattern, featuring a rounded front edge and a seam indicating a modular or joined construction. The desk is supported by grey metal legs and is partially occupied by open notebooks and hands at the top edge.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "surface": "smooth",
+        "grain": "visible horizontal lines",
+        "edge": "rounded",
+        "structure": "modular",
+        "legs": "grey metal",
+        "items_on_top": [
+          "notebooks",
+          "hands"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 2,
+      "score": 0.93359375,
+      "box": [
+        164.0,
+        880.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/desk_2.png",
+      "crop": null,
+      "description": "A light-colored wooden desk with a smooth, polished surface and rounded edges, featuring a laptop and a person's hand typing on it. The desk has a simple, modern design with visible wood grain and is supported by metal legs.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth, polished",
+        "edges": "rounded",
+        "legs": "metal",
+        "items_on_desk": [
+          "laptop",
+          "hand"
+        ],
+        "design": "modern, simple"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 3,
+      "score": 0.875,
+      "box": [
+        330.0,
+        636.0,
+        438.0,
+        716.0
+      ],
+      "mask": "image_7.masks/desk_3.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a person's shoulder and upper arm wearing a textured, mustard-yellow garment, positioned next to a section of a blue garment on the left. The background is out of focus, showing horizontal bands of light blue, beige, and dark gray, suggesting a window or wall.",
+      "attributes": {
+        "clothing": {
+          "color": "mustard yellow",
+          "texture": "soft, possibly fleece or knit",
+          "type": "sweater or jacket"
+        },
+        "adjacent_object": {
+          "color": "blue",
+          "type": "clothing"
+        },
+        "background": {
+          "focus": "blurred",
+          "colors": [
+            "light blue",
+            "beige",
+            "dark gray"
+          ]
+        },
+        "entity_type": "human"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        708.0,
+        444.0,
+        1024.0,
+        932.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short, dark brown hair is seated at a desk, looking down with a focused expression while typing on a silver laptop. He is wearing a navy blue zip-up hoodie over a white t-shirt, with the drawstrings of the hoodie visible.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "style": "straight"
+        },
+        "clothing": {
+          "outer": {
+            "type": "hoodie",
+            "color": "navy blue",
+            "style": "zip-up"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          }
+        },
+        "pose": "sitting",
+        "action": "typing on laptop",
+        "expression": "focused",
+        "object_interaction": "laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        -3.0,
+        428.0,
+        336.0,
+        820.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short black hair is seated at a desk, looking down with a focused expression while writing in a spiral-bound notebook with a black pen. He is wearing a blue denim shirt over a white t-shirt.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "black",
+          "length": "short",
+          "style": "straight with bangs"
+        },
+        "clothing": {
+          "outer": "blue denim shirt",
+          "inner": "white t-shirt"
+        },
+        "pose": "sitting, writing",
+        "action": "writing in a notebook",
+        "expression": "focused",
+        "accessories": {
+          "pen": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        464.0,
+        90.0,
+        792.0,
+        760.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A young Asian woman with long, straight black hair stands behind a seated child, wearing a light beige button-down shirt with rolled-up sleeves and a blue lanyard with a blank white ID card. She has a gentle smile and is looking down, appearing to be a teacher or instructor in a classroom setting.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "shirt",
+            "color": "beige",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "grey"
+          },
+          "accessories": {
+            "lanyard": {
+              "color": "blue",
+              "item": "ID card"
+            }
+          }
+        },
+        "pose": "standing, leaning slightly forward",
+        "expression": "smiling, looking down",
+        "role": "teacher"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        300.0,
+        476.0,
+        660.0,
+        860.0
+      ],
+      "mask": "image_7.masks/person_3.png",
+      "crop": null,
+      "description": "A young Asian girl with long dark hair pulled back is seated at a desk, wearing a yellow long-sleeved sweater. She is looking down with a focused expression, writing in a spiral notebook with a black pen while a silver laptop sits open in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "pulled back"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "yellow",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting",
+        "action": "writing",
+        "expression": "focused",
+        "objects": {
+          "pen": "black",
+          "notebook": "spiral bound",
+          "laptop": "silver"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        -1.75,
+        -2.0,
+        102.0,
+        528.0
+      ],
+      "mask": "image_7.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up view of a white window frame with a vertical mullion and a horizontal transom bar, creating a grid-like structure. The glass panes are bright and overexposed, suggesting strong natural light coming from outside, while the frame appears to be made of painted wood or vinyl with a smooth, matte finish.",
+      "attributes": {
+        "color": "white",
+        "material": "painted wood or vinyl",
+        "structure": "vertical mullion, horizontal transom bar",
+        "lighting": "bright, overexposed glass",
+        "finish": "smooth, matte",
+        "position": "vertical orientation, partial view"
+      },
+      "parse_ok": true
+    }
+  ]
+}

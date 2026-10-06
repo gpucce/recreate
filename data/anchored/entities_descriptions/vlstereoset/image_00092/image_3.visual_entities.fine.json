@@ -1,0 +1,95 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        122.0,
+        25.5,
+        346.0,
+        250.0
+      ],
+      "mask": "image_3.masks/clock_0.png",
+      "crop": null,
+      "description": "A round analog clock with a white face and black Arabic numerals from 1 to 12. The clock has three hands: a short hour hand pointing between 10 and 11, a longer minute hand pointing at 2, and a thin second hand pointing near 7. The clock is encased in a dark, possibly black, circular frame. The image is slightly blurry.",
+      "attributes": {
+        "shape": "round",
+        "face_color": "white",
+        "numerals": "black arabic",
+        "hands": {
+          "hour_hand": "black, pointing between 10 and 11",
+          "minute_hand": "black, pointing at 2",
+          "second_hand": "thin, black, pointing near 7"
+        },
+        "frame_color": "black",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8828125,
+      "box": [
+        268.0,
+        116.0,
+        844.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits on a bed wearing a white t-shirt and a beige quilted sleep mask with a black strap. She has a calm, neutral expression and is looking slightly to the side, with her hands resting on her lap under white bedding.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "accessory": "beige quilted sleep mask with black strap"
+        },
+        "pose": "sitting",
+        "expression": "calm",
+        "location": "bedroom"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.515625,
+      "box": [
+        8.0,
+        112.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy light brown hair sits on a bed wearing a white t-shirt and a beige quilted sleep mask. She has a calm, neutral expression and is looking slightly to the side, with her hands resting in her lap under white bedding.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "light brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": "white t-shirt",
+          "accessory": "beige quilted sleep mask"
+        },
+        "pose": "sitting",
+        "expression": "calm",
+        "location": "bedroom"
+      },
+      "parse_ok": true
+    }
+  ]
+}

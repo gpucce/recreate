@@ -1,0 +1,346 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "alley",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        2.0,
+        624.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/alley_0.png",
+      "crop": null,
+      "description": "An adult and a young child are walking away from the camera down a wet, cobblestone alley, holding hands. The adult is wearing a black puffer jacket and gray pants, while the child is dressed in a blue puffer jacket, blue jeans, and brown boots. Potted plants with orange and red flowers line the sides of the alley, which is flanked by stone walls and buildings.",
+      "attributes": {
+        "setting": {
+          "type": "alley",
+          "surface": "wet cobblestone",
+          "weather": "rainy",
+          "decorations": "potted plants with orange and red flowers"
+        },
+        "adult": {
+          "clothing": {
+            "jacket": "black puffer",
+            "pants": "gray"
+          },
+          "pose": "walking away"
+        },
+        "child": {
+          "clothing": {
+            "jacket": "blue puffer",
+            "pants": "blue jeans",
+            "boots": "brown"
+          },
+          "pose": "walking away",
+          "hair": "light brown, curly"
+        },
+        "interaction": "holding hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        364.0,
+        358.0,
+        572.0,
+        510.0
+      ],
+      "mask": "image_8.masks/building_0.png",
+      "crop": null,
+      "description": "A white residential house with a dark grey pitched roof and two chimneys is visible in the background, partially obscured by a person in the foreground. A window box containing yellow and orange flowers hangs on the right side of the building.",
+      "attributes": {
+        "type": "residential house",
+        "walls": "white",
+        "roof": {
+          "color": "dark grey",
+          "style": "pitched",
+          "features": [
+            "two chimneys"
+          ]
+        },
+        "decorations": {
+          "window_box": {
+            "position": "right side",
+            "flowers": "yellow and orange"
+          }
+        },
+        "visibility": "partially obscured by foreground subject"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.90625,
+      "box": [
+        652.0,
+        0.0,
+        1024.0,
+        736.0
+      ],
+      "mask": "image_8.masks/building_1.png",
+      "crop": null,
+      "description": "A rustic stone building with a dark tiled roof features a small balcony adorned with vibrant orange and yellow flowers in terracotta pots. The facade is constructed from irregular, light-colored stones, and wooden-framed windows and doors add warmth to the structure, while additional potted plants sit on the wet cobblestone ground below.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "roof": "dark tiles",
+          "balcony": "black wrought iron railing",
+          "windows": "wooden frames",
+          "doors": "wooden"
+        },
+        "decorations": {
+          "flowers": [
+            "orange",
+            "yellow",
+            "red"
+          ],
+          "pots": "terracotta",
+          "location": [
+            "balcony",
+            "ground level"
+          ]
+        },
+        "environment": {
+          "ground": "wet cobblestone",
+          "weather": "overcast/rainy"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.828125,
+      "box": [
+        178.0,
+        248.0,
+        334.0,
+        612.0
+      ],
+      "mask": "image_8.masks/building_2.png",
+      "crop": null,
+      "description": "A stone building with a dark roof and a chimney, featuring balconies adorned with vibrant orange and yellow flowers. The building is surrounded by greenery, including a tree and potted plants, with a person holding an umbrella visible in the background.",
+      "attributes": {
+        "structure": {
+          "material": "stone",
+          "roof": "dark",
+          "chimney": "present",
+          "balconies": "decorated with flowers"
+        },
+        "surroundings": {
+          "greenery": "tree and potted plants",
+          "person": "holding an umbrella"
+        },
+        "colors": {
+          "flowers": "orange and yellow",
+          "building": "gray stone",
+          "roof": "dark"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.87890625,
+      "box": [
+        -2.0,
+        0.0,
+        246.0,
+        668.0
+      ],
+      "mask": "image_8.masks/building_3.png",
+      "crop": null,
+      "description": "A close-up view of a rustic stone building featuring a small balcony with a black wrought-iron railing and a wooden base. The balcony is adorned with hanging flower boxes containing vibrant orange and yellow marigolds. The wall is constructed of rough, irregular grey and brown stones, with a wooden door visible below the balcony and a dark wooden eave above.",
+      "attributes": {
+        "structure": {
+          "wall_material": "rough stone",
+          "wall_color": "grey and brown",
+          "roof_eave": "dark wood",
+          "balcony": {
+            "railing": "black wrought iron",
+            "base": "wooden",
+            "decorations": "flower boxes with orange and yellow flowers"
+          },
+          "door": "wooden, brown"
+        },
+        "style": "rustic, traditional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.921875,
+      "box": [
+        528.0,
+        206.0,
+        744.0,
+        608.0
+      ],
+      "mask": "image_8.masks/building_4.png",
+      "crop": null,
+      "description": "A two-story building featuring a lower level constructed of rough, light-colored stone masonry and an upper level with dark brown wooden paneling and a protruding balcony. The structure is topped with a grey, tiled gable roof and is adorned with vibrant orange and red flowers in window boxes and hanging baskets.",
+      "attributes": {
+        "structure": {
+          "levels": 2,
+          "roof": {
+            "type": "gable",
+            "material": "tile",
+            "color": "grey"
+          },
+          "walls": {
+            "lower_level": {
+              "material": "stone",
+              "color": "light grey/beige"
+            },
+            "upper_level": {
+              "material": "wood",
+              "color": "dark brown"
+            }
+          },
+          "features": [
+            "balcony",
+            "window boxes"
+          ]
+        },
+        "decorations": {
+          "flowers": {
+            "colors": [
+              "orange",
+              "red",
+              "yellow"
+            ],
+            "placement": [
+              "window boxes",
+              "hanging baskets"
+            ]
+          }
+        },
+        "style": "alpine or rustic"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        504.0,
+        604.0,
+        656.0,
+        932.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with wavy, light brown hair is seen from behind, walking away on a wet cobblestone street while holding the hand of an adult. The child wears a dark navy blue puffer jacket with a hood, light blue jeans, and tan suede ankle boots with black soles.",
+      "attributes": {
+        "age": "child",
+        "gender": "indeterminate",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, shoulder-length"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "dark navy blue",
+            "features": "hooded, quilted"
+          },
+          "pants": {
+            "type": "jeans",
+            "color": "light blue"
+          },
+          "shoes": {
+            "type": "ankle boots",
+            "color": "tan",
+            "material": "suede",
+            "sole": "black"
+          }
+        },
+        "pose": "walking away, holding hand",
+        "view": "back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        334.0,
+        406.0,
+        536.0,
+        944.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly person with short white hair is seen from behind, walking away on a wet cobblestone street while wearing a black puffer jacket and grey trousers. The individual is holding the hand of a child, whose arm in a blue sleeve is partially visible on the right side.",
+      "attributes": {
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "puffer",
+            "color": "black",
+            "material": "synthetic"
+          },
+          "pants": {
+            "color": "grey",
+            "type": "trousers"
+          },
+          "shoes": {
+            "color": "black"
+          }
+        },
+        "pose": "walking away",
+        "view": "back",
+        "action": "holding a child's hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.60546875,
+      "box": [
+        314.0,
+        532.0,
+        334.0,
+        596.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.80859375,
+      "box": [
+        298.0,
+        536.0,
+        326.0,
+        616.0
+      ],
+      "mask": "image_8.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

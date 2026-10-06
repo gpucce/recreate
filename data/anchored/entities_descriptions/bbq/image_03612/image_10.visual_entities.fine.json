@@ -1,0 +1,98 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        564.0,
+        196.0,
+        996.0,
+        900.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long blonde hair sits at a desk, wearing a dark blue plaid button-down shirt with red and white lines. She rests her chin on her left hand, looking down with a concerned or confused expression at a laptop and papers in front of her.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "blonde",
+          "length": "long"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "plaid button-down",
+            "color": "dark blue with red and white plaid",
+            "sleeves": "long, rolled up to forearm"
+          }
+        },
+        "pose": "sitting, leaning forward, chin resting on left hand",
+        "expression": "concerned, confused, or focused",
+        "accessories": {
+          "earrings": "small stud earring visible in left ear"
+        },
+        "context": "working at a desk with a laptop and documents"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        36.0,
+        168.0,
+        532.0,
+        880.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with voluminous, dark curly hair sits at a desk looking down at a laptop screen with a furrowed brow and a concerned or confused expression. She is wearing a light pink, long-sleeved button-down shirt with the sleeves rolled up to the forearms, set against a blurred background of white office shelving and binders.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "mixed or hispanic",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "expression": {
+          "brows": "furrowed",
+          "mouth": "slightly downturned",
+          "emotion": "concerned or confused"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light pink",
+            "sleeves": "rolled up"
+          }
+        },
+        "pose": "sitting",
+        "action": "looking at laptop",
+        "context": "office setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        0.0,
+        848.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/table_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A person is seated at a white table, with their hands visible on either side of a closed gray laptop. The person is wearing a light pink long-sleeved shirt, and their right hand is resting on a document or paper placed on the table.\", \"attributes\": {\"clothing\": {\"shirt\": \"light pink, long-sleeved\"}, \"object\": {\"laptop\": \"gray, closed\", \"document\": \"white paper, partially visible\"}, \"surface\": \"white table\", \"pose\": \"seated, hands on table\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

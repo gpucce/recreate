@@ -1,0 +1,101 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        96.0,
+        164.0,
+        740.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with wavy light brown hair sits on a beige couch, wearing a grey cable-knit sweater and blue jeans, looking down at a black smartphone held in his hands with a somber expression while a woman's hand rests on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "wavy, medium length"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "grey",
+            "pattern": "cable-knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, looking down",
+        "expression": "sad, focused",
+        "accessories": {
+          "holding": "black smartphone"
+        },
+        "context": "being comforted by an adult (hand on shoulder)"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        90.0,
+        8.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length dark brown hair sits on a beige couch, wearing a red t-shirt under a dark blue blazer and blue jeans. She has a concerned and serious expression, looking down at a black smartphone held by a young boy sitting next to her, with her arm resting on his shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "inner": "red t-shirt",
+            "outer": "dark blue blazer"
+          },
+          "bottom": "blue jeans"
+        },
+        "pose": "sitting",
+        "expression": "concerned",
+        "action": "looking at phone",
+        "position": "right side of frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        250.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/sofa_0.png",
+      "crop": null,
+      "description": "A beige fabric sofa with a textured, woven material and a thick, rectangular back cushion is visible behind a woman and a boy sitting on it.",
+      "attributes": {
+        "color": "beige",
+        "material": "textured fabric",
+        "type": "sofa",
+        "cushion": "rectangular back cushion"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        3.0,
+        366.0,
+        255.0,
+        848.0
+      ],
+      "mask": "image_6.masks/backpack_0.png",
+      "crop": null,
+      "description": "A black backpack with a smooth, matte finish is worn on the back of a person, featuring a wide black shoulder strap with a plastic adjustment buckle. The backpack has a visible zipper with a black pull tab on the side pocket.",
+      "attributes": {
+        "color": "black",
+        "material": "smooth synthetic fabric",
+        "strap": {
+          "color": "black",
+          "width": "wide",
+          "buckle": "black plastic"
+        },
+        "features": [
+          "side pocket",
+          "zipper with pull tab"
+        ],
+        "position": "worn on back"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cane",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        600.0,
+        608.0,
+        720.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/cane_0.png",
+      "crop": null,
+      "description": "A close-up of a walking cane held by a person, featuring a T-shaped handle with a polished gold-colored metal center and dark brown wooden grips on each end. The shaft of the cane is long, slender, and black, extending vertically down the frame. The person holding the cane is wearing a maroon and beige argyle sweater and beige trousers, with their hand resting near the top of the cane.",
+      "attributes": {
+        "handle": {
+          "shape": "T-shaped",
+          "material": "wood and metal",
+          "color": "dark brown wood, gold metal"
+        },
+        "shaft": {
+          "color": "black",
+          "material": "likely wood or metal",
+          "shape": "cylindrical"
+        },
+        "holder": {
+          "clothing": {
+            "sweater": "maroon and beige argyle",
+            "trousers": "beige"
+          },
+          "hand": "visible, resting near the cane"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        468.0,
+        140.0,
+        996.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with a white beard and mustache sits facing left, wearing a brown herringbone flat cap, a maroon and brown argyle sweater vest over a light blue button-down shirt, and beige trousers. He has a black walking cane with a gold T-handle resting vertically between his legs.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap",
+          "facial_hair": "full white beard and mustache"
+        },
+        "clothing": {
+          "hat": {
+            "type": "flat cap",
+            "color": "brown",
+            "pattern": "herringbone"
+          },
+          "top": {
+            "shirt": {
+              "color": "light blue",
+              "type": "button-down",
+              "sleeves": "long"
+            },
+            "vest": {
+              "type": "sweater vest",
+              "pattern": "argyle",
+              "colors": [
+                "maroon",
+                "brown"
+              ]
+            }
+          },
+          "bottom": {
+            "pants": {
+              "color": "beige",
+              "type": "trousers"
+            }
+          }
+        },
+        "accessories": {
+          "cane": {
+            "handle": {
+              "color": "gold",
+              "shape": "T-handle"
+            },
+            "shaft": {
+              "color": "black"
+            }
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral, looking to the side",
+        "skin": "wrinkled, age spots visible on hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        64.0,
+        138.0,
+        520.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with light skin and brown hair is seated, wearing a blue baseball cap, an orange and navy plaid flannel shirt over a white t-shirt, and blue jeans. He is smiling and looking to the right, with a black backpack strap visible on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "headwear": {
+          "type": "baseball cap",
+          "color": "blue"
+        },
+        "clothing": {
+          "outer": {
+            "type": "flannel shirt",
+            "pattern": "plaid",
+            "colors": [
+              "orange",
+              "navy blue"
+            ],
+            "state": "unbuttoned"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "backpack",
+            "color": "black",
+            "visible_part": "strap"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "gaze_direction": "right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

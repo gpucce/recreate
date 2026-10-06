@@ -1,0 +1,115 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        104.0,
+        180.0,
+        900.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with shoulder-length wavy blonde hair and blue eyes is wearing a blue and white vertical striped button-down shirt, while a young boy with curly light brown hair and a red polo shirt hugs her from behind with his arms wrapped around her shoulders. The woman has a gentle, content expression with slight freckles on her face, and the boy is smiling broadly showing his teeth.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Caucasian",
+        "social_role": "mother",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "eyes": "blue",
+        "skin": "fair with freckles",
+        "expression": "smiling, content",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ],
+            "material": "cotton-like"
+          }
+        },
+        "pose": "sitting or standing upright, being hugged from behind",
+        "companion": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "light brown",
+            "style": "curly"
+          },
+          "clothing": {
+            "shirt": {
+              "type": "polo",
+              "color": "red"
+            }
+          },
+          "pose": "hugging from behind, arms around woman's shoulders"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        182.0,
+        52.0,
+        872.0,
+        996.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length wavy blonde hair and blue eyes smiles gently at the camera while wearing a blue and white vertical striped button-down shirt. A young boy with wavy light brown hair and a red polo shirt is hugging her from behind, resting his chin on her shoulder and smiling broadly.",
+      "attributes": {
+        "group": "mother and son",
+        "woman": {
+          "gender": "female",
+          "age": "adult",
+          "hair": {
+            "color": "blonde",
+            "length": "shoulder-length",
+            "texture": "wavy"
+          },
+          "eyes": "blue",
+          "expression": "gentle smile",
+          "clothing": {
+            "type": "button-down shirt",
+            "pattern": "vertical stripes",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          }
+        },
+        "boy": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "light brown",
+            "length": "short",
+            "texture": "wavy"
+          },
+          "eyes": "blue",
+          "expression": "smiling",
+          "clothing": {
+            "type": "polo shirt",
+            "color": "red"
+          },
+          "pose": "hugging woman from behind"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

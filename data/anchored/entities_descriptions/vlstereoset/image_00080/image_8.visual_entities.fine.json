@@ -1,0 +1,268 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "chessboard",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        940.0,
+        688.0,
+        1024.0,
+        728.0
+      ],
+      "mask": "image_8.masks/chessboard_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "chessboard",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        66.0,
+        896.0,
+        816.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/chessboard_1.png",
+      "crop": null,
+      "description": "A close-up, low-angle view of a wooden chessboard with alternating light and dark squares, featuring several chess pieces in the foreground and background. The pieces are made of wood, with light-colored pieces in the front and dark-colored pieces further back, all resting on the board's surface.",
+      "attributes": {
+        "material": "wood",
+        "colors": {
+          "board": "light and dark brown",
+          "pieces": "light beige and dark brown"
+        },
+        "perspective": "low-angle, close-up",
+        "focus": "shallow depth of field, foreground pieces in focus, background pieces blurred",
+        "pieces_visible": "multiple light and dark chess pieces",
+        "board_border": "wooden frame with visible screws or dots"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chessboard",
+      "index": 2,
+      "score": 0.60546875,
+      "box": [
+        940.0,
+        584.0,
+        1032.0,
+        728.0
+      ],
+      "mask": "image_8.masks/chessboard_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of two light-colored wooden chess pieces, likely a king and a rook, standing on a wooden chessboard. The background is blurred, showing indistinct shapes and colors, including a dark area and a hint of pink or red.",
+      "attributes": {
+        "pieces": {
+          "color": "light wood",
+          "material": "wood",
+          "type": [
+            "king",
+            "rook"
+          ],
+          "focus": "blurred"
+        },
+        "board": {
+          "material": "wood",
+          "color": "light brown",
+          "focus": "blurred"
+        },
+        "background": {
+          "focus": "blurred",
+          "colors": [
+            "dark",
+            "pink/red"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        836.0,
+        148.0,
+        1024.0,
+        940.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian woman with long, straight black hair is seated at a table, looking down with a focused expression, wearing a white collared shirt. In the foreground, the shoulder and arm of another person wearing a dark blue suit jacket are visible, partially obscuring the view, with wooden chess pieces on a board situated between them.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": "white collared"
+        },
+        "pose": "seated",
+        "expression": "focused",
+        "context": "playing chess",
+        "foreground_object": "person in dark blue suit"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.78515625,
+      "box": [
+        -3.0,
+        772.0,
+        115.5,
+        1020.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up, shallow depth-of-field shot of a chessboard featuring a light-colored wooden rook in the mid-ground and a blurred light-colored pawn in the foreground, with a dark-colored piece partially visible on the right.",
+      "attributes": {
+        "entity_type": "chess pieces",
+        "objects": [
+          {
+            "type": "rook",
+            "color": "light beige",
+            "material": "wood",
+            "focus": "sharp",
+            "position": "mid-ground"
+          },
+          {
+            "type": "pawn",
+            "color": "light beige",
+            "material": "wood",
+            "focus": "blurred",
+            "position": "foreground"
+          },
+          {
+            "type": "chess piece",
+            "color": "dark brown",
+            "material": "wood",
+            "focus": "blurred",
+            "position": "right edge"
+          }
+        ],
+        "surface": "chessboard",
+        "lighting": "soft, natural"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        -2.0,
+        28.0,
+        292.0,
+        828.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "A person with short, dark, wavy hair is seen from behind, wearing a dark navy blue suit jacket over a white collared shirt. The individual is seated, facing away from the camera, with a blurred background and the tops of chess pieces visible in the immediate foreground.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "jacket": {
+            "type": "suit jacket",
+            "color": "navy blue",
+            "material": "wool blend"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "visible"
+          }
+        },
+        "pose": "seated, back to camera",
+        "accessories": {
+          "glasses": "visible rim on side"
+        },
+        "context": {
+          "foreground_objects": "chess pieces"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.984375,
+      "box": [
+        174.0,
+        28.0,
+        936.0,
+        944.0
+      ],
+      "mask": "image_8.masks/person_3.png",
+      "crop": null,
+      "description": "A young man with dark, curly hair and thick black-rimmed glasses sits at a chessboard, wearing a dark navy suit jacket over a white button-down shirt. He has a focused, contemplative expression, resting his chin on his hand while looking down at the chess pieces in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, medium length"
+        },
+        "accessories": {
+          "glasses": "black, thick-rimmed, rectangular"
+        },
+        "clothing": {
+          "jacket": "dark navy blue suit",
+          "shirt": "white, button-down, collar open"
+        },
+        "pose": "sitting, leaning forward, hand on chin",
+        "expression": "focused, serious, contemplative",
+        "context": "playing chess"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.80078125,
+      "box": [
+        836.0,
+        146.0,
+        1024.0,
+        640.0
+      ],
+      "mask": "image_8.masks/person_4.png",
+      "crop": null,
+      "description": "A young Asian woman with long, dark hair is shown in a blurry, out-of-focus background, wearing a white collared shirt and looking down with a focused expression. In the sharp foreground, the shoulder of a person wearing a dark blue suit jacket is visible, along with the tops of light-colored wooden chess pieces.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Asian",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "length": "long",
+          "style": "straight"
+        },
+        "clothing": {
+          "shirt": "white collared"
+        },
+        "expression": "focused",
+        "pose": "looking down",
+        "focus": "blurred",
+        "context": "chess game"
+      },
+      "parse_ok": true
+    }
+  ]
+}

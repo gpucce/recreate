@@ -1,0 +1,298 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "door",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        952.0,
+        4.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/door_0.png",
+      "crop": null,
+      "description": "A close-up view of a light brown wooden door with a vertical grain pattern, featuring a metallic handle and lock mechanism on the left side. The door is framed by a dark, possibly black, border on the left edge.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "grain": "vertical",
+        "hardware": {
+          "handle": "metallic",
+          "lock": "metallic"
+        },
+        "frame_color": "dark",
+        "position": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "door",
+      "index": 1,
+      "score": 0.9140625,
+      "box": [
+        -1.5,
+        18.0,
+        50.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/door_1.png",
+      "crop": null,
+      "description": "A vertical section of a light brown wooden door with a smooth finish, featuring a metallic lever-style handle and a keyhole below it, set within a dark gray or black frame.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "handle": {
+          "type": "lever",
+          "color": "metallic"
+        },
+        "frame": {
+          "color": "dark gray/black"
+        },
+        "finish": "smooth",
+        "visible_features": [
+          "handle",
+          "keyhole",
+          "frame edge"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.91796875,
+      "box": [
+        418.0,
+        -0.75,
+        544.0,
+        40.5
+      ],
+      "mask": "image_7.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A close-up view of a rectangular, white light fixture with rounded corners, emitting a soft, diffused glow. The surface appears smooth and matte, likely made of plastic or frosted glass, set against a slightly darker, out-of-focus background.",
+      "attributes": {
+        "shape": "rectangular",
+        "corners": "rounded",
+        "color": "white",
+        "material": "smooth, matte surface",
+        "lighting": "diffused, soft glow",
+        "orientation": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        544.0,
+        352.0,
+        896.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A young girl with long, straight brown hair parted in the middle stands looking down at a white sheet of paper held in both hands. She wears a short-sleeved t-shirt with horizontal navy blue and white stripes and blue denim jeans, with a serious and focused expression on her face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "straight, center-parted"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "pattern": "horizontal stripes",
+            "colors": [
+              "navy blue",
+              "white"
+            ]
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing, holding paper",
+        "expression": "serious, focused",
+        "accessories": {
+          "held_item": "white paper"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        145.0,
+        362.0,
+        548.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly brown hair stands looking down at a white piece of paper held in both hands, wearing a blue denim jacket over a maroon t-shirt. An adult's hand rests on his shoulder, and a black camera hangs around the neck of the person standing behind him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "denim jacket",
+            "color": "blue",
+            "details": "buttoned front, chest pockets"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "maroon"
+          }
+        },
+        "pose": "standing, looking down",
+        "expression": "serious, focused",
+        "holding": "white paper",
+        "context": "adult hand on shoulder, camera visible in background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.96484375,
+      "box": [
+        172.0,
+        48.0,
+        900.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with wavy, graying hair and a full gray beard stands behind two children, looking down with a serious expression. He wears a sage green button-down shirt and has a black DSLR camera with a red and black strap hanging around his neck, while his hands rest on the shoulders of the children in front of him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "wavy, medium length",
+          "texture": "thick"
+        },
+        "facial_hair": {
+          "beard": "full, gray and black",
+          "mustache": "gray and black"
+        },
+        "expression": "serious, focused, looking down",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "sage green",
+            "material": "cotton"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "hanging around neck",
+            "strap": "black with red trim"
+          }
+        },
+        "pose": "standing, arms around children's shoulders"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        684.0,
+        2.0,
+        900.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/wall_0.png",
+      "crop": null,
+      "description": "A young girl with long brown hair is standing in a hallway, looking down at a piece of paper she is holding. An adult's hand is placed on her shoulder, suggesting a supportive or guiding interaction.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "hair": "long, brown",
+        "clothing": {
+          "shirt": "striped, blue and white",
+          "pants": "blue jeans"
+        },
+        "pose": "standing, looking down",
+        "expression": "focused",
+        "context": "indoor hallway, adult presence"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.8828125,
+      "box": [
+        98.5,
+        0.0,
+        276.0,
+        1016.0
+      ],
+      "mask": "image_7.masks/wall_1.png",
+      "crop": null,
+      "description": "A person with curly brown hair is wearing a blue denim jacket and holding a white piece of paper, while another person's hand rests on their shoulder in a comforting gesture. The background features a blurred hallway with a light-colored wall and a door frame.",
+      "attributes": {
+        "clothing": {
+          "jacket": "blue denim"
+        },
+        "hair": "curly brown",
+        "pose": "standing, being comforted",
+        "action": "holding paper, receiving comfort",
+        "background": {
+          "wall": "light-colored",
+          "door": "visible in background"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 2,
+      "score": 0.84765625,
+      "box": [
+        276.0,
+        65.0,
+        684.0,
+        392.0
+      ],
+      "mask": "image_7.masks/wall_2.png",
+      "crop": null,
+      "description": "A close-up shot of a middle-aged man with wavy, salt-and-pepper hair and a matching beard, looking downward with a serious or focused expression. He is wearing a light olive-green button-down shirt and a black lanyard with red trim around his neck.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray and black",
+          "style": "wavy, medium length",
+          "beard": "full, salt-and-pepper"
+        },
+        "expression": "serious, looking down",
+        "clothing": {
+          "shirt": "olive green button-down",
+          "accessories": "black lanyard with red trim"
+        },
+        "background": "blurred, light-colored wall with a window frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

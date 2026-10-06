@@ -1,0 +1,207 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "bedspread",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        0.0,
+        624.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/bedspread_0.png",
+      "crop": null,
+      "description": "A close-up view of a white, textured bedspread with a crinkled, linen-like fabric, featuring visible folds and creases that suggest a soft, natural material. The bedspread is partially covered by two individuals sitting on it, with their legs and lower bodies visible, indicating a casual, relaxed setting.",
+      "attributes": {
+        "color": "white",
+        "material": "linen-like fabric",
+        "texture": "crinkled, soft",
+        "folds": "visible creases and folds",
+        "position": "partially covered by individuals",
+        "setting": "casual, relaxed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        444.0,
+        202.0,
+        964.0,
+        984.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with voluminous, dark curly hair sits on a bed with white sheets, wearing a loose-fitting olive green long-sleeved top and blue jeans. She is in a seated pose with one knee drawn up, her hands clasped around her ankle, and she wears white socks while looking off to the side with a neutral, contemplative expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeve shirt",
+            "color": "olive green",
+            "fit": "loose"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "footwear": {
+            "type": "socks",
+            "color": "white"
+          }
+        },
+        "pose": "sitting on bed with knee up",
+        "expression": "neutral",
+        "gaze": "looking to the side"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        6.0,
+        180.0,
+        520.0,
+        884.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with dark curly hair tied back in a low ponytail sits cross-legged on a bed, wearing a loose-fitting cream-colored cardigan with brown buttons and matching cream sweatpants. She has a concerned or worried expression, looking off to the side with furrowed brows, while her hands rest on her knees.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, tied back in a low ponytail"
+        },
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "cream",
+            "material": "knit",
+            "details": "V-neck, long sleeves, brown buttons"
+          },
+          "bottom": {
+            "type": "sweatpants",
+            "color": "cream"
+          }
+        },
+        "pose": "sitting cross-legged on a bed",
+        "expression": "worried, concerned, looking away",
+        "setting": "indoor, bedroom, near a window with plants"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.90234375,
+      "box": [
+        744.0,
+        -1.75,
+        816.0,
+        83.0
+      ],
+      "mask": "image_4.masks/person_2.png",
+      "crop": null,
+      "description": "A blurry, medium shot of a person with short hair wearing a dark grey cardigan over a light grey t-shirt, standing with arms crossed in front of a plain, light-colored background.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "outer": {
+            "type": "cardigan",
+            "color": "dark grey"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "light grey"
+          }
+        },
+        "pose": "standing, arms crossed",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.796875,
+      "box": [
+        816.0,
+        168.0,
+        864.0,
+        226.0
+      ],
+      "mask": "image_4.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        916.0,
+        486.0,
+        1024.0,
+        708.0
+      ],
+      "mask": "image_4.masks/pillow_0.png",
+      "crop": null,
+      "description": "A close-up view of a white pillow with a soft, wrinkled fabric surface, positioned on a bed next to a person's arm wearing a light-colored long-sleeved garment.",
+      "attributes": {
+        "color": "white",
+        "material": "soft fabric",
+        "texture": "wrinkled",
+        "position": "on bed",
+        "context": "bedding"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        -1.0,
+        -1.0,
+        130.0,
+        480.0
+      ],
+      "mask": "image_4.masks/window_0.png",
+      "crop": null,
+      "description": "A bright, out-of-focus view of a window with a white frame and a horizontal crossbar, positioned behind a blurred potted plant with green leaves in a terracotta pot.",
+      "attributes": {
+        "frame_color": "white",
+        "focus": "blurred",
+        "lighting": "bright",
+        "foreground_object": {
+          "type": "potted plant",
+          "pot_color": "terracotta",
+          "leaves": "green"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,547 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.5078125,
+      "box": [
+        119.0,
+        376.0,
+        193.0,
+        400.0
+      ],
+      "mask": "image_2.masks/building_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.6171875,
+      "box": [
+        346.0,
+        300.0,
+        382.0,
+        324.0
+      ],
+      "mask": "image_2.masks/building_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        -0.5,
+        190.0,
+        180.0,
+        292.0
+      ],
+      "mask": "image_2.masks/hillside_0.png",
+      "crop": null,
+      "description": "A steep, dark green hillside covered in dense vegetation rises diagonally from the bottom left to the top right against a clear blue sky. At the base of the hill, partially visible in the bottom left corner, are the red and white roofs of a few buildings nestled among the trees.",
+      "attributes": {
+        "terrain": "steep hillside",
+        "vegetation": "dense, dark green",
+        "sky": "clear blue",
+        "structures": {
+          "location": "base of hill",
+          "roof_color": "red and white",
+          "visibility": "partially visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 1,
+      "score": 0.75,
+      "box": [
+        -2.0,
+        196.0,
+        736.0,
+        396.0
+      ],
+      "mask": "image_2.masks/hillside_1.png",
+      "crop": null,
+      "description": "A lush, green hillside slopes down towards a rocky shoreline, dotted with scattered white houses and palm trees. The terrain is covered in dense vegetation, including shrubs and grasses, with a clear blue sky above.",
+      "attributes": {
+        "vegetation": {
+          "type": "dense green shrubs and grasses",
+          "trees": "palm trees and other broadleaf trees"
+        },
+        "structures": {
+          "color": "white",
+          "roof_color": "red and brown",
+          "type": "houses"
+        },
+        "terrain": {
+          "slope": "steep",
+          "shoreline": "rocky with large boulders"
+        },
+        "sky": {
+          "color": "clear blue",
+          "clouds": "none visible"
+        },
+        "water": {
+          "color": "blue",
+          "location": "bottom right corner"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        -0.5,
+        189.0,
+        180.0,
+        292.0
+      ],
+      "mask": "image_2.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A steep, dark green hillside covered in dense vegetation rises diagonally from the bottom left to the top right against a clear blue sky. At the base of the hill, partially obscured by the slope, are several small buildings with red roofs and white walls, including one with a visible white satellite dish.",
+      "attributes": {
+        "terrain": {
+          "type": "hillside",
+          "slope": "steep",
+          "orientation": "diagonal rising left to right"
+        },
+        "vegetation": {
+          "color": "dark green",
+          "density": "dense",
+          "coverage": "full"
+        },
+        "sky": {
+          "color": "blue",
+          "condition": "clear"
+        },
+        "structures": {
+          "location": "base of hill",
+          "roof_color": "red",
+          "wall_color": "white",
+          "features": [
+            "satellite dish"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        2.0,
+        394.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "A person is standing on a sandy beach near the water's edge, facing away from the camera. The individual is wearing blue swim trunks and appears to be looking out at the ocean.",
+      "attributes": {
+        "clothing": {
+          "swim_trunks": "blue"
+        },
+        "pose": "standing",
+        "position": "near water's edge",
+        "orientation": "facing away from camera"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 2,
+      "score": 0.84765625,
+      "box": [
+        0.0,
+        188.0,
+        744.0,
+        404.0
+      ],
+      "mask": "image_2.masks/landmass or headland_2.png",
+      "crop": null,
+      "description": "A lush, green headland slopes down to a sandy beach, dotted with white houses and palm trees. The coastline features rocky outcrops meeting turquoise water, with a clear blue sky above.",
+      "attributes": {
+        "vegetation": "dense green shrubs and trees",
+        "structures": "white houses with red roofs",
+        "terrain": "sloping hillside, sandy beach, rocky shoreline",
+        "water": "turquoise, calm",
+        "sky": "clear blue",
+        "beach_features": "sandy, with a few people and umbrellas visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        143.0,
+        402.0,
+        147.0,
+        414.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.62109375,
+      "box": [
+        93.0,
+        396.0,
+        100.0,
+        408.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.80078125,
+      "box": [
+        41.0,
+        402.0,
+        60.5,
+        414.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.6171875,
+      "box": [
+        102.5,
+        394.0,
+        116.5,
+        406.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.9296875,
+      "box": [
+        528.0,
+        450.0,
+        552.0,
+        544.0
+      ],
+      "mask": "image_2.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        486.0,
+        380.0,
+        506.0,
+        396.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.6171875,
+      "box": [
+        206.0,
+        382.0,
+        242.0,
+        402.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 2,
+      "score": 0.5234375,
+      "box": [
+        274.0,
+        372.0,
+        306.0,
+        396.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 3,
+      "score": 0.6796875,
+      "box": [
+        524.0,
+        370.0,
+        572.0,
+        398.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 4,
+      "score": 0.65625,
+      "box": [
+        239.0,
+        394.0,
+        272.0,
+        406.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 5,
+      "score": 0.64453125,
+      "box": [
+        272.0,
+        394.0,
+        304.0,
+        406.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 6,
+      "score": 0.62109375,
+      "box": [
+        632.0,
+        370.0,
+        752.0,
+        394.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 7,
+      "score": 0.58203125,
+      "box": [
+        304.0,
+        392.0,
+        332.0,
+        404.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 8,
+      "score": 0.5234375,
+      "box": [
+        364.0,
+        386.0,
+        388.0,
+        398.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 9,
+      "score": 0.58984375,
+      "box": [
+        252.0,
+        386.0,
+        276.0,
+        402.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 10,
+      "score": 0.6171875,
+      "box": [
+        432.0,
+        388.0,
+        452.0,
+        400.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 11,
+      "score": 0.5078125,
+      "box": [
+        716.0,
+        380.0,
+        756.0,
+        388.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 12,
+      "score": 0.54296875,
+      "box": [
+        580.0,
+        384.0,
+        604.0,
+        396.0
+      ],
+      "mask": "image_2.masks/rocky outcrop_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        0.0,
+        394.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a fine, granular texture. It is covered in numerous footprints of varying sizes and depths, indicating recent activity. The surface appears dry and slightly uneven, with small ridges and depressions formed by the footprints and natural settling of the sand.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "fine, granular",
+        "condition": "dry, uneven",
+        "features": [
+          "footprints",
+          "ridges",
+          "depressions"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        0.0,
+        -1.0,
+        1020.0,
+        384.0
+      ],
+      "mask": "image_2.masks/sky_0.png",
+      "crop": null,
+      "description": "A bright blue sky with a few scattered white clouds, including a prominent fluffy cloud in the upper left and a smaller wisp near the top edge. The sky transitions from a deeper blue at the top to a lighter, almost white hue near the horizon, suggesting a clear, sunny day.",
+      "attributes": {
+        "color": "blue",
+        "clouds": {
+          "type": "cumulus",
+          "color": "white",
+          "quantity": "few",
+          "position": "upper left and top edge"
+        },
+        "lighting": "bright",
+        "clarity": "clear"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        224.0,
+        384.0,
+        1024.0,
+        608.0
+      ],
+      "mask": "image_2.masks/water_0.png",
+      "crop": null,
+      "description": "The water is a clear, turquoise-blue sea with gentle waves lapping onto a sandy beach. The water appears calm and transparent near the shore, gradually deepening in color further out.",
+      "attributes": {
+        "color": "turquoise-blue",
+        "clarity": "clear",
+        "wave_action": "gentle",
+        "depth_gradient": "shallow near shore, deeper further out",
+        "surface_texture": "smooth with small ripples"
+      },
+      "parse_ok": true
+    }
+  ]
+}

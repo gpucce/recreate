@@ -1,0 +1,263 @@
+{
+  "image": "image_6.png",
+  "visual_entities_source": "image_6.visual_entities.json",
+  "entities": [
+    {
+      "type": "blackboard",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        -1.0,
+        244.0,
+        88.5,
+        444.0
+      ],
+      "mask": "image_6.masks/blackboard_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a whiteboard or presentation screen displaying a document with a blue header bar and lines of illegible text, partially obscured by the shoulder of a person wearing a light blue shirt in the foreground.",
+      "attributes": {
+        "object": "whiteboard",
+        "content": {
+          "header": "blue bar",
+          "text": "illegible lines",
+          "background": "white"
+        },
+        "foreground": {
+          "person": {
+            "clothing": "light blue shirt",
+            "body_part": "shoulder"
+          }
+        },
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        976.0,
+        816.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_6.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a chair backrest featuring a smooth, light gray surface with a rounded top edge, positioned behind a person wearing a blue shirt.",
+      "attributes": {
+        "color": "light gray",
+        "material": "smooth, matte finish",
+        "shape": "rounded top edge",
+        "position": "background",
+        "context": "partially obscured by a person in blue clothing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        -2.0,
+        844.0,
+        960.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/desk_0.png",
+      "crop": null,
+      "description": "A light brown wooden desk with a visible grain pattern, featuring a clipboard with a white sheet of paper and a person's hands writing on it with a pen.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "wood grain",
+        "object_on_desk": "clipboard with paper",
+        "action": "writing",
+        "person_visible": "hands and arms only",
+        "clothing": "dark blue shirt"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        468.0,
+        404.0,
+        1012.0,
+        1020.0
+      ],
+      "mask": "image_6.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with voluminous, curly red hair is seated at a wooden table, wearing a dark blue V-neck scrub top and holding a silver pen in her right hand while writing on a clipboard. She is shown in profile facing left with a focused expression, positioned in the foreground while two other medical staff members stand in the background.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "red",
+          "texture": "curly",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": "dark blue V-neck scrub",
+          "accessories": "silver necklace"
+        },
+        "pose": "seated, writing",
+        "action": "holding a silver pen",
+        "expression": "focused",
+        "view": "profile"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        21.0,
+        134.0,
+        404.0,
+        872.0
+      ],
+      "mask": "image_6.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair stands in profile facing right, wearing a light blue short-sleeved medical scrub top with a pen clipped to the chest pocket and matching pants. He is gesturing with both hands open in front of his torso while speaking, positioned in a clinical setting with a whiteboard and exit sign visible in the background.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub shirt",
+          "bottom": "light blue scrub pants",
+          "accessories": "black pen in chest pocket"
+        },
+        "pose": "standing, gesturing with hands",
+        "expression": "speaking, mouth slightly open",
+        "social_role": "medical professional"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9609375,
+      "box": [
+        672.0,
+        92.0,
+        1000.0,
+        900.0
+      ],
+      "mask": "image_6.masks/person_2.png",
+      "crop": null,
+      "description": "A man with dark curly hair and a full beard stands in profile facing left, wearing light blue medical scrubs over a white undershirt. He has a serious expression and a pen clipped to his chest pocket, positioned behind a seated woman with red curly hair.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "full beard",
+        "clothing": {
+          "top": "light blue V-neck scrub top",
+          "undershirt": "white crew neck",
+          "accessories": "pen in chest pocket"
+        },
+        "pose": "standing",
+        "orientation": "profile facing left",
+        "expression": "serious"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.984375,
+      "box": [
+        374.0,
+        228.0,
+        656.0,
+        860.0
+      ],
+      "mask": "image_6.masks/person_3.png",
+      "crop": null,
+      "description": "A middle-aged woman with short brown hair and black-rimmed glasses stands with her arms crossed, wearing a dark blue V-neck scrub top with a pen in the chest pocket. She has a serious, attentive expression while looking to the side, and a hand holding a pen is visible in the foreground at the bottom.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "short",
+          "style": "bob"
+        },
+        "accessories": {
+          "glasses": "black-rimmed",
+          "necklace": "thin gold chain"
+        },
+        "clothing": {
+          "top": "dark blue V-neck scrub shirt",
+          "bottom": "dark blue scrub pants",
+          "pocket": "pen in left chest pocket"
+        },
+        "pose": "standing, arms crossed",
+        "expression": "serious, attentive",
+        "gaze": "looking to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 0,
+      "score": 0.6875,
+      "box": [
+        -0.5,
+        244.0,
+        88.0,
+        444.0
+      ],
+      "mask": "image_6.masks/sign_0.png",
+      "crop": null,
+      "description": "A close-up of a person's shoulder and upper back, wearing a light blue collared shirt. The background is out of focus, showing a white surface with faint text and a blue horizontal line, possibly a document or presentation slide.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue",
+          "collar": "visible"
+        },
+        "position": "side view, upper body",
+        "background": {
+          "surface": "white",
+          "text": "faint, illegible",
+          "line": "blue, horizontal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sign",
+      "index": 1,
+      "score": 0.87890625,
+      "box": [
+        334.0,
+        54.5,
+        434.0,
+        136.0
+      ],
+      "mask": "image_6.masks/sign_1.png",
+      "crop": null,
+      "description": "A rectangular sign with a white background and the word 'EXIT' written in bold, red, uppercase letters. The text is centered on the sign, and the edges of the sign are slightly blurred.",
+      "attributes": {
+        "text": "EXIT",
+        "text_color": "red",
+        "background_color": "white",
+        "shape": "rectangular",
+        "orientation": "horizontal",
+        "clarity": "slightly blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

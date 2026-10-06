@@ -1,0 +1,210 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        716.0,
+        416.0,
+        1024.0,
+        984.0
+      ],
+      "mask": "image_4.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A wooden cabinet with a warm, medium-brown finish and visible wood grain texture, featuring a drawer with a round, dark knob and a lower section with paneled doors and a metal handle.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "style": "traditional",
+        "features": {
+          "drawer": "visible with round knob",
+          "doors": "paneled with metal handle",
+          "finish": "glossy or semi-gloss"
+        },
+        "position": "background, behind a person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.5078125,
+      "box": [
+        -0.5,
+        384.0,
+        216.0,
+        448.0
+      ],
+      "mask": "image_4.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a round table surface featuring a patterned tablecloth with reddish-brown and beige floral or abstract motifs. A dark blue, textured fabric, likely a sleeve or garment, is visible on the right edge, while the background consists of a blurred wooden floor and a white baseboard.",
+      "attributes": {
+        "object": "table",
+        "shape": "round",
+        "surface": "tablecloth",
+        "pattern": "floral/abstract",
+        "colors": [
+          "reddish-brown",
+          "beige",
+          "white"
+        ],
+        "foreground_element": "dark blue fabric",
+        "background": "wooden floor, white baseboard",
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        32.0,
+        -1.5,
+        334.0,
+        174.0
+      ],
+      "mask": "image_4.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a wooden cabinet door featuring a medium-brown finish and a recessed panel design. A small, dark knob is visible on the left side of the door, and the image is heavily blurred, obscuring fine surface textures.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "style": "recessed panel",
+        "hardware": {
+          "knob": "dark, small, round"
+        },
+        "focus": "blurred",
+        "function": "storage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        868.0,
+        328.0,
+        932.0,
+        396.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus image of a person with long dark hair, appearing to be a woman, positioned behind a white and blue patterned object in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "pose": "sitting",
+        "image_quality": "blurry",
+        "foreground_object": {
+          "color": "white and blue",
+          "type": "cup or container"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        464.0,
+        266.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with short brown hair and a neutral expression sits on the lap of an elderly woman, wearing a light blue sweatshirt with a red, white, and blue 'Champion' logo across the chest. The woman's wrinkled hands rest on his lap, and her arm is around his shoulder, while the background features a wooden cabinet with a framed photo and a blue and white bowl.",
+      "attributes": {
+        "age": "child",
+        "gender": "male",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "clothing": {
+          "sweatshirt": {
+            "color": "light blue",
+            "brand": "Champion",
+            "logo": "red, white, and blue script"
+          },
+          "pants": {
+            "color": "blue"
+          }
+        },
+        "pose": "sitting on lap",
+        "expression": "neutral",
+        "context": {
+          "background": "wooden cabinet, framed photo, blue and white bowl",
+          "associated_person": "elderly woman with wrinkled hands"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        110.0,
+        64.0,
+        880.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits closely beside a young boy with short brown hair. The woman wears a dark blue velvet robe with intricate floral embroidery in red, yellow, and green along the lapels and cuffs, while the boy wears a light blue sweatshirt with the 'Champion' logo in red and blue. The woman has her arm around the boy, and both look directly at the camera with calm, neutral expressions.",
+      "attributes": {
+        "person_1": {
+          "gender": "female",
+          "age": "elderly",
+          "hair": {
+            "color": "white",
+            "style": "curly, short"
+          },
+          "clothing": {
+            "type": "robe",
+            "color": "dark blue",
+            "material": "velvet",
+            "details": "floral embroidery with red, yellow, green, and white beads on lapels and cuffs"
+          },
+          "accessories": {
+            "earrings": "small pearl or stud",
+            "necklace": "thin gold chain",
+            "ring": "visible on left hand"
+          },
+          "pose": "sitting, arm around child",
+          "expression": "calm, direct gaze"
+        },
+        "person_2": {
+          "gender": "male",
+          "age": "child",
+          "hair": {
+            "color": "brown",
+            "style": "short, slightly tousled"
+          },
+          "clothing": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "brand": "Champion",
+            "logo": "red and blue 'C' with 'Champion' text"
+          },
+          "pose": "sitting, leaning slightly toward woman",
+          "expression": "neutral, direct gaze"
+        },
+        "setting": {
+          "background": "indoor, warm lighting, wooden furniture, lamp with beige shade, framed photo on sideboard"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

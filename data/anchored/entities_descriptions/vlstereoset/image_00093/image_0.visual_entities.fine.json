@@ -1,0 +1,731 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        812.0,
+        512.0,
+        1328.0,
+        924.0
+      ],
+      "mask": "image_0.masks/chair_0.png",
+      "crop": null,
+      "description": "A white armchair with a modern, curved design and light blue trim along the edges and legs. The chair has a smooth, possibly upholstered surface and is positioned against a pink background.",
+      "attributes": {
+        "color": "white",
+        "trim_color": "light blue",
+        "style": "modern",
+        "material": "possibly upholstered",
+        "background_color": "pink",
+        "position": "seated person partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer monitor",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        446.0,
+        280.0,
+        740.0,
+        520.0
+      ],
+      "mask": "image_0.masks/computer monitor_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A flat-screen computer monitor with a dark gray bezel and stand is shown from the front, displaying a blue and white interface on its screen. A person with brown hair is sitting in front of the monitor, partially obscuring the view, with their arm raised and a blue cable running across the screen.\", \"attributes\": {\"bezel_color\": \"dark gray\", \"stand_color\": \"dark gray\", \"screen_content\": \"blue and white interface\", \"cable_color\": \"blue\", \"position\": \"front-facing\", \"obstruction\": \"partially obscured by person\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        177.0,
+        474.0,
+        908.0,
+        956.0
+      ],
+      "mask": "image_0.masks/desk_0.png",
+      "crop": null,
+      "description": "A white desk with a light blue top surface and blue outlines, featuring four rectangular legs and a computer monitor on top. The desk is positioned against a peach-colored wall with a white floor, and a person's legs in black pants and shoes are visible to the right.",
+      "attributes": {
+        "color": {
+          "top": "light blue",
+          "frame": "white",
+          "outlines": "blue"
+        },
+        "material": "appears to be wood or a wood-like material",
+        "shape": "rectangular top with four straight legs",
+        "position": "against a peach-colored wall",
+        "objects_on_top": [
+          "computer monitor"
+        ],
+        "visible_person": {
+          "clothing": {
+            "pants": "black",
+            "shoes": "black"
+          },
+          "position": "sitting to the right of the desk"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        624.0,
+        152.0,
+        1416.0,
+        976.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A man in a dark suit and blue tie is seated in a white armchair, leaning back with his arms raised in a gesture of excitement or celebration. He has short dark hair and is looking towards a woman who is partially visible on the left side of the frame, sitting at a desk with a laptop.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "clothing": {
+          "suit": "dark gray",
+          "shirt": "white",
+          "tie": "blue",
+          "shoes": "black"
+        },
+        "hair": "dark brown, short",
+        "pose": "sitting, leaning back, arms raised",
+        "expression": "excited, happy",
+        "position": "seated in a white armchair",
+        "context": "office or meeting room setting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.890625,
+      "box": [
+        494.0,
+        163.0,
+        824.0,
+        458.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair is shown in profile facing right, wearing a white sleeveless top. She is seated in front of a computer monitor, with her hands raised in a gesture of surprise or excitement, and a blue cable is visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "white",
+            "type": "sleeveless"
+          }
+        },
+        "pose": "seated, hands raised",
+        "expression": "surprised or excited",
+        "context": "using a computer"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "speech bubble",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        824.0,
+        56.5,
+        1064.0,
+        262.0
+      ],
+      "mask": "image_0.masks/speech bubble_0.png",
+      "crop": null,
+      "description": "A blue speech bubble with a gradient from light to dark blue, containing a scribbled line that forms a loop and extends out of the bubble. The speech bubble has a pointed tail at the bottom right.",
+      "attributes": {
+        "color": "blue gradient",
+        "shape": "oval with a pointed tail",
+        "content": "scribbled line forming a loop",
+        "tail_position": "bottom right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        1488.0,
+        36.0,
+        1600.0,
+        156.0
+      ],
+      "mask": "image_0.masks/watermark_0.png",
+      "crop": null,
+      "description": "A faint, light gray watermark text reading 'dreamstime' is displayed diagonally across a white background, with a small circular logo icon positioned above the text.",
+      "attributes": {
+        "text": "dreamstime",
+        "color": "light gray",
+        "orientation": "diagonal",
+        "background": "white",
+        "logo": "circular icon above text"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 1,
+      "score": 0.77734375,
+      "box": [
+        1512.0,
+        964.0,
+        1584.0,
+        1040.0
+      ],
+      "mask": "image_0.masks/watermark_1.png",
+      "crop": null,
+      "description": "A faint, white spiral watermark centered on a white background, consisting of multiple concentric, slightly irregular circular lines that form a spiral pattern.",
+      "attributes": {
+        "color": "white",
+        "shape": "spiral",
+        "pattern": "concentric circles",
+        "opacity": "low",
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 2,
+      "score": 0.75390625,
+      "box": [
+        1488.0,
+        636.0,
+        1600.0,
+        760.0
+      ],
+      "mask": "image_0.masks/watermark_2.png",
+      "crop": null,
+      "description": "A diagonal watermark consisting of the text 'dreamstime' in a light gray, semi-transparent font, accompanied by a small spiral logo to the left of the text. The watermark is positioned across a white background with a solid red rectangular shape on the left side.",
+      "attributes": {
+        "text": "dreamstime",
+        "color": "light gray",
+        "opacity": "semi-transparent",
+        "orientation": "diagonal",
+        "logo": "spiral",
+        "background": "white with red rectangle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 3,
+      "score": 0.75390625,
+      "box": [
+        912.0,
+        362.0,
+        988.0,
+        434.0
+      ],
+      "mask": "image_0.masks/watermark_3.png",
+      "crop": null,
+      "description": "A stylized, abstract watermark featuring a spiral design in shades of gray and white, set against a background split diagonally between a muted pink and a dark gray. The spiral is composed of concentric, curved lines that create a sense of motion or depth, with the innermost part being a solid dark gray circle. The overall aesthetic is modern and minimalistic, with a focus on geometric shapes and a limited color palette.",
+      "attributes": {
+        "color": {
+          "background": [
+            "muted pink",
+            "dark gray"
+          ],
+          "spiral": [
+            "gray",
+            "white"
+          ]
+        },
+        "shape": "spiral",
+        "style": "abstract, minimalistic",
+        "position": "centered, diagonal split background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 4,
+      "score": 0.78515625,
+      "box": [
+        0.390625,
+        932.0,
+        114.0,
+        1048.0
+      ],
+      "mask": "image_0.masks/watermark_4.png",
+      "crop": null,
+      "description": "A faint, semi-transparent watermark consisting of the word 'dreamstime' in a light gray, sans-serif font, accompanied by a small camera icon above the 'i', is visible diagonally across a white background.",
+      "attributes": {
+        "text": "dreamstime",
+        "color": "light gray",
+        "orientation": "diagonal",
+        "background": "white",
+        "icon": "camera",
+        "transparency": "semi-transparent"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 5,
+      "score": 0.8046875,
+      "box": [
+        1184.0,
+        932.0,
+        1312.0,
+        1048.0
+      ],
+      "mask": "image_0.masks/watermark_5.png",
+      "crop": null,
+      "description": "A faint, light gray watermark consisting of the text 'dreamstime' in a cursive font, accompanied by a small camera icon, is visible diagonally across the white background.",
+      "attributes": {
+        "type": "text watermark",
+        "text": "dreamstime",
+        "font": "cursive",
+        "color": "light gray",
+        "orientation": "diagonal",
+        "icon": "camera",
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 6,
+      "score": 0.73828125,
+      "box": [
+        -1.5625,
+        330.0,
+        108.0,
+        460.0
+      ],
+      "mask": "image_0.masks/watermark_6.png",
+      "crop": null,
+      "description": "A faint, semi-transparent watermark consisting of a repeating pattern of a circular logo and text, oriented diagonally across a white background.",
+      "attributes": {
+        "type": "watermark",
+        "orientation": "diagonal",
+        "color": "light gray",
+        "opacity": "semi-transparent",
+        "content": "repeating logo and text",
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 7,
+      "score": 0.75390625,
+      "box": [
+        912.0,
+        964.0,
+        988.0,
+        1040.0
+      ],
+      "mask": "image_0.masks/watermark_7.png",
+      "crop": null,
+      "description": "A faint, light gray spiral watermark centered on a white background, consisting of multiple concentric, slightly irregular circular lines that spiral inward toward a small central point.",
+      "attributes": {
+        "shape": "spiral",
+        "color": "light gray",
+        "background": "white",
+        "opacity": "low",
+        "lines": "concentric, irregular",
+        "center": "small point"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 8,
+      "score": 0.78515625,
+      "box": [
+        312.0,
+        362.0,
+        388.0,
+        434.0
+      ],
+      "mask": "image_0.masks/watermark_8.png",
+      "crop": null,
+      "description": "A light pink spiral watermark on a peach-colored background, featuring a smooth, continuous line that coils inward from the outer edge to the center.",
+      "attributes": {
+        "color": "light pink",
+        "background_color": "peach",
+        "shape": "spiral",
+        "style": "minimalist",
+        "line_thickness": "uniform",
+        "orientation": "clockwise"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 9,
+      "score": 0.77734375,
+      "box": [
+        310.0,
+        964.0,
+        390.0,
+        1040.0
+      ],
+      "mask": "image_0.masks/watermark_9.png",
+      "crop": null,
+      "description": "A faint, light gray spiral watermark centered on a white background, consisting of multiple concentric, slightly irregular lines that curve inward toward a central point.",
+      "attributes": {
+        "shape": "spiral",
+        "color": "light gray",
+        "background": "white",
+        "opacity": "low",
+        "line_style": "thin, continuous",
+        "symmetry": "radial",
+        "position": "centered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 10,
+      "score": 0.74609375,
+      "box": [
+        288.0,
+        636.0,
+        412.0,
+        760.0
+      ],
+      "mask": "image_0.masks/watermark_10.png",
+      "crop": null,
+      "description": "A semi-transparent white watermark text 'dreamstime' is displayed diagonally across a solid peach-colored background, with a small blue line visible in the upper right corner.",
+      "attributes": {
+        "text": "dreamstime",
+        "color": "white",
+        "opacity": "semi-transparent",
+        "orientation": "diagonal",
+        "background_color": "peach",
+        "additional_element": "blue line in upper right"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 11,
+      "score": 0.7421875,
+      "box": [
+        1184.0,
+        332.0,
+        1320.0,
+        458.0
+      ],
+      "mask": "image_0.masks/watermark_11.png",
+      "crop": null,
+      "description": "A diagonal watermark consisting of the word 'dreamstime' in a light gray, sans-serif font, accompanied by a small spiral logo above the 'i', set against a background of pink and dark gray shapes.",
+      "attributes": {
+        "text": "dreamstime",
+        "color": "light gray",
+        "orientation": "diagonal",
+        "logo": "spiral",
+        "background": [
+          "pink",
+          "dark gray"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 12,
+      "score": 0.80859375,
+      "box": [
+        288.0,
+        34.0,
+        412.0,
+        159.0
+      ],
+      "mask": "image_0.masks/watermark_12.png",
+      "crop": null,
+      "description": "A faint, light gray watermark consisting of the text 'dreamstime' in a cursive font, accompanied by a small square logo containing a stylized 'd' above the text, positioned diagonally across a white background.",
+      "attributes": {
+        "type": "text watermark",
+        "text": "dreamstime",
+        "font": "cursive",
+        "color": "light gray",
+        "orientation": "diagonal",
+        "logo": "square with stylized 'd'",
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 13,
+      "score": 0.78125,
+      "box": [
+        11.3125,
+        660.0,
+        88.5,
+        732.0
+      ],
+      "mask": "image_0.masks/watermark_13.png",
+      "crop": null,
+      "description": "A faint, light gray spiral watermark centered on a white background, consisting of multiple concentric, slightly irregular lines that form a swirling pattern.",
+      "attributes": {
+        "shape": "spiral",
+        "color": "light gray",
+        "background": "white",
+        "opacity": "low",
+        "style": "hand-drawn or organic",
+        "position": "centered"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 14,
+      "score": 0.79296875,
+      "box": [
+        612.0,
+        62.0,
+        688.0,
+        132.0
+      ],
+      "mask": "image_0.masks/watermark_14.png",
+      "crop": null,
+      "description": "A faint, white, spiral-shaped watermark centered on a plain white background, featuring a stylized, abstract design that resembles a swirl or a stylized letter 'S'. The watermark is subtle and blends into the background, with no distinct colors or textures other than the white lines forming the spiral.",
+      "attributes": {
+        "color": "white",
+        "shape": "spiral",
+        "style": "abstract",
+        "background": "white",
+        "visibility": "faint"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 15,
+      "score": 0.74609375,
+      "box": [
+        1520.0,
+        364.0,
+        1584.0,
+        436.0
+      ],
+      "mask": "image_0.masks/watermark_15.png",
+      "crop": null,
+      "description": "A vertical red stripe on the left side of the image, adjacent to a white background with a faint, circular watermark pattern.",
+      "attributes": {
+        "color": "red",
+        "shape": "vertical stripe",
+        "position": "left side",
+        "background": "white with faint circular watermark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 16,
+      "score": 0.765625,
+      "box": [
+        620.0,
+        660.0,
+        688.0,
+        732.0
+      ],
+      "mask": "image_0.masks/watermark_16.png",
+      "crop": null,
+      "description": "A flat, two-dimensional graphic featuring a light pink spiral design on a salmon-pink background, with a vertical light blue stripe along the left edge.",
+      "attributes": {
+        "shape": "spiral",
+        "colors": {
+          "background": "salmon pink",
+          "spiral": "light pink",
+          "stripe": "light blue"
+        },
+        "style": "flat design",
+        "orientation": "vertical stripe on left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 17,
+      "score": 0.7109375,
+      "box": [
+        588.0,
+        948.0,
+        700.0,
+        1056.0
+      ],
+      "mask": "image_0.masks/watermark_17.png",
+      "crop": null,
+      "description": "The image shows a white background with a faint, diagonal watermark text in a light gray color. The text appears to be in a non-Latin script, possibly Thai or a similar Southeast Asian language, and is repeated across the image. There is a solid blue horizontal bar at the bottom of the image.",
+      "attributes": {
+        "background": "white",
+        "watermark_text": {
+          "color": "light gray",
+          "orientation": "diagonal",
+          "script": "non-Latin, possibly Thai",
+          "repetition": "repeated across the image"
+        },
+        "bottom_bar": {
+          "color": "blue",
+          "shape": "horizontal bar"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 18,
+      "score": 0.79296875,
+      "box": [
+        11.75,
+        62.25,
+        86.5,
+        132.0
+      ],
+      "mask": "image_0.masks/watermark_18.png",
+      "crop": null,
+      "description": "A faint, light gray spiral watermark centered on a white background, consisting of multiple concentric, slightly irregular circular lines that form a swirling pattern.",
+      "attributes": {
+        "color": "light gray",
+        "shape": "spiral",
+        "pattern": "concentric circles",
+        "background": "white",
+        "opacity": "low",
+        "style": "abstract"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 19,
+      "score": 0.75,
+      "box": [
+        880.0,
+        632.0,
+        1008.0,
+        764.0
+      ],
+      "mask": "image_0.masks/watermark_19.png",
+      "crop": null,
+      "description": "A diagonal watermark consisting of the word 'dreamstime' in a light gray, sans-serif font, accompanied by a small circular logo with a spiral design, overlaid on a dark gray, textured surface.",
+      "attributes": {
+        "text": "dreamstime",
+        "color": "light gray",
+        "font": "sans-serif",
+        "orientation": "diagonal",
+        "logo": "circular with spiral",
+        "background": "dark gray textured surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 20,
+      "score": 0.53515625,
+      "box": [
+        888.0,
+        34.0,
+        1012.0,
+        159.0
+      ],
+      "mask": "image_0.masks/watermark_20.png",
+      "crop": null,
+      "description": "A coiled blue cable or hose is lying on a light blue surface, with the coils forming a circular pattern. The cable appears to be made of a flexible material and is neatly arranged in a spiral shape.",
+      "attributes": {
+        "color": "blue",
+        "material": "flexible",
+        "shape": "coiled",
+        "arrangement": "spiral",
+        "surface": "light blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 21,
+      "score": 0.8046875,
+      "box": [
+        1216.0,
+        62.25,
+        1288.0,
+        132.0
+      ],
+      "mask": "image_0.masks/watermark_21.png",
+      "crop": null,
+      "description": "A faint, white spiral pattern consisting of multiple concentric, slightly irregular lines that curve inward toward a central point, resembling a stylized whirlpool or vortex. The lines are thin and semi-transparent against a white background, creating a subtle, ghostly effect.",
+      "attributes": {
+        "shape": "spiral",
+        "color": "white",
+        "opacity": "semi-transparent",
+        "line_style": "thin, slightly irregular",
+        "pattern": "concentric curves",
+        "orientation": "clockwise inward spiral",
+        "background": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 22,
+      "score": 0.64453125,
+      "box": [
+        18.0,
+        1080.0,
+        284.0,
+        1120.0
+      ],
+      "mask": "image_0.masks/watermark_22.png",
+      "crop": null,
+      "description": "A blue rectangular watermark featuring the text 'dreamstime.com' in white, lowercase, sans-serif font, with a stylized white spiral icon above the letter 'i'.",
+      "attributes": {
+        "text": "dreamstime.com",
+        "font": "sans-serif",
+        "color": {
+          "background": "blue",
+          "text": "white"
+        },
+        "icon": "white spiral above the letter 'i'",
+        "orientation": "horizontal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "watermark",
+      "index": 23,
+      "score": 0.71875,
+      "box": [
+        1216.0,
+        660.0,
+        1288.0,
+        732.0
+      ],
+      "mask": "image_0.masks/watermark_23.png",
+      "crop": null,
+      "description": "A faint, light gray spiral pattern on a white background, consisting of multiple concentric, slightly irregular lines that curve inward toward a central point.",
+      "attributes": {
+        "shape": "spiral",
+        "color": "light gray",
+        "background": "white",
+        "line_style": "thin, slightly irregular",
+        "orientation": "clockwise inward"
+      },
+      "parse_ok": true
+    }
+  ]
+}

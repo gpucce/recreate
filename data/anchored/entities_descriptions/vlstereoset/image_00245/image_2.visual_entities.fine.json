@@ -1,0 +1,113 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        -2.0,
+        118.0,
+        992.0,
+        1016.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with dark curly hair and a light blue long-sleeved shirt lies on a beige couch, holding a baby in a white onesie on her chest. The woman has her eyes closed and a gentle expression, while the baby looks upward with wide eyes.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "indeterminate",
+        "social_role": "mother",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "light blue long-sleeved shirt"
+        },
+        "pose": "lying down",
+        "expression": "calm, eyes closed",
+        "position": "on a couch",
+        "holding": "baby"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9296875,
+      "box": [
+        2.0,
+        434.0,
+        800.0,
+        976.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up of an infant with fair skin and short dark hair lying on their back, wearing a white short-sleeved bodysuit and white socks, with one arm raised and a calm, alert expression looking upward. The baby is being held by an adult wearing a light blue long-sleeved shirt, whose hands are visible supporting the infant's torso and head.",
+      "attributes": {
+        "age": "infant",
+        "gender": "unknown",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "skin_tone": "fair",
+        "clothing": {
+          "bodysuit": {
+            "color": "white",
+            "sleeves": "short"
+          },
+          "socks": {
+            "color": "white"
+          }
+        },
+        "pose": "lying on back",
+        "expression": "calm, alert",
+        "context": "being held by an adult"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        4.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/sofa_0.png",
+      "crop": null,
+      "description": "A woman with dark curly hair and a baby with short brown hair are lying on a light beige fabric sofa. The woman is wearing a light blue long-sleeved shirt and has her eyes closed with a peaceful expression, while the baby, dressed in a white onesie and white socks, is looking up with an alert expression.",
+      "attributes": {
+        "sofa": {
+          "color": "light beige",
+          "material": "fabric",
+          "type": "couch"
+        },
+        "woman": {
+          "hair": "dark curly",
+          "clothing": {
+            "top": "light blue long-sleeved shirt"
+          },
+          "pose": "lying down",
+          "expression": "peaceful, eyes closed"
+        },
+        "baby": {
+          "hair": "short brown",
+          "clothing": {
+            "onesie": "white",
+            "socks": "white"
+          },
+          "pose": "lying on back",
+          "expression": "alert, looking up"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

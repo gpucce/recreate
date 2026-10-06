@@ -1,0 +1,147 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        500.0,
+        240.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length wavy blonde hair sits on a grey couch, wearing a light grey t-shirt and beige pants. She has an expressive, slightly surprised or questioning look on her face with her mouth slightly open and both hands raised with palms facing inward in a gesturing motion.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "surprised or questioning",
+        "hand_gesture": "raised palms facing inward",
+        "setting": "indoor, on a grey couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        66.0,
+        242.0,
+        528.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with shoulder-length brown hair sits on a grey couch, wearing a white t-shirt and beige pants, with an angry and frustrated expression while gesturing with her hands raised in a defensive or argumentative manner.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "expression": "angry, frustrated, frowning",
+        "pose": "sitting, hands raised with palms facing out",
+        "clothing": {
+          "top": "white short-sleeved t-shirt",
+          "bottom": "beige trousers"
+        },
+        "setting": "indoor, sitting on a grey sofa"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        884.0,
+        314.0,
+        1020.0,
+        398.0
+      ],
+      "mask": "image_2.masks/plant_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green houseplant with long, slender, arching leaves radiating from a central base, set against a plain, light-colored background.",
+      "attributes": {
+        "type": "houseplant",
+        "leaf_shape": "long and slender",
+        "leaf_color": "green",
+        "growth_pattern": "arched and radiating",
+        "focus": "blurry",
+        "background": "plain light color"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        -0.75,
+        316.0,
+        112.0,
+        400.0
+      ],
+      "mask": "image_2.masks/plant_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a green houseplant with long, slender leaves radiating from a central point, set against a plain, light-colored background.",
+      "attributes": {
+        "color": "green",
+        "leaf_shape": "long and slender",
+        "arrangement": "radiating",
+        "focus": "blurry",
+        "background": "light-colored"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        2.0,
+        482.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/sofa_0.png",
+      "crop": null,
+      "description": "A gray fabric sofa with a textured, woven appearance, featuring two large seat cushions and matching back cushions. The sofa has a modern, minimalist design with clean lines and a neutral color palette. Two individuals are seated on the sofa, their legs and lower torsos visible, suggesting a comfortable and spacious seating arrangement.",
+      "attributes": {
+        "color": "gray",
+        "material": "fabric",
+        "texture": "woven",
+        "design": "modern, minimalist",
+        "cushions": {
+          "seat": "two large",
+          "back": "two large"
+        },
+        "position": "horizontal",
+        "function": "seating"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        50.0,
+        458.0,
+        984.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up view of a man's upper torso wearing a formal black suit jacket with wide lapels and a single visible button, layered over a black vest and a white high-collared shirt with a black bow tie. The man has a thick, reddish-brown mustache, and the background is a mottled, dark brown and grey texture typical of an oil painting.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "adult",
+        "facial_hair": {
+          "mustache": "thick, reddish-brown"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "style": "formal suit",
+            "features": "wide lapels, single button visible"
+          },
+          "vest": {
+            "color": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "neckwear": {
+            "type": "bow tie",
+            "color": "black"
+          }
+        },
+        "art_style": "oil painting",
+        "background": "dark, mottled brown and grey"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        52.0,
+        82.0,
+        988.0,
+        1024.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A painted portrait of a middle-aged man with curly dark hair and a prominent mustache, wearing a black suit jacket, white shirt, and black bow tie, set against a mottled brown and grey background. The man has a serious expression and is looking slightly to the side.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, dark, curled ends",
+          "sideburns": "present"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "type": "suit"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high"
+          },
+          "neckwear": {
+            "type": "bow tie",
+            "color": "black"
+          }
+        },
+        "pose": "bust-up portrait, facing slightly right",
+        "expression": "serious",
+        "medium": "oil painting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

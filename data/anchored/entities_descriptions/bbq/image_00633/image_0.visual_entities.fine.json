@@ -1,0 +1,184 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        1.5625,
+        1.046875,
+        800.0,
+        536.0
+      ],
+      "mask": "image_0.masks/car_0.png",
+      "crop": null,
+      "description": "A red car with a black interior, featuring two occupants: a woman in the passenger seat holding a coffee cup and a man in the driver's seat wearing a white shirt. The car has a modern design with visible headrests and seatbelts.",
+      "attributes": {
+        "color": "red",
+        "interior_color": "black",
+        "occupants": {
+          "passenger": {
+            "gender": "female",
+            "hair": "brown",
+            "clothing": "light-colored top",
+            "accessories": {
+              "ring": "visible",
+              "watch": "visible"
+            },
+            "holding": "coffee cup"
+          },
+          "driver": {
+            "gender": "male",
+            "hair": "blonde",
+            "clothing": "white shirt",
+            "seatbelt": "visible"
+          }
+        },
+        "features": {
+          "headrests": "black",
+          "seatbelts": "visible",
+          "design": "modern"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        274.0,
+        348.0,
+        398.0,
+        478.0
+      ],
+      "mask": "image_0.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a disposable paper coffee cup filled with a thick layer of white foam. The cup is a light tan color and is being held by a hand, with fingers visible at the bottom of the frame.",
+      "attributes": {
+        "object": "coffee cup",
+        "material": "paper",
+        "color": "tan",
+        "contents": "white foam",
+        "state": "filled",
+        "focus": "blurry",
+        "context": "held by hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        352.0,
+        66.0,
+        780.0,
+        524.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A person with short blonde hair is seated in the driver's seat of a car, wearing a white collared shirt and a seatbelt, holding a brown paper cup in their left hand. The person's face is blurred, and the car interior features red seats and a black dashboard.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "hair": {
+          "color": "blonde",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "white",
+            "type": "collared"
+          },
+          "accessories": {
+            "seatbelt": "black"
+          }
+        },
+        "pose": "sitting",
+        "location": "driver's seat",
+        "object_in_hand": {
+          "type": "cup",
+          "color": "brown",
+          "material": "paper"
+        },
+        "car_interior": {
+          "seat_color": "red",
+          "dashboard_color": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        -1.5625,
+        37.75,
+        412.0,
+        520.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length brown hair is seen in profile from the back, sitting in the driver's seat of a car. She is wearing a light blue or grey top and a dark seatbelt, with her right hand raised near her chest and a watch on her wrist.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": "light blue/grey",
+          "accessories": {
+            "seatbelt": "dark",
+            "watch": "visible on wrist"
+          }
+        },
+        "pose": "sitting, facing forward",
+        "location": "driver's seat of a car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ring",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        130.0,
+        330.0,
+        151.0,
+        352.0
+      ],
+      "mask": "image_0.masks/ring_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "watch",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        212.0,
+        402.0,
+        288.0,
+        464.0
+      ],
+      "mask": "image_0.masks/watch_0.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a wrist wearing a watch with a dark band and a round, light-colored face. The watch is positioned on the wrist, partially obscured by the angle and low resolution.",
+      "attributes": {
+        "band_color": "dark",
+        "face_color": "light",
+        "shape": "round",
+        "clarity": "blurry",
+        "position": "on wrist"
+      },
+      "parse_ok": true
+    }
+  ]
+}

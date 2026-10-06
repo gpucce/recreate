@@ -1,0 +1,467 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "calculator",
+      "index": 0,
+      "score": 0.796875,
+      "box": [
+        288.0,
+        916.0,
+        464.0,
+        972.0
+      ],
+      "mask": "image_11.masks/calculator_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A black calculator with a rectangular shape and rounded edges, featuring a grid of round buttons in various shades of gray and white, with two red buttons on the right side. The calculator is positioned at an angle, with a blurred background suggesting it is placed on a flat surface.\", \"attributes\": {\"color\": \"black\", \"shape\": \"rectangular with rounded edges\", \"buttons\": {\"color\": \"gray, white, red\", \"shape\": \"round\", \"arrangement\": \"grid\"}, \"position\": \"angled\", \"background\": \"blurred, flat surface\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "coffee cup",
+      "index": 0,
+      "score": 0.546875,
+      "box": [
+        176.0,
+        836.0,
+        302.0,
+        1012.0
+      ],
+      "mask": "image_11.masks/coffee cup_0.png",
+      "crop": null,
+      "description": "A white disposable coffee cup with a matching white lid sits on a white surface, appearing slightly out of focus. The cup has a cylindrical shape with a smooth, matte finish and a ribbed texture near the top rim.",
+      "attributes": {
+        "color": "white",
+        "material": "paper or plastic",
+        "shape": "cylindrical",
+        "lid": {
+          "color": "white",
+          "type": "disposable"
+        },
+        "texture": "smooth, matte",
+        "focus": "slightly blurred",
+        "position": "centered",
+        "surface": "white"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.59375,
+      "box": [
+        426.0,
+        72.0,
+        564.0,
+        382.0
+      ],
+      "mask": "image_11.masks/glass_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a glass window or door with a dark frame on the left side. The glass appears to be reflecting light, creating a bright, hazy area in the center, with a faint horizontal line visible across the middle.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark",
+        "focus": "blurry",
+        "reflection": "bright",
+        "shape": "rectangular"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.6640625,
+      "box": [
+        203.0,
+        43.0,
+        400.0,
+        364.0
+      ],
+      "mask": "image_11.masks/glass_1.png",
+      "crop": null,
+      "description": "A close-up crop showing the top of a woman's head with blonde hair pulled back, revealing her forehead and right eye. The background is a blurred office setting with a dark window frame and a ceiling light.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "female",
+        "hair": {
+          "color": "blonde",
+          "style": "pulled back",
+          "texture": "straight"
+        },
+        "face": {
+          "visible_parts": [
+            "forehead",
+            "right eye",
+            "right eyebrow"
+          ],
+          "eye_color": "blue",
+          "skin_tone": "fair"
+        },
+        "background": {
+          "setting": "indoor office",
+          "elements": [
+            "window frame",
+            "ceiling light"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.5390625,
+      "box": [
+        -2.5,
+        10.0,
+        192.0,
+        472.0
+      ],
+      "mask": "image_11.masks/glass_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of an office environment featuring a dark-framed glass partition or window in the foreground. In the background, a white wall with horizontal lines and the silhouettes of office chairs and a desk are visible.",
+      "attributes": {
+        "object_type": "glass partition",
+        "frame_color": "black",
+        "background": "office interior",
+        "background_elements": [
+          "white wall",
+          "office chairs",
+          "desk"
+        ],
+        "focus": "blurry",
+        "lighting": "indoor, diffused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.60546875,
+      "box": [
+        916.0,
+        154.0,
+        1024.0,
+        354.0
+      ],
+      "mask": "image_11.masks/glass_3.png",
+      "crop": null,
+      "description": "The image is extremely blurry and out of focus, showing a large, light-colored rectangular area that appears to be a window or glass pane. At the bottom center, there is a dark, indistinct shape that could be the top of a person's head or hair, but it is too blurred to identify any specific features.",
+      "attributes": {
+        "clarity": "extremely blurry",
+        "main_element": "light-colored rectangular area (likely glass or window)",
+        "bottom_element": "dark, indistinct shape (possibly top of head/hair)",
+        "colors": [
+          "light gray/white",
+          "dark brown/black"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.51953125,
+      "box": [
+        576.0,
+        97.0,
+        672.0,
+        352.0
+      ],
+      "mask": "image_11.masks/glass_4.png",
+      "crop": null,
+      "description": "A close-up profile view of a person's head showing tight, curly brown hair and the upper portion of the face including the eye and eyebrow. The background is a soft, out-of-focus light gray or white surface.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "style": "short"
+        },
+        "face": {
+          "view": "profile",
+          "visible_features": [
+            "eye",
+            "eyebrow",
+            "forehead"
+          ]
+        },
+        "background": {
+          "color": "light gray",
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        30.0,
+        652.0,
+        454.0,
+        884.0
+      ],
+      "mask": "image_11.masks/notebook_0.png",
+      "crop": null,
+      "description": "A person wearing a white button-down shirt is seated at a desk, gesturing with their right hand while their left hand rests near a silver laptop. The person is wearing a wristwatch with a brown leather strap and a gold-toned case on their right wrist.",
+      "attributes": {
+        "clothing": {
+          "shirt": "white button-down"
+        },
+        "accessories": {
+          "watch": {
+            "strap": "brown leather",
+            "case": "gold-toned"
+          }
+        },
+        "pose": "seated, gesturing with right hand",
+        "position": "at a desk with a laptop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "notebook",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        360.0,
+        856.0,
+        792.0,
+        968.0
+      ],
+      "mask": "image_11.masks/notebook_1.png",
+      "crop": null,
+      "description": "An open notebook with white, lined pages and a red cover lies flat on a white surface, with a black and silver pen resting diagonally across the center. A black calculator is partially visible in the bottom left corner, and a person's hand and suit sleeve are visible at the top edge.",
+      "attributes": {
+        "object": "notebook",
+        "state": "open",
+        "pages": {
+          "color": "white",
+          "type": "lined"
+        },
+        "cover": {
+          "color": "red"
+        },
+        "position": "flat on surface",
+        "associated_objects": {
+          "pen": {
+            "color": "black and silver",
+            "position": "diagonal across pages"
+          },
+          "calculator": {
+            "color": "black",
+            "position": "bottom left"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.7734375,
+      "box": [
+        532.0,
+        872.0,
+        620.0,
+        920.0
+      ],
+      "mask": "image_11.masks/pen_0.png",
+      "crop": null,
+      "description": "A close-up view of a pen with a metallic, reflective surface featuring a pattern of alternating dark and light bands or segments. The pen is positioned diagonally across the frame, with a blurred background that suggests a shallow depth of field.",
+      "attributes": {
+        "material": "metallic",
+        "color": "silver and black",
+        "pattern": "alternating bands",
+        "position": "diagonal",
+        "focus": "shallow depth of field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        944.0,
+        314.0,
+        992.0,
+        354.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9765625,
+      "box": [
+        436.0,
+        194.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A man with curly brown hair and light stubble is seated at a white desk, wearing a grey suit jacket over a light blue dress shirt and a dark blue tie. He is looking to the left with a serious expression, his hands clasped together on the table in front of an open notebook and a pen.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "light stubble",
+        "clothing": {
+          "jacket": "grey suit",
+          "shirt": "light blue dress shirt",
+          "tie": "dark blue"
+        },
+        "accessories": {
+          "watch": "silver wristwatch"
+        },
+        "pose": "sitting, hands clasped",
+        "expression": "serious, attentive",
+        "context": "office meeting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        91.0,
+        248.0,
+        516.0,
+        800.0
+      ],
+      "mask": "image_11.masks/person_2.png",
+      "crop": null,
+      "description": "A fair-skinned woman with blonde hair tied back in a low ponytail is seated at a desk, wearing a white button-down shirt and gesturing with both hands while speaking. She wears a gold watch on her left wrist and a delicate necklace, with a laptop partially visible in the foreground and an office environment blurred in the background.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "ethnicity": "Caucasian",
+        "hair": {
+          "color": "blonde",
+          "style": "low ponytail"
+        },
+        "clothing": {
+          "shirt": "white, long-sleeved, button-down",
+          "accessories": {
+            "watch": "gold band, light-colored face",
+            "necklace": "thin chain with small pendant"
+          }
+        },
+        "pose": "seated, gesturing with both hands open, palms up",
+        "expression": "engaged, mid-speech, mouth slightly open",
+        "setting": "office, desk with laptop, blurred background with monitors and plants",
+        "social_role": "professional, likely in a meeting or presentation"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        -2.0,
+        764.0,
+        984.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a white office desk surface featuring a black DSLR camera, a white disposable coffee cup, a black calculator, and an open spiral-bound notebook with a pen resting on it. A person wearing a grey suit jacket and a wristwatch is seated at the desk with their hands clasped together.",
+      "attributes": {
+        "desk": {
+          "color": "white",
+          "material": "smooth surface"
+        },
+        "objects": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "left foreground"
+          },
+          "cup": {
+            "type": "disposable coffee cup",
+            "color": "white",
+            "lid": "white"
+          },
+          "calculator": {
+            "color": "black",
+            "buttons": "black and red"
+          },
+          "notebook": {
+            "binding": "spiral",
+            "cover": "red",
+            "pages": "white, open"
+          },
+          "pen": {
+            "color": "black and white",
+            "position": "resting on notebook"
+          },
+          "laptop": {
+            "color": "silver",
+            "position": "background, partially visible"
+          }
+        },
+        "person": {
+          "visible_parts": "arms, hands, torso",
+          "clothing": {
+            "jacket": "grey suit",
+            "shirt": "light blue",
+            "tie": "dark blue"
+          },
+          "accessories": {
+            "watch": "silver band, white face"
+          },
+          "pose": "hands clasped on desk"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.58984375,
+      "box": [
+        11.5,
+        474.0,
+        204.0,
+        640.0
+      ],
+      "mask": "image_11.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up of a person's right hand, palm facing up and fingers slightly curled, gesturing in front of a blurred office background. The person is wearing a white short-sleeved shirt.",
+      "attributes": {
+        "hand": {
+          "position": "right",
+          "gesture": "open palm, fingers slightly curled",
+          "skin_tone": "light"
+        },
+        "clothing": {
+          "shirt": "white",
+          "sleeve": "short"
+        },
+        "background": {
+          "setting": "office",
+          "objects": [
+            "black office chair",
+            "desk"
+          ],
+          "focus": "blurred"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "blanket",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        392.0,
+        756.0,
+        896.0,
+        884.0
+      ],
+      "mask": "image_1.masks/blanket_0.png",
+      "crop": null,
+      "description": "A red blanket with a black border is spread out on the ground, serving as a play area for a child and various toys. The blanket appears to be made of a soft, fabric material and is partially covered by fallen leaves and grass at its edges.",
+      "attributes": {
+        "color": "red",
+        "border_color": "black",
+        "material": "fabric",
+        "position": "spread out on the ground",
+        "function": "play area",
+        "surroundings": "fallen leaves and grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bottle",
+      "index": 0,
+      "score": 0.88671875,
+      "box": [
+        528.0,
+        764.0,
+        552.0,
+        820.0
+      ],
+      "mask": "image_1.masks/bottle_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "ground",
+      "index": 0,
+      "score": 0.5234375,
+      "box": [
+        2.0,
+        616.0,
+        880.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/ground_0.png",
+      "crop": null,
+      "description": "The ground consists of a concrete sidewalk on the left and a grassy area covered in dry, brown autumn leaves on the right. A red blanket is spread out on the grass, with various toys scattered on and around it.",
+      "attributes": {
+        "surface": [
+          "concrete",
+          "grass"
+        ],
+        "condition": "dry",
+        "season": "autumn",
+        "objects": [
+          "red blanket",
+          "toys",
+          "leaves"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ground",
+      "index": 1,
+      "score": 0.546875,
+      "box": [
+        0.0,
+        564.0,
+        290.0,
+        604.0
+      ],
+      "mask": "image_1.masks/ground_1.png",
+      "crop": null,
+      "description": "{\"description\": \"The ground is a patchy mix of green grass and brown dirt, with a blurred background suggesting a natural outdoor setting. The texture appears uneven, with some areas showing more grass and others more exposed soil.\", \"attributes\": {\"color\": [\"green\", \"brown\"], \"texture\": \"uneven\", \"material\": [\"grass\", \"dirt\"], \"setting\": \"outdoor\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "ground",
+      "index": 2,
+      "score": 0.6953125,
+      "box": [
+        6.0,
+        588.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/ground_2.png",
+      "crop": null,
+      "description": "The ground consists of a concrete sidewalk on the left and a grassy area on the right, both covered with scattered brown and yellow fallen leaves. A red blanket is spread out on the grass, with a child sitting on it playing with toys.",
+      "attributes": {
+        "surface": [
+          "concrete sidewalk",
+          "grass"
+        ],
+        "leaves": {
+          "color": [
+            "brown",
+            "yellow"
+          ],
+          "distribution": "scattered"
+        },
+        "blanket": {
+          "color": "red",
+          "position": "on grass"
+        },
+        "child": {
+          "position": "sitting on blanket",
+          "activity": "playing with toys"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        508.0,
+        258.0,
+        940.0,
+        600.0
+      ],
+      "mask": "image_1.masks/house_0.png",
+      "crop": null,
+      "description": "A single-story house with beige siding and a dark brown shingled roof, featuring a prominent gable end with a small window and a larger multi-pane window below. A wooden bench sits in front of the house, and a potted plant is visible to the right.",
+      "attributes": {
+        "roof": {
+          "color": "dark brown",
+          "material": "shingles"
+        },
+        "siding": {
+          "color": "beige",
+          "material": "wood or vinyl"
+        },
+        "windows": {
+          "type": "multi-pane",
+          "frame_color": "white"
+        },
+        "gable": {
+          "shape": "triangular",
+          "window": "small, centered"
+        },
+        "bench": {
+          "material": "wood",
+          "position": "in front of the house"
+        },
+        "plant": {
+          "type": "potted",
+          "position": "to the right of the house"
+        },
+        "chimney": {
+          "color": "red brick",
+          "position": "on the roof"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 1,
+      "score": 0.6484375,
+      "box": [
+        43.5,
+        472.0,
+        76.0,
+        528.0
+      ],
+      "mask": "image_1.masks/house_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "house",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        876.0,
+        222.0,
+        1032.0,
+        608.0
+      ],
+      "mask": "image_1.masks/house_2.png",
+      "crop": null,
+      "description": "A close-up view of the corner of a house with light beige horizontal siding and white trim around the eaves and window frame. The roof has dark shingles, and a bare tree is visible in the background against a clear sky.",
+      "attributes": {
+        "siding": "light beige horizontal",
+        "trim": "white",
+        "roof": "dark shingles",
+        "window": "white frame, partially visible",
+        "background": "bare tree, clear sky",
+        "ground": "dry leaves, potted plant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 3,
+      "score": 0.9453125,
+      "box": [
+        44.0,
+        456.0,
+        187.0,
+        564.0
+      ],
+      "mask": "image_1.masks/house_3.png",
+      "crop": null,
+      "description": "A single-story house with light gray siding and a dark gray shingled roof is visible in the background, partially obscured by a white door or panel in the foreground and a dark green bush on the right. A white car is parked to the left of the house, and bare tree branches are visible above the roofline.",
+      "attributes": {
+        "siding_color": "light gray",
+        "roof_color": "dark gray",
+        "roof_material": "shingles",
+        "visible_elements": [
+          "white door/panel",
+          "dark green bush",
+          "white car",
+          "bare tree branches"
+        ],
+        "structure_type": "single-story house"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 4,
+      "score": 0.96875,
+      "box": [
+        172.0,
+        422.0,
+        330.0,
+        568.0
+      ],
+      "mask": "image_1.masks/house_4.png",
+      "crop": null,
+      "description": "A small, single-story house with a reddish-brown exterior and a gray, sloped roof. The house features a white-framed window with multiple panes on the front facade, and there is a small bush or shrub visible in the foreground to the right.",
+      "attributes": {
+        "exterior_color": "reddish-brown",
+        "roof_color": "gray",
+        "roof_style": "sloped",
+        "window_frame_color": "white",
+        "window_type": "multi-pane",
+        "structure_type": "single-story",
+        "foreground_elements": [
+          "bush"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "house",
+      "index": 5,
+      "score": 0.9765625,
+      "box": [
+        308.0,
+        348.0,
+        552.0,
+        580.0
+      ],
+      "mask": "image_1.masks/house_5.png",
+      "crop": null,
+      "description": "A small, single-story house with light green siding and a dark gray shingled roof. It features a white-framed window with multiple panes and a red door with a white frame.",
+      "attributes": {
+        "structure": {
+          "type": "single-story house",
+          "roof": {
+            "color": "dark gray",
+            "material": "shingles"
+          },
+          "walls": {
+            "color": "light green",
+            "material": "siding"
+          }
+        },
+        "features": {
+          "door": {
+            "color": "red",
+            "frame": "white"
+          },
+          "window": {
+            "frame": "white",
+            "panes": "multiple"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        544.0,
+        612.0,
+        688.0,
+        820.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young child with light skin and blonde hair sits outdoors on a red blanket, wearing a colorful patterned knit beanie with a purple pom-pom and a grey hooded jacket with a red and blue geometric print. The child is looking down at a toy in their hands, with a pink stuffed animal visible in the foreground and autumn leaves in the background.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "female",
+        "hair": {
+          "color": "blonde",
+          "length": "short"
+        },
+        "clothing": {
+          "hat": {
+            "type": "beanie",
+            "pattern": "geometric stripes",
+            "colors": [
+              "teal",
+              "orange",
+              "pink",
+              "grey"
+            ],
+            "top": "purple pom-pom"
+          },
+          "jacket": {
+            "type": "hooded",
+            "color": "grey",
+            "pattern": "geometric shapes",
+            "pattern_colors": [
+              "red",
+              "blue",
+              "white"
+            ],
+            "hood_lining": "red"
+          },
+          "pants": {
+            "color": "black"
+          }
+        },
+        "pose": "sitting",
+        "action": "playing with toy",
+        "expression": "focused",
+        "setting": "outdoors, autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.8203125,
+      "box": [
+        210.0,
+        584.0,
+        280.0,
+        688.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with light brown hair tied up in a bun sits on a small pink plastic chair, viewed from behind. The child is wearing a pink long-sleeved top and black leggings, facing away from the camera toward a blurred outdoor background.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "female",
+        "hair": {
+          "color": "light brown",
+          "style": "bun"
+        },
+        "clothing": {
+          "top": {
+            "color": "pink",
+            "type": "long-sleeved"
+          },
+          "bottoms": {
+            "color": "black",
+            "type": "leggings"
+          }
+        },
+        "pose": "sitting",
+        "view": "back",
+        "furniture": {
+          "type": "plastic chair",
+          "color": "pink"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plush toy",
+      "index": 0,
+      "score": 0.51171875,
+      "box": [
+        494.0,
+        800.0,
+        528.0,
+        816.0
+      ],
+      "mask": "image_1.masks/plush toy_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plush toy",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        552.0,
+        812.0,
+        640.0,
+        860.0
+      ],
+      "mask": "image_1.masks/plush toy_1.png",
+      "crop": null,
+      "description": "A small, light pink plush toy resembling a pig or bear lies on its stomach on a red surface. It has a rounded body, short stubby limbs, and a small black eye visible on the side of its head, with a white tag attached near the ear.",
+      "attributes": {
+        "color": "light pink",
+        "material": "plush fabric",
+        "shape": "rounded, compact",
+        "pose": "lying on stomach",
+        "features": {
+          "eyes": "small black dot",
+          "limbs": "short, stubby",
+          "tag": "white, attached near ear"
+        },
+        "background": "red fabric surface"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plush toy",
+      "index": 2,
+      "score": 0.69140625,
+      "box": [
+        416.0,
+        756.0,
+        456.0,
+        796.0
+      ],
+      "mask": "image_1.masks/plush toy_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sidewalk",
+      "index": 0,
+      "score": 0.5859375,
+      "box": [
+        -3.0,
+        584.0,
+        344.0,
+        608.0
+      ],
+      "mask": "image_1.masks/sidewalk_0.png",
+      "crop": null,
+      "description": "A narrow, light gray concrete sidewalk runs horizontally across the middle of the frame, bordered by patches of green grass and dirt on both sides. The surface appears smooth and flat, with a slightly darker edge where it meets the ground.",
+      "attributes": {
+        "material": "concrete",
+        "color": "light gray",
+        "shape": "linear",
+        "position": "horizontal",
+        "surroundings": {
+          "left": "grass and dirt",
+          "right": "grass and dirt",
+          "top": "grass",
+          "bottom": "grass and dirt"
+        },
+        "condition": "smooth",
+        "width": "narrow"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        168.0,
+        616.0,
+        1016.0,
+        688.0
+      ],
+      "mask": "image_1.masks/sidewalk_1.png",
+      "crop": null,
+      "description": "A concrete sidewalk runs horizontally across the image, partially covered with fallen brown and yellow leaves. The sidewalk is bordered by grass and more fallen leaves on both sides.",
+      "attributes": {
+        "material": "concrete",
+        "color": "gray",
+        "condition": "partially covered with leaves",
+        "surroundings": {
+          "left": "grass and fallen leaves",
+          "right": "grass and fallen leaves",
+          "top": "fallen leaves",
+          "bottom": "fallen leaves"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sidewalk",
+      "index": 2,
+      "score": 0.91015625,
+      "box": [
+        0.0,
+        616.0,
+        880.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/sidewalk_2.png",
+      "crop": null,
+      "description": "A gray concrete sidewalk composed of large rectangular slabs with visible seams runs diagonally from the bottom left to the top left, bordered by grass and scattered brown autumn leaves on the right side. The surface appears smooth and dry, illuminated by warm sunlight that casts soft shadows across the pavement.",
+      "attributes": {
+        "material": "concrete",
+        "color": "gray",
+        "structure": "rectangular slabs",
+        "surface": "smooth",
+        "condition": "dry",
+        "orientation": "diagonal",
+        "lighting": "sunlit",
+        "surroundings": {
+          "left": "grass edge",
+          "right": "grass and fallen leaves"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        204.0,
+        288.0,
+        412.0,
+        424.0
+      ],
+      "mask": "image_1.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with bare branches and a few remaining brown leaves is visible in the background, partially obscured by the roof of a house in the foreground.",
+      "attributes": {
+        "focus": "blurry",
+        "branches": "bare",
+        "leaves": "brown, sparse",
+        "position": "background",
+        "obscured_by": "house roof"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        752.0,
+        66.0,
+        1024.0,
+        300.0
+      ],
+      "mask": "image_1.masks/tree_1.png",
+      "crop": null,
+      "description": "A large, leafless tree with a complex network of bare branches and twigs stands against a pale blue sky, appearing out of focus in the background. In the sharp foreground, thin branches with small, dark buds or dried leaves hang down from the top left corner, while the roofline of a building with a brick chimney is visible at the bottom.",
+      "attributes": {
+        "state": "leafless",
+        "season": "late autumn or winter",
+        "focus": "background tree is blurry, foreground branches are sharp",
+        "color": "brown branches, pale blue sky",
+        "position": "background",
+        "surroundings": {
+          "foreground": "thin branches with buds",
+          "bottom": "roof with brick chimney"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.61328125,
+      "box": [
+        130.0,
+        412.0,
+        194.0,
+        460.0
+      ],
+      "mask": "image_1.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.76171875,
+      "box": [
+        47.0,
+        370.0,
+        138.0,
+        482.0
+      ],
+      "mask": "image_1.masks/tree_3.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a dark, thick tree trunk or branch occupying the left side of the frame, set against a blurred background of thin, leafless branches and a pale, overcast sky.",
+      "attributes": {
+        "focus": "blurry",
+        "trunk": {
+          "color": "dark brown",
+          "position": "left",
+          "texture": "smooth due to blur"
+        },
+        "background": {
+          "branches": "thin, leafless, light brown",
+          "sky": "pale, overcast"
+        },
+        "season": "winter or late autumn"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 4,
+      "score": 0.703125,
+      "box": [
+        708.0,
+        3.5,
+        1024.0,
+        146.0
+      ],
+      "mask": "image_1.masks/tree_4.png",
+      "crop": null,
+      "description": "A close-up view of bare, thin tree branches extending diagonally against a pale blue sky, with a few small, brown, dried leaves or seed pods clinging to the twigs. The background is out of focus, showing blurred shapes of other trees or foliage in muted brown and gray tones.",
+      "attributes": {
+        "branch_structure": "thin, bare, diagonal",
+        "leaves": {
+          "presence": "sparse",
+          "color": "brown",
+          "state": "dried"
+        },
+        "background": {
+          "sky": "pale blue",
+          "other_vegetation": "blurred, brown/gray"
+        },
+        "season": "late autumn or winter"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 5,
+      "score": 0.89453125,
+      "box": [
+        368.0,
+        175.0,
+        644.0,
+        364.0
+      ],
+      "mask": "image_1.masks/tree_5.png",
+      "crop": null,
+      "description": "A large, leafless tree with a complex network of dark, thin branches spreading out against a pale, overcast sky. The tree is out of focus, appearing as a blurry silhouette in the background behind the rooflines of houses.",
+      "attributes": {
+        "type": "deciduous",
+        "state": "bare, leafless",
+        "branches": "thin, dark, intricate network",
+        "focus": "blurred, out of focus",
+        "background": "pale sky",
+        "position": "background, behind buildings"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 6,
+      "score": 0.93359375,
+      "box": [
+        0.0,
+        0.0,
+        616.0,
+        596.0
+      ],
+      "mask": "image_1.masks/tree_6.png",
+      "crop": null,
+      "description": "A large, mature deciduous tree with a thick, dark brown trunk and a complex network of bare, leafless branches extending across the upper left and center of the frame. The bark appears rough and textured, and the branches are thin and intricate against a pale, overcast sky.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "winter or late autumn",
+        "leaves": "none",
+        "trunk": {
+          "color": "dark brown",
+          "texture": "rough",
+          "thickness": "thick"
+        },
+        "branches": {
+          "color": "dark brown",
+          "structure": "complex, spreading",
+          "state": "bare"
+        },
+        "position": "left foreground"
+      },
+      "parse_ok": true
+    }
+  ]
+}

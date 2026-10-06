@@ -1,0 +1,155 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        25.0,
+        392.0,
+        241.0,
+        864.0
+      ],
+      "mask": "image_5.masks/backpack_0.png",
+      "crop": null,
+      "description": "An olive green canvas backpack with a wide shoulder strap featuring a silver metal buckle is worn over the shoulder of a person in a yellow sweater. The bag has a soft, slouchy structure with a visible flap and a small side pocket secured by a strap and metal hardware.",
+      "attributes": {
+        "color": "olive green",
+        "material": "canvas",
+        "strap": {
+          "width": "wide",
+          "hardware": "silver metal buckle"
+        },
+        "features": [
+          "flap",
+          "side pocket",
+          "metal hardware"
+        ],
+        "style": "casual",
+        "shape": "slouchy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        28.0,
+        884.0,
+        1004.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with a light brown, natural wood grain top and black metal legs is shown, with two people sitting on it. The person on the left is wearing ripped blue jeans, while the person on the right is wearing beige pants.",
+      "attributes": {
+        "material": {
+          "top": "wood",
+          "legs": "metal"
+        },
+        "color": {
+          "top": "light brown",
+          "legs": "black"
+        },
+        "style": "modern",
+        "occupants": {
+          "left": {
+            "clothing": "ripped blue jeans"
+          },
+          "right": {
+            "clothing": "beige pants"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        492.0,
+        142.0,
+        972.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with white hair and a mustache sits on a wooden bench, wearing a dark grey flat cap, a brown argyle patterned knit vest over a grey button-down shirt, and beige trousers. He holds a wooden walking cane with both hands resting on the top, looking off to the side with a gentle smile.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap"
+        },
+        "facial_hair": "white mustache",
+        "expression": "smiling, looking to the side",
+        "clothing": {
+          "headwear": "dark grey wool flat cap",
+          "top": "grey button-down shirt",
+          "vest": "brown argyle patterned knit vest",
+          "bottoms": "beige trousers",
+          "accessories": "black belt"
+        },
+        "pose": "sitting, hands clasped on a wooden cane",
+        "props": "wooden walking cane"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        98.0,
+        162.0,
+        520.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits on a wooden bench, wearing a mustard yellow knit sweater and distressed blue jeans with large rips at the knees. She holds a stack of five hardcover books on her lap, has an olive green backpack strap over her shoulder, and is smiling while looking off to the right.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "expression": "smiling",
+        "gaze": "looking right",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "material": "knit"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue",
+            "detail": "ripped at knees"
+          }
+        },
+        "accessories": {
+          "bag": {
+            "type": "backpack",
+            "color": "olive green",
+            "strap": "brown leather with metal buckle"
+          }
+        },
+        "holding": {
+          "object": "books",
+          "quantity": 5,
+          "type": "hardcover"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

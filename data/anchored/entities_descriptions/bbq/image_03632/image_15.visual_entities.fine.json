@@ -1,0 +1,395 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "floor",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        -1.0,
+        652.0,
+        304.0,
+        1012.0
+      ],
+      "mask": "image_15.masks/floor_0.png",
+      "crop": null,
+      "description": "A light-colored wooden floor with a parquet pattern, featuring rectangular planks arranged in a herringbone or basketweave design. The floor is partially obscured by a glass partition with a dark metal frame, which reflects the floor and surrounding environment.",
+      "attributes": {
+        "material": "wood",
+        "pattern": "parquet",
+        "color": "light brown",
+        "finish": "glossy",
+        "partition": {
+          "material": "glass",
+          "frame": "dark metal"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "floor",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        48.0,
+        648.0,
+        1032.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/floor_1.png",
+      "crop": null,
+      "description": "The floor is made of light-colored wood planks with a natural grain pattern, arranged in a herringbone or parquet style. It appears smooth and polished, reflecting some light, and is situated in an indoor setting with glass partitions on either side.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "pattern": "herringbone or parquet",
+        "finish": "polished",
+        "setting": "indoor, office-like environment"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 0,
+      "score": 0.86328125,
+      "box": [
+        245.0,
+        62.0,
+        284.0,
+        776.0
+      ],
+      "mask": "image_15.masks/glass_0.png",
+      "crop": null,
+      "description": "A tall, rectangular glass pane with a frosted or semi-opaque finish, framed by a dark border, possibly part of a door or window. The glass appears to be divided into sections by horizontal lines, and the overall image is blurred, making specific details indistinct.",
+      "attributes": {
+        "shape": "rectangular",
+        "finish": "frosted",
+        "frame": "dark",
+        "divisions": "horizontal lines",
+        "clarity": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        288.0,
+        126.0,
+        312.0,
+        720.0
+      ],
+      "mask": "image_15.masks/glass_1.png",
+      "crop": null,
+      "description": "A vertical, cylindrical glass with a smooth, transparent surface is partially visible, showing a slight reflection and a dark object at the bottom right corner. The background is blurred, suggesting a shallow depth of field.",
+      "attributes": {
+        "shape": "cylindrical",
+        "material": "glass",
+        "transparency": "transparent",
+        "reflection": "slight",
+        "background": "blurred",
+        "object_at_bottom_right": "dark"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 2,
+      "score": 0.86328125,
+      "box": [
+        840.0,
+        -2.0,
+        888.0,
+        816.0
+      ],
+      "mask": "image_15.masks/glass_2.png",
+      "crop": null,
+      "description": "A tall, rectangular glass door with a dark metal frame and a vertical handle on the right side. The glass is transparent, revealing a blurred interior space with light-colored walls and a horizontal light fixture.",
+      "attributes": {
+        "material": "glass",
+        "frame_color": "dark gray or black",
+        "handle": "vertical, black, on the right side",
+        "transparency": "transparent",
+        "interior_view": "blurred, light-colored walls, horizontal light fixture",
+        "shape": "rectangular",
+        "position": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 3,
+      "score": 0.8984375,
+      "box": [
+        -1.75,
+        -2.0,
+        84.0,
+        1008.0
+      ],
+      "mask": "image_15.masks/glass_3.png",
+      "crop": null,
+      "description": "A tall, rectangular glass panel with a dark frame is shown in a vertical crop, reflecting the interior of an office space. The glass surface is transparent, allowing a view of a black office chair and a desk in the background, while also showing reflections of overhead lighting and the room's interior.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark",
+        "shape": "rectangular",
+        "orientation": "vertical",
+        "transparency": "transparent",
+        "reflections": [
+          "overhead lighting",
+          "office interior"
+        ],
+        "visible_objects": [
+          "black office chair",
+          "desk",
+          "floor"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 4,
+      "score": 0.8828125,
+      "box": [
+        191.0,
+        -2.0,
+        243.0,
+        832.0
+      ],
+      "mask": "image_15.masks/glass_4.png",
+      "crop": null,
+      "description": "A vertical section of a glass window or door with a dark gray frame, reflecting two horizontal light fixtures on the ceiling. Through the glass, a blurred interior is visible, including a potted plant on a wooden surface and a light-colored wall.",
+      "attributes": {
+        "material": "glass",
+        "frame_color": "dark gray",
+        "reflections": [
+          "horizontal light fixture",
+          "horizontal light fixture"
+        ],
+        "visible_through_glass": [
+          "potted plant",
+          "wooden surface",
+          "light-colored wall"
+        ],
+        "clarity": "transparent with reflections",
+        "orientation": "vertical"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 5,
+      "score": 0.69140625,
+      "box": [
+        764.0,
+        104.0,
+        788.0,
+        716.0
+      ],
+      "mask": "image_15.masks/glass_5.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a person's upper arm and shoulder wearing a light blue, short-sleeved shirt with a small dark blue logo or design on the sleeve. The person's skin tone is light, and the background is blurred, showing vertical lines that suggest a window or door frame.\", \"attributes\": {\"clothing\": {\"shirt\": \"light blue\", \"sleeve\": \"short\", \"logo\": \"dark blue, small, on sleeve\"}, \"skin_tone\": \"light\", \"background\": \"blurred, vertical lines\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "glass",
+      "index": 6,
+      "score": 0.8359375,
+      "box": [
+        102.0,
+        -6.0,
+        168.0,
+        912.0
+      ],
+      "mask": "image_15.masks/glass_6.png",
+      "crop": null,
+      "description": "A tall, rectangular glass panel with a dark metal frame, likely part of a door or partition, reflects the interior of an office space. The reflection shows a desk with a laptop, a chair, and overhead lighting, while the glass itself appears slightly tinted or frosted, diffusing the view of the room behind it.",
+      "attributes": {
+        "material": "glass",
+        "frame": "dark metal",
+        "shape": "rectangular",
+        "function": "partition or door",
+        "reflection": "office interior with desk, laptop, chair, and lighting",
+        "tint": "slightly tinted or frosted",
+        "position": "vertical, standing upright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "glass",
+      "index": 7,
+      "score": 0.84375,
+      "box": [
+        784.0,
+        58.0,
+        824.0,
+        760.0
+      ],
+      "mask": "image_15.masks/glass_7.png",
+      "crop": null,
+      "description": "A person wearing a light blue long-sleeved shirt is partially visible on the left side of the frame, standing in front of a glass door or window with a dark frame. The background is blurred, showing an indoor setting with neutral tones and a hint of a ceiling light.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, long-sleeved"
+        },
+        "position": "left side of the frame",
+        "background": {
+          "type": "indoor",
+          "features": [
+            "glass door/window",
+            "dark frame",
+            "blurred ceiling light"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        548.0,
+        126.0,
+        820.0,
+        992.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling man with curly dark hair walks forward in a modern office hallway, wearing a light blue button-down shirt with rolled-up sleeves, dark navy trousers, a brown leather belt, and brown leather shoes. He holds a blue folder or notebook under his left arm and wears a wristwatch on his left wrist.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult to middle-aged",
+        "ethnicity": "possibly Mediterranean or Latin American (inferred from features)",
+        "hair": "curly, dark brown, medium length",
+        "expression": "smiling, looking slightly to the side",
+        "pose": "walking forward, mid-stride",
+        "clothing": {
+          "shirt": "light blue, long-sleeved, button-down, sleeves rolled to forearm",
+          "pants": "dark navy or black, tailored fit",
+          "belt": "brown leather with metal buckle",
+          "shoes": "brown leather lace-up dress shoes"
+        },
+        "accessories": {
+          "watch": "on left wrist, dark strap, round face",
+          "held_item": "blue hardcover folder or notebook held under left arm"
+        },
+        "setting": "indoor, modern office corridor with glass walls and wooden flooring",
+        "social_role": "professional or business casual attire suggests office worker or manager"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        324.0,
+        178.0,
+        556.0,
+        1000.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with wavy dark hair is walking forward, wearing a white button-down shirt with sleeves rolled up and beige trousers. She carries a black DSLR camera around her neck and a black shoulder bag, wearing black ankle boots.",
+      "attributes": {
+        "gender": "female",
+        "age": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "shirt",
+            "color": "white",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige",
+            "fit": "slim"
+          },
+          "footwear": {
+            "type": "ankle boots",
+            "color": "black"
+          }
+        },
+        "accessories": {
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "around neck"
+          },
+          "bag": {
+            "type": "shoulder bag",
+            "color": "black"
+          },
+          "necklace": "thin chain"
+        },
+        "pose": "walking"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.78125,
+      "box": [
+        920.0,
+        474.0,
+        960.0,
+        536.0
+      ],
+      "mask": "image_15.masks/plant_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.69140625,
+      "box": [
+        154.0,
+        480.0,
+        264.0,
+        528.0
+      ],
+      "mask": "image_15.masks/plant_1.png",
+      "crop": null,
+      "description": "A small, green plant with multiple leaves is visible in the background, appearing out of focus behind two vertical, dark gray bars or poles. The plant has a delicate structure with thin stems and small, light green leaves.",
+      "attributes": {
+        "color": "light green",
+        "structure": "multiple leaves on thin stems",
+        "focus": "out of focus",
+        "position": "background, behind vertical bars",
+        "type": "small plant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.609375,
+      "box": [
+        192.0,
+        480.0,
+        240.0,
+        528.0
+      ],
+      "mask": "image_15.masks/plant_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

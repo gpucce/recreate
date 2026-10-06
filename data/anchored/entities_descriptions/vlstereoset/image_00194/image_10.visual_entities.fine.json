@@ -1,0 +1,76 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        412.0,
+        140.0,
+        780.0,
+        916.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A flat vector illustration of a man with short black hair and light skin walking to the left in profile, wearing a black long-sleeved shirt and blue pants. He is pushing a black stroller with his right hand, which is visible on the left edge of the frame, while his left arm swings naturally at his side.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "skin_tone": "light",
+        "clothing": {
+          "top": {
+            "type": "long-sleeved shirt",
+            "color": "black"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "black"
+          }
+        },
+        "pose": "walking",
+        "action": "pushing a stroller",
+        "orientation": "profile facing left",
+        "style": "flat vector illustration"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "shopping cart",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        138.0,
+        528.0,
+        478.0,
+        920.0
+      ],
+      "mask": "image_10.masks/shopping cart_0.png",
+      "crop": null,
+      "description": "A black shopping cart with a grid-patterned basket and two visible wheels is being pushed by a person whose hand, part of their blue pants, and black shoe are visible on the right side. The cart is depicted in a simple, flat illustration style against a light green background.",
+      "attributes": {
+        "color": "black",
+        "style": "flat illustration",
+        "basket": "grid pattern",
+        "wheels": "two visible, black",
+        "handle": "black, curved",
+        "person": {
+          "hand": "visible, light skin tone",
+          "pants": "blue",
+          "shoe": "black"
+        },
+        "background": "light green"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "image": "image_10.png",
+  "visual_entities_source": "image_10.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.7109375,
+      "box": [
+        940.0,
+        502.0,
+        1032.0,
+        736.0
+      ],
+      "mask": "image_10.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A dark brown wooden cabinet featuring a paneled door with a small, round knob and a decorative, possibly carved, upper section. The image is out of focus, showing the cabinet positioned against a light-colored wall with a blurry, patterned surface in the immediate foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "style": "traditional",
+        "features": {
+          "door": "paneled",
+          "hardware": "round knob",
+          "top_section": "decorative"
+        },
+        "image_quality": "blurry",
+        "position": "vertical, against wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        -1.0,
+        480.0,
+        199.0,
+        928.0
+      ],
+      "mask": "image_10.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A dark brown wooden cabinet with a polished finish features a visible drawer with a round, dark knob and a lower door panel decorated with a circular carved rosette. The wood grain is prominent, and the furniture has a traditional, classic design with raised paneling.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "finish": "polished",
+        "style": "traditional",
+        "features": {
+          "drawer": {
+            "visible": true,
+            "knob": "round, dark"
+          },
+          "door": {
+            "visible": true,
+            "carving": "circular rosette"
+          },
+          "paneling": "raised"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.671875,
+      "box": [
+        488.0,
+        118.5,
+        1024.0,
+        248.0
+      ],
+      "mask": "image_10.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A wooden shelf with a natural finish is mounted on a wall covered in white square tiles. The shelf has a simple, rustic design with visible wood grain and a bracket on the right side. Below the shelf, the top of a person's head with curly white hair is partially visible.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "style": "rustic",
+        "wall": {
+          "color": "white",
+          "material": "tile",
+          "pattern": "square"
+        },
+        "bracket": {
+          "visible": true,
+          "side": "right"
+        },
+        "person": {
+          "hair": {
+            "color": "white",
+            "style": "curly"
+          },
+          "position": "below shelf"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        32.0,
+        356.0,
+        123.0,
+        460.0
+      ],
+      "mask": "image_10.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry, head-and-shoulders portrait of a smiling woman with short, wavy blonde hair, wearing a dark blazer over a light-colored top, framed by a wooden border.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "wavy"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "outer": "dark blazer",
+          "inner": "light top"
+        },
+        "image_quality": "blurry",
+        "framing": "wooden frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        149.0,
+        368.0,
+        548.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_1.png",
+      "crop": null,
+      "description": "A young boy with curly light brown hair and a neutral expression sits wearing a light blue crewneck sweatshirt featuring a dark blue 'Champion' logo with a red and blue 'C' emblem. He is positioned in front of an older woman whose hand rests on his shoulder, wearing dark blue jeans.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "light brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "light blue",
+            "logo": "Champion",
+            "logo_color": "dark blue and red"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "dark blue"
+          }
+        },
+        "pose": "sitting",
+        "expression": "neutral",
+        "context": "being touched by an older woman"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        162.0,
+        168.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_10.masks/person_2.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair sits in a floral armchair, wearing a dark blue velvet robe with silver beaded trim over a grey collared shirt. She has a gentle, slight smile and is looking directly at the camera, with her left arm resting around a young boy seated next to her.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_features": {
+          "expression": "gentle smile",
+          "skin": "wrinkled",
+          "eyes": "light blue"
+        },
+        "clothing": {
+          "outer": {
+            "type": "robe",
+            "color": "dark blue",
+            "material": "velvet",
+            "details": "silver beaded trim on lapels and cuffs"
+          },
+          "inner": {
+            "type": "shirt",
+            "color": "grey",
+            "collar": "button-down"
+          },
+          "accessories": {
+            "ring": "silver band on left ring finger",
+            "earrings": "small stud"
+          }
+        },
+        "pose": "sitting, arm around child",
+        "position": "right side of frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

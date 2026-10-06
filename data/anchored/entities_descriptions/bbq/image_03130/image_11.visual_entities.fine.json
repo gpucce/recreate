@@ -1,0 +1,232 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.51953125,
+      "box": [
+        512.0,
+        510.0,
+        1032.0,
+        976.0
+      ],
+      "mask": "image_11.masks/furniture_0.png",
+      "crop": null,
+      "description": "A bed with a light wooden frame and headboard, dressed in white sheets and a beige throw blanket, positioned against a wall in a softly lit room.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "headboard": "wooden, rectangular",
+        "bedding": {
+          "sheets": "white",
+          "blanket": "beige, textured"
+        },
+        "position": "against wall, right side of frame",
+        "style": "minimalist, modern"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.7890625,
+      "box": [
+        748.0,
+        508.0,
+        1024.0,
+        972.0
+      ],
+      "mask": "image_11.masks/furniture_1.png",
+      "crop": null,
+      "description": "A person is standing next to a bed, wearing a light blue long-sleeved shirt with the sleeves rolled up and beige pants. The bed has white sheets and a wooden frame, with a pillow visible in the background.",
+      "attributes": {
+        "clothing": {
+          "shirt": "light blue, long-sleeved, sleeves rolled up",
+          "pants": "beige"
+        },
+        "bed": {
+          "sheets": "white",
+          "frame": "wooden",
+          "pillow": "white"
+        },
+        "position": "standing next to the bed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.95703125,
+      "box": [
+        94.5,
+        680.0,
+        278.0,
+        888.0
+      ],
+      "mask": "image_11.masks/furniture_2.png",
+      "crop": null,
+      "description": "A small, round side table with a light wood finish and three slender, tapered legs that splay outward. The tabletop is smooth and circular, supporting a blurred object that appears to be a vase or container with greenery. The table stands on a light-colored floor against a plain white wall.",
+      "attributes": {
+        "shape": "round",
+        "material": "light wood",
+        "legs": {
+          "count": 3,
+          "style": "tapered, splayed"
+        },
+        "color": "light beige/natural wood",
+        "function": "side table",
+        "surface": "smooth, flat",
+        "background": "white wall, light floor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.94140625,
+      "box": [
+        -1.25,
+        600.0,
+        78.0,
+        888.0
+      ],
+      "mask": "image_11.masks/furniture_3.png",
+      "crop": null,
+      "description": "A light-colored wooden bookshelf with two visible shelves, holding several books. The top shelf has books standing upright, while the bottom shelf has books stacked horizontally. The bookshelf has a simple, modern design with clean lines and a natural wood finish.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "shelves": 2,
+        "books": {
+          "top_shelf": "upright",
+          "bottom_shelf": "stacked"
+        },
+        "style": "modern",
+        "condition": "good"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 4,
+      "score": 0.86328125,
+      "box": [
+        812.0,
+        616.0,
+        892.0,
+        648.0
+      ],
+      "mask": "image_11.masks/furniture_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        466.0,
+        144.0,
+        832.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair is walking forward with a slight downward gaze, supported by a wooden cane in her right hand and a caregiver's hand on her left arm. She wears a light blue button-down shirt with rolled-up sleeves and beige trousers, appearing frail with visible wrinkles and thin skin.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          },
+          "bottom": {
+            "type": "trousers",
+            "color": "beige"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "handle": "black",
+            "shaft": "wooden"
+          }
+        },
+        "pose": "walking, supported",
+        "expression": "downcast, focused"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        280.0,
+        102.0,
+        792.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with dark hair tied back in a ponytail and wearing black-rimmed glasses is dressed in a light blue short-sleeved medical scrub set. She stands behind an elderly woman, placing one hand on the older woman's shoulder and the other on her arm in a supportive gesture, looking down with a gentle expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "ponytail"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved scrub top with V-neck and chest pocket",
+          "bottom": "light blue scrub pants"
+        },
+        "pose": "standing, leaning slightly forward, hands on elderly woman",
+        "expression": "gentle, attentive",
+        "social_role": "caregiver or nurse"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        -1.0,
+        0.0,
+        238.0,
+        556.0
+      ],
+      "mask": "image_11.masks/window_0.png",
+      "crop": null,
+      "description": "A white, multi-paned window with a grid design is shown in a bright, high-key setting, featuring a small metal latch in the center. In the bottom right corner, a cluster of orange flowers with green stems sits on the windowsill, partially obscuring the lower frame.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or painted material",
+        "pane_configuration": "multi-paned grid",
+        "hardware": "small metal latch visible in center",
+        "lighting": "bright, overexposed, high-key",
+        "foreground_object": {
+          "type": "flowers",
+          "color": "orange",
+          "position": "bottom right corner"
+        },
+        "view_outside": "blurred, indistinct greenery"
+      },
+      "parse_ok": true
+    }
+  ]
+}

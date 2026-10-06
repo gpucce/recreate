@@ -1,0 +1,87 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "clock",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        67.5,
+        53.5,
+        276.0,
+        258.0
+      ],
+      "mask": "image_14.masks/clock_0.png",
+      "crop": null,
+      "description": "A round wall clock with a light gold or brass-colored rim and a white face featuring black Roman numerals. The clock has three black hands indicating a time of approximately 10:10, set against a solid light purple background.",
+      "attributes": {
+        "shape": "round",
+        "rim": {
+          "color": "gold",
+          "material": "metal"
+        },
+        "face": {
+          "color": "white",
+          "numerals": "black Roman numerals"
+        },
+        "hands": {
+          "color": "black",
+          "count": 3
+        },
+        "time_displayed": "10:10",
+        "background_color": "light purple"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        116.0,
+        96.0,
+        924.0,
+        992.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy brown hair sits cross-legged on a white bed in a meditative pose, wearing a white short-sleeved t-shirt and white textured pajama pants with a drawstring waist. She wears a cream-colored quilted sleep mask over her eyes, and her hands rest on her knees with palms facing up in a gesture of relaxation.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "long",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pajama pants",
+            "color": "white",
+            "texture": "waffle knit or textured",
+            "waistband": "drawstring"
+          },
+          "accessory": {
+            "type": "sleep mask",
+            "color": "cream",
+            "pattern": "quilted diamond"
+          }
+        },
+        "pose": {
+          "position": "sitting cross-legged",
+          "hands": "resting on knees, palms up",
+          "posture": "upright, meditative"
+        },
+        "expression": "neutral, calm, eyes covered by mask",
+        "setting": "bedroom, sitting on white bed with white pillows, purple wall behind, clock visible on wall"
+      },
+      "parse_ok": true
+    }
+  ]
+}

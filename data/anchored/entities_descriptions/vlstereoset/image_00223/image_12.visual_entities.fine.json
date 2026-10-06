@@ -1,0 +1,84 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.80078125,
+      "box": [
+        4.0,
+        482.0,
+        1004.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up crop of a man's upper torso wearing a formal black suit jacket with wide lapels over a black vest and a white high-collared shirt. A black bow tie is fastened at the neck, and the man has a reddish-brown mustache visible at the top of the frame.",
+      "attributes": {
+        "entity": "man",
+        "gender": "male",
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "style": "formal suit",
+            "features": "wide lapels, buttoned"
+          },
+          "vest": {
+            "color": "black"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "neckwear": {
+            "type": "bow tie",
+            "color": "black"
+          }
+        },
+        "facial_hair": {
+          "mustache": "reddish-brown, thick"
+        },
+        "style": "Victorian or 19th-century formal wear"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        68.0,
+        1008.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A painted portrait of a middle-aged man with dark, curly hair and a thick, reddish-brown mustache, wearing a black suit jacket, a black vest, a white high-collared shirt, and a black bow tie. He has a serious expression and is looking slightly to the side against a mottled brown and grey background.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, reddish-brown",
+          "sideburns": "present"
+        },
+        "clothing": {
+          "jacket": "black suit",
+          "vest": "black",
+          "shirt": "white, high collar",
+          "neckwear": "black bow tie"
+        },
+        "pose": "bust-up portrait, facing slightly right",
+        "expression": "serious",
+        "medium": "oil painting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

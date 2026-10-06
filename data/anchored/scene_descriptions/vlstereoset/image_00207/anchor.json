@@ -1,0 +1,86 @@
+{
+  "scene": {
+    "background": "open, outdoor border area with a hazy, gray sky and distant trees or low hills barely visible",
+    "lighting": "diffused and flat, typical of an overcast day, with no harsh shadows",
+    "camera_angle": "slightly low and wide, capturing the scene from behind the barbed wire",
+    "style": "professional photojournalistic shot taken with a DSLR or reflex camera",
+    "mood": "somber, tense, and urgent",
+    "color_palette": "muted: grays, browns, olive greens, and dull blues"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "clothing": {
+          "uniform": "camouflage"
+        },
+        "equipment": {
+          "helmet": "present",
+          "rifle": {
+            "mounted_scope": "present"
+          }
+        },
+        "pose": "standing",
+        "expression": "vigilant, serious",
+        "position": "central-right"
+      },
+      "id": "soldier_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "clothing": {
+          "uniform": "camouflage"
+        },
+        "equipment": {
+          "rifle": "present"
+        },
+        "pose": "standing",
+        "position": "left of central-right soldier"
+      },
+      "id": "soldier_2",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "clothing": {
+          "uniform": "camouflage"
+        },
+        "pose": "standing",
+        "position": "background, slightly blurred"
+      },
+      "id": "soldier_3"
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "pose": "waiting to cross or being detained",
+        "face": "obscured or blurred",
+        "gender": "mostly men and women",
+        "headwear": "some wearing headscarves or caps"
+      },
+      "id": "crowd_1"
+    },
+    {
+      "type": "pole",
+      "attributes": {
+        "position": "far left background"
+      },
+      "id": "utility_pole_1",
+      "count": 1
+    },
+    {
+      "type": "tree",
+      "attributes": {
+        "position": "distant, barely visible"
+      },
+      "id": "tree_or_hill_1"
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": [
+    "fencing"
+  ]
+}

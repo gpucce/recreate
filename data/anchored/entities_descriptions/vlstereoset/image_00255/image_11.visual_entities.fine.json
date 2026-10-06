@@ -1,0 +1,266 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        334.0,
+        70.5,
+        608.0,
+        266.0
+      ],
+      "mask": "image_11.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A large, plain brown cardboard box is held up by two hands, one on each side, obscuring the face of the person holding it. The box is rectangular with visible corrugated texture and sealed flaps on the top.",
+      "attributes": {
+        "object": "cardboard box",
+        "color": "brown",
+        "material": "corrugated cardboard",
+        "shape": "rectangular",
+        "size": "large",
+        "state": "closed, sealed",
+        "position": "held in front of face",
+        "hands": {
+          "left": "gripping left side",
+          "right": "gripping right side"
+        },
+        "person": {
+          "visible_parts": "hands, top of head (dark hair)",
+          "pose": "holding box up"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "dresser",
+      "index": 0,
+      "score": 0.62109375,
+      "box": [
+        924.0,
+        524.0,
+        1024.0,
+        556.0
+      ],
+      "mask": "image_11.masks/dresser_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.75390625,
+      "box": [
+        852.0,
+        392.0,
+        956.0,
+        572.0
+      ],
+      "mask": "image_11.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A floor lamp with a cylindrical, off-white fabric shade and a tripod base made of light-colored wood. The lamp is positioned in the background, slightly out of focus, next to a bed with white bedding.",
+      "attributes": {
+        "type": "floor lamp",
+        "shade": {
+          "shape": "cylindrical",
+          "color": "off-white",
+          "material": "fabric"
+        },
+        "base": {
+          "style": "tripod",
+          "material": "wood",
+          "color": "light brown"
+        },
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        260.0,
+        162.0,
+        636.0,
+        1000.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with dark curly hair and a surprised expression stands holding a large cardboard box overhead with both arms raised. He wears a mustard yellow sweater, blue jeans, and brown leather shoes, with a black DSLR camera hanging around his neck.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly"
+        },
+        "expression": "surprised, mouth open",
+        "pose": "standing, arms raised overhead",
+        "clothing": {
+          "top": "mustard yellow sweater",
+          "bottom": "blue jeans",
+          "shoes": "brown leather lace-ups"
+        },
+        "accessories": {
+          "camera": "black DSLR with strap around neck"
+        },
+        "object_held": "large cardboard box"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        760.0,
+        536.0,
+        1032.0,
+        912.0
+      ],
+      "mask": "image_11.masks/sofa_0.png",
+      "crop": null,
+      "description": "A close-up view of a tan leather sofa with wooden legs, featuring a smooth, slightly wrinkled texture on the seat cushions and backrest. The sofa is adorned with two throw pillows, one in a light beige fabric and the other in a darker brown fabric, adding contrast to the overall design.",
+      "attributes": {
+        "material": "leather",
+        "color": "tan",
+        "legs": "wooden",
+        "pillows": [
+          {
+            "color": "light beige",
+            "material": "fabric"
+          },
+          {
+            "color": "dark brown",
+            "material": "fabric"
+          }
+        ],
+        "texture": "smooth, slightly wrinkled",
+        "position": "indoor, on a carpeted floor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        -2.0,
+        540.0,
+        292.0,
+        932.0
+      ],
+      "mask": "image_11.masks/sofa_1.png",
+      "crop": null,
+      "description": "A close-up view of a tan leather sofa featuring a smooth, slightly wrinkled texture and a modern, low-profile design. The sofa has a thick, rectangular armrest and is supported by short, tapered wooden legs in a light natural finish. A dark brown square throw pillow rests against the back cushion, and the sofa sits on a light-colored patterned rug.",
+      "attributes": {
+        "material": "leather",
+        "color": "tan",
+        "style": "modern",
+        "legs": {
+          "material": "wood",
+          "color": "light brown",
+          "shape": "tapered"
+        },
+        "cushions": {
+          "back": "tan leather",
+          "seat": "tan leather",
+          "throw_pillow": "dark brown"
+        },
+        "armrest": "rectangular",
+        "position": "on rug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        796.0,
+        560.0,
+        932.0,
+        664.0
+      ],
+      "mask": "image_11.masks/throw pillow_0.png",
+      "crop": null,
+      "description": "A square, beige throw pillow with a soft, textured fabric surface rests on a brown leather sofa, appearing slightly compressed and angled against the backrest.",
+      "attributes": {
+        "shape": "square",
+        "color": "beige",
+        "material": "soft fabric",
+        "texture": "slightly wrinkled",
+        "position": "resting on sofa",
+        "orientation": "angled"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        -2.8125,
+        616.0,
+        30.0,
+        664.0
+      ],
+      "mask": "image_11.masks/throw pillow_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "throw pillow",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        948.0,
+        592.0,
+        1032.0,
+        664.0
+      ],
+      "mask": "image_11.masks/throw pillow_2.png",
+      "crop": null,
+      "description": "A close-up, blurry view of a dark brown throw pillow with a textured fabric surface, positioned against a lighter, out-of-focus background.",
+      "attributes": {
+        "color": "dark brown",
+        "material": "textured fabric",
+        "shape": "square",
+        "focus": "blurry",
+        "lighting": "soft"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 3,
+      "score": 0.95703125,
+      "box": [
+        105.5,
+        564.0,
+        242.0,
+        660.0
+      ],
+      "mask": "image_11.masks/throw pillow_3.png",
+      "crop": null,
+      "description": "A square, brown throw pillow with a soft, fabric texture rests on a light-colored surface, likely a sofa, with a slightly wrinkled appearance and a visible seam along the edges.",
+      "attributes": {
+        "shape": "square",
+        "color": "brown",
+        "material": "fabric",
+        "texture": "soft, slightly wrinkled",
+        "position": "resting on a surface",
+        "seams": "visible along edges"
+      },
+      "parse_ok": true
+    }
+  ]
+}

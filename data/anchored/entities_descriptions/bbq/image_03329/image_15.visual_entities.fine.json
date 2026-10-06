@@ -1,0 +1,257 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        -3.0,
+        54.0,
+        328.0,
+        470.0
+      ],
+      "mask": "image_15.masks/building_0.png",
+      "crop": null,
+      "description": "A multi-story building with a light beige or off-white facade featuring horizontal stone or stucco paneling. The structure includes dark-framed rectangular windows, one of which is partially visible on the upper left, and a larger window or door frame on the lower left. The building appears to be in an urban setting, with a tree trunk and yellow autumn leaves in the foreground partially obscuring the view.",
+      "attributes": {
+        "facade_color": "light beige/off-white",
+        "material": "stone or stucco",
+        "window_frames": "dark gray/black",
+        "window_shape": "rectangular",
+        "architectural_style": "classical or traditional European",
+        "visible_elements": [
+          "horizontal paneling",
+          "window sills",
+          "cornice detail"
+        ],
+        "foreground_obstruction": "tree trunk with yellow leaves",
+        "context": "urban street scene"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.8671875,
+      "box": [
+        2.0,
+        -1.0,
+        1024.0,
+        472.0
+      ],
+      "mask": "image_15.masks/building_1.png",
+      "crop": null,
+      "description": "A multi-story residential building with a beige facade, featuring white-framed windows and a black wrought-iron balcony on the upper floor. The building has a classic architectural style with decorative moldings and a stone base.",
+      "attributes": {
+        "facade_color": "beige",
+        "window_frames": "white",
+        "balcony": {
+          "material": "wrought iron",
+          "color": "black"
+        },
+        "architectural_style": "classic",
+        "base_material": "stone",
+        "number_of_floors": "at least 3"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        356.0,
+        98.0,
+        772.0,
+        976.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a manual wheelchair, wearing a red cable-knit sweater, blue jeans, and black sneakers with white soles. He is smiling at the camera with a relaxed posture, positioned in the foreground in front of a standing man and a white car.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "clothing": {
+          "top": "red cable-knit sweater",
+          "bottom": "blue jeans",
+          "shoes": "black sneakers with white soles",
+          "socks": "white"
+        },
+        "pose": "sitting in a wheelchair",
+        "expression": "smiling",
+        "equipment": "manual wheelchair with silver frame and black wheels"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        316.0,
+        314.0,
+        772.0,
+        944.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly brown hair sits in a manual wheelchair, wearing a red cable-knit sweater, blue jeans, and black sneakers with white soles. He is smiling at the camera with a relaxed posture, while a standing man in a blue suit places a hand on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "red",
+            "pattern": "cable-knit"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "black",
+            "sole": "white"
+          }
+        },
+        "mobility_aid": {
+          "type": "wheelchair",
+          "frame_color": "silver"
+        },
+        "pose": "sitting"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        0.0,
+        -1.0,
+        720.0,
+        432.0
+      ],
+      "mask": "image_15.masks/tree_0.png",
+      "crop": null,
+      "description": "A mature deciduous tree with a thick, textured brown trunk and branching limbs stands in the background, its canopy filled with vibrant yellow autumn leaves. Several individual yellow leaves are captured in mid-air, falling through the scene.",
+      "attributes": {
+        "type": "deciduous",
+        "season": "autumn",
+        "leaves": {
+          "color": "yellow",
+          "state": "falling"
+        },
+        "trunk": {
+          "color": "brown",
+          "texture": "rough bark"
+        },
+        "position": "background left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.5390625,
+      "box": [
+        -2.625,
+        448.0,
+        49.5,
+        492.0
+      ],
+      "mask": "image_15.masks/vehicle_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vehicle",
+      "index": 1,
+      "score": 0.94921875,
+      "box": [
+        2.0,
+        278.0,
+        1024.0,
+        880.0
+      ],
+      "mask": "image_15.masks/vehicle_1.png",
+      "crop": null,
+      "description": "A silver SUV is parked on a cobblestone street, with its side profile visible. The vehicle features a sleek design with a prominent front wheel arch, a side mirror, and a visible door handle. The car's body has a smooth, metallic finish, and the windows are tinted. The SUV is positioned behind a person in a wheelchair, with the rear part of the vehicle extending out of the frame.",
+      "attributes": {
+        "color": "silver",
+        "type": "SUV",
+        "features": [
+          "tinted windows",
+          "side mirror",
+          "door handle",
+          "front wheel arch"
+        ],
+        "position": "parked on cobblestone street",
+        "visible_parts": [
+          "side profile",
+          "front wheel",
+          "rear part extending out of frame"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wheelchair",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        268.0,
+        528.0,
+        764.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/wheelchair_0.png",
+      "crop": null,
+      "description": "A manual wheelchair with a silver aluminum frame and black seat is occupied by a person wearing a red sweater and blue jeans. The wheelchair features large spoked rear wheels with black hand rims, smaller solid front casters, and black footrests with textured surfaces.",
+      "attributes": {
+        "type": "manual wheelchair",
+        "frame_color": "silver",
+        "frame_material": "aluminum",
+        "seat_color": "black",
+        "wheels": {
+          "rear": {
+            "size": "large",
+            "type": "spoked",
+            "rim_color": "silver",
+            "hand_rim": "black"
+          },
+          "front": {
+            "size": "small",
+            "type": "solid caster",
+            "color": "black"
+          }
+        },
+        "footrests": {
+          "color": "black",
+          "material": "plastic/metal"
+        },
+        "occupant_clothing": {
+          "top": "red cable-knit sweater",
+          "bottom": "blue denim jeans",
+          "shoes": "black sneakers with white soles"
+        },
+        "position": "seated, facing forward"
+      },
+      "parse_ok": true
+    }
+  ]
+}

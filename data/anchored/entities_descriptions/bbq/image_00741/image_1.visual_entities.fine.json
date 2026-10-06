@@ -1,0 +1,184 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "cabinet",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        832.0,
+        462.0,
+        1024.0,
+        502.0
+      ],
+      "mask": "image_1.masks/cabinet_0.png",
+      "crop": null,
+      "description": "A close-up view of a blue, textured fabric or material in the foreground, with a blurred background featuring horizontal wooden elements, possibly part of a cabinet or furniture.",
+      "attributes": {
+        "color": "blue",
+        "material": "textured fabric",
+        "background": "wooden, blurred",
+        "focus": "foreground object"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 1,
+      "score": 0.82421875,
+      "box": [
+        -0.75,
+        68.5,
+        105.0,
+        286.0
+      ],
+      "mask": "image_1.masks/cabinet_1.png",
+      "crop": null,
+      "description": "A blurry, close-up view of a dark brown wooden cabinet featuring a recessed shelf. A white cup is visible on the lower shelf, while a lighter, indistinct object rests on the shelf above it.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "structure": "recessed shelves",
+        "contents": {
+          "lower_shelf": "white cup",
+          "upper_shelf": "indistinct light-colored object"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 2,
+      "score": 0.81640625,
+      "box": [
+        -0.5,
+        500.0,
+        194.0,
+        780.0
+      ],
+      "mask": "image_1.masks/cabinet_2.png",
+      "crop": null,
+      "description": "A dark brown wooden cabinet with a visible drawer and a round knob, positioned in the background behind a person's arm.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "features": [
+          "drawer",
+          "round knob",
+          "paneling"
+        ],
+        "position": "background",
+        "state": "out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cabinet",
+      "index": 3,
+      "score": 0.8671875,
+      "box": [
+        184.0,
+        2.0,
+        704.0,
+        632.0
+      ],
+      "mask": "image_1.masks/cabinet_3.png",
+      "crop": null,
+      "description": "A large, dark brown wooden cabinet with glass-paneled doors stands in the background, featuring a traditional design with a crown molding top and visible wood grain. Inside the cabinet, white ceramic dishes and bowls are arranged on shelves, partially visible through the glass.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "style": "traditional",
+        "doors": {
+          "type": "glass-paneled",
+          "count": 2
+        },
+        "contents": [
+          "white ceramic dishes",
+          "white bowls"
+        ],
+        "position": "background",
+        "condition": "polished"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        76.0,
+        328.0,
+        556.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young boy with short brown hair and a neutral expression sits in the foreground wearing a light blue sweatshirt with a white and red 'Champion' logo across the chest. An elderly woman with white hair, wearing a dark blue velvet top, stands behind him with her hand resting on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "hair": {
+          "color": "brown",
+          "length": "short"
+        },
+        "expression": "neutral",
+        "clothing": {
+          "type": "sweatshirt",
+          "color": "light blue",
+          "logo": {
+            "text": "Champion",
+            "color": "white and red"
+          }
+        },
+        "pose": "sitting",
+        "context": "being embraced by an elderly woman"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        96.0,
+        192.0,
+        1008.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy white hair sits next to a young boy, her arm resting on his shoulder. She wears a dark blue velvet robe with a floral embroidered trim and has a gentle, warm expression on her wrinkled face.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "length": "short",
+          "style": "wavy"
+        },
+        "face": {
+          "skin": "wrinkled",
+          "expression": "gentle smile",
+          "eyes": "light colored"
+        },
+        "clothing": {
+          "outerwear": {
+            "type": "robe",
+            "color": "dark blue",
+            "material": "velvet",
+            "details": "floral embroidery on lapel and cuffs"
+          },
+          "inner": {
+            "type": "patterned top"
+          }
+        },
+        "pose": "sitting, arm around boy",
+        "position": "right side of frame"
+      },
+      "parse_ok": true
+    }
+  ]
+}

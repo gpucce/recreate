@@ -1,0 +1,191 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "curtain",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        756.0,
+        125.0,
+        940.0,
+        416.0
+      ],
+      "mask": "image_3.masks/curtain_0.png",
+      "crop": null,
+      "description": "A cream-colored curtain hangs vertically, featuring a floral pattern with large red and orange flowers and smaller pink blossoms accompanied by green leaves. The fabric appears to be a soft textile, gathered at the top with a rod visible at the very edge.",
+      "attributes": {
+        "color": "cream",
+        "pattern": "floral",
+        "floral_details": {
+          "large_flowers": "red and orange",
+          "small_flowers": "pink",
+          "leaves": "green"
+        },
+        "material": "textile",
+        "position": "hanging",
+        "top": "gathered on rod"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        354.0,
+        408.0,
+        568.0,
+        824.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young Asian boy with short black hair and a neutral expression sits facing forward, wearing a plain dark blue t-shirt. In the foreground, a plate of golden-brown steamed buns is visible, while an adult's torso wearing a striped shirt and white apron stands partially visible behind him.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "dark blue",
+            "sleeves": "short"
+          }
+        },
+        "expression": "neutral",
+        "pose": "sitting",
+        "context": {
+          "foreground_objects": "plate of steamed buns",
+          "background_person": "adult in apron"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        660.0,
+        248.0,
+        988.0,
+        808.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling middle-aged Asian woman stands behind a table, wearing a white button-down shirt with sleeves rolled to the elbows and a bright red headscarf tied under her chin. She has a red string bracelet on her left wrist and is positioned next to a white ceramic teapot and a red plastic colander.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "ethnicity": "Asian",
+        "expression": "smiling",
+        "clothing": {
+          "top": "white button-down shirt",
+          "headwear": "red headscarf",
+          "accessories": "red string bracelet"
+        },
+        "pose": "standing",
+        "context": "kitchen or dining area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9296875,
+      "box": [
+        372.0,
+        172.0,
+        708.0,
+        760.0
+      ],
+      "mask": "image_3.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling middle-aged Asian man stands behind a young boy, wearing a green and white striped button-down shirt with a white apron. He holds a black-handled tool, possibly a cleaver or knife, in his right hand raised near his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Asian",
+        "expression": "smiling",
+        "hair": {
+          "color": "black",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "striped",
+            "colors": [
+              "green",
+              "white"
+            ]
+          },
+          "apron": {
+            "color": "white",
+            "material": "fabric"
+          }
+        },
+        "pose": "standing",
+        "accessories": {
+          "held_object": {
+            "type": "tool",
+            "handle_color": "black"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.98046875,
+      "box": [
+        -1.0,
+        346.0,
+        392.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_3.png",
+      "crop": null,
+      "description": "An elderly Asian man with a weathered face and short white hair sits at a blue table, wearing a brown fedora, a red vest over a blue denim shirt, and grey trousers. He has a contemplative expression with his right hand resting near his chin.",
+      "attributes": {
+        "gender": "male",
+        "age": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "style": "short"
+        },
+        "facial_hair": "white stubble",
+        "expression": "contemplative",
+        "clothing": {
+          "hat": {
+            "type": "fedora",
+            "color": "brown"
+          },
+          "vest": {
+            "color": "red",
+            "material": "cotton"
+          },
+          "shirt": {
+            "color": "blue",
+            "material": "denim"
+          },
+          "pants": {
+            "color": "grey"
+          }
+        },
+        "pose": "sitting, hand near chin",
+        "accessories": {
+          "hat": "brown fedora"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

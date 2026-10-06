@@ -1,0 +1,94 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "coat",
+      "index": 0,
+      "score": 0.8203125,
+      "box": [
+        4.0,
+        476.0,
+        956.0,
+        1020.0
+      ],
+      "mask": "image_4.masks/coat_0.png",
+      "crop": null,
+      "description": "A close-up crop of a man's upper torso wearing a formal black double-breasted coat with wide lapels and a visible button, layered over a white high-collared shirt and a black cravat tied with a rose detail. The man has a thick, reddish-brown mustache and is positioned against a dark, mottled background.",
+      "attributes": {
+        "entity_type": "human",
+        "gender": "male",
+        "age_group": "middle-aged",
+        "facial_hair": {
+          "mustache": "thick, reddish-brown"
+        },
+        "clothing": {
+          "coat": {
+            "color": "black",
+            "style": "double-breasted",
+            "features": [
+              "wide lapels",
+              "visible button"
+            ]
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "neckwear": {
+            "type": "cravat",
+            "color": "black",
+            "detail": "rose or floral knot"
+          }
+        },
+        "background": "dark, mottled, indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        6.0,
+        66.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_4.masks/person_0.png",
+      "crop": null,
+      "description": "A portrait of a middle-aged man with curly dark brown hair and a thick, curled mustache, wearing a black suit jacket over a white high-collared shirt and a black bow tie. He has a serious expression with reddish skin tones and is positioned against a dark, mottled brown background.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": {
+          "mustache": "thick, curled ends",
+          "sideburns": "present"
+        },
+        "clothing": {
+          "jacket": {
+            "color": "black",
+            "type": "suit"
+          },
+          "shirt": {
+            "color": "white",
+            "collar": "high, stiff"
+          },
+          "neckwear": {
+            "type": "bow tie",
+            "color": "black"
+          }
+        },
+        "expression": "serious",
+        "pose": "bust-up, facing slightly right",
+        "background": "dark, mottled brown"
+      },
+      "parse_ok": true
+    }
+  ]
+}

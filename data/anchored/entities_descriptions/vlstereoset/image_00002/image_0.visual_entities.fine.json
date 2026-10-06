@@ -1,0 +1,201 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.7265625,
+      "box": [
+        130.0,
+        324.0,
+        368.0,
+        440.0
+      ],
+      "mask": "image_0.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's hands gripping the handlebars of a bicycle, with one hand on the brake lever and the other on the grip. The handlebars are silver-colored metal with red accents on the brake levers and grips. The background shows a muddy path with green grass on either side.",
+      "attributes": {
+        "handlebars": {
+          "color": "silver",
+          "material": "metal",
+          "brake_levers": {
+            "color": "red"
+          },
+          "grips": {
+            "color": "red"
+          }
+        },
+        "hands": {
+          "position": "gripping handlebars",
+          "skin_tone": "dark"
+        },
+        "background": {
+          "path": "muddy",
+          "grass": "green"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.828125,
+      "box": [
+        496.0,
+        262.0,
+        668.0,
+        438.0
+      ],
+      "mask": "image_0.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A close-up view of a large, light tan burlap sack filled with a granular substance, featuring a coarse woven texture and a gathered, tied knot at the bottom right. The sack is positioned between a person wearing a pink shirt on the left and a person in dark blue clothing on the right, with a black strap visible across the upper left portion of the sack.",
+      "attributes": {
+        "material": "burlap",
+        "color": "light tan",
+        "texture": "coarse woven",
+        "shape": "bulging cylindrical",
+        "details": {
+          "knot": "tied at bottom right",
+          "strap": "black band across top left"
+        },
+        "context": "held or positioned between two people"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        140.0,
+        12.0,
+        532.0,
+        438.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with dark skin is riding a bicycle, wearing a colorful patterned headscarf and a loose-fitting, short-sleeved pinkish-brown top. She is positioned in the foreground with a flooded rice paddy field in the background.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "African",
+        "age": "adult",
+        "expression": "smiling",
+        "pose": "riding a bicycle",
+        "clothing": {
+          "top": "pinkish-brown short-sleeved shirt",
+          "headwear": "colorful patterned headscarf"
+        },
+        "accessories": {
+          "bicycle": "visible handlebars and frame"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        506.0,
+        37.75,
+        744.0,
+        436.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A dark-skinned man with a shaved head is bent forward at the waist, wearing a blue short-sleeved polo shirt and dark pants, while handling a large, beige woven sack filled with grain or produce in an outdoor field setting.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "hair": "shaved",
+        "clothing": {
+          "top": "blue polo shirt",
+          "bottom": "dark pants"
+        },
+        "pose": "bent over",
+        "action": "handling a large sack",
+        "object": {
+          "type": "sack",
+          "color": "beige",
+          "material": "woven fabric",
+          "contents": "grain or produce"
+        },
+        "location": "outdoor field"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.6875,
+      "box": [
+        620.0,
+        60.25,
+        628.0,
+        81.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rice paddy field",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        1.5234375,
+        66.0,
+        780.0,
+        440.0
+      ],
+      "mask": "image_0.masks/rice paddy field_0.png",
+      "crop": null,
+      "description": "A woman with dark skin and a colorful headwrap stands in the foreground holding the handlebars of a bicycle, wearing a dusty pink short-sleeved top. Behind her to the right, a man in a blue t-shirt leans over a large woven sack, set against a backdrop of flooded green rice paddies and dry, brown earth.",
+      "attributes": {
+        "people": [
+          {
+            "gender": "female",
+            "ethnicity": "Black",
+            "age": "adult",
+            "clothing": {
+              "top": "dusty pink short-sleeved shirt",
+              "headwear": "colorful patterned headwrap"
+            },
+            "pose": "standing, holding bicycle handlebars",
+            "expression": "smiling"
+          },
+          {
+            "gender": "male",
+            "ethnicity": "Black",
+            "age": "adult",
+            "clothing": {
+              "shirt": "blue t-shirt with tan side panel"
+            },
+            "pose": "bending forward, handling a sack"
+          }
+        ],
+        "objects": {
+          "bicycle": {
+            "handlebars": "silver with red grips",
+            "position": "held by the woman"
+          },
+          "sack": {
+            "material": "woven fabric",
+            "color": "beige/brown",
+            "state": "full, tied at the top"
+          }
+        },
+        "environment": {
+          "field": "rice paddy",
+          "ground": "mix of dry brown soil and green grass",
+          "water": "shallow flooded sections in the background",
+          "background": "green rice plants, distant trees, bright sky"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

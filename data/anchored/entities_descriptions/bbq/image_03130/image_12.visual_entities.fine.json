@@ -1,0 +1,217 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "furniture",
+      "index": 0,
+      "score": 0.85546875,
+      "box": [
+        488.0,
+        500.0,
+        1024.0,
+        988.0
+      ],
+      "mask": "image_12.masks/furniture_0.png",
+      "crop": null,
+      "description": "A wooden bed with a light-colored headboard and white bedding is visible in the background, partially obscured by a person standing in the foreground.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "headboard": "visible",
+        "bedding": "white",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        82.0,
+        684.0,
+        306.0,
+        900.0
+      ],
+      "mask": "image_12.masks/furniture_1.png",
+      "crop": null,
+      "description": "A light-colored wooden side table with a rectangular top and a single drawer featuring a small, dark knob. The table has four tapered legs that angle slightly outward, and it is positioned on a light wooden floor against a white wall with a baseboard.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "style": "mid-century modern",
+        "structure": {
+          "legs": "tapered, angled",
+          "top": "rectangular",
+          "storage": "single drawer"
+        },
+        "hardware": "dark knob",
+        "position": "on floor"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 2,
+      "score": 0.94140625,
+      "box": [
+        -1.875,
+        328.0,
+        51.0,
+        912.0
+      ],
+      "mask": "image_12.masks/furniture_2.png",
+      "crop": null,
+      "description": "A tall, narrow wooden bookshelf with a light brown finish stands on angled legs, featuring multiple open shelves holding books and a woven storage basket at the bottom.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "structure": "tall, narrow, open shelving",
+        "legs": "angled, tapered",
+        "contents": [
+          "books",
+          "woven basket"
+        ],
+        "style": "mid-century modern or minimalist"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "furniture",
+      "index": 3,
+      "score": 0.5703125,
+      "box": [
+        840.0,
+        628.0,
+        880.0,
+        660.0
+      ],
+      "mask": "image_12.masks/furniture_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        484.0,
+        150.0,
+        876.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, curly white hair is walking forward while looking down, holding a wooden cane in her left hand. She wears a light blue button-down shirt with sleeves rolled up and beige trousers, with a caregiver's hand supporting her arm and shoulder from the left side.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "curly",
+          "length": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "light blue",
+            "type": "button-down",
+            "sleeves": "rolled up"
+          },
+          "pants": {
+            "color": "beige",
+            "type": "trousers"
+          }
+        },
+        "accessories": {
+          "cane": {
+            "material": "wood",
+            "color": "brown"
+          }
+        },
+        "pose": "walking, looking down",
+        "expression": "neutral, focused",
+        "context": "being assisted by a caregiver"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        264.0,
+        82.0,
+        816.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with dark hair tied back in a ponytail and wearing glasses is dressed in light blue medical scrubs, standing beside an elderly woman with white curly hair who is wearing a light blue button-down shirt and beige pants. The younger woman has her hand on the older woman's shoulder and is holding her other hand, while the older woman holds a wooden cane and looks downward.",
+      "attributes": {
+        "person_1": {
+          "gender": "female",
+          "age": "young adult",
+          "hair": {
+            "color": "dark brown",
+            "style": "ponytail"
+          },
+          "accessories": {
+            "glasses": "black rimmed"
+          },
+          "clothing": {
+            "top": "light blue short-sleeved scrub top",
+            "bottom": "light blue scrub pants"
+          },
+          "pose": "standing, supporting the other person",
+          "expression": "concerned, looking at the other person"
+        },
+        "person_2": {
+          "gender": "female",
+          "age": "elderly",
+          "hair": {
+            "color": "white",
+            "style": "curly, short"
+          },
+          "clothing": {
+            "top": "light blue long-sleeved button-down shirt",
+            "bottom": "beige trousers"
+          },
+          "accessories": {
+            "cane": "wooden, held in left hand"
+          },
+          "pose": "standing, leaning slightly, looking down",
+          "expression": "somber or tired"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        70.0,
+        -2.0,
+        318.0,
+        576.0
+      ],
+      "mask": "image_12.masks/window_0.png",
+      "crop": null,
+      "description": "A white-framed window with multiple glass panes, allowing bright natural light to enter the room. The window is partially visible, with a person in blue clothing standing to the right and a vase of orange and yellow flowers on the windowsill.",
+      "attributes": {
+        "frame_color": "white",
+        "glass_panes": "multiple",
+        "lighting": "bright natural light",
+        "position": "partially visible",
+        "surroundings": {
+          "person": "standing to the right, wearing blue clothing",
+          "flowers": "orange and yellow, in a vase on the windowsill"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

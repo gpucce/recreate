@@ -1,0 +1,120 @@
+{
+  "image": "image_11.png",
+  "visual_entities_source": "image_11.visual_entities.json",
+  "entities": [
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        2.0,
+        524.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_11.masks/grass_0.png",
+      "crop": null,
+      "description": "A rugby player wearing a green shirt and black shorts is holding a white, red, and blue rugby ball with both hands, preparing to pass or throw it. The player is in a dynamic pose, with one leg bent and the other extended, suggesting movement on a grassy field.",
+      "attributes": {
+        "clothing": {
+          "shirt": "green",
+          "shorts": "black",
+          "wristband": "white"
+        },
+        "pose": "dynamic, preparing to pass or throw",
+        "object": {
+          "type": "rugby ball",
+          "colors": [
+            "white",
+            "red",
+            "blue"
+          ],
+          "brand": "Gilbert"
+        },
+        "location": "grassy field",
+        "action": "holding ball with both hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        164.0,
+        74.0,
+        884.0,
+        1024.0
+      ],
+      "mask": "image_11.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with curly brown hair tied up in a messy bun is running on a grassy field, holding a rugby ball with both hands. She is wearing a green short-sleeved jersey with 'Vipon' and a 'BATH' logo, black shorts with a 'BATH' logo, and a white wristband on her left wrist.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly, tied in a bun"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "green",
+            "type": "short-sleeved jersey",
+            "logos": [
+              "Vipon",
+              "BATH"
+            ]
+          },
+          "shorts": {
+            "color": "black",
+            "logos": [
+              "BATH"
+            ]
+          },
+          "accessories": {
+            "wristband": {
+              "color": "white",
+              "position": "left wrist"
+            }
+          }
+        },
+        "pose": "running, holding a rugby ball",
+        "expression": "focused",
+        "object": {
+          "type": "rugby ball",
+          "colors": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "brand": "Gilbert"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rugby_ball",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        176.0,
+        564.0,
+        336.0,
+        748.0
+      ],
+      "mask": "image_11.masks/rugby_ball_0.png",
+      "crop": null,
+      "description": "A close-up of a white rugby ball with red and blue stripes, held in two hands. The ball features the 'Gilbert' brand name in black text and a partial view of the 'Rugby World Cup' logo. The hands are gripping the ball from both sides, with fingers visible on the surface.",
+      "attributes": {
+        "brand": "Gilbert",
+        "color": "white with red and blue stripes",
+        "text": "Gilbert, Rugby World Cup",
+        "material": "rubber or synthetic leather",
+        "shape": "oval",
+        "held_by": "two hands",
+        "grip": "fingers on both sides"
+      },
+      "parse_ok": true
+    }
+  ]
+}

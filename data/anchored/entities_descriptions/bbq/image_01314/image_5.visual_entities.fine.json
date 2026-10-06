@@ -1,0 +1,457 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        0.0,
+        572.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/bench_0.png",
+      "crop": null,
+      "description": "A wooden bench with horizontal slats in varying shades of brown and gray, showing signs of weathering and age, is partially visible behind two seated individuals. The bench's surface appears worn, with some slats darker than others, suggesting outdoor exposure.",
+      "attributes": {
+        "material": "wood",
+        "color": "various shades of brown and gray",
+        "condition": "weathered, worn",
+        "structure": "horizontal slats",
+        "position": "behind seated individuals",
+        "visible_parts": "backrest and seat slats"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        516.0,
+        154.0,
+        980.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with shoulder-length gray hair sits on a wooden bench, wearing a light pink cardigan over a white t-shirt and beige pants. She holds a black smartphone in both hands, looking down at the screen with a focused expression, while a person in a blue plaid shirt stands beside her, pointing at the phone and placing a hand on her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "shoulder-length"
+        },
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "light pink"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "pose": "sitting",
+        "expression": "focused",
+        "accessories": {
+          "device": "black smartphone"
+        },
+        "context": "being assisted by another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        66.0,
+        74.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with dark curly hair and a beard sits on a wooden bench, wearing a blue and white checkered shirt over a white t-shirt and blue jeans. He is smiling and pointing at a smartphone held by an older woman next to him, with his arm around her shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "full beard",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "pattern": "blue and white checkered",
+            "sleeves": "rolled up"
+          },
+          "undershirt": {
+            "color": "white",
+            "type": "t-shirt"
+          },
+          "pants": {
+            "color": "blue",
+            "material": "denim"
+          }
+        },
+        "pose": "sitting, leaning towards the woman, pointing at a phone",
+        "action": "pointing at a smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        676.0,
+        494.0,
+        764.0,
+        600.0
+      ],
+      "mask": "image_5.masks/smartphone_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up of a person's hand holding a black smartphone, with the thumb resting on the back of the device near the bottom left corner. The phone has a glossy finish and a single camera lens located in the top left corner of the back panel.\", \"attributes\": {\"color\": \"black\", \"material\": \"glossy plastic or glass\", \"camera\": {\"position\": \"top left\", \"lens_count\": 1}, \"hand_position\": \"gripping from the side\", \"thumb_position\": \"on the back, lower left\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        932.0,
+        572.0,
+        1024.0,
+        660.0
+      ],
+      "mask": "image_5.masks/wood_0.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a prominent, swirling grain pattern in shades of light gray, beige, and subtle pinkish-brown. The wood has a smooth, polished finish with visible horizontal striations and a slightly mottled texture.",
+      "attributes": {
+        "material": "wood",
+        "color": "light gray, beige, pinkish-brown",
+        "texture": "smooth, polished",
+        "pattern": "swirling grain, horizontal striations",
+        "finish": "glossy or semi-glossy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 1,
+      "score": 0.8046875,
+      "box": [
+        -1.0,
+        688.0,
+        173.0,
+        768.0
+      ],
+      "mask": "image_5.masks/wood_1.png",
+      "crop": null,
+      "description": "A dark, almost black wooden surface with visible grain texture and subtle variations in tone, occupying most of the frame. On the right edge, a portion of a blue and white checkered fabric is visible, partially overlapping the wood.",
+      "attributes": {
+        "color": "dark brown to black",
+        "texture": "wood grain",
+        "material": "wood",
+        "adjacent_object": {
+          "type": "fabric",
+          "pattern": "checkered",
+          "colors": [
+            "blue",
+            "white"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 2,
+      "score": 0.625,
+      "box": [
+        0.0,
+        684.0,
+        1016.0,
+        772.0
+      ],
+      "mask": "image_5.masks/wood_2.png",
+      "crop": null,
+      "description": "The image shows two people sitting side by side, with the person on the left wearing a blue and white checkered shirt over a white t-shirt, and the person on the right wearing a pink long-sleeved top. The background appears to be a wooden surface, possibly a bench or table, with visible grain and texture.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "shirt": "blue and white checkered",
+            "undershirt": "white"
+          },
+          "right_person": {
+            "top": "pink long-sleeved"
+          }
+        },
+        "background": {
+          "material": "wood",
+          "texture": "visible grain",
+          "color": "dark brown"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 3,
+      "score": 0.63671875,
+      "box": [
+        944.0,
+        800.0,
+        1024.0,
+        880.0
+      ],
+      "mask": "image_5.masks/wood_3.png",
+      "crop": null,
+      "description": "The image shows a close-up of a dark, textured surface that appears to be a piece of wood or a wooden object. The texture is rough and grainy, with visible lines and patterns typical of wood grain. The color is predominantly dark brown, with some lighter streaks running through it. The surface has a matte finish, and there are no visible knots or imperfections in the cropped area. The edges of the wood are not clearly defined within the frame, suggesting that the crop focuses on the central portion of the material.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "texture": "rough, grainy",
+        "finish": "matte",
+        "visible_features": [
+          "wood grain",
+          "lighter streaks"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 4,
+      "score": 0.69140625,
+      "box": [
+        -1.25,
+        800.0,
+        128.0,
+        880.0
+      ],
+      "mask": "image_5.masks/wood_4.png",
+      "crop": null,
+      "description": "The image shows a close-up of a dark, textured surface, likely a piece of wood or a similar material, with a blue and white checkered fabric draped over the edge. The fabric appears to be a tablecloth or napkin, and the wood has a rough, grainy texture.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "texture": "rough, grainy",
+        "fabric": {
+          "color": "blue and white",
+          "pattern": "checkered",
+          "material": "cloth"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 5,
+      "score": 0.80078125,
+      "box": [
+        -2.5,
+        576.0,
+        154.0,
+        664.0
+      ],
+      "mask": "image_5.masks/wood_5.png",
+      "crop": null,
+      "description": "A close-up view of a dark brown wooden surface with visible grain patterns and a prominent knot. The wood appears aged and has a rough texture, with variations in color ranging from deep browns to lighter, almost reddish tones. On the right side, there is a partial view of a blue and white checkered fabric, possibly a tablecloth or napkin, which contrasts with the natural wood tones.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown with reddish tones",
+        "texture": "rough, aged",
+        "features": [
+          "visible grain",
+          "prominent knot"
+        ],
+        "adjacent_object": {
+          "type": "fabric",
+          "pattern": "blue and white checkered"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 6,
+      "score": 0.5234375,
+      "box": [
+        0.0,
+        572.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/wood_6.png",
+      "crop": null,
+      "description": "A close-up of a wooden bench with horizontal slats, showing a mix of dark and light wood tones, with visible grain and some wear, suggesting it is an outdoor or public seating area.",
+      "attributes": {
+        "material": "wood",
+        "color": "mixed dark and light brown",
+        "texture": "grainy, worn",
+        "structure": "horizontal slats",
+        "condition": "weathered, used"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 7,
+      "score": 0.65625,
+      "box": [
+        4.0,
+        796.0,
+        1020.0,
+        884.0
+      ],
+      "mask": "image_5.masks/wood_7.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people sitting side by side, with the focus on their torsos and laps. The person on the left is wearing blue jeans and a blue and white checkered shirt over a white undershirt, while the person on the right is wearing beige pants and a pink jacket over a white shirt. Their hands are clasped together in the center, suggesting a gesture of affection or support.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "jeans": "blue",
+            "shirt": "blue and white checkered",
+            "undershirt": "white"
+          },
+          "right_person": {
+            "pants": "beige",
+            "jacket": "pink",
+            "shirt": "white"
+          }
+        },
+        "pose": "sitting side by side",
+        "gesture": "hands clasped together"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 8,
+      "score": 0.55078125,
+      "box": [
+        236.0,
+        996.0,
+        444.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/wood_8.png",
+      "crop": null,
+      "description": "A close-up view of a wooden surface with a warm, medium-brown tone and visible horizontal grain patterns. The wood is partially covered by a dark, textured fabric, possibly denim or canvas, which drapes over the top and sides, creating a shadowed area above the wood.",
+      "attributes": {
+        "material": "wood",
+        "color": "medium brown",
+        "texture": "grainy, horizontal lines",
+        "covering": "dark fabric (possibly denim or canvas)",
+        "lighting": "shadowed, diffused",
+        "position": "horizontal surface, partially obscured"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 9,
+      "score": 0.5234375,
+      "box": [
+        2.0,
+        964.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_5.masks/wood_9.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people sitting side by side on a wooden bench, with only their lower legs and knees visible. The person on the left is wearing blue denim jeans, while the person on the right is wearing light beige or khaki pants.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "pants": "blue denim jeans"
+          },
+          "right_person": {
+            "pants": "light beige/khaki pants"
+          }
+        },
+        "setting": "wooden bench",
+        "position": "sitting side by side",
+        "visible_body_parts": [
+          "lower legs",
+          "knees"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 10,
+      "score": 0.734375,
+      "box": [
+        0.0,
+        572.0,
+        1020.0,
+        660.0
+      ],
+      "mask": "image_5.masks/wood_10.png",
+      "crop": null,
+      "description": "The image shows a close-up of two people's hands and arms, with one person wearing a blue and white checkered shirt and the other wearing a pink top. The hands are positioned as if they are interacting with a smartphone, which is partially visible in the frame.",
+      "attributes": {
+        "clothing": {
+          "shirt": "blue and white checkered",
+          "top": "pink"
+        },
+        "object": "smartphone",
+        "pose": "hands interacting with smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 11,
+      "score": 0.5078125,
+      "box": [
+        964.0,
+        964.0,
+        1024.0,
+        988.0
+      ],
+      "mask": "image_5.masks/wood_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 12,
+      "score": 0.76171875,
+      "box": [
+        924.0,
+        688.0,
+        1024.0,
+        768.0
+      ],
+      "mask": "image_5.masks/wood_12.png",
+      "crop": null,
+      "description": "A close-up of a weathered wooden surface with a grayish-brown color and visible grain patterns, including a prominent knot in the center. The wood appears aged and textured, with a rough, natural finish.",
+      "attributes": {
+        "color": "grayish-brown",
+        "texture": "rough, weathered",
+        "grain": "visible, with a prominent knot",
+        "condition": "aged, natural finish"
+      },
+      "parse_ok": true
+    }
+  ]
+}

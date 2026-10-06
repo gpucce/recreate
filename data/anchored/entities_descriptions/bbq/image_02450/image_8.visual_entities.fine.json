@@ -1,0 +1,123 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "backpack",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        2.0,
+        384.0,
+        254.0,
+        848.0
+      ],
+      "mask": "image_8.masks/backpack_0.png",
+      "crop": null,
+      "description": "A black backpack is worn on the back of a person, visible from the side. The backpack features a smooth, matte black fabric with a visible zipper on the side pocket and a thick black shoulder strap with a plastic adjustment buckle resting on the person's shoulder.",
+      "attributes": {
+        "color": "black",
+        "material": "fabric",
+        "features": [
+          "side pocket",
+          "zipper",
+          "shoulder strap",
+          "adjustment buckle"
+        ],
+        "position": "worn on back",
+        "type": "backpack"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        540.0,
+        192.0,
+        1012.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly man with a white beard and mustache sits facing left, wearing a brown plaid flat cap, a light blue button-down shirt, and a maroon and beige argyle sweater vest. He has a gentle smile on his face and his hands rest on his thighs while wearing khaki trousers.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "hair": {
+          "color": "white",
+          "style": "short, visible under cap",
+          "facial_hair": "full white beard and mustache"
+        },
+        "expression": "smiling, looking to the side",
+        "clothing": {
+          "headwear": "brown plaid flat cap",
+          "top": {
+            "shirt": "light blue long-sleeved button-down",
+            "vest": "maroon and beige argyle patterned knit sweater vest"
+          },
+          "bottom": "khaki trousers"
+        },
+        "pose": "sitting, hands resting on knees",
+        "skin": "wrinkled, age spots visible on hands"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        82.0,
+        160.0,
+        544.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with short dark hair sits in profile facing right, wearing a bright blue baseball cap, an orange and navy plaid flannel shirt over a white t-shirt, and blue jeans. He has a black backpack strap over his shoulder and is smiling slightly.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "short"
+        },
+        "headwear": {
+          "type": "baseball cap",
+          "color": "blue"
+        },
+        "clothing": {
+          "outer": {
+            "type": "flannel shirt",
+            "pattern": "plaid",
+            "colors": [
+              "orange",
+              "navy blue"
+            ],
+            "state": "unbuttoned"
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "accessories": {
+          "backpack": {
+            "color": "black",
+            "visible_part": "strap"
+          }
+        },
+        "pose": "sitting",
+        "expression": "smiling",
+        "orientation": "profile facing right"
+      },
+      "parse_ok": true
+    }
+  ]
+}

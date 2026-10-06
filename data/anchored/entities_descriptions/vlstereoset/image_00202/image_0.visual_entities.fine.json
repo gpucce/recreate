@@ -1,0 +1,84 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "landmass",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        764.0,
+        212.0,
+        800.0,
+        300.0
+      ],
+      "mask": "image_0.masks/landmass_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass",
+      "index": 1,
+      "score": 0.77734375,
+      "box": [
+        17.25,
+        9.25,
+        768.0,
+        486.0
+      ],
+      "mask": "image_0.masks/landmass_1.png",
+      "crop": null,
+      "description": "A map of a landmass with internal boundaries, likely representing a country or region, divided into smaller administrative areas. The landmass is surrounded by water, with some coastal features and possibly islands visible. The internal boundaries are marked with thin lines, and the overall shape is irregular with various peninsulas and inlets.",
+      "attributes": {
+        "type": "landmass",
+        "internal_boundaries": "present",
+        "coastal_features": "peninsulas, inlets",
+        "surrounding": "water",
+        "color": "light beige for land, light blue for water",
+        "islands": "possibly present"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass",
+      "index": 2,
+      "score": 0.51953125,
+      "box": [
+        3.125,
+        0.12890625,
+        478.0,
+        58.75
+      ],
+      "mask": "image_0.masks/landmass_2.png",
+      "crop": null,
+      "description": "A map showing a portion of the Mediterranean region, including the Italian peninsula, the Balkans, and parts of North Africa, with a highlighted area in the western Balkans and a dashed line extending southeast across the Adriatic Sea.",
+      "attributes": {
+        "region": "Mediterranean",
+        "highlighted_area": "Western Balkans",
+        "dashed_line": "Southeast across Adriatic Sea",
+        "landmass_color": "Beige",
+        "water_color": "Light blue",
+        "map_style": "Simplified political map"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass",
+      "index": 3,
+      "score": 0.609375,
+      "box": [
+        468.0,
+        -0.12890625,
+        524.0,
+        50.0
+      ],
+      "mask": "image_0.masks/landmass_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

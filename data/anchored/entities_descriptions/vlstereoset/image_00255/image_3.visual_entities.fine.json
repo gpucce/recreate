@@ -1,0 +1,280 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "cardboard box",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        432.0,
+        572.0,
+        720.0,
+        724.0
+      ],
+      "mask": "image_3.masks/cardboard box_0.png",
+      "crop": null,
+      "description": "A close-up view of a plain, light brown cardboard box with a rectangular shape, showing the front and side panels. The box is sealed with a strip of clear packing tape running vertically down the center seam, and the corrugated texture of the material is faintly visible on the surface.",
+      "attributes": {
+        "object_type": "cardboard box",
+        "color": "light brown",
+        "material": "corrugated cardboard",
+        "shape": "rectangular",
+        "sealing": "clear packing tape",
+        "condition": "closed",
+        "surface_texture": "matte",
+        "view_angle": "side and front"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        420.0,
+        716.0,
+        748.0,
+        900.0
+      ],
+      "mask": "image_3.masks/cardboard box_1.png",
+      "crop": null,
+      "description": "A plain, light brown cardboard box is held by a person's hand, which is visible on the left side of the frame. The box is rectangular with visible tape sealing the top flap, and the person is wearing a yellow long-sleeved shirt and blue jeans.",
+      "attributes": {
+        "object": "cardboard box",
+        "color": "light brown",
+        "material": "cardboard",
+        "shape": "rectangular",
+        "features": [
+          "tape on top",
+          "closed flaps"
+        ],
+        "interaction": "held by hand",
+        "person": {
+          "visible_parts": [
+            "hand",
+            "arm",
+            "torso"
+          ],
+          "clothing": {
+            "top": "yellow long-sleeved shirt",
+            "bottom": "blue jeans"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "cardboard box",
+      "index": 2,
+      "score": 0.96875,
+      "box": [
+        450.0,
+        434.0,
+        684.0,
+        576.0
+      ],
+      "mask": "image_3.masks/cardboard box_2.png",
+      "crop": null,
+      "description": "A light brown cardboard box with a rectangular cutout handle on the front side, positioned next to a plain cardboard box on the left. The box appears to be a storage or shipping container with a lid, and the top edge of another box is visible below it.",
+      "attributes": {
+        "material": "cardboard",
+        "color": "light brown",
+        "shape": "rectangular",
+        "features": {
+          "handle": "rectangular cutout",
+          "lid": "visible",
+          "flaps": "closed"
+        },
+        "position": "stacked or adjacent to other boxes",
+        "function": "storage or shipping"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "light fixture",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        -3.0,
+        452.0,
+        126.0,
+        844.0
+      ],
+      "mask": "image_3.masks/light fixture_0.png",
+      "crop": null,
+      "description": "A tripod floor lamp with a light wood finish and a white drum shade stands in the background, emitting a warm glow. The lamp features three slender legs that converge at the top to support the cylindrical shade.",
+      "attributes": {
+        "type": "tripod floor lamp",
+        "shade": {
+          "color": "white",
+          "shape": "cylindrical",
+          "material": "fabric"
+        },
+        "base": {
+          "material": "wood",
+          "color": "light brown",
+          "structure": "three-legged tripod"
+        },
+        "lighting": "warm, on"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "mural",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        728.0,
+        308.0,
+        1024.0,
+        676.0
+      ],
+      "mask": "image_3.masks/mural_0.png",
+      "crop": null,
+      "description": "A close-up of a zebra's head and upper body, featuring distinct black and white stripes, a dark mane, and large ears, positioned behind a window frame with a blurred outdoor background.",
+      "attributes": {
+        "animal": "zebra",
+        "stripes": "black and white",
+        "mane": "dark, upright",
+        "ears": "large, rounded",
+        "position": "behind a window frame",
+        "background": "blurred outdoor scene",
+        "expression": "calm, alert"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        312.0,
+        198.0,
+        644.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with curly brown hair and a surprised expression stands holding a stack of three cardboard boxes, with a black DSLR camera resting on top. He is wearing a mustard yellow crew-neck sweater and blue jeans, positioned in front of a brown leather sofa.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "expression": "surprised",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "mustard yellow",
+            "neckline": "crew neck"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "standing",
+        "action": "holding boxes",
+        "objects": {
+          "boxes": {
+            "count": 3,
+            "material": "cardboard",
+            "color": "brown"
+          },
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "position": "on top of boxes"
+          }
+        },
+        "background": {
+          "furniture": "brown leather sofa"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        16.0,
+        704.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/sofa_0.png",
+      "crop": null,
+      "description": "A brown leather sofa with a tufted backrest and two decorative throw pillows, one gray with a white snowflake pattern and the other beige with a leaf pattern, is positioned against a wall in a living room setting.",
+      "attributes": {
+        "material": "leather",
+        "color": "brown",
+        "style": "tufted",
+        "pillows": [
+          {
+            "color": "gray",
+            "pattern": "snowflake"
+          },
+          {
+            "color": "beige",
+            "pattern": "leaf"
+          }
+        ],
+        "position": "against wall",
+        "setting": "living room"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        744.0,
+        744.0,
+        976.0,
+        928.0
+      ],
+      "mask": "image_3.masks/throw pillow_0.png",
+      "crop": null,
+      "description": "A square throw pillow with a beige and light brown botanical leaf pattern rests on a brown leather sofa. The pillow features a textured fabric surface with a central design of stylized leaves radiating from the middle.",
+      "attributes": {
+        "shape": "square",
+        "color": "beige and light brown",
+        "pattern": "botanical leaf",
+        "material": "textured fabric",
+        "position": "resting on a brown leather sofa",
+        "function": "decorative cushion"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "throw pillow",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        102.0,
+        736.0,
+        326.0,
+        904.0
+      ],
+      "mask": "image_3.masks/throw pillow_1.png",
+      "crop": null,
+      "description": "A square, grey throw pillow with a soft, velvety texture rests on a brown leather surface. The pillow features a large, white, six-pointed snowflake design in the center, accompanied by smaller snowflakes and dots scattered near the corners.",
+      "attributes": {
+        "shape": "square",
+        "color": "grey",
+        "material": "velvet",
+        "pattern": "snowflake",
+        "pattern_color": "white",
+        "pattern_placement": "central large snowflake, smaller snowflakes in corners",
+        "position": "resting on brown leather furniture"
+      },
+      "parse_ok": true
+    }
+  ]
+}

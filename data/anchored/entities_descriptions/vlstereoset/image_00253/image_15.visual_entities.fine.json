@@ -1,0 +1,85 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        612.0,
+        748.0,
+        740.0,
+        844.0
+      ],
+      "mask": "image_15.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of an elderly person's hand with wrinkled, tanned skin resting flat on a surface of light brown sand. The fingers are slightly spread, and the skin texture shows deep lines and age spots, indicating advanced age.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "color": "tanned",
+          "texture": "wrinkled",
+          "details": "deep lines, age spots"
+        },
+        "pose": "resting flat on surface",
+        "surface": "sand",
+        "lighting": "natural sunlight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.87109375,
+      "box": [
+        390.0,
+        740.0,
+        502.0,
+        820.0
+      ],
+      "mask": "image_15.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a person's hand, likely a child's, with light skin tone, resting on a sandy surface. The fingers are slightly curled, and the hand appears to be holding or interacting with a small green object, possibly a plant stem or toy, while an orange fabric is visible in the upper right corner.",
+      "attributes": {
+        "skin_tone": "light",
+        "age_group": "child",
+        "pose": "resting on sand, fingers slightly curled",
+        "object_interaction": "holding or touching a small green object",
+        "background_surface": "sandy",
+        "visible_clothing": "orange fabric in upper right corner"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.91015625,
+      "box": [
+        442.0,
+        664.0,
+        532.0,
+        760.0
+      ],
+      "mask": "image_15.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of a wrinkled, elderly hand with visible veins and dry skin texture, reaching down to touch or hold a bright orange flower petal in the foreground. The background is a soft, out-of-focus beige, suggesting a sandy or earthy environment.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled",
+          "condition": "dry",
+          "details": "visible veins"
+        },
+        "pose": "reaching",
+        "action": "touching flower",
+        "object_interaction": {
+          "object": "flower",
+          "color": "orange"
+        },
+        "background": "blurred beige"
+      },
+      "parse_ok": true
+    }
+  ]
+}

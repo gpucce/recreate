@@ -1,0 +1,72 @@
+{
+  "image": "image_5.png",
+  "visual_entities_source": "image_5.visual_entities.json",
+  "entities": [
+    {
+      "type": "flagpole",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        92.5,
+        26.0,
+        149.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/flagpole_0.png",
+      "crop": null,
+      "description": "A close-up view of a vertical, metallic flagpole featuring a smooth, cylindrical shaft with a subtle vertical highlight. The pole is topped with a polished, golden spherical finial resting on a small decorative collar. A portion of a blue flag is visible on the right side, attached to the pole with small metal rings.",
+      "attributes": {
+        "object_type": "flagpole",
+        "material": "metal",
+        "color": "silver-grey",
+        "finish": "smooth, matte",
+        "shape": "cylindrical",
+        "top": {
+          "finial": "spherical",
+          "finial_color": "gold",
+          "finial_material": "metal",
+          "finial_finish": "polished"
+        },
+        "attachments": {
+          "flag": "blue",
+          "hardware": "metal rings"
+        },
+        "background": "light blue sky"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "statue",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        324.0,
+        178.0,
+        924.0,
+        1024.0
+      ],
+      "mask": "image_5.masks/statue_0.png",
+      "crop": null,
+      "description": "A weathered white marble statue of a young man with curly hair, wearing a draped toga with a brooch on the shoulder, holding a scroll in his right hand and a staff in his left, set against a backdrop of a waving French flag.",
+      "attributes": {
+        "material": "white marble",
+        "condition": "weathered with brownish stains",
+        "gender": "male",
+        "age": "young adult",
+        "hair": "curly, short",
+        "clothing": {
+          "type": "toga",
+          "details": "draped over left shoulder, fastened with a circular brooch, gathered at the waist"
+        },
+        "accessories": {
+          "right_hand": "holding a rolled scroll",
+          "left_hand": "holding a staff or scepter"
+        },
+        "pose": "standing, facing slightly to the right",
+        "expression": "serene, neutral",
+        "background": "French flag (blue, white, red) waving in the wind"
+      },
+      "parse_ok": true
+    }
+  ]
+}

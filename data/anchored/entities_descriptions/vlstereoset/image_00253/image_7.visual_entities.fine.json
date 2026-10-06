@@ -1,0 +1,94 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.9140625,
+      "box": [
+        302.0,
+        672.0,
+        506.0,
+        808.0
+      ],
+      "mask": "image_7.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up of a small, fair-skinned child's hand with fingers curled into a loose fist, gripping a thin green plant stem. The background is a blurred, sandy brown texture.",
+      "attributes": {
+        "age": "child",
+        "skin_tone": "fair",
+        "pose": "gripping",
+        "grip_object": "green stem",
+        "fingers": "curled",
+        "background": "sandy brown"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.89453125,
+      "box": [
+        496.0,
+        592.0,
+        640.0,
+        672.0
+      ],
+      "mask": "image_7.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up, shallow depth-of-field shot of a person's hand holding a thin, light green object, likely a plant stem or leaf, between the thumb and index finger. The skin is light-toned with visible texture and short, clean fingernails, while the background is heavily blurred, showing indistinct shapes of the other hand and a brown object.",
+      "attributes": {
+        "skin_tone": "light",
+        "fingernails": "short, clean",
+        "grip": "pinching",
+        "object_held": "light green stem",
+        "focus": "shallow depth of field",
+        "background": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.859375,
+      "box": [
+        174.0,
+        424.0,
+        544.0,
+        672.0
+      ],
+      "mask": "image_7.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of an elderly person's wrinkled hand with visible veins and age spots, wearing a simple gold band on the ring finger, gently holding the green stem of a bright orange poppy flower. The hand is positioned in the foreground with a soft-focus background of light beige clothing.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled",
+          "features": [
+            "prominent veins",
+            "age spots",
+            "dry"
+          ]
+        },
+        "accessories": {
+          "ring": {
+            "finger": "ring finger",
+            "material": "gold",
+            "style": "simple band"
+          }
+        },
+        "action": "holding flower stem",
+        "object": {
+          "type": "flower",
+          "color": "orange",
+          "part": "stem"
+        },
+        "clothing": {
+          "sleeve": "light beige or cream"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

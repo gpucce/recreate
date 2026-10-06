@@ -1,0 +1,126 @@
+{
+  "scene": {
+    "background": "light gray concrete blocks with a corkboard containing colorful sticky notes (yellow, orange, pink, white) and a large window on the left letting in natural daylight",
+    "lighting": "soft and even natural daylight from the left window, creating gentle shadows and highlights on the students’ skin and wooden desks",
+    "camera_angle": "slightly low angle",
+    "style": "realistic and documentary",
+    "mood": "calm, studious, and authentic",
+    "color_palette": "warm and natural, dominated by beige desks, white t-shirt, red top, and muted tones"
+  },
+  "entities": [
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "male",
+        "race": "Black",
+        "pose": "seated",
+        "expression": "attentive and engaged",
+        "hair": {
+          "color": "not specified"
+        },
+        "clothing": {
+          "shirt": "plain white"
+        },
+        "accessories": {
+          "pen": "blue"
+        },
+        "position": "foreground"
+      },
+      "id": "student_1",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "female",
+        "pose": "seated",
+        "expression": "focused",
+        "hair": {
+          "length": "long",
+          "color": "dark"
+        },
+        "clothing": {
+          "top": "red"
+        },
+        "position": "left of student_1"
+      },
+      "id": "student_2",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "male",
+        "pose": "seated",
+        "clothing": {
+          "shirt": "light blue"
+        },
+        "position": "behind student_2"
+      },
+      "id": "student_3",
+      "count": 1
+    },
+    {
+      "type": "person",
+      "attributes": {
+        "age": "young",
+        "gender": "male",
+        "pose": "seated",
+        "clothing": {
+          "shirt": "white"
+        },
+        "position": "right side of the image"
+      },
+      "id": "student_4",
+      "count": 1
+    },
+    {
+      "type": "desk",
+      "attributes": {
+        "material": "wooden",
+        "color": "beige"
+      },
+      "id": "desk_1",
+      "count": 4
+    },
+    {
+      "type": "laptop",
+      "attributes": {
+        "position": "on desk"
+      },
+      "id": "laptop_1",
+      "count": 2
+    },
+    {
+      "type": "corkboard",
+      "attributes": {
+        "background": "partially visible",
+        "contents": "colorful sticky notes (yellow, orange, pink, white)"
+      },
+      "id": "corkboard_1",
+      "count": 1
+    },
+    {
+      "type": "window",
+      "attributes": {
+        "position": "left side",
+        "lighting": "natural daylight"
+      },
+      "id": "window_1",
+      "count": 1
+    },
+    {
+      "type": "wall",
+      "attributes": {
+        "material": "light gray concrete blocks"
+      },
+      "id": "wall_1",
+      "count": 1
+    }
+  ],
+  "source": "prompt_1.structured.json",
+  "pruned_types": []
+}

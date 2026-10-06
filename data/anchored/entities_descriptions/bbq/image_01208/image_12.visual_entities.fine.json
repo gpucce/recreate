@@ -1,0 +1,189 @@
+{
+  "image": "image_12.png",
+  "visual_entities_source": "image_12.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        872.0,
+        33.5,
+        960.0,
+        168.0
+      ],
+      "mask": "image_12.masks/person_0.png",
+      "crop": null,
+      "description": "A blurry profile view of a woman with long, dark hair facing to the left, wearing a reddish-brown top with a white collar or trim visible at the neckline.",
+      "attributes": {
+        "gender": "female",
+        "hair": {
+          "color": "black",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "reddish-brown",
+            "collar": "white"
+          }
+        },
+        "pose": "profile view facing left",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98828125,
+      "box": [
+        472.0,
+        136.0,
+        952.0,
+        1024.0
+      ],
+      "mask": "image_12.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with voluminous, curly brown hair sits on a bed wearing an oversized, fuzzy olive-green sweater and blue jeans. She has a worried and distressed expression with furrowed brows, looking off to the side with her hands clasped tightly in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "texture": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "worried, distressed, furrowed brows",
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "olive green",
+            "material": "fuzzy knit",
+            "fit": "oversized"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, hands clasped in lap",
+        "location": "on a bed"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        86.0,
+        140.0,
+        544.0,
+        1020.0
+      ],
+      "mask": "image_12.masks/person_2.png",
+      "crop": null,
+      "description": "A young woman with voluminous, curly light brown hair sits with a worried and concerned expression, looking off to the side. She wears a cream-colored knit cardigan over a white tank top and beige trousers, with her hands clasped in her lap.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "light brown",
+          "style": "curly",
+          "length": "shoulder length"
+        },
+        "expression": "worried",
+        "clothing": {
+          "outer": "cream cardigan",
+          "inner": "white tank top",
+          "bottoms": "beige trousers"
+        },
+        "pose": "sitting",
+        "hand_position": "clasped in lap"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.94921875,
+      "box": [
+        780.0,
+        34.0,
+        876.0,
+        173.0
+      ],
+      "mask": "image_12.masks/person_3.png",
+      "crop": null,
+      "description": "A blurry, low-resolution profile view of a person with shoulder-length brown hair facing to the right, wearing a dark grey top against a plain, light-colored background.",
+      "attributes": {
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "dark grey",
+            "type": "shirt"
+          }
+        },
+        "pose": "profile view facing right",
+        "image_quality": "blurry",
+        "background": "light grey"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pillow",
+      "index": 0,
+      "score": 0.921875,
+      "box": [
+        920.0,
+        460.0,
+        1024.0,
+        636.0
+      ],
+      "mask": "image_12.masks/pillow_0.png",
+      "crop": null,
+      "description": "A close-up view of a white pillow with a soft, textured surface, partially visible in the background. The pillow appears to be made of a plush material, possibly cotton or a similar fabric, and is positioned behind a blurred foreground object.",
+      "attributes": {
+        "color": "white",
+        "material": "soft, textured fabric",
+        "position": "background",
+        "visibility": "partially visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.91015625,
+      "box": [
+        -1.0,
+        -2.0,
+        86.0,
+        472.0
+      ],
+      "mask": "image_12.masks/window_0.png",
+      "crop": null,
+      "description": "A bright, out-of-focus window covered by sheer white curtains that diffuse the incoming light, with a small green plant visible in the lower right corner.",
+      "attributes": {
+        "frame": "white",
+        "curtains": {
+          "color": "white",
+          "material": "sheer fabric",
+          "state": "drawn"
+        },
+        "lighting": "bright, diffused",
+        "foreground_object": {
+          "type": "plant",
+          "color": "green",
+          "position": "bottom right"
+        },
+        "focus": "blurry"
+      },
+      "parse_ok": true
+    }
+  ]
+}

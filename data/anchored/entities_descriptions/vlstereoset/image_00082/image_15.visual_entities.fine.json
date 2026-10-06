@@ -1,0 +1,201 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        478.0,
+        308.0,
+        920.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length blonde hair sits on a grey couch, wearing a light grey t-shirt and beige pants. She is gesturing with both hands raised and open while speaking to someone off-camera to the left, with an engaged and expressive facial expression.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length",
+          "style": "straight"
+        },
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "light grey",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "pants",
+            "color": "beige"
+          },
+          "accessories": {
+            "earrings": "small stud"
+          }
+        },
+        "pose": {
+          "body": "sitting",
+          "hands": "raised, open palms, gesturing",
+          "head": "turned to the left"
+        },
+        "expression": "talking, engaged",
+        "setting": "indoor, living room, grey couch"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        126.0,
+        308.0,
+        544.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long dark brown hair sits on a grey couch, wearing a plain white t-shirt and beige trousers. She has an angry or frustrated expression with furrowed brows and is gesturing with both hands raised in front of her while looking to the side.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "angry, frustrated, frowning",
+        "clothing": {
+          "top": "white short-sleeved t-shirt",
+          "bottom": "beige trousers"
+        },
+        "pose": "sitting, hands raised in gesture",
+        "accessories": "small stud earring"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        952.0,
+        278.0,
+        1024.0,
+        334.0
+      ],
+      "mask": "image_15.masks/plant_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        117.0,
+        402.0,
+        217.0,
+        466.0
+      ],
+      "mask": "image_15.masks/plant_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus green plant with multiple leaves is visible in the background, positioned behind a person's hair on the right side of the frame.",
+      "attributes": {
+        "color": "green",
+        "focus": "blurry",
+        "position": "background",
+        "type": "leafy plant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "plant",
+      "index": 2,
+      "score": 0.890625,
+      "box": [
+        612.0,
+        446.0,
+        652.0,
+        482.0
+      ],
+      "mask": "image_15.masks/plant_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "plant",
+      "index": 3,
+      "score": 0.7578125,
+      "box": [
+        428.0,
+        290.0,
+        580.0,
+        470.0
+      ],
+      "mask": "image_15.masks/plant_3.png",
+      "crop": null,
+      "description": "A single, large green Monstera leaf with characteristic deep splits and holes, centered against a plain white background. The leaf has a prominent central vein and a smooth, matte texture.",
+      "attributes": {
+        "plant_type": "Monstera",
+        "leaf_shape": "heart-shaped with fenestrations",
+        "color": "green",
+        "vein_structure": "prominent central midrib",
+        "background": "white",
+        "orientation": "upright"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        564.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/sofa_0.png",
+      "crop": null,
+      "description": "Two women are sitting on a gray fabric sofa, engaged in a conversation with expressive hand gestures. The woman on the left is wearing a white t-shirt and beige pants, while the woman on the right is wearing a light gray t-shirt and similar beige pants. Both appear to be middle-aged, and the setting suggests a casual, indoor environment.",
+      "attributes": {
+        "sofa": {
+          "color": "gray",
+          "material": "fabric",
+          "style": "modern"
+        },
+        "people": [
+          {
+            "gender": "female",
+            "age": "middle-aged",
+            "clothing": {
+              "shirt": "white",
+              "pants": "beige"
+            },
+            "pose": "sitting, gesturing with hands"
+          },
+          {
+            "gender": "female",
+            "age": "middle-aged",
+            "clothing": {
+              "shirt": "light gray",
+              "pants": "beige"
+            },
+            "pose": "sitting, gesturing with hands"
+          }
+        ],
+        "setting": "indoor, casual"
+      },
+      "parse_ok": true
+    }
+  ]
+}

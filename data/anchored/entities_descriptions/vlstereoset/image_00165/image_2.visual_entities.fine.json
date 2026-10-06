@@ -1,0 +1,159 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "ceramic mug",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        292.0,
+        632.0,
+        404.0,
+        736.0
+      ],
+      "mask": "image_2.masks/ceramic mug_0.png",
+      "crop": null,
+      "description": "A white ceramic mug with a smooth, glossy finish and a curved handle is held by a hand with dark skin tone. The mug is cylindrical with a slightly flared rim and appears to be empty.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": "white",
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": {
+          "present": true,
+          "color": "white",
+          "position": "left"
+        },
+        "contents": "empty",
+        "held_by": {
+          "skin_tone": "dark"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "ceramic mug",
+      "index": 1,
+      "score": 0.875,
+      "box": [
+        544.0,
+        632.0,
+        640.0,
+        736.0
+      ],
+      "mask": "image_2.masks/ceramic mug_1.png",
+      "crop": null,
+      "description": "A glossy, bright blue ceramic mug with a white interior is held by a hand, showing the side profile and handle. The mug has a smooth, cylindrical shape with a slight taper towards the bottom and a visible rim.",
+      "attributes": {
+        "object_type": "mug",
+        "material": "ceramic",
+        "color": {
+          "exterior": "bright blue",
+          "interior": "white"
+        },
+        "finish": "glossy",
+        "shape": "cylindrical",
+        "handle": {
+          "color": "blue",
+          "position": "right side"
+        },
+        "context": "held by a hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        466.0,
+        152.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged Black man with short, curly gray hair and a goatee sits on a beige couch, wearing a sage green t-shirt and khaki pants. He holds a blue mug in his right hand and looks to the left with a calm expression, while another person's hand rests on his shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "middle-aged",
+        "ethnicity": "Black",
+        "hair": {
+          "color": "gray and black",
+          "style": "short curly"
+        },
+        "facial_hair": "gray goatee",
+        "clothing": {
+          "top": "sage green t-shirt",
+          "bottom": "khaki pants"
+        },
+        "accessories": {
+          "ring": "gold band on right ring finger"
+        },
+        "pose": "sitting on a couch",
+        "expression": "calm, looking to the side",
+        "holding": "blue mug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.91015625,
+      "box": [
+        -8.0,
+        176.0,
+        932.0,
+        1008.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "An older Black man with a bald head and a gray goatee sits on a beige couch, wearing a light blue polo shirt and khaki shorts. He holds a white mug in his hands and wears black-rimmed glasses, looking attentively at the person next to him with a calm expression.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "senior",
+        "ethnicity": "Black",
+        "hair": {
+          "head": "bald",
+          "facial_hair": "gray goatee"
+        },
+        "accessories": {
+          "glasses": "black-rimmed"
+        },
+        "clothing": {
+          "top": "light blue short-sleeved polo shirt",
+          "bottom": "khaki shorts"
+        },
+        "pose": "sitting on a couch",
+        "expression": "attentive and calm",
+        "holding": "white ceramic mug"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sofa",
+      "index": 0,
+      "score": 0.984375,
+      "box": [
+        0.0,
+        460.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_2.masks/sofa_0.png",
+      "crop": null,
+      "description": "A light beige or cream-colored sofa with a textured, woven fabric upholstery. The sofa features thick, rectangular seat cushions and a backrest with visible seams and piping along the edges. Two people are seated on the sofa, with their legs and torsos partially visible, indicating the sofa's comfortable and spacious design.",
+      "attributes": {
+        "color": "light beige/cream",
+        "material": "textured woven fabric",
+        "cushions": "thick, rectangular seat cushions",
+        "backrest": "visible seams and piping",
+        "occupants": "two people seated",
+        "design": "comfortable and spacious"
+      },
+      "parse_ok": true
+    }
+  ]
+}

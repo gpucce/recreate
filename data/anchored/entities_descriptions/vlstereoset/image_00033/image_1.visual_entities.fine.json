@@ -1,0 +1,184 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        476.0,
+        158.0,
+        1020.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A smiling woman with dark, curly hair pulled back is holding a young child with a serious expression wearing an orange t-shirt with a monkey graphic. The woman wears a black tank top and a thin necklace, while the child is dressed in blue denim shorts.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, pulled back"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": "black tank top",
+          "accessories": "thin gold necklace"
+        },
+        "action": "holding a child",
+        "child": {
+          "age_group": "toddler",
+          "expression": "serious",
+          "clothing": {
+            "shirt": "orange t-shirt with monkey graphic",
+            "bottoms": "blue denim shorts"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        406.0,
+        388.0,
+        736.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young child with short, dark, wavy hair and a serious expression is centered in the frame, wearing an orange t-shirt with a cartoon graphic. The child is being held by an adult whose hands are visible around their torso, flanked by the smiling faces of two adults on either side.",
+      "attributes": {
+        "age": "toddler",
+        "gender": "male",
+        "hair": {
+          "color": "dark brown",
+          "length": "short",
+          "texture": "wavy"
+        },
+        "expression": "serious",
+        "clothing": {
+          "shirt": {
+            "color": "orange",
+            "type": "t-shirt",
+            "graphic": "cartoon character"
+          },
+          "pants": {
+            "color": "blue",
+            "type": "denim"
+          }
+        },
+        "pose": "being held",
+        "position": "center"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9296875,
+      "box": [
+        28.0,
+        188.0,
+        568.0,
+        1020.0
+      ],
+      "mask": "image_1.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling woman with dark curly hair pulled back holds a toddler with curly brown hair wearing a pink and white gingham top. The woman wears a purple and white striped tank top and has a warm, tanned complexion.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly, pulled back"
+        },
+        "expression": "smiling",
+        "clothing": {
+          "top": {
+            "type": "tank top",
+            "pattern": "striped",
+            "colors": [
+              "purple",
+              "white"
+            ]
+          }
+        },
+        "skin_tone": "tanned",
+        "action": "holding a child"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.89453125,
+      "box": [
+        70.0,
+        284.0,
+        470.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_3.png",
+      "crop": null,
+      "description": "A woman with dark curly hair pulled back is holding a young toddler with curly brown hair. The woman is smiling broadly, wearing a purple and white striped tank top, while the toddler, dressed in a pink and white gingham top, looks forward with a serious expression.",
+      "attributes": {
+        "group": {
+          "adult": {
+            "gender": "female",
+            "age_group": "adult",
+            "hair": {
+              "color": "dark brown",
+              "style": "curly, pulled back"
+            },
+            "expression": "smiling",
+            "clothing": {
+              "top": {
+                "type": "tank top",
+                "pattern": "striped",
+                "colors": [
+                  "purple",
+                  "white"
+                ]
+              }
+            },
+            "pose": "holding child"
+          },
+          "child": {
+            "gender": "female",
+            "age_group": "toddler",
+            "hair": {
+              "color": "brown",
+              "style": "curly"
+            },
+            "expression": "serious",
+            "clothing": {
+              "top": {
+                "type": "sleeveless shirt",
+                "pattern": "gingham",
+                "colors": [
+                  "pink",
+                  "white"
+                ],
+                "details": "ruffled neckline"
+              },
+              "bottoms": {
+                "type": "diaper or shorts",
+                "colors": [
+                  "white",
+                  "red"
+                ]
+              }
+            },
+            "pose": "being held"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

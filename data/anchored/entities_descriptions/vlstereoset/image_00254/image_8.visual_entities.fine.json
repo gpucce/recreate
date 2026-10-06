@@ -1,0 +1,775 @@
+{
+  "image": "image_8.png",
+  "visual_entities_source": "image_8.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.92578125,
+      "box": [
+        788.0,
+        89.0,
+        1020.0,
+        213.0
+      ],
+      "mask": "image_8.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, multi-story white building with a flat roof and rectangular windows, featuring a section with balconies on the left and a palm tree visible in the foreground on the right.",
+      "attributes": {
+        "structure": {
+          "type": "multi-story building",
+          "color": "white",
+          "roof": "flat",
+          "windows": "rectangular, dark",
+          "features": "balconies on left section"
+        },
+        "foreground": {
+          "object": "palm tree",
+          "position": "right side"
+        },
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        -0.75,
+        8.0,
+        47.0,
+        217.0
+      ],
+      "mask": "image_8.masks/building_1.png",
+      "crop": null,
+      "description": "A multi-story building with a white facade and a red-tiled roof, featuring rows of rectangular windows on each floor. The structure appears to be made of concrete or stucco, with a clean and modern architectural style.",
+      "attributes": {
+        "color": {
+          "facade": "white",
+          "roof": "red"
+        },
+        "material": "concrete or stucco",
+        "architecture": "modern",
+        "features": {
+          "windows": "rectangular",
+          "floors": "multiple",
+          "roof": "tiled"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.76171875,
+      "box": [
+        432.0,
+        161.0,
+        544.0,
+        211.0
+      ],
+      "mask": "image_8.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a reddish-brown tiled roof and white walls, partially obscured by green foliage in the foreground.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile"
+        },
+        "walls": {
+          "color": "white"
+        },
+        "foreground": {
+          "element": "green foliage",
+          "clarity": "blurry"
+        },
+        "overall_clarity": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.953125,
+      "box": [
+        84.0,
+        105.0,
+        428.0,
+        223.0
+      ],
+      "mask": "image_8.masks/building_3.png",
+      "crop": null,
+      "description": "A three-story building with a reddish-brown brick facade and a terracotta-tiled hip roof. The structure features multiple rectangular windows with white frames and a central section with a recessed balcony or terrace area on the upper floors.",
+      "attributes": {
+        "structure_type": "multi-story building",
+        "material": "brick",
+        "color": "reddish-brown",
+        "roof": {
+          "style": "hip roof",
+          "material": "terracotta tiles",
+          "color": "orange-brown"
+        },
+        "windows": {
+          "shape": "rectangular",
+          "frame_color": "white",
+          "arrangement": "grid pattern"
+        },
+        "architectural_features": [
+          "balcony",
+          "terrace"
+        ],
+        "condition": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.8984375,
+      "box": [
+        43.5,
+        128.0,
+        98.5,
+        216.0
+      ],
+      "mask": "image_8.masks/building_4.png",
+      "crop": null,
+      "description": "A two-story building with a yellow facade and a red-tiled roof, featuring four rectangular windows with dark frames arranged in a grid pattern. The structure appears to be made of stucco or plaster, with a simple, boxy architectural style.",
+      "attributes": {
+        "color": "yellow",
+        "roof": "red-tiled",
+        "windows": {
+          "count": 4,
+          "shape": "rectangular",
+          "frame_color": "dark"
+        },
+        "material": "stucco or plaster",
+        "stories": 2,
+        "style": "simple, boxy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.96875,
+      "box": [
+        528.0,
+        88.5,
+        784.0,
+        220.0
+      ],
+      "mask": "image_8.masks/building_5.png",
+      "crop": null,
+      "description": "A multi-story building with a beige exterior and a reddish-brown tiled roof, featuring multiple balconies with glass railings on each floor. The structure appears to be a residential or hotel building, with large windows and a clean, modern design.",
+      "attributes": {
+        "roof": {
+          "color": "reddish-brown",
+          "material": "tile"
+        },
+        "exterior": {
+          "color": "beige",
+          "material": "stucco or concrete"
+        },
+        "floors": "3",
+        "balconies": {
+          "railings": "glass",
+          "count": "multiple"
+        },
+        "windows": {
+          "size": "large",
+          "frame": "dark"
+        },
+        "style": "modern",
+        "function": "residential or hotel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.6953125,
+      "box": [
+        776.0,
+        270.0,
+        808.0,
+        302.0
+      ],
+      "mask": "image_8.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.59765625,
+      "box": [
+        424.0,
+        258.0,
+        444.0,
+        282.0
+      ],
+      "mask": "image_8.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.66015625,
+      "box": [
+        736.0,
+        274.0,
+        760.0,
+        302.0
+      ],
+      "mask": "image_8.masks/person_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.984375,
+      "box": [
+        266.0,
+        328.0,
+        728.0,
+        704.0
+      ],
+      "mask": "image_8.masks/person_3.png",
+      "crop": null,
+      "description": "A young man with wet, medium-length brown hair is surfing on a wave, wearing a black short-sleeved rash guard and teal board shorts. He is in a crouched, balanced stance with arms outstretched, looking forward with a focused expression, and has a black watch on his left wrist and a black ankle leash on his right foot.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "length": "medium",
+          "texture": "wet, tousled"
+        },
+        "clothing": {
+          "top": {
+            "type": "rash guard",
+            "color": "black",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "board shorts",
+            "color": "teal",
+            "length": "knee-length"
+          }
+        },
+        "accessories": {
+          "wrist": "black watch on left wrist",
+          "ankle": "black surf leash on right ankle"
+        },
+        "pose": "crouched, arms extended for balance, standing on surfboard",
+        "expression": "focused, looking ahead",
+        "skin": "tanned, wet",
+        "activity": "surfing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.67578125,
+      "box": [
+        400.0,
+        264.0,
+        424.0,
+        284.0
+      ],
+      "mask": "image_8.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.8671875,
+      "box": [
+        2.0,
+        268.0,
+        1024.0,
+        372.0
+      ],
+      "mask": "image_8.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a fine, granular texture that appears dry and slightly uneven. It stretches across the background of the image, with some areas appearing more compacted than others, and there are faint traces of footprints or disturbances in the surface.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "fine, granular",
+        "state": "dry, slightly uneven",
+        "disturbances": "faint footprints or traces"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        24.0,
+        -0.5,
+        1024.0,
+        168.0
+      ],
+      "mask": "image_8.masks/sky_0.png",
+      "crop": null,
+      "description": "A clear, light blue sky with no visible clouds or atmospheric features, occupying the upper portion of the image above a row of buildings with terracotta roofs.",
+      "attributes": {
+        "color": "light blue",
+        "clarity": "clear",
+        "clouds": "none",
+        "position": "upper background",
+        "lighting": "bright daylight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surfboard",
+      "index": 0,
+      "score": 0.9296875,
+      "box": [
+        450.0,
+        684.0,
+        664.0,
+        748.0
+      ],
+      "mask": "image_8.masks/surfboard_0.png",
+      "crop": null,
+      "description": "A close-up view of the nose and front section of a white surfboard cutting through water, with a person's bare foot visible on the deck. The board has a smooth, glossy surface and a rounded nose with a small orange tip, surrounded by splashing white water and foam.",
+      "attributes": {
+        "color": "white",
+        "material": "fiberglass or similar composite",
+        "shape": "rounded nose",
+        "tip_color": "orange",
+        "surface": "glossy",
+        "position": "cutting through water",
+        "context": "surfing",
+        "visible_part": "nose and front deck",
+        "foot_visible": true,
+        "foot_position": "on deck near nose",
+        "water_interaction": "splashing, foamy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.8515625,
+      "box": [
+        968.0,
+        119.0,
+        1024.0,
+        207.0
+      ],
+      "mask": "image_8.masks/tree_0.png",
+      "crop": null,
+      "description": "A palm tree with a slender, curved trunk and a crown of green fronds, bearing a cluster of round, brownish fruits near the base of the leaves. The image is heavily blurred, obscuring fine details of the bark texture and individual leaflets.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": {
+          "color": "brown",
+          "shape": "curved",
+          "texture": "indistinct due to blur"
+        },
+        "leaves": {
+          "color": "green",
+          "arrangement": "crown at top"
+        },
+        "fruits": {
+          "color": "brownish",
+          "shape": "round",
+          "quantity": "clustered"
+        },
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.66015625,
+      "box": [
+        744.0,
+        187.0,
+        760.0,
+        229.0
+      ],
+      "mask": "image_8.masks/tree_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.609375,
+      "box": [
+        948.0,
+        166.0,
+        988.0,
+        208.0
+      ],
+      "mask": "image_8.masks/tree_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 0,
+      "score": 0.52734375,
+      "box": [
+        420.0,
+        224.0,
+        476.0,
+        246.0
+      ],
+      "mask": "image_8.masks/umbrella_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 1,
+      "score": 0.75,
+      "box": [
+        41.25,
+        232.0,
+        93.0,
+        252.0
+      ],
+      "mask": "image_8.masks/umbrella_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 2,
+      "score": 0.8359375,
+      "box": [
+        96.0,
+        228.0,
+        148.0,
+        248.0
+      ],
+      "mask": "image_8.masks/umbrella_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 3,
+      "score": 0.7578125,
+      "box": [
+        154.0,
+        230.0,
+        208.0,
+        248.0
+      ],
+      "mask": "image_8.masks/umbrella_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 4,
+      "score": 0.796875,
+      "box": [
+        -1.0625,
+        232.0,
+        30.75,
+        252.0
+      ],
+      "mask": "image_8.masks/umbrella_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 5,
+      "score": 0.71875,
+      "box": [
+        207.0,
+        225.0,
+        262.0,
+        245.0
+      ],
+      "mask": "image_8.masks/umbrella_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 6,
+      "score": 0.75,
+      "box": [
+        312.0,
+        228.0,
+        364.0,
+        248.0
+      ],
+      "mask": "image_8.masks/umbrella_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 7,
+      "score": 0.671875,
+      "box": [
+        262.0,
+        228.0,
+        314.0,
+        280.0
+      ],
+      "mask": "image_8.masks/umbrella_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 8,
+      "score": 0.63671875,
+      "box": [
+        366.0,
+        226.0,
+        418.0,
+        244.0
+      ],
+      "mask": "image_8.masks/umbrella_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 9,
+      "score": 0.64453125,
+      "box": [
+        262.0,
+        228.0,
+        314.0,
+        250.0
+      ],
+      "mask": "image_8.masks/umbrella_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 10,
+      "score": 0.71484375,
+      "box": [
+        420.0,
+        225.0,
+        476.0,
+        272.0
+      ],
+      "mask": "image_8.masks/umbrella_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 11,
+      "score": 0.71875,
+      "box": [
+        366.0,
+        224.0,
+        418.0,
+        270.0
+      ],
+      "mask": "image_8.masks/umbrella_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 12,
+      "score": 0.84765625,
+      "box": [
+        476.0,
+        225.0,
+        532.0,
+        245.0
+      ],
+      "mask": "image_8.masks/umbrella_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 0,
+      "score": 0.72265625,
+      "box": [
+        968.0,
+        119.0,
+        1024.0,
+        207.0
+      ],
+      "mask": "image_8.masks/vegetation_0.png",
+      "crop": null,
+      "description": "A small, potted palm tree with a slender, brown trunk and a cluster of green, fan-shaped fronds at the top. The plant is situated in a light-colored pot, and the image is slightly blurred, making fine details indistinct.",
+      "attributes": {
+        "type": "palm tree",
+        "trunk": "slender, brown",
+        "leaves": "green, fan-shaped",
+        "container": "light-colored pot",
+        "image_quality": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 1,
+      "score": 0.50390625,
+      "box": [
+        438.0,
+        192.0,
+        506.0,
+        226.0
+      ],
+      "mask": "image_8.masks/vegetation_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 2,
+      "score": 0.53515625,
+      "box": [
+        2.0,
+        205.0,
+        1024.0,
+        282.0
+      ],
+      "mask": "image_8.masks/vegetation_2.png",
+      "crop": null,
+      "description": "A row of white beach umbrellas is visible in the background, partially obscured by a line of low-lying green and brown vegetation. The vegetation appears to be a mix of grasses and shrubs, typical of a coastal or dune environment, with some areas showing dry, yellowish tones.",
+      "attributes": {
+        "color": [
+          "green",
+          "brown",
+          "yellowish"
+        ],
+        "type": [
+          "grass",
+          "shrub"
+        ],
+        "location": "coastal",
+        "state": "partially dry",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 3,
+      "score": 0.59765625,
+      "box": [
+        692.0,
+        228.0,
+        772.0,
+        250.0
+      ],
+      "mask": "image_8.masks/vegetation_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        354.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_8.masks/water_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A man is surfing on a wave, wearing a black rash guard and turquoise board shorts. He is in a crouched stance with arms outstretched for balance, riding a white surfboard on a breaking wave with white foam and turquoise water.\", \"attributes\": {\"gender\": \"male\", \"age\": \"young adult\", \"clothing\": {\"top\": \"black short-sleeved rash guard\", \"bottoms\": \"turquoise board shorts\"}, \"accessories\": {\"wristband\": \"black on left wrist\", \"ankle leash\": \"black on right ankle\"}, \"pose\": \"crouched, arms extended for balance\", \"activity\": \"surfing\", \"surfboard\": \"white with black stripe\", \"water\": \"turquoise with white foam from breaking wave\", \"hair\": \"brown, wet, short\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wave",
+      "index": 0,
+      "score": 0.734375,
+      "box": [
+        8.0,
+        392.0,
+        1024.0,
+        800.0
+      ],
+      "mask": "image_8.masks/wave_0.png",
+      "crop": null,
+      "description": "A man is surfing on a wave, wearing a black short-sleeved rash guard and turquoise board shorts. He is in a crouched stance with his arms outstretched for balance, riding a white surfboard on the face of a breaking wave with white foam and spray.",
+      "attributes": {
+        "gender": "male",
+        "age": "adult",
+        "clothing": {
+          "top": "black short-sleeved rash guard",
+          "bottoms": "turquoise board shorts"
+        },
+        "accessories": {
+          "wrist": "black watch on left wrist",
+          "ankle": "black ankle leash on right ankle"
+        },
+        "pose": "crouched, arms outstretched for balance",
+        "activity": "surfing",
+        "surfboard": "white",
+        "wave": {
+          "color": "blue-green",
+          "state": "breaking with white foam and spray"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

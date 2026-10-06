@@ -1,0 +1,366 @@
+{
+  "image": "image_3.png",
+  "visual_entities_source": "image_3.visual_entities.json",
+  "entities": [
+    {
+      "type": "flowers",
+      "index": 0,
+      "score": 0.67578125,
+      "box": [
+        -1.5,
+        360.0,
+        49.25,
+        424.0
+      ],
+      "mask": "image_3.masks/flowers_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "flowers",
+      "index": 1,
+      "score": 0.71875,
+      "box": [
+        -2.75,
+        418.0,
+        120.0,
+        540.0
+      ],
+      "mask": "image_3.masks/flowers_1.png",
+      "crop": null,
+      "description": "A close-up of a white flower with multiple layers of soft, rounded petals surrounding a central cluster of yellow stamens. The petals appear smooth and slightly translucent, with subtle shading that gives them depth and volume.",
+      "attributes": {
+        "color": {
+          "petals": "white",
+          "center": "yellow"
+        },
+        "structure": {
+          "petals": "multiple layers, rounded",
+          "center": "cluster of stamens"
+        },
+        "texture": "smooth, slightly translucent"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 2,
+      "score": 0.7265625,
+      "box": [
+        206.0,
+        396.0,
+        284.0,
+        500.0
+      ],
+      "mask": "image_3.masks/flowers_2.png",
+      "crop": null,
+      "description": "A close-up view of a cluster of white flowers with soft, layered petals, exhibiting a delicate and fluffy texture. The image is slightly out of focus, creating a dreamy and ethereal appearance with a shallow depth of field.",
+      "attributes": {
+        "color": "white",
+        "texture": "soft, layered petals",
+        "focus": "out of focus, shallow depth of field",
+        "type": "flower cluster"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 3,
+      "score": 0.70703125,
+      "box": [
+        119.0,
+        422.0,
+        241.0,
+        540.0
+      ],
+      "mask": "image_3.masks/flowers_3.png",
+      "crop": null,
+      "description": "A close-up of a white flower with multiple layers of soft, rounded petals surrounding a central cluster of yellow stamens. The petals appear delicate and slightly translucent, with subtle variations in shading that give the flower depth and texture.",
+      "attributes": {
+        "color": "white",
+        "center": "yellow stamens",
+        "petal_shape": "rounded",
+        "texture": "soft and delicate",
+        "layering": "multiple layers"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 4,
+      "score": 0.76953125,
+      "box": [
+        -8.0,
+        356.0,
+        284.0,
+        788.0
+      ],
+      "mask": "image_3.masks/flowers_4.png",
+      "crop": null,
+      "description": "A bouquet of white peonies with yellow centers is arranged in a clear glass vase filled with water, placed on a wooden surface next to an open book.",
+      "attributes": {
+        "flower_type": "peony",
+        "color": "white",
+        "center_color": "yellow",
+        "stem_color": "green",
+        "leaf_color": "green",
+        "vase": {
+          "material": "glass",
+          "color": "clear",
+          "shape": "cylindrical"
+        },
+        "setting": "indoor",
+        "surface": "wooden table",
+        "accessory": "open book"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flowers",
+      "index": 5,
+      "score": 0.70703125,
+      "box": [
+        70.0,
+        358.0,
+        188.0,
+        426.0
+      ],
+      "mask": "image_3.masks/flowers_5.png",
+      "crop": null,
+      "description": "A close-up view of a white flower with multiple layers of petals, showing a soft, delicate texture. The center of the flower is slightly visible, with hints of yellow and green, indicating the stamen and pistil.",
+      "attributes": {
+        "color": "white",
+        "petal_count": "multiple layers",
+        "center_color": "yellow and green",
+        "texture": "soft and delicate",
+        "position": "centered in the crop"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "magazine",
+      "index": 0,
+      "score": 0.765625,
+      "box": [
+        191.0,
+        520.0,
+        584.0,
+        736.0
+      ],
+      "mask": "image_3.masks/magazine_0.png",
+      "crop": null,
+      "description": "An open paperback book titled 'FLOURISH' is held by a person's hand, displaying the front cover which features a black-and-white portrait of a woman and the title in large serif font. The person holding the book wears a light blue button-down shirt with a patterned tie visible at the collar.",
+      "attributes": {
+        "object": "book",
+        "type": "paperback",
+        "state": "open",
+        "title": "FLOURISH",
+        "cover": {
+          "color": "beige",
+          "text": "FLOURISH",
+          "image": "black and white portrait of a woman"
+        },
+        "pages": "white",
+        "holder": {
+          "hand": "visible holding the bottom edge",
+          "clothing": {
+            "shirt": "light blue",
+            "tie": "patterned"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.93359375,
+      "box": [
+        424.0,
+        628.0,
+        528.0,
+        708.0
+      ],
+      "mask": "image_3.masks/person_0.png",
+      "crop": null,
+      "description": "A woman with shoulder-length, wavy brown hair is shown from the chest up, wearing a light grey collared shirt with a dark inner layer visible at the neckline. She has a neutral expression and is facing slightly to the right against a plain, light-colored background.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "brown",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "outer": {
+            "type": "shirt",
+            "color": "grey",
+            "collar": "open"
+          },
+          "inner": {
+            "color": "black"
+          }
+        },
+        "pose": "seated or standing, facing forward",
+        "expression": "neutral",
+        "skin_tone": "light"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        178.0,
+        114.0,
+        912.0,
+        1024.0
+      ],
+      "mask": "image_3.masks/person_1.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy gray hair and round wire-rimmed glasses sits in a beige armchair, smiling gently while reading a book titled 'FLOURISH'. She wears a light blue button-down shirt with rolled sleeves, a patterned silk scarf tied at the neck, and light-colored trousers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "elderly",
+        "hair": {
+          "color": "gray",
+          "length": "short",
+          "style": "wavy"
+        },
+        "accessories": {
+          "glasses": "round wire-rimmed",
+          "scarf": "patterned silk, tied at neck",
+          "ring": "visible on left hand"
+        },
+        "clothing": {
+          "shirt": "light blue, button-down, long-sleeved with rolled cuffs",
+          "pants": "light beige or cream"
+        },
+        "pose": "seated, holding an open book with both hands",
+        "expression": "gentle smile, focused on reading",
+        "object_in_hand": "book titled 'FLOURISH' with a portrait on the cover",
+        "setting_context": "indoor, seated in upholstered armchair, flowers visible to the left"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        0.0,
+        748.0,
+        256.0,
+        1020.0
+      ],
+      "mask": "image_3.masks/table_0.png",
+      "crop": null,
+      "description": "A close-up view of a round wooden table with a dark brown finish, featuring a turned pedestal leg with a bulbous design. The table has a smooth, polished surface and is partially visible, with a glass vase containing green stems placed on top. A portion of a light-colored upholstered chair with a wooden frame is visible in the foreground, suggesting a dining or living room setting.",
+      "attributes": {
+        "material": "wood",
+        "color": "dark brown",
+        "shape": "round",
+        "leg_design": "turned pedestal",
+        "surface": "smooth, polished",
+        "object_on_top": "glass vase with green stems",
+        "adjacent_furniture": "light-colored upholstered chair with wooden frame",
+        "setting": "indoor, likely dining or living room"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "table",
+      "index": 1,
+      "score": 0.8359375,
+      "box": [
+        804.0,
+        424.0,
+        1032.0,
+        460.0
+      ],
+      "mask": "image_3.masks/table_1.png",
+      "crop": null,
+      "description": "A close-up view of a wooden table edge with a smooth, polished surface and a light brown finish. The table appears to be made of solid wood, with visible grain patterns running horizontally across the frame.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "surface": "smooth, polished",
+        "grain_pattern": "horizontal",
+        "edge": "visible, straight"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 0,
+      "score": 0.578125,
+      "box": [
+        -0.25,
+        -3.0,
+        93.0,
+        384.0
+      ],
+      "mask": "image_3.masks/window_0.png",
+      "crop": null,
+      "description": "A close-up view of a white window frame with a horizontal mullion dividing the glass panes, set against a bright, overexposed background. The bottom edge of the frame is partially visible, with a blurred white flower and green stem in the foreground.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "likely wood or vinyl",
+        "glass": "clear, overexposed",
+        "structure": "horizontal mullion visible",
+        "foreground_object": "white flower with green stem",
+        "lighting": "bright, natural light from outside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 1,
+      "score": 0.66015625,
+      "box": [
+        -1.75,
+        0.0,
+        99.0,
+        652.0
+      ],
+      "mask": "image_3.masks/window_1.png",
+      "crop": null,
+      "description": "A white-framed window with multiple panes is visible in the background, allowing soft, diffused natural light to enter the scene. The window appears to be made of wood or a similar material, with a clean and simple design.",
+      "attributes": {
+        "frame_color": "white",
+        "frame_material": "wood or similar",
+        "pane_count": "multiple",
+        "lighting": "soft, diffused natural light",
+        "position": "background",
+        "design": "clean and simple"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "window",
+      "index": 2,
+      "score": 0.58984375,
+      "box": [
+        -2.0,
+        2.0,
+        230.0,
+        656.0
+      ],
+      "mask": "image_3.masks/window_2.png",
+      "crop": null,
+      "description": "A white-framed window with multiple panes is visible in the background, allowing soft natural light to enter the room. The window is partially obscured by a vase of white peonies in the foreground.",
+      "attributes": {
+        "frame_color": "white",
+        "pane_count": "multiple",
+        "lighting": "natural, soft",
+        "position": "background",
+        "obscured_by": "vase of white peonies"
+      },
+      "parse_ok": true
+    }
+  ]
+}

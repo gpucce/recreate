@@ -1,0 +1,174 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.89453125,
+      "box": [
+        684.0,
+        187.0,
+        1192.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly woman with short, wavy blonde hair is shown in profile, wearing a black halter-neck top. She is embracing a shirtless person, with her hand resting on their chest, and her face is blurred.",
+      "attributes": {
+        "gender": "female",
+        "age": "elderly",
+        "hair": {
+          "color": "blonde",
+          "length": "short",
+          "style": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "color": "black",
+            "type": "halter-neck"
+          }
+        },
+        "pose": "embracing",
+        "skin": "wrinkled, sun-spotted",
+        "face": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.85546875,
+      "box": [
+        128.0,
+        217.0,
+        568.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A woman with shoulder-length blonde hair and freckles is wearing a red, white, and black patterned halter top, standing close to a shirtless man whose face is partially visible on the right. She has a blue ring on her left hand and a thin black bracelet on her wrist, with her arm resting near the man's torso.",
+      "attributes": {
+        "gender": "female",
+        "age": "middle-aged",
+        "hair": {
+          "color": "blonde",
+          "length": "shoulder-length"
+        },
+        "skin": {
+          "features": "freckles"
+        },
+        "clothing": {
+          "top": {
+            "type": "halter top",
+            "pattern": "geometric",
+            "colors": [
+              "red",
+              "white",
+              "black"
+            ]
+          }
+        },
+        "accessories": {
+          "earrings": "hoop",
+          "ring": {
+            "color": "blue",
+            "finger": "ring finger"
+          },
+          "bracelet": {
+            "color": "black",
+            "type": "thin band"
+          }
+        },
+        "pose": "standing, arm around another person"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.87890625,
+      "box": [
+        418.0,
+        99.0,
+        912.0,
+        868.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A shirtless young man with short, spiky brown hair stands in the center, flanked by two older women whose hands are resting on his arms and shoulders. The man's face is blurred, and he has a fair complexion with visible nipples and a few moles on his chest.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "short, spiky"
+        },
+        "clothing": {
+          "top": "none"
+        },
+        "skin": {
+          "tone": "fair",
+          "features": [
+            "moles on chest"
+          ]
+        },
+        "pose": "standing, facing forward",
+        "face": "blurred",
+        "context": "being held by two older women"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.7578125,
+      "box": [
+        1144.0,
+        -3.734375,
+        1296.0,
+        868.0
+      ],
+      "mask": "image_0.masks/wall_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a yellow wall with a blue object, possibly a tool or fixture, mounted on it. To the left, there is a vertical white strip, likely part of a door frame or panel, and a dark area at the bottom left corner.",
+      "attributes": {
+        "color": "yellow",
+        "texture": "smooth",
+        "object_on_wall": {
+          "color": "blue",
+          "shape": "indistinct",
+          "position": "upper right"
+        },
+        "adjacent_element": {
+          "color": "white",
+          "shape": "vertical strip",
+          "position": "left side"
+        },
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 1,
+      "score": 0.62890625,
+      "box": [
+        672.0,
+        0.0,
+        1136.0,
+        148.0
+      ],
+      "mask": "image_0.masks/wall_1.png",
+      "crop": null,
+      "description": "The image shows a heavily blurred, out-of-focus section of a wall or background surface. The dominant color is a muted reddish-pink or maroon, with indistinct shapes and patches of lighter and darker tones suggesting depth or objects in the foreground or background. There are no discernible textures, patterns, or specific features due to the extreme blur.",
+      "attributes": {
+        "color": "reddish-pink/maroon",
+        "focus": "extremely blurred",
+        "texture": "indistinct",
+        "features": "none visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

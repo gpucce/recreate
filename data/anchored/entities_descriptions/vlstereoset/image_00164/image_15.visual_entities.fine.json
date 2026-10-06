@@ -1,0 +1,89 @@
+{
+  "image": "image_15.png",
+  "visual_entities_source": "image_15.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        140.0,
+        194.0,
+        860.0,
+        1024.0
+      ],
+      "mask": "image_15.masks/person_0.png",
+      "crop": null,
+      "description": "A close-up shot of a woman with dark hair and closed eyes gently kissing the cheek of a newborn baby with light brown hair and a neutral expression. The baby is wearing a cream-colored long-sleeved ribbed bodysuit and is being held securely by the woman's hands.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long"
+        },
+        "eyes": {
+          "state": "closed"
+        },
+        "clothing": {
+          "top": "light beige long-sleeved shirt"
+        },
+        "action": "kissing baby",
+        "holding": {
+          "object": "baby",
+          "position": "cradled in arms"
+        },
+        "baby": {
+          "age": "newborn",
+          "hair": {
+            "color": "light brown",
+            "texture": "fine, slightly wet"
+          },
+          "clothing": {
+            "type": "bodysuit",
+            "color": "cream",
+            "texture": "ribbed"
+          },
+          "expression": "neutral, looking to the side"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.96875,
+      "box": [
+        144.0,
+        0.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_15.masks/person_1.png",
+      "crop": null,
+      "description": "A close-up profile shot of a woman with dark hair holding a newborn baby, gently kissing the baby's forehead. The woman has her eyes closed and wears a light beige top, while the baby is dressed in a cream-colored long-sleeved onesie with a visible button.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "shoulder length"
+        },
+        "facial_features": {
+          "eyes": "closed",
+          "action": "kissing baby's forehead"
+        },
+        "clothing": {
+          "top": "light beige, soft material"
+        },
+        "pose": "holding baby",
+        "associated_entity": {
+          "type": "baby",
+          "clothing": "cream long-sleeved onesie",
+          "hair": "light brown, sparse"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

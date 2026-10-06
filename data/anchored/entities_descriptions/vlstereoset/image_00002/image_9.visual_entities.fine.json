@@ -1,0 +1,232 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "bicycle",
+      "index": 0,
+      "score": 0.9375,
+      "box": [
+        420.0,
+        484.0,
+        692.0,
+        988.0
+      ],
+      "mask": "image_9.masks/bicycle_0.png",
+      "crop": null,
+      "description": "A close-up view of a person riding a bicycle on a sandy surface, wearing a colorful patterned dress and orange flip-flops. The bicycle has a black frame, silver handlebars, and a front wheel with a visible tire tread.",
+      "attributes": {
+        "clothing": {
+          "dress": "colorful patterned",
+          "footwear": "orange flip-flops"
+        },
+        "bicycle": {
+          "frame_color": "black",
+          "handlebars": "silver",
+          "front_wheel": "visible tire tread"
+        },
+        "surface": "sandy"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "burlap sack",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        134.0,
+        392.0,
+        284.0,
+        632.0
+      ],
+      "mask": "image_9.masks/burlap sack_0.png",
+      "crop": null,
+      "description": "A large, coarse burlap sack made of light brown woven jute fabric is slung over the shoulder of a person wearing a yellow shirt. The top of the sack is frayed and open, revealing the rough texture of the material, and it hangs down the person's back.",
+      "attributes": {
+        "material": "burlap/jute",
+        "color": "light brown/tan",
+        "texture": "coarse, woven, frayed edges",
+        "state": "full, open top",
+        "position": "slung over shoulder",
+        "function": "carrying goods"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.5703125,
+      "box": [
+        744.0,
+        284.0,
+        768.0,
+        324.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.984375,
+      "box": [
+        210.0,
+        338.0,
+        382.0,
+        896.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A young Black boy with short hair walks barefoot on a dirt path, carrying a large burlap sack over his right shoulder. He wears a yellow polo shirt and dark grey shorts, looking directly at the camera with a slight smile.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "child",
+        "ethnicity": "Black",
+        "hair": {
+          "length": "short",
+          "color": "black"
+        },
+        "clothing": {
+          "top": {
+            "type": "polo shirt",
+            "color": "yellow"
+          },
+          "bottom": {
+            "type": "shorts",
+            "color": "dark grey"
+          },
+          "footwear": "barefoot"
+        },
+        "accessories": {
+          "carrying": "burlap sack"
+        },
+        "pose": "walking",
+        "expression": "smiling"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98828125,
+      "box": [
+        422.0,
+        188.0,
+        696.0,
+        876.0
+      ],
+      "mask": "image_9.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling Black woman rides a bicycle toward the camera on a dirt road, wearing a vibrant pink t-shirt, a colorful patterned wrap skirt with orange, green, and blue leaf motifs, and a matching headwrap. She wears orange flip-flops and has a joyful expression, with her hands gripping the handlebars of a silver-framed bicycle.",
+      "attributes": {
+        "gender": "female",
+        "ethnicity": "Black",
+        "age": "adult",
+        "expression": "smiling",
+        "pose": "riding bicycle",
+        "clothing": {
+          "top": "pink short-sleeved t-shirt",
+          "bottom": "colorful wrap skirt with orange, green, blue, and yellow leaf patterns",
+          "headwear": "colorful headwrap with red, yellow, green, and black patterns",
+          "footwear": "orange flip-flops"
+        },
+        "accessories": {
+          "necklace": "thin silver chain",
+          "earrings": "small stud earrings"
+        },
+        "vehicle": {
+          "type": "bicycle",
+          "frame_color": "silver",
+          "handlebars": "curved, metallic",
+          "front_wheel": "visible, with thin tire"
+        },
+        "background": "dirt road, blurred trees and vegetation in distance"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 0,
+      "score": 0.671875,
+      "box": [
+        744.0,
+        326.0,
+        1024.0,
+        474.0
+      ],
+      "mask": "image_9.masks/rice paddy field_0.png",
+      "crop": null,
+      "description": "A blurred, out-of-focus view of a dirt path or road running alongside a grassy area with sparse vegetation. The ground appears dry and brown, while the adjacent field contains patches of green grass and some indistinct, darker objects or debris.",
+      "attributes": {
+        "focus": "blurred",
+        "ground": {
+          "color": "brown",
+          "texture": "dirt",
+          "type": "path or road"
+        },
+        "vegetation": {
+          "color": "green",
+          "type": "grass",
+          "density": "sparse"
+        },
+        "objects": {
+          "color": "dark",
+          "shape": "indistinct",
+          "location": "in the grassy area"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rice paddy field",
+      "index": 1,
+      "score": 0.8828125,
+      "box": [
+        -3.0,
+        260.0,
+        512.0,
+        556.0
+      ],
+      "mask": "image_9.masks/rice paddy field_1.png",
+      "crop": null,
+      "description": "A young boy with short black hair, wearing a yellow polo shirt, is carrying a large, light brown burlap sack over his right shoulder. He is smiling and looking directly at the camera, standing on a dirt path next to a lush green rice paddy field.",
+      "attributes": {
+        "age": "child",
+        "gender": "male",
+        "ethnicity": "African",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "clothing": {
+          "shirt": {
+            "color": "yellow",
+            "type": "polo"
+          }
+        },
+        "pose": "standing, carrying a sack",
+        "expression": "smiling",
+        "accessories": {
+          "sack": {
+            "material": "burlap",
+            "color": "light brown",
+            "position": "over right shoulder"
+          }
+        },
+        "background": {
+          "field": {
+            "type": "rice paddy",
+            "color": "green"
+          },
+          "path": {
+            "material": "dirt"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

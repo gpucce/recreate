@@ -1,0 +1,600 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.640625,
+      "box": [
+        788.0,
+        416.0,
+        812.0,
+        428.0
+      ],
+      "mask": "image_1.masks/building_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.59765625,
+      "box": [
+        940.0,
+        452.0,
+        1024.0,
+        480.0
+      ],
+      "mask": "image_1.masks/building_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.91796875,
+      "box": [
+        0.5,
+        412.0,
+        105.5,
+        516.0
+      ],
+      "mask": "image_1.masks/building_2.png",
+      "crop": null,
+      "description": "A small, rustic building constructed from rough, grey stone blocks features a sloped roof made of corrugated metal sheets. A single rectangular window with a white frame is set into the stone wall, and a covered porch area with wooden support posts is visible on the right side.",
+      "attributes": {
+        "structure": {
+          "walls": "grey stone blocks",
+          "roof": "corrugated metal",
+          "window": {
+            "frame": "white",
+            "shape": "rectangular"
+          },
+          "porch": {
+            "posts": "wooden",
+            "location": "right side"
+          }
+        },
+        "style": "rustic",
+        "material": "stone and metal"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.8671875,
+      "box": [
+        836.0,
+        404.0,
+        900.0,
+        428.0
+      ],
+      "mask": "image_1.masks/building_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hillside",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        616.0,
+        332.0,
+        1024.0,
+        472.0
+      ],
+      "mask": "image_1.masks/hillside_0.png",
+      "crop": null,
+      "description": "A steep, green hillside rises from a rocky shoreline, featuring a mix of dense dark green trees and lighter green grassy patches. A white, multi-story building is nestled into the slope, partially obscured by the surrounding vegetation, with a clear blue sky visible above the ridge.",
+      "attributes": {
+        "terrain": "steep hillside",
+        "vegetation": {
+          "type": "mixed trees and grass",
+          "color": "dark green and light green"
+        },
+        "structure": {
+          "type": "building",
+          "color": "white",
+          "position": "mid-slope"
+        },
+        "foreground": "rocky shoreline",
+        "sky": "clear blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hillside",
+      "index": 1,
+      "score": 0.625,
+      "box": [
+        245.0,
+        456.0,
+        328.0,
+        468.0
+      ],
+      "mask": "image_1.masks/hillside_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "hillside",
+      "index": 2,
+      "score": 0.88671875,
+      "box": [
+        336.0,
+        388.0,
+        728.0,
+        472.0
+      ],
+      "mask": "image_1.masks/hillside_2.png",
+      "crop": null,
+      "description": "A steep, lush green hillside slopes down to a rocky shoreline, with visible erosion patterns and patches of lighter vegetation on its surface. The hill is partially shadowed, creating a contrast between the sunlit and shaded areas, and it meets a calm body of water at its base.",
+      "attributes": {
+        "color": "green",
+        "texture": "rough, eroded",
+        "vegetation": "dense, grassy",
+        "terrain": "steep, sloping",
+        "water_proximity": "adjacent to a body of water",
+        "lighting": "partially shaded",
+        "erosion": "visible patterns on the slope"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 0,
+      "score": 0.6796875,
+      "box": [
+        616.0,
+        332.0,
+        1024.0,
+        472.0
+      ],
+      "mask": "image_1.masks/landmass or headland_0.png",
+      "crop": null,
+      "description": "A large, steep hillside covered in green vegetation and terraced fields rises from a rocky shoreline, with a few buildings nestled among the trees on the slope. The terrain features a mix of dense forest and open, grassy areas, leading down to a rugged coast with visible rocks and a small body of water at the base.",
+      "attributes": {
+        "terrain": "steep hillside",
+        "vegetation": {
+          "type": "mixed forest and grass",
+          "color": "green",
+          "pattern": "terraced"
+        },
+        "structures": {
+          "count": "multiple",
+          "type": "buildings",
+          "location": "mid-slope"
+        },
+        "coastline": {
+          "type": "rocky",
+          "features": "large boulders"
+        },
+        "sky": "clear blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 1,
+      "score": 0.75390625,
+      "box": [
+        244.0,
+        456.0,
+        332.0,
+        468.0
+      ],
+      "mask": "image_1.masks/landmass or headland_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "landmass or headland",
+      "index": 2,
+      "score": 0.6953125,
+      "box": [
+        336.0,
+        336.0,
+        1024.0,
+        480.0
+      ],
+      "mask": "image_1.masks/landmass or headland_2.png",
+      "crop": null,
+      "description": "A lush, green headland slopes down to a rocky shoreline, with a few buildings nestled among the vegetation on the hillside. The landmass is covered in dense greenery, with a mix of trees and grassy areas, and the coastline features a mix of rocks and a small sandy beach.",
+      "attributes": {
+        "vegetation": "dense green trees and grass",
+        "terrain": "sloping hillside",
+        "coastline": "rocky with a small sandy beach",
+        "buildings": "a few structures visible on the hillside",
+        "sky": "clear blue sky with a few clouds"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 3,
+      "score": 0.94140625,
+      "box": [
+        2.0,
+        482.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/landmass or headland_3.png",
+      "crop": null,
+      "description": "A man stands on a sandy beach near the water's edge, facing away from the camera. He is wearing blue swim trunks and appears to be looking out at the calm sea.",
+      "attributes": {
+        "gender": "male",
+        "clothing": {
+          "swim_trunks": "blue"
+        },
+        "pose": "standing",
+        "position": "near_water's_edge",
+        "environment": {
+          "beach": "sandy",
+          "water": "calm_sea"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "landmass or headland",
+      "index": 4,
+      "score": 0.765625,
+      "box": [
+        340.0,
+        386.0,
+        732.0,
+        470.0
+      ],
+      "mask": "image_1.masks/landmass or headland_4.png",
+      "crop": null,
+      "description": "A large, sloping headland covered in green vegetation and grass rises steeply from a rocky shoreline, with visible erosion patterns and a mix of dark and light green tones across its surface. The landmass extends into the distance, forming a prominent natural barrier along the coast.",
+      "attributes": {
+        "vegetation": "green grass and shrubs",
+        "terrain": "sloping, eroded",
+        "shoreline": "rocky",
+        "color_tones": [
+          "dark green",
+          "light green",
+          "brown"
+        ],
+        "position": "coastal, extending into distance",
+        "function": "natural coastal barrier"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.59765625,
+      "box": [
+        608.0,
+        504.0,
+        616.0,
+        512.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.94140625,
+      "box": [
+        648.0,
+        512.0,
+        680.0,
+        600.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 0,
+      "score": 0.61328125,
+      "box": [
+        796.0,
+        476.0,
+        820.0,
+        488.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 1,
+      "score": 0.70703125,
+      "box": [
+        21.125,
+        510.0,
+        73.5,
+        540.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 2,
+      "score": 0.515625,
+      "box": [
+        208.0,
+        506.0,
+        242.0,
+        520.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_2.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 3,
+      "score": 0.66015625,
+      "box": [
+        820.0,
+        474.0,
+        844.0,
+        486.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 4,
+      "score": 0.5859375,
+      "box": [
+        148.0,
+        502.0,
+        210.0,
+        536.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 5,
+      "score": 0.6484375,
+      "box": [
+        181.0,
+        492.0,
+        209.0,
+        516.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_5.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 6,
+      "score": 0.53515625,
+      "box": [
+        4.0,
+        484.0,
+        240.0,
+        548.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_6.png",
+      "crop": null,
+      "description": "A cluster of large, dark gray and brown rocks sits at the edge of a body of water, with some rocks partially submerged and others resting on a sandy shore. The rocks have a rough, uneven texture and are illuminated by sunlight, casting shadows that highlight their shapes.",
+      "attributes": {
+        "color": [
+          "dark gray",
+          "brown",
+          "sandy beige"
+        ],
+        "texture": "rough",
+        "position": "at the water's edge",
+        "lighting": "sunlit",
+        "environment": "coastal or lakeside"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 7,
+      "score": 0.5703125,
+      "box": [
+        122.5,
+        516.0,
+        160.0,
+        540.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_7.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 8,
+      "score": 0.68359375,
+      "box": [
+        704.0,
+        464.0,
+        752.0,
+        484.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 9,
+      "score": 0.6484375,
+      "box": [
+        106.0,
+        484.0,
+        184.0,
+        508.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_9.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 10,
+      "score": 0.703125,
+      "box": [
+        59.0,
+        502.0,
+        108.0,
+        528.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_10.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 11,
+      "score": 0.6328125,
+      "box": [
+        748.0,
+        466.0,
+        780.0,
+        486.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_11.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "rocky outcrop",
+      "index": 12,
+      "score": 0.63671875,
+      "box": [
+        77.5,
+        528.0,
+        137.0,
+        552.0
+      ],
+      "mask": "image_1.masks/rocky outcrop_12.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        6.0,
+        482.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/sand_0.png",
+      "crop": null,
+      "description": "The sand is light beige in color, with a fine-grained texture that appears dry and slightly compacted. It is covered with numerous footprints of varying sizes and depths, creating a pattern of indentations across the surface. The footprints are scattered throughout the sand, suggesting recent activity. The sand extends towards the water's edge, where it meets the calm, clear blue water. The overall scene conveys a serene beach environment.",
+      "attributes": {
+        "color": "light beige",
+        "texture": "fine-grained, dry, slightly compacted",
+        "footprints": "numerous, varying sizes and depths, scattered",
+        "location": "beach, near water's edge",
+        "water": "calm, clear blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.9921875,
+      "box": [
+        2.0,
+        -1.0,
+        1024.0,
+        464.0
+      ],
+      "mask": "image_1.masks/sky_0.png",
+      "crop": null,
+      "description": "A bright blue sky with scattered white clouds, including a prominent fluffy cloud in the center and smaller wispy clouds near the horizon. The sun is visible in the upper left corner, creating a bright glare.",
+      "attributes": {
+        "color": "blue",
+        "clouds": {
+          "type": "cumulus",
+          "color": "white",
+          "distribution": "scattered"
+        },
+        "sun": {
+          "position": "upper left",
+          "visibility": "bright glare"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        108.0,
+        468.0,
+        916.0,
+        604.0
+      ],
+      "mask": "image_1.masks/water_0.png",
+      "crop": null,
+      "description": "The water is a calm, clear body of water with a gradient of colors from light turquoise near the shore to deeper blue further out. The surface is mostly smooth with gentle ripples, and there are a few people swimming in the distance. The water meets a sandy beach on one side and rocky formations on the other.",
+      "attributes": {
+        "color": "light turquoise to deep blue",
+        "surface": "calm with gentle ripples",
+        "clarity": "clear",
+        "swimmers": "a few people visible in the distance",
+        "shoreline": "sandy beach on one side, rocky formations on the other"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "image": "image_13.png",
+  "visual_entities_source": "image_13.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        620.0,
+        616.0,
+        692.0,
+        712.0
+      ],
+      "mask": "image_13.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a light-colored wooden chair with a white-painted top rail and visible wooden legs, positioned in the background behind a person wearing a grey knit sweater.",
+      "attributes": {
+        "material": "wood",
+        "color": "light beige",
+        "finish": "white painted top rail",
+        "structure": "visible legs and top rail",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.609375,
+      "box": [
+        628.0,
+        506.0,
+        724.0,
+        624.0
+      ],
+      "mask": "image_13.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus view of a light brown wooden desk surface with a smooth finish, positioned in the background behind a person's shoulder and hair.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "finish": "smooth",
+        "focus": "blurred",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 1,
+      "score": 0.96484375,
+      "box": [
+        2.0,
+        720.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_13.masks/desk_1.png",
+      "crop": null,
+      "description": "A wooden desk with a visible grain pattern and a few dark knots, holding a silver laptop on the left and a black DSLR camera with a red ring on the lens in the center. Two people are seated at the desk, one wearing a light blue button-up shirt and the other a gray sweater, with their hands resting on the surface.",
+      "attributes": {
+        "material": "wood",
+        "color": "light brown",
+        "texture": "grainy with knots",
+        "objects": {
+          "laptop": {
+            "color": "silver",
+            "position": "left side"
+          },
+          "camera": {
+            "type": "DSLR",
+            "color": "black",
+            "lens_ring": "red",
+            "position": "center"
+          }
+        },
+        "people": {
+          "person_1": {
+            "clothing": "light blue button-up shirt",
+            "position": "left side"
+          },
+          "person_2": {
+            "clothing": "gray sweater",
+            "position": "right side"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "laptop",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        -2.0,
+        580.0,
+        424.0,
+        844.0
+      ],
+      "mask": "image_13.masks/laptop_0.png",
+      "crop": null,
+      "description": "A silver laptop with a black keyboard and a large trackpad is open on a wooden table, positioned in front of a person wearing a light blue button-down shirt with rolled-up sleeves. The laptop is angled slightly to the left, showing its side profile and the back of the screen.",
+      "attributes": {
+        "color": "silver",
+        "keyboard": "black",
+        "trackpad": "large, silver",
+        "status": "open",
+        "position": "on wooden table",
+        "angle": "slightly angled to the left",
+        "visible_parts": [
+          "keyboard",
+          "trackpad",
+          "side profile",
+          "back of screen"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        532.0,
+        180.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_13.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with long, wavy dark brown hair is shown in profile, wearing a light grey knit sweater. She is seated at a wooden table with her hands clasped, looking attentively to the left, with a black camera visible in the foreground.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "long",
+          "texture": "wavy"
+        },
+        "clothing": {
+          "top": {
+            "type": "sweater",
+            "color": "light grey",
+            "material": "knit"
+          }
+        },
+        "pose": "sitting, hands clasped",
+        "expression": "attentive, neutral",
+        "orientation": "profile, facing left",
+        "accessories": {
+          "earrings": "small hoop"
+        },
+        "context": {
+          "setting": "indoor, at a wooden table",
+          "objects": "black camera in foreground"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        120.0,
+        186.0,
+        632.0,
+        776.0
+      ],
+      "mask": "image_13.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged woman with shoulder-length wavy gray hair is seated at a wooden table, wearing a light blue button-down shirt with sleeves rolled up. She is gesturing with both hands open and palms up while speaking, with a laptop visible in the foreground and a plant in the background.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "shoulder-length",
+          "style": "wavy"
+        },
+        "clothing": {
+          "shirt": {
+            "type": "button-down",
+            "color": "light blue",
+            "sleeves": "rolled up"
+          },
+          "accessories": {
+            "necklace": "thin gold chain with small pendant",
+            "ring": "gold band on left ring finger",
+            "earrings": "small gold studs"
+          }
+        },
+        "pose": "seated, gesturing with both hands open",
+        "expression": "engaged, speaking",
+        "context": "indoor setting, likely office or home, with laptop and plant visible"
+      },
+      "parse_ok": true
+    }
+  ]
+}

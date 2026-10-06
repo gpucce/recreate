@@ -1,0 +1,416 @@
+{
+  "image": "image_0.png",
+  "visual_entities_source": "image_0.visual_entities.json",
+  "entities": [
+    {
+      "type": "column",
+      "index": 0,
+      "score": 0.70703125,
+      "box": [
+        724.0,
+        201.0,
+        768.0,
+        380.0
+      ],
+      "mask": "image_0.masks/column_0.png",
+      "crop": null,
+      "description": "A green marble column with a gold capital, standing vertically in the background behind a microphone.",
+      "attributes": {
+        "color": "green",
+        "material": "marble",
+        "capital": "gold",
+        "position": "background",
+        "object_in_front": "microphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "column",
+      "index": 1,
+      "score": 0.72265625,
+      "box": [
+        77.5,
+        20.875,
+        148.0,
+        282.0
+      ],
+      "mask": "image_0.masks/column_1.png",
+      "crop": null,
+      "description": "A close-up of a green marble column with a gold capital, partially obscured by a red flag with yellow stars, likely the Chinese national flag, in the foreground.",
+      "attributes": {
+        "column": {
+          "material": "green marble",
+          "color": "green",
+          "capital": {
+            "material": "gold",
+            "color": "gold",
+            "style": "ornate"
+          },
+          "position": "vertical, central"
+        },
+        "flag": {
+          "color": "red",
+          "stars": "yellow",
+          "position": "foreground, left side",
+          "type": "Chinese national flag (inferred from stars)"
+        },
+        "background": "dark, indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "column",
+      "index": 2,
+      "score": 0.6875,
+      "box": [
+        608.0,
+        29.375,
+        676.0,
+        233.0
+      ],
+      "mask": "image_0.masks/column_2.png",
+      "crop": null,
+      "description": "A close-up of a column capital featuring a gilded, ornate top with intricate relief carvings, transitioning into a shaft wrapped in a green, textured material resembling marble or stone. A flag with vertical stripes of green, white, and blue is draped over the column, partially obscuring the green wrapping.",
+      "attributes": {
+        "capital": {
+          "color": "gold",
+          "material": "gilded",
+          "style": "ornate, relief-carved"
+        },
+        "shaft": {
+          "color": "green",
+          "texture": "mottled, stone-like"
+        },
+        "drapery": {
+          "type": "flag",
+          "colors": [
+            "green",
+            "white",
+            "blue"
+          ],
+          "pattern": "vertical stripes"
+        },
+        "background": "reddish-brown wall"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 0,
+      "score": 0.9453125,
+      "box": [
+        600.0,
+        102.5,
+        708.0,
+        432.0
+      ],
+      "mask": "image_0.masks/flag_0.png",
+      "crop": null,
+      "description": "A vertical flag with three horizontal stripes: white on top, blue in the middle, and red on the bottom. The flag is displayed on a pole with a decorative finial and is positioned in front of a dark curtain and a light-colored wall with architectural details.",
+      "attributes": {
+        "flag": {
+          "type": "tricolor",
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "vertical",
+          "pole": "visible",
+          "finial": "decorative"
+        },
+        "background": {
+          "curtain": "dark",
+          "wall": "light-colored",
+          "architectural_details": "visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 1,
+      "score": 0.9609375,
+      "box": [
+        33.0,
+        100.5,
+        142.0,
+        386.0
+      ],
+      "mask": "image_0.masks/flag_1.png",
+      "crop": null,
+      "description": "A red flag with a large yellow star in the upper left corner and four smaller yellow stars arranged in an arc to its right, displayed vertically on a pole.",
+      "attributes": {
+        "flag": {
+          "color": "red",
+          "stars": {
+            "large_star": "yellow",
+            "small_stars": "yellow",
+            "arrangement": "arc"
+          },
+          "orientation": "vertical",
+          "pole": "visible"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 2,
+      "score": 0.76171875,
+      "box": [
+        306.0,
+        150.0,
+        370.0,
+        434.0
+      ],
+      "mask": "image_0.masks/flag_2.png",
+      "crop": null,
+      "description": "A close-up of a person's hands clasped together in front of their body, wearing a dark suit jacket and a white shirt with a pink tie. The background features a red and yellow flag, partially visible, with a red field and a yellow cross or stripe.",
+      "attributes": {
+        "clothing": {
+          "jacket": "dark suit",
+          "shirt": "white",
+          "tie": "pink"
+        },
+        "pose": "hands clasped",
+        "background": {
+          "flag": {
+            "color": [
+              "red",
+              "yellow"
+            ],
+            "pattern": "cross or stripe"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 3,
+      "score": 0.9296875,
+      "box": [
+        145.0,
+        95.0,
+        221.0,
+        384.0
+      ],
+      "mask": "image_0.masks/flag_3.png",
+      "crop": null,
+      "description": "A partial view of a flag with horizontal stripes of white, blue, and red, visible behind a person wearing a dark suit. The flag is mounted on a pole with a gold finial, and the background appears to be a wooden panel.",
+      "attributes": {
+        "flag": {
+          "stripes": [
+            "white",
+            "blue",
+            "red"
+          ],
+          "orientation": "horizontal",
+          "pole": "gold finial"
+        },
+        "person": {
+          "clothing": "dark suit",
+          "position": "in front of the flag"
+        },
+        "background": "wooden panel"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 4,
+      "score": 0.94140625,
+      "box": [
+        512.0,
+        98.5,
+        600.0,
+        432.0
+      ],
+      "mask": "image_0.masks/flag_4.png",
+      "crop": null,
+      "description": "A red flag with a yellow star in the upper left corner, partially visible behind a person wearing a dark suit. The flag appears to be made of fabric and is hanging vertically.",
+      "attributes": {
+        "color": "red",
+        "symbol": "yellow star",
+        "position": "upper left",
+        "material": "fabric",
+        "orientation": "vertical",
+        "context": "behind a person in a dark suit"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "flag",
+      "index": 5,
+      "score": 0.85546875,
+      "box": [
+        362.0,
+        92.0,
+        442.0,
+        436.0
+      ],
+      "mask": "image_0.masks/flag_5.png",
+      "crop": null,
+      "description": "A man with short, light brown hair and a receding hairline is shown from the chest up, wearing a dark suit jacket, a white collared shirt, and a dark purple tie. He is standing in front of a red curtain and a white flag with a blue stripe, with a white architectural structure visible in the background to the left.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "light brown",
+          "style": "short, receding"
+        },
+        "clothing": {
+          "jacket": "dark suit",
+          "shirt": "white",
+          "tie": "dark purple"
+        },
+        "pose": "standing",
+        "background": {
+          "curtain": "red",
+          "flag": "white with blue stripe",
+          "structure": "white architectural element"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.8984375,
+      "box": [
+        0.052734375,
+        366.0,
+        25.75,
+        412.0
+      ],
+      "mask": "image_0.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        161.0,
+        76.0,
+        364.0,
+        436.0
+      ],
+      "mask": "image_0.masks/person_1.png",
+      "crop": null,
+      "description": "A middle-aged Asian man with short black hair and a slight smile is wearing a dark suit, white shirt, and purple tie while shaking hands with another person. He is positioned in the foreground with flags visible in the background, including a Russian flag on the left and a Spanish flag on the right.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "black",
+          "style": "short"
+        },
+        "clothing": {
+          "suit": "black",
+          "shirt": "white",
+          "tie": "purple"
+        },
+        "pose": "standing, shaking hands",
+        "expression": "smiling",
+        "background": {
+          "flags": [
+            "Russian",
+            "Spanish"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.94921875,
+      "box": [
+        344.0,
+        114.0,
+        580.0,
+        432.0
+      ],
+      "mask": "image_0.masks/person_2.png",
+      "crop": null,
+      "description": "A middle-aged man with short, thinning gray hair and a fair complexion is wearing a dark suit jacket over a white dress shirt and a dark maroon tie. He is standing and shaking hands with another person whose arm is visible on the left, while his other hand is held near his chest, with a slight smile on his face.",
+      "attributes": {
+        "gender": "male",
+        "age": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "style": "short, thinning"
+        },
+        "clothing": {
+          "suit": "dark",
+          "shirt": "white",
+          "tie": "dark maroon"
+        },
+        "pose": "standing, shaking hands",
+        "expression": "slight smile",
+        "skin_tone": "fair"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wall",
+      "index": 0,
+      "score": 0.625,
+      "box": [
+        5.0625,
+        41.75,
+        864.0,
+        404.0
+      ],
+      "mask": "image_0.masks/wall_0.png",
+      "crop": null,
+      "description": "A formal indoor scene featuring two men in dark suits shaking hands in the foreground, set against a backdrop of red walls, green marble columns with gold capitals, and alternating Chinese and Russian flags. A white stone monument with a star is visible in the center background between the two figures.",
+      "attributes": {
+        "people": [
+          {
+            "position": "left",
+            "gender": "male",
+            "ethnicity": "East Asian",
+            "clothing": {
+              "suit": "black",
+              "shirt": "white",
+              "tie": "purple"
+            },
+            "action": "shaking hands"
+          },
+          {
+            "position": "right",
+            "gender": "male",
+            "ethnicity": "Caucasian",
+            "clothing": {
+              "suit": "black",
+              "shirt": "white",
+              "tie": "dark red"
+            },
+            "action": "shaking hands"
+          }
+        ],
+        "background": {
+          "walls": "dark red",
+          "columns": {
+            "material": "green marble",
+            "capitals": "gold"
+          },
+          "flags": [
+            "China",
+            "Russia"
+          ],
+          "centerpiece": "white stone monument with star"
+        },
+        "setting": "formal diplomatic meeting"
+      },
+      "parse_ok": true
+    }
+  ]
+}

@@ -1,0 +1,689 @@
+{
+  "image": "image_14.png",
+  "visual_entities_source": "image_14.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        0.25,
+        156.0,
+        116.0,
+        300.0
+      ],
+      "mask": "image_14.masks/building_0.png",
+      "crop": null,
+      "description": "A two-story white building with a flat roof and large windows, featuring a balcony on the second floor. The image is blurry, and a yellow umbrella is partially visible in the foreground.",
+      "attributes": {
+        "color": "white",
+        "structure": "two-story",
+        "roof": "flat",
+        "windows": "large",
+        "balcony": "second floor",
+        "foreground_object": "yellow umbrella",
+        "image_quality": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.55859375,
+      "box": [
+        376.0,
+        258.0,
+        520.0,
+        318.0
+      ],
+      "mask": "image_14.masks/building_1.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a house with a reddish-brown roof and yellow walls, featuring a small window on the upper level and a larger window or door below. A dark, indistinct object occupies the bottom right foreground.",
+      "attributes": {
+        "building_type": "house",
+        "roof_color": "reddish-brown",
+        "wall_color": "yellow",
+        "focus": "blurry",
+        "visible_features": [
+          "roof",
+          "upper window",
+          "lower window/door"
+        ],
+        "foreground_object": "dark, indistinct"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.78125,
+      "box": [
+        652.0,
+        253.0,
+        828.0,
+        336.0
+      ],
+      "mask": "image_14.masks/building_2.png",
+      "crop": null,
+      "description": "A two-story residential building with light beige siding and dark brown wood trim, featuring a gabled roof and a second-floor balcony with a wooden railing. The structure is out of focus in the background, with large windows visible on both levels.",
+      "attributes": {
+        "structure_type": "residential house",
+        "stories": 2,
+        "siding_color": "light beige",
+        "trim_color": "dark brown",
+        "roof_style": "gabled",
+        "roof_color": "light gray",
+        "features": [
+          "balcony",
+          "wooden railing",
+          "large windows"
+        ],
+        "focus": "blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 3,
+      "score": 0.875,
+      "box": [
+        828.0,
+        288.0,
+        1020.0,
+        348.0
+      ],
+      "mask": "image_14.masks/building_3.png",
+      "crop": null,
+      "description": "A blurry image of a building with a dark gray exterior and a light-colored roof, partially obscured by an orange umbrella in the foreground. The building appears to have a white section or window on its side.",
+      "attributes": {
+        "color": "dark gray",
+        "roof_color": "light",
+        "obscured_by": "orange umbrella",
+        "clarity": "blurry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 4,
+      "score": 0.92578125,
+      "box": [
+        109.5,
+        235.0,
+        242.0,
+        304.0
+      ],
+      "mask": "image_14.masks/building_4.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a light-colored exterior and a dark roof, partially obscured by a bright yellow umbrella in the foreground.",
+      "attributes": {
+        "building": {
+          "color": "light beige or gray",
+          "roof": "dark",
+          "structure": "two-story",
+          "windows": "visible but indistinct"
+        },
+        "foreground_object": {
+          "type": "umbrella",
+          "color": "yellow",
+          "state": "open"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 5,
+      "score": 0.53125,
+      "box": [
+        228.0,
+        244.0,
+        828.0,
+        332.0
+      ],
+      "mask": "image_14.masks/building_5.png",
+      "crop": null,
+      "description": "A man with wet, dark hair is wearing a black wetsuit and is positioned in the foreground, looking towards the camera with a serious expression. In the background, there are houses with red and white roofs, and a clear blue sky.",
+      "attributes": {
+        "gender": "male",
+        "hair": {
+          "color": "dark",
+          "texture": "wet"
+        },
+        "clothing": {
+          "wetsuit": "black"
+        },
+        "expression": "serious",
+        "background": {
+          "houses": {
+            "roof_color": [
+              "red",
+              "white"
+            ]
+          },
+          "sky": "clear blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 6,
+      "score": 0.55078125,
+      "box": [
+        988.0,
+        284.0,
+        1020.0,
+        320.0
+      ],
+      "mask": "image_14.masks/building_6.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "building",
+      "index": 7,
+      "score": 0.79296875,
+      "box": [
+        229.0,
+        256.0,
+        524.0,
+        320.0
+      ],
+      "mask": "image_14.masks/building_7.png",
+      "crop": null,
+      "description": "A two-story residential building with a red-tiled roof and yellow exterior walls, featuring a covered porch area on the left side and a visible window on the upper floor of the right section. The structure appears to be made of stucco or similar material, with a sloped roof design typical of coastal or Mediterranean architecture.",
+      "attributes": {
+        "roof": {
+          "color": "red",
+          "material": "tile",
+          "style": "sloped"
+        },
+        "walls": {
+          "color": "yellow",
+          "material": "stucco"
+        },
+        "structure": {
+          "stories": 2,
+          "features": [
+            "covered porch",
+            "upper floor window"
+          ]
+        },
+        "architecture_style": "coastal/Mediterranean"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 8,
+      "score": 0.55078125,
+      "box": [
+        486.0,
+        253.0,
+        588.0,
+        292.0
+      ],
+      "mask": "image_14.masks/building_8.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        74.5,
+        324.0,
+        110.5,
+        368.0
+      ],
+      "mask": "image_14.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.80859375,
+      "box": [
+        120.0,
+        324.0,
+        170.0,
+        368.0
+      ],
+      "mask": "image_14.masks/person_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.98046875,
+      "box": [
+        306.0,
+        208.0,
+        872.0,
+        768.0
+      ],
+      "mask": "image_14.masks/person_2.png",
+      "crop": null,
+      "description": "A young man with wet, dark brown hair is surfing on a white board, wearing a black long-sleeved rash guard and teal board shorts. He is in a crouched, balanced stance with arms outstretched, looking forward with a focused expression, while white water splashes around his legs and black ankle leashes are visible.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "length": "medium",
+          "texture": "wet, messy"
+        },
+        "clothing": {
+          "top": {
+            "type": "long-sleeved rash guard",
+            "color": "black",
+            "material": "synthetic/spandex"
+          },
+          "bottom": {
+            "type": "board shorts",
+            "color": "teal",
+            "length": "knee-length"
+          },
+          "accessories": {
+            "ankle_leashes": "black"
+          }
+        },
+        "pose": "crouching, arms extended for balance",
+        "expression": "focused, intense",
+        "activity": "surfing",
+        "skin": "tanned, wet"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.51171875,
+      "box": [
+        912.0,
+        362.0,
+        944.0,
+        390.0
+      ],
+      "mask": "image_14.masks/person_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.83984375,
+      "box": [
+        852.0,
+        348.0,
+        884.0,
+        388.0
+      ],
+      "mask": "image_14.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "sand",
+      "index": 0,
+      "score": 0.875,
+      "box": [
+        2.0,
+        318.0,
+        1024.0,
+        466.0
+      ],
+      "mask": "image_14.masks/sand_0.png",
+      "crop": null,
+      "description": "A man is surfing on a wave, wearing a black wetsuit top and turquoise board shorts. He is crouched low with his arms outstretched for balance, and the background shows a sandy beach with people and umbrellas.",
+      "attributes": {
+        "clothing": {
+          "top": "black wetsuit",
+          "shorts": "turquoise board shorts"
+        },
+        "pose": "crouching, arms outstretched",
+        "activity": "surfing",
+        "location": "beach, ocean",
+        "background": {
+          "beach": "sandy",
+          "people": "visible in the distance",
+          "umbrellas": "orange and blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "sky",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        4.0,
+        1.0,
+        1020.0,
+        296.0
+      ],
+      "mask": "image_14.masks/sky_0.png",
+      "crop": null,
+      "description": "The sky is a clear, uniform light blue with no visible clouds or atmospheric features. It occupies the majority of the upper portion of the image, providing a bright and open backdrop above the buildings and person in the foreground.",
+      "attributes": {
+        "color": "light blue",
+        "clarity": "clear",
+        "clouds": "none",
+        "position": "upper portion of the image",
+        "background": "buildings and person in the foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "surfboard",
+      "index": 0,
+      "score": 0.94921875,
+      "box": [
+        211.0,
+        692.0,
+        512.0,
+        812.0
+      ],
+      "mask": "image_14.masks/surfboard_0.png",
+      "crop": null,
+      "description": "A close-up of a white surfboard with a black stringer running down the center, partially submerged in foamy water. A person's bare foot is visible on the board, wearing a black ankle leash, with another leg and a blue ankle leash also visible in the water.",
+      "attributes": {
+        "color": "white",
+        "stringer": "black",
+        "material": "fiberglass",
+        "position": "angled in water",
+        "water": "foamy, white",
+        "foot": "bare, on board",
+        "leash": {
+          "color": "black",
+          "position": "ankle"
+        },
+        "second_leg": "visible, in water",
+        "second_leash": {
+          "color": "blue",
+          "position": "ankle"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.84375,
+      "box": [
+        340.0,
+        234.0,
+        404.0,
+        262.0
+      ],
+      "mask": "image_14.masks/tree_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.83984375,
+      "box": [
+        434.0,
+        238.0,
+        478.0,
+        258.0
+      ],
+      "mask": "image_14.masks/tree_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 0,
+      "score": 0.87109375,
+      "box": [
+        836.0,
+        300.0,
+        948.0,
+        340.0
+      ],
+      "mask": "image_14.masks/umbrella_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A bright orange umbrella is shown in a close-up, slightly blurred view, with its canopy fully open and segmented into panels. The umbrella appears to be made of fabric and is positioned outdoors, possibly on a beach or patio, as suggested by the soft, natural lighting and the indistinct background.\", \"attributes\": {\"color\": \"orange\", \"material\": \"fabric\", \"state\": \"open\", \"position\": \"outdoors\", \"lighting\": \"natural\", \"background\": \"blurred\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 1,
+      "score": 0.87890625,
+      "box": [
+        780.0,
+        322.0,
+        836.0,
+        342.0
+      ],
+      "mask": "image_14.masks/umbrella_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "umbrella",
+      "index": 2,
+      "score": 0.8203125,
+      "box": [
+        46.0,
+        255.0,
+        185.0,
+        352.0
+      ],
+      "mask": "image_14.masks/umbrella_2.png",
+      "crop": null,
+      "description": "A large, open yellow umbrella with a scalloped edge is positioned above two people sitting on a sandy surface. The umbrella appears to be made of fabric and is supported by a central pole, providing shade in an outdoor setting.",
+      "attributes": {
+        "color": "yellow",
+        "shape": "circular with scalloped edges",
+        "material": "fabric",
+        "state": "open",
+        "position": "above two people",
+        "context": "outdoor, sandy area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 0,
+      "score": 0.54296875,
+      "box": [
+        672.0,
+        328.0,
+        1024.0,
+        372.0
+      ],
+      "mask": "image_14.masks/vegetation_0.png",
+      "crop": null,
+      "description": "The image shows a blurred background of a beach scene with indistinct figures and colorful umbrellas, but no clear vegetation is visible in the crop. The foreground appears to be out of focus, making it difficult to discern specific details of any plant life.",
+      "attributes": {
+        "visibility": "blurred",
+        "focus": "out of focus",
+        "background_elements": [
+          "beach",
+          "umbrellas",
+          "indistinct figures"
+        ],
+        "vegetation_details": "not clearly visible"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 1,
+      "score": 0.57421875,
+      "box": [
+        -3.0,
+        300.0,
+        436.0,
+        348.0
+      ],
+      "mask": "image_14.masks/vegetation_1.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus background featuring sandy terrain with sparse, low-lying vegetation. The vegetation appears as indistinct patches of green and brown, suggesting dry grass or shrubs typical of a dune or beach environment. The overall scene is hazy, with no clear details visible due to the lack of focus.",
+      "attributes": {
+        "type": "sparse vegetation",
+        "color": [
+          "green",
+          "brown"
+        ],
+        "texture": "blurred",
+        "environment": "sandy terrain",
+        "focus": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 2,
+      "score": 0.59765625,
+      "box": [
+        2.0,
+        300.0,
+        1024.0,
+        372.0
+      ],
+      "mask": "image_14.masks/vegetation_2.png",
+      "crop": null,
+      "description": "A person wearing a black wetsuit is paddling on a surfboard in the ocean, with a beach and umbrellas visible in the background.",
+      "attributes": {
+        "clothing": {
+          "wetsuit": "black"
+        },
+        "pose": "paddling",
+        "location": "ocean",
+        "background": {
+          "beach": "sandy",
+          "umbrellas": [
+            "orange",
+            "blue"
+          ],
+          "people": "sitting on beach"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vegetation",
+      "index": 3,
+      "score": 0.765625,
+      "box": [
+        340.0,
+        234.0,
+        404.0,
+        262.0
+      ],
+      "mask": "image_14.masks/vegetation_3.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "vegetation",
+      "index": 4,
+      "score": 0.74609375,
+      "box": [
+        434.0,
+        241.0,
+        478.0,
+        262.0
+      ],
+      "mask": "image_14.masks/vegetation_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "water",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        2.0,
+        460.0,
+        1024.0,
+        1020.0
+      ],
+      "mask": "image_14.masks/water_0.png",
+      "crop": null,
+      "description": "A surfer is captured mid-action, riding a wave on a white surfboard. The surfer is wearing teal board shorts and has black ankle leashes attached to their feet. The water is churning with white foam and spray around the board, indicating movement and speed.",
+      "attributes": {
+        "clothing": {
+          "shorts": "teal board shorts"
+        },
+        "accessories": {
+          "ankle leashes": "black"
+        },
+        "surfboard": {
+          "color": "white",
+          "type": "shortboard"
+        },
+        "action": "surfing",
+        "water": {
+          "state": "churning, foamy",
+          "color": "white and greenish-blue"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wave",
+      "index": 0,
+      "score": 0.57421875,
+      "box": [
+        2.0,
+        504.0,
+        1024.0,
+        872.0
+      ],
+      "mask": "image_14.masks/wave_0.png",
+      "crop": null,
+      "description": "A surfer is captured mid-action, riding a wave with their legs bent and feet firmly planted on a white surfboard. The surfer is wearing teal shorts and has black ankle leashes attached to their ankles, with water splashing around them.",
+      "attributes": {
+        "clothing": {
+          "shorts": "teal"
+        },
+        "accessories": {
+          "ankle leashes": "black"
+        },
+        "surfboard": {
+          "color": "white",
+          "position": "under the surfer's feet"
+        },
+        "action": "surfing",
+        "environment": {
+          "water": "splashing",
+          "wave": "white foam"
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

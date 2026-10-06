@@ -1,0 +1,188 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "bench",
+      "index": 0,
+      "score": 0.95703125,
+      "box": [
+        0.0,
+        948.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/bench_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's lower legs and knees resting on a wooden bench, wearing blue denim jeans on the left and beige or khaki pants on the right. The wooden slats of the bench are visible beneath the legs, showing a light brown wood grain texture.",
+      "attributes": {
+        "clothing": {
+          "left_leg": "blue denim jeans",
+          "right_leg": "beige or khaki pants"
+        },
+        "furniture": {
+          "type": "bench",
+          "material": "wood",
+          "color": "light brown",
+          "texture": "wood grain visible"
+        },
+        "pose": "sitting with legs bent at the knees",
+        "position": "lower body only visible, centered in frame"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        516.0,
+        162.0,
+        964.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with long, straight gray hair is seated, wearing a light pink cardigan over a white t-shirt and beige pants. She holds a black smartphone in her hands with a shocked and wide-eyed expression, while a man's arm is visible around her shoulder.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "gray",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "shocked",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "pink"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "accessories": {
+          "earrings": "small stud"
+        },
+        "pose": "sitting",
+        "action": "holding phone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.93359375,
+      "box": [
+        60.0,
+        78.0,
+        944.0,
+        1024.0
+      ],
+      "mask": "image_7.masks/person_1.png",
+      "crop": null,
+      "description": "A young man with curly dark brown hair and a beard sits next to an older woman, wearing a blue and white checkered flannel shirt over a white t-shirt and blue jeans. He is smiling and pointing at a black smartphone held by the woman, with his arm around her shoulder.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "short"
+        },
+        "facial_hair": "full beard",
+        "expression": "smiling",
+        "clothing": {
+          "outer": {
+            "type": "shirt",
+            "pattern": "checkered",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "inner": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "jeans",
+            "color": "blue"
+          }
+        },
+        "pose": "sitting, leaning towards the woman, pointing at a phone",
+        "action": "pointing at a smartphone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        560.0,
+        532.0,
+        648.0,
+        644.0
+      ],
+      "mask": "image_7.masks/smartphone_0.png",
+      "crop": null,
+      "description": "A close-up of a person's hand holding a black smartphone, showing the back of the device with a dual-lens camera module in the top left corner.",
+      "attributes": {
+        "color": "black",
+        "material": "matte plastic or glass",
+        "camera": {
+          "type": "dual-lens",
+          "position": "top-left corner",
+          "lenses": "two circular lenses arranged vertically",
+          "flash": "small circular flash next to the lenses"
+        },
+        "hand": {
+          "skin_tone": "light",
+          "grip": "holding the phone from the side and bottom"
+        },
+        "orientation": "vertical",
+        "condition": "clean and intact"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 0,
+      "score": 0.83984375,
+      "box": [
+        0.0,
+        948.0,
+        1020.0,
+        1020.0
+      ],
+      "mask": "image_7.masks/wood_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A close-up view of a person's lower legs and knees, wearing blue denim jeans on the left and beige or khaki pants on the right, resting on a wooden surface with visible grain and planks.\", \"attributes\": {\"clothing\": {\"left_leg\": \"blue denim jeans\", \"right_leg\": \"beige or khaki pants\"}, \"surface\": \"wooden planks with visible grain\", \"pose\": \"seated or lying down, legs bent at the knees\", \"material\": \"denim and cotton or similar fabric for pants, wood for surface\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "wood",
+      "index": 1,
+      "score": 0.51171875,
+      "box": [
+        944.0,
+        948.0,
+        1024.0,
+        972.0
+      ],
+      "mask": "image_7.masks/wood_1.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    }
+  ]
+}

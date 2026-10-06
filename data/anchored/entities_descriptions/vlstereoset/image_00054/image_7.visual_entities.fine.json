@@ -1,0 +1,68 @@
+{
+  "image": "image_7.png",
+  "visual_entities_source": "image_7.visual_entities.json",
+  "entities": [
+    {
+      "type": "body_of_water",
+      "index": 0,
+      "score": 0.8125,
+      "box": [
+        148.0,
+        236.0,
+        932.0,
+        812.0
+      ],
+      "mask": "image_7.masks/body_of_water_0.png",
+      "crop": null,
+      "description": "A large, circular body of water with a greenish-blue hue surrounds a small, sandy island in the center. The water is calm and reflects the surrounding palm trees and sky, creating a serene and tropical atmosphere. The island features several blue umbrellas and lounge chairs, suggesting a recreational or resort setting.",
+      "attributes": {
+        "shape": "circular",
+        "color": "greenish-blue",
+        "surface": "calm",
+        "reflection": "palm trees and sky",
+        "island": {
+          "material": "sand",
+          "features": [
+            "blue umbrellas",
+            "lounge chairs"
+          ],
+          "vegetation": "palm trees"
+        },
+        "surroundings": {
+          "pathway": "paved",
+          "vegetation": "lush greenery",
+          "buildings": "visible in the background"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "water_body",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        148.0,
+        236.0,
+        932.0,
+        812.0
+      ],
+      "mask": "image_7.masks/water_body_0.png",
+      "crop": null,
+      "description": "A large, circular artificial pond with clear, greenish-blue water surrounds a small, oval-shaped sandy island in the center. The island features several blue beach umbrellas, lounge chairs, and three tall palm trees, creating a tropical resort-like atmosphere within the water body.",
+      "attributes": {
+        "shape": "circular",
+        "color": "greenish-blue",
+        "clarity": "clear",
+        "center_feature": "sandy island",
+        "island_features": [
+          "blue umbrellas",
+          "lounge chairs",
+          "palm trees"
+        ],
+        "surroundings": "paved walkway, grass, buildings",
+        "type": "artificial pond"
+      },
+      "parse_ok": true
+    }
+  ]
+}

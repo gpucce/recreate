@@ -1,0 +1,187 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.94140625,
+      "box": [
+        556.0,
+        520.0,
+        884.0,
+        896.0
+      ],
+      "mask": "image_1.masks/chair_0.png",
+      "crop": null,
+      "description": "A white office chair with a high backrest and armrests, featuring a dark blue base with five wheels. The chair is partially occupied by a person wearing a dark suit and a blue tie.",
+      "attributes": {
+        "color": "white",
+        "material": "plastic or fabric",
+        "type": "office chair",
+        "base": "dark blue with five wheels",
+        "armrests": "visible",
+        "backrest": "high",
+        "occupant": "person in a dark suit and blue tie"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "computer monitor",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        142.0,
+        386.0,
+        298.0,
+        600.0
+      ],
+      "mask": "image_1.masks/computer monitor_0.png",
+      "crop": null,
+      "description": "A dark blue computer monitor is shown from the back, featuring a thick bezel and a central circular mount connecting to a sturdy, angled stand. The monitor is positioned on a light blue surface against a background of pink and white abstract shapes.",
+      "attributes": {
+        "object": "computer monitor",
+        "view": "rear",
+        "color": "dark blue",
+        "structure": {
+          "bezel": "thick",
+          "mount": "circular",
+          "stand": "angled, sturdy"
+        },
+        "background": "pink and white abstract shapes",
+        "surface": "light blue"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        94.0,
+        596.0,
+        502.0,
+        892.0
+      ],
+      "mask": "image_1.masks/desk_0.png",
+      "crop": null,
+      "description": "A flat, light blue desk with a rectangular top and two visible dark blue legs is positioned in the foreground. The desk has a simple, modern design with clean lines and a smooth surface.",
+      "attributes": {
+        "color": {
+          "top": "light blue",
+          "legs": "dark blue"
+        },
+        "shape": "rectangular",
+        "style": "modern",
+        "material": "smooth, possibly plastic or painted wood",
+        "position": "foreground",
+        "visible_parts": [
+          "top",
+          "two legs"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        382.0,
+        318.0,
+        904.0,
+        888.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "A young man with dark hair and a light complexion is seated in a white office chair, wearing a dark grey suit jacket, a white collared shirt, and a bright blue tie. He has a cheerful expression with an open-mouthed smile and is gesturing with both hands raised, one palm open and the other in a loose fist, suggesting an animated conversation or presentation.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "black",
+          "style": "short, swept to the side"
+        },
+        "facial_expression": "smiling, happy, animated",
+        "clothing": {
+          "jacket": "dark grey suit",
+          "shirt": "white",
+          "tie": "blue",
+          "pants": "dark grey",
+          "shoes": "black"
+        },
+        "pose": "sitting in a chair, leaning slightly forward, both arms raised in a gesture",
+        "furniture": {
+          "chair": "white office chair with wheels"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.95703125,
+      "box": [
+        220.0,
+        336.0,
+        496.0,
+        592.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with long dark hair and a fair complexion is seated at a desk, wearing a white long-sleeved top. She is smiling and looking at a smartphone held in her left hand, which displays a call icon and is connected to a computer monitor on the left by a black cable.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark purple",
+          "length": "long"
+        },
+        "clothing": {
+          "top": {
+            "color": "white",
+            "sleeves": "long"
+          }
+        },
+        "pose": "seated",
+        "expression": "smiling",
+        "action": "holding phone",
+        "accessories": {
+          "phone": {
+            "color": "blue",
+            "screen_content": "call icon",
+            "connection": "wired to computer"
+          }
+        },
+        "context": {
+          "object": "computer monitor",
+          "background": "pink"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "speech bubble",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        408.0,
+        236.0,
+        616.0,
+        364.0
+      ],
+      "mask": "image_1.masks/speech bubble_0.png",
+      "crop": null,
+      "description": "A blue speech bubble with a rounded rectangular shape and two small triangular tails at the bottom, containing three horizontal white lines of varying lengths representing text. The background is a solid light pink color.",
+      "attributes": {
+        "color": "blue",
+        "shape": "rounded rectangle with tails",
+        "content": "three horizontal white lines",
+        "background_color": "light pink",
+        "style": "flat design",
+        "function": "communication or dialogue representation"
+      },
+      "parse_ok": true
+    }
+  ]
+}

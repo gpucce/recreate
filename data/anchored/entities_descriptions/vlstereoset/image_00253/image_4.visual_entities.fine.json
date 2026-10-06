@@ -1,0 +1,96 @@
+{
+  "image": "image_4.png",
+  "visual_entities_source": "image_4.visual_entities.json",
+  "entities": [
+    {
+      "type": "hand",
+      "index": 0,
+      "score": 0.8359375,
+      "box": [
+        332.0,
+        584.0,
+        496.0,
+        816.0
+      ],
+      "mask": "image_4.masks/hand_0.png",
+      "crop": null,
+      "description": "A close-up shot captures an elderly hand with wrinkled, spotted skin gently holding the wrist of a younger, smooth-skinned hand. The older hand wears a simple, thin gold band on the ring finger, and the background is a soft, out-of-focus sandy beige.",
+      "attributes": {
+        "entity": "hands",
+        "age": "elderly and young",
+        "skin_texture": "wrinkled and smooth",
+        "skin_tone": "light",
+        "accessories": {
+          "ring": "gold band"
+        },
+        "action": "holding wrist",
+        "background": "sandy beige, blurred"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        496.0,
+        462.0,
+        872.0,
+        688.0
+      ],
+      "mask": "image_4.masks/hand_1.png",
+      "crop": null,
+      "description": "A close-up of a pair of elderly, wrinkled hands with visible veins and age spots gently holding a thin green plant stem against a blurred, sandy brown background. The skin texture is highly detailed, showing deep creases and dryness characteristic of advanced age.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled, dry, veiny",
+          "features": "age spots, deep creases"
+        },
+        "action": "holding a green stem",
+        "object": {
+          "type": "plant stem",
+          "color": "green"
+        },
+        "background": "sandy brown, out of focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "hand",
+      "index": 2,
+      "score": 0.86328125,
+      "box": [
+        428.0,
+        532.0,
+        812.0,
+        900.0
+      ],
+      "mask": "image_4.masks/hand_2.png",
+      "crop": null,
+      "description": "A close-up of a pair of elderly hands with deeply wrinkled, weathered skin and visible veins, gently holding a thin green plant stem. A simple gold band is worn on the ring finger of the left hand, and the background is a blurred, warm sandy color.",
+      "attributes": {
+        "age": "elderly",
+        "skin": {
+          "texture": "wrinkled, weathered",
+          "features": "visible veins, age spots"
+        },
+        "accessories": {
+          "ring": {
+            "finger": "ring finger",
+            "material": "gold",
+            "style": "simple band"
+          }
+        },
+        "action": "holding a plant stem",
+        "object": {
+          "type": "plant stem",
+          "color": "green",
+          "thickness": "thin"
+        },
+        "background": "sandy, blurred"
+      },
+      "parse_ok": true
+    }
+  ]
+}

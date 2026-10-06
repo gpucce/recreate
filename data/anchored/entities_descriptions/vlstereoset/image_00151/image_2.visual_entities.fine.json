@@ -1,0 +1,177 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "chair",
+      "index": 0,
+      "score": 0.7890625,
+      "box": [
+        856.0,
+        468.0,
+        1024.0,
+        972.0
+      ],
+      "mask": "image_2.masks/chair_0.png",
+      "crop": null,
+      "description": "A close-up view of a white, glossy leather armrest with smooth, rounded contours and visible creases, positioned in front of a beige upholstered chair back. The armrest rests on a white marble surface with subtle grey veining.",
+      "attributes": {
+        "material": "leather",
+        "color": "white",
+        "texture": "smooth, glossy",
+        "part": "armrest",
+        "background": "beige fabric",
+        "surface": "marble"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "chair",
+      "index": 1,
+      "score": 0.671875,
+      "box": [
+        302.0,
+        468.0,
+        1024.0,
+        972.0
+      ],
+      "mask": "image_2.masks/chair_1.png",
+      "crop": null,
+      "description": "A close-up view of a person wearing a white long-sleeved sweatshirt, seated at a table and writing in an open notebook with a pen. The person has short dark hair and is smiling slightly, with their face partially visible from the nose down.",
+      "attributes": {
+        "clothing": {
+          "top": "white long-sleeved sweatshirt"
+        },
+        "hair": "dark, short",
+        "pose": "seated, writing",
+        "expression": "smiling",
+        "action": "writing in a notebook",
+        "object": {
+          "notebook": "open, lined pages",
+          "pen": "blue and silver"
+        },
+        "setting": "indoor, at a table"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "desk",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        6.0,
+        816.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/desk_0.png",
+      "crop": null,
+      "description": "A close-up view of a person's hands writing in an open notebook with a blue pen on a white marble surface with grey veining. The person is wearing a white long-sleeved shirt, and the notebook has a dark blue cover and cream-colored pages.",
+      "attributes": {
+        "surface": {
+          "material": "marble",
+          "color": "white",
+          "pattern": "grey veining"
+        },
+        "person": {
+          "clothing": {
+            "sleeve": "white",
+            "type": "long-sleeved shirt"
+          },
+          "action": "writing",
+          "hand": "right hand holding pen, left hand resting on notebook"
+        },
+        "notebook": {
+          "cover": "dark blue",
+          "pages": "cream-colored",
+          "state": "open"
+        },
+        "pen": {
+          "color": "blue",
+          "type": "ballpoint"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "pen",
+      "index": 0,
+      "score": 0.96875,
+      "box": [
+        177.0,
+        716.0,
+        292.0,
+        924.0
+      ],
+      "mask": "image_2.masks/pen_0.png",
+      "crop": null,
+      "description": "A matte blue ballpoint pen is held in a person's right hand, positioned diagonally with the tip touching a white surface. The pen features a silver metal clip and a silver conical tip section.",
+      "attributes": {
+        "object": "pen",
+        "type": "ballpoint",
+        "color": "blue",
+        "finish": "matte",
+        "clip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "tip": {
+          "color": "silver",
+          "material": "metal"
+        },
+        "position": "held in hand",
+        "action": "writing"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.98828125,
+      "box": [
+        100.0,
+        36.0,
+        940.0,
+        956.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "A young woman with dark hair tied in a high bun and wearing black-rimmed glasses is seated at a table, writing in an open notebook with a blue pen. She is wearing a plain white long-sleeved sweatshirt and has a focused, calm expression while looking down at the page.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "young adult",
+        "hair": {
+          "color": "dark brown",
+          "style": "high bun",
+          "length": "medium"
+        },
+        "accessories": {
+          "glasses": {
+            "frame_color": "black",
+            "shape": "rectangular"
+          }
+        },
+        "clothing": {
+          "top": {
+            "type": "sweatshirt",
+            "color": "white",
+            "sleeves": "long"
+          }
+        },
+        "pose": "sitting, leaning forward",
+        "action": "writing",
+        "expression": "focused, slight smile",
+        "objects": {
+          "pen": {
+            "color": "blue"
+          },
+          "notebook": {
+            "state": "open",
+            "pages": "cream-colored"
+          }
+        }
+      },
+      "parse_ok": true
+    }
+  ]
+}

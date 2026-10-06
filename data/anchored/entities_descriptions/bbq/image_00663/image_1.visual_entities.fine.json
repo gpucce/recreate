@@ -1,0 +1,272 @@
+{
+  "image": "image_1.png",
+  "visual_entities_source": "image_1.visual_entities.json",
+  "entities": [
+    {
+      "type": "car",
+      "index": 0,
+      "score": 0.98046875,
+      "box": [
+        2.0,
+        116.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/car_0.png",
+      "crop": null,
+      "description": "{\"description\": \"A red car with its driver's side door open, revealing a black interior with a visible seatbelt and headrest. The car's exterior is glossy, and the door handle and side mirror are also red, matching the body. The car appears to be a modern model with a sleek design.\", \"attributes\": {\"color\": \"red\", \"door\": \"open\", \"interior\": \"black\", \"seatbelt\": \"visible\", \"headrest\": \"black\", \"exterior\": \"glossy\", \"door_handle\": \"red\", \"side_mirror\": \"red\", \"model\": \"modern\"}}}",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "car interior",
+      "index": 0,
+      "score": 0.87890625,
+      "box": [
+        470.0,
+        224.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/car interior_0.png",
+      "crop": null,
+      "description": "An elderly Asian man with short white hair and glasses sits in the driver's seat of a red car, wearing a light blue button-down shirt and beige trousers. He is smiling gently while holding the hand of another person who is reaching into the car from outside the open door.",
+      "attributes": {
+        "person": {
+          "age": "elderly",
+          "gender": "male",
+          "ethnicity": "Asian",
+          "hair": {
+            "color": "white",
+            "length": "short"
+          },
+          "accessories": {
+            "glasses": "wire-rimmed"
+          },
+          "clothing": {
+            "shirt": "light blue button-down",
+            "pants": "beige trousers"
+          },
+          "pose": "sitting in driver's seat",
+          "expression": "smiling",
+          "action": "holding hands with another person"
+        },
+        "car": {
+          "color": "red",
+          "interior": {
+            "seats": "black leather",
+            "door": "open"
+          }
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 0,
+      "score": 0.65625,
+      "box": [
+        -0.5625,
+        244.0,
+        19.25,
+        276.0
+      ],
+      "mask": "image_1.masks/foliage_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "foliage",
+      "index": 1,
+      "score": 0.91796875,
+      "box": [
+        2.0,
+        -1.75,
+        264.0,
+        108.0
+      ],
+      "mask": "image_1.masks/foliage_1.png",
+      "crop": null,
+      "description": "The image shows a close-up, out-of-focus view of green foliage with broad leaves, partially obscuring a blurred background that includes a wooden structure and a textured wall. The leaves are vibrant green and appear to be part of a plant growing near or over the wooden element.",
+      "attributes": {
+        "color": "green",
+        "texture": "smooth",
+        "shape": "broad leaves",
+        "focus": "blurred",
+        "background_elements": [
+          "wooden structure",
+          "textured wall"
+        ]
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "foliage",
+      "index": 2,
+      "score": 0.93359375,
+      "box": [
+        354.0,
+        -3.75,
+        616.0,
+        123.0
+      ],
+      "mask": "image_1.masks/foliage_2.png",
+      "crop": null,
+      "description": "The image shows a blurred background of green foliage with some brownish stems or branches, partially obscured by an out-of-focus foreground element that appears to be the top of a person's head with dark hair. The leaves are broad and have a matte texture, suggesting they might belong to a shrub or small tree.",
+      "attributes": {
+        "color": "green",
+        "texture": "matte",
+        "focus": "blurred",
+        "position": "background",
+        "type": "broad-leaved plant"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.9765625,
+      "box": [
+        496.0,
+        252.0,
+        936.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_0.png",
+      "crop": null,
+      "description": "An elderly Asian man with short white hair and glasses sits in the driver's seat of a red car, wearing a light blue button-down shirt and beige trousers. He is smiling gently while holding the hand of another person who is reaching into the car from outside.",
+      "attributes": {
+        "gender": "male",
+        "age_group": "elderly",
+        "ethnicity": "Asian",
+        "hair": {
+          "color": "white",
+          "length": "short"
+        },
+        "accessories": {
+          "glasses": "rectangular frames"
+        },
+        "clothing": {
+          "top": "light blue button-down shirt",
+          "bottom": "beige trousers",
+          "belt": "black"
+        },
+        "pose": "sitting in car seat",
+        "expression": "smiling",
+        "action": "holding hands with another person",
+        "location": "inside a red car"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.97265625,
+      "box": [
+        82.0,
+        86.0,
+        656.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/person_1.png",
+      "crop": null,
+      "description": "A young woman with brown hair tied in a ponytail stands outside a red car, smiling and holding the hands of an older man seated inside. She is wearing a light beige t-shirt and blue jeans, leaning slightly toward the car door with a warm, engaged expression.",
+      "attributes": {
+        "gender": "female",
+        "age": "young adult",
+        "ethnicity": "East Asian",
+        "hair": {
+          "color": "brown",
+          "style": "ponytail",
+          "accessory": "black hair tie"
+        },
+        "clothing": {
+          "top": "light beige short-sleeved t-shirt",
+          "bottom": "blue denim jeans"
+        },
+        "pose": "standing, leaning forward, extending arms to hold hands with person in car",
+        "expression": "smiling, looking at the person in the car",
+        "position": "outside the open rear passenger door of a red car",
+        "interaction": "holding hands with an older man seated inside the vehicle"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        -2.0,
+        -2.0,
+        1008.0,
+        243.0
+      ],
+      "mask": "image_1.masks/stone wall_0.png",
+      "crop": null,
+      "description": "A section of a stone wall is visible in the background, constructed from irregularly shaped stones in various shades of brown, gray, and beige, with some green foliage partially obscuring the top edge.",
+      "attributes": {
+        "material": "stone",
+        "color": "various shades of brown, gray, and beige",
+        "shape": "irregular",
+        "position": "background",
+        "obscured_by": "green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "stone wall",
+      "index": 1,
+      "score": 0.60546875,
+      "box": [
+        596.0,
+        -0.75,
+        1012.0,
+        124.0
+      ],
+      "mask": "image_1.masks/stone wall_1.png",
+      "crop": null,
+      "description": "A close-up, out-of-focus section of a stone wall composed of irregularly shaped stones in various earth tones, including shades of brown, gray, and orange, set in a mortar matrix. The stones are tightly packed, creating a textured surface with visible gaps filled by the lighter-colored mortar.",
+      "attributes": {
+        "material": "stone and mortar",
+        "colors": [
+          "brown",
+          "gray",
+          "orange",
+          "beige"
+        ],
+        "texture": "rough, uneven",
+        "focus": "blurred",
+        "structure": "irregular stone masonry"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "vehicle",
+      "index": 0,
+      "score": 0.9609375,
+      "box": [
+        2.0,
+        114.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_1.masks/vehicle_0.png",
+      "crop": null,
+      "description": "A red car with its driver's side door open, revealing a black interior with a visible seatbelt and headrest. The car's exterior is glossy, and the side mirror is also red, matching the body color. The door handle is silver, and the car appears to be a modern model with a sleek design.",
+      "attributes": {
+        "color": "red",
+        "door": "open",
+        "interior": "black",
+        "seatbelt": "visible",
+        "headrest": "black",
+        "side_mirror": "red",
+        "door_handle": "silver",
+        "model": "modern",
+        "design": "sleek"
+      },
+      "parse_ok": true
+    }
+  ]
+}

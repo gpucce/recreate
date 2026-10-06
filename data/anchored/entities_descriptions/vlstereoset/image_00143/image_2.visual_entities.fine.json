@@ -1,0 +1,398 @@
+{
+  "image": "image_2.png",
+  "visual_entities_source": "image_2.visual_entities.json",
+  "entities": [
+    {
+      "type": "building",
+      "index": 0,
+      "score": 0.77734375,
+      "box": [
+        -1.0,
+        364.0,
+        163.0,
+        452.0
+      ],
+      "mask": "image_2.masks/building_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a white roof and light-colored walls, partially obscured by a dark vertical object in the foreground. The image is heavily blurred, making specific architectural details indistinguishable.",
+      "attributes": {
+        "roof": "white",
+        "walls": "light-colored",
+        "focus": "blurry",
+        "obstruction": "dark vertical object in foreground"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 1,
+      "score": 0.92578125,
+      "box": [
+        712.0,
+        0.0,
+        1024.0,
+        302.0
+      ],
+      "mask": "image_2.masks/building_1.png",
+      "crop": null,
+      "description": "A blurred, multi-story building with a light-colored facade and rows of rectangular windows, partially obscured by out-of-focus green foliage in the foreground.",
+      "attributes": {
+        "structure": "multi-story",
+        "facade_color": "light beige or off-white",
+        "windows": "rectangular, dark-tinted, arranged in horizontal rows",
+        "foreground_elements": "out-of-focus green trees or bushes",
+        "focus": "blurred",
+        "visible_portion": "partial view of the building's side and upper floors"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "building",
+      "index": 2,
+      "score": 0.79296875,
+      "box": [
+        608.0,
+        174.0,
+        712.0,
+        234.0
+      ],
+      "mask": "image_2.masks/building_2.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus view of a building with a reddish-brown roof and light-colored walls, partially obscured by green foliage in the foreground and background.",
+      "attributes": {
+        "roof_color": "reddish-brown",
+        "wall_color": "light",
+        "visibility": "blurry",
+        "surroundings": "green foliage"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "grass",
+      "index": 0,
+      "score": 0.953125,
+      "box": [
+        2.0,
+        474.0,
+        1024.0,
+        1024.0
+      ],
+      "mask": "image_2.masks/grass_0.png",
+      "crop": null,
+      "description": "A family of three, consisting of a man, a woman, and a young girl, are sitting on a lush green lawn. The man and woman are wearing white shirts and blue jeans, while the girl is also dressed in a white shirt and blue jeans. They all appear to be enjoying a sunny day outdoors, with the girl laughing heartily.",
+      "attributes": {
+        "clothing": {
+          "man": {
+            "shirt": "white",
+            "pants": "blue jeans",
+            "shoes": "brown"
+          },
+          "woman": {
+            "shirt": "white",
+            "pants": "blue jeans",
+            "shoes": "white"
+          },
+          "girl": {
+            "shirt": "white",
+            "pants": "blue jeans",
+            "shoes": "white"
+          }
+        },
+        "hair": {
+          "man": "black",
+          "woman": "black",
+          "girl": "black"
+        },
+        "pose": "sitting",
+        "expression": {
+          "man": "smiling",
+          "woman": "smiling",
+          "girl": "laughing"
+        },
+        "setting": "outdoors",
+        "ground": "green grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.6953125,
+      "box": [
+        620.0,
+        394.0,
+        652.0,
+        462.0
+      ],
+      "mask": "image_2.masks/person_0.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.98046875,
+      "box": [
+        600.0,
+        284.0,
+        1024.0,
+        964.0
+      ],
+      "mask": "image_2.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling woman with voluminous dark curly hair sits cross-legged on green grass, wearing a plain white t-shirt and light blue jeans with frayed hems. She is looking down and to the side with a joyful expression, wearing white sneakers.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "adult",
+        "ethnicity": "mixed",
+        "hair": {
+          "color": "dark brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "expression": "smiling",
+        "pose": "sitting cross-legged",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "hem": "frayed"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white"
+          }
+        },
+        "location": "outdoors on grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 2,
+      "score": 0.9765625,
+      "box": [
+        4.0,
+        284.0,
+        484.0,
+        948.0
+      ],
+      "mask": "image_2.masks/person_2.png",
+      "crop": null,
+      "description": "A smiling Black man with short black hair and a beard sits on green grass wearing a white short-sleeved button-down shirt and blue jeans. He is looking down and to the right with a joyful expression, wearing brown leather sneakers with white soles, positioned next to a child who is partially visible.",
+      "attributes": {
+        "gender": "male",
+        "ethnicity": "Black",
+        "age_group": "adult",
+        "hair": {
+          "color": "black",
+          "style": "short cropped"
+        },
+        "facial_hair": "full beard",
+        "expression": "smiling, looking down",
+        "pose": "sitting on grass",
+        "clothing": {
+          "top": {
+            "type": "button-down shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "blue"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "brown",
+            "sole": "white"
+          }
+        },
+        "context": "outdoors, grassy area"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 3,
+      "score": 0.9765625,
+      "box": [
+        422.0,
+        460.0,
+        656.0,
+        940.0
+      ],
+      "mask": "image_2.masks/person_3.png",
+      "crop": null,
+      "description": "A young child with dark skin and voluminous curly brown hair sits on green grass, laughing with eyes closed and mouth open. The child wears a plain white short-sleeved t-shirt, light blue denim jeans, and white sneakers with velcro straps, with hands clasped together resting on their knees.",
+      "attributes": {
+        "gender": "female",
+        "age": "child",
+        "ethnicity": "black",
+        "hair": {
+          "color": "brown",
+          "style": "curly",
+          "length": "medium"
+        },
+        "expression": "laughing",
+        "eyes": "closed",
+        "mouth": "open",
+        "pose": "sitting",
+        "clothing": {
+          "top": {
+            "type": "t-shirt",
+            "color": "white",
+            "sleeves": "short"
+          },
+          "bottom": {
+            "type": "jeans",
+            "color": "light blue",
+            "material": "denim"
+          },
+          "shoes": {
+            "type": "sneakers",
+            "color": "white",
+            "fastening": "velcro"
+          }
+        },
+        "location": "outdoors",
+        "ground": "grass"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 4,
+      "score": 0.76953125,
+      "box": [
+        568.0,
+        396.0,
+        608.0,
+        456.0
+      ],
+      "mask": "image_2.masks/person_4.png",
+      "crop": null,
+      "description": "",
+      "attributes": {},
+      "parse_ok": false
+    },
+    {
+      "type": "tree",
+      "index": 0,
+      "score": 0.80859375,
+      "box": [
+        872.0,
+        168.0,
+        1024.0,
+        388.0
+      ],
+      "mask": "image_2.masks/tree_0.png",
+      "crop": null,
+      "description": "A blurry, out-of-focus tree with green foliage is visible in the background, partially obscuring a white building with windows. The tree appears to be a deciduous species, with a dense canopy of leaves.",
+      "attributes": {
+        "focus": "out-of-focus",
+        "foliage": "green",
+        "type": "deciduous",
+        "background": "white building with windows",
+        "position": "background"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 1,
+      "score": 0.51953125,
+      "box": [
+        118.5,
+        252.0,
+        292.0,
+        416.0
+      ],
+      "mask": "image_2.masks/tree_1.png",
+      "crop": null,
+      "description": "The image shows a blurred, out-of-focus view of a tree with a thick, brown trunk and branches extending outward. The background is a soft, greenish hue, suggesting foliage or a natural setting, but the details are indistinct due to the blur.",
+      "attributes": {
+        "trunk": "brown, thick",
+        "branches": "outward-extending",
+        "background": "greenish, blurred",
+        "focus": "out-of-focus"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 2,
+      "score": 0.7734375,
+      "box": [
+        520.0,
+        229.0,
+        752.0,
+        424.0
+      ],
+      "mask": "image_2.masks/tree_2.png",
+      "crop": null,
+      "description": "A close-up, partial view of a person's head showing dark, tightly coiled curly hair and the upper portion of their face, including the forehead, eyes, and nose, with the person looking downward. The background is heavily blurred with green foliage and bokeh lights, indicating an outdoor setting.",
+      "attributes": {
+        "entity_type": "person",
+        "hair": {
+          "color": "black",
+          "texture": "curly",
+          "style": "natural"
+        },
+        "face": {
+          "skin_tone": "medium brown",
+          "gaze": "downward",
+          "visible_features": [
+            "forehead",
+            "eyes",
+            "nose"
+          ]
+        },
+        "background": {
+          "focus": "blurred",
+          "elements": [
+            "green trees",
+            "bokeh lights"
+          ]
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "tree",
+      "index": 3,
+      "score": 0.8359375,
+      "box": [
+        -2.0,
+        -2.0,
+        640.0,
+        484.0
+      ],
+      "mask": "image_2.masks/tree_3.png",
+      "crop": null,
+      "description": "A large, mature tree with a thick, dark brown trunk and a dense canopy of green leaves stands in the background, appearing out of focus behind a man in a white shirt.",
+      "attributes": {
+        "type": "deciduous",
+        "trunk": {
+          "color": "dark brown",
+          "thickness": "thick",
+          "texture": "rough"
+        },
+        "leaves": {
+          "color": "green",
+          "density": "dense",
+          "focus": "blurred"
+        },
+        "position": "background",
+        "state": "mature"
+      },
+      "parse_ok": true
+    }
+  ]
+}

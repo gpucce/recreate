@@ -1,0 +1,159 @@
+{
+  "image": "image_9.png",
+  "visual_entities_source": "image_9.visual_entities.json",
+  "entities": [
+    {
+      "type": "person",
+      "index": 0,
+      "score": 0.97265625,
+      "box": [
+        498.0,
+        154.0,
+        1016.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_0.png",
+      "crop": null,
+      "description": "A middle-aged woman with long, straight silver hair is seated, wearing a light pink cardigan over a white t-shirt and beige pants. She holds a black smartphone in both hands, looking at the screen with a shocked expression, wide eyes, and an open mouth, while a person in a blue plaid shirt stands partially visible to her left.",
+      "attributes": {
+        "gender": "female",
+        "age_group": "middle-aged",
+        "hair": {
+          "color": "silver",
+          "length": "long",
+          "style": "straight"
+        },
+        "expression": "shocked",
+        "eyes": "wide open",
+        "mouth": "open",
+        "clothing": {
+          "top": {
+            "type": "cardigan",
+            "color": "pink",
+            "material": "knit"
+          },
+          "undershirt": {
+            "type": "t-shirt",
+            "color": "white"
+          },
+          "bottoms": {
+            "type": "pants",
+            "color": "beige"
+          }
+        },
+        "accessories": {
+          "earrings": "small gold studs"
+        },
+        "pose": "sitting",
+        "action": "holding smartphone",
+        "object": {
+          "type": "smartphone",
+          "color": "black"
+        }
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "person",
+      "index": 1,
+      "score": 0.953125,
+      "box": [
+        -4.0,
+        64.0,
+        572.0,
+        1024.0
+      ],
+      "mask": "image_9.masks/person_1.png",
+      "crop": null,
+      "description": "A smiling man with curly brown hair and a beard sits wearing a blue and white checkered flannel shirt over a white t-shirt and blue jeans, pointing with his right index finger at a smartphone held by a person partially visible on the right.",
+      "attributes": {
+        "gender": "male",
+        "age": "young adult",
+        "hair": {
+          "color": "brown",
+          "style": "curly"
+        },
+        "facial_hair": "beard",
+        "expression": "smiling",
+        "clothing": {
+          "shirt": {
+            "type": "flannel",
+            "pattern": "checkered",
+            "colors": [
+              "blue",
+              "white"
+            ]
+          },
+          "undershirt": {
+            "color": "white",
+            "type": "t-shirt"
+          },
+          "pants": {
+            "color": "blue",
+            "material": "denim"
+          }
+        },
+        "pose": "sitting",
+        "action": "pointing at a phone"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "smartphone",
+      "index": 0,
+      "score": 0.96484375,
+      "box": [
+        580.0,
+        556.0,
+        692.0,
+        708.0
+      ],
+      "mask": "image_9.masks/smartphone_0.png",
+      "crop": null,
+      "description": "A close-up view of the back of a black smartphone held in a person's hand, featuring a square camera module in the upper left corner with three circular lenses and a small flash.",
+      "attributes": {
+        "color": "black",
+        "material": "matte plastic or silicone",
+        "camera_module": {
+          "shape": "square",
+          "lens_count": 3,
+          "lens_arrangement": "triangular",
+          "flash": "present"
+        },
+        "orientation": "vertical",
+        "context": "held in hand"
+      },
+      "parse_ok": true
+    },
+    {
+      "type": "wood",
+      "index": 0,
+      "score": 0.74609375,
+      "box": [
+        2.0,
+        800.0,
+        1016.0,
+        1016.0
+      ],
+      "mask": "image_9.masks/wood_0.png",
+      "crop": null,
+      "description": "The image shows the lower bodies of two people sitting side by side. The person on the left is wearing blue jeans and a blue and white checkered shirt, while the person on the right is wearing light-colored pants and a pink cardigan over a white top. Both individuals are seated with their knees bent, and the focus is on their legs and lower torsos.",
+      "attributes": {
+        "clothing": {
+          "left_person": {
+            "pants": "blue jeans",
+            "shirt": "blue and white checkered"
+          },
+          "right_person": {
+            "pants": "light-colored",
+            "top": "white",
+            "cardigan": "pink"
+          }
+        },
+        "pose": "sitting",
+        "position": "side by side"
+      },
+      "parse_ok": true
+    }
+  ]
+}
