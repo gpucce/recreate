@@ -1,0 +1,891 @@
+[
+  {
+    "step": 1,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      270.0,
+      100.0,
+      1024.0,
+      940.0
+    ],
+    "response": "{\n\"age\": \"young adult\",\n\"gender\": \"male\",\n\"ethnicity\": \"Asian\",\n\"hair color\": \"black\",\n\"hair length\": \"short\",\n\"hair style\": \"curly\",\n\"eye color\": \"brown\",\n\"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "young adult",
+      "gender": "male",
+      "ethnicity": "Asian",
+      "hair color": "black",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 1,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      2.0,
+      156.0,
+      536.0,
+      884.0
+    ],
+    "response": "{\"age\": [\"young adult\"], \"gender\": [\"female\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"blonde\"], \"hair length\": [\"medium\"], \"hair style\": [\"straight\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "young adult"
+      ],
+      "gender": [
+        "female"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "blonde"
+      ],
+      "hair length": [
+        "medium"
+      ],
+      "hair style": [
+        "straight"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 1,
+    "entity_index": 2,
+    "entity_type": "person",
+    "box": [
+      69.0,
+      163.0,
+      211.0,
+      432.0
+    ],
+    "response": "{\"age\": [\"young adult\"], \"gender\": [\"female\"], \"ethnicity\": [\"Asian\"], \"hair color\": [\"black\"], \"hair length\": [\"long\"], \"hair style\": [\"straight\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "young adult"
+      ],
+      "gender": [
+        "female"
+      ],
+      "ethnicity": [
+        "Asian"
+      ],
+      "hair color": [
+        "black"
+      ],
+      "hair length": [
+        "long"
+      ],
+      "hair style": [
+        "straight"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 2,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      430.0,
+      66.0,
+      1024.0,
+      952.0
+    ],
+    "response": "{\n\"age\": \"young adult\",\n\"gender\": \"male\",\n\"ethnicity\": \"Hispanic\",\n\"hair color\": \"black\",\n\"hair length\": \"short\",\n\"hair style\": \"curly\",\n\"eye color\": \"brown\",\n\"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "young adult",
+      "gender": "male",
+      "ethnicity": "Hispanic",
+      "hair color": "black",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 2,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      -2.0,
+      116.0,
+      486.0,
+      916.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"female\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"blonde\"], \"hair length\": [\"long\"], \"hair style\": [\"straight\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "female"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "blonde"
+      ],
+      "hair length": [
+        "long"
+      ],
+      "hair style": [
+        "straight"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 3,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      424.0,
+      160.0,
+      1024.0,
+      1016.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"male\"], \"ethnicity\": [\"Hispanic\"], \"hair color\": [\"brown\"], \"hair length\": [\"short\"], \"hair style\": [\"curly\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "male"
+      ],
+      "ethnicity": [
+        "Hispanic"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "short"
+      ],
+      "hair style": [
+        "curly"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 3,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      -4.0,
+      216.0,
+      532.0,
+      848.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"blonde\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "blonde",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 4,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      468.0,
+      98.0,
+      1024.0,
+      904.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"male\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"brown\"], \"hair length\": [\"short\"], \"hair style\": [\"curly\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "male"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "short"
+      ],
+      "hair style": [
+        "curly"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 4,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      -4.0,
+      216.0,
+      516.0,
+      936.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"blonde\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "blonde",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 5,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      414.0,
+      100.0,
+      1024.0,
+      908.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"male\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"brown\"], \"hair length\": [\"short\"], \"hair style\": [\"curly\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "male"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "short"
+      ],
+      "hair style": [
+        "curly"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 5,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      0.0,
+      148.0,
+      524.0,
+      908.0
+    ],
+    "response": "{\n\"age\": \"child\",\n\"gender\": \"female\",\n\"ethnicity\": \"Caucasian\",\n\"hair color\": \"brown\",\n\"hair length\": \"long\",\n\"hair style\": \"straight\",\n\"eye color\": \"brown\",\n\"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 6,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      350.0,
+      164.0,
+      1024.0,
+      932.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 6,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      -4.0,
+      190.0,
+      584.0,
+      872.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"blonde\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "blonde",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 7,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      372.0,
+      124.0,
+      1024.0,
+      964.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"male\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"brown\"], \"hair length\": [\"short\"], \"hair style\": [\"curly\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "male"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "short"
+      ],
+      "hair style": [
+        "curly"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 7,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      -2.0,
+      198.0,
+      560.0,
+      880.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"brown\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 8,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      382.0,
+      142.0,
+      1016.0,
+      896.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 8,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      0.0,
+      204.0,
+      548.0,
+      828.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"female\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"brown\"], \"hair length\": [\"long\"], \"hair style\": [\"straight\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "female"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "long"
+      ],
+      "hair style": [
+        "straight"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 9,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      448.0,
+      164.0,
+      1024.0,
+      940.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"blonde\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "blonde",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 9,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      0.0,
+      216.0,
+      524.0,
+      912.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"brown\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 10,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      466.0,
+      302.0,
+      1024.0,
+      936.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 10,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      0.0,
+      288.0,
+      524.0,
+      888.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"brown\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 11,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      446.0,
+      262.0,
+      1024.0,
+      920.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 11,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      16.0,
+      302.0,
+      528.0,
+      856.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"female\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"brown\"], \"hair length\": [\"long\"], \"hair style\": [\"straight\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "female"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "long"
+      ],
+      "hair style": [
+        "straight"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 12,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      446.0,
+      216.0,
+      1008.0,
+      888.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 12,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      0.0,
+      252.0,
+      496.0,
+      844.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"female\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"brown\"], \"hair length\": [\"long\"], \"hair style\": [\"straight\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "female"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "long"
+      ],
+      "hair style": [
+        "straight"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 13,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      394.0,
+      240.0,
+      984.0,
+      872.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 13,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      39.0,
+      276.0,
+      520.0,
+      780.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"female\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"long\",\n  \"hair style\": \"straight\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 14,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      434.0,
+      206.0,
+      1000.0,
+      880.0
+    ],
+    "response": "{\n  \"age\": \"child\",\n  \"gender\": \"male\",\n  \"ethnicity\": \"Caucasian\",\n  \"hair color\": \"brown\",\n  \"hair length\": \"short\",\n  \"hair style\": \"curly\",\n  \"eye color\": \"brown\",\n  \"facial expression\": \"neutral\"\n}",
+    "parsed": {
+      "age": "child",
+      "gender": "male",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "short",
+      "hair style": "curly",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 14,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      18.0,
+      232.0,
+      520.0,
+      816.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"brown\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 15,
+    "entity_index": 0,
+    "entity_type": "person",
+    "box": [
+      422.0,
+      214.0,
+      1024.0,
+      896.0
+    ],
+    "response": "{\"age\": [\"child\"], \"gender\": [\"male\"], \"ethnicity\": [\"Caucasian\"], \"hair color\": [\"brown\"], \"hair length\": [\"short\"], \"hair style\": [\"curly\"], \"eye color\": [\"brown\"], \"facial expression\": [\"neutral\"]}",
+    "parsed": {
+      "age": [
+        "child"
+      ],
+      "gender": [
+        "male"
+      ],
+      "ethnicity": [
+        "Caucasian"
+      ],
+      "hair color": [
+        "brown"
+      ],
+      "hair length": [
+        "short"
+      ],
+      "hair style": [
+        "curly"
+      ],
+      "eye color": [
+        "brown"
+      ],
+      "facial expression": [
+        "neutral"
+      ],
+      "parse_ok": true
+    }
+  },
+  {
+    "step": 15,
+    "entity_index": 1,
+    "entity_type": "person",
+    "box": [
+      2.0,
+      212.0,
+      520.0,
+      844.0
+    ],
+    "response": "{\"age\": \"child\", \"gender\": \"female\", \"ethnicity\": \"Caucasian\", \"hair color\": \"brown\", \"hair length\": \"long\", \"hair style\": \"straight\", \"eye color\": \"brown\", \"facial expression\": \"neutral\"}",
+    "parsed": {
+      "age": "child",
+      "gender": "female",
+      "ethnicity": "Caucasian",
+      "hair color": "brown",
+      "hair length": "long",
+      "hair style": "straight",
+      "eye color": "brown",
+      "facial expression": "neutral",
+      "parse_ok": true
+    }
+  }
+]
