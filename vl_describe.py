@@ -48,7 +48,7 @@ def prepare_dataset_from_folder(dirs: list[Path]):
                             "image": f"{d.name}/image_{step}.png"   # TODO: check if step is pointing to the correct image
                         }
                     )
-    print(f"--- Found {len(dataset)} entities in {len(dirs)} samples")
+    print(f"--- Found {len(dataset)} entities in {len(dirs)} samples\n")
     return pd.DataFrame(dataset)
 
 
@@ -70,7 +70,7 @@ def prepare_dataset_from_folder_restructure(dirs: list[Path]):
                     "prompt": data
                 }
             )
-    print(f"--- Found {len(dataset)} prompts in {len(dirs)} samples")
+    print(f"--- Found {len(dataset)} prompts in {len(dirs)} samples\n")
     return pd.DataFrame(dataset)
 
 
@@ -113,14 +113,14 @@ def load_imgs(imgs, dict_key="bytes", img_basedir: str | None = None) -> list[Im
     if img_basedir is not None:
         imgs = [str(Path(img_basedir) / img) for img in imgs]
 
-    print(f"--- Found {len(imgs)} images")
+    print(f"--- Found {len(imgs)} images\n")
 
     if type(imgs[0]) == str:
         return imgs
     elif type(imgs[0]) == bytes:
         imgs = [Image.open(io.BytesIO(img)).convert("RGB") for img in imgs]
 
-    print(f"--- Loaded {len(imgs)} images")
+    print(f"--- Loaded {len(imgs)} images\n")
 
     return imgs
 
@@ -165,7 +165,7 @@ def build_messages(task: str, prompts: list | str, imgs: list[Image.Image] | Non
     if type(prompts) == str:
         prompts = [prompts]
 
-    if task == "restructure":
+    if task in ["restructure", "describe_crop"] and formatter is not None:
         if len(prompts) == 1 and len(formatter) > 1:
             prompts = prompts * len(formatter)
             prompts = [p.format(**f) for p, f in zip(prompts, formatter)]
@@ -204,7 +204,6 @@ def main(args):
         if args.task == "crop":
             print("Cropping images...")
             imgs = crop_images_pool(imgs, df.bbox.tolist(), padding=0, max_workers=8)
-            raise NotImplementedError("Crop task is not (fully) implemented yet")
     else:
         imgs = None
 
@@ -258,20 +257,26 @@ def main(args):
                 "description": row.prompt
             } for _, row in df.iterrows()]
 
-            prompt = get_prompt(_task)
-
     elif args.task == "classify":
         prompt_formatter = None
 
     elif args.task == "crop":
+        TARGET_ENTITY = "person" # DEBUG: only using person for now, to avoid too many prompts
+        template_dir = "data/templates"
         prompt_formatter =[{
-            "entity": row.entity,
-            "description": row.description
-        } for _, row in df.iterrows()]
-        raise NotImplementedError("Crop task is not (fully) implemented yet")
+            "type": row.type,
+            "template": json.dumps(
+                json.load(open(os.path.join(template_dir, f"{row.type}.json"))))
+        } for i, row in df.iterrows() if row.type == TARGET_ENTITY]  # DEBUG: only using person for now, to avoid too many prompts
+
+        # filtering images for the target entity (get the indices of the rows that match the target, keep those indices from the image list)
+        valid_indices = [i for i, row in df.iterrows() if row.type == TARGET_ENTITY]
+        imgs = [imgs[i] for i in valid_indices]
+        print(f"--- Filtered {len(imgs)} images for target entity '{TARGET_ENTITY}'\n")
     else:
         raise NotImplementedError(f"Task '{args.task}' is not implemented yet")
 
+    prompt = get_prompt(_task)
     messages = build_messages(task=_task, prompts=prompt, imgs=imgs, formatter=prompt_formatter)
 
     outputs, _ = generate(
@@ -319,6 +324,9 @@ def main(args):
             os.makedirs(outdir_file, exist_ok=True)
             group.to_json(os.path.join(outdir_file, f"scene.anchored.json"), orient="records", indent=2, force_ascii=False)
 
+    elif _task == "describe_crop":
+        pp(outputs)
+        # TODO: implement saving outputs for describe_crop task
     else:
         raise NotImplementedError(f"Postprocessing for task '{_task}' is not implemented yet")
 
