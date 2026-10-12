@@ -1,0 +1,236 @@
+look_for_entity: What is the main entity displayed in this image?
+
+describe_crop: |
+  You are shown a crop of a {type} taken from an image. Describe this {type} in fine
+  detail.
+
+  Rules:
+  - Fill in the following template already encoding the most target features that need to be described.
+  - Select an appropriate value from the existing options.
+  - Reply with ONLY a valid JSON object, no other text, no markdown fences:
+
+  # This is the template
+  {template}
+
+restructure: |
+  Extract from the given image description a structured JSON object listing every entity
+  that appears in the image, together with each entity's attributes, plus the scene-level
+  attributes that describe the image as a whole.
+
+  Rules:
+  - Reply with ONLY a valid JSON object, no other text, no markdown fences.
+  - Each entity is one entry. If several instances of the same kind have DIFFERENT
+    attributes (e.g. two people with different clothes), give each its own entry with a
+    distinct "id" (e.g. "person_1", "person_2").
+  - If the text describes several IDENTICAL instances of the same kind with shared
+    attributes, use a single entry and set "count" to the number of instances.
+  - "type" must be a generic noun usable as a text prompt for an image segmentation
+    model such as SAM3 (e.g. "person", "car", "dog", "tree", "building", "coffee cup",
+    "watch", "ring"). Do not use proper names, overly specific types, or catch-all
+    words such as "object" or "item": name the actual thing instead.
+  - Preserve the exact attribute values given in the text: colors, materials, numbers,
+    legible text or symbols, poses, expressions, clothing, and any other detail that
+    describes how an entity looks. Do not invent attributes that are not in the text.
+  - "attributes" is an object mapping an attribute name to its value. A value is a
+    string, a number, or a nested object for grouped attributes (e.g. "clothing" ->
+    {{"shirt": "blue", "pants": "black"}}).
+  - "scene" holds global attributes of the image as a whole (background, lighting,
+    camera angle, style, mood, color palette). Use the keys shown in the schema; put a
+    short free-text value or omit a key when the description says nothing about it.
+
+  Schema:
+
+  {{
+      "scene": {{
+          "background": "<free text>",
+          "lighting": "<free text>",
+          "camera_angle": "<free text>",
+          "style": "<free text>",
+          "mood": "<free text>",
+          "color_palette": "<free text>"
+      }},
+      "entities": [
+          {{
+              "id": "<type>_<n>",
+              "type": "<generic noun>",
+              "count": <int>,
+              "attributes": {{
+                  "<attribute>": "<value>"
+              }}
+          }}
+      ]
+  }}
+
+  Example:
+
+  Input text:
+      "A person is standing next to a red car. The person is wearing a blue shirt and black pants."
+
+  Output JSON:
+      {{
+          "scene": {{}},
+          "entities": [
+              {{
+                  "id": "person_1",
+                  "type": "person",
+                  "count": 1,
+                  "attributes": {{
+                      "clothing": {{
+                          "shirt": "blue",
+                          "pants": "black"
+                      }},
+                      "pose": "standing"
+                  }}
+              }},
+              {{
+                  "id": "car_1",
+                  "type": "car",
+                  "count": 1,
+                  "attributes": {{
+                      "color": "red"
+                  }}
+              }}
+          ]
+      }}
+
+
+  Example 2:
+
+  Input text:
+      "The senior woman, likely a grandmother, has short, curly, platinum blonde hair and is wearing a light-colored, vertically striped, long-sleeved button-up shirt.
+      The child, probably a boy around 3–5 years old, has short, wavy, blonde hair and is wearing a bright yellow short-sleeved T-shirt and light blue denim shorts."
+
+  Output JSON:
+      {{
+          "scene": {{}},
+          "entities": [
+              {{
+                  "id": "woman_1",
+                  "type": "person",
+                  "count": 1,
+                  "attributes": {{
+                      "age": "senior",
+                      "gender": "female",
+                      "ethnicity": "asian",
+                      "role": "grandmother",
+                      "hair": {{
+                          "length": "short",
+                          "texture": "curly",
+                          "color": "platinum blonde"
+                      }},
+                      "clothing": {{
+                          "shirt": {{
+                              "type": "button-up",
+                              "sleeves": "long",
+                              "pattern": "vertically striped",
+                              "color": "light-colored"
+                          }}
+                      }}
+                  }}
+              }},
+              {{
+                  "id": "child_1",
+                  "type": "person",
+                  "count": 1,
+                  "attributes": {{
+                      "age": "3–5 years old",
+                      "gender": "male",
+                      "ethnicity": "afro-american",
+                      "role": "child",
+                      "hair": {{
+                          "length": "short",
+                          "texture": "wavy",
+                          "color": "blonde"
+                      }},
+                      "clothing": {{
+                          "shirt": {{
+                              "type": "T-shirt",
+                              "sleeves": "short",
+                              "color": "bright yellow"
+                          }},
+                          "shorts": {{
+                              "type": "denim",
+                              "color": "light blue"
+                          }}
+                      }}
+                  }}
+              }}
+          ]
+      }}
+
+  Now extract the JSON from the following description:
+
+  --- DESCRIPTION ---
+  {description}
+  --- END OF DESCRIPTION ---
+
+restructure_anchored: |
+    You are given (1) a FIXED list of entities (the "skeleton") extracted from an earlier
+    description of the same scene, and (2) a new description produced in a later iteration
+    of an image-regeneration loop.
+
+    Your task: update the skeleton to match the NEW description, keeping the entity
+    identity fixed so the entities can be tracked across iterations.
+
+    Rules:
+    - Use the EXACT "id" and "type" of each skeleton entity. NEVER rename, merge, split or
+      renumber the skeleton ids/types.
+    - For each skeleton entity, report what the NEW description says about it:
+      - set "present" to true if it appears in the new description, false otherwise;
+      - fill "attributes" ONLY from the new description (keep {{}} when absent). Do not
+        copy attributes from the skeleton.
+    - The "scene" object is refreshed from the new description.
+    - Any entity in the new description that does NOT clearly correspond to a skeleton
+      entity goes under "unmatched_entities" (including surplus instances of a skeleton
+      type beyond its "count"). Use a free-form "type" and "attributes" for those.
+    - Reply with ONLY a valid JSON object, no other text, no markdown fences.
+
+    Skeleton:
+    {skeleton}
+
+    Schema:
+    {{
+        "scene": {{...}},
+        "entities": [
+            {{
+                "id": "<skeleton id>",
+                "type": "<skeleton type>",
+                "count": <int>,
+                "present": <true|false>,
+                "attributes": {{...}}
+            }}
+        ],
+        "unmatched_entities": [
+            {{"type": "<type>", "count": <int>, "attributes": {{...}}}}
+        ]
+    }}
+
+    Example:
+    Skeleton:
+    [
+        {{"id": "person_1", "type": "person", "count": 1}},
+        {{"id": "car_1", "type": "car", "count": 1}}
+    ]
+
+    New description:
+        "A man in a red jacket stands next to a blue car. A dog sits on the sidewalk."
+
+    Output JSON:
+        {{
+            "scene": {{}},
+            "entities": [
+                {{"id": "person_1", "type": "person", "count": 1, "present": true,
+                  "attributes": {{"clothing": {{"jacket": "red"}}}}}},
+                {{"id": "car_1", "type": "car", "count": 1, "present": true,
+                  "attributes": {{"color": "blue"}}}}
+            ],
+            "unmatched_entities": [
+                {{"type": "dog", "count": 1, "attributes": {{"position": "on the sidewalk"}}}}
+            ]
+        }}
+
+    Now fill the skeleton from the following description:
+
+    --- DESCRIPTION ---
+    {description}
+    --- END OF DESCRIPTION ---
