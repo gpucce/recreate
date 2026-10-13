@@ -200,7 +200,13 @@ def clean_prompt(prompt: str) -> str:
     return " ".join(cleaned.split())
 
 
-def load_vlm_pipeline(model_id: str, device: str, dtype: Any) -> Any:
+def load_vlm_pipeline(
+    model_id: str,
+    device: str,
+    dtype: Any,
+    device_map: str | None = None,
+    max_memory: dict[int, str] | None = None,
+) -> Any:
     device_arg: int | str
     if device == "cuda":
         device_arg = 0
@@ -241,6 +247,13 @@ def load_vlm_pipeline(model_id: str, device: str, dtype: Any) -> Any:
             "model_kwargs": {"low_cpu_mem_usage": False},
         },
     ]
+    if device_map is not None:
+        # Shard the model over several GPUs (e.g. one too big for a single card) instead of
+        # placing it whole on one device; max_memory caps what each GPU may take.
+        for pipe_kwargs in pipeline_attempts:
+            del pipe_kwargs["device"]
+            pipe_kwargs["device_map"] = device_map
+            pipe_kwargs["model_kwargs"] = {"max_memory": max_memory} if max_memory else {}
 
     last_error: Exception | None = None
     vlm = None
