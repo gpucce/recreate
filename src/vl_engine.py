@@ -29,6 +29,7 @@ def load_model_hf(model_name, hf_task, dtype, device):
     )
     return pipe
 
+
 def load_model_vllm(model_name, dtype="bfloat16", device="cuda", gpu_memory_utilization=0.85, max_model_len=8192):
     from vllm import LLM
     return LLM(

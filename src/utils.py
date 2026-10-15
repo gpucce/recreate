@@ -76,20 +76,6 @@ def crop_images(
 
     return crops
 
-# def crop_images(imgs: list[Image.Image] | list[str], boxes: list[list[int]], padding: int = 0) -> list[Image.Image]:
-#     df = pd.DataFrame({"path": imgs, "box": boxes})
-#     group_by_img = df.groupby("path")
-
-#     crops = []
-#     for img_path, group in tqdm(group_by_img, desc="Cropping images"):
-#         img = Image.open(img_path).convert("RGB")
-#         for _, row in group.iterrows():
-#             box = row["box"]
-#             crop = crop_image(img, box, padding)
-#             crops.append(crop)
-
-#     return crops
-
 
 def crop_image(img: Image.Image, bbox: list[int], padding: int = 0) -> Image.Image:
     """Crop an image given a bounding box and optional padding."""
