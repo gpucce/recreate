@@ -41,7 +41,7 @@
 #   RUN_NAME=""            blank = new run named after the launch time; an existing name finishes
 #                          that run (finished rows are skipped, unfinished ones redone from image_0)
 #   DATA_DIR=data_bkp OUT_ROOT=$DATA_DIR/vlstereoset_experiments/$EXPERIMENT
-#   VLLM_ENV=vllm_venv     conda env activated for vllm; PY=conda_venv/bin/python for transformers
+#   VLLM_ENV=vllm_venv     conda env activated for vllm (conda_venv if vllm_venv is missing); PY=conda_venv/bin/python for transformers
 
 set -euo pipefail
 
@@ -77,7 +77,10 @@ HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # experiment_scripts/
 ROOT="$(dirname "$HERE")"                              # repo root
 if [[ "$VLM_BACKEND" == "vllm" && "${1:-}" != "--status" && "${1:-}" != "--stop" ]]; then
   # vLLM needs its conda env activated (CUDA toolkit and build tools on PATH), not only its python.
-  VLLM_ENV="${VLLM_ENV:-$ROOT/vllm_venv}"
+  # Default ./vllm_venv; machines without it use ./conda_venv, which also has vllm.
+  if [[ -z "${VLLM_ENV:-}" ]]; then
+    if [[ -d "$ROOT/vllm_venv" ]]; then VLLM_ENV="$ROOT/vllm_venv"; else VLLM_ENV="$ROOT/conda_venv"; fi
+  fi
   set +u   # conda's activation scripts read unset variables
   eval "$(conda shell.bash hook)"
   conda activate "$VLLM_ENV"
@@ -85,6 +88,12 @@ if [[ "$VLM_BACKEND" == "vllm" && "${1:-}" != "--status" && "${1:-}" != "--stop"
   PY="${PY:-$VLLM_ENV/bin/python}"
 fi
 PY="${PY:-$ROOT/conda_venv/bin/python}"
+# CUDA 13 forward-compat libs (conda package cuda-compat), for drivers older than the env's CUDA.
+# conda activation adds them too; this covers the transformers path, which calls $PY directly.
+COMPAT_DIR="$(dirname "$(dirname "$PY")")/cuda-compat"
+if [[ -d "$COMPAT_DIR" && ":${LD_LIBRARY_PATH:-}:" != *":$COMPAT_DIR:"* ]]; then
+  export LD_LIBRARY_PATH="$COMPAT_DIR${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+fi
 DRIVER="$ROOT/content_convergence/run_loop_optimized.py"
 SELF="${LAUNCHED_AS:-$0}"                              # the experiment script, for the hints below
 
