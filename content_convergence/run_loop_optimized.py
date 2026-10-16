@@ -393,6 +393,9 @@ class Runner:
                            gpu_memory_utilization=args.vllm_gpu_memory_utilization,
                            max_model_len=args.vllm_max_model_len,
                            tensor_parallel_size=args.vllm_tensor_parallel_size,
+                           # Never more than batch_size requests at once; the default (256) makes hybrid
+                           # models like Qwen3.8 reserve recurrent state for 256 sequences (~24 GiB).
+                           max_num_seqs=args.batch_size,
                            limit_mm_per_prompt={"image": 1, "video": 0}, trust_remote_code=True)
             # Same sampling as the transformers pipeline: the model's generation_config.json
             # (Qwen3-VL samples: temperature 0.7, top_k 20, top_p 0.8), capped at describe's token limit.
