@@ -30,13 +30,14 @@ def load_model_hf(model_name, hf_task, dtype, device):
     return pipe
 
 
-def load_model_vllm(model_name, dtype="bfloat16", device="cuda", gpu_memory_utilization=0.85, max_model_len=8192):
+def load_model_vllm(model_name, dtype="bfloat16", device="cuda", gpu_memory_utilization=0.85, max_model_len=8192, parallel_size=1):
     from vllm import LLM
     return LLM(
         model=model_name,
         dtype=dtype,
         gpu_memory_utilization=gpu_memory_utilization,
         max_model_len=max_model_len,
+        tensor_parallel_size=parallel_size,
         trust_remote_code=True,
     )
 
@@ -68,7 +69,7 @@ def parse_responses(responses: list, backend: str):
 def generate(
         model_name: str = "Qwen/Qwen3.5-4B", backend: str = "hf", messages: list = None,
         hf_task: str = "image-text-to-text", device="cuda", dtype="bfloat16", batch_size: int = 2, max_new_tokens: int = 64,
-        loaded_llm=None):
+        parallel_size: int = 1, loaded_llm=None):
     if backend == "hf":
         llm = load_model_hf(model_name, hf_task, dtype, device)
         llm.processor.apply_chat_template = functools.partial(llm.processor.apply_chat_template, enable_thinking=False)
@@ -77,7 +78,7 @@ def generate(
         if loaded_llm is not None:
             llm = loaded_llm
         else:
-            llm = load_model_vllm(model_name, dtype=dtype, device=device)
+            llm = load_model_vllm(model_name, dtype=dtype, device=device, parallel_size=parallel_size)
 
     if backend == "hf":
         outputs = []
