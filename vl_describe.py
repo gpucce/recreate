@@ -20,6 +20,35 @@ def _load_dataset_folder(path: str):
     dirs = sorted([Path(path, d) for d in dirs if Path(path, d).is_dir()])
     return dirs
 
+def prepare_dataset_from_path(path: Path):
+    files = sorted([f for f in path.iterdir() if f.name.endswith(".json")])
+
+    dataset = []
+    for f in files:
+        # open jsonl file
+        data = pd.read_json(f, orient="records", lines=True)
+        # with open(f, "r") as fin:
+        #     data = json.load(fin)
+        #     detected = data["detections"]
+
+        # for elem in detected:
+        for _, elem in data.iterrows():
+            area = (elem["box"][2] - elem["box"][0]) * (elem["box"][3] - elem["box"][1])
+            dataset.append(
+                {
+                    "step": elem["step"],
+                    "type": elem["type"],
+                    "bbox": elem["box"],
+                    "score": elem["score"],
+                    "area": area,
+                    "detected_idx": elem["instance_index"],
+                    "folder": elem["folder"],
+                    "image": elem["image_path"]
+                }
+            )
+    print(f"--- Found {len(dataset)} entities in {path.name}\n")
+    return pd.DataFrame(dataset)
+
 
 def prepare_dataset_from_folder(dirs: list[Path]):
     target_fname_suffix = ".visual_entities.json"
@@ -80,6 +109,13 @@ def load_data(path: str, task: str, debug: bool = False):
 
     if ext == "":
         dirs = _load_dataset_folder(path)
+
+        if len(dirs) == 0:
+            df = prepare_dataset_from_path(Path(path))
+            if debug:
+                print(f"[Running in DEBUG MODE] Limiting to first n messages for testing...")
+                df = df[:n_debug]
+            return df
 
         if debug:
             print(f"[Running in DEBUG MODE] Limiting to first n messages for testing...")
@@ -244,6 +280,7 @@ def main(args):
                 messages=messages,
                 batch_size=args.batch_size,
                 max_new_tokens=args.max_tokens,
+                parallel_size=args.parallel_size,
             )
 
             outputs = [parse_restructure(s) for s in outputs]
@@ -385,6 +422,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset-name",   type=str, default=None, help="Dataset name to use for output directory structure")
     parser.add_argument("--anchored",       action="store_true", help="Run in anchored mode (only for 'restructure' task)")
     parser.add_argument("--debug",          action="store_true", help="Run in debug mode (limit number of messages for testing)")
+    parser.add_argument("--parallel-size",  type=int, default=1, help="Number of parallel processes to use for generation (only for 'vllm' backend)")
     args = parser.parse_args()
 
     main(args)
