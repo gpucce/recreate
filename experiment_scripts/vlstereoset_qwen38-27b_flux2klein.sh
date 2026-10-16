@@ -15,7 +15,7 @@
 #   experiment_scripts/vlstereoset_qwen38-27b_flux2klein.sh --dry-run    # plan only
 #   experiment_scripts/vlstereoset_qwen38-27b_flux2klein.sh              # launch in the background
 #   experiment_scripts/vlstereoset_qwen38-27b_flux2klein.sh --status | --stop
-# Other env vars: see vlstereoset_launch.sh.
+# Other env vars: see experiment_launch.sh.
 
 set -euo pipefail
 export EXPERIMENT="qwen38-27b_flux2klein"
@@ -30,5 +30,4 @@ export VLLM_GPU_MEMORY_UTILIZATION="${VLLM_GPU_MEMORY_UTILIZATION:-0.4}"
 export IMAGE_DEVICE="${IMAGE_DEVICE:-cuda:3}"
 if [[ "${VLM_BACKEND:-vllm}" == "vllm" ]]; then export BATCH_SIZE="${BATCH_SIZE:-8}"; fi   # one process: batch more
 export MIN_FREE_MB="${MIN_FREE_MB:-44000}"
-export LAUNCHED_AS="$0"
-exec "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/vlstereoset_launch.sh" "$@"
+exec "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/experiment_launch.sh" "$@"

@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 #
-# vlstereoset_launch.sh — shared background launcher for the VLStereoSet model experiments.
+# experiment_launch.sh — shared background launcher for the model experiments (VLStereoSet by
+# default; DATASET=coco_dog or coco_car runs the same experiment on a COCO subset, see the
+# coco_*.sh wrappers).
 #
 # Not meant to be called directly: each experiment script in this folder sets EXPERIMENT,
 # VISION_MODEL, IMAGE_MODEL and its GPU layout, then execs this file. It runs
@@ -16,7 +18,7 @@
 # this launcher activates. Output goes to
 #
 #     $OUT_ROOT/<run name>/{config.json, manifest/, logs/, image_<row>/...}
-#     OUT_ROOT=data_bkp/vlstereoset_experiments/<experiment>,  run name = launch time YYYYmmdd-HHMMSS
+#     OUT_ROOT=data_bkp/<dataset>_experiments/<experiment>,  run name = launch time YYYYmmdd-HHMMSS
 #
 # and $OUT_ROOT/latest points at the last launched run.
 #
@@ -26,6 +28,7 @@
 #   --stop       SIGTERM (then SIGKILL) them
 #
 # Env vars (all optional; the experiment script sets the model ones):
+#   DATASET=vlstereoset    vlstereoset | coco_dog | coco_car (any --dataset of run_bbq_loop.py)
 #   NUM_IMAGES=all STEPS=16 SEED=0 WIDTH=1024 HEIGHT=1024 MAX_CONSECUTIVE_FAILURES=3
 #   VLM_BACKEND=vllm       vllm | transformers
 #   BATCH_SIZE=4           chains advanced together (default 4 with vllm, 1 with transformers)
@@ -40,7 +43,7 @@
 #   RENDER_STEPS="" GUIDANCE_SCALE=""   blank = create.py defaults (16 steps, guidance 0.0)
 #   RUN_NAME=""            blank = new run named after the launch time; an existing name finishes
 #                          that run (finished rows are skipped, unfinished ones redone from image_0)
-#   DATA_DIR=data_bkp OUT_ROOT=$DATA_DIR/vlstereoset_experiments/$EXPERIMENT
+#   DATA_DIR=data_bkp OUT_ROOT=$DATA_DIR/${DATASET}_experiments/$EXPERIMENT
 #   VLLM_ENV=vllm_venv     conda env activated for vllm; PY=conda_venv/bin/python for transformers
 
 set -euo pipefail
@@ -48,6 +51,7 @@ set -euo pipefail
 : "${EXPERIMENT:?set by the experiment script}"
 : "${VISION_MODEL:?set by the experiment script}"
 : "${IMAGE_MODEL:?set by the experiment script}"
+DATASET="${DATASET:-vlstereoset}"
 NUM_IMAGES="${NUM_IMAGES:-all}"
 STEPS="${STEPS:-16}"
 SEED="${SEED:-0}"
@@ -71,7 +75,7 @@ VLM_DTYPE="${VLM_DTYPE:-}"
 RENDER_STEPS="${RENDER_STEPS:-}"
 GUIDANCE_SCALE="${GUIDANCE_SCALE:-}"
 DATA_DIR="${DATA_DIR:-data_bkp}"
-OUT_ROOT="${OUT_ROOT:-$DATA_DIR/vlstereoset_experiments/$EXPERIMENT}"
+OUT_ROOT="${OUT_ROOT:-$DATA_DIR/${DATASET}_experiments/$EXPERIMENT}"
 
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"   # experiment_scripts/
 ROOT="$(dirname "$HERE")"                              # repo root
@@ -86,7 +90,7 @@ if [[ "$VLM_BACKEND" == "vllm" && "${1:-}" != "--status" && "${1:-}" != "--stop"
 fi
 PY="${PY:-$ROOT/conda_venv/bin/python}"
 DRIVER="$ROOT/content_convergence/run_loop_optimized.py"
-SELF="${LAUNCHED_AS:-$0}"                              # the experiment script, for the hints below
+SELF="experiment_scripts/${DATASET}_${EXPERIMENT}.sh"   # the experiment script, for the hints below
 
 # Relative paths are taken from the repo root, so the scripts can be launched from anywhere.
 case "$DATA_DIR" in /*) : ;; *) DATA_DIR="$ROOT/$DATA_DIR" ;; esac
@@ -136,7 +140,7 @@ if [[ "${1:-}" == "--dry-run" ]]; then DRY_RUN=1; fi
 # ---- pre-flight: keep the groups whose every GPU has enough free VRAM -----
 read -ra GROUPS_REQUESTED <<< "$GPU_GROUPS"
 EFF_GROUPS=()
-echo "VLStereoSet experiment: $EXPERIMENT"
+echo "$DATASET experiment: $EXPERIMENT"
 echo "  models        : $VISION_MODEL + $IMAGE_MODEL"
 echo "  GPU groups    : $GPU_GROUPS   (min free ${MIN_FREE_MB} MiB per GPU, force=${FORCE_GPU})"
 for group in "${GROUPS_REQUESTED[@]}"; do
@@ -161,7 +165,7 @@ if (( N_GROUPS == 0 )); then
 fi
 
 if [[ "$NUM_IMAGES" == "all" ]]; then
-  NUM_IMAGES="$("$PY" "$DRIVER" --dataset vlstereoset --data-dir "$DATA_DIR" --count-rows)"
+  NUM_IMAGES="$("$PY" "$DRIVER" --dataset "$DATASET" --data-dir "$DATA_DIR" --count-rows)"
 fi
 echo "  usable groups : ${EFF_GROUPS[*]}  (${N_GROUPS} process(es), group i takes positions i, i+${N_GROUPS}, ...)"
 echo "  images / steps: $NUM_IMAGES rows (seed $SEED), $STEPS loop steps, batch size $BATCH_SIZE"
@@ -177,7 +181,7 @@ fi
 for i in "${!EFF_GROUPS[@]}"; do
   group="${EFF_GROUPS[$i]}"
   log="$LOG_DIR/shard${i}_gpu${group//,/-}.log"
-  cmd=("$PY" "$DRIVER" --dataset vlstereoset --data-dir "$DATA_DIR"
+  cmd=("$PY" "$DRIVER" --dataset "$DATASET" --data-dir "$DATA_DIR"
        --start-index 0 --num-images "$NUM_IMAGES" --shard "$i" --num-shards "$N_GROUPS"
        --seed "$SEED" --steps "$STEPS" --batch-size "$BATCH_SIZE"
        --max-consecutive-failures "$MAX_CONSECUTIVE_FAILURES"

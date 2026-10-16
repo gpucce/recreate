@@ -14,7 +14,7 @@
 #   experiment_scripts/vlstereoset_qwen3vl4b_flux2klein.sh              # launch in the background
 #   GPU_GROUPS="2" experiment_scripts/vlstereoset_qwen3vl4b_flux2klein.sh   # only GPU 2
 #   experiment_scripts/vlstereoset_qwen3vl4b_flux2klein.sh --status | --stop
-# Other env vars: see vlstereoset_launch.sh.
+# Other env vars: see experiment_launch.sh.
 
 set -euo pipefail
 export EXPERIMENT="qwen3vl4b_flux2klein"
@@ -24,5 +24,4 @@ export RENDER_STEPS="${RENDER_STEPS:-4}"
 export GUIDANCE_SCALE="${GUIDANCE_SCALE:-1.0}"
 export GPU_GROUPS="${GPU_GROUPS:-0 1 2 3}"
 export MIN_FREE_MB="${MIN_FREE_MB:-42000}"             # vLLM ~18 GB + klein ~15 GB + render activations
-export LAUNCHED_AS="$0"
-exec "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/vlstereoset_launch.sh" "$@"
+exec "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)/experiment_launch.sh" "$@"
