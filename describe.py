@@ -26,7 +26,7 @@ SUPPORTED_IMAGE_SUFFIXES = {
 PROMPT_REQUEST = """
 Write a prompt describing the image to enable an image generation model to accurately replicate it.
 Include all the elements that are relevant to replicate the image in its content and in its visual appearance.
-Relevant elements are the subjects, their pose, look, glance, the detailed composition of the image, camera angle, lighting, colors, materials, textures, background, image style, white balance, color saturation, palette, grain, focus, blur, mood, any legible text, number, or symbol, the nature and quality of the image (a photo made with an old phone, a smartphone, a reflex camera, in an open setting, in studio). Use at most 350 words.
+Relevant elements are the subjects, their pose, look, glance, the detailed composition of the image, camera angle, lighting, colors, materials, textures, background, image style, white balance, color saturation, palette, grain, focus, blur, mood, any legible text, number, or symbol, the nature and quality of the image. Use at most 350 words.
 """.strip()
 
 
