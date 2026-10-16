@@ -1,4 +1,5 @@
-"""Heatmap PDFs for the tables produced by similarity_matrices.py.
+"""Heatmap PDFs for the tables produced by similarity_matrices.py and
+similarity_across_runs.py (cross matrices as heatmaps, paired curves as line plots).
 
 Writes <name>.pdf next to every <name>.npy/.csv (per experiment and averages),
 colour scale from red (lowest value in the table) to green (highest).
@@ -11,7 +12,13 @@ from pathlib import Path
 import numpy as np
 
 EXP_DIR = "experiments"
-NAMES = ("images_similarity", "prompts_similarity")
+NAMES = ("images_similarity", "prompts_similarity",
+         "images_cross_similarity", "prompts_cross_similarity",
+         "images_paired", "prompts_paired")
+
+
+def _ticks(n):
+    return range(0, n, 1 if n <= 20 else 2)
 
 
 def plot_table(out: Path, name: str):
@@ -20,21 +27,36 @@ def plot_table(out: Path, name: str):
     import matplotlib.pyplot as plt
 
     mat = np.load(out / f"{name}.npy")
+    if mat.ndim == 1:  # paired curve: similarity of A step t vs B step t
+        fig, ax = plt.subplots(figsize=(6, 4))
+        ax.plot(range(len(mat)), mat, marker="o")
+        ax.set_xlabel("step")
+        ax.set_ylabel("cosine similarity")
+        ax.set_title(f"{out.name}: {name}")
+        ax.grid(alpha=0.3)
+        fig.tight_layout()
+        fig.savefig(out / f"{name}.pdf")
+        plt.close(fig)
+        return
+
     with open(out / f"{name}.csv") as f:
-        labels = next(csv.reader(f))[1:]
-    n = len(labels)
+        cols = next(csv.reader(f))[1:]
+    with open(out / f"{name}.csv") as f:
+        rows = [r[0] for r in list(csv.reader(f))[1:]]
+    nr, nc = mat.shape
     fig, ax = plt.subplots(figsize=(8, 7))
-    vmin, vmax = float(mat.min()), float(mat.max())
-    im = ax.imshow(mat, cmap="RdYlGn", vmin=vmin, vmax=vmax)
-    step = 1 if n <= 20 else 2
-    ticks = range(0, n, step)
-    ax.set_xticks(ticks)
-    ax.set_yticks(ticks)
-    ax.set_xticklabels([labels[i] for i in ticks], rotation=90, fontsize=6)
-    ax.set_yticklabels([labels[i] for i in ticks], fontsize=6)
-    if n <= 20:
-        for i in range(n):
-            for j in range(n):
+    im = ax.imshow(mat, cmap="RdYlGn", vmin=float(mat.min()), vmax=float(mat.max()))
+    xt, yt = _ticks(nc), _ticks(nr)
+    ax.set_xticks(xt)
+    ax.set_yticks(yt)
+    ax.set_xticklabels([cols[i] for i in xt], rotation=90, fontsize=6)
+    ax.set_yticklabels([rows[i] for i in yt], fontsize=6)
+    if "cross" in name:
+        ax.set_xlabel("run B")
+        ax.set_ylabel("run A")
+    if max(nr, nc) <= 20:
+        for i in range(nr):
+            for j in range(nc):
                 ax.text(j, i, f"{mat[i, j]:.2f}", ha="center", va="center",
                         fontsize=5, color="k")
     ax.set_title(f"{out.name}: {name}")
@@ -60,7 +82,7 @@ def plot_all(out_root: Path, recompute: bool):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--sim", default="./data/similarities/vlstereoset_runs",
-                    help="directory produced by similarity_matrices.py")
+                    help="directory produced by similarity_matrices.py or similarity_across_runs.py")
     ap.add_argument("--recompute", action="store_true",
                     help="regenerate PDFs that already exist")
     a = ap.parse_args()
