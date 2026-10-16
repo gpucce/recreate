@@ -193,9 +193,24 @@ def _task_dict(task):
         return "restructure"
 
 
+def construct_experiment_name(args):
+    assert args.dataset_name is not None, "Dataset name must be provided for output directory structure"
+
+    if args.task in ["crop", "restructure"]:
+        assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'describe_crop' task"
+        text_model_name = args.txt_model_name.replace("/", "_").replace("-", "").lower()
+        img_gen_model_name = args.img_model_name.replace("/", "_").replace("-", "").lower()
+        experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
+    elif args.task == "classify":
+        # text_model_name = args.text_model_name.replace("/", "_").lower()
+        experiment_name = "{args.dataset_name}"
+    return experiment_name
+    
+        
 def main(args):
     _mm_gen = True if args.task in ["classify", "crop"] else False
     _task = _task_dict(args.task)
+    _experiment_name = construct_experiment_name(args)
 
     df = load_data(args.datapath, task=args.task, debug=args.debug)
 
@@ -291,19 +306,15 @@ def main(args):
     # setting outdir
     outdir = f"{args.outdir}"
     if args.debug:
-        outdir = f"debug/new_out"
+        outdir = f"debug/"
     os.makedirs(outdir, exist_ok=True)
 
-    if args.anchored:
-        # process responses when we have a anchored mode (i.e., we have a df_anchor and df_anchored)
-        outputs = [parse_restructure(s) for s in outputs]
-        df_anchored["llm_response"] = outputs
 
-        df_response = pd.concat([df_anchor, df_anchored], ignore_index=True)
-        df_response.sort_values(by=["folder", "step"], inplace=True)
-        df_response.reset_index(drop=True, inplace=True)
 
     if _task == "classify":
+        outdir = os.path.join(outdir, "classify", _experiment_name)
+        print(f"Saving outputs to folder: {outdir}")
+
         outfile = os.path.join(outdir, f"{args.datapath.split('/')[-1]}.entities.json")
         parsed = parse_classify(outputs)
 
@@ -316,17 +327,44 @@ def main(args):
             json.dump(parsed, f, indent=2, ensure_ascii=False)
 
     elif _task == "restructure":
+
+        if args.anchored:
+            # process responses when we have a anchored mode (i.e., we have a df_anchor and df_anchored)
+            outputs = [parse_restructure(s) for s in outputs]
+            df_anchored["llm_response"] = outputs
+
+            df_response = pd.concat([df_anchor, df_anchored], ignore_index=True)
+            df_response.sort_values(by=["folder", "step"], inplace=True)
+            df_response.reset_index(drop=True, inplace=True)
+        else:
+            df_response = df.copy()
+            df_response["llm_response"] = outputs
+
+        outdir = os.path.join(outdir, "restructure", _experiment_name)
+        os.makedirs(outdir, exist_ok=True)
+        print(f"Saving outputs to folder: {outdir}")
+
         grouped = df_response.groupby("folder")
         # storing results by image_folder, with each folder containing a scene.anchored.json file with the results for all steps
         for folder, group in grouped:
-            outdir_file = os.path.join(outdir, folder)
-            print(f"Saving outputs for folder '{folder}' to {outdir_file}...")
-            os.makedirs(outdir_file, exist_ok=True)
-            group.to_json(os.path.join(outdir_file, f"scene.anchored.json"), orient="records", indent=2, force_ascii=False)
+            # outdir_file = os.path.join(outdir, folder)
+            # os.makedirs(outdir_file, exist_ok=True)
+            group.to_json(os.path.join(outdir, f"{folder}.scene_description.anchored.json"), orient="records", indent=2, force_ascii=False)
 
     elif _task == "describe_crop":
-        pp(outputs)
-        # TODO: implement saving outputs for describe_crop task
+        outdir = os.path.join(outdir, "describe", _experiment_name)
+        os.makedirs(outdir, exist_ok=True)
+        print(f"Saving outputs to folder: {outdir}")
+
+        df_entity = df[df.type == TARGET_ENTITY].copy()
+        df_entity["llm_response"] = outputs
+        df_entity["parsed"] = [json.loads(s) for s in outputs]  # TODO
+
+        grouped = df_entity.groupby("folder")
+        for folder, group in grouped:
+            group = group.sort_values(by=["step"])
+            group.to_json(os.path.join(outdir, f"{folder}.entities_description.json"), orient="records", indent=2, force_ascii=False)
+
     else:
         raise NotImplementedError(f"Postprocessing for task '{_task}' is not implemented yet")
 
@@ -341,8 +379,11 @@ if __name__ == "__main__":
     parser.add_argument("--img-basedir",    type=str, default=None, help="Path to the base directory containing the images")
     parser.add_argument("--batch-size",     type=int, default=2, help="Batch size for generation")
     parser.add_argument("--max-tokens",     type=int, default=32, help="Maximum number of tokens to generate")
-    parser.add_argument("--anchored",       action="store_true", help="Run in anchored mode (only for 'restructure' task)")
     parser.add_argument("--outdir",         type=str, default="data/new_out", help="Output directory to save results")
+    parser.add_argument("--txt-model-name", type=str, default=None, help="Text model name to use for generation (only for 'restructure' and 'describe_crop' tasks)")
+    parser.add_argument("--img-model-name", type=str, default=None, help="Image model name to use for generation (only for 'describe_crop' task)")
+    parser.add_argument("--dataset-name",   type=str, default=None, help="Dataset name to use for output directory structure")
+    parser.add_argument("--anchored",       action="store_true", help="Run in anchored mode (only for 'restructure' task)")
     parser.add_argument("--debug",          action="store_true", help="Run in debug mode (limit number of messages for testing)")
     args = parser.parse_args()
 
