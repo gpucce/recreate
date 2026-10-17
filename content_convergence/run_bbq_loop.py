@@ -1,10 +1,12 @@
 #!/usr/bin/env python
 """Drive recreate/loop.py over a RANDOM sample of a local image dataset.
 
-Two datasets are supported, picked with --dataset:
+These datasets are supported, picked with --dataset:
 
     bbq-v        (default) data/BBQ-V, output under data/bbq_runs/
     vlstereoset  data/vlstereoset_clean, output under data/vlstereoset_runs/
+    coco_dog     data/coco_dog, output under data/coco_dog_runs/ (images in data/coco/)
+    coco_car     data/coco_car, output under data/coco_car_runs/ (images in data/coco/)
 
 All paths are relative to the repo root; `data` is the data directory (a
 symlink to the shared data volume).
@@ -104,6 +106,12 @@ DATASETS: Dict[str, Dict[str, Any]] = {
                   category_column="category", default_out="bbq_runs"),
     "vlstereoset": dict(dir="vlstereoset_clean", image_column="image", id_column=None,
                         category_column="bias_type", default_out="vlstereoset_runs"),
+    # COCO subsets, one row per annotated object (an image can appear twice), so the id is the
+    # unique `id_sample`, not `image_id`; `image` is a path like "coco/train2017/000000456709.jpg".
+    "coco_dog": dict(dir="coco_dog", image_column="image", id_column="id_sample",
+                     category_column="category_id", default_out="coco_dog_runs"),
+    "coco_car": dict(dir="coco_car", image_column="image", id_column="id_sample",
+                     category_column="category_id", default_out="coco_car_runs"),
 }
 DEFAULT_DATASET = "bbq-v"
 ID_KEY = "id"                                                  # key of the id in source.json
