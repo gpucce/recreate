@@ -103,7 +103,7 @@ def prepare_dataset_from_folder_restructure(dirs: list[Path]):
     return pd.DataFrame(dataset)
 
 
-def load_data(path: str, task: str, debug: bool = False):
+def load_data(path: str, task: str, debug: bool = False) -> pd.DataFrame:
     n_debug = 3
     ext = Path(path).suffix
 
@@ -250,6 +250,11 @@ def main(args):
 
     df = load_data(args.datapath, task=args.task, debug=args.debug)
 
+    if args.min_area is not None:
+        df = df[df["area"] >= args.min_area]
+        df = df.reset_index(drop=True)
+        print(f"--- Filtered {len(df)} entities with area >= {args.min_area}\n")
+
     if _mm_gen:
         imgs = load_imgs(df.image, img_basedir=args.img_basedir)
         if args.task == "crop":
@@ -322,7 +327,7 @@ def main(args):
         } for i, row in df.iterrows() if row.type == TARGET_ENTITY]  # DEBUG: only using person for now, to avoid too many prompts
 
         # filtering images for the target entity (get the indices of the rows that match the target, keep those indices from the image list)
-        valid_indices = [i for i, row in df.iterrows() if row.type == TARGET_ENTITY]
+        valid_indices = [i for i, row in df.iterrows() if row.type == TARGET_ENTITY] 
         imgs = [imgs[i] for i in valid_indices]
         print(f"--- Filtered {len(imgs)} images for target entity '{TARGET_ENTITY}'\n")
     else:
@@ -346,8 +351,6 @@ def main(args):
     if args.debug:
         outdir = f"debug/"
     os.makedirs(outdir, exist_ok=True)
-
-
 
     if _task == "classify":
         outdir = os.path.join(outdir, "classify", _experiment_name)
@@ -424,6 +427,7 @@ if __name__ == "__main__":
     parser.add_argument("--anchored",       action="store_true", help="Run in anchored mode (only for 'restructure' task)")
     parser.add_argument("--debug",          action="store_true", help="Run in debug mode (limit number of messages for testing)")
     parser.add_argument("--parallel-size",  type=int, default=1, help="Number of parallel processes to use for generation (only for 'vllm' backend)")
+    parser.add_argument("--min-area",       type=float, default=None, help="Minimum area of the crop to consider")
     args = parser.parse_args()
 
     main(args)
