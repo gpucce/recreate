@@ -338,6 +338,7 @@ def main(args):
         batch_size=args.batch_size,
         max_new_tokens=args.max_tokens,
         loaded_llm=llm if args.anchored else None,
+        parallel_size=args.parallel_size,
         )
 
     # setting outdir
