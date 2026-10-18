@@ -10,7 +10,7 @@ from tqdm.auto import tqdm
 import pandas as pd
 
 from src.vl_engine import generate
-from src.utils import crop_images_pool, build_skeleton, parse_json_response as parse_restructure, postprocess_responses as parse_classify
+from src.utils import crop_images_pool, build_skeleton, parse_json_response as parse_restructure, postprocess_responses as parse_classify, parse_describe
 # from src.structure_description import parse_json_response as parse_restructure, build_skeleton
 
 
@@ -399,7 +399,18 @@ def main(args):
 
         df_entity = df[df.type == TARGET_ENTITY].copy()
         df_entity["llm_response"] = outputs
-        df_entity["parsed"] = [json.loads(s) for s in outputs]  # TODO
+
+        # place parsing behind try except to avoid crashing the script if parsing fails for some reason
+        # _parsed = []
+        # for s in outputs:
+        #     try:
+        #         _parsed.append(json.loads(s))
+        #     except Exception as e:
+        #         print(f"Error parsing output: {s}\nError: {e}")
+        #         _parsed.append({"error": str(e), "raw_output": s})
+        _parsed = [parse_describe(s) for s in outputs]
+        df_entity["parsed"] = _parsed
+        # df_entity["parsed"] = [json.loads(s) for s in outputs]  # TODO
 
         grouped = df_entity.groupby("folder")
         for folder, group in grouped:

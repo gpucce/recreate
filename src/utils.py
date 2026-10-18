@@ -179,3 +179,15 @@ def postprocess_responses(responses: list):
         else:
             parsed.append({"parse_ok": False, "spans": []})
     return parsed
+
+
+def parse_describe(raw: str) -> dict[str, Any]:
+    start, end = raw.find("{"), raw.rfind("}")
+    if start != -1 and end > start:
+        try:
+            parsed = json.loads(raw[start : end + 1])
+        except json.JSONDecodeError:
+            parsed = {"error": "JSONDecodeError", "raw_output": raw.strip()}
+    else:
+        parsed = {"error": "No JSON found", "raw_output": raw.strip()}
+    return parsed if isinstance(parsed, dict) else {"error": "Invalid JSON", "raw_output": raw.strip()}
