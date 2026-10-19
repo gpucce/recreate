@@ -30,7 +30,7 @@ def load_model_hf(model_name, hf_task, dtype, device):
     return pipe
 
 
-def load_model_vllm(model_name, dtype="bfloat16", device="cuda", gpu_memory_utilization=0.85, max_model_len=8417, parallel_size=1):
+def load_model_vllm(model_name, dtype="bfloat16", device="cuda", gpu_memory_utilization=0.85, max_model_len=8192, parallel_size=1):
     print(f"\nLoading vLLM model {model_name} on {device} with dtype={dtype}, gpu_memory_utilization={gpu_memory_utilization}, max_model_len={max_model_len}, parallel_size={parallel_size}\n")
     from vllm import LLM
     return LLM(

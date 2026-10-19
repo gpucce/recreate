@@ -454,7 +454,7 @@ if __name__ == "__main__":
     parser.add_argument("--debug",          action="store_true", help="Run in debug mode (limit number of messages for testing)")
     parser.add_argument("--parallel-size",  type=int, default=1, help="Number of parallel processes to use for generation (only for 'vllm' backend)")
     parser.add_argument("--min-area",       type=float, default=None, help="Minimum area of the crop to consider")
-    parser.add_argument("--vllm-max-model-len", type=int, default=8417, help="Maximum model length for vLLM backend (only for 'vllm' backend)")
+    parser.add_argument("--vllm-max-model-len", type=int, default=8192, help="Maximum model length for vLLM backend (only for 'vllm' backend)")
     args = parser.parse_args()
 
     main(args)
