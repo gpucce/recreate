@@ -37,6 +37,8 @@ def load_data(datadir: str, img_basedir: str, filter_entity: str | None = None) 
 def main(args):
     assert args.debug or args.outdir is not None, "If debug is False, outdir must be specified."
 
+    print(f"SAM3 processing:\ndataset from {args.datadir}\nwith images in {args.img_basedir}\noutdir: {args.outdir}\n")
+
     datadir = args.datadir
     img_basedir = args.img_basedir
 

@@ -24,6 +24,29 @@ restructure: |
     distinct "id" (e.g. "person_1", "person_2").
   - If the text describes several IDENTICAL instances of the same kind with shared
     attributes, use a single entry and set "count" to the number of instances.
+  - "type" MUST be a canonical, generic noun selected from the appropriate
+  entity category. Use consistent canonical types across descriptions,
+  regardless of differences in gender, age, appearance, size, breed, model,
+  or other attributes.
+  - Apply the following canonicalization rules:
+    - Use "person" for all human beings, regardless of gender, age, identity,
+      appearance, or role. Examples: man, woman, boy, girl, child, baby,
+      pedestrian, and individual must all map to "person".
+    - Use "dog" for all dogs, regardless of breed, size, or appearance.
+    - Use "cat" for all cats, regardless of breed, size, or appearance.
+    - Use "car" for all cars, regardless of make, model, body style, or size.
+    - Apply the same principle to other entity categories: use a single
+      canonical type for entities that belong to the same fundamental
+      category, and represent their differences through attributes.
+    - Never use gender, age, breed, model, or other descriptive variations
+    as the entity "type" when a canonical category exists. For example,
+    use "person", not "woman" or "man"; use "dog", not "puppy" or
+    "golden retriever"; and use "car", not "sedan" or "SUV".
+  - Canonicalization applies only to the "type" field. Preserve distinctions
+  explicitly stated in the description as attributes whenever applicable.
+  For example, a woman should have type "person" and may have
+  "gender": "female" as an attribute; a golden retriever should have
+  type "dog" and may have "breed": "golden retriever" as an attribute.
   - "type" must be a generic noun usable as a text prompt for an image segmentation
     model such as SAM3 (e.g. "person", "car", "dog", "tree", "building", "coffee cup",
     "watch", "ring"). Do not use proper names, overly specific types, or catch-all

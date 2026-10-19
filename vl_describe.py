@@ -104,7 +104,7 @@ def prepare_dataset_from_folder_restructure(dirs: list[Path]):
 
 
 def load_data(path: str, task: str, debug: bool = False) -> pd.DataFrame:
-    n_debug = 3
+    n_debug = 10
     ext = Path(path).suffix
 
     if ext == "":
@@ -286,6 +286,7 @@ def main(args):
                 batch_size=args.batch_size,
                 max_new_tokens=args.max_tokens,
                 parallel_size=args.parallel_size,
+                vllm_max_model_len=args.vllm_max_model_len
             )
 
             outputs = [parse_restructure(s) for s in outputs]
@@ -344,6 +345,7 @@ def main(args):
         max_new_tokens=args.max_tokens,
         loaded_llm=llm if args.anchored else None,
         parallel_size=args.parallel_size,
+        vllm_max_model_len=args.vllm_max_model_len
         )
 
     # setting outdir
@@ -412,9 +414,22 @@ def main(args):
         df_entity["parsed"] = _parsed
         # df_entity["parsed"] = [json.loads(s) for s in outputs]  # TODO
 
+        # save also cropped imgs to debug folder
+        if args.debug:
+            crops_outdir = os.path.join(outdir, "crops")
+            os.makedirs(crops_outdir, exist_ok=True)
+            for i, img in enumerate(imgs):
+                img.save(os.path.join(crops_outdir, f"crop_{i}.png"))
+
         grouped = df_entity.groupby("folder")
         for folder, group in grouped:
             group = group.sort_values(by=["step"])
+            if args.debug:
+                crops_outdir = os.path.join(outdir, "crops", folder)
+                os.makedirs(crops_outdir, exist_ok=True)
+                for i, row in group.iterrows():
+                    img = imgs[row.name]
+                    img.save(os.path.join(crops_outdir, f"crop_step_{row.step}_idx_{i}.png"))
             group.to_json(os.path.join(outdir, f"{folder}.entities_description.json"), orient="records", indent=2, force_ascii=False)
 
     else:
@@ -439,6 +454,7 @@ if __name__ == "__main__":
     parser.add_argument("--debug",          action="store_true", help="Run in debug mode (limit number of messages for testing)")
     parser.add_argument("--parallel-size",  type=int, default=1, help="Number of parallel processes to use for generation (only for 'vllm' backend)")
     parser.add_argument("--min-area",       type=float, default=None, help="Minimum area of the crop to consider")
+    parser.add_argument("--vllm-max-model-len", type=int, default=8192, help="Maximum model length for vLLM backend (only for 'vllm' backend)")
     args = parser.parse_args()
 
     main(args)
