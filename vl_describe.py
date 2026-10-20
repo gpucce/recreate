@@ -231,7 +231,7 @@ def construct_experiment_name(args):
         experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
     if args.task in ["restructure"]:
         assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'restructure' task"
-        text_model_name = args.model_name.replace("/", "_").replace("-", "").lower()
+        text_model_name = args.txt_model_name.replace("/", "_").replace("-", "").lower()
         img_gen_model_name = args.img_model_name.replace("/", "_").replace("-", "").lower()
         experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
     elif args.task == "classify":
