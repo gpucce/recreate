@@ -233,16 +233,17 @@ def construct_experiment_name(args):
     assert args.dataset_name is not None, "Dataset name must be provided for output directory structure"
 
     if args.task in ["crop", "restructure"]:
-        assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'describe_crop' task"
-        text_model_name = args.txt_model_name.replace("/", "_").replace("-", "").lower()
-        img_gen_model_name = args.img_model_name.replace("/", "_").replace("-", "").lower()
+        # assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'describe_crop' task"
+        # text_model_name = args.txt_model_name.replace("/", "_").replace("-", "").lower()
+        # img_gen_model_name = args.img_model_name.replace("/", "_").replace("-", "").lower()
+        text_model_name, img_gen_model_name = Path(args.datapath).name.split("_")
         experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
     elif args.task == "classify":
         # text_model_name = args.text_model_name.replace("/", "_").lower()
         experiment_name = "{args.dataset_name}"
     return experiment_name
-    
-        
+
+
 def main(args):
     _mm_gen = True if args.task in ["classify", "crop"] else False
     _task = _task_dict(args.task)
@@ -447,8 +448,8 @@ if __name__ == "__main__":
     parser.add_argument("--batch-size",     type=int, default=2, help="Batch size for generation")
     parser.add_argument("--max-tokens",     type=int, default=32, help="Maximum number of tokens to generate")
     parser.add_argument("--outdir",         type=str, default="data/new_out", help="Output directory to save results")
-    parser.add_argument("--txt-model-name", type=str, default=None, help="Text model name to use for generation (only for 'restructure' and 'describe_crop' tasks)")
-    parser.add_argument("--img-model-name", type=str, default=None, help="Image model name to use for generation (only for 'describe_crop' task)")
+    # parser.add_argument("--txt-model-name", type=str, default=None, help="Text model name to use for generation (only for 'restructure' and 'describe_crop' tasks)")
+    # parser.add_argument("--img-model-name", type=str, default=None, help="Image model name to use for generation (only for 'describe_crop' task)")
     parser.add_argument("--dataset-name",   type=str, default=None, help="Dataset name to use for output directory structure")
     parser.add_argument("--anchored",       action="store_true", help="Run in anchored mode (only for 'restructure' task)")
     parser.add_argument("--debug",          action="store_true", help="Run in debug mode (limit number of messages for testing)")
