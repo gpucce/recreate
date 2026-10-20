@@ -232,15 +232,16 @@ def _task_dict(task):
 def construct_experiment_name(args):
     assert args.dataset_name is not None, "Dataset name must be provided for output directory structure"
 
-    if args.task in ["crop", "restructure"]:
-        # assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'describe_crop' task"
-        # text_model_name = args.txt_model_name.replace("/", "_").replace("-", "").lower()
-        # img_gen_model_name = args.img_model_name.replace("/", "_").replace("-", "").lower()
+    if args.task in ["crop"]:
         text_model_name, img_gen_model_name = Path(args.datapath).name.split("_")
         experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
+    if args.task in ["restructure"]:
+        assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'restructure' task"
+        text_model_name = args.model_name.replace("/", "_").replace("-", "").lower()
+        img_gen_model_name = args.img_model_name.replace("/", "_").replace("-", "").lower()
+        experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
     elif args.task == "classify":
-        # text_model_name = args.text_model_name.replace("/", "_").lower()
-        experiment_name = "{args.dataset_name}"
+        experiment_name = f"{args.dataset_name}"
     return experiment_name
 
 
