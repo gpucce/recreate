@@ -17,8 +17,16 @@ Input: a dataset directory of runs (or the runs themselves), in either layout:
 
     per-step files, one run directory per image:
         data/outputs/entities_descriptions/vlstereoset/image_00002/image_0.visual_entities.fine.json
-    template files, one JSON per run holding a list of {step, entity_type, box, response, parsed}:
+    per-run files, one JSON (list) or JSON Lines file per run, each record carrying its step:
         data/debug.template/entities_descriptions/vlstereoset/vlstereoset.image_00002.json
+        data/outputs/entities_descriptions/vlstereoset/qwen3827b_zimage/image_01139.person.json
+
+Experiments: the suffix between "image_<n>." and ".json" names the experiment
+("visual_entities.fine", "person", ...); per-run files without a suffix are the
+"template" experiment. Each experiment is aggregated separately, so files with
+different suffixes are never pooled. Records may use the fine schema
+({type, attributes, description}) or the template schema ({entity_type, parsed,
+response}); records with neither (plain detections) count only toward entity types.
 
 Choices:
     Keys are scoped by entity type ("person / clothing.shirt") unless --pool-types,
@@ -37,19 +45,27 @@ Choices:
     (template files: from their raw response). In template files, null attributes are
     dropped, so they count neither as a value nor as key coverage.
 
-Outputs (under --out, default <dataset>/../attribute_stats/<dataset name>):
+Outputs (under <out>/<experiment>/, --out defaulting to <dataset>/../attribute_stats/<dataset name>):
     attribute_proportions.csv   one row per (step, type, key, value)
     entity_types.csv            per step: entity type counts, proportion of entities,
                                 fraction of images containing that type, and the
                                 ';'-separated paths of the runs (directories or
                                 template files) whose image contains it
     key_coverage.csv            per step: how many entities / images have each key
+    attribute_distributions.pdf        one row per entity type, one panel per attribute: a 100%
+                                       stacked bar of value shares per step (top --plot-top-values
+                                       values, the rest folded into "other"; n above each bar)
+    attribute_distributions_lines.pdf  the same panels as one line per value
+    The plots need matplotlib; --no-plot skips them. Rows are the --type types (default the
+    --plot-n-types types with most counts), panels the --key keys (default the
+    --plot-keys-per-type keys with most counts), both laid out alphabetically.
 
 Usage:
     python content_convergence/aggregate_scene_description_attributes.py data/outputs/entities_descriptions/vlstereoset
     python content_convergence/aggregate_scene_description_attributes.py data/outputs/entities_descriptions/vlstereoset --per-image --tokens
     python content_convergence/aggregate_scene_description_attributes.py data/outputs/entities_descriptions/vlstereoset --type person --key clothing.shirt
     python content_convergence/aggregate_scene_description_attributes.py data/debug.template/entities_descriptions/vlstereoset
+    python content_convergence/aggregate_scene_description_attributes.py data/outputs/entities_descriptions/vlstereoset/qwen3827b_zimage --experiment person
 """
 from __future__ import annotations
 
@@ -64,32 +80,55 @@ from typing import Dict, List, Optional, Tuple
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from compare_scene_description_entities import (  # noqa: E402
-    FINE_SUFFIX, available_steps, flatten, load_step, normalize_type)
+    flatten, load_step, normalize_type, recover_attributes)
 
-TEMPLATE_RE = re.compile(r"^(?:.+\.)?image_\d+\.json$")   # e.g. vlstereoset.image_00002.json
+STEP_FILE_RE = re.compile(r"^image_(\d+)\.(.+)\.json$")                # image_<step>.<experiment>.json in a run dir
+RUN_FILE_RE = re.compile(r"^(?:[^.]+\.)?image_\d+(?:\.(.+))?\.json$")   # [<dataset>.]image_<row>[.<experiment>].json
+RUN_DIR_RE = re.compile(r"^image_\d+$")
+TEMPLATE_EXPERIMENT = "template"                                        # per-run files with no experiment suffix
 TOKEN_RE = re.compile(r"[a-z0-9]+")
 STOPWORDS = {"a", "an", "the", "and", "or", "of", "with", "in", "on", "at", "to", "is", "its"}
 POOLED = "*"
 
 
-def is_template_file(p: Path) -> bool:
-    return p.is_file() and TEMPLATE_RE.match(p.name) is not None and not p.name.endswith(FINE_SUFFIX)
+def step_experiments(run_dir: Path) -> List[str]:
+    """Experiment names of the per-step files in a run directory (e.g. "visual_entities.fine")."""
+    return sorted({m.group(2) for p in run_dir.iterdir() if (m := STEP_FILE_RE.match(p.name))})
 
 
-def find_runs(paths: List[Path]) -> List[Path]:
-    """Accept runs (per-step directories or template files) and/or dataset directories containing them."""
-    runs = []
+def run_file_experiment(p: Path) -> Optional[str]:
+    m = RUN_FILE_RE.match(p.name) if p.is_file() else None
+    return (m.group(1) or TEMPLATE_EXPERIMENT) if m else None
+
+
+def find_runs(paths: List[Path]) -> Dict[str, List[Path]]:
+    """experiment -> runs. Accepts runs (per-step directories image_<row>/ or per-run files) and/or
+    dataset directories containing them. A run directory yields one run per file suffix it holds."""
+    runs: Dict[str, List[Path]] = defaultdict(list)
+
+    def add(p: Path) -> None:
+        if p.is_dir() and RUN_DIR_RE.match(p.name):
+            for exp in step_experiments(p):
+                runs[exp].append(p)
+        elif (exp := run_file_experiment(p)) is not None:
+            runs[exp].append(p)
+
     for p in paths:
-        if is_template_file(p):
-            runs.append(p)
-        elif not p.is_dir():
-            continue
-        elif any(p.glob("image_*" + FINE_SUFFIX)):
-            runs.append(p)
+        if p.is_dir() and not RUN_DIR_RE.match(p.name):
+            for child in sorted(p.iterdir()):
+                add(child)
         else:
-            runs += sorted(d for d in p.iterdir() if (d.is_dir() and any(d.glob("image_*" + FINE_SUFFIX)))
-                           or is_template_file(d))
-    return runs
+            add(p)
+    return dict(sorted(runs.items()))
+
+
+def read_records(path: Path):
+    """A JSON document, or JSON Lines."""
+    text = path.read_text()
+    try:
+        return json.loads(text)
+    except ValueError:
+        return [json.loads(line) for line in text.splitlines() if line.strip()]
 
 
 def template_attributes(rec: Dict) -> Dict[str, str]:
@@ -105,15 +144,35 @@ def template_attributes(rec: Dict) -> Dict[str, str]:
     return {k: v for k, v in flatten(attrs).items() if v.strip()}
 
 
-def load_run(run: Path, normalize: bool) -> Dict[int, List[Dict]]:
+def record_entity(rec: Dict, normalize: bool) -> Dict:
+    """One entity record of either schema: fine ({type, attributes, description}) or
+    template ({entity_type, parsed, response}). Records with neither (plain detections) get no attributes."""
+    if "attributes" in rec or "description" in rec:
+        attrs = flatten(recover_attributes(rec))
+    else:
+        attrs = template_attributes(rec)
+    return {"type": normalize_type(rec.get("entity_type") or rec["type"], normalize), "attributes": attrs}
+
+
+def load_run(run: Path, experiment: str, normalize: bool) -> Dict[int, List[Dict]]:
     """step -> entities ({"type", "attributes"}), for either layout."""
     if run.is_dir():
-        return {step: load_step(path, normalize) for step, path in available_steps(run).items()}
-    steps: Dict[int, List[Dict]] = defaultdict(list)
-    for rec in json.loads(run.read_text()):
-        steps[int(rec["step"])].append({"type": normalize_type(rec["entity_type"], normalize),
-                                        "attributes": template_attributes(rec)})
-    return dict(sorted(steps.items()))
+        steps = {}
+        for p in run.glob("image_*." + experiment + ".json"):
+            m = STEP_FILE_RE.match(p.name)
+            if not m or m.group(2) != experiment:
+                continue
+            data = read_records(p)
+            if isinstance(data, dict):
+                steps[int(m.group(1))] = load_step(p, normalize)
+            else:
+                steps[int(m.group(1))] = [record_entity(r, normalize) for r in data]
+        return dict(sorted(steps.items()))
+    data = read_records(run)
+    by_step: Dict[int, List[Dict]] = defaultdict(list)
+    for rec in [data] if isinstance(data, dict) else data:      # a one-line JSONL file parses as one record
+        by_step[int(rec["step"])].append(record_entity(rec, normalize))
+    return dict(sorted(by_step.items()))
 
 
 def value_units(value: str, use_tokens: bool) -> List[str]:
@@ -123,30 +182,122 @@ def value_units(value: str, use_tokens: bool) -> List[str]:
     return [t for t in TOKEN_RE.findall(v) if t not in STOPWORDS]
 
 
-def main(argv: Optional[List[str]] = None) -> int:
-    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0], epilog=__doc__,
-                                 formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("paths", type=Path, nargs="+", help="dataset directory or run directories")
-    ap.add_argument("--out", type=Path, default=None, help="output directory for the CSVs")
-    ap.add_argument("--pool-types", action="store_true", help="merge the same key across entity types")
-    ap.add_argument("--tokens", action="store_true", help="count words of values instead of whole values")
-    ap.add_argument("--per-image", action="store_true",
-                    help="count each value at most once per image per (type, key)")
-    ap.add_argument("--no-normalize", action="store_true", help="use raw entity type names")
-    ap.add_argument("--type", action="append", default=[], help="only print these entity types")
-    ap.add_argument("--key", action="append", default=[], help="only print these attribute keys")
-    ap.add_argument("--top", type=int, default=5, help="values printed per (step, type, key)")
-    ap.add_argument("--min-total", type=int, default=5,
-                    help="only print (step, type, key) groups with at least this many counts")
-    ap.add_argument("--no-print", action="store_true", help="only write the CSVs")
-    args = ap.parse_args(argv)
+# Categorical palette in fixed order (blue, orange, aqua, yellow, magenta, green, violet), gray for "other".
+PALETTE = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7"]
+OTHER_COLOR = "#c4c4c4"
+OTHER = "other"
+
+
+def panel_table(values: Dict[Tuple[int, str, str], Counter], steps: List[int], etype: str, key: str,
+                top_values: int, min_step_total: int) -> Tuple[Dict[str, List[float]], List[int], List[str]]:
+    """value -> share per step (NaN when the step has < min_step_total counts), totals per step, top values.
+    The top values (by count over all steps) keep a fixed order; the rest are folded into "other"."""
+    overall: Counter = Counter()
+    for step in steps:
+        overall.update(values.get((step, etype, key), {}))
+    top = [v for v, _ in overall.most_common(top_values)]
+    columns = top + ([OTHER] if len(overall) > len(top) else [])
+    props: Dict[str, List[float]] = {col: [] for col in columns}
+    totals = []
+    for step in steps:
+        c = values.get((step, etype, key), Counter())
+        total = sum(c.values())
+        totals.append(total)
+        counts = {v: c[v] for v in top}
+        if OTHER in props:
+            counts[OTHER] = total - sum(counts.values())
+        for col in columns:
+            props[col].append(counts[col] / total if total >= min_step_total and total else float("nan"))
+    return props, totals, top
+
+
+def plot_distributions(values: Dict[Tuple[int, str, str], Counter], args: argparse.Namespace, out: Path,
+                       title: str) -> None:
+    """Write attribute_distributions.pdf (stacked bars) and attribute_distributions_lines.pdf."""
+    import matplotlib
+    matplotlib.use("Agg")
+    import matplotlib.pyplot as plt
+    from matplotlib.patches import Patch
+
     normalize = not args.no_normalize
+    top_values = min(args.plot_top_values, len(PALETTE))
+    steps = sorted({step for step, _, _ in values})
+    group_tot: Counter = Counter()
+    type_tot: Counter = Counter()
+    for (_, etype, key), c in values.items():
+        group_tot[etype, key] += sum(c.values())
+        type_tot[etype] += sum(c.values())
+    # Pick types/keys by count, but lay them out alphabetically so panels line up across runs.
+    if args.type:
+        types = [t for t in dict.fromkeys(normalize_type(t, normalize) for t in args.type) if t in type_tot]
+    else:
+        types = sorted(t for t, _ in type_tot.most_common(args.plot_n_types))
+    panels = {}
+    for t in types:
+        keys = [k for (et, k), _ in group_tot.most_common() if et == t and (not args.key or k in args.key)]
+        if keys:
+            panels[t] = sorted(keys[:args.plot_keys_per_type])
+    if not panels:
+        print(f"no attribute values to plot in {out}", file=sys.stderr)
+        return
 
-    runs = find_runs(args.paths)
-    if not runs:
-        print("no runs with *" + FINE_SUFFIX + " or *.image_<row>.json found", file=sys.stderr)
-        return 1
+    nrows, ncols = len(panels), max(len(k) for k in panels.values())
+    xticks = steps[::max(1, len(steps) // 8)]
+    for kind, name in (("bars", "attribute_distributions.pdf"), ("lines", "attribute_distributions_lines.pdf")):
+        fig, axes = plt.subplots(nrows, ncols, figsize=(3.6 * ncols, 3.9 * nrows), squeeze=False,
+                                 sharey=True, layout="constrained")
+        for r, (etype, keys) in enumerate(panels.items()):
+            for c in range(ncols):
+                ax = axes[r, c]
+                if c >= len(keys):
+                    ax.set_visible(False)
+                    continue
+                props, totals, top = panel_table(values, steps, etype, keys[c], top_values,
+                                                 args.plot_min_step_total)
+                colors = PALETTE[:len(top)] + [OTHER_COLOR] * (len(props) - len(top))
+                if kind == "bars":
+                    bottom = [0.0] * len(steps)
+                    for (col, shares), color in zip(props.items(), colors):
+                        h = [0.0 if x != x else x for x in shares]          # NaN -> no bar
+                        ax.bar(steps, h, bottom=bottom, width=0.85, color=color, edgecolor="white",
+                               linewidth=0.6)
+                        bottom = [b + x for b, x in zip(bottom, h)]
+                    handles = [Patch(color=k) for k in colors]
+                    ax.set_ylim(0, 1.0)
+                else:
+                    for (col, shares), color in zip(props.items(), colors):
+                        other = col == OTHER and col not in top
+                        ax.plot(steps, shares, color=color, linewidth=1.5 if other else 2,
+                                linestyle="--" if other else "-", marker="o", markersize=3)
+                    handles = ax.get_lines()
+                    ax.set_ylim(0, 1.02)
+                    ax.grid(axis="y", color="#e5e5e5", linewidth=0.6)
+                    ax.set_axisbelow(True)
+                for step, n in zip(steps, totals):
+                    if n and n >= args.plot_min_step_total:
+                        ax.text(step, 1.01 if kind == "bars" else 1.03, str(n), ha="center", va="bottom",
+                                fontsize=6, color="#666666")
+                ax.set_title(f"{etype} / {keys[c]}", fontsize=9, pad=12)
+                ax.set_xticks(xticks)
+                ax.tick_params(labelsize=7, length=0)
+                for side in ("top", "right", "left"):
+                    ax.spines[side].set_visible(False)
+                ax.spines["bottom"].set_color("#999999")
+                if c == 0:
+                    ax.set_ylabel("share of counts", fontsize=8)
+                if r == nrows - 1:
+                    ax.set_xlabel("generation step", fontsize=8)
+                labels = [v if len(v) <= 22 else v[:21] + "…" for v in props]
+                ax.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, -0.12), ncol=2,
+                          fontsize=6.5, frameon=False, handlelength=1 if kind == "bars" else 1.5,
+                          columnspacing=0.8)
+        fig.suptitle(f"Attribute value distributions per generation step — {title}", fontsize=12)
+        fig.savefig(out / name, dpi=150, bbox_inches="tight")
+        plt.close(fig)
 
+
+def aggregate(runs: List[Path], experiment: str, args: argparse.Namespace, out: Path) -> None:
+    normalize = not args.no_normalize
     values: Dict[Tuple[int, str, str], Counter] = defaultdict(Counter)     # (step, type, key) -> value counts
     key_ents: Dict[Tuple[int, str, str], int] = Counter()                  # entities having the key
     key_imgs: Dict[Tuple[int, str, str], int] = Counter()                  # images having the key
@@ -157,7 +308,7 @@ def main(argv: Optional[List[str]] = None) -> int:
     n_entities: Dict[int, int] = Counter()
 
     for run in runs:
-        for step, ents in load_run(run, normalize).items():
+        for step, ents in load_run(run, experiment, normalize).items():
             n_images[step] += 1
             n_entities[step] += len(ents)
             seen_units, seen_keys, seen_types = set(), set(), set()
@@ -181,7 +332,6 @@ def main(argv: Optional[List[str]] = None) -> int:
                 type_imgs[step, t] += 1
                 type_runs[step, t].append(run.as_posix())
 
-    out = args.out or args.paths[0].resolve().parent / "attribute_stats" / args.paths[0].resolve().name
     out.mkdir(parents=True, exist_ok=True)
 
     with open(out / "attribute_proportions.csv", "w", newline="") as f:
@@ -209,6 +359,7 @@ def main(argv: Optional[List[str]] = None) -> int:
                         round(key_imgs[step, etype, key] / n_images[step], 4)])
 
     if not args.no_print:
+        print(f"######## experiment {experiment}")
         types = {normalize_type(t, normalize) for t in args.type}
         by_group: Dict[Tuple[str, str], List[int]] = defaultdict(list)
         for step, etype, key in sorted(values):
@@ -228,7 +379,56 @@ def main(argv: Optional[List[str]] = None) -> int:
                 print(f"== {etype} / {key}")
                 print("\n".join(lines))
 
-    print(f"{len(runs)} runs, steps {min(n_images)}..{max(n_images)} -> wrote {out}", file=sys.stderr)
+    if not args.no_plot:
+        try:
+            plot_distributions(values, args, out, f"{out.parent.name} / {experiment}")
+        except ImportError as e:
+            print(f"skipping plots ({e}); install matplotlib or pass --no-plot", file=sys.stderr)
+
+    steps = f"steps {min(n_images)}..{max(n_images)}" if n_images else "no steps"
+    print(f"[{experiment}] {len(runs)} runs, {steps} -> wrote {out}", file=sys.stderr)
+
+
+def main(argv: Optional[List[str]] = None) -> int:
+    ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0], epilog=__doc__,
+                                 formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("paths", type=Path, nargs="+", help="dataset directory or run directories")
+    ap.add_argument("--out", type=Path, default=None,
+                    help="output root; each experiment writes its CSVs to <out>/<experiment>/")
+    ap.add_argument("--experiment", action="append", default=[],
+                    help="only aggregate these experiments (file suffixes, e.g. person, visual_entities.fine)")
+    ap.add_argument("--pool-types", action="store_true", help="merge the same key across entity types")
+    ap.add_argument("--tokens", action="store_true", help="count words of values instead of whole values")
+    ap.add_argument("--per-image", action="store_true",
+                    help="count each value at most once per image per (type, key)")
+    ap.add_argument("--no-normalize", action="store_true", help="use raw entity type names")
+    ap.add_argument("--type", action="append", default=[], help="only print / plot these entity types")
+    ap.add_argument("--key", action="append", default=[], help="only print / plot these attribute keys")
+    ap.add_argument("--top", type=int, default=5, help="values printed per (step, type, key)")
+    ap.add_argument("--min-total", type=int, default=5,
+                    help="only print (step, type, key) groups with at least this many counts")
+    ap.add_argument("--no-print", action="store_true", help="do not print the value tables")
+    ap.add_argument("--no-plot", action="store_true", help="do not write the PDF plots")
+    ap.add_argument("--plot-n-types", type=int, default=4,
+                    help="entity types plotted (most counts) when --type is not given")
+    ap.add_argument("--plot-keys-per-type", type=int, default=10, help="attributes plotted per entity type")
+    ap.add_argument("--plot-top-values", type=int, default=7,
+                    help=f"values shown per panel, at most {len(PALETTE)}; the rest become 'other'")
+    ap.add_argument("--plot-min-step-total", type=int, default=1,
+                    help="hide a step's bar when it has fewer counts than this")
+    args = ap.parse_args(argv)
+
+    experiments = find_runs(args.paths)
+    if args.experiment:
+        experiments = {e: r for e, r in experiments.items() if e in args.experiment}
+    if not experiments:
+        print("no runs found (image_<row>/image_<step>.<experiment>.json or [<dataset>.]image_<row>[.<experiment>].json)",
+              file=sys.stderr)
+        return 1
+
+    out_root = args.out or args.paths[0].resolve().parent / "attribute_stats" / args.paths[0].resolve().name
+    for experiment, runs in experiments.items():
+        aggregate(runs, experiment, args, out_root / experiment)
     return 0
 
 
