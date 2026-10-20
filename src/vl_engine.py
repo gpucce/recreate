@@ -40,6 +40,7 @@ def load_model_vllm(model_name, dtype="bfloat16", device="cuda", gpu_memory_util
         max_model_len=max_model_len,
         tensor_parallel_size=parallel_size,
         trust_remote_code=True,
+        # enforce_eager=True
     )
 
 

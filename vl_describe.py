@@ -11,7 +11,6 @@ import pandas as pd
 
 from src.vl_engine import generate
 from src.utils import crop_images_pool, build_skeleton, parse_json_response as parse_restructure, postprocess_responses as parse_classify, parse_describe
-# from src.structure_description import parse_json_response as parse_restructure, build_skeleton
 
 
 def _load_dataset_folder(path: str):
@@ -20,18 +19,13 @@ def _load_dataset_folder(path: str):
     dirs = sorted([Path(path, d) for d in dirs if Path(path, d).is_dir()])
     return dirs
 
+
 def prepare_dataset_from_path(path: Path):
     files = sorted([f for f in path.iterdir() if f.name.endswith(".json")])
 
     dataset = []
     for f in files:
-        # open jsonl file
         data = pd.read_json(f, orient="records", lines=True)
-        # with open(f, "r") as fin:
-        #     data = json.load(fin)
-        #     detected = data["detections"]
-
-        # for elem in detected:
         for _, elem in data.iterrows():
             area = (elem["box"][2] - elem["box"][0]) * (elem["box"][3] - elem["box"][1])
             dataset.append(
@@ -232,17 +226,19 @@ def _task_dict(task):
 def construct_experiment_name(args):
     assert args.dataset_name is not None, "Dataset name must be provided for output directory structure"
 
-    if args.task in ["crop", "restructure"]:
-        assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'describe_crop' task"
+    if args.task in ["crop"]:
+        text_model_name, img_gen_model_name = Path(args.datapath).name.split("_")
+        experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
+    if args.task in ["restructure"]:
+        assert args.txt_model_name is not None and args.img_model_name is not None, "Both text and image model names must be provided for 'restructure' task"
         text_model_name = args.txt_model_name.replace("/", "_").replace("-", "").lower()
         img_gen_model_name = args.img_model_name.replace("/", "_").replace("-", "").lower()
         experiment_name = f"{args.dataset_name}/{text_model_name}_{img_gen_model_name}"
     elif args.task == "classify":
-        # text_model_name = args.text_model_name.replace("/", "_").lower()
-        experiment_name = "{args.dataset_name}"
+        experiment_name = f"{args.dataset_name}"
     return experiment_name
-    
-        
+
+
 def main(args):
     _mm_gen = True if args.task in ["classify", "crop"] else False
     _task = _task_dict(args.task)
@@ -388,10 +384,7 @@ def main(args):
         print(f"Saving outputs to folder: {outdir}")
 
         grouped = df_response.groupby("folder")
-        # storing results by image_folder, with each folder containing a scene.anchored.json file with the results for all steps
         for folder, group in grouped:
-            # outdir_file = os.path.join(outdir, folder)
-            # os.makedirs(outdir_file, exist_ok=True)
             group.to_json(os.path.join(outdir, f"{folder}.scene_description.anchored.json"), orient="records", indent=2, force_ascii=False)
 
     elif _task == "describe_crop":
@@ -402,17 +395,8 @@ def main(args):
         df_entity = df[df.type == TARGET_ENTITY].copy()
         df_entity["llm_response"] = outputs
 
-        # place parsing behind try except to avoid crashing the script if parsing fails for some reason
-        # _parsed = []
-        # for s in outputs:
-        #     try:
-        #         _parsed.append(json.loads(s))
-        #     except Exception as e:
-        #         print(f"Error parsing output: {s}\nError: {e}")
-        #         _parsed.append({"error": str(e), "raw_output": s})
         _parsed = [parse_describe(s) for s in outputs]
         df_entity["parsed"] = _parsed
-        # df_entity["parsed"] = [json.loads(s) for s in outputs]  # TODO
 
         # save also cropped imgs to debug folder
         if args.debug:
