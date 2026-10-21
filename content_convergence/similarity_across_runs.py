@@ -9,6 +9,7 @@ in <out>/experiments/<experiment>/:
 Averages over experiments are saved in <out> as average_<name>.csv/.npy
 (only experiments with the modal shape; paired curves are averaged per step).
 Both runs are embedded with the same models, so values are comparable.
+--embedder embeddinggemma2 embeds images and prompts with EmbeddingGemma 2 instead.
 Existing tables are skipped unless --recompute is given.
 """
 import argparse
@@ -21,8 +22,8 @@ import torch
 from transformers import AutoModel, AutoTokenizer, CLIPModel, CLIPProcessor
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from similarity_matrices import (MODEL, TEXT_MODEL, embed_images, embed_texts,  # noqa: E402
-                                 idx, save)
+from similarity_matrices import (EMBEDDERS, MODEL, TEXT_MODEL, embed_images,  # noqa: E402
+                                 embed_texts, gemma_images, gemma_texts, idx, load_gemma)
 
 EXP_DIR = "experiments"
 KINDS = ("images", "prompts")
@@ -75,10 +76,12 @@ def main():
     ap.add_argument("--runs-b", required=True, help="second run dir containing image_* experiments")
     ap.add_argument("--out", required=True)
     ap.add_argument("--recompute", action="store_true")
+    ap.add_argument("--embedder", choices=EMBEDDERS, default="clip_qwen3",
+                    help="clip_qwen3: CLIP images + Qwen3 prompts; embeddinggemma2: both with EmbeddingGemma 2")
     a = ap.parse_args()
     out_root = Path(a.out)
 
-    model = proc = tmodel = tok = None
+    model = proc = tmodel = tok = gmodel = None
     dev = "cuda" if torch.cuda.is_available() else "cpu"
     exps = []
     for ea in sorted(Path(a.runs_a).glob("image_*")):
@@ -101,7 +104,12 @@ def main():
 
         for kind in todo:
             fa, fb = files[kind]
-            if kind == "images":
+            if a.embedder == "embeddinggemma2":
+                if gmodel is None:
+                    gmodel = load_gemma(dev)
+                fn = gemma_images if kind == "images" else gemma_texts
+                ea_, eb_ = (fn(gmodel, f) for f in (fa, fb))
+            elif kind == "images":
                 if model is None:
                     model = CLIPModel.from_pretrained(MODEL).to(dev).eval()
                     proc = CLIPProcessor.from_pretrained(MODEL)

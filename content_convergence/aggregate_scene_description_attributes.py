@@ -44,6 +44,10 @@ Choices:
     Entities whose attributes failed to parse are recovered from their description
     (template files: from their raw response). In template files, null attributes are
     dropped, so they count neither as a value nor as key coverage.
+    Small entities are dropped before anything is counted: an entity whose bounding box
+    area (w x h, from "bbox"/"box", else the record's "area") is below --min-area px^2
+    (default 128 x 128) is ignored everywhere, entity types included. Entities without
+    a box are kept; --min-area 0 keeps everything.
 
 Outputs (under <out>/<experiment>/, --out defaulting to <dataset>/../attribute_stats/<dataset name>):
     attribute_proportions.csv   one row per (step, type, key, value)
@@ -89,6 +93,7 @@ TEMPLATE_EXPERIMENT = "template"                                        # per-ru
 TOKEN_RE = re.compile(r"[a-z0-9]+")
 STOPWORDS = {"a", "an", "the", "and", "or", "of", "with", "in", "on", "at", "to", "is", "its"}
 POOLED = "*"
+DEFAULT_MIN_AREA = 256 * 256 # px^2
 
 
 def step_experiments(run_dir: Path) -> List[str]:
@@ -151,7 +156,21 @@ def record_entity(rec: Dict, normalize: bool) -> Dict:
         attrs = flatten(recover_attributes(rec))
     else:
         attrs = template_attributes(rec)
-    return {"type": normalize_type(rec.get("entity_type") or rec["type"], normalize), "attributes": attrs}
+    return {"type": normalize_type(rec.get("entity_type") or rec["type"], normalize), "attributes": attrs,
+            "box": rec.get("bbox") or rec.get("box"), "area": rec.get("area")}
+
+
+def entity_area(e: Dict) -> Optional[float]:
+    """Bounding box area in px^2 (w x h of the box, else the record's "area"); None without either."""
+    box = e.get("box")
+    if box and len(box) == 4:
+        return max(0.0, float(box[2]) - float(box[0])) * max(0.0, float(box[3]) - float(box[1]))
+    return float(e["area"]) if e.get("area") is not None else None
+
+
+def large_enough(e: Dict, min_area: float) -> bool:
+    area = entity_area(e)
+    return area is None or area >= min_area
 
 
 def load_run(run: Path, experiment: str, normalize: bool) -> Dict[int, List[Dict]]:
@@ -306,9 +325,14 @@ def aggregate(runs: List[Path], experiment: str, args: argparse.Namespace, out: 
     type_runs: Dict[Tuple[int, str], List[str]] = defaultdict(list)       # paths of runs whose image has the type
     n_images: Dict[int, int] = Counter()
     n_entities: Dict[int, int] = Counter()
+    n_small = n_unboxed = 0
 
     for run in runs:
         for step, ents in load_run(run, experiment, normalize).items():
+            n_unboxed += sum(entity_area(e) is None for e in ents)
+            kept = [e for e in ents if large_enough(e, args.min_area)]
+            n_small += len(ents) - len(kept)
+            ents = kept
             n_images[step] += 1
             n_entities[step] += len(ents)
             seen_units, seen_keys, seen_types = set(), set(), set()
@@ -386,7 +410,9 @@ def aggregate(runs: List[Path], experiment: str, args: argparse.Namespace, out: 
             print(f"skipping plots ({e}); install matplotlib or pass --no-plot", file=sys.stderr)
 
     steps = f"steps {min(n_images)}..{max(n_images)}" if n_images else "no steps"
-    print(f"[{experiment}] {len(runs)} runs, {steps} -> wrote {out}", file=sys.stderr)
+    print(f"[{experiment}] {len(runs)} runs, {steps}, {sum(n_entities.values())} entities kept, {n_small} "
+          f"dropped with box area < {args.min_area:g} px^2, {n_unboxed} without a box (kept) -> wrote {out}",
+          file=sys.stderr)
 
 
 def main(argv: Optional[List[str]] = None) -> int:
@@ -402,6 +428,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--per-image", action="store_true",
                     help="count each value at most once per image per (type, key)")
     ap.add_argument("--no-normalize", action="store_true", help="use raw entity type names")
+    ap.add_argument("--min-area", type=float, default=DEFAULT_MIN_AREA,
+                    help="drop entities whose bounding box area is below this many px^2 "
+                         "(default: %(default)g = 128 x 128; 0 keeps all)")
     ap.add_argument("--type", action="append", default=[], help="only print / plot these entity types")
     ap.add_argument("--key", action="append", default=[], help="only print / plot these attribute keys")
     ap.add_argument("--top", type=int, default=5, help="values printed per (step, type, key)")
