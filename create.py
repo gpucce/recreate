@@ -225,9 +225,16 @@ def load_diffusion_pipeline(pipeline_cls: Any, model_id: str, dtype: Any) -> Any
 
 
 def load_text2image_pipeline(model_id: str, device: str, dtype: Any) -> Any:
-    from diffusers import AutoPipelineForText2Image
+    from diffusers import AutoPipelineForText2Image, DiffusionPipeline
 
-    pipe = load_diffusion_pipeline(AutoPipelineForText2Image, model_id, dtype)
+    try:
+        pipe = load_diffusion_pipeline(AutoPipelineForText2Image, model_id, dtype)
+    except ValueError as exc:
+        # Pipelines AutoPipeline has no text2image mapping for (e.g. QwenImage21Pipeline):
+        # load the class named in the model's model_index.json instead.
+        if "AutoPipeline can't find a pipeline linked to" not in str(exc):
+            raise
+        pipe = load_diffusion_pipeline(DiffusionPipeline, model_id, dtype)
 
     if hasattr(pipe, "enable_attention_slicing"):
         pipe.enable_attention_slicing()
@@ -301,6 +308,9 @@ def generate_images(
     # otherwise fall back to the generic guidance_scale kwarg.
     if _pipeline_accepts_kwarg(pipe, "true_cfg_scale"):
         call_kwargs["true_cfg_scale"] = guidance_scale
+        # Qwen-Image 2.1 has no guidance_scale at all; Qwen-Image still gets it as before.
+        if not _pipeline_accepts_kwarg(pipe, "guidance_scale"):
+            del call_kwargs["guidance_scale"]
     else:
         call_kwargs["guidance_scale"] = guidance_scale
  

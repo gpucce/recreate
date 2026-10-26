@@ -60,6 +60,13 @@ Outputs (under <out>/<experiment>/, --out defaulting to <dataset>/../attribute_s
                                        stacked bar of value shares per step (top --plot-top-values
                                        values, the rest folded into "other"; n above each bar)
     attribute_distributions_lines.pdf  the same panels as one line per value
+    panels/<bars|lines>/<type>__<key>.pdf         each panel of the two plots above as its own PDF
+    panels/<bars|lines>/<type>__<key>.legend.pdf  its legend, saved separately (three columns when the
+                                                  panel has more than two values)
+    Each (type, key) panel stacks its values in one order, with one color per value, shared by every
+    run through value_order.json (next to the experiment folders, by default attribute_stats/value_order.json;
+    --value-order to choose it): values already in it keep their place and color, new ones are appended.
+    The order is therefore the order in which values were first plotted; delete the file to rebuild it.
     The plots need matplotlib; --no-plot skips them. Rows are the --type types (default the
     --plot-n-types types with most counts), panels the --key keys (default the
     --plot-keys-per-type keys with most counts), both laid out alphabetically.
@@ -203,18 +210,30 @@ def value_units(value: str, use_tokens: bool) -> List[str]:
 
 # Categorical palette in fixed order (blue, orange, aqua, yellow, magenta, green, violet), gray for "other".
 PALETTE = ["#2a78d6", "#eb6834", "#1baf7a", "#eda100", "#e87ba4", "#008300", "#4a3aa7"]
+# Further colors for values that come later in the shared value order (see --value-order).
+EXTRA_PALETTE = ["#8c564b", "#17becf", "#bcbd22", "#d62728", "#1f3b73", "#a6611a", "#5ab4ac", "#b2182b",
+                 "#7570b3", "#66a61e", "#e6ab02", "#a6761d", "#e7298a"]
+COLORS = PALETTE + EXTRA_PALETTE
 OTHER_COLOR = "#c4c4c4"
 OTHER = "other"
 
 
+def value_color(order: List[str], value: str) -> str:
+    return COLORS[order.index(value) % len(COLORS)]
+
+
 def panel_table(values: Dict[Tuple[int, str, str], Counter], steps: List[int], etype: str, key: str,
-                top_values: int, min_step_total: int) -> Tuple[Dict[str, List[float]], List[int], List[str]]:
+                top_values: int, min_step_total: int,
+                order: List[str]) -> Tuple[Dict[str, List[float]], List[int], List[str]]:
     """value -> share per step (NaN when the step has < min_step_total counts), totals per step, top values.
-    The top values (by count over all steps) keep a fixed order; the rest are folded into "other"."""
+    The top values (by count over all steps) are laid out in the shared `order` of this (type, key), which
+    is extended in place with values not seen before; the rest are folded into "other"."""
     overall: Counter = Counter()
     for step in steps:
         overall.update(values.get((step, etype, key), {}))
     top = [v for v, _ in overall.most_common(top_values)]
+    order.extend(v for v in top if v not in order)
+    top.sort(key=order.index)
     columns = top + ([OTHER] if len(overall) > len(top) else [])
     props: Dict[str, List[float]] = {col: [] for col in columns}
     totals = []
@@ -236,10 +255,9 @@ def plot_distributions(values: Dict[Tuple[int, str, str], Counter], args: argpar
     import matplotlib
     matplotlib.use("Agg")
     import matplotlib.pyplot as plt
-    from matplotlib.patches import Patch
 
     normalize = not args.no_normalize
-    top_values = min(args.plot_top_values, len(PALETTE))
+    top_values = min(args.plot_top_values, len(COLORS))
     steps = sorted({step for step, _, _ in values})
     group_tot: Counter = Counter()
     type_tot: Counter = Counter()
@@ -271,48 +289,86 @@ def plot_distributions(values: Dict[Tuple[int, str, str], Counter], args: argpar
                 if c >= len(keys):
                     ax.set_visible(False)
                     continue
-                props, totals, top = panel_table(values, steps, etype, keys[c], top_values,
-                                                 args.plot_min_step_total)
-                colors = PALETTE[:len(top)] + [OTHER_COLOR] * (len(props) - len(top))
-                if kind == "bars":
-                    bottom = [0.0] * len(steps)
-                    for (col, shares), color in zip(props.items(), colors):
-                        h = [0.0 if x != x else x for x in shares]          # NaN -> no bar
-                        ax.bar(steps, h, bottom=bottom, width=0.85, color=color, edgecolor="white",
-                               linewidth=0.6)
-                        bottom = [b + x for b, x in zip(bottom, h)]
-                    handles = [Patch(color=k) for k in colors]
-                    ax.set_ylim(0, 1.0)
-                else:
-                    for (col, shares), color in zip(props.items(), colors):
-                        other = col == OTHER and col not in top
-                        ax.plot(steps, shares, color=color, linewidth=1.5 if other else 2,
-                                linestyle="--" if other else "-", marker="o", markersize=3)
-                    handles = ax.get_lines()
-                    ax.set_ylim(0, 1.02)
-                    ax.grid(axis="y", color="#e5e5e5", linewidth=0.6)
-                    ax.set_axisbelow(True)
-                for step, n in zip(steps, totals):
-                    if n and n >= args.plot_min_step_total:
-                        ax.text(step, 1.01 if kind == "bars" else 1.03, str(n), ha="center", va="bottom",
-                                fontsize=6, color="#666666")
-                ax.set_title(f"{etype} / {keys[c]}", fontsize=9, pad=12)
-                ax.set_xticks(xticks)
-                ax.tick_params(labelsize=7, length=0)
-                for side in ("top", "right", "left"):
-                    ax.spines[side].set_visible(False)
-                ax.spines["bottom"].set_color("#999999")
-                if c == 0:
-                    ax.set_ylabel("share of counts", fontsize=8)
-                if r == nrows - 1:
-                    ax.set_xlabel("generation step", fontsize=8)
-                labels = [v if len(v) <= 22 else v[:21] + "…" for v in props]
-                ax.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, -0.12), ncol=2,
-                          fontsize=6.5, frameon=False, handlelength=1 if kind == "bars" else 1.5,
-                          columnspacing=0.8)
+                draw_panel(ax, kind, values, steps, etype, keys[c], top_values, args, xticks,
+                           ylabel=c == 0, xlabel=r == nrows - 1)
         fig.suptitle(f"Attribute value distributions per generation step — {title}", fontsize=12)
         fig.savefig(out / name, dpi=150, bbox_inches="tight")
         plt.close(fig)
+
+        # The same panels, one PDF each, with their legend in a PDF of its own:
+        # panels/<bars|lines>/<type>__<key>.pdf and <type>__<key>.legend.pdf
+        panel_dir = out / "panels" / kind
+        panel_dir.mkdir(parents=True, exist_ok=True)
+        for etype, keys in panels.items():
+            for key in keys:
+                stem = f"{panel_file_name(etype)}__{panel_file_name(key)}"
+                fig, ax = plt.subplots(figsize=(3.6, 3.6), layout="constrained")
+                handles, labels = draw_panel(ax, kind, values, steps, etype, key, top_values, args, xticks,
+                                             legend=False)
+                fig.savefig(panel_dir / f"{stem}.pdf", bbox_inches="tight")
+                plt.close(fig)
+                fig = plt.figure(figsize=(3.6, 0.5))
+                fig.legend(handles, labels, loc="center", **legend_style(kind, labels))
+                fig.savefig(panel_dir / f"{stem}.legend.pdf", bbox_inches="tight")
+                plt.close(fig)
+
+
+def panel_file_name(s: str) -> str:
+    return re.sub(r"[^A-Za-z0-9._-]+", "_", s).strip("_") or "_"
+
+
+def draw_panel(ax, kind: str, values: Dict[Tuple[int, str, str], Counter], steps: List[int], etype: str,
+               key: str, top_values: int, args: argparse.Namespace, xticks: List[int], ylabel: bool = True,
+               xlabel: bool = True, legend: bool = True) -> Tuple[List, List[str]]:
+    """One (type, key) panel: stacked bars ("bars") or one line per value ("lines").
+    Returns the legend handles and labels; legend=False leaves the legend off the axes."""
+    from matplotlib.patches import Patch
+
+    order = args.value_orders.setdefault(f"{etype} / {key}", [])
+    props, totals, top = panel_table(values, steps, etype, key, top_values, args.plot_min_step_total, order)
+    colors = [value_color(order, v) for v in top] + [OTHER_COLOR] * (len(props) - len(top))
+    if kind == "bars":
+        bottom = [0.0] * len(steps)
+        for (col, shares), color in zip(props.items(), colors):
+            h = [0.0 if x != x else x for x in shares]          # NaN -> no bar
+            ax.bar(steps, h, bottom=bottom, width=0.85, color=color, edgecolor="white", linewidth=0.6)
+            bottom = [b + x for b, x in zip(bottom, h)]
+        handles = [Patch(color=k) for k in colors]
+        ax.set_ylim(0, 1.0)
+    else:
+        for (col, shares), color in zip(props.items(), colors):
+            other = col == OTHER and col not in top
+            ax.plot(steps, shares, color=color, linewidth=1.5 if other else 2,
+                    linestyle="--" if other else "-", marker="o", markersize=3)
+        handles = ax.get_lines()
+        ax.set_ylim(0, 1.02)
+        ax.grid(axis="y", color="#e5e5e5", linewidth=0.6)
+        ax.set_axisbelow(True)
+    for step, n in zip(steps, totals):
+        if n and n >= args.plot_min_step_total:
+            ax.text(step, 1.01 if kind == "bars" else 1.03, str(n), ha="center", va="bottom",
+                    fontsize=6, color="#666666")
+    ax.set_box_aspect(1)                                    # square plotting area
+    ax.set_title(f"{etype} / {key}", fontsize=9, pad=12)
+    ax.set_xticks(xticks)
+    ax.tick_params(labelsize=7, length=0)
+    for side in ("top", "right", "left"):
+        ax.spines[side].set_visible(False)
+    ax.spines["bottom"].set_color("#999999")
+    if ylabel:
+        ax.set_ylabel("share of counts", fontsize=8)
+    if xlabel:
+        ax.set_xlabel("generation step", fontsize=8)
+    labels = [v if len(v) <= 22 else v[:21] + "…" for v in props]
+    if legend:
+        ax.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, -0.12), **legend_style(kind, labels))
+    return handles, labels
+
+
+def legend_style(kind: str, labels: List[str]) -> Dict:
+    """Legend layout: three columns when there are more than two values, else one row."""
+    return dict(ncol=3 if len(labels) > 2 else max(1, len(labels)), fontsize=6.5, frameon=False,
+                handlelength=1 if kind == "bars" else 1.5, columnspacing=0.8)
 
 
 def aggregate(runs: List[Path], experiment: str, args: argparse.Namespace, out: Path) -> None:
@@ -442,7 +498,11 @@ def main(argv: Optional[List[str]] = None) -> int:
                     help="entity types plotted (most counts) when --type is not given")
     ap.add_argument("--plot-keys-per-type", type=int, default=10, help="attributes plotted per entity type")
     ap.add_argument("--plot-top-values", type=int, default=7,
-                    help=f"values shown per panel, at most {len(PALETTE)}; the rest become 'other'")
+                    help=f"values shown per panel, at most {len(COLORS)}; the rest become 'other'")
+    ap.add_argument("--value-order", type=Path, default=None,
+                    help="JSON file with the order (hence colors) of the values of each (type, key) panel, "
+                         "shared by every run that uses it and extended with new values "
+                         "(default: <out>/../value_order.json, i.e. attribute_stats/value_order.json)")
     ap.add_argument("--plot-min-step-total", type=int, default=1,
                     help="hide a step's bar when it has fewer counts than this")
     args = ap.parse_args(argv)
@@ -456,8 +516,13 @@ def main(argv: Optional[List[str]] = None) -> int:
         return 1
 
     out_root = args.out or args.paths[0].resolve().parent / "attribute_stats" / args.paths[0].resolve().name
+    order_path = args.value_order or out_root.resolve().parent / "value_order.json"
+    args.value_orders = json.loads(order_path.read_text()) if order_path.exists() else {}
     for experiment, runs in experiments.items():
         aggregate(runs, experiment, args, out_root / experiment)
+    if not args.no_plot and args.value_orders:
+        order_path.parent.mkdir(parents=True, exist_ok=True)
+        order_path.write_text(json.dumps(args.value_orders, indent=1, sort_keys=True))
     return 0
 
 
