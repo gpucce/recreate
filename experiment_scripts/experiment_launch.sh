@@ -94,9 +94,17 @@ fi
 PY="${PY:-$ROOT/conda_venv/bin/python}"
 # CUDA 13 forward-compat libs (conda package cuda-compat), for drivers older than the env's CUDA.
 # conda activation adds them too; this covers the transformers path, which calls $PY directly.
+# On a driver newer than the compat libs they break CUDA (error 803), so they are then removed.
 COMPAT_DIR="$(dirname "$(dirname "$PY")")/cuda-compat"
-if [[ -d "$COMPAT_DIR" && ":${LD_LIBRARY_PATH:-}:" != *":$COMPAT_DIR:"* ]]; then
-  export LD_LIBRARY_PATH="$COMPAT_DIR${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+if [[ -d "$COMPAT_DIR" ]]; then
+  driver_major="$(nvidia-smi --query-gpu=driver_version --format=csv,noheader 2>/dev/null | head -1 | cut -d. -f1)"
+  compat_major="$(ls "$COMPAT_DIR"/libcuda.so.*.* 2>/dev/null | head -1 | sed 's/.*libcuda\.so\.\([0-9]*\)\..*/\1/')"
+  if [[ -n "$driver_major" && -n "$compat_major" ]] && (( driver_major >= compat_major )); then
+    LD_LIBRARY_PATH="$(tr ':' '\n' <<< "${LD_LIBRARY_PATH:-}" | grep -vxF "$COMPAT_DIR" | paste -sd: -)"
+    export LD_LIBRARY_PATH
+  elif [[ ":${LD_LIBRARY_PATH:-}:" != *":$COMPAT_DIR:"* ]]; then
+    export LD_LIBRARY_PATH="$COMPAT_DIR${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
+  fi
 fi
 DRIVER="$ROOT/content_convergence/run_loop_optimized.py"
 SELF="experiment_scripts/${DATASET}_${EXPERIMENT}.sh"   # the experiment script, for the hints below
@@ -116,6 +124,18 @@ PID_FILE="$LOG_DIR/launch.pids"
 gpu_free_mb() {
   nvidia-smi --query-gpu=index,memory.total,memory.used --format=csv,noheader,nounits 2>/dev/null \
     | tr ',' ' ' | awk -v i="$1" '$1==i { print $2-$3; exit }'
+}
+
+# GPU_GROUPS uses nvidia-smi indices, but CUDA numbers the cards it can see, which differ when
+# some card is hidden from CUDA (on the H100 node CUDA index i is nvidia-smi GPU i+1). Pin the
+# processes by UUID instead: "5,6" -> "GPU-...,GPU-...". Without nvidia-smi, keep the indices.
+gpu_uuids() {
+  local out=() g u
+  for g in ${1//,/ }; do
+    u="$(nvidia-smi --query-gpu=uuid --format=csv,noheader -i "$g" 2>/dev/null || true)"
+    out+=("${u:-$g}")
+  done
+  (IFS=','; echo "${out[*]}")
 }
 
 # ---- subcommands ---------------------------------------------------------
@@ -194,7 +214,7 @@ for i in "${!EFF_GROUPS[@]}"; do
        --start-index 0 --num-images "$NUM_IMAGES" --shard "$i" --num-shards "$N_GROUPS"
        --seed "$SEED" --steps "$STEPS" --batch-size "$BATCH_SIZE"
        --max-consecutive-failures "$MAX_CONSECUTIVE_FAILURES"
-       --gpus "$group" --image-device "$IMAGE_DEVICE"
+       --gpus "$(gpu_uuids "$group")" --image-device "$IMAGE_DEVICE"
        --vision-model "$VISION_MODEL" --image-model "$IMAGE_MODEL"
        --width "$WIDTH" --height "$HEIGHT"
        --out "$OUT_ROOT" --run-name "$RUN_NAME")
