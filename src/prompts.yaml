@@ -257,3 +257,53 @@ restructure_anchored: |
     --- DESCRIPTION ---
     {description}
     --- END OF DESCRIPTION ---
+
+textonly_rewrite: |
+    Rewrite the given news article in a way that the original author's voice and style are preserved, but the text is rephrased to avoid plagiarism. Ensure that the rewritten article maintains the same meaning and key points as the original, while using different sentence structures and vocabulary.
+    This is the original article: {data}
+
+textonly_rewrite_as_socialmedia: |
+    Rewrite the news article below as a post for a social-media platform such as Facebook, Reddit, or similar ones.
+    Guidelines:
+    - Keep the original meaning and all key facts accurate.
+    - Write in a casual, conversational tone, as a member of an online community sharing news with peers. It should not sound like an official statement or a press release.
+
+    Output only the post, with no preamble or commentary.
+
+    This is the original article: {data}
+
+textonly_rewrite_as_news: |
+    Write a news article based on the social media post below.
+
+    Guidelines:
+    - Treat the post as the seed of a story. Keep its core events and claims intact, and do not contradict anything it says.
+    - Fill in missing details freely to make the article complete and realistic: names, ages, locations, dates, numbers, background context, witnesses, officials, or experts. Invented details should be plausible and consistent with each other and with the post.
+    - Write in a neutral, objective journalistic tone: clear, concise, and free of slang, emojis, and hashtags.
+    - Structure: a clear headline, then a lead paragraph covering the key facts (who, what, when, where, why), followed by supporting details, quotes, and context in order of importance.
+
+    Output only the headline and article, with no preamble or commentary.
+
+    This is the original social media post: {data}
+
+textonly_describe: |
+    You are given a news article. Your task is to extract all the named entities mentioned in the article, the date of publication, the date of the event, and the location of the event. For each named entity, identify its type (e.g., person, organization, location, date).
+    For the date of publication, the date of the event, and the location of the event, respect the format YYYY-MM-DD for dates and provide the location in a standard format (city, state/province, country). If any of these elements are not present in the article, indicate that they are missing. The output should be a structured JSON object with the following format:
+    For entityes which can be roughly categorized as "person", also provide additional attributes regarding "age", "gender" if such information is available in the article. If not, leave those attributes empty. For entities that are organizations, provide additional attributes regarding "industry" and "size" if such information is available in the article. If not, leave those attributes empty. For entities that are locations, provide additional attributes regarding "type" (e.g., city, country, region) and "population" if such information is available in the article. If not, leave those attributes empty.
+    Structure your output as a valid JSON object with the following format:
+
+    {{
+        "named_entities": [
+            {{
+                "entity": "<entity_name>",
+                "type": "<entity_type>"
+                "attributes": {{
+                    "<attribute_name>": "<attribute_value>"
+                }}
+            }}
+        ],
+        "publication_date": "<YYYY-MM-DD or 'missing'>",
+        "event_date": "<YYYY-MM-DD or 'missing'>",
+        "event_location": "<city, state/province, country or 'missing'>"
+    }}
+
+    This is the news article: {data}
