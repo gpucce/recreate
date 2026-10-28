@@ -1,7 +1,6 @@
 import pandas as pd
 from tqdm import tqdm
 from datasets import load_dataset
-from vllm import LLM, SamplingParams
 
 import yaml
 
@@ -32,7 +31,10 @@ def main(args):
               dtype="bfloat16",
             #   device="cuda",
               tensor_parallel_size=2,
-              max_model_len=8417*6
+              max_model_len=8417*6,
+              # enforce_eager=True,
+            #   disable_custom_all_reduce=True,
+              trust_remote_code=True
             )
 
     sampling_params = SamplingParams(max_tokens=2048, temperature=0.0)
@@ -68,6 +70,7 @@ def main(args):
     df.to_csv(f"{'debug.' if args.debug else ''}back_and_forth_platforms.rewritten_articles.csv", index=False)
 
 if __name__ == "__main__":
+    from vllm import LLM, SamplingParams
     from argparse import ArgumentParser
     parser = ArgumentParser()
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")

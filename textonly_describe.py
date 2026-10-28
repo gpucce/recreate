@@ -1,5 +1,4 @@
 import pandas as pd
-from vllm import LLM, SamplingParams
 from src.utils import parse_describe as parse_json
 
 import yaml
@@ -11,14 +10,14 @@ def main(args):
     if args.debug:
         data = data[:100]
     
-
     prompt = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_describe"]
-    model_name = "Qwen/Qwen3.5-4B"
+
+    model_name = "Qwen/Qwen3.8-27B"
 
     print(f"Data size: {len(data)}\nModel: {model_name}\nPrompt: {prompt}")
     llm = LLM(model_name,
               dtype="bfloat16",
-              tensor_parallel_size=1,
+              tensor_parallel_size=2,
               max_model_len=8417*6,
               disable_custom_all_reduce=True,
               # enforce_eager=True,  # uncomment only if the hang persists
@@ -43,25 +42,26 @@ def main(args):
             use_tqdm=True,
         )
 
-        ouputs = [o.outputs[0].text.strip() for o in outputs]
-        for i, text in enumerate(ouputs):
+        outputs = [o.outputs[0].text.strip() for o in outputs]
+        for i, text in enumerate(outputs):
             parsed = parse_json(text)
             descriptions[target_iter].append(parsed)
 
-    # store the descriptions in a JSON file (one for each target iteration)
-    outdir = "outputs/textonly_describe"
-    import os
-    os.makedirs(outdir, exist_ok=True)
-    for target_iter in iterations_cols:
-        outpath = os.path.join(outdir, f"{target_iter}.json")
-        with open(outpath, "w", encoding="utf-8") as f:
-            import json
-            json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
+        # store the descriptions in a JSON file (one for each target iteration)
+        outdir = "outputs/textonly_describe"
+        import os
+        os.makedirs(outdir, exist_ok=True)
+        for target_iter in iterations_cols:
+            outpath = os.path.join(outdir, f"{target_iter}.json")
+            with open(outpath, "w", encoding="utf-8") as f:
+                import json
+                json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
 
 
 
 if __name__ == "__main__":
     from argparse import ArgumentParser
+    from vllm import LLM, SamplingParams
     parser = ArgumentParser()
     parser.add_argument("--input", type=str, default="debug.rewritten_articles.csv", help="Path to the input CSV file containing the data to be rewritten.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
