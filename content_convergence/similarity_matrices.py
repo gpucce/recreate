@@ -5,6 +5,9 @@ For each experiment dir under --runs it saves, in <out>/experiments/<experiment>
     prompts_similarity.csv   M x M cosine similarity between prompt embeddings
 plus matching .npy files. Images are embedded with CLIP; prompts with
 Qwen3-Embedding-8B (last-token pooling, up to 32k tokens, no truncation in practice).
+With --embedder embeddinggemma2 both images and prompts are embedded with EmbeddingGemma 2
+(one shared 768-d space; prompts use the SentenceSimilarity task prefix and are
+truncated at 8192 tokens); use a separate --out to keep the two sets of tables apart.
 Averages over all experiments are saved as <out>/average_<name>.csv/.npy.
 Existing tables are skipped unless --recompute is given.
 Heatmap PDFs are produced separately by similarity_plots.py.
@@ -22,6 +25,8 @@ from transformers import AutoModel, AutoTokenizer, CLIPModel, CLIPProcessor
 MODEL = "openai/clip-vit-large-patch14"
 TEXT_MODEL = "Qwen/Qwen3-Embedding-8B"
 TEXT_MAX_LEN = 32768
+GEMMA_MODEL = "google/embeddinggemma-2"
+EMBEDDERS = ("clip_qwen3", "embeddinggemma2")
 
 
 def idx(p: Path) -> int:
@@ -59,6 +64,26 @@ def embed_texts(model, tok, paths, dev, bs=4):
     return norm(torch.cat(out))
 
 
+def load_gemma(dev):
+    from sentence_transformers import SentenceTransformer
+    dtype = torch.bfloat16 if dev == "cuda" and torch.cuda.is_bf16_supported() else torch.float32
+    return SentenceTransformer(GEMMA_MODEL, device=dev, model_kwargs={"torch_dtype": dtype},
+                               config_kwargs={"audio_config": None})
+
+
+@torch.no_grad()
+def gemma_images(model, paths, bs=16):
+    return model.encode([{"image": str(p)} for p in paths], batch_size=bs,
+                        normalize_embeddings=True, convert_to_numpy=True).astype(np.float32)
+
+
+@torch.no_grad()
+def gemma_texts(model, paths, bs=4):
+    texts = [p.read_text(errors="replace").strip() for p in paths]
+    return model.encode(texts, prompt_name="SentenceSimilarity", batch_size=bs,
+                        normalize_embeddings=True, convert_to_numpy=True).astype(np.float32)
+
+
 def norm(t):
     return torch.nn.functional.normalize(t, dim=-1).float().cpu().numpy()
 
@@ -91,7 +116,10 @@ def main():
     ap.add_argument("--out", default="./data/similarities/vlstereoset_runs")
     ap.add_argument("--recompute", action="store_true",
                     help="recompute tables that already exist (default: only missing ones)")
+    ap.add_argument("--embedder", choices=EMBEDDERS, default="clip_qwen3",
+                    help="clip_qwen3: CLIP images + Qwen3 prompts; embeddinggemma2: both with EmbeddingGemma 2")
     a = ap.parse_args()
+    gemma = a.embedder == "embeddinggemma2"
     out_root = Path(a.out)
 
     model = proc = dev = tmodel = tok = None
@@ -115,12 +143,19 @@ def main():
 
         if model is None:
             dev = "cuda" if torch.cuda.is_available() else "cpu"
-            model = CLIPModel.from_pretrained(MODEL).to(dev).eval()
-            proc = CLIPProcessor.from_pretrained(MODEL)
+            if gemma:
+                model = load_gemma(dev)
+            else:
+                model = CLIPModel.from_pretrained(MODEL).to(dev).eval()
+                proc = CLIPProcessor.from_pretrained(MODEL)
 
-        ie = embed_images(model, proc, imgs, dev) if "images_similarity" in todo else None
-        pe = None
-        if prompts and "prompts_similarity" in todo:
+        ie = pe = None
+        if gemma:
+            ie = gemma_images(model, imgs) if "images_similarity" in todo else None
+            pe = gemma_texts(model, prompts) if "prompts_similarity" in todo else None
+        elif "images_similarity" in todo:
+            ie = embed_images(model, proc, imgs, dev)
+        if not gemma and "prompts_similarity" in todo:
             if tmodel is None:
                 tok = AutoTokenizer.from_pretrained(TEXT_MODEL, padding_side="left")
                 tmodel = AutoModel.from_pretrained(
