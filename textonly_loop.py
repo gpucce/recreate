@@ -7,54 +7,72 @@ from datasets import load_dataset
 import yaml
 
 
-def main(args):
-    if args.debug:
-        ITERATIONS = 15
+def get_data(dataset_name):
+    if dataset_name == "bbc-news":
+        ds = load_dataset("SetFit/bbc-news")
+        # merge train and test "text" columns into a single list
+        data = [elem for elem in ds["train"]["text"]] + [elem for elem in ds["test"]["text"]]
+    if dataset_name == "erc-grants":
+        df = pd.read_csv("data/content_convergence/original_datasets/ERC_data_filtered.csv")
+        data = df["Abstract"].tolist()
     else:
-        ITERATIONS = 15
+        raise NotImplementedError(f"Dataset {dataset_name} is not implemented yet.")
 
-    ds = load_dataset("SetFit/bbc-news")
+    return data
 
-    # merge train and test "text" columns into a single list
-    data = [elem for elem in ds["train"]["text"]] + [elem for elem in ds["test"]["text"]]
+def get_prompts(dataset_name):
+    if dataset_name == "bbc-news":
+        prompt_to_social_media = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_rewrite_as_socialmedia"]
+        prompt_to_news_outlet = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_rewrite_as_news"]
+        return prompt_to_social_media, prompt_to_news_outlet
+    elif dataset_name == "erc-grants":
+        prompt_to_project =  yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_rewrite_as_erc_project"]
+        prompt_to_abstract = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_rewrite_as_erc_abstract"]
+        return prompt_to_project, prompt_to_abstract
+    else:
+        raise NotImplementedError(f"Prompts for dataset {dataset_name} are not implemented yet.")
 
+
+def main(args):
+    num_iterations = args.num_iterations
+
+    data = get_data(args.dataset)
     if args.debug:
-        data = data[:100]
+        print("Debug mode: using only the first 10 articles and 5 iterations.")
+        data = data[:10]
+        num_iterations = 5
 
-    prompt_to_social_media = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_rewrite_as_socialmedia"]
-    prompt_to_news_outlet = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_rewrite_as_news"]
-
-    # model_name = "Qwen/Qwen3.5-4B"
+    first_gen_prompt, second_gen_prompt = get_prompts(args.dataset)
+    
     model_name = "Qwen/Qwen3.8-27B"
-
-    print(f"Data size: {len(data)}\nNumber of iterations: {ITERATIONS}\nModel: {model_name}\nPrompt to social media: {prompt_to_social_media}\nPrompt to news outlet: {prompt_to_news_outlet}")
+    print(f"Data size: {len(data)}\nNumber of iterations: {num_iterations}\nModel: {model_name}\nPrompt to social media: {first_gen_prompt}\nPrompt to news outlet: {second_gen_prompt}")
 
     llm = LLM(model_name,
               dtype="bfloat16",
-            #   device="cuda",
               tensor_parallel_size=1,
               max_model_len=8417*4,
               gpu_memory_utilization=0.85,
               max_num_seqs=64
             )
 
-    sampling_params = SamplingParams(max_tokens=2048, temperature=0.0)
+    sampling_params = SamplingParams(max_tokens=args.max_new_tokens, temperature=0.0)
 
     df = pd.DataFrame({"original": data})
-    iterations = np.arange(ITERATIONS)
+    iterations = np.arange(num_iterations)
 
     if args.resume:
+        print("Resuming from previous run...")
         _resume_df = pd.read_csv(args.resume)
         df = _resume_df
         last_iteration = max([int(col.split("_")[1]) for col in df.columns if col.startswith("iteration_")], default=-1)
 
-        iterations = np.arange(last_iteration + 1, last_iteration + ITERATIONS)
+        iterations = np.arange(last_iteration + 1, last_iteration + num_iterations)
 
     for iteration in iterations:
         if iteration % 2 == 0:
-            prompt = prompt_to_social_media
+            prompt = first_gen_prompt
         else:
-            prompt = prompt_to_news_outlet
+            prompt = second_gen_prompt
 
         # first iteration reads the original column, later ones read the previous iteration
         src_col = "original" if iteration == 0 else f"iteration_{iteration - 1:02d}"
@@ -76,18 +94,38 @@ def main(args):
         # outputs come back in the same order as the input messages
         df[f"iteration_{iteration:02d}"] = [o.outputs[0].text.strip() for o in outputs]
 
+    outdir = args.outdir
+    if args.dataset == "bbc-news":
+        outdir = os.path.join(outdir, "bbc-news")
+        fname = "bbc-news.with_generations.csv"
+    elif args.dataset == "erc-grants":
+        outdir = os.path.join(outdir, "erc_grants")
+        fname = "erc_grants.with_generations.csv"
+    elif args.dataset == "acl":
+        outdir = os.path.join(outdir, "acl")
+        fname = "acl.with_generations.csv"
+    os.makedirs(outdir, exist_ok=True)
+
     if args.resume:
-        df.to_csv("resumed.back_and_forth_platforms.rewritten_articles.csv", index=False)
-    else:
-        df.to_csv(f"{'debug.' if args.debug else ''}back_and_forth_platforms.rewritten_articles.csv", index=False)
+        fname = fname.replace(".csv", ".resumed.csv")
+
+    if args.debug:
+        fname = "debug." + fname
+
+    print(f"Saving results to {os.path.join(outdir, fname)}")
+    df.to_csv(os.path.join(outdir, fname), index=False)
+
 
 if __name__ == "__main__":
     from vllm import LLM, SamplingParams
     from argparse import ArgumentParser
     parser = ArgumentParser()
+    parser.add_argument("--dataset", type=str, choices=["bbc-news", "erc-grants", "acl-anthology"], default="bbc-news", help="Dataset to use for text rewriting.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
-    parser.add_argument("--resume", type=str, default=None)
-    parser.add_argument("--skip-first-iterations", type=bool, default=False, help="Skip initial iterations when resuming extraction.")
+    parser.add_argument("--resume", action="store_true", help="Resume from a previous run by reading the existing CSV file.")
+    parser.add_argument("--num-iterations", type=int, default=15, help="Number of iterations to perform.")
+    parser.add_argument("--outdir", type=str, default="textonly-generations", help="Directory to save the output CSV files.")
+    parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
     args = parser.parse_args()
 
     main(args)
