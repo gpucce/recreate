@@ -49,7 +49,7 @@ def main(args):
 
     llm = LLM(model_name,
               dtype="bfloat16",
-              tensor_parallel_size=1,
+              tensor_parallel_size=args.tensor_parallel_size,
               max_model_len=8417*4,
               gpu_memory_utilization=0.85,
               max_num_seqs=64,
@@ -126,6 +126,7 @@ if __name__ == "__main__":
     parser.add_argument("--num-iterations", type=int, default=15, help="Number of iterations to perform.")
     parser.add_argument("--outdir", type=str, default="textonly-generations", help="Directory to save the output CSV files.")
     parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
+    parser.add_argument("--tensor-parallel-size", type=int, default=1, help="Tensor parallel size for distributed training.")
     parser.add_argument("--disable-custom-all-reduce", action="store_true", help="Disable custom all-reduce for distributed training.")
     args = parser.parse_args()
 
