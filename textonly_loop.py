@@ -45,14 +45,15 @@ def main(args):
     first_gen_prompt, second_gen_prompt = get_prompts(args.dataset)
     
     model_name = "Qwen/Qwen3.8-27B"
-    print(f"Data size: {len(data)}\nNumber of iterations: {num_iterations}\nModel: {model_name}\nPrompt to social media: {first_gen_prompt}\nPrompt to news outlet: {second_gen_prompt}")
+    print(f"Data size: {len(data)}\nNumber of iterations: {num_iterations}\nModel: {model_name}\n{'#' * 50}\nFirst iteration prompt: {first_gen_prompt}\n{'#' * 50}\nSecond iteration prompt: {second_gen_prompt}")
 
     llm = LLM(model_name,
               dtype="bfloat16",
               tensor_parallel_size=1,
               max_model_len=8417*4,
               gpu_memory_utilization=0.85,
-              max_num_seqs=64
+              max_num_seqs=64,
+              disable_custom_all_reduce=args.disable_custom_all_reduce,
             )
 
     sampling_params = SamplingParams(max_tokens=args.max_new_tokens, temperature=0.0)
@@ -94,7 +95,6 @@ def main(args):
         # outputs come back in the same order as the input messages
         df[f"iteration_{iteration:02d}"] = [o.outputs[0].text.strip() for o in outputs]
 
-    outdir = args.outdir
     if args.dataset == "bbc-news":
         outdir = os.path.join(outdir, "bbc-news")
         fname = "bbc-news.with_generations.csv"
@@ -126,6 +126,7 @@ if __name__ == "__main__":
     parser.add_argument("--num-iterations", type=int, default=15, help="Number of iterations to perform.")
     parser.add_argument("--outdir", type=str, default="textonly-generations", help="Directory to save the output CSV files.")
     parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
+    parser.add_argument("--disable-custom-all-reduce", action="store_true", help="Disable custom all-reduce for distributed training.")
     args = parser.parse_args()
 
     main(args)
