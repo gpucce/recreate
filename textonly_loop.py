@@ -1,3 +1,5 @@
+import os
+import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from datasets import load_dataset
@@ -31,15 +33,25 @@ def main(args):
     llm = LLM(model_name,
               dtype="bfloat16",
             #   device="cuda",
-              tensor_parallel_size=2,
-              max_model_len=8417*6
+              tensor_parallel_size=1,
+              max_model_len=8417*4,
+              gpu_memory_utilization=0.85,
+              max_num_seqs=64
             )
 
     sampling_params = SamplingParams(max_tokens=2048, temperature=0.0)
 
     df = pd.DataFrame({"original": data})
+    iterations = np.arange(ITERATIONS)
 
-    for iteration in range(ITERATIONS):
+    if args.resume:
+        _resume_df = pd.read_csv(args.resume)
+        df = _resume_df
+        last_iteration = max([int(col.split("_")[1]) for col in df.columns if col.startswith("iteration_")], default=-1)
+
+        iterations = np.arange(last_iteration + 1, last_iteration + ITERATIONS)
+
+    for iteration in iterations:
         if iteration % 2 == 0:
             prompt = prompt_to_social_media
         else:
@@ -65,12 +77,17 @@ def main(args):
         # outputs come back in the same order as the input messages
         df[f"iteration_{iteration:02d}"] = [o.outputs[0].text.strip() for o in outputs]
 
-    df.to_csv(f"{'debug.' if args.debug else ''}back_and_forth_platforms.rewritten_articles.csv", index=False)
+    if args.resume:
+        df.to_csv("resumed.back_and_forth_platforms.rewritten_articles.csv", index=False)
+    else:
+        df.to_csv(f"{'debug.' if args.debug else ''}back_and_forth_platforms.rewritten_articles.csv", index=False)
 
 if __name__ == "__main__":
     from argparse import ArgumentParser
     parser = ArgumentParser()
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
+    parser.add_argument("--resume", type=str, default=None)
+    parser.add_argument("--skip-first-iterations", type=bool, default=False, help="Skip initial iterations when resuming extraction.")
     args = parser.parse_args()
 
     main(args)

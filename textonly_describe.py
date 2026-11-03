@@ -1,8 +1,10 @@
-import pandas as pd
-from vllm import LLM, SamplingParams
 from src.utils import parse_describe as parse_json
 
+import pandas as pd
+import json
+import os
 import yaml
+from collections import defaultdict
 
 
 def main(args):
@@ -11,26 +13,33 @@ def main(args):
     if args.debug:
         data = data[:100]
     
-
     prompt = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_describe"]
-    model_name = "Qwen/Qwen3.5-4B"
 
+    MAX_ITERATION = 30
+    iterations_cols = ["original"] + [f"iteration_{i:02d}" for i in range(0, MAX_ITERATION)]
+    if args.skip_first_iterations:
+        already_processed = sorted(os.listdir(args.outdir))
+        available_cols = data.columns.tolist()
+        iterations_cols = [col for col in iterations_cols if f"{col}.json" not in already_processed and col in available_cols]
+    print("Iterations to process:")
+    for col in iterations_cols:
+        print(f"- {col}")
+
+    model_name = "Qwen/Qwen3.5-27B"
     print(f"Data size: {len(data)}\nModel: {model_name}\nPrompt: {prompt}")
     llm = LLM(model_name,
               dtype="bfloat16",
               tensor_parallel_size=1,
               max_model_len=8417*6,
-              disable_custom_all_reduce=True,
-              # enforce_eager=True,  # uncomment only if the hang persists
-
+              gpu_memory_utilization=0.85,
+              # disable_custom_all_reduce=True,
+            #   trust_remote_code=True,
+              max_num_seqs=64
     )
+
     sampling_params = SamplingParams(max_tokens=2048, temperature=0.0)
+    # sampling_params = SamplingParams(max_tokens=2048, temperature=1.0, top_p=0.95) # preferred by config
 
-    MAX_ITERATION = 15
-    iterations_cols = ["original"] + [f"iteration_{i:02d}" for i in range(0, MAX_ITERATION)]
-    print(iterations_cols)
-
-    from collections import defaultdict
     descriptions = defaultdict(list)
 
     for target_iter in iterations_cols:
@@ -43,27 +52,28 @@ def main(args):
             use_tqdm=True,
         )
 
-        ouputs = [o.outputs[0].text.strip() for o in outputs]
-        for i, text in enumerate(ouputs):
+        outputs = [o.outputs[0].text.strip() for o in outputs]
+        for i, text in enumerate(outputs):
             parsed = parse_json(text)
             descriptions[target_iter].append(parsed)
 
-    # store the descriptions in a JSON file (one for each target iteration)
-    outdir = "outputs/textonly_describe"
-    import os
-    os.makedirs(outdir, exist_ok=True)
-    for target_iter in iterations_cols:
-        outpath = os.path.join(outdir, f"{target_iter}.json")
-        with open(outpath, "w", encoding="utf-8") as f:
-            import json
-            json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
+        # store the descriptions in a JSON file (one for each target iteration)
+        outdir = args.outdir 
+        os.makedirs(outdir, exist_ok=True)
+        for target_iter in iterations_cols:
+            outpath = os.path.join(outdir, f"{target_iter}.json")
+            with open(outpath, "w", encoding="utf-8") as f:
+                json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
 
 
 
 if __name__ == "__main__":
+    from vllm import LLM, SamplingParams
     from argparse import ArgumentParser
     parser = ArgumentParser()
-    parser.add_argument("--input", type=str, default="debug.rewritten_articles.csv", help="Path to the input CSV file containing the data to be rewritten.")
+    parser.add_argument("--input", type=str, default="resumed.back_and_forth_platforms.rewritten_articles.csv", help="Path to the input CSV file containing the data to be rewritten.")
+    parser.add_argument("--skip-first-iterations", action="store_true", help="Skip pre-computed iterations when resuming extraction.")
+    parser.add_argument("--outdir", type=str, default="outputs/textonly_describe", help="Directory to save the output JSON files.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
     args = parser.parse_args()
     main(args)
