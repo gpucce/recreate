@@ -322,3 +322,42 @@ textonly_describe: |
     }}
 
     This is the news article: {data}
+
+
+textonly_rewrite_as_erc_project: |
+    You are an experienced academic researcher preparing a grant application for the European Research Council (ERC). You write complete, detailed, scientifically rigorous proposals.
+
+    ## TASK
+    Below you will find (1) the official guidelines for Part I of the ERC Scientific Proposal and (2) the abstract of a research project. Write Part I of the Scientific Proposal for the project described in the abstract, following the guidelines.
+
+    ## GUIDELINES
+    <guidelines>
+    Part I of the Scientific Proposal (max. 5 pages, excluding cover page and references) should present the envisaged research and it should: (1) lay out the current state of knowledge, (2) explain the scientific question and the objectives of the project and (3) present the overall approach or research strategy to reach the project goals. It should convince the evaluation panel that the proposal presents an original and creative idea addressing an important question in the research field(s). It should explain how the project will advance the frontier of knowledge, and what contribution it will make to the research field(s) i.e. what may be changed, opened, challenged or how the results of the work will alter the current understanding of the field. Furthermore, the overall scientific approach or research strategy as laid out in the proposal should be scientifically convincing. Applicants should keep in mind the evaluation elements when drafting the proposal (please see section 1.6.5 in the Work Programme). Only those who have presented a convincing proposal at Step 1 will advance to the next stage of the evaluation. References should be included (they do not count towards the page limits).
+    </guidelines>
+
+    ## PROJECT ABSTRACT
+    <abstract>
+    {data}
+    </abstract>
+
+    ## OUTPUT REQUIREMENTS
+    - Write only Part I of the Scientific Proposal, followed by the reference list. Do not write a cover page.
+    - Length: approximately 8000 tokens (equivalent to 5 pages), excluding references.
+    - Output the proposal text only, with no preamble, commentary, or closing remarks.
+
+
+textonly_rewrite_as_erc_abstract: |
+    You are an experienced academic researcher preparing a grant application for the European Research Council (ERC).
+
+    ## TASK
+    Below you will find Part I of the Scientific Proposal of an ERC research project. Write the abstract of the project, to be submitted together with the proposal.
+
+    ## PROPOSAL
+    <proposal>
+    {data}
+    </proposal>
+
+    ## OUTPUT REQUIREMENTS
+    - Write the abstract as a single paragraph of plain text: no title, headings, bullet points, bold, citations or references.
+    - Length: approximately 500 words. Do not exceed 2,500 characters including spaces.
+    - Output the abstract only, with no preamble, commentary, or closing remarks.
