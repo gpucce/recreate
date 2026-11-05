@@ -76,11 +76,22 @@ def main(args):
         outdir = os.path.join(args.outdir, args.dataset)
         os.makedirs(outdir, exist_ok=True)
 
-        print(f"Saving descriptions for iteration {target_iter} to {outdir}")
-        for target_iter in iterations_cols:
-            outpath = os.path.join(outdir, f"{target_iter}.json")
-            with open(outpath, "w", encoding="utf-8") as f:
-                json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
+
+        fname = target_iter
+        if args.debug:
+            fname = target_iter + ".debug"
+        outpath = os.path.join(outdir, f"{fname}.json")
+
+        print(f"Saving descriptions for iteration {target_iter} to {outpath}")
+        with open(outpath, "w", encoding="utf-8") as f:
+            json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
+
+        # for target_iter in iterations_cols:
+        #     if args.debug:
+        #         target_iter = target_iter + ".debug"
+        #     outpath = os.path.join(outdir, f"{target_iter}.json")
+        #     with open(outpath, "w", encoding="utf-8") as f:
+        #         json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
 
 
 if __name__ == "__main__":
