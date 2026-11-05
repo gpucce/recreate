@@ -496,7 +496,7 @@ textonly_rewrite_as_update_research_plan: |
 
 textonly_describe_erc: |
     ## TASK
-    Extract the scientific entities from the abstract of a research project in Physical Sciences & Engineering ERC Proposal. Extract each entity as the shortest exact span from the text. Do not paraphrase, normalize, or infer entities that are not stated. If a type has no entity, return an empty list.
+    Extract the scientific entities from the provided research project in Physical Sciences & Engineering ERC Proposal. Extract each entity as the shortest exact span from the text. Do not paraphrase, normalize, or infer entities that are not stated. If a type has no entity, return an empty list.
 
     ## ENTITY TYPES
     - system: the phenomenon, physical/mathematical/engineered system or object under study
