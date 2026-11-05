@@ -361,3 +361,169 @@ textonly_rewrite_as_erc_abstract: |
     - Write the abstract as a single paragraph of plain text: no title, headings, bullet points, bold, citations or references.
     - Length: approximately 500 words. Do not exceed 2,500 characters including spaces.
     - Output the abstract only, with no preamble, commentary, or closing remarks.
+
+textonly_rewrite_as_research_plan: |
+    You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
+
+    ## TASK
+    Below you will find the abstract of a research project. Write a detailed research plan for the paper that would report this work. The plan must describe what will be done and how it will be evaluated, not what was found.
+
+    ## ABSTRACT
+    <abstract>
+    {data}
+    </abstract>
+
+    ## OUTPUT FORMAT
+    Use exactly the following section headings, in this order:
+
+    # Title
+    # 1. Problem and Motivation
+    # 2. Research Questions and Hypotheses
+    # 3. Related Work and Positioning
+    # 4. Proposed Approach and Techniques
+    # 5. Datasets and Benchmarks
+    # 6. Baselines
+    # 7. Evaluation Metrics
+    # 8. Experimental Design (including ablations and analyses)
+    # 9. Expected Contributions, Risks, and Limitations
+    # References
+
+    ## OUTPUT REQUIREMENTS
+    - Be concrete: name specific techniques, datasets, benchmarks, baselines, and metrics wherever applicable.
+    - Do not report, invent, or anticipate numerical results. Treat any results mentioned in the abstract as claims to be tested by the plan.
+    - Length: approximately 3000-4000 words for sections 1–9, excluding references.
+    - Output the research plan only, with no preamble, commentary, or closing remarks.
+
+textonly_rewrite_as_review: |
+    You are an experienced reviewer for a top peer-reviewed venue in Natural Language Processing. You are rigorous, fair, and specific. You justify every criticism and every strength with concrete reference to the submission.
+
+    ## TASK
+    Below you will find a research plan describing a planned paper (problem, approach, datasets, baselines, metrics, and experimental design). No experiments have been run yet. Review the plan as you would review a submission to your venue, assessing the soundness, novelty, and significance of what is proposed and whether the planned evaluation would adequately support the claims.
+
+    ## RESEARCH PLAN
+    <plan>
+    {data}
+    </plan>
+
+    ## OUTPUT FORMAT
+    Use exactly the following structure:
+
+    **Summary:** (3–5 sentences describing the proposed work in your own words)
+
+    **Strengths:** (numbered list)
+
+    **Weaknesses:** (numbered list, ordered from most to least important)
+
+    **Questions for the authors:** (numbered list)
+
+    **Scores:**
+    - Confidence (1–5):
+    - Soundness (1–5): 
+    - Excitement (1–5):
+    - Overall Assessment (
+                        1=Major Issues: This study is not yet sufficiently thorough to warrant publication or is not relevant to ACL.,
+                        1.5, 
+                        2=Poor: Some of the main claims are not sufficiently supported. There are major technical/methodological problems. 
+                        2.5, 
+                        3=Acceptable: This study provides sufficient support for its main claims. Some minor points may need extra support or details., 
+                        3.5, 
+                        4=Strong: This study provides sufficient support for all of its claims. Some extra experiments could be nice, but not essential, 
+                        4.5, 
+                        5=Excellent: This study is one of the most thorough I have seen, given its type.
+                    ):
+
+    ## OUTPUT REQUIREMENTS
+    - Base your review only on the plan provided.
+    - Be specific: point to the particular sections, choices, or omissions you refer to.
+    - Length: approximately 400–600 words.
+    - Output the review only, with no preamble, commentary, or closing remarks.
+    
+textonly_rewrite_as_update_research_plan_v00: |
+    You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
+
+    ## TASK
+    Below you will find the current version of the research plan for your paper and the reviews it received. Revise the research plan to address the reviews as you see fit.
+
+    ## CURRENT RESEARCH PLAN
+    <plan>
+    {plan}
+    </plan>
+
+    ## REVIEWS
+    <reviews>
+    {reviews}
+    </reviews>
+
+    ## OUTPUT FORMAT
+    First write a brief response to the reviewers, then the revised plan, separated by the markers shown below.
+
+    === RESPONSE TO REVIEWERS ===
+    (a concise summary of the main changes made and any points on which you chose not to follow the reviewers, with reasons)
+
+    === REVISED PLAN ===
+    (the full revised plan, using exactly the same section headings and order as the current plan)
+
+    ## OUTPUT REQUIREMENTS
+    - The revised plan must be complete and self-contained, not a list of changes.
+    - Do not report, invent, or anticipate numerical results.
+    - Length: the revised plan should be approximately 2000 tokens for sections 1–9, excluding references, i.e., the same budget as the original.
+    - Output only the two blocks above, with no preamble, commentary, or closing remarks.
+
+textonly_rewrite_as_update_research_plan: |
+    You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
+
+    ## TASK
+    Below you will find the current version of the research plan for your paper and the reviews it received. Revise the research plan to address the reviews as you see fit.
+
+    ## CURRENT RESEARCH PLAN
+    <plan>
+    {plan}
+    </plan>
+
+    ## REVIEWS
+    <reviews>
+    {reviews}
+    </reviews>
+
+    ## OUTPUT FORMAT
+    Revise the original plan to address the reviews as you see fit. Keep the original section headings and order. Do not output any response to the reviewers or a list of changes. 
+
+    ## OUTPUT REQUIREMENTS
+    - The revised plan must be complete and self-contained, not a list of changes.
+    - Do not report, invent, or anticipate numerical results.
+    - Length: the revised plan should be approximately 2000 tokens for sections 1–9, excluding references, i.e., the same budget as the original.
+    - Output only the two blocks above, with no preamble, commentary, or closing remarks.
+
+textonly_describe_erc: |
+    ## TASK
+    Extract the scientific entities from the abstract of a research project in Physical Sciences & Engineering ERC Proposal. Extract each entity as the shortest exact span from the text. Do not paraphrase, normalize, or infer entities that are not stated. If a type has no entity, return an empty list.
+
+    ## ENTITY TYPES
+    - system: the phenomenon, physical/mathematical/engineered system or object under study
+    - theory_model: theories, models, equations, formal frameworks
+    - method_experimental: measurement, fabrication, or synthesis techniques
+    - method_computational: simulations, algorithms, analytical or proof techniques
+    - instrument: named instruments, facilities, platforms, software
+    - quantity_regime: observables, parameters, conditions, scales
+    - open_problem: the gap, question, or objective
+    - application: deliverables, applications, expected impact
+    - field: research areas or subfields
+    - extension: entities that fit none of the above but are clearly technical concepts, with a "subtype" free-text label
+
+    ## ABSTRACT
+    <abstract>
+    {data}
+    </abstract>
+
+    ## OUTPUT
+    Structure your output as a valid JSON object with the following format:
+
+    {{
+        "named_entities": [
+            {{
+                "entity": "<entity_name>",
+                "type": "<entity_type>"
+                }}
+            }}
+        ],
+    }}
