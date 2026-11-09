@@ -3,8 +3,51 @@ from src.utils import parse_describe as parse_json
 import pandas as pd
 import json
 import os
+import re
 import yaml
 from collections import defaultdict
+
+
+HEADER_RE = re.compile(r"(?m)^[ \t]{0,3}(?=#{1,6}[ \t])")
+
+
+def split_into_sections(text):
+    """Split a markdown-like document at '#' headers, keeping each header with its body.
+
+    Documents without any header line are returned unchanged as a single section.
+    """
+    text = str(text)
+    parts = [p.strip() for p in HEADER_RE.split(text) if p and p.strip()]
+    return parts or [text.strip()]
+
+
+def merge_sections(sections):
+    """Merge per-section NER results into one document-level result.
+
+    All entity occurrences are kept (no deduplication). Document-level fields
+    (e.g. dates/location) take the first non-empty, non-"missing" value seen.
+    """
+    entities = []
+    doc_fields = {}
+    seen_fields = set()
+    saw_named_entities = False
+    for parsed in sections:
+        if "named_entities" in parsed:
+            saw_named_entities = True
+            entities.extend(parsed["named_entities"])
+        for key, value in parsed.items():
+            if key in ("named_entities", "error", "raw_output"):
+                continue
+            seen_fields.add(key)
+            if value in ("", "missing", None):
+                continue
+            doc_fields.setdefault(key, value)
+
+    if not saw_named_entities:
+        return sections[0]
+    for key in seen_fields:
+        doc_fields.setdefault(key, "missing")
+    return {"named_entities": entities, **doc_fields}
 
 
 def get_prompt(dataset_name):
@@ -64,7 +107,14 @@ def main(args):
 
     for target_iter in iterations_cols:
         iter_data = data[target_iter].tolist()
-        messages = [[{"role": "user", "content": prompt.format(data=text)}] for text in iter_data]
+
+        if args.split_sections:
+            doc_sections = [split_into_sections(text) for text in iter_data]
+            flat = [(d, sec) for d, secs in enumerate(doc_sections) for sec in secs]
+            messages = [[{"role": "user", "content": prompt.format(data=sec)}] for _, sec in flat]
+        else:
+            messages = [[{"role": "user", "content": prompt.format(data=text)}] for text in iter_data]
+
         outputs = llm.chat(
             messages,
             sampling_params,
@@ -73,9 +123,15 @@ def main(args):
         )
 
         outputs = [o.outputs[0].text.strip() for o in outputs]
-        for i, text in enumerate(outputs):
-            parsed = parse_json(text)
-            descriptions[target_iter].append(parsed)
+        if args.split_sections:
+            per_doc = defaultdict(list)
+            for (d, _), text in zip(flat, outputs):
+                per_doc[d].append(parse_json(text))
+            for i in range(len(iter_data)):
+                descriptions[target_iter].append(merge_sections(per_doc[i]))
+        else:
+            for text in outputs:
+                descriptions[target_iter].append(parse_json(text))
 
         fname = target_iter
         if args.debug:
@@ -98,5 +154,6 @@ if __name__ == "__main__":
     parser.add_argument("--max-iterations", type=int, default=30, help="Maximum number of iterations to process.")
     parser.add_argument("--outdir", type=str, default="outputs/textonly_describe", help="Directory to save the output JSON files.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
+    parser.add_argument("--split-sections", action="store_true", help="Split each document into '#' sections and run NER per section, merging the results into one entry per document.")
     args = parser.parse_args()
     main(args)
