@@ -12,10 +12,10 @@ def get_data(dataset_name):
         ds = load_dataset("SetFit/bbc-news")
         # merge train and test "text" columns into a single list
         data = [elem for elem in ds["train"]["text"]] + [elem for elem in ds["test"]["text"]]
-    if dataset_name == "erc-grants":
+    elif dataset_name == "erc-grants":
         df = pd.read_csv("data/content_convergence/original_datasets/ERC_data_filtered.csv")
         data = df["Abstract"].tolist()
-    if dataset_name == "acl":
+    elif dataset_name == "acl":
         df = pd.read_csv("data/content_convergence/original_datasets/2026.acl.csv")
         data = df["abstract"].tolist()
     else:
@@ -53,15 +53,17 @@ def main(args):
     first_gen_prompt, second_gen_prompt, convert_initial_prompt = get_prompts(args.dataset)
     
     model_name = "Qwen/Qwen3.8-27B"
+    model_name = "google/gemma-4-31B-it"
     print(f"Data size: {len(data)}\nNumber of iterations: {num_iterations}\nModel: {model_name}\n{'#' * 50}\nFirst iteration prompt: {first_gen_prompt}\n{'#' * 50}\nSecond iteration prompt: {second_gen_prompt}")
 
     llm = LLM(model_name,
               dtype="bfloat16",
               tensor_parallel_size=args.tensor_parallel_size,
-              max_model_len=8417*4,
-              gpu_memory_utilization=0.85,
+              max_model_len=args.max_model_len,
+              gpu_memory_utilization=0.95,
               max_num_seqs=64,
               disable_custom_all_reduce=args.disable_custom_all_reduce,
+              language_model_only=True,
             )
 
     sampling_params = SamplingParams(max_tokens=args.max_new_tokens, temperature=0.0)
@@ -127,6 +129,7 @@ def main(args):
     elif args.dataset == "acl":
         outdir = os.path.join(args.outdir, "acl")
         fname = "acl.with_generations.csv"
+    outdir = os.path.join(args.outdir, model_name.lower().replace("/", "_"))
     os.makedirs(outdir, exist_ok=True)
 
     if args.resume:
@@ -151,6 +154,7 @@ if __name__ == "__main__":
     parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
     parser.add_argument("--tensor-parallel-size", type=int, default=1, help="Tensor parallel size for distributed training.")
     parser.add_argument("--disable-custom-all-reduce", action="store_true", help="Disable custom all-reduce for distributed training.")
+    parser.add_argument("--max-model-len", type=int, default=8192*4, help="KV cache size.")
     args = parser.parse_args()
 
     main(args)

@@ -23,9 +23,9 @@ def main(args):
     max_iterations = args.max_iterations
 
     if args.debug:
-        data = data[:100]
+        data = data[:10]
         max_iterations = 10
-        print("Debug mode: using only the first 100 rows and 10 iterations.")
+        print("Debug mode: using only the first 10 rows and 10 iterations.")
     
     prompt = get_prompt(args.dataset)
 
@@ -45,14 +45,12 @@ def main(args):
     llm = LLM(model_name,
               dtype="bfloat16",
               tensor_parallel_size=1,
-              max_model_len=8417*6,
+              max_model_len=8192*6,
               gpu_memory_utilization=0.85,
-              # disable_custom_all_reduce=True,
-            #   trust_remote_code=True,
               max_num_seqs=64
     )
 
-    sampling_params = SamplingParams(max_tokens=2048, temperature=0.0)
+    sampling_params = SamplingParams(max_tokens=args.max_new_tokens, temperature=0.0)
     # sampling_params = SamplingParams(max_tokens=2048, temperature=1.0, top_p=0.95) # preferred by config
 
     descriptions = defaultdict(list)
@@ -76,7 +74,6 @@ def main(args):
         outdir = os.path.join(args.outdir, args.dataset)
         os.makedirs(outdir, exist_ok=True)
 
-
         fname = target_iter
         if args.debug:
             fname = target_iter + ".debug"
@@ -86,13 +83,6 @@ def main(args):
         with open(outpath, "w", encoding="utf-8") as f:
             json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
 
-        # for target_iter in iterations_cols:
-        #     if args.debug:
-        #         target_iter = target_iter + ".debug"
-        #     outpath = os.path.join(outdir, f"{target_iter}.json")
-        #     with open(outpath, "w", encoding="utf-8") as f:
-        #         json.dump(descriptions[target_iter], f, ensure_ascii=False, indent=2)
-
 
 if __name__ == "__main__":
     from vllm import LLM, SamplingParams
@@ -101,6 +91,7 @@ if __name__ == "__main__":
     parser.add_argument("--dataset", type=str, choices=["bbc-news", "erc-grants", "acl"], default="bbc-news", help="Dataset to use for text rewriting.")
     parser.add_argument("--input", type=str, default="textonly-generations/bbc-news/bbc-news-with_generations.csv", help="Path to the input CSV file containing the data to be rewritten.")
     parser.add_argument("--skip-first-iterations", action="store_true", help="Skip pre-computed iterations when resuming extraction.")
+    parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
     parser.add_argument("--max-iterations", type=int, default=30, help="Maximum number of iterations to process.")
     parser.add_argument("--outdir", type=str, default="outputs/textonly_describe", help="Directory to save the output JSON files.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
