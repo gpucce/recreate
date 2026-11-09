@@ -43,6 +43,7 @@ def get_prompts(dataset_name):
 
 def main(args):
     num_iterations = args.num_iterations
+    model_name = args.model_name
 
     data = get_data(args.dataset)
     if args.debug:
@@ -51,17 +52,34 @@ def main(args):
         num_iterations = 10
 
     first_gen_prompt, second_gen_prompt, convert_initial_prompt = get_prompts(args.dataset)
+
+    if args.dataset == "bbc-news":
+        outdir = os.path.join(args.outdir, "bbc-news")
+        fname = "bbc-news.with_generations.csv"
+    elif args.dataset == "erc-grants":
+        outdir = os.path.join(args.outdir, "erc_grants")
+        fname = "erc_grants.with_generations.csv"
+    elif args.dataset == "acl":
+        outdir = os.path.join(args.outdir, "acl")
+        fname = "acl.with_generations.csv"
+    outdir = os.path.join(args.outdir, args.dataset, model_name.lower().replace("/", "_"))
+    os.makedirs(outdir, exist_ok=True)
+
+    if args.resume:
+        fname = fname.replace(".csv", ".resumed.csv")
+
+    if args.debug:
+        fname = "debug." + fname
     
-    model_name = "Qwen/Qwen3.8-27B"
-    model_name = "google/gemma-4-31B-it"
-    print(f"Data size: {len(data)}\nNumber of iterations: {num_iterations}\nModel: {model_name}\n{'#' * 50}\nFirst iteration prompt: {first_gen_prompt}\n{'#' * 50}\nSecond iteration prompt: {second_gen_prompt}")
+    # print(f"Data size: {len(data)}\nNumber of iterations: {num_iterations}\nModel: {model_name}\n{'#' * 50}\nFirst iteration prompt: {first_gen_prompt}\n{'#' * 50}\nSecond iteration prompt: {second_gen_prompt}")
+    print(f"{'#' * 50}\nDataset: {args.dataset}\nGenerator Model: {model_name}\nNumber of iterations: {num_iterations}\nOutput directory: {outdir}\n{'#' * 50}")
 
     llm = LLM(model_name,
               dtype="bfloat16",
               tensor_parallel_size=args.tensor_parallel_size,
               max_model_len=args.max_model_len,
               gpu_memory_utilization=0.95,
-              max_num_seqs=64,
+              max_num_seqs=args.max_num_seqs,
               disable_custom_all_reduce=args.disable_custom_all_reduce,
               language_model_only=True,
             )
@@ -120,24 +138,6 @@ def main(args):
         # # outputs come back in the same order as the input messages
         df[f"iteration_{iteration:02d}"] = [o.outputs[0].text.strip() for o in outputs]
 
-    if args.dataset == "bbc-news":
-        outdir = os.path.join(args.outdir, "bbc-news")
-        fname = "bbc-news.with_generations.csv"
-    elif args.dataset == "erc-grants":
-        outdir = os.path.join(args.outdir, "erc_grants")
-        fname = "erc_grants.with_generations.csv"
-    elif args.dataset == "acl":
-        outdir = os.path.join(args.outdir, "acl")
-        fname = "acl.with_generations.csv"
-    outdir = os.path.join(args.outdir, model_name.lower().replace("/", "_"))
-    os.makedirs(outdir, exist_ok=True)
-
-    if args.resume:
-        fname = fname.replace(".csv", ".resumed.csv")
-
-    if args.debug:
-        fname = "debug." + fname
-
     print(f"Saving results to {os.path.join(outdir, fname)}")
     df.to_csv(os.path.join(outdir, fname), index=False)
 
@@ -146,6 +146,7 @@ if __name__ == "__main__":
     from vllm import LLM, SamplingParams
     from argparse import ArgumentParser
     parser = ArgumentParser()
+    parser.add_argument("--model-name", type=str, default="Qwen/Qwen3.8-27B", help="Model name to use for text rewriting.")
     parser.add_argument("--dataset", type=str, choices=["bbc-news", "erc-grants", "acl"], default="bbc-news", help="Dataset to use for text rewriting.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
     parser.add_argument("--resume", action="store_true", help="Resume from a previous run by reading the existing CSV file.")
@@ -155,7 +156,7 @@ if __name__ == "__main__":
     parser.add_argument("--tensor-parallel-size", type=int, default=1, help="Tensor parallel size for distributed training.")
     parser.add_argument("--disable-custom-all-reduce", action="store_true", help="Disable custom all-reduce for distributed training.")
     parser.add_argument("--max-model-len", type=int, default=8192*4, help="KV cache size.")
+    parser.add_argument("--max-num-seqs", type=int, default=64, help="Maximum number of sequences to process in parallel.")
     args = parser.parse_args()
 
     main(args)
-

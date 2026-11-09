@@ -21,7 +21,14 @@ def get_prompt(dataset_name):
 def main(args):
     data = pd.read_csv(args.input)
     max_iterations = args.max_iterations
+    _, _, generator_model_name, _ = args.input.split("/")
 
+    # store the descriptions in a JSON file (one for each target iteration)
+    outdir = os.path.join(args.outdir, args.dataset, generator_model_name)
+    os.makedirs(outdir, exist_ok=True)
+
+    print(f"{'#'*50}\nInput data path: {args.input}\nInferred Generator Model Name: {generator_model_name}\nDataset: {args.dataset}\nMax iterations: {max_iterations}\nOutput directory: {outdir}\n{'#'*50}")
+    
     if args.debug:
         data = data[:10]
         max_iterations = 10
@@ -32,7 +39,7 @@ def main(args):
     # Determine which iterations to process based on the existing files in the output directory and the columns in the input data
     iterations_cols = ["original"] + [f"iteration_{i:02d}" for i in range(0, max_iterations)]
     if args.skip_first_iterations:
-        already_processed = sorted(os.listdir(args.outdir))
+        already_processed = sorted(os.listdir(outdir))
         available_cols = data.columns.tolist()
         iterations_cols = [col for col in iterations_cols if f"{col}.json" not in already_processed and col in available_cols]
 
@@ -69,10 +76,6 @@ def main(args):
         for i, text in enumerate(outputs):
             parsed = parse_json(text)
             descriptions[target_iter].append(parsed)
-
-        # store the descriptions in a JSON file (one for each target iteration)
-        outdir = os.path.join(args.outdir, args.dataset)
-        os.makedirs(outdir, exist_ok=True)
 
         fname = target_iter
         if args.debug:
