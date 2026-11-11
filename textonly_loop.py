@@ -16,8 +16,20 @@ def get_data(dataset_name):
         df = pd.read_csv("data/content_convergence/original_datasets/ERC_data_filtered.csv")
         data = df["Abstract"].tolist()
     elif dataset_name == "acl":
-        df = pd.read_csv("data/content_convergence/original_datasets/2026.acl.csv")
-        data = df["abstract"].tolist()
+        MARKDOWN_DIR = "data/content_convergence/original_datasets/2026_acl_markdown"
+        df_ids = pd.read_csv("data/content_convergence/original_datasets/2026.acl.csv")[["id"]]
+        data = []
+        for idx, row in df_ids.iterrows():
+            markdown_file = os.path.join(MARKDOWN_DIR, f"10.18653_v1_2026.acl-long.{row['id']}", "paper.md")
+            try:
+                with open(markdown_file, "r") as f:
+                    markdown_content = f.read()
+            except FileNotFoundError:
+                print(f"Markdown file not found for document ID {row['id']}. Skipping.")
+                continue
+            lookfor = '<span id="page-9-'
+            markdown_content = markdown_content.split(lookfor)[0]  # keep only the content before the 9th page
+            data.append(markdown_content)
     else:
         raise NotImplementedError(f"Dataset {dataset_name} is not implemented yet.")
 
@@ -65,20 +77,19 @@ def main(args):
     outdir = os.path.join(args.outdir, args.dataset, model_name.lower().replace("/", "_"))
     os.makedirs(outdir, exist_ok=True)
 
-    if args.resume:
+    if args.resume is not None:
         fname = fname.replace(".csv", ".resumed.csv")
 
     if args.debug:
         fname = "debug." + fname
     
-    # print(f"Data size: {len(data)}\nNumber of iterations: {num_iterations}\nModel: {model_name}\n{'#' * 50}\nFirst iteration prompt: {first_gen_prompt}\n{'#' * 50}\nSecond iteration prompt: {second_gen_prompt}")
     print(f"{'#' * 50}\nDataset: {args.dataset}\nGenerator Model: {model_name}\nNumber of iterations: {num_iterations}\nOutput directory: {outdir}\n{'#' * 50}")
 
     llm = LLM(model_name,
               dtype="bfloat16",
               tensor_parallel_size=args.tensor_parallel_size,
               max_model_len=args.max_model_len,
-              gpu_memory_utilization=0.95,
+              gpu_memory_utilization=args.gpu_memory_utilization,
               max_num_seqs=args.max_num_seqs,
               disable_custom_all_reduce=args.disable_custom_all_reduce,
               language_model_only=True,
@@ -89,13 +100,12 @@ def main(args):
     df = pd.DataFrame({"original": data})
     iterations = np.arange(num_iterations)
 
-    if args.resume:
+    if args.resume is not None:
         print("Resuming from previous run...")
         _resume_df = pd.read_csv(args.resume)
         df = _resume_df
         last_iteration = max([int(col.split("_")[1]) for col in df.columns if col.startswith("iteration_")], default=-1)
-
-        iterations = np.arange(last_iteration + 1, last_iteration + num_iterations)
+        iterations = np.arange(last_iteration + 1, last_iteration + num_iterations + 1)
 
     for iteration in iterations:
         if args.dataset == "acl" and iteration == 0:
@@ -149,7 +159,7 @@ if __name__ == "__main__":
     parser.add_argument("--model-name", type=str, default="Qwen/Qwen3.8-27B", help="Model name to use for text rewriting.")
     parser.add_argument("--dataset", type=str, choices=["bbc-news", "erc-grants", "acl"], default="bbc-news", help="Dataset to use for text rewriting.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
-    parser.add_argument("--resume", action="store_true", help="Resume from a previous run by reading the existing CSV file.")
+    parser.add_argument("--resume", type=str, default=None, help="Resume from a previous run by reading the existing CSV file.")
     parser.add_argument("--num-iterations", type=int, default=15, help="Number of iterations to perform.")
     parser.add_argument("--outdir", type=str, default="textonly-generations", help="Directory to save the output CSV files.")
     parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
@@ -157,6 +167,7 @@ if __name__ == "__main__":
     parser.add_argument("--disable-custom-all-reduce", action="store_true", help="Disable custom all-reduce for distributed training.")
     parser.add_argument("--max-model-len", type=int, default=8192*4, help="KV cache size.")
     parser.add_argument("--max-num-seqs", type=int, default=64, help="Maximum number of sequences to process in parallel.")
+    parser.add_argument("--gpu-memory-utilization", type=float, default=0.85, help="GPU memory utilization for the model.")
     args = parser.parse_args()
 
     main(args)

@@ -362,7 +362,7 @@ textonly_rewrite_as_erc_abstract: |
     - Length: approximately 500 words. Do not exceed 2,500 characters including spaces.
     - Output the abstract only, with no preamble, commentary, or closing remarks.
 
-textonly_rewrite_as_research_plan: |
+textonly_rewrite_as_research_plan.old: |
     You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
 
     ## TASK
@@ -393,6 +393,38 @@ textonly_rewrite_as_research_plan: |
     - Do not report, invent, or anticipate numerical results. Treat any results mentioned in the abstract as claims to be tested by the plan.
     - Length: approximately 3000-4000 words for sections 1–9, excluding references.
     - Output the research plan only, with no preamble, commentary, or closing remarks.
+
+textonly_rewrite_as_research_plan: |
+    You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
+
+    ## TASK
+    Below you will find the main body of a research paper. Write a detailed research plan to replica the findings of the paper. Avoid commenting the results. The plan must describe what will be done and how it will be evaluated, not what was found.
+
+    ## PAPER
+    <paper>
+    {data}
+    </paper>
+
+    ## OUTPUT FORMAT
+    Use exactly the following section headings, in this order:
+
+    # Title
+    # 1. Problem and Motivation
+    # 2. Research Questions and Hypotheses
+    # 3. Related Work and Positioning
+    # 4. Proposed Approach and Techniques
+    # 5. Datasets and Benchmarks
+    # 6. Baselines
+    # 7. Evaluation Metrics
+    # 8. Experimental Design (including ablations and analyses)
+    # 9. Expected Contributions, Risks, and Limitations
+    # References
+
+    ## OUTPUT REQUIREMENTS
+    - Be concrete: name specific techniques, datasets, benchmarks, baselines, and metrics wherever applicable.
+    - Do not report, invent, or anticipate numerical results. Treat any results mentioned in the abstract as claims to be tested by the plan.
+    - Output the research plan only, with no preamble, commentary, or closing remarks.
+
 
 textonly_rewrite_as_review: |
     You are an experienced reviewer for a top peer-reviewed venue in Natural Language Processing. You are rigorous, fair, and specific. You justify every criticism and every strength with concrete reference to the submission.
@@ -435,39 +467,9 @@ textonly_rewrite_as_review: |
     ## OUTPUT REQUIREMENTS
     - Base your review only on the plan provided.
     - Be specific: point to the particular sections, choices, or omissions you refer to.
-    - Length: approximately 400–600 words.
+    - Length: be clear and concise.
     - Output the review only, with no preamble, commentary, or closing remarks.
     
-textonly_rewrite_as_update_research_plan_v00: |
-    You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
-
-    ## TASK
-    Below you will find the current version of the research plan for your paper and the reviews it received. Revise the research plan to address the reviews as you see fit.
-
-    ## CURRENT RESEARCH PLAN
-    <plan>
-    {plan}
-    </plan>
-
-    ## REVIEWS
-    <reviews>
-    {reviews}
-    </reviews>
-
-    ## OUTPUT FORMAT
-    First write a brief response to the reviewers, then the revised plan, separated by the markers shown below.
-
-    === RESPONSE TO REVIEWERS ===
-    (a concise summary of the main changes made and any points on which you chose not to follow the reviewers, with reasons)
-
-    === REVISED PLAN ===
-    (the full revised plan, using exactly the same section headings and order as the current plan)
-
-    ## OUTPUT REQUIREMENTS
-    - The revised plan must be complete and self-contained, not a list of changes.
-    - Do not report, invent, or anticipate numerical results.
-    - Length: the revised plan should be approximately 2000 tokens for sections 1–9, excluding references, i.e., the same budget as the original.
-    - Output only the two blocks above, with no preamble, commentary, or closing remarks.
 
 textonly_rewrite_as_update_research_plan: |
     You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
