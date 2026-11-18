@@ -323,7 +323,6 @@ textonly_describe: |
 
     This is the news article: {data}
 
-
 textonly_rewrite_as_erc_project: |
     You are an experienced academic researcher preparing a grant application for the European Research Council (ERC). You write complete, detailed, scientifically rigorous proposals.
 
@@ -344,7 +343,6 @@ textonly_rewrite_as_erc_project: |
     - Write only Part I of the Scientific Proposal, followed by the reference list. Do not write a cover page.
     - Length: approximately 8000 tokens (equivalent to 5 pages), excluding references.
     - Output the proposal text only, with no preamble, commentary, or closing remarks.
-
 
 textonly_rewrite_as_erc_abstract: |
     You are an experienced academic researcher preparing a grant application for the European Research Council (ERC).
@@ -425,7 +423,6 @@ textonly_rewrite_as_research_plan: |
     - Do not report, invent, or anticipate numerical results. Treat any results mentioned in the abstract as claims to be tested by the plan.
     - Output the research plan only, with no preamble, commentary, or closing remarks.
 
-
 textonly_rewrite_as_review: |
     You are an experienced reviewer for a top peer-reviewed venue in Natural Language Processing. You are rigorous, fair, and specific. You justify every criticism and every strength with concrete reference to the submission.
 
@@ -470,7 +467,6 @@ textonly_rewrite_as_review: |
     - Length: be clear and concise.
     - Output the review only, with no preamble, commentary, or closing remarks.
     
-
 textonly_rewrite_as_update_research_plan: |
     You are an experienced researcher in Natural Language Processing preparing a paper for submission to a top peer-reviewed venue. You write precise, concrete, and technically rigorous research plans.
 
@@ -516,6 +512,51 @@ textonly_describe_erc: |
     <abstract>
     {data}
     </abstract>
+
+    ## OUTPUT
+    Structure your output as a valid JSON object with the following format:
+
+    {{
+        "named_entities": [
+            {{
+                "entity": "<entity_name>",
+                "type": "<entity_type>"
+                }}
+            }}
+        ],
+    }}
+
+textonly_describe_acl: |
+    ## TASK
+    Extract entities from the following text, which is an abstract, research plan, or peer review in the field of NLP/computational linguistics. Extract each entity as the shortest exact span from the text. Do not paraphrase or infer entities that are not stated. If a type has no entity, return an empty list.
+
+    ## ENTITY TYPES
+    - task
+    - topic
+    - language
+    - model
+    - method
+    - paradigm
+    - dataset
+    - metric
+    - eval_protocol
+    - baseline
+    - domain
+    - resource
+    - data_construction
+    - linguistic_phenomenon
+    - population
+    - software
+    - hardware
+    - statistical_analysis
+    - modality
+    - limitation_or_risk
+    - novelty_claim
+
+    ## TEXT
+    <text>
+    {data}
+    </text>
 
     ## OUTPUT
     Structure your output as a valid JSON object with the following format:
