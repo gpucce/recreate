@@ -84,6 +84,7 @@ def main(args):
         fname = "debug." + fname
     
     print(f"{'#' * 50}\nDataset: {args.dataset}\nGenerator Model: {model_name}\nNumber of iterations: {num_iterations}\nOutput directory: {outdir}\n{'#' * 50}")
+    print(f"Generation Parameters:\nMax new tokens: {args.max_new_tokens}\nTemperature: {args.temp}\nTop-p: {args.top_p}\nTop-k: {args.top_k}\n{'#' * 50}")
 
     llm = LLM(model_name,
               dtype="bfloat16",
@@ -95,7 +96,7 @@ def main(args):
               language_model_only=True,
             )
 
-    sampling_params = SamplingParams(max_tokens=args.max_new_tokens, temperature=0.0)
+    sampling_params = SamplingParams(max_tokens=args.max_new_tokens, temperature=args.temp, top_p=args.top_p, top_k=args.top_k) #, temperature=0.0)
 
     df = pd.DataFrame({"original": data})
     iterations = np.arange(num_iterations)
@@ -148,7 +149,11 @@ def main(args):
         # # outputs come back in the same order as the input messages
         df[f"iteration_{iteration:02d}"] = [o.outputs[0].text.strip() for o in outputs]
 
-    print(f"Saving results to {os.path.join(outdir, fname)}")
+        # save at each iteration in case of interruption
+        print(f"Saving intermediate results ({iteration:02d}/{args.num_iterations}) to {os.path.join(outdir, fname)}")
+        df.to_csv(os.path.join(outdir, fname), index=False)
+
+    print(f"Saving final results to {os.path.join(outdir, fname)}")
     df.to_csv(os.path.join(outdir, fname), index=False)
 
 
@@ -161,13 +166,17 @@ if __name__ == "__main__":
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
     parser.add_argument("--resume", type=str, default=None, help="Resume from a previous run by reading the existing CSV file.")
     parser.add_argument("--num-iterations", type=int, default=15, help="Number of iterations to perform.")
-    parser.add_argument("--outdir", type=str, default="textonly-generations", help="Directory to save the output CSV files.")
-    parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
+    parser.add_argument("--outdir", type=str, default="outputs/textonly_generations", help="Directory to save the output CSV files.")
     parser.add_argument("--tensor-parallel-size", type=int, default=1, help="Tensor parallel size for distributed training.")
     parser.add_argument("--disable-custom-all-reduce", action="store_true", help="Disable custom all-reduce for distributed training.")
     parser.add_argument("--max-model-len", type=int, default=8192*4, help="KV cache size.")
     parser.add_argument("--max-num-seqs", type=int, default=64, help="Maximum number of sequences to process in parallel.")
     parser.add_argument("--gpu-memory-utilization", type=float, default=0.85, help="GPU memory utilization for the model.")
+
+    parser.add_argument("--max-new-tokens", type=int, default=2048, help="Maximum number of new tokens to generate per iteration.")
+    parser.add_argument("--temp", type=float, default=0.0, help="Temperature for sampling.")
+    parser.add_argument("--top-p", type=float, default=0.9, help="Top-p sampling parameter.")
+    parser.add_argument("--top-k", type=int, default=50, help="Top-k sampling parameter.")
     args = parser.parse_args()
 
     main(args)
