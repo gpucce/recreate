@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=3 nohup python textonly_describe.py --input /raid/homes/giovanni.puccetti/Repos/recreate/data_bkp/original_datasets/back_and_forth_platforms.rewritten_articles.csv &

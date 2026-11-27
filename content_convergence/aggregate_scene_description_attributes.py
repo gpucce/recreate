@@ -57,12 +57,13 @@ Outputs (under <out>/<experiment>/, --out defaulting to <dataset>/../attribute_s
                                 template files) whose image contains it
     key_coverage.csv            per step: how many entities / images have each key
     attribute_distributions.pdf        one row per entity type, one panel per attribute: a 100%
-                                       stacked bar of value shares per step (top --plot-top-values
-                                       values, the rest folded into "other"; n above each bar)
+                                       stacked bar of value shares per step (the --plot-top-values
+                                       values whose share varies most across steps, i.e. largest
+                                       max - min share, the rest folded into "other"; n above each bar)
     attribute_distributions_lines.pdf  the same panels as one line per value
-    panels/<bars|lines>/<type>__<key>.pdf         each panel of the two plots above as its own PDF
-    panels/<bars|lines>/<type>__<key>.legend.pdf  its legend, saved separately (three columns when the
-                                                  panel has more than two values)
+    panels/<bars|lines>/<type>__<key>.pdf         each panel of the two plots above as its own PDF, without
+                                                  a title and with its legend on top (two columns); all
+                                                  panel PDFs have the same page size and axes position
     Each (type, key) panel stacks its values in one order, with one color per value, shared by every
     run through value_order.json (next to the experiment folders, by default attribute_stats/value_order.json;
     --value-order to choose it): values already in it keep their place and color, new ones are appended.
@@ -226,12 +227,13 @@ def panel_table(values: Dict[Tuple[int, str, str], Counter], steps: List[int], e
                 top_values: int, min_step_total: int,
                 order: List[str]) -> Tuple[Dict[str, List[float]], List[int], List[str]]:
     """value -> share per step (NaN when the step has < min_step_total counts), totals per step, top values.
-    The top values (by count over all steps) are laid out in the shared `order` of this (type, key), which
-    is extended in place with values not seen before; the rest are folded into "other"."""
+    The top values are the `top_values` values whose share varies most across steps (max - min share over the
+    steps with >= min_step_total counts; ties broken by overall count). They are laid out in the shared `order`
+    of this (type, key), which is extended in place with values not seen before; the rest are folded into "other"."""
     overall: Counter = Counter()
     for step in steps:
         overall.update(values.get((step, etype, key), {}))
-    top = [v for v, _ in overall.most_common(top_values)]
+    top = most_varying(values, steps, etype, key, overall, top_values, min_step_total)
     order.extend(v for v in top if v not in order)
     top.sort(key=order.index)
     columns = top + ([OTHER] if len(overall) > len(top) else [])
@@ -247,6 +249,21 @@ def panel_table(values: Dict[Tuple[int, str, str], Counter], steps: List[int], e
         for col in columns:
             props[col].append(counts[col] / total if total >= min_step_total and total else float("nan"))
     return props, totals, top
+
+
+def most_varying(values: Dict[Tuple[int, str, str], Counter], steps: List[int], etype: str, key: str,
+                 overall: Counter, n: int, min_step_total: int) -> List[str]:
+    """The n values of (etype, key) with the largest range of share (max - min) across steps."""
+    shares: Dict[str, List[float]] = defaultdict(list)
+    for step in steps:
+        c = values.get((step, etype, key), Counter())
+        total = sum(c.values())
+        if not total or total < min_step_total:
+            continue
+        for v in overall:
+            shares[v].append(c[v] / total)
+    spread = {v: max(s) - min(s) for v, s in shares.items()}
+    return sorted(overall, key=lambda v: (-spread.get(v, 0.0), -overall[v], v))[:n]
 
 
 def plot_distributions(values: Dict[Tuple[int, str, str], Counter], args: argparse.Namespace, out: Path,
@@ -302,15 +319,45 @@ def plot_distributions(values: Dict[Tuple[int, str, str], Counter], args: argpar
         for etype, keys in panels.items():
             for key in keys:
                 stem = f"{panel_file_name(etype)}__{panel_file_name(key)}"
-                fig, ax = plt.subplots(figsize=(3.6, 3.6), layout="constrained")
+                # Fixed page size and axes position, saved without cropping: every panel PDF has the same
+                # size and its plotting area sits at the same place, whatever its legend.
+                fig = plt.figure(figsize=PANEL_SIZE)
+                ax = fig.add_axes(PANEL_AXES)
                 handles, labels = draw_panel(ax, kind, values, steps, etype, key, top_values, args, xticks,
-                                             legend=False)
-                fig.savefig(panel_dir / f"{stem}.pdf", bbox_inches="tight")
+                                             legend=False, title=False)
+                panel_legend(fig, ax, handles, labels, kind, panel_dir / f"{stem}.pdf")
+                fig.savefig(panel_dir / f"{stem}.pdf")
                 plt.close(fig)
-                fig = plt.figure(figsize=(3.6, 0.5))
-                fig.legend(handles, labels, loc="center", **legend_style(kind, labels))
-                fig.savefig(panel_dir / f"{stem}.legend.pdf", bbox_inches="tight")
-                plt.close(fig)
+
+
+# Single-panel PDFs: page size in inches, and the axes position in figure fractions: a square 2.55 in plotting
+# area with the tick and axis labels on its left and below, the per-step counts above it and the legend in the
+# band at the top of the page.
+PANEL_SIZE = (3.4, 4.8)
+PANEL_AXES = (0.77 / 3.4, 0.62 / 4.8, 2.55 / 3.4, 2.55 / 4.8)
+PANEL_COUNTS_HEIGHT = 0.3       # inches above the axes taken by the vertical per-step counts
+PANEL_WRAP = 12                 # characters per line when a legend label has to be wrapped
+
+
+def panel_legend(fig, ax, handles, labels: List[str], kind: str, name: Path) -> None:
+    """Legend centred in the band at the top of a single-panel figure. While it is wider than the page, the longest
+    label still on one line is wrapped onto lines of at most PANEL_WRAP characters."""
+    import textwrap
+    renderer = fig.canvas.get_renderer()
+    labels = list(labels)
+    while True:
+        leg = fig.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, 1.0), labelspacing=0.3,
+                         **legend_style(kind, labels))
+        box = leg.get_window_extent(renderer)
+        single = [i for i, v in enumerate(labels) if "\n" not in v and len(v) > PANEL_WRAP]
+        if box.width <= fig.bbox.width or not single:
+            break
+        leg.remove()
+        i = max(single, key=lambda j: len(labels[j]))
+        labels[i] = "\n".join(textwrap.wrap(labels[i], PANEL_WRAP))
+    room = ax.get_window_extent(renderer).y1 + PANEL_COUNTS_HEIGHT * fig.dpi
+    if box.width > fig.bbox.width or box.y0 < room:
+        print(f"warning: the legend of {name} does not fit the page", file=sys.stderr)
 
 
 def panel_file_name(s: str) -> str:
@@ -319,7 +366,7 @@ def panel_file_name(s: str) -> str:
 
 def draw_panel(ax, kind: str, values: Dict[Tuple[int, str, str], Counter], steps: List[int], etype: str,
                key: str, top_values: int, args: argparse.Namespace, xticks: List[int], ylabel: bool = True,
-               xlabel: bool = True, legend: bool = True) -> Tuple[List, List[str]]:
+               xlabel: bool = True, legend: bool = True, title: bool = True) -> Tuple[List, List[str]]:
     """One (type, key) panel: stacked bars ("bars") or one line per value ("lines").
     Returns the legend handles and labels; legend=False leaves the legend off the axes."""
     from matplotlib.patches import Patch
@@ -346,19 +393,20 @@ def draw_panel(ax, kind: str, values: Dict[Tuple[int, str, str], Counter], steps
         ax.set_axisbelow(True)
     for step, n in zip(steps, totals):
         if n and n >= args.plot_min_step_total:
-            ax.text(step, 1.01 if kind == "bars" else 1.03, str(n), ha="center", va="bottom",
+            ax.text(step, 1.01 if kind == "bars" else 1.03, str(n), ha="center", va="bottom", rotation=90,
                     fontsize=6, color="#666666")
     ax.set_box_aspect(1)                                    # square plotting area
-    ax.set_title(f"{etype} / {key}", fontsize=9, pad=12)
+    if title:
+        ax.set_title(f"{etype} / {key}", fontsize=9, pad=24)
     ax.set_xticks(xticks)
-    ax.tick_params(labelsize=7, length=0)
+    ax.tick_params(labelsize=12, length=0)
     for side in ("top", "right", "left"):
         ax.spines[side].set_visible(False)
     ax.spines["bottom"].set_color("#999999")
     if ylabel:
-        ax.set_ylabel("share of counts", fontsize=8)
+        ax.set_ylabel("share of counts", fontsize=13)
     if xlabel:
-        ax.set_xlabel("generation step", fontsize=8)
+        ax.set_xlabel("generation step", fontsize=13)
     labels = [v if len(v) <= 22 else v[:21] + "…" for v in props]
     if legend:
         ax.legend(handles, labels, loc="upper center", bbox_to_anchor=(0.5, -0.12), **legend_style(kind, labels))
@@ -366,9 +414,9 @@ def draw_panel(ax, kind: str, values: Dict[Tuple[int, str, str], Counter], steps
 
 
 def legend_style(kind: str, labels: List[str]) -> Dict:
-    """Legend layout: three columns when there are more than two values, else one row."""
-    return dict(ncol=3 if len(labels) > 2 else max(1, len(labels)), fontsize=6.5, frameon=False,
-                handlelength=1 if kind == "bars" else 1.5, columnspacing=0.8)
+    """Legend layout: two columns."""
+    return dict(ncol=min(2, max(1, len(labels))), fontsize=12, frameon=False,
+                handlelength=1 if kind == "bars" else 1.2, handletextpad=0.4, columnspacing=0.6)
 
 
 def aggregate(runs: List[Path], experiment: str, args: argparse.Namespace, out: Path) -> None:
@@ -497,8 +545,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     ap.add_argument("--plot-n-types", type=int, default=4,
                     help="entity types plotted (most counts) when --type is not given")
     ap.add_argument("--plot-keys-per-type", type=int, default=10, help="attributes plotted per entity type")
-    ap.add_argument("--plot-top-values", type=int, default=7,
-                    help=f"values shown per panel, at most {len(COLORS)}; the rest become 'other'")
+    ap.add_argument("--plot-top-values", type=int, default=5,
+                    help=f"values shown per panel (those whose share varies most across steps), at most "
+                         f"{len(COLORS)}; the rest become 'other'")
     ap.add_argument("--value-order", type=Path, default=None,
                     help="JSON file with the order (hence colors) of the values of each (type, key) panel, "
                          "shared by every run that uses it and extended with new values "
