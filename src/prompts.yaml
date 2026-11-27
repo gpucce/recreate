@@ -262,7 +262,7 @@ textonly_rewrite: |
     Rewrite the given news article in a way that the original author's voice and style are preserved, but the text is rephrased to avoid plagiarism. Ensure that the rewritten article maintains the same meaning and key points as the original, while using different sentence structures and vocabulary.
     This is the original article: {data}
 
-textonly_rewrite_as_socialmedia: |
+textonly_rewrite_as_socialmedia_v0: |
     Rewrite the news article below as a post for a social-media platform such as Facebook, Reddit, or similar ones.
     Guidelines:
     - Keep the original meaning and all key facts accurate.
@@ -272,7 +272,7 @@ textonly_rewrite_as_socialmedia: |
 
     This is the original article: {data}
 
-textonly_rewrite_as_news: |
+textonly_rewrite_as_news_v0: |
     Write a news article based on the social media post below.
 
     Guidelines:
@@ -285,7 +285,46 @@ textonly_rewrite_as_news: |
 
     This is the original social media post: {data}
 
-textonly_describe: |
+textonly_rewrite_as_socialmedia: |
+    You are an active member of an online community (such as Facebook groups, Reddit, or similar platforms) who enjoys sharing news with peers.
+
+    ## TASK
+    Below you will find a news article. Rewrite it as a post for a social-media platform such as Facebook, Reddit, or similar ones.
+
+    ## ARTICLE
+    <article>
+    {data}
+    </article>
+
+    ## GUIDELINES
+    - Keep the original meaning and all key facts accurate.
+    - Write in a casual, conversational tone, as a member of an online community sharing news with peers. It should not sound like an official statement or a press release.
+
+    ## OUTPUT REQUIREMENTS
+    - Write the post only, with no preamble, commentary, or closing remarks.
+
+
+textonly_rewrite_as_news: |
+    You are an experienced journalist writing for a news outlet. You write clear, concise, and objective articles.
+
+    ## TASK
+    Below you will find a social media post. Write a news article based on it.
+
+    ## POST
+    <post>
+    {data}
+    </post>
+
+    ## GUIDELINES
+    - Treat the post as the seed of a story. Keep its core events and claims intact, and do not contradict anything it says.
+    - Fill in missing details freely to make the article complete and realistic: names, ages, locations, dates, numbers, background context, witnesses, officials, or experts. Invented details should be plausible and consistent with each other and with the post.
+    - Write in a neutral, objective journalistic tone: clear, concise, and free of slang, emojis, and hashtags.
+    - Structure: a clear headline, then a lead paragraph covering the key facts (who, what, when, where, why), followed by supporting details, quotes, and context in order of importance.
+
+    ## OUTPUT REQUIREMENTS
+    - Write the headline and article only, with no preamble, commentary, or closing remarks.
+
+textonly_describe_v0: |
     You are given a news article. Your task is to extract all the named entities mentioned in the article, the date of publication, the date of the event, and the location of the event. For each named entity, identify its type (e.g., person, organization, location, date).
     For the date of publication, the date of the event, and the location of the event, respect the format YYYY-MM-DD for dates and provide the location in a standard format (city, state/province, country). If any of these elements are not present in the article, indicate that they are missing. The output should be a structured JSON object with the following format:
     For entityes which can be roughly categorized as "person", also provide additional attributes regarding "age", "gender" if such information is available in the article. If not, leave those attributes empty. For entities that are organizations, provide additional attributes regarding "industry" and "size" if such information is available in the article. If not, leave those attributes empty. 
@@ -492,7 +531,7 @@ textonly_rewrite_as_update_research_plan: |
     - Length: the revised plan should be approximately 2000 tokens for sections 1–9, excluding references, i.e., the same budget as the original.
     - Output only the two blocks above, with no preamble, commentary, or closing remarks.
 
-textonly_describe_erc: |
+textonly_describe_erc_v0: |
     ## TASK
     Extract the scientific entities from the provided research project in Physical Sciences & Engineering ERC Proposal. Extract each entity as the shortest exact span from the text. Do not paraphrase, normalize, or infer entities that are not stated. If a type has no entity, return an empty list.
 
@@ -507,6 +546,74 @@ textonly_describe_erc: |
     - application: deliverables, applications, expected impact
     - field: research areas or subfields
     - stakeholder: named individuals, groups, or organizations
+
+    ## ABSTRACT
+    <abstract>
+    {data}
+    </abstract>
+
+    ## OUTPUT
+    Structure your output as a valid JSON object with the following format:
+
+    {{
+        "named_entities": [
+            {{
+                "entity": "<entity_name>",
+                "type": "<entity_type>"
+                }}
+            }}
+        ],
+    }}
+
+textonly_describe: |
+    ## TASK
+    Extract all the named entities mentioned in the provided news article. For each named entity, identify its type.
+
+    ## ENTITY TYPES
+    - person
+    - organization
+    - geopolitical_entity
+    - location
+    - facility
+    - time
+    - currency
+    - event
+    - product
+    - work_of_art
+    - law
+
+    ## ARTICLE
+    <article>
+    {data}
+    </article>
+
+    ## OUTPUT
+    Structure your output as a valid JSON object with the following format:
+
+    {{
+        "named_entities": [
+            {{
+                "entity": "<entity_name>",
+                "type": "<entity_type>"
+            }}
+        ]
+    }}
+
+textonly_describe_erc: |
+    ## TASK
+    Extract the scientific entities from the provided research project in Physical Sciences & Engineering ERC Proposal. Extract each entity as the shortest exact span from the text. Do not paraphrase, normalize, or infer entities that are not stated. If a type has no entity, return an empty list.
+
+    ## ENTITY TYPES
+    - system
+    - theory_model
+    - method_experimental
+    - method_computational
+    - instrument
+    - quantity_regime
+    - open_problem
+    - application
+    - field
+    - stakeholder
 
     ## ABSTRACT
     <abstract>

@@ -56,15 +56,14 @@ def get_prompt(dataset_name):
     elif dataset_name == "erc-grants":
         prompt = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_describe_erc"]
     else:
-        raise NotImplementedError(f"Prompts for dataset {dataset_name} are not implemented yet.")
-
+        prompt = yaml.safe_load(open("src/prompts.yaml", "r"))["textonly_describe_acl"]
     return prompt
 
 
 def main(args):
     data = pd.read_csv(args.input)
     max_iterations = args.max_iterations
-    _, _, generator_model_name, _ = args.input.split("/")
+    _, _, _, generator_model_name, _ = args.input.split("/")    # TODO: make this more robust to different input paths
 
     # store the descriptions in a JSON file (one for each target iteration)
     outdir = os.path.join(args.outdir, args.dataset, generator_model_name)
@@ -95,7 +94,7 @@ def main(args):
     llm = LLM(model_name,
               dtype="bfloat16",
               tensor_parallel_size=1,
-              max_model_len=8192*6,
+              max_model_len=args.max_model_len,
               gpu_memory_utilization=0.85,
               max_num_seqs=64
     )
@@ -155,5 +154,6 @@ if __name__ == "__main__":
     parser.add_argument("--outdir", type=str, default="outputs/textonly_describe", help="Directory to save the output JSON files.")
     parser.add_argument("--debug", action="store_true", help="Run in debug mode with fewer iterations and data.")
     parser.add_argument("--split-sections", action="store_true", help="Split each document into '#' sections and run NER per section, merging the results into one entry per document.")
+    parser.add_argument("--max-model-len", type=int, default=8192*4, help="Maximum model length for the LLM.")
     args = parser.parse_args()
     main(args)
